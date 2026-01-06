@@ -1,0 +1,2 @@
+db/** filter=lfs diff=lfs merge=lfs -text
+db_tech/tech.db filter=lfs diff=lfs merge=lfs -text
