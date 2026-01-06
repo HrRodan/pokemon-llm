@@ -1,0 +1,856 @@
+"""
+Unified PokéAPI v2 client with local caching and specific data retrieval functions.
+Merged from pokemon_api_client.py and pokemon_api_functions.py.
+"""
+
+import json
+from datetime import datetime
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Union
+import random
+
+import requests
+
+
+class PokemonAPIClient:
+    """
+    Generic client for PokéAPI v2 with built-in local caching and specific helper methods.
+
+    Fair Use Policy:
+    - Use local caching to avoid unnecessary requests.
+    - Do not spam the API with high-frequency polling.
+    - Handle errors gracefully.
+    """
+
+    BASE_URL = "https://pokeapi.co/api/v2"
+
+    # Resource endpoints that support ID/name lookup
+    NAMED_RESOURCES = {
+        "ability",
+        "berry",
+        "berry-firmness",
+        "berry-flavor",
+        "characteristic",
+        "contest-effect",
+        "contest-type",
+        "egg-group",
+        "encounter-condition",
+        "encounter-condition-value",
+        "encounter-method",
+        "evolution-chain",
+        "evolution-trigger",
+        "gender",
+        "generation",
+        "growth-rate",
+        "item",
+        "item-attribute",
+        "item-category",
+        "item-fusing",
+        "item-pocket",
+        "language",
+        "location",
+        "location-area",
+        "machine",
+        "move",
+        "move-ailment",
+        "move-battle-style",
+        "move-category",
+        "move-damage-class",
+        "move-learn-method",
+        "move-target",
+        "nature",
+        "pal-park-area",
+        "pokeathlon-stat",
+        "pokedex",
+        "pokemon",
+        "pokemon-color",
+        "pokemon-form",
+        "pokemon-habitat",
+        "pokemon-shape",
+        "pokemon-species",
+        "region",
+        "stat",
+        "super-contest-effect",
+        "type",
+        "version",
+        "version-group",
+        "evolution-trigger",
+        "item-category",
+        "item-attribute",
+    }
+
+    def __init__(self, cache_dir: Union[str, Path] = ".pokemon_cache"):
+        self.cache_dir = Path(cache_dir)
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        # Cache expires after 24 hours by default
+        self.cache_ttl = 86400
+
+    def _get_url(self, endpoint: str, identifier: Union[str, int, None] = None) -> str:
+        url = f"{self.BASE_URL}/{endpoint}"
+        if identifier is not None:
+            url = f"{url}/{identifier}"
+        return url
+
+    def _get_cache_path(self, endpoint: str, identifier: Union[str, int, None]) -> Path:
+        if identifier is not None:
+            safe_id = str(identifier).replace(" ", "_").lower()
+            filename = f"{endpoint}_{safe_id}.json"
+        else:
+            filename = f"{endpoint}_list.json"
+        return self.cache_dir / filename
+
+    def _is_cache_valid(self, path: Path) -> bool:
+        if not path.exists():
+            return False
+        if self.cache_ttl == 0:
+            return True
+        mtime = datetime.fromtimestamp(path.stat().st_mtime)
+        return (datetime.now() - mtime).total_seconds() < self.cache_ttl
+
+    def _load_from_cache(self, path: Path) -> Optional[Dict[str, Any]]:
+        try:
+            if self._is_cache_valid(path):
+                with path.open("r", encoding="utf-8") as f:
+                    return json.load(f)
+        except Exception:
+            return None
+        return None
+
+    def _save_to_cache(self, path: Path, data: Dict[str, Any]) -> None:
+        try:
+            with path.open("w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+        except Exception:
+            # Cache write failure should not break main logic
+            pass
+
+    def _get(
+        self, endpoint: str, identifier: Union[str, int, None] = None
+    ) -> Dict[str, Any]:
+        """
+        Generic GET request with caching.
+        """
+        cache_path = self._get_cache_path(endpoint, identifier)
+        cached_data = self._load_from_cache(cache_path)
+        if cached_data:
+            return cached_data
+
+        url = self._get_url(endpoint, identifier)
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+
+        self._save_to_cache(cache_path, data)
+        return data
+
+    def _clean_text(self, text: str) -> str:
+        """Removes newlines and form feeds from text."""
+        return text.replace("\n", " ").replace("\f", " ")
+
+    def get_pokemon_details(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves technical data for a Pokemon.
+        """
+        try:
+            data = self._get("pokemon", name.lower())
+
+            stats = {s["stat"]["name"]: s["base_stat"] for s in data["stats"]}
+            types = [t["type"]["name"] for t in data["types"]]
+            # Convert decimetres to meters
+            height_m = data["height"] / 10
+            # Convert hectograms to kg
+            weight_kg = data["weight"] / 10
+
+            # Expanded abilities with is_hidden flag
+            abilities = [
+                {
+                    "name": a["ability"]["name"],
+                    "is_hidden": a["is_hidden"],
+                    "slot": a["slot"],
+                }
+                for a in data["abilities"]
+            ]
+
+            # Moves
+            moves = [m["move"]["name"] for m in data["moves"]]
+
+            # Forms
+            forms = [f["name"] for f in data["forms"]]
+
+            # Held items
+            held_items = [h["item"]["name"] for h in data.get("held_items", [])]
+
+            return {
+                "id": data["id"],
+                "name": data["name"],
+                "stats": stats,
+                "types": types,
+                "height_m": height_m,
+                "weight_kg": weight_kg,
+                "abilities": abilities,
+                "forms": forms,
+                "moves": moves,
+                "held_items": held_items,
+                "base_experience": data.get("base_experience"),
+                "is_default": data.get("is_default"),
+                "order": data.get("order"),
+                "species": data.get("species", {}).get("name"),
+                "sprites": {
+                    "front_default": data["sprites"].get("front_default"),
+                    "back_default": data["sprites"].get("back_default"),
+                    "front_shiny": data["sprites"].get("front_shiny"),
+                },
+            }
+        except requests.exceptions.RequestException:
+            return {"error": f"Pokemon '{name}' not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_species_info(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves background information (species).
+        """
+        try:
+            # Get basic info first to get species URL if needed, but here we can try querying species directly
+            # assuming name matches. Sometimes species name != pokemon name (e.g. varieties),
+            # but usually it works for base forms.
+            data = self._get("pokemon-species", name.lower())
+
+            # Find English flavor text
+            flavor_text = "No description available."
+            for entry in data["flavor_text_entries"]:
+                if entry["language"]["name"] == "en":
+                    flavor_text = self._clean_text(entry["flavor_text"])
+                    break
+
+            is_legendary = data["is_legendary"] or data["is_mythical"]
+
+            genus = "Unknown"
+            for g in data.get("genera", []):
+                if g["language"]["name"] == "en":
+                    genus = g["genus"]
+                    break
+
+            return {
+                "name": data["name"],
+                "flavor_text": flavor_text,
+                "is_legendary": is_legendary,
+                "capture_rate": data["capture_rate"],
+                "evolution_chain_url": data["evolution_chain"]["url"],
+                "genus": genus,
+                "generation": data.get("generation", {}).get("name"),
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Species info not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_evolution_chain(self, chain_id: int) -> Dict[str, Any]:
+        """
+        Retrieves the evolution chain.
+        """
+        try:
+            # chain_id must be extracted from URL by caller usually, but logic here takes ID directly
+            data = self._get("evolution-chain", chain_id)
+
+            # Recursively parse the chain
+            def parse_evolution(node):
+                species_name = node["species"]["name"]
+                evo_details = []
+
+                # Check evolution details for this node (how it evolved from previous)
+                for detail in node.get("evolution_details", []):
+                    # Extract only relevant non-null/false triggers
+                    conditions = {}
+                    if detail.get("trigger"):
+                        conditions["trigger"] = detail["trigger"]["name"]
+                    if detail.get("item"):
+                        conditions["item"] = detail["item"]["name"]
+                    if detail.get("min_level"):
+                        conditions["min_level"] = detail["min_level"]
+                    if detail.get("min_happiness"):
+                        conditions["min_happiness"] = detail["min_happiness"]
+                    if detail.get("time_of_day"):
+                        conditions["time_of_day"] = detail["time_of_day"]
+                    if detail.get("held_item"):
+                        conditions["held_item"] = detail["held_item"]["name"]
+                    if detail.get("known_move"):
+                        conditions["known_move"] = detail["known_move"]["name"]
+                    if detail.get("known_move_type"):
+                        conditions["known_move_type"] = detail["known_move_type"][
+                            "name"
+                        ]
+                    if detail.get("location"):
+                        conditions["location"] = detail["location"]["name"]
+                    evo_details.append(conditions)
+
+                result = {
+                    "species_name": species_name,
+                    "evolution_details": evo_details,
+                }
+
+                if node.get("evolves_to"):
+                    result["evolves_to"] = [
+                        parse_evolution(sub_node) for sub_node in node["evolves_to"]
+                    ]
+                else:
+                    result["evolves_to"] = []
+
+                return result
+
+            chain_data = parse_evolution(data["chain"])
+
+            return {"chain_id": data["id"], "chain": chain_data}
+        except requests.exceptions.RequestException:
+            return {"error": "Evolution chain not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_move_details(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves details about a move.
+        """
+        try:
+            data = self._get("move", name.lower())
+
+            effect = "No description."
+            if data["effect_entries"]:
+                effect = data["effect_entries"][0]["effect"]
+
+            return {
+                "name": data["name"],
+                "type": data["type"]["name"],
+                "power": data["power"],
+                "accuracy": data["accuracy"],
+                "pp": data["pp"],
+                "damage_class": data["damage_class"]["name"],
+                "effect_description": self._clean_text(effect),
+                "priority": data.get("priority"),
+                "target": data.get("target", {}).get("name"),
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Move not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_type_info(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves strengths and weaknesses of a type.
+        """
+        try:
+            data = self._get("type", name.lower())
+
+            damage = data["damage_relations"]
+            return {
+                "name": data["name"],
+                "weak_against": [x["name"] for x in damage["double_damage_from"]],
+                "strong_against": [x["name"] for x in damage["double_damage_to"]],
+                "immune_to": [x["name"] for x in damage["no_damage_from"]],
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Type not found"}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_encounters(self, name: str) -> Dict[str, Any]:
+        """
+        Finds locations where a Pokemon can be caught in the game.
+        """
+        try:
+            # Special endpoint: pokemon/{id}/encounters
+            # This is NOT a standard named resource lookup, so we might need a custom handling
+            # or just use _get with a constructed string if identifiers can be paths
+            # BUT _get assumes resource/identifier structure.
+            # Let's manually construct to use our caching with a trick or just implement manually with cache
+
+            endpoint = "pokemon"
+            identifier = f"{name.lower()}/encounters"
+
+            # _get works if identifier is passed as the subpath
+            # But the caching naming might get weird: pokemon_pikachu/encounters.json -> might fail on filesystem
+            # So we better custom implement with safe cache key
+
+            # Custom cache logic for encounters
+            safe_name = name.lower().replace(" ", "_")
+            cache_path = self.cache_dir / f"encounters_{safe_name}.json"
+
+            cached_data = self._load_from_cache(cache_path)
+            if cached_data:
+                return cached_data
+
+            url = f"{self.BASE_URL}/pokemon/{name.lower()}/encounters"
+            response = requests.get(url)
+
+            if response.status_code != 200:
+                return {"error": "Locations could not be retrieved."}
+
+            data = response.json()
+
+            # Cache the raw list
+            self._save_to_cache(cache_path, data)
+
+            # Process data
+            if not data:
+                return {
+                    "locations": [],
+                    "message": "This Pokemon cannot be found in the wild (or is only available through evolution/trade).",
+                }
+
+            locations = [
+                loc["location_area"]["name"].replace("-", " ") for loc in data[:5]
+            ]
+
+            return {
+                "pokemon": name,
+                "locations": locations,
+                "total_locations_found": len(data),
+            }
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_nature_info(self, name: str) -> Dict[str, Any]:
+        """
+        Explains a 'Nature'.
+        """
+        try:
+            data = self._get("nature", name.lower())
+
+            return {
+                "name": data["name"],
+                "increased_stat": data["increased_stat"]["name"]
+                if data["increased_stat"]
+                else "None",
+                "decreased_stat": data["decreased_stat"]["name"]
+                if data["decreased_stat"]
+                else "None",
+                "flavor_profile": data["likes_flavor"]["name"]
+                if data["likes_flavor"]
+                else "None",
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Nature not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_pokemon_list_by_type(
+        self, type_name: str, limit: int = 10
+    ) -> Dict[str, Any]:
+        """
+        Lists Pokemon of a specific type.
+        """
+        try:
+            data = self._get("type", type_name.lower())
+
+            pokemon_list = [p["pokemon"]["name"] for p in data["pokemon"]]
+
+            selected_pokemon = random.sample(
+                pokemon_list, min(len(pokemon_list), limit)
+            )
+
+            return {
+                "type": type_name,
+                "pokemon_examples": selected_pokemon,
+                "total_count": len(pokemon_list),
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Type not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_ability_details(self, name: str) -> Dict[str, Any]:
+        """
+        Detailed infos about an Ability.
+        """
+        try:
+            clean_name = name.lower().replace(" ", "-")
+            data = self._get("ability", clean_name)
+
+            effect = "No description available."
+            for entry in data["effect_entries"]:
+                if entry["language"]["name"] == "en":
+                    effect = entry["effect"]
+                    break
+
+            pokemon_candidates = [p["pokemon"]["name"] for p in data["pokemon"][:5]]
+
+            return {
+                "name": data["name"],
+                "effect": self._clean_text(effect),
+                "pokemon_candidates": pokemon_candidates,
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Ability not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_item_info(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves info about an Item.
+        """
+        try:
+            clean_name = name.lower().replace(" ", "-")
+            data = self._get("item", clean_name)
+
+            effect = "No description available."
+            for entry in data["effect_entries"]:
+                if entry["language"]["name"] == "en":
+                    effect = entry["effect"]
+                    break
+
+            return {
+                "name": data["name"],
+                "cost": data["cost"],
+                "category": data["category"]["name"],
+                "effect": self._clean_text(effect),
+                "attributes": [a["name"] for a in data.get("attributes", [])],
+                "fling_power": data.get("fling_power"),
+                "fling_effect": data.get("fling_effect", {}).get("name")
+                if data.get("fling_effect")
+                else None,
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Item not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_evolution_trigger_info(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves info about an evolution trigger.
+        """
+        try:
+            data = self._get("evolution-trigger", name.lower())
+            return {
+                "name": data["name"],
+                "pokemon_species": [s["name"] for s in data["pokemon_species"]],
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Evolution trigger not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_item_category_info(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves info about an item category.
+        """
+        try:
+            data = self._get("item-category", name.lower())
+            return {
+                "name": data["name"],
+                "items": [i["name"] for i in data["items"]],
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Item category not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_item_attribute_info(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves info about an item attribute.
+        """
+        try:
+            data = self._get("item-attribute", name.lower())
+
+            desc = "No description available."
+            for d in data.get("descriptions", []):
+                if d["language"]["name"] == "en":
+                    desc = d["description"]
+                    break
+
+            return {
+                "name": data["name"],
+                "description": self._clean_text(desc),
+                "items": [i["name"] for i in data["items"]],
+            }
+        except requests.exceptions.RequestException:
+            return {"error": "Item attribute not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_system_prompt(self) -> str:
+        return """# System Prompt: Professor Oak (Pokémon API Agent)
+
+## 1. Role and Personality
+You are **Professor Oak**, the renowned Pokémon researcher from Pallet Town.
+* Your goal is to help trainers with their questions by consulting the **Pokédex** (the PokéAPI).
+* You are helpful, encyclopedic, and friendly.
+
+## 2. Your Tools
+You have access to external Python functions (Tools) to retrieve live data. **Never** guess stats, values, or other details – **always use the Tools.** The tools are crucial for correct answers.
+
+## 3. Process
+* **Input:** Use the name provided by the user (or search/infer the closest match if the name is not exact) for tool calls (e.g., "Charizard" -> `get_pokemon_details("charizard")`).
+* **Output:** Incorporate the returned JSON data naturally into your response.
+
+## 4. Strategy for Complex Questions (Chain of Thought)
+If an answer requires multiple steps, plan independently. Follow the references in the Tool Output.
+
+**Scenario: "How do I evolve Eevee into Umbreon?"**
+1.  I need evolution data -> Call `get_species_info("eevee")`.
+2.  I get the `evolution_chain_url` -> Extract ID -> Call `get_evolution_chain(ID)`.
+3.  I analyze the JSON tree for "umbreon".
+4.  I see `time_of_day: night` and `min_happiness`.
+5.  **Answer:** "You must train Eevee at **night** while it has high **friendship** with you."
+
+## 5. Formatting
+* Use **Bold** for Pokémon names, locations, and important values.
+* Use bullet points for lists (e.g., moves or locations).
+* If data is missing (e.g., API Error), apologize in character ("My Pokédex is currently not providing data on this").
+
+---
+**Begin the interaction now.**"""
+
+
+# Tool definitions matching the class methods
+TOOLS: List[Dict[str, Any]] = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_pokemon_details",
+            "description": "Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), moves, forms, and held items. Use this for general stats questions.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Pokemon (e.g. 'charizard').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_species_info",
+            "description": "Retrieves background info: Pokedex entries, capture rate, is_legendary, and the 'evolution_chain_url'. Use this for questions about evolution or behavior.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Pokemon.",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_evolution_chain",
+            "description": "Retrieves the complete evolution chain. Requires a 'chain_id' (integer), which is obtained via 'get_species_info' first.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "chain_id": {
+                        "type": "integer",
+                        "description": "The numeric ID from the evolution_chain URL.",
+                    }
+                },
+                "required": ["chain_id"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_move_details",
+            "description": "Retrieves data about a move: power, accuracy, PP, and damage class (physical/special).",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the move (e.g. 'fireball').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_type_info",
+            "description": "Retrieves type effectiveness. Returns lists of what this type is weak or strong against.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the elemental type (e.g. 'electric').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_encounters",
+            "description": "Finds locations (routes, caves, areas) where a specific Pokemon can be found in the wild.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Pokemon (e.g. 'pikachu').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_nature_info",
+            "description": "Retrieves details about a Nature. Shows which stat is increased and which is decreased. Important for strategic questions.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Nature (e.g. 'adamant', 'jolly').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_pokemon_list_by_type",
+            "description": "Returns a list of Pokemon that share a specific elemental type. Use this when the user asks for examples of a type.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "type_name": {
+                        "type": "string",
+                        "description": "The name of the type (e.g. 'fire', 'dragon').",
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "How many examples to return (Default: 10).",
+                    },
+                },
+                "required": ["type_name", "limit"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_ability_details",
+            "description": "Explains exactly what a passive Ability does in battle and which Pokemon can have it.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Ability (e.g. 'static', 'levitate').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_item_info",
+            "description": "Retrieves details about an Item (cost, effect, attributes, fling power).",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Item (e.g. 'leftovers').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_evolution_trigger_info",
+            "description": "Returns info about which Pokemon evolve via a specific trigger (e.g. 'trade').",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Trigger (e.g. 'level-up', 'trade', 'use-item').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_item_category_info",
+            "description": "Lists items in a specific category (e.g. 'standard-balls', 'healing').",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The category name.",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_item_attribute_info",
+            "description": "Lists items with a specific attribute (e.g. 'consumable', 'holdable').",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The attribute name.",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+]
