@@ -50,7 +50,7 @@ if not OPENAI_API_KEY:
 if not OPENROUTER_API_KEY:
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# Priority 3: Interactive Prompt (VS Code Colab extension, fallback)
+""" # Priority 3: Interactive Prompt (VS Code Colab extension, fallback)
 if not GOOGLE_API_KEY:
     try:
         GOOGLE_API_KEY = getpass.getpass("GOOGLE_API_KEY: ")
@@ -65,7 +65,7 @@ if not OPENROUTER_API_KEY:
     try:
         OPENROUTER_API_KEY = getpass.getpass("OPENROUTER_API_KEY: ")
     except Exception:
-        print("Warning: OPENROUTER_API_KEY not found and interactive prompt failed.")
+        print("Warning: OPENROUTER_API_KEY not found and interactive prompt failed.") """
 
 GPTModels = Literal[
     "gpt-4o-mini",

@@ -79,11 +79,24 @@ class PokemonAPIClient:
         "item-attribute",
     }
 
+    # Static mapping for Generation info to avoid extra API calls
+    GENERATION_DATA = {
+        "generation-i": {"name": "Generation I", "region": "Kanto"},
+        "generation-ii": {"name": "Generation II", "region": "Johto"},
+        "generation-iii": {"name": "Generation III", "region": "Hoenn"},
+        "generation-iv": {"name": "Generation IV", "region": "Sinnoh"},
+        "generation-v": {"name": "Generation V", "region": "Unova"},
+        "generation-vi": {"name": "Generation VI", "region": "Kalos"},
+        "generation-vii": {"name": "Generation VII", "region": "Alola"},
+        "generation-viii": {"name": "Generation VIII", "region": "Galar"},
+        "generation-ix": {"name": "Generation IX", "region": "Paldea"},
+    }
+
     def __init__(self, cache_dir: Union[str, Path] = ".pokemon_cache"):
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         # Cache expires after 24 hours by default
-        self.cache_ttl = 86400
+        self.cache_ttl = 160000
 
     def _get_url(self, endpoint: str, identifier: Union[str, int, None] = None) -> str:
         url = f"{self.BASE_URL}/{endpoint}"
@@ -147,6 +160,14 @@ class PokemonAPIClient:
         """Removes newlines and form feeds from text."""
         return text.replace("\n", " ").replace("\f", " ")
 
+    def _get_generation_info(self, gen_name: Optional[str]) -> Dict[str, str]:
+        """Helper to get sensible generation info from the static mapping."""
+        if not gen_name:
+            return {"name": "Unknown", "region": "Unknown"}
+        return self.GENERATION_DATA.get(
+            gen_name, {"name": gen_name, "region": "Unknown"}
+        )
+
     def get_pokemon_details(self, name: str) -> Dict[str, Any]:
         """
         Retrieves technical data for a Pokemon.
@@ -180,7 +201,80 @@ class PokemonAPIClient:
             # Held items
             held_items = [h["item"]["name"] for h in data.get("held_items", [])]
 
-            return {
+            # Get Species Info
+            species_data = {}
+            evolution_chain_data = {}
+            if "species" in data and "url" in data["species"]:
+                # We can use the species name from the pokemon data to fetch species info
+                # Or parsing ID from URL, but name is safer if we trust the API relationship
+                species_name = data["species"]["name"]
+                try:
+                    sp_data = self._get("pokemon-species", species_name)
+
+                    # Extract flavor text (English)
+                    flavor_text = "No description available."
+                    for entry in sp_data.get("flavor_text_entries", []):
+                        if entry["language"]["name"] == "en":
+                            flavor_text = self._clean_text(entry["flavor_text"])
+                            break
+
+                    # Extract Genus
+                    genus = "Unknown"
+                    for g in sp_data.get("genera", []):
+                        if g["language"]["name"] == "en":
+                            genus = g["genus"]
+                            break
+
+                    # Simple attributes
+                    species_data = {
+                        "species_name": sp_data["name"],
+                        "flavor_text": flavor_text,
+                        "genus": genus,
+                        "is_legendary": sp_data.get("is_legendary", False),
+                        "is_mythical": sp_data.get("is_mythical", False),
+                        "is_baby": sp_data.get("is_baby", False),
+                        "capture_rate": sp_data.get("capture_rate"),
+                        "base_happiness": sp_data.get("base_happiness"),
+                        "hatch_counter": sp_data.get("hatch_counter"),
+                        "growth_rate": sp_data.get("growth_rate", {}).get("name"),
+                        "habitat": sp_data.get("habitat", {}).get("name")
+                        if sp_data.get("habitat")
+                        else None,
+                        "shape": sp_data.get("shape", {}).get("name")
+                        if sp_data.get("shape")
+                        else None,
+                        "color": sp_data.get("color", {}).get("name")
+                        if sp_data.get("color")
+                        else None,
+                        "egg_groups": [
+                            egg["name"] for egg in sp_data.get("egg_groups", [])
+                        ],
+                        "evolution_chain_url": sp_data.get("evolution_chain", {}).get(
+                            "url"
+                        ),
+                        "generation": sp_data.get("generation", {}).get("name"),
+                        "generation_info": self._get_generation_info(
+                            sp_data.get("generation", {}).get("name")
+                        ),
+                    }
+
+                    evo_url = sp_data.get("evolution_chain", {}).get("url")
+                    if evo_url:
+                        try:
+                            # Extract ID from URL: .../evolution-chain/1/
+                            chain_id = int(evo_url.strip("/").split("/")[-1])
+                            evolution_chain_data = self.get_evolution_chain(chain_id)
+                        except Exception:
+                            evolution_chain_data = {
+                                "error": "Could not retrieve evolution chain"
+                            }
+                except Exception:
+                    # If species fetch fails, we just don't have that extra info
+                    species_data = {
+                        "error_species": "Could not retrieve species details"
+                    }
+
+            result = {
                 "id": data["id"],
                 "name": data["name"],
                 "stats": stats,
@@ -194,13 +288,18 @@ class PokemonAPIClient:
                 "base_experience": data.get("base_experience"),
                 "is_default": data.get("is_default"),
                 "order": data.get("order"),
-                "species": data.get("species", {}).get("name"),
                 "sprites": {
                     "front_default": data["sprites"].get("front_default"),
                     "back_default": data["sprites"].get("back_default"),
                     "front_shiny": data["sprites"].get("front_shiny"),
                 },
             }
+            # Merge species data
+            result.update(species_data)
+            if evolution_chain_data:
+                result["evolution"] = evolution_chain_data
+            return result
+
         except requests.exceptions.RequestException:
             return {"error": f"Pokemon '{name}' not found."}
         except Exception as e:
@@ -239,6 +338,9 @@ class PokemonAPIClient:
                 "evolution_chain_url": data["evolution_chain"]["url"],
                 "genus": genus,
                 "generation": data.get("generation", {}).get("name"),
+                "generation_info": self._get_generation_info(
+                    data.get("generation", {}).get("name")
+                ),
             }
         except requests.exceptions.RequestException:
             return {"error": "Species info not found."}
@@ -327,6 +429,10 @@ class PokemonAPIClient:
                 "effect_description": self._clean_text(effect),
                 "priority": data.get("priority"),
                 "target": data.get("target", {}).get("name"),
+                "generation": data.get("generation", {}).get("name"),
+                "generation_info": self._get_generation_info(
+                    data.get("generation", {}).get("name")
+                ),
             }
         except requests.exceptions.RequestException:
             return {"error": "Move not found."}
@@ -477,6 +583,10 @@ class PokemonAPIClient:
                 "name": data["name"],
                 "effect": self._clean_text(effect),
                 "pokemon_candidates": pokemon_candidates,
+                "generation": data.get("generation", {}).get("name"),
+                "generation_info": self._get_generation_info(
+                    data.get("generation", {}).get("name")
+                ),
             }
         except requests.exceptions.RequestException:
             return {"error": "Ability not found."}
@@ -585,9 +695,9 @@ You have access to external Python functions (Tools) to retrieve live data. **Ne
 If an answer requires multiple steps, plan independently. Follow the references in the Tool Output.
 
 **Scenario: "How do I evolve Eevee into Umbreon?"**
-1.  I need evolution data -> Call `get_species_info("eevee")`.
-2.  I get the `evolution_chain_url` -> Extract ID -> Call `get_evolution_chain(ID)`.
-3.  I analyze the JSON tree for "umbreon".
+1.  I need evolution data -> Call `get_pokemon_details("eevee")`.
+2.  I analyze the `evolution` key in the JSON response.
+3.  I find "umbreon" in `evolves_to` and check its conditions.
 4.  I see `time_of_day: night` and `min_happiness`.
 5.  **Answer:** "You must train Eevee at **night** while it has high **friendship** with you."
 
@@ -606,7 +716,7 @@ TOOLS: List[Dict[str, Any]] = [
         "type": "function",
         "function": {
             "name": "get_pokemon_details",
-            "description": "Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), moves, forms, and held items. Use this for general stats questions.",
+            "description": "Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), moves, forms, held items, species info (flavor text, habitat, happiness, generation), AND full evolution chain. Use this for almost all Pokemon questions.",
             "strict": True,
             "parameters": {
                 "type": "object",
@@ -625,7 +735,7 @@ TOOLS: List[Dict[str, Any]] = [
         "type": "function",
         "function": {
             "name": "get_species_info",
-            "description": "Retrieves background info: Pokedex entries, capture rate, is_legendary, and the 'evolution_chain_url'. Use this for questions about evolution or behavior.",
+            "description": "Retrieves background info: Pokedex entries, capture rate, is_legendary, generation, and the 'evolution_chain_url'. Use this for questions about evolution or behavior.",
             "strict": True,
             "parameters": {
                 "type": "object",
@@ -663,7 +773,7 @@ TOOLS: List[Dict[str, Any]] = [
         "type": "function",
         "function": {
             "name": "get_move_details",
-            "description": "Retrieves data about a move: power, accuracy, PP, and damage class (physical/special).",
+            "description": "Retrieves data about a move: power, accuracy, PP, damage class, and generation.",
             "strict": True,
             "parameters": {
                 "type": "object",

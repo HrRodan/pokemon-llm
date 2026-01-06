@@ -211,3 +211,5 @@ __marimo__/
 /.gradio
 
 .pokemon_cache
+
+.agent
