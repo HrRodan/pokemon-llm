@@ -1659,7 +1659,7 @@ dependencies = [
 requires-dist = [
     { name = "gradio", specifier = ">=6.2.0" },
     { name = "ipykernel", specifier = ">=7.1.0" },
-    { name = "ipython", specifier = ">=9.9.0" },
+    { name = "ipython", specifier = ">=8.18.0" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "openai", specifier = ">=2.14.0" },
