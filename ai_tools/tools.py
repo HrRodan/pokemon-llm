@@ -17,11 +17,13 @@ from typing import (
     Optional,
     Any,
     Callable,
+    Type,
 )
 
 from dotenv import load_dotenv
 from IPython.display import Markdown, display
 from openai import OpenAI
+from pydantic import BaseModel
 
 load_dotenv(override=True)
 
@@ -50,7 +52,7 @@ if not OPENAI_API_KEY:
 if not OPENROUTER_API_KEY:
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-""" # Priority 3: Interactive Prompt (VS Code Colab extension, fallback)
+# Priority 3: Interactive Prompt (VS Code Colab extension, fallback)
 if not GOOGLE_API_KEY:
     try:
         GOOGLE_API_KEY = getpass.getpass("GOOGLE_API_KEY: ")
@@ -65,7 +67,7 @@ if not OPENROUTER_API_KEY:
     try:
         OPENROUTER_API_KEY = getpass.getpass("OPENROUTER_API_KEY: ")
     except Exception:
-        print("Warning: OPENROUTER_API_KEY not found and interactive prompt failed.") """
+        print("Warning: OPENROUTER_API_KEY not found and interactive prompt failed.")
 
 GPTModels = Literal[
     "gpt-4o-mini",
@@ -240,6 +242,8 @@ class LLMQuery:
         tts_model: str = "gpt-4o-mini-tts",
         transcription_model: str = "gemini-2.5-flash",
         reasoning_effort: Optional[str] = None,
+        history_limit: Optional[int] = None,
+        response_format: Union[Dict[str, Any], Type[BaseModel], None] = None,
     ):
         """
         Initialize the LLMQuery instance.
@@ -256,14 +260,19 @@ class LLMQuery:
             tts_model (str, optional): The TTS model to use. Defaults to "gpt-4o-mini-tts".
             transcription_model (str, optional): The transcription model to use. Defaults to "gemini-2.5-flash".
             reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
+            reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
+            history_limit (int, optional): The maximum number of history entries to include. Defaults to None (all history).
+            response_format (Union[Dict[str, Any], Type[BaseModel], None], optional): The format of the response. Can be a dict or a Pydantic model. Defaults to None.
         """
         self.model = model
         self.image_model = image_model
         self.tts_model = tts_model
         self.transcription_model = transcription_model
         self.reasoning_effort = reasoning_effort
+        self.history_limit = history_limit
         self.stream = stream
         self.json_format = json_format
+        self.response_format = response_format
         self.tools = tools
         if functions is None:
             self.functions = []
@@ -373,6 +382,7 @@ class LLMQuery:
         self,
         user_prompt: Union[str, List[Dict[str, str]], None],
         use_history: bool,
+        history_limit: Optional[int] = None,
     ) -> List[Dict[str, str]]:
         """
         Prepare the list of messages for the API call.
@@ -380,13 +390,17 @@ class LLMQuery:
         Args:
             user_prompt: The user's input.
             use_history: Whether to include chat history.
+            history_limit (int, optional): The maximum number of history entries to include.
 
         Returns:
             List of message dictionaries.
         """
         messages = [{"role": "system", "content": self.system_prompt}]
         if use_history:
-            messages.extend(self.chat_history)
+            if history_limit:
+                messages.extend(self.chat_history[-history_limit:])
+            else:
+                messages.extend(self.chat_history)
 
         if user_prompt is not None:
             if isinstance(user_prompt, list):
@@ -431,6 +445,21 @@ class LLMQuery:
 
         if json_format:
             request_kwargs["response_format"] = {"type": "json_object"}
+        elif self.response_format:
+            if isinstance(self.response_format, type) and issubclass(
+                self.response_format, BaseModel
+            ):
+                request_kwargs["response_format"] = {
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": self.response_format.__name__,
+                        "schema": self.response_format.model_json_schema(),
+                        "strict": True,
+                    },
+                }
+            else:
+                request_kwargs["response_format"] = self.response_format
+
         if stream:
             request_kwargs["stream"] = True
         if reasoning_effort:
@@ -479,6 +508,7 @@ class LLMQuery:
         reasoning_effort: Optional[str] = None,
         tools: Optional[List[Dict]] = None,
         tool_choice: Optional[Union[str, Dict]] = None,
+        history_limit: Optional[int] = None,
         **kwargs,
     ) -> str:
         """
@@ -493,6 +523,7 @@ class LLMQuery:
             reasoning_effort: Effort level for reasoning models.
             tools: Optional list of tools to use.
             tool_choice: Optional tool choice strategy.
+            history_limit: Optional override for history limit.
             **kwargs: Additional arguments passed to the API call.
 
         Returns:
@@ -514,9 +545,15 @@ class LLMQuery:
             tool_choice if tool_choice is not None else self.tool_choice
         )
 
+        target_history_limit = (
+            history_limit if history_limit is not None else self.history_limit
+        )
+
         client = self._get_client_for_model(target_model)
 
-        messages = self._prepare_messages(user_prompt, use_history)
+        messages = self._prepare_messages(
+            user_prompt, use_history, history_limit=target_history_limit
+        )
         request_kwargs = self._prepare_request_kwargs(
             messages,
             stream=False,
@@ -586,6 +623,49 @@ class LLMQuery:
 
         return self.response
 
+    def invoke(
+        self,
+        input: Union[str, Dict[str, Any], List[Dict[str, str]]],
+        config: Optional[Any] = None,
+        **kwargs,
+    ) -> str:
+        """
+        LangChain-compatible invoke method.
+
+        Args:
+            input: The input prompt (str), a dictionary containing the prompt/query, or a list of messages.
+            config: Optional configuration (unused but required by interface).
+            **kwargs: Additional arguments passed to query.
+
+        Returns:
+            str: The response text.
+        """
+        user_prompt = input
+
+        # Handle dict input (e.g. {"input": "..."} or {"query": "..."})
+        if isinstance(input, dict):
+            if "input" in input:
+                user_prompt = input["input"]
+            elif "query" in input:
+                user_prompt = input["query"]
+            elif "content" in input:
+                user_prompt = input["content"]
+
+            if isinstance(user_prompt, str):
+                pass  # Good
+            elif isinstance(user_prompt, list):
+                pass  # Good
+            elif (
+                isinstance(user_prompt, dict)
+                and "role" in user_prompt
+                and "content" in user_prompt
+            ):
+                # If the input is a single message dict (e.g., {"role": "user", "content": "..."}),
+                # wrap it in a list so it matches the expected input format for self.query.
+                user_prompt = [user_prompt]
+
+        return self.query(user_prompt=user_prompt, **kwargs)
+
     def query_stream(
         self,
         user_prompt: Union[str, List[Dict[str, str]], None] = None,
@@ -597,6 +677,7 @@ class LLMQuery:
         return_generator: bool = True,
         tools: Optional[List[Dict]] = None,
         tool_choice: Optional[Union[str, Dict]] = None,
+        history_limit: Optional[int] = None,
         **kwargs,
     ) -> Union[str, Generator[str, None, None]]:
         """
@@ -612,6 +693,7 @@ class LLMQuery:
             return_generator: If True, returns a generator yielding chunks. If False, returns the full response string.
             tools: Optional list of tools to use.
             tool_choice: Optional tool choice strategy.
+            history_limit: Optional override for history limit.
             **kwargs: Additional arguments passed to the API call.
 
         Yields:
@@ -635,9 +717,15 @@ class LLMQuery:
             tool_choice if tool_choice is not None else self.tool_choice
         )
 
+        target_history_limit = (
+            history_limit if history_limit is not None else self.history_limit
+        )
+
         client = self._get_client_for_model(target_model)
 
-        messages = self._prepare_messages(user_prompt, use_history)
+        messages = self._prepare_messages(
+            user_prompt, use_history, history_limit=target_history_limit
+        )
         request_kwargs = self._prepare_request_kwargs(
             messages,
             stream=True,
