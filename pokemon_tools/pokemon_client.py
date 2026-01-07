@@ -205,8 +205,6 @@ class PokemonAPIClient:
             species_data = {}
             evolution_chain_data = {}
             if "species" in data and "url" in data["species"]:
-                # We can use the species name from the pokemon data to fetch species info
-                # Or parsing ID from URL, but name is safer if we trust the API relationship
                 species_name = data["species"]["name"]
                 try:
                     sp_data = self._get("pokemon-species", species_name)
@@ -310,9 +308,6 @@ class PokemonAPIClient:
         Retrieves background information (species).
         """
         try:
-            # Get basic info first to get species URL if needed, but here we can try querying species directly
-            # assuming name matches. Sometimes species name != pokemon name (e.g. varieties),
-            # but usually it works for base forms.
             data = self._get("pokemon-species", name.lower())
 
             # Find English flavor text
@@ -352,7 +347,6 @@ class PokemonAPIClient:
         Retrieves the evolution chain.
         """
         try:
-            # chain_id must be extracted from URL by caller usually, but logic here takes ID directly
             data = self._get("evolution-chain", chain_id)
 
             # Recursively parse the chain
@@ -463,20 +457,6 @@ class PokemonAPIClient:
         Finds locations where a Pokemon can be caught in the game.
         """
         try:
-            # Special endpoint: pokemon/{id}/encounters
-            # This is NOT a standard named resource lookup, so we might need a custom handling
-            # or just use _get with a constructed string if identifiers can be paths
-            # BUT _get assumes resource/identifier structure.
-            # Let's manually construct to use our caching with a trick or just implement manually with cache
-
-            endpoint = "pokemon"
-            identifier = f"{name.lower()}/encounters"
-
-            # _get works if identifier is passed as the subpath
-            # But the caching naming might get weird: pokemon_pikachu/encounters.json -> might fail on filesystem
-            # So we better custom implement with safe cache key
-
-            # Custom cache logic for encounters
             safe_name = name.lower().replace(" ", "_")
             cache_path = self.cache_dir / f"encounters_{safe_name}.json"
 
