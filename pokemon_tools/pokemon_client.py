@@ -734,44 +734,6 @@ TOOLS: List[Dict[str, Any]] = [
     {
         "type": "function",
         "function": {
-            "name": "get_species_info",
-            "description": "Retrieves background info: Pokedex entries, capture rate, is_legendary, generation, and the 'evolution_chain_url'. Use this for questions about evolution or behavior.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Pokemon.",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_evolution_chain",
-            "description": "Retrieves the complete evolution chain. Requires a 'chain_id' (integer), which is obtained via 'get_species_info' first.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "chain_id": {
-                        "type": "integer",
-                        "description": "The numeric ID from the evolution_chain URL.",
-                    }
-                },
-                "required": ["chain_id"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
             "name": "get_move_details",
             "description": "Retrieves data about a move: power, accuracy, PP, damage class, and generation.",
             "strict": True,
