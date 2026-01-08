@@ -1,0 +1,225 @@
+{
+  "pokemon_details": {
+    "id": 157,
+    "name": "typhlosion",
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 109,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 79.5,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "typhlosion"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "cut",
+      "double-kick",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "smokescreen",
+      "confuse-ray",
+      "defense-curl",
+      "fire-blast",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "mud-slap",
+      "detect",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "eruption",
+      "secret-power",
+      "blast-burn",
+      "overheat",
+      "rock-tomb",
+      "extrasensory",
+      "aerial-ace",
+      "howl",
+      "covet",
+      "calm-mind",
+      "gyro-ball",
+      "natural-gift",
+      "fling",
+      "flare-blitz",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "fire-fang",
+      "zen-headbutt",
+      "rock-climb",
+      "lava-plume",
+      "iron-head",
+      "captivate",
+      "flame-charge",
+      "round",
+      "hex",
+      "incinerate",
+      "inferno",
+      "fire-pledge",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "play-rough",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "burn-up",
+      "stomping-tantrum",
+      "burning-jealousy",
+      "poltergeist",
+      "scorching-sands",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 240,
+    "is_default": true,
+    "order": 254,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/157.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/157.png"
+    },
+    "species_name": "typhlosion",
+    "flavor_text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+    "genus": "Volcano Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/80/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 80,
+      "chain": {
+        "species_name": "cyndaquil",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quilava",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 14
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "typhlosion",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

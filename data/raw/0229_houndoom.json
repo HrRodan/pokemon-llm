@@ -1,0 +1,219 @@
+{
+  "pokemon_details": {
+    "id": 229,
+    "name": "houndoom",
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 50,
+      "special-attack": 110,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 35.0,
+    "abilities": [
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "houndoom"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "counter",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "mimic",
+      "double-team",
+      "smog",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "overheat",
+      "odor-sleuth",
+      "howl",
+      "mud-shot",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "sucker-punch",
+      "flare-blitz",
+      "dark-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "thunder-fang",
+      "fire-fang",
+      "captivate",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "incinerate",
+      "retaliate",
+      "inferno",
+      "snarl",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "psychic-fangs",
+      "burning-jealousy",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "comeuppance",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 330,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/229.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/229.png"
+    },
+    "species_name": "houndoom",
+    "flavor_text": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    "genus": "Dark Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/118/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 118,
+      "chain": {
+        "species_name": "houndour",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "houndoom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

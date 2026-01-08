@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 162,
+    "name": "furret",
+    "stats": {
+      "hp": 85,
+      "attack": 76,
+      "defense": 64,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 90
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 32.5,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "frisk",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "furret"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "slam",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "flamethrower",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "swift",
+      "amnesia",
+      "fury-swipes",
+      "rest",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "helping-hand",
+      "trick",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "u-turn",
+      "fling",
+      "me-first",
+      "last-resort",
+      "sucker-punch",
+      "aqua-tail",
+      "seed-bomb",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "hone-claws",
+      "coil",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "work-up",
+      "play-rough",
+      "confide",
+      "baby-doll-eyes",
+      "power-up-punch",
+      "brutal-swing",
+      "tera-blast",
+      "tidy-up",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "oran-berry",
+      "sitrus-berry"
+    ],
+    "base_experience": 145,
+    "is_default": true,
+    "order": 259,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/162.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/162.png"
+    },
+    "species_name": "furret",
+    "flavor_text": "It makes a nest to suit its long and skinny body. The nest is impossible for other POK\u00e9MON to enter.",
+    "genus": "Long Body Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/82/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 82,
+      "chain": {
+        "species_name": "sentret",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "furret",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 15
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

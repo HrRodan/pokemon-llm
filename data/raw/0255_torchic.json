@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 255,
+    "name": "torchic",
+    "stats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 40,
+      "special-attack": 70,
+      "special-defense": 50,
+      "speed": 45
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 2.5,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "torchic"
+    ],
+    "moves": [
+      "mega-punch",
+      "scratch",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "ember",
+      "flamethrower",
+      "peck",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "mirror-move",
+      "fire-blast",
+      "swift",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "smelling-salts",
+      "helping-hand",
+      "secret-power",
+      "feather-dance",
+      "crush-claw",
+      "overheat",
+      "rock-tomb",
+      "aerial-ace",
+      "bounce",
+      "natural-gift",
+      "feint",
+      "assurance",
+      "last-resort",
+      "flare-blitz",
+      "night-slash",
+      "shadow-claw",
+      "defog",
+      "captivate",
+      "hone-claws",
+      "flame-burst",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "fire-pledge",
+      "work-up",
+      "confide",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 351,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/255.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/255.png"
+    },
+    "species_name": "torchic",
+    "flavor_text": "TORCHIC sticks with its TRAINER, following behind with unsteady steps. This POK\u00e9MON breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black.",
+    "genus": "Chick Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "legs",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/131/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 131,
+      "chain": {
+        "species_name": "torchic",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "combusken",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "blaziken",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

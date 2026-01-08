@@ -1,0 +1,214 @@
+{
+  "pokemon_details": {
+    "id": 142,
+    "name": "aerodactyl",
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 130
+    },
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 59.0,
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "aerodactyl"
+    ],
+    "moves": [
+      "razor-wind",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "supersonic",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "swift",
+      "sky-attack",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "foresight",
+      "detect",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "air-cutter",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "rock-blast",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "payback",
+      "assurance",
+      "rock-polish",
+      "aqua-tail",
+      "dragon-pulse",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "defog",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "ominous-wind",
+      "hone-claws",
+      "wide-guard",
+      "smack-down",
+      "round",
+      "sky-drop",
+      "incinerate",
+      "bulldoze",
+      "hurricane",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "psychic-fangs",
+      "meteor-beam",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 180,
+    "is_default": true,
+    "order": 232,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png"
+    },
+    "species_name": "aerodactyl",
+    "flavor_text": "A Pok\u00e9mon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+    "genus": "Fossil Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": "mountain",
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/71/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 71,
+      "chain": {
+        "species_name": "aerodactyl",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

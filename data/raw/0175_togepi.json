@@ -1,0 +1,225 @@
+{
+  "pokemon_details": {
+    "id": 175,
+    "name": "togepi",
+    "stats": {
+      "hp": 35,
+      "attack": 20,
+      "defense": 65,
+      "special-attack": 40,
+      "special-defense": 65,
+      "speed": 20
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.5,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "togepi"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "flamethrower",
+      "peck",
+      "counter",
+      "seismic-toss",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "mirror-move",
+      "fire-blast",
+      "swift",
+      "soft-boiled",
+      "dream-eater",
+      "flash",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "foresight",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "morning-sun",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "follow-me",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "yawn",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "signal-beam",
+      "extrasensory",
+      "aerial-ace",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "psycho-shift",
+      "lucky-chant",
+      "last-resort",
+      "nasty-plot",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "psyshock",
+      "telekinesis",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "incinerate",
+      "bestow",
+      "work-up",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "life-dew"
+    ],
+    "held_items": [],
+    "base_experience": 49,
+    "is_default": true,
+    "order": 268,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/175.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/175.png"
+    },
+    "species_name": "togepi",
+    "flavor_text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+    "genus": "Spike Ball Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/87/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 87,
+      "chain": {
+        "species_name": "togepi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "togetic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "togekiss",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 239,
+    "name": "elekid",
+    "stats": {
+      "hp": 45,
+      "attack": 63,
+      "defense": 37,
+      "special-attack": 65,
+      "special-defense": 55,
+      "speed": 95
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 23.5,
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "elekid"
+    ],
+    "moves": [
+      "karate-chop",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "rolling-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "meditate",
+      "quick-attack",
+      "mimic",
+      "screech",
+      "double-team",
+      "barrier",
+      "light-screen",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "charge",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "metal-sound",
+      "signal-beam",
+      "covet",
+      "shock-wave",
+      "hammer-arm",
+      "natural-gift",
+      "feint",
+      "fling",
+      "magnet-rise",
+      "focus-blast",
+      "discharge",
+      "captivate",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "dual-chop",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "power-up-punch",
+      "tera-blast",
+      "trailblaze",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "electirizer"
+    ],
+    "base_experience": 72,
+    "is_default": true,
+    "order": 201,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/239.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/239.png"
+    },
+    "species_name": "elekid",
+    "flavor_text": "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit.",
+    "genus": "Electric Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/60/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 60,
+      "chain": {
+        "species_name": "elekid",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "electabuzz",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "electivire",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "electirizer"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

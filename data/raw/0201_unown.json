@@ -1,0 +1,113 @@
+{
+  "pokemon_details": {
+    "id": 201,
+    "name": "unown",
+    "stats": {
+      "hp": 48,
+      "attack": 72,
+      "defense": 48,
+      "special-attack": 72,
+      "special-defense": 48,
+      "speed": 48
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 5.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "unown-a",
+      "unown-b",
+      "unown-c",
+      "unown-d",
+      "unown-e",
+      "unown-f",
+      "unown-g",
+      "unown-h",
+      "unown-i",
+      "unown-j",
+      "unown-k",
+      "unown-l",
+      "unown-m",
+      "unown-n",
+      "unown-o",
+      "unown-p",
+      "unown-q",
+      "unown-r",
+      "unown-s",
+      "unown-t",
+      "unown-u",
+      "unown-v",
+      "unown-w",
+      "unown-x",
+      "unown-y",
+      "unown-z",
+      "unown-exclamation",
+      "unown-question"
+    ],
+    "moves": [
+      "hidden-power"
+    ],
+    "held_items": [],
+    "base_experience": 118,
+    "is_default": true,
+    "order": 297,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/201.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201.png"
+    },
+    "species_name": "unown",
+    "flavor_text": "Their shapes look like hieroglyphs on ancient tab\u00ad lets. It is said that the two are somehow related.",
+    "genus": "Symbol Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "medium",
+    "habitat": "rare",
+    "shape": "ball",
+    "color": "black",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/99/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 99,
+      "chain": {
+        "species_name": "unown",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

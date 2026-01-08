@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 224,
+    "name": "octillery",
+    "stats": {
+      "hp": 75,
+      "attack": 105,
+      "defense": 75,
+      "special-attack": 105,
+      "special-defense": 75,
+      "speed": 45
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 28.5,
+    "abilities": [
+      {
+        "name": "suction-cups",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "octillery"
+    ],
+    "moves": [
+      "bind",
+      "wrap",
+      "double-edge",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "aurora-beam",
+      "hyper-beam",
+      "seismic-toss",
+      "string-shot",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "fire-blast",
+      "waterfall",
+      "swift",
+      "constrict",
+      "bubble",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "octazooka",
+      "icy-wind",
+      "lock-on",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "signal-beam",
+      "bullet-seed",
+      "bounce",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "wring-out",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "flash-cannon",
+      "gunk-shot",
+      "captivate",
+      "charge-beam",
+      "smack-down",
+      "sludge-wave",
+      "soak",
+      "acid-spray",
+      "round",
+      "scald",
+      "incinerate",
+      "confide",
+      "liquidation",
+      "skitter-smack"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 324,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/224.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/224.png"
+    },
+    "species_name": "octillery",
+    "flavor_text": "It traps enemies with its suction- cupped tentacles then smashes them with its rock-hard head.",
+    "genus": "Jet Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "tentacles",
+    "color": "red",
+    "egg_groups": [
+      "water1",
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/114/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 114,
+      "chain": {
+        "species_name": "remoraid",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "octillery",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

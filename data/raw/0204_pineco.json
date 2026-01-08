@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 204,
+    "name": "pineco",
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 90,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 15
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 7.2,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pineco"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "pin-missile",
+      "counter",
+      "strength",
+      "solar-beam",
+      "string-shot",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "spikes",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "rapid-spin",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "revenge",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "natural-gift",
+      "payback",
+      "power-trick",
+      "toxic-spikes",
+      "poison-jab",
+      "seed-bomb",
+      "bug-buzz",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "venoshock",
+      "autotomize",
+      "round",
+      "struggle-bug",
+      "bulldoze",
+      "drill-run",
+      "confide",
+      "lunge",
+      "tera-blast",
+      "ice-spinner",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": true,
+    "order": 301,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/204.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/204.png"
+    },
+    "species_name": "pineco",
+    "flavor_text": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+    "genus": "Bagworm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/102/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 102,
+      "chain": {
+        "species_name": "pineco",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "forretress",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 31
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

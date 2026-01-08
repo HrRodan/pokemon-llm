@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 90,
+    "name": "shellder",
+    "stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "special-attack": 45,
+      "special-defense": 25,
+      "speed": 40
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 4.0,
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shellder"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "twineedle",
+      "leer",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "toxic",
+      "rage",
+      "teleport",
+      "mimic",
+      "screech",
+      "double-team",
+      "withdraw",
+      "barrier",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "waterfall",
+      "clamp",
+      "swift",
+      "explosion",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "spikes",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "icicle-spear",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "payback",
+      "toxic-spikes",
+      "aqua-ring",
+      "avalanche",
+      "ice-shard",
+      "captivate",
+      "round",
+      "shell-smash",
+      "razor-shell",
+      "confide",
+      "liquidation",
+      "life-dew",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [
+      "pearl",
+      "big-pearl"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 145,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/90.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/90.png"
+    },
+    "species_name": "shellder",
+    "flavor_text": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+    "genus": "Bivalve Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/39/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 39,
+      "chain": {
+        "species_name": "shellder",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cloyster",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 100,
+    "name": "voltorb",
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 100
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 10.4,
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "voltorb"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "sonic-boom",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "rage",
+      "teleport",
+      "mimic",
+      "screech",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "swift",
+      "flash",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "endure",
+      "rollout",
+      "swagger",
+      "spark",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "mirror-coat",
+      "torment",
+      "facade",
+      "charge",
+      "taunt",
+      "helping-hand",
+      "magic-coat",
+      "recycle",
+      "secret-power",
+      "metal-sound",
+      "signal-beam",
+      "shock-wave",
+      "gyro-ball",
+      "natural-gift",
+      "sucker-punch",
+      "magnet-rise",
+      "discharge",
+      "charge-beam",
+      "electro-ball",
+      "foul-play",
+      "round",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 158,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/100.png"
+    },
+    "species_name": "voltorb",
+    "flavor_text": "Usually found in power plants. Easily mistaken for a POK\u00e9 BALL, they have zapped many people.",
+    "genus": "Ball Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "ball",
+    "color": "red",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/44/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 44,
+      "chain": {
+        "species_name": "voltorb",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "electrode",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

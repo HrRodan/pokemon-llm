@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 48,
+    "name": "venonat",
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 55,
+      "speed": 45
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 30.0,
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "venonat"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "disable",
+      "psybeam",
+      "mega-drain",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "string-shot",
+      "toxic",
+      "confusion",
+      "psychic",
+      "agility",
+      "rage",
+      "night-shade",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "reflect",
+      "bide",
+      "swift",
+      "leech-life",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "foresight",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "sweet-scent",
+      "morning-sun",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "poison-fang",
+      "signal-beam",
+      "natural-gift",
+      "toxic-spikes",
+      "bug-buzz",
+      "energy-ball",
+      "zen-headbutt",
+      "captivate",
+      "bug-bite",
+      "venoshock",
+      "rage-powder",
+      "acid-spray",
+      "round",
+      "struggle-bug",
+      "confide",
+      "infestation",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 82,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/48.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/48.png"
+    },
+    "species_name": "venonat",
+    "flavor_text": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+    "genus": "Insect Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/20/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 20,
+      "chain": {
+        "species_name": "venonat",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "venomoth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 31
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

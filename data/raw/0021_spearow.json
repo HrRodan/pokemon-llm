@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 21,
+    "name": "spearow",
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "special-attack": 31,
+      "special-defense": 31,
+      "speed": 70
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.0,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spearow"
+    ],
+    "moves": [
+      "razor-wind",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "fury-attack",
+      "take-down",
+      "double-edge",
+      "leer",
+      "growl",
+      "peck",
+      "drill-peck",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "mirror-move",
+      "swift",
+      "sky-attack",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "detect",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "secret-power",
+      "feather-dance",
+      "astonish",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "assurance",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "round",
+      "echoed-voice",
+      "work-up",
+      "drill-run",
+      "confide"
+    ],
+    "held_items": [
+      "sharp-beak"
+    ],
+    "base_experience": 52,
+    "is_default": true,
+    "order": 30,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/21.png"
+    },
+    "species_name": "spearow",
+    "flavor_text": "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+    "genus": "Tiny Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "rough-terrain",
+    "shape": "wings",
+    "color": "brown",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/8/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 8,
+      "chain": {
+        "species_name": "spearow",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "fearow",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

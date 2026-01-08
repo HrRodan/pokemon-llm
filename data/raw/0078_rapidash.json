@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 78,
+    "name": "rapidash",
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 95.0,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rapidash"
+    ],
+    "moves": [
+      "pay-day",
+      "swords-dance",
+      "stomp",
+      "double-kick",
+      "headbutt",
+      "fury-attack",
+      "horn-drill",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "growl",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "hypnosis",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "rest",
+      "substitute",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "protect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "secret-power",
+      "overheat",
+      "bounce",
+      "natural-gift",
+      "flare-blitz",
+      "poison-jab",
+      "giga-impact",
+      "captivate",
+      "double-hit",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "incinerate",
+      "inferno",
+      "wild-charge",
+      "drill-run",
+      "play-rough",
+      "confide",
+      "mystical-fire",
+      "high-horsepower",
+      "solar-blade",
+      "throat-chop",
+      "smart-strike",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "shuca-berry"
+    ],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 123,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/78.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/78.png"
+    },
+    "species_name": "rapidash",
+    "flavor_text": "Very competitive, this POK\u00e9MON will chase anything that moves fast in the hopes of racing it.",
+    "genus": "Fire Horse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/32/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 32,
+      "chain": {
+        "species_name": "ponyta",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rapidash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "pokemon_details": {
+    "id": 246,
+    "name": "larvitar",
+    "stats": {
+      "hp": 50,
+      "attack": 64,
+      "defense": 50,
+      "special-attack": 45,
+      "special-defense": 50,
+      "speed": 41
+    },
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 72.0,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "larvitar"
+    ],
+    "moves": [
+      "stomp",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "hyper-beam",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "detect",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "muddy-water",
+      "iron-defense",
+      "mud-shot",
+      "dragon-dance",
+      "rock-blast",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "rock-polish",
+      "dark-pulse",
+      "earth-power",
+      "giga-impact",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "smack-down",
+      "round",
+      "chip-away",
+      "retaliate",
+      "bulldoze",
+      "snarl",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 340,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/246.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/246.png"
+    },
+    "species_name": "larvitar",
+    "flavor_text": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+    "genus": "Rock Skin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/126/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 126,
+      "chain": {
+        "species_name": "larvitar",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pupitar",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "tyranitar",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 55
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

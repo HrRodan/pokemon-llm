@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 118,
+    "name": "goldeen",
+    "stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "special-attack": 35,
+      "special-defense": 50,
+      "speed": 63
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "goldeen"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "horn-attack",
+      "fury-attack",
+      "horn-drill",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "peck",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "haze",
+      "bide",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "hail",
+      "facade",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "signal-beam",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "water-sport",
+      "water-pulse",
+      "natural-gift",
+      "acupressure",
+      "aqua-ring",
+      "poison-jab",
+      "aqua-tail",
+      "captivate",
+      "soak",
+      "round",
+      "scald",
+      "drill-run",
+      "confide",
+      "throat-chop",
+      "smart-strike",
+      "scale-shot",
+      "flip-turn"
+    ],
+    "held_items": [
+      "mystic-water"
+    ],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 189,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/118.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/118.png"
+    },
+    "species_name": "goldeen",
+    "flavor_text": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
+    "genus": "Goldfish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "fish",
+    "color": "red",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/55/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 55,
+      "chain": {
+        "species_name": "goldeen",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "seaking",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

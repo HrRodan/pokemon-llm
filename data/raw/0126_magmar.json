@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 126,
+    "name": "magmar",
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 93
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.3,
+    "weight_kg": 44.5,
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "magmar"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "fire-spin",
+      "toxic",
+      "psychic",
+      "rage",
+      "teleport",
+      "mimic",
+      "screech",
+      "double-team",
+      "smokescreen",
+      "confuse-ray",
+      "focus-energy",
+      "bide",
+      "metronome",
+      "smog",
+      "fire-blast",
+      "skull-bash",
+      "poison-gas",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "protect",
+      "mach-punch",
+      "scary-face",
+      "feint-attack",
+      "belly-drum",
+      "mud-slap",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "cross-chop",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "overheat",
+      "covet",
+      "natural-gift",
+      "fling",
+      "power-swap",
+      "flare-blitz",
+      "poison-jab",
+      "focus-blast",
+      "giga-impact",
+      "rock-climb",
+      "lava-plume",
+      "captivate",
+      "flame-burst",
+      "flame-charge",
+      "low-sweep",
+      "acid-spray",
+      "round",
+      "clear-smog",
+      "incinerate",
+      "dual-chop",
+      "heat-crash",
+      "belch",
+      "confide",
+      "power-up-punch",
+      "burning-jealousy",
+      "scorching-sands",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [
+      "rawst-berry",
+      "magmarizer"
+    ],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 205,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/126.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png"
+    },
+    "species_name": "magmar",
+    "flavor_text": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+    "genus": "Spitfire Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/61/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 61,
+      "chain": {
+        "species_name": "magby",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "magmar",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "magmortar",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "magmarizer"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 219,
+    "name": "magcargo",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 120,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 55.0,
+    "abilities": [
+      {
+        "name": "magma-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "magcargo"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "recover",
+      "harden",
+      "smokescreen",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "smog",
+      "fire-blast",
+      "amnesia",
+      "acid-armor",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "stockpile",
+      "heat-wave",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "nature-power",
+      "yawn",
+      "secret-power",
+      "overheat",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "gyro-ball",
+      "natural-gift",
+      "guard-swap",
+      "flare-blitz",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "lava-plume",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "smack-down",
+      "flame-burst",
+      "flame-charge",
+      "after-you",
+      "round",
+      "clear-smog",
+      "shell-smash",
+      "incinerate",
+      "inferno",
+      "bulldoze",
+      "heat-crash",
+      "confide",
+      "infestation",
+      "stomping-tantrum",
+      "burning-jealousy",
+      "scorching-sands",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 151,
+    "is_default": true,
+    "order": 317,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/219.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/219.png"
+    },
+    "species_name": "magcargo",
+    "flavor_text": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
+    "genus": "Lava Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "squiggle",
+    "color": "red",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/111/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 111,
+      "chain": {
+        "species_name": "slugma",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "magcargo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 38
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

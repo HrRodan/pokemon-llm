@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 59,
+    "name": "arcanine",
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 155.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "justified",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "arcanine"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "dragon-rage",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "agility",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "rest",
+      "substitute",
+      "thief",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "extreme-speed",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "secret-power",
+      "hyper-voice",
+      "overheat",
+      "odor-sleuth",
+      "aerial-ace",
+      "howl",
+      "covet",
+      "natural-gift",
+      "close-combat",
+      "flare-blitz",
+      "dragon-pulse",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "rock-climb",
+      "iron-head",
+      "captivate",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "wild-charge",
+      "heat-crash",
+      "snarl",
+      "play-rough",
+      "confide",
+      "laser-focus",
+      "burn-up",
+      "psychic-fangs",
+      "scorching-sands",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [
+      "rawst-berry"
+    ],
+    "base_experience": 194,
+    "is_default": true,
+    "order": 98,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/59.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/59.png"
+    },
+    "species_name": "arcanine",
+    "flavor_text": "A POK\u00e9MON that has been admired since the past for its beauty. It runs agilely as if on wings.",
+    "genus": "Legendary Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/25/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 25,
+      "chain": {
+        "species_name": "growlithe",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "arcanine",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

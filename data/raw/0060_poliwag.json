@@ -1,0 +1,204 @@
+{
+  "pokemon_details": {
+    "id": 60,
+    "name": "poliwag",
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 12.4,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "damp",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "poliwag"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "low-kick",
+      "dig",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "haze",
+      "bide",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "amnesia",
+      "bubble",
+      "psywave",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "snore",
+      "curse",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "dive",
+      "ice-ball",
+      "weather-ball",
+      "muddy-water",
+      "mud-shot",
+      "water-sport",
+      "water-pulse",
+      "wake-up-slap",
+      "natural-gift",
+      "earth-power",
+      "mud-bomb",
+      "captivate",
+      "round",
+      "scald",
+      "bulldoze",
+      "confide",
+      "liquidation",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 99,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/60.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/60.png"
+    },
+    "species_name": "poliwag",
+    "flavor_text": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+    "genus": "Tadpole Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "legs",
+    "color": "blue",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/26/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 26,
+      "chain": {
+        "species_name": "poliwag",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "poliwhirl",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "poliwrath",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "water-stone"
+                  }
+                ],
+                "evolves_to": []
+              },
+              {
+                "species_name": "politoed",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "kings-rock"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 98,
+    "name": "krabby",
+    "stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 50
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 6.5,
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "krabby"
+    ],
+    "moves": [
+      "vice-grip",
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "slam",
+      "stomp",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "strength",
+      "dig",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "harden",
+      "haze",
+      "bide",
+      "amnesia",
+      "bubble",
+      "crabhammer",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "rock-tomb",
+      "tickle",
+      "iron-defense",
+      "mud-shot",
+      "water-pulse",
+      "hammer-arm",
+      "brine",
+      "natural-gift",
+      "fling",
+      "night-slash",
+      "x-scissor",
+      "captivate",
+      "hone-claws",
+      "round",
+      "chip-away",
+      "ally-switch",
+      "scald",
+      "razor-shell",
+      "confide",
+      "liquidation"
+    ],
+    "held_items": [],
+    "base_experience": 65,
+    "is_default": true,
+    "order": 156,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/98.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/98.png"
+    },
+    "species_name": "krabby",
+    "flavor_text": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+    "genus": "River Crab Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "armor",
+    "color": "red",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/43/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 43,
+      "chain": {
+        "species_name": "krabby",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kingler",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

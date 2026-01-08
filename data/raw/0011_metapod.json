@@ -1,0 +1,113 @@
+{
+  "pokemon_details": {
+    "id": 11,
+    "name": "metapod",
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 30
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 9.9,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "metapod"
+    ],
+    "moves": [
+      "string-shot",
+      "harden",
+      "iron-defense",
+      "bug-bite",
+      "electroweb"
+    ],
+    "held_items": [],
+    "base_experience": 72,
+    "is_default": true,
+    "order": 15,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png"
+    },
+    "species_name": "metapod",
+    "flavor_text": "This POK\u00e9MON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+    "genus": "Cocoon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/4/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 4,
+      "chain": {
+        "species_name": "caterpie",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "metapod",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "butterfree",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "pokemon_details": {
+    "id": 211,
+    "name": "qwilfish",
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "types": [
+      "water",
+      "poison"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 3.9,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "qwilfish"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "pin-missile",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "thunder-wave",
+      "toxic",
+      "agility",
+      "mimic",
+      "double-team",
+      "harden",
+      "minimize",
+      "defense-curl",
+      "haze",
+      "self-destruct",
+      "waterfall",
+      "swift",
+      "bubble",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "spikes",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "shadow-ball",
+      "whirlpool",
+      "stockpile",
+      "spit-up",
+      "hail",
+      "facade",
+      "taunt",
+      "revenge",
+      "secret-power",
+      "dive",
+      "astonish",
+      "signal-beam",
+      "bounce",
+      "mud-shot",
+      "poison-tail",
+      "shock-wave",
+      "water-pulse",
+      "gyro-ball",
+      "brine",
+      "natural-gift",
+      "acupressure",
+      "payback",
+      "assurance",
+      "toxic-spikes",
+      "poison-jab",
+      "aqua-tail",
+      "giga-impact",
+      "gunk-shot",
+      "captivate",
+      "aqua-jet",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "round",
+      "scald",
+      "hex",
+      "fell-stinger",
+      "confide",
+      "venom-drench",
+      "throat-chop",
+      "liquidation",
+      "steel-roller",
+      "scale-shot",
+      "flip-turn",
+      "barb-barrage",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [
+      "poison-barb"
+    ],
+    "base_experience": 88,
+    "is_default": true,
+    "order": 308,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/211.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/211.png"
+    },
+    "species_name": "qwilfish",
+    "flavor_text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+    "genus": "Balloon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "gray",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/106/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 106,
+      "chain": {
+        "species_name": "qwilfish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "overqwil",
+            "evolution_details": [
+              {
+                "trigger": "strong-style-move",
+                "known_move": "barb-barrage"
+              },
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

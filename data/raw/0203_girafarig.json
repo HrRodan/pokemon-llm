@@ -1,0 +1,231 @@
+{
+  "pokemon_details": {
+    "id": 203,
+    "name": "girafarig",
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 65,
+      "special-attack": 90,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 41.5,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "girafarig"
+    ],
+    "moves": [
+      "razor-wind",
+      "stomp",
+      "double-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "psybeam",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "agility",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "foresight",
+      "endure",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "mirror-coat",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "endeavor",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "odor-sleuth",
+      "signal-beam",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "assurance",
+      "power-swap",
+      "guard-swap",
+      "sucker-punch",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "double-hit",
+      "psyshock",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "dazzling-gleam",
+      "high-horsepower",
+      "psychic-terrain",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "expanding-force",
+      "tera-blast",
+      "trailblaze",
+      "twin-beam",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "persim-berry"
+    ],
+    "base_experience": 159,
+    "is_default": true,
+    "order": 300,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/203.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/203.png"
+    },
+    "species_name": "girafarig",
+    "flavor_text": "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
+    "genus": "Long Neck Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/101/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 101,
+      "chain": {
+        "species_name": "girafarig",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "farigiraf",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "twin-beam"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

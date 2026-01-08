@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 163,
+    "name": "hoothoot",
+    "stats": {
+      "hp": 60,
+      "attack": 30,
+      "defense": 30,
+      "special-attack": 36,
+      "special-defense": 56,
+      "speed": 50
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 21.2,
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hoothoot"
+    ],
+    "moves": [
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "supersonic",
+      "psybeam",
+      "peck",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "night-shade",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "reflect",
+      "mirror-move",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "feather-dance",
+      "hyper-voice",
+      "air-cutter",
+      "silver-wind",
+      "extrasensory",
+      "aerial-ace",
+      "calm-mind",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "psycho-shift",
+      "air-slash",
+      "brave-bird",
+      "nasty-plot",
+      "zen-headbutt",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "synchronoise",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "acrobatics",
+      "work-up",
+      "hurricane",
+      "moonblast",
+      "confide",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 52,
+    "is_default": true,
+    "order": 260,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/163.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/163.png"
+    },
+    "species_name": "hoothoot",
+    "flavor_text": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+    "genus": "Owl Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "brown",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/83/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 83,
+      "chain": {
+        "species_name": "hoothoot",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "noctowl",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

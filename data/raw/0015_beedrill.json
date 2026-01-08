@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 15,
+    "name": "beedrill",
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special-attack": 45,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 29.5,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "beedrill"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "fury-attack",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "twineedle",
+      "pin-missile",
+      "hyper-beam",
+      "peck",
+      "mega-drain",
+      "solar-beam",
+      "string-shot",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "harden",
+      "reflect",
+      "focus-energy",
+      "bide",
+      "swift",
+      "skull-bash",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "sweet-scent",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "toxic-spikes",
+      "poison-jab",
+      "x-scissor",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "ominous-wind",
+      "venoshock",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "electroweb",
+      "drill-run",
+      "fell-stinger",
+      "confide",
+      "infestation",
+      "laser-focus",
+      "throat-chop",
+      "brutal-swing"
+    ],
+    "held_items": [
+      "poison-barb"
+    ],
+    "base_experience": 178,
+    "is_default": true,
+    "order": 19,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/15.png"
+    },
+    "species_name": "beedrill",
+    "flavor_text": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "genus": "Poison Bee Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/5/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 5,
+      "chain": {
+        "species_name": "weedle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kakuna",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "beedrill",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

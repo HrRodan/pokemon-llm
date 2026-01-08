@@ -1,0 +1,213 @@
+{
+  "pokemon_details": {
+    "id": 250,
+    "name": "ho-oh",
+    "stats": {
+      "hp": 106,
+      "attack": 130,
+      "defense": 90,
+      "special-attack": 110,
+      "special-defense": 154,
+      "speed": 90
+    },
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height_m": 3.8,
+    "weight_kg": 199.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ho-oh"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "fly",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "recover",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sacred-fire",
+      "dragon-breath",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "imprison",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "air-cutter",
+      "overheat",
+      "signal-beam",
+      "extrasensory",
+      "aerial-ace",
+      "calm-mind",
+      "shock-wave",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "punishment",
+      "flare-blitz",
+      "air-slash",
+      "brave-bird",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "defog",
+      "iron-head",
+      "charge-beam",
+      "ominous-wind",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "sky-drop",
+      "incinerate",
+      "bulldoze",
+      "hurricane",
+      "confide",
+      "mystical-fire",
+      "laser-focus",
+      "burn-up",
+      "life-dew",
+      "dual-wingbeat",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "sacred-ash"
+    ],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 345,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/250.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/250.png"
+    },
+    "species_name": "ho-oh",
+    "flavor_text": "Legends claim this POK\u00e9MON flies the world's skies con\u00ad tinuously on its magnificent seven- colored wings.",
+    "genus": "Rainbow Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "wings",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/128/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 128,
+      "chain": {
+        "species_name": "ho-oh",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

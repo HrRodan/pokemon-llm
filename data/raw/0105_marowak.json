@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 105,
+    "name": "marowak",
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "special-attack": 50,
+      "special-defense": 80,
+      "speed": 45
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 45.0,
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "marowak"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "tail-whip",
+      "leer",
+      "growl",
+      "flamethrower",
+      "water-gun",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "bone-club",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "bonemerang",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "detect",
+      "bone-rush",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "natural-gift",
+      "fling",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "smack-down",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "brutal-swing",
+      "stomping-tantrum",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "thick-club"
+    ],
+    "base_experience": 149,
+    "is_default": true,
+    "order": 164,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/105.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/105.png"
+    },
+    "species_name": "marowak",
+    "flavor_text": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+    "genus": "Bone Keeper Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/46/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 46,
+      "chain": {
+        "species_name": "cubone",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "marowak",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              },
+              {
+                "trigger": "level-up",
+                "min_level": 28,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

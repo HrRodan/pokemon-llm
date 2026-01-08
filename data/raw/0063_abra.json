@@ -1,0 +1,214 @@
+{
+  "pokemon_details": {
+    "id": 63,
+    "name": "abra",
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "special-attack": 105,
+      "special-defense": 55,
+      "speed": 90
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 19.5,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "abra"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "bide",
+      "metronome",
+      "swift",
+      "skull-bash",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "knock-off",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "signal-beam",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "embargo",
+      "fling",
+      "psycho-shift",
+      "power-trick",
+      "power-swap",
+      "guard-swap",
+      "drain-punch",
+      "energy-ball",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "guard-split",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "confide",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "speed-swap"
+    ],
+    "held_items": [
+      "twisted-spoon"
+    ],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 103,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/63.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/63.png"
+    },
+    "species_name": "abra",
+    "flavor_text": "Using its ability to read minds, it will identify impending danger and TELEPORT to safety.",
+    "genus": "Psi Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "urban",
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/27/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 27,
+      "chain": {
+        "species_name": "abra",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kadabra",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "alakazam",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

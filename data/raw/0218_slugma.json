@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 218,
+    "name": "slugma",
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 40,
+      "special-attack": 70,
+      "special-defense": 40,
+      "speed": 20
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 35.0,
+    "abilities": [
+      {
+        "name": "magma-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "slugma"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "ember",
+      "flamethrower",
+      "fire-spin",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "recover",
+      "harden",
+      "smokescreen",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "smog",
+      "fire-blast",
+      "amnesia",
+      "acid-armor",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "heat-wave",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "nature-power",
+      "yawn",
+      "secret-power",
+      "overheat",
+      "rock-tomb",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "natural-gift",
+      "guard-swap",
+      "power-gem",
+      "earth-power",
+      "lava-plume",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "smack-down",
+      "flame-burst",
+      "flame-charge",
+      "after-you",
+      "round",
+      "clear-smog",
+      "incinerate",
+      "inferno",
+      "bulldoze",
+      "heat-crash",
+      "confide",
+      "infestation",
+      "high-horsepower",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 316,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/218.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/218.png"
+    },
+    "species_name": "slugma",
+    "flavor_text": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+    "genus": "Lava Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "squiggle",
+    "color": "red",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/111/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 111,
+      "chain": {
+        "species_name": "slugma",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "magcargo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 38
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

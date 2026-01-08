@@ -1,0 +1,93 @@
+{
+  "pokemon_details": {
+    "id": 235,
+    "name": "smeargle",
+    "stats": {
+      "hp": 55,
+      "attack": 20,
+      "defense": 35,
+      "special-attack": 20,
+      "special-defense": 45,
+      "speed": 75
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 58.0,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "smeargle"
+    ],
+    "moves": [
+      "sketch"
+    ],
+    "held_items": [],
+    "base_experience": 88,
+    "is_default": true,
+    "order": 335,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/235.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/235.png"
+    },
+    "species_name": "smeargle",
+    "flavor_text": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+    "genus": "Painter Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "urban",
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/121/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 121,
+      "chain": {
+        "species_name": "smeargle",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 152,
+    "name": "chikorita",
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 65,
+      "special-attack": 49,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 6.4,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "chikorita"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "vine-whip",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "counter",
+      "leech-seed",
+      "razor-leaf",
+      "solar-beam",
+      "poison-powder",
+      "toxic",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "detect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "sweet-scent",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "ingrain",
+      "magic-coat",
+      "refresh",
+      "secret-power",
+      "aromatherapy",
+      "fake-tears",
+      "grass-whistle",
+      "bullet-seed",
+      "magical-leaf",
+      "natural-gift",
+      "wring-out",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "round",
+      "echoed-voice",
+      "heal-pulse",
+      "grass-pledge",
+      "work-up",
+      "grassy-terrain",
+      "confide",
+      "solar-blade",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "lum-berry"
+    ],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 249,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/152.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/152.png"
+    },
+    "species_name": "chikorita",
+    "flavor_text": "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
+    "genus": "Leaf Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/79/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 79,
+      "chain": {
+        "species_name": "chikorita",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bayleef",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "meganium",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 32
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

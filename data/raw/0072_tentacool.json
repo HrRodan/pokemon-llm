@@ -1,0 +1,213 @@
+{
+  "pokemon_details": {
+    "id": 72,
+    "name": "tentacool",
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "types": [
+      "water",
+      "poison"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 45.5,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "liquid-ooze",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tentacool"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "bind",
+      "headbutt",
+      "wrap",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "supersonic",
+      "acid",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "mega-drain",
+      "toxic",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "barrier",
+      "haze",
+      "reflect",
+      "bide",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "constrict",
+      "bubble",
+      "acid-armor",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "mirror-coat",
+      "whirlpool",
+      "hail",
+      "facade",
+      "magic-coat",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "tickle",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "acupressure",
+      "payback",
+      "wring-out",
+      "toxic-spikes",
+      "aqua-ring",
+      "poison-jab",
+      "cross-poison",
+      "gunk-shot",
+      "captivate",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "round",
+      "scald",
+      "hex",
+      "confide",
+      "dazzling-gleam",
+      "infestation",
+      "throat-chop",
+      "brutal-swing",
+      "liquidation",
+      "flip-turn",
+      "tera-blast",
+      "pounce",
+      "chilling-water"
+    ],
+    "held_items": [
+      "poison-barb"
+    ],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 113,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/72.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/72.png"
+    },
+    "species_name": "tentacool",
+    "flavor_text": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
+    "genus": "Jellyfish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "tentacles",
+    "color": "blue",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/30/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 30,
+      "chain": {
+        "species_name": "tentacool",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "tentacruel",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

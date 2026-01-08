@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 30,
+    "name": "nidorina",
+    "stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 56
+    },
+    "types": [
+      "poison"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 20.0,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "nidorina"
+    ],
+    "moves": [
+      "scratch",
+      "cut",
+      "double-kick",
+      "headbutt",
+      "horn-drill",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "poison-sting",
+      "bite",
+      "growl",
+      "water-gun",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "counter",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "reflect",
+      "focus-energy",
+      "bide",
+      "skull-bash",
+      "fury-swipes",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "detect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "beat-up",
+      "flatter",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "poison-fang",
+      "aerial-ace",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "toxic-spikes",
+      "poison-jab",
+      "earth-power",
+      "shadow-claw",
+      "captivate",
+      "hone-claws",
+      "venoshock",
+      "round",
+      "echoed-voice",
+      "confide",
+      "venom-drench",
+      "stomping-tantrum"
+    ],
+    "held_items": [],
+    "base_experience": 128,
+    "is_default": true,
+    "order": 58,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/30.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/30.png"
+    },
+    "species_name": "nidorina",
+    "flavor_text": "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+    "genus": "Poison Pin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/12/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 12,
+      "chain": {
+        "species_name": "nidoran-f",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "nidorina",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "nidoqueen",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "moon-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

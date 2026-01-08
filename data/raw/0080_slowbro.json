@@ -1,0 +1,276 @@
+{
+  "pokemon_details": {
+    "id": 80,
+    "name": "slowbro",
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 78.5,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "slowbro"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "ice-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "disable",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunder-wave",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "withdraw",
+      "light-screen",
+      "reflect",
+      "bide",
+      "metronome",
+      "fire-blast",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "yawn",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "dive",
+      "slack-off",
+      "weather-ball",
+      "signal-beam",
+      "muddy-water",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "calm-mind",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "fling",
+      "aqua-tail",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "avalanche",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "foul-play",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "scald",
+      "heal-pulse",
+      "incinerate",
+      "bulldoze",
+      "razor-shell",
+      "confide",
+      "psychic-terrain",
+      "liquidation",
+      "body-press",
+      "expanding-force",
+      "tera-blast",
+      "snowscape",
+      "chilling-water",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "kings-rock"
+    ],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 127,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/80.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/80.png"
+    },
+    "species_name": "slowbro",
+    "flavor_text": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+    "genus": "Hermit Crab Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/33/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 33,
+      "chain": {
+        "species_name": "slowpoke",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "slowbro",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              },
+              {
+                "trigger": "use-item",
+                "item": "galarica-cuff"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "slowking",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "kings-rock"
+              },
+              {
+                "trigger": "use-item",
+                "item": "galarica-wreath"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

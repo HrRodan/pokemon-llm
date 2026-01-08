@@ -1,0 +1,206 @@
+{
+  "pokemon_details": {
+    "id": 234,
+    "name": "stantler",
+    "stats": {
+      "hp": 73,
+      "attack": 95,
+      "defense": 62,
+      "special-attack": 85,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 71.2,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "stantler"
+    ],
+    "moves": [
+      "stomp",
+      "double-kick",
+      "jump-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "disable",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "mud-sport",
+      "astonish",
+      "signal-beam",
+      "extrasensory",
+      "bounce",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "me-first",
+      "last-resort",
+      "sucker-punch",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "charge-beam",
+      "psyshock",
+      "magic-room",
+      "entrainment",
+      "round",
+      "stored-power",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "confide",
+      "throat-chop",
+      "lunge",
+      "psyshield-bash",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 163,
+    "is_default": true,
+    "order": 334,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/234.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/234.png"
+    },
+    "species_name": "stantler",
+    "flavor_text": "The curved antlers subtly change the flow of air to create a strange space where real\u00ad ity is distorted.",
+    "genus": "Big Horn Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/120/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 120,
+      "chain": {
+        "species_name": "stantler",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wyrdeer",
+            "evolution_details": [
+              {
+                "trigger": "agile-style-move",
+                "known_move": "psyshield-bash"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

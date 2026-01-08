@@ -92,9 +92,24 @@ class PokemonAPIClient:
         "generation-ix": {"name": "Generation IX", "region": "Paldea"},
     }
 
-    def __init__(self, cache_dir: Union[str, Path] = ".pokemon_cache"):
-        self.cache_dir = Path(cache_dir)
-        self.cache_dir.mkdir(parents=True, exist_ok=True)
+    def __init__(
+        self,
+        cache_dir: Optional[Union[str, Path]] = None,
+        enable_cache: bool = True,
+    ):
+        self.enable_cache = enable_cache
+
+        # Determine project root (parent of 'pokemon_tools' folder)
+        project_root = Path(__file__).resolve().parent.parent
+
+        if cache_dir is None:
+            self.cache_dir = project_root / ".pokemon_cache"
+        else:
+            self.cache_dir = Path(cache_dir)
+
+        if self.enable_cache:
+            self.cache_dir.mkdir(parents=True, exist_ok=True)
+
         # Cache expires after 24 hours by default
         self.cache_ttl = 160000
 
@@ -143,17 +158,19 @@ class PokemonAPIClient:
         """
         Generic GET request with caching.
         """
-        cache_path = self._get_cache_path(endpoint, identifier)
-        cached_data = self._load_from_cache(cache_path)
-        if cached_data:
-            return cached_data
+        if self.enable_cache:
+            cache_path = self._get_cache_path(endpoint, identifier)
+            cached_data = self._load_from_cache(cache_path)
+            if cached_data:
+                return cached_data
 
         url = self._get_url(endpoint, identifier)
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
 
-        self._save_to_cache(cache_path, data)
+        if self.enable_cache:
+            self._save_to_cache(cache_path, data)
         return data
 
     def _clean_text(self, text: str) -> str:
@@ -458,11 +475,11 @@ class PokemonAPIClient:
         """
         try:
             safe_name = name.lower().replace(" ", "_")
-            cache_path = self.cache_dir / f"encounters_{safe_name}.json"
-
-            cached_data = self._load_from_cache(cache_path)
-            if cached_data:
-                return cached_data
+            if self.enable_cache:
+                cache_path = self.cache_dir / f"encounters_{safe_name}.json"
+                cached_data = self._load_from_cache(cache_path)
+                if cached_data:
+                    return cached_data
 
             url = f"{self.BASE_URL}/pokemon/{name.lower()}/encounters"
             response = requests.get(url)
@@ -473,7 +490,8 @@ class PokemonAPIClient:
             data = response.json()
 
             # Cache the raw list
-            self._save_to_cache(cache_path, data)
+            if self.enable_cache:
+                self._save_to_cache(cache_path, data)
 
             # Process data
             if not data:
@@ -669,6 +687,7 @@ You have access to external Python functions (Tools) to retrieve live data. **Ne
 
 ## 3. Process
 * **Input:** Use the name provided by the user (or search/infer the closest match if the name is not exact) for tool calls (e.g., "Charizard" -> `get_pokemon_details("charizard")`).
+* **Parallel Execution:** You can and should make **multiple tool calls simultaneously** if you need data for more than one entity. For example, if asked about Charmander and Squirtle, call `get_pokemon_details("charmander")` and `get_pokemon_details("squirtle")` in the same turn.
 * **Output:** Incorporate the returned JSON data naturally into your response.
 
 ## 4. Strategy for Complex Questions (Chain of Thought)

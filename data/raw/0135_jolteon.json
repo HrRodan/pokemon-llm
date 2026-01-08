@@ -1,0 +1,297 @@
+{
+  "pokemon_details": {
+    "id": 135,
+    "name": "jolteon",
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 130
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 24.5,
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "jolteon"
+    ],
+    "moves": [
+      "pay-day",
+      "double-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "pin-missile",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "bide",
+      "swift",
+      "skull-bash",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "charm",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "charge",
+      "helping-hand",
+      "yawn",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "fake-tears",
+      "metal-sound",
+      "signal-beam",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "copycat",
+      "last-resort",
+      "magnet-rise",
+      "giga-impact",
+      "thunder-fang",
+      "discharge",
+      "captivate",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "retaliate",
+      "volt-switch",
+      "work-up",
+      "electroweb",
+      "wild-charge",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "baby-doll-eyes",
+      "laser-focus",
+      "rising-voltage",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 218,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/135.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/135.png"
+    },
+    "species_name": "jolteon",
+    "flavor_text": "It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts.",
+    "genus": "Lightning Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 35,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 67,
+      "chain": {
+        "species_name": "eevee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vaporeon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "jolteon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "flareon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "espeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "umbreon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "leafeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "eterna-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "pinwheel-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-20"
+              },
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "glaceon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "sinnoh-route-217"
+              },
+              {
+                "trigger": "level-up",
+                "location": "twist-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "frost-cavern"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "sylveon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move_type": "fairy"
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "known_move_type": "fairy"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "pokemon_details": {
+    "id": 131,
+    "name": "lapras",
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 95,
+      "speed": 60
+    },
+    "types": [
+      "water",
+      "ice"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 220.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lapras"
+    ],
+    "moves": [
+      "headbutt",
+      "horn-drill",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "sing",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "dragon-rage",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "toxic",
+      "psychic",
+      "rage",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "reflect",
+      "bide",
+      "waterfall",
+      "skull-bash",
+      "dream-eater",
+      "psywave",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "foresight",
+      "perish-song",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "refresh",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "weather-ball",
+      "tickle",
+      "signal-beam",
+      "sheer-cold",
+      "muddy-water",
+      "icicle-spear",
+      "block",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "aqua-tail",
+      "dragon-pulse",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "zen-headbutt",
+      "iron-head",
+      "captivate",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "frost-breath",
+      "drill-run",
+      "freeze-dry",
+      "disarming-voice",
+      "confide",
+      "sparkling-aria",
+      "smart-strike",
+      "liquidation",
+      "body-press",
+      "life-dew",
+      "tera-blast",
+      "snowscape",
+      "chilling-water",
+      "dragon-cheer",
+      "alluring-voice",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "mystic-water"
+    ],
+    "base_experience": 187,
+    "is_default": true,
+    "order": 213,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/131.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/131.png"
+    },
+    "species_name": "lapras",
+    "flavor_text": "A POK\u00e9MON that has been over\u00ad hunted almost to extinction. It can ferry people across the water.",
+    "genus": "Transport Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/65/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 65,
+      "chain": {
+        "species_name": "lapras",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

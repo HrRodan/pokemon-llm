@@ -1,0 +1,185 @@
+{
+  "pokemon_details": {
+    "id": 231,
+    "name": "phanpy",
+    "stats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 40
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 33.5,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "phanpy"
+    ],
+    "moves": [
+      "slam",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "water-gun",
+      "counter",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "odor-sleuth",
+      "rock-tomb",
+      "sand-tomb",
+      "mud-shot",
+      "natural-gift",
+      "last-resort",
+      "seed-bomb",
+      "earth-power",
+      "ice-shard",
+      "gunk-shot",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "play-rough",
+      "confide",
+      "high-horsepower",
+      "stomping-tantrum",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "passho-berry"
+    ],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 332,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/231.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/231.png"
+    },
+    "species_name": "phanpy",
+    "flavor_text": "It swings its long snout around play\u00ad fully, but because it is so strong, that can be dan\u00ad gerous.",
+    "genus": "Long Nose Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "rough-terrain",
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/119/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 119,
+      "chain": {
+        "species_name": "phanpy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "donphan",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "pokemon_details": {
+    "id": 198,
+    "name": "murkrow",
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 42,
+      "special-attack": 85,
+      "special-defense": 42,
+      "speed": 91
+    },
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 2.1,
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "prankster",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "murkrow"
+    ],
+    "moves": [
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "peck",
+      "drill-peck",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "quick-attack",
+      "night-shade",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "mirror-move",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "perish-song",
+      "icy-wind",
+      "detect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "flatter",
+      "facade",
+      "taunt",
+      "snatch",
+      "secret-power",
+      "feather-dance",
+      "astonish",
+      "air-cutter",
+      "aerial-ace",
+      "calm-mind",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "embargo",
+      "psycho-shift",
+      "punishment",
+      "sucker-punch",
+      "dark-pulse",
+      "night-slash",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "nasty-plot",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "foul-play",
+      "round",
+      "hex",
+      "quash",
+      "acrobatics",
+      "retaliate",
+      "hurricane",
+      "snarl",
+      "confide",
+      "lash-out",
+      "dual-wingbeat",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 81,
+    "is_default": true,
+    "order": 293,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/198.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/198.png"
+    },
+    "species_name": "murkrow",
+    "flavor_text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "genus": "Darkness Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "black",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/97/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 97,
+      "chain": {
+        "species_name": "murkrow",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "honchkrow",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "dusk-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

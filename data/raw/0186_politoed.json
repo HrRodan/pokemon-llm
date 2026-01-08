@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 186,
+    "name": "politoed",
+    "stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "special-attack": 90,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 33.9,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "damp",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "drizzle",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "politoed"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "mega-punch",
+      "ice-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "haze",
+      "metronome",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "perish-song",
+      "icy-wind",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "weather-ball",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "water-pulse",
+      "natural-gift",
+      "payback",
+      "fling",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "captivate",
+      "low-sweep",
+      "round",
+      "echoed-voice",
+      "scald",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "liquidation",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [
+      "kings-rock"
+    ],
+    "base_experience": 225,
+    "is_default": true,
+    "order": 102,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/186.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/186.png"
+    },
+    "species_name": "politoed",
+    "flavor_text": "If POLIWAG and POLIWHIRL hear its echoing cry, they respond by gather\u00ad ing from far and wide.",
+    "genus": "Frog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/26/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 26,
+      "chain": {
+        "species_name": "poliwag",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "poliwhirl",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "poliwrath",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "water-stone"
+                  }
+                ],
+                "evolves_to": []
+              },
+              {
+                "species_name": "politoed",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "kings-rock"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

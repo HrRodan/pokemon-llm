@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 12,
+    "name": "butterfree",
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 70
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 32.0,
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "butterfree"
+    ],
+    "moves": [
+      "razor-wind",
+      "gust",
+      "whirlwind",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "psybeam",
+      "hyper-beam",
+      "mega-drain",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "string-shot",
+      "toxic",
+      "confusion",
+      "psychic",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "harden",
+      "reflect",
+      "bide",
+      "swift",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "sweet-scent",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "facade",
+      "skill-swap",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "ominous-wind",
+      "venoshock",
+      "rage-powder",
+      "quiver-dance",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "electroweb",
+      "hurricane",
+      "draining-kiss",
+      "confide",
+      "infestation",
+      "pollen-puff",
+      "dual-wingbeat"
+    ],
+    "held_items": [
+      "silver-powder"
+    ],
+    "base_experience": 178,
+    "is_default": true,
+    "order": 16,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/12.png"
+    },
+    "species_name": "butterfree",
+    "flavor_text": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+    "genus": "Butterfly Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "white",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/4/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 4,
+      "chain": {
+        "species_name": "caterpie",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "metapod",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "butterfree",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

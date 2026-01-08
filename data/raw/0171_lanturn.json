@@ -1,0 +1,205 @@
+{
+  "pokemon_details": {
+    "id": 171,
+    "name": "lanturn",
+    "stats": {
+      "hp": 125,
+      "attack": 58,
+      "defense": 58,
+      "special-attack": 76,
+      "special-defense": 76,
+      "speed": 67
+    },
+    "types": [
+      "water",
+      "electric"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 22.5,
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "illuminate",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lanturn"
+    ],
+    "moves": [
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "waterfall",
+      "amnesia",
+      "bubble",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "zap-cannon",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "hail",
+      "facade",
+      "charge",
+      "secret-power",
+      "dive",
+      "signal-beam",
+      "muddy-water",
+      "bounce",
+      "shock-wave",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "sucker-punch",
+      "aqua-ring",
+      "aqua-tail",
+      "giga-impact",
+      "discharge",
+      "captivate",
+      "charge-beam",
+      "electro-ball",
+      "soak",
+      "round",
+      "scald",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "ion-deluge",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "dazzling-gleam",
+      "spotlight",
+      "liquidation",
+      "rising-voltage",
+      "flip-turn",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [
+      "yellow-shard",
+      "deep-sea-scale"
+    ],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 267,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/171.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/171.png"
+    },
+    "species_name": "lanturn",
+    "flavor_text": "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+    "genus": "Light Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/86/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 86,
+      "chain": {
+        "species_name": "chinchou",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lanturn",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 27
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

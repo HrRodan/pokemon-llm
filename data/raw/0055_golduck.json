@@ -1,0 +1,230 @@
+{
+  "pokemon_details": {
+    "id": 55,
+    "name": "golduck",
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "special-attack": 95,
+      "special-defense": 80,
+      "speed": 85
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 76.6,
+    "abilities": [
+      {
+        "name": "damp",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "golduck"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "ice-punch",
+      "scratch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "disable",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "haze",
+      "bide",
+      "metronome",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "amnesia",
+      "bubble",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "brick-break",
+      "yawn",
+      "knock-off",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "dive",
+      "signal-beam",
+      "muddy-water",
+      "aerial-ace",
+      "mud-shot",
+      "water-sport",
+      "calm-mind",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "fling",
+      "me-first",
+      "worry-seed",
+      "aqua-tail",
+      "power-gem",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "zen-headbutt",
+      "rock-climb",
+      "captivate",
+      "grass-knot",
+      "aqua-jet",
+      "hone-claws",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "soak",
+      "low-sweep",
+      "round",
+      "scald",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "liquidation",
+      "flip-turn",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 94,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/55.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/55.png"
+    },
+    "species_name": "golduck",
+    "flavor_text": "Often seen swim\u00ad ming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+    "genus": "Duck Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/23/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 23,
+      "chain": {
+        "species_name": "psyduck",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "golduck",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

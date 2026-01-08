@@ -1,0 +1,232 @@
+{
+  "pokemon_details": {
+    "id": 75,
+    "name": "graveler",
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 105.0,
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "graveler"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "flamethrower",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "bide",
+      "metronome",
+      "self-destruct",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "dynamic-punch",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "mud-sport",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "hammer-arm",
+      "gyro-ball",
+      "natural-gift",
+      "fling",
+      "sucker-punch",
+      "rock-polish",
+      "focus-blast",
+      "earth-power",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "tera-blast",
+      "hard-press"
+    ],
+    "held_items": [
+      "everstone",
+      "hard-stone"
+    ],
+    "base_experience": 137,
+    "is_default": true,
+    "order": 117,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/75.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/75.png"
+    },
+    "species_name": "graveler",
+    "flavor_text": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+    "genus": "Rock Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/31/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 31,
+      "chain": {
+        "species_name": "geodude",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "graveler",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "golem",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

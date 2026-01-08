@@ -1,0 +1,220 @@
+{
+  "pokemon_details": {
+    "id": 95,
+    "name": "onix",
+    "stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "special-attack": 30,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "height_m": 8.8,
+    "weight_kg": 210.0,
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "onix"
+    ],
+    "moves": [
+      "bind",
+      "slam",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "bide",
+      "self-destruct",
+      "skull-bash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "torment",
+      "facade",
+      "nature-power",
+      "taunt",
+      "secret-power",
+      "mud-sport",
+      "rock-tomb",
+      "sand-tomb",
+      "block",
+      "dragon-dance",
+      "rock-blast",
+      "gyro-ball",
+      "natural-gift",
+      "payback",
+      "rock-polish",
+      "dragon-pulse",
+      "earth-power",
+      "flash-cannon",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "dragon-tail",
+      "drill-run",
+      "rototiller",
+      "confide",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "meteor-beam",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "hard-stone"
+    ],
+    "base_experience": 77,
+    "is_default": true,
+    "order": 151,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/95.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png"
+    },
+    "species_name": "onix",
+    "flavor_text": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
+    "genus": "Rock Snake Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "squiggle",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/41/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 41,
+      "chain": {
+        "species_name": "onix",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "steelix",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "metal-coat"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

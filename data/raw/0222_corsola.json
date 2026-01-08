@@ -1,0 +1,223 @@
+{
+  "pokemon_details": {
+    "id": 222,
+    "name": "corsola",
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 95,
+      "special-attack": 65,
+      "special-defense": 95,
+      "speed": 35
+    },
+    "types": [
+      "water",
+      "rock"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 5.0,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "corsola"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "psychic",
+      "mimic",
+      "screech",
+      "double-team",
+      "recover",
+      "harden",
+      "confuse-ray",
+      "defense-curl",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "spike-cannon",
+      "amnesia",
+      "bubble",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "mirror-coat",
+      "ancient-power",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "magic-coat",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "camouflage",
+      "rock-tomb",
+      "icicle-spear",
+      "iron-defense",
+      "calm-mind",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "lucky-chant",
+      "sucker-punch",
+      "aqua-ring",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "round",
+      "scald",
+      "bulldoze",
+      "confide",
+      "throat-chop",
+      "stomping-tantrum",
+      "liquidation",
+      "life-dew",
+      "meteor-beam"
+    ],
+    "held_items": [
+      "red-shard",
+      "hard-stone",
+      "luminous-moss"
+    ],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 321,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/222.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/222.png"
+    },
+    "species_name": "corsola",
+    "flavor_text": "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty.",
+    "genus": "Coral Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "sea",
+    "shape": "armor",
+    "color": "pink",
+    "egg_groups": [
+      "water1",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/113/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 113,
+      "chain": {
+        "species_name": "corsola",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cursola",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 38
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

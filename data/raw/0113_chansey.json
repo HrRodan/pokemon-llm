@@ -1,0 +1,263 @@
+{
+  "pokemon_details": {
+    "id": 113,
+    "name": "chansey",
+    "stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "special-attack": 35,
+      "special-defense": 105,
+      "speed": 50
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 34.6,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "healer",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "chansey"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "growl",
+      "sing",
+      "flamethrower",
+      "water-gun",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "minimize",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "bide",
+      "metronome",
+      "egg-bomb",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "soft-boiled",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "recycle",
+      "brick-break",
+      "endeavor",
+      "skill-swap",
+      "refresh",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "aromatherapy",
+      "rock-tomb",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "gravity",
+      "healing-wish",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "last-resort",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "mud-bomb",
+      "zen-headbutt",
+      "rock-climb",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "telekinesis",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "incinerate",
+      "retaliate",
+      "bestow",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "disarming-voice",
+      "draining-kiss",
+      "fairy-wind",
+      "confide",
+      "electric-terrain",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "power-up-punch",
+      "laser-focus",
+      "stomping-tantrum",
+      "life-dew",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "oval-stone",
+      "lucky-egg",
+      "lucky-punch"
+    ],
+    "base_experience": 395,
+    "is_default": true,
+    "order": 180,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/113.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/113.png"
+    },
+    "species_name": "chansey",
+    "flavor_text": "A rare and elusive POK\u00e9MON that is said to bring happiness to those who manage to get it.",
+    "genus": "Egg Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 140,
+    "hatch_counter": 40,
+    "growth_rate": "fast",
+    "habitat": "urban",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/51/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 51,
+      "chain": {
+        "species_name": "happiny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "chansey",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "time_of_day": "day",
+                "held_item": "oval-stone"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "blissey",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_happiness": 160
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

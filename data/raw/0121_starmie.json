@@ -1,0 +1,215 @@
+{
+  "pokemon_details": {
+    "id": 121,
+    "name": "starmie",
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 115
+    },
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 80.0,
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "starmie"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "agility",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "recover",
+      "harden",
+      "minimize",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "bide",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "rapid-spin",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "hail",
+      "facade",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "secret-power",
+      "dive",
+      "cosmic-power",
+      "signal-beam",
+      "water-pulse",
+      "gravity",
+      "gyro-ball",
+      "brine",
+      "natural-gift",
+      "power-gem",
+      "giga-impact",
+      "avalanche",
+      "psycho-cut",
+      "flash-cannon",
+      "trick-room",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "ally-switch",
+      "scald",
+      "confide",
+      "dazzling-gleam",
+      "spotlight",
+      "expanding-force",
+      "meteor-beam",
+      "flip-turn"
+    ],
+    "held_items": [
+      "stardust",
+      "star-piece"
+    ],
+    "base_experience": 182,
+    "is_default": true,
+    "order": 192,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/121.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png"
+    },
+    "species_name": "starmie",
+    "flavor_text": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+    "genus": "Mysterious Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "blob",
+    "color": "purple",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/56/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 56,
+      "chain": {
+        "species_name": "staryu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "starmie",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

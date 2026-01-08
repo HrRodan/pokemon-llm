@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 233,
+    "name": "porygon2",
+    "stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 90,
+      "special-attack": 105,
+      "special-defense": 95,
+      "speed": 60
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 32.5,
+    "abilities": [
+      {
+        "name": "trace",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "download",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "porygon2"
+    ],
+    "moves": [
+      "tackle",
+      "take-down",
+      "double-edge",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "agility",
+      "mimic",
+      "double-team",
+      "recover",
+      "defense-curl",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "conversion",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "conversion-2",
+      "protect",
+      "zap-cannon",
+      "icy-wind",
+      "lock-on",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "facade",
+      "charge",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "secret-power",
+      "signal-beam",
+      "aerial-ace",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "power-swap",
+      "guard-swap",
+      "last-resort",
+      "magnet-rise",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "discharge",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "electroweb",
+      "confide",
+      "eerie-impulse",
+      "speed-swap",
+      "tera-blast"
+    ],
+    "held_items": [
+      "up-grade"
+    ],
+    "base_experience": 180,
+    "is_default": true,
+    "order": 226,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/233.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/233.png"
+    },
+    "species_name": "porygon2",
+    "flavor_text": "This upgraded version of PORYGON is designed for space exploration. It can't fly, though.",
+    "genus": "Virtual Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "legs",
+    "color": "red",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/68/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 68,
+      "chain": {
+        "species_name": "porygon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "porygon2",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "up-grade"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "porygon-z",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "dubious-disc"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

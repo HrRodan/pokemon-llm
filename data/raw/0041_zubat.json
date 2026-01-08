@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 41,
+    "name": "zubat",
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special-attack": 30,
+      "special-defense": 40,
+      "speed": 55
+    },
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 7.5,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "zubat"
+    ],
+    "moves": [
+      "razor-wind",
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "bite",
+      "supersonic",
+      "absorb",
+      "mega-drain",
+      "toxic",
+      "hypnosis",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "bide",
+      "swift",
+      "leech-life",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "feint-attack",
+      "sludge-bomb",
+      "detect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "snatch",
+      "secret-power",
+      "poison-fang",
+      "astonish",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "air-slash",
+      "brave-bird",
+      "nasty-plot",
+      "zen-headbutt",
+      "defog",
+      "cross-poison",
+      "captivate",
+      "ominous-wind",
+      "venoshock",
+      "round",
+      "quick-guard",
+      "acrobatics",
+      "confide",
+      "venom-drench",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 49,
+    "is_default": true,
+    "order": 73,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/41.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/41.png"
+    },
+    "species_name": "zubat",
+    "flavor_text": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
+    "genus": "Bat Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/17/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 17,
+      "chain": {
+        "species_name": "zubat",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "golbat",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "crobat",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_happiness": 160
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

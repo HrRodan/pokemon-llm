@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 236,
+    "name": "tyrogue",
+    "stats": {
+      "hp": 35,
+      "attack": 35,
+      "defense": 35,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 35
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 21.0,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tyrogue"
+    ],
+    "moves": [
+      "mega-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "swift",
+      "high-jump-kick",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "snore",
+      "curse",
+      "protect",
+      "mach-punch",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "role-play",
+      "brick-break",
+      "secret-power",
+      "bulk-up",
+      "covet",
+      "natural-gift",
+      "feint",
+      "vacuum-wave",
+      "bullet-punch",
+      "captivate",
+      "low-sweep",
+      "round",
+      "ally-switch",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "laser-focus",
+      "tera-blast",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 42,
+    "is_default": true,
+    "order": 167,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/236.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/236.png"
+    },
+    "species_name": "tyrogue",
+    "flavor_text": "It is always bursting with en\u00ad ergy. To make it\u00ad self stronger, it keeps on fighting even if it loses.",
+    "genus": "Scuffle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/47/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 47,
+      "chain": {
+        "species_name": "tyrogue",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hitmonlee",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "hitmonchan",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "hitmontop",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}
