@@ -158,6 +158,8 @@ class PokemonAPIClient:
         """
         Generic GET request with caching.
         """
+
+        cache_path = None
         if self.enable_cache:
             cache_path = self._get_cache_path(endpoint, identifier)
             cached_data = self._load_from_cache(cache_path)
@@ -169,7 +171,7 @@ class PokemonAPIClient:
         response.raise_for_status()
         data = response.json()
 
-        if self.enable_cache:
+        if self.enable_cache and cache_path:
             self._save_to_cache(cache_path, data)
         return data
 
@@ -475,6 +477,7 @@ class PokemonAPIClient:
         """
         try:
             safe_name = name.lower().replace(" ", "_")
+            cache_path = None
             if self.enable_cache:
                 cache_path = self.cache_dir / f"encounters_{safe_name}.json"
                 cached_data = self._load_from_cache(cache_path)
@@ -490,7 +493,7 @@ class PokemonAPIClient:
             data = response.json()
 
             # Cache the raw list
-            if self.enable_cache:
+            if self.enable_cache and cache_path:
                 self._save_to_cache(cache_path, data)
 
             # Process data
