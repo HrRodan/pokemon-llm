@@ -1,0 +1,243 @@
+{
+  "pokemon_details": {
+    "id": 183,
+    "name": "marill",
+    "stats": {
+      "hp": 70,
+      "attack": 20,
+      "defense": 50,
+      "special-attack": 20,
+      "special-defense": 50,
+      "speed": 40
+    },
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 8.5,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "huge-power",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "marill"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "slam",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "sing",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "seismic-toss",
+      "strength",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "metronome",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "bubble",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "foresight",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "present",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "refresh",
+      "secret-power",
+      "dive",
+      "camouflage",
+      "hyper-voice",
+      "fake-tears",
+      "tickle",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "aqua-ring",
+      "aqua-tail",
+      "captivate",
+      "grass-knot",
+      "aqua-jet",
+      "soak",
+      "round",
+      "scald",
+      "bulldoze",
+      "work-up",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "confide",
+      "power-up-punch",
+      "brutal-swing",
+      "liquidation",
+      "steel-roller",
+      "misty-explosion",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "trailblaze",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 88,
+    "is_default": true,
+    "order": 278,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/183.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/183.png"
+    },
+    "species_name": "marill",
+    "flavor_text": "The tip of its tail, which con\u00ad tains oil that is lighter than wa\u00ad ter, lets it swim without drowning.",
+    "genus": "Aqua Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/90/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 90,
+      "chain": {
+        "species_name": "azurill",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "marill",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "azumarill",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 18
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

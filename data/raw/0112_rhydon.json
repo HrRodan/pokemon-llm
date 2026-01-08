@@ -1,0 +1,278 @@
+{
+  "pokemon_details": {
+    "id": 112,
+    "name": "rhydon",
+    "stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 40
+    },
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 120.0,
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rhydon"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "stomp",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "horn-attack",
+      "fury-attack",
+      "horn-drill",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "leer",
+      "roar",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "bide",
+      "fire-blast",
+      "skull-bash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "megahorn",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "shock-wave",
+      "hammer-arm",
+      "natural-gift",
+      "metal-burst",
+      "payback",
+      "fling",
+      "rock-polish",
+      "poison-jab",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "rock-climb",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "guard-split",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "chip-away",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "drill-run",
+      "heat-crash",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "smart-strike",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "meteor-beam",
+      "scorching-sands",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 177,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/112.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/112.png"
+    },
+    "species_name": "rhydon",
+    "flavor_text": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+    "genus": "Drill Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "monster",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/50/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 50,
+      "chain": {
+        "species_name": "rhyhorn",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rhydon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 42
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "rhyperior",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "protector"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

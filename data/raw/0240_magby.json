@@ -1,0 +1,202 @@
+{
+  "pokemon_details": {
+    "id": 240,
+    "name": "magby",
+    "stats": {
+      "hp": 45,
+      "attack": 75,
+      "defense": 37,
+      "special-attack": 70,
+      "special-defense": 55,
+      "speed": 83
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 21.4,
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "magby"
+    ],
+    "moves": [
+      "karate-chop",
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "ember",
+      "flamethrower",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "fire-spin",
+      "toxic",
+      "psychic",
+      "mimic",
+      "screech",
+      "double-team",
+      "smokescreen",
+      "confuse-ray",
+      "barrier",
+      "focus-energy",
+      "smog",
+      "fire-blast",
+      "poison-gas",
+      "rest",
+      "substitute",
+      "thief",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "protect",
+      "mach-punch",
+      "scary-face",
+      "feint-attack",
+      "belly-drum",
+      "mud-slap",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "cross-chop",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "overheat",
+      "covet",
+      "natural-gift",
+      "fling",
+      "power-swap",
+      "flare-blitz",
+      "poison-jab",
+      "lava-plume",
+      "captivate",
+      "flame-burst",
+      "flame-charge",
+      "acid-spray",
+      "round",
+      "clear-smog",
+      "incinerate",
+      "dual-chop",
+      "belch",
+      "confide",
+      "power-up-punch",
+      "burning-jealousy",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [
+      "rawst-berry",
+      "magmarizer"
+    ],
+    "base_experience": 73,
+    "is_default": true,
+    "order": 204,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/240.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/240.png"
+    },
+    "species_name": "magby",
+    "flavor_text": "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
+    "genus": "Live Coal Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/61/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 61,
+      "chain": {
+        "species_name": "magby",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "magmar",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "magmortar",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "magmarizer"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 28,
+    "name": "sandslash",
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 29.5,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sandslash"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "pin-missile",
+      "hyper-beam",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "swift",
+      "skull-bash",
+      "amnesia",
+      "leech-life",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "spikes",
+      "detect",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "magnitude",
+      "dynamic-punch",
+      "rapid-spin",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "crush-claw",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "mud-shot",
+      "covet",
+      "gyro-ball",
+      "natural-gift",
+      "fling",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "rock-climb",
+      "gunk-shot",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "hone-claws",
+      "smack-down",
+      "round",
+      "bulldoze",
+      "work-up",
+      "drill-run",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "stomping-tantrum",
+      "steel-roller",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "quick-claw",
+      "soft-sand",
+      "grip-claw"
+    ],
+    "base_experience": 158,
+    "is_default": true,
+    "order": 55,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/28.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/28.png"
+    },
+    "species_name": "sandslash",
+    "flavor_text": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "rough-terrain",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/11/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 11,
+      "chain": {
+        "species_name": "sandshrew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sandslash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

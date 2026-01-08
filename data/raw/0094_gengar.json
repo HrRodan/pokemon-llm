@@ -1,0 +1,247 @@
+{
+  "pokemon_details": {
+    "id": 94,
+    "name": "gengar",
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 130,
+      "special-defense": 75,
+      "speed": 110
+    },
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 40.5,
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gengar"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "disable",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "mega-drain",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "rage",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "bide",
+      "metronome",
+      "self-destruct",
+      "lick",
+      "smog",
+      "skull-bash",
+      "dream-eater",
+      "poison-gas",
+      "psywave",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "zap-cannon",
+      "destiny-bond",
+      "perish-song",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "dynamic-punch",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "role-play",
+      "brick-break",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "shadow-punch",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "fling",
+      "sucker-punch",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "trick-room",
+      "gunk-shot",
+      "captivate",
+      "ominous-wind",
+      "wonder-room",
+      "venoshock",
+      "telekinesis",
+      "sludge-wave",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "reflect-type",
+      "phantom-force",
+      "confide",
+      "dazzling-gleam",
+      "infestation",
+      "power-up-punch",
+      "laser-focus",
+      "skitter-smack",
+      "poltergeist",
+      "corrosive-gas",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "spell-tag"
+    ],
+    "base_experience": 225,
+    "is_default": true,
+    "order": 149,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/94.png"
+    },
+    "species_name": "gengar",
+    "flavor_text": "Under a full moon, this POK\u00e9MON likes to mimic the shadows of people and laugh at their fright.",
+    "genus": "Shadow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 40,
+      "chain": {
+        "species_name": "gastly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "haunter",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gengar",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 158,
+    "name": "totodile",
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 64,
+      "special-attack": 44,
+      "special-defense": 48,
+      "speed": 43
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 9.5,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "totodile"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "scratch",
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "waterfall",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "flatter",
+      "facade",
+      "focus-punch",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "fake-tears",
+      "rock-tomb",
+      "muddy-water",
+      "aerial-ace",
+      "block",
+      "dragon-claw",
+      "water-sport",
+      "dragon-dance",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "aqua-tail",
+      "shadow-claw",
+      "ice-fang",
+      "captivate",
+      "aqua-jet",
+      "hone-claws",
+      "round",
+      "chip-away",
+      "scald",
+      "water-pledge",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "liquidation",
+      "breaking-swipe",
+      "flip-turn",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 63,
+    "is_default": true,
+    "order": 255,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/158.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/158.png"
+    },
+    "species_name": "totodile",
+    "flavor_text": "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
+    "genus": "Big Jaw Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/81/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 81,
+      "chain": {
+        "species_name": "totodile",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "croconaw",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "feraligatr",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

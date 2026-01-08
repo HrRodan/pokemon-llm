@@ -1,0 +1,228 @@
+{
+  "pokemon_details": {
+    "id": 174,
+    "name": "igglybuff",
+    "stats": {
+      "hp": 90,
+      "attack": 30,
+      "defense": 15,
+      "special-attack": 40,
+      "special-defense": 20,
+      "speed": 15
+    },
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.0,
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "igglybuff"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "sing",
+      "disable",
+      "flamethrower",
+      "counter",
+      "seismic-toss",
+      "solar-beam",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "psychic",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "feint-attack",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "perish-song",
+      "icy-wind",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "role-play",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "fake-tears",
+      "bounce",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "gravity",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "punishment",
+      "last-resort",
+      "captivate",
+      "grass-knot",
+      "round",
+      "echoed-voice",
+      "heal-pulse",
+      "incinerate",
+      "work-up",
+      "wild-charge",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "confide",
+      "dazzling-gleam",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "oran-berry"
+    ],
+    "base_experience": 42,
+    "is_default": true,
+    "order": 70,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/174.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/174.png"
+    },
+    "species_name": "igglybuff",
+    "flavor_text": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
+    "genus": "Balloon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 170,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "grassland",
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/16/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 16,
+      "chain": {
+        "species_name": "igglybuff",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "jigglypuff",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "wigglytuff",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "moon-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

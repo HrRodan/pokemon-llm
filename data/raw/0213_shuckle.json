@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 213,
+    "name": "shuckle",
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 230,
+      "special-attack": 10,
+      "special-defense": 230,
+      "speed": 5
+    },
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 20.5,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "contrary",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shuckle"
+    ],
+    "moves": [
+      "bind",
+      "headbutt",
+      "body-slam",
+      "wrap",
+      "double-edge",
+      "acid",
+      "strength",
+      "string-shot",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "withdraw",
+      "defense-curl",
+      "bide",
+      "constrict",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "sweet-scent",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "covet",
+      "rock-blast",
+      "gyro-ball",
+      "natural-gift",
+      "acupressure",
+      "power-trick",
+      "gastro-acid",
+      "rock-polish",
+      "earth-power",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "guard-split",
+      "power-split",
+      "venoshock",
+      "smack-down",
+      "sludge-wave",
+      "after-you",
+      "round",
+      "shell-smash",
+      "final-gambit",
+      "struggle-bug",
+      "bulldoze",
+      "sticky-web",
+      "confide",
+      "infestation",
+      "steel-roller",
+      "meteor-beam",
+      "skitter-smack"
+    ],
+    "held_items": [
+      "berry-juice",
+      "oran-berry"
+    ],
+    "base_experience": 177,
+    "is_default": true,
+    "order": 309,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/213.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/213.png"
+    },
+    "species_name": "shuckle",
+    "flavor_text": "The BERRIES it stores in its vase-like shell decompose and become a gooey liquid.",
+    "genus": "Mold Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "armor",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/107/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 107,
+      "chain": {
+        "species_name": "shuckle",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

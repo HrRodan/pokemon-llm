@@ -1,0 +1,232 @@
+{
+  "pokemon_details": {
+    "id": 106,
+    "name": "hitmonlee",
+    "stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "special-attack": 35,
+      "special-defense": 110,
+      "speed": 87
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 49.8,
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "reckless",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hitmonlee"
+    ],
+    "moves": [
+      "mega-punch",
+      "swords-dance",
+      "double-kick",
+      "mega-kick",
+      "jump-kick",
+      "rolling-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "toxic",
+      "meditate",
+      "rage",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "metronome",
+      "swift",
+      "skull-bash",
+      "high-jump-kick",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mach-punch",
+      "scary-face",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "baton-pass",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "blaze-kick",
+      "rock-tomb",
+      "bulk-up",
+      "bounce",
+      "covet",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "fling",
+      "sucker-punch",
+      "aura-sphere",
+      "poison-jab",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "bullet-punch",
+      "rock-climb",
+      "stone-edge",
+      "captivate",
+      "wide-guard",
+      "low-sweep",
+      "round",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "lunge",
+      "stomping-tantrum",
+      "coaching",
+      "tera-blast",
+      "axe-kick",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 159,
+    "is_default": true,
+    "order": 168,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/106.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/106.png"
+    },
+    "species_name": "hitmonlee",
+    "flavor_text": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+    "genus": "Kicking Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/47/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 47,
+      "chain": {
+        "species_name": "tyrogue",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hitmonlee",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "hitmonchan",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "hitmontop",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

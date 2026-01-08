@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 241,
+    "name": "miltank",
+    "stats": {
+      "hp": 95,
+      "attack": 80,
+      "defense": 105,
+      "special-attack": 40,
+      "special-defense": 70,
+      "speed": 100
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 75.5,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "miltank"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "metronome",
+      "dizzy-punch",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "milk-drink",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "dynamic-punch",
+      "sweet-scent",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "block",
+      "shock-wave",
+      "water-pulse",
+      "wake-up-slap",
+      "hammer-arm",
+      "gyro-ball",
+      "natural-gift",
+      "fling",
+      "punishment",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "captivate",
+      "stealth-rock",
+      "heavy-slam",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "heart-stamp",
+      "belch",
+      "play-rough",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "steel-roller"
+    ],
+    "held_items": [
+      "moomoo-milk"
+    ],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 336,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/241.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/241.png"
+    },
+    "species_name": "miltank",
+    "flavor_text": "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
+    "genus": "Milk Cow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/122/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 122,
+      "chain": {
+        "species_name": "miltank",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

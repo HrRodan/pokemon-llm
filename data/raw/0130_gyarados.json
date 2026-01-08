@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 130,
+    "name": "gyarados",
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 81
+    },
+    "types": [
+      "water",
+      "flying"
+    ],
+    "height_m": 6.5,
+    "weight_kg": 235.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gyarados"
+    ],
+    "moves": [
+      "bind",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "focus-energy",
+      "bide",
+      "fire-blast",
+      "waterfall",
+      "skull-bash",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "spite",
+      "protect",
+      "scary-face",
+      "zap-cannon",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "muddy-water",
+      "bounce",
+      "dragon-dance",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "payback",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "giga-impact",
+      "avalanche",
+      "ice-fang",
+      "power-whip",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "round",
+      "scald",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "hurricane",
+      "confide",
+      "brutal-swing",
+      "scale-shot",
+      "lash-out",
+      "tera-blast",
+      "chilling-water",
+      "dragon-cheer",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 189,
+    "is_default": true,
+    "order": 211,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/130.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/130.png"
+    },
+    "species_name": "gyarados",
+    "flavor_text": "Once it begins to rampage, a GYARADOS will burn everything down, even in a harsh storm.",
+    "genus": "Atrocious Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 5,
+    "growth_rate": "slow",
+    "habitat": "waters-edge",
+    "shape": "squiggle",
+    "color": "blue",
+    "egg_groups": [
+      "water2",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/64/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 64,
+      "chain": {
+        "species_name": "magikarp",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gyarados",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

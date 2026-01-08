@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 185,
+    "name": "sudowoodo",
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 115,
+      "special-attack": 30,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 38.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sudowoodo"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "slam",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "self-destruct",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "fake-tears",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "covet",
+      "calm-mind",
+      "rock-blast",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "sucker-punch",
+      "rock-polish",
+      "power-gem",
+      "drain-punch",
+      "earth-power",
+      "giga-impact",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "wood-hammer",
+      "head-smash",
+      "smack-down",
+      "low-sweep",
+      "foul-play",
+      "after-you",
+      "round",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "stomping-tantrum",
+      "tearful-look",
+      "body-press",
+      "meteor-beam",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 281,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/185.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/185.png"
+    },
+    "species_name": "sudowoodo",
+    "flavor_text": "Although it always pretends to be a tree, its composi\u00ad tion appears to be closer to a rock than a plant.",
+    "genus": "Imitation Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 65,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/91/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 91,
+      "chain": {
+        "species_name": "bonsly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sudowoodo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "mimic"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

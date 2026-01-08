@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 144,
+    "name": "articuno",
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 125,
+      "speed": 85
+    },
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 55.4,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "articuno"
+    ],
+    "moves": [
+      "razor-wind",
+      "gust",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "mist",
+      "water-gun",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "peck",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "bide",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "mind-reader",
+      "snore",
+      "curse",
+      "powder-snow",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "detect",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "mirror-coat",
+      "ancient-power",
+      "rock-smash",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "feather-dance",
+      "weather-ball",
+      "air-cutter",
+      "signal-beam",
+      "sheer-cold",
+      "aerial-ace",
+      "icicle-spear",
+      "water-pulse",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "defog",
+      "ominous-wind",
+      "round",
+      "sky-drop",
+      "frost-breath",
+      "hurricane",
+      "freeze-dry",
+      "confide",
+      "laser-focus",
+      "aurora-veil",
+      "triple-axel",
+      "dual-wingbeat",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 236,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/144.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/144.png"
+    },
+    "species_name": "articuno",
+    "flavor_text": "A legendary bird POK\u00e9MON that is said to appear to doomed people who are lost in icy mountains.",
+    "genus": "Freeze Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/73/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 73,
+      "chain": {
+        "species_name": "articuno",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

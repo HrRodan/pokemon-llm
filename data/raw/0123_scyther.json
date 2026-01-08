@@ -1,0 +1,222 @@
+{
+  "pokemon_details": {
+    "id": 123,
+    "name": "scyther",
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 56.0,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "scyther"
+    ],
+    "moves": [
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "wing-attack",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "leer",
+      "hyper-beam",
+      "counter",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "focus-energy",
+      "bide",
+      "swift",
+      "skull-bash",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "scary-face",
+      "detect",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "feint",
+      "tailwind",
+      "u-turn",
+      "close-combat",
+      "assurance",
+      "night-slash",
+      "air-slash",
+      "x-scissor",
+      "bug-buzz",
+      "vacuum-wave",
+      "giga-impact",
+      "psycho-cut",
+      "defog",
+      "cross-poison",
+      "captivate",
+      "bug-bite",
+      "double-hit",
+      "ominous-wind",
+      "round",
+      "quick-guard",
+      "acrobatics",
+      "struggle-bug",
+      "confide",
+      "laser-focus",
+      "lunge",
+      "brutal-swing",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 100,
+    "is_default": true,
+    "order": 196,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/123.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/123.png"
+    },
+    "species_name": "scyther",
+    "flavor_text": "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+    "genus": "Mantis Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "bug-wings",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/58/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 58,
+      "chain": {
+        "species_name": "scyther",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "scizor",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "metal-coat"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "kleavor",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "black-augurite"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

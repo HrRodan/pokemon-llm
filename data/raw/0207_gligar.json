@@ -1,0 +1,241 @@
+{
+  "pokemon_details": {
+    "id": 207,
+    "name": "gligar",
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 105,
+      "special-attack": 35,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 64.8,
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "immunity",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gligar"
+    ],
+    "moves": [
+      "guillotine",
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "wing-attack",
+      "sand-attack",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "counter",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "screech",
+      "double-team",
+      "harden",
+      "swift",
+      "dream-eater",
+      "crabhammer",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "detect",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "torment",
+      "facade",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "sky-uppercut",
+      "sand-tomb",
+      "aerial-ace",
+      "mud-shot",
+      "poison-tail",
+      "roost",
+      "natural-gift",
+      "feint",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "fling",
+      "power-trick",
+      "toxic-spikes",
+      "rock-polish",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "aqua-tail",
+      "x-scissor",
+      "earth-power",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "mud-bomb",
+      "rock-climb",
+      "defog",
+      "cross-poison",
+      "gunk-shot",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "hone-claws",
+      "venoshock",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "bulldoze",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "lunge",
+      "psychic-fangs",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 86,
+    "is_default": true,
+    "order": 304,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/207.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/207.png"
+    },
+    "species_name": "gligar",
+    "flavor_text": "It flies straight at its target's face then clamps down on the star\u00ad tled victim to inject poison.",
+    "genus": "Fly Scorpion Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/104/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 104,
+      "chain": {
+        "species_name": "gligar",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gliscor",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "time_of_day": "night",
+                "held_item": "razor-fang"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 223,
+    "name": "remoraid",
+    "stats": {
+      "hp": 35,
+      "attack": 65,
+      "defense": 35,
+      "special-attack": 65,
+      "special-defense": 35,
+      "speed": 65
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 12.0,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "remoraid"
+    ],
+    "moves": [
+      "double-edge",
+      "supersonic",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "aurora-beam",
+      "hyper-beam",
+      "string-shot",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "haze",
+      "focus-energy",
+      "fire-blast",
+      "waterfall",
+      "swift",
+      "bubble",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "octazooka",
+      "icy-wind",
+      "lock-on",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "water-spout",
+      "signal-beam",
+      "bullet-seed",
+      "bounce",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "assurance",
+      "seed-bomb",
+      "gunk-shot",
+      "captivate",
+      "charge-beam",
+      "smack-down",
+      "soak",
+      "acid-spray",
+      "entrainment",
+      "round",
+      "scald",
+      "incinerate",
+      "confide"
+    ],
+    "held_items": [],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 323,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/223.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/223.png"
+    },
+    "species_name": "remoraid",
+    "flavor_text": "It has superb ac\u00ad curacy. The water it shoots out can strike even moving prey from more than 300 feet.",
+    "genus": "Jet Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "gray",
+    "egg_groups": [
+      "water1",
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/114/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 114,
+      "chain": {
+        "species_name": "remoraid",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "octillery",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

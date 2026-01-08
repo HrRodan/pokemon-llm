@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 225,
+    "name": "delibird",
+    "stats": {
+      "hp": 45,
+      "attack": 55,
+      "defense": 45,
+      "special-attack": 65,
+      "special-defense": 45,
+      "speed": 75
+    },
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 16.0,
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "delibird"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "fly",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "ice-beam",
+      "blizzard",
+      "aurora-beam",
+      "hyper-beam",
+      "drill-peck",
+      "counter",
+      "seismic-toss",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "haze",
+      "swift",
+      "sky-attack",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "spikes",
+      "destiny-bond",
+      "icy-wind",
+      "detect",
+      "endure",
+      "rollout",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "present",
+      "frustration",
+      "baton-pass",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "future-sight",
+      "fake-out",
+      "hail",
+      "memento",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "recycle",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "feather-dance",
+      "ice-ball",
+      "weather-ball",
+      "air-cutter",
+      "signal-beam",
+      "aerial-ace",
+      "icicle-spear",
+      "bounce",
+      "water-pulse",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "assurance",
+      "fling",
+      "seed-bomb",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "defog",
+      "gunk-shot",
+      "captivate",
+      "foul-play",
+      "round",
+      "acrobatics",
+      "bestow",
+      "frost-breath",
+      "drill-run",
+      "freeze-dry",
+      "confide",
+      "power-up-punch",
+      "brutal-swing",
+      "aurora-veil",
+      "triple-axel",
+      "dual-wingbeat",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 116,
+    "is_default": true,
+    "order": 325,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/225.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/225.png"
+    },
+    "species_name": "delibird",
+    "flavor_text": "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+    "genus": "Delivery Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "mountain",
+    "shape": "wings",
+    "color": "red",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/115/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 115,
+      "chain": {
+        "species_name": "delibird",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

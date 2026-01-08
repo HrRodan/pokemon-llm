@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 27,
+    "name": "sandshrew",
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 20,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 12.0,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sandshrew"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "swift",
+      "skull-bash",
+      "amnesia",
+      "leech-life",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "spikes",
+      "detect",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "magnitude",
+      "dynamic-punch",
+      "rapid-spin",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "crush-claw",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "mud-shot",
+      "covet",
+      "gyro-ball",
+      "natural-gift",
+      "fling",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "earth-power",
+      "shadow-claw",
+      "rock-climb",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "hone-claws",
+      "smack-down",
+      "round",
+      "chip-away",
+      "bulldoze",
+      "work-up",
+      "rototiller",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "stomping-tantrum",
+      "steel-roller",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "quick-claw",
+      "grip-claw"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 53,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/27.png"
+    },
+    "species_name": "sandshrew",
+    "flavor_text": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "rough-terrain",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/11/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 11,
+      "chain": {
+        "species_name": "sandshrew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sandslash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

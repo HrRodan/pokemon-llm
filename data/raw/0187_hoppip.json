@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 187,
+    "name": "hoppip",
+    "stats": {
+      "hp": 35,
+      "attack": 35,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 55,
+      "speed": 50
+    },
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 0.5,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hoppip"
+    ],
+    "moves": [
+      "pay-day",
+      "swords-dance",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "growl",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "toxic",
+      "confusion",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "amnesia",
+      "flash",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "cotton-spore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "encore",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "memento",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "aromatherapy",
+      "silver-wind",
+      "bullet-seed",
+      "aerial-ace",
+      "bounce",
+      "magical-leaf",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "fling",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "switcheroo",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "rage-powder",
+      "round",
+      "acrobatics",
+      "cotton-guard",
+      "grassy-terrain",
+      "fairy-wind",
+      "confide",
+      "dazzling-gleam",
+      "infestation",
+      "strength-sap",
+      "pollen-puff",
+      "lunge",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 282,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/187.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/187.png"
+    },
+    "species_name": "hoppip",
+    "flavor_text": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+    "genus": "Cottonweed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "fairy",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/92/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 92,
+      "chain": {
+        "species_name": "hoppip",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "skiploom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "jumpluff",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 27
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "pokemon_details": {
+    "id": 146,
+    "name": "moltres",
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "special-attack": 125,
+      "special-defense": 85,
+      "speed": 90
+    },
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 60.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "moltres"
+    ],
+    "moves": [
+      "razor-wind",
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "peck",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "detect",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "weather-ball",
+      "air-cutter",
+      "overheat",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "flare-blitz",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "ominous-wind",
+      "flame-charge",
+      "round",
+      "sky-drop",
+      "incinerate",
+      "acrobatics",
+      "hurricane",
+      "confide",
+      "mystical-fire",
+      "laser-focus",
+      "burn-up",
+      "burning-jealousy",
+      "dual-wingbeat",
+      "scorching-sands",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 240,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/146.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/146.png"
+    },
+    "species_name": "moltres",
+    "flavor_text": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+    "genus": "Flame Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "wings",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/75/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 75,
+      "chain": {
+        "species_name": "moltres",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

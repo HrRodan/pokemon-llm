@@ -1,0 +1,246 @@
+{
+  "pokemon_details": {
+    "id": 124,
+    "name": "jynx",
+    "stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "special-attack": 115,
+      "special-defense": 95,
+      "speed": 95
+    },
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 40.6,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "jynx"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "mega-punch",
+      "ice-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "sing",
+      "water-gun",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "toxic",
+      "confusion",
+      "psychic",
+      "rage",
+      "teleport",
+      "mimic",
+      "screech",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "bide",
+      "metronome",
+      "lick",
+      "skull-bash",
+      "dream-eater",
+      "lovely-kiss",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "powder-snow",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "skill-swap",
+      "secret-power",
+      "hyper-voice",
+      "fake-tears",
+      "signal-beam",
+      "icicle-spear",
+      "covet",
+      "calm-mind",
+      "water-pulse",
+      "wake-up-slap",
+      "natural-gift",
+      "payback",
+      "fling",
+      "wring-out",
+      "copycat",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "avalanche",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "frost-breath",
+      "heart-stamp",
+      "draining-kiss",
+      "confide",
+      "power-up-punch",
+      "psychic-terrain",
+      "aurora-veil",
+      "expanding-force",
+      "triple-axel"
+    ],
+    "held_items": [
+      "aspear-berry"
+    ],
+    "base_experience": 159,
+    "is_default": true,
+    "order": 200,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/124.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/124.png"
+    },
+    "species_name": "jynx",
+    "flavor_text": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
+    "genus": "Human Shape Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/59/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 59,
+      "chain": {
+        "species_name": "smoochum",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "jynx",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

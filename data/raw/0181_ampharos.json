@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 181,
+    "name": "ampharos",
+    "stats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 115,
+      "special-defense": 90,
+      "speed": 55
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 61.5,
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "plus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ampharos"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "cotton-spore",
+      "protect",
+      "zap-cannon",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "charge",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "signal-beam",
+      "shock-wave",
+      "natural-gift",
+      "fling",
+      "magnet-rise",
+      "dragon-pulse",
+      "power-gem",
+      "focus-blast",
+      "giga-impact",
+      "rock-climb",
+      "discharge",
+      "captivate",
+      "charge-beam",
+      "electro-ball",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "volt-switch",
+      "bulldoze",
+      "dragon-tail",
+      "electroweb",
+      "wild-charge",
+      "cotton-guard",
+      "ion-deluge",
+      "confide",
+      "eerie-impulse",
+      "magnetic-flux",
+      "electric-terrain",
+      "dazzling-gleam",
+      "power-up-punch",
+      "laser-focus",
+      "brutal-swing",
+      "stomping-tantrum",
+      "breaking-swipe",
+      "meteor-beam",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 230,
+    "is_default": true,
+    "order": 275,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/181.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/181.png"
+    },
+    "species_name": "ampharos",
+    "flavor_text": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    "genus": "Light Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "monster",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/89/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 89,
+      "chain": {
+        "species_name": "mareep",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "flaaffy",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 15
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "ampharos",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

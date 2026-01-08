@@ -1,0 +1,214 @@
+{
+  "pokemon_details": {
+    "id": 178,
+    "name": "xatu",
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 70,
+      "special-attack": 95,
+      "special-defense": 70,
+      "speed": 95
+    },
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-bounce",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "xatu"
+    ],
+    "moves": [
+      "fly",
+      "double-edge",
+      "leer",
+      "hyper-beam",
+      "peck",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "teleport",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "detect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "baton-pass",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "heat-wave",
+      "facade",
+      "trick",
+      "wish",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "cosmic-power",
+      "signal-beam",
+      "aerial-ace",
+      "calm-mind",
+      "roost",
+      "miracle-eye",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "psycho-shift",
+      "lucky-chant",
+      "me-first",
+      "power-swap",
+      "guard-swap",
+      "sucker-punch",
+      "air-slash",
+      "giga-impact",
+      "zen-headbutt",
+      "defog",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "ominous-wind",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "confide",
+      "dazzling-gleam",
+      "laser-focus",
+      "expanding-force",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 272,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/178.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/178.png"
+    },
+    "species_name": "xatu",
+    "flavor_text": "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+    "genus": "Mystic Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "green",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/88/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 88,
+      "chain": {
+        "species_name": "natu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "xatu",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

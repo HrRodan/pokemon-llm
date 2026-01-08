@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 5,
+    "name": "charmeleon",
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "special-attack": 80,
+      "special-defense": 65,
+      "speed": 80
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 19.0,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "charmeleon"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "dragon-rage",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "smokescreen",
+      "defense-curl",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "belly-drum",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "beat-up",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "weather-ball",
+      "overheat",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "natural-gift",
+      "fling",
+      "flare-blitz",
+      "dragon-pulse",
+      "dragon-rush",
+      "focus-blast",
+      "shadow-claw",
+      "fire-fang",
+      "captivate",
+      "hone-claws",
+      "flame-burst",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "acrobatics",
+      "inferno",
+      "fire-pledge",
+      "dragon-tail",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "breaking-swipe",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 6,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png"
+    },
+    "species_name": "charmeleon",
+    "flavor_text": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+    "genus": "Flame Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 2,
+      "chain": {
+        "species_name": "charmander",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "charmeleon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "charizard",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

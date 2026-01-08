@@ -1,0 +1,255 @@
+{
+  "pokemon_details": {
+    "id": 242,
+    "name": "blissey",
+    "stats": {
+      "hp": 255,
+      "attack": 10,
+      "defense": 10,
+      "special-attack": 75,
+      "special-defense": 135,
+      "speed": 55
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 46.8,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "healer",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "blissey"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "growl",
+      "sing",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "minimize",
+      "defense-curl",
+      "light-screen",
+      "metronome",
+      "egg-bomb",
+      "fire-blast",
+      "swift",
+      "soft-boiled",
+      "dream-eater",
+      "flash",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "trick",
+      "recycle",
+      "brick-break",
+      "endeavor",
+      "skill-swap",
+      "refresh",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "rock-tomb",
+      "block",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "gravity",
+      "healing-wish",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "last-resort",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "rock-climb",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "telekinesis",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "incinerate",
+      "retaliate",
+      "bestow",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "disarming-voice",
+      "draining-kiss",
+      "fairy-wind",
+      "confide",
+      "electric-terrain",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "power-up-punch",
+      "laser-focus",
+      "stomping-tantrum",
+      "life-dew",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "oval-stone",
+      "lucky-egg"
+    ],
+    "base_experience": 608,
+    "is_default": true,
+    "order": 181,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/242.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/242.png"
+    },
+    "species_name": "blissey",
+    "flavor_text": "Anyone who takes even one bite of BLISSEY's egg be\u00ad comes unfailingly caring and pleas\u00ad ant to everyone.",
+    "genus": "Happiness Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 140,
+    "hatch_counter": 40,
+    "growth_rate": "fast",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/51/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 51,
+      "chain": {
+        "species_name": "happiny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "chansey",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "time_of_day": "day",
+                "held_item": "oval-stone"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "blissey",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_happiness": 160
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

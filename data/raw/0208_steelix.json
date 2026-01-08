@@ -1,0 +1,226 @@
+{
+  "pokemon_details": {
+    "id": 208,
+    "name": "steelix",
+    "stats": {
+      "hp": 75,
+      "attack": 85,
+      "defense": 200,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "height_m": 9.2,
+    "weight_kg": 400.0,
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "steelix"
+    ],
+    "moves": [
+      "cut",
+      "bind",
+      "slam",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "self-destruct",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "torment",
+      "facade",
+      "nature-power",
+      "taunt",
+      "secret-power",
+      "mud-sport",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "dragon-dance",
+      "rock-blast",
+      "gyro-ball",
+      "natural-gift",
+      "payback",
+      "magnet-rise",
+      "rock-polish",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "flash-cannon",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "autotomize",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "dragon-tail",
+      "drill-run",
+      "confide",
+      "high-horsepower",
+      "brutal-swing",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "steel-beam",
+      "steel-roller",
+      "meteor-beam",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 179,
+    "is_default": true,
+    "order": 152,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/208.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/208.png"
+    },
+    "species_name": "steelix",
+    "flavor_text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+    "genus": "Iron Snake Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "squiggle",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/41/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 41,
+      "chain": {
+        "species_name": "onix",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "steelix",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "metal-coat"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

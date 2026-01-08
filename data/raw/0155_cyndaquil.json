@@ -1,0 +1,191 @@
+{
+  "pokemon_details": {
+    "id": 155,
+    "name": "cyndaquil",
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "special-attack": 60,
+      "special-defense": 50,
+      "speed": 65
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 7.9,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cyndaquil"
+    ],
+    "moves": [
+      "cut",
+      "double-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "roar",
+      "ember",
+      "flamethrower",
+      "submission",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "smokescreen",
+      "defense-curl",
+      "fire-blast",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "eruption",
+      "secret-power",
+      "crush-claw",
+      "overheat",
+      "extrasensory",
+      "aerial-ace",
+      "howl",
+      "covet",
+      "natural-gift",
+      "flare-blitz",
+      "fire-fang",
+      "zen-headbutt",
+      "lava-plume",
+      "iron-head",
+      "captivate",
+      "flame-burst",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "inferno",
+      "fire-pledge",
+      "work-up",
+      "wild-charge",
+      "play-rough",
+      "confide",
+      "burn-up",
+      "burning-jealousy",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 252,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/155.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/155.png"
+    },
+    "species_name": "cyndaquil",
+    "flavor_text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+    "genus": "Fire Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/80/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 80,
+      "chain": {
+        "species_name": "cyndaquil",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quilava",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 14
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "typhlosion",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

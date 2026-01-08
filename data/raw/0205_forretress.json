@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 205,
+    "name": "forretress",
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 140,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 40
+    },
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 125.8,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "forretress"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "counter",
+      "strength",
+      "solar-beam",
+      "string-shot",
+      "thunder-wave",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "spikes",
+      "zap-cannon",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "rapid-spin",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "signal-beam",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "natural-gift",
+      "payback",
+      "toxic-spikes",
+      "magnet-rise",
+      "rock-polish",
+      "poison-jab",
+      "seed-bomb",
+      "bug-buzz",
+      "earth-power",
+      "giga-impact",
+      "mirror-shot",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "venoshock",
+      "autotomize",
+      "telekinesis",
+      "heavy-slam",
+      "round",
+      "ally-switch",
+      "volt-switch",
+      "struggle-bug",
+      "bulldoze",
+      "drill-run",
+      "confide",
+      "laser-focus",
+      "lunge",
+      "smart-strike",
+      "body-press",
+      "steel-beam",
+      "tera-blast",
+      "ice-spinner",
+      "pounce",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 163,
+    "is_default": true,
+    "order": 302,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/205.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/205.png"
+    },
+    "species_name": "forretress",
+    "flavor_text": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+    "genus": "Bagworm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/102/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 102,
+      "chain": {
+        "species_name": "pineco",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "forretress",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 31
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

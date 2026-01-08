@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 237,
+    "name": "hitmontop",
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 95,
+      "special-attack": 35,
+      "special-defense": 110,
+      "speed": 70
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 48.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hitmontop"
+    ],
+    "moves": [
+      "mega-punch",
+      "mega-kick",
+      "rolling-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "swift",
+      "high-jump-kick",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "triple-kick",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mach-punch",
+      "mud-slap",
+      "detect",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "pursuit",
+      "rapid-spin",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "role-play",
+      "revenge",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "aerial-ace",
+      "bulk-up",
+      "covet",
+      "gyro-ball",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "sucker-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "bullet-punch",
+      "stone-edge",
+      "captivate",
+      "wide-guard",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "drill-run",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "coaching",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 159,
+    "is_default": true,
+    "order": 170,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/237.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/237.png"
+    },
+    "species_name": "hitmontop",
+    "flavor_text": "If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard.",
+    "genus": "Handstand Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/47/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 47,
+      "chain": {
+        "species_name": "tyrogue",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hitmonlee",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "hitmonchan",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "hitmontop",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 102,
+    "name": "exeggcute",
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 45,
+      "speed": 40
+    },
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 2.5,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "exeggcute"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "psybeam",
+      "strength",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "rage",
+      "teleport",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "egg-bomb",
+      "dream-eater",
+      "barrage",
+      "flash",
+      "psywave",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "synthesis",
+      "moonlight",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "uproar",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "trick",
+      "ingrain",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "extrasensory",
+      "bullet-seed",
+      "block",
+      "gravity",
+      "natural-gift",
+      "lucky-chant",
+      "power-swap",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "zen-headbutt",
+      "trick-room",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "stored-power",
+      "bestow",
+      "grassy-terrain",
+      "confide",
+      "infestation",
+      "grassy-glide",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "psychic-seed"
+    ],
+    "base_experience": 65,
+    "is_default": true,
+    "order": 160,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/102.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/102.png"
+    },
+    "species_name": "exeggcute",
+    "flavor_text": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+    "genus": "Egg Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "heads",
+    "color": "pink",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/45/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 45,
+      "chain": {
+        "species_name": "exeggcute",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "exeggutor",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

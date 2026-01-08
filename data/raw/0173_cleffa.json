@@ -1,0 +1,232 @@
+{
+  "pokemon_details": {
+    "id": 173,
+    "name": "cleffa",
+    "stats": {
+      "hp": 50,
+      "attack": 25,
+      "defense": 28,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 15
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 3.0,
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cleffa"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "sing",
+      "flamethrower",
+      "psybeam",
+      "counter",
+      "seismic-toss",
+      "solar-beam",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "fire-blast",
+      "swift",
+      "amnesia",
+      "soft-boiled",
+      "dream-eater",
+      "flash",
+      "splash",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "sweet-kiss",
+      "belly-drum",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "present",
+      "frustration",
+      "safeguard",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "aromatherapy",
+      "fake-tears",
+      "tickle",
+      "signal-beam",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "gravity",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "last-resort",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "heal-pulse",
+      "incinerate",
+      "work-up",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "tera-blast",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "moon-stone",
+      "leppa-berry",
+      "comet-shard"
+    ],
+    "base_experience": 44,
+    "is_default": true,
+    "order": 63,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/173.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/173.png"
+    },
+    "species_name": "cleffa",
+    "flavor_text": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+    "genus": "Star Shape Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 150,
+    "base_happiness": 140,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/14/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 14,
+      "chain": {
+        "species_name": "cleffa",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "clefairy",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "clefable",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "moon-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

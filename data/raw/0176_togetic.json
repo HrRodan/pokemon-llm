@@ -1,0 +1,258 @@
+{
+  "pokemon_details": {
+    "id": 176,
+    "name": "togetic",
+    "stats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 85,
+      "special-attack": 80,
+      "special-defense": 105,
+      "speed": 40
+    },
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 3.2,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "togetic"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fly",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "flamethrower",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "fire-blast",
+      "swift",
+      "soft-boiled",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "brick-break",
+      "yawn",
+      "endeavor",
+      "imprison",
+      "secret-power",
+      "hyper-voice",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "extrasensory",
+      "aerial-ace",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "fling",
+      "last-resort",
+      "air-slash",
+      "drain-punch",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "defog",
+      "captivate",
+      "grass-knot",
+      "ominous-wind",
+      "psyshock",
+      "telekinesis",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "incinerate",
+      "retaliate",
+      "bestow",
+      "work-up",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "smart-strike",
+      "life-dew",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 269,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/176.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/176.png"
+    },
+    "species_name": "togetic",
+    "flavor_text": "They say that it will appear before kindhearted, car\u00ad ing people and shower them with happiness.",
+    "genus": "Happiness Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "flying",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/87/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 87,
+      "chain": {
+        "species_name": "togepi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "togetic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "togekiss",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

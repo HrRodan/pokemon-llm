@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 200,
+    "name": "misdreavus",
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 85,
+      "special-defense": 85,
+      "speed": 85
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 1.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "misdreavus"
+    ],
+    "moves": [
+      "headbutt",
+      "double-edge",
+      "growl",
+      "psybeam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "night-shade",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "defense-curl",
+      "swift",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "zap-cannon",
+      "destiny-bond",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "fake-tears",
+      "extrasensory",
+      "aerial-ace",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "me-first",
+      "sucker-punch",
+      "dark-pulse",
+      "power-gem",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-sneak",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "ominous-wind",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "phantom-force",
+      "draining-kiss",
+      "confide",
+      "dazzling-gleam",
+      "burning-jealousy",
+      "poltergeist",
+      "tera-blast",
+      "snowscape",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "spell-tag"
+    ],
+    "base_experience": 87,
+    "is_default": true,
+    "order": 295,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/200.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/200.png"
+    },
+    "species_name": "misdreavus",
+    "flavor_text": "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
+    "genus": "Screech Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": "cave",
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/98/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 98,
+      "chain": {
+        "species_name": "misdreavus",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mismagius",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "dusk-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

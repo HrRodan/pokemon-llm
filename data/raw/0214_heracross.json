@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 214,
+    "name": "heracross",
+    "stats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 75,
+      "special-attack": 40,
+      "special-defense": 95,
+      "speed": 85
+    },
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 54.0,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "heracross"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "horn-attack",
+      "fury-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "pin-missile",
+      "leer",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "bide",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "spikes",
+      "detect",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "arm-thrust",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "iron-defense",
+      "bulk-up",
+      "rock-blast",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "assurance",
+      "fling",
+      "night-slash",
+      "bug-buzz",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "stone-edge",
+      "captivate",
+      "bug-bite",
+      "venoshock",
+      "smack-down",
+      "round",
+      "chip-away",
+      "retaliate",
+      "struggle-bug",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "lunge",
+      "smart-strike",
+      "brutal-swing",
+      "skitter-smack",
+      "coaching",
+      "tera-blast",
+      "pounce",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 310,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/214.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/214.png"
+    },
+    "species_name": "heracross",
+    "flavor_text": "It is usually docile, but if it is disturbed while sipping honey, it chases off the intruder with its horn.",
+    "genus": "Single Horn Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/108/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 108,
+      "chain": {
+        "species_name": "heracross",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

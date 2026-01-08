@@ -1,0 +1,302 @@
+{
+  "pokemon_details": {
+    "id": 197,
+    "name": "umbreon",
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "special-attack": 60,
+      "special-defense": 130,
+      "speed": 65
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 27.0,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "umbreon"
+    ],
+    "moves": [
+      "pay-day",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "psychic",
+      "quick-attack",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "charm",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "baton-pass",
+      "pursuit",
+      "iron-tail",
+      "moonlight",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "shadow-ball",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "fake-tears",
+      "covet",
+      "calm-mind",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "copycat",
+      "guard-swap",
+      "last-resort",
+      "sucker-punch",
+      "dark-pulse",
+      "giga-impact",
+      "captivate",
+      "wonder-room",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "retaliate",
+      "work-up",
+      "snarl",
+      "confide",
+      "baby-doll-eyes",
+      "laser-focus",
+      "throat-chop",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 221,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/197.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/197.png"
+    },
+    "species_name": "umbreon",
+    "flavor_text": "When agitated, this POK\u00e9MON pro\u00ad tects itself by spraying poisonous sweat from its pores.",
+    "genus": "Moonlight Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 35,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 67,
+      "chain": {
+        "species_name": "eevee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vaporeon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "jolteon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "flareon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "espeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "umbreon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "leafeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "eterna-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "pinwheel-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-20"
+              },
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "glaceon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "sinnoh-route-217"
+              },
+              {
+                "trigger": "level-up",
+                "location": "twist-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "frost-cavern"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "sylveon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move_type": "fairy"
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "known_move_type": "fairy"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

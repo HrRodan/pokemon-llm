@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 238,
+    "name": "smoochum",
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 15,
+      "special-attack": 85,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 6.0,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "smoochum"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "ice-punch",
+      "mega-kick",
+      "body-slam",
+      "double-edge",
+      "sing",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "seismic-toss",
+      "toxic",
+      "confusion",
+      "psychic",
+      "meditate",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "lick",
+      "dream-eater",
+      "lovely-kiss",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "powder-snow",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "fake-out",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "secret-power",
+      "fake-tears",
+      "signal-beam",
+      "covet",
+      "calm-mind",
+      "water-pulse",
+      "miracle-eye",
+      "wake-up-slap",
+      "natural-gift",
+      "payback",
+      "fling",
+      "lucky-chant",
+      "copycat",
+      "nasty-plot",
+      "avalanche",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "magic-room",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "frost-breath",
+      "heart-stamp",
+      "draining-kiss",
+      "confide",
+      "aurora-veil"
+    ],
+    "held_items": [
+      "aspear-berry"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 199,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/238.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/238.png"
+    },
+    "species_name": "smoochum",
+    "flavor_text": "Its lips are the most sensitive parts on its body. It always uses its lips first to examine things.",
+    "genus": "Kiss Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/59/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 59,
+      "chain": {
+        "species_name": "smoochum",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "jynx",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

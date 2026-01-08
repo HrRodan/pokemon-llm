@@ -1,0 +1,192 @@
+{
+  "pokemon_details": {
+    "id": 116,
+    "name": "horsea",
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "special-attack": 70,
+      "special-defense": 25,
+      "speed": 60
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "damp",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "horsea"
+    ],
+    "moves": [
+      "razor-wind",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "leer",
+      "disable",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "dragon-rage",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "smokescreen",
+      "focus-energy",
+      "bide",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "bubble",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "octazooka",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "whirlpool",
+      "hail",
+      "facade",
+      "secret-power",
+      "dive",
+      "weather-ball",
+      "signal-beam",
+      "muddy-water",
+      "bounce",
+      "dragon-dance",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "dragon-pulse",
+      "flash-cannon",
+      "captivate",
+      "round",
+      "clear-smog",
+      "scald",
+      "confide",
+      "laser-focus",
+      "liquidation",
+      "scale-shot",
+      "flip-turn",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [
+      "dragon-scale"
+    ],
+    "base_experience": 59,
+    "is_default": true,
+    "order": 186,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/116.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/116.png"
+    },
+    "species_name": "horsea",
+    "flavor_text": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+    "genus": "Dragon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "blob",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/54/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 54,
+      "chain": {
+        "species_name": "horsea",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "seadra",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "kingdra",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "dragon-scale"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

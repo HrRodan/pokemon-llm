@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 172,
+    "name": "pichu",
+    "stats": {
+      "hp": 20,
+      "attack": 40,
+      "defense": 15,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 60
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.0,
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pichu",
+      "pichu-spiky-eared"
+    ],
+    "moves": [
+      "double-slap",
+      "mega-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "surf",
+      "counter",
+      "seismic-toss",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "bide",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "present",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "fake-out",
+      "uproar",
+      "facade",
+      "follow-me",
+      "charge",
+      "helping-hand",
+      "wish",
+      "secret-power",
+      "tickle",
+      "signal-beam",
+      "covet",
+      "volt-tackle",
+      "shock-wave",
+      "natural-gift",
+      "fling",
+      "lucky-chant",
+      "magnet-rise",
+      "nasty-plot",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "echoed-voice",
+      "bestow",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "disarming-voice",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "electric-terrain",
+      "nuzzle",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "oran-berry"
+    ],
+    "base_experience": 41,
+    "is_default": true,
+    "order": 34,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/172.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/172.png"
+    },
+    "species_name": "pichu",
+    "flavor_text": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+    "genus": "Tiny Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 10,
+      "chain": {
+        "species_name": "pichu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pikachu",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 220
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "raichu",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

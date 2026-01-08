@@ -1,0 +1,214 @@
+{
+  "pokemon_details": {
+    "id": 91,
+    "name": "cloyster",
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "special-attack": 85,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "types": [
+      "water",
+      "ice"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 132.5,
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cloyster"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "twineedle",
+      "pin-missile",
+      "leer",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "hyper-beam",
+      "toxic",
+      "rage",
+      "teleport",
+      "mimic",
+      "screech",
+      "double-team",
+      "withdraw",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "bide",
+      "self-destruct",
+      "waterfall",
+      "clamp",
+      "swift",
+      "spike-cannon",
+      "explosion",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "spikes",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "hail",
+      "torment",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "weather-ball",
+      "signal-beam",
+      "icicle-spear",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "payback",
+      "toxic-spikes",
+      "poison-jab",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "captivate",
+      "round",
+      "shell-smash",
+      "frost-breath",
+      "drill-run",
+      "razor-shell",
+      "icicle-crash",
+      "confide",
+      "smart-strike",
+      "liquidation",
+      "steel-roller",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [
+      "pearl",
+      "big-pearl"
+    ],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 146,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png"
+    },
+    "species_name": "cloyster",
+    "flavor_text": "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
+    "genus": "Bivalve Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/39/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 39,
+      "chain": {
+        "species_name": "shellder",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cloyster",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

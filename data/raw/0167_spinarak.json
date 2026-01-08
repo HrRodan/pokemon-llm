@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 167,
+    "name": "spinarak",
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 30
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 8.5,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spinarak"
+    ],
+    "moves": [
+      "body-slam",
+      "double-edge",
+      "poison-sting",
+      "twineedle",
+      "pin-missile",
+      "sonic-boom",
+      "disable",
+      "psybeam",
+      "absorb",
+      "solar-beam",
+      "string-shot",
+      "dig",
+      "toxic",
+      "psychic",
+      "agility",
+      "night-shade",
+      "mimic",
+      "screech",
+      "double-team",
+      "constrict",
+      "leech-life",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "spider-web",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "baton-pass",
+      "pursuit",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "knock-off",
+      "secret-power",
+      "signal-beam",
+      "bounce",
+      "natural-gift",
+      "sucker-punch",
+      "toxic-spikes",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "bug-buzz",
+      "shadow-sneak",
+      "cross-poison",
+      "captivate",
+      "bug-bite",
+      "hone-claws",
+      "venoshock",
+      "rage-powder",
+      "sludge-wave",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "hex",
+      "struggle-bug",
+      "electroweb",
+      "sticky-web",
+      "confide",
+      "infestation",
+      "toxic-thread",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 264,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/167.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/167.png"
+    },
+    "species_name": "spinarak",
+    "flavor_text": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+    "genus": "String Spit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast",
+    "habitat": "forest",
+    "shape": "armor",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/85/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 85,
+      "chain": {
+        "species_name": "spinarak",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ariados",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 92,
+    "name": "gastly",
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 100,
+      "special-defense": 35,
+      "speed": 80
+    },
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height_m": 1.3,
+    "weight_kg": 0.1,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gastly"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "headbutt",
+      "disable",
+      "mega-drain",
+      "thunderbolt",
+      "thunder",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "rage",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "bide",
+      "self-destruct",
+      "lick",
+      "smog",
+      "dream-eater",
+      "poison-gas",
+      "psywave",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "zap-cannon",
+      "destiny-bond",
+      "perish-song",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "trick",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "energy-ball",
+      "nasty-plot",
+      "trick-room",
+      "gunk-shot",
+      "captivate",
+      "ominous-wind",
+      "wonder-room",
+      "venoshock",
+      "telekinesis",
+      "sludge-wave",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "clear-smog",
+      "ally-switch",
+      "hex",
+      "reflect-type",
+      "confide",
+      "dazzling-gleam",
+      "infestation",
+      "skitter-smack",
+      "poltergeist",
+      "corrosive-gas",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 147,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/92.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/92.png"
+    },
+    "species_name": "gastly",
+    "flavor_text": "Almost invisible, this gaseous POK\u00e9MON cloaks the target and puts it to sleep without notice.",
+    "genus": "Gas Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 40,
+      "chain": {
+        "species_name": "gastly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "haunter",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gengar",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

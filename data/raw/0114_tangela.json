@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 114,
+    "name": "tangela",
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "special-attack": 100,
+      "special-defense": 40,
+      "speed": 60
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 35.0,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tangela"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "bind",
+      "slam",
+      "vine-whip",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "toxic",
+      "confusion",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "skull-bash",
+      "constrict",
+      "amnesia",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "tickle",
+      "bullet-seed",
+      "shock-wave",
+      "wake-up-slap",
+      "natural-gift",
+      "wring-out",
+      "power-swap",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "leaf-storm",
+      "power-whip",
+      "captivate",
+      "grass-knot",
+      "double-hit",
+      "rage-powder",
+      "acid-spray",
+      "round",
+      "grassy-terrain",
+      "confide",
+      "infestation",
+      "grassy-glide"
+    ],
+    "held_items": [],
+    "base_experience": 87,
+    "is_default": true,
+    "order": 182,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/114.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/114.png"
+    },
+    "species_name": "tangela",
+    "flavor_text": "The whole body is swathed with wide vines that are similar to sea\u00ad weed. Its vines shake as it walks.",
+    "genus": "Vine Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "legs",
+    "color": "blue",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/52/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 52,
+      "chain": {
+        "species_name": "tangela",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "tangrowth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "ancient-power"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "pokemon_details": {
+    "id": 136,
+    "name": "flareon",
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 65
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 25.0,
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guts",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "flareon"
+    ],
+    "moves": [
+      "pay-day",
+      "double-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "leer",
+      "bite",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "focus-energy",
+      "bide",
+      "smog",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "yawn",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "fake-tears",
+      "overheat",
+      "covet",
+      "calm-mind",
+      "natural-gift",
+      "copycat",
+      "last-resort",
+      "flare-blitz",
+      "giga-impact",
+      "fire-fang",
+      "lava-plume",
+      "captivate",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "incinerate",
+      "retaliate",
+      "work-up",
+      "confide",
+      "mystical-fire",
+      "baby-doll-eyes",
+      "laser-focus",
+      "burning-jealousy",
+      "scorching-sands",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 219,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/136.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/136.png"
+    },
+    "species_name": "flareon",
+    "flavor_text": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+    "genus": "Flame Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 35,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "quadruped",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 67,
+      "chain": {
+        "species_name": "eevee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vaporeon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "jolteon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "flareon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "espeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "umbreon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "leafeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "eterna-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "pinwheel-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-20"
+              },
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "glaceon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "sinnoh-route-217"
+              },
+              {
+                "trigger": "level-up",
+                "location": "twist-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "frost-cavern"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "sylveon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move_type": "fairy"
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "known_move_type": "fairy"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

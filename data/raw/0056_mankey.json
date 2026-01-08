@@ -1,0 +1,239 @@
+{
+  "pokemon_details": {
+    "id": 56,
+    "name": "mankey",
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mankey"
+    ],
+    "moves": [
+      "karate-chop",
+      "mega-punch",
+      "pay-day",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "submission",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "meditate",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "bide",
+      "metronome",
+      "swift",
+      "skull-bash",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "revenge",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "overheat",
+      "rock-tomb",
+      "aerial-ace",
+      "bulk-up",
+      "covet",
+      "natural-gift",
+      "u-turn",
+      "close-combat",
+      "payback",
+      "assurance",
+      "fling",
+      "punishment",
+      "poison-jab",
+      "night-slash",
+      "seed-bomb",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "shadow-claw",
+      "rock-climb",
+      "gunk-shot",
+      "stone-edge",
+      "captivate",
+      "hone-claws",
+      "smack-down",
+      "low-sweep",
+      "round",
+      "acrobatics",
+      "retaliate",
+      "final-gambit",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "power-trip",
+      "stomping-tantrum",
+      "lash-out",
+      "tera-blast"
+    ],
+    "held_items": [
+      "payapa-berry"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 95,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/56.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/56.png"
+    },
+    "species_name": "mankey",
+    "flavor_text": "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
+    "genus": "Pig Monkey Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/24/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 24,
+      "chain": {
+        "species_name": "mankey",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "primeape",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "annihilape",
+                "evolution_details": [
+                  {
+                    "trigger": "other"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

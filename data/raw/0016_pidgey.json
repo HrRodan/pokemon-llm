@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 16,
+    "name": "pidgey",
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 56
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.8,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pidgey"
+    ],
+    "moves": [
+      "razor-wind",
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "mirror-move",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "secret-power",
+      "feather-dance",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "brave-bird",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "round",
+      "work-up",
+      "hurricane",
+      "confide"
+    ],
+    "held_items": [],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 21,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png"
+    },
+    "species_name": "pidgey",
+    "flavor_text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+    "genus": "Tiny Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "brown",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/6/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 6,
+      "chain": {
+        "species_name": "pidgey",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pidgeotto",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "pidgeot",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

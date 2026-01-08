@@ -1,0 +1,270 @@
+{
+  "pokemon_details": {
+    "id": 34,
+    "name": "nidoking",
+    "stats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 85
+    },
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 62.0,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "nidoking"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "cut",
+      "double-kick",
+      "mega-kick",
+      "headbutt",
+      "horn-attack",
+      "fury-attack",
+      "horn-drill",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "poison-sting",
+      "leer",
+      "roar",
+      "supersonic",
+      "flamethrower",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "peck",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "reflect",
+      "focus-energy",
+      "bide",
+      "fire-blast",
+      "skull-bash",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "detect",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "megahorn",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "beat-up",
+      "uproar",
+      "torment",
+      "flatter",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "mud-shot",
+      "rock-blast",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "sucker-punch",
+      "toxic-spikes",
+      "poison-jab",
+      "aqua-tail",
+      "dragon-pulse",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "rock-climb",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "hone-claws",
+      "venoshock",
+      "smack-down",
+      "sludge-wave",
+      "round",
+      "echoed-voice",
+      "chip-away",
+      "hex",
+      "incinerate",
+      "quash",
+      "bulldoze",
+      "dragon-tail",
+      "drill-run",
+      "confide",
+      "venom-drench",
+      "power-up-punch",
+      "high-horsepower",
+      "throat-chop",
+      "smart-strike",
+      "stomping-tantrum",
+      "body-press",
+      "scorching-sands"
+    ],
+    "held_items": [],
+    "base_experience": 227,
+    "is_default": true,
+    "order": 62,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/34.png"
+    },
+    "species_name": "nidoking",
+    "flavor_text": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+    "genus": "Drill Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "monster",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/13/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 13,
+      "chain": {
+        "species_name": "nidoran-m",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "nidorino",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "nidoking",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "moon-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "pokemon_details": {
+    "id": 169,
+    "name": "crobat",
+    "stats": {
+      "hp": 85,
+      "attack": 90,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 130
+    },
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 75.0,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "crobat"
+    ],
+    "moves": [
+      "gust",
+      "wing-attack",
+      "fly",
+      "double-edge",
+      "bite",
+      "supersonic",
+      "hyper-beam",
+      "absorb",
+      "toxic",
+      "hypnosis",
+      "agility",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "swift",
+      "leech-life",
+      "sky-attack",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "detect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "snatch",
+      "secret-power",
+      "poison-fang",
+      "astonish",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "dark-pulse",
+      "air-slash",
+      "x-scissor",
+      "brave-bird",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "defog",
+      "cross-poison",
+      "captivate",
+      "ominous-wind",
+      "venoshock",
+      "round",
+      "quick-guard",
+      "hex",
+      "acrobatics",
+      "hurricane",
+      "confide",
+      "venom-drench",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 241,
+    "is_default": true,
+    "order": 75,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/169.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/169.png"
+    },
+    "species_name": "crobat",
+    "flavor_text": "It flies so si\u00ad lently through the dark on its four wings that it may not be noticed even when nearby.",
+    "genus": "Bat Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "bug-wings",
+    "color": "purple",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/17/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 17,
+      "chain": {
+        "species_name": "zubat",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "golbat",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "crobat",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_happiness": 160
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

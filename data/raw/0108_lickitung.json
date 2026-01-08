@@ -1,0 +1,222 @@
+{
+  "pokemon_details": {
+    "id": 108,
+    "name": "lickitung",
+    "stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 30
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 65.5,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lickitung"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "bind",
+      "slam",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "wrap",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "supersonic",
+      "disable",
+      "acid",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "lick",
+      "fire-blast",
+      "skull-bash",
+      "amnesia",
+      "dream-eater",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "refresh",
+      "secret-power",
+      "rock-tomb",
+      "muddy-water",
+      "shock-wave",
+      "water-pulse",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "wring-out",
+      "me-first",
+      "aqua-tail",
+      "giga-impact",
+      "zen-headbutt",
+      "rock-climb",
+      "power-whip",
+      "captivate",
+      "round",
+      "chip-away",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "belch",
+      "confide",
+      "power-up-punch",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "steel-roller",
+      "terrain-pulse"
+    ],
+    "held_items": [
+      "lagging-tail"
+    ],
+    "base_experience": 77,
+    "is_default": true,
+    "order": 171,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/108.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/108.png"
+    },
+    "species_name": "lickitung",
+    "flavor_text": "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
+    "genus": "Licking Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/48/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 48,
+      "chain": {
+        "species_name": "lickitung",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lickilicky",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "rollout"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 253,
+    "name": "grovyle",
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 45,
+      "special-attack": 85,
+      "special-defense": 65,
+      "speed": 95
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 21.6,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "grovyle"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "slam",
+      "double-kick",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "screech",
+      "double-team",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "detect",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "dragon-breath",
+      "pursuit",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "magical-leaf",
+      "leaf-blade",
+      "natural-gift",
+      "assurance",
+      "fling",
+      "worry-seed",
+      "night-slash",
+      "seed-bomb",
+      "x-scissor",
+      "drain-punch",
+      "vacuum-wave",
+      "energy-ball",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "acrobatics",
+      "grass-pledge",
+      "dragon-tail",
+      "work-up",
+      "grassy-terrain",
+      "confide",
+      "power-up-punch",
+      "solar-blade",
+      "leafage",
+      "breaking-swipe",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 348,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/253.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/253.png"
+    },
+    "species_name": "grovyle",
+    "flavor_text": "The leaves growing out of GROVYLE\u2019s body are convenient for camouflaging it from enemies in the forest. This POK\u00e9MON is a master at climbing trees in jungles.",
+    "genus": "Wood Gecko Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "forest",
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/130/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 130,
+      "chain": {
+        "species_name": "treecko",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "grovyle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "sceptile",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

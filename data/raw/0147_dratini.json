@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 147,
+    "name": "dratini",
+    "stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 50
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 3.3,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "marvel-scale",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dratini"
+    ],
+    "moves": [
+      "bind",
+      "slam",
+      "headbutt",
+      "body-slam",
+      "wrap",
+      "take-down",
+      "double-edge",
+      "leer",
+      "supersonic",
+      "flamethrower",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "dragon-rage",
+      "fire-spin",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "icy-wind",
+      "detect",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "extreme-speed",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "giga-impact",
+      "draco-meteor",
+      "iron-head",
+      "captivate",
+      "aqua-jet",
+      "round",
+      "incinerate",
+      "dragon-tail",
+      "confide",
+      "brutal-swing",
+      "breaking-swipe",
+      "scale-shot",
+      "tera-blast",
+      "chilling-water",
+      "dragon-cheer"
+    ],
+    "held_items": [
+      "dragon-scale"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 242,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/147.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png"
+    },
+    "species_name": "dratini",
+    "flavor_text": "Long considered a mythical POK\u00e9MON until recently when a small colony was found living underwater.",
+    "genus": "Dragon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "waters-edge",
+    "shape": "squiggle",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/76/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 76,
+      "chain": {
+        "species_name": "dratini",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dragonair",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dragonite",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 55
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

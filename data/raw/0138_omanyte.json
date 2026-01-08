@@ -1,0 +1,205 @@
+{
+  "pokemon_details": {
+    "id": 138,
+    "name": "omanyte",
+    "stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "special-attack": 90,
+      "special-defense": 55,
+      "speed": 35
+    },
+    "types": [
+      "rock",
+      "water"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 7.5,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "omanyte"
+    ],
+    "moves": [
+      "bind",
+      "slam",
+      "sand-attack",
+      "headbutt",
+      "horn-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "rock-throw",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "withdraw",
+      "haze",
+      "reflect",
+      "bide",
+      "waterfall",
+      "spike-cannon",
+      "constrict",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "spikes",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "rock-tomb",
+      "tickle",
+      "muddy-water",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "gyro-ball",
+      "brine",
+      "natural-gift",
+      "wring-out",
+      "toxic-spikes",
+      "rock-polish",
+      "earth-power",
+      "captivate",
+      "stealth-rock",
+      "smack-down",
+      "round",
+      "scald",
+      "shell-smash",
+      "reflect-type",
+      "confide",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 71,
+    "is_default": true,
+    "order": 228,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/138.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/138.png"
+    },
+    "species_name": "omanyte",
+    "flavor_text": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+    "genus": "Spiral Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "tentacles",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/69/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 69,
+      "chain": {
+        "species_name": "omanyte",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "omastar",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

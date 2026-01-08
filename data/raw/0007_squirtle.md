@@ -1,8 +1,14 @@
 ## Identity & Lore
-Squirtle (Pokedex #007) is the Tiny Turtle Pokémon introduced in Generation I (Kanto). This small, blue reptilian typically inhabits areas near the water's edge. Biological records indicate that shortly after birth, its back swells and hardens into a tough, protective shell. It utilizes this physiology for defense and offense, capable of powerfully spraying foam or high-pressure water from its mouth.
+Squirtle (Pokedex #007) is the iconic Water-type "Tiny Turtle Pokémon" introduced in **Generation I (Kanto)**. Recognized by its light blue skin and distinct shell, it is one of the three starter Pokémon of the Kanto region. Biologically, Squirtle is defined by its defensive capabilities; shortly after birth, its back swells and hardens into a resilient shell. This shell is not merely for protection—its rounded shape and grooved surface minimize water resistance, allowing Squirtle to swim at high speeds. It prefers **waters-edge** habitats and is capable of spraying powerful foam or high-pressure water from its mouth to deter predators. While Squirtle does not possess alternate forms, its final evolution, Blastoise, is capable of both **Mega Evolution** and **Gigantamaxing**.
 
 ## Combat Profile
-In battle, Squirtle functions primarily as a defensive Tank relative to its evolutionary stage, utilizing high Defense (65) and Special Defense (64) stats to withstand hits while returning fire. As a pure Water-type, it is **weak to Grass and Electric** techniques and **resists Fire, Water, Ice, and Steel** attacks. It typically possesses the ability Torrent, which significantly boosts the power of its Water-type moves when its health drops below one-third. Rare specimens may possess the Hidden Ability Rain Dish, which allows the Pokémon to gradually regenerate hit points during rainy weather.
+*   **Stats:** HP 44, Attack 48, Defense 65, Sp. Atk 50, Sp. Def 64, Speed 43.
+*   **Archetype:** Defensive Utility / Little Cup Setup Sweeper.
+*   **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric** attacks. It naturally **resists Fire, Water, Ice, and Steel** attacks.
+*   **Move Selection:** Capitalizing on its respectable bulk and access to boosting moves, key moves include **Scald** (for STAB and burn chance), **Ice Beam** (to cover Grass weakness), **Shell Smash** (to sharply raise offensive stats and speed), and **Rapid Spin** (to clear entry hazards).
+*   **Abilities:**
+    *   **Torrent:** Powers up Water-type moves when the Pokémon's HP is low.
+    *   **Rain Dish (Hidden):** The Pokémon gradually regains HP in rain.
 
 ## Evolution & Biology
-Squirtle is the base form of a three-stage evolutionary line. It evolves into Wartortle starting at level 16, which subsequently evolves into the formidable Blastoise starting at level 36. It belongs to the Monster and Water 1 Egg Groups, allowing it to breed with a diverse range of amphibious and beast-like Pokémon.
+Squirtle is the first stage of a 3-stage evolutionary line. It evolves into **Wartortle** starting at **Level 16**, which then evolves into the formidable **Blastoise** starting at **Level 36**. It belongs to the **Monster** and **Water 1** Egg Groups, requiring approximately 20 egg cycles to hatch.

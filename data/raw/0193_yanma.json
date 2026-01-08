@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 193,
+    "name": "yanma",
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 45,
+      "special-attack": 75,
+      "special-defense": 45,
+      "speed": 95
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 38.0,
+    "abilities": [
+      {
+        "name": "speed-boost",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "frisk",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "yanma"
+    ],
+    "moves": [
+      "swords-dance",
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "sonic-boom",
+      "solar-beam",
+      "string-shot",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "quick-attack",
+      "mimic",
+      "screech",
+      "double-team",
+      "swift",
+      "dream-eater",
+      "leech-life",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "feint-attack",
+      "foresight",
+      "detect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "feint",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "bug-buzz",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "ominous-wind",
+      "round",
+      "struggle-bug",
+      "confide",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "wide-lens"
+    ],
+    "base_experience": 78,
+    "is_default": true,
+    "order": 289,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/193.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/193.png"
+    },
+    "species_name": "yanma",
+    "flavor_text": "If it flaps its wings really fast, it can generate shock waves that will shatter win\u00ad dows in the area.",
+    "genus": "Clear Wing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "red",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/95/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 95,
+      "chain": {
+        "species_name": "yanma",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "yanmega",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "ancient-power"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

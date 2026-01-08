@@ -1,0 +1,227 @@
+{
+  "pokemon_details": {
+    "id": 210,
+    "name": "granbull",
+    "stats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 75,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 45
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 48.7,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "granbull"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "reflect",
+      "metronome",
+      "lick",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "outrage",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "fake-tears",
+      "overheat",
+      "rock-tomb",
+      "bulk-up",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "close-combat",
+      "payback",
+      "fling",
+      "last-resort",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "rock-climb",
+      "stone-edge",
+      "captivate",
+      "low-sweep",
+      "round",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "snarl",
+      "play-rough",
+      "confide",
+      "dazzling-gleam",
+      "power-up-punch",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 158,
+    "is_default": true,
+    "order": 307,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/210.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/210.png"
+    },
+    "species_name": "granbull",
+    "flavor_text": "It is actually timid and easily spooked. If at\u00ad tacked, it flails about to fend off its attacker.",
+    "genus": "Fairy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "urban",
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/105/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 105,
+      "chain": {
+        "species_name": "snubbull",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "granbull",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 23
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

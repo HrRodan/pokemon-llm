@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 191,
+    "name": "sunkern",
+    "stats": {
+      "hp": 30,
+      "attack": 30,
+      "defense": 30,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 30
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.8,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sunkern"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "bide",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "sweet-scent",
+      "morning-sun",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "ingrain",
+      "endeavor",
+      "secret-power",
+      "weather-ball",
+      "grass-whistle",
+      "bullet-seed",
+      "magical-leaf",
+      "natural-gift",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "after-you",
+      "round",
+      "grassy-terrain",
+      "confide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "coba-berry"
+    ],
+    "base_experience": 36,
+    "is_default": true,
+    "order": 287,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/191.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/191.png"
+    },
+    "species_name": "sunkern",
+    "flavor_text": "It may drop out of the sky suddenly. If attacked by a SPEAROW, it will violently shake its leaves.",
+    "genus": "Seed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 235,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "ball",
+    "color": "yellow",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/94/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 94,
+      "chain": {
+        "species_name": "sunkern",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sunflora",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "sun-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

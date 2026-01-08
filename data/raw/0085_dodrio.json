@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 85,
+    "name": "dodrio",
+    "stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 110
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 85.2,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dodrio"
+    ],
+    "moves": [
+      "swords-dance",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "jump-kick",
+      "headbutt",
+      "fury-attack",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "growl",
+      "supersonic",
+      "hyper-beam",
+      "peck",
+      "drill-peck",
+      "low-kick",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "reflect",
+      "bide",
+      "mirror-move",
+      "swift",
+      "skull-bash",
+      "sky-attack",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "feather-dance",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "acupressure",
+      "payback",
+      "assurance",
+      "brave-bird",
+      "giga-impact",
+      "captivate",
+      "double-hit",
+      "round",
+      "echoed-voice",
+      "acrobatics",
+      "work-up",
+      "drill-run",
+      "confide",
+      "throat-chop",
+      "lunge",
+      "stomping-tantrum",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [
+      "sharp-beak"
+    ],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 138,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/85.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/85.png"
+    },
+    "species_name": "dodrio",
+    "flavor_text": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+    "genus": "Triple Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "legs",
+    "color": "brown",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/36/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 36,
+      "chain": {
+        "species_name": "doduo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dodrio",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 31
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

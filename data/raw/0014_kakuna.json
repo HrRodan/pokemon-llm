@@ -1,0 +1,126 @@
+{
+  "pokemon_details": {
+    "id": 14,
+    "name": "kakuna",
+    "stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 35
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 10.0,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "kakuna"
+    ],
+    "moves": [
+      "string-shot",
+      "harden",
+      "iron-defense",
+      "bug-bite",
+      "electroweb"
+    ],
+    "held_items": [],
+    "base_experience": 72,
+    "is_default": true,
+    "order": 18,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/14.png"
+    },
+    "species_name": "kakuna",
+    "flavor_text": "Almost incapable of moving, this POK\u00e9MON can only harden its shell to protect itself from predators.",
+    "genus": "Cocoon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "squiggle",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/5/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 5,
+      "chain": {
+        "species_name": "weedle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kakuna",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "beedrill",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

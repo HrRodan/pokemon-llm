@@ -1,0 +1,229 @@
+{
+  "pokemon_details": {
+    "id": 65,
+    "name": "alakazam",
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 135,
+      "special-defense": 95,
+      "speed": 120
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 48.0,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "alakazam"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "disable",
+      "psybeam",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "rage",
+      "teleport",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "recover",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "bide",
+      "metronome",
+      "swift",
+      "skull-bash",
+      "kinesis",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "signal-beam",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "miracle-eye",
+      "natural-gift",
+      "embargo",
+      "fling",
+      "power-swap",
+      "guard-swap",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "confide",
+      "dazzling-gleam",
+      "laser-focus",
+      "psychic-terrain",
+      "speed-swap",
+      "expanding-force"
+    ],
+    "held_items": [
+      "twisted-spoon"
+    ],
+    "base_experience": 225,
+    "is_default": true,
+    "order": 105,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/65.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/65.png"
+    },
+    "species_name": "alakazam",
+    "flavor_text": "Its brain can out\u00ad perform a super\u00ad computer. Its intelligence quotient is said to be 5,000.",
+    "genus": "Psi Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/27/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 27,
+      "chain": {
+        "species_name": "abra",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kadabra",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "alakazam",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "pokemon_details": {
+    "id": 249,
+    "name": "lugia",
+    "stats": {
+      "hp": 106,
+      "attack": 90,
+      "defense": 130,
+      "special-attack": 90,
+      "special-defense": 154,
+      "speed": 110
+    },
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "height_m": 5.2,
+    "weight_kg": 216.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "multiscale",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lugia"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "mist",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "recover",
+      "light-screen",
+      "reflect",
+      "waterfall",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "aeroblast",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "detect",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "weather-ball",
+      "air-cutter",
+      "signal-beam",
+      "extrasensory",
+      "aerial-ace",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "tailwind",
+      "punishment",
+      "aqua-tail",
+      "air-slash",
+      "dragon-pulse",
+      "dragon-rush",
+      "brave-bird",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "defog",
+      "iron-head",
+      "charge-beam",
+      "ominous-wind",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "echoed-voice",
+      "sky-drop",
+      "acrobatics",
+      "bulldoze",
+      "dragon-tail",
+      "hurricane",
+      "confide",
+      "laser-focus",
+      "liquidation",
+      "scale-shot",
+      "dual-wingbeat",
+      "tera-blast",
+      "chilling-water",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 344,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/249.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/249.png"
+    },
+    "species_name": "lugia",
+    "flavor_text": "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
+    "genus": "Diving Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "wings",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/127/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 127,
+      "chain": {
+        "species_name": "lugia",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}
