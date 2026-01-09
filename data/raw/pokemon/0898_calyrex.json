@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 898,
+    "name": "calyrex",
+    "stats": {
+      "hp": 100,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 80
+    },
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 7.7,
+    "abilities": [
+      {
+        "name": "unnerve",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "calyrex"
+    ],
+    "moves": [
+      "pound",
+      "pay-day",
+      "take-down",
+      "psybeam",
+      "hyper-beam",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "confusion",
+      "psychic",
+      "agility",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "sunny-day",
+      "psych-up",
+      "future-sight",
+      "facade",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "aromatherapy",
+      "bullet-seed",
+      "mud-shot",
+      "magical-leaf",
+      "calm-mind",
+      "gravity",
+      "power-swap",
+      "guard-swap",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "leaf-storm",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "magic-room",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "snarl",
+      "draining-kiss",
+      "grassy-terrain",
+      "solar-blade",
+      "pollen-puff",
+      "psychic-terrain",
+      "speed-swap",
+      "body-press",
+      "life-dew",
+      "expanding-force",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 250,
+    "is_default": true,
+    "order": 1090,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/898.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/898.png"
+    },
+    "species_name": "calyrex",
+    "flavor_text": "Calyrex is a merciful Pok\u00e9mon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+    "genus": "King Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 100,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/476/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 476,
+      "chain": {
+        "species_name": "calyrex",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

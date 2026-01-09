@@ -1,0 +1,12 @@
+## Identity & Lore
+Gouging Fire (Pokedex #1020) is the Paradox Pokémon, a prehistoric relative of the legendary Entei discovered within the depths of Area Zero. This Fire/Dragon-type behemoth was introduced in Generation IX (Paldea) and is characterized by its massive, dinosaur-like appearance, featuring a large, spiked frill reminiscent of a triceratops. Known only through scant reports and brief, terrifying video footage, Gouging Fire is described as a rampaging force of nature that spouts pillars of flame to incinerate its surroundings. Unlike the modern Entei, which is said to be born from volcanic eruptions, this ancient form represents a wild, primeval lineage of the "Volcano Pokémon."
+
+## Combat Profile
+* **Stats:** HP 105, Attack 115, Defense 121, Sp. Atk 65, Sp. Def 93, Speed 91.
+* **Archetype:** Physical Bulky Sweeper. With high natural HP and Defense paired with access to setup moves, it functions as a durable offensive threat that can take hits while preparing to sweep.
+* **Type Matchups:** It is **weak to Ground, Rock, and Dragon**. Its unique typing provides exceptional resistances, allowing it to **4x resist (double resistance) Fire and Grass**, while also resisting **Bug, Steel, and Electric** attacks.
+* **Move Selection:** Utilizing its massive Attack and signature capabilities, key moves include **Burning Bulwark** (its signature protection move that burns making contact), **Flare Blitz** (high-recoil STAB), **Dragon Dance** (for boosting Speed and Attack), and **Heat Crash** (capitalizing on its massive 590.0kg weight). It also utilizes **Morning Sun** for reliable recovery in Harsh Sunlight.
+* **Abilities:** Protosynthesis (Boosts the Pokémon's most proficient stat—usually Attack or Defense in this case—by 30%, or Speed by 50%, while in Harsh Sunlight or if holding a Booster Energy).
+
+## Evolution & Biology
+Gouging Fire is a standalone Paradox Pokémon and is not part of an evolutionary line; it does not evolve from or into any other species. As a Paradox entity, it belongs to the **No Eggs** group, meaning it cannot be bred in captivity. Biologically, it is a quadruped of immense scale, weighing over half a ton. Its presence in the Paldean region suggests a temporal displacement from an era where Pokémon were far more predatory and armored. While it shares visual similarities with Entei, it possesses no known Mega Evolutions or Gigantamax forms, relying instead on its raw ancient power and the Protosynthesis ability to dominate its environment.

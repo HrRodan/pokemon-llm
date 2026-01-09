@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 299,
+    "name": "nosepass",
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 135,
+      "special-attack": 45,
+      "special-defense": 90,
+      "speed": 30
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 97.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magnet-pull",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "nosepass"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "self-destruct",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "magnitude",
+      "dynamic-punch",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "magic-coat",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "flash-cannon",
+      "discharge",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "volt-switch",
+      "bulldoze",
+      "confide",
+      "dazzling-gleam",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "meteor-beam",
+      "tera-blast"
+    ],
+    "held_items": [
+      "hard-stone",
+      "magnet"
+    ],
+    "base_experience": 75,
+    "is_default": true,
+    "order": 401,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/299.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/299.png"
+    },
+    "species_name": "nosepass",
+    "flavor_text": "NOSEPASS\u2019s magnetic nose is always pointed to the north. If two of these POK\u00e9MON meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.",
+    "genus": "Compass Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/147/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 147,
+      "chain": {
+        "species_name": "nosepass",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "probopass",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "mt-coronet"
+              },
+              {
+                "trigger": "level-up",
+                "location": "chargestone-cave"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-13"
+              },
+              {
+                "trigger": "level-up",
+                "location": "blush-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "vast-poni-canyon"
+              },
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

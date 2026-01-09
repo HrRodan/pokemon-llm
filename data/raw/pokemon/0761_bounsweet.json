@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 761,
+    "name": "bounsweet",
+    "stats": {
+      "hp": 42,
+      "attack": 30,
+      "defense": 38,
+      "special-attack": 30,
+      "special-defense": 38,
+      "speed": 32
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 3.2,
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sweet-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bounsweet"
+    ],
+    "moves": [
+      "take-down",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "rapid-spin",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "endeavor",
+      "teeter-dance",
+      "aromatherapy",
+      "grass-whistle",
+      "bullet-seed",
+      "bounce",
+      "covet",
+      "magical-leaf",
+      "feint",
+      "acupressure",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "zen-headbutt",
+      "leaf-storm",
+      "grass-knot",
+      "round",
+      "draining-kiss",
+      "grassy-terrain",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "grassy-seed"
+    ],
+    "base_experience": 42,
+    "is_default": true,
+    "order": 920,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/761.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/761.png"
+    },
+    "species_name": "bounsweet",
+    "flavor_text": "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
+    "genus": "Fruit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 235,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "purple",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/392/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 392,
+      "chain": {
+        "species_name": "bounsweet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "steenee",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "tsareena",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "known_move": "stomp"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

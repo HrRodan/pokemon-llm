@@ -1,0 +1,12 @@
+## Identity & Lore
+Escavalier (#589) is the Cavalry Pokémon, a dual-type Bug and Steel creature first discovered in the Unova region (Generation V). Appearing as a beetle-like knight encased in heavy, metallic armor, Escavalier is famous for its unique biological origin: it evolves by stealing the shell of a Shelmet. It brandishes two formidable, pointed lances which it uses to strike opponents with precision and bravery. Despite its exceptionally low base speed in gameplay, its lore describes it flying around at high speeds to stab foes. This Pokémon is a gray and red armored warrior that thrives in competitive environments where it can leverage its massive physical presence. While it does not possess a Mega Evolution or Gigantamax form, it remains the primary biological counterpart to Accelgor.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 135, Defense 105, Sp. Atk 60, Sp. Def 105, Speed 20.
+* **Archetype:** Physical Tank / Trick Room Sweeper. With a massive Attack stat and significant dual defenses, Escavalier is designed to survive hits and retaliate with overwhelming force. Its abysmal Speed makes it a premier candidate for Trick Room teams.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Fire**. However, its Steel typing grants it an **Immunity to Poison** and resistances to **Normal, Grass, Ice, Psychic, Bug, Dragon, Steel, and Fairy**.
+* **Move Selection:** Utilizing its elite Attack stat, Escavalier excels with **Megahorn** (its strongest Bug STAB), **Iron Head** (reliable Steel STAB with a flinch chance), **Drill Run** (critical Ground-type coverage against Fire and Steel types), and **Knock Off** (essential utility for removing enemy items).
+* **Abilities:** **Swarm** (powers up Bug-type moves when HP is low); **Shell Armor** (protects the Pokémon from receiving critical hits); **Overcoat** (Hidden Ability; grants immunity to sandstorm damage and powder-based moves like Sleep Powder or Spore).
+
+## Evolution & Biology
+Escavalier is the final stage of a two-member evolutionary line. It evolves from **Karrablast** through a highly specific and unique method: it must be **traded for a Shelmet**, a process that simulates Escavalier "plundering" the Shelmet's shell to use as its own armor. Biologically, it is a fierce predator that values its protective plating above all else. It belongs to the **Bug** Egg Group and has a hatch counter of 15, making it relatively accessible for trainers focusing on competitive breeding.

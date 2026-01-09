@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 379,
+    "name": "registeel",
+    "stats": {
+      "hp": 80,
+      "attack": 75,
+      "defense": 150,
+      "special-attack": 75,
+      "special-defense": 150,
+      "speed": 50
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 205.0,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "light-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "registeel"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "self-destruct",
+      "amnesia",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "sand-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "shock-wave",
+      "gravity",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "magnet-rise",
+      "rock-polish",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "flash-cannon",
+      "rock-climb",
+      "iron-head",
+      "stealth-rock",
+      "charge-beam",
+      "hone-claws",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "steel-roller",
+      "meteor-beam",
+      "tera-blast",
+      "ice-spinner",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 502,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/379.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/379.png"
+    },
+    "species_name": "registeel",
+    "flavor_text": "REGISTEEL has a body that is harder than any kind of metal. Its body is apparently hollow. No one has any idea what this POK\u00e9MON eats.",
+    "genus": "Iron Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": "cave",
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/195/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 195,
+      "chain": {
+        "species_name": "registeel",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

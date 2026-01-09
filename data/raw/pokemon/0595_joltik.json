@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 595,
+    "name": "joltik",
+    "stats": {
+      "hp": 50,
+      "attack": 47,
+      "defense": 50,
+      "special-attack": 57,
+      "special-defense": 50,
+      "speed": 65
+    },
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "height_m": 0.1,
+    "weight_kg": 0.6,
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "swarm",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "joltik"
+    ],
+    "moves": [
+      "cut",
+      "poison-sting",
+      "pin-missile",
+      "disable",
+      "absorb",
+      "string-shot",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "screech",
+      "double-team",
+      "light-screen",
+      "swift",
+      "leech-life",
+      "flash",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "spider-web",
+      "snore",
+      "protect",
+      "feint-attack",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "camouflage",
+      "signal-beam",
+      "bounce",
+      "shock-wave",
+      "gastro-acid",
+      "sucker-punch",
+      "magnet-rise",
+      "poison-jab",
+      "x-scissor",
+      "bug-buzz",
+      "energy-ball",
+      "rock-climb",
+      "discharge",
+      "cross-poison",
+      "bug-bite",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "volt-switch",
+      "struggle-bug",
+      "electroweb",
+      "wild-charge",
+      "confide",
+      "infestation",
+      "lunge",
+      "speed-swap",
+      "rising-voltage",
+      "skitter-smack",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 717,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/595.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/595.png"
+    },
+    "species_name": "joltik",
+    "flavor_text": "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
+    "genus": "Attaching Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "armor",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/303/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 303,
+      "chain": {
+        "species_name": "joltik",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "galvantula",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 36
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

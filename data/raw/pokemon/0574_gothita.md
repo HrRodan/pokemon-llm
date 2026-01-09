@@ -1,0 +1,15 @@
+## Identity & Lore
+Gothita (Pokedex #574) is the Fixation Pokémon, a small humanoid species first discovered in the Unova region during Generation V. Characterized by its distinct purple skin and white ribbonlike feelers, these feelers are more than mere decoration; they serve as focal points that amplify its innate psychic power. Gothita is notoriously known for its intense, unwavering gaze, often staring at things that are invisible to the human eye, suggesting a sensory perception that extends into other dimensions or spiritual realms. While Gothita itself is the base form, its evolutionary line, culminating in Gothitelle, is often associated with the ability to see the stars and predict the future. Currently, Gothita does not possess a Mega Evolution, Gigantamax form, or a Paradox counterpart, remaining a staple of the classic Unovan psychic roster.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 30, Defense 50, Sp. Atk 55, Sp. Def 65, Speed 45.
+* **Archetype:** Special Support / Trapper. In competitive Little Cup (LC) formats, Gothita functions as a disruptive utility Pokémon that leverages its abilities to control the field.
+* **Type Matchups:** As a pure Psychic-type, it is **weak to Bug, Ghost, and Dark**. It **resists Fighting and Psychic** types.
+* **Move Selection:** Prioritizing its higher Special Attack and utility potential, key moves include **Psychic** for high-damage STAB, **Thunderbolt** for elemental coverage against Water and Flying types, **Shadow Ball** to threaten opposing Ghost types, and **Calm Mind** to boost its Special offensive and defensive presence.
+* **Abilities:** 
+    * **Frisk:** Allows Gothita to identify the opponent's held item upon entering battle, providing vital tactical intelligence.
+    * **Competitive:** Boosts Special Attack by two stages if any of Gothita's stats are lowered by an opponent, making it an excellent counter to Intimidate users.
+    * **Shadow Tag (Hidden Ability):** One of the most powerful abilities in the game, it prevents opposing Pokémon from switching out, allowing Gothita to "trap" and eliminate specific threats.
+
+## Evolution & Biology
+Gothita is part of a three-stage evolutionary line. It evolves into **Gothorita** starting at **Level 32**, which subsequently evolves into the final form, **Gothitelle**, at **Level 41**. Biologically, Gothita belongs to the **Humanshape** Egg Group, reflecting its bipedal, humanoid appearance. It has a medium-slow growth rate and a base happiness of 70. In the wild, Gothita are occasionally found carrying a **Persim Berry**, which they likely use to snap out of confusion caused by their own burgeoning psychic energies. They are primarily found in temperate regions, often drawn to areas where they can observe interesting phenomena to satisfy their fixation.

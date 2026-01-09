@@ -1,0 +1,156 @@
+{
+  "pokemon_details": {
+    "id": 10261,
+    "name": "squawkabilly-yellow-plumage",
+    "stats": {
+      "hp": 82,
+      "attack": 96,
+      "defense": 51,
+      "special-attack": 45,
+      "special-defense": 51,
+      "speed": 92
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 2.4,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "squawkabilly-yellow-plumage"
+    ],
+    "moves": [
+      "fly",
+      "fury-attack",
+      "take-down",
+      "double-edge",
+      "growl",
+      "hyper-beam",
+      "peck",
+      "quick-attack",
+      "mimic",
+      "rest",
+      "substitute",
+      "thief",
+      "reversal",
+      "protect",
+      "scary-face",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "flatter",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "endeavor",
+      "feather-dance",
+      "hyper-voice",
+      "fake-tears",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "copycat",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "foul-play",
+      "final-gambit",
+      "hurricane",
+      "parting-shot",
+      "lash-out",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 146,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10261.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10261.png"
+    },
+    "species_name": "squawkabilly",
+    "flavor_text": "These Pok\u00e9mon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+    "genus": "Parrot Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "wings",
+    "color": "green",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/488/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 488,
+      "chain": {
+        "species_name": "squawkabilly",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

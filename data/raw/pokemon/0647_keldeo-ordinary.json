@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 647,
+    "name": "keldeo-ordinary",
+    "stats": {
+      "hp": 91,
+      "attack": 72,
+      "defense": 90,
+      "special-attack": 129,
+      "special-defense": 90,
+      "speed": 108
+    },
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 48.5,
+    "abilities": [
+      {
+        "name": "justified",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "keldeo-ordinary"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "double-kick",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hydro-pump",
+      "surf",
+      "bubble-beam",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "toxic",
+      "double-team",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "megahorn",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "hail",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "muddy-water",
+      "aerial-ace",
+      "bounce",
+      "covet",
+      "calm-mind",
+      "water-pulse",
+      "close-combat",
+      "last-resort",
+      "aura-sphere",
+      "poison-jab",
+      "aqua-tail",
+      "air-slash",
+      "x-scissor",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "stone-edge",
+      "aqua-jet",
+      "round",
+      "quick-guard",
+      "scald",
+      "retaliate",
+      "work-up",
+      "sacred-sword",
+      "secret-sword",
+      "confide",
+      "smart-strike",
+      "liquidation",
+      "coaching",
+      "flip-turn",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 775,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/647.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/647.png"
+    },
+    "species_name": "keldeo",
+    "flavor_text": "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+    "genus": "Colt Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/334/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 334,
+      "chain": {
+        "species_name": "keldeo",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

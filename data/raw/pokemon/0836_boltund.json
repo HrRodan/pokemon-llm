@@ -1,0 +1,142 @@
+{
+  "pokemon_details": {
+    "id": 836,
+    "name": "boltund",
+    "stats": {
+      "hp": 69,
+      "attack": 90,
+      "defense": 60,
+      "special-attack": 90,
+      "special-defense": 60,
+      "speed": 121
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 34.0,
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "boltund"
+    ],
+    "moves": [
+      "tackle",
+      "tail-whip",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "agility",
+      "focus-energy",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "charm",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "crunch",
+      "uproar",
+      "facade",
+      "charge",
+      "helping-hand",
+      "hyper-voice",
+      "bulk-up",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "electro-ball",
+      "round",
+      "volt-switch",
+      "wild-charge",
+      "snarl",
+      "electrify",
+      "play-rough",
+      "eerie-impulse",
+      "electric-terrain",
+      "nuzzle",
+      "psychic-fangs",
+      "rising-voltage"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 1017,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/836.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/836.png"
+    },
+    "species_name": "boltund",
+    "flavor_text": "This Pok\u00e9mon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+    "genus": "Dog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/440/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 440,
+      "chain": {
+        "species_name": "yamper",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "boltund",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "pokemon_details": {
+    "id": 947,
+    "name": "brambleghast",
+    "stats": {
+      "hp": 55,
+      "attack": 115,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 70,
+      "speed": 90
+    },
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 6.0,
+    "abilities": [
+      {
+        "name": "wind-rider",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "brambleghast"
+    ],
+    "moves": [
+      "disable",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "night-shade",
+      "confuse-ray",
+      "defense-curl",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "pain-split",
+      "rapid-spin",
+      "shadow-ball",
+      "beat-up",
+      "facade",
+      "astonish",
+      "bullet-seed",
+      "block",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "shadow-sneak",
+      "leaf-storm",
+      "power-whip",
+      "grass-knot",
+      "hex",
+      "phantom-force",
+      "grassy-terrain",
+      "infestation",
+      "strength-sap",
+      "grassy-glide",
+      "skitter-smack",
+      "poltergeist",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 975,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/947.png"
+    },
+    "species_name": "brambleghast",
+    "flavor_text": "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+    "genus": "Tumbleweed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "brown",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/495/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 495,
+      "chain": {
+        "species_name": "bramblin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "brambleghast",
+            "evolution_details": [
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

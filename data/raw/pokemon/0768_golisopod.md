@@ -1,0 +1,12 @@
+## Identity & Lore
+Golisopod (Pokedex #768) is the Hard Scale Pokémon, a formidable armored crustacean originally discovered in the Alola region during Generation VII. Standing at two meters tall and weighing over 100 kilograms, it is a massive, gray-colored arthropod known for its "cleaving" claws which, according to Alolan legends, possess enough power to slice through seawater and even the air itself. While its pre-evolution, Wimpod, is known for its extreme cowardice, Golisopod is a battle-hardened warrior that will do whatever it takes to win. In the Alola region, it is most famously recognized as the signature partner of Guzma, the leader of Team Skull. While Golisopod does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants, its unique biological design draws inspiration from the giant isopod and samurai armor.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 125, Defense 140, Sp. Atk 60, Sp. Def 90, Speed 40.
+* **Archetype:** Physical Tank / Revenge Killer. Golisopod excels at taking physical hits and retaliating with overwhelming force, though its low speed requires the use of priority moves to be effective.
+* **Type Matchups:** It is **weak to Flying, Rock, and Electric**. It possesses notable **resistances to Fighting, Ground, Steel, Water, and Ice** types.
+* **Move Selection:** Capitalizing on its massive 125 Base Attack and its need to bypass low speed, key moves include **First Impression** (a devastating Bug-type priority move usable only on the first turn out), **Liquidation** (its primary Water-type STAB move), **Leech Life** (providing essential HP recovery), and **Sucker Punch** (to catch faster opponents attempting to attack).
+* **Abilities:** Emergency Exit (A unique tactical ability where Golisopod immediately switches out of battle if its HP drops below half. This can be used strategically to reset First Impression or to safely bring in a teammate).
+
+## Evolution & Biology
+Golisopod is part of a two-stage evolutionary line. It evolves from **Wimpod** once it reaches **Level 30**. This evolution marks a psychological shift from a scavenger that flees from danger to a predator that stands its ground. Biologically, its shell has hardened into a series of overlapping plates, granting it one of the highest physical defense ratings among non-legendary Pokémon. It belongs to the **Bug and Water 3** egg groups, typically found in coastal areas where it can utilize its many legs to navigate both the seabed and rocky shores.

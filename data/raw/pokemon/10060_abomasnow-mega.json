@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 10060,
+    "name": "abomasnow-mega",
+    "stats": {
+      "hp": 90,
+      "attack": 132,
+      "defense": 105,
+      "special-attack": 132,
+      "special-defense": 105,
+      "speed": 30
+    },
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "height_m": 2.7,
+    "weight_kg": 185.0,
+    "abilities": [
+      {
+        "name": "snow-warning",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "abomasnow-mega"
+    ],
+    "moves": [
+      "ice-punch",
+      "swords-dance",
+      "leer",
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "razor-leaf",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "outrage",
+      "giga-drain",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "shadow-ball",
+      "rock-smash",
+      "hail",
+      "facade",
+      "focus-punch",
+      "role-play",
+      "ingrain",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "grass-whistle",
+      "sheer-cold",
+      "block",
+      "water-pulse",
+      "fling",
+      "worry-seed",
+      "seed-bomb",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "ice-shard",
+      "grass-knot",
+      "wood-hammer",
+      "round",
+      "bulldoze",
+      "frost-breath",
+      "confide",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "never-melt-ice"
+    ],
+    "base_experience": 208,
+    "is_default": false,
+    "order": 586,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10060.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10060.png"
+    },
+    "species_name": "abomasnow",
+    "flavor_text": "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
+    "genus": "Frost Tree Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/239/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 239,
+      "chain": {
+        "species_name": "snover",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "abomasnow",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

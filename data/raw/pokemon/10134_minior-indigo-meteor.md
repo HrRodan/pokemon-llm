@@ -1,0 +1,12 @@
+## Identity & Lore
+Minior-Indigo-Meteor (Pokedex #10134) is the Meteor Pokémon, a unique celestial organism originally discovered in the Alola region during Generation VII. This specific variant represents the Indigo Core encased in its dense, stony outer shell. Minior lives high within the stratosphere, spending its life consuming dust and metallic particles from the ozone layer. When its shell becomes too heavy from accumulated debris, it loses buoyancy and hurtles toward the planet's surface like a falling star. While it does not possess a Mega Evolution, Gigantamax, or Paradox form, its biology is defined by its dramatic transformation capability—once its protective "brown" rocky exterior is breached, it reveals a vibrant, glowing core.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 60, Defense 100, Sp. Atk 60, Sp. Def 100, Speed 60.
+* **Archetype:** Set-up Tank / Transformation Specialist. In this Meteor Form, Minior focuses on defensive longevity and surviving hits to set up its win conditions.
+* **Type Matchups:** It is **weak to Water, Grass, Electric, Ice, Steel, and Rock**. It **resists Normal, Fire, Poison, Flying, and Bug**, and possesses a total **immunity to Ground** moves due to its Flying type.
+* **Move Selection:** Minior utilizes its defensive shell to set up for a sweep or support the team. Key moves include **Shell Smash** to prepare for its Core form transformation, **Power Gem** for reliable Special STAB, **Meteor Beam** for massive power and a Special Attack boost, and **Stealth Rock** for entry hazard support.
+* **Abilities:** Shields Down (The signature ability of Minior. While in this Meteor Form, it is protected from status conditions and maintains high defensive stats. When its HP drops below 50%, the shell breaks, revealing the Indigo Core and swapping its high defenses for high Speed and offensive power).
+
+## Evolution & Biology
+Minior is a single-stage Pokémon that does not evolve into or from any other species; however, it exists in two distinct states: the Meteor Form and the Core Form. This specific Indigo variant is one of seven possible colors it can manifest. It belongs to the Mineral egg group and has a hatch counter of 25, reflecting its crystalline and inorganic composition. Despite its rocky appearance, it is a living entity that thrives on atmospheric nutrients and can use moves like Self-Destruct or Explosion as a last resort when its shell is compromised upon impact with the ground.

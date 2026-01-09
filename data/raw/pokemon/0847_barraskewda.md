@@ -1,0 +1,14 @@
+## Identity & Lore
+Barraskewda (Pokedex #847) is the Skewer Pokémon, a sleek and formidable aquatic predator first discovered in the Galar region during Generation VIII. Distinguished by its brown, torpedo-like body and a jaw as sharp as a spear and as strong as steel, Barraskewda is built for extreme velocity. Its biological design allows it to spin its tail fin like a propeller to breach speeds exceeding 100 knots, making it a terrifying sight for prey. Beyond its predatory nature, lore suggests that Barraskewda’s flesh is surprisingly tasty, making it a prized catch in the culinary world of Galar. While it does not possess a Mega Evolution or Gigantamax form, it is famously known for its ecological relationship with Cramorant, which often attempts to swallow Arrokuda and Barraskewda whole to use them as living projectiles via the Gulp Missile ability.
+
+## Combat Profile
+* **Stats:** HP 61, Attack 123, Defense 60, Sp. Atk 60, Sp. Def 50, Speed 136.
+* **Archetype:** Fast Physical Glass Cannon. With a blistering base Speed of 136 and a heavy-hitting Attack stat, Barraskewda functions as one of the premier "Rain Sweepers" in competitive play.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric**. It **resists Fire, Water, Ice, and Steel** types.
+* **Move Selection:** Capitalizing on its elite physical prowess and pivot potential, key moves include **Liquidation** (high-damage STAB), **Close Combat** (vital coverage against Steel and Normal types), **Flip Turn** (for maintaining offensive momentum), and **Aqua Jet** (priority to pick off weakened targets). It also has access to **Psychic Fangs** and **Poison Jab** to break through defensive Fairy and Grass types.
+* **Abilities:** 
+    * **Swift Swim:** Doubles the Pokémon's Speed stat in rainy weather, making it virtually impossible to outspeed without priority moves.
+    * **Propeller-Tail (Hidden Ability):** A specialized tactical ability that ignores the effects of opponents' "redirection" moves and abilities (such as Follow Me, Rage Powder, or Storm Drain), ensuring Barraskewda hits its intended target in Double Battles.
+
+## Evolution & Biology
+Barraskewda is the final stage of a two-stage evolutionary line. It evolves from **Arrokuda** once it reaches **Level 26**. Biologically, its evolution reflects a transition into a more aggressive, spear-like form capable of deeper dives and higher-speed chases. It belongs to the **Water 2** Egg Group, sharing a lineage with other fish-like Pokémon. Trainers should note its **Slow** growth rate, meaning it requires significant experience to reach its full potential, though its high hatch counter (20) makes it relatively straightforward to breed for competitive IVs.

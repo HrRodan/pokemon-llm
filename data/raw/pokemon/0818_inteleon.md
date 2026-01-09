@@ -1,0 +1,12 @@
+## Identity & Lore
+Inteleon (#818) is the Secret Agent Pokémon, a sleek and formidable Water-type initially discovered in the Galar region of Generation VIII. Characterized by its thin, lithe frame and "spy" aesthetic, Inteleon possesses a versatile biology designed for reconnaissance and precision strikes. It features a nictitating membrane over its eyes for spotting weaknesses and a hidden membrane on its back that allows it to glide silently through the air. Its most distinct trait is the ability to compress water within its body and blast it from its fingertips at speeds exceeding Mach 3. Beyond its standard form, Inteleon is capable of **Gigantamaxing**, a transformation that sees it perched atop a towering water pillar, acting as a long-range sniper with its signature G-Max move, G-Max Hydrosnipe.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 65, Sp. Atk 125, Sp. Def 65, Speed 120.
+* **Archetype:** Fast Special Sweeper. Its elite Speed tier allows it to outpace a large portion of the competitive meta, while its massive Special Attack makes it a premiere glass cannon.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric** types. It **resists Fire, Water, Ice, and Steel** moves.
+* **Move Selection:** Capitalizing on its high Special Attack and tactical kit, key moves include its signature **Snipe Shot** (which ignores redirection like Follow Me), **Ice Beam** (essential coverage for Grass and Dragon types), **Dark Pulse** (to hit Ghost and Psychic types), and **Air Slash** (for flinch potential and coverage against Fighting types).
+* **Abilities:** **Torrent** (Increases the power of Water-type moves by 50% when current HP is at or below one-third of its maximum) and its Hidden Ability **Sniper** (Power up critical hits by 1.5x, synergizing perfectly with moves like Snipe Shot or items like the Scope Lens).
+
+## Evolution & Biology
+Inteleon is the final stage of the three-stage Galar Water-starter evolutionary line. It begins its life as **Sobble**, a timid Pokémon known for its camouflage. Sobble evolves into the moody and tactical **Drizzile** starting at Level 16. The transition to its final form occurs when Drizzile reaches Level 35, where it sheds its reclusive nature to become the professional and composed Inteleon. Biologically, it is highly efficient, belonging to the **Water 1** and **Field (Ground)** egg groups, and is noted for its "Medium-Slow" growth rate, requiring significant experience to reach its full potential.

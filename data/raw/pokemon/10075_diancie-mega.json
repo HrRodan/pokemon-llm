@@ -1,0 +1,167 @@
+{
+  "pokemon_details": {
+    "id": 10075,
+    "name": "diancie-mega",
+    "stats": {
+      "hp": 50,
+      "attack": 160,
+      "defense": 110,
+      "special-attack": 160,
+      "special-defense": 110,
+      "speed": 110
+    },
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 27.8,
+    "abilities": [
+      {
+        "name": "magic-bounce",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "diancie-mega"
+    ],
+    "moves": [
+      "tackle",
+      "hyper-beam",
+      "rock-throw",
+      "toxic",
+      "psychic",
+      "double-team",
+      "harden",
+      "light-screen",
+      "reflect",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "sharpen",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "sandstorm",
+      "swagger",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "hail",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "rock-tomb",
+      "iron-defense",
+      "covet",
+      "calm-mind",
+      "gravity",
+      "gyro-ball",
+      "last-resort",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "trick-room",
+      "stone-edge",
+      "stealth-rock",
+      "guard-split",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "smack-down",
+      "after-you",
+      "round",
+      "moonblast",
+      "confide",
+      "diamond-storm",
+      "dazzling-gleam"
+    ],
+    "held_items": [],
+    "base_experience": 315,
+    "is_default": false,
+    "order": 864,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10075.png"
+    },
+    "species_name": "diancie",
+    "flavor_text": "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+    "genus": "Jewel Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/371/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 371,
+      "chain": {
+        "species_name": "diancie",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

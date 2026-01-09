@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 334,
+    "name": "altaria",
+    "stats": {
+      "hp": 75,
+      "attack": 70,
+      "defense": 90,
+      "special-attack": 70,
+      "special-defense": 105,
+      "speed": 80
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 20.6,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "altaria"
+    ],
+    "moves": [
+      "fly",
+      "fury-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "sing",
+      "flamethrower",
+      "mist",
+      "ice-beam",
+      "hyper-beam",
+      "peck",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "toxic",
+      "agility",
+      "mimic",
+      "double-team",
+      "haze",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "perish-song",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "feather-dance",
+      "hyper-voice",
+      "astonish",
+      "weather-ball",
+      "air-cutter",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "power-swap",
+      "dragon-pulse",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "draco-meteor",
+      "captivate",
+      "ominous-wind",
+      "hone-claws",
+      "wonder-room",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "acrobatics",
+      "bulldoze",
+      "cotton-guard",
+      "hurricane",
+      "disarming-voice",
+      "play-rough",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "breaking-swipe",
+      "dual-wingbeat",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "dragon-cheer",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 446,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/334.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/334.png"
+    },
+    "species_name": "altaria",
+    "flavor_text": "ALTARIA dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this POK\u00e9MON makes its listeners experience dreamy wonderment.",
+    "genus": "Humming Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "flying",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/168/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 168,
+      "chain": {
+        "species_name": "swablu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "altaria",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "pokemon_details": {
+    "id": 10201,
+    "name": "machamp-gmax",
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 85,
+      "speed": 55
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 25.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "machamp-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 227,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10201.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10201.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10201.png"
+    },
+    "species_name": "machamp",
+    "flavor_text": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+    "genus": "Superpower Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/28/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 28,
+      "chain": {
+        "species_name": "machop",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "machoke",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "machamp",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

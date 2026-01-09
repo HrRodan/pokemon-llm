@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 562,
+    "name": "yamask",
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 1.5,
+    "abilities": [
+      {
+        "name": "mummy",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "yamask"
+    ],
+    "moves": [
+      "disable",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "double-team",
+      "haze",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "destiny-bond",
+      "endure",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "fake-tears",
+      "iron-defense",
+      "block",
+      "calm-mind",
+      "shock-wave",
+      "payback",
+      "embargo",
+      "heal-block",
+      "toxic-spikes",
+      "dark-pulse",
+      "energy-ball",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "ominous-wind",
+      "guard-split",
+      "power-split",
+      "wonder-room",
+      "telekinesis",
+      "after-you",
+      "round",
+      "ally-switch",
+      "hex",
+      "crafty-shield",
+      "confide",
+      "infestation",
+      "poltergeist"
+    ],
+    "held_items": [
+      "spell-tag"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 683,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/562.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/562.png"
+    },
+    "species_name": "yamask",
+    "flavor_text": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+    "genus": "Spirit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "black",
+    "egg_groups": [
+      "mineral",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/287/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 287,
+      "chain": {
+        "species_name": "yamask",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cofagrigus",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "runerigus",
+            "evolution_details": [
+              {
+                "trigger": "take-damage"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

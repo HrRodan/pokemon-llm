@@ -1,0 +1,12 @@
+## Identity & Lore
+Original Cap Pikachu (Pokedex #10094) is the Mouse Pokémon, a special variant of the iconic species first discovered in the Kanto region (Generation I). This specific form is characterized by the Pokémon wearing the original hat worn by its trainer, Ash Ketchum, during his journey through the Kanto and Johto leagues. Primarily found in forest habitats, this yellow quadruped is known for its ability to store electricity in its cheek pouches; when multiple individuals gather, their collective energy can trigger massive lightning storms. While this specific cap-wearing variant is a unique event Pokémon, the Pikachu species is famous for its evolutionary flexibility, including the massive, tail-heavy **Gigantamax Pikachu** and the Alolan variant of its evolution, Raichu.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Glass Cannon / Mixed Attacker (with Light Ball).
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Utilizing the Light Ball—an item it is frequently found holding that doubles its offensive stats—it excels with a mix of physical and special attacks. Key moves include **Volt Tackle** for immense recoil-driven physical damage, **Thunderbolt** for consistent special STAB, **Iron Tail** for coverage against Rock and Fairy types, and **Volt Switch** to maintain offensive momentum while switching out.
+* **Abilities:** **Static** (Provides a 30% chance to paralyze opponents who make physical contact) and **Lightning Rod** (Grants total immunity to Electric-type moves and boosts its Special Attack when hit by one).
+
+## Evolution & Biology
+Original Cap Pikachu is part of a three-stage evolutionary line, though this specific cap-wearing form is biologically unique and typically cannot evolve. In the standard lineage, the species begins as **Pichu**, which evolves into Pikachu when **leveled up with high friendship** (minimum 220 happiness). Under normal circumstances, Pikachu evolves into **Raichu** (or Alolan Raichu in the Alola region) when **exposed to a Thunder Stone**. It belongs to the **Ground and Fairy** Egg Groups, and despite its small stature, it is a hardy traveler with a growth rate that allows for rapid development.

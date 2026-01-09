@@ -1,0 +1,284 @@
+{
+  "pokemon_details": {
+    "id": 700,
+    "name": "sylveon",
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 110,
+      "special-defense": 130,
+      "speed": 60
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 23.5,
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pixilate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sylveon"
+    ],
+    "moves": [
+      "pay-day",
+      "cut",
+      "sand-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "dig",
+      "toxic",
+      "psychic",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "facade",
+      "helping-hand",
+      "magic-coat",
+      "skill-swap",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "fake-tears",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "copycat",
+      "last-resort",
+      "giga-impact",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "retaliate",
+      "work-up",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "laser-focus",
+      "misty-explosion",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 224,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/700.png"
+    },
+    "species_name": "sylveon",
+    "flavor_text": "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+    "genus": "Intertwining Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 35,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "pink",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 67,
+      "chain": {
+        "species_name": "eevee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vaporeon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "jolteon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "flareon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "espeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "umbreon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "leafeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "eterna-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "pinwheel-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-20"
+              },
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "glaceon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "sinnoh-route-217"
+              },
+              {
+                "trigger": "level-up",
+                "location": "twist-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "frost-cavern"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "sylveon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move_type": "fairy"
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "known_move_type": "fairy"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 570,
+    "name": "zorua",
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 40,
+      "special-attack": 80,
+      "special-defense": 40,
+      "speed": 65
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 12.5,
+    "abilities": [
+      {
+        "name": "illusion",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zorua"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "take-down",
+      "leer",
+      "roar",
+      "counter",
+      "dig",
+      "toxic",
+      "agility",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "encore",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "torment",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "revenge",
+      "knock-off",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "fake-tears",
+      "extrasensory",
+      "aerial-ace",
+      "bounce",
+      "covet",
+      "calm-mind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "copycat",
+      "punishment",
+      "sucker-punch",
+      "dark-pulse",
+      "nasty-plot",
+      "shadow-claw",
+      "captivate",
+      "grass-knot",
+      "hone-claws",
+      "foul-play",
+      "round",
+      "hex",
+      "incinerate",
+      "retaliate",
+      "night-daze",
+      "snarl",
+      "confide",
+      "skitter-smack",
+      "burning-jealousy",
+      "lash-out",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 692,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/570.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/570.png"
+    },
+    "species_name": "zorua",
+    "flavor_text": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+    "genus": "Tricky Fox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/291/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 291,
+      "chain": {
+        "species_name": "zorua",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "zoroark",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

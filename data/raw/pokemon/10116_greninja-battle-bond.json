@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 10116,
+    "name": "greninja-battle-bond",
+    "stats": {
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "special-attack": 103,
+      "special-defense": 71,
+      "speed": 122
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 40.0,
+    "abilities": [
+      {
+        "name": "battle-bond",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "greninja-battle-bond"
+    ],
+    "moves": [
+      "pound",
+      "ice-punch",
+      "growl",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "smokescreen",
+      "haze",
+      "lick",
+      "waterfall",
+      "bubble",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "feint-attack",
+      "spikes",
+      "icy-wind",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "facade",
+      "taunt",
+      "role-play",
+      "snatch",
+      "hydro-cannon",
+      "rock-tomb",
+      "extrasensory",
+      "aerial-ace",
+      "bounce",
+      "water-pulse",
+      "u-turn",
+      "fling",
+      "dark-pulse",
+      "night-slash",
+      "giga-impact",
+      "shadow-sneak",
+      "gunk-shot",
+      "grass-knot",
+      "smack-down",
+      "round",
+      "echoed-voice",
+      "scald",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "mat-block",
+      "confide",
+      "water-shuriken",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": false,
+    "order": 789,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10116.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10116.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10116.png"
+    },
+    "species_name": "greninja",
+    "flavor_text": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+    "genus": "Ninja Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/339/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 339,
+      "chain": {
+        "species_name": "froakie",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "frogadier",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "greninja",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Hydrapple (#1019) is the Apple Hydra Pokémon, a formidable Grass/Dragon-type introduced in Generation IX (Paldea) within the Indigo Disk expansion. This green, syrup-laden creature represents a unique colonial biology where seven "syrpents" live together inside an apple crafted from viscous syrup. The syrpent positioned in the center acts as the commander, coordinating the actions of the other six to function as a single, powerful entity. While Hydrapple does not currently possess a Mega Evolution or Gigantamax form, it represents the ultimate evolutionary stage of the Applin line, surpassing the specialized forms of Flapple and Appletun.
+
+## Combat Profile
+* **Stats:** HP 106, Attack 80, Defense 110, Sp. Atk 120, Sp. Def 80, Speed 44.
+* **Archetype:** Bulky Special Tank / Trick Room Sweeper.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice**. It is also **weak to Poison, Flying, Bug, Fire, Dragon, and Fairy**. It provides strong resistances against Ground and triple-resistances to Water, Electric, and Grass-type moves.
+* **Move Selection:** Capitalizing on its elite Special Attack and signature mechanics, key moves include **Fickle Beam** (its signature move which can randomly double in power), **Leaf Storm** for immense STAB burst damage, **Earth Power** for critical coverage against Poison and Fire types, and **Recover** to sustain its high HP and Defense stats.
+* **Abilities:** **Supersweet Syrup** (Lowers the evasion of opposing Pokémon the first time the Pokémon enters a battle); **Regenerator** (Restores 1/3 of maximum HP when switching out, making it an incredible pivot); **Sticky Hold** (Protects the Pokémon’s held item from being stolen or removed).
+
+## Evolution & Biology
+Hydrapple is part of a three-stage evolutionary line. It evolves from **Dipplin** when leveled up while knowing the move **Dragon Cheer**. Dipplin itself evolves from **Applin** when exposed to a **Syrupy Apple**. This evolutionary path is distinct from Applin's other branches, which require a Tart Apple for Flapple or a Sweet Apple for Appletun. Belonging to the **Plant and Dragon Egg Groups**, Hydrapple has a hatch counter of 20. Its biology is centered around the production of nectar and syrup, which it uses both as a protective housing and a primary means of offense through its "syrpents."

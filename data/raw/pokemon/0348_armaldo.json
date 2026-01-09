@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 348,
+    "name": "armaldo",
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 45
+    },
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 68.2,
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "armaldo"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "water-gun",
+      "hyper-beam",
+      "low-kick",
+      "seismic-toss",
+      "strength",
+      "string-shot",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "harden",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "mud-sport",
+      "crush-claw",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "rock-polish",
+      "aqua-tail",
+      "x-scissor",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "flash-cannon",
+      "cross-poison",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "hone-claws",
+      "smack-down",
+      "round",
+      "struggle-bug",
+      "bulldoze",
+      "confide",
+      "brutal-swing",
+      "stomping-tantrum",
+      "liquidation",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 461,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/348.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/348.png"
+    },
+    "species_name": "armaldo",
+    "flavor_text": "ARMALDO\u2019s tough armor makes all attacks bounce off. This POK\u00e9MON\u2019s two enormous claws can be freely extended or contracted. They have the power to punch right through a steel slab.",
+    "genus": "Plate Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/177/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 177,
+      "chain": {
+        "species_name": "anorith",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "armaldo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Hisuian Qwilfish (Pokedex #10234) is the Balloon Pokémon, a regional variant discovered in the ancient Hisui region (the precursor to modern-day Sinnoh). Unlike its Johtonian counterpart, this form is characterized by its Dark/Poison typing and a muted gray color palette. To defend itself, it drinks over 2.6 gallons of water all at once to inflate its body, allowing it to fire venomous spikes from its skin. While it originated in Generation II, this specific variant emerged during the era of Pokémon Legends: Arceus. Hisuian Qwilfish is notable for its evolutionary potential, as it can evolve into the massive, spike-covered Overqwil—a feat the standard Johto Qwilfish cannot achieve.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 95, Defense 85, Sp. Atk 55, Sp. Def 55, Speed 85.
+* **Archetype:** Physical Tank / Utility Attacker. In competitive play, Hisuian Qwilfish often utilizes an Eviolite to bolster its defenses, making it a surprisingly durable hazard setter.
+* **Type Matchups:** It is **weak to Ground**. It possesses a vital **immunity to Psychic** and **resists Poison, Ghost, Grass, and Dark** types. Its Dark/Poison combination is famously one of the best defensive typings in the game, leaving it with only a single weakness.
+* **Move Selection:** Leveraging its high physical Attack and signature mechanics, key moves include **Barb Barrage** (which has a high poison chance and doubles in power if the target is already status-afflicted), **Crunch**, **Gunk Shot**, and **Swords Dance** for offensive pressure. It also excels at utility with **Toxic Spikes** and **Spikes**.
+* **Abilities:** **Poison Point** (may poison attackers on contact), **Swift Swim** (doubles Speed in Rain), and its hidden ability **Intimidate** (lowers the opponent's Attack stat upon entering battle).
+
+## Evolution & Biology
+Hisuian Qwilfish is the first stage of a two-part evolutionary line. It evolves into **Overqwil** after demonstrating its mastery of combat; specifically, in the Hisui region, it must use the move **Barb Barrage** in the **Strong Style** at least 20 times (or level up knowing the move in later generations). It belongs to the **Water 2** Egg Group and is known for its aggressive, territorial nature in the cold seas of the north. Unlike many other fish-like Pokémon, its biology is focused on chemical warfare and physical deterrence rather than speed.

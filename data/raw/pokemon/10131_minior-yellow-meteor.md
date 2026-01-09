@@ -1,0 +1,12 @@
+## Identity & Lore
+Minior (Yellow Meteor Form) (Pokedex #10131) is the Meteor Pokémon, a unique celestial being originally discovered in the Alola region during Generation VII. Formed in the stratosphere, Minior lives in the ozone layer, where it consumes dust to sustain itself. This process creates a heavy, rocky outer shell that eventually causes the Pokémon to hurtle toward the earth’s surface like a falling star. While in its Meteor Form, it presents a brown, rocky exterior with yellow flecks, hiding its true, vibrant color inside. Although it does not possess a Mega Evolution or Gigantamax form, its entire biological existence revolves around its "Shields Down" mechanic, which allows it to transition from this defensive shell into a fragile but incredibly fast Core form.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 60, Defense 100, Sp. Atk 60, Sp. Def 100, Speed 60.
+* **Archetype:** Defensive Setup Tank / Form-Switching Sweeper.
+* **Type Matchups:** As a Rock/Flying type, it is **weak to Water, Grass, Electric, Ice, Rock, and Steel**. It possesses a vital **immunity to Ground** and **resists Normal, Fire, Poison, Flying, and Bug**.
+* **Move Selection:** Minior utilizes its high defensive stats in Meteor form to survive long enough to set up. Key moves include **Shell Smash** (to maximize offensive potential once the shell breaks), **Acrobatics** (which doubles in power if Minior's held item is consumed), **Power Gem** (a reliable special Rock STAB), and **Earthquake** (essential physical coverage against Steel and Electric types).
+* **Abilities:** Shields Down (While in this Meteor Form and above 50% HP, Minior is immune to status conditions like Paralysis, Burn, or Sleep. When HP drops below half, the shell shatters, drastically lowering Defense/Sp. Def but doubling its Attack, Sp. Atk, and Speed stats).
+
+## Evolution & Biology
+Minior is a single-stage Pokémon and does not evolve into or from any other species. However, it belongs to a diverse family of seven different core colors; this specific specimen is the Yellow Core variety, encased in its protective Meteor shell. It belongs to the **Mineral** egg group and has a hatch counter of 25, reflecting its inorganic, celestial composition. While it is often found holding a **Star Piece**, it is biologically designed to be a high-risk, high-reward combatant that relies on the tactical shattering of its outer hull to achieve its maximum velocity and power.

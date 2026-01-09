@@ -1,0 +1,151 @@
+{
+  "pokemon_details": {
+    "id": 854,
+    "name": "sinistea",
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 45,
+      "special-attack": 74,
+      "special-defense": 54,
+      "speed": 50
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.1,
+    "weight_kg": 0.2,
+    "abilities": [
+      {
+        "name": "weak-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sinistea-phony",
+      "sinistea-antique"
+    ],
+    "moves": [
+      "psybeam",
+      "mega-drain",
+      "psychic",
+      "night-shade",
+      "confuse-ray",
+      "withdraw",
+      "metronome",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "baton-pass",
+      "sweet-scent",
+      "shadow-ball",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "astonish",
+      "aromatherapy",
+      "magical-leaf",
+      "calm-mind",
+      "payback",
+      "sucker-punch",
+      "dark-pulse",
+      "nasty-plot",
+      "trick-room",
+      "wonder-room",
+      "psyshock",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "shell-smash",
+      "hex",
+      "phantom-force",
+      "aromatic-mist",
+      "poltergeist",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 1038,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/854.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/854.png"
+    },
+    "species_name": "sinistea",
+    "flavor_text": "This Pok\u00e9mon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea.",
+    "genus": "Black Tea Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "mineral",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/449/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 449,
+      "chain": {
+        "species_name": "sinistea",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "polteageist",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "cracked-pot"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

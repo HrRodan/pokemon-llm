@@ -1,0 +1,202 @@
+{
+  "pokemon_details": {
+    "id": 604,
+    "name": "eelektross",
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 80,
+      "special-attack": 105,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 80.5,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "eelektross"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "cut",
+      "bind",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "roar",
+      "acid",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "zap-cannon",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "charge",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "crush-claw",
+      "rock-tomb",
+      "signal-beam",
+      "dragon-claw",
+      "bulk-up",
+      "bounce",
+      "shock-wave",
+      "u-turn",
+      "close-combat",
+      "gastro-acid",
+      "magnet-rise",
+      "aqua-tail",
+      "dragon-pulse",
+      "drain-punch",
+      "giga-impact",
+      "thunder-fang",
+      "zen-headbutt",
+      "flash-cannon",
+      "discharge",
+      "grass-knot",
+      "charge-beam",
+      "hone-claws",
+      "heavy-slam",
+      "electro-ball",
+      "coil",
+      "acid-spray",
+      "round",
+      "hex",
+      "acrobatics",
+      "volt-switch",
+      "bulldoze",
+      "dragon-tail",
+      "electroweb",
+      "wild-charge",
+      "ion-deluge",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "power-up-punch",
+      "throat-chop",
+      "lunge",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 232,
+    "is_default": true,
+    "order": 726,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/604.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/604.png"
+    },
+    "species_name": "eelektross",
+    "flavor_text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+    "genus": "EleFish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/306/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 306,
+      "chain": {
+        "species_name": "tynamo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "eelektrik",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 39
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "eelektross",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 10005,
+    "name": "wormadam-trash",
+    "stats": {
+      "hp": 60,
+      "attack": 69,
+      "defense": 95,
+      "special-attack": 69,
+      "special-defense": 95,
+      "speed": 36
+    },
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 6.5,
+    "abilities": [
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wormadam-trash"
+    ],
+    "moves": [
+      "gust",
+      "tackle",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "string-shot",
+      "earthquake",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "double-team",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "rock-tomb",
+      "silver-wind",
+      "metal-sound",
+      "signal-beam",
+      "iron-defense",
+      "gyro-ball",
+      "natural-gift",
+      "metal-burst",
+      "sucker-punch",
+      "magnet-rise",
+      "bug-buzz",
+      "giga-impact",
+      "mirror-shot",
+      "flash-cannon",
+      "gunk-shot",
+      "iron-head",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "venoshock",
+      "telekinesis",
+      "quiver-dance",
+      "round",
+      "ally-switch",
+      "struggle-bug",
+      "bulldoze",
+      "electroweb",
+      "confide",
+      "infestation",
+      "steel-beam"
+    ],
+    "held_items": [
+      "silver-powder"
+    ],
+    "base_experience": 148,
+    "is_default": false,
+    "order": 544,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/413-trash.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/413-trash.png"
+    },
+    "species_name": "wormadam",
+    "flavor_text": "When BURMY evolved, its cloak became a part of this Pok\u00e9mon\u2019s body. The cloak is never shed.",
+    "genus": "Bagworm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/213/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 213,
+      "chain": {
+        "species_name": "burmy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wormadam",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "mothim",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

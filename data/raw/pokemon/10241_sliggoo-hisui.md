@@ -1,0 +1,12 @@
+## Identity & Lore
+Hisuian Sliggoo (Pokedex #10241) is the Soft Tissue Pokémon, a unique regional variant adapted to the ancient Hisui region (the historical land that would become Sinnoh). While the species was first documented in Generation VI (Kalos), this Steel/Dragon-type form evolved a heavy, metallic shell to protect its vulnerable, slug-like body. It is known to excrete a corrosive, sticky liquid that can dissolve nearly any substance to ward off predators. Due to its life spent within its shell and the murky environments it inhabits, its eyes have devolved, rendering it blind. Though it lacks a Mega Evolution or Gigantamax form, this variant represents a specialized evolutionary path distinct from its Kalosian cousins, trading pure Dragon-type versatility for extreme metallic durability.
+
+## Combat Profile
+* **Stats:** HP 58, Attack 75, Defense 83, Sp. Atk 83, Sp. Def 113, Speed 40.
+* **Archetype:** Defensive Eviolite Tank / Special Wall.
+* **Type Matchups:** Its exceptional Steel/Dragon typing leaves it **weak to Fighting and Ground**. It boasts a staggering number of resistances, including **Normal, Water, Electric, Flying, Psychic, Bug, Rock, and Steel**, while maintaining a **Double Resistance (4x) to Grass** and a total **Immunity to Poison**.
+* **Move Selection:** Leveraging its Special Attack and signature defensive utility, key moves include **Flash Cannon** for Steel-type STAB, **Dragon Pulse** for consistent damage, **Hydro Pump** for heavy-hitting coverage, and **Shelter**, which significantly bolsters its defensive capabilities.
+* **Abilities:** **Sap Sipper** (Grants immunity to Grass-type moves and boosts Attack when hit), **Shell Armor** (Prevents the Pokémon from receiving critical hits), and **Gooey** (A hidden ability that lowers the Speed of any opponent that makes physical contact).
+
+## Evolution & Biology
+Hisuian Sliggoo is the second stage in a powerful three-stage evolutionary line. It evolves from **Goomy** starting at Level 40 when exposed to the specific environmental pressures of the Hisui region. To reach its final form, it must evolve into **Hisuian Goodra** starting at Level 50, but only during rain or heavy fog in the overworld. As a member of the **Dragon** Egg Group, it is a rare and slow-growing species, characterized by its "squiggle" shape and a high hatch counter, requiring significant patience from a trainer.

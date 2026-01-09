@@ -1,0 +1,12 @@
+## Identity & Lore
+Grubbin (Pokedex #736) is the Larva Pokémon, a small but hardy Bug-type first discovered in the tropical Alola region during Generation VII. This gray, stout Pokémon is characterized by its powerful, orange-tipped mandibles which it uses as multi-functional tools for survival. According to ecological data, Grubbin primarily lives underground to avoid avian predators, emerging to use its strong jaws to scrape away tree bark and slurp up nutritious sap. These jaws are also capable of discharging electricity, a trait that hints at its future elemental shift. While Grubbin does not possess a Mega Evolution or Gigantamax form, its final evolutionary form, Vikavolt, is a formidable Special Attacker often utilized in competitive play for its "railgun-like" design and high damage output.
+
+## Combat Profile
+* **Stats:** HP 47, Attack 62, Defense 45, Sp. Atk 55, Sp. Def 45, Speed 46.
+* **Archetype:** Early-game Physical Attacker. While its base stat total is low as a first-stage larva, its Attack is its highest offensive asset, allowing it to punch above its weight class in early encounters.
+* **Type Matchups:** As a pure Bug-type, it is **weak to Flying, Rock, and Fire**. It provides vital **resistances to Fighting, Ground, and Grass-type moves**.
+* **Move Selection:** Capitalizing on its physical Attack and utility, key moves include **X-Scissor** (its primary STAB damage), **Crunch** (for coverage against Psychic and Ghost types), **Wild Charge** (anticipating its future Electric typing), and **Sticky Web** (a high-value entry hazard that slows down opponents). It also utilizes **Dig** to reflect its subterranean nature.
+* **Abilities:** Swarm (Increases the power of Bug-type moves by 50% when the Pokémon's HP is below one-third, turning it into a desperate but dangerous glass cannon).
+
+## Evolution & Biology
+Grubbin is the first stage of a three-stage evolutionary line. It evolves into **Charjabug** starting at Level 20. The final transformation into the powerful Bug/Electric-type **Vikavolt** occurs when Charjabug is exposed to a **Thunder Stone** (in modern generations) or when leveled up within a **special magnetic field**, such as Vast Poni Canyon or Blush Mountain in Alola. Grubbin belongs to the **Bug** Egg Group, and researchers note it has a relatively quick hatching cycle (Hatch Counter: 15). Its biology is deeply tied to electricity; even in this larval stage, it can be found gathered near power plants to avoid being attacked by bird Pokémon.

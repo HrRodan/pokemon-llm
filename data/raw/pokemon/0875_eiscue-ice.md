@@ -1,0 +1,12 @@
+## Identity & Lore
+Eiscue (Pokedex #875) is the Penguin Pokémon, a distinct Ice-type species first discovered in the Galar region during Generation VIII. It is characterized by its unusual habit of encasing its head in a thick, rectangular block of ice to protect its sensitive face from heat and impact. This ice-cold mask allows it to survive in warmer climates than its biology would normally permit, as it originally drifted into Galar from distant, frigid polar seas. While Eiscue does not have a Mega Evolution or Gigantamax form, it possesses a unique biological trait where its appearance and stats change mid-battle into its "Noice Face" form if its protective ice is shattered.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 80, Defense 110, Sp. Atk 65, Sp. Def 90, Speed 50.
+* **Archetype:** Physical Tank / Setup Sweeper. In its Ice Face form, it acts as a physical wall, but after its ability triggers, it pivots into a high-speed offensive threat.
+* **Type Matchups:** It is **weak to Fighting, Rock, Steel, and Fire**. It possesses a singular **resistance to Ice-type** attacks.
+* **Move Selection:** Eiscue is most effective when utilizing its Physical Attack stat and its signature setup potential. Recommended moves include **Belly Drum** (to maximize Attack power in one turn), **Icicle Crash** (a powerful STAB move with a flinch chance), **Liquidation** (vital Water-type coverage for Fire and Rock weaknesses), and **Iron Head** (to counter Rock and Fairy types).
+* **Abilities:** **Ice Face** (This signature ability allows the ice on Eiscue's head to take the damage of a single physical attack. Once hit, the ice breaks and Eiscue transforms into its Noice Face form, significantly increasing its Speed while lowering its Defense. The ice can be restored if the weather changes to Snow or Hail).
+
+## Evolution & Biology
+Eiscue is a single-stage Pokémon and does not evolve from or into any other species. Despite lacking an evolutionary line, its "Noice Face" transformation represents a significant biological shift that alters its competitive role instantly. It is a member of the **Water 1** and **Field** (Ground) Egg Groups. Biologically, Eiscue are known to be somewhat airheaded, often seen staring blankly into the distance while floating on the ocean surface, using the hair on their heads like an antenna to "fish" for food in the freezing waters.

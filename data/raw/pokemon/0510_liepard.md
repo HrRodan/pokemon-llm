@@ -1,0 +1,12 @@
+## Identity & Lore
+Liepard (Pokedex #510) is the Cruel Pokémon, a lithe and stealthy feline introduced in Generation V (Unova). This purple-furred predator is characterized by its yellow rosettes and a long, sickle-tipped tail, which it uses to strike with precision. Known for its capricious and stealthy nature, Liepard is often seen vanishing and reappearing unexpectedly, a trait that makes it both a favorite for Trainers drawn to its elegant form and a terror to those it stalks in the wild. While it does not possess a Mega Evolution or Gigantamax form, it is frequently associated with the urban and forested environments of the Unova region, where it evolved from Purrloin to become a more formidable and "cruel" hunter.
+
+## Combat Profile
+* **Stats:** HP 64, Attack 88, Defense 50, Sp. Atk 88, Sp. Def 50, Speed 106.
+* **Archetype:** Fast Offensive Pivot / Prankster Disruptor. Liepard excels at moving first to either inflict heavy utility damage or disrupt the opponent's strategy before they can react.
+* **Type Matchups:** As a pure Dark-type, it is **weak to Fighting, Bug, and Fairy**. It **resists Ghost and Dark**, and possesses a total **immunity to Psychic** damage.
+* **Move Selection:** Capitalizing on its balanced offensive stats and high speed, key moves include **Knock Off** (for item removal and STAB), **Sucker Punch** (for priority STAB), **U-turn** (for maintaining momentum), and **Dark Pulse** (as a reliable Special STAB option). It also frequently utilizes **Fake Out** and **Encore** to lock down opponents.
+* **Abilities:** **Limber** prevents the Pokémon from being afflicted by paralysis, ensuring its high speed is never compromised. **Unburden** doubles its Speed stat if its held item is consumed or lost. Its Hidden Ability, **Prankster**, is its most competitively significant, giving priority to status moves like *Thunder Wave*, *Taunt*, or *Encore*.
+
+## Evolution & Biology
+Liepard is part of a two-stage evolutionary line. It evolves from **Purrloin** once it reaches **Level 20**. Biologically, Liepard is built for speed rather than endurance, as evidenced by its fragile defensive stats. It belongs to the **Field (Ground)** Egg Group, and breeders should note a hatch counter of 20. Its behavior is often described as fickle; it may act affectionate one moment and strike the next, embodying the "Cruel" moniker granted by the Pokédex.

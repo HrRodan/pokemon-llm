@@ -1,0 +1,12 @@
+## Identity & Lore
+Gimmighoul (Pokedex #999) is the Coin Chest Pokémon, a unique spectral entity first discovered in the Paldea region of Generation IX. This brown, diminutive Pokémon was reportedly born inside a treasure chest approximately 1,500 years ago. It persists by draining the life-force from would-be thieves and scoundrels who attempt to plunder its hoard. Gimmighoul is famous for its two distinct manifestations: the **Chest Form**, which hides within sturdy wooden boxes to ambush the greedy, and the **Roaming Form**, which wanders the landscape carrying a single gold coin on its back. While it does not possess a Mega Evolution or Gigantamax form, its biological drive revolves entirely around the collection of "Gimmighoul Coins," which it uses to eventually transcend its small stature.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 30, Defense 70, Sp. Atk 75, Sp. Def 70, Speed 10.
+* **Archetype:** Low-Speed Special Attacker / Utility Tank. Due to its abysmal Speed, it functions best in Trick Room environments or as a defensive pivot in lower-tier play.
+* **Type Matchups:** As a pure Ghost-type, it is **weak to Ghost and Dark**. It **resists Poison and Bug**, and possesses total **immunity to Normal and Fighting** moves.
+* **Move Selection:** Utilizing its superior Special Attack and setup potential, Gimmighoul relies on **Shadow Ball** for consistent STAB (Same Type Attack Bonus) damage, **Nasty Plot** to sharply boost its offensive pressure, **Power Gem** for essential Rock-type coverage, and **Hex** to capitalize on status conditions like paralysis or burn.
+* **Abilities:** Rattled (If hit by a Bug-, Ghost-, or Dark-type move, or intimidated, its Speed is boosted; though with a base Speed of 10, this is niche and often requires heavy investment to be impactful).
+
+## Evolution & Biology
+Gimmighoul is the first stage in a two-part evolutionary line. It evolves into the powerful **Gholdengo** through a highly specific regional ritual: the trainer must collect **999 Gimmighoul Coins** found scattered across Paldea and then level the Pokémon up. Biologically, it is an anomaly; it belongs to the **No Eggs** group (Undiscovered), meaning it cannot be bred in captivity. Its slow growth rate and high hatch counter reflect the immense time and effort required for it to gather the wealth necessary for its metallic transformation. Despite its small 0.3m height, it is deceptively heavy at 5.0kg due to the solid coins it inhabits.

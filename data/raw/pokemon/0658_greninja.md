@@ -1,0 +1,12 @@
+## Identity & Lore
+Greninja (Pokedex #658) is the Ninja Pokémon, a dual-type Water and Dark species that serves as the final evolutionary form of the Kalos region's Water-type starter. First introduced in Generation VI (Kalos), this sleek, bipedal amphibian is famous for its incredible speed and grace. Its most striking physical feature is the long, pink tongue it wraps around its neck like a scarf. Greninja lives up to its classification by compressing water into sharp throwing stars, known as Water Shurikens, which are capable of slicing through solid metal when spun and thrown at high speeds. While it does not possess a Mega Evolution or Gigantamax form, it is unique for its "Battle Bond" phenomenon, which allows it to transform into the legendary **Ash-Greninja**, a form that rivals Mega Evolutions in power.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 95, Defense 67, Sp. Atk 103, Sp. Def 71, Speed 122.
+* **Archetype:** Fast Special Sweeper / Mixed Attacker.
+* **Type Matchups:** It is **weak to Grass, Electric, Fighting, Bug, and Fairy**. It **resists Fire, Water, Ice, Steel, Ghost, and Dark**, and possesses a total **immunity to Psychic** attacks.
+* **Move Selection:** Greninja excels at using its high Speed and Special Attack to outclass opponents before they can react. Key moves include its signature **Water Shuriken** (priority multi-hit), **Hydro Pump** for massive STAB damage, **Dark Pulse** for flinch potential and coverage, and **Ice Beam** to threaten Grass and Dragon types.
+* **Abilities:** **Torrent** (Increases the power of Water-type moves by 50% when HP is below 1/3) and its highly coveted Hidden Ability, **Protean** (Changes the Pokémon's type to the type of the move it is about to use, ensuring a Same Type Attack Bonus (STAB) on every offensive action).
+
+## Evolution & Biology
+Greninja is the final stage of a three-stage evolutionary line. It begins its life as **Froakie**, which evolves into **Frogadier** starting at level 16. The transition into **Greninja** occurs upon reaching level 36. Biologically, it is a master of stealth, often disappearing into a haze of bubbles or using its immense leg strength to leap onto ceilings. It belongs to the **Water 1** Egg Group and is known for a medium-slow growth rate, requiring significant training to reach its full potential. While it lacks a habitat in the wild in most regions, it is a prized companion for elite trainers and ninjas alike.

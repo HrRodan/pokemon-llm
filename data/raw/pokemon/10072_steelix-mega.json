@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 10072,
+    "name": "steelix-mega",
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 230,
+      "special-attack": 55,
+      "special-defense": 95,
+      "speed": 30
+    },
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "height_m": 10.5,
+    "weight_kg": 740.0,
+    "abilities": [
+      {
+        "name": "sand-force",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "steelix-mega"
+    ],
+    "moves": [
+      "cut",
+      "bind",
+      "slam",
+      "tackle",
+      "double-edge",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "rage",
+      "screech",
+      "double-team",
+      "harden",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sandstorm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "rock-smash",
+      "torment",
+      "facade",
+      "nature-power",
+      "taunt",
+      "secret-power",
+      "mud-sport",
+      "rock-tomb",
+      "block",
+      "gyro-ball",
+      "payback",
+      "magnet-rise",
+      "rock-polish",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "autotomize",
+      "smack-down",
+      "round",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "brutal-swing",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 214,
+    "is_default": false,
+    "order": 153,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10072.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10072.png"
+    },
+    "species_name": "steelix",
+    "flavor_text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+    "genus": "Iron Snake Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "squiggle",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/41/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 41,
+      "chain": {
+        "species_name": "onix",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "steelix",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "metal-coat"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

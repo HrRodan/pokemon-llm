@@ -1,0 +1,12 @@
+## Identity & Lore
+Palossand (Pokedex #770) is the Sand Castle Pokémon, a formidable Ghost/Ground type first discovered in the Alola region of Generation VII. This creature is born from the grudges of fallen Pokémon that possess mounds of sand; it maintains its castle-like structure by mind-controlling humans to reinforce its walls. While it appears as a stationary beach fixture, it is a terrifying predator that pulls small Pokémon into its sandy vortex to drain their life essence, leaving a trail of dried bones in its wake. Though Palossand does not possess a Mega Evolution or Gigantamax form, its presence is a constant danger on Alolan shores, where it can control each grain of sand to form a crushing whirlpool.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 75, Defense 110, Sp. Atk 100, Sp. Def 75, Speed 35.
+* **Archetype:** Physical Tank / Bulky Special Attacker.
+* **Type Matchups:** It is **weak to Ghost, Dark, Water, Grass, and Ice**. It highly **resists Poison and Bug**, while providing vital **immunities to Normal, Fighting, and Electric** attacks.
+* **Move Selection:** Capitalizing on its high Special Attack and unique recovery options, its optimal moveset includes **Earth Power** for heavy STAB damage, **Shadow Ball** for spectral coverage, **Giga Drain** for health siphon, and its signature move **Shore Up**, which provides essential reliable recovery (boosted in Sandstorms).
+* **Abilities:** Water Compaction (Sharply raises the Pokémon’s Defense stat when hit by a Water-type move); Sand Veil (Increases evasion during a sandstorm).
+
+## Evolution & Biology
+Palossand is the second and final stage of its evolutionary line. It evolves from **Sandygast** starting at **Level 42**. As it evolves, its power to curse grows significantly stronger, allowing it to maintain a permanent fortress-like shape. It belongs to the **Indeterminate** (Amorphous) Egg Group, reflecting its nature as a possessed, non-biological entity. In the wild, it is known to occasionally hold a **Spell Tag**, an item that amplifies the power of its Ghost-type offenses. Its biological cycle is unique; the shovels on its head act as a radar for searching out prey, and it can regrow lost sand instantly as long as its cursed core remains intact.

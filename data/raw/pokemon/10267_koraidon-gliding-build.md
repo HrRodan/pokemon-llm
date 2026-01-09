@@ -1,0 +1,12 @@
+## Identity & Lore
+Koraidon (#10267), specifically in its Gliding Build, is a prehistoric Paradox Pokémon originating from the Paldea region (Generation IX). Described in the ancient expedition journals as the "Winged King," this red, reptilian titan was whispered to have enough raw power to split the land with its bare fists. While this Gliding Build is a specialized form used for aerial navigation—deploying its throat membrane as a wing-like sail—it is fundamentally the same entity as the Apex Build found in the Great Crater of Paldea. Biologically, it is recognized as an ancient ancestor of the modern-day Cyclizar, though it lacks the domestic temperament of its descendant. As a legendary Paradox entity, it represents the primal ferocity of the ancient past and is central to the ecological mysteries of Area Zero.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 135, Defense 115, Sp. Atk 85, Sp. Def 100, Speed 135.
+* **Archetype:** Fast Physical Sweeper / Sun-Enabling Wallbreaker.
+* **Type Matchups:** It is **weak to Flying, Psychic, Ice, and Dragon**, and suffers from a devastating **Double Weakness (4x) to Fairy**. It **resists Fire, Water, Grass, Electric, Bug, Rock, and Dark**.
+* **Move Selection:** Maximizing its elite Attack and Speed, Koraidon utilizes **Collision Course** (its signature Fighting-type move that deals increased damage on super-effective hits), **Flare Blitz** (which receives a massive boost from its own sunlight), **Close Combat**, and **Outrage**. For utility and setup, it often employs **Swords Dance** or **U-turn** to maintain offensive momentum.
+* **Abilities:** Orichalcum Pulse (Automatically summons harsh sunlight upon entering the field and provides a significant 30% boost to its Attack stat while the sun is active, making it a premier weather-based physical threat).
+
+## Evolution & Biology
+Koraidon is a standalone Legendary Pokémon and is not part of an evolutionary chain. It does not evolve from or into any other Pokémon, though it possesses multiple "Builds" (including Sprinting, Swimming, Gliding, and the combat-ready Apex Build) that allow it to adapt to different environments. It belongs to the **No-eggs** group and cannot be bred in captivity. Its biology is a fusion of saurian features and mechanical-like organic structures, such as the wheels on its chest and tail that are actually specialized protrusions for locomotion. It is a "Slow" growth rate Pokémon, requiring significant experience to reach its full potential.

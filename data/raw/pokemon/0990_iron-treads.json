@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 990,
+    "name": "iron-treads",
+    "stats": {
+      "hp": 90,
+      "attack": 112,
+      "defense": 120,
+      "special-attack": 72,
+      "special-defense": 70,
+      "speed": 106
+    },
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 240.0,
+    "abilities": [
+      {
+        "name": "quark-drive",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "iron-treads"
+    ],
+    "moves": [
+      "horn-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "thunder",
+      "earthquake",
+      "defense-curl",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "rollout",
+      "megahorn",
+      "rapid-spin",
+      "facade",
+      "knock-off",
+      "endeavor",
+      "rock-tomb",
+      "metal-sound",
+      "iron-defense",
+      "mud-shot",
+      "gyro-ball",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "heavy-slam",
+      "electro-ball",
+      "volt-switch",
+      "bulldoze",
+      "wild-charge",
+      "electric-terrain",
+      "high-horsepower",
+      "smart-strike",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "steel-roller",
+      "tera-blast",
+      "ice-spinner",
+      "hard-press",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 986,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/990.png"
+    },
+    "species_name": "iron-treads",
+    "flavor_text": "This Pok\u00e9mon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/521/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 521,
+      "chain": {
+        "species_name": "iron-treads",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

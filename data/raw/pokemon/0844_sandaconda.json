@@ -1,0 +1,165 @@
+{
+  "pokemon_details": {
+    "id": 844,
+    "name": "sandaconda",
+    "stats": {
+      "hp": 72,
+      "attack": 107,
+      "defense": 125,
+      "special-attack": 65,
+      "special-defense": 70,
+      "speed": 71
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 3.8,
+    "weight_kg": 65.5,
+    "abilities": [
+      {
+        "name": "sand-spit",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sandaconda"
+    ],
+    "moves": [
+      "slam",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "wrap",
+      "take-down",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "screech",
+      "minimize",
+      "skull-bash",
+      "glare",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "facade",
+      "endeavor",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "poison-tail",
+      "rock-blast",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "coil",
+      "round",
+      "bulldoze",
+      "drill-run",
+      "hurricane",
+      "high-horsepower",
+      "brutal-swing",
+      "body-press",
+      "scale-shot",
+      "skitter-smack",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 179,
+    "is_default": true,
+    "order": 1025,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/844.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/844.png"
+    },
+    "species_name": "sandaconda",
+    "flavor_text": "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened.",
+    "genus": "Sand Snake Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "ground",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/443/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 443,
+      "chain": {
+        "species_name": "silicobra",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sandaconda",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 36
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

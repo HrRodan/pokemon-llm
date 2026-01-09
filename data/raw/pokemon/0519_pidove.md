@@ -1,0 +1,12 @@
+## Identity & Lore
+Pidove (Pokedex #519) is the Tiny Pigeon Pokémon, a common sight across the Unova region where it first appeared in Generation V. Characterized by its gray plumage and a heart-shaped marking on its chest, Pidove is known for its earnest but sometimes forgetful nature. While it follows its Trainer’s orders as best as it can, it is famous for its lack of focus, often failing to comprehend complex tactical commands. It is a social Pokémon that frequently gathers in large flocks in city parks and urban environments. While Pidove itself does not possess a Mega Evolution or Gigantamax form, its final evolution, Unfezant, is notable for having extreme sexual dimorphism, with males sporting vibrant pink plumage that females lack.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 55, Defense 50, Sp. Atk 36, Sp. Def 30, Speed 43.
+* **Archetype:** Early-game Physical Attacker. While its base stats are modest as a first-stage evolution, Pidove leans toward Physical offense and can serve as a reliable utility pivot in early-game scenarios.
+* **Type Matchups:** As a Normal/Flying type, it is **weak to Electric, Ice, and Rock**. It **resists Bug and Grass**, and possesses two valuable **immunities to Ghost and Ground-type** moves.
+* **Move Selection:** Prioritizing its higher Physical Attack stat and utility potential, key moves for Pidove include **Aerial Ace** for guaranteed STAB damage, **Quick Attack** for priority finishing, **Steel Wing** to provide coverage against Rock and Ice types, and **Roost** to maintain longevity by restoring HP.
+* **Abilities:** **Big Pecks** protects the Pokémon from having its Defense stat lowered. **Super Luck** increases the critical-hit ratio, making its attacks more lethal. Its hidden ability, **Rivalry**, increases damage against Pokémon of the same gender but decreases it against those of the opposite gender.
+
+## Evolution & Biology
+Pidove is the first stage of a three-part evolutionary line. It evolves into **Tranquill** starting at level 21, which eventually matures into **Unfezant** starting at level 32. This progression represents the Pokémon growing from a simple urban bird into a powerful and swift aerial hunter. Pidove belongs to the **Flying** egg group, and its eggs are relatively quick to hatch, with a hatch counter of 15. Biologically, it is a hardy species capable of thriving in both bustling cities and quiet forests, though its "forgetful" lore often translates to a need for patient training during its early stages.

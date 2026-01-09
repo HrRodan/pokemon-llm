@@ -1,0 +1,150 @@
+{
+  "pokemon_details": {
+    "id": 798,
+    "name": "kartana",
+    "stats": {
+      "hp": 59,
+      "attack": 181,
+      "defense": 131,
+      "special-attack": 59,
+      "special-defense": 31,
+      "speed": 109
+    },
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 0.1,
+    "abilities": [
+      {
+        "name": "beast-boost",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "kartana"
+    ],
+    "moves": [
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "razor-leaf",
+      "toxic",
+      "screech",
+      "double-team",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "detect",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "synthesis",
+      "hidden-power",
+      "brick-break",
+      "knock-off",
+      "air-cutter",
+      "aerial-ace",
+      "iron-defense",
+      "calm-mind",
+      "leaf-blade",
+      "tailwind",
+      "last-resort",
+      "night-slash",
+      "air-slash",
+      "x-scissor",
+      "vacuum-wave",
+      "giga-impact",
+      "psycho-cut",
+      "defog",
+      "round",
+      "sacred-sword",
+      "confide",
+      "solar-blade",
+      "laser-focus",
+      "smart-strike",
+      "steel-beam"
+    ],
+    "held_items": [],
+    "base_experience": 257,
+    "is_default": true,
+    "order": 975,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/798.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/798.png"
+    },
+    "species_name": "kartana",
+    "flavor_text": "This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.",
+    "genus": "Drawn Sword Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/419/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 419,
+      "chain": {
+        "species_name": "kartana",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+## Identity & Lore
+Origin Form Dialga (Pokedex #10245) is the true, primordial state of the Temporal Pokémon, a legendary deity said to have given birth to the flow of time itself. While first appearing in the mythology of Generation IV (Sinnoh), this specific "Origin" manifestation was rediscovered in the ancient Hisui region. Unlike its standard form, Origin Dialga possesses a more ethereal and quadrupedal silhouette, radiating a celestial white and cobalt glow that reflects its proximity to the creator, Arceus. According to Hisuian lore, Dialga’s heartbeat marks every second that passes in the universe, and it can warp, accelerate, or freeze time at will. This form is triggered when Dialga is exposed to the **Adamant Crystal**. As a member of the Creation Trio alongside Palkia and Giratina, it represents the absolute sovereignty of chronological order.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 100, Defense 120, Sp. Atk 150, Sp. Def 120, Speed 90.
+* **Archetype:** Bulky Special Juggernaut. With a massive Special Attack stat and significantly bolstered defensive bulk compared to its standard form, Dialga-Origin serves as a formidable tank that can retaliate with nuclear levels of force.
+* **Type Matchups:** Its Steel/Dragon typing is one of the best defensive combinations in the game. It is **weak to Fighting and Ground**. It **resists** a staggering nine types: Normal, Flying, Rock, Bug, Steel, Water, Electric, and Psychic, while possessing a **Double Resistance (1/4x)** to Grass. It is completely **immune to Poison**.
+* **Move Selection:** Leveraging its elite Special Attack, Dialga-Origin excels with a set including its signature move **Roar of Time** (a devastating Dragon-type attack), **Flash Cannon** for Steel-type STAB, **Earth Power** for vital coverage against opposing Steel and Fire types, and **Draco Meteor** for immediate, overwhelming damage.
+* **Abilities:** 
+    * **Pressure:** Forces the opponent to expend twice the PP for their moves, a tactical advantage in long-form legendary encounters.
+    * **Telepathy (Hidden):** Protects the Pokémon from damage dealt by its allies in Double Battles, making it a safe partner for heavy-hitters using Earthquake or Surf.
+
+## Evolution & Biology
+Dialga-Origin is a standalone Legendary Pokémon and is not part of a traditional evolutionary line. It is the primitive form of the standard Dialga, achieved through a process of **Form Reversion** rather than evolution. It belongs to the **No-Eggs (Undiscovered)** group, meaning it cannot be bred in captivity. Biologically, its body is composed of metallic structures that defy the standard laws of matter, allowing it to exist across multiple points in time simultaneously. It is characterized by its "Slow" growth rate, requiring immense experience to reach its full potential, and has a nearly impossible capture rate (3), reflecting its status as a literal god of the Pokémon world.

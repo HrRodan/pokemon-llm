@@ -1,0 +1,12 @@
+## Identity & Lore
+Naganadel (#804) is the Poison Pin Pokémon, an extraterrestrial entity first discovered in the Alola region (Generation VII) as a member of the Ultra Beasts, codenamed UB Stinger. This purple, winged behemoth serves as the signature partner for the Ultra Recon Squad in Ultra Space. Its anatomy is unique among the Ultra Beasts; it possesses a massive, bloated abdomen containing hundreds of liters of highly pressurized, glowing poisonous liquid. Naganadel is highly intelligent and communicates using the three needles on its abdomen, the largest of which can fire toxic fluid with enough force to penetrate steel. While it does not possess a Mega Evolution or Gigantamax form, it is one of the few Ultra Beasts that belongs to an evolutionary line, highlighting its biological complexity compared to its peers like Nihilego or Guzzlord.
+
+## Combat Profile
+* **Stats:** HP 73, Attack 73, Defense 73, Sp. Atk 127, Sp. Def 73, Speed 121.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Ground, Psychic, Ice, and Dragon**. Its Poison typing negates the traditional Dragon weakness to Fairy, making that matchup neutral. It notably **resists Fighting, Poison, Bug, Fire, Water, and Electric**, and possesses a **Double Resistance (4x) to Grass**.
+* **Move Selection:** Leveraging its elite Special Attack and Speed, Naganadel's optimal moveset includes **Sludge Wave** for high-accuracy Poison STAB, **Draco Meteor** for overwhelming Dragon-type burst damage, **Flamethrower** to incinerate Steel-types that resist its other moves, and **Nasty Plot** to facilitate a total team sweep.
+* **Abilities:** Beast Boost (Automatically increases the Pokémon's highest stat—typically Special Attack or Speed—by one stage upon knocking out an opponent, allowing Naganadel to become progressively more dangerous as a match continues).
+
+## Evolution & Biology
+Naganadel is the final form of a two-stage evolutionary line. It evolves from **Poipole** only when it is **leveled up while knowing the move Dragon Pulse**. This specific requirement reflects its transition from a pure Poison-type into a dual Poison/Dragon-type powerhouse. Biologically, Naganadel is a sentient needle; its brain is located in its lower abdomen, and its movements are highly erratic and agile in the air. Despite its insectoid appearance, it belongs to the **No Eggs Discovered** group, meaning it is incapable of breeding. Its growth rate is exceptionally slow, requiring significant experience to reach its full potential.

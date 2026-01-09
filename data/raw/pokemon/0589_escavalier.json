@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 589,
+    "name": "escavalier",
+    "stats": {
+      "hp": 70,
+      "attack": 135,
+      "defense": 105,
+      "special-attack": 60,
+      "special-defense": 105,
+      "speed": 20
+    },
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 33.0,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "escavalier"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "fury-attack",
+      "take-down",
+      "double-edge",
+      "twineedle",
+      "leer",
+      "hyper-beam",
+      "peck",
+      "toxic",
+      "agility",
+      "screech",
+      "double-team",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "flail",
+      "reversal",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "revenge",
+      "knock-off",
+      "secret-power",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "metal-burst",
+      "close-combat",
+      "poison-jab",
+      "x-scissor",
+      "bug-buzz",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "iron-head",
+      "bug-bite",
+      "acid-spray",
+      "round",
+      "quick-guard",
+      "struggle-bug",
+      "drill-run",
+      "razor-shell",
+      "fell-stinger",
+      "confide",
+      "infestation",
+      "laser-focus",
+      "smart-strike",
+      "brutal-swing",
+      "steel-beam"
+    ],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 711,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/589.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/589.png"
+    },
+    "species_name": "escavalier",
+    "flavor_text": "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+    "genus": "Cavalry Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "gray",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/299/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 299,
+      "chain": {
+        "species_name": "karrablast",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "escavalier",
+            "evolution_details": [
+              {
+                "trigger": "trade"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

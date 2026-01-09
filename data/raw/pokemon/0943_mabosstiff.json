@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 943,
+    "name": "mabosstiff",
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 90,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 85
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 61.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guard-dog",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "stakeout",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mabosstiff"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "dig",
+      "lick",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "charm",
+      "swagger",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "endeavor",
+      "hyper-voice",
+      "fake-tears",
+      "payback",
+      "dark-pulse",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "hone-claws",
+      "wild-charge",
+      "snarl",
+      "play-rough",
+      "psychic-fangs",
+      "jaw-lock",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "comeuppance"
+    ],
+    "held_items": [],
+    "base_experience": 177,
+    "is_default": true,
+    "order": 973,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/943.png"
+    },
+    "species_name": "mabosstiff",
+    "flavor_text": "This Pok\u00e9mon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+    "genus": "Boss Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/493/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 493,
+      "chain": {
+        "species_name": "maschiff",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mabosstiff",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

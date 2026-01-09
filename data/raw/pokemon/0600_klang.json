@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 600,
+    "name": "klang",
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 95,
+      "special-attack": 70,
+      "special-defense": 85,
+      "speed": 50
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 51.0,
+    "abilities": [
+      {
+        "name": "plus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "minus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "clear-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "klang"
+    ],
+    "moves": [
+      "vice-grip",
+      "bind",
+      "hyper-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "screech",
+      "double-team",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "zap-cannon",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "charge",
+      "magic-coat",
+      "recycle",
+      "secret-power",
+      "metal-sound",
+      "signal-beam",
+      "iron-defense",
+      "shock-wave",
+      "gravity",
+      "assurance",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "mirror-shot",
+      "flash-cannon",
+      "discharge",
+      "charge-beam",
+      "autotomize",
+      "telekinesis",
+      "round",
+      "ally-switch",
+      "shift-gear",
+      "volt-switch",
+      "wild-charge",
+      "gear-grind",
+      "confide",
+      "steel-beam",
+      "steel-roller",
+      "rising-voltage"
+    ],
+    "held_items": [],
+    "base_experience": 154,
+    "is_default": true,
+    "order": 722,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/600.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/600.png"
+    },
+    "species_name": "klang",
+    "flavor_text": "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+    "genus": "Gear Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "heads",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/305/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 305,
+      "chain": {
+        "species_name": "klink",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "klang",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 38
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "klinklang",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 49
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

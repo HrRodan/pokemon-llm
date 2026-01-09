@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Zapdos (Pokedex #10170) is the regional Galarian Form of the legendary bird originally discovered in the Kanto region (Generation I). While the Kantonian variant is synonymous with lightning and thunderstorms, this form—introduced in the Galar region during Generation VIII—is a Fighting/Flying type that has traded its electrical prowess for devastating physical strength. Often described as the "Strong Legs Pokémon," it is known for its ostrich-like appearance and its ability to sprint across land at speeds exceeding 180 mph. Its feathers make a zapping sound when they rub together, leading to its naming, despite its lack of Electric-type powers. Unlike many other Pokémon from Galar, Galarian Zapdos does not possess a Gigantamax form, nor does it have a Mega Evolution, remaining a singular, powerful migratory legendary.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 125, Defense 90, Sp. Atk 85, Sp. Def 90, Speed 100.
+* **Archetype:** Fast Physical Wallbreaker.
+* **Type Matchups:** It is **weak to Flying, Psychic, Fairy, Rock, Electric, and Ice.** It effectively **resists Grass, Fighting, and Dark**, and possesses a **Double Resistance (1/4x) to Bug**. Due to its Flying sub-type, it is completely **immune to Ground-type** moves.
+* **Move Selection:** Levering its elite Attack stat and signature capabilities, key moves include **Thunderous Kick** (a Fighting-type move that guaranteed lowers the opponent's Defense), **Brave Bird** (its strongest Flying-type STAB), **Close Combat** (for massive immediate damage), and **U-turn** (to maintain offensive momentum).
+* **Abilities:** **Defiant** (Boosts the Pokémon’s Attack stat by two stages whenever an opponent lowers its stats; this makes it a premier counter to the "Intimidate" ability in competitive play).
+
+## Evolution & Biology
+Galarian Zapdos is a legendary Pokémon and is not part of an evolutionary chain; it does not evolve from or into any other species. It is a member of the legendary bird trio alongside Galarian Articuno and Galarian Moltres. Biologically, it is highly aggressive and prone to picking fights with any Pokémon it perceives as a challenge. It belongs to the **No-Eggs (Undiscovered)** group, meaning it cannot be bred in captivity. Its biology is optimized for terrestrial hunting, with its wings having become somewhat vestigial compared to its powerful, muscular thighs which allow it to scale mountains and cross vast plains in seconds.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Amoonguss (#591) is the Mushroom Pokémon, a deceptive Grass/Poison-type initially discovered in the Unova region (Generation V). Standing at 0.6 meters, it is characterized by its large, shield-like arms and cap which strikingly resemble the iconic red-and-white pattern of a Poké Ball. This biological mimicry is a predatory tactic; it lures unsuspecting Pokémon and trainers close by swaying its arm caps in a rhythmic dance before releasing clouds of poisonous spores. While it does not possess a Mega Evolution or Gigantamax form, world researchers have recently identified a prehistoric Paradox relative known as **Brute Bonnet** in the Paldea region, which shares its distinct fungal aesthetic but with a more feral, quadrupedal disposition.
+
+## Combat Profile
+* **Stats:** HP 114, Attack 85, Defense 70, Sp. Atk 85, Sp. Def 80, Speed 30.
+* **Archetype:** Bulky Support Tank. Amoonguss is a premier defensive pivot, primarily used to disrupt opponents and redirect attacks in competitive doubles (VGC) formats.
+* **Type Matchups:** It is **weak to Fire, Flying, Ice, and Psychic**. It possesses valuable **resistances to Fighting, Water, Grass, Electric, and Fairy** types.
+* **Move Selection:** Prioritizing its massive utility and Special Attack, key moves include **Spore** (a 100% accuracy sleep-inducing move), **Giga Drain** (for STAB damage and self-healing), **Sludge Bomb** (to threaten Fairy-types), and **Rage Powder** (to redirect enemy attacks toward itself). It also utilizes **Clear Smog** to reset opponent stat changes and **Pollen Puff** to heal allies.
+* **Abilities:** **Effect Spore** (may inflict paralysis, poison, or sleep on opponents who make physical contact) and its highly coveted Hidden Ability, **Regenerator** (restores 1/3 of its maximum HP when switching out of battle), which grants it incredible longevity.
+
+## Evolution & Biology
+Amoonguss is the final stage of a two-stage evolutionary line. It evolves from **Foongus** once it reaches **Level 39**. Biologically, it is often found in tall grass or forested areas where its Poké Ball-like appearance allows it to blend in with items dropped by trainers. It belongs to the **Plant** Egg Group and has a hatch counter of 20, making it a relatively accessible Pokémon for breeders. In the wild, it is known to carry valuable fungal items such as **Tiny Mushrooms**, **Big Mushrooms**, and occasionally the rare **Balm Mushroom**.

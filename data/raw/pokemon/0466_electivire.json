@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 466,
+    "name": "electivire",
+    "stats": {
+      "hp": 75,
+      "attack": 123,
+      "defense": 67,
+      "special-attack": 95,
+      "special-defense": 85,
+      "speed": 95
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 138.6,
+    "abilities": [
+      {
+        "name": "motor-drive",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "electivire"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "psychic",
+      "quick-attack",
+      "screech",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "charge",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "weather-ball",
+      "rock-tomb",
+      "metal-sound",
+      "signal-beam",
+      "bulk-up",
+      "covet",
+      "shock-wave",
+      "hammer-arm",
+      "natural-gift",
+      "feint",
+      "fling",
+      "magnet-rise",
+      "focus-blast",
+      "giga-impact",
+      "rock-climb",
+      "discharge",
+      "captivate",
+      "charge-beam",
+      "electro-ball",
+      "low-sweep",
+      "round",
+      "volt-switch",
+      "bulldoze",
+      "electroweb",
+      "wild-charge",
+      "dual-chop",
+      "ion-deluge",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "power-up-punch",
+      "darkest-lariat",
+      "stomping-tantrum",
+      "rising-voltage",
+      "tera-blast",
+      "trailblaze",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "electirizer"
+    ],
+    "base_experience": 243,
+    "is_default": true,
+    "order": 203,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/466.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/466.png"
+    },
+    "species_name": "electivire",
+    "flavor_text": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+    "genus": "Thunderbolt Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/60/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 60,
+      "chain": {
+        "species_name": "elekid",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "electabuzz",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "electivire",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "electirizer"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

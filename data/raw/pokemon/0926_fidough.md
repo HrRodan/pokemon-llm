@@ -1,0 +1,12 @@
+## Identity & Lore
+Fidough (Pokedex #926) is the Puppy Pokémon, first discovered in the Paldea region during Generation IX. This charming canine is instantly recognizable by its yellow, dough-like skin that is smooth and moist to the touch. Its most unique biological trait is the yeast contained within its breath, which allows it to induce fermentation in its immediate vicinity—a quality highly prized by Paldean bakers. While Fidough does not possess a Mega Evolution or Gigantamax form, its evolved form, Dachsbun, is renowned for its heat-resistant properties. Its biology suggests a domestic origin, often found near human settlements where its scent and gentle nature make it a beloved companion.
+
+## Combat Profile
+* **Stats:** HP 37, Attack 55, Defense 70, Sp. Atk 30, Sp. Def 55, Speed 65.
+* **Archetype:** Physical Utility Tank. While its base stats are low as an unevolved Pokémon, its high physical Defense relative to its other stats allows it to survive early-game physical encounters.
+* **Type Matchups:** As a pure Fairy-type, it is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark-type moves**, and possesses a total **immunity to Dragon-type moves**.
+* **Move Selection:** Prioritizing its higher physical Attack and utility potential, key moves for Fidough include **Play Rough** (high-power Fairy STAB), **Psychic Fangs** (to shatter defensive screens), **Crunch** (for Dark-type coverage), and **Wish** (to provide recovery support for itself or its teammates).
+* **Abilities:** **Own Tempo** prevents the Pokémon from becoming confused, making it reliable against moves like Teeter Dance or Hurricane. Its Hidden Ability, **Klutz**, prevents it from using held items, which is generally a competitive hindrance but can be used with specific move strategies like Switcheroo.
+
+## Evolution & Biology
+Fidough is the first stage of a two-stage evolutionary line. It evolves into **Dachsbun** once it reaches **Level 26**, gaining significantly improved defensive capabilities and the "Well-Baked Body" ability. Biologically, it is a versatile breeder belonging to both the **Ground and Mineral** Egg Groups, with a hatch counter of 20. Its growth rate is medium-slow, requiring dedicated training to reach its full potential as a sturdy defensive support Pokémon.

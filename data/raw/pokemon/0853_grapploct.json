@@ -1,0 +1,155 @@
+{
+  "pokemon_details": {
+    "id": 853,
+    "name": "grapploct",
+    "stats": {
+      "hp": 80,
+      "attack": 118,
+      "defense": 90,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 42
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 39.0,
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "grapploct"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "bind",
+      "body-slam",
+      "leer",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "submission",
+      "dig",
+      "waterfall",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "octazooka",
+      "detect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "taunt",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "dive",
+      "muddy-water",
+      "bulk-up",
+      "mud-shot",
+      "brine",
+      "feint",
+      "close-combat",
+      "payback",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "round",
+      "retaliate",
+      "work-up",
+      "topsy-turvy",
+      "brutal-swing",
+      "stomping-tantrum",
+      "liquidation",
+      "octolock",
+      "skitter-smack",
+      "coaching"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 1037,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/853.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/853.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/853.png"
+    },
+    "species_name": "grapploct",
+    "flavor_text": "A body made up of nothing but muscle makes the grappling moves this Pok\u00e9mon performs with its tentacles tremendously powerful.",
+    "genus": "Jujitsu Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/448/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 448,
+      "chain": {
+        "species_name": "clobbopus",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "grapploct",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "taunt"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

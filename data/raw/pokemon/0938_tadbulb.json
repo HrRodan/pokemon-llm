@@ -1,0 +1,144 @@
+{
+  "pokemon_details": {
+    "id": 938,
+    "name": "tadbulb",
+    "stats": {
+      "hp": 61,
+      "attack": 31,
+      "defense": 41,
+      "special-attack": 59,
+      "special-defense": 35,
+      "speed": 45
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 0.4,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "damp",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tadbulb"
+    ],
+    "moves": [
+      "tackle",
+      "water-gun",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "flail",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "endure",
+      "spark",
+      "sleep-talk",
+      "rain-dance",
+      "charge",
+      "hyper-voice",
+      "weather-ball",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "sucker-punch",
+      "discharge",
+      "charge-beam",
+      "electro-ball",
+      "soak",
+      "acid-spray",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "parabolic-charge",
+      "eerie-impulse",
+      "electric-terrain",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 940,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/938.png"
+    },
+    "species_name": "tadbulb",
+    "flavor_text": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+    "genus": "EleTadpole Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "yellow",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/491/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 491,
+      "chain": {
+        "species_name": "tadbulb",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bellibolt",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

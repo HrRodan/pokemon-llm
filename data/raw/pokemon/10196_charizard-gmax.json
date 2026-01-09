@@ -1,0 +1,131 @@
+{
+  "pokemon_details": {
+    "id": 10196,
+    "name": "charizard-gmax",
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 109,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height_m": 28.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "charizard-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 240,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10196.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10196.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10196.png"
+    },
+    "species_name": "charizard",
+    "flavor_text": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+    "genus": "Flame Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 2,
+      "chain": {
+        "species_name": "charmander",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "charmeleon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "charizard",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

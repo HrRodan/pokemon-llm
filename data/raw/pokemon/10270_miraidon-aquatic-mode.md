@@ -1,0 +1,12 @@
+## Identity & Lore
+Miraidon Aquatic Mode (Pokedex #10270) is the Paradox Pokémon, a legendary robotic entity introduced in the Paldea region (Generation IX). Known by the cryptic moniker "Iron Serpent," this blue, sleek creature is believed to be a futuristic descendant of the contemporary Cyclizar. While it shares a similar biological silhouette with its modern-day relative, Miraidon is far more ruthless and possesses overwhelming technological power. The "Aquatic Mode" is a specialized configuration used by Miraidon to navigate across oceans and rivers, utilizing its jet-propulsion-like features to glide across the water's surface with incredible efficiency. As the primary mascot of *Pokémon Violet*, it represents the pinnacle of future evolution, residing deep within the Great Crater of Paldea (Area Zero).
+
+## Combat Profile
+* **Stats:** HP 100, Attack 85, Defense 100, Sp. Atk 135, Sp. Def 115, Speed 135.
+* **Archetype:** Fast Special Sweeper / Terrain-Inducing Wallbreaker.
+* **Type Matchups:** It is **weak to Ground, Ice, Dragon, and Fairy** types. It effectively **resists Steel, Fire, Water, Grass, and Flying**, and notably holds a **Double Resistance (0.25x) to Electric** moves.
+* **Move Selection:** Capitalizing on its elite Special Attack and Speed, key moves include **Electro Drift** (its signature move that gains a 33% power boost when hitting a weakness), **Draco Meteor** (a high-power STAB nuke), **Volt Switch** (for maintaining offensive momentum), and **Parabolic Charge** (to sustain health while dealing Electric-type damage).
+* **Abilities:** Hadron Engine (Immediately sets Electric Terrain upon entry and provides a significant 1.3x boost to Special Attack while the terrain is active, making Miraidon one of the hardest-hitting special attackers in existence).
+
+## Evolution & Biology
+Miraidon is a single-stage Legendary Pokémon and does not evolve from or into any other species. It is considered a Paradox counterpart to Cyclizar, though the two share no direct evolutionary link in current biological terms. It belongs to the **No Eggs Discovered** group, meaning it cannot be bred in captivity. Despite its mechanical appearance, Miraidon displays complex behaviors, ranging from a cautious, observant nature to a fierce combat instinct. Its biology is a fusion of organic-like scales and futuristic energy-conducting materials, allowing it to shift between various "Drive" modes for traversal and combat.

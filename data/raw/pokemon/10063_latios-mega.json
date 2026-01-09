@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 10063,
+    "name": "latios-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 130,
+      "defense": 100,
+      "special-attack": 160,
+      "special-defense": 120,
+      "speed": 110
+    },
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 70.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "latios-mega"
+    ],
+    "moves": [
+      "cut",
+      "fly",
+      "roar",
+      "surf",
+      "ice-beam",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "double-team",
+      "recover",
+      "light-screen",
+      "reflect",
+      "waterfall",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "memento",
+      "facade",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "refresh",
+      "secret-power",
+      "dive",
+      "luster-purge",
+      "aerial-ace",
+      "dragon-claw",
+      "calm-mind",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "tailwind",
+      "psycho-shift",
+      "heal-block",
+      "last-resort",
+      "dragon-pulse",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "defog",
+      "draco-meteor",
+      "grass-knot",
+      "charge-beam",
+      "hone-claws",
+      "power-split",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "retaliate",
+      "bulldoze",
+      "confide",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 315,
+    "is_default": false,
+    "order": 506,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10063.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10063.png"
+    },
+    "species_name": "latios",
+    "flavor_text": "LATIOS has the ability to make its foe see an image of what it has seen or imagines in its head. This POK\u00e9MON is intelligent and understands human speech.",
+    "genus": "Eon Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 90,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": "waters-edge",
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/197/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 197,
+      "chain": {
+        "species_name": "latios",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+## Identity & Lore
+Female Basculegion (Pokedex #10248) is the Big Fish Pokémon, a powerful Water/Ghost-type first discovered in the ancient Hisui region (Generation VIII). This form is distinct from its male counterpart, characterized by the pale, serene souls that compose its trailing mist. According to legend, Basculegion is born when a Basculin is possessed by the souls of its fallen schoolmates who perished while attempting the perilous journey upstream. These spirits grant the Pokémon relentless power and a spectral biology. While it does not possess a Mega Evolution or Gigantamax form, it is considered a regional evolution of the White-Striped Basculin, a variant exclusive to the waters of Hisui. It is a massive creature, reaching 3.0 meters in length and weighing 110 kg, making it a formidable apex predator in cold, northern rivers.
+
+## Combat Profile
+* **Stats:** HP 120, Attack 92, Defense 65, Sp. Atk 100, Sp. Def 75, Speed 78.
+* **Archetype:** Bulky Special Sweeper. Unlike the male variant, the female Basculegion leans into its Special Attack, utilizing its massive HP pool to survive hits while retaliating with high-powered elemental and spectral blasts.
+* **Type Matchups:** It is **weak to Grass, Electric, Ghost, and Dark**. It **resists Fire, Water, Ice, Poison, Bug, and Steel**, and possesses total **immunity to Normal and Fighting** moves.
+* **Move Selection:** Leveraging its superior Special Attack and its signature spectral traits, key moves include **Shadow Ball**, **Hydro Pump**, **Ice Beam**, and the pivoting utility of **Flip-turn**. In competitive settings, it can also utilize the terrifying power of **Last Respects**, which grows stronger for every fallen ally in the party.
+* **Abilities:** 
+    * **Swift Swim:** Doubles its Speed stat during rain, turning it into a terrifying weather-based sweeper.
+    * **Adaptability:** Increases the Same Type Attack Bonus (STAB) from 1.5x to 2x, making its Water and Ghost moves exceptionally lethal.
+    * **Mold Breaker (Hidden):** Allows the Pokémon to ignore the defensive abilities of opponents, ensuring its attacks land regardless of enemy traits like Sturdy or Levitate.
+
+## Evolution & Biology
+Basculegion is the second and final stage of its evolutionary line. It evolves from **White-Striped Basculin** after the Pokémon survives accumulating at least 294 points of **recoil damage** without fainting (in its native Hisui). This unique evolutionary trigger represents the physical toll and spiritual transition required to house the souls of its comrades. Biologically, it belongs to the **Water 2** Egg Group and has a green-hued body with a shape optimized for high-speed aquatic maneuvers. Despite its ghostly nature, it remains a biological fish with a medium growth rate, requiring significant experience to reach its full potential.

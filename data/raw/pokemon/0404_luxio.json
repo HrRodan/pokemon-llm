@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 404,
+    "name": "luxio",
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 49,
+      "special-attack": 60,
+      "special-defense": 49,
+      "speed": 60
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 30.5,
+    "abilities": [
+      {
+        "name": "rivalry",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "guts",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "luxio"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "strength",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "spark",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "charge",
+      "helping-hand",
+      "secret-power",
+      "fake-tears",
+      "signal-beam",
+      "shock-wave",
+      "natural-gift",
+      "magnet-rise",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "discharge",
+      "captivate",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "snarl",
+      "play-rough",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "psychic-fangs",
+      "rising-voltage",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 127,
+    "is_default": true,
+    "order": 535,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/404.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/404.png"
+    },
+    "species_name": "luxio",
+    "flavor_text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+    "genus": "Spark Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 100,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/209/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 209,
+      "chain": {
+        "species_name": "shinx",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "luxio",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 15
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "luxray",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 10101,
+    "name": "sandshrew-alola",
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "special-attack": 10,
+      "special-defense": 35,
+      "speed": 40
+    },
+    "types": [
+      "ice",
+      "steel"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 40.0,
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "slush-rush",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sandshrew-alola"
+    ],
+    "moves": [
+      "ice-punch",
+      "scratch",
+      "swords-dance",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "swift",
+      "amnesia",
+      "leech-life",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "rapid-spin",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "mirror-coat",
+      "hail",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "ice-ball",
+      "crush-claw",
+      "rock-tomb",
+      "aerial-ace",
+      "icicle-spear",
+      "iron-defense",
+      "covet",
+      "gyro-ball",
+      "fling",
+      "poison-jab",
+      "night-slash",
+      "aqua-tail",
+      "x-scissor",
+      "avalanche",
+      "ice-shard",
+      "shadow-claw",
+      "flash-cannon",
+      "iron-head",
+      "stealth-rock",
+      "hone-claws",
+      "round",
+      "chip-away",
+      "bulldoze",
+      "frost-breath",
+      "work-up",
+      "icicle-crash",
+      "confide",
+      "throat-chop",
+      "aurora-veil",
+      "steel-beam",
+      "steel-roller",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape"
+    ],
+    "held_items": [
+      "grip-claw"
+    ],
+    "base_experience": 60,
+    "is_default": false,
+    "order": 54,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10101.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10101.png"
+    },
+    "species_name": "sandshrew",
+    "flavor_text": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "rough-terrain",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/11/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 11,
+      "chain": {
+        "species_name": "sandshrew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sandslash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

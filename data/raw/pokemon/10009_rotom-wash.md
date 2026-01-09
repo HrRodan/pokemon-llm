@@ -1,0 +1,12 @@
+## Identity & Lore
+Rotom-Wash (Pokedex #10009) is the Wash Form of the Plasma Pokémon, Rotom. Originally discovered in the Sinnoh region (Generation IV), this unique entity is composed of plasma and possesses the supernatural ability to infiltrate electronic devices to wreak havoc or assist humans. In this specific form, Rotom has possessed a washing machine, granting it control over water-based energy. While primarily associated with the Sinnoh region, it has appeared in every major region since, often facilitated by the "Rotom Catalog." Beyond its mechanical forms—which include Heat, Mow, Fan, and Frost—Rotom has also become an integral part of modern technology as the Rotom Pokédex in Alola, the Rotom Phone in Galar and Paldea, and even specialized drones.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 65, Defense 107, Sp. Atk 105, Sp. Def 107, Speed 86.
+* **Archetype:** Defensive Pivot / Bulky Special Attacker.
+* **Type Matchups:** As an Electric/Water type, it is **weak only to Grass**. Despite its Electric typing, its **Levitate** ability grants it a complete immunity to Ground-type moves, effectively removing its primary weakness. It **resists Steel, Fire, Water, Ice, and Flying**.
+* **Move Selection:** Rotom-Wash excels at maintaining momentum while punishing physical attackers. Key moves include **Hydro Pump** (its signature high-damage Water STAB), **Volt Switch** (to pivot out of unfavorable matchups), **Will-O-Wisp** (to burn and neutralize physical threats), and **Pain Split** (to compensate for its low base HP by equalizing health with the opponent).
+* **Abilities:** Levitate (The Pokémon is immune to most Ground-type moves, Spikes, Toxic Spikes, and Arena Trap, making it a premier switch-in against Earthquake users).
+
+## Evolution & Biology
+Rotom-Wash is a unique single-stage Pokémon that does not follow a traditional evolution line. Instead, it undergoes **Forme Change** when it possesses specific household appliances. In its Wash Form, it gains the Water typing (replacing its original Ghost typing from its base form). It belongs to the **Indeterminate (Amorphous)** Egg Group, and while it does not evolve into other species, its versatility is unmatched due to its ability to swap between five different appliance forms at will. Biologically, it is genderless and requires approximately 20 hatch cycles to emerge from an egg. In competitive environments, it is often seen holding a **Leftovers** for gradual healing or a **Choice Scarf** to surprise opponents with its speed and utility move **Trick**.

@@ -1,0 +1,135 @@
+{
+  "pokemon_details": {
+    "id": 809,
+    "name": "melmetal",
+    "stats": {
+      "hp": 135,
+      "attack": 143,
+      "defense": 143,
+      "special-attack": 80,
+      "special-defense": 65,
+      "speed": 34
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 800.0,
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "melmetal"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "tail-whip",
+      "ice-beam",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "harden",
+      "self-destruct",
+      "acid-armor",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "sleep-talk",
+      "dynamic-punch",
+      "facade",
+      "superpower",
+      "brick-break",
+      "rock-tomb",
+      "iron-defense",
+      "gyro-ball",
+      "giga-impact",
+      "flash-cannon",
+      "discharge",
+      "iron-head",
+      "heavy-slam",
+      "round",
+      "electric-terrain",
+      "darkest-lariat",
+      "high-horsepower",
+      "brutal-swing",
+      "double-iron-bash",
+      "body-press",
+      "steel-beam",
+      "steel-roller"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 990,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/809.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/809.png"
+    },
+    "species_name": "melmetal",
+    "flavor_text": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+    "genus": "Hex Nut Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/429/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 429,
+      "chain": {
+        "species_name": "melmetal",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

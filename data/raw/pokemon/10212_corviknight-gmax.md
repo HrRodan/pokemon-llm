@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Corviknight (Pokedex #10212) is the massive, transformed state of the Raven Pokémon, reigning supreme as the undisputed master of the skies in the Galar region (Generation VIII). Its body is encased in a black, lustrous steel armor that is significantly reinforced by Gigantamax energy. In this form, the armor on its wings separates to form "blade birds," independent flying components made of steel that Corviknight can launch to slash at its opponents. While the standard Corviknight is famous for its role in the Galar Taxi service, its Gigantamax form is a terrifying combatant capable of generating hurricane-force winds simply by flapping its wings. This transformation is exclusive to individuals possessing the Gigantamax Factor, typically encountered in Max Raid Battles within the Wild Area or through the consumption of Max Soup in the Isle of Armor.
+
+## Combat Profile
+* **Stats:** HP 98, Attack 87, Defense 105, Sp. Atk 53, Sp. Def 85, Speed 67.
+* **Archetype:** Physical Tank and Defensive Pivot.
+* **Type Matchups:** As a Steel/Flying type, it has an exceptional defensive profile. It is **weak to Fire and Electric**. It possesses several resistances, including Normal, Flying, Steel, Psychic, Dragon, and Fairy, while boasting **Double Resistances (4x) to Bug and Grass**. Furthermore, it is **immune to Ground and Poison** moves.
+* **Move Selection:** Utilizing its high physical bulk and respectable Attack, Corviknight excels with moves such as **Brave Bird** (high-power STAB), **Iron Head** (flinch potential), **Body Press** (which calculates damage using its high Defense stat), and **Roost** (reliable recovery). When Gigantamaxed, its Flying-type moves transform into **G-Max Wind Rage**, which deals massive damage and removes effects like Reflect, Light Screen, Spikes, and Stealth Rock from the battlefield.
+* **Abilities:** 
+    * **Pressure:** Forces the opponent to expend double the Power Points (PP) for their moves, ideal for stalling out low-PP attacks.
+    * **Unnerve:** Prevents opposing Pokémon from consuming their held Berries, disrupting many defensive and speed-boosting strategies.
+    * **Mirror Armor (Hidden Ability):** A premier competitive ability that bounces back any stat-lowering effects (such as Intimidate or Leer) onto the attacker.
+
+## Evolution & Biology
+Gigantamax Corviknight is the final pinnacle of a three-stage evolutionary line. It begins as **Rookidee**, a scrappy bird that evolves into **Corvisquire** starting at level 18. The line reaches its standard maturity when Corvisquire evolves into **Corviknight** starting at level 38. Only a Corviknight with the specific Gigantamax Factor can achieve this towering form through the Dynamax phenomenon. Biologically, it is highly intelligent and belongs to the **Flying** egg group. It has a hatch counter of 15, and its growth rate is categorized as medium-slow, reflecting the time and training required to master its heavy steel plumage and tactical aerial maneuvers.

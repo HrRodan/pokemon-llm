@@ -1,0 +1,163 @@
+{
+  "pokemon_details": {
+    "id": 692,
+    "name": "clauncher",
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 62,
+      "special-attack": 58,
+      "special-defense": 63,
+      "speed": 44
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 8.3,
+    "abilities": [
+      {
+        "name": "mega-launcher",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "clauncher"
+    ],
+    "moves": [
+      "vice-grip",
+      "swords-dance",
+      "cut",
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "toxic",
+      "double-team",
+      "waterfall",
+      "bubble",
+      "splash",
+      "crabhammer",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "weather-ball",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "water-sport",
+      "water-pulse",
+      "u-turn",
+      "aura-sphere",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "flash-cannon",
+      "aqua-jet",
+      "hone-claws",
+      "venoshock",
+      "smack-down",
+      "sludge-wave",
+      "entrainment",
+      "round",
+      "scald",
+      "confide",
+      "liquidation",
+      "terrain-pulse",
+      "flip-turn",
+      "tera-blast",
+      "pounce",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 827,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/692.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/692.png"
+    },
+    "species_name": "clauncher",
+    "flavor_text": "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+    "genus": "Water Gun Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "armor",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/355/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 355,
+      "chain": {
+        "species_name": "clauncher",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "clawitzer",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 982,
+    "name": "dudunsparce-two-segment",
+    "stats": {
+      "hp": 125,
+      "attack": 100,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 55
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 3.6,
+    "weight_kg": 39.2,
+    "abilities": [
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dudunsparce-two-segment"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "agility",
+      "screech",
+      "defense-curl",
+      "fire-blast",
+      "amnesia",
+      "glare",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "curse",
+      "flail",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "pain-split",
+      "baton-pass",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "endeavor",
+      "hyper-voice",
+      "rock-tomb",
+      "mud-shot",
+      "poison-tail",
+      "calm-mind",
+      "roost",
+      "gyro-ball",
+      "tailwind",
+      "poison-jab",
+      "air-slash",
+      "dragon-rush",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "stone-edge",
+      "stealth-rock",
+      "heavy-slam",
+      "coil",
+      "stored-power",
+      "hex",
+      "bulldoze",
+      "dragon-tail",
+      "wild-charge",
+      "drill-run",
+      "hurricane",
+      "boomburst",
+      "throat-chop",
+      "lunge",
+      "smart-strike",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast",
+      "ice-spinner",
+      "pounce",
+      "chilling-water",
+      "hyper-drill"
+    ],
+    "held_items": [],
+    "base_experience": 182,
+    "is_default": true,
+    "order": 917,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/982.png"
+    },
+    "species_name": "dudunsparce",
+    "flavor_text": "This Pok\u00e9mon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+    "genus": "Land Snake Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/103/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 103,
+      "chain": {
+        "species_name": "dunsparce",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dudunsparce",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "hyper-drill"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

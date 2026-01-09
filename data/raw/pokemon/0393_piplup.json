@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 393,
+    "name": "piplup",
+    "stats": {
+      "hp": 53,
+      "attack": 51,
+      "defense": 53,
+      "special-attack": 61,
+      "special-defense": 56,
+      "speed": 40
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 5.2,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "piplup"
+    ],
+    "moves": [
+      "pound",
+      "cut",
+      "headbutt",
+      "fury-attack",
+      "tackle",
+      "double-edge",
+      "growl",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "peck",
+      "drill-peck",
+      "dig",
+      "toxic",
+      "agility",
+      "double-team",
+      "haze",
+      "bide",
+      "waterfall",
+      "swift",
+      "bubble",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "yawn",
+      "secret-power",
+      "dive",
+      "feather-dance",
+      "mud-sport",
+      "weather-ball",
+      "rock-tomb",
+      "signal-beam",
+      "aerial-ace",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "pluck",
+      "fling",
+      "aqua-ring",
+      "defog",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "double-hit",
+      "round",
+      "echoed-voice",
+      "scald",
+      "quash",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "confide",
+      "power-trip",
+      "liquidation",
+      "flip-turn",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 63,
+    "is_default": true,
+    "order": 524,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/393.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/393.png"
+    },
+    "species_name": "piplup",
+    "flavor_text": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "genus": "Penguin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/205/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 205,
+      "chain": {
+        "species_name": "piplup",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "prinplup",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "empoleon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

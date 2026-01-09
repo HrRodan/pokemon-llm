@@ -1,0 +1,12 @@
+## Identity & Lore
+Minior (Pokedex #774), specifically the Blue Meteor form, is the Meteor Pokémon originating from the Alola region in Generation VII. Originally making its home in the ozone layer where it consumes dust to survive, this Pokémon hurtles to the ground as a shooting star when the rocky shell enclosing its body grows too heavy. The Blue Meteor variant serves as a protective, stony exterior for the Blue Core hidden within. While it lacks Mega Evolutions or Gigantamax forms, Minior is unique for its "Shields Down" mechanic which allows it to exist in two distinct states: a defensive Meteor form and a high-speed, offensive Core form. In the wild, they are often found near mountain peaks like Mount Hokulani, where they have fallen from the sky.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 60, Defense 100, Sp. Atk 60, Sp. Def 100, Speed 60.
+* **Archetype:** Defensive Shell / Setup Sweeper. While in this Meteor form, Minior operates as a **Bulky Tank** designed to survive hits while setting up.
+* **Type Matchups:** As a Rock/Flying type, it is **weak to Water, Grass, Electric, Ice, Rock, and Steel**. It possesses a vital **immunity to Ground** and **resists Normal, Fire, Poison, Flying, and Bug** types.
+* **Move Selection:** Minior's strategy revolves around its signature setup move to prepare for its Core transformation. Key moves include **Shell Smash** (to sharply boost offensive stats), **Power Gem** (reliable Rock STAB), **Acrobatics** (which doubles in power if Minior consumes a held White Herb after Shell Smashing), and **Earthquake** for vital coverage against Steel and Electric types.
+* **Abilities:** Shields Down (The Pokémon is protected by a shell while its HP is above 50%, preventing status conditions like Burn or Paralysis. When HP drops below half, the shell breaks, drastically swapping its high Defense stats for high Attack and Speed).
+
+## Evolution & Biology
+Minior is a single-stage Pokémon and does not evolve into or from any other species. However, it belongs to a diverse biological group with seven different core color variations (Red, Orange, Yellow, Green, Blue, Indigo, and Violet), though all share the same brown rocky exterior in their Meteor form. It belongs to the **Mineral** egg group and has a hatch counter of 25, reflecting its inorganic, celestial nature. Despite its weight of 40kg in its shell, it becomes significantly lighter and more agile once the outer casing is shed. Captured Minior often carry **Star Pieces**, a testament to their outer-space origins.

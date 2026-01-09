@@ -1,0 +1,232 @@
+{
+  "pokemon_details": {
+    "id": 552,
+    "name": "krokorok",
+    "stats": {
+      "hp": 60,
+      "attack": 82,
+      "defense": 45,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 74
+    },
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 33.4,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "krokorok"
+    ],
+    "moves": [
+      "mega-punch",
+      "cut",
+      "mega-kick",
+      "sand-attack",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "low-kick",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "rage",
+      "double-team",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "crunch",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "mud-shot",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "dark-pulse",
+      "aqua-tail",
+      "earth-power",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "dragon-tail",
+      "snarl",
+      "confide",
+      "power-up-punch",
+      "power-trip",
+      "brutal-swing",
+      "stomping-tantrum",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "lash-out",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "black-glasses"
+    ],
+    "base_experience": 123,
+    "is_default": true,
+    "order": 669,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/552.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/552.png"
+    },
+    "species_name": "krokorok",
+    "flavor_text": "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+    "genus": "Desert Croc Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/281/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 281,
+      "chain": {
+        "species_name": "sandile",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "krokorok",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 29
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "krookodile",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 40
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

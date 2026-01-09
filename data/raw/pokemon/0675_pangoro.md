@@ -1,0 +1,15 @@
+## Identity & Lore
+Pangoro (Pokedex #675) is the Daunting Pokémon, a bipedal, ursine species first discovered in the Kalos region during Generation VI. Standing over two meters tall and weighing 136 kg, it carries a distinctive bamboo leaf in its mouth which it uses to sense the movements of its enemies. Despite its violent temperament and intimidating appearance, Pangoro possesses a noble heart and will not tolerate those who pick on the weak. While Pangoro does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, it is often compared to other formidable "boss" Pokémon due to its commanding presence and delinquent-inspired design. Its white and charcoal-grey fur mimics a tattered long coat, further leaning into its aesthetic as a rough-and-tumble brawler of the bamboo forests.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 124, Defense 78, Sp. Atk 69, Sp. Def 71, Speed 58.
+* **Archetype:** Physical Wallbreaker / Bulky Attacker. Pangoro excels at utilizing its massive base 124 Attack to punch holes through defensive cores, though it relies on its decent HP to compensate for its middling Speed.
+* **Type Matchups:** As a Fighting/Dark-type, it is **weak to Fighting, Flying, and Bug**, and possesses a catastrophic **Double Weakness (4x) to Fairy**. Conversely, it **resists Rock, Ghost, and Dark**, and is completely **immune to Psychic**.
+* **Move Selection:** Capitalizing on its elite physical power and diverse movepool, key moves include **Drain Punch** for sustainable STAB recovery, **Knock Off** for essential utility and Dark-type damage, **Gunk Shot** to surprise and eliminate Fairy-type threats, and its signature utility move **Parting Shot** to pivot while lowering the opponent's offensive stats.
+* **Abilities:** 
+    * **Iron Fist:** Increases the power of punching moves (such as Hammer Arm or Bullet Punch) by 20%.
+    * **Mold Breaker:** Allows Pangoro to strike through defensive abilities like Sturdy, Levitate, or Unaware.
+    * **Scrappy (Hidden Ability):** Enables Pangoro to hit Ghost-type Pokémon with Fighting and Normal-type moves, making its STAB coverage nearly unresisted.
+
+## Evolution & Biology
+Pangoro is the final stage of a two-part evolutionary line. It evolves from **Pancham** starting at Level 32, but only if the trainer has at least one other **Dark-type Pokémon** currently in their party—a unique requirement reflecting its shift into a more hardened, cynical role. Biologically, Pangoro are highly protective of their kin and are known to be surprisingly kind to their subordinates. It belongs to the **Ground and Humanshape** Egg Groups, with a hatch counter of 25, making it a relatively accessible Pokémon for competitive breeding. It is often found holding a **Mental Herb**, which protects it from moves like Taunt or Encore that might disrupt its offensive momentum.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Binacle (Pokedex #688) is the Two-Handed Pokémon, originally discovered in the Kalos region of Generation VI. This unique organism consists of two hand-like creatures living symbiotically on a single rock. They are brown and orange in color and are typically found in coastal habitats, where they stretch their bodies out from their stony base to snatch food like seaweed and small prey. Lore suggests that the two individuals are not always in harmony; if they cannot cooperate, one will migrate to a different rock to find a new partner. While Binacle does not possess a Mega Evolution, Gigantamax, or Paradox form, it is recognized for its unusual biological structure and its evolution into the multi-limbed Barbaracle.
+
+## Combat Profile
+* **Stats:** HP 42, Attack 52, Defense 67, Sp. Atk 39, Sp. Def 56, Speed 50.
+* **Archetype:** Physical Setup Sweeper / Physical Tank.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Grass**. It is also **weak to Fighting, Ground, Steel, Water, and Electric**. Conversely, it possesses a **Double Resistance (0.25x) to Fire** and resists **Normal, Flying, Poison, and Ice**.
+* **Move Selection:** Binacle excels when using its physical stats and access to powerful setup options. Key moves include **Shell Smash** (to dramatically boost its offensive presence), **Liquidation** (a high-power Water STAB that benefits from contact), **Rock Blast** (to break through Focus Sashes and Substitutes), and **Poison Jab** (to cover its critical Grass-type weakness).
+* **Abilities:** **Tough Claws** (Increases the power of moves that make physical contact by 30%), **Sniper** (Boosts the power of critical hits), and **Pickpocket** (Hidden Ability: Steals the opponent's held item when Binacle is hit by a contact move).
+
+## Evolution & Biology
+Binacle is part of a two-stage evolutionary line. It evolves into **Barbaracle** when it reaches **Level 39**, a process where the two hands multiply into seven distinct parts that function as a single unit. Biologically, it is a hardy creature capable of surviving in harsh tidal zones. It belongs to the **Water 3** egg group and has a hatch counter of 20. Its growth rate is medium, allowing it to mature at a steady pace for trainers who find them along the rocky shores of the Pokémon world.

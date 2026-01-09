@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 994,
+    "name": "iron-moth",
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 60,
+      "special-attack": 140,
+      "special-defense": 110,
+      "speed": 110
+    },
+    "types": [
+      "fire",
+      "poison"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 36.0,
+    "abilities": [
+      {
+        "name": "quark-drive",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "iron-moth"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "take-down",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "psychic",
+      "agility",
+      "screech",
+      "confuse-ray",
+      "light-screen",
+      "fire-blast",
+      "swift",
+      "rest",
+      "substitute",
+      "protect",
+      "endure",
+      "sleep-talk",
+      "morning-sun",
+      "sunny-day",
+      "heat-wave",
+      "facade",
+      "helping-hand",
+      "overheat",
+      "metal-sound",
+      "u-turn",
+      "toxic-spikes",
+      "flare-blitz",
+      "air-slash",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "flash-cannon",
+      "discharge",
+      "charge-beam",
+      "venoshock",
+      "sludge-wave",
+      "flame-charge",
+      "acid-spray",
+      "acrobatics",
+      "struggle-bug",
+      "hurricane",
+      "fiery-dance",
+      "electric-terrain",
+      "dazzling-gleam",
+      "lunge",
+      "meteor-beam",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 988,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/994.png"
+    },
+    "species_name": "iron-moth",
+    "flavor_text": "This Pok\u00e9mon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "bug-wings",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/525/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 525,
+      "chain": {
+        "species_name": "iron-moth",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

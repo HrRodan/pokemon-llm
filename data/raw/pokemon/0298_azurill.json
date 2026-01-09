@@ -1,0 +1,204 @@
+{
+  "pokemon_details": {
+    "id": 298,
+    "name": "azurill",
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 40,
+      "special-attack": 20,
+      "special-defense": 40,
+      "speed": 20
+    },
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 2.0,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "huge-power",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "azurill"
+    ],
+    "moves": [
+      "slam",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "sing",
+      "supersonic",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "waterfall",
+      "swift",
+      "bubble",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "present",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "knock-off",
+      "refresh",
+      "secret-power",
+      "camouflage",
+      "hyper-voice",
+      "fake-tears",
+      "tickle",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "natural-gift",
+      "copycat",
+      "captivate",
+      "aqua-jet",
+      "soak",
+      "round",
+      "scald",
+      "work-up",
+      "draining-kiss",
+      "confide",
+      "brutal-swing",
+      "tera-blast",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 38,
+    "is_default": true,
+    "order": 277,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/298.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/298.png"
+    },
+    "species_name": "azurill",
+    "flavor_text": "A Pok\u00e9mon that lives by water. It moves quickly on land by bouncing on its big tail.",
+    "genus": "Polka Dot Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 150,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "waters-edge",
+    "shape": "legs",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/90/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 90,
+      "chain": {
+        "species_name": "azurill",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "marill",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "azumarill",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 18
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 776,
+    "name": "turtonator",
+    "stats": {
+      "hp": 60,
+      "attack": 78,
+      "defense": 135,
+      "special-attack": 91,
+      "special-defense": 85,
+      "speed": 36
+    },
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 212.0,
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "turtonator"
+    ],
+    "moves": [
+      "mega-punch",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "smog",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "rapid-spin",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "revenge",
+      "endeavor",
+      "hyper-voice",
+      "overheat",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "dragon-claw",
+      "bulk-up",
+      "shock-wave",
+      "payback",
+      "fling",
+      "dragon-pulse",
+      "focus-blast",
+      "giga-impact",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "charge-beam",
+      "head-smash",
+      "wide-guard",
+      "venoshock",
+      "smack-down",
+      "heavy-slam",
+      "flame-charge",
+      "round",
+      "shell-smash",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "heat-crash",
+      "confide",
+      "brutal-swing",
+      "shell-trap",
+      "stomping-tantrum",
+      "body-press",
+      "scale-shot",
+      "burning-jealousy",
+      "lash-out",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "charcoal"
+    ],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 948,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/776.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/776.png"
+    },
+    "species_name": "turtonator",
+    "flavor_text": "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+    "genus": "Blast Turtle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 70,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/402/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 402,
+      "chain": {
+        "species_name": "turtonator",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

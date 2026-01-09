@@ -1,0 +1,12 @@
+## Identity & Lore
+Volcarona (Pokedex #637) is the Sun Pokémon, a magnificent insectoid creature possessing six orange-red wings that represent the sun's petals. Originating in the Unova region (Generation V), this Pokémon is steeped in myth; ancient legends describe it as a terrestrial sun that appeared to save people and Pokémon from freezing when volcanic ash darkened the atmosphere. It is often depicted as a deity-like figure in ancient ruins such as the Relic Castle. While Volcarona does not have a Mega Evolution or Gigantamax form, it is uniquely tied to the Paldea region's history via two Paradox relatives: the ancient, terrestrial **Slither Wing** and the mechanical, futuristic **Iron Moth**.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 60, Defense 65, Sp. Atk 135, Sp. Def 105, Speed 100.
+* **Archetype:** Special Setup Sweeper.
+* **Type Matchups:** It is **weak to Flying and Water**, and it possesses a severe **Double Weakness (4x) to Rock**, making it highly vulnerable to Stealth Rock. It **resists Fighting, Bug, Steel, Fairy, and Ice**, and is exceptionally resistant (0.25x) to **Grass**.
+* **Move Selection:** Leveraging its elite Special Attack, Volcarona’s optimal moveset includes **Quiver Dance** (for simultaneous Speed and Special stat boosts), **Fiery Dance** (signature move with a high chance to boost Sp. Atk), **Bug Buzz** (primary Bug-type STAB), and **Giga Drain** (to threaten Water/Rock types and provide sustain).
+* **Abilities:** **Flame Body** (30% chance to burn an opponent upon contact, mitigating its lower physical defense) and **Swarm** (Hidden Ability; boosts Bug-type move power by 50% when HP is below one-third).
+
+## Evolution & Biology
+Volcarona is the final stage of a two-stage evolutionary line. It evolves from **Larvesta** once it reaches **Level 59**, one of the highest level requirements for a non-legendary Pokémon. It belongs to the **Bug** Egg Group and has a hatch counter of 40. Biologically, Volcarona is known to scatter burning scales from its wings to create a sea of fire; it is sometimes found in the wild carrying **Silver Powder** to enhance its lepidopteran combat capabilities. Despite its Bug-type classification, its behavior and power level often see it grouped alongside pseudo-legendary Pokémon in competitive discourse.

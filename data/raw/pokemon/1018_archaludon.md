@@ -1,0 +1,12 @@
+## Identity & Lore
+Archaludon (Pokedex #1018) is the Alloy Pokémon, a towering Steel and Dragon-type introduced in Generation IX (Paldea/Indigo Disk) as the evolution of the Galar-native Duraludon. Reaching a height of 2 meters, this metallic behemoth resembles a cable-stayed bridge, a structure that allows it to harness and store static electricity from the atmosphere. While Archaludon itself does not possess a Gigantamax form, its pre-evolution, Duraludon, was famous in the Galar region for its skyscraper-sized Gigantamax state. Archaludon's biological design allows it to shift its weight and fold its body to fire concentrated beams of energy from its mouth, making it a formidable presence in both industrial landscapes and competitive arenas.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 105, Defense 130, Sp. Atk 125, Sp. Def 65, Speed 85.
+* **Archetype:** Bulky Special Tank / Physical Wall.
+* **Type Matchups:** Archaludon is **weak to Ground and Fighting**. It possesses an incredible defensive profile, **resisting Normal, Flying, Rock, Bug, Steel, Water, Electric, and Psychic** types. It notably features a **Double Resistance (1/4x) to Grass** and a complete **Immunity to Poison**.
+* **Move Selection:** Leveraging its elite Special Attack and high physical durability, its premier moves include **Electro Shot** (its signature move that boosts Sp. Atk and fires instantly in rain), **Flash Cannon** for reliable Steel-type damage, **Draco Meteor** for high-impact Dragon STAB, and **Body Press**, which calculates damage using its massive 130 Defense stat rather than its Attack.
+* **Abilities:** **Stamina** (Raises Defense by one stage every time it is hit by an attack, turning it into an impenetrable wall), **Sturdy** (Prevents the Pokémon from being knocked out in one hit from full HP), and **Stalwart** (Hidden Ability; ensures its moves cannot be redirected by effects like Follow Me or the Ability Storm Drain).
+
+## Evolution & Biology
+Archaludon is the second and final stage of its evolutionary line. It evolves from **Duraludon** when exposed to a **Metal Alloy**, a unique evolutionary item. Biologically, it is categorized within the **Mineral and Dragon Egg Groups**, requiring a hatch counter of 30. Its body is composed of a special metal that is both incredibly light and surprisingly flexible despite its rigid appearance. It thrives in environments with high magnetic activity, often seen standing still to accumulate the static electricity required to power its devastating "Electro Shot" beams.

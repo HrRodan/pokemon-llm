@@ -1,0 +1,97 @@
+{
+  "pokemon_details": {
+    "id": 10304,
+    "name": "raichu-mega-x",
+    "stats": {
+      "hp": 60,
+      "attack": 135,
+      "defense": 95,
+      "special-attack": 90,
+      "special-defense": 95,
+      "speed": 110
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 38.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "raichu",
+    "flavor_text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 10,
+      "chain": {
+        "species_name": "pichu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pikachu",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 220
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "raichu",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

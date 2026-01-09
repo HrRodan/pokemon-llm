@@ -1,0 +1,12 @@
+## Identity & Lore
+Stoutland (Pokedex #508) is the Big-Hearted Pokémon, a majestic and loyal quadruped introduced in the Unova region (Generation V). Characterized by its long, flowing gray and cream-colored fur, this Pokémon is renowned for its benevolent nature and extreme resilience to cold. Its shaggy coat is so effective at trapping heat that it can comfortably survive sub-zero temperatures, making it a legendary rescue Pokémon for those stranded in blizzard-prone mountain ranges. While Stoutland does not possess a Mega Evolution or Gigantamax form, it is celebrated across regions for its utility and intelligence, notably serving as a keen-nosed Poke Ride search-and-rescue specialist in the Alola region. 
+
+## Combat Profile
+* **Stats:** HP 85, Attack 110, Defense 90, Sp. Atk 45, Sp. Def 90, Speed 80.
+* **Archetype:** Bulky Physical Attacker / Weather Sweeper.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a valuable **immunity to Ghost**. It has no resistances.
+* **Move Selection:** Stoutland relies on its impressive base 110 Attack to pressure opponents. Key moves in its arsenal include **Return** (for high-consistency STAB damage), **Play Rough** (to threaten Fighting and Dragon types), **Superpower** (to break through Steel and Rock types), and **Crunch** (for reliable coverage against Psychic and Ghost types).
+* **Abilities:** **Intimidate** (automatically lowers the opponent's Attack upon entry, increasing Stoutland's physical bulk); **Sand Rush** (doubles its Speed stat during a Sandstorm, transforming it into a dangerous late-game cleaner); **Scrappy** (its Hidden Ability, which allows its Normal and Fighting-type moves to hit Ghost-type Pokémon, negating their usual immunity).
+
+## Evolution & Biology
+Stoutland is the final form of a three-stage evolutionary line. It begins its life as **Lillipup**, a curious and intelligent canine. Lillipup evolves into **Herdier** starting at Level 16, at which point it becomes more protective and alert. The cycle concludes when Herdier evolves into **Stoutland** at Level 32. Biologically, it is a member of the **Field** (Ground) Egg Group, and its development is categorized by a Medium-Slow growth rate. Breeders note a hatch counter of 15, reflecting the time and care required to raise this sophisticated and reliable companion.

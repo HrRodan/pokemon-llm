@@ -1,0 +1,15 @@
+## Identity & Lore
+Alolan Golem (Pokedex #076) is the Alolan variant of the classic Megaton Pokémon, originally discovered in the Kanto region but adapted to the volcanic and magnetic environments of the Alola region (Generation VII). This Rock/Electric-type powerhouse is encased in a boulder-like body of immense density, legendary for its ability to withstand direct dynamite blasts without sustaining a single crack. Unlike its Kantonian cousin, the Alolan form is characterized by the presence of magnetic black sand clinging to its body and a large, semi-circular rock formation on its back that functions like a railgun. It uses this biological apparatus to fire electrically charged rocks at high velocities. While it does not possess a Mega Evolution or Gigantamax form, its unique regional physiology makes it a distinct heavy-hitter in both lore and competitive play, often found in mountainous or volcanic habitats where magnetic fields are strongest.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 120, Defense 130, Sp. Atk 55, Sp. Def 65, Speed 45.
+* **Archetype:** Physical Tank / Bulky Wallbreaker.
+* **Type Matchups:** Alolan Golem faces a severe **Double Weakness (4x) to Ground**. It is also **weak to Fighting, Water, and Grass**. Conversely, it **resists Normal, Flying, Poison, Fire, and Electric** types.
+* **Move Selection:** To maximize its massive 120 base Attack, Alolan Golem excels with moves like **Stone Edge** for STAB (Same Type Attack Bonus), **Wild Charge** for electrical coverage, **Earthquake** for ground-based utility, and **Heavy Slam**, which utilizes its 316kg weight to crush lighter opponents.
+* **Abilities:** 
+    * **Magnet Pull:** Prevents Steel-type opponents from fleeing or switching out, allowing Golem to trap and eliminate defensive threats.
+    * **Sturdy:** Prevents the Pokémon from being knocked out in one hit if it is at full HP, a vital survival tool given its 4x weakness.
+    * **Galvanize (Hidden):** This powerful ability converts all Normal-type moves used by the Pokémon into Electric-type moves and boosts their power by 20%. This makes moves like *Double-Edge* or *Explosion* devastatingly powerful Electric attacks.
+
+## Evolution & Biology
+Alolan Golem is the final stage of a three-part evolutionary line. The process begins with **Alolan Geodude**, which lives in mountainous regions. It evolves into **Alolan Graveler** starting at Level 25. The final transition to **Alolan Golem** is triggered only through **Trading** with another trainer, a process that stimulates the massive growth and magnetic crystallization seen in its final form. Biologically, it belongs to the **Mineral** egg group, and its growth rate is categorized as Medium-Slow. Trainers looking to hatch one should be prepared for a hatch counter of approximately 15 cycles. In the wild, it is known to be a "humanoid" shaped creature that often competes with other rock-dwellers for territory, frequently holding a **Cell Battery** to capitalize on its Electric typing.

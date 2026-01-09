@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Latias (Pokedex #10062) is the Mega Evolved form of the legendary Eon Pokémon, originally discovered in the Hoenn region during Generation III. This female-only Dragon and Psychic-type legendary is highly intelligent and capable of understanding human speech. According to Hoenn lore, Latias is exceptionally sensitive to the emotions of others; if it detects hostility, it will ruffle its feathers and let out a shrill cry to intimidate its opponent. While the base form is typically red, Mega Latias takes on a sleek, lavender-colored aerodynamic appearance, merging its traits with those of its counterpart, Latios. This transformation is achieved when Latias holds a Latiasite Mega Stone. Beyond its combat prowess, Mega Latias is famous for its ability to "Soar" through the Hoenn skies at high altitudes, reaching speeds that can outstrip a jet plane.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 100, Defense 120, Sp. Atk 140, Sp. Def 150, Speed 110.
+* **Archetype:** Bulky Special Sweeper. Mega Latias excels as a "Calm Mind Tank," utilizing its massive Special Defense and high Speed to set up and sweep teams while remaining difficult to knock out.
+* **Type Matchups:** It is **weak to Bug, Ghost, Ice, Dragon, Dark, and Fairy**. It provides valuable **resistances to Fire, Water, Electric, Grass, Fighting, and Psychic**, and possesses a total **immunity to Ground-type moves** due to its ability.
+* **Move Selection:** Leveraging its formidable Special Attack and utility pool, key moves include **Mist Ball** (its signature move for lowering foe's Sp. Atk), **Draco Meteor** for massive STAB damage, **Calm Mind** for boosting offensive and defensive presence, and **Roost** for reliable recovery.
+* **Abilities:** Levitate (Gives full immunity to all Ground-type moves, Spikes, and Toxic Spikes, making Mega Latias an excellent switch-in against Earthquake users).
+
+## Evolution & Biology
+Mega Latias does not evolve through traditional leveling; it is a temporary transformation of Latias that occurs during battle when exposed to a Latiasite Mega Stone. Latias itself is a standalone Legendary Pokémon and does not have a pre-evolution. As a member of the Eon Duo alongside Latios, it belongs to the "No Eggs" group and cannot be bred. Biologically, its body is covered in glass-like feathers that it uses to refract light, allowing it to turn invisible or change its appearance. Despite its slow growth rate, its base experience yield of 315 makes it one of the most powerful assets in a trainer's roster.

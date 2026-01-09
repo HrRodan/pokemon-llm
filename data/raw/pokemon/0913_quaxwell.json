@@ -1,0 +1,153 @@
+{
+  "pokemon_details": {
+    "id": 913,
+    "name": "quaxwell",
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 60,
+      "speed": 65
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 21.5,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "quaxwell"
+    ],
+    "moves": [
+      "pound",
+      "wing-attack",
+      "take-down",
+      "growl",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "low-kick",
+      "focus-energy",
+      "swift",
+      "rest",
+      "protect",
+      "endure",
+      "baton-pass",
+      "encore",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "feather-dance",
+      "air-cutter",
+      "aerial-ace",
+      "water-pulse",
+      "air-slash",
+      "brave-bird",
+      "aqua-jet",
+      "double-hit",
+      "low-sweep",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "misty-terrain",
+      "liquidation",
+      "flip-turn",
+      "triple-axel",
+      "tera-blast",
+      "chilling-water",
+      "aqua-cutter"
+    ],
+    "held_items": [],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 913,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/913.png"
+    },
+    "species_name": "quaxwell",
+    "flavor_text": "These Pok\u00e9mon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+    "genus": "Practicing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "flying",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/480/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 480,
+      "chain": {
+        "species_name": "quaxly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quaxwell",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "quaquaval",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 707,
+    "name": "klefki",
+    "stats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "special-attack": 80,
+      "special-defense": 87,
+      "speed": 75
+    },
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 3.0,
+    "abilities": [
+      {
+        "name": "prankster",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "klefki"
+    ],
+    "moves": [
+      "cut",
+      "tackle",
+      "hyper-beam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "spikes",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "torment",
+      "facade",
+      "magic-coat",
+      "recycle",
+      "imprison",
+      "secret-power",
+      "astonish",
+      "metal-sound",
+      "iron-defense",
+      "covet",
+      "calm-mind",
+      "heal-block",
+      "last-resort",
+      "magnet-rise",
+      "switcheroo",
+      "giga-impact",
+      "mirror-shot",
+      "flash-cannon",
+      "defog",
+      "trick-room",
+      "psyshock",
+      "magic-room",
+      "foul-play",
+      "round",
+      "stored-power",
+      "draining-kiss",
+      "crafty-shield",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "fairy-lock",
+      "confide",
+      "dazzling-gleam",
+      "steel-beam",
+      "skitter-smack",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 841,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/707.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/707.png"
+    },
+    "species_name": "klefki",
+    "flavor_text": "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+    "genus": "Key Ring Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/363/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 363,
+      "chain": {
+        "species_name": "klefki",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

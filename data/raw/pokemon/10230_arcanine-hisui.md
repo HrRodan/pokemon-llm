@@ -1,0 +1,12 @@
+## Identity & Lore
+Hisuian Arcanine (Pokedex #10230) is the Legendary Pokémon, a majestic regional variant first discovered in the ancient Hisui region (the precursor to modern-day Sinnoh). While the species name originates from Generation I (Kanto), this specific form adapted to the volcanic and mountainous terrain of Hisui, developing a stony, igneous coat. It is characterized by its dark, rock-like fur and a prominent horn made of hardened stone. Local legends in Hisui admired it for its beauty and its ability to run agilely across rugged landscapes as if on wings. While Arcanine does not possess a Mega Evolution or Gigantamax form, this Hisuian variant is a distinct biological divergence from the standard pure Fire-type Arcanine, trading some speed for increased raw power and a dual Fire/Rock typing.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 115, Defense 80, Sp. Atk 95, Sp. Def 80, Speed 90.
+* **Archetype:** Physical Wallbreaker / Offensive Pivot.
+* **Type Matchups:** It is **weak to Fighting and Rock**, and suffers from a **Double Weakness (4x) to Water and Ground**. It **resists Normal, Flying, Poison, and Ice**, while being **double resistant (0.25x) to Bug and Fire**.
+* **Move Selection:** Capitalizing on its high Attack and unique typing, key moves include **Flare Blitz** (massive STAB damage), **Stone Edge** (high-crit Rock STAB), **Extreme Speed** (high-priority finishing), and **Close Combat** (powerful Fighting-type coverage).
+* **Abilities:** **Intimidate** (lowers the opponent's Attack stat upon entering battle, increasing physical longevity); **Flash Fire** (provides immunity to Fire-type moves and powers up its own Fire attacks); **Rock Head** (a vital Hidden Ability that prevents recoil damage from moves like Flare Blitz and Double-Edge).
+
+## Evolution & Biology
+Hisuian Arcanine is the final stage of a two-stage evolutionary line. It evolves from Hisuian Growlithe when exposed to a **Fire Stone**. Biologically, it is a quadrupedal creature belonging to the **Ground (Field)** Egg Group. It has a hatch counter of 20, suggesting a moderate breeding cycle. Despite its "Legendary Pokémon" genus, it is not a true Legendary in the mechanical sense, though its rarity in the wild and historical significance in the Hisui region grant it a legendary status among humans. Its physiology is built for high-speed traversal of rocky cliffs and volcanic calderas, utilizing its heavy weight (168.0 kg) to crush obstacles.

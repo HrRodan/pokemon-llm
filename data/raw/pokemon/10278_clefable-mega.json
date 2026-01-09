@@ -1,0 +1,117 @@
+{
+  "pokemon_details": {
+    "id": 10278,
+    "name": "clefable-mega",
+    "stats": {
+      "hp": 95,
+      "attack": 80,
+      "defense": 93,
+      "special-attack": 135,
+      "special-defense": 110,
+      "speed": 70
+    },
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 42.3,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "clefable",
+    "flavor_text": "A timid fairy POK\u00e9MON that is rarely seen. It will run and hide the moment it senses people.",
+    "genus": "Fairy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 140,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/14/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 14,
+      "chain": {
+        "species_name": "cleffa",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "clefairy",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "clefable",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "moon-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

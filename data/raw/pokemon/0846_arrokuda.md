@@ -1,0 +1,12 @@
+## Identity & Lore
+Arrokuda (Pokedex #846) is the Rush Pokémon, a sleek and aggressive teleost introduced in the Galar region (Generation VIII). Distinguished by its brown, streamlined body and a jaw as sharp as a spearhead, Arrokuda is defined by its single-minded predatory instincts. It is highly reactive to movement; if it detects the slightest ripple or motion in the water, it immediately rockets toward the source, leading with its pointed snout. This Pokémon is famously known for its symbiotic, albeit perilous, relationship with Cramorant; Arrokuda is the primary projectile used in Cramorant’s "Gulp Missile" ability, often being swallowed whole and launched at enemies. While it does not possess a Mega Evolution or Gigantamax form itself, its evolved form, Barraskewda, is a premier threat in competitive rain-based team archetypes.
+
+## Combat Profile
+* **Stats:** HP 41, Attack 63, Defense 40, Sp. Atk 40, Sp. Def 30, Speed 66.
+* **Archetype:** Early-game Physical Attacker / Rain Sweeper.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric**. It **resists Fire, Ice, Steel, and Water** moves.
+* **Move Selection:** Arrokuda excels when utilizing its high Attack and Speed. Key moves in its arsenal include **Liquidation** (powerful physical STAB), **Close Combat** (high-power Fighting coverage), **Aqua Jet** (essential priority for finishing off weakened foes), and **Flip-turn** (a crucial pivoting move that allows Arrokuda to deal damage while switching out to a teammate).
+* **Abilities:** **Swift Swim** (doubles Arrokuda's Speed stat during rain, making it an incredibly fast threat in wet weather). **Propeller Tail** (Hidden Ability: ignores the effects of redirection moves and abilities like Follow Me or Storm Drain, ensuring its attacks hit the intended target).
+
+## Evolution & Biology
+Arrokuda is the first stage of a two-stage evolutionary line. It evolves into the formidable Barraskewda once it reaches **Level 26**. Biologically, Arrokuda is built for bursts of extreme speed, and its flesh is considered quite tasty, though its aggressive nature makes it difficult to catch. It belongs to the **Water 2** Egg Group and has a hatch counter of 20, making it relatively quick to breed for competitive use. Its growth rate is slow, requiring significant experience to reach its full potential as a high-speed apex predator of the Galar region's rivers and lakes.

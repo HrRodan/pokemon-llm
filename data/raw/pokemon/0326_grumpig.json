@@ -1,0 +1,230 @@
+{
+  "pokemon_details": {
+    "id": 326,
+    "name": "grumpig",
+    "stats": {
+      "hp": 80,
+      "attack": 45,
+      "defense": 65,
+      "special-attack": 90,
+      "special-defense": 110,
+      "speed": 80
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 71.5,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "grumpig"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "psybeam",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "endeavor",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "teeter-dance",
+      "hyper-voice",
+      "odor-sleuth",
+      "signal-beam",
+      "bounce",
+      "mud-shot",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "fling",
+      "seed-bomb",
+      "power-gem",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "flash-cannon",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "psyshock",
+      "telekinesis",
+      "low-sweep",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "bulldoze",
+      "snarl",
+      "belch",
+      "confide",
+      "dazzling-gleam",
+      "power-up-punch",
+      "laser-focus",
+      "psychic-terrain",
+      "lunge",
+      "stomping-tantrum",
+      "body-press",
+      "expanding-force",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "persim-berry",
+      "tanga-berry"
+    ],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 438,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/326.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/326.png"
+    },
+    "species_name": "grumpig",
+    "flavor_text": "GRUMPIG uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this POK\u00e9MON uses its special power, its snorting breath grows labored.",
+    "genus": "Manipulate Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/164/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 164,
+      "chain": {
+        "species_name": "spoink",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "grumpig",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

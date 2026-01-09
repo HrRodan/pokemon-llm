@@ -1,0 +1,12 @@
+## Identity & Lore
+Skwovet (Pokedex #819) is the Cheeky Pokémon, a common sight throughout the Galar region of Generation VIII. This brown, squirrel-like Pokémon is defined by its voracious appetite and its habit of stuffing berries into its extraordinarily elastic cheeks. It is perpetually driven by the need to forage, becoming visibly anxious and uneasy if its cheek pouches are not bulging with food. Its natural habitat includes forests and fields, where it is often seen falling out of berry trees when disturbed by trainers. While Skwovet does not possess a Mega Evolution or Gigantamax form itself, its evolved form, Greedent, is known for its massive bulk and similar berry-hoarding behaviors in competitive and wild settings.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 55, Defense 55, Sp. Atk 35, Sp. Def 35, Speed 25.
+* **Archetype:** Early-game Physical Tank. Due to its high base HP relative to its other stats and very low Speed, it functions as a slow, bulky attacker in lower-tier or Little Cup formats.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a total **immunity to Ghost** moves. It has no natural resistances to other elemental types.
+* **Move Selection:** Leveraging its superior Physical Attack and signature berry-related mechanics, key moves include **Body Slam** (for STAB damage and paralysis chance), **Seed Bomb** (for Grass-type coverage), **Crunch** (to hit Ghost and Psychic types), and **Stuff Cheeks** (a signature utility move that consumes a held berry to drastically raise Defense).
+* **Abilities:** **Cheek Pouch** (Restores additional HP whenever the Pokémon consumes a berry, granting it high survivability) and its Hidden Ability, **Gluttony** (Allows the Pokémon to eat a held berry at 50% HP instead of 25%, enabling earlier tactical buffs).
+
+## Evolution & Biology
+Skwovet is part of a two-stage evolutionary line. It evolves into the much larger and sturdier **Greedent** upon reaching **Level 24**. Biologically, Skwovet is remarkably hardy, able to eat even the toughest berries by using its strong front teeth. It belongs to the **Field** (Ground) Egg Group, and trainers breeding this Pokémon should expect a standard incubation period with a hatch counter of 20. Its growth rate is moderate, making it a reliable partner for trainers beginning their journey through the Galar countryside.

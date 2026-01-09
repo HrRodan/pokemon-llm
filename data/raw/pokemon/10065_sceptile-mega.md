@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Sceptile (Pokedex #10065) is the Mega Evolved form of the Forest Pokémon, a powerful transformation that first appeared in the Hoenn region (Generation III). In this state, the leaves growing on its body become incredibly sharp-edged, and its tail develops a stinger-like tip that it can fire at foes like a projectile. This green, bipedal predator is legendary for its agility, capable of leaping across forest branches to ambush enemies from behind. While its base form is a pure Grass-type, the process of Mega Evolution awakens its dormant draconic blood, granting it the dual Grass/Dragon typing. Although it does not have a Gigantamax or Paradox form, it remains one of the fastest and most iconic Mega Evolutions from the Hoenn starters.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 110, Defense 75, Sp. Atk 145, Sp. Def 85, Speed 145.
+* **Archetype:** Fast Special Sweeper. With a blistering 145 base Speed and equally formidable 145 Special Attack, Mega Sceptile is designed to outrun almost the entire unboosted metagame and strike with devastating force.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, Dragon, and Fairy**, and possesses a **Double Weakness (4x) to Ice**. It maintains valuable resistances to **Ground and Rock**, and 4x resistances to **Water and Grass**.
+* **Move Selection:** Leveraging its massive Special Attack and high Speed, Mega Sceptile excels with a moveset consisting of **Leaf Storm** (for maximum STAB burst damage), **Dragon Pulse** (for consistent draconic STAB), **Focus Blast** (to punish Steel and Ice types), and **Giga Drain** (to maintain longevity while dealing damage).
+* **Abilities:** Lightning Rod (In combat, this ability draws in all Electric-type moves, providing a complete immunity to them and boosting Mega Sceptile's Special Attack by one stage when hit).
+
+## Evolution & Biology
+Mega Sceptile is the final stage of a three-stage evolutionary line. It begins as **Treecko**, which evolves into **Grovyle** starting at Level 16. Grovyle then evolves into **Sceptile** at Level 36. The transition to Mega Sceptile is a temporary mid-battle transformation triggered when Sceptile holds a Sceptilite. Biologically, it is highly adapted to tropical climates and belongs to both the **Monster and Dragon** Egg Groups. With a hatch counter of 20, it is a sought-after partner for trainers looking for a high-speed jungle apex predator.

@@ -1,0 +1,234 @@
+{
+  "pokemon_details": {
+    "id": 271,
+    "name": "lombre",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 50,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 50
+    },
+    "types": [
+      "water",
+      "grass"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 32.5,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lombre"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "counter",
+      "strength",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "mimic",
+      "double-team",
+      "metronome",
+      "waterfall",
+      "bubble",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "whirlpool",
+      "fake-out",
+      "uproar",
+      "hail",
+      "facade",
+      "nature-power",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "teeter-dance",
+      "hyper-voice",
+      "astonish",
+      "weather-ball",
+      "tickle",
+      "muddy-water",
+      "bullet-seed",
+      "mud-shot",
+      "magical-leaf",
+      "water-sport",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "scald",
+      "disarming-voice",
+      "grassy-terrain",
+      "confide",
+      "power-up-punch",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "mental-herb"
+    ],
+    "base_experience": 119,
+    "is_default": true,
+    "order": 371,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/271.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/271.png"
+    },
+    "species_name": "lombre",
+    "flavor_text": "It lives at the water\u2019s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+    "genus": "Jolly Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "water1",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/136/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 136,
+      "chain": {
+        "species_name": "lotad",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lombre",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 14
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "ludicolo",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "water-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

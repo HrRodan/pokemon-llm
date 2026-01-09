@@ -1,0 +1,141 @@
+{
+  "pokemon_details": {
+    "id": 10158,
+    "name": "pikachu-starter",
+    "stats": {
+      "hp": 45,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 75,
+      "special-defense": 60,
+      "speed": 120
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 6.0,
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pikachu-starter"
+    ],
+    "moves": [
+      "pay-day",
+      "thunder-punch",
+      "slam",
+      "double-kick",
+      "headbutt",
+      "tail-whip",
+      "growl",
+      "seismic-toss",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "rest",
+      "substitute",
+      "protect",
+      "iron-tail",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "calm-mind",
+      "zippy-zap",
+      "splishy-splash",
+      "floaty-fall"
+    ],
+    "held_items": [],
+    "base_experience": 86,
+    "is_default": false,
+    "order": 49,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "pikachu",
+    "flavor_text": "When several of these POK\u00e9MON gather, their electricity could build and cause lightning storms.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 10,
+      "chain": {
+        "species_name": "pichu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pikachu",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 220
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "raichu",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

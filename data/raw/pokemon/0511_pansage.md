@@ -1,0 +1,12 @@
+## Identity & Lore
+Pansage (Pokedex #511) is the Grass Monkey Pokémon, a spirited and helpful simian species first discovered in the Unova region during Generation V. It is easily recognized by its cream-colored face and the distinctive, broccoli-like sprout growing from the top of its head. This foliage is highly valued in the Pokémon world; lore states that eating a leaf from its head can whisk away weariness and exhaustion as if by magic. Pansage is part of a famous elemental trio alongside Pansear and Panpour, often used to teach budding trainers about type matchups in the Striaton City Gym. While it does not possess Mega Evolution, Gigantamax, or Paradox forms, it remains a staple of forest ecosystems, particularly in habitats like the Pinwheel Forest.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 53, Defense 48, Sp. Atk 53, Sp. Def 48, Speed 64.
+* **Archetype:** Mixed Speed Attacker. Its balanced offensive stats allow it to function as a versatile threat in the Little Cup tier or early-game playthroughs, relying on its Speed to outpace unevolved opponents.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, and Ice**. It **resists Ground, Rock, and Water-type attacks**. 
+* **Move Selection:** Capitalizing on its balanced offensive stats and utility, key moves include **Leaf Storm** for high-impact special damage, **Seed Bomb** for reliable physical STAB, **Nasty Plot** to set up as a special sweeper, and **Gunk Shot** for surprising physical coverage against Fairy and Grass types.
+* **Abilities:** Gluttony (allows the Pokémon to use its held Oran or Occa Berry early when HP drops to 50%); Overgrow (Hidden Ability that boosts the power of Grass-type moves by 50% when HP is below one-third).
+
+## Evolution & Biology
+Pansage is the first stage of a two-stage evolutionary line. It evolves into **Simisage** when **exposed to a Leaf Stone**, a transition that turns it into a much more aggressive combatant with a pompadour-like crest. Biologically, Pansage belongs to the **Field (Ground)** Egg Group, making it compatible with many other mammalian Pokémon for breeding. It is known to be found in the wild holding **Oran Berries** for health restoration or **Occa Berries** to help it survive devastating Fire-type attacks. Through breeding, it can inherit unique tactical moves like **Spiky Shield** for protection or **Leaf Storm** for high-power offense.

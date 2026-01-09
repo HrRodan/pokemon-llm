@@ -1,0 +1,165 @@
+{
+  "pokemon_details": {
+    "id": 970,
+    "name": "glimmora",
+    "stats": {
+      "hp": 83,
+      "attack": 55,
+      "defense": 90,
+      "special-attack": 130,
+      "special-defense": 81,
+      "speed": 86
+    },
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 45.0,
+    "abilities": [
+      {
+        "name": "toxic-debris",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "corrosion",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "glimmora"
+    ],
+    "moves": [
+      "hyper-beam",
+      "solar-beam",
+      "rock-throw",
+      "toxic",
+      "harden",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "acid-armor",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "protect",
+      "sludge-bomb",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "facade",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "toxic-spikes",
+      "rock-polish",
+      "power-gem",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "flash-cannon",
+      "gunk-shot",
+      "stone-edge",
+      "stealth-rock",
+      "venoshock",
+      "smack-down",
+      "sludge-wave",
+      "acid-spray",
+      "spiky-shield",
+      "dazzling-gleam",
+      "meteor-beam",
+      "tera-blast",
+      "mortal-spin"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 967,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/970.png"
+    },
+    "species_name": "glimmora",
+    "flavor_text": "When this Pok\u00e9mon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+    "genus": "Ore Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/508/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 508,
+      "chain": {
+        "species_name": "glimmet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "glimmora",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

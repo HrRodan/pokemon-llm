@@ -1,0 +1,135 @@
+{
+  "pokemon_details": {
+    "id": 10222,
+    "name": "grimmsnarl-gmax",
+    "stats": {
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "special-attack": 95,
+      "special-defense": 75,
+      "speed": 60
+    },
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "height_m": 32.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "prankster",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "grimmsnarl-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 255,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10222.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10222.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10222.png"
+    },
+    "species_name": "grimmsnarl",
+    "flavor_text": "With the hair wrapped around its body helping to enhance its muscles, this Pok\u00e9mon can overwhelm even Machamp.",
+    "genus": "Bulk Up Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "fairy",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/451/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 451,
+      "chain": {
+        "species_name": "impidimp",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "morgrem",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "grimmsnarl",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 42
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

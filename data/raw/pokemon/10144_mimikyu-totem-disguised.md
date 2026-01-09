@@ -1,0 +1,12 @@
+## Identity & Lore
+Totem Mimikyu (Pokedex #10144) is the Disguise Pokémon, a specialized and larger variant of the standard Mimikyu found in the Alola region (Generation VII). This specific form is known as a Totem Pokémon, encountered during the Island Challenge at the Abandoned Thrifty Megamart on Ula'ula Island. Mimikyu is a lonely spirit that hides its terrifying true form beneath a ragged cloth designed to resemble a Pikachu, hoping the disguise will help it make friends. According to Alolan legend, a scholar who once glimpsed what was beneath its rag was overwhelmed by such intense terror that they perished from the shock. While Mimikyu does not possess a Mega Evolution or Gigantamax form, it is famous for its exclusive Z-Move, "Let's Snuggle Forever," which highlights its bittersweet desire for affection.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 90, Defense 80, Sp. Atk 50, Sp. Def 105, Speed 96.
+* **Archetype:** Physical Setup Sweeper / Revenge Killer.
+* **Type Matchups:** It is **weak to Ghost, Steel, and Poison**. It is **immune to Dragon, Normal, and Fighting** types, and it highly **resists Bug (0.25x damage)**.
+* **Move Selection:** Mimikyu relies on its unique typing and ability to set up and sweep. Key moves include **Swords Dance** to double its Attack, **Play Rough** for heavy Fairy-type STAB damage, **Shadow Claw** for reliable Ghost-type coverage, and **Shadow Sneak** to bypass its mid-tier speed with priority.
+* **Abilities:** **Disguise** (Once per battle, this ability protects the Pokémon from a single instance of direct damage. While the disguise is busted, Mimikyu takes a small amount of damage, but this "free turn" is essential for using Swords Dance or Trick Room safely).
+
+## Evolution & Biology
+Mimikyu is a single-stage Pokémon and does not evolve into or from any other species. This Totem variant is biologically identical to the standard form but is significantly larger and heavier than the typical 0.2m height of a standard Mimikyu. It belongs to the **Indeterminate** Egg Group and has a hatch cycle of approximately 20 cycles. In the wild, this Totem form is often found holding a **Chesto Berry**, which can be used to instantly wake up from sleep, synergizing with moves like Rest or countering opponent status conditions like Spore.

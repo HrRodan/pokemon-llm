@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Blaziken (Pokedex #10050) is the Blaze Pokémon, an apex predator of the Hoenn region (Generation III) that reaches this ascended state through the power of Mega Evolution. This Fire and Fighting-type powerhouse is defined by its incredible courage and the searing flames that erupt from its wrists during combat. As the battle intensifies, particularly when facing formidable opponents, its wrists burn with greater heat, and its internal temperature rises to match its fighting spirit. While it was originally discovered in the grasslands of Hoenn, its Mega Evolution—facilitated by a Blazikenite Mega Stone—was first formally introduced during the Kalos era. This form pushes its avian-humanoid biology to the limit, turning its feathers into sleek, aerodynamic ribbons of fire that trailing behind its lightning-fast strikes.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 160, Defense 80, Sp. Atk 130, Sp. Def 80, Speed 100.
+* **Archetype:** Physical Wallbreaker / Setup Sweeper.
+* **Type Matchups:** It is **weak to Water, Ground, Rock, Flying, Psychic, and Fairy**. It maintains strong defensive utility by **resisting Fire, Grass, Ice, Steel, and Dark**, and it features a **Double Resistance (1/4x) to Bug**.
+* **Move Selection:** Capitalizing on its monstrous 160 base Attack, Mega Blaziken's optimal moveset includes **Flare Blitz** for devastating STAB damage, **High Jump Kick** to crush heavy targets, **Swords Dance** to reach terrifying offensive levels, and **Knock Off** for crucial utility and coverage against Psychic-type threats.
+* **Abilities:** Speed Boost (Increases the Pokémon's Speed stat by one stage at the end of every turn, ensuring it eventually outpaces almost every opponent on the field).
+
+## Evolution & Biology
+Mega Blaziken is the final, temporary stage of a three-stage evolutionary line. It begins its life as Torchic, a small Fire-type chick, which evolves into the dual-type Combusken starting at Level 16. Combusken further evolves into the formidable Blaziken upon reaching Level 36. The transition to Mega Blaziken occurs only in battle when the trainer possesses a Key Stone and Blaziken holds its specific Mega Stone. Biologically, it belongs to the Field (Ground) egg group. Despite its avian features, it follows a medium-slow growth rate and is known for its incredible leg strength, capable of clearing a 30-story building in a single leap.

@@ -1,0 +1,176 @@
+{
+  "pokemon_details": {
+    "id": 10129,
+    "name": "salazzle-totem",
+    "stats": {
+      "hp": 68,
+      "attack": 64,
+      "defense": 60,
+      "special-attack": 111,
+      "special-defense": 60,
+      "speed": 117
+    },
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 81.0,
+    "abilities": [
+      {
+        "name": "corrosion",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "salazzle-totem"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "disable",
+      "ember",
+      "flamethrower",
+      "dragon-rage",
+      "toxic",
+      "double-team",
+      "smog",
+      "fire-blast",
+      "poison-gas",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "sweet-scent",
+      "iron-tail",
+      "hidden-power",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "snatch",
+      "overheat",
+      "dragon-claw",
+      "covet",
+      "payback",
+      "fling",
+      "poison-jab",
+      "dragon-pulse",
+      "nasty-plot",
+      "shadow-claw",
+      "gunk-shot",
+      "captivate",
+      "venoshock",
+      "flame-burst",
+      "sludge-wave",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "acrobatics",
+      "dragon-tail",
+      "confide",
+      "venom-drench",
+      "laser-focus"
+    ],
+    "held_items": [
+      "smoke-ball"
+    ],
+    "base_experience": 168,
+    "is_default": false,
+    "order": 917,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "salazzle",
+    "flavor_text": "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+    "genus": "Toxic Lizard Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/390/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 390,
+      "chain": {
+        "species_name": "salandit",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "salazzle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

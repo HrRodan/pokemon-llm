@@ -1,0 +1,156 @@
+{
+  "pokemon_details": {
+    "id": 1001,
+    "name": "wo-chien",
+    "stats": {
+      "hp": 85,
+      "attack": 85,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 135,
+      "speed": 70
+    },
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 74.2,
+    "abilities": [
+      {
+        "name": "tablets-of-ruin",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "wo-chien"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "light-screen",
+      "reflect",
+      "rest",
+      "substitute",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "giga-drain",
+      "endure",
+      "mean-look",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "taunt",
+      "ingrain",
+      "knock-off",
+      "tickle",
+      "bullet-seed",
+      "mud-shot",
+      "magical-leaf",
+      "payback",
+      "dark-pulse",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "power-whip",
+      "grass-knot",
+      "foul-play",
+      "hex",
+      "snarl",
+      "grassy-terrain",
+      "solar-blade",
+      "pollen-puff",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "ruination",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 996,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1001.png"
+    },
+    "species_name": "wo-chien",
+    "flavor_text": "The grudge of a person punished for writing the king\u2019s evil deeds upon wooden tablets has clad itself in dead leaves to become a Pok\u00e9mon.",
+    "genus": "Ruinous Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 6,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/529/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 529,
+      "chain": {
+        "species_name": "wo-chien",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

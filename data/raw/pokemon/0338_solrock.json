@@ -1,0 +1,205 @@
+{
+  "pokemon_details": {
+    "id": 338,
+    "name": "solrock",
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 70
+    },
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 154.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "solrock"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "fire-spin",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "mimic",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "baton-pass",
+      "morning-sun",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "secret-power",
+      "weather-ball",
+      "overheat",
+      "rock-tomb",
+      "cosmic-power",
+      "signal-beam",
+      "sand-tomb",
+      "iron-defense",
+      "calm-mind",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "natural-gift",
+      "embargo",
+      "heal-block",
+      "power-swap",
+      "flare-blitz",
+      "rock-polish",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "smack-down",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "incinerate",
+      "acrobatics",
+      "bulldoze",
+      "confide",
+      "laser-focus",
+      "psychic-terrain",
+      "stomping-tantrum",
+      "meteor-beam"
+    ],
+    "held_items": [
+      "sun-stone",
+      "stardust",
+      "comet-shard"
+    ],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 451,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/338.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/338.png"
+    },
+    "species_name": "solrock",
+    "flavor_text": "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+    "genus": "Meteorite Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": "cave",
+    "shape": "ball",
+    "color": "red",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/172/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 172,
+      "chain": {
+        "species_name": "solrock",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

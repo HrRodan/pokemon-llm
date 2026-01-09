@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 792,
+    "name": "lunala",
+    "stats": {
+      "hp": 137,
+      "attack": 113,
+      "defense": 89,
+      "special-attack": 137,
+      "special-defense": 107,
+      "speed": 97
+    },
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "height_m": 4.0,
+    "weight_kg": 120.0,
+    "abilities": [
+      {
+        "name": "shadow-shield",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "lunala"
+    ],
+    "moves": [
+      "fly",
+      "roar",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "teleport",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "moonlight",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "cosmic-power",
+      "signal-beam",
+      "aerial-ace",
+      "calm-mind",
+      "shock-wave",
+      "roost",
+      "tailwind",
+      "air-slash",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "psycho-cut",
+      "defog",
+      "trick-room",
+      "charge-beam",
+      "wide-guard",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "hex",
+      "sky-drop",
+      "acrobatics",
+      "work-up",
+      "night-daze",
+      "phantom-force",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "moongeist-beam",
+      "expanding-force",
+      "meteor-beam",
+      "poltergeist",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 969,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/792.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/792.png"
+    },
+    "species_name": "lunala",
+    "flavor_text": "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
+    "genus": "Moone Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/413/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 413,
+      "chain": {
+        "species_name": "cosmog",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cosmoem",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 43
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "solgaleo",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 53
+                  }
+                ],
+                "evolves_to": []
+              },
+              {
+                "species_name": "lunala",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 53
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

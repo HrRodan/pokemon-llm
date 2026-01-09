@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 633,
+    "name": "deino",
+    "stats": {
+      "hp": 52,
+      "attack": 65,
+      "defense": 50,
+      "special-attack": 45,
+      "special-defense": 50,
+      "speed": 38
+    },
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 17.3,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "deino"
+    ],
+    "moves": [
+      "slam",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "bite",
+      "roar",
+      "strength",
+      "dragon-rage",
+      "thunder-wave",
+      "toxic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "superpower",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "shock-wave",
+      "assurance",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "earth-power",
+      "nasty-plot",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "draco-meteor",
+      "head-smash",
+      "double-hit",
+      "round",
+      "incinerate",
+      "dragon-tail",
+      "work-up",
+      "snarl",
+      "belch",
+      "confide",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 756,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/633.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/633.png"
+    },
+    "species_name": "deino",
+    "flavor_text": "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+    "genus": "Irate Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/323/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 323,
+      "chain": {
+        "species_name": "deino",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "zweilous",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 50
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "hydreigon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 64
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

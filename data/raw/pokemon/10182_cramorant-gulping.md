@@ -1,0 +1,12 @@
+## Identity & Lore
+Gulping Cramorant (Pokedex #10182) is the Gulp Pokémon, a remarkably gluttonous avian species first discovered in the Galar region of Generation VIII. This specific form represents Cramorant mid-battle after it has used the moves Surf or Dive while its health is above 50%, resulting in it accidentally swallowing an Arrokuda. Characterized by its vivid blue feathers and a perpetually vacant expression, it is known to be so powerful that it can knock out opponents in a single hit, yet so absent-minded that it frequently forgets what it is battling while in the heat of combat. While Cramorant does not possess a Mega Evolution or a Gigantamax form, its tactical relevance is defined entirely by its unique biological interaction with its prey.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 55, Sp. Atk 85, Sp. Def 95, Speed 85.
+* **Archetype:** Gimmick Utility Attacker. Cramorant functions as a specialized disruptor that uses its decent Special Defense and Speed to manipulate the field through form changes.
+* **Type Matchups:** As a Water/Flying type, it suffers from a **Double Weakness (4x) to Electric** and a standard weakness to **Rock**. It compensates with a valuable **Immunity to Ground** and resistances to **Fighting, Bug, Steel, Fire, and Water**.
+* **Move Selection:** To maximize its balanced offensive stats and trigger its form changes, essential moves include **Surf** (to transition into Gulping/Gorging forms), **Hurricane** (for high-power STAB), **Ice Beam** (for coverage against Grass and Dragon types), and **Roost** (to maintain health above the 50% threshold required for the Gulping Form).
+* **Abilities:** Gulp-Missile (After using Surf or Dive, the Pokémon catches prey in its mouth. If hit by an attack, it spits the prey at the attacker, dealing 1/4 of the foe's max HP in damage and lowering their Defense stat).
+
+## Evolution & Biology
+Cramorant is a single-stage Pokémon and does not evolve from or into any other species. However, it is biologically unique due to its "Gulp Missile" mechanic which allows it to change forms dynamically during a match. In its **Gulping Form**, it has an Arrokuda lodged in its throat; if its HP drops below 50% before it finds prey, it may instead enter its **Gorging Form**, where it attempts to swallow a Pikachu. It belongs to the **Water 1** and **Flying** Egg Groups, and while it is a skilled hunter, its lack of intelligence often leads it to try swallowing objects or other Pokémon that are far too large for it to handle.

@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 517,
+    "name": "munna",
+    "stats": {
+      "hp": 76,
+      "attack": 25,
+      "defense": 45,
+      "special-attack": 67,
+      "special-defense": 55,
+      "speed": 24
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 23.3,
+    "abilities": [
+      {
+        "name": "forewarn",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "munna"
+    ],
+    "moves": [
+      "sonic-boom",
+      "psybeam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "double-team",
+      "defense-curl",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "baton-pass",
+      "moonlight",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "torment",
+      "facade",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "yawn",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "rock-tomb",
+      "signal-beam",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "gyro-ball",
+      "healing-wish",
+      "lucky-chant",
+      "power-swap",
+      "guard-swap",
+      "worry-seed",
+      "energy-ball",
+      "zen-headbutt",
+      "trick-room",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "synchronoise",
+      "after-you",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "expanding-force"
+    ],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": true,
+    "order": 632,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/517.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/517.png"
+    },
+    "species_name": "munna",
+    "flavor_text": "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+    "genus": "Dream Eater Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "pink",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/265/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 265,
+      "chain": {
+        "species_name": "munna",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "musharna",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "moon-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

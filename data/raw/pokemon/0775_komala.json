@@ -1,0 +1,155 @@
+{
+  "pokemon_details": {
+    "id": 775,
+    "name": "komala",
+    "stats": {
+      "hp": 65,
+      "attack": 115,
+      "defense": 65,
+      "special-attack": 75,
+      "special-defense": 95,
+      "speed": 65
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 19.9,
+    "abilities": [
+      {
+        "name": "comatose",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "komala"
+    ],
+    "moves": [
+      "swords-dance",
+      "slam",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "sing",
+      "hyper-beam",
+      "low-kick",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "rapid-spin",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "wish",
+      "superpower",
+      "brick-break",
+      "yawn",
+      "knock-off",
+      "endeavor",
+      "rock-tomb",
+      "bulk-up",
+      "calm-mind",
+      "u-turn",
+      "payback",
+      "fling",
+      "last-resort",
+      "sucker-punch",
+      "seed-bomb",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "gunk-shot",
+      "iron-head",
+      "wood-hammer",
+      "low-sweep",
+      "round",
+      "quash",
+      "acrobatics",
+      "bulldoze",
+      "work-up",
+      "play-rough",
+      "confide",
+      "stomping-tantrum",
+      "tera-blast",
+      "ice-spinner",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 947,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/775.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/775.png"
+    },
+    "species_name": "komala",
+    "flavor_text": "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
+    "genus": "Drowsing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/401/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 401,
+      "chain": {
+        "species_name": "komala",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

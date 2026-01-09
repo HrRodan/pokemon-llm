@@ -1,0 +1,12 @@
+## Identity & Lore
+Pom-Pom Style Oricorio (Pokedex #10123) is the Dancing Pokémon, a fascinating avian species first discovered in the Alola region (Generation VII). This specific variant, characterized by its vibrant yellow plumage and static-charged feather tufts resembling pom-poms, is native to Melemele Island. Unlike most Pokémon that evolve into different species, Oricorio is famous for its biological plasticity; it changes its form and secondary typing based on the nectar of flowers it consumes. While the provided data mentions fire-based lore usually attributed to its Baile form, the Pom-Pom Style is canonically known for its friendly, energetic disposition, often using its rhythmic movements to cheer up disheartened trainers. Although it lacks a Mega Evolution, Gigantamax form, or Paradox counterpart, its unique biology allows it to thrive in both the Alolan and Paldean ecosystems.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 70, Defense 70, Sp. Atk 98, Sp. Def 70, Speed 93.
+* **Archetype:** Fast Special Setup Sweeper.
+* **Type Matchups:** As an Electric/Flying type, it is **weak to Rock and Ice**. It provides excellent defensive utility by being **immune to Ground** and **resisting Fighting, Flying, Poison, Bug, Steel, and Grass**.
+* **Move Selection:** Leveraging its high Special Attack and signature mechanics, key moves include **Revelation Dance** (which becomes Electric-type in this form), **Hurricane** for powerful Flying-type STAB, **Quiver Dance** for incredible stat boosting, and **Roost** for reliable recovery.
+* **Abilities:** Dancer (The Pokémon immediately performs any dance move used by another Pokémon on the field. This allows it to copy powerful setup moves like Dragon Dance or Quiver Dance in Double Battles without using its own turn).
+
+## Evolution & Biology
+Oricorio is part of a single-stage evolutionary line that emphasizes transformation over traditional evolution. It does not evolve from or into any other Pokémon; instead, it utilizes a form-change mechanic triggered by **Yellow Nectar**. When an Oricorio sips this specific nectar, its cells react, shifting its type to Electric/Flying and adopting the Pom-Pom Style. Biologically, it creates electrical charges by rubbing its feathers together, discharging the stored energy through its "pom-poms" while performing rhythmic dance steps. It belongs to the **Flying** egg group and is often sought after by trainers for its ability to provide team-wide support in competitive doubles through its Ability.

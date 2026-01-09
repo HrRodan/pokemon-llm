@@ -1,0 +1,12 @@
+## Identity & Lore
+Conkeldurr (Pokedex #534) is the Muscular Pokémon, a powerhouse first discovered in the Unova region (Generation V). This hulking, humanoid creature is easily identified by the two massive concrete pillars it carries, which it uses as both walking canes and devastating weapons. Lore states that Conkeldurr is the pioneer of masonry, having taught humans the technology to create concrete over 2,000 years ago. While it lacks a Mega Evolution or Gigantamax form, it is often compared to the Kanto-region Machamp due to its extreme physical strength and similar three-stage evolutionary path. It is frequently found in construction sites and caves, where it uses centrifugal force to swing its pillars with enough power to level buildings.
+
+## Combat Profile
+* **Stats:** HP 105, Attack 140, Defense 95, Sp. Atk 55, Sp. Def 65, Speed 45.
+* **Archetype:** Bulky Physical Tank / Status Sponge.
+* **Type Matchups:** It is **weak to Flying, Psychic, and Fairy** types. It **resists Rock, Bug, and Dark** moves.
+* **Move Selection:** Leveraging its massive base 140 Attack, Conkeldurr is most effective with **Drain Punch** for simultaneous damage and healing, **Mach Punch** to bypass its low speed with priority, **Close Combat** for high-power STAB (Same Type Attack Bonus), and **Knock Off** for essential utility and coverage against Psychic-type opponents.
+* **Abilities:** **Guts** (Boosts Attack by 50% if the Pokémon has a status condition; often paired with a Flame Orb), **Sheer Force** (Strengthens moves with secondary effects but removes those effects), and **Iron Fist** (Increases the power of punching moves by 20%).
+
+## Evolution & Biology
+Conkeldurr is the final stage of a three-stage evolutionary line. It evolves from **Gurdurr** only when **traded** between trainers. Gurdurr itself evolves from the base form, **Timburr**, starting at **Level 25**. As it evolves, the Pokémon graduates from carrying timber to steel beams, and finally to pillars of concrete that it creates itself. Conkeldurr belongs to the **Humanshape** Egg Group, reflecting its bipedal, muscular physiology. Biologically, its body is designed to withstand the immense strain of heavy lifting, though this bulk results in a significantly low base Speed, making it a staple choice for "Trick Room" competitive teams.

@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 367,
+    "name": "huntail",
+    "stats": {
+      "hp": 55,
+      "attack": 104,
+      "defense": 105,
+      "special-attack": 94,
+      "special-defense": 75,
+      "speed": 52
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 27.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "huntail"
+    ],
+    "moves": [
+      "bind",
+      "body-slam",
+      "double-edge",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "waterfall",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "whirlpool",
+      "hail",
+      "facade",
+      "snatch",
+      "secret-power",
+      "dive",
+      "rock-tomb",
+      "iron-defense",
+      "bounce",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "sucker-punch",
+      "aqua-tail",
+      "giga-impact",
+      "ice-fang",
+      "captivate",
+      "coil",
+      "round",
+      "scald",
+      "shell-smash",
+      "confide",
+      "infestation"
+    ],
+    "held_items": [
+      "deep-sea-tooth"
+    ],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 488,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/367.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/367.png"
+    },
+    "species_name": "huntail",
+    "flavor_text": "HUNTAIL\u2019s presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This POK\u00e9MON\u2019s eyes can see clearly even in the murky dark depths of the ocean.",
+    "genus": "Deep Sea Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "sea",
+    "shape": "squiggle",
+    "color": "blue",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/188/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 188,
+      "chain": {
+        "species_name": "clamperl",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "huntail",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "deep-sea-tooth"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "gorebyss",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "deep-sea-scale"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

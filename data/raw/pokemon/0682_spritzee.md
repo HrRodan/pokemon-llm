@@ -1,0 +1,12 @@
+## Identity & Lore
+Spritzee (Pokedex #682) is the Perfume Pokémon, a charming avian-like creature first discovered in the Kalos region of Generation VI. It is distinguished by its vibrant pink plumage and a beak reminiscent of a 17th-century plague doctor's mask, which it uses to emit a variety of scents. These fragrances are highly complex, changing dynamically based on the food the Pokémon has consumed; historically, royal ladies in the Kalosian court would carry a Spritzee to enjoy its enchanting aromas rather than wearing traditional perfumes. While Spritzee does not possess a Mega Evolution, Gigantamax, or Paradox form, it remains a culturally significant species in the Pokémon world, often found in lush meadows or associated with high-fashion urban environments.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 52, Defense 60, Sp. Atk 63, Sp. Def 65, Speed 23.
+* **Archetype:** Defensive Cleric / Trick Room Setter. Due to its exceptionally low Speed and respectable bulk (especially when holding an Eviolite), Spritzee excels as a supportive tank in lower competitive tiers or Little Cup formats.
+* **Type Matchups:** As a pure Fairy-type, it is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and possesses a total **immunity to Dragon-type** moves.
+* **Move Selection:** Prioritizing its Special Attack and vast utility pool, essential moves include **Moonblast** for high-accuracy STAB damage, **Draining Kiss** for combined damage and sustain, **Wish** for team healing, and **Trick Room** to capitalize on its incredibly low speed tier.
+* **Abilities:** **Healer** provides a chance to cure an ally's status condition in Double Battles. Its Hidden Ability, **Aroma Veil**, is highly prized in competitive play as it protects Spritzee and its allies from "mental" effects such as Taunt, Torment, Encore, and Disable.
+
+## Evolution & Biology
+Spritzee is the first stage of a two-stage evolutionary line. It evolves into the larger, more flamboyant **Aromatisse** specifically when it is **traded while holding a Sachet**. Biologically, it is a member of the **Fairy** egg group. It has a hatch counter of 20, meaning it requires a moderate amount of travel to hatch from an egg. Despite its small size (0.2m), its presence is felt immediately in any environment due to the overwhelming scents it produces to enrapture those around it. Its biology is deeply tied to its olfactory capabilities, using its scent-producing organs as both a social tool and a defense mechanism to deter predators or soothe aggressive opponents.

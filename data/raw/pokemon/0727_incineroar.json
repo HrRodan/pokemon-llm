@@ -1,0 +1,236 @@
+{
+  "pokemon_details": {
+    "id": 727,
+    "name": "incineroar",
+    "stats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "special-attack": 80,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 83.0,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "incineroar"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "swords-dance",
+      "bind",
+      "double-kick",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "fire-spin",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "lick",
+      "fire-blast",
+      "leech-life",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "hidden-power",
+      "cross-chop",
+      "sunny-day",
+      "crunch",
+      "fake-out",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "blaze-kick",
+      "blast-burn",
+      "overheat",
+      "aerial-ace",
+      "bulk-up",
+      "covet",
+      "u-turn",
+      "close-combat",
+      "assurance",
+      "embargo",
+      "fling",
+      "flare-blitz",
+      "dark-pulse",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "fire-fang",
+      "iron-head",
+      "flame-charge",
+      "low-sweep",
+      "round",
+      "quash",
+      "acrobatics",
+      "fire-pledge",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "heat-crash",
+      "snarl",
+      "parting-shot",
+      "confide",
+      "darkest-lariat",
+      "throat-chop",
+      "power-trip",
+      "brutal-swing",
+      "stomping-tantrum",
+      "burning-jealousy",
+      "lash-out",
+      "scorching-sands",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": true,
+    "order": 873,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/727.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/727.png"
+    },
+    "species_name": "incineroar",
+    "flavor_text": "This Pok\u00e9mon has a violent, selfish disposition. If it\u2019s not in the mood to listen, it will ignore its Trainer\u2019s orders with complete nonchalance.",
+    "genus": "Heel Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/375/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 375,
+      "chain": {
+        "species_name": "litten",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "torracat",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "incineroar",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 34
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

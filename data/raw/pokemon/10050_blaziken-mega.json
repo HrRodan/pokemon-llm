@@ -1,0 +1,206 @@
+{
+  "pokemon_details": {
+    "id": 10050,
+    "name": "blaziken-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 160,
+      "defense": 80,
+      "special-attack": 130,
+      "special-defense": 80,
+      "speed": 100
+    },
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 52.0,
+    "abilities": [
+      {
+        "name": "speed-boost",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "blaziken-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "swords-dance",
+      "cut",
+      "double-kick",
+      "sand-attack",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "peck",
+      "low-kick",
+      "strength",
+      "solar-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "high-jump-kick",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "role-play",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "blaze-kick",
+      "blast-burn",
+      "overheat",
+      "rock-tomb",
+      "sky-uppercut",
+      "aerial-ace",
+      "bulk-up",
+      "bounce",
+      "fling",
+      "last-resort",
+      "flare-blitz",
+      "poison-jab",
+      "focus-blast",
+      "brave-bird",
+      "giga-impact",
+      "shadow-claw",
+      "defog",
+      "stone-edge",
+      "hone-claws",
+      "flame-charge",
+      "low-sweep",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "acrobatics",
+      "fire-pledge",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "power-up-punch",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 284,
+    "is_default": false,
+    "order": 354,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10050.png"
+    },
+    "species_name": "blaziken",
+    "flavor_text": "In battle, BLAZIKEN blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this POK\u00e9MON\u2019s wrists burn.",
+    "genus": "Blaze Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/131/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 131,
+      "chain": {
+        "species_name": "torchic",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "combusken",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "blaziken",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 671,
+    "name": "florges",
+    "stats": {
+      "hp": 78,
+      "attack": 65,
+      "defense": 68,
+      "special-attack": 112,
+      "special-defense": 154,
+      "speed": 75
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 10.0,
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "florges-red",
+      "florges-yellow",
+      "florges-orange",
+      "florges-blue",
+      "florges-white"
+    ],
+    "moves": [
+      "hyper-beam",
+      "solar-beam",
+      "petal-dance",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "metronome",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "aromatherapy",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "lucky-chant",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "grass-knot",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "petal-blizzard",
+      "disarming-voice",
+      "draining-kiss",
+      "flower-shield",
+      "grassy-terrain",
+      "misty-terrain",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "pollen-puff",
+      "misty-explosion",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water",
+      "alluring-voice",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 248,
+    "is_default": true,
+    "order": 804,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/671.png"
+    },
+    "species_name": "florges",
+    "flavor_text": "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+    "genus": "Garden Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "white",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/344/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 344,
+      "chain": {
+        "species_name": "flabebe",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "floette",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 19
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "florges",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Noice Face Eiscue (#10185) is the Penguin Pokémon, a specialized variant of the Ice-type Pokémon first discovered in Generation VIII (Galar). While the standard "Ice Face" Eiscue is characterized by a massive block of ice covering its head for protection, the Noice Face form is revealed once that ice block is shattered by a physical attack. This form uncovers its surprisingly small, round head with a single long hair that acts as a sensor. Hailing from frigid environments and often found drifting on ocean currents, Eiscue is a master of thermal regulation, using its ice to stay cool in warmer waters. Although it does not possess a Mega Evolution or Gigantamax form, its unique physiological transformation between its two states makes it a highly specialized combatant in the Galar region.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 80, Defense 70, Sp. Atk 65, Sp. Def 50, Speed 130.
+* **Archetype:** Fast Physical Sweeper / Glass Cannon.
+* **Type Matchups:** It is **weak to Fighting, Rock, Steel, and Fire**. It **resists Ice**.
+* **Move Selection:** In its Noice Face form, Eiscue sacrifices defensive bulk for a massive boost in Speed (jumping from base 50 to 130). To capitalize on this, key moves include **Icicle Crash** for high-power STAB (Same Type Attack Bonus), **Belly Drum** to maximize its physical damage output, **Liquidation** for necessary Water-type coverage, and **Iron Head** to deal with pesky Rock or Fairy types.
+* **Abilities:** Ice Face (While in its "Ice Face" form, the ice on its head acts as a shield that takes one physical hit for the Pokémon. Once the ice breaks, Eiscue transforms into this "Noice Face" form. The ice can be restored if the weather becomes Snow or Hail).
+
+## Evolution & Biology
+Eiscue is a single-stage Pokémon that does not evolve into or from any other species. However, it is biologically unique due to its **Form Change** mechanic. It begins every encounter in its Ice Face form; once hit by a physical move, it instantly shifts to its Noice Face form, drastically altering its base stats—specifically increasing its Speed by 80 points while lowering its physical Defense. It belongs to the **Water 1** and **Field (Ground)** egg groups, and its growth rate is notably slow, requiring significant training to reach its full potential. Biologically, its Noice Face state is its "true" appearance, but it is highly vulnerable to heat in this form, which is why it instinctively tries to reform its ice mask during snowy weather conditions.

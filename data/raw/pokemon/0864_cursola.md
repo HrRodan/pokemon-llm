@@ -1,0 +1,12 @@
+## Identity & Lore
+Cursola (Pokedex #864) is the Coral Pokémon, a spectral species first discovered in the Galar region (Generation VIII). This Pokémon is the evolutionary successor to the Galarian form of Corsola, representing the tragic result of environmental changes and rising sea temperatures that bleached the coral reefs. Its white, brittle shell is described as overflowing with heightened otherworldly energy, acting as a protective ectoplasmic layer for the Pokémon’s core spirit. While it lacks a Mega Evolution or Gigantamax form, its existence is a haunting departure from the Johtonian Corsola, trading its Water/Rock typing for a pure Ghost-type essence. It is known to be physically fragile, but its spirit radiates an aura that can stiffen anyone who touches it.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 95, Defense 50, Sp. Atk 145, Sp. Def 130, Speed 30.
+* **Archetype:** Special Tank Nuker.
+* **Type Matchups:** It is **weak to Ghost and Dark**. It **resists Poison and Bug**, and possesses complete **immunities to Normal and Fighting** types.
+* **Move Selection:** Capitalizing on its massive 145 base Special Attack and utility pool, key moves include **Shadow Ball** (primary STAB), **Power Gem** (high-power Rock coverage), **Earth Power** (to check Steel and Fire types), and **Strength Sap** (a vital utility move that heals Cursola based on the opponent's Attack stat while simultaneously lowering it).
+* **Abilities:** Weak Armor (Raises Speed by two stages but lowers Defense by one when hit by a physical attack, potentially allowing Cursola to overcome its low base Speed); Perish Body (Hidden Ability: If hit by a move that makes contact, both the attacker and Cursola will faint in three turns unless switched out, a powerful tool for forcing switches).
+
+## Evolution & Biology
+Cursola is part of a two-stage evolutionary line. It evolves from Galarian Corsola once it reaches Level 38. This transformation marks the point where the spirit inside the coral becomes too powerful for its physical shell to contain, causing the ectoplasm to burst forth. Despite its ghostly nature, it retains its biological roots, belonging to the Water 1 and Water 3 Egg Groups. It has a hatch counter of 20 (approximately 5,120 steps) and follows a Fast growth rate, allowing it to reach its maximum combat potential relatively quickly compared to other late-game Ghost types.

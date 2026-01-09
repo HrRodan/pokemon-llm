@@ -1,0 +1,164 @@
+{
+  "pokemon_details": {
+    "id": 10009,
+    "name": "rotom-wash",
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special-attack": 105,
+      "special-defense": 107,
+      "speed": 86
+    },
+    "types": [
+      "electric",
+      "water"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 0.3,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "rotom-wash"
+    ],
+    "moves": [
+      "hydro-pump",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "will-o-wisp",
+      "facade",
+      "charge",
+      "helping-hand",
+      "trick",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "signal-beam",
+      "shock-wave",
+      "natural-gift",
+      "sucker-punch",
+      "dark-pulse",
+      "nasty-plot",
+      "defog",
+      "discharge",
+      "charge-beam",
+      "ominous-wind",
+      "telekinesis",
+      "electro-ball",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "volt-switch",
+      "electroweb",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "rising-voltage",
+      "poltergeist",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 182,
+    "is_default": false,
+    "order": 589,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/479-wash.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479-wash.png"
+    },
+    "species_name": "rotom",
+    "flavor_text": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+    "genus": "Plasma Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "red",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/240/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 240,
+      "chain": {
+        "species_name": "rotom",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Zigzagoon (#10174) is the Galarian Form of the Tiny Raccoon Pokémon, a regional variant that many researchers believe is the original, primitive form of the species. Found throughout the Galar region (Generation VIII), this Pokémon is characterized by its striking black-and-white fur and a restless, aggressive disposition. Unlike the more docile Hoennian variant, Galarian Zigzagoon is known for charging into people and other Pokémon to provoke a fight, moving in a distinctive zig-zag pattern that makes it difficult to track. While it does not possess a Mega Evolution or a Gigantamax form of its own, it is biologically unique as the only Zigzagoon variant capable of evolving into a third-stage form, Obstagoon, an evolution born from the harsh competitive environment of Galar.
+
+## Combat Profile
+* **Stats:** HP 38, Attack 30, Defense 41, Sp. Atk 30, Sp. Def 41, Speed 60.
+* **Archetype:** Fast Utility Disruptor (Little Cup).
+* **Type Matchups:** It is **weak to Bug and Fairy** and suffers from a notable **Double Weakness (4x) to Fighting**. Offsetting these vulnerabilities, it possesses dual **immunities to Ghost and Psychic** types.
+* **Move Selection:** Prioritizing its speed and utility in battle, Galarian Zigzagoon excels with **Knock Off** for item removal, **Body Slam** for STAB damage and paralysis chance, **Parting Shot** to pivot while weakening the opponent’s offenses, and **Gunk Shot** to provide high-power coverage against Fairy-type threats.
+* **Abilities:** **Pickup** (allows the Pokémon to occasionally find items or retrieve an opponent's consumed item), **Gluttony** (enables the early consumption of held Berries when HP drops below 50%), and its Hidden Ability **Quick Feet** (boosts Speed by 50% when afflicted by a status condition).
+
+## Evolution & Biology
+Galarian Zigzagoon is the first stage of a three-stage regional evolutionary line. It evolves into **Galarian Linoone** starting at Level 20. In a unique biological development exclusive to the Galar region, Galarian Linoone can further evolve into **Obstagoon** when it reaches Level 35 or higher, but only if the level-up occurs during the **Night**. It belongs to the **Field (Ground)** egg group, and its biology is defined by an insatiable curiosity; it restlessly wanders through grasslands and urban areas, becoming instantly interested in any movement or object it encounters.

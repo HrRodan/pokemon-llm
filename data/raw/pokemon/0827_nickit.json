@@ -1,0 +1,143 @@
+{
+  "pokemon_details": {
+    "id": 827,
+    "name": "nickit",
+    "stats": {
+      "hp": 40,
+      "attack": 28,
+      "defense": 28,
+      "special-attack": 47,
+      "special-defense": 52,
+      "speed": 50
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 8.9,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "stakeout",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "nickit"
+    ],
+    "moves": [
+      "tail-whip",
+      "dig",
+      "agility",
+      "quick-attack",
+      "screech",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "beat-up",
+      "torment",
+      "facade",
+      "taunt",
+      "knock-off",
+      "fake-tears",
+      "howl",
+      "mud-shot",
+      "assurance",
+      "sucker-punch",
+      "night-slash",
+      "nasty-plot",
+      "hone-claws",
+      "foul-play",
+      "round",
+      "quick-guard",
+      "tail-slap",
+      "snarl",
+      "play-rough",
+      "lash-out"
+    ],
+    "held_items": [],
+    "base_experience": 49,
+    "is_default": true,
+    "order": 1008,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/827.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/827.png"
+    },
+    "species_name": "nickit",
+    "flavor_text": "Aided by the soft pads on its feet, it silently raids the food stores of other Pok\u00e9mon. It survives off its ill-gotten gains.",
+    "genus": "Fox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/436/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 436,
+      "chain": {
+        "species_name": "nickit",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "thievul",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

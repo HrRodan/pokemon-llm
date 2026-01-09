@@ -1,0 +1,12 @@
+## Identity & Lore
+Zygarde-50 (Pokedex #718) is the Order Pokémon, a legendary Dragon and Ground-type entity first discovered in the Kalos region (Generation VI). Characterized by its serpent-like, green-and-black "squiggle" shape, Zygarde serves as the biological warden of the ecosystem; it is said to monitor the balance of the world from deep within its cave and reveal its secret power whenever the environment falls into disarray. While this specific manifestation represents Zygarde at 50% of its total cellular capacity, it is part of a complex biological system involving **Zygarde Cells** and **Zygarde Cores**. Though it does not possess a Mega Evolution or Gigantamax form, it can transcend into its humanoid **Complete Forme**—a state that surpasses even Alpha Pokémon in raw power—when its health is depleted, provided it possesses the Power Construct ability.
+
+## Combat Profile
+* **Stats:** HP 108, Attack 100, Defense 121, Sp. Atk 81, Sp. Def 95, Speed 95.
+* **Archetype:** Bulky Physical Sweeper / Tank.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice**, and is additionally **weak to Dragon and Fairy**. It **resists Fire, Poison, and Rock**, and maintains a total **Immunity to Electric** moves.
+* **Move Selection:** Utilizing its high physical bulk and signature utility, its optimal moveset includes **Thousand Arrows** (a unique Ground move that hits Flying-types and brings them to the ground), **Outrage** for massive STAB damage, **Dragon Dance** to patch up its middling Speed, and **Extreme Speed** for high-priority finishing blows.
+* **Abilities:** **Aura Break** (Reverses the effects of "Aura" abilities; specifically, it causes Xerneas's Fairy Aura and Yveltal's Dark Aura to decrease move power by 25% rather than increasing it).
+
+## Evolution & Biology
+Zygarde is a unique legendary that does not evolve through levels or stones, but rather through the assembly of its components. It is a single-stage entity that changes forms based on the accumulation of Zygarde Cells. The 50% Forme is its primary defensive state, used to maintain order in the Kalos and Alola regions. Biologically, it is part of the **No-Eggs** group, meaning it cannot be bred, and it follows a **Slow growth rate**, requiring 1,250,000 experience points to reach level 100. Its presence is often heralded by the moves **Land's Wrath**, **Thousand Waves**, and **Core Enforcer**, which signify its role as the ultimate arbiter of the natural world.

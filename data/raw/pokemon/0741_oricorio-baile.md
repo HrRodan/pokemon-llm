@@ -1,0 +1,12 @@
+## Identity & Lore
+Baile Style Oricorio (Pokedex #741) is the Dancing Pokémon, a vibrant Fire and Flying-type avian introduced in Generation VII (Alola). This specific form is known for its passionate, flamenco-inspired movements, often found on Ula'ula Island. It possesses a striking red and black plumage, beating its wings together to generate sparks and intense flames that it uses to bathe its opponents during combat. While Oricorio does not have Mega Evolutions or Gigantamax forms, it is unique for its "Style" mechanic; it can change its form and primary typing by sipping the nectar of specific flowers. The Baile Style is triggered by Red Nectar, transforming its signature move, Revelation Dance, into a Fire-type attack.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 70, Defense 70, Sp. Atk 98, Sp. Def 70, Speed 93.
+* **Archetype:** Special Setup Sweeper.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Rock**, and is also weak to **Water and Electric**. It is **immune to Ground** and provides heavy resistance (0.25x) to **Bug and Grass**, while also resisting **Fire, Fighting, Steel, and Fairy**.
+* **Move Selection:** Utilizing its high Special Attack and access to one of the best setup moves in the game, key moves include **Quiver Dance** (to boost Speed and Special stats), **Revelation Dance** (primary Fire STAB), **Hurricane** (high-power Flying STAB), and **Roost** (to maintain longevity while setting up).
+* **Abilities:** Dancer (The Pokémon's unique signature ability; whenever another Pokémon uses a dance move, such as Dragon Dance, Quiver Dance, or Swords Dance, Oricorio immediately performs the same move, allowing it to potentially double its actions in a single turn during Double Battles).
+
+## Evolution & Biology
+Oricorio is part of a single-stage evolutionary line and does not evolve into or from any other Pokémon. However, it exhibits remarkable biological fluidity through its nectar-based transformations. It belongs to the **Flying** egg group and is often sought after for its rare ability to mirror the dances of others. In the wild, it is known to be highly competitive, using its rhythmic movements to synchronize with its flock. It occasionally carries **Honey**, which it uses to sustain its high energy levels during long periods of dancing. Though it lacks a traditional evolution, its access to **Quiver Dance**—a move typically reserved for Bug-types—makes it a significant threat in competitive tiers where it can capitalize on its unique typing and ability.

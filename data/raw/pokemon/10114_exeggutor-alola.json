@@ -1,0 +1,215 @@
+{
+  "pokemon_details": {
+    "id": 10114,
+    "name": "exeggutor-alola",
+    "stats": {
+      "hp": 95,
+      "attack": 105,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 75,
+      "speed": 45
+    },
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "height_m": 10.9,
+    "weight_kg": 415.6,
+    "abilities": [
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "exeggutor-alola"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "flamethrower",
+      "psybeam",
+      "hyper-beam",
+      "low-kick",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "stun-spore",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "teleport",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "egg-bomb",
+      "dream-eater",
+      "barrage",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "uproar",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "trick",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "extrasensory",
+      "bullet-seed",
+      "block",
+      "magical-leaf",
+      "calm-mind",
+      "gravity",
+      "power-swap",
+      "worry-seed",
+      "seed-bomb",
+      "dragon-pulse",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "draco-meteor",
+      "leaf-storm",
+      "power-whip",
+      "iron-head",
+      "grass-knot",
+      "wood-hammer",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "stored-power",
+      "bulldoze",
+      "dragon-tail",
+      "grassy-terrain",
+      "confide",
+      "infestation",
+      "psychic-terrain",
+      "dragon-hammer",
+      "brutal-swing",
+      "stomping-tantrum",
+      "breaking-swipe",
+      "grassy-glide",
+      "terrain-pulse",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 186,
+    "is_default": false,
+    "order": 162,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10114.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10114.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10114.png"
+    },
+    "species_name": "exeggutor",
+    "flavor_text": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+    "genus": "Coconut Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "legs",
+    "color": "yellow",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/45/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 45,
+      "chain": {
+        "species_name": "exeggcute",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "exeggutor",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

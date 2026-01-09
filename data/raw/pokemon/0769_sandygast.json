@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 769,
+    "name": "sandygast",
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 45,
+      "speed": 15
+    },
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 70.0,
+    "abilities": [
+      {
+        "name": "water-compaction",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sandygast"
+    ],
+    "moves": [
+      "sand-attack",
+      "absorb",
+      "mega-drain",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "night-shade",
+      "double-team",
+      "harden",
+      "confuse-ray",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "destiny-bond",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "shadow-ball",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "trick",
+      "role-play",
+      "recycle",
+      "skill-swap",
+      "imprison",
+      "astonish",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "gravity",
+      "brine",
+      "fling",
+      "rock-polish",
+      "energy-ball",
+      "earth-power",
+      "flash-cannon",
+      "stone-edge",
+      "stealth-rock",
+      "after-you",
+      "round",
+      "hex",
+      "bulldoze",
+      "confide",
+      "infestation",
+      "shore-up",
+      "poltergeist",
+      "scorching-sands",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [
+      "spell-tag"
+    ],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 928,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/769.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/769.png"
+    },
+    "species_name": "sandygast",
+    "flavor_text": "Born from a sand mound playfully built by a child, this Pok\u00e9mon embodies the grudges of the departed.",
+    "genus": "Sand Heap Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 140,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "brown",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/397/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 397,
+      "chain": {
+        "species_name": "sandygast",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "palossand",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 42
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

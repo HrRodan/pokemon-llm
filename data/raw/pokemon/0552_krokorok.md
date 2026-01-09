@@ -1,0 +1,15 @@
+## Identity & Lore
+Krokorok (Pokedex #552) is the Desert Croc Pokémon, a bipedal reptilian species first discovered in the Unova region during Generation V. Known for its distinct appearance, Krokorok features a brown body accented with thick black stripes and a long, powerful snout. One of its most specialized biological traits is the protective black membrane covering its eyes; these act as natural sunglasses, shielding its vision from the harsh glare of the sun and the blinding grit of desert sandstorms. While it often navigates arid environments, Krokorok is known to live in small communal groups. Although it does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, its final evolution, Krookodile, is renowned in the Pokémon world as a fierce "bully of the sands," making this evolutionary line a staple for trainers seeking aggressive Ground and Dark-type power.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 82, Defense 45, Sp. Atk 45, Sp. Def 45, Speed 74.
+* **Archetype:** Physical Mid-stage Attacker. With its higher Attack and respectable Speed for a middle evolution, Krokorok functions best as an offensive pivot or a "Moxie" sweeper in lower-tier competitive brackets.
+* **Type Matchups:** It is **weak to Water, Grass, Ice, Fighting, Bug, and Fairy**. Conversely, it **resists Poison, Rock, Ghost, and Dark**, and possesses complete **immunity to Electric and Psychic** attacks due to its unique dual-typing.
+* **Move Selection:** Capitalizing on its physical prowess, key moves include **Earthquake** (high-power Ground STAB), **Crunch** (reliable Dark STAB with a defense-drop chance), **Dragon Claw** (valuable neutral coverage), and **Rock Slide** (essential for hitting Flying and Bug types).
+* **Abilities:** 
+    * **Intimidate:** Lowers the opponent's Attack stat upon entry, compensating for Krokorok's relatively low physical Defense.
+    * **Moxie:** Boosts its own Attack stat every time it knocks out an opponent, making it a snowballing threat in battle.
+    * **Anger Point (Hidden Ability):** Instantly maxes out the Attack stat to +6 stages if it survives a critical hit.
+
+## Evolution & Biology
+Krokorok is part of a three-stage evolutionary line. It evolves from the small, burrowing **Sandile** starting at **Level 29**. Following significant battle experience, Krokorok reaches its final form, the intimidating **Krookodile**, upon reaching **Level 40**. Biologically, it is highly adapted for desert survival, often found carrying **Black Glasses** which further enhance its Dark-type maneuvers. It belongs to the **Field (Ground)** Egg Group and has a hatch counter of 20, requiring a moderate amount of travel to hatch from an egg. Its growth rate is categorized as Medium-Slow, reflecting the discipline required to train this desert predator to its full potential.

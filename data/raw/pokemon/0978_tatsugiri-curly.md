@@ -1,0 +1,14 @@
+## Identity & Lore
+Curly Form Tatsugiri (Pokedex #978) is the Mimicry Pokémon, a cunning and deceptive Dragon/Water-type species first discovered in the Paldea region of Generation IX. Despite its diminutive size and pink, shrimp-like appearance, it is a master tactician of the Casseroya Lake ecosystem. This Pokémon is renowned for its symbiotic—and somewhat manipulative—relationship with the massive Dondozo; Tatsugiri rests inside the larger Pokémon's mouth, acting as the "commander" to direct it in battle and protect itself from predators. While it does not possess a Mega Evolution or Gigantamax form, its unique biology allows it to exist in three distinct forms (Curly, Droopy, and Stretchy), each mimicking different types of sushi to lure prey.
+
+## Combat Profile
+* **Stats:** HP 68, Attack 50, Defense 60, Sp. Atk 120, Sp. Def 95, Speed 82.
+* **Archetype:** Special Sweeper / Tactical Doubles Support.
+* **Type Matchups:** It is **weak to Dragon and Fairy**. Thanks to its Dragon/Water typing, it possesses **Double Resistances (0.25x damage) to Fire and Water**, and a standard resistance to Steel. Notably, its Water typing neutralizes the traditional Dragon weakness to Ice.
+* **Move Selection:** Utilizing its exceptional Special Attack, Tatsugiri excels with high-powered STAB (Same Type Attack Bonus) moves such as **Draco Meteor** and **Hydro Pump**. For more consistent damage, it utilizes **Dragon Pulse**, while **Nasty Plot** allows it to boost its offensive presence to Tier-1 sweeper levels.
+* **Abilities:** 
+    * **Commander:** A signature ability that allows Tatsugiri to enter the mouth of an allied Dondozo in Double Battles, boosting all of Dondozo’s stats by two stages but preventing Tatsugiri from being targeted or acting. 
+    * **Storm Drain (Hidden):** Grants immunity to Water-type moves and raises Special Attack when hit by one, making it an excellent switch-in against Water-type specialists.
+
+## Evolution & Biology
+Tatsugiri is a single-stage Pokémon and does not evolve from or into any other species. It is a member of the **Water 2** Egg Group. Biologically, the Curly Form is distinguished by its orange-and-white pattern, mimicking a shrimp nigiri. When utilizing its Commander ability, the Curly form specifically triggers an Attack boost for its Dondozo partner when the latter uses the move Order Up. Despite its fragile frame, it is highly intelligent and uses its "sushi" appearance to trick bird Pokémon into diving for a meal, only for the bird to be counter-attacked by Tatsugiri's Dondozo partner. It has a medium-slow growth rate and a hatch counter of 35, reflecting its status as a more specialized find in the wild.

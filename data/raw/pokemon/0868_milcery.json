@@ -1,0 +1,130 @@
+{
+  "pokemon_details": {
+    "id": 868,
+    "name": "milcery",
+    "stats": {
+      "hp": 45,
+      "attack": 40,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 61,
+      "speed": 34
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.3,
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "milcery"
+    ],
+    "moves": [
+      "tackle",
+      "recover",
+      "acid-armor",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "sweet-scent",
+      "facade",
+      "helping-hand",
+      "aromatherapy",
+      "fling",
+      "last-resort",
+      "entrainment",
+      "round",
+      "stored-power",
+      "draining-kiss",
+      "misty-terrain",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 1052,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/868.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/868.png"
+    },
+    "species_name": "milcery",
+    "flavor_text": "This Pok\u00e9mon was born from sweet-smelling particles in the air. Its body is made of cream.",
+    "genus": "Cream Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "white",
+    "egg_groups": [
+      "fairy",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/452/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 452,
+      "chain": {
+        "species_name": "milcery",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "alcremie",
+            "evolution_details": [
+              {
+                "trigger": "spin"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

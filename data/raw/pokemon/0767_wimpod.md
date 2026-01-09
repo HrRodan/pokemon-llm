@@ -1,0 +1,12 @@
+## Identity & Lore
+Wimpod (#767) is the Turn Tail Pokémon, a dual-type Bug and Water creature first discovered in the Alola region of Generation VII. This small, gray scavenger is known primarily for its cowardly nature and skittish behavior; it will spit a poisonous liquid to distract enemies or scuttle away on its many legs at the first sign of danger. Curiously, its frantic fleeing leaves a sparkling clean path behind it, as it picks up and consumes organic waste and garbage as it travels. While Wimpod itself lacks the fearsome reputation of other predators, it eventually matures into the formidable Golisopod, a transformation that turns its inherent cowardice into a tactical "Emergency Exit" strategy. Though it currently possesses no Mega Evolution or Gigantamax form, its evolved state became iconic as the signature partner of Team Skull's leader, Guzma.
+
+## Combat Profile
+* **Stats:** HP 25, Attack 35, Defense 40, Sp. Atk 20, Sp. Def 30, Speed 80.
+* **Archetype:** Fast Physical Pivot. Despite its generally low base stat total, its Speed is surprisingly high for an unevolved Pokémon, allowing it to act before taking damage in early-game scenarios.
+* **Type Matchups:** It is **weak to Flying, Rock, and Electric** types. Due to its unique typing, it **resists Fighting, Ground, Steel, Water, and Ice**. The Water typing effectively neutralizes the standard Bug-type weakness to Fire.
+* **Move Selection:** Prioritizing its higher physical Attack and its role as a disruptive scout, key moves include **Aqua Jet** (priority STAB), **Leech Life** (STAB recovery), **Waterfall** (consistent physical damage), and **Skitter Smack** (lowering the opponent's Special Attack).
+* **Abilities:** Wimp Out (When this Pokémon's HP drops below half, it immediately flees from wild battles or switches out for another party member in trainer battles, reflecting its cautious survival instincts).
+
+## Evolution & Biology
+Wimpod is the first stage of a two-stage evolutionary line. It evolves into the massive, armored Golisopod once it reaches **Level 30**, trading its timid nature for a "First Impression" heavy-hitting combat style. Biologically, it is a hardy scavenger capable of eating anything, which aids in its survival in coastal habitats. It belongs to the **Bug and Water 3** Egg Groups, and breeders can expect a Hatch Counter of 20 (approximately 5,120 steps) to hatch a Wimpod egg.

@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 592,
+    "name": "frillish",
+    "stats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 50,
+      "special-attack": 65,
+      "special-defense": 85,
+      "speed": 40
+    },
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 33.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "damp",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "frillish"
+    ],
+    "moves": [
+      "bind",
+      "poison-sting",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "absorb",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "double-team",
+      "recover",
+      "confuse-ray",
+      "waterfall",
+      "constrict",
+      "dream-eater",
+      "bubble",
+      "flash",
+      "acid-armor",
+      "rest",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "destiny-bond",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "whirlpool",
+      "hail",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "trick",
+      "magic-coat",
+      "imprison",
+      "secret-power",
+      "dive",
+      "water-spout",
+      "water-sport",
+      "shock-wave",
+      "water-pulse",
+      "brine",
+      "wring-out",
+      "dark-pulse",
+      "energy-ball",
+      "trick-room",
+      "ominous-wind",
+      "sludge-wave",
+      "round",
+      "scald",
+      "hex",
+      "confide",
+      "dazzling-gleam",
+      "strength-sap",
+      "poltergeist"
+    ],
+    "held_items": [],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 714,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/592.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/592.png"
+    },
+    "species_name": "frillish",
+    "flavor_text": "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+    "genus": "Floating Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "white",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/301/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 301,
+      "chain": {
+        "species_name": "frillish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "jellicent",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

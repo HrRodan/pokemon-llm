@@ -1,0 +1,95 @@
+{
+  "pokemon_details": {
+    "id": 10311,
+    "name": "heatran-mega",
+    "stats": {
+      "hp": 91,
+      "attack": 120,
+      "defense": 106,
+      "special-attack": 175,
+      "special-defense": 141,
+      "speed": 67
+    },
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "height_m": 2.8,
+    "weight_kg": 570.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "heatran",
+    "flavor_text": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+    "genus": "Lava Dome Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 100,
+    "hatch_counter": 10,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/246/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 246,
+      "chain": {
+        "species_name": "heatran",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

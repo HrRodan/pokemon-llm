@@ -1,0 +1,12 @@
+## Identity & Lore
+Pikachu Rock Star (Pokedex #10080) is a specialized "Cosplay Pikachu" variant of the Mouse Pokémon, characterized by its edgy, leather-clad rocker aesthetic and a unique heart-shaped mark on its tail (indicating it is female). While the Pikachu species originated in the Kanto region (Generation I) and is commonly found in forests, this specific Rock Star form was introduced during the Hoenn region's Pokémon Contest Spectaculars. It is known for its high energy and performative flair, often gathering with others to build electrical charges capable of generating lightning storms. Beyond this form, the Pikachu species is famous for its Gigantamax form, which drastically increases its size and grants access to G-Max Volt Crash, as well as its historical connection to the Alolan region, where it can evolve into the dual-type Electric/Psychic Alolan Raichu.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Physical Pivot / Glass Cannon.
+* **Type Matchups:** It is **weak to Ground** and **resists Flying, Steel, and Electric**. 
+* **Move Selection:** While its base stats are modest, Pikachu Rock Star is often equipped with a **Light Ball** to double its offensive power. Its signature move is **Meteor Mash**, a powerful Steel-type attack it gains exclusively in this form. To capitalize on its Speed and Attack, key moves include **Meteor Mash**, **Wild Charge**, **Iron Tail**, and **Volt Switch** for tactical pivoting.
+* **Abilities:** Static (Can paralyze opponents upon physical contact, providing a defensive deterrent despite its low bulk); Lightning Rod (Grants immunity to Electric-type moves and boosts Special Attack when hit by one, making it an excellent switch-in against predicted Electric attacks).
+
+## Evolution & Biology
+Pikachu Rock Star is part of a three-stage evolutionary line, though this specific Cosplay variant is unique and **cannot evolve**. In its standard biological cycle, the line begins as **Pichu**, which evolves into Pikachu when leveled up with **High Friendship (220+)**. A typical Pikachu would then evolve into Raichu when exposed to a **Thunder Stone**. As a member of the **Ground and Fairy Egg Groups**, Pikachu has a fast growth rate but a relatively low hatch counter. Despite its small stature (0.4m) and light weight (6.0kg), its biological capacity for electricity storage is vast, making it both a popular companion and a potent threat in battle when utilizing its unique Rock Star training.

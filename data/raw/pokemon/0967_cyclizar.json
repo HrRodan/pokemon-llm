@@ -1,0 +1,156 @@
+{
+  "pokemon_details": {
+    "id": 967,
+    "name": "cyclizar",
+    "stats": {
+      "hp": 70,
+      "attack": 95,
+      "defense": 65,
+      "special-attack": 85,
+      "special-defense": 65,
+      "speed": 121
+    },
+    "types": [
+      "dragon",
+      "normal"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 63.0,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cyclizar"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "growl",
+      "hyper-beam",
+      "thunderbolt",
+      "agility",
+      "quick-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "rapid-spin",
+      "iron-tail",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "uproar",
+      "facade",
+      "taunt",
+      "knock-off",
+      "endeavor",
+      "hyper-voice",
+      "overheat",
+      "aerial-ace",
+      "dragon-claw",
+      "mud-shot",
+      "u-turn",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "draco-meteor",
+      "power-whip",
+      "iron-head",
+      "shift-gear",
+      "acrobatics",
+      "dragon-tail",
+      "wild-charge",
+      "breaking-swipe",
+      "scale-shot",
+      "tera-blast",
+      "ice-spinner",
+      "shed-tail",
+      "trailblaze",
+      "dragon-cheer",
+      "temper-flare",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 953,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/967.png"
+    },
+    "species_name": "cyclizar",
+    "flavor_text": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+    "genus": "Mount Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/506/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 506,
+      "chain": {
+        "species_name": "cyclizar",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

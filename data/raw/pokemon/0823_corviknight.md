@@ -1,0 +1,12 @@
+## Identity & Lore
+Corviknight (Pokedex #823) is the Raven Pokémon, a formidable avian species that reigns supreme in the skies of the Generation VIII Galar region. Its massive frame is protected by a metallic plumage with a black luster, a biological armor so intimidating that it is said to drive terror into the hearts of any foe. Beyond its predatory nature, Corviknight is highly intelligent and serves a vital role in Galar's infrastructure as the primary transport for the Galar Taxi service. While it does not have a Mega Evolution or Paradox form, it is one of the few Pokémon capable of **Gigantamaxing**. In its Gigantamax form, its armor becomes even more reinforced, and it can launch "Blade Birds" from its wings to attack foes independently.
+
+## Combat Profile
+* **Stats:** HP 98, Attack 87, Defense 105, Sp. Atk 53, Sp. Def 85, Speed 67.
+* **Archetype:** Physical Tank / Defensive Pivot.
+* **Type Matchups:** It is **weak to Fire and Electric** types. It is highly valued for its immunities to **Ground and Poison** types. Furthermore, it resists **Normal, Flying, Steel, Psychic, Dragon, and Fairy**, and possesses a **Double Resistance (4x) to Bug and Grass** moves.
+* **Move Selection:** Capitalizing on its high physical Defense and STAB (Same Type Attack Bonus) potential, key moves include **Brave Bird** for massive aerial damage, **Iron Head** for consistent Steel-type offense, **Body Press** to leverage its high Defense stat for damage, and **Roost** for vital HP recovery. It also frequently utilizes **Defog** to clear entry hazards and **U-turn** for tactical pivoting.
+* **Abilities:** **Pressure** (Forces the opponent to expend more PP for their moves), **Unnerve** (Prevents the opponent from consuming their held Berry), and its Hidden Ability, **Mirror Armor** (Reflects any stat-lowering effects back at the user, providing a hard counter to the Intimidate ability).
+
+## Evolution & Biology
+Corviknight is the pinnacle of a three-stage evolutionary line. It begins its life as **Rookidee**, a scrappy and courageous bird. Rookidee evolves into **Corvisquire** upon reaching Level 18. The transition into the armored **Corviknight** occurs when Corvisquire reaches Level 38. Biologically, it is a member of the **Flying** egg group and has a hatch counter of 15. Its transition from a small songbird to a steel-clad raptor represents one of the most drastic physical shifts in the Galar avian ecosystem, as it trades its early-game agility for heavy-duty defensive plating.

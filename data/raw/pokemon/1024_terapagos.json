@@ -1,0 +1,141 @@
+{
+  "pokemon_details": {
+    "id": 1024,
+    "name": "terapagos",
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 85,
+      "special-attack": 65,
+      "special-defense": 85,
+      "speed": 60
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 6.5,
+    "abilities": [
+      {
+        "name": "tera-shift",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "terapagos"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "surf",
+      "ice-beam",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "withdraw",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "substitute",
+      "protect",
+      "endure",
+      "sleep-talk",
+      "rapid-spin",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "facade",
+      "weather-ball",
+      "calm-mind",
+      "water-pulse",
+      "gravity",
+      "gyro-ball",
+      "flare-blitz",
+      "aura-sphere",
+      "rock-polish",
+      "dark-pulse",
+      "bug-buzz",
+      "dragon-pulse",
+      "power-gem",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "heavy-slam",
+      "stored-power",
+      "wild-charge",
+      "heat-crash",
+      "dazzling-gleam",
+      "body-press",
+      "meteor-beam",
+      "scorching-sands",
+      "ice-spinner",
+      "tera-starstorm",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 90,
+    "is_default": true,
+    "order": 1108,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1024.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1024.png"
+    },
+    "species_name": "terapagos",
+    "flavor_text": "Terapagos protects itself using its power to transform energy into hard crystals. This Pok\u00e9mon is the source of the Terastal phenomenon.",
+    "genus": "Tera Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "hatch_counter": 5,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/548/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 548,
+      "chain": {
+        "species_name": "terapagos",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

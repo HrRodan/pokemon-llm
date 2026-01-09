@@ -1,0 +1,12 @@
+## Identity & Lore
+Gigantamax Inteleon (Pokedex #10211) is the Secret Agent Pokémon, a towering and formidable variant of the final Water-type evolution from the Galar region (Generation VIII). Standing at an immense height of 40 meters, this Gigantamax form manifests as Inteleon perched atop a monumental pillar of water created by its own power. In this state, its capabilities as a long-range specialist are heightened; it uses its long tail to stabilize itself against the pillar, effectively becoming a sniper in a high-rise nest. Its fingertips can fire water at speeds exceeding Mach 7, and its nictitating membranes allow it to calculate wind speed, temperature, and air pressure with surgical precision. While it lacks a Mega Evolution or Paradox form, its Gigantamax transformation is its ultimate tactical state, allowing it to strike targets from miles away with its signature move, G-Max Hydrosnipe.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 65, Sp. Atk 125, Sp. Def 65, Speed 120.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Grass and Electric** types. It **resists Fire, Ice, Steel, and Water** moves.
+* **Move Selection:** Leveraging its elite Special Attack and Speed, Inteleon-Gmax excels with high-accuracy, high-crit, and high-power special moves. Key selections include **Snipe Shot** (its signature move that ignores redirection), **Hydro Pump** (for maximum STAB damage), **Ice Beam** (crucial coverage for Grass and Dragon types), and **Dark Pulse** (to handle Psychic and Ghost types). 
+* **Abilities:** **Torrent** (Increases the power of Water-type moves by 50% when current HP is at or below 1/3 of its maximum); **Sniper** (Hidden Ability: Powers up moves if they become critical hits, increasing the damage multiplier from 1.5x to 2.25x).
+
+## Evolution & Biology
+Inteleon-Gmax is the pinnacle of a three-stage evolutionary line originating in the Galar region. It begins as the timid **Sobble**, which evolves into the emo-styled **Drizzile** starting at Level 16. Drizzile then evolves into the sophisticated **Inteleon** starting at Level 35. The Gigantamax form is achieved only by specific Inteleon possessing the Gigantamax Factor when they Dynamax in Power Spot locations. Biologically, it belongs to the **Water 1** and **Ground** Egg Groups. It has a Medium-Slow growth rate, requiring significant experience to reach its full potential, and is known for its "upright" shape and sleek, blue-and-yellow aesthetic that aids in its "Secret Agent" persona.

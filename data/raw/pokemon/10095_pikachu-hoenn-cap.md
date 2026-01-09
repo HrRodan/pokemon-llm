@@ -1,0 +1,12 @@
+## Identity & Lore
+Hoenn Cap Pikachu (Pokedex #10095) is a special variant of the Mouse Pokémon, recognized by the iconic green-and-white mesh cap worn by its trainer during travels through the Hoenn region. While the species originated in Generation I (Kanto), this specific form celebrates the adventures within Generation III. It is a small, yellow quadrupedal rodent with long ears tipped in black and distinctive red pouches on its cheeks which store electricity. Lore states that when several of these Pokémon gather, their combined electrical discharge can trigger massive lightning storms. Beyond this commemorative form, the Pikachu species is known to possess a powerful **Gigantamax form**, which dramatically increases its size and grants it access to the move G-Max Volt Crash.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Glass Cannon / Fast Mixed Attacker. In competitive play, this Pokémon is almost exclusively seen holding the **Light Ball**, which doubles its offensive stats, making it far more dangerous than its base numbers suggest.
+* **Type Matchups:** As a pure Electric-type, it is **weak to Ground**. It effectively **resists Electric, Flying, and Steel** types.
+* **Move Selection:** To maximize its mixed offensive capabilities and capitalize on its signature options, key moves include **Volt Tackle** (high-power physical STAB), **Thunderbolt** (reliable special STAB), **Iron Tail** (coverage against Rock and Ice), and **Volt Switch** (for tactical pivoting and maintaining momentum).
+* **Abilities:** **Static** (Contact with the Pokémon may cause paralysis to the attacker). **Lightning Rod** (Hidden Ability: Draws in all Electric-type moves to bolster its own Special Attack while granting immunity to them).
+
+## Evolution & Biology
+Hoenn Cap Pikachu is part of a three-stage evolutionary line, though this specific "Cap" form is typically unable to evolve into Raichu. The biological cycle begins with **Pichu**, which evolves into Pikachu when leveled up with **High Friendship (220+)**. Under normal circumstances, a Pikachu would evolve into **Raichu** (or Alolan Raichu in the Alola region) when exposed to a **Thunder Stone**. As a member of the **Ground and Fairy Egg Groups**, it is biologically diverse. Despite its fragile appearance, its high speed and ability to generate forest-wide electrical disturbances make it a formidable survivor in its native forest habitats.

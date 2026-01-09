@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 1014,
+    "name": "okidogi",
+    "stats": {
+      "hp": 88,
+      "attack": 128,
+      "defense": 115,
+      "special-attack": 58,
+      "special-defense": 86,
+      "speed": 80
+    },
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 92.2,
+    "abilities": [
+      {
+        "name": "toxic-chain",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guard-dog",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "okidogi"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "dig",
+      "toxic",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "metal-claw",
+      "crunch",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "poison-fang",
+      "rock-tomb",
+      "howl",
+      "bulk-up",
+      "poison-tail",
+      "close-combat",
+      "fling",
+      "force-palm",
+      "poison-jab",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "gunk-shot",
+      "iron-head",
+      "sludge-wave",
+      "low-sweep",
+      "snarl",
+      "high-horsepower",
+      "throat-chop",
+      "brutal-swing",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "hard-press",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 278,
+    "is_default": true,
+    "order": 1098,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1014.png"
+    },
+    "species_name": "okidogi",
+    "flavor_text": "After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.",
+    "genus": "Retainer Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "black",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/540/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 540,
+      "chain": {
+        "species_name": "okidogi",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

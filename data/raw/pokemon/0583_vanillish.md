@@ -1,0 +1,12 @@
+## Identity & Lore
+Vanillish (Pokedex #583) is the Icy Snow Pokémon, a distinctive Pure Ice-type creature that first appeared in the Unova region during Generation V. Characterized by its frozen, icicle-like body covered in a veil of fine snow, Vanillish resides primarily in high-altitude snowy mountains. Historical records suggest that during an ancient ice age, these Pokémon migrated to southern areas, though they currently prefer freezing climates where they can keep their bodies chilled to prevent melting. While Vanillish itself does not possess a Mega Evolution, Gigantamax, or Paradox form, it is the middle stage of one of the most powerful non-legendary Ice-type lines, eventually culminating in the dual-headed Vanilluxe, which is known for its ability to create massive blizzards.
+
+## Combat Profile
+* **Stats:** HP 51, Attack 65, Defense 65, Sp. Atk 80, Sp. Def 75, Speed 59.
+* **Archetype:** Special Attacker / Defensive Pivot.
+* **Type Matchups:** It is **weak to Fire, Fighting, Rock, and Steel**. As a pure Ice-type, it **resists Ice**, but lacks other resistances, making its placement on a team highly dependent on tactical switching.
+* **Move Selection:** Capitalizing on its superior Special Attack stat, key moves include **Ice Beam** for reliable STAB damage, **Blizzard** for maximum power in hail, **Flash Cannon** for coverage against Rock-types, and **Mirror Coat** to punish opponents who strike with special moves.
+* **Abilities:** **Ice Body** (Gradually regains HP during a hailstorm or snow), **Snow Cloak** (Increases evasion during a hailstorm or snow), and its Hidden Ability **Weak Armor** (Decreases Defense but sharply increases Speed when hit by a physical attack, allowing it to pivot into a fast sweeper role).
+
+## Evolution & Biology
+Vanillish is part of a three-stage evolutionary line. It evolves from **Vanillite** starting at **Level 35**. To reach its final form, it must be leveled up to **Level 47**, where it evolves into **Vanilluxe**. Biologically, Vanillish is classified within the **Mineral** egg group. It has a hatch counter of 20, requiring a significant amount of travel to incubate. It is often found carrying the **Never-Melt-Ice** item in the wild, which enhances the power of its freezing breath and crystalline body. Its physical form is essentially a large icicle disguised with snow, which it uses to camouflage itself against mountain slopes.

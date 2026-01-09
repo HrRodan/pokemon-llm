@@ -1,0 +1,12 @@
+## Identity & Lore
+Morelull (Pokedex #755) is the Illuminating Pokémon, a small nocturnal fungus-like creature first discovered in the Alola region during Generation VII. This purple-capped Pokémon is known for its bioluminescent spores that flicker and glow in the dark of deep forests; anyone who gazes upon these rhythmic lights is quickly lulled into a deep slumber. It is primarily found in damp, dark environments like the Lush Jungle, where it communicates with others of its kind through glowing pulses of light. While Morelull does not possess a Mega Evolution or Gigantamax form, it is highly regarded for its unique biological relationship with local flora, often sharing nutrients with trees through its root-like appendages.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 35, Defense 55, Sp. Atk 65, Sp. Def 75, Speed 15.
+* **Archetype:** Low-Speed Status Supporter / Trick Room Utility.
+* **Type Matchups:** It is **weak to Flying, Bug, Fire, Ice, and Steel**, with a notable **Double Weakness (4x) to Poison**. It **resists Ground, Water, Grass, Electric, Fighting, and Dark**, and possesses a complete **Immunity to Dragon-type moves**.
+* **Move Selection:** Despite its low offensive stats, it can utilize its Sp. Atk and utility pool effectively with moves such as **Moonblast** (powerful Fairy STAB), **Giga Drain** (sustained recovery), **Spore** (guaranteed sleep induction), and **Strength Sap** (a potent move that heals the user based on the opponent's Attack stat while lowering it).
+* **Abilities:** **Illuminate** (increases the likelihood of encountering wild Pokémon); **Effect Spore** (may inflict poison, paralysis, or sleep on an opponent making physical contact); **Rain Dish** (Hidden Ability that gradually restores HP when it is raining).
+
+## Evolution & Biology
+Morelull is part of a two-stage evolutionary line. It evolves into **Shiinotic** starting at Level 24. Biologically, it is a sedentary Pokémon that is most active at night to prevent its spores from losing their glow. It belongs to the **Plant** Egg Group and is frequently found in the wild holding **Tiny Mushrooms** or **Big Mushrooms**, reflecting its fungal nature. Its slow movement speed and reliance on spores make it a reactive fighter, often relying on its Grass/Fairy typing to tank specific hits while debilitating the foe with status conditions.

@@ -1,0 +1,223 @@
+{
+  "pokemon_details": {
+    "id": 866,
+    "name": "mr-rime",
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 58.2,
+    "abilities": [
+      {
+        "name": "tangled-feet",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "screen-cleaner",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mr-rime"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "ice-punch",
+      "double-kick",
+      "mega-kick",
+      "body-slam",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "mimic",
+      "screech",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "rapid-spin",
+      "rain-dance",
+      "sunny-day",
+      "mirror-coat",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "hail",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "recycle",
+      "brick-break",
+      "skill-swap",
+      "teeter-dance",
+      "slack-off",
+      "fake-tears",
+      "icicle-spear",
+      "iron-defense",
+      "block",
+      "calm-mind",
+      "payback",
+      "fling",
+      "copycat",
+      "power-swap",
+      "guard-swap",
+      "sucker-punch",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "avalanche",
+      "ice-shard",
+      "zen-headbutt",
+      "trick-room",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "magic-room",
+      "foul-play",
+      "after-you",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "freeze-dry",
+      "misty-terrain",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "stomping-tantrum",
+      "expanding-force",
+      "triple-axel"
+    ],
+    "held_items": [],
+    "base_experience": 182,
+    "is_default": true,
+    "order": 1050,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/866.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/866.png"
+    },
+    "species_name": "mr-rime",
+    "flavor_text": "It\u2019s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
+    "genus": "Comedian Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/57/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 57,
+      "chain": {
+        "species_name": "mime-jr",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mr-mime",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "mimic"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "mr-rime",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 42
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

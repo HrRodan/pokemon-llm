@@ -1,0 +1,12 @@
+## Identity & Lore
+Solosis (Pokedex #577) is the Cell Pokémon, a unique life form first discovered in the Unova region of Generation V. This small, green, spherical Pokémon is encased in a protective special liquid that allows it to survive in even the harshest environments. Despite its microscopic appearance and diminutive size of 0.3 meters, it possesses immense mental fortitude; Solosis is known to drive away attackers by unleashing raw psychic power and can communicate with its trainers and peers using sophisticated telepathy. While Solosis does not currently have a Mega Evolution, Gigantamax form, or Paradox variant, its final form, Reuniclus, is widely respected as one of the most durable and tactically diverse Psychic-type threats in competitive history.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 30, Defense 40, Sp. Atk 105, Sp. Def 50, Speed 20.
+* **Archetype:** Trick Room Special Attacker. With a staggering Base Special Attack for an unevolved Pokémon and a bottom-tier Speed stat, it is perfectly optimized for Trick Room strategies.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark**. It resists **Fighting and Psychic**.
+* **Move Selection:** Capitalizing on its elite Special Attack and utility pool, key moves include **Psychic** (high-powered STAB), **Shadow Ball** (Ghost-type coverage), **Flash Cannon** (Steel-type coverage against Fairies), and **Recover** (reliable sustainability).
+* **Abilities:** Overcoat (Grants immunity to sandstorm damage and powder-based moves like Spore); Magic Guard (An elite ability that prevents all indirect damage, including life orb recoil, entry hazards, and status conditions); Regenerator (Hidden Ability that restores 33% of its maximum HP upon switching out).
+
+## Evolution & Biology
+Solosis is the first stage of a three-stage evolutionary line. It evolves into the split-brained Duosion starting at **Level 32**, which eventually stabilizes into the powerful, limb-forming Reuniclus at **Level 41**. Biologically, Solosis belongs to the **Indeterminate** egg group and has a hatch counter of 20, suggesting a medium-slow growth rate. In the wild, they are occasionally found holding a **Persim Berry**, which helps them manage the mental strain of their own developing psychic abilities.

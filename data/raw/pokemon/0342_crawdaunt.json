@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 342,
+    "name": "crawdaunt",
+    "stats": {
+      "hp": 63,
+      "attack": 120,
+      "defense": 85,
+      "special-attack": 90,
+      "special-defense": 55,
+      "speed": 55
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 32.8,
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "crawdaunt"
+    ],
+    "moves": [
+      "vice-grip",
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "counter",
+      "strength",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "waterfall",
+      "swift",
+      "bubble",
+      "crabhammer",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "nature-power",
+      "taunt",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "rock-tomb",
+      "muddy-water",
+      "aerial-ace",
+      "iron-defense",
+      "mud-shot",
+      "dragon-dance",
+      "water-pulse",
+      "natural-gift",
+      "close-combat",
+      "payback",
+      "fling",
+      "dark-pulse",
+      "night-slash",
+      "x-scissor",
+      "switcheroo",
+      "giga-impact",
+      "nasty-plot",
+      "avalanche",
+      "captivate",
+      "aqua-jet",
+      "double-hit",
+      "hone-claws",
+      "sludge-wave",
+      "round",
+      "scald",
+      "retaliate",
+      "razor-shell",
+      "snarl",
+      "confide",
+      "liquidation",
+      "lash-out",
+      "tera-blast",
+      "chilling-water",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 164,
+    "is_default": true,
+    "order": 455,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/342.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/342.png"
+    },
+    "species_name": "crawdaunt",
+    "flavor_text": "CRAWDAUNT has an extremely violent nature that compels it to challenge other living things to battle. Other life-forms refuse to live in ponds inhabited by this POK\u00e9MON, making them desolate places.",
+    "genus": "Rogue Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 155,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "waters-edge",
+    "shape": "armor",
+    "color": "red",
+    "egg_groups": [
+      "water1",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/174/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 174,
+      "chain": {
+        "species_name": "corphish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crawdaunt",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Cobalion (Pokedex #638) is the Iron Will Pokémon, a legendary quadruped introduced in the Unova region (Generation V). Its metallic body is predominantly cobalt blue, accented by tufts of white fur and golden horns that function like sharp blades. As the peerless leader of the "Swords of Justice," Cobalion possesses a heart and body of steel; it is famed in Unova lore for protecting Pokémon from the fires of human conflict. Its personality is famously calm and composed, yet it can glare down even the most bellicose of foes. While it does not possess a Mega Evolution or Gigantamax form, it is significantly linked to the Paradox Pokémon **Iron Crown**, a futuristic relative discovered in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 91, Attack 90, Defense 129, Sp. Atk 90, Sp. Def 72, Speed 108.
+* **Archetype:** Fast Physical Tank / Utility Pivot.
+* **Type Matchups:** It is **weak to Fire, Fighting, and Ground**. It is highly resilient, resisting Normal, Grass, Ice, Flying, Rock, Ghost, Steel, and Dark. Notably, it has a **Double Resistance (1/4x) to Bug** and a total **Immunity to Poison**.
+* **Move Selection:** Leveraging its high Speed and physical prowess, Cobalion excels with moves such as **Iron Head** (for STAB damage and flinch chance), **Close Combat** (for massive Fighting-type damage), **Sacred Sword** (which ignores the target's stat changes), and **Stealth Rock** (to provide essential entry hazard support). It can also utilize **Volt Switch** for momentum or **Swords Dance** to boost its offensive presence.
+* **Abilities:** Justified (Raises the Pokémon's Attack stat by one stage when hit by a Dark-type move, allowing Cobalion to punish opponents who attempt to use Dark-type coverage against its teammates).
+
+## Evolution & Biology
+Cobalion is a legendary entity and does not evolve from or into any other Pokémon. It exists as the primary member of a legendary group that includes Terrakion, Virizion, and Keldeo. Biologically, its steel-like hide provides peerless protection, allowing it to charge into dangerous situations without hesitation. Because it is a Legendary Pokémon, it belongs to the **No Eggs Discovered** group and cannot be bred in captivity. It has a significantly slow growth rate and a high Hatch Counter of 80, reflecting its status as a rare and powerful guardian of the natural world.

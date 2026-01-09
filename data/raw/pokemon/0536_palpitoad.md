@@ -1,0 +1,12 @@
+## Identity & Lore
+Palpitoad (Pokedex #536) is the Vibration Pokémon, a dual-type Water/Ground species first discovered in the Unova region during Generation V. This blue, amphibious Pokémon is characterized by the prominent, sound-sensitive bumps covering its body. These organ-like protrusions are central to its survival and hunting tactics; by vibrating the bumps on their heads, Palpitoad can generate powerful ripples in the water or create earthquake-like tremors on land to disorient prey. While it lacks a Mega Evolution, Gigantamax form, or Paradox variant, its final evolution, Seismitoad, is a well-known powerhouse in competitive rain-based teams. Palpitoad is typically found in muddy wetlands and marshes where its aquatic and terrestrial capabilities allow it to thrive in transitional environments.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 65, Defense 55, Sp. Atk 65, Sp. Def 55, Speed 69.
+* **Archetype:** Balanced Special Attacker / Rain Sweeper. While its base stats are modest as a middle-stage evolution, it can function as a bulky utility lead or a fast sweeper when utilized in rain-weather conditions.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Grass**. However, its Ground typing provides a crucial **Immunity to Electric** moves. It also **resists Poison, Rock, Steel, and Fire** types.
+* **Move Selection:** Capitalizing on its equal offensive stats and diverse movepool, key moves include **Scald** (for STAB and burn potential), **Earth Power** (high-accuracy Ground STAB), **Sludge Bomb** (to threaten the Grass-types it is weak to), and **Stealth Rock** (for entry hazard support).
+* **Abilities:** **Swift Swim** (doubles Speed during rain, making it a dangerous offensive threat); **Hydration** (heals status conditions at the end of the turn if it is raining); **Water Absorb** (Hidden Ability that grants immunity to Water-type moves and restores HP when hit by them).
+
+## Evolution & Biology
+Palpitoad is the second stage of a three-stage evolutionary line. It evolves from **Tympole** starting at Level 25. It further matures into the formidable **Seismitoad** upon reaching Level 36. Biologically, it is a transitional form, losing the purely aquatic features of Tympole to develop the limbs necessary for life on land. It belongs to the **Water 1** Egg Group and has a hatch counter of 20, making it a relatively accessible Pokémon for breeders. In the wild, it is often found carrying **Pecha Berries** or **Persim Berries**, which it uses to mitigate status conditions in its swampy habitat.

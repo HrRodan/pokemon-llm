@@ -1,0 +1,115 @@
+{
+  "pokemon_details": {
+    "id": 10325,
+    "name": "baxcalibur-mega",
+    "stats": {
+      "hp": 115,
+      "attack": 175,
+      "defense": 117,
+      "special-attack": 105,
+      "special-defense": 101,
+      "speed": 87
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 315.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "baxcalibur",
+    "flavor_text": "This Pok\u00e9mon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+    "genus": "Ice Dragon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "dragon",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/527/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 527,
+      "chain": {
+        "species_name": "frigibax",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "arctibax",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "baxcalibur",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 54
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

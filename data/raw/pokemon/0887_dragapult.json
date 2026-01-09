@@ -1,0 +1,202 @@
+{
+  "pokemon_details": {
+    "id": 887,
+    "name": "dragapult",
+    "stats": {
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "special-attack": 100,
+      "special-defense": 75,
+      "speed": 142
+    },
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "height_m": 3.0,
+    "weight_kg": 50.0,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dragapult"
+    ],
+    "moves": [
+      "fly",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "quick-attack",
+      "night-shade",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "swift",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "lock-on",
+      "outrage",
+      "endure",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "dragon-breath",
+      "baton-pass",
+      "sunny-day",
+      "shadow-ball",
+      "beat-up",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "dive",
+      "astonish",
+      "dragon-claw",
+      "dragon-dance",
+      "brine",
+      "u-turn",
+      "assurance",
+      "last-resort",
+      "sucker-punch",
+      "dragon-pulse",
+      "dragon-rush",
+      "giga-impact",
+      "draco-meteor",
+      "double-hit",
+      "round",
+      "ally-switch",
+      "scald",
+      "hex",
+      "acrobatics",
+      "dragon-tail",
+      "phantom-force",
+      "infestation",
+      "psychic-fangs",
+      "dragon-darts",
+      "breaking-swipe",
+      "tera-blast",
+      "pounce",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 300,
+    "is_default": true,
+    "order": 1074,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/887.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/887.png"
+    },
+    "species_name": "dragapult",
+    "flavor_text": "When it isn\u2019t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
+    "genus": "Stealth Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "indeterminate",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/466/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 466,
+      "chain": {
+        "species_name": "dreepy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "drakloak",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 50
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dragapult",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 60
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

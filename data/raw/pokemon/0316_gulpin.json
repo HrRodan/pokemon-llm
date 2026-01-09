@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 316,
+    "name": "gulpin",
+    "stats": {
+      "hp": 70,
+      "attack": 43,
+      "defense": 53,
+      "special-attack": 43,
+      "special-defense": 53,
+      "speed": 40
+    },
+    "types": [
+      "poison"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 10.3,
+    "abilities": [
+      {
+        "name": "liquid-ooze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sticky-hold",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gulpin"
+    ],
+    "moves": [
+      "pound",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "ice-beam",
+      "counter",
+      "strength",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "self-destruct",
+      "smog",
+      "sludge",
+      "amnesia",
+      "dream-eater",
+      "poison-gas",
+      "acid-armor",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "destiny-bond",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "dynamic-punch",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "snatch",
+      "secret-power",
+      "bullet-seed",
+      "mud-shot",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "wring-out",
+      "gastro-acid",
+      "toxic-spikes",
+      "poison-jab",
+      "seed-bomb",
+      "gunk-shot",
+      "captivate",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "round",
+      "clear-smog",
+      "belch",
+      "confide",
+      "venom-drench",
+      "infestation",
+      "power-up-punch",
+      "stuff-cheeks",
+      "tera-blast"
+    ],
+    "held_items": [
+      "big-pearl",
+      "oran-berry",
+      "sitrus-berry"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 426,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/316.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/316.png"
+    },
+    "species_name": "gulpin",
+    "flavor_text": "Virtually all of GULPIN\u2019s body is its stomach. As a result, it can swallow something its own size. This POK\u00e9MON\u2019s stomach contains a special fluid that digests anything.",
+    "genus": "Stomach Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "grassland",
+    "shape": "arms",
+    "color": "green",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/159/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 159,
+      "chain": {
+        "species_name": "gulpin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "swalot",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "pokemon_details": {
+    "id": 10283,
+    "name": "feraligatr-mega",
+    "stats": {
+      "hp": 85,
+      "attack": 160,
+      "defense": 125,
+      "special-attack": 89,
+      "special-defense": 93,
+      "speed": 78
+    },
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 108.8,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "feraligatr",
+    "flavor_text": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+    "genus": "Big Jaw Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/81/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 81,
+      "chain": {
+        "species_name": "totodile",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "croconaw",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "feraligatr",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

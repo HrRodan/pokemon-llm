@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 566,
+    "name": "archen",
+    "stats": {
+      "hp": 55,
+      "attack": 112,
+      "defense": 45,
+      "special-attack": 74,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 9.5,
+    "abilities": [
+      {
+        "name": "defeatist",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "archen"
+    ],
+    "moves": [
+      "cut",
+      "wing-attack",
+      "thrash",
+      "leer",
+      "bite",
+      "roar",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "dragon-claw",
+      "bounce",
+      "rock-blast",
+      "roost",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "assurance",
+      "rock-polish",
+      "aqua-tail",
+      "dragon-pulse",
+      "earth-power",
+      "switcheroo",
+      "shadow-claw",
+      "zen-headbutt",
+      "defog",
+      "stone-edge",
+      "stealth-rock",
+      "head-smash",
+      "hone-claws",
+      "smack-down",
+      "round",
+      "quick-guard",
+      "ally-switch",
+      "acrobatics",
+      "bulldoze",
+      "confide",
+      "meteor-beam",
+      "lash-out",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 71,
+    "is_default": true,
+    "order": 688,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/566.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/566.png"
+    },
+    "species_name": "archen",
+    "flavor_text": "Said to be an ancestor of bird Pok\u00e9mon, they were unable to fly and moved about by hopping from one branch to another.",
+    "genus": "First Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "yellow",
+    "egg_groups": [
+      "flying",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/289/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 289,
+      "chain": {
+        "species_name": "archen",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "archeops",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

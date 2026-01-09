@@ -1,0 +1,150 @@
+{
+  "pokemon_details": {
+    "id": 767,
+    "name": "wimpod",
+    "stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 40,
+      "special-attack": 20,
+      "special-defense": 30,
+      "speed": 80
+    },
+    "types": [
+      "bug",
+      "water"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 12.0,
+    "abilities": [
+      {
+        "name": "wimp-out",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "wimpod"
+    ],
+    "moves": [
+      "sand-attack",
+      "surf",
+      "toxic",
+      "screech",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "waterfall",
+      "swift",
+      "leech-life",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "spikes",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "hail",
+      "facade",
+      "taunt",
+      "mud-shot",
+      "assurance",
+      "bug-buzz",
+      "aqua-jet",
+      "wide-guard",
+      "round",
+      "scald",
+      "struggle-bug",
+      "confide",
+      "skitter-smack"
+    ],
+    "held_items": [],
+    "base_experience": 46,
+    "is_default": true,
+    "order": 926,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/767.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/767.png"
+    },
+    "species_name": "wimpod",
+    "flavor_text": "This Pok\u00e9mon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+    "genus": "Turn Tail Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "gray",
+    "egg_groups": [
+      "bug",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/396/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 396,
+      "chain": {
+        "species_name": "wimpod",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "golisopod",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

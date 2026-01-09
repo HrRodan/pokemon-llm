@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 954,
+    "name": "rabsca",
+    "stats": {
+      "hp": 75,
+      "attack": 50,
+      "defense": 85,
+      "special-attack": 115,
+      "special-defense": 100,
+      "speed": 45
+    },
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 3.5,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rabsca"
+    ],
+    "moves": [
+      "sand-attack",
+      "tackle",
+      "take-down",
+      "psybeam",
+      "hyper-beam",
+      "dig",
+      "confusion",
+      "psychic",
+      "confuse-ray",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "safeguard",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "facade",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "weather-ball",
+      "rock-tomb",
+      "extrasensory",
+      "iron-defense",
+      "mud-shot",
+      "calm-mind",
+      "gravity",
+      "fling",
+      "power-swap",
+      "guard-swap",
+      "x-scissor",
+      "bug-buzz",
+      "power-gem",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "gunk-shot",
+      "bug-bite",
+      "psyshock",
+      "electro-ball",
+      "stored-power",
+      "struggle-bug",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "lunge",
+      "speed-swap",
+      "expanding-force",
+      "skitter-smack",
+      "poltergeist",
+      "tera-blast",
+      "revival-blessing",
+      "pounce",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 923,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/954.png"
+    },
+    "species_name": "rabsca",
+    "flavor_text": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pok\u00e9mon is actually inside the ball.",
+    "genus": "Rolling Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "armor",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/499/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 499,
+      "chain": {
+        "species_name": "rellor",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rabsca",
+            "evolution_details": [
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

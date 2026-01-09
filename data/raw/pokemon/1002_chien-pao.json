@@ -1,0 +1,149 @@
+{
+  "pokemon_details": {
+    "id": 1002,
+    "name": "chien-pao",
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 90,
+      "special-defense": 65,
+      "speed": 135
+    },
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 152.2,
+    "abilities": [
+      {
+        "name": "sword-of-ruin",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "chien-pao"
+    ],
+    "moves": [
+      "swords-dance",
+      "take-down",
+      "mist",
+      "blizzard",
+      "hyper-beam",
+      "recover",
+      "haze",
+      "rest",
+      "substitute",
+      "spite",
+      "powder-snow",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "mean-look",
+      "sleep-talk",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "taunt",
+      "brick-break",
+      "sheer-cold",
+      "aerial-ace",
+      "payback",
+      "sucker-punch",
+      "dark-pulse",
+      "night-slash",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "hex",
+      "acrobatics",
+      "sacred-sword",
+      "snarl",
+      "icicle-crash",
+      "throat-chop",
+      "psychic-fangs",
+      "lash-out",
+      "tera-blast",
+      "ice-spinner",
+      "ruination",
+      "snowscape"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 995,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1002.png"
+    },
+    "species_name": "chien-pao",
+    "flavor_text": "This Pok\u00e9mon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
+    "genus": "Ruinous Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 6,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/530/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 530,
+      "chain": {
+        "species_name": "chien-pao",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

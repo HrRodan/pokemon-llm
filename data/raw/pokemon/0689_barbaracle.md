@@ -1,0 +1,12 @@
+## Identity & Lore
+Barbaracle (Pokedex #689) is the Collective Pokémon, a fascinating biological oddity introduced in the Kalos region (Generation VI). As a dual Rock and Water-type, its physical form is a brown, bipedal organism composed of seven distinct Binacle that have fused together into a single, coordinated entity. While the head possesses its own brain, each of its limbs—including the four that make up its arms and the two that serve as its legs—thinks and moves independently, yet they cooperate with terrifying efficiency in battle. According to lore, these seven components fight with the combined power of seven individual Binacle. While Barbaracle does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, its "Collective" nature makes it one of the most physically complex organisms in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 105, Defense 115, Sp. Atk 54, Sp. Def 86, Speed 68.
+* **Archetype:** Physical Shell Smash Sweeper. While its base Speed is modest, its high physical Defense and access to boosting moves allow it to transform into a lethal offensive threat.
+* **Type Matchups:** It is **weak to Fighting, Ground, Steel, Water, and Electric**, with a notable **Double Weakness (4x) to Grass**. It **resists Normal, Poison, Flying, and Ice**, and possesses a **Double Resistance (0.25x) to Fire**.
+* **Move Selection:** Barbaracle excels when utilizing its high Attack and contact-based moves. Key moves in its repertoire include **Shell Smash** (to double its offensive presence), **Liquidation** (powerful STAB), **Stone Edge** (high-crit STAB), and **Cross Chop** (high-power coverage that benefits from its abilities).
+* **Abilities:** **Tough Claws** (Increases the power of moves that make physical contact by 30%), **Sniper** (Powers up critical hits to 2.25x damage instead of 1.5x), and its Hidden Ability, **Pickpocket** (Steals an opponent's held item when hit by a contact move).
+
+## Evolution & Biology
+Barbaracle is the final stage of a two-stage evolutionary line. It evolves from **Binacle** starting at **Level 39**. This metamorphosis represents a transition from two organisms sharing a single rock to a complex colony of seven acting as a single warrior. Biologically, it is part of the **Water 3** Egg Group, and with a Hatch Counter of 20, it requires a moderate amount of effort for breeders to produce. Its predatory nature and reliance on its "hands" for both locomotion and offense make it a dominant presence in coastal and rocky environments.

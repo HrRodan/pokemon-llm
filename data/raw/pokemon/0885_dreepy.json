@@ -1,0 +1,159 @@
+{
+  "pokemon_details": {
+    "id": 885,
+    "name": "dreepy",
+    "stats": {
+      "hp": 28,
+      "attack": 60,
+      "defense": 30,
+      "special-attack": 40,
+      "special-defense": 30,
+      "speed": 82
+    },
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 2.0,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dreepy"
+    ],
+    "moves": [
+      "bite",
+      "disable",
+      "thunder-wave",
+      "quick-attack",
+      "double-team",
+      "confuse-ray",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "facade",
+      "helping-hand",
+      "grudge",
+      "astonish",
+      "sucker-punch",
+      "draco-meteor",
+      "round",
+      "dragon-tail",
+      "infestation",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 1072,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/885.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/885.png"
+    },
+    "species_name": "dreepy",
+    "flavor_text": "After being reborn as a ghost Pok\u00e9mon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
+    "genus": "Lingering Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "indeterminate",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/466/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 466,
+      "chain": {
+        "species_name": "dreepy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "drakloak",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 50
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dragapult",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 60
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

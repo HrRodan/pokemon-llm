@@ -1,0 +1,12 @@
+## Identity & Lore
+Baxcalibur (Pokedex #998) is the Ice Dragon Pokémon, a powerful apex predator introduced in Generation IX (Paldea). Standing at over two meters tall and weighing 210 kilograms, this upright, gray-scaled titan is recognized by the massive, axe-like cryogenic dorsal fin on its back. According to Paldean lore, Baxcalibur blasts cryogenic air from its mouth that is cold enough to instantly freeze even liquid-hot lava. As a Pseudo-Legendary Pokémon, it occupies the same elite tier as behemoths like Tyranitar and Garchomp. While it currently possesses no Mega Evolution, Gigantamax, or Paradox forms, its presence is felt throughout the Paldea region, most notably as the ace Pokémon of the Elite Four member Hassel. Its design draws heavy inspiration from kaiju cinema, specifically mirroring the silhouette and breath attacks of legendary monsters like Godzilla.
+
+## Combat Profile
+* **Stats:** HP 115, Attack 145, Defense 92, Sp. Atk 75, Sp. Def 86, Speed 87.
+* **Archetype:** Physical Wallbreaker / Setup Sweeper.
+* **Type Matchups:** It is **weak to Fighting, Rock, Steel, Dragon, and Fairy**. Despite its Ice typing, it takes neutral damage from Fire due to its Dragon heritage. It **resists Water, Grass, and Electric**.
+* **Move Selection:** Utilizing its massive Base 145 Attack, Baxcalibur is most effective with **Glaive Rush** (its signature move for massive STAB damage), **Icicle Crash** (for a chance to flinch targets), **Dragon Dance** (to boost its Speed and Attack to sweeping levels), and **Earthquake** (essential coverage against Steel and Rock types).
+* **Abilities:** **Thermal Exchange** (Increases Attack one stage when hit by a Fire-type move and provides total immunity to the Burn status condition); **Ice Body** (Hidden Ability: Gradually regains HP during a snowstorm).
+
+## Evolution & Biology
+Baxcalibur is the final stage of a three-stage evolutionary line. It begins its life as **Frigibax**, which evolves into **Arctibax** starting at level 35. Arctibax finally reaches its ultimate form, **Baxcalibur**, upon reaching level 54. Biologically, Baxcalibur is unique for its ability to invert itself and use its dorsal fin as a weapon, launching itself at foes like a frigid blade. It belongs to the **Dragon** and **Mineral** Egg Groups, and breeders should note its slow growth rate and high hatch counter (40), reflecting its status as a rare and difficult-to-train species. It thrives in the frigid, high-altitude environments of Glaseado Mountain, where it reigns at the top of the food chain.

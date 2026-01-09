@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Kingler (Pokedex #099) is the massive Gigantamax form of the Pincer Pokémon, originally discovered in the Kanto region (Generation I) but manifesting this colossal state through the Galar region's Dynamax phenomenon. Standing at a staggering 19 meters, this form is characterized by its oversized left pincer and a distinctive "beard" of caustic, white foam that constantly overflows from its mouth. The internal energy of Gigantamaxing has increased the alkaline nature of its bubbles, which it uses to melt the armor of its foes. While its primary form is a staple of coastal habitats and the waters-edge, this specific Gigantamax variant is typically encountered in the Power Spots of the Galar region. Beyond its standard evolution, Kingler does not possess a Mega Evolution, but this Gigantamax form represents its peak physical and destructive potential.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 130, Defense 115, Sp. Atk 50, Sp. Def 50, Speed 75.
+* **Archetype:** Physical Wallbreaker / Tank.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric** types. It **resists Steel, Fire, Water, and Ice** moves.
+* **Move Selection:** Leveraging its massive base 130 Attack stat, Gigantamax Kingler excels with physical strikes. Key moves include its signature **Crabhammer** (high critical-hit ratio), **Liquidation** (which benefits from Sheer Force), **X-Scissor** for coverage against Grass-types, and **Swords Dance** to further boost its wall-breaking capabilities. In this form, its Water-type moves transform into **G-Max Foam Burst**, which deals massive damage and drastically reduces the Speed of all opponents.
+* **Abilities:** 
+    * **Hyper Cutter:** Prevents other Pokémon from lowering its Attack stat, ensuring its pincer remains lethal.
+    * **Shell Armor:** Protects the Pokémon from critical hits, reinforcing its high physical Defense.
+    * **Sheer Force (Hidden):** Increases the power of moves with secondary effects by 30%, but removes those effects; this is the preferred ability for maximum offensive pressure.
+
+## Evolution & Biology
+Kingler is the final stage of a two-stage evolutionary line. It evolves from **Krabby** starting at **Level 28**. While all Kingler possess the potential to Dynamax, only those with the Gigantamax Factor—often obtained via Max Raid Battles or by consuming Max Soup in the Isle of Armor—can achieve this specific form. Biologically, it belongs to the **Water 3** egg group. Despite its specialized G-Max form, it retains the breeding characteristics of its base species, requiring a hatch counter of 20 to produce Krabby offspring. Its biology is centered around its lopsided pincers, which possess 10,000 horsepower of crushing strength, though the sheer weight of the pincer in its Gigantamax state makes it a lumbering, yet terrifying, physical force.

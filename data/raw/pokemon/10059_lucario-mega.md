@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Lucario (Pokedex #10059) is the Mega Evolved form of the Aura Pokémon, first discovered in the Sinnoh region of Generation IV. This transformation occurs when a Lucario reacts to its Trainer’s Mega Glove while holding Lucarionite, a process often cited in Kalos legend as the first recorded instance of Mega Evolution in history. Its appearance shifts as its cream-colored fur lengthens and its aura-sensing appendages increase, with its hands and feet turning a deep crimson from the sheer power of the aura coursing through its body. As an upright, bipedal combatant, it possesses the unique ability to sense the auras of all living things, allowing it to understand human speech and predict an opponent's movements by reading their energy flow. While it does not have a Gigantamax or Paradox form, its Mega state represents the pinnacle of its evolutionary potential.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 145, Defense 88, Sp. Atk 140, Sp. Def 70, Speed 112.
+* **Archetype:** Fast Mixed Sweeper.
+* **Type Matchups:** As a Fighting/Steel-type, it is **weak to Fighting, Ground, and Fire**. It possesses a massive array of resistances, including Normal, Steel, Grass, Ice, Dragon, and Dark, while being **immune to Poison** and having a **double resistance (1/4x) to Bug**.
+* **Move Selection:** Mega Lucario is a devastating offensive threat that can strike from either side of the spectrum. Capitalizing on its elite Attack and Special Attack, key moves include **Close Combat** (high-powered physical STAB), **Iron Tail** (heavy physical Steel damage), **Extreme Speed** (critical priority for finishing weakened foes), and **Aura Sphere** (a never-miss special STAB move).
+* **Abilities:** Adaptability (Increases the Same Type Attack Bonus (STAB) from the standard 1.5x to 2.0x, making its Fighting and Steel moves exceptionally lethal).
+
+## Evolution & Biology
+Mega Lucario is the final stage of a three-part evolutionary progression. It begins as **Riolu**, a Baby Pokémon, which evolves into **Lucario** when leveled up with High Friendship (minimum 160 happiness) specifically during the daytime. The transition to Mega Lucario is a temporary battle-state evolution triggered by Bond Phenomenon and Mega Stones. Biologically, it is a member of the **Ground** and **Humanshape** Egg Groups. It is known for its intense focus and "medium-slow" growth rate, requiring significant training to master the volatile aura energy that increases its weight to 57.5 kg and height to 1.3 meters upon Mega Evolving.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Mimikyu (Pokedex #778) is the Disguise Pokémon, a dual-type Ghost/Fairy creature originally discovered in the Alola region of Generation VII. Mimikyu is defined by its poignant and eerie lore: a lonely Pokémon that hides its terrifying true appearance beneath a rag designed to look like a Pikachu, hoping the resemblance will help it make friends. Its actual form is so distressing that a scholar who peered beneath its cloth reportedly died from the shock. While it does not possess a Mega Evolution or Gigantamax form, Mimikyu is unique for its form-change mechanic; it starts in its **Disguised Form** and shifts into its **Busted Form** once its decoy is struck. In its home region of Alola, it is also known for its exclusive and devastating Z-Move, "Let's Snuggle Forever."
+
+## Combat Profile
+* **Stats:** HP 55, Attack 90, Defense 80, Sp. Atk 50, Sp. Def 105, Speed 96.
+* **Archetype:** Physical Setup Sweeper / Revenge Killer.
+* **Type Matchups:** It is **weak to Ghost and Steel**. It possesses a remarkable defensive profile, being **immune to Dragon, Fighting, and Normal** types, while resisting **Bug** moves.
+* **Move Selection:** Mimikyu excels by using its unique protection to set up. Key moves include **Swords Dance** to boost its Attack, **Play Rough** for high-power Fairy STAB, **Shadow Claw** for consistent Ghost-type damage, and **Shadow Sneak** to bypass its middling speed with priority.
+* **Abilities:** Disguise (Allows the Pokémon to escape damage from an enemy's attack just once. When hit, the disguise breaks, the Pokémon changes form, and it loses a small amount of HP, effectively acting as a free Substitute).
+
+## Evolution & Biology
+Mimikyu is a single-stage evolutionary line and does not evolve from or into any other Pokémon. It belongs to the **Amorphous** (Indeterminate) Egg Group, with a hatch counter of 20. Despite its small stature (0.2m) and light weight (0.7kg), it is a fierce competitor. Its biology is centered around its rag; if the neck of its Pikachu costume is broken during battle, it will spend the entire night tirelessly repairing it. It thrives in dark, secluded areas where it can remain hidden from the sun, which it finds painful.

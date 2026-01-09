@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 976,
+    "name": "veluza",
+    "stats": {
+      "hp": 90,
+      "attack": 102,
+      "defense": 73,
+      "special-attack": 78,
+      "special-defense": 65,
+      "speed": 70
+    },
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 90.0,
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sharpness",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "veluza"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "psychic",
+      "agility",
+      "recover",
+      "focus-energy",
+      "waterfall",
+      "rest",
+      "slash",
+      "substitute",
+      "protect",
+      "icy-wind",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "crunch",
+      "endeavor",
+      "water-pulse",
+      "pluck",
+      "night-slash",
+      "giga-impact",
+      "ice-fang",
+      "psycho-cut",
+      "zen-headbutt",
+      "aqua-jet",
+      "stored-power",
+      "final-gambit",
+      "drill-run",
+      "psychic-terrain",
+      "psychic-fangs",
+      "liquidation",
+      "expanding-force",
+      "scale-shot",
+      "flip-turn",
+      "tera-blast",
+      "fillet-away",
+      "snowscape",
+      "chilling-water",
+      "aqua-cutter"
+    ],
+    "held_items": [],
+    "base_experience": 167,
+    "is_default": true,
+    "order": 932,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/976.png"
+    },
+    "species_name": "veluza",
+    "flavor_text": "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+    "genus": "Jettison Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "fish",
+    "color": "gray",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/512/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 512,
+      "chain": {
+        "species_name": "veluza",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

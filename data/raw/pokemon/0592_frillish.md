@@ -1,0 +1,12 @@
+## Identity & Lore
+Frillish (Pokedex #592) is the Floating Pokémon, a spectral aquatic entity first discovered in the Unova region during Generation V. Distinguished by its veil-like arms and ethereal appearance, Frillish is famous for its extreme sexual dimorphism: males are typically light blue with a frowning expression and a crown-like ruffle, while females are vibrant pink with a smile and a bulbous collar. Despite its delicate, jellyfish-like appearance, its lore is quite predatory; it uses its thin, numb-inducing tentacles to wrap around opponents before dragging them miles down to the ocean floor. While it currently possesses no Mega Evolutions, Gigantamax forms, or Paradox variants, its evolved form, Jellicent, is a staple of marine folklore, often blamed for the disappearance of ships in the deep sea.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 40, Defense 50, Sp. Atk 65, Sp. Def 85, Speed 40.
+* **Archetype:** Eviolite Support Tank / Special Wall.
+* **Type Matchups:** It is **weak to Grass, Electric, Ghost, and Dark**. It possesses valuable **resistances to Fire, Water, Ice, Poison, Bug, and Steel**, and is completely **immune to Normal and Fighting** types.
+* **Move Selection:** Utilizing its superior Special Attack and defensive utility, Frillish excels with **Scald** (for STAB damage and a high burn chance), **Shadow Ball** (its primary Ghost-type offensive pressure), **Recover** (to maintain longevity), and **Strength Sap** (to heal while simultaneously lowering the opponent's Attack stat).
+* **Abilities:** **Water Absorb** (provides an additional immunity to Water-type moves, restoring HP instead of taking damage), **Cursed Body** (has a 30% chance to disable a move that hits it), and **Damp** (its Hidden Ability, which prevents all combatants from using self-destructing moves like Explosion).
+
+## Evolution & Biology
+Frillish is part of a two-stage evolutionary line. It evolves into the formidable Jellicent after undergoing rigorous training, specifically upon reaching **Level 40**. Biologically, Frillish belongs to the **Indeterminate** (often referred to as Amorphous) Egg Group, suggesting its physical form is more akin to spirits or liquid than traditional marine life. It has a hatch counter of 20, making it a relatively accessible Pokémon for breeders looking to optimize its unique defensive typing and utility-heavy movepool.

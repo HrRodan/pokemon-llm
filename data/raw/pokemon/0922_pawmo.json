@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 922,
+    "name": "pawmo",
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 40,
+      "speed": 85
+    },
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 6.5,
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pawmo"
+    ],
+    "moves": [
+      "thunder-punch",
+      "scratch",
+      "slam",
+      "take-down",
+      "bite",
+      "growl",
+      "low-kick",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "agility",
+      "quick-attack",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "protect",
+      "endure",
+      "charm",
+      "spark",
+      "sleep-talk",
+      "baton-pass",
+      "encore",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "focus-punch",
+      "charge",
+      "helping-hand",
+      "knock-off",
+      "arm-thrust",
+      "fling",
+      "thunder-fang",
+      "discharge",
+      "charge-beam",
+      "electro-ball",
+      "low-sweep",
+      "entrainment",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "play-rough",
+      "eerie-impulse",
+      "electric-terrain",
+      "nuzzle",
+      "coaching",
+      "tera-blast",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 123,
+    "is_default": true,
+    "order": 955,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/922.png"
+    },
+    "species_name": "pawmo",
+    "flavor_text": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 80,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/484/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 484,
+      "chain": {
+        "species_name": "pawmi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pawmo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "pawmot",
+                "evolution_details": [
+                  {
+                    "trigger": "other"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

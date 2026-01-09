@@ -1,0 +1,177 @@
+{
+  "pokemon_details": {
+    "id": 311,
+    "name": "plusle",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 40,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 95
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 4.2,
+    "abilities": [
+      {
+        "name": "plus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "plusle"
+    ],
+    "moves": [
+      "mega-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "sing",
+      "counter",
+      "seismic-toss",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "metronome",
+      "swift",
+      "flash",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "baton-pass",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "uproar",
+      "facade",
+      "charge",
+      "helping-hand",
+      "wish",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "fake-tears",
+      "signal-beam",
+      "covet",
+      "shock-wave",
+      "natural-gift",
+      "fling",
+      "lucky-chant",
+      "copycat",
+      "last-resort",
+      "magnet-rise",
+      "switcheroo",
+      "nasty-plot",
+      "discharge",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "entrainment",
+      "round",
+      "echoed-voice",
+      "bestow",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "nuzzle",
+      "tearful-look",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "cell-battery"
+    ],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 419,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/311.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/311.png"
+    },
+    "species_name": "plusle",
+    "flavor_text": "PLUSLE always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this POK\u00e9MON shorts out its body to create the crackling noises of sparks to show its joy.",
+    "genus": "Cheering Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/154/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 154,
+      "chain": {
+        "species_name": "plusle",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 863,
+    "name": "perrserker",
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 100,
+      "special-attack": 50,
+      "special-defense": 60,
+      "speed": 50
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "steely-spirit",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "perrserker"
+    ],
+    "moves": [
+      "pay-day",
+      "scratch",
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "growl",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder",
+      "dig",
+      "screech",
+      "metronome",
+      "amnesia",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "endure",
+      "charm",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "iron-tail",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "fake-out",
+      "uproar",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "hyper-voice",
+      "fake-tears",
+      "metal-sound",
+      "iron-defense",
+      "gyro-ball",
+      "metal-burst",
+      "u-turn",
+      "close-combat",
+      "payback",
+      "assurance",
+      "fling",
+      "dark-pulse",
+      "seed-bomb",
+      "x-scissor",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "gunk-shot",
+      "iron-head",
+      "stealth-rock",
+      "hone-claws",
+      "heavy-slam",
+      "foul-play",
+      "round",
+      "retaliate",
+      "work-up",
+      "play-rough",
+      "throat-chop",
+      "steel-beam",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 154,
+    "is_default": true,
+    "order": 1047,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/863.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/863.png"
+    },
+    "species_name": "perrserker",
+    "flavor_text": "What appears to be an iron helmet is actually hardened hair. This Pok\u00e9mon lives for the thrill of battle.",
+    "genus": "Viking Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/22/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 22,
+      "chain": {
+        "species_name": "meowth",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "persian",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "perrserker",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

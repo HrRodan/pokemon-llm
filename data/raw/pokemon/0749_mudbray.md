@@ -1,0 +1,12 @@
+## Identity & Lore
+Mudbray (Pokedex #749) is the Donkey Pokémon, a stout and hardworking quadruped first introduced in the Alola region of Generation VII. Despite its diminutive size compared to its evolution, it possesses incredible physical strength, capable of carrying loads over 50 times its own body weight. Its most defining physical trait is the thick, dried mud caked around its hooves; according to Alolan lore, this mud enhances its grip on uneven terrain and allows it to maintain a powerful, steady gait even on slippery surfaces. While Mudbray was once found in abundance across the globe, it was hunted nearly to extinction for its utility, leaving the Alola region as one of its final natural sanctuaries. While it currently possesses no Mega Evolution, Gigantamax, or Paradox forms, its evolution Mudsdale is renowned for its massive stature and stamina.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 100, Defense 70, Sp. Atk 45, Sp. Def 55, Speed 45.
+* **Archetype:** Physical Tank / Bulky Attacker.
+* **Type Matchups:** As a pure Ground-type, it is **weak to Water, Grass, and Ice**. It **resists Poison and Rock**, and possesses a total **immunity to Electric** attacks.
+* **Move Selection:** Mudbray thrives by utilizing its high Attack stat and heavy body weight. Key moves in its arsenal include **High Horsepower** (high-accuracy Ground STAB), **Earthquake** (standard powerhouse Ground STAB), **Heavy Slam** (leveraging its 110kg weight against lighter foes), and **Close Combat** (high-power fighting coverage).
+* **Abilities:** **Stamina** is its signature tactical advantage, raising its Defense stat by one stage every time it is hit by an attack. **Own Tempo** protects it from the confusion status condition, while its Hidden Ability, **Inner Focus**, prevents it from flinching and protects against the Intimidate ability.
+
+## Evolution & Biology
+Mudbray is the first stage of a two-part evolutionary line. It evolves into the massive **Mudsdale** starting at **Level 30**. Biologically, it is a hardy creature often found in mountainous or rough terrain where it consumes earth to produce the mud it uses for its hooves. It belongs to the **Ground (Field)** Egg Group and has a hatch counter of 20, making it a relatively common sight for breeders focused on physical durability. In the wild, it is occasionally known to carry **Light Clay**, a held item that reflects its deep connection to the earth and soil.

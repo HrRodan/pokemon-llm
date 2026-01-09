@@ -1,0 +1,224 @@
+{
+  "pokemon_details": {
+    "id": 373,
+    "name": "salamence",
+    "stats": {
+      "hp": 95,
+      "attack": 135,
+      "defense": 80,
+      "special-attack": 110,
+      "special-defense": 80,
+      "speed": 100
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 102.6,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "salamence"
+    ],
+    "moves": [
+      "cut",
+      "fly",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hydro-pump",
+      "hyper-beam",
+      "strength",
+      "fire-spin",
+      "earthquake",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "fire-blast",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "heat-wave",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "hyper-voice",
+      "air-cutter",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "dragon-claw",
+      "dragon-dance",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "aqua-tail",
+      "air-slash",
+      "dragon-pulse",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "defog",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "ominous-wind",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "hurricane",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "psychic-fangs",
+      "breaking-swipe",
+      "dual-wingbeat",
+      "tera-blast",
+      "dragon-cheer",
+      "temper-flare"
+    ],
+    "held_items": [
+      "dragon-scale",
+      "dragon-fang"
+    ],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 494,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/373.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/373.png"
+    },
+    "species_name": "salamence",
+    "flavor_text": "SALAMENCE came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this POK\u00e9MON\u2019s cells, causing it to sprout its magnificent wings.",
+    "genus": "Dragon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/191/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 191,
+      "chain": {
+        "species_name": "bagon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "shelgon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "salamence",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 50
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Arctovish (Pokedex #883) is the Fossil Pokémon, a unique and bizarre specimen introduced in Generation VIII (Galar). This creature is one of four prehistoric chimeras brought to life by combining mismatched fossils—specifically a Fossilized Fish and a Fossilized Dino—via the eccentric scientist Cara Liss on Route 6. A biological anomaly, Arctovish is a large, blue aquatic predator with a face that is ironically upside-down; its flavor text reveals that while it is highly effective at capturing prey by freezing its surroundings, it suffers great difficulty eating because its mouth is located on the top of its head. While it does not possess a Mega Evolution or Gigantamax form, it is considered a contemporary of the infamous Dracovish and shares its devastating signature move.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 90, Defense 100, Sp. Atk 80, Sp. Def 90, Speed 55.
+* **Archetype:** Bulky Physical Sweeper / Hail Wallbreaker.
+* **Type Matchups:** It is **weak to Fighting, Rock, Grass, and Electric**. It possesses **resistances to Water and Ice**.
+* **Move Selection:** Arctovish relies on moving first to maximize its damage potential. Key moves include its signature **Fishious Rend** (which doubles in power if it attacks before the target), **Icicle Crash** for physical Ice-type STAB and flinch chance, **Liquidation** for consistent Water-type damage and Defense drops, and **Freeze-Dry**, which allows it to hit opposing Water-types for 4x super-effective damage despite its lower Special Attack stat.
+* **Abilities:** **Water Absorb** (Provides immunity to Water moves and restores HP when hit), **Ice Body** (Gradually regenerates HP during Snow or Hail), and its hidden ability **Slush Rush** (Doubles its Speed stat during Snow, making it a lethal threat in weather-based compositions).
+
+## Evolution & Biology
+Arctovish is a single-stage Pokémon and is part of a non-standard evolutionary line. It does not evolve from or into any other Pokémon; rather, it is "created" when a trainer combines a **Fossilized Fish** and a **Fossilized Dino**. Biologically, it is a mismatch of two different ancient species, resulting in its awkward physiology and cold-thriving skin. Because it is a restored fossil chimera, it belongs to the **Undiscovered (No-Eggs)** egg group and cannot be bred in captivity. Its slow growth rate and high hatch counter reflect the difficulty of maintaining such an unnatural biological form.

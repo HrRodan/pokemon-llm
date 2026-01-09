@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 263,
+    "name": "zigzagoon",
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "special-attack": 30,
+      "special-defense": 41,
+      "speed": 60
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 17.5,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "zigzagoon"
+    ],
+    "moves": [
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "pin-missile",
+      "growl",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "extreme-speed",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "trick",
+      "secret-power",
+      "mud-sport",
+      "hyper-voice",
+      "odor-sleuth",
+      "tickle",
+      "mud-shot",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "last-resort",
+      "seed-bomb",
+      "rock-climb",
+      "gunk-shot",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "hone-claws",
+      "simple-beam",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "bestow",
+      "work-up",
+      "tail-slap",
+      "confide",
+      "baby-doll-eyes"
+    ],
+    "held_items": [
+      "potion",
+      "revive",
+      "oran-berry"
+    ],
+    "base_experience": 56,
+    "is_default": true,
+    "order": 361,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/263.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/263.png"
+    },
+    "species_name": "zigzagoon",
+    "flavor_text": "ZIGZAGOON restlessly wanders everywhere at all times. This POK\u00e9MON does so because it is very curious. It becomes interested in anything that it happens to see.",
+    "genus": "Tiny Raccoon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/134/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 134,
+      "chain": {
+        "species_name": "zigzagoon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "linoone",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "obstagoon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35,
+                    "time_of_day": "night"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

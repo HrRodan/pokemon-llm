@@ -1,0 +1,12 @@
+## Identity & Lore
+Timburr (Pokedex #532) is the Muscular Pokémon, a humanoid Fighting-type first discovered in the Unova region (Generation V). Characterized by its gray, rippling skin and the squared timber beam it perpetually carries, Timburr serves as a symbol of physical industriousness. It is frequently seen helping out at construction sites, though it is often more interested in testing its strength than following blueprints. According to Unovan legends, Timburr and its evolutions taught humans how to create concrete and use timber for building. It is said that a Timburr is close to evolving when it begins to handle its heavy wooden beam with total ease and starts seeking out larger materials. While Timburr itself does not possess a Mega Evolution, Gigantamax, or Paradox form, its final evolution, Conkeldurr, is famously known as one of the most formidable physical attackers in the competitive history of the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 80, Defense 55, Sp. Atk 25, Sp. Def 35, Speed 35.
+* **Archetype:** Physical Bulky Attacker / Little Cup Tank.
+* **Type Matchups:** It is **weak to Flying, Psychic, and Fairy** types. It **resists Rock, Bug, and Dark** types.
+* **Move Selection:** Capitalizing on its high Attack and poor Speed, key moves include **Mach Punch** (essential priority STAB), **Drain Punch** (providing vital HP recovery), **Knock Off** (for utility and item removal), and **Stone Edge** (high-power coverage against Flying-type weaknesses).
+* **Abilities:** **Guts** (Increases the Attack stat by 50% if the Pokémon has a status condition; often paired with a Flame Orb); **Sheer Force** (Removes secondary effects from moves to boost their power by 30%); **Iron Fist** (Hidden Ability that boosts the power of punching moves like Mach Punch and Drain Punch by 20%).
+
+## Evolution & Biology
+Timburr is the first stage of a three-stage evolutionary line. It evolves into **Gurdurr starting at Level 25**, at which point it swaps its wooden lumber for a heavy steel I-beam. To reach its final form, **Conkeldurr**, Gurdurr must be **traded between trainers**, representing the mastery of handling massive concrete pillars. Biologically, Timburr belongs to the **Humanshape** egg group, and its growth is classified as Medium-Slow. Trainers looking to hatch a Timburr should prepare for a Hatch Counter of 20 cycles. It is a persistent and determined Pokémon that views every heavy object as a challenge to be conquered.

@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 755,
+    "name": "morelull",
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 55,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 15
+    },
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 1.5,
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "morelull"
+    ],
+    "moves": [
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "thunder-wave",
+      "toxic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "amnesia",
+      "dream-eater",
+      "spore",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "synthesis",
+      "moonlight",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "magic-coat",
+      "recycle",
+      "astonish",
+      "signal-beam",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "grass-knot",
+      "wonder-room",
+      "magic-room",
+      "after-you",
+      "round",
+      "draining-kiss",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "strength-sap",
+      "spotlight",
+      "pollen-puff"
+    ],
+    "held_items": [
+      "tiny-mushroom",
+      "big-mushroom"
+    ],
+    "base_experience": 57,
+    "is_default": true,
+    "order": 913,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/755.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/755.png"
+    },
+    "species_name": "morelull",
+    "flavor_text": "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+    "genus": "Illuminating Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "purple",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/389/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 389,
+      "chain": {
+        "species_name": "morelull",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "shiinotic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

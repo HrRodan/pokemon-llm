@@ -1,0 +1,12 @@
+## Identity & Lore
+Melmetal (Pokedex #809) is the Hex Nut Pokémon, a colossal Mythical entity composed of liquid metal. Originally discovered in Generation VII (Alola/Pokémon GO), this ancient titan was revered 3,000 years ago for its miraculous ability to generate iron from thin air. Its body is incredibly heavy, weighing 800.0 kg, and is reinforced by heavy hexagonal nuts that serve as both joints and centrifugal weights for its devastating swinging attacks. While its primary form is already a juggernaut of silver-gray metal, Melmetal also possesses a **Gigantamax form**, where it transforms into a skyscraper-sized warrior capable of using the G-Max Move, G-Max Steelsurge.
+
+## Combat Profile
+* **Stats:** HP 135, Attack 143, Defense 143, Sp. Atk 80, Sp. Def 65, Speed 34.
+* **Archetype:** Physical Tank / Wallbreaker.
+* **Type Matchups:** As a pure Steel-type, it is **weak to Fighting, Ground, and Fire**. It boasts an impressive list of resistances, including **Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dragon, Steel, and Fairy**, and is completely **immune to Poison**.
+* **Move Selection:** Melmetal utilizes its massive Attack stat and signature moves to crush opponents. Key moves include **Double Iron Bash** (its signature multi-hit move that can flinch), **Earthquake** (essential coverage against Fire and Electric types), **Ice Punch** (boosted by its ability to hit Ground and Dragon types), and **Superpower** (for raw neutral damage).
+* **Abilities:** Iron Fist (increases the power of punching moves, such as Double Iron Bash, Ice Punch, and Thunder Punch, by 20%).
+
+## Evolution & Biology
+Melmetal is part of a two-stage evolutionary line. It evolves from the small, liquid-metal Pokémon **Meltan**. In a unique biological twist, this evolution is only known to occur when Meltan absorbs a massive amount of energy—specifically triggered by collecting **400 Meltan Candies in Pokémon GO**. This process causes multiple Meltan to fuse into a single, massive Melmetal. Despite its humanoid shape, Melmetal is a genderless Mythical Pokémon and belongs to the **No Eggs Discovered** group, meaning it cannot be bred in captivity. Its slow growth rate and high base experience make it a long-term investment for trainers seeking a premier physical powerhouse.

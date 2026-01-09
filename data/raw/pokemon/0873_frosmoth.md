@@ -1,0 +1,12 @@
+## Identity & Lore
+Frosmoth (Pokedex #873) is the Frost Moth Pokémon, a lepidopteran species first discovered in the Galar region during Generation VIII. It is characterized by its elegant, translucent white wings that maintain a staggering internal temperature of less than -290 degrees Fahrenheit. As it migrates over the fields and mountains of cold climates, it sheds icy scales from its wings that flutter through the air like falling snow. Though it appears delicate, Frosmoth is known to show no mercy to those who desecrate the mountain environments it calls home. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, it is frequently regarded as the icy mirror to the volcanic Volcarona.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 65, Defense 60, Sp. Atk 125, Sp. Def 90, Speed 65.
+* **Archetype:** Set-up Special Sweeper / Special Tank.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Fire and Rock**, and a standard weakness to **Flying and Steel**. It provides resistances to **Ice, Grass, and Ground** moves.
+* **Move Selection:** Utilizing its massive Special Attack and access to one of the best boosting moves in the game, Frosmoth excels with **Quiver Dance** (to raise Sp. Atk, Sp. Def, and Speed), **Ice Beam** for consistent STAB damage, **Bug Buzz** to bypass Substitutes, and **Giga Drain** for critical type coverage against Rock and Water types while providing semi-reliable recovery.
+* **Abilities:** **Shield Dust** protects the Pokémon from the secondary effects of damaging moves (such as preventing burns from Flamethrower or flinching). Its Hidden Ability, **Ice Scales**, is its most competitive asset, halving the damage taken from all incoming Special moves, effectively doubling its Special bulk.
+
+## Evolution & Biology
+Frosmoth is the final stage of a two-stage evolutionary line. It evolves from **Snom** only when leveled up with **High Friendship (160 or higher) during the Night**. This nocturnal transformation reflects its preference for the cold, dark hours when temperatures drop further. Biologically, it belongs to the **Bug** egg group and has a hatch counter of 20. Despite its sluggish base speed, it is a master of aerial maneuvers in sub-zero temperatures, often utilizing moves like **Tailwind** and **Defog** to support its team or clear the battlefield of hazards like Stealth Rock, which is particularly threatening to its fragile physical defense.

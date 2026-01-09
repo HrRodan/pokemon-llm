@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 904,
+    "name": "overqwil",
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 95,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 60.5,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "overqwil"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "pin-missile",
+      "bite",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "toxic",
+      "agility",
+      "harden",
+      "minimize",
+      "haze",
+      "self-destruct",
+      "waterfall",
+      "rest",
+      "substitute",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "spikes",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "crunch",
+      "shadow-ball",
+      "stockpile",
+      "spit-up",
+      "facade",
+      "taunt",
+      "mud-shot",
+      "poison-tail",
+      "water-pulse",
+      "gyro-ball",
+      "brine",
+      "acupressure",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "aqua-tail",
+      "giga-impact",
+      "gunk-shot",
+      "venoshock",
+      "sludge-wave",
+      "fell-stinger",
+      "throat-chop",
+      "smart-strike",
+      "liquidation",
+      "scale-shot",
+      "lash-out",
+      "barb-barrage",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 179,
+    "is_default": true,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/904.png"
+    },
+    "species_name": "overqwil",
+    "flavor_text": "Its lancelike spikes and savage temperament have earned it the nickname \u201dsea fiend.\u201d It slurps up poison to nourish itself.",
+    "genus": "Pin Cluster Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 135,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "fish",
+    "color": "black",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/106/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 106,
+      "chain": {
+        "species_name": "qwilfish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "overqwil",
+            "evolution_details": [
+              {
+                "trigger": "strong-style-move",
+                "known_move": "barb-barrage"
+              },
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

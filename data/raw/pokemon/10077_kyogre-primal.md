@@ -1,0 +1,12 @@
+## Identity & Lore
+Primal Kyogre (Pokedex #10077) is the primordial form of the Sea Basin Pokémon, representing the raw, ancient power of the world's oceans. Originating from the Hoenn region in Generation III, this massive cetacean-like legendary is draped in bioluminescent patterns that glow with internal energy. Standing at nearly 10 meters tall, it is a force of nature capable of creating massive rain clouds and torrential downpours to expand the sea. This form is achieved through **Primal Reversion**, a transformation triggered when Kyogre holds the **Blue Orb** in battle—a process similar to Mega Evolution but fueled by the planet's natural energy. In ancient lore, Primal Kyogre is the eternal rival of Primal Groudon, and their cataclysmic battles were only ever quelled by the intervention of Rayquaza.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 150, Defense 90, Sp. Atk 180, Sp. Def 160, Speed 90.
+* **Archetype:** Colossal Special Wallbreaker / Mixed Attacker.
+* **Type Matchups:** It is **weak to Grass and Electric** types. It **resists Steel, Fire, Water, and Ice**.
+* **Move Selection:** Leveraging its world-class Special Attack, Primal Kyogre's most devastating moves include **Origin Pulse** (its signature high-damage Water move), **Water Spout** (which hits with maximum power when Kyogre's HP is full), **Thunder** (utilizing the rain for a 100% accuracy rate), and **Ice Beam** (essential coverage for Dragon and Grass types).
+* **Abilities:** Primordial Sea (Immediately summons "Heavy Rain" upon entering the battlefield. This unique weather condition completely nullifies all Fire-type attacks and prevents other weather-changing moves or abilities like Sunny Day or Sandstream from taking effect as long as Kyogre remains active).
+
+## Evolution & Biology
+Primal Kyogre is a single-stage Legendary Pokémon and does not belong to a traditional evolutionary line. It exists as a transformation of Kyogre, triggered by the Blue Orb. Biologically, it is one of the heaviest and largest Water-type Pokémon in existence, weighing 430.0 kg. It belongs to the **No Eggs** (Undiscovered) egg group, meaning it cannot be bred. As a creature of myth, it is typically found in deep sea habitats or the Cave of Origin. Its growth rate is categorized as slow, requiring immense experience to reach its full combat potential. While it does not have a Gigantamax form, its Primal state is widely considered one of the most powerful entities in the competitive "Uber" tier of Pokémon battling.

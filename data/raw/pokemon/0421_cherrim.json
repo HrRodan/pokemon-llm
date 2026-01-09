@@ -1,0 +1,163 @@
+{
+  "pokemon_details": {
+    "id": 421,
+    "name": "cherrim",
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 70,
+      "special-attack": 87,
+      "special-defense": 78,
+      "speed": 85
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 9.3,
+    "abilities": [
+      {
+        "name": "flower-gift",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "cherrim-overcast",
+      "cherrim-sunshine"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "absorb",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "stun-spore",
+      "sleep-powder",
+      "petal-dance",
+      "toxic",
+      "double-team",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "morning-sun",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "secret-power",
+      "weather-ball",
+      "bullet-seed",
+      "magical-leaf",
+      "natural-gift",
+      "lucky-chant",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "captivate",
+      "grass-knot",
+      "round",
+      "petal-blizzard",
+      "draining-kiss",
+      "flower-shield",
+      "grassy-terrain",
+      "play-rough",
+      "confide",
+      "dazzling-gleam",
+      "solar-blade",
+      "leafage",
+      "laser-focus",
+      "pollen-puff",
+      "grassy-glide"
+    ],
+    "held_items": [
+      "miracle-seed"
+    ],
+    "base_experience": 158,
+    "is_default": true,
+    "order": 552,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/421.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/421.png"
+    },
+    "species_name": "cherrim",
+    "flavor_text": "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
+    "genus": "Blossom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "legs",
+    "color": "purple",
+    "egg_groups": [
+      "fairy",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/217/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 217,
+      "chain": {
+        "species_name": "cherubi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cherrim",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

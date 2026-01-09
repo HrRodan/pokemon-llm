@@ -1,0 +1,119 @@
+{
+  "pokemon_details": {
+    "id": 401,
+    "name": "kricketot",
+    "stats": {
+      "hp": 37,
+      "attack": 25,
+      "defense": 41,
+      "special-attack": 25,
+      "special-defense": 41,
+      "speed": 25
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.2,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "kricketot"
+    ],
+    "moves": [
+      "pound",
+      "tackle",
+      "growl",
+      "absorb",
+      "string-shot",
+      "bide",
+      "snore",
+      "mud-slap",
+      "uproar",
+      "endeavor",
+      "bug-bite",
+      "struggle-bug",
+      "lunge",
+      "skitter-smack",
+      "tera-blast"
+    ],
+    "held_items": [
+      "metronome"
+    ],
+    "base_experience": 39,
+    "is_default": true,
+    "order": 532,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/401.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/401.png"
+    },
+    "species_name": "kricketot",
+    "flavor_text": "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
+    "genus": "Cricket Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/208/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 208,
+      "chain": {
+        "species_name": "kricketot",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kricketune",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 10
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

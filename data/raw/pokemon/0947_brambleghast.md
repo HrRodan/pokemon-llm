@@ -1,0 +1,12 @@
+## Identity & Lore
+Brambleghast (Pokedex #947) is the Tumbleweed Pokémon, a spectral entity introduced in Generation IX (Paldea). This brown, spherical Pokémon is a mass of tangled, thorny branches possessed by a soul that has become trapped within a dried-up plant. According to its lore, it rolls across the vast desert and wasteland regions of Paldea, opening its branches to envelop unsuspecting prey. Once caught, Brambleghast absorbs the victim’s life energy until it is entirely drained, eventually discarding the empty husk. While it does not possess a Mega Evolution or Gigantamax form, its unique biology as a sentient, wind-driven ghost makes it a distinct biological anomaly in the Paldean ecosystem.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 115, Defense 70, Sp. Atk 80, Sp. Def 70, Speed 90.
+* **Archetype:** Physical Sweeper / Utility Pivot.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, Ice, Ghost, and Dark**. It **resists Ground, Water, Grass, and Electric**, and possesses total **immunity to Normal and Fighting** types.
+* **Move Selection:** Leveraging its high Attack stat and utility pool, Brambleghast excels with moves such as **Power Whip** (high-power Grass STAB), **Poltergeist** (heavy Physical Ghost damage), **Shadow Sneak** (essential priority for finishing weakened foes), and **Rapid Spin** (clears entry hazards and provides a crucial Speed boost).
+* **Abilities:** **Wind Rider** (Provides immunity to wind-based moves and grants an Attack boost if hit by one or if Tailwind is active) and **Infiltrator** (Allows the Pokémon to bypass the effects of Reflect, Light Screen, Safeguard, Mist, and Aurora Veil, as well as striking through Substitutes).
+
+## Evolution & Biology
+Brambleghast is the final stage of a two-stage evolutionary line. It evolves from **Bramblin** through a unique environmental trigger: it must be leveled up after the trainer has walked with it for **1,000 steps using the "Let's Go" feature** in the Paldea region. Weighing only 6.0kg, its light frame allows it to be carried effortlessly by the wind, which it utilizes both for travel and to power up its combat capabilities via its Wind Rider ability. It belongs to the **Grass** (Plant) egg group and is known for its predatory behavior of "expelling and discarding" prey after siphoning their energy.

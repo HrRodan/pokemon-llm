@@ -1,0 +1,114 @@
+{
+  "pokemon_details": {
+    "id": 10210,
+    "name": "cinderace-gmax",
+    "stats": {
+      "hp": 80,
+      "attack": 116,
+      "defense": 75,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 119
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 27.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "libero",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cinderace-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10210.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10210.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10210.png"
+    },
+    "species_name": "cinderace",
+    "flavor_text": "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
+    "genus": "Striker Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/431/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 431,
+      "chain": {
+        "species_name": "scorbunny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "raboot",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "cinderace",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

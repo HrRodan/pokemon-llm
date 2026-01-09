@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 926,
+    "name": "fidough",
+    "stats": {
+      "hp": 37,
+      "attack": 55,
+      "defense": 70,
+      "special-attack": 30,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 10.9,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "klutz",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "fidough"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "dig",
+      "agility",
+      "lick",
+      "rest",
+      "substitute",
+      "protect",
+      "mud-slap",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "baton-pass",
+      "sweet-scent",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "wish",
+      "yawn",
+      "endeavor",
+      "howl",
+      "mud-shot",
+      "covet",
+      "copycat",
+      "last-resort",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "work-up",
+      "snarl",
+      "misty-terrain",
+      "play-rough",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 970,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/926.png"
+    },
+    "species_name": "fidough",
+    "flavor_text": "This Pok\u00e9mon is smooth and moist to the touch. Yeast in Fidough\u2019s breath induces fermentation in the Pok\u00e9mon\u2019s vicinity.",
+    "genus": "Puppy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/486/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 486,
+      "chain": {
+        "species_name": "fidough",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dachsbun",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

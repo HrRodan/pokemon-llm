@@ -1,0 +1,170 @@
+{
+  "pokemon_details": {
+    "id": 717,
+    "name": "yveltal",
+    "stats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "special-attack": 131,
+      "special-defense": 98,
+      "speed": 99
+    },
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "height_m": 5.8,
+    "weight_kg": 203.0,
+    "abilities": [
+      {
+        "name": "dark-aura",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "yveltal"
+    ],
+    "moves": [
+      "razor-wind",
+      "cut",
+      "gust",
+      "fly",
+      "body-slam",
+      "disable",
+      "hyper-beam",
+      "toxic",
+      "psychic",
+      "double-team",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "knock-off",
+      "secret-power",
+      "hyper-voice",
+      "aerial-ace",
+      "block",
+      "dragon-claw",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "embargo",
+      "sucker-punch",
+      "dark-pulse",
+      "air-slash",
+      "dragon-rush",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "defog",
+      "hone-claws",
+      "foul-play",
+      "round",
+      "sky-drop",
+      "acrobatics",
+      "hurricane",
+      "snarl",
+      "phantom-force",
+      "confide",
+      "oblivion-wing",
+      "laser-focus",
+      "lash-out",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 857,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/717.png"
+    },
+    "species_name": "yveltal",
+    "flavor_text": "When this legendary Pok\u00e9mon\u2019s wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+    "genus": "Destruction Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/369/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 369,
+      "chain": {
+        "species_name": "yveltal",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

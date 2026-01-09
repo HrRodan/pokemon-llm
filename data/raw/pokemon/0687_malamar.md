@@ -1,0 +1,12 @@
+## Identity & Lore
+Malamar (Pokedex #687) is the Overturning Pokémon, a sinister and manipulative creature first discovered in the Kalos region of Generation VI. This blue, squid-like entity is renowned for possessing the most compelling hypnotic powers of any known Pokémon, capable of forcing others to do its bidding by flashing the bioluminescent spots on its body. While Malamar does not have a Mega Evolution, Gigantamax, or Paradox form, it is biologically unique for being the evolved state of Inkay, characterized by its "upside-down" anatomy where its tentacles function as powerful upper limbs and its head sits at the base of its body. In the wild and in urban legends, Malamar is often depicted as a mastermind, using its intelligence to lure prey and influence humans to achieve its inscrutable goals.
+
+## Combat Profile
+* **Stats:** HP 86, Attack 92, Defense 88, Sp. Atk 68, Sp. Def 75, Speed 73.
+* **Archetype:** Contrary Physical Setup Sweeper.
+* **Type Matchups:** It is **weak to Fairy** and suffers from a **Double Weakness (4x) to Bug**. Due to its dual Dark/Psychic typing, it possesses a complete **immunity to Psychic** attacks.
+* **Move Selection:** Malamar thrives by using its physical prowess and signature disruptive tools. Key moves include **Superpower** (which boosts Attack and Defense when paired with its primary ability), **Knock Off** for high-utility STAB (Same Type Attack Bonus) damage, **Psycho Cut** to capitalize on its physical Attack stat, and its unique signature move **Topsy-Turvy**, which reverses an opponent's stat changes.
+* **Abilities:** **Contrary** (Reverses all stat changes; for example, the stat drops from *Superpower* become boosts), **Suction Cups** (Prevents the Pokémon from being forced out of battle by moves like Roar or Whirlwind), and **Infiltrator** (Allows the Pokémon to bypass the effects of Reflect, Light Screen, and Substitute).
+
+## Evolution & Biology
+Malamar is part of a two-stage evolutionary line. It evolves from **Inkay** starting at Level 30. Its evolution is famously unconventional: it only triggers when the Pokémon levels up while the physical device (or controller) is held in an upside-down orientation, mirroring its "Overturning" nature. Biologically, it is highly adapted to aquatic environments but is equally capable of hovering in the air via psychic levitation. It belongs to the **Water 1** and **Water 2** Egg Groups and has a hatch counter of 20, making it a relatively accessible Pokémon for breeders looking to pass on its unique disruptive move pool.

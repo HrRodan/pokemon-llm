@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 10154,
+    "name": "togedemaru-totem",
+    "stats": {
+      "hp": 65,
+      "attack": 98,
+      "defense": 63,
+      "special-attack": 40,
+      "special-defense": 73,
+      "speed": 96
+    },
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 13.0,
+    "abilities": [
+      {
+        "name": "iron-barbs",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "togedemaru-totem"
+    ],
+    "moves": [
+      "tackle",
+      "twineedle",
+      "pin-missile",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "reflect",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "reversal",
+      "protect",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "present",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "fake-out",
+      "facade",
+      "charge",
+      "helping-hand",
+      "role-play",
+      "wish",
+      "endeavor",
+      "tickle",
+      "bounce",
+      "covet",
+      "shock-wave",
+      "gravity",
+      "gyro-ball",
+      "u-turn",
+      "payback",
+      "fling",
+      "last-resort",
+      "magnet-rise",
+      "poison-jab",
+      "giga-impact",
+      "zen-headbutt",
+      "discharge",
+      "iron-head",
+      "grass-knot",
+      "charge-beam",
+      "after-you",
+      "round",
+      "volt-switch",
+      "work-up",
+      "electroweb",
+      "wild-charge",
+      "fell-stinger",
+      "disarming-voice",
+      "confide",
+      "spiky-shield",
+      "electric-terrain",
+      "nuzzle",
+      "zing-zap"
+    ],
+    "held_items": [
+      "electric-seed"
+    ],
+    "base_experience": 152,
+    "is_default": false,
+    "order": 950,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "togedemaru",
+    "flavor_text": "The spiny fur on its back is normally at rest. When this Pok\u00e9mon becomes agitated, its fur stands on end and stabs into its attackers.",
+    "genus": "Roly-Poly Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 180,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/403/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 403,
+      "chain": {
+        "species_name": "togedemaru",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

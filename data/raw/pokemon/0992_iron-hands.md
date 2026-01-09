@@ -1,0 +1,12 @@
+## Identity & Lore
+Iron Hands (Pokedex #992) is the Paradox Pokémon, a mysterious entity first discovered in the Paldea region during the events of Generation IX. It bears a striking, futuristic resemblance to the Pokémon Hariyama, appearing as a cyborg-like humanoid covered in a metallic gray finish with glowing yellow palms. According to lore sourced from paranormal magazines, this creature is theorized to be a modified form of a professional athlete from the distant future. As a Paradox Pokémon exclusive to the Great Crater of Paldea (Area Zero), it defies traditional biological classification, possessing a cold, mechanical efficiency in its movements. While it does not possess a Mega Evolution or Gigantamax form, its status as a "Future Paradox" Pokémon grants it access to advanced technological energy systems.
+
+## Combat Profile
+* **Stats:** HP 154, Attack 140, Defense 108, Sp. Atk 50, Sp. Def 68, Speed 50.
+* **Archetype:** Physical Tank / Wallbreaker. With a massive HP pool and towering base Attack, Iron Hands excels at taking hits and dealing massive retaliatory damage.
+* **Type Matchups:** It is **weak to Ground, Psychic, and Fairy**. On the defensive side, it effectively **resists Electric, Steel, Bug, Rock, and Dark** types.
+* **Move Selection:** Leveraging its elite Attack stat and its role as a premier Tera Raid specialist, its optimal moveset includes **Belly Drum** for maximum offensive setup, **Drain Punch** for high-damage sustain, **Wild Charge** (or **Thunder Punch** for less recoil) for Electric STAB, and **Close Combat** for raw Fighting-type burst damage. **Fake Out** is also a critical utility option for competitive doubles.
+* **Abilities:** Quark Drive (Increases the Pokémon's most proficient stat—usually Attack for Iron Hands—by 30% while on Electric Terrain or if holding a Booster Energy. If Speed is the highest stat, the increase is 50%).
+
+## Evolution & Biology
+Iron Hands is a standalone Paradox entity and is not part of a traditional evolutionary line; it neither evolves from nor into any other Pokémon, though it shares a clear "Paradox" relationship with the contemporary Pokémon Hariyama. Biologically, it is an inorganic construct with no discernible gender. It belongs to the **No Eggs Discovered** group, meaning it cannot be bred in captivity. It has a **Slow** growth rate, requiring significant experience to reach its full potential, and is exceptionally heavy, weighing 380.7 kg, which makes it a devastating user of weight-based moves like **Heavy Slam**.

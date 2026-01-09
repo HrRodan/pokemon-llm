@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Swampert (Pokedex #10064) is the Mud Fish Pokémon, a powerful and bulkier transformation of the final evolutionary form of the Generation III (Hoenn region) starter, Mudkip. While Swampert is already known for its immense strength and ability to drag boulders weighing over a ton, its Mega Evolution—triggered by the Swampertite Mega Stone—dramatically enhances its musculature, particularly in its upper body and arms. This aquatic powerhouse thrives in "waters-edge" habitats and possesses specialized vision that allows it to navigate and hunt effectively even in the most turbid, murky waters. As a Water/Ground type, it represents the pinnacle of swamp-dwelling predators, combining the resilience of the earth with the fluidity of the ocean.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 150, Defense 110, Sp. Atk 95, Sp. Def 110, Speed 70.
+* **Archetype:** Bulky Physical Sweeper / Rain Attacker.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Grass**. However, it is **immune to Electric** moves and provides solid **resistances to Poison, Rock, Steel, and Fire**.
+* **Move Selection:** Mega Swampert is a terrifying physical force. Capitalizing on its massive 150 base Attack, its optimal moveset includes **Earthquake** (high-power STAB), **Waterfall** (STAB with a flinch chance), **Ice Punch** (essential coverage for its 4x Grass weakness and Dragon-types), and **Hammer Arm** or **Power-Up Punch** to punish heavy targets and boost its offensive pressure.
+* **Abilities:** Swift Swim (Doubles the Pokémon's Speed stat during rain). This ability is the cornerstone of its competitive viability, transforming its mediocre 70 Speed into an elite tier, allowing it to outpace almost the entire unboosted metagame when paired with a Rain Dance or Drizzle teammate.
+
+## Evolution & Biology
+Mega Swampert is the final stage of a three-stage evolutionary line, followed by a temporary Mega Evolution. It begins as **Mudkip**, which evolves into **Marshtomp** starting at Level 16. Marshtomp then evolves into **Swampert** starting at Level 36. The transformation into Mega Swampert occurs only during battle when Swampert holds a Swampertite. Biologically, it belongs to both the **Monster** and **Water 1** Egg Groups, making it a versatile breeder. Its "medium-slow" growth rate reflects the discipline required to master its dual-type nature. Despite its hulking frame, it remains a proficient swimmer, using its widened fins and powerful arms to propel itself through both water and thick mud with surprising agility.

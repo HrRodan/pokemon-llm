@@ -1,0 +1,12 @@
+## Identity & Lore
+Grookey (Pokedex #810) is the Chimp Pokémon, a vibrant Grass-type starter introduced in Generation VIII (Galar). This small, green primate is characterized by its mischievous nature and the special wooden stick it carries, which it uses to strike up rhythmic beats. These sound waves are more than just music; they carry revitalizing energy that restores life to wilted plants and flowers in its immediate vicinity. While Grookey itself does not have a Mega Evolution or Gigantamax form, its final evolutionary stage, Rillaboom, is capable of undergoing Gigantamaxing, transforming its drum kit into a massive forest-like percussion set. Grookey is typically found in lush forested areas, though it is most commonly known as one of the three Pokémon offered to new trainers at the start of their journey in the Galar region.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 65, Defense 50, Sp. Atk 40, Sp. Def 40, Speed 65.
+* **Archetype:** Physical Speed Tier Attacker. Among unevolved starters, Grookey leans toward a physical offensive role with respectable early-game speed.
+* **Type Matchups:** As a pure Grass-type, it is **weak to Flying, Poison, Bug, Fire, and Ice**. It **resists Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Prioritizing its superior Physical Attack stat, Grookey excels with moves like **Wood Hammer** for massive STAB damage, **Knock Off** for utility and removing opponent items, **U-turn** for tactical pivoting, and **Fake Out** to provide immediate flinch pressure upon entering the field.
+* **Abilities:** **Overgrow** (increases the power of Grass-type moves by 50% when current HP is below one-third) and its highly coveted Hidden Ability, **Grassy Surge** (automatically summons Grassy Terrain upon entering battle, which heals grounded Pokémon and boosts the power of Grass-type moves).
+
+## Evolution & Biology
+Grookey is the first stage of a three-stage evolutionary line. It evolves into **Thwackey** starting at Level 16, which then evolves into the drumming powerhouse **Rillaboom** at Level 35. Biologically, Grookey belongs to both the **Ground** and **Plant** Egg Groups, making it a versatile choice for breeders. Its growth rate is classified as medium-slow, requiring significant experience to reach its full potential. The stick it carries is plucked from the forest where its troop lives; through exposure to Grookey's internal energy, the stick gains the unique properties required to channel rhythmic power.

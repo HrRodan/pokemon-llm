@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 638,
+    "name": "cobalion",
+    "stats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 129,
+      "special-attack": 90,
+      "special-defense": 72,
+      "speed": 108
+    },
+    "types": [
+      "steel",
+      "fighting"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 250.0,
+    "abilities": [
+      {
+        "name": "justified",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "cobalion"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "double-kick",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "thunder-wave",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "secret-power",
+      "metal-sound",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "bounce",
+      "calm-mind",
+      "metal-burst",
+      "close-combat",
+      "magnet-rise",
+      "aura-sphere",
+      "rock-polish",
+      "poison-jab",
+      "air-slash",
+      "x-scissor",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "heavy-slam",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "volt-switch",
+      "work-up",
+      "sacred-sword",
+      "confide",
+      "laser-focus",
+      "smart-strike",
+      "body-press",
+      "steel-beam",
+      "coaching",
+      "tera-blast",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 761,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/638.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/638.png"
+    },
+    "species_name": "cobalion",
+    "flavor_text": "This legendary Pok\u00e9mon battled against humans to protect Pok\u00e9mon. Its personality is calm and composed.",
+    "genus": "Iron Will Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/325/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 325,
+      "chain": {
+        "species_name": "cobalion",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

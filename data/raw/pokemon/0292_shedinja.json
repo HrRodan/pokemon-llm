@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 292,
+    "name": "shedinja",
+    "stats": {
+      "hp": 1,
+      "attack": 90,
+      "defense": 45,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 1.2,
+    "abilities": [
+      {
+        "name": "wonder-guard",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "shedinja"
+    ],
+    "moves": [
+      "scratch",
+      "cut",
+      "sand-attack",
+      "double-edge",
+      "hyper-beam",
+      "absorb",
+      "solar-beam",
+      "string-shot",
+      "dig",
+      "toxic",
+      "agility",
+      "mimic",
+      "double-team",
+      "harden",
+      "confuse-ray",
+      "dream-eater",
+      "leech-life",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "nightmare",
+      "snore",
+      "spite",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "will-o-wisp",
+      "facade",
+      "trick",
+      "grudge",
+      "secret-power",
+      "aerial-ace",
+      "natural-gift",
+      "heal-block",
+      "sucker-punch",
+      "x-scissor",
+      "bug-buzz",
+      "giga-impact",
+      "shadow-claw",
+      "shadow-sneak",
+      "bug-bite",
+      "hone-claws",
+      "telekinesis",
+      "round",
+      "ally-switch",
+      "hex",
+      "struggle-bug",
+      "phantom-force",
+      "confide",
+      "skitter-smack",
+      "poltergeist"
+    ],
+    "held_items": [],
+    "base_experience": 83,
+    "is_default": true,
+    "order": 395,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/292.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/292.png"
+    },
+    "species_name": "shedinja",
+    "flavor_text": "SHEDINJA\u2019s hard body doesn\u2019t move - not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this POK\u00e9MON will steal the spirit of anyone peering into its hollow body from its back.",
+    "genus": "Shed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "forest",
+    "shape": "blob",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/144/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 144,
+      "chain": {
+        "species_name": "nincada",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ninjask",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "shedinja",
+            "evolution_details": [
+              {
+                "trigger": "shed"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

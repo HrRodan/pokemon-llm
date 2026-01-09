@@ -1,0 +1,206 @@
+{
+  "pokemon_details": {
+    "id": 340,
+    "name": "whiscash",
+    "stats": {
+      "hp": 110,
+      "attack": 78,
+      "defense": 73,
+      "special-attack": 76,
+      "special-defense": 71,
+      "speed": 60
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 23.6,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "whiscash"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "fissure",
+      "toxic",
+      "mimic",
+      "double-team",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "spikes",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "weather-ball",
+      "rock-tomb",
+      "tickle",
+      "sand-tomb",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "water-sport",
+      "dragon-dance",
+      "water-pulse",
+      "natural-gift",
+      "aqua-tail",
+      "earth-power",
+      "giga-impact",
+      "mud-bomb",
+      "zen-headbutt",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "round",
+      "scald",
+      "bulldoze",
+      "belch",
+      "confide",
+      "high-horsepower",
+      "stomping-tantrum",
+      "liquidation",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 164,
+    "is_default": true,
+    "order": 453,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/340.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/340.png"
+    },
+    "species_name": "whiscash",
+    "flavor_text": "WHISCASH is extremely territorial. Just one of these POK\u00e9MON will claim a large pond as its exclusive territory. If a foe approaches it, it thrashes about and triggers a massive earthquake.",
+    "genus": "Whiskers Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/173/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 173,
+      "chain": {
+        "species_name": "barboach",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "whiscash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

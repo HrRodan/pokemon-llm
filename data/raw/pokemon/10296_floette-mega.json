@@ -1,0 +1,100 @@
+{
+  "pokemon_details": {
+    "id": 10296,
+    "name": "floette-mega",
+    "stats": {
+      "hp": 74,
+      "attack": 85,
+      "defense": 87,
+      "special-attack": 155,
+      "special-defense": 148,
+      "speed": 102
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 100.8,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "floette",
+    "flavor_text": "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+    "genus": "Single Bloom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "white",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/344/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 344,
+      "chain": {
+        "species_name": "flabebe",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "floette",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 19
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "florges",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

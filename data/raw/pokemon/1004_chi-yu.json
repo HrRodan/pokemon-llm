@@ -1,0 +1,149 @@
+{
+  "pokemon_details": {
+    "id": 1004,
+    "name": "chi-yu",
+    "stats": {
+      "hp": 55,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 135,
+      "special-defense": 120,
+      "speed": 100
+    },
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 4.9,
+    "abilities": [
+      {
+        "name": "beads-of-ruin",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "chi-yu"
+    ],
+    "moves": [
+      "take-down",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "fire-spin",
+      "psychic",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "flame-wheel",
+      "spite",
+      "protect",
+      "scary-face",
+      "endure",
+      "swagger",
+      "mean-look",
+      "sleep-talk",
+      "sunny-day",
+      "crunch",
+      "heat-wave",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "taunt",
+      "overheat",
+      "bounce",
+      "payback",
+      "flare-blitz",
+      "dark-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "lava-plume",
+      "flame-charge",
+      "hex",
+      "incinerate",
+      "inferno",
+      "snarl",
+      "burning-jealousy",
+      "lash-out",
+      "tera-blast",
+      "ruination",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 997,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1004.png"
+    },
+    "species_name": "chi-yu",
+    "flavor_text": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
+    "genus": "Ruinous Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 6,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/532/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 532,
+      "chain": {
+        "species_name": "chi-yu",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

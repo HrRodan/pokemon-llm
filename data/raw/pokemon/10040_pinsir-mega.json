@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 10040,
+    "name": "pinsir-mega",
+    "stats": {
+      "hp": 65,
+      "attack": 155,
+      "defense": 120,
+      "special-attack": 65,
+      "special-defense": 90,
+      "speed": 105
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 59.0,
+    "abilities": [
+      {
+        "name": "aerilate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "pinsir-mega"
+    ],
+    "moves": [
+      "vice-grip",
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "bind",
+      "headbutt",
+      "fury-attack",
+      "thrash",
+      "hyper-beam",
+      "submission",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "harden",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "feint-attack",
+      "outrage",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "vital-throw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "iron-defense",
+      "bulk-up",
+      "feint",
+      "close-combat",
+      "fling",
+      "me-first",
+      "x-scissor",
+      "focus-blast",
+      "giga-impact",
+      "stone-edge",
+      "stealth-rock",
+      "bug-bite",
+      "double-hit",
+      "smack-down",
+      "storm-throw",
+      "round",
+      "struggle-bug",
+      "bulldoze",
+      "confide",
+      "throat-chop",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 210,
+    "is_default": false,
+    "order": 208,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10040.png"
+    },
+    "species_name": "pinsir",
+    "flavor_text": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
+    "genus": "Stag Beetle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/62/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 62,
+      "chain": {
+        "species_name": "pinsir",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

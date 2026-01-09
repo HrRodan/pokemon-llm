@@ -1,0 +1,15 @@
+## Identity & Lore
+Totem Kommo-o (Pokedex #10146) is the formidable Scaly Pokémon and represents a specialized, larger-than-average variant of the standard Kommo-o found in the Alola region (Generation VII). Residing deep within the Vast Poni Canyon, this specific Totem Pokémon serves as the final trial of the Island Challenge, radiating a powerful aura that boosts its statistics at the start of battle. Its body is covered in glittering, metallic scales that serve as both sturdy armor and a rhythmic instrument; it threatens enemies by jingling these scales to create a cacophony that sends weaker opponents into a panic. While it does not possess a Mega Evolution or Gigantamax form, it is famous for its exclusive Z-Move, **Clangorous Soulblaze**, which allows it to strike all opponents and boost its own stats simultaneously.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 110, Defense 125, Sp. Atk 100, Sp. Def 105, Speed 85.
+* **Archetype:** Bulky Mixed Attacker / Physical Tank.
+* **Type Matchups:** It is **weak to Flying, Psychic, Ice, and Dragon**, with a dangerous **Double Weakness (4x) to Fairy-type moves**. It resists **Fire, Water, Grass, Electric, Bug, Rock, and Dark**.
+* **Move Selection:** Totem Kommo-o leverages its high physical presence and signature techniques to dominate the field. Key moves include **Clanging Scales** (its high-damage signature Special move), **Close Combat** (powerful Fighting STAB), **Dragon Dance** (to patch up its middling Speed and boost Attack), and **Poison Jab** (essential coverage to hit Fairy-type threats).
+* **Abilities:** 
+    * **Bulletproof:** Provides total immunity to "ball" and "bomb" moves such as Shadow Ball, Sludge Bomb, and Focus Blast.
+    * **Soundproof:** Grants immunity to sound-based moves like Boomburst, Bug Buzz, or Roar; it also makes it immune to its own Clanging Scales' secondary effects in some contexts.
+    * **Overcoat:** Protects the Pokémon from damage caused by weather (Sandstorm/Hail) and powder-based moves like Spore or Sleep Powder.
+
+## Evolution & Biology
+Totem Kommo-o is the final stage of a three-stage evolutionary line, though this Totem variant is specifically encountered as a boss-level entity. The lineage begins with **Jangmo-o**, a small, brave warrior that lives in secluded mountains. Jangmo-o evolves into **Hakamo-o** starting at level 35, at which point it begins to dance and clash its scales together to intimidate foes. Finally, Hakamo-o evolves into **Kommo-o** at level 45. Biologically, these Pokémon are solitary and dedicated to their training, returning to their birthplace to protect younger Jangmo-o. It belongs to the **Dragon** egg group and is noted for its slow growth rate, requiring significant experience to reach its full potential. It is often found carrying a **Razor Claw**, which boosts its critical-hit ratio in battle.

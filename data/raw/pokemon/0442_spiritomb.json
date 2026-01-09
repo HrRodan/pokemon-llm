@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 442,
+    "name": "spiritomb",
+    "stats": {
+      "hp": 50,
+      "attack": 92,
+      "defense": 108,
+      "special-attack": 92,
+      "special-defense": 108,
+      "speed": 35
+    },
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 108.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spiritomb"
+    ],
+    "moves": [
+      "body-slam",
+      "disable",
+      "psybeam",
+      "hyper-beam",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "night-shade",
+      "double-team",
+      "smokescreen",
+      "confuse-ray",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "torment",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "rock-tomb",
+      "silver-wind",
+      "extrasensory",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "sucker-punch",
+      "dark-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-sneak",
+      "trick-room",
+      "captivate",
+      "ominous-wind",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "quash",
+      "retaliate",
+      "snarl",
+      "phantom-force",
+      "confide",
+      "infestation",
+      "burning-jealousy",
+      "lash-out",
+      "poltergeist",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 567,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/442.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/442.png"
+    },
+    "species_name": "spiritomb",
+    "flavor_text": "A Pok\u00e9mon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+    "genus": "Forbidden Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "purple",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/229/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 229,
+      "chain": {
+        "species_name": "spiritomb",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

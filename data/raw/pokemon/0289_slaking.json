@@ -1,0 +1,231 @@
+{
+  "pokemon_details": {
+    "id": 289,
+    "name": "slaking",
+    "stats": {
+      "hp": 150,
+      "attack": 160,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 65,
+      "speed": 100
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 130.5,
+    "abilities": [
+      {
+        "name": "truant",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "slaking"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "metronome",
+      "fire-blast",
+      "amnesia",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "yawn",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "slack-off",
+      "hyper-voice",
+      "rock-tomb",
+      "aerial-ace",
+      "block",
+      "bulk-up",
+      "mud-shot",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "punishment",
+      "sucker-punch",
+      "poison-jab",
+      "seed-bomb",
+      "x-scissor",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "rock-climb",
+      "gunk-shot",
+      "captivate",
+      "hone-claws",
+      "smack-down",
+      "heavy-slam",
+      "low-sweep",
+      "after-you",
+      "round",
+      "chip-away",
+      "incinerate",
+      "quash",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "play-rough",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "pounce",
+      "trailblaze",
+      "chilling-water",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 252,
+    "is_default": true,
+    "order": 392,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/289.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/289.png"
+    },
+    "species_name": "slaking",
+    "flavor_text": "SLAKING spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this POK\u00e9MON reluctantly moves to another spot.",
+    "genus": "Lazy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/143/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 143,
+      "chain": {
+        "species_name": "slakoth",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vigoroth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "slaking",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

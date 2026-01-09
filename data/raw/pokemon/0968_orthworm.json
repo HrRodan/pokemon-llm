@@ -1,0 +1,137 @@
+{
+  "pokemon_details": {
+    "id": 968,
+    "name": "orthworm",
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 145,
+      "special-attack": 60,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 310.0,
+    "abilities": [
+      {
+        "name": "earth-eater",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "orthworm"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "wrap",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "harden",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "protect",
+      "mud-slap",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "iron-tail",
+      "facade",
+      "helping-hand",
+      "rock-tomb",
+      "metal-sound",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "metal-burst",
+      "earth-power",
+      "giga-impact",
+      "flash-cannon",
+      "iron-head",
+      "stealth-rock",
+      "smack-down",
+      "heavy-slam",
+      "coil",
+      "bulldoze",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "tera-blast",
+      "shed-tail"
+    ],
+    "held_items": [],
+    "base_experience": 240,
+    "is_default": true,
+    "order": 944,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/968.png"
+    },
+    "species_name": "orthworm",
+    "flavor_text": "When attacked, this Pok\u00e9mon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+    "genus": "Earthworm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 50,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "pink",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/507/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 507,
+      "chain": {
+        "species_name": "orthworm",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

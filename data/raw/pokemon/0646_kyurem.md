@@ -1,0 +1,12 @@
+## Identity & Lore
+Kyurem (Pokedex #646) is the Boundary Pokémon, a legendary Dragon and Ice-type creature that debuted in the Unova region during Generation V. This gray-colored titan is the "hollow shell" left behind when the original single dragon split into Reshiram and Zekrom, representing the concept of *wuji* (emptiness). It generates immense, freezing energy within its core, though the leakage of this power has caused its own body to become partially frozen and asymmetric. While the base form is formidable, Kyurem possesses the unique biological potential for **Absofusion**. Using the DNA Splicers, it can fuse with Reshiram to become **White Kyurem** or with Zekrom to become **Black Kyurem**, drastically increasing its power. It is often found in the Giant Chasm, where it was rumored in local folklore to take people and Pokémon away to eat them.
+
+## Combat Profile
+* **Stats:** HP 125, Attack 130, Defense 90, Sp. Atk 130, Sp. Def 90, Speed 95.
+* **Archetype:** Bulky Mixed Wallbreaker. With massive base 130 offensive stats on both sides and a significant HP pool, Kyurem can dismantle defensive cores using both physical and special attacks.
+* **Type Matchups:** It is **weak to Fighting, Rock, Steel, Fire, Dragon, and Fairy**. Despite its many weaknesses, its unique typing allows it to **resist Water, Grass, and Electric**.
+* **Move Selection:** Kyurem excels by using a mix of high-power STAB moves and essential coverage. Key moves include **Ice Beam** (reliable STAB), **Draco Meteor** (massive burst damage), **Freeze-Dry** (unique Ice move that is super-effective against Water-types), and **Earth Power** (critical coverage against Steel and Fire-types).
+* **Abilities:** Pressure (Forces the opponent to expend twice the PP for every move used). This is tactically useful in longer engagements to deplete the enemy's high-power, low-PP moves like Stone Edge or Close Combat.
+
+## Evolution & Biology
+Kyurem is part of a single-stage evolutionary line and does not evolve through traditional leveling or items. However, it is biologically linked to the other members of the "Tao Trio." It can change into its **White Kyurem** or **Black Kyurem** forms by absorbing the other legendary dragons, granting it access to the abilities Turboblaze or Teravolt respectively. As a Legendary Pokémon, it belongs to the **No-Eggs (Undiscovered)** egg group and cannot be bred. It has a slow growth rate and requires 120 hatch counters, reflecting its status as an ancient and powerful force of nature.

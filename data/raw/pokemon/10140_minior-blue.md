@@ -1,0 +1,12 @@
+## Identity & Lore
+Minior-blue (Pokedex #10140) is the Blue Core form of the Meteor Pokémon, a unique Rock/Flying-type entity first discovered in the Alola region of Generation VII. Originally making its home high within the ozone layer, Minior survives by consuming dust particles; when its heavy external shell becomes too dense, it hurtles toward the planet's surface as a falling star. While the outer shell is a uniform brown, the core inside—revealed only when its health drops—comes in seven distinct colors, with this specific variant exhibiting a vibrant light-blue hue. Although it does not possess a Mega Evolution or Gigantamax form, its biological gimmick revolves entirely around its "Shields Down" transformation, which dictates its physical state and temperament.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 100, Defense 60, Sp. Atk 100, Sp. Def 60, Speed 120.
+* **Archetype:** Mixed Setup Sweeper / Glass Cannon (Core Form).
+* **Type Matchups:** It is **weak to Water, Grass, Electric, Steel, and Ice**. It **resists Normal, Flying, Poison, Fire, and Bug**, and possesses a total **immunity to Ground** thanks to its Flying type.
+* **Move Selection:** Utilizing its high Speed and balanced offensive stats, Minior excels with a setup-heavy kit. Key moves include **Shell Smash** (to double its offensive pressure), **Acrobatics** (which pairs perfectly with a consumed White Herb for massive STAB damage), **Power Gem** (its primary Special Rock-type STAB), and **Earthquake** (essential coverage for Steel and Electric types).
+* **Abilities:** Shields Down (The Pokémon starts in its 'Meteor Form' with high defenses and status immunity; when HP drops below 50%, the shell breaks to reveal the 'Core Form,' drastically increasing Speed and offensive stats while lowering defenses).
+
+## Evolution & Biology
+Minior is a single-stage Pokémon and does not evolve into or from any other species. Instead, it undergoes a mechanical "Form Change" during combat via its signature ability. In its Meteor Form (above 50% HP), it is a defensive stalwart, but in this Blue Core form (below 50% HP), it becomes a fragile but lethal attacker. It belongs to the **Mineral** egg group, and despite its celestial origins, it is capable of breeding with other Mineral-group Pokémon or Ditto. The blue color of its core is determined by the specific composition of the dust it consumed while living in the atmosphere.

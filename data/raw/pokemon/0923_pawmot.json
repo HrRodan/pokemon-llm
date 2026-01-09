@@ -1,0 +1,202 @@
+{
+  "pokemon_details": {
+    "id": 923,
+    "name": "pawmot",
+    "stats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 70,
+      "special-attack": 70,
+      "special-defense": 60,
+      "speed": 105
+    },
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 41.0,
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pawmot"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "growl",
+      "hyper-beam",
+      "low-kick",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "agility",
+      "quick-attack",
+      "metronome",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "protect",
+      "endure",
+      "charm",
+      "spark",
+      "sleep-talk",
+      "baton-pass",
+      "encore",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "focus-punch",
+      "charge",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "arm-thrust",
+      "rock-tomb",
+      "bulk-up",
+      "close-combat",
+      "fling",
+      "seed-bomb",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "discharge",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "low-sweep",
+      "entrainment",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "play-rough",
+      "eerie-impulse",
+      "electric-terrain",
+      "nuzzle",
+      "throat-chop",
+      "body-press",
+      "coaching",
+      "tera-blast",
+      "revival-blessing",
+      "double-shock",
+      "supercell-slam",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 245,
+    "is_default": true,
+    "order": 956,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/923.png"
+    },
+    "species_name": "pawmot",
+    "flavor_text": "This Pok\u00e9mon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+    "genus": "Hands-On Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/484/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 484,
+      "chain": {
+        "species_name": "pawmi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pawmo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "pawmot",
+                "evolution_details": [
+                  {
+                    "trigger": "other"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

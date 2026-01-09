@@ -1,0 +1,145 @@
+{
+  "pokemon_details": {
+    "id": 10055,
+    "name": "manectric-mega",
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 80,
+      "special-attack": 135,
+      "special-defense": 80,
+      "speed": 135
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 44.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "manectric-mega"
+    ],
+    "moves": [
+      "tackle",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "light-screen",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "uproar",
+      "facade",
+      "charge",
+      "secret-power",
+      "overheat",
+      "odor-sleuth",
+      "signal-beam",
+      "howl",
+      "shock-wave",
+      "magnet-rise",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "discharge",
+      "charge-beam",
+      "round",
+      "volt-switch",
+      "wild-charge",
+      "snarl",
+      "confide",
+      "electric-terrain",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 201,
+    "is_default": false,
+    "order": 418,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10055.png"
+    },
+    "species_name": "manectric",
+    "flavor_text": "MANECTRIC is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this POK\u00e9MON creates thunderclouds.",
+    "genus": "Discharge Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/153/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 153,
+      "chain": {
+        "species_name": "electrike",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "manectric",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

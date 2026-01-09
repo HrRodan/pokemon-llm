@@ -1,0 +1,12 @@
+## Identity & Lore
+Super Size Pumpkaboo (Pokedex #10029) is the largest and most formidable variation of the Pumpkin Pokémon. Originating from the Kalos region (Generation VI), this Ghost/Grass-type creature consists of a spectral spirit inhabiting a pumpkin shell. According to lore, the spirit within is trapped in the mortal world and becomes increasingly restless and active once the sun begins to set. Unlike its smaller counterparts, the Super Size variant is notably heavy (15.0 kg) and tall (0.8 m), reflecting its superior physical presence. While this species does not possess a Mega Evolution or Gigantamax form, its unique size-mechanic is its defining biological trait, directly influencing its physical capabilities and competitive utility.
+
+## Combat Profile
+* **Stats:** HP 59, Attack 66, Defense 70, Sp. Atk 44, Sp. Def 55, Speed 41.
+* **Archetype:** Physical Tank / Utility Scout.
+* **Type Matchups:** It is **weak to Fire, Ice, Flying, Poison, Bug, Ghost, and Dark**. It possesses crucial **immunities to Normal and Fighting** moves and **resists Water, Grass, Electric, and Ground**.
+* **Move Selection:** Prioritizing its higher physical Attack and utility pool, key moves include **Poltergeist** (high-power Ghost STAB), **Seed Bomb** (reliable Grass STAB), **Shadow Sneak** (essential priority to bypass its low Speed), and **Will-O-Wisp** (to burn and cripple physical threats).
+* **Abilities:** **Pickup** (allows the Pokémon to find items outside of battle or retrieve used items); **Frisk** (reveals the opponent's held item upon entering battle, a vital tool for competitive scouting); **Insomnia** (Hidden Ability; prevents the Pokémon from falling asleep, making it an excellent counter to "Spore" or "Sleep Powder" strategies).
+
+## Evolution & Biology
+Super Size Pumpkaboo is the first stage of a two-part evolutionary line. It evolves into **Gourgeist** specifically when **traded** to another trainer. A unique biological feature of this species is that its size—Small, Average, Large, or Super—is inherited and fixed, with the Super Size variant trading away the Speed found in Small Pumpkaboo for increased HP and Attack power. It belongs to the **Indeterminate** Egg Group and is often seen holding a **Miracle Seed**, which boosts the power of its Grass-type maneuvers. Its spirit-driven biology and pumpkin-vessel body make it a staple of eerie, autumnal habitats.

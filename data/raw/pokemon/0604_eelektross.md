@@ -1,0 +1,12 @@
+## Identity & Lore
+Eelektross (#604) is the EleFish Pokémon, a fearsome aquatic predator first discovered in the Unova region (Generation V). This blue, eel-like creature is notable for its powerful, muscular arms which allow it to crawl out of the ocean to hunt. According to ecological records, Eelektross will emerge from the water to ambush prey on shore, using its circular, tooth-lined mouth to latch on and release massive electrical discharges before dragging its victim back into the depths. While it does not possess a Mega Evolution, Gigantamax, or Paradox form, its biology is unique among Electric-types for its ability to thrive in both high-pressure deep-sea environments and terrestrial habitats.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 115, Defense 80, Sp. Atk 105, Sp. Def 80, Speed 50.
+* **Archetype:** Mixed Slow Wallbreaker. Its high offensive stats on both sides allow it to bypass traditional physical or special walls.
+* **Type Matchups:** As a pure Electric-type, it is technically weak to Ground. However, due to its ability, it effectively has **no weaknesses**. It **resists Electric, Flying, and Steel** types.
+* **Move Selection:** Leveraging its high Attack and Special Attack, essential moves include **Wild Charge** (high-power Physical STAB), **Giga Drain** (Special coverage to punish Ground-types and provide recovery), **Drain Punch** (Physical sustain and coverage), and **Volt Switch** (to maintain momentum despite its low Speed).
+* **Abilities:** Levitate (Gives full immunity to Ground-type moves, Spikes, Toxic Spikes, and Arena Trap. This ability is the cornerstone of its competitive viability, as it removes the Electric type's only natural weakness).
+
+## Evolution & Biology
+Eelektross is the final stage of a three-stage evolutionary line. It begins as Tynamo, which evolves into Eelektrik starting at level 39. The transition to its final form, Eelektross, occurs only when Eelektrik is **exposed to a Thunder Stone**. Biologically, it is a slow-growing species with a "Slow" growth rate. It belongs to the **Indeterminate** (Amorphous) Egg Group, suggesting a flexible or jelly-like cellular structure similar to other eel or slug-like Pokémon. With a hatch counter of 20, breeders should expect a moderate incubation period.

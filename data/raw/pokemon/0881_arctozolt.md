@@ -1,0 +1,12 @@
+## Identity & Lore
+Arctozolt (Pokedex #881) is the Fossil Pokémon, a unique and bizarre hybrid creature introduced in Generation VIII (Galar). As one of the four mismatched fossils resurrected in the Galar region, Arctozolt is the result of combining a Fossilized Bird and a Fossilized Dino. This biological anomaly features a shivering, avian upper body perpetually suffering from a cold, which is actually its mechanism for generating electricity. Its lower body is a massive, reptilian tail encased in ice. The flavor text reveals a tragic existence: the constant shaking of its freezing upper half is what produces its power, and its mismatched anatomy makes walking an arduous task. Unlike many other prehistoric Pokémon, Arctozolt does not possess a Mega Evolution or a Gigantamax form, remaining a singular, chimeric entity.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 100, Defense 90, Sp. Atk 90, Sp. Def 80, Speed 55.
+* **Archetype:** Mixed Weather Sweeper. While its base speed is low, it serves as a terrifying wallbreaker under specific weather conditions.
+* **Type Matchups:** It is **weak to Ground, Fighting, Rock, Steel, and Fire**. Defensively, it **resists Flying, Ice, and Electric**.
+* **Move Selection:** Arctozolt's primary weapon is its signature move, **Bolt Beak**, which doubles in power if it moves before the target. To complement its physical Attack, it utilizes **Icicle Crash** for flinch potential and STAB. Despite being a physical attacker, **Freeze-Dry** is an essential utility move to hit Water-types for super-effective damage, while **Low Kick** provides vital coverage against heavy Steel and Rock types.
+* **Abilities:** **Volt Absorb** allows it to heal when struck by Electric moves; **Static** can paralyze opponents on contact; **Slush Rush** (Hidden Ability) is its most competitive trait, doubling its Speed stat in Hail or Snow, allowing it to outpace the meta and maximize the damage of Bolt Beak.
+
+## Evolution & Biology
+Arctozolt is a single-stage Pokémon and is not part of an evolutionary chain. It is "evolved" only in the sense of being reconstructed from disparate fossil parts by a scientist. Because it is a chimeric restoration, it belongs to the **No Eggs (Undiscovered)** egg group, meaning it cannot breed. In the wild of the Galar region, it is exclusively obtained through the restoration of the Fossilized Bird and Fossilized Dino items. Its biology is a study in extremes, balancing the high-voltage electricity of its shivering torso with the sub-zero temperatures of its lower half.

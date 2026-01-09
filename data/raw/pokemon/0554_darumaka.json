@@ -1,0 +1,177 @@
+{
+  "pokemon_details": {
+    "id": 554,
+    "name": "darumaka",
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 45,
+      "special-attack": 15,
+      "special-defense": 45,
+      "speed": 50
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 37.5,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "darumaka"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "thrash",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "rage",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "flame-wheel",
+      "snore",
+      "protect",
+      "belly-drum",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "yawn",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "overheat",
+      "rock-tomb",
+      "extrasensory",
+      "hammer-arm",
+      "gyro-ball",
+      "u-turn",
+      "fling",
+      "flare-blitz",
+      "fire-fang",
+      "zen-headbutt",
+      "grass-knot",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "work-up",
+      "confide",
+      "power-up-punch"
+    ],
+    "held_items": [
+      "rawst-berry"
+    ],
+    "base_experience": 63,
+    "is_default": true,
+    "order": 671,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/554.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/554.png"
+    },
+    "species_name": "darumaka",
+    "flavor_text": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+    "genus": "Zen Charm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/282/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 282,
+      "chain": {
+        "species_name": "darumaka",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "darmanitan",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

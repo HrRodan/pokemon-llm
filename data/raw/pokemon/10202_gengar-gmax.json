@@ -1,0 +1,120 @@
+{
+  "pokemon_details": {
+    "id": 10202,
+    "name": "gengar-gmax",
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 130,
+      "special-defense": 75,
+      "speed": 110
+    },
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height_m": 20.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gengar-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 225,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10202.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10202.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10202.png"
+    },
+    "species_name": "gengar",
+    "flavor_text": "Under a full moon, this POK\u00e9MON likes to mimic the shadows of people and laugh at their fright.",
+    "genus": "Shadow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 40,
+      "chain": {
+        "species_name": "gastly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "haunter",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gengar",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

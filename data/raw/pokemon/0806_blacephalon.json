@@ -1,0 +1,169 @@
+{
+  "pokemon_details": {
+    "id": 806,
+    "name": "blacephalon",
+    "stats": {
+      "hp": 53,
+      "attack": 127,
+      "defense": 53,
+      "special-attack": 151,
+      "special-defense": 79,
+      "speed": 107
+    },
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 13.0,
+    "abilities": [
+      {
+        "name": "beast-boost",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "blacephalon"
+    ],
+    "moves": [
+      "fire-punch",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "self-destruct",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "encore",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "knock-off",
+      "astonish",
+      "overheat",
+      "calm-mind",
+      "rock-blast",
+      "payback",
+      "fling",
+      "last-resort",
+      "dark-pulse",
+      "shadow-claw",
+      "zen-headbutt",
+      "psyshock",
+      "smack-down",
+      "flame-burst",
+      "flame-charge",
+      "foul-play",
+      "after-you",
+      "round",
+      "stored-power",
+      "incinerate",
+      "quash",
+      "confide",
+      "mystical-fire",
+      "mind-blown",
+      "expanding-force"
+    ],
+    "held_items": [],
+    "base_experience": 257,
+    "is_default": true,
+    "order": 987,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/806.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/806.png"
+    },
+    "species_name": "blacephalon",
+    "flavor_text": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It\u2019s apparently one kind of Ultra Beast.",
+    "genus": "Fireworks Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/426/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 426,
+      "chain": {
+        "species_name": "blacephalon",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

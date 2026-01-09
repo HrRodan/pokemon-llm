@@ -1,0 +1,12 @@
+## Identity & Lore
+Vanilluxe (Pokedex #584) is the Snowstorm Pokémon, a dual-headed entity first discovered in the Unova region during Generation V. Resembling a large, multi-scooped frozen treat, its body is actually composed of ice and snow clouds. It is known for swallowing vast quantities of water to create internal snowstorms, which it can then expel from its two heads to bury opponents in violent blizzards. While its design is often compared to a dessert, its behavior is quite fierce; when its two heads are angered simultaneously, it can freeze entire surroundings instantly. Although it does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants, it remains a defining representative of pure Ice-type biology within the Unovan habitat.
+
+## Combat Profile
+* **Stats:** HP 71, Attack 95, Defense 85, Sp. Atk 110, Sp. Def 95, Speed 79.
+* **Archetype:** Special Wallbreaker / Weather Setter.
+* **Type Matchups:** It is **weak to Fire, Fighting, Rock, and Steel**. It provides a single resistance to **Ice**.
+* **Move Selection:** Capitalizing on its high Special Attack and tactical niche, its primary moves include **Blizzard** (which bypasses accuracy checks in snow), **Freeze-Dry** (unique Ice coverage that is super-effective against Water types), **Flash Cannon** (for dealing with Rock-type threats), and **Ice Beam** (for consistent, high-accuracy STAB damage).
+* **Abilities:** **Snow Warning** (instantly summons a snowstorm/hail upon entry, boosting Defense for Ice types and enabling Blizzard), **Ice Body** (gradually restores health while it is snowing), and **Weak Armor** (a hidden ability that trades Defense for a sharp increase in Speed when hit by a physical attack).
+
+## Evolution & Biology
+Vanilluxe is the final form of a three-stage evolutionary line. It begins its life as the small **Vanillite**, which evolves into **Vanillish** upon reaching level 35. The cycle completes when Vanillish is leveled up to **level 47**, resulting in the two-headed Vanilluxe. This Pokémon belongs to the **Mineral** egg group, and its biology is strictly tied to freezing temperatures; it is said that if its body heat rises too much, it risks melting, which is why it is often found holding **Never-Melt Ice** to stabilize its form. Its two heads are results of a mutation during evolution, and while they usually work in tandem, they occasionally argue over which direction to spray snow.

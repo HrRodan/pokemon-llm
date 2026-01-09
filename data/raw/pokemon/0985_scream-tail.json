@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 985,
+    "name": "scream-tail",
+    "stats": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 99,
+      "special-attack": 65,
+      "special-defense": 115,
+      "speed": 111
+    },
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "scream-tail"
+    ],
+    "moves": [
+      "pound",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "sing",
+      "disable",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "psychic",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "fire-blast",
+      "amnesia",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "perish-song",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "baton-pass",
+      "encore",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "trick",
+      "wish",
+      "imprison",
+      "hyper-voice",
+      "fake-tears",
+      "rock-tomb",
+      "howl",
+      "bulk-up",
+      "calm-mind",
+      "water-pulse",
+      "gyro-ball",
+      "fling",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "trick-room",
+      "stealth-rock",
+      "grass-knot",
+      "psyshock",
+      "stored-power",
+      "noble-roar",
+      "misty-terrain",
+      "play-rough",
+      "boomburst",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "expanding-force",
+      "misty-explosion",
+      "tera-blast",
+      "snowscape",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 982,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/985.png"
+    },
+    "species_name": "scream-tail",
+    "flavor_text": "There has been only one reported sighting of this Pok\u00e9mon. It resembles a mysterious creature depicted in an old expedition journal.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/516/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 516,
+      "chain": {
+        "species_name": "scream-tail",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

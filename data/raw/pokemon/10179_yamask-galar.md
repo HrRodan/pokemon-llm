@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Yamask (Pokedex #10179) is the Spirit Pokémon, a regional variant that first emerged in the Galar region during Generation VIII. While its Unovan counterpart carries a golden mask representing its past human life, Galarian Yamask is possessed by a cursed clay slab engraved with ancient, macabre patterns. This slab is said to absorb the Yamask's own spirit, eventually taking over the entity entirely. It is typically found in arid or ruinous environments like Route 6 in Galar. While it does not possess a Mega Evolution or Gigantamax form, its evolution, Runerigus, is considered a thematic counterpart to the Unovan Cofagrigus, embodying the vengeful spirit of ancient Galarian civilizations.
+
+## Combat Profile
+* **Stats:** HP 38, Attack 55, Defense 85, Sp. Atk 30, Sp. Def 65, Speed 30.
+* **Archetype:** Physical Tank / Hazard Setter. Due to its high base Defense and access to several utility moves, Galarian Yamask functions as a disruptive tank in lower-tier competitive play (Little Cup).
+* **Type Matchups:** As a Ground/Ghost type, it is **weak to Water, Grass, Ice, Ghost, and Dark**. It possesses invaluable immunities, being **immune to Normal, Fighting, and Electric** attacks. It also resists Poison (1/4 damage) and Rock.
+* **Move Selection:** Prioritizing its Physical Attack over its meager Special Attack, Galarian Yamask excels with moves like **Poltergeist** (high-power Ghost STAB), **Earthquake** (reliable Ground STAB), **Zen Headbutt** for coverage, and **Will-O-Wisp** to cripple physical attackers by inflicting burns.
+* **Abilities:** Wandering Spirit (The Pokémon exchanges Abilities with an attacker that makes direct contact). This is a highly tactical ability that can neutralize dangerous enemy abilities like Huge Power or Guts.
+
+## Evolution & Biology
+Galarian Yamask is part of a two-stage evolutionary line, representing a distinct branch from the original Unovan form. It evolves into **Runerigus** through one of the most unique methods in the Pokémon world: it must **take at least 49 HP in damage** from a single hit (without fainting) and then be carried by the trainer under the large stone archway in the **Dusty Bowl** region of the Galar Wild Area. This transformation sees the clay slab expand into a full, spectral runic golem. Galarian Yamask belongs to the **Mineral and Indeterminate** Egg Groups, and while it is a Ghost-type, its physical form is tied to the ancient soils and stones of the earth.

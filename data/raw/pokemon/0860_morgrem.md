@@ -1,0 +1,12 @@
+## Identity & Lore
+Morgrem (Pokedex #860) is the Devious Pokémon, a mischievous humanoid creature first discovered in the Galar region during Generation VIII. Characterized by its pink skin and shock of spear-like hair, it is a master of deception that thrives on trickery. According to Galar lore, Morgrem will frequently drop to all fours as if begging for forgiveness, a ruse designed to lure opponents into a false sense of security before stabbing them with its needle-sharp hair. While Morgrem itself does not possess alternate forms, its final evolution, Grimmsnarl, is known for its powerful Gigantamax form, and the entire evolutionary line is unique for being the only Pokémon with the Dark/Fairy type combination (alongside its evolutionary relatives). It is typically found in dim, mysterious environments like Glimwood Tangle, where its cruel sense of humor and deceptive nature are most effective.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 60, Defense 45, Sp. Atk 75, Sp. Def 55, Speed 70.
+* **Archetype:** Prankster Utility Pivot. While its Special Attack is its highest offensive stat, its true value lies in its ability to disrupt opponents before they can react.
+* **Type Matchups:** It is **weak to Poison, Steel, and Fairy**. It possesses a **Double Resistance (0.25x) to Bug** and also resists **Ghost and Dark**. Most importantly, it is **immune to Dragon and Psychic** types, making it an excellent switch-in against powerful special sweepers.
+* **Move Selection:** Capitalizing on its Special Attack and high-priority utility, key moves include **Dark Pulse**, **Dazzling Gleam**, **Thunder Wave**, and **Reflect**.
+* **Abilities:** **Prankster** (Gives priority to status moves, allowing it to set screens or inflict paralysis before the opponent moves); **Frisk** (Identifies the opponent's held item upon entering battle); and **Pickpocket** (A hidden ability that allows it to steal an item from an attacker that makes contact).
+
+## Evolution & Biology
+Morgrem is part of a three-stage evolutionary line. It evolves from **Impidimp** once it reaches **Level 32**. It remains in this form until it reaches **Level 42**, at which point it evolves into its final form, **Grimmsnarl**. Biologically, Morgrem belongs to the **Fairy and Humanshape** Egg Groups. It has a hatch counter of 20 and a medium growth rate. Its physiology is built around its hair, which is composed of fibers that act like muscle and weaponry, allowing it to perform physical feats far beyond what its slender frame suggests.

@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 580,
+    "name": "ducklett",
+    "stats": {
+      "hp": 62,
+      "attack": 44,
+      "defense": 50,
+      "special-attack": 44,
+      "special-defense": 50,
+      "speed": 55
+    },
+    "types": [
+      "water",
+      "flying"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 5.5,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ducklett"
+    ],
+    "moves": [
+      "gust",
+      "wing-attack",
+      "fly",
+      "double-edge",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "bubble-beam",
+      "toxic",
+      "double-team",
+      "mirror-move",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "feather-dance",
+      "mud-sport",
+      "air-cutter",
+      "aerial-ace",
+      "water-sport",
+      "water-pulse",
+      "roost",
+      "brine",
+      "pluck",
+      "tailwind",
+      "lucky-chant",
+      "me-first",
+      "aqua-ring",
+      "air-slash",
+      "brave-bird",
+      "defog",
+      "aqua-jet",
+      "round",
+      "scald",
+      "hurricane",
+      "disarming-voice",
+      "confide",
+      "liquidation",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 702,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/580.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/580.png"
+    },
+    "species_name": "ducklett",
+    "flavor_text": "These bird Pok\u00e9mon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
+    "genus": "Water Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/295/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 295,
+      "chain": {
+        "species_name": "ducklett",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "swanna",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

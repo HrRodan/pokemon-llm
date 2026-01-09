@@ -1,0 +1,12 @@
+## Identity & Lore
+Toxel (Pokedex #848) is the Baby Pokémon, a unique dual-type Electric/Poison species first discovered in the Galar region (Generation VIII). This small, purple bipedal Pokémon is characterized by its perpetually grumpy expression and a white protrusion on its chest that resembles a bib or lightning bolt. Biologically, Toxel stores toxins in an internal poison sac and secretes them through its skin; touching it results in a sharp, tingling sensation. While physically fragile, it possesses massive evolutionary potential, eventually maturing into the punk-rock-inspired Toxtricity. Toxtricity is famous for having two distinct forms—Amped and Low Key—based on its personality (Nature), and it is capable of undergoing Gigantamaxing to become a mountain-sized guitarist of destruction.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 38, Defense 35, Sp. Atk 54, Sp. Def 35, Speed 40.
+* **Archetype:** Little Cup Special Attacker / Status Pivot.
+* **Type Matchups:** It suffers from a devastating **Double Weakness (4x) to Ground** and a weakness to **Psychic**. Conversely, it is highly resilient, **resisting Fighting, Flying, Poison, Bug, Steel, Grass, Fairy, and Electric** types.
+* **Move Selection:** Prioritizing its Special Attack and utility, its most effective moves include **Belch** (extremely high-power Poison STAB), **Acid** (to lower opponent defenses), **Tera Blast** (for adaptive elemental coverage), and **Nuzzle** (providing 100% accurate paralysis support).
+* **Abilities:** **Rattled** (increases Speed when hit by Bug, Ghost, or Dark moves), **Static** (may paralyze attackers who make contact), and its hidden ability **Klutz** (prevents it from using or being affected by held items).
+
+## Evolution & Biology
+Toxel is the first stage of a two-stage evolutionary line. It evolves into **Toxtricity** starting at **Level 30**. This evolution is unique in the Pokémon world as the resulting form is dictated by Toxel's Nature: Natures such as Adamant, Brave, or Rash produce the **Amped Form**, while Natures like Modest, Calm, or Timid result in the **Low Key Form**. Classified as a "Baby Pokémon," Toxel belongs to the **No Eggs Discovered** group, meaning it cannot breed in its current state. Breeders must evolve it into Toxtricity to produce more of the species. It has a medium-slow growth rate and a hatch counter of 25, requiring significant travel to hatch from an egg.

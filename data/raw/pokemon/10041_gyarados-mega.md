@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Gyarados (#10041) is the Atrocious Pokémon, a colossal and hyper-aggressive transformation of the iconic Kanto-region serpent first discovered in Generation I. Standing at 6.5 meters and weighing 305 kg, this form is achieved when a Gyarados undergoes Mega Evolution using a Gyaradosite, a process that significantly hardens its body and alters its elemental alignment from Water/Flying to Water/Dark. Its biology is defined by its legendary destructive instincts; once it begins a rampage, it will not cease until everything in its vicinity is razed, even when facing the fury of a harsh storm. While the base form is commonly found at the waters-edge, Mega Gyarados is a rare sight, manifesting only in the heat of battle through the bond between Pokémon and Trainer. 
+
+## Combat Profile
+* **Stats:** HP 95, Attack 155, Defense 109, Sp. Atk 70, Sp. Def 130, Speed 81.
+* **Archetype:** Bulky Physical Sweeper.
+* **Type Matchups:** As a Water/Dark type, it is **weak to Grass, Electric, Fighting, Bug, and Fairy**. It gains a vital **Immunity to Psychic** and resists Steel, Ghost, Water, Fire, Ice, and Dark.
+* **Move Selection:** Capitalizing on its massive 155 Base Attack and access to setup moves, key selections include **Dragon Dance** to boost Speed and power, **Waterfall** for reliable STAB (Same Type Attack Bonus) damage, **Crunch** to punish Psychic and Ghost types, and **Earthquake** for expansive coverage.
+* **Abilities:** Mold Breaker (Enables the Pokémon to ignore the defensive abilities of opponents, such as hitting targets that have Levitate with Ground-type moves or bypassing the damage reduction of Multiscale).
+
+## Evolution & Biology
+Mega Gyarados represents the temporary zenith of a three-stage progression. It starts its life as Magikarp, a famously pathetic fish, which evolves into the formidable Gyarados starting at **Level 20**. The transformation into its Mega form is a temporary state triggered during combat. Biologically, it is a member of the **Water 2 and Dragon** Egg Groups, though it possesses a slow growth rate. Despite its dragon-like appearance and belonging to the Dragon Egg Group, its Mega form embraces its "Atrocious" nature through the Dark typing rather than the Dragon type.

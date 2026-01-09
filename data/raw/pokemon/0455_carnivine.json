@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 455,
+    "name": "carnivine",
+    "stats": {
+      "hp": 74,
+      "attack": 100,
+      "defense": 72,
+      "special-attack": 90,
+      "special-defense": 72,
+      "speed": 46
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 27.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "carnivine"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "bind",
+      "slam",
+      "vine-whip",
+      "bite",
+      "hyper-beam",
+      "absorb",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "stun-spore",
+      "sleep-powder",
+      "toxic",
+      "double-team",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "knock-off",
+      "secret-power",
+      "grass-whistle",
+      "bullet-seed",
+      "magical-leaf",
+      "natural-gift",
+      "payback",
+      "fling",
+      "wring-out",
+      "gastro-acid",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "power-whip",
+      "captivate",
+      "grass-knot",
+      "bug-bite",
+      "rage-powder",
+      "acid-spray",
+      "round",
+      "leaf-tornado",
+      "confide",
+      "infestation",
+      "throat-chop"
+    ],
+    "held_items": [],
+    "base_experience": 159,
+    "is_default": true,
+    "order": 581,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/455.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/455.png"
+    },
+    "species_name": "carnivine",
+    "flavor_text": "It attracts prey with its sweet- smelling saliva, then chomps down. It takes a whole day to eat prey.",
+    "genus": "Bug Catcher Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/236/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 236,
+      "chain": {
+        "species_name": "carnivine",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 966,
+    "name": "revavroom",
+    "stats": {
+      "hp": 80,
+      "attack": 119,
+      "defense": 90,
+      "special-attack": 54,
+      "special-defense": 67,
+      "speed": 90
+    },
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 120.0,
+    "abilities": [
+      {
+        "name": "overcoat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "filter",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "revavroom"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "toxic",
+      "screech",
+      "haze",
+      "lick",
+      "smog",
+      "sludge",
+      "poison-gas",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "taunt",
+      "endeavor",
+      "overheat",
+      "metal-sound",
+      "iron-defense",
+      "gyro-ball",
+      "assurance",
+      "toxic-spikes",
+      "magnet-rise",
+      "poison-jab",
+      "giga-impact",
+      "zen-headbutt",
+      "flash-cannon",
+      "gunk-shot",
+      "iron-head",
+      "venoshock",
+      "sludge-wave",
+      "heavy-slam",
+      "acid-spray",
+      "shift-gear",
+      "bulldoze",
+      "high-horsepower",
+      "steel-beam",
+      "lash-out",
+      "tera-blast",
+      "spin-out",
+      "hard-press",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 943,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/966.png"
+    },
+    "species_name": "revavroom",
+    "flavor_text": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders\u2014now numbering eight\u2014to generate energy.",
+    "genus": "Multi-Cyl Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "legs",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/505/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 505,
+      "chain": {
+        "species_name": "varoom",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "revavroom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "pokemon_details": {
+    "id": 676,
+    "name": "furfrou",
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 60,
+      "special-attack": 65,
+      "special-defense": 90,
+      "speed": 102
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "fur-coat",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "furfrou-natural",
+      "furfrou-heart",
+      "furfrou-star",
+      "furfrou-diamond",
+      "furfrou-debutante",
+      "furfrou-matron",
+      "furfrou-dandy",
+      "furfrou-la-reine",
+      "furfrou-kabuki",
+      "furfrou-pharaoh"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "surf",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "role-play",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "hyper-voice",
+      "odor-sleuth",
+      "u-turn",
+      "last-resort",
+      "sucker-punch",
+      "dark-pulse",
+      "giga-impact",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "work-up",
+      "wild-charge",
+      "cotton-guard",
+      "snarl",
+      "confide",
+      "baby-doll-eyes"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 809,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/676.png"
+    },
+    "species_name": "furfrou",
+    "flavor_text": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    "genus": "Poodle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 160,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/347/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 347,
+      "chain": {
+        "species_name": "furfrou",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

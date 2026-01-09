@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 764,
+    "name": "comfey",
+    "stats": {
+      "hp": 51,
+      "attack": 52,
+      "defense": 90,
+      "special-attack": 82,
+      "special-defense": 110,
+      "speed": 100
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.1,
+    "weight_kg": 0.3,
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "triage",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "comfey"
+    ],
+    "moves": [
+      "bind",
+      "vine-whip",
+      "wrap",
+      "hyper-beam",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "petal-dance",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "swift",
+      "amnesia",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "facade",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "knock-off",
+      "aromatherapy",
+      "bullet-seed",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "fling",
+      "lucky-chant",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "defog",
+      "trick-room",
+      "grass-knot",
+      "telekinesis",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "acrobatics",
+      "leaf-tornado",
+      "petal-blizzard",
+      "disarming-voice",
+      "draining-kiss",
+      "flower-shield",
+      "grassy-terrain",
+      "play-rough",
+      "confide",
+      "dazzling-gleam",
+      "floral-healing",
+      "pollen-puff",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "misty-seed"
+    ],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 923,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/764.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/764.png"
+    },
+    "species_name": "comfey",
+    "flavor_text": "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
+    "genus": "Posy Picker Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "ball",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/393/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 393,
+      "chain": {
+        "species_name": "comfey",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

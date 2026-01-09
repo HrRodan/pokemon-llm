@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 345,
+    "name": "lileep",
+    "stats": {
+      "hp": 66,
+      "attack": 41,
+      "defense": 77,
+      "special-attack": 61,
+      "special-defense": 87,
+      "speed": 23
+    },
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 23.8,
+    "abilities": [
+      {
+        "name": "suction-cups",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lileep"
+    ],
+    "moves": [
+      "swords-dance",
+      "bind",
+      "body-slam",
+      "wrap",
+      "double-edge",
+      "acid",
+      "mega-drain",
+      "solar-beam",
+      "string-shot",
+      "toxic",
+      "mimic",
+      "double-team",
+      "recover",
+      "confuse-ray",
+      "barrier",
+      "constrict",
+      "amnesia",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "mirror-coat",
+      "psych-up",
+      "ancient-power",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "ingrain",
+      "secret-power",
+      "astonish",
+      "rock-tomb",
+      "tickle",
+      "bullet-seed",
+      "mud-shot",
+      "rock-blast",
+      "brine",
+      "natural-gift",
+      "wring-out",
+      "gastro-acid",
+      "worry-seed",
+      "rock-polish",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "smack-down",
+      "round",
+      "confide",
+      "infestation",
+      "meteor-beam"
+    ],
+    "held_items": [
+      "big-root"
+    ],
+    "base_experience": 71,
+    "is_default": true,
+    "order": 458,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/345.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/345.png"
+    },
+    "species_name": "lileep",
+    "flavor_text": "LILEEP became extinct approximately a hundred million years ago. This ancient POK\u00e9MON attaches itself to a rock on the seafloor and catches approaching prey using tentacles  shaped like flower petals.",
+    "genus": "Sea Lily Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "sea",
+    "shape": "blob",
+    "color": "purple",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/176/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 176,
+      "chain": {
+        "species_name": "lileep",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cradily",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

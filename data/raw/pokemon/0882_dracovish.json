@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 882,
+    "name": "dracovish",
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 215.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "strong-jaw",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dracovish"
+    ],
+    "moves": [
+      "stomp",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "low-kick",
+      "earthquake",
+      "waterfall",
+      "leech-life",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "dragon-breath",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "whirlpool",
+      "facade",
+      "dive",
+      "rock-tomb",
+      "rock-blast",
+      "brine",
+      "dragon-pulse",
+      "dragon-rush",
+      "earth-power",
+      "giga-impact",
+      "ice-fang",
+      "zen-headbutt",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "round",
+      "scald",
+      "bulldoze",
+      "brutal-swing",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "liquidation",
+      "fishious-rend",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 177,
+    "is_default": true,
+    "order": 1069,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/882.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/882.png"
+    },
+    "species_name": "dracovish",
+    "flavor_text": "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
+    "genus": "Fossil Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/463/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 463,
+      "chain": {
+        "species_name": "dracovish",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Shiinotic (Pokedex #756) is the Illuminating Pokémon, a humanoid fungal entity first discovered in the Alola region during Generation VII. This purple-capped organism is infamous for its bioluminescent properties; it emits strange, flickering lights from its mushroom cap to daze prey and confuse travelers. Forests inhabited by Shiinotic are considered extremely treacherous at night, as those mesmerized by its glow often find themselves lost forever, their vitality slowly drained by the Pokémon's spores. While it does not possess a Mega Evolution or Gigantamax form, its unique Grass/Fairy typing and access to rare mushroom-based moves give it a distinct niche among forest-dwelling species.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 45, Defense 80, Sp. Atk 90, Sp. Def 100, Speed 30.
+* **Archetype:** Defensive Status Disruptor / Special Tank. With high Special Defense and very low Speed, Shiinotic excels as a "bulky pivot" or a "Trick Room" attacker.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Poison**. It is also **weak to Flying, Fire, Ice, and Steel**. It provides excellent utility by being **immune to Dragon** and resisting **Fighting, Ground, Water, Grass, Electric, and Dark** types.
+* **Move Selection:** Utilizing its superior Special Attack and legendary utility, essential moves include **Moonblast** (high-damage Fairy STAB), **Giga Drain** (Grass STAB with health recovery), **Spore** (the rare 100% accuracy sleep-inducing move), and **Strength Sap** (a signature move that heals the user based on the opponent's Attack stat while lowering that stat).
+* **Abilities:** **Illuminate** (traditionally used to increase encounter rates, though in modern combat contexts it can prevent accuracy loss); **Effect Spore** (a defensive ability that may inflict Sleep, Paralysis, or Poison on enemies who use contact moves); and **Rain Dish** (Hidden Ability that provides passive HP recovery during rain).
+
+## Evolution & Biology
+Shiinotic is the final stage of a two-stage evolutionary line. It evolves from **Morelull** once it reaches **Level 24**. Biologically, it is part of the **Plant** egg group and is often found carrying **Tiny Mushrooms** or **Big Mushrooms**, which it uses to facilitate its symbiotic and sometimes parasitic relationships with the forest floor. Its humanoid shape and rhythmic flickering suggest a level of intelligence used primarily to lure prey into its territory. The species has a medium growth rate and requires a hatch counter of approximately 20 to break from an egg.

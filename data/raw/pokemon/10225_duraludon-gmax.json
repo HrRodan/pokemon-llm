@@ -1,0 +1,117 @@
+{
+  "pokemon_details": {
+    "id": 10225,
+    "name": "duraludon-gmax",
+    "stats": {
+      "hp": 70,
+      "attack": 95,
+      "defense": 115,
+      "special-attack": 120,
+      "special-defense": 50,
+      "speed": 85
+    },
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "height_m": 43.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "light-metal",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heavy-metal",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "stalwart",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "duraludon-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 187,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10225.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10225.png"
+    },
+    "species_name": "duraludon",
+    "flavor_text": "Its body resembles polished metal, and it\u2019s both lightweight and strong. The only drawback is that it rusts easily.",
+    "genus": "Alloy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "mineral",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/465/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 465,
+      "chain": {
+        "species_name": "duraludon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "archaludon",
+            "evolution_details": [],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

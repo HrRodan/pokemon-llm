@@ -1,0 +1,226 @@
+{
+  "pokemon_details": {
+    "id": 303,
+    "name": "mawile",
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 50
+    },
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 11.5,
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mawile"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "vice-grip",
+      "swords-dance",
+      "slam",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "bite",
+      "growl",
+      "flamethrower",
+      "ice-beam",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "toxic",
+      "mimic",
+      "double-team",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "dynamic-punch",
+      "baton-pass",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "poison-fang",
+      "astonish",
+      "fake-tears",
+      "rock-tomb",
+      "tickle",
+      "iron-defense",
+      "natural-gift",
+      "metal-burst",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "guard-swap",
+      "punishment",
+      "last-resort",
+      "sucker-punch",
+      "magnet-rise",
+      "dark-pulse",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "foul-play",
+      "round",
+      "incinerate",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "brutal-swing",
+      "psychic-fangs",
+      "steel-beam"
+    ],
+    "held_items": [
+      "occa-berry",
+      "iron-ball"
+    ],
+    "base_experience": 133,
+    "is_default": true,
+    "order": 407,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/303.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/303.png"
+    },
+    "species_name": "mawile",
+    "flavor_text": "MAWHILE\u2019s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWHILE chomps it with its gaping jaws.",
+    "genus": "Deceiver Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "cave",
+    "shape": "humanoid",
+    "color": "black",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/150/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 150,
+      "chain": {
+        "species_name": "mawile",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "pokemon_details": {
+    "id": 10209,
+    "name": "rillaboom-gmax",
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 90,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 85
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 28.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "grassy-surge",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rillaboom-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10209.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10209.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10209.png"
+    },
+    "species_name": "rillaboom",
+    "flavor_text": "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+    "genus": "Drummer Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "ground",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/430/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 430,
+      "chain": {
+        "species_name": "grookey",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "thwackey",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "rillaboom",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

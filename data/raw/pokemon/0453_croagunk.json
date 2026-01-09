@@ -1,0 +1,236 @@
+{
+  "pokemon_details": {
+    "id": 453,
+    "name": "croagunk",
+    "stats": {
+      "hp": 48,
+      "attack": 61,
+      "defense": 40,
+      "special-attack": 61,
+      "special-defense": 40,
+      "speed": 50
+    },
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 23.0,
+    "abilities": [
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "croagunk"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "take-down",
+      "poison-sting",
+      "low-kick",
+      "counter",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "meditate",
+      "screech",
+      "double-team",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "baton-pass",
+      "encore",
+      "pursuit",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "fake-out",
+      "torment",
+      "flatter",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "rock-tomb",
+      "aerial-ace",
+      "bulk-up",
+      "bounce",
+      "mud-shot",
+      "wake-up-slap",
+      "natural-gift",
+      "feint",
+      "acupressure",
+      "close-combat",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "me-first",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "x-scissor",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "earth-power",
+      "nasty-plot",
+      "bullet-punch",
+      "shadow-claw",
+      "mud-bomb",
+      "rock-climb",
+      "gunk-shot",
+      "captivate",
+      "venoshock",
+      "sludge-wave",
+      "low-sweep",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "belch",
+      "confide",
+      "venom-drench",
+      "power-up-punch",
+      "lash-out",
+      "coaching",
+      "tera-blast",
+      "chilling-water",
+      "upper-hand"
+    ],
+    "held_items": [
+      "black-sludge"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 579,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/453.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/453.png"
+    },
+    "species_name": "croagunk",
+    "flavor_text": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+    "genus": "Toxic Mouth Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 140,
+    "base_happiness": 100,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/235/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 235,
+      "chain": {
+        "species_name": "croagunk",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "toxicroak",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

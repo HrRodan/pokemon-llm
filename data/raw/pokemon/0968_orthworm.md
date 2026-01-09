@@ -1,0 +1,12 @@
+## Identity & Lore
+Orthworm (Pokedex #968) is the Earthworm Pokémon, a massive, metallic invertebrate first discovered in the Paldea region during Generation IX. Despite its pinkish, segmented appearance, its body is composed of incredibly hard, iron-rich soil and metal. Standing at 2.5 meters and weighing a substantial 310 kilograms, Orthworm is known for its burrowing lifestyle and its peculiar defensive mechanisms. When threatened, it extends blue, fist-like tendrils from the pores on its body, unleashing a "storm of punches" to deter predators. While it does not currently possess a Mega Evolution or Gigantamax form, it gained notoriety as one of the "Titan Pokémon" (the Lurking Steel Titan) guarded by Herba Mystica in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 145, Sp. Atk 60, Sp. Def 55, Speed 65.
+* **Archetype:** Physical Tank and Utility Support. 
+* **Type Matchups:** As a pure Steel-type, it is **weak to Fighting and Fire**. While it is technically weak to **Ground**, its signature ability often negates this. It **resists** a wide array of types, including Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dragon, Steel, and Fairy, while maintaining a total **immunity to Poison**.
+* **Move Selection:** Capitalizing on its massive Defense and utility, its kit is defined by **Shed Tail** (a unique move that creates a substitute and switches the user out), **Body Press** (which calculates damage using its 145 Defense stat), **Heavy Slam** (leveraging its high weight for STAB damage), and **Stealth Rock** for entry hazard support.
+* **Abilities:** **Earth Eater** (Signature ability that grants immunity to Ground-type moves and restores 25% of max HP when hit by one, effectively removing a primary weakness); **Sand Veil** (Hidden Ability that increases evasion during a Sandstorm).
+
+## Evolution & Biology
+Orthworm is a single-stage Pokémon and does not evolve from or into any other species. It belongs to the **Ground** Egg Group, and its reproductive cycle is relatively slow, indicated by a hatch counter of 35. Biologically, Orthworm functions as a living excavator; its metallic body is designed to withstand the immense pressure of subterranean life. It thrives in arid or rocky environments where it can consume iron-rich minerals. Its unique physiology allows it to "eat" the very earth that would typically harm a Steel-type, making it a natural apex burrower in the Paldean ecosystem.

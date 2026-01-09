@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 297,
+    "name": "hariyama",
+    "stats": {
+      "hp": 144,
+      "attack": 120,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 60,
+      "speed": 50
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 253.8,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hariyama"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "whirlwind",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "surf",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "metronome",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "scary-face",
+      "belly-drum",
+      "mud-slap",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "vital-throw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "whirlpool",
+      "fake-out",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "arm-thrust",
+      "rock-tomb",
+      "bulk-up",
+      "mud-shot",
+      "wake-up-slap",
+      "brine",
+      "natural-gift",
+      "close-combat",
+      "payback",
+      "fling",
+      "force-palm",
+      "poison-jab",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "smack-down",
+      "heavy-slam",
+      "low-sweep",
+      "round",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "coaching",
+      "headlong-rush",
+      "tera-blast",
+      "chilling-water",
+      "upper-hand"
+    ],
+    "held_items": [
+      "kings-rock"
+    ],
+    "base_experience": 166,
+    "is_default": true,
+    "order": 400,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/297.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/297.png"
+    },
+    "species_name": "hariyama",
+    "flavor_text": "It has the habit of challenging others without hesitation to tests of strength. It\u2019s been known to stand on train tracks and stop trains using forearm thrusts.",
+    "genus": "Arm Thrust Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "mountain",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/146/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 146,
+      "chain": {
+        "species_name": "makuhita",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hariyama",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

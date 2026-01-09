@@ -1,0 +1,12 @@
+## Identity & Lore
+Komala (Pokedex #775) is the Drowsing Pokémon, a unique Normal-type creature first discovered in the Alola region of Generation VII. This blue, arboreal Pokémon is defined by a lifelong state of slumber; it is famously born asleep and remains in that state until it dies. Every movement it makes—from eating to traveling and even battling—is merely the result of it tossing and turning in its dreams. It survives by clinging to a small wooden log given to it by its parents, which it uses as a pillow and a weapon. If it loses this log, it becomes unable to sleep soundly and will thrash about wildly. While Komala does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox counterparts, its unique physiological state makes it a biological anomaly in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 115, Defense 65, Sp. Atk 75, Sp. Def 95, Speed 65.
+* **Archetype:** Physical Tank / Status Sponge. With a formidable Base Attack and respectable Special Defense, Komala functions as a hard-hitting attacker that can ignore traditional status-based shutdown strategies.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a total **immunity to Ghost**.
+* **Move Selection:** Leveraging its high Attack stat, Komala excels with physical moves such as **Body Slam** (for STAB damage and paralysis chance), **Earthquake** (high-power ground coverage), **Play Rough** (to threaten Fighting and Dragon types), and **Sucker Punch** (to compensate for its mediocre Speed with priority). It also provides excellent utility with **Rapid Spin** and **Knock Off**.
+* **Abilities:** Comatose (This signature ability ensures Komala is always treated as being in a sleep state. Consequently, it is immune to all other major status conditions—including Burn, Paralysis, Poison, and Freeze—and can use moves like Sleep Talk as if it were actively asleep).
+
+## Evolution & Biology
+Komala is a single-stage Pokémon and is not known to evolve into or from any other species. Biologically, it is highly specialized, spending its entire life cycle attached to its log. It belongs to the **Ground** Egg Group, and researchers note a slow growth rate, requiring significant experience to reach its full potential. With a hatch counter of 20, it is a relatively rare sight in the wild, typically found clinging to trees where it feeds on leaves containing sedative properties that sustain its permanent dream state.

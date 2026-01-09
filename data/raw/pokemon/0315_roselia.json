@@ -1,0 +1,213 @@
+{
+  "pokemon_details": {
+    "id": 315,
+    "name": "roselia",
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 45,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 65
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.0,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "roselia"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "body-slam",
+      "double-edge",
+      "poison-sting",
+      "pin-missile",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "petal-dance",
+      "toxic",
+      "mimic",
+      "double-team",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "mind-reader",
+      "nightmare",
+      "snore",
+      "cotton-spore",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "secret-power",
+      "weather-ball",
+      "aromatherapy",
+      "grass-whistle",
+      "extrasensory",
+      "bullet-seed",
+      "covet",
+      "magical-leaf",
+      "natural-gift",
+      "worry-seed",
+      "toxic-spikes",
+      "poison-jab",
+      "seed-bomb",
+      "energy-ball",
+      "leaf-storm",
+      "power-whip",
+      "captivate",
+      "grass-knot",
+      "venoshock",
+      "round",
+      "petal-blizzard",
+      "confide",
+      "dazzling-gleam",
+      "life-dew",
+      "grassy-glide"
+    ],
+    "held_items": [
+      "poison-barb",
+      "absorb-bulb"
+    ],
+    "base_experience": 140,
+    "is_default": true,
+    "order": 424,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/315.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/315.png"
+    },
+    "species_name": "roselia",
+    "flavor_text": "ROSELIA shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this POK\u00e9MON brings serenity to living things.",
+    "genus": "Thorn Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 150,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "fairy",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/158/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 158,
+      "chain": {
+        "species_name": "budew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "roselia",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "roserade",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

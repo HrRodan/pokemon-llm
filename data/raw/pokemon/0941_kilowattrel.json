@@ -1,0 +1,169 @@
+{
+  "pokemon_details": {
+    "id": 941,
+    "name": "kilowattrel",
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 60,
+      "special-attack": 105,
+      "special-defense": 60,
+      "speed": 125
+    },
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 38.6,
+    "abilities": [
+      {
+        "name": "wind-power",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "kilowattrel"
+    ],
+    "moves": [
+      "fly",
+      "take-down",
+      "growl",
+      "hyper-beam",
+      "peck",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "quick-attack",
+      "swift",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "endure",
+      "spark",
+      "sleep-talk",
+      "uproar",
+      "facade",
+      "charge",
+      "endeavor",
+      "feather-dance",
+      "weather-ball",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "discharge",
+      "charge-beam",
+      "electro-ball",
+      "acrobatics",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "hurricane",
+      "eerie-impulse",
+      "electric-terrain",
+      "dual-wingbeat",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 958,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/941.png"
+    },
+    "species_name": "kilowattrel",
+    "flavor_text": "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pok\u00e9mon can fly over 430 miles in a day.",
+    "genus": "Frigatebird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "yellow",
+    "egg_groups": [
+      "water1",
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/492/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 492,
+      "chain": {
+        "species_name": "wattrel",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kilowattrel",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

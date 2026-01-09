@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 815,
+    "name": "cinderace",
+    "stats": {
+      "hp": 80,
+      "attack": 116,
+      "defense": 75,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 119
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 33.0,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "libero",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cinderace"
+    ],
+    "moves": [
+      "fire-punch",
+      "swords-dance",
+      "double-kick",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "fire-spin",
+      "agility",
+      "quick-attack",
+      "focus-energy",
+      "fire-blast",
+      "swift",
+      "high-jump-kick",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "sunny-day",
+      "shadow-ball",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "blaze-kick",
+      "blast-burn",
+      "weather-ball",
+      "overheat",
+      "bulk-up",
+      "bounce",
+      "mud-shot",
+      "feint",
+      "u-turn",
+      "assurance",
+      "fling",
+      "sucker-punch",
+      "flare-blitz",
+      "focus-blast",
+      "giga-impact",
+      "fire-fang",
+      "zen-headbutt",
+      "gunk-shot",
+      "iron-head",
+      "smack-down",
+      "electro-ball",
+      "flame-charge",
+      "low-sweep",
+      "round",
+      "ally-switch",
+      "acrobatics",
+      "fire-pledge",
+      "work-up",
+      "snarl",
+      "court-change",
+      "pyro-ball",
+      "burning-jealousy",
+      "coaching",
+      "scorching-sands",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": true,
+    "order": 996,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/815.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/815.png"
+    },
+    "species_name": "cinderace",
+    "flavor_text": "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
+    "genus": "Striker Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/431/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 431,
+      "chain": {
+        "species_name": "scorbunny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "raboot",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "cinderace",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

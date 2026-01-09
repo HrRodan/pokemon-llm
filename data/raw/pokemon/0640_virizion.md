@@ -1,0 +1,12 @@
+## Identity & Lore
+Virizion (Pokedex #640) is the Grassland Pokémon, a legendary figure first discovered in the Unova region during Generation V. Known as a member of the "Swords of Justice" alongside Cobalion, Terrakion, and Keldeo, Virizion is celebrated in myths for its role in protecting Pokémon from human-driven conflicts and forest fires. It possesses a majestic, stag-like appearance with a verdant green coat and horns that function as sharp, elegant blades. While the original Virizion is a creature of legend, recent discoveries in the Paldea region have identified a futuristic Paradox relative known as **Iron Leaves**, which shares its silhouette but utilizes Psychic-type energy. Virizion is renowned for its swift, whirlwind-like movements, using its speed to confound enemies before striking with its signature blade-like appendages.
+
+## Combat Profile
+* **Stats:** HP 91, Attack 90, Defense 72, Sp. Atk 90, Sp. Def 129, Speed 108.
+* **Archetype:** Fast Special Tank / Mixed Setup Sweeper.
+* **Type Matchups:** It is **weak to Poison, Bug, Fire, Ice, Psychic, and Fairy**, with a critical **Double Weakness (4x) to Flying**. It **resists Ground, Rock, Water, Grass, Electric, and Dark**.
+* **Move Selection:** Capitalizing on its balanced offensive stats and high speed, key moves include **Leaf Blade** (high critical-hit ratio), **Sacred Sword** (ignores target's stat changes), **Swords Dance** (to maximize physical damage), and **Stone Edge** (essential Rock-type coverage for its weakness to Flying and Fire).
+* **Abilities:** Justified (Boosts the Pokémon’s Attack stat by one stage when hit by a Dark-type move, making it an excellent switch-in against moves like Knock Off or Crunch).
+
+## Evolution & Biology
+Virizion is a standalone Legendary Pokémon and is not part of an evolutionary line. It is a genderless entity belonging to the **No-Eggs (Undiscovered)** egg group, meaning it cannot be bred. Biologically, it is noted for its high hatch counter of 80, reflecting its status as a rare and powerful legendary being. Its physiology is built for agility and grace, allowing it to dart through dense forests with ease. In competitive scenarios, its high base 129 Special Defense allows it to absorb powerful elemental attacks that would faint other Fighting-types, while its base 108 Speed allows it to outpace many threats in the Unova and subsequent regional circuits.

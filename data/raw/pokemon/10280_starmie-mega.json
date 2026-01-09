@@ -1,0 +1,101 @@
+{
+  "pokemon_details": {
+    "id": 10280,
+    "name": "starmie-mega",
+    "stats": {
+      "hp": 60,
+      "attack": 140,
+      "defense": 105,
+      "special-attack": 130,
+      "special-defense": 105,
+      "speed": 120
+    },
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 80.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "starmie",
+    "flavor_text": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+    "genus": "Mysterious Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "blob",
+    "color": "purple",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/56/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 56,
+      "chain": {
+        "species_name": "staryu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "starmie",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

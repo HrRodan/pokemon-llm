@@ -1,0 +1,12 @@
+## Identity & Lore
+Flamigo (Pokedex #973) is the Synchronize Pokémon, a dual-type species first discovered in the Paldea region during Generation IX. This vibrant pink avian Pokémon is characterized by its long, slender neck, which it curiously ties into a knot at the base. This behavior is rooted in its unique physiology; Paldean lore suggests that by knotting its neck, Flamigo prevents the pressurized energy stored within its belly from escaping through its beak, allowing it to deliver powerful, concentrated strikes. Though it lacks Mega Evolutions, Gigantamax forms, or Paradox counterparts, Flamigo is renowned for its intense social bonds, often moving and attacking in such perfect unison with its flock that they appear to share a single mind.
+
+## Combat Profile
+* **Stats:** HP 82, Attack 115, Defense 74, Sp. Atk 75, Sp. Def 64, Speed 90.
+* **Archetype:** Physical Wallbreaker / Offensive Pivot.
+* **Type Matchups:** It is **weak to Electric, Ice, Rock, Flying, Psychic, and Fairy** types. It possesses a valuable **immunity to Ground** and **resists Fighting, Bug, Grass, and Dark** moves.
+* **Move Selection:** Capitalizing on its formidable base 115 Attack, Flamigo's most effective moves include **Close Combat** (STAB), **Brave Bird** (STAB), **Liquidation** (Coverage), and **Throat Chop** (Utility). It also benefits greatly from **Roost** for recovery and **U-turn** for maintaining offensive momentum.
+* **Abilities:** **Scrappy** (Enables Fighting and Normal-type moves to hit Ghost-type Pokémon and provides immunity to the Intimidate ability); **Tangled Feet** (Increases evasiveness when the Pokémon is confused); **Costar** (Hidden Ability: Upon entering battle, the Pokémon copies an ally's stat changes, making it a top-tier threat in Doubles formats).
+
+## Evolution & Biology
+Flamigo is a unique, single-stage evolutionary line with no known pre-evolutions or further transformations. This lack of evolution is compensated for by its high base stat total relative to other early-game encounters in the Paldea region. Biologically, it is a highly resilient creature belonging to the **Flying** egg group, with a hatch counter of 20. Its design and behavior emphasize physical coordination and internal energy management, allowing it to function as a powerful standalone combatant from the moment it is hatched.

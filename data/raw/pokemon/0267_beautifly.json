@@ -1,0 +1,220 @@
+{
+  "pokemon_details": {
+    "id": 267,
+    "name": "beautifly",
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 50,
+      "special-attack": 100,
+      "special-defense": 50,
+      "speed": 65
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 28.4,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "beautifly"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "tackle",
+      "double-edge",
+      "poison-sting",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "solar-beam",
+      "stun-spore",
+      "string-shot",
+      "toxic",
+      "psychic",
+      "rage",
+      "mimic",
+      "double-team",
+      "harden",
+      "swift",
+      "leech-life",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "morning-sun",
+      "hidden-power",
+      "twister",
+      "sunny-day",
+      "shadow-ball",
+      "facade",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "ominous-wind",
+      "venoshock",
+      "quiver-dance",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "electroweb",
+      "confide",
+      "infestation",
+      "laser-focus"
+    ],
+    "held_items": [
+      "silver-powder",
+      "shed-shell"
+    ],
+    "base_experience": 178,
+    "is_default": true,
+    "order": 367,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/267.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/267.png"
+    },
+    "species_name": "beautifly",
+    "flavor_text": "BEAUTIFLY\u2019s favorite food is the sweet pollen of flowers. If you want to see this POK\u00e9MON, just leave a potted flower by an open window. BEAUTIFLY is sure to come looking for pollen.",
+    "genus": "Butterfly Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/135/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 135,
+      "chain": {
+        "species_name": "wurmple",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "silcoon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "beautifly",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          },
+          {
+            "species_name": "cascoon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dustox",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

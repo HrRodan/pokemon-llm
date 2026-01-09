@@ -1,0 +1,197 @@
+{
+  "pokemon_details": {
+    "id": 710,
+    "name": "pumpkaboo-average",
+    "stats": {
+      "hp": 49,
+      "attack": 66,
+      "defense": 70,
+      "special-attack": 44,
+      "special-defense": 55,
+      "speed": 51
+    },
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 5.0,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pumpkaboo-average"
+    ],
+    "moves": [
+      "disable",
+      "flamethrower",
+      "leech-seed",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "psychic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "fire-blast",
+      "dream-eater",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "destiny-bond",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "astonish",
+      "bullet-seed",
+      "gyro-ball",
+      "worry-seed",
+      "dark-pulse",
+      "seed-bomb",
+      "energy-ball",
+      "shadow-sneak",
+      "trick-room",
+      "grass-knot",
+      "charge-beam",
+      "telekinesis",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "incinerate",
+      "bestow",
+      "trick-or-treat",
+      "confide",
+      "mystical-fire",
+      "grassy-glide",
+      "skitter-smack",
+      "poltergeist"
+    ],
+    "held_items": [],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 844,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/710.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/710.png"
+    },
+    "species_name": "pumpkaboo",
+    "flavor_text": "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+    "genus": "Pumpkin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "brown",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/365/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 365,
+      "chain": {
+        "species_name": "pumpkaboo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gourgeist",
+            "evolution_details": [
+              {
+                "trigger": "trade"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

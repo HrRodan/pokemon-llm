@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 759,
+    "name": "stufful",
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 50,
+      "special-attack": 45,
+      "special-defense": 50,
+      "speed": 50
+    },
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 6.8,
+    "abilities": [
+      {
+        "name": "fluffy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "klutz",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cute-charm",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "stufful"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "bind",
+      "stomp",
+      "mega-kick",
+      "tackle",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "roar",
+      "strength",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "role-play",
+      "superpower",
+      "brick-break",
+      "rock-tomb",
+      "aerial-ace",
+      "bulk-up",
+      "hammer-arm",
+      "payback",
+      "fling",
+      "force-palm",
+      "focus-blast",
+      "zen-headbutt",
+      "iron-head",
+      "wide-guard",
+      "low-sweep",
+      "round",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "baby-doll-eyes",
+      "brutal-swing",
+      "stomping-tantrum",
+      "coaching"
+    ],
+    "held_items": [],
+    "base_experience": 68,
+    "is_default": true,
+    "order": 918,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/759.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/759.png"
+    },
+    "species_name": "stufful",
+    "flavor_text": "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
+    "genus": "Flailing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 140,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "pink",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/391/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 391,
+      "chain": {
+        "species_name": "stufful",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bewear",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 27
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

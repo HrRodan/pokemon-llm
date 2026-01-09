@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 723,
+    "name": "dartrix",
+    "stats": {
+      "hp": 78,
+      "attack": 75,
+      "defense": 75,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 52
+    },
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 16.0,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "long-reach",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dartrix"
+    ],
+    "moves": [
+      "swords-dance",
+      "gust",
+      "fury-attack",
+      "tackle",
+      "take-down",
+      "growl",
+      "peck",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "haze",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "foresight",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "knock-off",
+      "feather-dance",
+      "astonish",
+      "air-cutter",
+      "bullet-seed",
+      "aerial-ace",
+      "covet",
+      "magical-leaf",
+      "leaf-blade",
+      "roost",
+      "pluck",
+      "tailwind",
+      "worry-seed",
+      "sucker-punch",
+      "seed-bomb",
+      "air-slash",
+      "energy-ball",
+      "brave-bird",
+      "nasty-plot",
+      "shadow-claw",
+      "shadow-sneak",
+      "defog",
+      "leaf-storm",
+      "grass-knot",
+      "ominous-wind",
+      "round",
+      "echoed-voice",
+      "grass-pledge",
+      "work-up",
+      "grassy-terrain",
+      "confide",
+      "leafage",
+      "grassy-glide",
+      "dual-wingbeat",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 869,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/723.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/723.png"
+    },
+    "species_name": "dartrix",
+    "flavor_text": "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
+    "genus": "Blade Quill Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "brown",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/374/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 374,
+      "chain": {
+        "species_name": "rowlet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dartrix",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "decidueye",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 34
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

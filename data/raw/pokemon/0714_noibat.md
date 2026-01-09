@@ -1,0 +1,15 @@
+## Identity & Lore
+Noibat (Pokedex #714) is the Sound Wave Pokémon, a dual-type Flying and Dragon creature first discovered in the Kalos region of Generation VI. This small, purple bat-like Pokémon is primarily found inhabiting pitch-black caves, where it utilizes its enormous ears to emit ultrasonic waves reaching 200,000 hertz. These frequencies are powerful enough to shatter large boulders or even incapacitate professional wrestlers. Beyond its sonar capabilities, Noibat is known for its fondness for fruit, using its echolocation to pinpoint the ripeness of its meals. While Noibat does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, it is recognized as a "late-bloomer" in the Pokémon world, requiring significant experience before reaching its full draconic potential.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 30, Defense 35, Sp. Atk 45, Sp. Def 40, Speed 55.
+* **Archetype:** Fast Special Scout. While its base stat total is modest, its Speed and Special Attack are its most functional assets, allowing it to serve as a fast pivot in lower-tier competitive brackets like Little Cup.
+* **Type Matchups:** It is **weak to Rock, Dragon, and Fairy**, and possesses a devastating **Double Weakness (4x) to Ice**. Conversely, it **resists Fighting, Bug, Fire, and Water**, and has a double resistance to **Grass**, alongside a complete **immunity to Ground** moves.
+* **Move Selection:** Capitalizing on its Special Attack and Speed, key moves include **Draco Meteor** for high-impact damage, **Hurricane** or **Air Slash** for STAB (Same Type Attack Bonus) aerial coverage, and **Heat Wave** to punish Steel and Ice types that threaten it. **U-turn** or **Roost** are often utilized for tactical positioning and longevity.
+* **Abilities:** 
+    * **Frisk:** Allows the Pokémon to identify the opponent's held item upon entering battle, providing vital tactical intelligence.
+    * **Infiltrator:** A powerful competitive ability that enables Noibat’s attacks to bypass the effects of Reflect, Light Screen, Safeguard, Mist, and even Substitute.
+    * **Telepathy (Hidden):** Anticipates an ally's attack and dodges it, making it useful in Double Battles to avoid friendly fire from moves like Earthquake or Surf.
+
+## Evolution & Biology
+Noibat is part of a two-stage evolutionary line characterized by a long growth period. It evolves into the formidable Noivern once it reaches the high threshold of **Level 48**. This evolution marks its transition from a small cave-dweller into a predatory master of the skies. Biologically, Noibat belongs to both the **Flying and Dragon Egg Groups**, and it typically requires a moderate amount of time to hatch (Hatch Counter: 20). Despite its fragile appearance, its draconic bloodline grants it access to powerful elemental techniques and a diverse movepool that expands significantly as it nears its evolution.

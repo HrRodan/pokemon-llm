@@ -1,0 +1,218 @@
+{
+  "pokemon_details": {
+    "id": 435,
+    "name": "skuntank",
+    "stats": {
+      "hp": 103,
+      "attack": 93,
+      "defense": 67,
+      "special-attack": 71,
+      "special-defense": 61,
+      "speed": 84
+    },
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 38.0,
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "keen-eye",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "skuntank"
+    ],
+    "moves": [
+      "scratch",
+      "cut",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "smokescreen",
+      "haze",
+      "focus-energy",
+      "fire-blast",
+      "swift",
+      "poison-gas",
+      "explosion",
+      "fury-swipes",
+      "rest",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "torment",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "poison-tail",
+      "natural-gift",
+      "feint",
+      "payback",
+      "assurance",
+      "sucker-punch",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "defog",
+      "gunk-shot",
+      "captivate",
+      "hone-claws",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "hex",
+      "incinerate",
+      "tail-slap",
+      "snarl",
+      "belch",
+      "play-rough",
+      "confide",
+      "venom-drench",
+      "throat-chop",
+      "burning-jealousy",
+      "lash-out",
+      "corrosive-gas",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [
+      "pecha-berry"
+    ],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 563,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/435.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/435.png"
+    },
+    "species_name": "skuntank",
+    "flavor_text": "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+    "genus": "Skunk Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "purple",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/223/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 223,
+      "chain": {
+        "species_name": "stunky",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "skuntank",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

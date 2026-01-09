@@ -1,0 +1,219 @@
+{
+  "pokemon_details": {
+    "id": 322,
+    "name": "numel",
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 40,
+      "special-attack": 65,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 24.0,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "simple",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "numel"
+    ],
+    "moves": [
+      "stomp",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "strength",
+      "growth",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "fire-blast",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "flame-wheel",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "yawn",
+      "endeavor",
+      "secret-power",
+      "overheat",
+      "rock-tomb",
+      "howl",
+      "mud-shot",
+      "natural-gift",
+      "flare-blitz",
+      "earth-power",
+      "mud-bomb",
+      "zen-headbutt",
+      "flash-cannon",
+      "lava-plume",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "flame-burst",
+      "heavy-slam",
+      "flame-charge",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "bulldoze",
+      "heat-crash",
+      "confide",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "scorching-sands",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [
+      "rawst-berry"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 433,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/322.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/322.png"
+    },
+    "species_name": "numel",
+    "flavor_text": "NUMEL is extremely dull witted - it doesn\u2019t notice being hit. However, it can\u2019t stand hunger for even a second. This POK\u00e9MON\u2019s body is a seething cauldron of boiling magma.",
+    "genus": "Numb Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/162/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 162,
+      "chain": {
+        "species_name": "numel",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "camerupt",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

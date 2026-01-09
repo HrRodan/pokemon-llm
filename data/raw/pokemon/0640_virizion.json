@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 640,
+    "name": "virizion",
+    "stats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 72,
+      "special-attack": 90,
+      "special-defense": 129,
+      "speed": 108
+    },
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 200.0,
+    "abilities": [
+      {
+        "name": "justified",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "virizion"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "double-kick",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "secret-power",
+      "bullet-seed",
+      "aerial-ace",
+      "block",
+      "bounce",
+      "magical-leaf",
+      "calm-mind",
+      "leaf-blade",
+      "close-combat",
+      "worry-seed",
+      "aura-sphere",
+      "seed-bomb",
+      "air-slash",
+      "x-scissor",
+      "vacuum-wave",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "stone-edge",
+      "grass-knot",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "work-up",
+      "sacred-sword",
+      "confide",
+      "solar-blade",
+      "laser-focus",
+      "smart-strike",
+      "grassy-glide",
+      "coaching",
+      "tera-blast",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 763,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/640.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/640.png"
+    },
+    "species_name": "virizion",
+    "flavor_text": "This Pok\u00e9mon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+    "genus": "Grassland Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/327/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 327,
+      "chain": {
+        "species_name": "virizion",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

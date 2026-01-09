@@ -1,0 +1,12 @@
+## Identity & Lore
+Brute Bonnet (Pokedex #986) is the Paradox Pokémon, a mysterious creature first discovered in the Paldea region during the events of Generation IX. This ancient relative of the modern Amoonguss appears as a prehistoric, quadrupedal fungus with moss-like gray growth and weathered, Poké Ball-patterned caps. It was first detailed in the Scarlet Book, where it was described as a cross between a large mushroom and a dinosaur. Residing in the depths of Area Zero (the Great Crater of Paldea), Brute Bonnet is significantly more aggressive than its contemporary counterpart. While it does not possess a Mega Evolution or Gigantamax form, it is classified as a Paradox Form, representing an "ancient" divergent evolutionary path.
+
+## Combat Profile
+* **Stats:** HP 111, Attack 127, Defense 99, Sp. Atk 79, Sp. Def 99, Speed 55.
+* **Archetype:** Bulky Physical Tank. With massive base HP and high natural defenses, it is designed to survive hits while retaliating with overwhelming physical force.
+* **Type Matchups:** It is **weak to Fighting, Flying, Poison, Fire, Ice, and Fairy**. It has a critical **Double Weakness (4x) to Bug**. Conversely, it **resists Ground, Rock, Water, Grass, Electric, Ghost, and Dark**, and possesses a complete **Immunity to Psychic**.
+* **Move Selection:** Capitalizing on its high base Attack and utility, key moves include **Crunch** (heavy STAB damage), **Seed Bomb** (reliable physical Grass STAB), **Close Combat** (high-power coverage against Steel and Ice types), and **Spore** (a 100% accuracy sleep-inducing move that provides vital team support).
+* **Abilities:** Protosynthesis (Increases the Pokémon’s highest stat—usually Attack for this set—by 30% in harsh sunlight or if the Pokémon is holding a Booster Energy).
+
+## Evolution & Biology
+Brute Bonnet is a single-stage Paradox Pokémon and is not known to evolve into or from any other species. It exists as a standalone entity within the "No Eggs" group, meaning it cannot be bred in captivity. Biologically, it thrives in the unique ecosystem of Area Zero, where it utilizes its primitive appearance to lure in prey or threats before striking with unexpected speed and physical power. It follows a slow growth rate, requiring significant experience to reach its full combat potential. Though it shares the Grass/Dark typing of certain other Paldean species, its prehistoric lineage grants it a unique stat distribution that favors raw brawn over the tactical special-attack focus seen in modern Amoonguss.

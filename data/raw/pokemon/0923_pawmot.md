@@ -1,0 +1,15 @@
+## Identity & Lore
+Pawmot (Pokedex #923) is the Hands-On Pokémon, a dual Electric and Fighting-type species that represents the final evolution of the Paldean "Pikaclone" line. First discovered in the Paldea region during Generation IX, Pawmot is characterized by its yellow fur and the thick, fluffy coat on its forearms which serves as a battery for storing immense electrical charges. While this Pokémon is typically depicted as having a slow, laid-back reaction time in its daily life, it undergoes a dramatic transformation upon entering combat, striking down enemies with lightning-fast movements and specialized martial arts. While it currently possesses no Mega Evolution or Gigantamax form, Pawmot is globally recognized as one of the few Pokémon capable of utilizing the revolutionary move **Revival Blessing**, allowing it to restore a fainted teammate to life during battle.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 115, Defense 70, Sp. Atk 70, Sp. Def 60, Speed 105.
+* **Archetype:** Physical Offensive Pivot / Utility Specialist. With a high Base Attack and respectable Speed tier, Pawmot functions as a potent glass cannon.
+* **Type Matchups:** It is **weak to Ground, Flying, Psychic, and Fairy** types. It effectively **resists Electric, Rock, Bug, Steel, and Dark** moves.
+* **Move Selection:** Capitalizing on its high Attack stat and signature mechanics, Pawmot’s optimal kit includes **Double Shock** (a massive 120 BP Electric move that sacrifices its Electric typing), **Close Combat** (its primary Fighting-type STAB), **Ice Punch** (essential coverage for Ground and Flying-type weaknesses), and **Revival Blessing** (unprecedented utility to resurrect a fainted ally).
+* **Abilities:** 
+    * **Volt Absorb:** Provides a tactical immunity to Electric moves, healing the user for 25% of its Max HP when hit.
+    * **Natural Cure:** Heals any status conditions upon switching out, making it an excellent sponge for Will-O-Wisp or Thunder Wave.
+    * **Iron Fist (Hidden Ability):** Increases the power of punching moves (like Thunder Punch, Ice Punch, and Fire Punch) by 20%.
+
+## Evolution & Biology
+Pawmot is the final stage of a three-stage evolutionary line. It begins as **Pawmi**, which evolves into **Pawmo** starting at Level 18. The transition from Pawmo to Pawmot is unique: it occurs when the Pokémon levels up after the trainer has walked 1,000 steps with it outside of its Poké Ball using the "Let's Go" feature. Biologically, Pawmot belongs to the **Field (Ground)** egg group. Its anatomy is designed for kinetic electricity generation; it stores electricity in its paws and discharges it through physical contact, making it a master of "hands-on" combat. Unlike its pre-evolutions, Pawmot stands comfortably on two legs, allowing it to utilize complex punching techniques and advanced Fighting-type maneuvers.

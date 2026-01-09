@@ -1,0 +1,141 @@
+{
+  "pokemon_details": {
+    "id": 872,
+    "name": "snom",
+    "stats": {
+      "hp": 30,
+      "attack": 25,
+      "defense": 35,
+      "special-attack": 45,
+      "special-defense": 30,
+      "speed": 20
+    },
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 3.8,
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-scales",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "snom"
+    ],
+    "moves": [
+      "rest",
+      "substitute",
+      "snore",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "mirror-coat",
+      "facade",
+      "icicle-spear",
+      "bug-buzz",
+      "bug-bite",
+      "round",
+      "struggle-bug",
+      "fairy-wind",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 37,
+    "is_default": true,
+    "order": 1056,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/872.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/872.png"
+    },
+    "species_name": "snom",
+    "flavor_text": "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+    "genus": "Worm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "white",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/455/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 455,
+      "chain": {
+        "species_name": "snom",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "frosmoth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

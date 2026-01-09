@@ -1,0 +1,242 @@
+{
+  "pokemon_details": {
+    "id": 784,
+    "name": "kommo-o",
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 125,
+      "special-attack": 100,
+      "special-defense": 105,
+      "speed": 85
+    },
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 78.2,
+    "abilities": [
+      {
+        "name": "bulletproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "kommo-o"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "earthquake",
+      "toxic",
+      "screech",
+      "double-team",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "belly-drum",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "endeavor",
+      "hyper-voice",
+      "rock-tomb",
+      "metal-sound",
+      "sky-uppercut",
+      "aerial-ace",
+      "iron-defense",
+      "dragon-claw",
+      "bulk-up",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "close-combat",
+      "payback",
+      "fling",
+      "aura-sphere",
+      "rock-polish",
+      "poison-jab",
+      "aqua-tail",
+      "x-scissor",
+      "dragon-pulse",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "stealth-rock",
+      "autotomize",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "dual-chop",
+      "noble-roar",
+      "boomburst",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "clanging-scales",
+      "brutal-swing",
+      "stomping-tantrum",
+      "clangorous-soul",
+      "body-press",
+      "breaking-swipe",
+      "scale-shot",
+      "coaching",
+      "tera-blast",
+      "dragon-cheer",
+      "upper-hand"
+    ],
+    "held_items": [
+      "razor-claw"
+    ],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 960,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/784.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/784.png"
+    },
+    "species_name": "kommo-o",
+    "flavor_text": "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
+    "genus": "Scaly Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/408/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 408,
+      "chain": {
+        "species_name": "jangmo-o",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hakamo-o",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "kommo-o",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 45
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

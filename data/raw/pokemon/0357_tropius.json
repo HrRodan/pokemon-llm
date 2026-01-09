@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 357,
+    "name": "tropius",
+    "stats": {
+      "hp": 99,
+      "attack": 68,
+      "defense": 83,
+      "special-attack": 72,
+      "special-defense": 87,
+      "speed": 51
+    },
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 100.0,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tropius"
+    ],
+    "moves": [
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "gust",
+      "whirlwind",
+      "fly",
+      "slam",
+      "stomp",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "mud-slap",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "bullet-seed",
+      "aerial-ace",
+      "magical-leaf",
+      "leaf-blade",
+      "dragon-dance",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "worry-seed",
+      "seed-bomb",
+      "air-slash",
+      "dragon-pulse",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "defog",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "ominous-wind",
+      "wide-guard",
+      "round",
+      "bestow",
+      "bulldoze",
+      "dragon-tail",
+      "leaf-tornado",
+      "hurricane",
+      "petal-blizzard",
+      "grassy-terrain",
+      "confide",
+      "solar-blade",
+      "dragon-hammer",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "dual-wingbeat",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 475,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/357.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/357.png"
+    },
+    "species_name": "tropius",
+    "flavor_text": "The bunches of fruit around TROPIUS\u2019s neck are very popular with children. This POK\u00e9MON loves fruit, and eats it continuously. Apparently, its love for fruit resulted in its own outgrowth of fruit.",
+    "genus": "Fruit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/183/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 183,
+      "chain": {
+        "species_name": "tropius",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

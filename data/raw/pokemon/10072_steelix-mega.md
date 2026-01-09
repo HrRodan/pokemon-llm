@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Steelix (Pokedex #10072) is the formidable Mega Evolved form of the Iron Snake Pokémon. Originating from the Johto region in Generation II, Steelix is theorized to have evolved from Onix after its body was compressed deep underground, resulting in a composition harder than diamond. Upon Mega Evolving, Steelix undergoes a massive physical transformation, reaching a staggering length of 10.5 meters and a weight of 740 kilograms. Its body becomes adorned with crystalline protrusions and spinning metallic fragments that orbit its neck, reflecting its increased magnetic power. Typically found in deep cave systems, Mega Steelix represents the pinnacle of geological endurance, possessing a body reinforced by iron accumulated from years of swallowing soil.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 125, Defense 230, Sp. Atk 55, Sp. Def 95, Speed 30.
+* **Archetype:** Physical Tank / Bulky Attacker. With a monumental Defense stat of 230, Mega Steelix is one of the most physically durable Pokémon in existence.
+* **Type Matchups:** It is **weak to Fire, Water, Fighting, and Ground**. It possesses a massive array of resistances, including **Normal, Flying, Rock, Bug, Steel, Psychic, Dragon, and Fairy**, and is completely **immune to Poison and Electric** attacks.
+* **Move Selection:** Utilizing its high Attack and extremely low Speed, Mega Steelix excels with **Earthquake** and **Gyro Ball** (which deals more damage the slower the user is). It provides excellent utility with **Stealth Rock** for entry hazard pressure and can utilize **Heavy Slam**, which capitalizes on its massive 740kg weight to crush lighter opponents.
+* **Abilities:** Sand Force (Increases the power of Steel, Ground, and Rock-type moves by 30% during a Sandstorm, making it a terrifying offensive threat on weather-based teams).
+
+## Evolution & Biology
+Mega Steelix is the final stage of a three-part progression. It begins as **Onix**, a Rock/Ground type, which evolves into **Steelix** when **traded while holding a Metal Coat**. To achieve its Mega form, Steelix must undergo **Mega Evolution** during battle while holding its specific Mega Stone, **Steelixite**. Biologically, it belongs to the **Mineral** egg group, and its growth is dictated by a medium rate. Despite its sluggish movement speed, its biological structure allows it to withstand pressures that would liquefy most other Pokémon, making it a true titan of the subterranean world.

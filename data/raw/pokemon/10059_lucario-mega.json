@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 10059,
+    "name": "lucario-mega",
+    "stats": {
+      "hp": 70,
+      "attack": 145,
+      "defense": 88,
+      "special-attack": 140,
+      "special-defense": 70,
+      "speed": 112
+    },
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "height_m": 1.3,
+    "weight_kg": 57.5,
+    "abilities": [
+      {
+        "name": "adaptability",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "lucario-mega"
+    ],
+    "moves": [
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "psychic",
+      "quick-attack",
+      "double-team",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "foresight",
+      "detect",
+      "bone-rush",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "extreme-speed",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "role-play",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "iron-defense",
+      "bulk-up",
+      "calm-mind",
+      "water-pulse",
+      "feint",
+      "close-combat",
+      "payback",
+      "fling",
+      "me-first",
+      "magnet-rise",
+      "aura-sphere",
+      "poison-jab",
+      "dark-pulse",
+      "dragon-pulse",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "flash-cannon",
+      "stone-edge",
+      "hone-claws",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "heal-pulse",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "power-up-punch",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 219,
+    "is_default": false,
+    "order": 574,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10059.png"
+    },
+    "species_name": "lucario",
+    "flavor_text": "It has the ability to sense the auras of all things. It understands human speech.",
+    "genus": "Aura Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/232/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 232,
+      "chain": {
+        "species_name": "riolu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lucario",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

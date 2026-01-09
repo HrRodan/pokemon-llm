@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 743,
+    "name": "ribombee",
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 60,
+      "special-attack": 95,
+      "special-defense": 70,
+      "speed": 124
+    },
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.5,
+    "abilities": [
+      {
+        "name": "honey-gather",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shield-dust",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sweet-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ribombee"
+    ],
+    "moves": [
+      "take-down",
+      "hyper-beam",
+      "absorb",
+      "solar-beam",
+      "stun-spore",
+      "toxic",
+      "psychic",
+      "agility",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "sweet-scent",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "aromatherapy",
+      "fake-tears",
+      "silver-wind",
+      "signal-beam",
+      "aerial-ace",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "last-resort",
+      "bug-buzz",
+      "energy-ball",
+      "switcheroo",
+      "giga-impact",
+      "defog",
+      "grass-knot",
+      "bug-bite",
+      "wonder-room",
+      "telekinesis",
+      "magic-room",
+      "quiver-dance",
+      "after-you",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "acrobatics",
+      "struggle-bug",
+      "sticky-web",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "infestation",
+      "pollen-puff",
+      "lunge",
+      "speed-swap",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce",
+      "trailblaze",
+      "alluring-voice",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "honey"
+    ],
+    "base_experience": 162,
+    "is_default": true,
+    "order": 894,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/743.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/743.png"
+    },
+    "species_name": "ribombee",
+    "flavor_text": "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.",
+    "genus": "Bee Fly Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "bug-wings",
+    "color": "yellow",
+    "egg_groups": [
+      "bug",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/382/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 382,
+      "chain": {
+        "species_name": "cutiefly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ribombee",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

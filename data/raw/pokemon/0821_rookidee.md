@@ -1,0 +1,12 @@
+## Identity & Lore
+Rookidee (Pokedex #821) is the Tiny Bird Pokémon and serves as the iconic early-route avian species of the Galar region, first discovered in Generation VIII. Despite its small stature and delicate blue plumage, Rookidee is famously feisty and territorial; it possesses a fearless temperament that drives it to challenge much larger and more powerful opponents. This combat-oriented biology ensures that even in defeat, Rookidee gains experience and grit, eventually maturing into the formidable Corvisquire and finally the steel-clad Corviknight. While Rookidee itself does not possess alternate forms, its final evolution, Corviknight, is renowned for its Gigantamax form and its role as the primary transport for the Galar Taxi service.
+
+## Combat Profile
+* **Stats:** HP 38, Attack 47, Defense 35, Sp. Atk 33, Sp. Def 35, Speed 57.
+* **Archetype:** Early-game Physical Attacker / Utility Scout.
+* **Type Matchups:** As a pure Flying-type, it is **weak to Rock, Electric, and Ice**. It **resists Fighting, Bug, and Grass**, and possesses a total **immunity to Ground-type** moves.
+* **Move Selection:** Rookidee relies on its physical Attack and Speed to disrupt opponents. Key moves include **Brave Bird** for high-impact STAB (Same Type Attack Bonus) damage, **U-turn** for pivoting out of unfavorable matchups, **Roost** to maintain longevity by recovering health, and **Drill Peck** for consistent, reliable offense without recoil.
+* **Abilities:** **Keen Eye** prevents other Pokémon from lowering its accuracy and ignores evasion boosts. **Unnerve** creates psychological pressure that prevents opponents from eating their held Berries. Its Hidden Ability, **Big Pecks**, prevents its Defense stat from being lowered by enemy effects, foreshadowing the defensive prowess of its evolved forms.
+
+## Evolution & Biology
+Rookidee is the first stage of a three-stage evolutionary line. It evolves into **Corvisquire** starting at **Level 18**, which further develops its predatory instincts. The line reaches its peak when it evolves into **Corviknight** starting at **Level 38**, gaining the secondary Steel typing. Rookidee belongs to the **Flying** Egg Group, and researchers note a hatch counter of 15 (approximately 3,840–4,096 steps). Its growth rate is categorized as Medium-Slow, requiring significant training to reach its full potential as a heavy-armored aerial ace.

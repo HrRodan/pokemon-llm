@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 429,
+    "name": "mismagius",
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 105,
+      "special-defense": 105,
+      "speed": 105
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 4.4,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "mismagius"
+    ],
+    "moves": [
+      "headbutt",
+      "growl",
+      "psybeam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "swift",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "fake-tears",
+      "extrasensory",
+      "aerial-ace",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "lucky-chant",
+      "sucker-punch",
+      "dark-pulse",
+      "power-gem",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-sneak",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "ominous-wind",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "phantom-force",
+      "draining-kiss",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "laser-focus",
+      "burning-jealousy",
+      "lash-out",
+      "poltergeist",
+      "tera-blast",
+      "snowscape",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 296,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/429.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/429.png"
+    },
+    "species_name": "mismagius",
+    "flavor_text": "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
+    "genus": "Magical Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/98/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 98,
+      "chain": {
+        "species_name": "misdreavus",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mismagius",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "dusk-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

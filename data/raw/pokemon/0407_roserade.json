@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 407,
+    "name": "roserade",
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 65,
+      "special-attack": 125,
+      "special-defense": 105,
+      "speed": 90
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 14.5,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "roserade"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "body-slam",
+      "poison-sting",
+      "pin-missile",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "petal-dance",
+      "toxic",
+      "double-team",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "secret-power",
+      "weather-ball",
+      "aromatherapy",
+      "bullet-seed",
+      "covet",
+      "magical-leaf",
+      "natural-gift",
+      "worry-seed",
+      "toxic-spikes",
+      "poison-jab",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "leaf-storm",
+      "power-whip",
+      "captivate",
+      "grass-knot",
+      "venoshock",
+      "round",
+      "petal-blizzard",
+      "grassy-terrain",
+      "confide",
+      "venom-drench",
+      "dazzling-gleam",
+      "laser-focus",
+      "grassy-glide"
+    ],
+    "held_items": [
+      "poison-barb",
+      "absorb-bulb"
+    ],
+    "base_experience": 232,
+    "is_default": true,
+    "order": 425,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/407.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/407.png"
+    },
+    "species_name": "roserade",
+    "flavor_text": "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
+    "genus": "Bouquet Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "fairy",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/158/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 158,
+      "chain": {
+        "species_name": "budew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "roselia",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "roserade",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

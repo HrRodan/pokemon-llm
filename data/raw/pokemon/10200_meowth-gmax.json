@@ -1,0 +1,116 @@
+{
+  "pokemon_details": {
+    "id": 10200,
+    "name": "meowth-gmax",
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 33.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "meowth-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10200.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10200.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10200.png"
+    },
+    "species_name": "meowth",
+    "flavor_text": "It washes its face regularly to keep the coin on its forehead spotless. It doesn\u2019t get along with Galarian Meowth.",
+    "genus": "Scratch Cat Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/22/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 22,
+      "chain": {
+        "species_name": "meowth",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "persian",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "perrserker",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

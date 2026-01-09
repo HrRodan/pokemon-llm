@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 485,
+    "name": "heatran",
+    "stats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 106,
+      "special-attack": 130,
+      "special-defense": 106,
+      "speed": 77
+    },
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 430.0,
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "heatran"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "leer",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "self-destruct",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "taunt",
+      "secret-power",
+      "overheat",
+      "rock-tomb",
+      "metal-sound",
+      "iron-defense",
+      "rock-blast",
+      "natural-gift",
+      "payback",
+      "flare-blitz",
+      "dark-pulse",
+      "dragon-pulse",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "fire-fang",
+      "flash-cannon",
+      "rock-climb",
+      "lava-plume",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "magma-storm",
+      "heavy-slam",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "heat-crash",
+      "confide",
+      "lunge",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "steel-roller",
+      "burning-jealousy",
+      "scorching-sands",
+      "tera-blast",
+      "pounce",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 598,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/485.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/485.png"
+    },
+    "species_name": "heatran",
+    "flavor_text": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+    "genus": "Lava Dome Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 100,
+    "hatch_counter": 10,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/246/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 246,
+      "chain": {
+        "species_name": "heatran",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

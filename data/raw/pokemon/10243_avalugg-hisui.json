@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 10243,
+    "name": "avalugg-hisui",
+    "stats": {
+      "hp": 95,
+      "attack": 127,
+      "defense": 184,
+      "special-attack": 34,
+      "special-defense": 36,
+      "speed": 38
+    },
+    "types": [
+      "ice",
+      "rock"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 262.4,
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "avalugg-hisui"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "recover",
+      "harden",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "powder-snow",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "rapid-spin",
+      "rain-dance",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "ice-ball",
+      "rock-tomb",
+      "icicle-spear",
+      "iron-defense",
+      "rock-blast",
+      "water-pulse",
+      "gyro-ball",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "wide-guard",
+      "heavy-slam",
+      "bulldoze",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "meteor-beam",
+      "power-shift",
+      "mountain-gale",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 180,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10243.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10243.png"
+    },
+    "species_name": "avalugg",
+    "flavor_text": "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
+    "genus": "Iceberg Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 55,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/366/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 366,
+      "chain": {
+        "species_name": "bergmite",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "avalugg",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

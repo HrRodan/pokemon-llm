@@ -1,0 +1,12 @@
+## Identity & Lore
+Scream Tail (Pokedex #985) is the Paradox Pokémon, a mysterious and primitive relative of the contemporary Jigglypuff discovered within the Great Crater of Paldea (Area Zero). Introduced in Generation IX (Paldea), this Fairy/Psychic-type is classified as an "Ancient Pokémon," rumored to be a version of Jigglypuff from a billion years ago. It is characterized by its long, whip-like ponytail, fierce yellow eyes, and protruding fangs, which contrast sharply with the docile nature of its modern descendant. According to the Scarlet Book, it is a feral creature that possesses a "scream" so loud and unsettling that it gives the species its name. While it does not possess a Mega Evolution or Gigantamax form, it belongs to the exclusive group of Paradox Pokémon, which are considered biological anomalies with power levels comparable to minor legendary entities.
+
+## Combat Profile
+* **Stats:** HP 115, Attack 65, Defense 99, Sp. Atk 65, Sp. Def 115, Speed 111.
+* **Archetype:** Fast Bulky Support / Defensive Pivot.
+* **Type Matchups:** It is **weak to Poison, Steel, and Ghost**. It possesses a **double resistance (1/4x) to Fighting** and a standard resistance to **Psychic**. Furthermore, its Fairy typing grants it a total **Immunity to Dragon-type** moves.
+* **Move Selection:** While its offensive stats are modest, Scream Tail utilizes its high Speed and bulk to disrupt opponents. Key moves include **Dazzling Gleam** (Special STAB), **Psychic Noise** (Special STAB that prevents healing), **Stealth Rock** (Hazard support), and **Wish** (Recovery for itself or teammates).
+* **Abilities:** Protosynthesis (In bright sunshine or when holding Booster Energy, its highest stat—usually Speed or Special Defense—is increased by 30%, or 50% if Speed is the highest).
+
+## Evolution & Biology
+Scream Tail is a single-stage Pokémon and is not known to evolve into or from any other species. It shares a striking biological resemblance to Jigglypuff, but genetic analysis suggests it is a separate entity displaced from a distant past. Because it is a Paradox Pokémon, it belongs to the **No Eggs Discovered** egg group, meaning it cannot breed in captivity. It has a **Slow** growth rate and a high base experience yield, reflecting the difficulty of taming such a primal creature. Its biology is optimized for survival in a prehistoric environment, trading the "Balloon" Pokémon's soft nature for high-speed mobility and immense special resilience.

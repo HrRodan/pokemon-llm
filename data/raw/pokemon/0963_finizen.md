@@ -1,0 +1,12 @@
+## Identity & Lore
+Finizen (#963) is the Dolphin Pokémon, a social and highly intelligent aquatic species first discovered in the Paldea region during Generation IX. This sleek, blue-colored creature is characterized by the distinct ring of water around its tail, which it uses as a plaything when interacting with members of its pod. Biologically advanced, Finizen utilizes ultrasonic waves not just for navigation, but to sense the complex emotions of other living beings, often showing empathy toward those in distress. While Finizen itself maintains a modest appearance, it possesses incredible hidden potential, eventually evolving into Palafin—a Pokémon capable of entering a "Hero Form" that rivals the power of Legendary Pokémon.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 45, Defense 40, Sp. Atk 45, Sp. Def 40, Speed 75.
+* **Archetype:** Fast Utility Scout. While its offensive stats are currently low, its base Speed of 75 allows it to act as a disruptive pivot in lower-tier competitive brackets.
+* **Type Matchups:** It is **weak to Grass and Electric** types. It **resists Fire, Water, Ice, and Steel** moves, making it a reliable switch-in against common elemental attacks.
+* **Move Selection:** Capitalizing on its balanced offensive stats and utility, key moves include **Liquidation** for physical STAB damage, **Ice Beam** to punish Grass-type switch-ins, **Aqua Jet** for necessary priority, and **Encore** to lock opponents into unfavorable moves.
+* **Abilities:** **Water Veil** prevents the Pokémon from being afflicted by the burn status. This is tactically significant as it protects Finizen's physical damage output from being halved and prevents residual chip damage.
+
+## Evolution & Biology
+Finizen is part of a two-stage evolutionary line. It evolves into Palafin starting at **Level 38**, but it carries a unique social requirement: the evolution only triggers while the trainer is connected with others via the **Union Circle** (multiplayer mode). Biologically, Finizen is a member of the **Field (Ground) and Water 2** Egg Groups, showing a surprising terrestrial compatibility despite its fish-like shape. Its growth rate is slow, requiring significant experience to reach its heroic potential, and it possesses a hatch counter of 40, indicating a standard incubation period for marine Pokémon.

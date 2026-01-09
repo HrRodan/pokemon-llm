@@ -1,0 +1,155 @@
+{
+  "pokemon_details": {
+    "id": 10249,
+    "name": "enamorus-therian",
+    "stats": {
+      "hp": 74,
+      "attack": 115,
+      "defense": 110,
+      "special-attack": 135,
+      "special-defense": 100,
+      "speed": 46
+    },
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 48.0,
+    "abilities": [
+      {
+        "name": "overcoat",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "enamorus-therian"
+    ],
+    "moves": [
+      "fly",
+      "body-slam",
+      "take-down",
+      "hyper-beam",
+      "psychic",
+      "agility",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "uproar",
+      "torment",
+      "flatter",
+      "facade",
+      "taunt",
+      "superpower",
+      "imprison",
+      "astonish",
+      "weather-ball",
+      "extrasensory",
+      "iron-defense",
+      "calm-mind",
+      "healing-wish",
+      "tailwind",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "grass-knot",
+      "disarming-voice",
+      "draining-kiss",
+      "grassy-terrain",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "mystical-fire",
+      "dazzling-gleam",
+      "misty-explosion",
+      "springtide-storm",
+      "tera-blast",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 116,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10249.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10249.png"
+    },
+    "species_name": "enamorus",
+    "flavor_text": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pok\u00e9mon's love gives rise to the budding of fresh life across Hisui.",
+    "genus": "Love-Hate Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/477/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 477,
+      "chain": {
+        "species_name": "enamorus",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

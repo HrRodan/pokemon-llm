@@ -1,0 +1,12 @@
+## Identity & Lore
+Chespin (#650) is the Spiny Nut Pokémon and serves as the iconic Grass-type starter for trainers beginning their journey in the Kalos region (Generation VI). This green-colored bipedal Pokémon is easily recognized by the thick, nut-like shell that covers its head and back. According to its biology, the quills on its head are usually soft to the touch; however, when Chespin flexes its muscles, these points become incredibly hard and sharp, gaining enough durability to pierce through solid rock. While Chespin itself does not possess a Mega Evolution or Gigantamax form, its evolutionary path leads to the formidable Chesnaught, a Pokémon known for its knight-like armor and signature Spiky Shield. Its curious and optimistic nature makes it a favorite among Kalosian trainers, though it is known to be quite a glutton, often getting into trouble while searching for food.
+
+## Combat Profile
+* **Stats:** HP 56, Attack 61, Defense 65, Sp. Atk 48, Sp. Def 45, Speed 38.
+* **Archetype:** Physical Tank / Brawler.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, and Ice**. It provides defensive utility by **resisting Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Capitalizing on its superior Physical Attack stat over its Special Attack, Chespin is most effective using **Wood Hammer** for massive STAB (Same Type Attack Bonus) damage, **Seed Bomb** for a reliable physical plant-based strike, **Superpower** to break through Steel and Ice types, and **Stone Edge** to provide crucial coverage against its Flying and Fire-type weaknesses.
+* **Abilities:** **Overgrow** (Standard starter ability that boosts the power of Grass-type moves by 50% when HP is below one-third) and **Bulletproof** (A rare and powerful Hidden Ability that grants complete immunity to "ball" and "bomb" moves, such as Shadow Ball, Sludge Bomb, and Focus Blast).
+
+## Evolution & Biology
+Chespin is the first stage of a three-stage evolutionary line. It evolves into the sturdy **Quilladin** starting at **Level 16**, which later matures into the juggernaut **Chesnaught** at **Level 36**. Biologically, it belongs to the **Field (Ground)** Egg Group, sharing breeding compatibility with a wide variety of land-dwelling mammals. It has a medium-slow growth rate and a hatch counter of 20, requiring a dedicated amount of steps to hatch from an egg. Its physical design, transitioning from a soft-quilled creature to a heavily armored warrior, reflects a biological focus on increasing defensive shell density as it ages.

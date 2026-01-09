@@ -1,0 +1,12 @@
+## Identity & Lore
+Glimmora (#970) is the Ore Pokémon, a dual-type Rock and Poison-type creature first discovered in the Paldea region during Generation IX. It possesses a striking, non-organic appearance characterized by a conical body surrounded by six crystalline blue petals that resemble a blooming flower or a large mineral formation. When it senses danger, Glimmora unfurls these petals to fire concentrated energy beams from its core. Lore suggests a deep biological connection between Glimmora and the Terastal phenomenon; its crystalline structure closely mirrors the Tera Jewels found in the depths of Area Zero and the Great Crater of Paldea. While it does not possess a Mega Evolution or Gigantamax form, it is famously known as the signature Pokémon of Geeta, the Top Champion of the Paldea Pokémon League, often serving as her final ace or a strategic lead.
+
+## Combat Profile
+* **Stats:** HP 83, Attack 55, Defense 90, Sp. Atk 130, Sp. Def 81, Speed 86.
+* **Archetype:** Special Tank / Hazard Lead.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ground** and is also weak to Psychic, Steel, and Water. It resists Normal, Fire, Poison, Flying, Bug, and Fairy-type moves.
+* **Move Selection:** Leveraging its massive base 130 Special Attack and unique utility, Glimmora excels with moves such as **Mortal Spin** (a signature Poison-type move that clears entry hazards and poisons foes), **Power Gem** (primary Rock STAB), **Sludge Wave** (high-damage Poison STAB), and **Earth Power** (for coverage against Steel and Poison types).
+* **Abilities:** **Toxic Debris** (Scatters Toxic Spikes on the opposing field whenever the Pokémon is hit by a physical move, making it an elite hazard setter) and **Corrosion** (Hidden Ability that allows it to inflict the Poison status even on Steel and Poison-type Pokémon).
+
+## Evolution & Biology
+Glimmora is the second and final stage of a two-part evolutionary line. It evolves from **Glimmet** once it reaches **Level 35**. Biologically, Glimmora is unique in its "ball" shape and mineral composition, behaving more like a living crystal than a biological organism. It belongs to the **Mineral** egg group, and its growth rate is categorized as medium-slow. In the wild, it is most commonly found clinging to cave walls in high-energy environments, particularly within the lower strata of Area Zero, where it thrives on the unique mineral deposits found there.

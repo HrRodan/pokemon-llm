@@ -1,0 +1,12 @@
+## Identity & Lore
+Aromatisse (#683) is the Fragrance Pokémon, a specialized Fairy-type creature first discovered in the Kalos region (Generation VI). This pink, humanoid Pokémon is renowned for its olfactory capabilities, possessing the ability to devise and emit a vast array of scents ranging from incredibly pleasant perfumes to repulsive stenches designed to weaken its opponents' resolve. Visually, its design draws inspiration from a combination of masquerade dancers, perfume bottles, and the beak-like masks worn by medieval plague doctors. While it does not possess a Mega Evolution, Gigantamax, or Paradox form, its unique biology allows it to act as a potent support specialist in diverse environments.
+
+## Combat Profile
+* **Stats:** HP 101, Attack 72, Defense 72, Sp. Atk 99, Sp. Def 89, Speed 29.
+* **Archetype:** Trick Room Setter / Bulky Special Attacker.
+* **Type Matchups:** As a pure Fairy-type, it is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and possesses a total **immunity to Dragon-type** moves.
+* **Move Selection:** Capitalizing on its high Special Attack and abysmal Speed, Aromatisse excels when using **Trick Room** to manipulate the turn order. Its primary offensive tools include **Moonblast** for heavy STAB damage and **Dazzling Gleam** for hitting multiple targets. For coverage and utility, it frequently employs **Psychic** to handle Poison-type threats and **Thunderbolt** for Flying or Water-types.
+* **Abilities:** **Healer** provides a 30% chance to cure an ally's status condition at the end of each turn in double battles. Its Hidden Ability, **Aroma Veil**, is highly valued in competitive play as it protects Aromatisse and its allies from mental-affecting moves such as Taunt, Torment, Encore, and Disable.
+
+## Evolution & Biology
+Aromatisse is part of a two-stage evolutionary line. It evolves from **Spritzee** only when **traded while holding a Sachet**. Biologically, Aromatisse is often used by royalty and perfumers for its ability to create custom fragrances, though its "Aromatic Mist" can be used defensively to shroud its allies. It belongs to the **Fairy** Egg Group and has a hatch counter of 20, making it a relatively accessible Pokémon for breeders. Its movement is often described as a rhythmic dance, further emphasizing its flamboyant and expressive nature.

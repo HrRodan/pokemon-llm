@@ -1,0 +1,12 @@
+## Identity & Lore
+Sandygast (#769) is the Sand Heap Pokémon, a spectral entity first discovered in the Alola region of Generation VII. This Ghost/Ground-type Pokémon is born from the lingering grudges of the departed that inhabit mounds of sand playfully built by children on beaches. Its most distinctive feature is the red shovel stuck into its head; if a child or traveler is lured into grabbing the shovel, Sandygast exerts its will to possess them, forcing its victim to pile up more sand to enlarge its body. Though it does not possess a Mega Evolution, Gigantamax, or Paradox form, its evolved form, Palossand, is legendary for its ability to trap small Pokémon beneath its castle-like structure to consume their life force.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 55, Defense 80, Sp. Atk 70, Sp. Def 45, Speed 15.
+* **Archetype:** Physical Tank / Special Attacker.
+* **Type Matchups:** It is **weak to Water, Grass, Ice, Ghost, and Dark**. Due to its unique dual-typing, it is **immune to Normal, Fighting, and Electric** types. It possesses resistances to **Poison, Bug, and Rock**.
+* **Move Selection:** Capitalizing on its superior Special Attack and its status as a Ground-type, key moves include **Shadow Ball** (strong Ghost STAB), **Earth Power** (high-damage Ground STAB), **Giga Drain** (to counter Water-type threats and restore health), and **Shore Up** (a premier recovery move that heals 50% HP, or 66% during a Sandstorm).
+* **Abilities:** **Water Compaction** (A unique tactical ability that raises its Defense by two stages when hit by a Water-type move, effectively punishing opponents for exploiting its weakness) and **Sand Veil** (Increases evasion during a Sandstorm, making it harder to hit).
+
+## Evolution & Biology
+Sandygast is part of a two-stage evolutionary line. It evolves into **Palossand** when it reaches **Level 42**, growing from a simple mound of sand into a massive, haunted sandcastle. It belongs to the **Amorphous** (Indeterminate) egg group and is frequently found carrying a **Spell Tag**, which boosts the power of its Ghost-type maneuvers. Biologically, it is highly dependent on its "mouth"—the tunnel in its center—to draw in prey and its shovel to manipulate the minds of humans, making it one of the more dangerous spectral residents of coastal Alolan habitats.

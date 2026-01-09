@@ -1,0 +1,15 @@
+## Identity & Lore
+Durant (Pokedex #632) is the Iron Ant Pokémon, a formidable metallic insectoid first discovered in the Unova region of Generation V. Standing at 0.3 meters and weighing 33 kilograms, this gray-colored Pokémon is characterized by its heavy steel armor, which it developed specifically as a biological defense mechanism against its natural predator, Heatmor. Durant are highly social and industrious, known for digging incredibly deep and intricate tunnels within mountains. They exhibit a hive-minded swarm intelligence, coordinating their attacks to overwhelm enemies that breach their territory. While Durant does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants, its unique rivalry with Heatmor remains one of the most cited examples of predator-prey evolution in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 58, Attack 109, Defense 112, Sp. Atk 48, Sp. Def 48, Speed 109.
+* **Archetype:** Physical Wallbreaker / Revenge Killer. With high physical Defense and matching 109 base Speed and Attack, Durant is designed to hit hard and fast before its low Special bulk can be exploited.
+* **Type Matchups:** As a Bug/Steel type, it suffers from a **Double Weakness (4x) to Fire**. Conversely, it is **immune to Poison** and highly **resists Grass, Bug, Steel, Psychic, Ice, Dragon, Fairy, and Normal** types.
+* **Move Selection:** Capitalizing on its high Physical Attack, key moves include **First Impression** (for massive priority damage on the first turn), **Iron Head** (for STAB damage and a chance to flinch), **X-Scissor** (reliable Bug-type STAB), and **Hone Claws** (to boost its Attack and fix accuracy issues).
+* **Abilities:** 
+    * **Hustle:** Boosts the Pokémon’s Attack stat by 50% but lowers the accuracy of physical moves by 20%; this makes Durant a terrifying, albeit risky, offensive threat.
+    * **Swarm:** Powers up Bug-type moves by 50% when HP is low.
+    * **Truant (Hidden Ability):** The Pokémon can only use a move every other turn. While normally a hindrance, Durant uses this competitively with the move **Entrainment** to force the opponent into the Truant cycle, allowing a teammate to set up safely.
+
+## Evolution & Biology
+Durant is a single-stage Pokémon and does not evolve into or from any other species. It is biologically linked to its habitat through its tunneling behavior, often found in rocky or mountainous terrain where it can mine for minerals to reinforce its exoskeleton. It belongs to the **Bug** Egg Group, and with a Hatch Counter of 20, it requires significant effort to breed for competitive use. Despite its small size, its "armor" shape classification is a testament to its durability against physical strikes. In the wild, they are rarely found alone, as their survival strategy relies entirely on the strength of the colony.

@@ -1,0 +1,163 @@
+{
+  "pokemon_details": {
+    "id": 349,
+    "name": "feebas",
+    "stats": {
+      "hp": 20,
+      "attack": 15,
+      "defense": 20,
+      "special-attack": 10,
+      "special-defense": 55,
+      "speed": 80
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 7.4,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "feebas"
+    ],
+    "moves": [
+      "tackle",
+      "double-edge",
+      "mist",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "toxic",
+      "hypnosis",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "haze",
+      "waterfall",
+      "swift",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "mirror-coat",
+      "whirlpool",
+      "hail",
+      "facade",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "tickle",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "dragon-pulse",
+      "captivate",
+      "round",
+      "scald",
+      "confide",
+      "scale-shot",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 40,
+    "is_default": true,
+    "order": 462,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/349.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/349.png"
+    },
+    "species_name": "feebas",
+    "flavor_text": "FEEBAS\u2019s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this POK\u00e9MON is largely ignored. It is capable of living in both the sea and in rivers.",
+    "genus": "Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "waters-edge",
+    "shape": "fish",
+    "color": "brown",
+    "egg_groups": [
+      "water1",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/178/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 178,
+      "chain": {
+        "species_name": "feebas",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "milotic",
+            "evolution_details": [
+              {
+                "trigger": "level-up"
+              },
+              {
+                "trigger": "trade",
+                "held_item": "prism-scale"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

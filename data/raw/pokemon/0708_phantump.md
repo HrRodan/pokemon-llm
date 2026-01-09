@@ -1,0 +1,15 @@
+## Identity & Lore
+Phantump (Pokedex #708) is the Stump Pokémon, a spectral entity first discovered in the Kalos region of Generation VI. This Ghost/Grass-type occupies a chilling niche in Pokémon folklore; it is said that these creatures are created when spirits—often those of children who became lost and perished in the woods—possess rotten tree stumps. Phantump primarily inhabits abandoned, dark forests where its eerie cries, which sound like a child’s voice, can be heard echoing through the trees. While Phantump itself does not have a Mega Evolution or Gigantamax form, its evolution, Trevenant, is known as the "Forest's Protector," capable of controlling trees to trap those who harm the woods. Its appearance is characterized by a dark, shadowy body inhabiting a small brown stump with two leafy sprigs extending like small arms.
+
+## Combat Profile
+* **Stats:** HP 43, Attack 70, Defense 48, Sp. Atk 50, Sp. Def 60, Speed 38.
+* **Archetype:** Physical Bulk-Attacker / Utility Disruptor. In its base form, Phantump functions best as a physical attacker with high utility in the Little Cup competitive tier.
+* **Type Matchups:** It is **weak to Ghost, Dark, Flying, Poison, Bug, Fire, and Ice**. It **resists Ground, Water, Grass, and Electric**-type attacks, and possesses complete **immunity to Normal and Fighting** moves.
+* **Move Selection:** Leveraging its superior Physical Attack stat and STAB (Same Type Attack Bonus) options, key moves include **Horn Leech** (for damage and health sustain), **Poltergeist** (a high-power physical Ghost move), **Wood Hammer** (for maximum grass-type damage), and **Will-O-Wisp** (to burn opponents and compensate for its lower physical Defense).
+* **Abilities:** 
+    * **Natural Cure:** Heals any status conditions (like Burn or Paralysis) upon switching out of battle.
+    * **Frisk:** Allows the Pokémon to identify the opponent's held item upon entering battle, providing vital scouting intel.
+    * **Harvest (Hidden Ability):** Provides a 50% chance (100% in Sunshine) to restore a consumed Berry at the end of each turn, enabling powerful "infinite" recovery cycles when paired with a Sitrus or Lum Berry.
+
+## Evolution & Biology
+Phantump is the first stage of a two-stage evolutionary line. It evolves into the formidable **Trevenant** only when **traded** between trainers, a process that fully integrates the spirit with the wooden vessel. Biologically, Phantump belongs to the **Plant (Grass)** and **Indeterminate (Amorphous)** Egg Groups. Its growth is categorized as "Medium," and it requires significant care to hatch, with a hatch counter of 20 (approximately 5,120 steps). Despite its ghostly nature, it maintains a symbiotic relationship with the forest, using its "Forest's Curse" move to add the Grass-type to its opponents, symbolically marking them as part of the woodland domain.

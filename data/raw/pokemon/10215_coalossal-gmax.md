@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Coalossal (Pokedex #10215) is the massive, G-Max form of the Coal Pokémon, a towering bipedal furnace originating from the Galar region in Generation VIII. In this Gigantamax state, Coalossal transforms into a literal mountain of burning fuel, reaching a staggering height of over 42 meters. Its body serves as a colossal combustion chamber, fueled by flames that exceed 2,700 degrees Fahrenheit. While generally peaceful in nature, it is a fierce guardian of the mines where it makes its home; any vandalism or intrusion into its territory results in immediate and total incineration. This form is functionally the pinnacle of the Rolycoly line, manifesting when a Coalossal possessing the Gigantamax Factor undergoes Dynamaxing, allowing it to unleash the signature move **G-Max Volcalith**, which deals continuous damage to non-Rock-type opponents for four turns.
+
+## Combat Profile
+* **Stats:** HP 110, Attack 80, Defense 120, Sp. Atk 80, Sp. Def 90, Speed 30.
+* **Archetype:** Bulky Mixed Sweeper / Reactive Tank.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Water and Ground**, and is also weak to **Fighting and Rock**. Conversely, it provides significant utility by **resisting Normal, Flying, Poison, Bug, Ice, and Fairy**, and is notably resistant to **Fire**.
+* **Move Selection:** Despite its low base speed, Coalossal becomes a terrifying offensive threat when its stats are utilized correctly. Key moves include **Meteor Beam** (to boost Sp. Atk), **Heat Wave** (for spread damage), **Solar Beam** (to punish its 4x Water weakness in sun), and **Stealth Rock** or **Spikes** for entry hazard support.
+* **Abilities:** 
+    * **Steam Engine:** Its signature tactical ability; if hit by a Fire or Water-type move, its Speed stat is boosted by six stages, instantly transforming it from a slow tank into the fastest Pokémon on the field.
+    * **Flame Body:** Provides a 30% chance to burn any opponent that makes physical contact, bolstering its high physical Defense.
+    * **Flash Fire (Hidden):** Grants total immunity to Fire-type moves and powers up its own Fire moves if hit by one.
+
+## Evolution & Biology
+Gigantamax Coalossal is the final state of a three-stage evolutionary line. It begins as **Rolycoly**, a small rock-like creature that rolls on a wheel-like leg. Rolycoly evolves into the ore-cart-like **Carkol** starting at **Level 18**. Carkol then reaches its final standard form, **Coalossal**, starting at **Level 34**. To achieve the Gigantamax form described here, a Coalossal must specifically possess the Gigantamax Factor, typically acquired through Max Raid Dens or by consuming Max Soup in the Isle of Armor. Biologically, it belongs to the **Mineral** egg group and is often found in deep mountain caverns and coal mines. Its body is a vital source of heat and energy, historically used by the people of Galar to fuel their homes and industries.

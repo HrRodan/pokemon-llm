@@ -1,0 +1,12 @@
+## Identity & Lore
+Dudunsparce in its rare Three-Segment Form (Pokedex #10255) is the Land Snake Pokémon, a massive expansion of its precursor, Dunsparce. First discovered in the Paldea region during Generation IX, this Normal-type Pokémon is notable for its elongated, segmented body which can reach lengths of 14 feet. It uses its powerful, hardened tail as a drill to bore through solid bedrock deep underground, creating complex labyrinthine nests that can span over six miles. While it does not possess a Mega Evolution or Gigantamax form, the Three-Segment Form is a rare biological phenotype, occurring in only about 1% of the population upon evolution. Despite its comical appearance, its sheer size and tunneling capabilities make it a formidable presence in the subterranean ecosystems of the Paldean wilderness.
+
+## Combat Profile
+* **Stats:** HP 125, Attack 100, Defense 80, Sp. Atk 85, Sp. Def 75, Speed 55.
+* **Archetype:** Bulky Physical Attacker / Utility Tank.
+* **Type Matchups:** It is **weak to Fighting** and has no natural resistances, though it is **immune to Ghost**.
+* **Move Selection:** Leveraging its high HP and solid Attack stat, Dudunsparce excels with a movepool that emphasizes disruption and heavy hits. Key moves include **Hyper Drill** (its signature move that bypasses Protect), **Body Slam** (for STAB damage and paralysis chance), **Earthquake** (for wide coverage), and **Roost** (to capitalize on its massive 125 base HP for longevity).
+* **Abilities:** **Serene Grace** (doubles the chance of moves' secondary effects, making Body Slam a terrifying tool for paralysis), **Run Away** (guarantees escape from wild encounters), and **Rattled** (increases Speed when hit by Bug, Dark, or Ghost-type moves).
+
+## Evolution & Biology
+Dudunsparce is the second and final stage of a two-stage evolutionary line. It evolves from Dunsparce after **leveling up while knowing the move Hyper Drill** (typically learned at Level 32). Upon evolution, there is a 1-in-100 chance the Pokémon will manifest the Three-Segment Form rather than the common Two-Segment Form; this trait is determined by its encryption constant and cannot be altered. Biologically, it belongs to the **Ground** egg group. It is a hardy breeder with a hatch counter of 20, often found in deep caves or underground biomes where its yellow coloration and squiggle-like shape allow it to navigate tight crevices with ease.

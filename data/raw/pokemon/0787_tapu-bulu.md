@@ -1,0 +1,12 @@
+## Identity & Lore
+Tapu Bulu (#787) is the Land Spirit Pokémon and serves as the legendary guardian deity of Ula'ula Island in the Alola region (Generation VII). Adorned with a bell-like shell that it can close around its body, Tapu Bulu is a powerful Grass/Fairy-type entity known for its immense physical strength and its mastery over nature. According to Alolan lore, it can uproot massive trees and swing them around with ease; it causes vegetation to grow instantly and then absorbs energy from that very growth. While it is a benevolent protector, it is also known for a certain degree of indolence and a terrifying temper if provoked. While it does not possess a Mega Evolution or Gigantamax form, it is capable of channeling its power into the unique Z-Move "Guardian of Alola," calling upon a titan of the earth to strike its foes.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 130, Defense 115, Sp. Atk 85, Sp. Def 95, Speed 75.
+* **Archetype:** Physical Tank / Wallbreaker.
+* **Type Matchups:** It is **weak to Flying, Bug, Fire, Ice, and Steel**, while suffering from a critical **Double Weakness (4x) to Poison**. It **resists Ground, Rock, Water, Grass, Electric, Fighting, and Dark**, and possesses a total **immunity to Dragon-type** attacks.
+* **Move Selection:** Capitalizing on its massive 130 Base Attack, key moves include **Wood Hammer** (high-power STAB), **Horn Leech** (STAB with health restoration), **Superpower** (critical coverage against Steel and Ice types), and **Swords Dance** (to further boost its wallbreaking potential).
+* **Abilities:** **Grassy Surge** (Automatically summons Grassy Terrain upon entering battle, which boosts Grass-type moves, provides passive recovery to grounded Pokémon, and halves the power of Earthquake, Bulldoze, and Magnitude). **Telepathy** (An analytical ability that prevents the Pokémon from taking damage from its allies' attacks in double battles).
+
+## Evolution & Biology
+Tapu Bulu is a single-stage Legendary Pokémon and is not part of an evolutionary line. It neither evolves from nor into any other species, existing as a standalone guardian. It belongs to the **No Eggs Discovered** egg group, as is typical for legendary spirits, and has a slow growth rate. Biologically, its shell functions like a ritual bell, and its heavy, muscular arms are designed for manipulating the landscape of its island home. It is often found in the Ruins of Abundance, where it is venerated by the people of Alola.

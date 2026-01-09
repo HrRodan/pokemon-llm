@@ -1,0 +1,12 @@
+## Identity & Lore
+Ogerpon (Pokedex #10275) in its Cornerstone Mask form is the legendary Mask Pokémon introduced in Generation IX (Paldea) during the events in the Land of Kitakami. This form represents the resilience of stone, granting Ogerpon a dual Grass/Rock typing. Described as a humanoid, green-colored entity, Ogerpon is known for its nimble movements and powerful kicking techniques. Historically, it is the true protagonist of the Kitakami legend, having faced the "Loyal Three" to reclaim its stolen masks. While it does not have a Mega Evolution or Gigantamax form, Ogerpon possesses a unique Terastal state; when Terastallized in this form, it undergoes a transformation that activates its "Embody Aspect" ability, significantly boosting its Physical Defense.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 120, Defense 84, Sp. Atk 60, Sp. Def 96, Speed 110.
+* **Archetype:** Fast Physical Sweeper / Physical Wallbreaker.
+* **Type Matchups:** It is **weak to Fighting, Poison, Steel, Bug, and Ice**. Conversely, its unique typing allows it to **resist Normal and Electric** attacks, while being neutral to Fire and Flying moves that typically plague Grass-types.
+* **Move Selection:** Maximizing its high Attack and Speed, its premier move is **Ivy Cudgel**, which becomes a Rock-type physical attack with a high critical-hit ratio in this form. Other vital moves include **Wood Hammer** for high-impact Grass STAB, **Swords Dance** to boost its sweeping potential, and **Horn Leech** for simultaneous damage and recovery.
+* **Abilities:** **Sturdy** (Prevents the Pokémon from being knocked out in one hit if it is at full HP, allowing it to survive a catastrophic blow to either retaliate or set up with Swords Dance).
+
+## Evolution & Biology
+Ogerpon is a single-stage Legendary Pokémon and does not evolve from or into any other species. It is a unique biological entity that changes its secondary typing and core ability based on the mask it holds; the Cornerstone Mask specifically grants it the Rock type. Ogerpon belongs to the **No Eggs** egg group and cannot be bred in captivity. It has a slow growth rate and a low capture rate, reflecting its status as a powerful legendary creature. Its behavior is characterized by a mix of shyness and fierce protectiveness over its belongings.

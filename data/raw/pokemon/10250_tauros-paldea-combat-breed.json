@@ -1,0 +1,148 @@
+{
+  "pokemon_details": {
+    "id": 10250,
+    "name": "tauros-paldea-combat-breed",
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "special-attack": 30,
+      "special-defense": 70,
+      "speed": 100
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 115.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cud-chew",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tauros-paldea-combat-breed"
+    ],
+    "moves": [
+      "double-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "tail-whip",
+      "surf",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "curse",
+      "reversal",
+      "protect",
+      "scary-face",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "endeavor",
+      "rock-tomb",
+      "bulk-up",
+      "close-combat",
+      "assurance",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "stone-edge",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "drill-run",
+      "high-horsepower",
+      "throat-chop",
+      "smart-strike",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "raging-bull",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10250.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10250.png"
+    },
+    "species_name": "tauros",
+    "flavor_text": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+    "genus": "Wild Bull Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/63/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 63,
+      "chain": {
+        "species_name": "tauros",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

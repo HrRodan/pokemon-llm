@@ -1,0 +1,161 @@
+{
+  "pokemon_details": {
+    "id": 684,
+    "name": "swirlix",
+    "stats": {
+      "hp": 62,
+      "attack": 48,
+      "defense": 66,
+      "special-attack": 59,
+      "special-defense": 57,
+      "speed": 49
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 3.5,
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "swirlix"
+    ],
+    "moves": [
+      "tackle",
+      "flamethrower",
+      "surf",
+      "string-shot",
+      "thunderbolt",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "cotton-spore",
+      "protect",
+      "belly-drum",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "wish",
+      "magic-coat",
+      "yawn",
+      "endeavor",
+      "secret-power",
+      "aromatherapy",
+      "fake-tears",
+      "covet",
+      "calm-mind",
+      "gastro-acid",
+      "copycat",
+      "energy-ball",
+      "after-you",
+      "round",
+      "cotton-guard",
+      "sticky-web",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "play-nice",
+      "confide",
+      "dazzling-gleam",
+      "misty-explosion"
+    ],
+    "held_items": [],
+    "base_experience": 68,
+    "is_default": true,
+    "order": 819,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/684.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/684.png"
+    },
+    "species_name": "swirlix",
+    "flavor_text": "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+    "genus": "Cotton Candy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "legs",
+    "color": "white",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/351/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 351,
+      "chain": {
+        "species_name": "swirlix",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "slurpuff",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "whipped-dream"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

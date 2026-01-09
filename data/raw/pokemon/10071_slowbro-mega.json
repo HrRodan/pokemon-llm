@@ -1,0 +1,219 @@
+{
+  "pokemon_details": {
+    "id": 10071,
+    "name": "slowbro-mega",
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 180,
+      "special-attack": 130,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 120.0,
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "slowbro-mega"
+    ],
+    "moves": [
+      "pay-day",
+      "ice-punch",
+      "stomp",
+      "headbutt",
+      "tackle",
+      "growl",
+      "disable",
+      "flamethrower",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "seismic-toss",
+      "strength",
+      "thunder-wave",
+      "earthquake",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "teleport",
+      "double-team",
+      "withdraw",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "icy-wind",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "hail",
+      "facade",
+      "focus-punch",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "yawn",
+      "skill-swap",
+      "secret-power",
+      "dive",
+      "slack-off",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "calm-mind",
+      "water-pulse",
+      "fling",
+      "aqua-tail",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "foul-play",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "scald",
+      "heal-pulse",
+      "incinerate",
+      "bulldoze",
+      "confide"
+    ],
+    "held_items": [
+      "kings-rock"
+    ],
+    "base_experience": 207,
+    "is_default": false,
+    "order": 128,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10071.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10071.png"
+    },
+    "species_name": "slowbro",
+    "flavor_text": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+    "genus": "Hermit Crab Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/33/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 33,
+      "chain": {
+        "species_name": "slowpoke",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "slowbro",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              },
+              {
+                "trigger": "use-item",
+                "item": "galarica-cuff"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "slowking",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "kings-rock"
+              },
+              {
+                "trigger": "use-item",
+                "item": "galarica-wreath"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

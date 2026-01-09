@@ -1,0 +1,159 @@
+{
+  "pokemon_details": {
+    "id": 909,
+    "name": "fuecoco",
+    "stats": {
+      "hp": 67,
+      "attack": 45,
+      "defense": 59,
+      "special-attack": 63,
+      "special-defense": 40,
+      "speed": 36
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 9.8,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "fuecoco"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "fire-spin",
+      "dig",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "curse",
+      "protect",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "encore",
+      "sunny-day",
+      "crunch",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "slack-off",
+      "hyper-voice",
+      "overheat",
+      "flare-blitz",
+      "seed-bomb",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "fire-pledge",
+      "snarl",
+      "belch",
+      "disarming-voice",
+      "stomping-tantrum",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 909,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/909.png"
+    },
+    "species_name": "fuecoco",
+    "flavor_text": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+    "genus": "Fire Croc Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/479/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 479,
+      "chain": {
+        "species_name": "fuecoco",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crocalor",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "skeledirge",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

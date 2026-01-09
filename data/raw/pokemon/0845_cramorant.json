@@ -1,0 +1,164 @@
+{
+  "pokemon_details": {
+    "id": 845,
+    "name": "cramorant",
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 55,
+      "special-attack": 85,
+      "special-defense": 95,
+      "speed": 85
+    },
+    "types": [
+      "flying",
+      "water"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 18.0,
+    "abilities": [
+      {
+        "name": "gulp-missile",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "cramorant"
+    ],
+    "moves": [
+      "fly",
+      "fury-attack",
+      "take-down",
+      "thrash",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "peck",
+      "drill-peck",
+      "agility",
+      "amnesia",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "icy-wind",
+      "endure",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "rain-dance",
+      "whirlpool",
+      "uproar",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "superpower",
+      "endeavor",
+      "dive",
+      "feather-dance",
+      "weather-ball",
+      "air-cutter",
+      "aerial-ace",
+      "water-pulse",
+      "roost",
+      "pluck",
+      "tailwind",
+      "assurance",
+      "aqua-ring",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "round",
+      "scald",
+      "acrobatics",
+      "hurricane",
+      "belch",
+      "throat-chop",
+      "liquidation",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce",
+      "chilling-water",
+      "aqua-cutter"
+    ],
+    "held_items": [],
+    "base_experience": 166,
+    "is_default": true,
+    "order": 1026,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/845.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/845.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/845.png"
+    },
+    "species_name": "cramorant",
+    "flavor_text": "It\u2019s so strong that it can knock out some opponents in a single hit, but it also may forget what it\u2019s battling midfight.",
+    "genus": "Gulp Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/444/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 444,
+      "chain": {
+        "species_name": "cramorant",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

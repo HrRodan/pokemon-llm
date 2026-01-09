@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 669,
+    "name": "flabebe",
+    "stats": {
+      "hp": 44,
+      "attack": 38,
+      "defense": 39,
+      "special-attack": 61,
+      "special-defense": 79,
+      "speed": 42
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.1,
+    "weight_kg": 0.1,
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "flabebe-red",
+      "flabebe-yellow",
+      "flabebe-orange",
+      "flabebe-blue",
+      "flabebe-white"
+    ],
+    "moves": [
+      "vine-whip",
+      "tackle",
+      "razor-leaf",
+      "solar-beam",
+      "petal-dance",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "wish",
+      "magic-coat",
+      "endeavor",
+      "secret-power",
+      "camouflage",
+      "aromatherapy",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "lucky-chant",
+      "copycat",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "captivate",
+      "grass-knot",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "petal-blizzard",
+      "disarming-voice",
+      "draining-kiss",
+      "grassy-terrain",
+      "misty-terrain",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "pollen-puff",
+      "tearful-look",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 801,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/669.png"
+    },
+    "species_name": "flabebe",
+    "flavor_text": "It draws out and controls the hidden power of flowers. The flower Flab\u00e9b\u00e9 holds is most likely part of its body.",
+    "genus": "Single Bloom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "white",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/344/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 344,
+      "chain": {
+        "species_name": "flabebe",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "floette",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 19
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "florges",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "pokemon_details": {
+    "id": 843,
+    "name": "silicobra",
+    "stats": {
+      "hp": 52,
+      "attack": 57,
+      "defense": 75,
+      "special-attack": 35,
+      "special-defense": 50,
+      "speed": 46
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 2.2,
+    "weight_kg": 7.6,
+    "abilities": [
+      {
+        "name": "sand-spit",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "silicobra"
+    ],
+    "moves": [
+      "slam",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "wrap",
+      "take-down",
+      "earthquake",
+      "dig",
+      "screech",
+      "minimize",
+      "glare",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "facade",
+      "rock-tomb",
+      "sand-tomb",
+      "mud-shot",
+      "poison-tail",
+      "rock-blast",
+      "last-resort",
+      "dragon-rush",
+      "earth-power",
+      "stone-edge",
+      "stealth-rock",
+      "coil",
+      "round",
+      "bulldoze",
+      "drill-run",
+      "belch",
+      "brutal-swing",
+      "scale-shot",
+      "skitter-smack",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 63,
+    "is_default": true,
+    "order": 1024,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/843.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/843.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/843.png"
+    },
+    "species_name": "silicobra",
+    "flavor_text": "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand.",
+    "genus": "Sand Snake Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "ground",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/443/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 443,
+      "chain": {
+        "species_name": "silicobra",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sandaconda",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 36
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

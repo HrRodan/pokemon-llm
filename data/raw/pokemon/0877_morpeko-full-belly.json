@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 877,
+    "name": "morpeko-full-belly",
+    "stats": {
+      "hp": 58,
+      "attack": 95,
+      "defense": 58,
+      "special-attack": 70,
+      "special-defense": 58,
+      "speed": 97
+    },
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 3.0,
+    "abilities": [
+      {
+        "name": "hunger-switch",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "morpeko-full-belly"
+    ],
+    "moves": [
+      "thunder-punch",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "tail-whip",
+      "leer",
+      "bite",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "quick-attack",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "rapid-spin",
+      "crunch",
+      "fake-out",
+      "uproar",
+      "torment",
+      "flatter",
+      "facade",
+      "charge",
+      "taunt",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "fake-tears",
+      "tickle",
+      "bullet-seed",
+      "payback",
+      "assurance",
+      "fling",
+      "dark-pulse",
+      "seed-bomb",
+      "nasty-plot",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "charge-beam",
+      "electro-ball",
+      "foul-play",
+      "round",
+      "quash",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "snarl",
+      "parting-shot",
+      "eerie-impulse",
+      "electric-terrain",
+      "power-trip",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "aura-wheel",
+      "rising-voltage",
+      "lash-out",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 153,
+    "is_default": true,
+    "order": 1063,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/877.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/877.png"
+    },
+    "species_name": "morpeko",
+    "flavor_text": "As it eats the seeds stored up in its pocket-like pouches, this Pok\u00e9mon is not just satisfying its constant hunger. It\u2019s also generating electricity.",
+    "genus": "Two-Sided Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 180,
+    "base_happiness": 50,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/459/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 459,
+      "chain": {
+        "species_name": "morpeko",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

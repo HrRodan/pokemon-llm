@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 10076,
+    "name": "metagross-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "special-attack": 105,
+      "special-defense": 110,
+      "speed": 110
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 942.9,
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "metagross-mega"
+    ],
+    "moves": [
+      "ice-punch",
+      "thunder-punch",
+      "cut",
+      "take-down",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "agility",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "icy-wind",
+      "sandstorm",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "trick",
+      "brick-break",
+      "secret-power",
+      "meteor-mash",
+      "rock-tomb",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "gravity",
+      "miracle-eye",
+      "hammer-arm",
+      "gyro-ball",
+      "magnet-rise",
+      "rock-polish",
+      "giga-impact",
+      "bullet-punch",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "psyshock",
+      "telekinesis",
+      "round",
+      "ally-switch",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 315,
+    "is_default": false,
+    "order": 499,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10076.png"
+    },
+    "species_name": "metagross",
+    "flavor_text": "METAGROSS has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This POK\u00e9MON can float in the air by tucking in its four legs.",
+    "genus": "Iron Leg Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "heads",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/192/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 192,
+      "chain": {
+        "species_name": "beldum",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "metang",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "metagross",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 45
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

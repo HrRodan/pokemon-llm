@@ -1,0 +1,12 @@
+## Identity & Lore
+Sylveon (Pokedex #700) is the Intertwining Pokémon, a graceful Fairy-type first discovered in the Kalos region during Generation VI. It is distinguished by its cream-colored fur and vibrant pink accents, but its most striking features are the ribbon-like feelers that sprout from its bows. These feelers emit a soothing aura that can instantly calm combatants and erase hostility. As one of the eight "Eeveelutions," Sylveon represents the bond between a Trainer and their Pokémon; it is known to wrap its feelers around its Trainer’s arm to sense their feelings as they walk together. While it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, its introduction was a defining moment for the Fairy-type's competitive presence.
+
+## Combat Profile
+*   **Stats:** HP 95, Attack 65, Defense 65, Sp. Atk 110, Sp. Def 130, Speed 60.
+*   **Archetype:** Special Tank / Special Wallbreaker.
+*   **Type Matchups:** It is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and it possesses a complete **Immunity to Dragon-type** moves.
+*   **Move Selection:** Capitalizing on its high Special Attack and its signature Hidden Ability, key moves include **Hyper Voice** (which becomes a STAB Fairy move with Pixilate), **Moonblast** (for high-accuracy reliable damage), **Mystical Fire** (to provide essential coverage against Steel-types), and **Psyshock** (to hit specially defensive tanks on their weaker physical side).
+*   **Abilities:** **Cute Charm** (Contact with the Pokémon may cause infatuation) and **Pixilate** (A powerful Hidden Ability that converts Normal-type moves into Fairy-type moves and increases their power, turning moves like Hyper Voice into its primary offensive threat).
+
+## Evolution & Biology
+Sylveon is part of an eight-branch evolutionary line. It evolves from **Eevee** when it is leveled up while knowing a **Fairy-type move** and possessing a **high level of Friendship** (specifically a friendship value of 160 or higher in modern generations). This unique evolution method highlights its thematic connection to affection and bonding. Biologically, Sylveon belongs to the **Field** (Ground) Egg Group. Despite its delicate, ribboned appearance, it is a hardy quadruped capable of enduring significant special-elemental attacks, making it a mainstay in both domestic companionship and high-level competitive circuits.

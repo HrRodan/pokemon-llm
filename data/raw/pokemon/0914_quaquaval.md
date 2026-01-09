@@ -1,0 +1,12 @@
+## Identity & Lore
+Quaquaval (Pokedex #914) is the Dancer Pokémon, a tall, bipedal avian species that serves as the final evolution of the Water-type starter in the Paldea region (Generation IX). Its plumage is a vibrant blue, and it possesses a decorative, fan-like tail that it utilizes during its rhythmic, constant movements. According to Paldean lore, a single kick from a Quaquaval has enough force to send a large truck rolling, highlighting the immense power concentrated in its legs. It is known to perform striking, exotic dances from far-off lands to intimidate foes and demonstrate its elegance. While it currently lacks a Mega Evolution or Gigantamax form, Quaquaval is celebrated as one of the few Pokémon to possess a signature dance-based combat style, and its decorative feathers are said to be used as a means of communication and expression during the Paldean carnival season.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 120, Defense 80, Sp. Atk 85, Sp. Def 75, Speed 85.
+* **Archetype:** Physical Setup Sweeper / Snowball Sweeper.
+* **Type Matchups:** As a Water/Fighting type, it is **weak to Grass, Electric, Flying, Psychic, and Fairy**. It **resists Fire, Water, Ice, Rock, Dark, and Steel**.
+* **Move Selection:** Quaquaval excels when using its high Physical Attack and signature speed-boosting mechanics. Key moves include **Aqua Step** (Signature move that damages and raises Speed), **Close Combat** (High-power Fighting STAB), **Ice Spinner** (Critical coverage for Grass and Flying types), and **Brave Bird** (High-impact Flying coverage).
+* **Abilities:** **Torrent** (Increases the power of Water-type moves by 50% when current HP is at one-third or less). **Moxie** (Hidden Ability: Boosts the Pokémon's Attack stat by one stage every time it knocks out an opponent, allowing it to "snowball" through enemy teams).
+
+## Evolution & Biology
+Quaquaval is the final stage of a three-stage evolutionary line. It begins its life as **Quaxly**, the Water-type starter of Paldea. Quaxly evolves into **Quaxwell** starting at Level 16. Finally, Quaxwell evolves into **Quaquaval** upon reaching Level 36. Biologically, it is a highly disciplined creature that maintains its plumage with obsessive care. It belongs to the **Flying** and **Water 1** Egg Groups, and while it is an avian Pokémon, its heavy, muscular legs make it better suited for terrestrial dancing and kicking than sustained flight. Its growth rate is classified as Medium-Slow, requiring significant training to reach its full potential.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Greavard (Pokedex #971) is the Ghost Dog Pokémon, a spectral canine originating from the Paldea region in Generation IX. Characterized by its shaggy white fur and the eerie, yellow candle-like protrusion atop its head, Greavard is often found buried underground, leaving only its flame visible to mimic a harmless plant. Lore states that this Pokémon is the reincarnation of a dog that passed away in the wild without ever knowing the warmth of human companionship. While it is famously friendly and easy to befriend, it is inadvertently one of the most dangerous Pokémon to play with; it unwittingly absorbs the life force of anyone in its immediate vicinity. Although Greavard itself does not have a Mega Evolution or Gigantamax form, its evolution, Houndstone, became a central figure in competitive history due to its signature spectral powers.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 61, Defense 60, Sp. Atk 30, Sp. Def 55, Speed 34.
+* **Archetype:** Bulky Physical Attacker (Little Cup Utility).
+* **Type Matchups:** It is **weak to Ghost and Dark**. It **resists Poison and Bug** and possesses complete **immunity to Normal and Fighting-type** moves.
+* **Move Selection:** Capitalizing on its physical Attack over its meager Special Attack, Greavard’s optimal kit includes **Phantom Force** for powerful STAB (Same Type Attack Bonus), **Shadow Sneak** for necessary priority to overcome its low Speed, **Play Rough** for specialized coverage against Dark-types, and **Psychic Fangs** to break through barriers like Reflect and Light Screen.
+* **Abilities:** **Pickup** allows the Pokémon to occasionally find items or retrieve an opponent's consumed held item. Its Hidden Ability, **Fluffy**, is its most competitive trait, halving the damage taken from moves that make contact, though it doubles the damage taken from Fire-type attacks.
+
+## Evolution & Biology
+Greavard is part of a two-stage evolutionary line. It evolves into **Houndstone** when it is **leveled up to at least Level 30 during the night**. Biologically, it is a quadruped with a low center of gravity, making it well-suited for its habit of burrowing into the earth. Despite its ghostly nature, it belongs to the **Field (Ground)** Egg Group. Breeders should note a hatch counter of 20, requiring moderate effort to produce offspring. Its growth rate is medium-slow, reflecting the patient nature required to train a spirit that has spent ages seeking affection.

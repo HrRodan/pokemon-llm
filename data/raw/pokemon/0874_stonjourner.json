@@ -1,0 +1,144 @@
+{
+  "pokemon_details": {
+    "id": 874,
+    "name": "stonjourner",
+    "stats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 135,
+      "special-attack": 20,
+      "special-defense": 20,
+      "speed": 70
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 520.0,
+    "abilities": [
+      {
+        "name": "power-spot",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "stonjourner"
+    ],
+    "moves": [
+      "stomp",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "hyper-beam",
+      "low-kick",
+      "rock-throw",
+      "earthquake",
+      "self-destruct",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sandstorm",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "facade",
+      "superpower",
+      "endeavor",
+      "imprison",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "gravity",
+      "assurance",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "stone-edge",
+      "stealth-rock",
+      "wide-guard",
+      "wonder-room",
+      "smack-down",
+      "heavy-slam",
+      "low-sweep",
+      "round",
+      "bulldoze",
+      "heat-crash",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "meteor-beam",
+      "tera-blast",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 1058,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/874.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/874.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/874.png"
+    },
+    "species_name": "stonjourner",
+    "flavor_text": "It stands in grasslands, watching the sun\u2019s descent from zenith to horizon. This Pok\u00e9mon has a talent for delivering dynamic kicks.",
+    "genus": "Big Rock Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/456/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 456,
+      "chain": {
+        "species_name": "stonjourner",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

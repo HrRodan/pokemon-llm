@@ -1,0 +1,16 @@
+## Identity & Lore
+Mega Falinks (Pokedex #10303) is the Formation Pokémon, representing a specialized, high-power evolution of the Galar-native species. Originating from the Galar region (Generation VIII), this Pokémon is unique because it is not a single entity but a coordinated phalanx of six individuals. One leader, known as "the brass," commands five "troopers" whose loyalty is absolute. While official Galar records primarily document the standard Falinks, this "Mega" manifestation enhances the armored plating and tactical coordination of the unit to extreme levels. Its yellow, plate-like armor resembles that of ancient Roman legionnaires, designed to interlock into impenetrable defensive walls or devastating offensive spearheads. Though Falinks does not possess a Gigantamax form, this Mega state serves as its ultimate competitive pinnacle, emphasizing the strength of unity and the tactical genius of the brass.
+
+## Combat Profile
+*   **Stats:** HP 65, Attack 135, Defense 135, Sp. Atk 70, Sp. Def 65, Speed 100.
+*   **Archetype:** Physical Tank & Wallbreaker. With a massive Base 135 Attack and matching Defense, it excels at taking physical hits and retaliating with overwhelming force. Its Speed of 100 allows it to outpace many mid-tier threats.
+*   **Type Matchups:** As a pure **Fighting** type, it is **weak to Flying, Psychic, and Fairy**. It **resists Rock, Bug, and Dark** types.
+*   **Move Selection:** To maximize its 135 Base Attack, Mega Falinks relies on powerful physical techniques and its signature tactical maneuver. Key moves include:
+    *   **No Retreat:** A signature tactical move that boosts all stats but prevents switching out, perfectly reflecting its "never surrender" lore.
+    *   **Close Combat:** A high-intensity STAB (Same Type Attack Bonus) move that deals massive damage at the cost of defensive drops.
+    *   **Iron Head:** Essential coverage to deal with the Fairy-type Pokémon that would otherwise exploit its weaknesses.
+    *   **Throat Chop:** A vital Dark-type move used to counter Psychic-type threats and silence sound-based opponents.
+*   **Abilities:** While data for this specific form is specialized, it typically draws from tactical traits like **Battle Armor**, which prevents critical hits, or **Defiant**, which sharply raises Attack if its stats are lowered by an opponent's Intimidate or similar effects.
+
+## Evolution & Biology
+Mega Falinks is part of a unique single-stage evolutionary line. It does not evolve from or into any other species through traditional leveling. Instead, Falinks achieves this Mega state through the use of a specialized Mega Stone, a phenomenon typically associated with the Kalos and Hoenn regions, adapted here for the Galar formation. Despite being composed of six separate bodies, the group is treated as one Pokémon in battle and breeding. It belongs to the **Fairy** and **Mineral** Egg Groups, and while it has a medium growth rate, it is a challenging Pokémon to raise due to its complex social structure and the strict discipline required by the brass. When not in battle, the troopers follow the brass in a single-file line, often changing formation to navigate tight spaces or mountainous terrain.

@@ -1,0 +1,15 @@
+## Identity & Lore
+Dracozolt (Pokedex #880) is the Fossil Pokémon, a unique and mismatched chimera introduced in Generation VIII (Galar). This prehistoric hybrid is resurrected from two distinct fossils—the Fossilized Bird and the Fossilized Drake—resulting in a jarring appearance where a small, avian upper body is fused to a massive, reptilian lower half. Despite its awkward physiology, it was considered virtually unbeatable in ancient times due to the sheer power of its legs. However, its own biological success led to its downfall; lore suggests Dracozolt went extinct after its overwhelming dominance caused it to deplete all of its plant-based food sources. While it does not possess a Mega Evolution or Gigantamax form, it remains one of the most feared Fossil Pokémon in the Galar region due to its anomalous elemental combination of Electric and Dragon.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 100, Defense 90, Sp. Atk 80, Sp. Def 70, Speed 75.
+* **Archetype:** Physical Wallbreaker / Sand Sweeper. 
+* **Type Matchups:** It is **weak to Ground, Ice, Dragon, and Fairy**. It possesses a notable **Double Resistance (0.25x)** to Electric-type attacks and further resists Fire, Water, Flying, and Steel.
+* **Move Selection:** Dracozolt’s viability centers on its signature move, **Bolt Beak**, which deals double damage if Dracozolt moves before the target. To complement its high Attack and STAB (Same Type Attack Bonus), it utilizes **Dragon Claw** for consistent damage, **High Horsepower** (or Earthquake) to cover Ground and Steel types, and **Fire Fang** to melt through Ferrothorn and other bulky Grass/Steel types.
+* **Abilities:** 
+    * **Hustle:** Increases the Pokémon's Attack stat by 50% but lowers the accuracy of physical moves by 20%, turning Dracozolt into a high-risk, high-reward powerhouse.
+    * **Sand Rush (Hidden Ability):** Doubles its Speed during a sandstorm, allowing it to outpace almost the entire unboosted metagame and maximize the power of Bolt Beak.
+    * **Volt Absorb:** Restores HP when hit by an Electric-type move, providing it with a safe switch-in against predicted Volt Switches.
+
+## Evolution & Biology
+Dracozolt is a single-stage Pokémon with no evolutionary predecessors or successors. It is an artificial resurrection brought to life by combining a Fossilized Bird and a Fossilized Drake, typically performed by researchers at the Route 6 laboratory in Galar. Because it is a mismatched fossil creature, it belongs to the **Undiscovered (No-Eggs)** egg group and cannot be bred in captivity. Its biology is a study in contrasts: the top half generates electricity through the rapid flapping of its wings, while the lower half provides the immense physical strength required to traverse ancient landscapes. Its "Slow" growth rate reflects the difficulty of training a creature whose body parts do not naturally belong together.

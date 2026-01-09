@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Medicham (Pokedex #10054) is the Mega Evolved form of the Meditate Pokémon, a dual Fighting and Psychic-type originally discovered in the Hoenn region (Generation III). Through the process of Mega Evolution, Medicham’s spiritual energy reaches its peak, physically manifesting as additional spectral arms or orbs that represent its heightened sixth sense. Lore suggests that through rigorous meditation and yogic mastery, it can sharpen its inner energy to the point of becoming nearly invisible by merging its presence with the surrounding mountains and fields. While this specific form is triggered by the use of a Medichamite Mega Stone, the base species is known for its elegant, dance-like fighting style that blends physical prowess with telekinetic precision.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 100, Defense 85, Sp. Atk 80, Sp. Def 85, Speed 100.
+* **Archetype:** Elite Physical Wallbreaker. Despite a base Attack stat of 100, its ability makes it one of the most terrifying offensive threats in the history of competitive play.
+* **Type Matchups:** Mega Medicham is **weak to Flying, Ghost, and Fairy** types. It possesses **resistances to Fighting and Rock** types.
+* **Move Selection:** To maximize its overwhelming physical power, Mega Medicham relies on high-impact STAB (Same Type Attack Bonus) moves and versatile coverage. Key moves include **High Jump Kick** (its primary nuke), **Zen Headbutt** (for Psychic-type flinching potential), **Ice Punch** (to threaten Flying and Dragon types), and **Fire Punch** (to dismantle Steel-type walls).
+* **Abilities:** Pure Power (This ability doubles the Pokémon’s actual Attack stat in battle. Effectively, this elevates Mega Medicham's offensive presence far beyond its base stats, allowing it to OHKO even some of the sturdiest defensive walls in the game).
+
+## Evolution & Biology
+Mega Medicham is the final temporary stage of a two-part evolutionary line. It begins as **Meditite**, which focuses on daily yoga to increase its inner strength. Meditite evolves into **Medicham** upon reaching **Level 37**. To achieve its Mega form, a trainer must possess a Key Stone and Medicham must hold its corresponding Mega Stone. Biologically, it belongs to the **Humanshape** Egg Group, reflecting its humanoid posture and mastery of martial arts. It has a hatch counter of 20, and in its natural mountain habitat, it is known for its incredible self-discipline, sometimes going weeks without food while it focuses its mind.

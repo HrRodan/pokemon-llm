@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 459,
+    "name": "snover",
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 50,
+      "special-attack": 62,
+      "special-defense": 60,
+      "speed": 40
+    },
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 50.5,
+    "abilities": [
+      {
+        "name": "snow-warning",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "snover"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "swords-dance",
+      "stomp",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "skull-bash",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "powder-snow",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "shadow-ball",
+      "hail",
+      "facade",
+      "helping-hand",
+      "role-play",
+      "ingrain",
+      "secret-power",
+      "weather-ball",
+      "grass-whistle",
+      "sheer-cold",
+      "bullet-seed",
+      "icicle-spear",
+      "magical-leaf",
+      "water-pulse",
+      "natural-gift",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "avalanche",
+      "ice-shard",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "wood-hammer",
+      "round",
+      "frost-breath",
+      "icicle-crash",
+      "confide",
+      "leafage",
+      "grassy-glide",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "never-melt-ice"
+    ],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 584,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/459.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/459.png"
+    },
+    "species_name": "snover",
+    "flavor_text": "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
+    "genus": "Frost Tree Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/239/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 239,
+      "chain": {
+        "species_name": "snover",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "abomasnow",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

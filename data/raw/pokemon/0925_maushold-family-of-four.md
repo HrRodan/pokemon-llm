@@ -1,0 +1,12 @@
+## Identity & Lore
+Maushold (Pokedex #925), specifically the Family of Four form, is the Family Pokémon first discovered in the Paldea region during Generation IX. This Normal-type Pokémon consists of a group of mouse-like creatures that live and fight as a single unit. Its white, minimalist appearance belies a mysterious biology; the "children" in the group are said to simply appear one day without warning, leading researchers to question if they are biological offspring or separate entities that join the group. While Maushold does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, it occupies a unique ecological niche in Paldea as a highly social species that uses teamwork to overcome much larger predators.
+
+## Combat Profile
+* **Stats:** HP 74, Attack 75, Defense 70, Sp. Atk 65, Sp. Def 75, Speed 111.
+* **Archetype:** Fast Multi-Strike Physical Sweeper / Utility Support.
+* **Type Matchups:** It is **weak to Fighting** and possesses a complete **immunity to Ghost**. It takes neutral damage from all other types.
+* **Move Selection:** Maushold’s kit is defined by its unique signature moves and high speed. Key moves include **Population Bomb** (a devastating multi-hit move that can strike up to 10 times), **Tidy Up** (which removes hazards like Stealth Rock while boosting Attack and Speed), **Play Rough** for Fairy-type coverage against Fighting-types, and **U-turn** for maintaining offensive momentum.
+* **Abilities:** **Friend Guard** (reduces damage taken by allies in double battles, making it a premier VGC support), **Cheek Pouch** (restores HP when a Berry is consumed), and its Hidden Ability **Technician** (increases the power of moves with 60 base power or less, which exponentially increases the damage of Population Bomb).
+
+## Evolution & Biology
+Maushold is the final stage of a two-part evolutionary line. It evolves from **Tandemaus** starting at **Level 25**. In a unique biological quirk specific to the Paldea region, the evolution often occurs "silently" within the trainer's party without the standard evolution sequence, appearing as if the two additional mice joined the pair overnight. While the "Family of Four" is the most common manifestation of this evolution, a rare "Family of Three" variant also exists. Maushold belongs to the **Ground** and **Fairy** Egg Groups, and despite its small stature, it is known for its tireless work ethic and ability to build complex nests using its sharp incisors.

@@ -1,0 +1,157 @@
+{
+  "pokemon_details": {
+    "id": 974,
+    "name": "cetoddle",
+    "stats": {
+      "hp": 108,
+      "attack": 68,
+      "defense": 45,
+      "special-attack": 30,
+      "special-defense": 40,
+      "speed": 43
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 45.0,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cetoddle"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "earthquake",
+      "amnesia",
+      "rest",
+      "substitute",
+      "curse",
+      "flail",
+      "powder-snow",
+      "protect",
+      "belly-drum",
+      "icy-wind",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "rain-dance",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "yawn",
+      "knock-off",
+      "hyper-voice",
+      "icicle-spear",
+      "bounce",
+      "water-pulse",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "heavy-slam",
+      "entrainment",
+      "echoed-voice",
+      "bulldoze",
+      "icicle-crash",
+      "play-rough",
+      "high-horsepower",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 947,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/974.png"
+    },
+    "species_name": "cetoddle",
+    "flavor_text": "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+    "genus": "Terra Whale Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 150,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/511/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 511,
+      "chain": {
+        "species_name": "cetoddle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cetitan",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 333,
+    "name": "swablu",
+    "stats": {
+      "hp": 45,
+      "attack": 40,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 75,
+      "speed": 50
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 1.2,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "swablu"
+    ],
+    "moves": [
+      "fly",
+      "fury-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "sing",
+      "mist",
+      "ice-beam",
+      "peck",
+      "solar-beam",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "haze",
+      "mirror-move",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "perish-song",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "feather-dance",
+      "hyper-voice",
+      "astonish",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "power-swap",
+      "dragon-pulse",
+      "dragon-rush",
+      "brave-bird",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "round",
+      "echoed-voice",
+      "acrobatics",
+      "cotton-guard",
+      "hurricane",
+      "disarming-voice",
+      "play-rough",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "dual-wingbeat",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 445,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/333.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/333.png"
+    },
+    "species_name": "swablu",
+    "flavor_text": "SWABLU has light and fluffy wings that are like cottony clouds. This POK\u00e9MON is not frightened of people. It lands on the heads of people and sits there like a cotton-fluff hat.",
+    "genus": "Cotton Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "flying",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/168/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 168,
+      "chain": {
+        "species_name": "swablu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "altaria",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Articuno (Pokedex #10169) is the Freeze Pokémon, a regional variant of the legendary bird originally discovered in the Kanto region. Unlike its Ice-type counterpart, this form is a dual Psychic and Flying-type that manipulates intense psychic power to "freeze" its enemies' movements through telekinesis rather than cold. Introduced in the Galar region's Crown Tundra (Generation VIII), it is known for its elegant, cold, and callous personality, often appearing to look down on all other living creatures. While it does not possess a Mega Evolution or Gigantamax form, it serves as a powerful regional counterpart to the traditional legendary birds, utilizing its mask-like feathers to focus psychic beams that can immobilize a foe instantly.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 85, Defense 85, Sp. Atk 125, Sp. Def 100, Speed 95.
+* **Archetype:** Special Setup Sweeper / Wallbreaker.
+* **Type Matchups:** It is **weak to Rock, Electric, Ice, Bug, Ghost, and Dark**. It possesses significant **resistances to Grass and Fighting** (taking only 25% damage from both due to its dual typing) and maintains a total **immunity to Ground** moves.
+* **Move Selection:** Capitalizing on its elite Special Attack and signature capabilities, key moves include **Freezing Glare** (a Psychic-type move that can freeze the target), **Hurricane** for heavy Flying-type STAB damage, **Psyshock** to bypass special walls by targeting their physical defense, and **Recover** to maintain longevity during setup.
+* **Abilities:** Competitive (Increases the Pokémon's Special Attack stat by two stages whenever an opponent lowers one of its stats; this makes it an exceptional counter to "Intimidate" users and "Sticky Web" entry hazards).
+
+## Evolution & Biology
+Galarian Articuno is a legendary Pokémon and is not part of an evolutionary chain; it does not evolve from or into any other species. It belongs to the **No Eggs Discovered** egg group, meaning it cannot be bred in captivity. Biologically, it is a migratory bird that stays airborne by using its psychic wings, rarely needing to flap them. Its feathers carry a purple hue and radiate a chilling psychic energy that can cause a sense of dread in those nearby. While it shares a name with the Kantonian Articuno, its DNA and behavior suggest a distinct divergence, appearing primarily in the snowy peaks of the Crown Tundra where it challenges travelers with its overwhelming telepathic might.

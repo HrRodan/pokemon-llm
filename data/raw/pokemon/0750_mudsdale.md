@@ -1,0 +1,12 @@
+## Identity & Lore
+Mudsdale (Pokedex #750) is the Draft Horse Pokémon, a powerful quadruped introduced in the Alola region (Generation VII). Standing at 2.5 meters and weighing a massive 920 kilograms, Mudsdale is renowned for its stoic nature and incredible physical stamina. Its body is covered in a protective layer of dried mud that is so durable and weather-resistant that Alolan ancestors traditionally used its spit to coat the walls of their houses against wind and rain. In the wild, it is known for its legendary silence; it rarely cries out, even when in pain, and can reduce a car to scrap metal with a single kick of its mud-caked hooves. While it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, it is highly valued as a heavy-duty mount, famously utilized in the Alola Poké Ride system to traverse rocky, uneven terrain.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 125, Defense 100, Sp. Atk 55, Sp. Def 85, Speed 35.
+* **Archetype:** Physical Tank / Bulky Attacker.
+* **Type Matchups:** As a pure Ground-type, it is **weak to Water, Grass, and Ice**. It **resists Poison and Rock**, and possesses a total **immunity to Electric** attacks.
+* **Move Selection:** Mudsdale excels when using its high Attack and extreme weight to crush opponents. Key moves include **High Horsepower** (reliable high-damage STAB), **Earthquake** (standard powerhouse STAB), **Heavy Slam** (which deals massive damage due to its 920kg weight), and **Body Press** (which calculates damage using its Defense stat, synergizing perfectly with its Stamina ability). It also utilizes **Stealth Rock** for entry hazard support.
+* **Abilities:** **Stamina** is its signature competitive ability, which raises its Defense by one stage every single time it is hit by an attack, making it nearly impenetrable to physical hitters. **Own Tempo** prevents the Pokémon from being confused, while its Hidden Ability, **Inner Focus**, protects it from flinching and the effects of Intimidate.
+
+## Evolution & Biology
+Mudsdale is the final stage of a two-stage evolutionary line. It evolves from **Mudbray** starting at **Level 30**. Biologically, it is a brown, equine Pokémon with thick, mud-like dreadlocks and heavy legs reinforced by sun-dried clay. It belongs to the **Field (Ground)** Egg Group and has a hatch counter of 20, requiring a moderate amount of travel to hatch from an egg. Mudsdale are known for their slow but relentless pace, possessing the power to haul over 10 tons without tiring, making them the ultimate workhorses of the Pokémon world.

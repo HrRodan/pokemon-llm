@@ -1,0 +1,12 @@
+## Identity & Lore
+Crowned Shield Zamazenta (Pokedex #889) is the legendary Warrior Pokémon of the Galar region, standing as the majestic protector of the British-inspired landscape. As a core figure of Generation VIII, Zamazenta is known as the "Shield of Galar," having worked alongside a human king in ancient times to save the world from the Darkest Day. In this Crowned Shield form, it incorporates the Rusted Shield into its very body, transforming its red, wolf-like appearance into a heavily armored juggernaut. It is said to absorb metal to fortify its defenses and can deflect any attack. While it does not possess a Mega Evolution or Gigantamax form, this Crowned state serves as its ultimate empowered form, acting as the noble counterpart to Zacian, the Crowned Sword.
+
+## Combat Profile
+* **Stats:** HP 92, Attack 120, Defense 140, Sp. Atk 80, Sp. Def 140, Speed 128.
+* **Archetype:** Fast Defensive Wallbreaker. Despite its high defensive stats, its 128 base Speed allows it to outpace a significant portion of the competitive meta.
+* **Type Matchups:** It is **weak to Fighting, Ground, and Fire**. Its Steel/Fighting typing provides a massive array of resistances, including **Steel, Rock, Grass, Ice, Dragon, and Dark**, while being **double resistant (1/4x) to Bug** and completely **immune to Poison**.
+* **Move Selection:** Zamazenta excels when utilizing its massive bulk to deal damage. Key moves include **Body Press** (which calculates damage based on its 140 Defense), **Close Combat** for high-power STAB, **Iron Head** (which transforms into its signature move, Behemoth Bash, in battle), and **Crunch** or **Psychic Fangs** for coverage against Ghost or Psychic types.
+* **Abilities:** Dauntless Shield (Automatically boosts the Pokémon's Defense stat by one stage when it enters the battlefield, making it an immediate physical wall).
+
+## Evolution & Biology
+Zamazenta is a standalone Legendary Pokémon and does not belong to an evolutionary line. However, it exists in two distinct states: its "Hero of Many Battles" form and this "Crowned Shield" form. The transformation occurs when Zamazenta is given the **Rusted Shield** to hold, granting it the Steel secondary typing and a massive boost to its base Defense and Special Defense. As a member of the **No-Eggs (Undiscovered)** group, it cannot be bred. Biologically, it is a quadrupedal, wolf-like entity that exhibits high intelligence and a stoic, protective nature toward the Galar region and its inhabitants.

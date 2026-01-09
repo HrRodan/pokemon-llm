@@ -1,0 +1,12 @@
+## Identity & Lore
+Larvesta (Pokedex #636) is the Torch Pokémon, a unique dual-type Bug and Fire creature first discovered in the Unova region (Generation V). This larval Pokémon is steeped in solar mythology; ancient legends claim it was born from the sun itself, and it is frequently depicted as a "fire-seed" that descended to earth. Physically, it is characterized by its white, fuzzy mantle and five red horns that can radiate heat exceeding 5,500 degrees Fahrenheit to ward off predators. Larvesta typically inhabits the base of volcanoes or desert environments like the Relic Castle. While Larvesta does not possess a Mega Evolution or Gigantamax form, it is the biological predecessor to Volcarona, a Pokémon that shares a profound connection to the Paradox Pokémon Slither Wing (a primitive ancestor) and Iron Moth (a futuristic counterpart).
+
+## Combat Profile
+* **Stats:** HP 55, Attack 85, Defense 55, Sp. Atk 50, Sp. Def 55, Speed 60.
+* **Archetype:** Physical Tanky Attacker. Unlike its evolution, which favors Special Attack, Larvesta’s highest offensive stat is its physical Attack, making it a unique threat in Little Cup (LC) formats.
+* **Type Matchups:** It is **weak to Flying and Water**, and carries a crippling **Double Weakness (4x) to Rock**. Conversely, it is highly durable against **Grass** (double resistance) and provides resistances to **Ice, Fighting, Bug, Steel, and Fairy** types.
+* **Move Selection:** Leveraging its high physical Attack and utility, Larvesta excels with **Flare Blitz** for massive STAB damage, **Bug Bite** to consume opponent berries, **Wild Charge** for coverage against Water types, and **Morning Sun** for reliable recovery.
+* **Abilities:** **Flame Body** (provides a 30% chance to burn opponents who make contact, punishing physical attackers) and **Swarm** (boosts the power of Bug-type moves by 50% when HP is below one-third).
+
+## Evolution & Biology
+Larvesta is the first stage of a two-part evolutionary line. It undergoes one of the most demanding growth cycles of any non-legendary Pokémon, evolving into **Volcarona** only after reaching the exceptionally high threshold of **Level 59**. Biologically, it is part of the **Bug** Egg Group. Its metabolism is incredibly slow, reflected in its "Slow" growth rate and high hatch counter of 40, requiring significant dedication from a trainer to raise. As it nears evolution, its entire body becomes engulfed in a cocoon of flame, eventually emerging as the "Sun Pokémon."

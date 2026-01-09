@@ -1,0 +1,12 @@
+## Identity & Lore
+Dusk Mane Necrozma (Pokedex #10155) is the Prism Pokémon, a terrifyingly powerful form of the Legendary Necrozma introduced in Generation VII (Alola). This form is achieved when Necrozma uses the N-Solarizer to forcibly fuse with and take control of the Legendary Pokémon Solgaleo. Reminiscent of the Ultra Beasts, this life-form is thought to have arrived from another world in ancient times, and in this specific state, it relentlessly preys upon the light of its host to power its own fractured body. It appears as a massive, armored lion composed of black crystalline structures and Solgaleo's white-gold frame. Beyond this form, it possesses the potential for **Ultra Burst**, allowing it to transform into the celestial **Ultra Necrozma** when holding an Ultranecrozium Z.
+
+## Combat Profile
+* **Stats:** HP 97, Attack 157, Defense 127, Sp. Atk 113, Sp. Def 109, Speed 77.
+* **Archetype:** Physical Tank / Wallbreaker. With its immense base Attack and high natural bulk, it functions as a dominant frontline threat that can either sweep under Trick Room or dismantle defensive cores.
+* **Type Matchups:** It is **weak to Fire, Ground, Ghost, and Dark**. It possesses a massive list of **resistances**, including Normal, Grass, Ice, Flying, Rock, Dragon, Steel, and Fairy, while being **immune to Poison**.
+* **Move Selection:** Utilizing its massive 157 Base Attack, it dominates the field with **Photon Geyser** (which calculates damage based on the higher offensive stat), **Iron Head** for STAB-boosted flinch potential, **Earthquake** for wide coverage against opposing Steel and Fire types, and **Swords Dance** to boost its damage to catastrophic levels.
+* **Abilities:** Prism Armor (Reduces the damage taken from super-effective attacks by 25%. Notably, this ability cannot be ignored by moves or abilities like Mold Breaker, making Dusk Mane Necrozma exceptionally difficult to one-shot).
+
+## Evolution & Biology
+Dusk Mane Necrozma does not follow a traditional evolutionary line. It is a specialized form of Necrozma, a Legendary entity that does not evolve from any other species. This specific state is triggered through fusion with Solgaleo; should the fusion be undone, it reverts to its base "Refracted" form. Biologically, it is a light-voracious predator that lacks a home habitat, often found dormant underground or within Ultra Space. As a Legendary Pokémon, it belongs to the **No Eggs** group and cannot be bred. It has a high hatch counter of 120 and a slow growth rate, reflecting its status as a cosmic power.

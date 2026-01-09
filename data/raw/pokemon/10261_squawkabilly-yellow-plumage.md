@@ -1,0 +1,15 @@
+## Identity & Lore
+Yellow Plumage Squawkabilly (Pokedex #10261) is the Parrot Pokémon, a vibrant and territorial avian species introduced in Generation IX (Paldea). This specific variant is distinguished by its bright yellow feathers, though the species is known to appear in four distinct colors: green, blue, yellow, and white. Squawkabilly are highly social but aggressive urban dwellers that prefer living in cities rather than the wild. They organize themselves into formidable flocks based on their plumage color, frequently engaging in loud, raucous territorial disputes with rival groups. Despite their small stature—standing only 0.6 meters tall—their pompadour-like crest gives them a tough, "delinquent" aesthetic that matches their bold personalities. While it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, its role as a common urban Pokémon makes it a staple sight for trainers navigating Paldean metropolitan areas.
+
+## Combat Profile
+* **Stats:** HP 82, Attack 96, Defense 51, Sp. Atk 45, Sp. Def 51, Speed 92.
+* **Archetype:** Physical Offensive Pivot.
+* **Type Matchups:** As a Normal/Flying type, it is **weak to Rock, Electric, and Ice**. It **resists Bug and Grass** and possesses two valuable **immunities to Ghost and Ground**.
+* **Move Selection:** Squawkabilly relies on its respectable Attack and Speed to disrupt the opponent. Key moves in its arsenal include **Brave Bird** for high-power STAB damage, **Double-Edge** to maximize its Normal-type damage output, **U-turn** for maintaining momentum, and **Parting Shot** to lower the opponent's offensive presence while switching out.
+* **Abilities:** 
+    * **Intimidate:** Automatically lowers the Attack stat of opposing Pokémon upon entering battle, significantly bolstering its poor physical bulk.
+    * **Hustle:** Boosts the Pokémon's Attack stat by 50% but lowers the accuracy of physical moves by 20%, turning Squawkabilly into a high-risk, high-reward glass cannon.
+    * **Sheer Force (Hidden Ability):** Increases the power of moves with secondary effects by 30% but removes those effects, providing a consistent damage boost without the accuracy drawback of Hustle.
+
+## Evolution & Biology
+Squawkabilly is a single-stage Pokémon and does not evolve into or from any other species. It is a member of the Flying egg group, with a hatch counter of 15, indicating a relatively standard breeding cycle for avian Pokémon. Biologically, the Yellow Plumage variant is noted for being part of the smaller flocks in the Paldea region compared to the dominant Green and Blue groups. Despite the lack of evolutionary stages, its diverse ability pool—particularly the access to Intimidate and Parting Shot—makes it a surprisingly versatile utility player in competitive double battles, where it can manipulate the field before pivoting to a more durable teammate.

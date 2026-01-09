@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 533,
+    "name": "gurdurr",
+    "stats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 85,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 40
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 40.0,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gurdurr"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "slam",
+      "mega-kick",
+      "take-down",
+      "double-edge",
+      "leer",
+      "low-kick",
+      "counter",
+      "strength",
+      "rock-throw",
+      "dig",
+      "toxic",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mach-punch",
+      "scary-face",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "block",
+      "bulk-up",
+      "wake-up-slap",
+      "hammer-arm",
+      "close-combat",
+      "payback",
+      "fling",
+      "poison-jab",
+      "drain-punch",
+      "focus-blast",
+      "defog",
+      "stone-edge",
+      "grass-knot",
+      "wide-guard",
+      "smack-down",
+      "low-sweep",
+      "round",
+      "chip-away",
+      "retaliate",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "brutal-swing",
+      "coaching",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 649,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/533.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/533.png"
+    },
+    "species_name": "gurdurr",
+    "flavor_text": "This Pok\u00e9mon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+    "genus": "Muscular Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/272/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 272,
+      "chain": {
+        "species_name": "timburr",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gurdurr",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "conkeldurr",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

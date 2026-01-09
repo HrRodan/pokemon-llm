@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 10037,
+    "name": "alakazam-mega",
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 65,
+      "special-attack": 175,
+      "special-defense": 105,
+      "speed": 150
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 48.0,
+    "abilities": [
+      {
+        "name": "trace",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "alakazam-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "headbutt",
+      "disable",
+      "psybeam",
+      "hyper-beam",
+      "seismic-toss",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "teleport",
+      "night-shade",
+      "double-team",
+      "recover",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "kinesis",
+      "dream-eater",
+      "flash",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "knock-off",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "signal-beam",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "miracle-eye",
+      "embargo",
+      "fling",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "confide",
+      "dazzling-gleam",
+      "laser-focus"
+    ],
+    "held_items": [
+      "twisted-spoon"
+    ],
+    "base_experience": 270,
+    "is_default": false,
+    "order": 106,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10037.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10037.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10037.png"
+    },
+    "species_name": "alakazam",
+    "flavor_text": "Its brain can out\u00ad perform a super\u00ad computer. Its intelligence quotient is said to be 5,000.",
+    "genus": "Psi Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/27/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 27,
+      "chain": {
+        "species_name": "abra",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kadabra",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "alakazam",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

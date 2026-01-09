@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 756,
+    "name": "shiinotic",
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 80,
+      "special-attack": 90,
+      "special-defense": 100,
+      "speed": 30
+    },
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 11.5,
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shiinotic"
+    ],
+    "moves": [
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "solar-beam",
+      "sleep-powder",
+      "thunder-wave",
+      "toxic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "amnesia",
+      "dream-eater",
+      "spore",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "synthesis",
+      "moonlight",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "magic-coat",
+      "recycle",
+      "astonish",
+      "weather-ball",
+      "signal-beam",
+      "worry-seed",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "giga-impact",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "magic-room",
+      "after-you",
+      "round",
+      "draining-kiss",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "strength-sap",
+      "spotlight",
+      "pollen-puff"
+    ],
+    "held_items": [
+      "tiny-mushroom",
+      "big-mushroom"
+    ],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 914,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/756.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/756.png"
+    },
+    "species_name": "shiinotic",
+    "flavor_text": "Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.",
+    "genus": "Illuminating Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/389/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 389,
+      "chain": {
+        "species_name": "morelull",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "shiinotic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

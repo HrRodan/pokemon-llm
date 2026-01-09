@@ -1,0 +1,109 @@
+{
+  "pokemon_details": {
+    "id": 360,
+    "name": "wynaut",
+    "stats": {
+      "hp": 95,
+      "attack": 23,
+      "defense": 48,
+      "special-attack": 23,
+      "special-defense": 48,
+      "speed": 23
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 14.0,
+    "abilities": [
+      {
+        "name": "shadow-tag",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wynaut"
+    ],
+    "moves": [
+      "counter",
+      "amnesia",
+      "splash",
+      "destiny-bond",
+      "charm",
+      "safeguard",
+      "encore",
+      "mirror-coat"
+    ],
+    "held_items": [],
+    "base_experience": 52,
+    "is_default": true,
+    "order": 298,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/360.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/360.png"
+    },
+    "species_name": "wynaut",
+    "flavor_text": "WYNAUT can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this POK\u00e9MON will be slapping the ground with its tail.",
+    "genus": "Bright Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 125,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/100/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 100,
+      "chain": {
+        "species_name": "wynaut",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wobbuffet",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 15
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

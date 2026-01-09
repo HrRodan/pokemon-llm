@@ -1,0 +1,173 @@
+{
+  "pokemon_details": {
+    "id": 10157,
+    "name": "necrozma-ultra",
+    "stats": {
+      "hp": 97,
+      "attack": 167,
+      "defense": 97,
+      "special-attack": 167,
+      "special-defense": 97,
+      "speed": 129
+    },
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "height_m": 7.5,
+    "weight_kg": 230.0,
+    "abilities": [
+      {
+        "name": "neuroforce",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "necrozma-ultra"
+    ],
+    "moves": [
+      "swords-dance",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-wave",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "outrage",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "morning-sun",
+      "moonlight",
+      "hidden-power",
+      "heat-wave",
+      "facade",
+      "recycle",
+      "brick-break",
+      "knock-off",
+      "hyper-voice",
+      "rock-tomb",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "calm-mind",
+      "rock-blast",
+      "shock-wave",
+      "gravity",
+      "gyro-ball",
+      "embargo",
+      "fling",
+      "wring-out",
+      "magnet-rise",
+      "rock-polish",
+      "dark-pulse",
+      "night-slash",
+      "x-scissor",
+      "dragon-pulse",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "psycho-cut",
+      "mirror-shot",
+      "flash-cannon",
+      "trick-room",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "psyshock",
+      "autotomize",
+      "telekinesis",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "bulldoze",
+      "confide",
+      "smart-strike",
+      "brutal-swing",
+      "prismatic-laser",
+      "photon-geyser"
+    ],
+    "held_items": [],
+    "base_experience": 339,
+    "is_default": false,
+    "order": 980,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10157.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10157.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10157.png"
+    },
+    "species_name": "necrozma",
+    "flavor_text": "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+    "genus": "Prism Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "black",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/421/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 421,
+      "chain": {
+        "species_name": "necrozma",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

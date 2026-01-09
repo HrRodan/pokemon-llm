@@ -1,0 +1,292 @@
+{
+  "pokemon_details": {
+    "id": 471,
+    "name": "glaceon",
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "special-attack": 130,
+      "special-defense": 95,
+      "speed": 65
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 25.9,
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "glaceon"
+    ],
+    "moves": [
+      "pay-day",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "barrier",
+      "haze",
+      "focus-energy",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "powder-snow",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "mirror-coat",
+      "shadow-ball",
+      "rock-smash",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "fake-tears",
+      "signal-beam",
+      "icicle-spear",
+      "mud-shot",
+      "covet",
+      "calm-mind",
+      "water-pulse",
+      "gravity",
+      "natural-gift",
+      "copycat",
+      "last-resort",
+      "aqua-tail",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "captivate",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "retaliate",
+      "frost-breath",
+      "work-up",
+      "freeze-dry",
+      "confide",
+      "baby-doll-eyes",
+      "laser-focus",
+      "aurora-veil",
+      "triple-axel",
+      "tera-blast",
+      "snowscape",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 223,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/471.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/471.png"
+    },
+    "species_name": "glaceon",
+    "flavor_text": "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+    "genus": "Fresh Snow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 35,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 67,
+      "chain": {
+        "species_name": "eevee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vaporeon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "jolteon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "flareon",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "espeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "umbreon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "leafeon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "eterna-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "pinwheel-forest"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-20"
+              },
+              {
+                "trigger": "use-item",
+                "item": "leaf-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "glaceon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "sinnoh-route-217"
+              },
+              {
+                "trigger": "level-up",
+                "location": "twist-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "frost-cavern"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "sylveon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move_type": "fairy"
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "known_move_type": "fairy"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

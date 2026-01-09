@@ -1,0 +1,164 @@
+{
+  "pokemon_details": {
+    "id": 753,
+    "name": "fomantis",
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 35,
+      "speed": 35
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.5,
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "contrary",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "fomantis"
+    ],
+    "moves": [
+      "swords-dance",
+      "take-down",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "leech-life",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "weather-ball",
+      "aromatherapy",
+      "signal-beam",
+      "bullet-seed",
+      "magical-leaf",
+      "leaf-blade",
+      "payback",
+      "fling",
+      "worry-seed",
+      "poison-jab",
+      "seed-bomb",
+      "x-scissor",
+      "energy-ball",
+      "defog",
+      "leaf-storm",
+      "grass-knot",
+      "bug-bite",
+      "round",
+      "dual-chop",
+      "petal-blizzard",
+      "grassy-terrain",
+      "confide",
+      "leafage",
+      "grassy-glide",
+      "skitter-smack",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "miracle-seed"
+    ],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 910,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/753.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/753.png"
+    },
+    "species_name": "fomantis",
+    "flavor_text": "During the day, it sleeps and soaks up light. When night falls, it walks around looking for a safer place to sleep.",
+    "genus": "Sickle Grass Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/388/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 388,
+      "chain": {
+        "species_name": "fomantis",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lurantis",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

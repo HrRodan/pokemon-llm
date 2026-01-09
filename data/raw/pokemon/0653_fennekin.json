@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 653,
+    "name": "fennekin",
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 62,
+      "special-defense": 60,
+      "speed": 60
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 9.4,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "fennekin"
+    ],
+    "moves": [
+      "scratch",
+      "cut",
+      "take-down",
+      "tail-whip",
+      "ember",
+      "flamethrower",
+      "psybeam",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "double-team",
+      "light-screen",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "overheat",
+      "howl",
+      "mud-shot",
+      "covet",
+      "calm-mind",
+      "embargo",
+      "lucky-chant",
+      "copycat",
+      "flare-blitz",
+      "trick-room",
+      "grass-knot",
+      "psyshock",
+      "magic-room",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "incinerate",
+      "fire-pledge",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "psychic-terrain",
+      "burning-jealousy",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 783,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/653.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/653.png"
+    },
+    "species_name": "fennekin",
+    "flavor_text": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+    "genus": "Fox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/338/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 338,
+      "chain": {
+        "species_name": "fennekin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "braixen",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "delphox",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

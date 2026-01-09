@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 561,
+    "name": "sigilyph",
+    "stats": {
+      "hp": 72,
+      "attack": 58,
+      "defense": 80,
+      "special-attack": 103,
+      "special-defense": 80,
+      "speed": 97
+    },
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 14.0,
+    "abilities": [
+      {
+        "name": "wonder-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sigilyph"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "fly",
+      "ice-beam",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "mirror-move",
+      "swift",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "heat-wave",
+      "facade",
+      "trick",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "air-cutter",
+      "cosmic-power",
+      "signal-beam",
+      "aerial-ace",
+      "calm-mind",
+      "shock-wave",
+      "roost",
+      "gravity",
+      "miracle-eye",
+      "pluck",
+      "tailwind",
+      "psycho-shift",
+      "power-swap",
+      "dark-pulse",
+      "air-slash",
+      "energy-ball",
+      "giga-impact",
+      "psycho-cut",
+      "zen-headbutt",
+      "flash-cannon",
+      "defog",
+      "trick-room",
+      "charge-beam",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "smack-down",
+      "synchronoise",
+      "round",
+      "stored-power",
+      "confide",
+      "dazzling-gleam",
+      "speed-swap",
+      "expanding-force",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 682,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/561.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/561.png"
+    },
+    "species_name": "sigilyph",
+    "flavor_text": "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+    "genus": "Avianoid Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "black",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/286/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 286,
+      "chain": {
+        "species_name": "sigilyph",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

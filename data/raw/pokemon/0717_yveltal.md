@@ -1,0 +1,12 @@
+## Identity & Lore
+Yveltal (Pokedex #717) is the Destruction Pokémon, a terrifying avian legendary that embodies the inevitable end of the life cycle. First discovered in the Kalos region during Generation VI, this massive red-and-black entity is known as the mascot of *Pokémon Y*. Its lore is chilling; when its life span reaches its end, it is said to absorb the life force of every living creature in the vicinity before retreating into a cocoon to sleep for a thousand years. Its physical form is shaped like the letter "Y," and when its wings and tail feathers spread wide and glow a deep, ominous red, it initiates its life-draining powers. While it does not possess a Mega Evolution or Gigantamax form, it serves as the direct thematic opposite to Xerneas, the Life Pokémon, and is a core member of the "Aura Trio" alongside Zygarde.
+
+## Combat Profile
+* **Stats:** HP 126, Attack 131, Defense 95, Sp. Atk 131, Sp. Def 98, Speed 99.
+* **Archetype:** Bulky Mixed Attacker / Wallbreaker.
+* **Type Matchups:** It is **weak to Fairy, Rock, Electric, and Ice**. It possesses crucial **immunties to Ground and Psychic**, and it **resists Ghost, Dark, and Grass**. Its Flying typing cancels out the typical Dark-type weaknesses to Fighting and Bug.
+* **Move Selection:** Yveltal utilizes its equal offensive stats to pressure opponents. Key moves include its signature **Oblivion Wing** (a Flying-type Special move that heals Yveltal for 75% of damage dealt), **Dark Pulse** (boosted by its ability), **Sucker Punch** (powerful STAB priority), and **Heat Wave** (vital coverage for Steel-type threats).
+* **Abilities:** Dark Aura (Powers up Dark-type moves for all Pokémon on the battlefield by 33.3%, making its Dark-type STAB moves exceptionally oppressive).
+
+## Evolution & Biology
+Yveltal is a single-stage Legendary Pokémon and does not evolve from or into any other species. It belongs to the **No-Eggs (Undiscovered)** egg group, meaning it cannot be bred in captivity. Biologically, it is an apex predator of life energy, possessing a wingspan of nearly 6 meters and weighing over 200kg. As a legendary of the Kalos region, it is often tied to the "Ultimate Weapon" created by AZ and sought by Team Flare. Its growth rate is exceptionally slow, reflecting its status as an ancient force of nature that exists outside the standard biological progression of common Pokémon.

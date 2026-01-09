@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Manectric (#10055) is the Mega Evolved form of the Discharge Pokémon, a transformation achieved when a Manectric holding a Manectite reacts to its Trainer's Mega Ring. Originally discovered in the Hoenn region (Generation III), this quadrupedal, canine Pokémon is defined by its massive, jagged yellow mane that crackles with immense bio-electrical energy. Mega Manectric is known to be constantly discharging electricity from its mane; these sparks are so volatile that they have been known to ignite forest fires. In the heat of battle, its electrical output is so intense that it creates localized thunderclouds above the battlefield, signaling its overwhelming power. While it lacks a Gigantamax or Paradox form, its Mega Evolution remains one of the most explosive Speed-tier increases in the Electric-type roster.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 75, Defense 80, Sp. Atk 135, Sp. Def 80, Speed 135.
+* **Archetype:** Fast Special Sweeper / Offensive Pivot.
+* **Type Matchups:** As a pure Electric-type, it is **weak to Ground**. It **resists Flying, Steel, and Electric** types.
+* **Move Selection:** Mega Manectric excels by using its blistering 135 Base Speed to strike first. Key moves in its arsenal include **Thunderbolt** for reliable STAB (Same Type Attack Bonus) damage, **Volt Switch** for maintaining offensive momentum and pivoting, **Overheat** or **Flamethrower** to provide critical Fire-type coverage against Grass and Steel types, and **Snarl** for lowering the opponent's Special Attack.
+* **Abilities:** Intimidate (Upon entering battle or Mega Evolving, it lowers the Attack stat of all adjacent opponents by one stage). This ability is tactically vital, as it compensates for Mega Manectric's average physical Defense, allowing it to survive hits from physical attackers that would otherwise knock it out.
+
+## Evolution & Biology
+Mega Manectric is the final stage of a three-part progression. It begins as **Electrike**, which resides primarily in grasslands. Electrike evolves into **Manectric** starting at **Level 26**. The transition to Mega Manectric is a temporary battle-state triggered by **Mega Evolution** rather than a permanent level-based evolution. Biologically, it belongs to the **Field (Ground)** Egg Group and has a hatch counter of 20. Its growth rate is categorized as slow, requiring significant experience to reach its full potential. Despite its fierce appearance, it maintains a base happiness of 70, reflecting a loyal nature toward a capable Trainer.

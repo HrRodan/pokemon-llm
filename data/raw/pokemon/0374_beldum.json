@@ -1,0 +1,139 @@
+{
+  "pokemon_details": {
+    "id": 374,
+    "name": "beldum",
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 80,
+      "special-attack": 35,
+      "special-defense": 60,
+      "speed": 30
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 95.2,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "light-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "beldum"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "iron-defense",
+      "zen-headbutt",
+      "iron-head",
+      "steel-beam",
+      "tera-blast"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 496,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/374.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/374.png"
+    },
+    "species_name": "beldum",
+    "flavor_text": "Instead of blood, a powerful magnetic force courses throughout BELDUM\u2019s body. This POK\u00e9MON communicates with others by sending controlled pulses of magnetism.",
+    "genus": "Iron Ball Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "blob",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/192/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 192,
+      "chain": {
+        "species_name": "beldum",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "metang",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "metagross",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 45
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

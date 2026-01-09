@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 355,
+    "name": "duskull",
+    "stats": {
+      "hp": 20,
+      "attack": 40,
+      "defense": 90,
+      "special-attack": 30,
+      "special-defense": 90,
+      "speed": 25
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "duskull"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "leer",
+      "disable",
+      "ice-beam",
+      "blizzard",
+      "absorb",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "dream-eater",
+      "leech-life",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "feint-attack",
+      "foresight",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "torment",
+      "will-o-wisp",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "revenge",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "calm-mind",
+      "gravity",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "fling",
+      "sucker-punch",
+      "dark-pulse",
+      "shadow-sneak",
+      "trick-room",
+      "captivate",
+      "charge-beam",
+      "ominous-wind",
+      "wonder-room",
+      "telekinesis",
+      "round",
+      "ally-switch",
+      "hex",
+      "phantom-force",
+      "confide",
+      "infestation",
+      "skitter-smack",
+      "poltergeist",
+      "tera-blast"
+    ],
+    "held_items": [
+      "kasib-berry",
+      "spell-tag"
+    ],
+    "base_experience": 59,
+    "is_default": true,
+    "order": 472,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/355.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/355.png"
+    },
+    "species_name": "duskull",
+    "flavor_text": "DUSKULL can pass through any wall no matter how thick it may be. Once this POK\u00e9MON chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
+    "genus": "Requiem Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 35,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": "forest",
+    "shape": "arms",
+    "color": "black",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/182/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 182,
+      "chain": {
+        "species_name": "duskull",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dusclops",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dusknoir",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "reaper-cloth"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

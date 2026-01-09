@@ -1,0 +1,12 @@
+## Identity & Lore
+Cramorant (Pokedex #845) is the Gulp Pokémon, a distinct avian species first discovered in the Galar region of Generation VIII. This blue-feathered, Water/Flying-type bird is renowned for its voracious appetite and somewhat absent-minded nature; it is known to accidentally swallow things other than its intended prey, occasionally even attempting to gulp down its own trainers or a stray Pikachu. Despite being famously forgetful—sometimes losing track of its opponent in the middle of a heated battle—it is incredibly hardy and possesses a powerful hunting instinct. While Cramorant does not possess a Mega Evolution or Gigantamax form, it undergoes unique biological transformations during combat known as its "Gulping" and "Gorging" forms, which depend on its remaining health.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 55, Sp. Atk 85, Sp. Def 95, Speed 85.
+* **Archetype:** Mixed Utility Attacker. With balanced offensive stats and a respectable Special Defense, Cramorant functions as a disruptive pivot that relies on its signature ability to pressure opponents.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Electric**, and a standard weakness to **Rock**. Conversely, it is **immune to Ground** and provides key **resistances to Fire, Water, Fighting, Bug, and Steel**.
+* **Move Selection:** To maximize its tactical versatility and STAB (Same Type Attack Bonus) potential, Cramorant excels with **Surf** (which triggers its ability), **Hurricane** for high-power aerial pressure, **Brave Bird** for physical STAB, and **Roost** to mitigate its mediocre Defense and sustain its presence on the field.
+* **Abilities:** **Gulp Missile** (When using Surf or Dive, Cramorant catches prey in its mouth. If hit by an opponent while holding prey, it spits the prey out, dealing damage and either lowering the opponent's Defense or paralyzing them, depending on the prey's identity).
+
+## Evolution & Biology
+Cramorant is a single-stage Pokémon and is not known to evolve into or from any other species. Its biology is centered entirely around its distensible throat and hunting prowess. It is a highly competitive breeder within the **Water 1** and **Flying** egg groups, with a hatch counter of approximately 20. Its survival strategy in the wild involves diving into coastal waters to catch Arrokuda, though its "Gorging Form" (triggered when HP is below 50%) reveals its desperate nature as it may emerge with a Pikachu lodged in its throat, which it uses as a projectile to paralyze threats.

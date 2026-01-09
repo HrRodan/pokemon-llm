@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 319,
+    "name": "sharpedo",
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 40,
+      "special-attack": 95,
+      "special-defense": 40,
+      "speed": 95
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 88.8,
+    "abilities": [
+      {
+        "name": "rough-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sharpedo"
+    ],
+    "moves": [
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "waterfall",
+      "swift",
+      "skull-bash",
+      "rest",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "dive",
+      "poison-fang",
+      "rock-tomb",
+      "bounce",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "payback",
+      "assurance",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "giga-impact",
+      "avalanche",
+      "ice-fang",
+      "zen-headbutt",
+      "captivate",
+      "aqua-jet",
+      "round",
+      "scald",
+      "retaliate",
+      "bulldoze",
+      "snarl",
+      "confide",
+      "psychic-fangs",
+      "liquidation",
+      "scale-shot",
+      "flip-turn"
+    ],
+    "held_items": [
+      "deep-sea-tooth"
+    ],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 429,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/319.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/319.png"
+    },
+    "species_name": "sharpedo",
+    "flavor_text": "Nicknamed \u201cthe bully of the sea,\u201d SHARPEDO is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these POK\u00e9MON can thoroughly tear apart a supertanker.",
+    "genus": "Brutal Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/160/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 160,
+      "chain": {
+        "species_name": "carvanha",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sharpedo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+## Identity & Lore
+White-Striped Basculin (Pokedex #10247) is the Hostile Pokémon, a unique regional variant discovered in the ancient Hisui region (associated with Generation VIII). While its Red-Striped and Blue-Striped cousins in the Unova region (Generation V) are known for their extreme aggression and constant infighting, the White-Striped form is characterized by a slightly more temperate—though still incredibly tenacious—disposition. This green, fish-like Pokémon thrives in cold, fresh waters and is often found in the lakes and rivers of the Cobalt Coastlands and Alabaster Icelands. Unlike its Unovian counterparts, White-Striped Basculin possesses the rare biological potential to evolve further, transforming into the powerful Ghost/Water-type Basculegion when it absorbs the souls of its fallen comrades through shared struggle.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 92, Defense 65, Sp. Atk 80, Sp. Def 55, Speed 98.
+* **Archetype:** Fast Physical Wallbreaker.
+* **Type Matchups:** As a pure **Water-type**, it is **weak to Grass and Electric**. It **resists Fire, Water, Ice, and Steel** moves.
+* **Move Selection:** White-Striped Basculin relies on high-velocity physical impacts and recoil-based moves to overwhelm opponents. Key moves in its arsenal include **Wave Crash** (high-power STAB that facilitates evolution), **Aqua Jet** (essential priority for finishing weakened foes), **Crunch** (reliable Dark-type coverage for Psychic and Ghost types), and **Head Smash** (massive Rock-type coverage that benefits from its high-risk playstyle).
+* **Abilities:** 
+    * **Adaptability:** This is its most potent tactical tool, increasing the Same Type Attack Bonus (STAB) from 1.5x to 2.0x, making its Water-type moves hit with devastating force.
+    * **Rattled:** Boosts Speed when hit by Bug, Ghost, or Dark-type moves, or when intimidated, allowing it to outpace most of the unboosted metagame.
+    * **Mold Breaker (Hidden):** Allows Basculin to ignore the abilities of target Pokémon, such as hitting through Sturdy or ignoring Water Absorb.
+
+## Evolution & Biology
+White-Striped Basculin is the first stage in a two-stage evolutionary line. It evolves into **Basculegion** through a unique and grueling process; it must accumulate at least 294 HP in recoil damage (from moves like Wave Crash or Double-Edge) without fainting in the process. This biological shift is triggered by the spirits of its school members who perished during the upstream journey. It belongs to the **Water 2** Egg Group, and while it is remarkably hardy in frigid environments, it maintains a medium growth rate, requiring significant training to reach its full potential. While it does not possess a Mega Evolution or Gigantamax form, its evolution Basculegion serves as a powerful apex predator in the waters it inhabits.

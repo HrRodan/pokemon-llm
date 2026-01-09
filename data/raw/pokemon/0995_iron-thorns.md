@@ -1,0 +1,12 @@
+## Identity & Lore
+Iron Thorns (Pokedex #995) is a Paradox Pokémon first discovered in the Paldea region during Generation IX. Classified as the Paradox Pokémon, this metallic entity bears a striking and uncanny resemblance to Tyranitar, the "Armor Pokémon" of the Johto region. According to reports from a dubious paranormal magazine, Iron Thorns is theorized to be a Tyranitar from one billion years into the future. It is primarily found within the depths of Area Zero, the Great Crater of Paldea, where it exists as a "Future Paradox" form. While its inspiration, Tyranitar, is known to possess a powerful Mega Evolution, Iron Thorns is a distinct, standalone biological (or mechanical) entity that utilizes advanced futuristic energy. Its cold, green metallic plating and glowing apertures suggest a synthesis of organic design and robotic engineering.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 134, Defense 110, Sp. Atk 70, Sp. Def 84, Speed 72.
+* **Archetype:** Bulky Physical Setup Sweeper.
+* **Type Matchups:** As a Rock and Electric type, it suffers from a **Double Weakness (4x) to Ground**, and is also weak to **Fighting, Water, and Grass**. Conversely, it resists **Normal, Poison, Fire, and Electric**, and possesses a double resistance to **Flying**.
+* **Move Selection:** Leveraging its massive Base 134 Attack, Iron Thorns excels with a physical moveset. Key moves include **Dragon Dance** for boosting its Speed and Attack, **Stone Edge** for high-impact Rock-type STAB, **Supercell Slam** (or Wild Charge) for Electric-type STAB, and **Earthquake** to provide essential coverage against Steel and Poison types.
+* **Abilities:** Quark Drive (This ability automatically boosts the Pokémon’s most proficient stat—usually Attack for Iron Thorns—by 30%, or 50% if Speed is highest, while on Electric Terrain or if it is holding a Booster Energy).
+
+## Evolution & Biology
+Iron Thorns is a single-stage Pokémon and is not known to evolve into or from any other species. It is a member of the "No Eggs" (Undiscovered) Egg Group, meaning it cannot be bred in captivity, which is consistent with the mysterious nature of Paradox Pokémon brought through the Time Machine. Biologically, it appears to be a mechanical simulacrum of Tyranitar, weighing a massive 303.0 kg. Unlike its rock-and-soil-based counterpart, Iron Thorns' body is composed of an unknown metallic substance that hums with electrical energy. It demonstrates a slow growth rate, requiring significant experience to reach its full combat potential.

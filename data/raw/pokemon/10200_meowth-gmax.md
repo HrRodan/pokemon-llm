@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Meowth (Pokedex #10200) is the Gigantamax form of the Scratch Cat Pokémon, a species originally discovered in the Kanto region (Generation I). While the base Meowth is known for its urban habitat and obsession with shiny objects, this specific form is a phenomenon unique to the Power Spots of the Galar region. Gigantamaxing causes Meowth’s body to stretch to an incredible height of 33 meters, earning it a reputation as a towering "long cat" with glowing eyes and an elongated torso. It is meticulous about its hygiene, frequently washing its face to ensure the gold coin on its forehead remains spotless. Despite its Kanto origins, it is known to have a prickly relationship with its Galarian Meowth cousins. Beyond this G-Max form, the Meowth species is famous for its regional diversity, including the Dark-type Alolan Meowth and the Steel-type Galarian Meowth, though the Gigantamax factor is typically restricted to specific individuals of the Kantonian variety.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 45, Defense 35, Sp. Atk 40, Sp. Def 40, Speed 90.
+* **Archetype:** Fast Technical Disruptor. While its defensive stats are extremely fragile, its high Speed allows it to act as a pivot or utility lead.
+* **Type Matchups:** As a pure **Normal-type**, it is **weak to Fighting** and maintains a total **immunity to Ghost** moves. It has no resistances.
+* **Move Selection:** To capitalize on its Speed and Technician ability, Gigantamax Meowth excels with **Fake Out** (for priority flinching), **Slash** (high critical-hit ratio), **Bite** (for flinch-chance coverage), and its signature **Pay Day**. In its Gigantamax state, its Normal-type moves transform into **G-Max Gold Rush**, which confuses all adjacent opponents and scatters a massive amount of currency for the trainer.
+* **Abilities:** 
+    * **Pickup:** Allows the Pokémon to find held items outside of battle or retrieve used items during combat.
+    * **Technician:** Increases the power of moves with a base power of 60 or less by 50%, making its weaker utility moves surprisingly potent.
+    * **Unnerve (Hidden Ability):** Pressures the opponent, making them too nervous to eat their held Berries.
+
+## Evolution & Biology
+Meowth is part of a complex, branching evolutionary line. Typically, a standard Meowth evolves into **Persian** starting at Level 28 (or through High Friendship in the case of the Alolan variant). However, a Meowth possessing the **Gigantamax Factor** is unable to evolve, as the G-Max energy stabilizes its form. In other regions, Galarian Meowth follows a different path, evolving into **Perrserker** at Level 28. Meowth belongs to the **Ground** Egg Group and has a hatch counter of 20, making it a relatively quick Pokémon to breed for trainers looking to exploit its Technician-boosted movesets. It follows a medium growth rate and is most commonly found in urban environments where it can scavenge for dropped coins.

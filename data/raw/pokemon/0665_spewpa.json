@@ -1,0 +1,140 @@
+{
+  "pokemon_details": {
+    "id": 665,
+    "name": "spewpa",
+    "stats": {
+      "hp": 45,
+      "attack": 22,
+      "defense": 60,
+      "special-attack": 27,
+      "special-defense": 30,
+      "speed": 29
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 8.4,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spewpa-icy-snow",
+      "spewpa-polar",
+      "spewpa-tundra",
+      "spewpa-continental",
+      "spewpa-garden",
+      "spewpa-elegant",
+      "spewpa-meadow",
+      "spewpa-modern",
+      "spewpa-marine",
+      "spewpa-archipelago",
+      "spewpa-high-plains",
+      "spewpa-sandstorm",
+      "spewpa-river",
+      "spewpa-monsoon",
+      "spewpa-savanna",
+      "spewpa-sun",
+      "spewpa-ocean",
+      "spewpa-jungle",
+      "spewpa-fancy",
+      "spewpa-poke-ball"
+    ],
+    "moves": [
+      "harden",
+      "protect",
+      "iron-defense",
+      "bug-bite",
+      "struggle-bug",
+      "electroweb",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 75,
+    "is_default": true,
+    "order": 797,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/665.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/665.png"
+    },
+    "species_name": "spewpa",
+    "flavor_text": "It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.",
+    "genus": "Scatterdust Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "black",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/342/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 342,
+      "chain": {
+        "species_name": "scatterbug",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "spewpa",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 9
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "vivillon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 12
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

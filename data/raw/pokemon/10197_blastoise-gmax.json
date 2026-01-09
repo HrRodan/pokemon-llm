@@ -1,0 +1,112 @@
+{
+  "pokemon_details": {
+    "id": 10197,
+    "name": "blastoise-gmax",
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special-attack": 85,
+      "special-defense": 105,
+      "speed": 78
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 25.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "blastoise-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10197.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10197.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10197.png"
+    },
+    "species_name": "blastoise",
+    "flavor_text": "A brutal POK\u00e9MON with pressurized water jets on its shell. They are used for high speed tackles.",
+    "genus": "Shellfish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/3/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 3,
+      "chain": {
+        "species_name": "squirtle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wartortle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "blastoise",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+## Identity & Lore
+Alola Cap Pikachu (Pokedex #10099) is a special variant of the Mouse Pokémon wearing the iconic hat Ash Ketchum donned during his adventures in the Alola region. While the Pikachu species was first discovered in Generation I (Kanto), this specific form celebrates the Sun & Moon era and is categorized by its vibrant yellow fur and forest-dwelling habits. Lore states that when several of these Pokémon gather, their combined electricity can manifest into massive lightning storms. Beyond its standard form, the Pikachu species is known for its immense evolutionary potential, including a towering Gigantamax form capable of using "G-Max Volt Crash." This specific Alola Cap variant is often identified by its unique personality and its bond with its trainer, often refusing to stay inside a Poké Ball.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Glass Cannon / Revenge Killer.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Capitalizing on its balanced offensive stats and signature utility, key moves include **Volt Tackle** (a high-power physical STAB move), **Thunderbolt** (reliable special damage), **Volt Switch** (for tactical pivoting), and **Nuzzle** (for guaranteed paralysis and speed control).
+* **Abilities:** **Static** (provides a 30% chance to paralyze opponents who make contact) and **Lightning Rod** (grants immunity to Electric-type moves while boosting its own Special Attack when hit by one).
+* **Competitive Utility:** This Pokémon is almost exclusively seen holding the **Light Ball**, a unique item that doubles its Attack and Special Attack, making its damage output significantly higher than its base stats suggest.
+
+## Evolution & Biology
+Alola Cap Pikachu is part of a three-stage evolutionary line. It evolves from **Pichu** when leveled up with High Friendship (minimum 220). While standard Pikachu evolve into **Raichu** (or Alolan Raichu) when exposed to a **Thunder Stone**, this special Cap variant is typically recognized as a static form that does not undergo further evolution in most regional simulations. It belongs to the **Ground and Fairy Egg Groups** and has a relatively fast hatching rate (Hatch Counter 10). Despite its small stature of 0.4 meters and 6.0 kg, it is a highly agile quadruped capable of generating high-voltage discharges from the pouches in its cheeks.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Snowy Form Castform (Pokedex #10015) is the specialized meteorological variant of the Weather Pokémon, appearing when the atmosphere is dominated by freezing precipitation. Originally discovered in the Hoenn region (Generation III) and famously associated with the Weather Institute, this artificial Pokémon was designed to assist scientists in predicting environmental shifts. In its Snowy Form, Castform’s lower body resembles a soft, white cloud, while its head takes on a cold, purple hue, protected by a chilled layer of air. This form specifically manifests during Hail or Snow weather conditions. While Castform does not possess a Mega Evolution, Gigantamax form, or Paradox variant, its unique molecular structure allows it to functionally "evolve" its typing and appearance instantaneously in response to the climate.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 70, Defense 70, Sp. Atk 70, Sp. Def 70, Speed 70.
+* **Archetype:** Weather-Dependent Special Attacker.
+* **Type Matchups:** As a pure **Ice type**, it is **weak to Fighting, Rock, Steel, and Fire**. It provides a single **resistance to Ice**.
+* **Move Selection:** To maximize its effectiveness in freezing conditions, its kit focuses on high-accuracy STAB (Same Type Attack Bonus) and weather-boosted moves including **Weather Ball** (which doubles in power and becomes Ice-type), **Blizzard** (which ignores accuracy checks in Hail/Snow), **Ice Beam**, and **Hurricane** for high-power coverage.
+* **Abilities:** Forecast (The Pokémon's type and appearance change depending on the current weather. In Snow or Hail, it transforms into this Ice-type form, granting it STAB on its primary Blizzard and Weather Ball attacks).
+
+## Evolution & Biology
+Castform is a single-stage Pokémon that does not undergo traditional evolution; instead, it relies on its **Forecast** ability to undergo situational metamorphosis. It transforms from its base Normal-type form into the Snowy Form immediately upon exposure to a hailstorm or snowfall. Biologically, it is highly sensitive to temperature and humidity, with a body that is surprisingly light at 0.8kg, allowing it to float on thermal currents. It belongs to the **Fairy** and **Indeterminate** Egg Groups, and while it is often found in grassland habitats in the wild, it is most frequently encountered in laboratory settings where weather experiments occur. Its hatch cycle is relatively standard, requiring approximately 25 hatch counters to emerge from an egg.

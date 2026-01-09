@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 666,
+    "name": "vivillon",
+    "stats": {
+      "hp": 80,
+      "attack": 52,
+      "defense": 50,
+      "special-attack": 90,
+      "special-defense": 50,
+      "speed": 89
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 17.0,
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "vivillon-meadow",
+      "vivillon-icy-snow",
+      "vivillon-polar",
+      "vivillon-tundra",
+      "vivillon-continental",
+      "vivillon-garden",
+      "vivillon-elegant",
+      "vivillon-modern",
+      "vivillon-marine",
+      "vivillon-archipelago",
+      "vivillon-high-plains",
+      "vivillon-sandstorm",
+      "vivillon-river",
+      "vivillon-monsoon",
+      "vivillon-savanna",
+      "vivillon-sun",
+      "vivillon-ocean",
+      "vivillon-jungle",
+      "vivillon-fancy",
+      "vivillon-poke-ball"
+    ],
+    "moves": [
+      "gust",
+      "supersonic",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "toxic",
+      "psychic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "facade",
+      "endeavor",
+      "secret-power",
+      "weather-ball",
+      "aromatherapy",
+      "air-cutter",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "calm-mind",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "bug-bite",
+      "quiver-dance",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "electroweb",
+      "hurricane",
+      "draining-kiss",
+      "confide",
+      "powder",
+      "infestation",
+      "laser-focus",
+      "pollen-puff",
+      "skitter-smack",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 185,
+    "is_default": true,
+    "order": 798,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/666.png"
+    },
+    "species_name": "vivillon",
+    "flavor_text": "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    "genus": "Scale Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "bug-wings",
+    "color": "white",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/342/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 342,
+      "chain": {
+        "species_name": "scatterbug",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "spewpa",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 9
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "vivillon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 12
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

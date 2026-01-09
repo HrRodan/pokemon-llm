@@ -1,0 +1,15 @@
+## Identity & Lore
+Squawkabilly (White Plumage) (#10262) is the Parrot Pokémon, a raucous and social avian inhabitant of the Paldea region, first introduced in Generation IX. This specific variant is identified by its stark white feathers and its signature pompadour-like crest, which gives it the appearance of a mid-century street tough. Squawkabilly are quintessential urban dwellers, preferring the bustling environment of cities over the deep wilderness. They are famous for their intense territoriality, organizing themselves into organized flocks based strictly on the color of their plumage. The White Plumage variant is one of four known color forms (alongside Green, Blue, and Yellow), and while they all share a disdain for other colors, they are united by their loud, disruptive cries. Though it does not possess a Mega Evolution or Gigantamax form, its role as a regional bird is defined by its social complexity and aggressive urban survival tactics.
+
+## Combat Profile
+* **Stats:** HP 82, Attack 96, Defense 51, Sp. Atk 45, Sp. Def 51, Speed 92.
+* **Archetype:** Physical Pivot / Glass Cannon.
+* **Type Matchups:** As a Normal/Flying type, it is **weak to Rock, Electric, and Ice**. It **resists Bug and Grass**, while maintaining complete **immunity to Ghost and Ground-type** moves.
+* **Move Selection:** Utilizing its high physical Attack and solid Speed tier, Squawkabilly excels with a moveset featuring **Brave Bird** for high-power STAB damage, **Double-Edge** for a secondary heavy-hitting option, **Parting Shot** to lower enemy offensive stats while pivoting out, and **Facade** to capitalize on status conditions.
+* **Abilities:** 
+    * **Intimidate:** Lowers the Attack stat of adjacent opponents upon entering battle, providing much-needed physical bulk for its team.
+    * **Hustle:** Boosts the Attack stat by 50% but lowers the accuracy of physical moves by 20%, turning Squawkabilly into a high-risk, high-reward wallbreaker.
+    * **Sheer Force (Hidden Ability):** Increases the power of moves with secondary effects by 30% but removes those effects; this is a rare trait specifically sought after in the White and Yellow plumage varieties.
+
+## Evolution & Biology
+Squawkabilly is a single-stage Pokémon and does not evolve, standing as a permanent fixture in its urban colonies. Biologically, it is built for agility and noise rather than endurance, as evidenced by its high Speed and relatively low defensive stats. It belongs to the **Flying** egg group, and its breeding cycles are relatively quick, with a hatch counter of 15. Its growth rate is "Slow-Then-Very-Fast," meaning it requires significant experience to reach mid-levels but reaches its peak potential quickly thereafter. These Pokémon are deeply tied to their plumage color; it is said that the size of a flock's territory is directly proportional to how loudly the members can screech, often leading to "gang wars" between the different colored Squawkabilly groups in large Paldean cities like Mesagoza.

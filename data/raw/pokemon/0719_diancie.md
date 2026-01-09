@@ -1,0 +1,12 @@
+## Identity & Lore
+Diancie (Pokedex #719) is the Jewel Pokémon, a dazzling Mythical Pokémon first discovered in the Kalos region (Generation VI). This pink-hued creature is described as a sudden, miraculous transformation of Carbink, possessing a glimmering body said to be the loveliest sight in the entire world. Physically, it features a crown of pink crystals and a lower body encased in a large, raw diamond ore. While it is usually found deep underground where Carbink congregate, its beauty and rarity make it a centerpiece of Kalosian legend. Diancie is notably the only Pokémon capable of undergoing **Mega Evolution** among its Mythical peers, transforming into Mega Diancie, which is known as the "Royal Pink Princess."
+
+## Combat Profile
+* **Stats:** HP 50, Attack 100, Defense 150, Sp. Atk 100, Sp. Def 150, Speed 50.
+* **Archetype:** Bulky Mixed Attacker / Defensive Pivot. Its massive defensive stats allow it to tank hits while responding with decent offensive pressure.
+* **Type Matchups:** It is **weak to Ground, Water, Grass, and Poison**, with a **Double Weakness (4x) to Steel**. It is **immune to Dragon** and provides resistances to **Normal, Fire, Flying, Bug, and Dark** types.
+* **Move Selection:** Balancing its equal offensive stats, Diancie excels with moves like **Diamond Storm** (its signature physical move that can sharply raise its Defense), **Moonblast** (powerful Fairy STAB), **Earth Power** (critical coverage against Steel types), and **Stealth Rock** (essential entry hazard utility).
+* **Abilities:** Clear Body (Prevents other Pokémon from lowering its stats, ensuring its high defenses and offensive presence remain intact during battle).
+
+## Evolution & Biology
+Diancie is a unique Mythical entity that does not follow a traditional evolutionary line. While biological lore states it is a mutated Carbink, it does not evolve from Carbink through any standard game mechanic (such as leveling or items). It belongs to the **No-Eggs (Undiscovered)** egg group and cannot be bred. It has a high **Hatch Counter of 25**, reflecting its status as a rare, legendary-adjacent lifeform. Despite its delicate, jewel-like appearance, its rocky composition and slow growth rate characterize it as a long-lived and resilient inhabitant of subterranean caverns.

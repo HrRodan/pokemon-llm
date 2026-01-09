@@ -1,0 +1,159 @@
+{
+  "pokemon_details": {
+    "id": 1000,
+    "name": "gholdengo",
+    "stats": {
+      "hp": 87,
+      "attack": 60,
+      "defense": 95,
+      "special-attack": 133,
+      "special-defense": 91,
+      "speed": 84
+    },
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 30.0,
+    "abilities": [
+      {
+        "name": "good-as-gold",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gholdengo"
+    ],
+    "moves": [
+      "thunder-punch",
+      "tackle",
+      "take-down",
+      "hyper-beam",
+      "low-kick",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "psychic",
+      "night-shade",
+      "recover",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "shadow-ball",
+      "memento",
+      "focus-punch",
+      "trick",
+      "astonish",
+      "metal-sound",
+      "fling",
+      "power-gem",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "flash-cannon",
+      "iron-head",
+      "charge-beam",
+      "psyshock",
+      "heavy-slam",
+      "electro-ball",
+      "low-sweep",
+      "hex",
+      "dazzling-gleam",
+      "steel-beam",
+      "poltergeist",
+      "tera-blast",
+      "make-it-rain"
+    ],
+    "held_items": [],
+    "base_experience": 275,
+    "is_default": true,
+    "order": 977,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1000.png"
+    },
+    "species_name": "gholdengo",
+    "flavor_text": "Its body seems to be made up of 1,000 coins. This Pok\u00e9mon gets along well with others and is quick to make friends with anybody.",
+    "genus": "Coin Entity Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/528/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 528,
+      "chain": {
+        "species_name": "gimmighoul",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gholdengo",
+            "evolution_details": [
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

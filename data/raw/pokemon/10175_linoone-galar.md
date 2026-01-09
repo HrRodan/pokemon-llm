@@ -1,0 +1,15 @@
+## Identity & Lore
+Galarian Linoone (Pokedex #10175) is the Rushing Pokémon, a regional variant that adapted to the harsh and competitive environment of the Galar region (Generation VIII). While its Hoennian counterpart is known for its brown and white fur, Galarian Linoone sports a striking black-and-white pattern and a more aggressive, reckless temperament. This quadrupedal mammal is famous for its linear movement; it can reach speeds exceeding 60 mph but has significant difficulty navigating curves, often making sharp, right-angle turns to avoid obstacles. Typically found in grasslands and urban outskirts, it is prone to picking fights with anything it perceives as a threat. Unlike the standard Linoone, the Galarian variant possesses the unique biological potential to evolve further into the daunting Obstagoon, a stage reached through constant conflict and survival.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 70, Defense 61, Sp. Atk 50, Sp. Def 61, Speed 100.
+* **Archetype:** Fast Physical Disruptor. While its offensive stats are modest, its high Speed allows it to act as a pivot or a status spreader in lower competitive tiers.
+* **Type Matchups:** It possesses a dual **Dark/Normal** typing. It suffers from a **Double Weakness (4x) to Fighting** and is also weak to **Bug and Fairy** types. It compensates with a valuable **Immunity to Psychic and Ghost** moves.
+* **Move Selection:** Prioritizing its physical Attack and Speed, Galarian Linoone excels with moves such as **Night Slash** for high-crit STAB damage, **Double-Edge** for raw power, **Throat Chop** to silence sound-based opponents, and **Gunk Shot** to provide essential coverage against Fairy-type threats.
+* **Abilities:** 
+    * **Pickup:** Allows the Pokémon to find held items outside of battle or retrieve an opponent's used item during combat. 
+    * **Gluttony:** Causes the Pokémon to consume a held Berry earlier than usual (at 50% HP instead of 25%), which synergizes well with defensive or stat-boosting berries.
+    * **Quick Feet (Hidden):** Boosts the Pokémon's Speed by 50% if it is suffering from a status condition, making it an exceptionally fast threat if it carries a Flame Orb.
+
+## Evolution & Biology
+Galarian Linoone is the second stage of a three-stage evolutionary line. It evolves from **Galarian Zigzagoon** starting at Level 20. Unlike the standard Linoone found in Hoenn, which represents the end of its line, Galarian Linoone evolves into **Obstagoon** when it reaches Level 35 or higher, provided the evolution occurs at **night**. This transition reflects its survivalist nature in the Galar region. It belongs to the **Field (Ground)** Egg Group and has a hatch counter of 15, indicating a moderate breeding cycle. Biologically, it is highly territorial and uses its long, prehensile tongue and sharp claws to intimidate and overwhelm rivals.

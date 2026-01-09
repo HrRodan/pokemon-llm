@@ -1,0 +1,175 @@
+{
+  "pokemon_details": {
+    "id": 312,
+    "name": "minun",
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 50,
+      "special-attack": 75,
+      "special-defense": 85,
+      "speed": 95
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 4.2,
+    "abilities": [
+      {
+        "name": "minus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "volt-absorb",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "minun"
+    ],
+    "moves": [
+      "mega-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "sing",
+      "counter",
+      "seismic-toss",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "metronome",
+      "swift",
+      "flash",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "baton-pass",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "uproar",
+      "facade",
+      "charge",
+      "helping-hand",
+      "wish",
+      "endeavor",
+      "secret-power",
+      "fake-tears",
+      "signal-beam",
+      "covet",
+      "shock-wave",
+      "natural-gift",
+      "fling",
+      "trump-card",
+      "lucky-chant",
+      "copycat",
+      "last-resort",
+      "magnet-rise",
+      "switcheroo",
+      "nasty-plot",
+      "discharge",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "entrainment",
+      "round",
+      "echoed-voice",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "electric-terrain",
+      "nuzzle",
+      "tearful-look",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "cell-battery"
+    ],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 420,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/312.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/312.png"
+    },
+    "species_name": "minun",
+    "flavor_text": "MINUN is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.",
+    "genus": "Cheering Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/155/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 155,
+      "chain": {
+        "species_name": "minun",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

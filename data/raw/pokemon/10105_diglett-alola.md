@@ -1,0 +1,12 @@
+## Identity & Lore
+Alolan Diglett (Pokedex #050) is the Mole Pokémon, a regional Steel/Ground-type variant of the classic Kanto species discovered in the Alola region (Generation VII). While its Kanto counterpart is purely Ground-type, Alolan Diglett evolved to navigate the volcanic, mineral-rich soils of the Alolan islands, resulting in the growth of thin, golden whiskers that are actually made of a flexible metallic substance. These whiskers serve as sensors, allowing it to communicate with others without emerging from the ground. Despite its small stature, measuring only 0.2 meters, its presence is a sign of healthy soil. While Alolan Diglett does not possess a Mega Evolution or Gigantamax form, it shares a biological resemblance to the convergent species Wiglett found in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 10, Attack 55, Defense 30, Sp. Atk 35, Sp. Def 45, Speed 90.
+* **Archetype:** Fast Physical Attacker / Suicide Lead.
+* **Type Matchups:** It is **weak to Water, Fire, Fighting, and Ground**. It possesses several resistances including **Normal, Flying, Bug, Steel, Psychic, Dragon, and Fairy**, and a **Double Resistance (0.25x) to Rock**. It is completely **immune to Electric and Poison** types.
+* **Move Selection:** Utilizing its high Speed and Physical Attack, Alolan Diglett excels with **Iron Head** and **Earthquake** for STAB (Same Type Attack Bonus) damage. It can utilize **Sucker Punch** for priority finishing and **Stealth Rock** to set entry hazards for its team.
+* **Abilities:** **Tangling Hair** (A signature ability that lowers the Speed of any opponent that hits it with a contact move), **Sand Veil** (Boosts evasion in a sandstorm), and its hidden ability **Sand Force** (Increases the power of Steel, Ground, and Rock moves during a sandstorm).
+
+## Evolution & Biology
+Alolan Diglett is the first stage of a two-stage evolutionary line. It evolves into **Alolan Dugtrio** upon reaching **Level 26**. Biologically, Alolan Diglett is categorized under the **Field** (Ground) egg group. It is often found in cave environments or near volcanic regions where the soil is rich in metallic nutrients. In the wild, they are known to occasionally carry **Soft Sand**, which boosts the power of Ground-type moves. Its behavior is primarily subterranean, feeding on plant roots and rarely surfacing, though its metallic whiskers are often visible above the soil line, glistening in the Alolan sun.

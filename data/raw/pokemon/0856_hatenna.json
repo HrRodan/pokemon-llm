@@ -1,0 +1,168 @@
+{
+  "pokemon_details": {
+    "id": 856,
+    "name": "hatenna",
+    "stats": {
+      "hp": 42,
+      "attack": 30,
+      "defense": 45,
+      "special-attack": 56,
+      "special-defense": 53,
+      "speed": 39
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 3.4,
+    "abilities": [
+      {
+        "name": "healer",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-bounce",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hatenna"
+    ],
+    "moves": [
+      "psybeam",
+      "thunder-wave",
+      "confusion",
+      "psychic",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "psych-up",
+      "future-sight",
+      "facade",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "aromatherapy",
+      "magical-leaf",
+      "calm-mind",
+      "healing-wish",
+      "dark-pulse",
+      "trick-room",
+      "psyshock",
+      "after-you",
+      "round",
+      "stored-power",
+      "heal-pulse",
+      "quash",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "play-nice",
+      "mystical-fire",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "nuzzle",
+      "psychic-terrain",
+      "life-dew",
+      "expanding-force",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 53,
+    "is_default": true,
+    "order": 1040,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/856.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/856.png"
+    },
+    "species_name": "hatenna",
+    "flavor_text": "Via the protrusion on its head, it senses other creatures\u2019 emotions. If you don\u2019t have a calm disposition, it will never warm up to you.",
+    "genus": "Calm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 235,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/450/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 450,
+      "chain": {
+        "species_name": "hatenna",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hattrem",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "hatterene",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 42
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

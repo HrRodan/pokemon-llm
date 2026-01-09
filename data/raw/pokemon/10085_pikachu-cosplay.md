@@ -1,0 +1,12 @@
+## Identity & Lore
+Cosplay Pikachu (Pokedex #10085) is the Mouse Pokémon, a unique female variant of the iconic species characterized by a black heart-shaped mark on the tip of its tail. First appearing in the Generation VI Hoenn region (Omega Ruby and Alpha Sapphire), this specific individual is renowned for its love of the Pokémon Contest Spectaculars. While the standard species originated in Generation I (Kanto), this form is distinct because it can change into five different costumes: Pikachu Rock Star, Pikachu Belle, Pikachu Pop Star, Pikachu Ph.D., and Pikachu Libre. Its yellow, quadrupedal body and forest habitat are typical for the species, but its ability to adapt its skills through costume changes sets it apart. While this specific form cannot undergo Mega Evolution or Gigantamax, the broader Pikachu species is famous for its Gigantamax form, which significantly increases its size and power.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Mixed Attacker / Utility Pivot. 
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Utilizing its higher physical Attack and the power of its signature held item, the Light Ball, key moves include **Thunderbolt** for reliable Special STAB, **Wild Charge** for physical Electric damage, **Volt Switch** for tactical pivoting, and **Iron Tail** for coverage against Rock and Ice types. Depending on its costume, it can also access unique moves like Meteor Mash or Flying Press.
+* **Abilities:** Static (Causes paralysis upon contact with the opponent) and Lightning Rod (Grants immunity to Electric-type moves and boosts Special Attack when hit by one).
+
+## Evolution & Biology
+Cosplay Pikachu is part of a three-stage evolutionary line, though this specific variant is unique and **cannot evolve or breed**. In standard biology, the line begins with Pichu, which evolves into Pikachu when leveled up with High Friendship (minimum 220). Pikachu typically evolves into Raichu (or Alolan Raichu) when exposed to a **Thunder Stone**. Despite its inability to produce offspring, it belongs to the Ground and Fairy Egg Groups. It is known for its social nature; when multiple individuals gather, their collective electrical discharge can generate powerful lightning storms. Its biology allows it to store electricity in the pouches on its cheeks, which it releases when threatened or during battle.

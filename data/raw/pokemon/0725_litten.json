@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 725,
+    "name": "litten",
+    "stats": {
+      "hp": 45,
+      "attack": 65,
+      "defense": 40,
+      "special-attack": 60,
+      "special-defense": 40,
+      "speed": 70
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 4.3,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "litten"
+    ],
+    "moves": [
+      "pay-day",
+      "scratch",
+      "swords-dance",
+      "double-kick",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "fire-spin",
+      "toxic",
+      "double-team",
+      "lick",
+      "fire-blast",
+      "leech-life",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "fake-out",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "endeavor",
+      "overheat",
+      "bulk-up",
+      "covet",
+      "u-turn",
+      "flare-blitz",
+      "nasty-plot",
+      "shadow-claw",
+      "fire-fang",
+      "flame-charge",
+      "round",
+      "acrobatics",
+      "fire-pledge",
+      "work-up",
+      "parting-shot",
+      "confide",
+      "power-trip",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 871,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/725.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/725.png"
+    },
+    "species_name": "litten",
+    "flavor_text": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+    "genus": "Fire Cat Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/375/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 375,
+      "chain": {
+        "species_name": "litten",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "torracat",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "incineroar",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 34
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

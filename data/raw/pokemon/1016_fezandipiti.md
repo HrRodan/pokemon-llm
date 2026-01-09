@@ -1,0 +1,12 @@
+## Identity & Lore
+Fezandipiti (Pokedex #1016) is the Retainer Pokémon, a legendary avian species first discovered in the land of Kitakami within the Generation IX (Paldea) expansion. This elegant, pheasant-like Pokémon is characterized by its sleek black plumage and the distinctive, shimmering purple toxic chain wrapped around its neck and torso. According to Kitakami folklore, Fezandipiti is one of the "Loyal Three," alongside Okidogi and Munkidori, though historical accounts suggest its beautiful appearance and mesmerizing voice are not natural but are instead the result of toxic stimulants emanating from its chain. While it does not currently possess a Mega Evolution or Gigantamax form, it is recognized as a unique Legendary entity with deep ties to the myth of Ogerpon and the Teal Mask.
+
+## Combat Profile
+* **Stats:** HP 88, Attack 91, Defense 82, Sp. Atk 70, Sp. Def 125, Speed 99.
+* **Archetype:** Specially Defensive Pivot.
+* **Type Matchups:** As a Poison/Fairy type, it is **weak to Ground, Psychic, and Steel**. It boasts exceptional defensive utility with **Double Resistances (4x) to Fighting and Bug**, standard resistances to **Grass, Dark, and Fairy**, and a complete **Immunity to Dragon**.
+* **Move Selection:** Utilizing its superior physical Attack and Speed, Fezandipiti excels with a kit featuring **Play Rough** (Fairy STAB), **Poison Jab** (Poison STAB/Status spread), **U-turn** (for pivoting out of unfavorable matchups), and **Roost** (reliable recovery to leverage its high Special Defense).
+* **Abilities:** **Toxic Chain** (Its signature ability; any move it uses has a 30% chance to badly poison the target, synergizing perfectly with multi-hit moves or pivots). **Technician** (Hidden Ability; increases the power of moves with a base power of 60 or less, which can boost utility moves like Dual Wingbeat or Acid Spray).
+
+## Evolution & Biology
+Fezandipiti is a single-stage Legendary Pokémon and does not evolve from or into any other species. It is a member of the "No Eggs" group, meaning it cannot be bred in captivity. Its biology is inextricably linked to its toxic chain, which serves as both a source of its supernatural beauty and its lethal combat prowess. In the wild (specifically the Kitakami region), it is known to be a "slow" growth rate Pokémon, requiring significant experience to reach its full potential. Despite its avian anatomy and "Wings" body shape, its Fairy typing gives it a mystical edge over other Flying-type competitors.

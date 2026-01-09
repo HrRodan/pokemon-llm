@@ -1,0 +1,173 @@
+{
+  "pokemon_details": {
+    "id": 10189,
+    "name": "zamazenta-crowned",
+    "stats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 140,
+      "special-attack": 80,
+      "special-defense": 140,
+      "speed": 128
+    },
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "height_m": 2.9,
+    "weight_kg": 785.0,
+    "abilities": [
+      {
+        "name": "dauntless-shield",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zamazenta-crowned"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "solar-beam",
+      "dig",
+      "agility",
+      "quick-attack",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "safeguard",
+      "iron-tail",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "imprison",
+      "hyper-voice",
+      "iron-defense",
+      "howl",
+      "metal-burst",
+      "close-combat",
+      "payback",
+      "power-swap",
+      "guard-swap",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "wide-guard",
+      "heavy-slam",
+      "round",
+      "retaliate",
+      "work-up",
+      "wild-charge",
+      "tail-slap",
+      "snarl",
+      "play-rough",
+      "moonblast",
+      "dazzling-gleam",
+      "laser-focus",
+      "psychic-fangs",
+      "body-press",
+      "steel-beam",
+      "coaching",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 360,
+    "is_default": false,
+    "order": 1078,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10189.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10189.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10189.png"
+    },
+    "species_name": "zamazenta",
+    "flavor_text": "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle.",
+    "genus": "Warrior Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/468/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 468,
+      "chain": {
+        "species_name": "zamazenta",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

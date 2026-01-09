@@ -1,0 +1,12 @@
+## Identity & Lore
+Trubbish (Pokedex #568) is the Trash Bag Pokémon, a unique Poison-type creature first discovered in the Unova region (Generation V). Appearing as a literal green garbage bag that has undergone a chemical mutation, Trubbish was born from the combination of industrial waste and discarded bags. It thrives in unsanitary environments, particularly urban areas and landfills, where it consumes trash to sustain itself. Its biology is highly volatile; the gas it belches is so potent that inhaling it can cause a human to sleep for an entire week. While Trubbish does not possess any regional variants or Paradox forms, its evolution, Garbodor, is capable of undergoing Gigantamaxing, transforming into a mountain of discarded toys and industrial refuse.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 50, Defense 62, Sp. Atk 40, Sp. Def 62, Speed 65.
+* **Archetype:** Hazard Setter / Utility Tank. Trubbish excels in lower-tier competitive formats by utilizing its decent defensive profile and access to various entry hazards to disrupt the opponent's team.
+* **Type Matchups:** It is **weak to Ground and Psychic** types. It **resists Fighting, Poison, Bug, Grass, and Fairy** types.
+* **Move Selection:** Prioritizing its utility and its slightly higher Attack stat over Special Attack, key moves include **Gunk Shot** (high-power STAB), **Spikes** (entry hazard), **Toxic Spikes** (entry hazard), and **Recycle** (to reuse held items like Oran or Berry Juice).
+* **Abilities:** **Stench** (May cause the opponent to flinch when the user attacks), **Sticky Hold** (Prevents the Pokémon’s held item from being taken), and **Aftermath** (Damages the attacker if the user is knocked out by a making-contact move).
+
+## Evolution & Biology
+Trubbish is the first stage of a two-stage evolutionary line. It evolves into **Garbodor** when it reaches **Level 36**. Biologically, it is noted for its "humanoid" shape despite its inorganic appearance. It follows a "medium" growth rate and is frequently found carrying valuable or useful refuse, such as **Nuggets**, **Silk Scarfs**, or **Black Sludge**, the latter of which provides passive healing to Poison-types. It belongs to the **Mineral** egg group, and despite its reputation for filth, it is known to follow people who litter, effectively acting as a living, albeit pungent, waste disposal system.

@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 867,
+    "name": "runerigus",
+    "stats": {
+      "hp": 58,
+      "attack": 95,
+      "defense": 145,
+      "special-attack": 50,
+      "special-defense": 105,
+      "speed": 30
+    },
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 66.6,
+    "abilities": [
+      {
+        "name": "wandering-spirit",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "runerigus"
+    ],
+    "moves": [
+      "slam",
+      "disable",
+      "hyper-beam",
+      "earthquake",
+      "psychic",
+      "night-shade",
+      "haze",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "destiny-bond",
+      "sandstorm",
+      "endure",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "rain-dance",
+      "shadow-ball",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "trick",
+      "revenge",
+      "skill-swap",
+      "imprison",
+      "astonish",
+      "fake-tears",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "calm-mind",
+      "rock-blast",
+      "payback",
+      "power-swap",
+      "guard-swap",
+      "toxic-spikes",
+      "dark-pulse",
+      "dragon-pulse",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "zen-headbutt",
+      "trick-room",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "guard-split",
+      "power-split",
+      "wonder-room",
+      "round",
+      "ally-switch",
+      "hex",
+      "bulldoze",
+      "phantom-force",
+      "crafty-shield",
+      "brutal-swing",
+      "body-press",
+      "poltergeist"
+    ],
+    "held_items": [],
+    "base_experience": 169,
+    "is_default": true,
+    "order": 1051,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/867.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/867.png"
+    },
+    "species_name": "runerigus",
+    "flavor_text": "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+    "genus": "Grudge Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "gray",
+    "egg_groups": [
+      "mineral",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/287/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 287,
+      "chain": {
+        "species_name": "yamask",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cofagrigus",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "runerigus",
+            "evolution_details": [
+              {
+                "trigger": "take-damage"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

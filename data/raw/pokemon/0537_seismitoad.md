@@ -1,0 +1,12 @@
+## Identity & Lore
+Seismitoad (Pokedex #537) is the Vibration Pokémon, a formidable bipedal amphibian first discovered in the Unova region during Generation V. Recognizable by the bulbous, vibration-inducing bumps covering its blue body, Seismitoad is known to shoot paralyzing liquid from these growths or use them to increase the power of its punches through high-speed oscillation. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its unique biology allows it to thrive in both aquatic and terrestrial environments. It is often found near swampy areas where it uses its vibrations to shatter boulders and distress its prey.
+
+## Combat Profile
+* **Stats:** HP 105, Attack 95, Defense 75, Sp. Atk 85, Sp. Def 75, Speed 74.
+* **Archetype:** Bulky Mixed Attacker / Rain Sweeper.
+* **Type Matchups:** It possesses the excellent Water/Ground typing, leaving it with a **Double Weakness (4x) to Grass**. However, it is **immune to Electric** and provides notable **resistances to Poison, Rock, Steel, and Fire**.
+* **Move Selection:** With its Physical Attack slightly outclassing its Special Attack, Seismitoad excels with a kit including **Earthquake** for massive STAB (Same Type Attack Bonus) damage, **Liquidation** for physical water coverage, **Poison Jab** to punish incoming Grass-types, and **Stealth Rock** to provide essential entry hazard support for its team.
+* **Abilities:** **Swift Swim** (Doubles Speed in Rain, making it a terrifying sweeper); **Poison Touch** (Adds a 30% chance to poison the target when using contact moves); **Water Absorb** (Hidden Ability that grants immunity to Water moves and restores HP when hit by them).
+
+## Evolution & Biology
+Seismitoad is the final stage of a three-stage evolutionary line. It begins as the tadpole-like **Tympole**, which evolves into the mid-stage **Palpitoad** starting at Level 25. The transition into its final form, **Seismitoad**, occurs when it reaches Level 36. Biologically, it is highly efficient in the water but capable of powerful terrestrial movement. It belongs to the **Water 1** Egg Group, and breeders should note a hatch counter of 20 (approximately 5,120 steps) to produce a Tympole egg. It is frequently seen carrying a Pecha or Persim Berry in the wild to mitigate status conditions.

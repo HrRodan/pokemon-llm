@@ -1,0 +1,14 @@
+## Identity & Lore
+Galarian Darmanitan (Pokedex #555) is the Blazing Pokémon, representing a distinct regional adaptation found in the Galar region (Generation VIII). While its Unovan ancestor is defined by its fiery passion and Fire typing, this regional variant has adapted to the frigid, snow-capped mountains of Galar, shifting its primary elemental affinity to Ice. Despite its cold exterior, lore suggests its internal fire remains, burning at temperatures up to 2,500° F, which powers its ability to shatter dump trucks with a single blow. It is characterized by its thick, white fur and a large, snowball-like crest on its head. While Galarian Darmanitan does not possess a Mega Evolution or Gigantamax form, its hidden potential allows it to enter a unique **Galarian Zen Mode**, where its dormant fire ignites, transforming it into a dual Ice/Fire-type powerhouse with drastically increased speed and physical ferocity.
+
+## Combat Profile
+* **Stats:** HP 105, Attack 140, Defense 55, Sp. Atk 30, Sp. Def 55, Speed 95.
+* **Archetype:** Physical Wallbreaker / Revenge Killer.
+* **Type Matchups:** As a pure Ice-type, it is **weak to Fighting, Rock, Steel, and Fire**. It possesses only one resistance, which is **Ice**.
+* **Move Selection:** Leveraging its massive base 140 Attack, Galarian Darmanitan excels with high-impact physical moves. Key selections include **Icicle Crash** for heavy STAB damage and a chance to flinch, **Flare Blitz** to utilize its internal heat for fire-type coverage, **Earthquake** to threaten Steel and Rock-type counters, and **U-turn** for maintaining offensive momentum and scouting.
+* **Abilities:** 
+    * **Gorilla Tactics:** A signature ability that acts as a built-in Choice Band; it boosts the Pokémon's Attack stat by 50% but restricts it to using only the first move selected in battle.
+    * **Zen Mode (Hidden Ability):** Changes the Pokémon's form when its HP drops below 50% at the end of a turn. In Galar, this transforms Darmanitan into a frantic Ice/Fire-type with heightened Speed and Attack.
+
+## Evolution & Biology
+Galarian Darmanitan is the final stage of a two-stage evolutionary line. It evolves from **Galarian Darumaka** when exposed to an **Ice Stone**. Unlike the Unovan Darumaka that evolves through natural growth (Level 35), the Galarian form requires the elemental energy of the stone to trigger its physiological shift. Biologically, it is highly active and prone to fits of physical exertion to keep its internal temperature regulated. It belongs to the **Field (Ground)** egg group, and trainers should note its medium-slow growth rate and a hatch cycle of approximately 20 cycles. Despite its "Blazing Pokémon" classification, its habitat is strictly confined to cold, snowy environments.

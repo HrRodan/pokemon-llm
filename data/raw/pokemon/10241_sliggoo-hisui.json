@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 10241,
+    "name": "sliggoo-hisui",
+    "stats": {
+      "hp": 58,
+      "attack": 75,
+      "defense": 83,
+      "special-attack": 83,
+      "special-defense": 113,
+      "speed": 40
+    },
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 68.5,
+    "abilities": [
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gooey",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sliggoo-hisui"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "ice-beam",
+      "blizzard",
+      "absorb",
+      "thunderbolt",
+      "thunder",
+      "bubble",
+      "acid-armor",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "flail",
+      "protect",
+      "sludge-bomb",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "dragon-breath",
+      "iron-tail",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "rock-tomb",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "gyro-ball",
+      "dragon-pulse",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "sludge-wave",
+      "heavy-slam",
+      "acid-spray",
+      "steel-beam",
+      "skitter-smack",
+      "shelter",
+      "tera-blast",
+      "ice-spinner",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 158,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10241.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10241.png"
+    },
+    "species_name": "sliggoo",
+    "flavor_text": "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can\u2019t see anything.",
+    "genus": "Soft Tissue Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "purple",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/362/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 362,
+      "chain": {
+        "species_name": "goomy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sliggoo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "goodra",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 50
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

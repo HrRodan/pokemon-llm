@@ -1,0 +1,206 @@
+{
+  "pokemon_details": {
+    "id": 423,
+    "name": "gastrodon",
+    "stats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "special-attack": 92,
+      "special-defense": 82,
+      "speed": 39
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 29.9,
+    "abilities": [
+      {
+        "name": "sticky-hold",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gastrodon-west",
+      "gastrodon-east"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "string-shot",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "recover",
+      "harden",
+      "waterfall",
+      "amnesia",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "memento",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "weather-ball",
+      "rock-tomb",
+      "sand-tomb",
+      "muddy-water",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "earth-power",
+      "giga-impact",
+      "mud-bomb",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "sludge-wave",
+      "round",
+      "scald",
+      "bulldoze",
+      "confide",
+      "infestation",
+      "stomping-tantrum",
+      "liquidation",
+      "skitter-smack",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 166,
+    "is_default": true,
+    "order": 554,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/423.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/423.png"
+    },
+    "species_name": "gastrodon",
+    "flavor_text": "It has a pliable body without any bones. If any part of its body is torn off, it grows right back.",
+    "genus": "Sea Slug Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "purple",
+    "egg_groups": [
+      "water1",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/218/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 218,
+      "chain": {
+        "species_name": "shellos",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gastrodon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

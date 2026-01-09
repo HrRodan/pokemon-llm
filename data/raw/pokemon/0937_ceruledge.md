@@ -1,0 +1,12 @@
+## Identity & Lore
+Ceruledge (Pokedex #937) is the Fire Blades Pokémon, a striking humanoid figure clad in dark, spectral armor. Introduced in Generation IX (Paldea), this warrior-like entity manifests blades of fire on its arms that burn with the lingering resentment of a swordsman who perished before reaching their goals. Its flames reach temperatures high enough to melt stone, and it is known for its cold, merciless approach to combat, preferring to slash its enemies with soul-burning strikes. While Ceruledge does not currently possess a Mega Evolution or Gigantamax form, it is widely recognized as the spectral counterpart to Armarouge and is a primary candidate for Terastallization in the Paldea region to bolster its offensive presence.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 125, Defense 80, Sp. Atk 60, Sp. Def 100, Speed 85.
+* **Archetype:** Physical Wallbreaker / Setup Sweeper.
+* **Type Matchups:** It is **weak to Ground, Rock, Water, Ghost, and Dark**. It possesses a **4x resistance to Bug** and resists **Fire, Grass, Ice, Poison, and Steel**. Additionally, it is **immune to Normal and Fighting** types.
+* **Move Selection:** Leveraging its massive 125 Base Attack, Ceruledge excels with its signature move **Bitter Blade**, which deals heavy damage and restores HP. To round out its kit, it utilizes **Shadow Sneak** for priority finishing, **Close Combat** for essential coverage against Dark and Rock types, and **Swords Dance** to reach terrifying levels of physical power.
+* **Abilities:** **Flash Fire** provides an immunity to Fire-type moves and powers up its own fire attacks when triggered. Its hidden ability, **Weak Armor**, is a high-risk tactical choice that lowers Defense but sharply raises Speed when hit by physical moves, allowing it to transition into a fast sweeper mid-match.
+
+## Evolution & Biology
+Ceruledge is part of a split two-stage evolutionary line. It evolves from **Charcadet** when exposed to the **Malicious Armor** (a specialized item found in the Paldea region). This evolution represents the infusion of Charcadet's soul with armor fueled by grudges, whereas exposure to Auspicious Armor would result in the alternative evolution, Armarouge. Ceruledge belongs to the **Humanshape** egg group and has a slow growth rate, requiring significant experience to reach its full potential. Despite its spectral appearance, its biology is tied to the physical armor it inhabits, which focuses its blue-tinted ghostly flames into focused, razor-sharp edges.

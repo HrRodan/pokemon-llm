@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 651,
+    "name": "quilladin",
+    "stats": {
+      "hp": 61,
+      "attack": 78,
+      "defense": 95,
+      "special-attack": 56,
+      "special-defense": 58,
+      "speed": 57
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 29.0,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "bulletproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "quilladin"
+    ],
+    "moves": [
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "vine-whip",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "pin-missile",
+      "bite",
+      "growl",
+      "roar",
+      "low-kick",
+      "strength",
+      "leech-seed",
+      "solar-beam",
+      "dig",
+      "toxic",
+      "double-team",
+      "reflect",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "belly-drum",
+      "sludge-bomb",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "iron-tail",
+      "metal-claw",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "needle-arm",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "iron-defense",
+      "bulk-up",
+      "mud-shot",
+      "magical-leaf",
+      "gyro-ball",
+      "payback",
+      "fling",
+      "worry-seed",
+      "poison-jab",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "shadow-claw",
+      "zen-headbutt",
+      "leaf-storm",
+      "iron-head",
+      "stone-edge",
+      "grass-knot",
+      "wood-hammer",
+      "hone-claws",
+      "wide-guard",
+      "smack-down",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "grass-pledge",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "grassy-terrain",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 781,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/651.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/651.png"
+    },
+    "species_name": "quilladin",
+    "flavor_text": "It relies on its sturdy shell to deflect predators\u2019 attacks. It counterattacks with its sharp quills.",
+    "genus": "Spiny Armor Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/337/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 337,
+      "chain": {
+        "species_name": "chespin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quilladin",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "chesnaught",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

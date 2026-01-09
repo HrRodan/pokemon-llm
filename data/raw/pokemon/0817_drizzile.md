@@ -1,0 +1,12 @@
+## Identity & Lore
+Drizzile (Pokedex #817) is the Water Lizard Pokémon, a distinctive blue-colored bipedal creature introduced in Generation VIII (Galar). As the middle stage of the Galar region's Water-type starter line, Drizzile represents a transitional "adolescent" phase, characterized by its clever and somewhat cautious combat style. It is known to secrete moisture from its palms to create water balloons, which it uses as tactical projectiles to strike foes with surprising precision. Though Drizzile does not possess a unique form itself, its final evolution, Inteleon, is capable of achieving a Gigantamax form, where it becomes a masterful sniper atop a massive water tower. Drizzile is often found near water sources where it can remain moist and maintain its tactical advantage.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 60, Defense 55, Sp. Atk 95, Sp. Def 55, Speed 90.
+* **Archetype:** Fast Special Attacker / Offensive Pivot.
+* **Type Matchups:** It is **weak to Grass and Electric** and **resists Fire, Water, Ice, and Steel**.
+* **Move Selection:** Capitalizing on its high Special Attack and Speed, key moves include **Hydro Pump** (high-power STAB), **Muddy Water** (spread damage with accuracy-lowering potential), **U-turn** (to maintain field momentum and pivot out of unfavorable matchups), and **Ice Shard** (providing crucial priority to finish off weakened opponents despite its physical nature).
+* **Abilities:** **Torrent** (Increases the power of Water-type moves by 50% when current HP is below one-third of its maximum) and **Sniper** (A Hidden Ability that powers up critical hits to deal 2.25x damage instead of 1.5x).
+
+## Evolution & Biology
+Drizzile is part of a three-stage evolutionary line. It evolves from **Sobble** starting at Level 16. Drizzile then reaches its final form, **Inteleon**, after being leveled up to Level 35. Biologically, Drizzile is a highly agile creature with an "Upright" body shape, belonging to the **Water 1** and **Ground** Egg Groups. It has a hatch counter of 20, requiring significant effort to breed. Its growth rate is categorized as Medium-Slow, reflecting the discipline required for it to master its advanced moisture-secretion abilities and evolve into the masterful secret agent of the Galar region.

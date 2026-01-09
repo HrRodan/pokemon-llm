@@ -1,0 +1,177 @@
+{
+  "pokemon_details": {
+    "id": 10163,
+    "name": "rapidash-galar",
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 80.0,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pastel-veil",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rapidash-galar"
+    ],
+    "moves": [
+      "pay-day",
+      "swords-dance",
+      "stomp",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "tail-whip",
+      "growl",
+      "psybeam",
+      "hyper-beam",
+      "low-kick",
+      "confusion",
+      "psychic",
+      "agility",
+      "quick-attack",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "megahorn",
+      "baton-pass",
+      "iron-tail",
+      "future-sight",
+      "facade",
+      "imprison",
+      "bounce",
+      "calm-mind",
+      "healing-wish",
+      "giga-impact",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "wonder-room",
+      "magic-room",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "wild-charge",
+      "drill-run",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "mystical-fire",
+      "dazzling-gleam",
+      "high-horsepower",
+      "throat-chop",
+      "psychic-terrain",
+      "smart-strike",
+      "expanding-force"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": false,
+    "order": 124,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10163.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10163.png"
+    },
+    "species_name": "rapidash",
+    "flavor_text": "Very competitive, this POK\u00e9MON will chase anything that moves fast in the hopes of racing it.",
+    "genus": "Fire Horse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/32/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 32,
+      "chain": {
+        "species_name": "ponyta",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rapidash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

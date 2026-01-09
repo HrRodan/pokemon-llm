@@ -1,0 +1,226 @@
+{
+  "pokemon_details": {
+    "id": 635,
+    "name": "hydreigon",
+    "stats": {
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "special-attack": 125,
+      "special-defense": 90,
+      "speed": 98
+    },
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 160.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "hydreigon"
+    ],
+    "moves": [
+      "fly",
+      "slam",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "bite",
+      "roar",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "fire-spin",
+      "thunder-wave",
+      "earthquake",
+      "toxic",
+      "screech",
+      "double-team",
+      "reflect",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "secret-power",
+      "hyper-voice",
+      "rock-tomb",
+      "signal-beam",
+      "dragon-dance",
+      "shock-wave",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "nasty-plot",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "flash-cannon",
+      "defog",
+      "draco-meteor",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "double-hit",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "acrobatics",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "snarl",
+      "confide",
+      "throat-chop",
+      "brutal-swing",
+      "stomping-tantrum",
+      "breaking-swipe",
+      "scale-shot",
+      "lash-out",
+      "dual-wingbeat",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 758,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/635.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/635.png"
+    },
+    "species_name": "hydreigon",
+    "flavor_text": "This brutal Pok\u00e9mon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
+    "genus": "Brutal Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/323/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 323,
+      "chain": {
+        "species_name": "deino",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "zweilous",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 50
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "hydreigon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 64
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

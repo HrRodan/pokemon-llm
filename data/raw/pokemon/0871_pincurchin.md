@@ -1,0 +1,12 @@
+## Identity & Lore
+Pincurchin (Pokedex #871) is the Sea Urchin Pokémon, a distinctive Electric-type introduced in Generation VIII (Galar). Measuring only 0.3 meters, this purple, spiny creature is often found clinging to rocks in coastal areas where it feeds on seaweed, using specialized teeth to scrape its food off stone surfaces. Though it resembles the Water-type Pyukumuku in physiology, Pincurchin is a pure Electric-type that generates a powerful current within its body, discharging it through the tips of its sharp spines to deter predators. While it does not possess a Mega Evolution or a Gigantamax form, Pincurchin gained significant competitive relevance in the Paldea region (Generation IX) as a primary enabler for Paradox Pokémon, as its ability to set terrain activates the "Quark Drive" ability of "Future" ancient relatives.
+
+## Combat Profile
+* **Stats:** HP 48, Attack 101, Defense 95, Sp. Atk 91, Sp. Def 85, Speed 15.
+* **Archetype:** Low-Speed Utility Tank / Terrain Setter.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Despite its abysmal speed, Pincurchin has a high Attack stat and a versatile support movepool. Key moves include **Zing Zap** (Physical STAB with a flinch chance), **Recover** (to mitigate its low HP), **Sucker Punch** (essential priority to bypass its low Speed), and **Spikes** (leveraging its role as a hazard-setting lead).
+* **Abilities:** **Lightning Rod** (Provides immunity to Electric moves and raises Special Attack when hit) and its Hidden Ability, **Electric Surge** (Immediately summons Electric Terrain upon entering battle, boosting Electric moves and preventing sleep).
+
+## Evolution & Biology
+Pincurchin is a single-stage Pokémon and does not evolve from or into any other species. It is a biological marvel of the Galar and Paldea coastlines, often found in tidal pools. Despite its sedentary appearance, it is a capable hunter and defender. It belongs to the **Water 1** and **Amorphous (Indeterminate)** Egg Groups, with a hatch counter of approximately 20 cycles. Biologically, it is noted for its "Tentacle" shape classification, though its most prominent features remain the yellow-tipped spines that act as lightning conductors and defensive bayonets.

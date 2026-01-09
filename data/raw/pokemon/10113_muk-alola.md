@@ -1,0 +1,12 @@
+## Identity & Lore
+Alolan Muk (Pokedex #10113) is the Sludge Pokémon, a regional variant of the original Kanto Muk introduced in the Alola region (Generation VII). While the standard Muk is a uniform purple, Alolan Muk’s body is a shifting kaleidoscope of iridescent colors caused by the chemical reactions of the vast amounts of garbage it consumes. Its body is embedded with sharp, white crystals that are actually solidified toxins, which act as lethal fangs and claws. In the Alola region, these Pokémon are highly valued for their role in waste management, though their internal chemistry is far more volatile than their mainland cousins. While it does not have a Mega Evolution or Gigantamax form, its unique typing and access to the exclusive Z-Move "Acid Downpour" made it a staple of the Alolan competitive circuit.
+
+## Combat Profile
+* **Stats:** HP 105, Attack 105, Defense 75, Sp. Atk 65, Sp. Def 100, Speed 50.
+* **Archetype:** Specially Defensive Tank / Physical Bruiser.
+* **Type Matchups:** It is **weak to Ground**. It possesses a vital **Immunity to Psychic** and **resists Poison, Ghost, Grass, and Dark** types. Its Poison/Dark typing is one of the best defensive combinations in the game, leaving it with only one single weakness.
+* **Move Selection:** Leveraging its high physical Attack and utility, key moves include **Knock Off** (for STAB damage and removing opponent items), **Gunk Shot** (its most powerful physical Poison STAB), **Poison Jab** (for a more accurate STAB option), and **Fire Punch** (to provide crucial coverage against Steel-type switch-ins).
+* **Abilities:** **Poison Touch** (May poison the target when the Pokémon makes contact), **Gluttony** (Causes the Pokémon to consume its held Berry at 50% HP instead of 25%), and the Hidden Ability **Power of Alchemy** (A unique tactical ability that allows Muk to inherit the ability of a fainted ally in double battles).
+
+## Evolution & Biology
+Alolan Muk is the final stage of a two-stage evolutionary line. It evolves from **Alolan Grimer** starting at **Level 38**. Unlike the Kanto form, Alolan Muk's biology is dictated by a constant need to feed on waste; if it runs out of trash to eat, it may begin breaking down its own toxic crystals, leading to increased irritability. It belongs to the **Amorphous** (Indeterminate) Egg Group. In the wild, it is often found holding **Black Sludge**, which provides passive recovery to Poison-types while damaging any other Pokémon that might attempt to steal it.

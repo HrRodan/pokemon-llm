@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 434,
+    "name": "stunky",
+    "stats": {
+      "hp": 63,
+      "attack": 63,
+      "defense": 47,
+      "special-attack": 41,
+      "special-defense": 41,
+      "speed": 74
+    },
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 19.2,
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "keen-eye",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "stunky"
+    ],
+    "moves": [
+      "scratch",
+      "cut",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "smokescreen",
+      "haze",
+      "focus-energy",
+      "smog",
+      "fire-blast",
+      "swift",
+      "poison-gas",
+      "explosion",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "torment",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "poison-tail",
+      "natural-gift",
+      "feint",
+      "payback",
+      "assurance",
+      "punishment",
+      "sucker-punch",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "nasty-plot",
+      "shadow-claw",
+      "defog",
+      "gunk-shot",
+      "captivate",
+      "hone-claws",
+      "venoshock",
+      "flame-burst",
+      "sludge-wave",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "hex",
+      "incinerate",
+      "tail-slap",
+      "snarl",
+      "belch",
+      "play-rough",
+      "confide",
+      "venom-drench",
+      "throat-chop",
+      "lash-out",
+      "corrosive-gas",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [
+      "pecha-berry"
+    ],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 562,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/434.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/434.png"
+    },
+    "species_name": "stunky",
+    "flavor_text": "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
+    "genus": "Skunk Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "purple",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/223/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 223,
+      "chain": {
+        "species_name": "stunky",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "skuntank",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

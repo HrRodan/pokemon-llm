@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 952,
+    "name": "scovillain",
+    "stats": {
+      "hp": 65,
+      "attack": 108,
+      "defense": 65,
+      "special-attack": 108,
+      "special-defense": 65,
+      "speed": 75
+    },
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "scovillain"
+    ],
+    "moves": [
+      "headbutt",
+      "take-down",
+      "leer",
+      "bite",
+      "flamethrower",
+      "hyper-beam",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "fire-blast",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "sunny-day",
+      "crunch",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "overheat",
+      "bullet-seed",
+      "magical-leaf",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "fire-fang",
+      "zen-headbutt",
+      "leaf-storm",
+      "grass-knot",
+      "grassy-terrain",
+      "leafage",
+      "stomping-tantrum",
+      "grassy-glide",
+      "burning-jealousy",
+      "lash-out",
+      "tera-blast",
+      "spicy-extract",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 939,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/952.png"
+    },
+    "species_name": "scovillain",
+    "flavor_text": "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+    "genus": "Spicy Pepper Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/498/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 498,
+      "chain": {
+        "species_name": "capsakid",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "scovillain",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

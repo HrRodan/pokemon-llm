@@ -1,0 +1,87 @@
+{
+  "pokemon_details": {
+    "id": 10302,
+    "name": "drampa-mega",
+    "stats": {
+      "hp": 78,
+      "attack": 85,
+      "defense": 110,
+      "special-attack": 160,
+      "special-defense": 116,
+      "speed": 36
+    },
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "height_m": 3.0,
+    "weight_kg": 240.5,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "drampa",
+    "flavor_text": "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+    "genus": "Placid Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 70,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "white",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/406/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 406,
+      "chain": {
+        "species_name": "drampa",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

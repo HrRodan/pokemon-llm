@@ -1,0 +1,12 @@
+## Identity & Lore
+Dewpider (Pokedex #751) is the Water Bubble Pokémon, first discovered in the Alola region of Generation VII. This small, green arachnid-like Pokémon is defined by the pressurized bubble of water it wears over its head, which allows it to breathe while it leaves the safety of ponds to hunt for food on land. The bubble serves a dual purpose: it acts as a scuba helmet for terrestrial travel and provides a shock-absorbing shield for its soft, vulnerable head. While Dewpider itself does not possess a Mega Evolution or Gigantamax form, its evolved form, Araquanid, is famously known as a formidable Totem Pokémon in the Alolan Island Challenge. In the wild, Dewpider are often found competing with one another; when two meet, they compare the size of their water bubbles to establish dominance.
+
+## Combat Profile
+* **Stats:** HP 38, Attack 40, Defense 52, Sp. Atk 40, Sp. Def 72, Speed 27.
+* **Archetype:** Low-Tier Special Tank / Entry Hazard Setter. 
+* **Type Matchups:** It is **weak to Electric, Flying, and Rock**. It effectively **resists Fighting, Ground, Steel, Water, and Ice** attacks.
+* **Move Selection:** Despite its modest base stats, Dewpider utilizes its signature ability to punch well above its weight class. Key moves include **Liquidation** (massive damage via Water Bubble), **Leech Life** (sustain and Bug-type STAB), **Sticky Web** (essential speed control for the team), and **Scald** (utilizing its Special Attack to fish for burns).
+* **Abilities:** **Water Bubble** (A premier signature ability that doubles the power of Water-type moves, provides a 50% resistance to Fire-type moves, and grants total immunity to the Burn status). **Water Absorb** (Hidden Ability: Grants immunity to Water-type moves and restores 25% of maximum HP when struck by one).
+
+## Evolution & Biology
+Dewpider is the first stage of a two-part evolutionary line. It evolves into **Araquanid** once it reaches **Level 22**. Biologically, it is a highly adaptable creature that bridges the gap between aquatic and terrestrial habitats. It is frequently found carrying **Mystic Water**, which it likely uses to maintain the surface tension and purity of its head-bubble. Dewpider belongs to both the **Water 1 and Bug** Egg Groups, and breeders should note a hatch counter of 15, making it a relatively quick Pokémon to hatch. Its growth rate is classified as Medium, following a steady progression as it prepares to become the apex predator of Alolan wetlands.

@@ -1,0 +1,167 @@
+{
+  "pokemon_details": {
+    "id": 486,
+    "name": "regigigas",
+    "stats": {
+      "hp": 110,
+      "attack": 160,
+      "defense": 110,
+      "special-attack": 80,
+      "special-defense": 110,
+      "speed": 100
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 3.7,
+    "weight_kg": 420.0,
+    "abilities": [
+      {
+        "name": "slow-start",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "regigigas"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "confuse-ray",
+      "dizzy-punch",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "block",
+      "shock-wave",
+      "gravity",
+      "hammer-arm",
+      "natural-gift",
+      "payback",
+      "fling",
+      "rock-polish",
+      "drain-punch",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "crush-grip",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "retaliate",
+      "bulldoze",
+      "heat-crash",
+      "confide",
+      "power-up-punch",
+      "darkest-lariat",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "terrain-pulse",
+      "tera-blast",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 302,
+    "is_default": true,
+    "order": 599,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/486.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/486.png"
+    },
+    "species_name": "regigigas",
+    "flavor_text": "There is an enduring legend that states this Pok\u00e9mon towed continents with ropes.",
+    "genus": "Colossal Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/247/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 247,
+      "chain": {
+        "species_name": "regigigas",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

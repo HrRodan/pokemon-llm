@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 440,
+    "name": "happiny",
+    "stats": {
+      "hp": 100,
+      "attack": 5,
+      "defense": 5,
+      "special-attack": 15,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 24.4,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "happiny"
+    ],
+    "moves": [
+      "pound",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "flamethrower",
+      "counter",
+      "seismic-toss",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "double-team",
+      "minimize",
+      "defense-curl",
+      "light-screen",
+      "metronome",
+      "fire-blast",
+      "soft-boiled",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "present",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "recycle",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "hyper-voice",
+      "aromatherapy",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "gravity",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "last-resort",
+      "drain-punch",
+      "mud-bomb",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "incinerate",
+      "work-up",
+      "disarming-voice",
+      "draining-kiss",
+      "fairy-wind",
+      "confide",
+      "baby-doll-eyes",
+      "tera-blast",
+      "snowscape"
+    ],
+    "held_items": [
+      "oval-stone",
+      "lucky-egg",
+      "lucky-punch"
+    ],
+    "base_experience": 110,
+    "is_default": true,
+    "order": 179,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/440.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/440.png"
+    },
+    "species_name": "happiny",
+    "flavor_text": "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY.",
+    "genus": "Playhouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 130,
+    "base_happiness": 140,
+    "hatch_counter": 40,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/51/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 51,
+      "chain": {
+        "species_name": "happiny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "chansey",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "time_of_day": "day",
+                "held_item": "oval-stone"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "blissey",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_happiness": 160
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

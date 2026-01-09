@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 487,
+    "name": "giratina-altered",
+    "stats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 120,
+      "special-attack": 100,
+      "special-defense": 120,
+      "speed": 90
+    },
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "height_m": 4.5,
+    "weight_kg": 750.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "giratina-altered"
+    ],
+    "moves": [
+      "cut",
+      "fly",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "double-team",
+      "confuse-ray",
+      "swift",
+      "dream-eater",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "destiny-bond",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "rock-smash",
+      "will-o-wisp",
+      "facade",
+      "secret-power",
+      "hyper-voice",
+      "air-cutter",
+      "silver-wind",
+      "aerial-ace",
+      "dragon-claw",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "payback",
+      "heal-block",
+      "aura-sphere",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "shadow-sneak",
+      "rock-climb",
+      "defog",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "charge-beam",
+      "ominous-wind",
+      "shadow-force",
+      "hone-claws",
+      "telekinesis",
+      "round",
+      "echoed-voice",
+      "hex",
+      "bulldoze",
+      "dragon-tail",
+      "phantom-force",
+      "confide",
+      "brutal-swing",
+      "breaking-swipe",
+      "skitter-smack",
+      "poltergeist",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 600,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/487.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/487.png"
+    },
+    "species_name": "giratina",
+    "flavor_text": "A Pok\u00e9mon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+    "genus": "Renegade Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "black",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/248/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 248,
+      "chain": {
+        "species_name": "giratina",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

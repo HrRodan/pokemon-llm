@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 443,
+    "name": "gible",
+    "stats": {
+      "hp": 58,
+      "attack": 70,
+      "defense": 45,
+      "special-attack": 40,
+      "special-defense": 45,
+      "speed": 42
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 20.5,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rough-skin",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gible"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "bite",
+      "roar",
+      "flamethrower",
+      "strength",
+      "dragon-rage",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "swift",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "mud-shot",
+      "natural-gift",
+      "dragon-pulse",
+      "dragon-rush",
+      "earth-power",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "rock-climb",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "scale-shot",
+      "scorching-sands",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [
+      "haban-berry"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 568,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/443.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/443.png"
+    },
+    "species_name": "gible",
+    "flavor_text": "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+    "genus": "Land Shark Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/230/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 230,
+      "chain": {
+        "species_name": "gible",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gabite",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "garchomp",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 48
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

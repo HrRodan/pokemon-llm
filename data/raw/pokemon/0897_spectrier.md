@@ -1,0 +1,12 @@
+## Identity & Lore
+Spectrier (Pokedex #897) is the Swift Horse Pokémon, a spectral Legendary creature introduced in Generation VIII (Galar) during the Crown Tundra expedition. Standing at 2.0 meters tall with a sleek, jet-black coat, it is a being of pure ghostly energy that prefers solitude and silence. According to Galar legend, it is the loyal steed of Calyrex, the King of Bountiful Harvests. Spectrier lacks a sense of sight but compensates with its other highly heightened senses to probe its surroundings. It is a feared entity in folklore, as its powerful kicks are said to be capable of literally separating a soul from its body. While it does not possess a Mega Evolution or Gigantamax form of its own, it possesses a unique "form potential" through fusion; when merged with Calyrex using the Reins of Unity, it becomes the terrifyingly powerful **Shadow Rider Calyrex**.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 65, Defense 60, Sp. Atk 145, Sp. Def 80, Speed 130.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** As a pure Ghost-type, it is **weak to Ghost and Dark**. It possesses **resistances to Poison and Bug**, and maintains complete **immunity to Normal and Fighting** moves.
+* **Move Selection:** Capitalizing on its elite Special Attack and Speed, key moves include **Shadow Ball** for consistent STAB damage, **Hex** to punish status-afflicted foes, **Nasty Plot** to aggressively boost its offensive presence, and **Will-O-Wisp** to burn physical attackers and compensate for its lower physical Defense.
+* **Abilities:** Grim Neigh (When Spectrier knocks out a target, its chilling cries boost its Special Attack stat by one stage, allowing it to "snowball" through enemy teams).
+
+## Evolution & Biology
+Spectrier is a single-stage Legendary Pokémon and is not known to evolve into or from any other species. It is a genderless creature belonging to the **No Eggs Discovered** egg group, meaning it cannot be bred in captivity. Biologically, it is attracted to the scent of Iceroot Carrots, which were used in ancient times to tame it. Despite its ethereal appearance, it has a heavy impact on the physical world, often being found in lonely, desolate locations like the Old Cemetery in the Crown Tundra. It has a slow growth rate, requiring significant experience to reach its full potential, and is notoriously difficult to capture, possessing one of the lowest catch rates in the Pokémon world.

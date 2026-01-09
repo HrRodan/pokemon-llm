@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 688,
+    "name": "binacle",
+    "stats": {
+      "hp": 42,
+      "attack": 52,
+      "defense": 67,
+      "special-attack": 39,
+      "special-defense": 56,
+      "speed": 50
+    },
+    "types": [
+      "rock",
+      "water"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 31.0,
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "binacle"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "withdraw",
+      "clamp",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "ancient-power",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "torment",
+      "facade",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "tickle",
+      "aerial-ace",
+      "iron-defense",
+      "mud-shot",
+      "water-sport",
+      "rock-blast",
+      "water-pulse",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "rock-polish",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "switcheroo",
+      "shadow-claw",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "smack-down",
+      "sludge-wave",
+      "round",
+      "scald",
+      "shell-smash",
+      "bulldoze",
+      "dual-chop",
+      "razor-shell",
+      "confide",
+      "infestation",
+      "power-up-punch",
+      "liquidation"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 823,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/688.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/688.png"
+    },
+    "species_name": "binacle",
+    "flavor_text": "Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",
+    "genus": "Two-Handed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "heads",
+    "color": "brown",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/353/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 353,
+      "chain": {
+        "species_name": "binacle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "barbaracle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 39
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

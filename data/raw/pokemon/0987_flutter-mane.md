@@ -1,0 +1,12 @@
+## Identity & Lore
+Flutter Mane (Pokedex #987) is the Paradox Pokémon, a mysterious entity discovered within the Great Crater of Paldea (Area Zero) during the Generation IX expedition. Classified as an ancient relative of Misdreavus, this Ghost and Fairy-type creature was first detailed in the "Scarlet Book," where it was described as a pterosaur-like phantom with flowing, feather-like hair. Its appearance is characterized by its ethereal gray body and vibrant pinkish-red plumes that drift through the air like mist. Unlike modern Pokémon, Flutter Mane radiates an aura of prehistoric energy, appearing specifically in the Paldea region. While it does not possess a Mega Evolution or Gigantamax form, it belongs to the elite group of Paradox Pokémon whose power levels rival legendary status.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 55, Defense 55, Sp. Atk 135, Sp. Def 135, Speed 135.
+* **Archetype:** Fast Special Sweeper / Special Glass Cannon.
+* **Type Matchups:** It is **weak to Ghost, Steel, and Poison**. It possesses a massive triple immunity, being **immune to Normal, Fighting, and Dragon-type moves**. It also highly **resists Bug-type moves (0.25x damage)**.
+* **Move Selection:** Utilizing its massive Special Attack and Speed, Flutter Mane excels with **Moonblast** (high-power Fairy STAB), **Shadow Ball** (reliable Ghost STAB), **Mystical Fire** (for coverage against Steel-types), and **Psyshock** (to hit physical walls on their weaker Defense stat).
+* **Abilities:** Protosynthesis (Boosts the Pokémon's most proficient stat—usually Speed or Special Attack—by 30% or 50% in harsh sunlight or if the Pokémon is holding Booster Energy). This makes it a premier threat on "Sun" teams alongside Koraidon or Torkoal.
+
+## Evolution & Biology
+Flutter Mane is a single-stage Paradox Pokémon and is not known to evolve into or from any other species. It represents a divergent biological line that has remained unchanged for millions of years. As a Paradox entity, it belongs to the **No Eggs** group, meaning it cannot be bred in captivity. Its biology is adapted for high-speed aerial maneuvers and potent spectral energy manipulation, though its physical constitution is notably fragile, as evidenced by its very low HP and Defense. Despite its delicate frame, it is one of the most dominant forces in competitive battling due to its perfect offensive typing and blistering speed.

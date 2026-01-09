@@ -1,0 +1,259 @@
+{
+  "pokemon_details": {
+    "id": 282,
+    "name": "gardevoir",
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 125,
+      "special-defense": 115,
+      "speed": 80
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 48.4,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "trace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gardevoir"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "psybeam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "teleport",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "recover",
+      "confuse-ray",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "signal-beam",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "healing-wish",
+      "natural-gift",
+      "fling",
+      "power-swap",
+      "guard-swap",
+      "aura-sphere",
+      "vacuum-wave",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "moonblast",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "laser-focus",
+      "psychic-terrain",
+      "life-dew",
+      "expanding-force",
+      "misty-explosion",
+      "triple-axel",
+      "tera-blast",
+      "alluring-voice",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 233,
+    "is_default": true,
+    "order": 382,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/282.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/282.png"
+    },
+    "species_name": "gardevoir",
+    "flavor_text": "GARDEVOIR has the ability to read the future. If it senses impending danger to its TRAINER, this POK\u00e9MON is said to unleash its psychokinetic energy at full power.",
+    "genus": "Embrace Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "humanshape",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/140/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 140,
+      "chain": {
+        "species_name": "ralts",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kirlia",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gardevoir",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              },
+              {
+                "species_name": "gallade",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "dawn-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

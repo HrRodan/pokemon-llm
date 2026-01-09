@@ -1,0 +1,15 @@
+## Identity & Lore
+Roggenrola (Pokedex #524) is the Mantle Pokémon, a robust Rock-type creature first discovered in the Unova region during Generation V. Characterized by its pebble-like, blue rocky body and a singular, hexagonal opening that serves as an ear, Roggenrola is known for its incredible physical density. Born deep underground, its body has been compressed by intense tectonic pressure, resulting in a composition that is frequently described as being as hard as steel. While it lacks eyes, it navigates dark cavernous habitats using sensitive auditory feedback. Though Roggenrola itself does not possess a Mega Evolution or Gigantamax form, its final evolutionary form, Gigalith, is a renowned powerhouse in competitive play, often utilized for its ability to summon sandstorms and its massive crystalline structures that absorb solar energy to fire powerful beams.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 75, Defense 85, Sp. Atk 25, Sp. Def 25, Speed 15.
+* **Archetype:** Physical Tank / Entry Hazard Lead. Despite being a basic-stage Pokémon, Roggenrola possesses high physical durability and respectable offensive pressure for its tier.
+* **Type Matchups:** As a pure Rock-type, it is **weak to Fighting, Ground, Steel, Water, and Grass**. It effectively **resists Normal, Flying, Poison, and Fire** types.
+* **Move Selection:** Utilizing its high Attack and low Speed, Roggenrola excels with heavy-hitting physical moves and utility. Key moves include **Stone Edge** for high-crit STAB damage, **Earthquake** for essential Ground-type coverage, **Rock Blast** to break through Focus Sashes or Substitutes, and **Heavy Slam**, which leverages its high weight relative to its size. It is also a frequent user of **Stealth Rock** to set entry hazards.
+* **Abilities:** 
+    * **Sturdy:** Prevents the Pokémon from being knocked out in one hit from full HP, making it a reliable lead.
+    * **Weak Armor:** A niche tactical ability that lowers Defense but sharply increases Speed when hit by a physical move.
+    * **Sand Force (Hidden Ability):** Increases the power of Rock, Ground, and Steel-type moves by 30% during a sandstorm.
+
+## Evolution & Biology
+Roggenrola is the first stage of a three-stage evolutionary line. It evolves into the core-covered **Boldore** starting at Level 25. To reach its final form, **Gigalith**, a Boldore must be traded to another trainer, triggering a metamorphic shift into its giant, crystalline state. Biologically, Roggenrola belongs to the **Mineral** egg group, and its birth is often associated with deep-earth tremors. Trainers frequently find them holding **Hard Stones** to boost their power or **Everstones**, which are curiously common among this species in the wild. Its growth rate is "Medium-Slow," requiring patient training to reach its full potential as a mountain-shaking titan.

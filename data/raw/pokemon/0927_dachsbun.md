@@ -1,0 +1,12 @@
+## Identity & Lore
+Dachsbun (Pokedex #927) is the Dog Pokémon, a loyal and helpful companion first discovered in the Paldea region during Generation IX. This quadrupedal Pokémon is characterized by its smooth, bread-like skin that has a toasted, golden-brown appearance. Its body emanates a pleasant, yeasty aroma that is not only soothing to humans but also beneficial to agriculture; farming villages have historically treasured Dachsbun because its scent helps wheat grow more abundantly. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its unique physiological composition—resembling baked goods—gives it specialized biological defenses against heat.
+
+## Combat Profile
+* **Stats:** HP 57, Attack 80, Defense 115, Sp. Atk 50, Sp. Def 80, Speed 95.
+* **Archetype:** Physical Tank / Utility Pivot. With its high base Defense and respectable Speed, Dachsbun excels at disrupting physical attackers and punishing opponents with defense-scaling moves.
+* **Type Matchups:** As a pure **Fairy type**, it is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and it possesses a complete **immunity to Dragon-type** moves.
+* **Move Selection:** Dachsbun’s combat strategy revolves around its high physical durability. Key moves include **Body Press** (which utilizes its 115 Defense for damage calculation), **Play Rough** (its primary physical Fairy STAB), **Psychic Fangs** (to counter Poison-type threats and break barriers), and **Stomping Tantrum** (crucial Ground-type coverage for Steel and Poison types).
+* **Abilities:** **Well-Baked Body** is its signature ability, which grants it an immunity to Fire-type moves; when hit by a Fire move, its Defense stat is raised by two stages instead of taking damage. **Aroma Veil** (Hidden Ability) protects Dachsbun and its allies from effects that limit move choice, such as Taunt, Torment, and Encore.
+
+## Evolution & Biology
+Dachsbun is the final stage of a two-stage evolutionary line. It evolves from **Fidough** once it reaches **Level 26**. Biologically, it is a hardy Pokémon despite its soft appearance, possessing a surface that is firm and resistant to burning. It belongs to both the **Ground** (Field) and **Mineral** Egg Groups, making it a unique bridge between mammalian and mineral-based species in breeding circles. It has a hatch counter of 20, requiring a moderate amount of travel to incubate its eggs.

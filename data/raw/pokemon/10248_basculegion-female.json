@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 10248,
+    "name": "basculegion-female",
+    "stats": {
+      "hp": 120,
+      "attack": 92,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 75,
+      "speed": 78
+    },
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "height_m": 3.0,
+    "weight_kg": 110.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "basculegion-female"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "agility",
+      "night-shade",
+      "confuse-ray",
+      "waterfall",
+      "rest",
+      "substitute",
+      "flail",
+      "spite",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "crunch",
+      "shadow-ball",
+      "whirlpool",
+      "uproar",
+      "facade",
+      "endeavor",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "giga-impact",
+      "ice-fang",
+      "aqua-jet",
+      "head-smash",
+      "soak",
+      "hex",
+      "phantom-force",
+      "psychic-fangs",
+      "liquidation",
+      "scale-shot",
+      "flip-turn",
+      "wave-crash",
+      "tera-blast",
+      "last-respects",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10248.png"
+    },
+    "species_name": "basculegion",
+    "flavor_text": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+    "genus": "Big Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 135,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "fish",
+    "color": "green",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/280/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 280,
+      "chain": {
+        "species_name": "basculin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "basculegion",
+            "evolution_details": [
+              {
+                "trigger": "recoil-damage"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

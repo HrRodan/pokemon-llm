@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 10067,
+    "name": "altaria-mega",
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 110,
+      "special-attack": 110,
+      "special-defense": 105,
+      "speed": 80
+    },
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 20.6,
+    "abilities": [
+      {
+        "name": "pixilate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "altaria-mega"
+    ],
+    "moves": [
+      "fly",
+      "fury-attack",
+      "take-down",
+      "growl",
+      "roar",
+      "sing",
+      "flamethrower",
+      "mist",
+      "ice-beam",
+      "hyper-beam",
+      "peck",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "dream-eater",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "perish-song",
+      "outrage",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "refresh",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "dragon-pulse",
+      "giga-impact",
+      "defog",
+      "draco-meteor",
+      "hone-claws",
+      "wonder-room",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "bulldoze",
+      "cotton-guard",
+      "disarming-voice",
+      "moonblast",
+      "confide",
+      "dazzling-gleam"
+    ],
+    "held_items": [],
+    "base_experience": 207,
+    "is_default": false,
+    "order": 447,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10067.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10067.png"
+    },
+    "species_name": "altaria",
+    "flavor_text": "ALTARIA dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this POK\u00e9MON makes its listeners experience dreamy wonderment.",
+    "genus": "Humming Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "forest",
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "flying",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/168/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 168,
+      "chain": {
+        "species_name": "swablu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "altaria",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Sharpedo (Pokedex #10070) is the Mega Evolved form of the Brutal Pokémon, a terrifying apex predator of the Hoenn region (Generation III). Characterized by its sleek, torpedo-like body and a hide covered in jagged, yellow protrusions, this Water/Dark-type is famously nicknamed the "bully of the sea." While the standard Sharpedo is known for its ability to tear apart supertankers with fangs that regrow instantly, its Mega Evolution—triggered by Sharpedonite—harnesses even more primal aggression. The transformation causes yellow marks on its body to transform into lethal spikes, and its snout hardens to withstand the massive pressure of high-speed ramming. Beyond its coastal Hoenn habitat, it is feared globally for its relentless hunting instincts.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 140, Defense 70, Sp. Atk 110, Sp. Def 65, Speed 105.
+* **Archetype:** Physical Wallbreaker. With a massive Base 140 Attack and a respectable Speed tier, Mega Sharpedo functions as a primary offensive threat designed to punch holes through defensive cores.
+* **Type Matchups:** It is **weak to Fighting, Bug, Fairy, Grass, and Electric**. It is highly resilient, **resisting Ghost, Steel, Fire, Water, Ice, and Dark**, and possesses a total **Immunity to Psychic** attacks.
+* **Move Selection:** Mega Sharpedo excels when using biting moves to capitalize on its ability. Key moves include **Crunch** (high-power STAB), **Ice Fang** (coverage against Grass and Dragon types), **Poison Fang** (to threaten Fairy types), and **Waterfall** (consistent physical Water STAB).
+* **Abilities:** Strong Jaw (Increases the power of all biting moves—such as Crunch, Ice Fang, and Poison Fang—by 50%, making them its most efficient tools for dealing damage).
+
+## Evolution & Biology
+Mega Sharpedo is the final stage of a two-part evolutionary line, achieved through a temporary Mega Transformation. It evolves from **Carvanha** starting at **Level 30**. In competitive scenarios, trainers often utilize its pre-Mega form's Speed Boost ability to gain momentum before Mega Evolving into its Strong Jaw form. It belongs to the **Water 2** Egg Group and is known for its "Slow" growth rate, requiring significant experience to reach its full potential. Biologically, its body is engineered for drag reduction, allowing it to reach speeds exceeding 75 miles per hour in the water.

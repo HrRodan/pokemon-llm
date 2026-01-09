@@ -1,0 +1,12 @@
+## Identity & Lore
+Swirlix (#684) is the Cotton Candy Pokémon, a charming Fairy-type creature first discovered in the Kalos region during Generation VI. Its appearance is defined by its fluffy, white, sugar-like fur, which becomes sticky like taffy when it consumes sweets. This unique biology allows it to extrude white, adhesive threads to entangle and immobilize foes in battle. While Swirlix itself does not possess a Mega Evolution or Gigantamax form, it is highly sought after by bakers and pâtissiers for its sweet scent and its evolution, Slurpuff, which possesses an incredibly refined sense of smell used in gourmet cooking.
+
+## Combat Profile
+* **Stats:** HP 62, Attack 48, Defense 66, Sp. Atk 59, Sp. Def 57, Speed 49.
+* **Archetype:** Defensive Utility / Setup Sweeper.
+* **Type Matchups:** As a pure Fairy-type, it is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and possesses a total **immunity to Dragon-type** moves.
+* **Move Selection:** Despite its low base stats, Swirlix has a diverse movepool. Capitalizing on its special offensive capabilities and utility, key moves include **Dazzling Gleam** for STAB damage, **Flamethrower** to check Steel-type counters, **Sticky Web** for entry hazard support, and **Belly Drum**, which pairs exceptionally well with its Hidden Ability for a physical "set-up" sweep.
+* **Abilities:** **Sweet Veil** prevents Swirlix and its allies from falling asleep, making it a valuable asset against "Spore" or "Sleep Powder" users. Its Hidden Ability, **Unburden**, doubles its Speed stat if its held item is consumed or lost, a tactic frequently used in competitive Little Cup formats to turn Swirlix into a terrifying late-game threat.
+
+## Evolution & Biology
+Swirlix is the first stage of a two-part evolutionary line. It evolves into **Slurpuff** only when **traded while holding a Whipped Dream**—a specialized item that reacts to the trade energy to catalyze its transformation. Biologically, Swirlix is known for its insatiable appetite for sugar; it is said that its body smells like sweet cotton candy to attract others. It belongs to the **Fairy** egg group, and its eggs typically require a moderate incubation period (hatch counter 20) before the Pokémon emerges.

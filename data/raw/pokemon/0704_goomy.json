@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 704,
+    "name": "goomy",
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 35,
+      "special-attack": 55,
+      "special-defense": 75,
+      "speed": 40
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.8,
+    "abilities": [
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gooey",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "goomy"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "counter",
+      "absorb",
+      "thunderbolt",
+      "toxic",
+      "double-team",
+      "bide",
+      "bubble",
+      "acid-armor",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "sludge-bomb",
+      "outrage",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "secret-power",
+      "muddy-water",
+      "mud-shot",
+      "poison-tail",
+      "shock-wave",
+      "water-pulse",
+      "dragon-pulse",
+      "draco-meteor",
+      "sludge-wave",
+      "acid-spray",
+      "round",
+      "confide",
+      "infestation",
+      "life-dew",
+      "skitter-smack",
+      "shelter",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [
+      "shed-shell"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 838,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/704.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/704.png"
+    },
+    "species_name": "goomy",
+    "flavor_text": "The weakest Dragon-type Pok\u00e9mon, it lives in damp, shady places, so its body doesn\u2019t dry out.",
+    "genus": "Soft Tissue Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "purple",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/362/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 362,
+      "chain": {
+        "species_name": "goomy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sliggoo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "goodra",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 50
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

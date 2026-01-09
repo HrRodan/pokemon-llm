@@ -1,0 +1,159 @@
+{
+  "pokemon_details": {
+    "id": 969,
+    "name": "glimmet",
+    "stats": {
+      "hp": 48,
+      "attack": 35,
+      "defense": 42,
+      "special-attack": 105,
+      "special-defense": 60,
+      "speed": 60
+    },
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "toxic-debris",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "corrosion",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "glimmet"
+    ],
+    "moves": [
+      "rock-throw",
+      "toxic",
+      "harden",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "acid-armor",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "protect",
+      "sludge-bomb",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "memento",
+      "facade",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "toxic-spikes",
+      "rock-polish",
+      "power-gem",
+      "gunk-shot",
+      "stone-edge",
+      "stealth-rock",
+      "venoshock",
+      "smack-down",
+      "sludge-wave",
+      "acid-spray",
+      "dazzling-gleam",
+      "meteor-beam",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 70,
+    "is_default": true,
+    "order": 966,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/969.png"
+    },
+    "species_name": "glimmet",
+    "flavor_text": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+    "genus": "Ore Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 70,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/508/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 508,
+      "chain": {
+        "species_name": "glimmet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "glimmora",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

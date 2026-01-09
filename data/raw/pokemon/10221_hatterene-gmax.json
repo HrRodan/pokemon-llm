@@ -1,0 +1,132 @@
+{
+  "pokemon_details": {
+    "id": 10221,
+    "name": "hatterene-gmax",
+    "stats": {
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "special-attack": 136,
+      "special-defense": 103,
+      "speed": 29
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "height_m": 26.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "healer",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "magic-bounce",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hatterene-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 255,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10221.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10221.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10221.png"
+    },
+    "species_name": "hatterene",
+    "flavor_text": "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
+    "genus": "Silent Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "blob",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/450/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 450,
+      "chain": {
+        "species_name": "hatenna",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hattrem",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "hatterene",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 42
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

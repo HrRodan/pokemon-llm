@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 458,
+    "name": "mantyke",
+    "stats": {
+      "hp": 45,
+      "attack": 20,
+      "defense": 50,
+      "special-attack": 60,
+      "special-defense": 120,
+      "speed": 50
+    },
+    "types": [
+      "water",
+      "flying"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 65.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mantyke"
+    ],
+    "moves": [
+      "wing-attack",
+      "slam",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "earthquake",
+      "toxic",
+      "agility",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "bubble",
+      "splash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "mirror-coat",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "air-cutter",
+      "signal-beam",
+      "aerial-ace",
+      "bounce",
+      "water-sport",
+      "water-pulse",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "aqua-ring",
+      "air-slash",
+      "captivate",
+      "wide-guard",
+      "round",
+      "scald",
+      "acrobatics",
+      "bulldoze",
+      "confide"
+    ],
+    "held_items": [],
+    "base_experience": 69,
+    "is_default": true,
+    "order": 326,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/458.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/458.png"
+    },
+    "species_name": "mantyke",
+    "flavor_text": "A friendly Pok\u00e9mon that captures the subtle flows of seawater using its two antennae.",
+    "genus": "Kite Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 25,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/116/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 116,
+      "chain": {
+        "species_name": "mantyke",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mantine",
+            "evolution_details": [
+              {
+                "trigger": "level-up"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

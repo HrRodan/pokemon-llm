@@ -1,0 +1,173 @@
+{
+  "pokemon_details": {
+    "id": 712,
+    "name": "bergmite",
+    "stats": {
+      "hp": 55,
+      "attack": 69,
+      "defense": 85,
+      "special-attack": 32,
+      "special-defense": 35,
+      "speed": 28
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 99.5,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bergmite"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "mist",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "strength",
+      "toxic",
+      "double-team",
+      "recover",
+      "harden",
+      "barrier",
+      "flash",
+      "rest",
+      "rock-slide",
+      "sharpen",
+      "substitute",
+      "snore",
+      "curse",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "mirror-coat",
+      "rock-smash",
+      "hail",
+      "facade",
+      "secret-power",
+      "ice-ball",
+      "rock-tomb",
+      "icicle-spear",
+      "iron-defense",
+      "water-pulse",
+      "gyro-ball",
+      "rock-polish",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "flash-cannon",
+      "stone-edge",
+      "after-you",
+      "round",
+      "bulldoze",
+      "frost-breath",
+      "confide",
+      "aurora-veil",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 852,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/712.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/712.png"
+    },
+    "species_name": "bergmite",
+    "flavor_text": "It blocks opponents\u2019 attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
+    "genus": "Ice Chunk Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/366/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 366,
+      "chain": {
+        "species_name": "bergmite",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "avalugg",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

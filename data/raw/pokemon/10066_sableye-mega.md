@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Sableye (Pokedex #10066) is the Darkness Pokémon, a powerful Mega Evolved form of the Hoenn-native species first discovered in Generation III. While standard Sableye are known to lead quiet lives deep within lightless caverns—feared in folklore for their sinister glowing eyes that are said to steal spirits—this Mega Evolution represents a dramatic shift in its biological defense. The gems on its body, which it develops by consuming raw gemstones found in cave walls, coalesce and grow into a singular, massive ruby-like shield. This giant jewel is so heavy that it increases the Pokémon's weight to 161.0 kg, causing it to huddle behind the gem for protection. Though this form lacks a Gigantamax or Paradox variant, it remains one of the most iconic Mega Evolutions from the *Omega Ruby and Alpha Sapphire* era.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 85, Defense 125, Sp. Atk 85, Sp. Def 115, Speed 20.
+* **Archetype:** Defensive Stallbreaker / Utility Tank.
+* **Type Matchups:** Mega Sableye possesses an elite defensive typing. It is **weak only to Fairy-types**. It boasts three full immunities, being completely **immune to Normal, Fighting, and Psychic** attacks, and it further **resists Poison**.
+* **Move Selection:** Mega Sableye thrives by utilizing its high defensive stats and utility. Key moves include **Recover** for essential longevity, **Will-O-Wisp** to burn and cripple physical attackers, **Knock Off** to strip opponents of their items, and **Foul Play**, which allows it to deal massive damage by using the opponent's own Attack stat against them.
+* **Abilities:** **Magic Bounce** (An incredibly powerful tactical ability that reflects non-damaging moves, such as Stealth Rock, Spikes, Toxic, and Taunt, back at the attacker, making Mega Sableye the ultimate counter to entry hazards and status-reliant teams).
+
+## Evolution & Biology
+Mega Sableye is part of a single-stage evolutionary line that achieves this form through a temporary transformation. It evolves from a standard Sableye only during battle when exposed to the **Sablenite** Mega Stone. It does not have any natural pre-evolutions or further permanent stages. Biologically, it is a member of the **Humanshape** egg group. Because it spends its life in total darkness, its eyes have developed a crystalline sheen that reflects the faintest light, though in its Mega form, it mostly relies on the massive, hardened jewel it carries to withstand any incoming assault while it waits for a gap in the opponent's guard.

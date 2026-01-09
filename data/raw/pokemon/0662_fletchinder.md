@@ -1,0 +1,14 @@
+## Identity & Lore
+Fletchinder (Pokedex #662) is the Ember Pokémon, a dual Fire- and Flying-type avian species first discovered in the Kalos region of Generation VI. It serves as the transitional form between the tiny Robin Pokémon, Fletchling, and the predatory scorched-feather raptor, Talonflame. Characterized by its vibrant red plumage and a heated internal sac, Fletchinder is known for its aggressive hunting tactics; it expels sparks and embers from its beak into tall grass to startle prey, pouncing on them the moment they attempt to escape. While it does not possess a Mega Evolution or Gigantamax form, its final evolution, Talonflame, became legendary in the competitive circuit for its game-changing Gale Wings ability, making this evolutionary line a staple for trainers seeking high-speed aerial superiority.
+
+## Combat Profile
+* **Stats:** HP 62, Attack 73, Defense 55, Sp. Atk 56, Sp. Def 52, Speed 84.
+* **Archetype:** Fast Physical Attacker. Fletchinder relies on its superior Speed and respectable Physical Attack to strike quickly before its fragile defenses can be exploited.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Rock**, and is also weak to **Water and Electric** types. Conversely, it provides excellent utility by being **Immune to Ground** and providing resistances to **Fire, Fighting, Steel, and Fairy**, with a double resistance to **Grass and Bug**.
+* **Move Selection:** Prioritizing its higher Physical Attack stat and STAB (Same Type Attack Bonus) potential, Fletchinder excels with **Brave Bird** for massive aerial damage, **Flare Blitz** for high-intensity fire coverage, **Roost** to maintain its health, and **U-turn** to pivot out of unfavorable matchups.
+* **Abilities:** 
+    * **Flame Body:** Has a chance to burn opponents that make contact, and significantly reduces the steps required to hatch Eggs when Fletchinder is in the party.
+    * **Gale Wings (Hidden Ability):** Historically one of the most powerful abilities in the game, it grants priority to Flying-type moves when the Pokémon is at full HP, allowing Fletchinder to strike first regardless of the opponent's speed.
+
+## Evolution & Biology
+Fletchinder is the second stage of a three-part evolutionary line. It evolves from **Fletchling** starting at **Level 17**. After gaining combat experience and further developing its internal flame sac, it evolves into the powerful **Talonflame** upon reaching **Level 35**. Biologically, Fletchinder is an efficient flyer that inhabits forests and meadows. It belongs to the **Flying** Egg Group, and with a relatively low hatch counter of 15, it is a favorite among breeders—especially due to its Flame Body ability which accelerates the hatching process for other Pokémon species.

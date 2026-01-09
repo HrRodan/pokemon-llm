@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Charizard Y (Pokedex #10035) is the Flame Pokémon, a powerful temporary evolution of the iconic Fire/Flying-type starter originally discovered in the Kanto region (Generation I). While its base form is known for spitting fire hot enough to melt boulders and inadvertently causing forest fires, this Mega Evolved state—first documented in the Kalos region (Generation VI)—represents the pinnacle of its aerial prowess and thermal output. Its design becomes more streamlined, with pointed horns and large, tattered wings that allow it to reach altitudes and speeds far beyond its standard form. Beyond this specific transformation, the species is unique for possessing two distinct Mega Evolutions (X and Y), as well as a colossal Gigantamax form found in the Galar region.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 104, Defense 78, Sp. Atk 159, Sp. Def 115, Speed 100.
+* **Archetype:** Weather-Inducing Special Wallbreaker.
+* **Type Matchups:** It is **weak to Water and Electric**, with a critical **Double Weakness (4x) to Rock**. It **resists Fire, Grass, Fighting, Bug, Steel, and Fairy**, and possesses a complete **immunity to Ground** moves.
+* **Move Selection:** Utilizing its massive Special Attack and its ability to summon sunlight, Mega Charizard Y excels with **Fire Blast** (devastating STAB under sun), **Solar Beam** (instantaneous coverage against Water and Rock types), **Air Slash** (secondary STAB with flinch potential), and **Roost** (reliable recovery to mitigate its 4x Rock weakness).
+* **Abilities:** Drought (Upon entering battle, the Pokémon summons harsh sunlight. This boosts the power of Fire-type moves by 50%, reduces the power of Water-type moves by 50%, and allows for the immediate execution of Solar Beam).
+
+## Evolution & Biology
+Mega Charizard Y is the final, temporary stage of a three-stage evolutionary line. It begins as **Charmander**, which evolves into **Charmeleon** starting at Level 16. Charmeleon then evolves into **Charizard** starting at Level 36. The transformation into Mega Charizard Y occurs during battle when a Charizard holding a **Charizardite Y** Mega Stone reacts to its Trainer's Key Stone. Biologically, it is a mountain-dwelling creature that belongs to both the **Monster and Dragon Egg Groups**, emphasizing its reptilian heritage despite not being a Dragon-type in this form. In the wild, it is known to seek out higher elevations to bask in the sun and test its soaring capabilities.

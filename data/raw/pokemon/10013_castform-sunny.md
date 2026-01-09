@@ -1,0 +1,12 @@
+## Identity & Lore
+Sunny Form Castform (Pokedex #10013) is the Weather Pokémon, a unique artificial life form created by researchers at the Weather Institute in the Hoenn region (Generation III). This specific form is the Sun-drenched variation of Castform, triggered when the Pokémon is exposed to harsh sunlight. Its molecular structure, which is normally gray and chemically unstable, shifts to a bright orange hue with a sun-like crown to protect its tiny body using the power of nature. While Castform does not possess a Mega Evolution, Gigantamax, or Paradox form, its ability to manifest as a Fire-type in sunny conditions makes it a highly specialized environmental adaptation. It is primarily found in grassland habitats, though its presence is usually tied to scientific research facilities rather than wild sightings.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 70, Defense 70, Sp. Atk 70, Sp. Def 70, Speed 70.
+* **Archetype:** Weather-Based Special Attacker / Utility Pivot. 
+* **Type Matchups:** In this form, it is a pure Fire-type. It is **weak to Ground, Rock, and Water**. It **resists Bug, Steel, Grass, Ice, Fire, and Fairy** types.
+* **Move Selection:** Sunny Form Castform is most effective when leveraging the sun to boost its offensive output. Key moves include **Weather Ball** (which doubles in power and becomes Fire-type in sun), **Solar Beam** (which charges instantly in sun to cover Water and Rock-type weaknesses), **Fire Blast** for maximum STAB (Same Type Attack Bonus) damage, and **Ice Beam** for unexpected coverage against Dragon and Ground types.
+* **Abilities:** Forecast (The signature ability that allows Castform to change its type and appearance depending on the current weather conditions; it transforms into this Sunny form specifically during harsh sunlight).
+
+## Evolution & Biology
+Castform is a single-stage Pokémon and does not evolve into or from any other species. It is part of a unique biological category where its "forms" are temporary and dictated entirely by the environment. If the sunlight fades or is replaced by rain or hail, it will immediately revert to its Normal form or transition into its Rain or Snowy forms. Biologically, it is extremely lightweight (0.8kg) and possesses a versatile genetic makeup that allows it to mimic the climate. It belongs to the **Fairy** and **Indeterminate** (Amorphous) Egg Groups, and while it is an artificial Pokémon, it is capable of breeding, with a hatch counter of 25.

@@ -1,0 +1,117 @@
+{
+  "pokemon_details": {
+    "id": 10286,
+    "name": "emboar-mega",
+    "stats": {
+      "hp": 110,
+      "attack": 148,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 110,
+      "speed": 75
+    },
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 180.3,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "emboar",
+    "flavor_text": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+    "genus": "Mega Fire Pig Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/257/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 257,
+      "chain": {
+        "species_name": "tepig",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pignite",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "emboar",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

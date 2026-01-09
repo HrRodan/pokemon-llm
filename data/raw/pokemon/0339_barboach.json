@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 339,
+    "name": "barboach",
+    "stats": {
+      "hp": 50,
+      "attack": 48,
+      "defense": 43,
+      "special-attack": 46,
+      "special-defense": 41,
+      "speed": 60
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 1.9,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "barboach"
+    ],
+    "moves": [
+      "headbutt",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "earthquake",
+      "fissure",
+      "toxic",
+      "mimic",
+      "double-team",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "future-sight",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "rock-tomb",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "water-sport",
+      "dragon-dance",
+      "water-pulse",
+      "natural-gift",
+      "aqua-tail",
+      "earth-power",
+      "mud-bomb",
+      "zen-headbutt",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "round",
+      "scald",
+      "bulldoze",
+      "confide",
+      "high-horsepower",
+      "stomping-tantrum",
+      "liquidation",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": true,
+    "order": 452,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/339.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/339.png"
+    },
+    "species_name": "barboach",
+    "flavor_text": "BARBOACH\u2019s sensitive whiskers serve as a superb radar system. This POK\u00e9MON hides in mud, leaving only its two whiskers exposed while it waits for prey to come along.",
+    "genus": "Whiskers Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "fish",
+    "color": "gray",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/173/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 173,
+      "chain": {
+        "species_name": "barboach",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "whiscash",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

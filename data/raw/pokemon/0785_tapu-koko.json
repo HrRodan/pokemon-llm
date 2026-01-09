@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 785,
+    "name": "tapu-koko",
+    "stats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 85,
+      "special-attack": 95,
+      "special-defense": 75,
+      "speed": 130
+    },
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 20.5,
+    "abilities": [
+      {
+        "name": "electric-surge",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tapu-koko"
+    ],
+    "moves": [
+      "thunder-punch",
+      "fly",
+      "roar",
+      "hyper-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "screech",
+      "double-team",
+      "withdraw",
+      "light-screen",
+      "reflect",
+      "mirror-move",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "spark",
+      "steel-wing",
+      "mean-look",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "torment",
+      "facade",
+      "nature-power",
+      "charge",
+      "taunt",
+      "hyper-voice",
+      "aerial-ace",
+      "iron-defense",
+      "calm-mind",
+      "shock-wave",
+      "roost",
+      "u-turn",
+      "assurance",
+      "power-swap",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "discharge",
+      "iron-head",
+      "grass-knot",
+      "telekinesis",
+      "electro-ball",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "sky-drop",
+      "acrobatics",
+      "volt-switch",
+      "work-up",
+      "electroweb",
+      "wild-charge",
+      "fairy-wind",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "dazzling-gleam",
+      "natures-madness"
+    ],
+    "held_items": [],
+    "base_experience": 257,
+    "is_default": true,
+    "order": 962,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/785.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/785.png"
+    },
+    "species_name": "tapu-koko",
+    "flavor_text": "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+    "genus": "Land Spirit Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/409/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 409,
+      "chain": {
+        "species_name": "tapu-koko",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

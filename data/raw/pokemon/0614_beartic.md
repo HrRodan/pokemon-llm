@@ -1,0 +1,12 @@
+## Identity & Lore
+Beartic (Pokedex #614) is the Freezing Pokémon, a massive ursine creature first discovered in the Unova region (Generation V). Standing at 2.6 meters and weighing 260.0 kg, this powerful predator is known for its ability to freeze its own breath at will, creating fangs and claws of ice to augment its combat capabilities. A white-furred inhabitant of northern climates, Beartic is a master of the frozen seas; it is an exceptionally capable swimmer that hunts in frigid waters, often venturing into the ocean to catch prey. While it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, its sheer physical presence and association with extreme cold make it a staple of arctic environments.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 130, Defense 80, Sp. Atk 70, Sp. Def 80, Speed 50.
+* **Archetype:** Physical Tank / Weather Sweeper.
+* **Type Matchups:** As a pure Ice-type, it is **weak to Fighting, Rock, Steel, and Fire**. It lacks a double weakness but possesses only one resistance, providing limited defensive utility by **resisting Ice-type attacks**.
+* **Move Selection:** Utilizing its massive base 130 Attack stat, Beartic excels with high-impact physical moves. Key selections include **Icicle Crash** for heavy STAB (Same Type Attack Bonus) damage and a flinch chance, **Superpower** or **Close Combat** to dismantle Steel and Rock types, **Play Rough** for Fairy-type coverage, and **Aqua Jet** to compensate for its low base Speed with priority.
+* **Abilities:** **Snow Cloak** increases evasion during a hailstorm or snow, making it harder to hit. **Slush Rush** is its most competitive ability, doubling its Speed in snow, effectively turning it into a terrifying sweeper. Its Hidden Ability, **Swift Swim**, serves as a tactical surprise, doubling its Speed in rain and allowing it to utilize moves like **Liquidation** or **Surf** more effectively.
+
+## Evolution & Biology
+Beartic is the final stage of a two-stage evolutionary line. It evolves from **Cubchoo** once it reaches **Level 37**. Biologically, it is built for endurance, often found holding an **Aspear Berry** to protect itself from freezing—though it thrives in the cold. It belongs to the **Ground** (Field) egg group, and its eggs have a hatch counter of 20, requiring significant travel to hatch. Its transition from the small, sniveling Cubchoo into the ferocious Beartic represents a massive increase in physical power and predatory instinct.

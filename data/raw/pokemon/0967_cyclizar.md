@@ -1,0 +1,12 @@
+## Identity & Lore
+Cyclizar (Pokedex #967) is the Mount Pokémon, a unique dual-type Normal/Dragon species that serves as a primary mode of transportation for the people of the Paldea region in Generation IX. This sleek, green, lizard-like Pokémon is characterized by a specialized throat sac and a tail that curls into a wheel-like shape, allowing it to carry riders at speeds exceeding 70 mph. Lore from ancient murals suggests that humans have been riding Cyclizar for over 10,000 years, highlighting a deep-seated symbiotic relationship. While Cyclizar does not possess a Mega Evolution or Gigantamax form, it occupies a significant biological niche as the contemporary relative of the Paradox Pokémon Koraidon (the "Winged King") and Miraidon (the "Iron Serpent"), representing the present-day anchor between the ancient past and the distant future.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 95, Defense 65, Sp. Atk 85, Sp. Def 65, Speed 121.
+* **Archetype:** Fast Offensive Pivot / Utility Lead.
+* **Type Matchups:** It is **weak to Ice, Dragon, Fairy, and Fighting**. It possesses a crucial **immunity to Ghost** and resists Fire, Water, Electric, and Grass types.
+* **Move Selection:** Utilizing its exceptional Speed and physical prowess, Cyclizar excels with moves such as **Shed Tail** (its signature utility move to pass a substitute), **Dragon Claw** for reliable STAB damage, **Knock Off** to remove foe items, and **U-turn** to maintain momentum.
+* **Abilities:** **Shed Skin** (Provides a 30% chance to cure status conditions each turn) and its Hidden Ability **Regenerator** (Restores 1/3 of its maximum HP upon switching out, making it an elite pivot in competitive play).
+
+## Evolution & Biology
+Cyclizar is a standalone species and is not known to evolve into or from any other Pokémon. Biologically, it is a member of the **Ground** egg group, and its physiology is optimized for endurance and high-speed locomotion. Its body is warm even in cold weather, a trait that makes it a comfortable mount for travelers. Despite its resemblance to the Legendary Paradox duo of Paldea, Cyclizar is far more common and lacks their overwhelming power, though it shares their signature "cradling" posture. It is a highly cooperative Pokémon, often found in grassy biomes or near human settlements where it assists with daily labor and travel.

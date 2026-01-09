@@ -1,0 +1,14 @@
+## Identity & Lore
+Salazzle (Pokedex #758) is the Toxic Lizard Pokémon, a distinctive Poison/Fire-type introduced in Generation VII (Alola). This slender, black-scaled Pokémon is unique in its biology: only female Salandit can evolve into Salazzle. It is known for its predatory grace and its ability to lead harems of male Salandit, which it controls using a combination of pheromones and diluted toxins. Residing primarily in volcanic caves and harsh rocky terrains like Alola’s Wela Volcano Park, Salazzle is as much a master of psychological manipulation as it is of chemical warfare. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its unique typing and gender-locked evolution make it one of the most mechanically distinct Pokémon in the Alolan regional Pokedex.
+
+## Combat Profile
+* **Stats:** HP 68, Attack 64, Defense 60, Sp. Atk 111, Sp. Def 60, Speed 117.
+* **Archetype:** Fast Special Sweeper / Status Disruptor. Salazzle relies on its high Speed and Special Attack to outpace threats and deal heavy damage before its frail defenses can be exploited.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ground**. It is also weak to **Psychic, Rock, and Water**. Conversely, it boasts significant resistances, notably a **4x resistance to Bug, Fairy, and Grass**, and standard resistance to **Poison, Steel, Fire, Ice, and Fighting**.
+* **Move Selection:** Leveraging its high Special Attack and Speed, Salazzle excels with a kit including **Sludge Wave** for heavy Poison STAB, **Fire Blast** for maximum Fire damage, **Nasty Plot** to boost its sweeping potential, and **Dragon Pulse** for neutral coverage against Dragon-types.
+* **Abilities:** 
+    * **Corrosion:** A signature ability that allows Salazzle to inflict the Poison or Badly Poisoned status even on Steel and Poison-type Pokémon, which are normally immune. 
+    * **Oblivious (Hidden):** Protects the Pokémon from being infatuated or intimidated, and most importantly in competitive play, prevents it from being affected by the move Taunt.
+
+## Evolution & Biology
+Salazzle is the second and final stage of a two-stage evolutionary line. It evolves from **Salandit**, but this evolution is highly specific: only a **female Salandit** will evolve into Salazzle starting at **Level 33**. Male Salandit are biologically incapable of evolving, likely due to a lack of the specific hormones required to trigger the transformation. Salazzle belongs to the **Monster** and **Dragon** Egg Groups, reflecting its reptilian heritage and predatory nature. With a hatch counter of 20, it requires significant effort to breed, especially given the rarity of female hatchlings (typically an 11.25% female gender ratio). In the wild, it often carries a **Smoke Ball**, facilitating easy escapes from unfavorable encounters.

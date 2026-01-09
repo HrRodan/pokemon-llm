@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 901,
+    "name": "ursaluna",
+    "stats": {
+      "hp": 130,
+      "attack": 140,
+      "defense": 105,
+      "special-attack": 45,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "height_m": 2.4,
+    "weight_kg": 290.0,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "bulletproof",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ursaluna"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "swords-dance",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "earthquake",
+      "dig",
+      "metronome",
+      "lick",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "sweet-scent",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "hyper-voice",
+      "fake-tears",
+      "rock-tomb",
+      "aerial-ace",
+      "bulk-up",
+      "covet",
+      "hammer-arm",
+      "close-combat",
+      "payback",
+      "fling",
+      "seed-bomb",
+      "drain-punch",
+      "vacuum-wave",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "gunk-shot",
+      "stone-edge",
+      "smack-down",
+      "heavy-slam",
+      "bulldoze",
+      "play-rough",
+      "play-nice",
+      "baby-doll-eyes",
+      "high-horsepower",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "headlong-rush",
+      "tera-blast",
+      "trailblaze",
+      "hard-press",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 275,
+    "is_default": true,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/901.png"
+    },
+    "species_name": "ursaluna",
+    "flavor_text": "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
+    "genus": "Peat Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/110/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 110,
+      "chain": {
+        "species_name": "teddiursa",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ursaring",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "ursaluna",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "peat-block",
+                    "time_of_day": "full-moon"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

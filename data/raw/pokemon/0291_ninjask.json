@@ -1,0 +1,197 @@
+{
+  "pokemon_details": {
+    "id": 291,
+    "name": "ninjask",
+    "stats": {
+      "hp": 61,
+      "attack": 90,
+      "defense": 45,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 160
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 12.0,
+    "abilities": [
+      {
+        "name": "speed-boost",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ninjask"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "double-edge",
+      "hyper-beam",
+      "absorb",
+      "solar-beam",
+      "string-shot",
+      "dig",
+      "toxic",
+      "agility",
+      "mimic",
+      "screech",
+      "double-team",
+      "harden",
+      "swift",
+      "leech-life",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "snore",
+      "spite",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "u-turn",
+      "air-slash",
+      "x-scissor",
+      "bug-buzz",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "ominous-wind",
+      "hone-claws",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "confide",
+      "laser-focus",
+      "skitter-smack",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 160,
+    "is_default": true,
+    "order": 394,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/291.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/291.png"
+    },
+    "species_name": "ninjask",
+    "flavor_text": "NINJASK moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this POK\u00e9MON was long believed to be invisible.",
+    "genus": "Ninja Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/144/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 144,
+      "chain": {
+        "species_name": "nincada",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ninjask",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "shedinja",
+            "evolution_details": [
+              {
+                "trigger": "shed"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "pokemon_details": {
+    "id": 886,
+    "name": "drakloak",
+    "stats": {
+      "hp": 68,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 60,
+      "special-defense": 50,
+      "speed": 102
+    },
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 11.0,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "drakloak"
+    ],
+    "moves": [
+      "take-down",
+      "double-edge",
+      "bite",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "quick-attack",
+      "night-shade",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "lock-on",
+      "outrage",
+      "endure",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "sunny-day",
+      "shadow-ball",
+      "beat-up",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "dive",
+      "astonish",
+      "dragon-dance",
+      "brine",
+      "u-turn",
+      "assurance",
+      "last-resort",
+      "dragon-pulse",
+      "dragon-rush",
+      "draco-meteor",
+      "double-hit",
+      "round",
+      "ally-switch",
+      "scald",
+      "hex",
+      "acrobatics",
+      "dragon-tail",
+      "phantom-force",
+      "infestation",
+      "psychic-fangs",
+      "breaking-swipe",
+      "tera-blast",
+      "pounce",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 1073,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/886.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/886.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/886.png"
+    },
+    "species_name": "drakloak",
+    "flavor_text": "It\u2019s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
+    "genus": "Caretaker Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "green",
+    "egg_groups": [
+      "indeterminate",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/466/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 466,
+      "chain": {
+        "species_name": "dreepy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "drakloak",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 50
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dragapult",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 60
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

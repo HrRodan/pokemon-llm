@@ -1,0 +1,157 @@
+{
+  "pokemon_details": {
+    "id": 716,
+    "name": "xerneas",
+    "stats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "special-attack": 131,
+      "special-defense": 98,
+      "speed": 99
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 3.0,
+    "weight_kg": 215.0,
+    "abilities": [
+      {
+        "name": "fairy-aura",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "xerneas-active",
+      "xerneas-neutral"
+    ],
+    "moves": [
+      "cut",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "roar",
+      "aurora-beam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "outrage",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "hail",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "aromatherapy",
+      "block",
+      "calm-mind",
+      "gravity",
+      "close-combat",
+      "night-slash",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "flash-cannon",
+      "defog",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "round",
+      "echoed-voice",
+      "heal-pulse",
+      "horn-leech",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "moonblast",
+      "confide",
+      "geomancy",
+      "dazzling-gleam",
+      "laser-focus",
+      "smart-strike",
+      "misty-explosion",
+      "terrain-pulse"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 856,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/716.png"
+    },
+    "species_name": "xerneas",
+    "flavor_text": "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+    "genus": "Life Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/368/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 368,
+      "chain": {
+        "species_name": "xerneas",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

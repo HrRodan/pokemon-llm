@@ -1,0 +1,191 @@
+{
+  "pokemon_details": {
+    "id": 911,
+    "name": "skeledirge",
+    "stats": {
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "special-attack": 110,
+      "special-defense": 75,
+      "speed": 66
+    },
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 326.5,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "skeledirge"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "leer",
+      "bite",
+      "roar",
+      "sing",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "night-shade",
+      "lick",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "encore",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "imprison",
+      "hyper-voice",
+      "blast-burn",
+      "overheat",
+      "flare-blitz",
+      "seed-bomb",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "flame-charge",
+      "round",
+      "hex",
+      "incinerate",
+      "fire-pledge",
+      "heat-crash",
+      "snarl",
+      "disarming-voice",
+      "stomping-tantrum",
+      "poltergeist",
+      "scorching-sands",
+      "tera-blast",
+      "torch-song",
+      "alluring-voice",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": true,
+    "order": 911,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/911.png"
+    },
+    "species_name": "skeledirge",
+    "flavor_text": "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge\u2019s head gained a soul.",
+    "genus": "Singer Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/479/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 479,
+      "chain": {
+        "species_name": "fuecoco",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crocalor",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "skeledirge",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

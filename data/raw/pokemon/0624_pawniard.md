@@ -1,0 +1,12 @@
+## Identity & Lore
+Pawniard (Pokedex #624) is the Sharp Blade Pokémon, first discovered in the Unova region of Generation V. This humanoid, steel-clad creature is characterized by the sharp, metallic blades that comprise its entire body. When these blades become dull from the friction of combat, Pawniard are known to migrate to riverbanks where they use smooth stones to sharpen their edges back to a lethal point. They are red in color and highly territorial, often living in packs governed by a strict hierarchy under the command of a Bisharp. While Pawniard does not possess a Mega Evolution or Gigantamax form, it is the initial stage of a formidable lineage that eventually culminates in the Shogun-like Kingambit, introduced in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 85, Defense 70, Sp. Atk 40, Sp. Def 40, Speed 60.
+* **Archetype:** Physical Wallbreaker / Revenge Killer. In competitive Little Cup formats, Pawniard is a premier threat due to its high base Attack and utility.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Fighting**, and standard weaknesses to **Ground and Fire**. Conversely, it is immune to **Psychic and Poison**, and resists **Normal, Flying, Rock, Ghost, Steel, Grass, Ice, and Dark** types.
+* **Move Selection:** Leveraging its high physical Attack over its negligible Special Attack, Pawniard excels with **Iron Head** for heavy STAB damage and flinch chance, **Sucker Punch** for essential priority, **Knock Off** to remove opponent items, and **Swords Dance** to boost its offensive presence to sweeping levels.
+* **Abilities:** **Defiant** (Boosts Attack sharply if a stat is lowered by an opponent, making it an excellent counter to Intimidate), **Inner Focus** (Prevents the Pokémon from flinching), and **Pressure** (Hidden Ability; increases the opponent's PP usage).
+
+## Evolution & Biology
+Pawniard is part of a three-stage evolutionary line. It evolves into **Bisharp** starting at Level 52, a notably high level reflecting its rigorous training within its pack. In more recent findings from the Paldea region, Bisharp can further evolve into **Kingambit** after defeating three other Bisharp that lead packs of Pawniard while holding a Leader's Crest. Pawniard belongs to the **Humanshape** Egg Group and has a hatch counter of 20, requiring significant steps to breed and hatch. Its biology is centered on its blades; it ignores its own safety to sink its sharp claws into prey, clinging on until the target is subdued.

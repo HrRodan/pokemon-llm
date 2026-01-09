@@ -1,0 +1,165 @@
+{
+  "pokemon_details": {
+    "id": 626,
+    "name": "bouffalant",
+    "stats": {
+      "hp": 95,
+      "attack": 110,
+      "defense": 95,
+      "special-attack": 40,
+      "special-defense": 95,
+      "speed": 55
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 94.6,
+    "abilities": [
+      {
+        "name": "reckless",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bouffalant"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "stomp",
+      "headbutt",
+      "horn-attack",
+      "fury-attack",
+      "tackle",
+      "body-slam",
+      "thrash",
+      "leer",
+      "surf",
+      "strength",
+      "earthquake",
+      "toxic",
+      "rage",
+      "double-team",
+      "focus-energy",
+      "skull-bash",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "taunt",
+      "superpower",
+      "revenge",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "mud-shot",
+      "close-combat",
+      "payback",
+      "assurance",
+      "poison-jab",
+      "giga-impact",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "round",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "cotton-guard",
+      "head-charge",
+      "belch",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "smart-strike",
+      "stomping-tantrum",
+      "lash-out"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 749,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/626.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/626.png"
+    },
+    "species_name": "bouffalant",
+    "flavor_text": "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+    "genus": "Bash Buffalo Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/318/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 318,
+      "chain": {
+        "species_name": "bouffalant",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 10144,
+    "name": "mimikyu-totem-disguised",
+    "stats": {
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
+      "special-attack": 50,
+      "special-defense": 105,
+      "speed": 96
+    },
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 2.8,
+    "abilities": [
+      {
+        "name": "disguise",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "mimikyu-totem-disguised"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "dream-eater",
+      "leech-life",
+      "splash",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "feint-attack",
+      "giga-drain",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "hidden-power",
+      "psych-up",
+      "shadow-ball",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "trick",
+      "snatch",
+      "astonish",
+      "bulk-up",
+      "covet",
+      "payback",
+      "embargo",
+      "fling",
+      "copycat",
+      "last-resort",
+      "dark-pulse",
+      "x-scissor",
+      "drain-punch",
+      "shadow-claw",
+      "shadow-sneak",
+      "trick-room",
+      "charge-beam",
+      "wood-hammer",
+      "hone-claws",
+      "telekinesis",
+      "magic-room",
+      "after-you",
+      "round",
+      "work-up",
+      "play-rough",
+      "confide",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "infestation"
+    ],
+    "held_items": [
+      "chesto-berry"
+    ],
+    "base_experience": 167,
+    "is_default": false,
+    "order": 953,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10144.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/778-totem-disguised.png"
+    },
+    "species_name": "mimikyu",
+    "flavor_text": "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
+    "genus": "Disguise Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "yellow",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/404/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 404,
+      "chain": {
+        "species_name": "mimikyu",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

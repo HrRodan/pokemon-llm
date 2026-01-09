@@ -1,0 +1,12 @@
+## Identity & Lore
+Klinklang (Pokedex #601) is the Gear Pokémon, a sophisticated mechanical lifeform first discovered in the Unova region (Generation V). Composed of multiple interlocking metallic gears, its most vital component is the gear with the red core, which acts as a power generator. By rotating this core at extreme velocities, Klinklang can rapidly charge its energy reserves for devastating kinetic and electrical discharges. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, it remains unique in the Pokémon world for its purely inorganic biology and its mastery of gear-based weaponry. Its grey, metallic body is a common sight in industrial areas where it hums with constant rhythmic motion.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 100, Defense 115, Sp. Atk 70, Sp. Def 85, Speed 90.
+* **Archetype:** Physical Set-up Sweeper.
+* **Type Matchups:** As a pure Steel-type, it is **weak to Fire, Fighting, and Ground**. It is **immune to Poison** and highly resilient, **resisting Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dragon, Steel, and Fairy** types.
+* **Move Selection:** Klinklang relies on its signature mechanical prowess to dominate the battlefield. Key moves include **Shift Gear** (one of the best setup moves in the game, boosting Attack and Speed), **Gear Grind** (a dual-hit physical Steel move that breaks through Sturdy), **Wild Charge** (physical Electric coverage for Water and Flying types), and **Steel Roller** (high-power physical damage that removes terrain).
+* **Abilities:** Plus and Minus (Increases Special Attack when paired with the opposite ability in Double Battles); Clear Body (Hidden Ability: Prevents other Pokémon from lowering its stats, ensuring its Shift Gear boosts remain intact).
+
+## Evolution & Biology
+Klinklang is the final stage of a three-stage evolutionary line. The process begins with **Klink**, which evolves into **Klang** upon reaching **Level 38**. Klang then evolves into the final **Klinklang** starting at **Level 49**. Biologically, this Pokémon does not eat organic food, instead generating all its required life energy through the friction of its rotating parts. It belongs to the **Mineral** egg group, and despite its mechanical nature, it can be bred in captivity, requiring a hatch counter of approximately 20 cycles to produce a new Klink.

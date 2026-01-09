@@ -1,0 +1,12 @@
+## Identity & Lore
+Rufflet (Pokedex #627) is the Eaglet Pokémon, a small but fiercely determined avian species first discovered in the Unova region (Generation V). Recognizable by its white-tufted plumage and large, powerful talons, Rufflet is known for its extreme bravery, often challenging much larger and stronger opponents to prove its mettle. This courageous nature is a necessity in the wild, as they use their talons to crush hard berries for food and defend their territory. While it is a standard Normal/Flying type, it holds significant evolutionary potential; depending on the environment, it can mature into either the valiant Braviary seen in modern regions or the psychic-infused Hisuian Braviary found in the ancient wilderness of Hisui.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 83, Defense 50, Sp. Atk 37, Sp. Def 50, Speed 60.
+* **Archetype:** Physical Wallbreaker. In its competitive tier (Little Cup), Rufflet is prized for its high base Attack and access to powerful offensive moves.
+* **Type Matchups:** It is **weak to Rock, Electric, and Ice**. It **resists Bug and Grass**, and possesses total **immunities to Ghost and Ground** types.
+* **Move Selection:** Prioritizing its high physical Attack over its negligible Special Attack, Rufflet excels with a moveset including **Brave Bird** (high-power STAB), **Close Combat** (vital Fighting-type coverage for Rock and Steel types), **U-turn** (for tactical pivoting), and **Rock Slide** (to hit opposing Flying and Fire types).
+* **Abilities:** **Keen Eye** (prevents accuracy loss and ignores evasion boosts), **Sheer Force** (removes secondary effects of moves to increase their power by 30%), and the Hidden Ability **Hustle** (increases Attack power by 50% but reduces physical accuracy by 20%).
+
+## Evolution & Biology
+Rufflet is part of a two-stage evolutionary line and is a notable male-only species. It evolves into Braviary starting at **Level 54**, which is one of the highest level-thresholds for a non-pseudo-legendary Pokémon, reflecting the long period of training required for it to reach its full potential. Biologically, Rufflet belongs to the **Flying** egg group. It has a hatch counter of 20, meaning it requires significant effort to breed and raise. Despite its "white" classification in the Pokedex, its body features a mix of blue and red accents, foreshadowing the patriotic color scheme of its evolved form.

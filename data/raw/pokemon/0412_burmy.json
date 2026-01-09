@@ -1,0 +1,122 @@
+{
+  "pokemon_details": {
+    "id": 412,
+    "name": "burmy",
+    "stats": {
+      "hp": 40,
+      "attack": 29,
+      "defense": 45,
+      "special-attack": 29,
+      "special-defense": 45,
+      "speed": 36
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 3.4,
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "burmy-plant",
+      "burmy-sandy",
+      "burmy-trash"
+    ],
+    "moves": [
+      "tackle",
+      "string-shot",
+      "snore",
+      "protect",
+      "hidden-power",
+      "bug-bite",
+      "struggle-bug",
+      "electroweb"
+    ],
+    "held_items": [],
+    "base_experience": 45,
+    "is_default": true,
+    "order": 541,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/412.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412.png"
+    },
+    "species_name": "burmy",
+    "flavor_text": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    "genus": "Bagworm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/213/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 213,
+      "chain": {
+        "species_name": "burmy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wormadam",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "mothim",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

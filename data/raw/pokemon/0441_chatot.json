@@ -1,0 +1,175 @@
+{
+  "pokemon_details": {
+    "id": 441,
+    "name": "chatot",
+    "stats": {
+      "hp": 76,
+      "attack": 65,
+      "defense": 45,
+      "special-attack": 92,
+      "special-defense": 42,
+      "speed": 91
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 1.9,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "chatot"
+    ],
+    "moves": [
+      "gust",
+      "fly",
+      "fury-attack",
+      "growl",
+      "sing",
+      "supersonic",
+      "peck",
+      "toxic",
+      "agility",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "mirror-move",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "role-play",
+      "secret-power",
+      "feather-dance",
+      "hyper-voice",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "nasty-plot",
+      "defog",
+      "captivate",
+      "chatter",
+      "ominous-wind",
+      "synchronoise",
+      "round",
+      "echoed-voice",
+      "work-up",
+      "hurricane",
+      "parting-shot",
+      "play-rough",
+      "boomburst",
+      "confide"
+    ],
+    "held_items": [
+      "metronome"
+    ],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 566,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/441.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/441.png"
+    },
+    "species_name": "chatot",
+    "flavor_text": "It can learn and speak human words. If they gather, they all learn the same saying.",
+    "genus": "Music Note Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "black",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/228/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 228,
+      "chain": {
+        "species_name": "chatot",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

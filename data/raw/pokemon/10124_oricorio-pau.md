@@ -1,0 +1,14 @@
+## Identity & Lore
+Pa'u Style Oricorio (Pokedex #10124) is the Psychic/Flying-type variant of the Dancing Pokémon, first discovered in the Alola region during Generation VII. This specific form is characterized by its relaxed, swaying dance movements, which it uses to sharpen its mental focus and heighten its psychic powers. While the base species is known for its versatility across the Alolan islands, the Pa'u Style is traditionally associated with the pink flowers of Akala Island. 
+
+As a unique avian species, Oricorio does not possess Mega Evolutions or Gigantamax forms; however, it is biologically remarkable for its ability to undergo **Phenotypic Transformation**. By consuming different types of nectar, it can shift between four distinct styles: Baile (Fire), Pom-Pom (Electric), Sensu (Ghost), and this Pa'u (Psychic) form. Despite its graceful appearance, it is a fierce competitor that uses its wings to focus psychic energy, often bathing the battlefield in intense power rather than physical flames, contrary to its Baile-style cousins.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 70, Defense 70, Sp. Atk 98, Sp. Def 70, Speed 93.
+* **Archetype:** Special Setup Sweeper.
+* **Type Matchups:** It is **weak to Rock, Electric, Ice, Bug, Ghost, and Dark**. It possesses a **4x resistance to Fighting**, a resistance to **Grass and Psychic**, and a total **immunity to Ground**-type attacks.
+* **Move Selection:** Oricorio-Pau excels when utilizing its high Special Attack and access to some of the best setup moves in the game. Key moves include **Revelation Dance** (a signature move that changes type to match the user), **Hurricane** (for high-power Flying STAB), **Quiver Dance** (to boost Sp. Atk, Sp. Def, and Speed simultaneously), and **Roost** (for reliable recovery and to lose its Flying-type weaknesses for one turn).
+* **Abilities:** **Dancer** (This unique ability allows Oricorio to immediately mimic any "dance" move used by another Pokémon on the field, including powerful moves like Fiery Dance, Dragon Dance, or Victory Dance, making it a terrifying threat in Double Battles).
+
+## Evolution & Biology
+Oricorio-Pau is part of a single-stage evolutionary line that features no traditional transformations through leveling or stones. Instead, it utilizes a **Nectar-based transformation system**. It changes into its Pa'u Style specifically when exposed to **Pink Nectar**. This Pokémon belongs to the **Flying** egg group and is often found carrying **Honey**, which it uses to sustain its energy for long dance performances. Biologically, its skeletal structure is light, optimized for its "wings" shape classification, allowing it to maintain a weight of only 3.4kg despite its constant rhythmic movement.

@@ -1,0 +1,15 @@
+## Identity & Lore
+Hisuian Sneasel (Pokedex #10235) is the Sharp Claw Pokémon, a regional variant adapted to the rugged, mountainous terrain of the ancient Hisui region (historically known as Sinnoh). While its Johto counterpart is a Dark/Ice type, this Hisuian form has developed a unique Poison/Fighting physiology. Standing 0.9 meters tall with a sleek, dark-colored body, it possesses specialized claws designed for scaling sheer cliffs. These claws are more than just climbing tools; as noted in historical records, they conceal a potent venom. If provoked, Hisuian Sneasel can suddenly extend these talons to startle and incapacitate enemies with a single strike. Although this specific form does not possess a Mega Evolution or Gigantamax form, it is the only variant capable of evolving into the formidable Sneasler, a Pokémon renowned for its unparalleled climbing ability and lethality in the Highlands.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 95, Defense 55, Sp. Atk 35, Sp. Def 75, Speed 115.
+* **Archetype:** Fast Physical Sweeper. With a high Speed tier and respectable Physical Attack, Hisuian Sneasel excels at outspeeding opponents to land decisive blows or set up entry hazards.
+* **Type Matchups:** It is **weak to Flying, Ground, and Fairy**, with a catastrophic **Double Weakness (4x) to Psychic**. It effectively **resists Fighting, Poison, Rock, Bug, Grass, and Dark**.
+* **Move Selection:** Prioritizing its Physical Attack and high Speed, Hisuian Sneasel’s optimal kit includes **Close Combat** for massive STAB damage, **Poison Jab** to threaten Fairy-types, **Swords Dance** to reach sweeping potential, and **Fake Out** for valuable flinch utility and chip damage.
+* **Abilities:** 
+    * **Inner Focus:** Prevents the Pokémon from flinching, making it a reliable lead against Fake Out users. 
+    * **Keen Eye:** Prevents other Pokémon from lowering its accuracy, ensuring its high-stakes attacks always land. 
+    * **Pickpocket (Hidden):** Steals an item when hit by another Pokémon making contact, providing a niche tactical advantage in item-dependent tiers.
+
+## Evolution & Biology
+Hisuian Sneasel is the first stage of a two-part evolutionary line. In the Hisui region, it diverges from the standard Sneasel lineage; it evolves into **Sneasler** when it is leveled up during the **Daytime** while holding a **Razor Claw**. This is a direct biological contrast to the Johto form, which requires the same item at Night to evolve into Weavile. Biologically, Hisuian Sneasel belongs to the **Ground** egg group. It is characterized by its "upright" shape and a medium-slow growth rate, requiring significant experience to reach its full potential. Despite its poisonous nature, its habitat is primarily within lush forests and rocky highlands where it can utilize its climbing prowess to evade predators.

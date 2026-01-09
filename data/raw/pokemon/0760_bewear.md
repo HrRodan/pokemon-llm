@@ -1,0 +1,15 @@
+## Identity & Lore
+Bewear (Pokedex #760) is the Strong Arm Pokémon, a deceptively cuddly-looking powerhouse first discovered in the Alola region during Generation VII. Despite its pink, teddy-bear-like appearance and its penchant for waving its arms in a friendly manner, it is considered one of the most dangerous inhabitants of its habitat. In the Alola region, warning signs are frequently posted near its territories because its physical strength is so overwhelming that it can snap thick trees in two or crush the spine of an opponent with a single affectionate "hug." This upright, bipedal Pokémon is known for its immense muscles and is a frequent sight in competitive Alolan circles. While Bewear does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, its raw base power allows it to stand toe-to-toe with many of the strongest threats in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 120, Attack 125, Defense 80, Sp. Atk 55, Sp. Def 60, Speed 60.
+* **Archetype:** Bulky Physical Wallbreaker. With a massive HP pool and elite Attack stat, Bewear is designed to take physical hits and respond with devastating force.
+* **Type Matchups:** As a Normal/Fighting type, it is **weak to Fighting, Flying, Psychic, and Fairy**. It possesses **resistances to Rock, Bug, and Dark**, and maintains a complete **immunity to Ghost** moves.
+* **Move Selection:** Utilizing its massive 125 base Attack, Bewear excels with high-impact physical moves. Key selections for its kit include **Hammer Arm** (powerful Fighting STAB that leverages its low speed), **Double-Edge** (high-damage Normal STAB), **Drain Punch** (providing essential HP recovery to capitalize on its bulk), and **Darkest Lariat** (crucial coverage that ignores the opponent's stat changes).
+* **Abilities:** 
+    * **Fluffy:** Its signature ability; it halves the damage taken from moves that make direct contact, making Bewear an incredible physical tank, though it doubles the damage taken from Fire-type moves.
+    * **Klutz:** Prevents the Pokémon from using held items, a niche ability often used for tricking negative items onto opponents.
+    * **Unnerve:** A hidden ability that prevents opposing Pokémon from eating their held Berries, disrupting many defensive strategies.
+
+## Evolution & Biology
+Bewear is part of a two-stage evolutionary line. It evolves from **Stufful** once it reaches **Level 27**. While Stufful is known for its intense dislike of being touched, Bewear's evolution represents a shift into a creature that actively seeks physical contact through its bone-crushing hugs. Biologically, it is a member of the **Ground** egg group and has a relatively fast hatching cycle (hatch counter 15). Its pink and black fur is extremely soft to the touch, which contributes to its "Fluffy" tactical advantage in combat, acting as a natural shock absorber against physical strikes.

@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 327,
+    "name": "spinda",
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 60
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 5.0,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "contrary",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spinda"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "thrash",
+      "double-edge",
+      "disable",
+      "psybeam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "dig",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "metronome",
+      "swift",
+      "dream-eater",
+      "dizzy-punch",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "flail",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "baton-pass",
+      "encore",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "wish",
+      "assist",
+      "recycle",
+      "brick-break",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "teeter-dance",
+      "hyper-voice",
+      "fake-tears",
+      "rock-tomb",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "psycho-shift",
+      "copycat",
+      "last-resort",
+      "sucker-punch",
+      "drain-punch",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "guard-split",
+      "round",
+      "retaliate",
+      "work-up",
+      "wild-charge",
+      "confide",
+      "power-up-punch",
+      "spotlight",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "chesto-berry"
+    ],
+    "base_experience": 126,
+    "is_default": true,
+    "order": 439,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/327.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/327.png"
+    },
+    "species_name": "spinda",
+    "flavor_text": "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
+    "genus": "Spot Panda Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/165/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 165,
+      "chain": {
+        "species_name": "spinda",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

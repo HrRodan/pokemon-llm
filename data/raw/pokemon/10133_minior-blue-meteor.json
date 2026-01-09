@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 10133,
+    "name": "minior-blue-meteor",
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 100,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 60
+    },
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 40.0,
+    "abilities": [
+      {
+        "name": "shields-down",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "minior-blue-meteor"
+    ],
+    "moves": [
+      "tackle",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "double-team",
+      "confuse-ray",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "psych-up",
+      "ancient-power",
+      "facade",
+      "endeavor",
+      "rock-tomb",
+      "cosmic-power",
+      "calm-mind",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "u-turn",
+      "last-resort",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "autotomize",
+      "telekinesis",
+      "round",
+      "shell-smash",
+      "acrobatics",
+      "bulldoze",
+      "confide",
+      "dazzling-gleam",
+      "meteor-beam",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "star-piece"
+    ],
+    "base_experience": 154,
+    "is_default": false,
+    "order": 937,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10133.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/774-blue-meteor.png"
+    },
+    "species_name": "minior",
+    "flavor_text": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+    "genus": "Meteor Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/400/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 400,
+      "chain": {
+        "species_name": "minior",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

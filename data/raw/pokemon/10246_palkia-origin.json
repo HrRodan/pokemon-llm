@@ -1,0 +1,166 @@
+{
+  "pokemon_details": {
+    "id": 10246,
+    "name": "palkia-origin",
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 150,
+      "special-defense": 120,
+      "speed": 120
+    },
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "height_m": 6.3,
+    "weight_kg": 659.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "palkia-origin"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "fire-blast",
+      "waterfall",
+      "swift",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "dragon-breath",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "facade",
+      "trick",
+      "brick-break",
+      "hyper-voice",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "bulk-up",
+      "water-pulse",
+      "fling",
+      "aqua-ring",
+      "aura-sphere",
+      "aqua-tail",
+      "dragon-pulse",
+      "power-gem",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "trick-room",
+      "draco-meteor",
+      "stone-edge",
+      "spacial-rend",
+      "heavy-slam",
+      "bulldoze",
+      "dragon-tail",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10246.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10246.png"
+    },
+    "species_name": "palkia",
+    "flavor_text": "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+    "genus": "Spatial Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/245/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 245,
+      "chain": {
+        "species_name": "palkia",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

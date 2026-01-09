@@ -1,0 +1,15 @@
+## Identity & Lore
+Sigilyph (Pokedex #561) is the Avianoid Pokémon, a mysterious and ancient entity first discovered in the Unova region during Generation V. Characterized by its black, multi-colored, and geometric body that resembles a Nazca line or an ancient relic, Sigilyph is often found patrolling the skies above desert ruins, specifically the Desert Resort. According to Unovan legends, these Pokémon served as the eternal guardians of ancient cities. They are known for their unwavering nature, never varying their flight paths because their memories of protecting their lost civilizations remain steadfast. While Sigilyph does not possess a Mega Evolution, Gigantamax form, or Paradox variant, its cryptic design and connection to ancient technology have led many researchers to speculate on its extra-terrestrial or artificial origins.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 58, Defense 80, Sp. Atk 103, Sp. Def 80, Speed 97.
+* **Archetype:** Special Sweeper / Setup Utility. With a high Special Attack and a respectable Speed tier, Sigilyph excels at applying pressure while utilizing its unique utility movepool.
+* **Type Matchups:** It is **weak to Rock, Electric, Ice, Bug, Ghost, and Dark**. It is **immune to Ground** and highly **resists Fighting (0.25x damage)**, while also resisting **Grass and Psychic** types.
+* **Move Selection:** Capitalizing on its high Special Attack and diverse coverage, key moves include **Psychic** for heavy STAB damage, **Air Slash** for flinch potential, **Heat Wave** to melt Steel-types, and **Stored Power**, which becomes devastating when paired with its setup moves. Utility options like **Roost** and **Cosmic Power** are also vital for its longevity.
+* **Abilities:** 
+    * **Magic Guard:** A top-tier competitive ability that protects Sigilyph from all indirect damage, including Poison, Burn, Leech Seed, entry hazards (Stealth Rock), and even Life Orb recoil.
+    * **Wonder Skin:** Makes status moves used against it more likely to miss, providing a layer of protection against Taunt or Will-O-Wisp.
+    * **Tinted Lens (Hidden Ability):** Doubles the damage of "not very effective" moves, allowing Sigilyph to blast through opponents that would normally resist its attacks.
+
+## Evolution & Biology
+Sigilyph is a standalone species and is not part of any evolutionary chain, representing a unique biological or mechanical lineage that does not evolve from or into any other Pokémon. Biologically, it is highly adapted for aerial life, possessing a shape categorized by its wide, ornate wings. Despite its mechanical appearance, it belongs to the **Flying** egg group. Trainers looking to breed Sigilyph should note its hatch counter of 20, which is standard for many avian species. Its steadfast behavior and historical role as a guardian suggest it possesses a high level of intelligence and a psychic connection to the land it protects.

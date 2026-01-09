@@ -1,0 +1,12 @@
+## Identity & Lore
+Glastrier (Pokedex #896) is the Wild Horse Pokémon, a powerful Legendary creature introduced in Generation VIII (Galar) within the icy landscapes of the Crown Tundra. Standing 2.2 meters tall and weighing 800 kg, this white, equine Pokémon is defined by its belligerent and territorial nature; lore states that it is a prideful creature that takes whatever it wants by force. Its hooves and face are protected by masks of translucent ice that are harder than diamond, capable of emitting intense cold that freezes everything in its path. While Glastrier does not have a Mega Evolution or Gigantamax form, it possesses a unique biological "fusion" potential. When combined with the Legendary Pokémon Calyrex using the Reins of Unity, it transforms into Calyrex Ice Rider, serving as the King Pokémon’s loyal and ferocious steed.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 145, Defense 130, Sp. Atk 65, Sp. Def 110, Speed 30.
+* **Archetype:** Physical Tank / Trick Room Sweeper.
+* **Type Matchups:** As a pure Ice-type, it is **weak to Fire, Fighting, Rock, and Steel**. It **resists Ice** but lacks other resistances, making it reliant on its high natural bulk to survive hits.
+* **Move Selection:** Capitalizing on its massive base 145 Attack and dismal Speed, its optimal moveset includes **Icicle Crash** for heavy STAB damage, **Close Combat** to handle Steel and Rock types, **High Horsepower** for Fire-type coverage, and **Swords Dance** to further amplify its wall-breaking power.
+* **Abilities:** Chilling Neigh (Increases the Pokémon's Attack stat by one stage every time it knocks out an opponent). This ability makes Glastrier a "snowball" threat that becomes increasingly difficult to stop once it secures its first knockout.
+
+## Evolution & Biology
+Glastrier is a single-stage Legendary Pokémon and does not evolve from or into any other species. It belongs to the **No Eggs** group, meaning it cannot be bred in captivity. In Galarian legend, it was once the ruler of the Crown Tundra's snowy peaks until it was tamed by Calyrex. Biologically, its slow movement is a trade-off for its immense physical durability and the weight of its ice-clad armor. In competitive play, it is most frequently utilized in **Trick Room** strategies, where its extremely low base Speed of 30 allows it to move first and dismantle opposing teams with its overwhelming physical strength.

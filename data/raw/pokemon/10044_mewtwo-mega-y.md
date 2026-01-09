@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Mewtwo Y (Pokedex #10044) is the Genetic Pokémon, representing the ultimate culmination of years of horrific gene splicing and DNA engineering. Originally discovered in the Kanto region (Generation I), Mewtwo was created as a superior clone of the mythical Mew. Upon undergoing Mega Evolution with a Mewtwonite Y, it sheds its physical bulk for a smaller, more streamlined form that prioritizes overwhelming telepathic power. This specific transformation stands in contrast to Mega Mewtwo X, which focuses on physical martial arts; Mega Mewtwo Y is instead the purest expression of special offensive capability in the Pokémon world. Its brain is so enlarged that it grants the Pokémon unparalleled intellect and psychic pressure, though its physical durability is notably sacrificed in the process.
+
+## Combat Profile
+* **Stats:** HP 106, Attack 150, Defense 70, Sp. Atk 194, Sp. Def 120, Speed 140.
+* **Archetype:** Fast Special Sweeper. With a staggering Base 194 Special Attack and elite 140 Speed, Mega Mewtwo Y is designed to outspeed almost the entire metagame and deliver one-hit knockouts.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark** types. It **resists Fighting and Psychic** moves.
+* **Move Selection:** Leveraging its massive Special Attack and diverse movepool, key moves include **Psystrike** (its signature move that calculates damage based on the target's Defense), **Aura Sphere** (for perfect-accuracy coverage against Dark and Steel types), **Ice Beam** (to threaten Dragon and Flying types), and **Shadow Ball** (to handle rival Ghost and Psychic types).
+* **Abilities:** Insomnia (Prevents the Pokémon from falling asleep). This is a vital tactical advantage, as it makes Mega Mewtwo Y immune to sleep-inducing moves like Spore, Sleep Powder, or Dark Void, ensuring its sweep is never interrupted by "status stalling."
+
+## Evolution & Biology
+Mega Mewtwo Y is a temporary battle transformation of Mewtwo, a legendary Pokémon that does not have a traditional evolutionary line. Mewtwo undergoes Mega Evolution when exposed to a **Mewtwonite Y** during combat. Despite its artificial origins, it is biologically related to Mew but occupies a unique position in the Kanto hierarchy. It belongs to the **No Eggs** group, meaning it cannot breed. Its biology is defined by its purple and white aesthetic, and in this form, its tail migrates to the back of its head to act as a conduit for psychic energy. Due to its slow growth rate and legendary status, it requires immense experience to reach its full potential.

@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 293,
+    "name": "whismur",
+    "stats": {
+      "hp": 64,
+      "attack": 51,
+      "defense": 23,
+      "special-attack": 51,
+      "special-defense": 23,
+      "speed": 28
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 16.3,
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "whismur"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "whirlwind",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "supersonic",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "seismic-toss",
+      "solar-beam",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "smokescreen",
+      "defense-curl",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "smelling-salts",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "fake-tears",
+      "extrasensory",
+      "howl",
+      "shock-wave",
+      "water-pulse",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "zen-headbutt",
+      "captivate",
+      "synchronoise",
+      "round",
+      "echoed-voice",
+      "circle-throw",
+      "incinerate",
+      "retaliate",
+      "work-up",
+      "disarming-voice",
+      "confide"
+    ],
+    "held_items": [
+      "chesto-berry"
+    ],
+    "base_experience": 48,
+    "is_default": true,
+    "order": 396,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/293.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/293.png"
+    },
+    "species_name": "whismur",
+    "flavor_text": "Normally, WHISMUR\u2019s voice is very quiet - it is barely audible even if one is paying close attention. However, if this POK\u00e9MON senses danger, it starts crying at an earsplitting volume.",
+    "genus": "Whisper Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "monster",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/145/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 145,
+      "chain": {
+        "species_name": "whismur",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "loudred",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "exploud",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 40
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

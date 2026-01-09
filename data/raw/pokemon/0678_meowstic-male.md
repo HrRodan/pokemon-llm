@@ -1,0 +1,12 @@
+## Identity & Lore
+Male Meowstic (Pokedex #678) is the Constraint Pokémon, a feline Psychic-type originally discovered in the Kalos region (Generation VI). This Pokémon is defined by its intense sexual dimorphism; while both genders share a blue and white aesthetic, the male Meowstic is primarily blue and specializes in defensive and tactical support. Its ears are kept tightly folded to suppress its overwhelming psychic energy, which is potent enough to grind a 10-ton truck into dust if released without restraint. While it does not possess a Mega Evolution or Gigantamax form, it occupies a unique niche in the Pokémon world as a specialized protector, using its psychic powers to shield its allies rather than focus solely on raw destruction.
+
+## Combat Profile
+* **Stats:** HP 74, Attack 48, Defense 76, Sp. Atk 83, Sp. Def 81, Speed 104.
+* **Archetype:** Prankster Support / Disruptor.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark** types. It **resists Fighting and Psychic** types.
+* **Move Selection:** Capitalizing on its respectable Special Attack and its role as a tactical lead, key moves include **Psychic** (reliable STAB damage), **Shadow Ball** (Ghost-type coverage against rivals), **Reflect** (priority physical damage reduction), and **Light Screen** (priority special damage reduction).
+* **Abilities:** **Keen Eye** (prevents accuracy loss and ignores evasion boosts), **Infiltrator** (allows moves to bypass an opponent's Substitute, Reflect, or Light Screen), and **Prankster** (Hidden Ability: grants priority to status moves, allowing it to set up screens or status effects before the opponent can act).
+
+## Evolution & Biology
+Meowstic is the final stage of a two-stage evolutionary line. It evolves from **Espurr** starting at **Level 25**. Biological development in this species is highly unusual, as the Pokémon's gender at the time of evolution dictates its final appearance, ability access, and learned move pool. The male variant focuses on "Constraint" through defensive utility and team-wide buffs. It belongs to the **Field (Ground)** Egg Group and possesses a hatch counter of 20, requiring a moderate amount of travel to incubate. Its biology is centered around the organs hidden within its ears, which act as focal points for its immense mental power.

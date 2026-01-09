@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 10030,
+    "name": "gourgeist-small",
+    "stats": {
+      "hp": 55,
+      "attack": 85,
+      "defense": 122,
+      "special-attack": 58,
+      "special-defense": 75,
+      "speed": 99
+    },
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 9.5,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "insomnia",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gourgeist-small"
+    ],
+    "moves": [
+      "flamethrower",
+      "hyper-beam",
+      "leech-seed",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "psychic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "fire-blast",
+      "dream-eater",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "astonish",
+      "bullet-seed",
+      "gyro-ball",
+      "worry-seed",
+      "dark-pulse",
+      "seed-bomb",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-sneak",
+      "trick-room",
+      "power-whip",
+      "grass-knot",
+      "charge-beam",
+      "telekinesis",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "incinerate",
+      "phantom-force",
+      "trick-or-treat",
+      "moonblast",
+      "confide",
+      "mystical-fire",
+      "brutal-swing",
+      "grassy-glide",
+      "skitter-smack",
+      "poltergeist"
+    ],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": false,
+    "order": 849,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/711-small.png"
+    },
+    "species_name": "gourgeist",
+    "flavor_text": "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+    "genus": "Pumpkin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "brown",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/365/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 365,
+      "chain": {
+        "species_name": "pumpkaboo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gourgeist",
+            "evolution_details": [
+              {
+                "trigger": "trade"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

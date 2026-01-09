@@ -1,0 +1,12 @@
+## Identity & Lore
+Type: Null (Pokedex #772) is a Synthetic Pokémon first introduced in Generation VII (Alola). It is a chimera-like life form engineered by the Aether Foundation to serve as an "Anti-UB" (Ultra Beast) weapon. Its body features a blend of various Pokémon traits, all suppressed by a heavy, green-colored control mask. This cumbersome helmet is specifically designed to dampen its immense intrinsic power and prevent its unstable "RKS System" from running wild. Despite its legendary classification, it displays a deep capacity for bonding with those it trusts. While it does not possess a Mega Evolution or Gigantamax form, its entire biological purpose is to eventually shatter its limiter mask and transform into its true form, Silvally.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 95, Defense 95, Sp. Atk 95, Sp. Def 95, Speed 59.
+* **Archetype:** Bulky Eviolite Tank / Mixed Attacker. Due to its status as an unevolved Pokémon, Type: Null is most effectively used with an **Eviolite** held item, which boosts its already impressive 95/95/95 defensive core to Tier-1 levels of durability.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and holds a complete **immunity to Ghost**. It has no natural resistances.
+* **Move Selection:** Type: Null has a versatile movepool that allows it to function as a setup sweeper or a pivot. Key moves include **Swords Dance** to boost its offensive presence, **Double-Edge** or **Crush Claw** for powerful STAB (Same Type Attack Bonus) damage, **Iron Head** for flinch-chance coverage, and **U-turn** to maintain momentum by switching out of unfavorable matchups.
+* **Abilities:** Battle Armor (Protects the Pokémon from critical hits, ensuring that its defensive bulk is never bypassed by a lucky strike).
+
+## Evolution & Biology
+Type: Null is the initial stage of a two-part evolutionary line. It evolves into **Silvally** only when it achieves a high level of **Friendship** (at least 160) and then **levels up**. This evolution represents the Pokémon physically breaking its heavy mask through the power of its bond with its trainer. Biologically, it is a genderless creature and belongs to the **No Eggs Discovered** group, meaning it cannot be bred. Its growth rate is exceptionally slow, reflecting the difficulty of taming and training a laboratory-engineered specimen.

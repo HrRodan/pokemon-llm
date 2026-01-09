@@ -1,0 +1,12 @@
+## Identity & Lore
+Wattrel (Pokedex #940) is the Storm Petrel Pokémon, a distinct avian species first discovered in the Paldea region during Generation IX. This black-feathered Pokémon possesses a unique biological anatomy where its wing bones are capable of generating electricity when they catch the wind. A masterful coastal hunter, Wattrel is known to dive from great heights into the ocean, using its accumulated electrical energy to electrocute and catch prey beneath the waves. While Wattrel does not possess a Mega Evolution or Gigantamax form, it represents a vital ecological link in the Paldean shoreline, frequently seen alongside its evolved form, Kilowattrel, soaring through sea breezes to charge its internal batteries.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 40, Defense 35, Sp. Atk 55, Sp. Def 40, Speed 70.
+* **Archetype:** Early-Game Special Sweeper / Pivot.
+* **Type Matchups:** It is **weak to Rock and Ice**. Due to its dual Electric/Flying typing, it possesses a complete **immunity to Ground** moves and **resists Fighting, Flying, Bug, Steel, and Grass** types.
+* **Move Selection:** Capitalizing on its higher Special Attack and Speed, key moves include **Thunderbolt** for reliable STAB (Same Type Attack Bonus) damage, **Air Slash** for flinch chance and aerial coverage, **Volt Switch** to maintain offensive momentum by pivoting, and **Hurricane** for maximum damage output, especially during rainy weather.
+* **Abilities:** **Wind Power** (Becomes charged when hit by a wind move or if Tailwind is in effect, boosting the next Electric move); **Volt Absorb** (Provides an immunity to Electric moves and restores HP when hit by them); **Competitive** (Hidden Ability that sharply raises Special Attack when a stat is lowered by an opponent, making it a potent counter to the Intimidate ability).
+
+## Evolution & Biology
+Wattrel is part of a two-stage evolutionary line. It evolves into **Kilowattrel** once it reaches **Level 25**. Biologically, it is highly adapted for both aerial and aquatic environments, belonging to the **Water 1** and **Flying** Egg Groups. It has a medium-slow growth rate and a hatch counter of 20, requiring significant effort from trainers to raise but rewarding them with one of the fastest Electric-type pivots available in the Paldean wilderness.

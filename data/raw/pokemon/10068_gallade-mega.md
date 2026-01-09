@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Gallade (Pokedex #475, Form #10068) is the Blade Pokémon, a powerful Mega Evolution of the Sinnoh region's Gallade, first introduced in Generation IV. This transformation enhances its chivalrous nature, manifesting as a master of courtesy and lethal swordsmanship. Its appearance becomes more knight-like, with its elbow blades extending and its red crest sharpening, while a cape-like protrusion develops from its back to emphasize its regal, duelist aesthetic. As a Psychic/Fighting type, it uses its psychic powers to sense its opponent's thoughts, allowing it to strike with its blades before the foe can even react. While Gallade does not possess a Gigantamax form, its Paradox relative, Iron Valiant, is a notable future-form variant found in the Paldea region that shares its lethal blade-focused combat style.
+
+## Combat Profile
+* **Stats:** HP 68, Attack 165, Defense 95, Sp. Atk 65, Sp. Def 115, Speed 110.
+* **Archetype:** Elite Physical Sweeper / Wallbreaker. With a massive base 165 Attack and a highly competitive 110 Speed tier, Mega Gallade is designed to dismantle defensive cores.
+* **Type Matchups:** It is **weak to Flying, Ghost, and Fairy**. It possesses **resistances to Fighting and Rock**. Its unique typing cancels out the traditional Psychic-type weaknesses to Bug and Dark.
+* **Move Selection:** Capitalizing on its extraordinary physical power and STAB (Same Type Attack Bonus), key moves include **Close Combat** (high-power Fighting STAB), **Zen Headbutt** (Psychic STAB with flinch potential), **Knock Off** (essential utility and coverage), and **Swords Dance** (to boost its Attack to unstoppable levels).
+* **Abilities:** Inner Focus (Prevents the Pokémon from flinching and protects it from the Attack-lowering effects of Intimidate, ensuring its offensive momentum is never stalled).
+
+## Evolution & Biology
+Mega Gallade represents the pinnacle of a unique three-stage evolutionary line. It begins as **Ralts**, which evolves into **Kirlia** starting at Level 20. While Kirlia can evolve into Gardevoir at Level 30, it will only evolve into **Gallade** if it is male and exposed to a **Dawn Stone**. The Mega Evolution is a temporary state triggered during battle while holding Galladite. It belongs to the **Humanshape** and **Indeterminate** (Amorphous) Egg Groups, and despite its fierce warrior persona, it retains a humanoid elegance. It is known to be a slow-growing Pokémon, requiring significant experience to reach its full potential.

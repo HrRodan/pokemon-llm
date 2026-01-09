@@ -1,0 +1,15 @@
+## Identity & Lore
+Oinkologne-male (Pokedex #916) is the Hog Pokémon, a stoic and sturdy Normal-type introduced in Generation IX (Paldea). This male variant is distinguished from its female counterpart by its darker, more somber coloration and the specific scent it emits. Oinkologne is characterized by its exceptionally glossy, fine skin and a tail that acts as a scent-diffuser, releasing a concentrated, floral aroma that can be smelled from great distances. While it lacks Mega Evolutions or Gigantamax forms, it is a staple of the Paldean countryside, often seen foraging for food with a refined sense of smell. Its behavior is marked by a certain level of pride in its cleanliness and physical appearance, despite its hog-like nature.
+
+## Combat Profile
+* **Stats:** HP 110, Attack 100, Defense 75, Sp. Atk 59, Sp. Def 80, Speed 65.
+* **Archetype:** Bulky Physical Attacker. With high base HP and a respectable Attack stat, Oinkologne-male functions as a "bruiser" capable of taking several hits while dealing consistent physical damage.
+* **Type Matchups:** It is **weak to Fighting** and has a total **immunity to Ghost**. As a pure Normal-type, it has no natural resistances, relying instead on its raw bulk and abilities to survive neutral exchanges.
+* **Move Selection:** Prioritizing its high Attack stat over its Special Attack, Oinkologne excels with heavy-hitting physical moves and utility. Key moves include **Body Slam** (for STAB damage and paralysis chance), **High Horsepower** (for powerful Ground-type coverage), **Play Rough** (to punish Fighting-type switch-ins), and **Zen Headbutt** (to exploit the secondary weakness of Fighting-types).
+* **Abilities:** 
+    * **Lingering Aroma:** A unique ability where contact with Oinkologne changes the attacker's ability to Lingering Aroma, effectively neutralizing dangerous enemy abilities like Intimidate or Guts.
+    * **Gluttony:** Allows the Pokémon to consume its held berry earlier than usual (at 50% HP instead of 25%).
+    * **Thick Fat (Hidden):** Provides excellent defensive utility by halving the damage taken from Fire- and Ice-type moves.
+
+## Evolution & Biology
+Oinkologne-male is part of a two-stage evolutionary line. It evolves from **Lechonk** starting at **Level 18**, provided the Lechonk is male (as the evolution is gender-dimorphic, resulting in different stats and abilities for the female variant). Biologically, it is a heavy quadruped, weighing 120.0 kg, which fuels the power behind moves like **Body Press** and **Double-Edge**. It belongs to the **Ground** (Field) egg group and has a hatch counter of 15, making it a relatively common and easy-to-breed species for Paldean trainers. Unlike its pre-evolution, which is driven by a frantic search for food, Oinkologne is more composed, using its scent to mark territory and attract mates.

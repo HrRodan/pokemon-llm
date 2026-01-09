@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 347,
+    "name": "anorith",
+    "stats": {
+      "hp": 45,
+      "attack": 95,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 75
+    },
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 12.5,
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "anorith"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "water-gun",
+      "string-shot",
+      "dig",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "harden",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "rapid-spin",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "mud-sport",
+      "crush-claw",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "rock-polish",
+      "x-scissor",
+      "earth-power",
+      "cross-poison",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "aqua-jet",
+      "hone-claws",
+      "smack-down",
+      "round",
+      "struggle-bug",
+      "confide",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 71,
+    "is_default": true,
+    "order": 460,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/347.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/347.png"
+    },
+    "species_name": "anorith",
+    "flavor_text": "ANORITH was regenerated from a prehistoric fossil. This primitive POK\u00e9MON once lived in warm seas. It grips its prey firmly between its two large claws.",
+    "genus": "Old Shrimp Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "waters-edge",
+    "shape": "armor",
+    "color": "gray",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/177/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 177,
+      "chain": {
+        "species_name": "anorith",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "armaldo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

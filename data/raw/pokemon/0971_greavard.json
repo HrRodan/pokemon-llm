@@ -1,0 +1,156 @@
+{
+  "pokemon_details": {
+    "id": 971,
+    "name": "greavard",
+    "stats": {
+      "hp": 50,
+      "attack": 61,
+      "defense": 60,
+      "special-attack": 30,
+      "special-defense": 55,
+      "speed": 34
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 35.0,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "fluffy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "greavard"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "disable",
+      "dig",
+      "night-shade",
+      "confuse-ray",
+      "lick",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "destiny-bond",
+      "sandstorm",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "uproar",
+      "memento",
+      "facade",
+      "helping-hand",
+      "trick",
+      "yawn",
+      "endeavor",
+      "howl",
+      "mud-shot",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "shadow-sneak",
+      "ally-switch",
+      "hex",
+      "bulldoze",
+      "snarl",
+      "phantom-force",
+      "play-rough",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "poltergeist",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": true,
+    "order": 924,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/971.png"
+    },
+    "species_name": "greavard",
+    "flavor_text": "It is said that a dog Pok\u00e9mon that died in the wild without ever interacting with a human was reborn as this Pok\u00e9mon.",
+    "genus": "Ghost Dog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/509/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 509,
+      "chain": {
+        "species_name": "greavard",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "houndstone",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

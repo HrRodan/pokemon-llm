@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 10174,
+    "name": "zigzagoon-galar",
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "special-attack": 30,
+      "special-defense": 41,
+      "speed": 60
+    },
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 17.5,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "zigzagoon-galar"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "pin-missile",
+      "leer",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "screech",
+      "lick",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "iron-tail",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "whirlpool",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "knock-off",
+      "hyper-voice",
+      "fake-tears",
+      "mud-shot",
+      "payback",
+      "assurance",
+      "fling",
+      "seed-bomb",
+      "gunk-shot",
+      "grass-knot",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "work-up",
+      "snarl",
+      "parting-shot",
+      "baby-doll-eyes",
+      "lash-out"
+    ],
+    "held_items": [],
+    "base_experience": 56,
+    "is_default": false,
+    "order": 362,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10174.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10174.png"
+    },
+    "species_name": "zigzagoon",
+    "flavor_text": "ZIGZAGOON restlessly wanders everywhere at all times. This POK\u00e9MON does so because it is very curious. It becomes interested in anything that it happens to see.",
+    "genus": "Tiny Raccoon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/134/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 134,
+      "chain": {
+        "species_name": "zigzagoon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "linoone",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "obstagoon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35,
+                    "time_of_day": "night"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

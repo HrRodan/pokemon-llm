@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Ponyta (Pokedex #10162) is the Galarian Form of the Fire Horse Pokémon, a unique variant that adapted to the life-energy-rich forests of the Galar region (Generation VIII). Unlike its Kantonian counterpart that blazes with fire, Galarian Ponyta has undergone a biological shift due to the overflowing life energy in the Glimwood Tangle, resulting in a shimmering, pastel-colored mane that glows when there is a strong presence of life. Though its genus remains "Fire Horse," it has discarded the Fire type entirely to become a pure Psychic-type. It is a quadrupedal equine Pokémon known for its hooves, which are ten times harder than diamonds, capable of flattening obstacles with ease. While it does not possess a Mega Evolution or Gigantamax form, its evolution, Galarian Rapidash, gains the Fairy typing, making this line a significant departure from the classic Kanto variants.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 85, Defense 55, Sp. Atk 65, Sp. Def 65, Speed 90.
+* **Archetype:** Physical Speedster / Offensive Support.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark**. It **resists Fighting and Psychic** types.
+* **Move Selection:** Despite its Psychic typing, Galarian Ponyta excels with Physical moves due to its higher Attack stat. Key moves include **Zen Headbutt** for STAB (Same Type Attack Bonus) flinching, **Play Rough** for Fairy-type coverage, **High Horsepower** to handle Steel and Poison types, and **Wild Charge** for Electric-type utility.
+* **Abilities:** **Pastel Veil** is its signature ability, which prevents the Pokémon and its allies from being poisoned and can حتی cure poison upon switching in. **Run Away** allows for easy escapes from wild encounters, while **Anticipation** (Hidden Ability) alerts the Pokémon to dangerous "super effective" or one-hit KO moves from the opponent.
+
+## Evolution & Biology
+Galarian Ponyta is part of a two-stage evolutionary line. It evolves into **Galarian Rapidash** when it reaches **Level 40**. In this form, it retains its elegant appearance while gaining a long, spiraled horn that channels psychic power. Biologically, it is highly attuned to the environment; it is said that its mane stores the life energy it absorbs from the forests. It belongs to the **Field (Ground)** egg group, and breeders typically look for a Hatch Counter of 20. Despite its delicate appearance, its physical resilience in its hooves and its high speed of 90 make it a capable runner across the grasslands and forests of Galar.

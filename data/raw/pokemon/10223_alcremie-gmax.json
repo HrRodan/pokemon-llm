@@ -1,0 +1,102 @@
+{
+  "pokemon_details": {
+    "id": 10223,
+    "name": "alcremie-gmax",
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 121,
+      "speed": 64
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 30.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "alcremie-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10223.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10223.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10223.png"
+    },
+    "species_name": "alcremie",
+    "flavor_text": "When it trusts a Trainer, it will treat them to berries it\u2019s decorated with cream.",
+    "genus": "Cream Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "white",
+    "egg_groups": [
+      "fairy",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/452/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 452,
+      "chain": {
+        "species_name": "milcery",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "alcremie",
+            "evolution_details": [
+              {
+                "trigger": "spin"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

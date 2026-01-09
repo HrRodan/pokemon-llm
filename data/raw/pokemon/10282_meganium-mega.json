@@ -1,0 +1,118 @@
+{
+  "pokemon_details": {
+    "id": 10282,
+    "name": "meganium-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 115,
+      "special-attack": 143,
+      "special-defense": 115,
+      "speed": 80
+    },
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "height_m": 2.4,
+    "weight_kg": 201.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "meganium",
+    "flavor_text": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+    "genus": "Herb Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/79/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 79,
+      "chain": {
+        "species_name": "chikorita",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bayleef",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "meganium",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 32
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

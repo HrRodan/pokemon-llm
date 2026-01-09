@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 10066,
+    "name": "sableye-mega",
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 125,
+      "special-attack": 85,
+      "special-defense": 115,
+      "speed": 20
+    },
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 161.0,
+    "abilities": [
+      {
+        "name": "magic-bounce",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "sableye-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "leer",
+      "low-kick",
+      "dig",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "double-team",
+      "recover",
+      "confuse-ray",
+      "dream-eater",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "feint-attack",
+      "foresight",
+      "icy-wind",
+      "detect",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "moonlight",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "fake-out",
+      "torment",
+      "flatter",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "brick-break",
+      "knock-off",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "rock-tomb",
+      "signal-beam",
+      "aerial-ace",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "gravity",
+      "feint",
+      "metal-burst",
+      "payback",
+      "embargo",
+      "fling",
+      "punishment",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "power-gem",
+      "nasty-plot",
+      "shadow-claw",
+      "shadow-sneak",
+      "zen-headbutt",
+      "captivate",
+      "hone-claws",
+      "wonder-room",
+      "telekinesis",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "incinerate",
+      "quash",
+      "retaliate",
+      "snarl",
+      "confide",
+      "dazzling-gleam",
+      "power-up-punch"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": false,
+    "order": 406,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10066.png"
+    },
+    "species_name": "sableye",
+    "flavor_text": "SABLEYE lead quiet lives deep inside caverns. They are feared, however, because these POK\u00e9MON are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
+    "genus": "Darkness Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/149/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 149,
+      "chain": {
+        "species_name": "sableye",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

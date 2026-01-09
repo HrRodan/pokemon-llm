@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 820,
+    "name": "greedent",
+    "stats": {
+      "hp": 120,
+      "attack": 95,
+      "defense": 95,
+      "special-attack": 55,
+      "special-defense": 75,
+      "speed": 20
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 6.0,
+    "abilities": [
+      {
+        "name": "cheek-pouch",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "greedent"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "hyper-beam",
+      "counter",
+      "earthquake",
+      "dig",
+      "amnesia",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "iron-tail",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "uproar",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "superpower",
+      "knock-off",
+      "endeavor",
+      "hyper-voice",
+      "bullet-seed",
+      "mud-shot",
+      "covet",
+      "gyro-ball",
+      "payback",
+      "assurance",
+      "fling",
+      "seed-bomb",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "round",
+      "bulldoze",
+      "wild-charge",
+      "tail-slap",
+      "belch",
+      "high-horsepower",
+      "brutal-swing",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "stuff-cheeks",
+      "body-press",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 1001,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/820.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/820.png"
+    },
+    "species_name": "greedent",
+    "flavor_text": "It stashes berries in its tail\u2014so many berries that they fall out constantly. But this Pok\u00e9mon is a bit slow-witted, so it doesn\u2019t notice the loss.",
+    "genus": "Greedy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/433/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 433,
+      "chain": {
+        "species_name": "skwovet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "greedent",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

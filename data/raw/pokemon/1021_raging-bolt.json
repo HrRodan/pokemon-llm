@@ -1,0 +1,151 @@
+{
+  "pokemon_details": {
+    "id": 1021,
+    "name": "raging-bolt",
+    "stats": {
+      "hp": 125,
+      "attack": 73,
+      "defense": 91,
+      "special-attack": 137,
+      "special-defense": 89,
+      "speed": 75
+    },
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "height_m": 5.2,
+    "weight_kg": 480.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "raging-bolt"
+    ],
+    "moves": [
+      "stomp",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "zap-cannon",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "dragon-breath",
+      "twister",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "facade",
+      "charge",
+      "taunt",
+      "hyper-voice",
+      "weather-ball",
+      "calm-mind",
+      "shock-wave",
+      "dragon-pulse",
+      "giga-impact",
+      "thunder-fang",
+      "draco-meteor",
+      "discharge",
+      "charge-beam",
+      "heavy-slam",
+      "electro-ball",
+      "volt-switch",
+      "dragon-tail",
+      "electroweb",
+      "wild-charge",
+      "snarl",
+      "eerie-impulse",
+      "electric-terrain",
+      "dragon-hammer",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "rising-voltage",
+      "tera-blast",
+      "thunderclap",
+      "dragon-cheer",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 295,
+    "is_default": true,
+    "order": 1105,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1021.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1021.png"
+    },
+    "species_name": "raging-bolt",
+    "flavor_text": "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/545/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 545,
+      "chain": {
+        "species_name": "raging-bolt",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

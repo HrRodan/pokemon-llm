@@ -1,0 +1,12 @@
+## Identity & Lore
+Bramblin (Pokedex #946) is the Tumbleweed Pokémon, a unique Grass and Ghost-type discovered in the Paldea region during Generation IX. Its existence is rooted in the macabre and the mundane; it is formed when a lost soul, unable to find its way to the afterlife, becomes ensnared in wind-blown dried grass. This brown, ball-shaped Pokémon is a common sight in arid environments like the Asado Desert, where it rolls endlessly driven by the breeze. While it currently possesses no Mega Evolutions or Gigantamax forms, its biology is uniquely tied to the kinetic energy of the wind.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 65, Defense 30, Sp. Atk 45, Sp. Def 35, Speed 60.
+* **Archetype:** Physical Speed-Dependent Attacker. Though its base stats are modest as an unevolved form, it relies on its physical prowess and unique ability to thrive in windy conditions.
+* **Type Matchups:** It is **weak to Fire, Flying, Poison, Bug, Ice, Ghost, and Dark**. Conversely, it **resists Ground, Water, Grass, and Electric**, and possesses total **immunity to Normal and Fighting** moves due to its Ghost typing.
+* **Move Selection:** Leveraging its superior Attack stat over its Special Attack, Bramblin excels with physical moves such as **Power Whip** for massive Grass-type damage, **Poltergeist** to exploit the opponent's held item, **Shadow Sneak** for priority ghost-type strikes, and **Seed Bomb** for consistent physical pressure.
+* **Abilities:** **Wind Rider** is its signature ability, which grants it an Attack boost and immunity to damage if hit by a wind-based move; this also activates if the field effect Tailwind is in play. Its Hidden Ability, **Infiltrator**, allows it to bypass the effects of an opponent's Reflect, Light Screen, Safeguard, Mist, and Substitute.
+
+## Evolution & Biology
+Bramblin is the first stage of a two-part evolutionary line. It evolves into Brambleghast through a unique Paldean method: it must walk 1,000 steps alongside its trainer using the "Let's Go" feature before leveling up. As a member of the **Plant** egg group, it is biologically related to other flora-based Pokémon despite its ghostly origins. Its light weight (0.6 kg) is a biological adaptation that allows it to be carried effortlessly by gusts of wind, facilitating its movement across the vast Paldean wilderness.

@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 760,
+    "name": "bewear",
+    "stats": {
+      "hp": 120,
+      "attack": 125,
+      "defense": 80,
+      "special-attack": 55,
+      "special-defense": 60,
+      "speed": 60
+    },
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 135.0,
+    "abilities": [
+      {
+        "name": "fluffy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "klutz",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bewear"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "bind",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "flail",
+      "reversal",
+      "protect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "role-play",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "bulk-up",
+      "hammer-arm",
+      "close-combat",
+      "payback",
+      "fling",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "iron-head",
+      "low-sweep",
+      "round",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "baby-doll-eyes",
+      "darkest-lariat",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "coaching"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 919,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/760.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/760.png"
+    },
+    "species_name": "bewear",
+    "flavor_text": "This immensely dangerous Pok\u00e9mon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+    "genus": "Strong Arm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 70,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "pink",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/391/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 391,
+      "chain": {
+        "species_name": "stufful",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bewear",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 27
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "pokemon_details": {
+    "id": 10297,
+    "name": "malamar-mega",
+    "stats": {
+      "hp": 86,
+      "attack": 102,
+      "defense": 88,
+      "special-attack": 98,
+      "special-defense": 120,
+      "speed": 88
+    },
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "height_m": 2.9,
+    "weight_kg": 69.8,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "malamar",
+    "flavor_text": "It wields the most compelling hypnotic powers of any Pok\u00e9mon, and it forces others to do whatever it wants.",
+    "genus": "Overturning Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 80,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/352/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 352,
+      "chain": {
+        "species_name": "inkay",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "malamar",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

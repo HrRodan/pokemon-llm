@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 773,
+    "name": "silvally",
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 95,
+      "special-attack": 95,
+      "special-defense": 95,
+      "speed": 95
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 100.5,
+    "abilities": [
+      {
+        "name": "rks-system",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "silvally-normal",
+      "silvally-fighting",
+      "silvally-flying",
+      "silvally-poison",
+      "silvally-ground",
+      "silvally-rock",
+      "silvally-bug",
+      "silvally-ghost",
+      "silvally-steel",
+      "silvally-fire",
+      "silvally-water",
+      "silvally-grass",
+      "silvally-electric",
+      "silvally-psychic",
+      "silvally-ice",
+      "silvally-dragon",
+      "silvally-dark",
+      "silvally-fairy"
+    ],
+    "moves": [
+      "razor-wind",
+      "swords-dance",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "flamethrower",
+      "surf",
+      "ice-beam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "rage",
+      "double-team",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "heat-wave",
+      "hail",
+      "facade",
+      "magic-coat",
+      "imprison",
+      "hyper-voice",
+      "poison-fang",
+      "crush-claw",
+      "metal-sound",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "dragon-claw",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "heal-block",
+      "punishment",
+      "last-resort",
+      "air-slash",
+      "x-scissor",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "flash-cannon",
+      "defog",
+      "draco-meteor",
+      "iron-head",
+      "double-hit",
+      "flame-charge",
+      "round",
+      "water-pledge",
+      "fire-pledge",
+      "grass-pledge",
+      "work-up",
+      "snarl",
+      "parting-shot",
+      "confide",
+      "laser-focus",
+      "psychic-fangs",
+      "multi-attack",
+      "steel-beam",
+      "terrain-pulse"
+    ],
+    "held_items": [],
+    "base_experience": 257,
+    "is_default": true,
+    "order": 932,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/773.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/773.png"
+    },
+    "species_name": "silvally",
+    "flavor_text": "Its trust in its partner is what awakens it. This Pok\u00e9mon is capable of changing its type, a flexibility that is well displayed in battle.",
+    "genus": "Synthetic Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/399/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 399,
+      "chain": {
+        "species_name": "type-null",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "silvally",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

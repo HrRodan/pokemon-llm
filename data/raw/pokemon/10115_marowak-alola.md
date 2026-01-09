@@ -1,0 +1,15 @@
+## Identity & Lore
+Alolan Marowak (Pokedex #10115) is the Bone Keeper Pokémon, a Fire and Ghost-type regional variant of the Kanto-native Marowak. While the original species is a Ground-type, this Alolan form emerged in the Alola region (Generation VII) as a response to the abundance of Grass-type predators; by mastering fire, it gained a survival advantage. It is characterized by its darker, slender physique and the spectral green flames that flicker at the ends of the bone it carries. These flames are fueled by the regrets and sorrows of its departed kin, and it is often seen dancing in funeral processions or under the moonlight. While Alolan Marowak does not possess a Mega Evolution or Gigantamax form, its unique typing and signature item usage make it a distinct and formidable presence in the Pokémon world compared to its Kantonian counterpart.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 80, Defense 110, Sp. Atk 50, Sp. Def 80, Speed 45.
+* **Archetype:** Physical Tank / Trick Room Wallbreaker. While its base Attack seems modest, Alolan Marowak is almost exclusively used with its signature held item, the **Thick Club**, which doubles its physical Attack stat to devastating levels.
+* **Type Matchups:** It is **weak to Ground, Rock, Water, Ghost, and Dark**. It possesses invaluable **immunities to Normal and Fighting**, and notably boasts a **Double Resistance (1/4x) to Bug**. It also resists Fire, Grass, Ice, Poison, Steel, and Fairy types.
+* **Move Selection:** Leveraging its high physical power and signature options, key moves include **Shadow Bone** (its signature physical Ghost move), **Flare Blitz** (for massive STAB Fire damage), **Bonemerang** (to strike twice and bypass Sturdy/Substitute), and **Poltergeist** (to punish opponents holding items).
+* **Abilities:** 
+    * **Cursed Body:** Has a 30% chance to disable a move that hits it, providing defensive utility.
+    * **Lightning Rod:** Provides a total immunity to Electric-type moves, making it an excellent switch-in for teammates.
+    * **Rock Head (Hidden Ability):** Prevents recoil damage from moves like Flare Blitz, allowing it to attack relentlessly without self-harm.
+
+## Evolution & Biology
+Alolan Marowak is the second and final stage of its evolutionary line. It evolves from **Cubone** when leveled up to **Level 28 or higher specifically during the night** within the Alola region. Biologically, the marrow within its bone reacts to the spiritual energy of the Alola islands, causing it to ignite. This process transforms the mourning Cubone into a vengeful protector. It belongs to the **Monster** Egg Group and is known for its "upright" skeletal structure. Despite its ghostly nature, it retains its biological connection to mountains and rugged terrain, though it is most frequently encountered in areas of spiritual significance, such as the Wela Volcano Park.

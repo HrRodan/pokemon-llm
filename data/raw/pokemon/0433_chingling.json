@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 433,
+    "name": "chingling",
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 50,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 45
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.6,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "chingling"
+    ],
+    "moves": [
+      "bind",
+      "tackle",
+      "wrap",
+      "double-edge",
+      "growl",
+      "disable",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "double-team",
+      "recover",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "yawn",
+      "knock-off",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "cosmic-power",
+      "signal-beam",
+      "extrasensory",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "last-resort",
+      "energy-ball",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "ominous-wind",
+      "psyshock",
+      "telekinesis",
+      "entrainment",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "confide",
+      "dazzling-gleam",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "colbur-berry",
+      "cleanse-tag"
+    ],
+    "base_experience": 57,
+    "is_default": true,
+    "order": 476,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/433.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/433.png"
+    },
+    "species_name": "chingling",
+    "flavor_text": "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
+    "genus": "Bell Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/184/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 184,
+      "chain": {
+        "species_name": "chingling",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "chimecho",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 220,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

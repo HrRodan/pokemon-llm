@@ -1,0 +1,168 @@
+{
+  "pokemon_details": {
+    "id": 583,
+    "name": "vanillish",
+    "stats": {
+      "hp": 51,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 80,
+      "special-defense": 75,
+      "speed": 59
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 41.0,
+    "abilities": [
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "vanillish"
+    ],
+    "moves": [
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "toxic",
+      "double-team",
+      "harden",
+      "light-screen",
+      "self-destruct",
+      "acid-armor",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "mirror-coat",
+      "uproar",
+      "hail",
+      "facade",
+      "taunt",
+      "magic-coat",
+      "imprison",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "signal-beam",
+      "sheer-cold",
+      "icicle-spear",
+      "iron-defense",
+      "water-pulse",
+      "magnet-rise",
+      "avalanche",
+      "mirror-shot",
+      "flash-cannon",
+      "round",
+      "ally-switch",
+      "frost-breath",
+      "confide"
+    ],
+    "held_items": [
+      "never-melt-ice"
+    ],
+    "base_experience": 138,
+    "is_default": true,
+    "order": 705,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/583.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/583.png"
+    },
+    "species_name": "vanillish",
+    "flavor_text": "Snowy mountains are this Pok\u00e9mon\u2019s habitat. During an ancient ice age, they moved to southern areas.",
+    "genus": "Icy Snow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "blob",
+    "color": "white",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/296/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 296,
+      "chain": {
+        "species_name": "vanillite",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vanillish",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "vanilluxe",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 47
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

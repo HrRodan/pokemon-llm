@@ -1,0 +1,12 @@
+## Identity & Lore
+Klink (Pokedex #599) is the Gear Pokémon, an inorganic lifeform first discovered in the Unova region during Generation V. Its gray, metallic body is composed of two interlocking minigears that are predetermined from birth to mesh together; if a Klink attempts to pair with a gear other than its partner, they will rebound and fail to synchronize. This constant rotation serves as its primary means of generating energy for both survival and combat. While Klink does not possess any Mega Evolutions, Gigantamax forms, or Paradox variants, it is recognized for its unique mechanical biology and its eventual development into the complex, multi-geared Klinklang.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 55, Defense 70, Sp. Atk 45, Sp. Def 60, Speed 30.
+* **Archetype:** Physical Tank/Setup Sweeper. Despite its low base Speed, Klink utilizes its defensive typing and signature setup moves to become a threat on the physical side.
+* **Type Matchups:** It is **weak to Fighting, Ground, and Fire**. It maintains a massive defensive profile, **resisting Normal, Flying, Rock, Bug, Steel, Grass, Psychic, Ice, Dragon, and Fairy** types, while being completely **immune to Poison**.
+* **Move Selection:** Capitalizing on its Physical Attack and signature mechanical moves, key selections include **Gear Grind** (a powerful multi-hit Steel move), **Shift Gear** (an elite setup move that raises Attack and doubles Speed), **Wild Charge** for electrical coverage, and **Vice Grip** for early-game physical pressure.
+* **Abilities:** Plus and Minus allow for Special Attack boosts when paired with a partner possessing the opposite ability in Double Battles. Its Hidden Ability, **Clear Body**, is its most competitive trait, as it prevents opponents from lowering its stats, protecting its accumulated Shift Gear buffs.
+
+## Evolution & Biology
+Klink is part of a three-stage evolutionary line. It evolves into **Klang** once it reaches **Level 38**, and further matures into its final form, **Klinklang**, starting at **Level 49**. This late evolutionary path reflects the time required for its gears to multiply and stabilize. Klink belongs to the **Mineral** egg group and has a hatch counter of 20. As a genderless mechanical entity, it reproduces within its egg group via specialized biological processes, maintaining its "medium-slow" growth rate as it moves toward its final, high-energy mechanical state.

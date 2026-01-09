@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 734,
+    "name": "yungoos",
+    "stats": {
+      "hp": 48,
+      "attack": 70,
+      "defense": 30,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 45
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 6.0,
+    "abilities": [
+      {
+        "name": "stakeout",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "strong-jaw",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "yungoos"
+    ],
+    "moves": [
+      "sand-attack",
+      "tackle",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "bide",
+      "rest",
+      "hyper-fang",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "yawn",
+      "endeavor",
+      "odor-sleuth",
+      "rock-tomb",
+      "mud-shot",
+      "shock-wave",
+      "u-turn",
+      "payback",
+      "last-resort",
+      "seed-bomb",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "confide",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "pecha-berry"
+    ],
+    "base_experience": 51,
+    "is_default": true,
+    "order": 880,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/734.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/734.png"
+    },
+    "species_name": "yungoos",
+    "flavor_text": "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+    "genus": "Loitering Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/378/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 378,
+      "chain": {
+        "species_name": "yungoos",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gumshoos",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

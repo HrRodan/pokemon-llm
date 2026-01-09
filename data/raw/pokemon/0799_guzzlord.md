@@ -1,0 +1,12 @@
+## Identity & Lore
+Guzzlord (Pokedex #799) is the Junkivore Pokémon, a terrifying and colossal life form classified as one of the Ultra Beasts (codenamed UB-05 Glutton). Originating from Generation VII (Alola) and discovered in the desolate Ultra Ruins of Ultra Space, this black-colored behemoth is characterized by its multiple tongues that resemble pincers and an internal stomach that seems to be a bottomless void. According to local reports and flavor text, it has been known to gobble up entire mountains and swallow huge buildings whole without ever leaving behind any waste. While it does not possess a Mega Evolution or Gigantamax form, its status as an Ultra Beast grants it a power level comparable to Legendary Pokémon. Its sheer size, standing at 5.5 meters, makes it one of the most imposing extraterrestrial threats ever recorded in the Alolan region.
+
+## Combat Profile
+* **Stats:** HP 223, Attack 101, Defense 53, Sp. Atk 97, Sp. Def 53, Speed 43.
+* **Archetype:** Massive HP Tank / Mixed Wallbreaker. Despite its low defensive stats, its astronomical HP pool allows it to survive powerful neutral hits, while its balanced offensive stats make it unpredictable.
+* **Type Matchups:** It is **weak to Fighting, Bug, Ice, and Dragon**, with a dangerous **Double Weakness (4x) to Fairy**. It **resists Fire, Water, Electric, Grass, Ghost, and Dark**, and possesses a total **Immunity to Psychic**.
+* **Move Selection:** Utilizing its balanced offenses and diverse movepool, Guzzlord excels with **Draco Meteor** for immediate special burst, **Knock Off** to remove opponent items and deal STAB damage, **Hammer Arm** to punish Steel and Ice types, and **Fire Blast** to melt physical walls that resist its primary types.
+* **Abilities:** Beast Boost (Increases the Pokémon's most proficient stat—usually Attack or Special Attack—each time it knocks out a target, allowing it to snowball through enemy teams).
+
+## Evolution & Biology
+Guzzlord is a single-stage Ultra Beast and is not known to evolve into or from any other Pokémon. As a member of the **No-Eggs Discovered** group, it cannot be bred, reflecting its nature as an inhabitant of another dimension rather than a standard biological entity. Biologically, its most striking feature is its "slow" growth rate and a high hatch counter of 120, signifying its complexity and the immense energy required for it to reach maturity. It acts as a literal vacuum in its ecosystem, consuming everything in its path with an insatiable hunger that defines its entire existence.

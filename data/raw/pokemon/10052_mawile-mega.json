@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 10052,
+    "name": "mawile-mega",
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 125,
+      "special-attack": 55,
+      "special-defense": 95,
+      "speed": 50
+    },
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 23.5,
+    "abilities": [
+      {
+        "name": "huge-power",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "mawile-mega"
+    ],
+    "moves": [
+      "ice-punch",
+      "thunder-punch",
+      "vice-grip",
+      "swords-dance",
+      "slam",
+      "bite",
+      "growl",
+      "flamethrower",
+      "ice-beam",
+      "hyper-beam",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "feint-attack",
+      "sludge-bomb",
+      "icy-wind",
+      "sandstorm",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "baton-pass",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "poison-fang",
+      "astonish",
+      "fake-tears",
+      "rock-tomb",
+      "tickle",
+      "iron-defense",
+      "metal-burst",
+      "payback",
+      "embargo",
+      "fling",
+      "guard-swap",
+      "punishment",
+      "last-resort",
+      "sucker-punch",
+      "magnet-rise",
+      "dark-pulse",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "foul-play",
+      "round",
+      "incinerate",
+      "misty-terrain",
+      "play-rough",
+      "fairy-wind",
+      "confide",
+      "power-up-punch",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": false,
+    "order": 408,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10052.png"
+    },
+    "species_name": "mawile",
+    "flavor_text": "MAWHILE\u2019s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWHILE chomps it with its gaping jaws.",
+    "genus": "Deceiver Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "cave",
+    "shape": "humanoid",
+    "color": "black",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/150/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 150,
+      "chain": {
+        "species_name": "mawile",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

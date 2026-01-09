@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 754,
+    "name": "lurantis",
+    "stats": {
+      "hp": 70,
+      "attack": 105,
+      "defense": 90,
+      "special-attack": 80,
+      "special-defense": 90,
+      "speed": 45
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 18.5,
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "contrary",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lurantis"
+    ],
+    "moves": [
+      "swords-dance",
+      "take-down",
+      "hyper-beam",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "leech-life",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "weather-ball",
+      "signal-beam",
+      "bullet-seed",
+      "aerial-ace",
+      "magical-leaf",
+      "leaf-blade",
+      "payback",
+      "fling",
+      "worry-seed",
+      "poison-jab",
+      "night-slash",
+      "seed-bomb",
+      "x-scissor",
+      "energy-ball",
+      "giga-impact",
+      "psycho-cut",
+      "defog",
+      "leaf-storm",
+      "cross-poison",
+      "grass-knot",
+      "bug-bite",
+      "low-sweep",
+      "round",
+      "dual-chop",
+      "petal-blizzard",
+      "grassy-terrain",
+      "confide",
+      "solar-blade",
+      "leafage",
+      "laser-focus",
+      "pollen-puff",
+      "grassy-glide",
+      "skitter-smack",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "miracle-seed"
+    ],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 911,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/754.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/754.png"
+    },
+    "species_name": "lurantis",
+    "flavor_text": "It requires a lot of effort to maintain Lurantis\u2019s vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
+    "genus": "Bloom Sickle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/388/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 388,
+      "chain": {
+        "species_name": "fomantis",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lurantis",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

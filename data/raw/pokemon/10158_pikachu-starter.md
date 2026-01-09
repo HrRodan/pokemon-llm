@@ -1,0 +1,12 @@
+## Identity & Lore
+Partner Pikachu (Pokedex #10158) is a unique variant of the Mouse Pokémon specifically encountered in the Kanto region of Generation I during the events of the *Let's Go* series. This yellow, quadrupedal Pokémon is characterized by its forest habitat and its behavior of gathering in groups to generate massive electrical discharges that can trigger lightning storms. While this specific starter variant is known for its refusal to evolve, the Pikachu species is the global mascot of the franchise and possesses immense biological potential, including a massive **Gigantamax form** where it gains the G-Max move Volt Crash. Additionally, it shares a biological link with **Alolan Raichu**, a regional variant that gains the Psychic type.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 80, Defense 50, Sp. Atk 75, Sp. Def 60, Speed 120.
+* **Archetype:** Fast Mixed Sweeper. With a high Speed tier of 120 and balanced offensive stats, this Pikachu acts as a glass cannon designed to outspeed and disrupt opponents.
+* **Type Matchups:** It is **weak to Ground** and possesses no double weaknesses. It **resists Electric, Flying, and Steel** types, though its low bulk makes it vulnerable to powerful neutral hits.
+* **Move Selection:** Capitalizing on its unique movepool and high speed, key moves include **Zippy Zap** (a priority Physical Electric move that always results in a critical hit), **Floaty Fall** (Flying-type coverage that can flinch targets), **Splishy Splash** (Water-type coverage to counter Ground-type weaknesses), and **Thunderbolt** (its signature Special STAB move).
+* **Abilities:** Static (A defensive ability that has a 30% chance to paralyze attackers who make contact) and Lightning-Rod (Grants immunity to Electric moves and boosts Sp. Atk when hit by one).
+
+## Evolution & Biology
+Partner Pikachu is part of a three-stage evolutionary line, though this specific starter variant is biologically unique and does not undergo transformation. In its standard lifecycle, it evolves from **Pichu** when leveled up with High Friendship (minimum 220). Under normal circumstances, a Pikachu would evolve into **Raichu** (or Alolan Raichu in the Alola region) when exposed to a **Thunder Stone**. It belongs to the **Ground and Fairy** egg groups, making it a versatile breeder. Despite its small size of 0.4 meters and weight of 6.0 kg, it stores immense energy in its red cheek pouches, which are soft and elastic to the touch but crackle with electricity when the Pokémon is threatened.

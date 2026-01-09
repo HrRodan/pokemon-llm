@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 10021,
+    "name": "landorus-therian",
+    "stats": {
+      "hp": 89,
+      "attack": 145,
+      "defense": 90,
+      "special-attack": 105,
+      "special-defense": 80,
+      "speed": 91
+    },
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "height_m": 1.3,
+    "weight_kg": 68.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "landorus-therian"
+    ],
+    "moves": [
+      "swords-dance",
+      "fly",
+      "body-slam",
+      "take-down",
+      "leer",
+      "hyper-beam",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "psychic",
+      "double-team",
+      "self-destruct",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "role-play",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "imprison",
+      "secret-power",
+      "weather-ball",
+      "rock-tomb",
+      "extrasensory",
+      "sand-tomb",
+      "block",
+      "bulk-up",
+      "mud-shot",
+      "calm-mind",
+      "gravity",
+      "hammer-arm",
+      "u-turn",
+      "payback",
+      "fling",
+      "punishment",
+      "rock-polish",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "nasty-plot",
+      "defog",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "smack-down",
+      "sludge-wave",
+      "round",
+      "bulldoze",
+      "confide",
+      "brutal-swing",
+      "stomping-tantrum",
+      "scorching-sands",
+      "sandsear-storm",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 300,
+    "is_default": false,
+    "order": 771,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/645-therian.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/645-therian.png"
+    },
+    "species_name": "landorus",
+    "flavor_text": "Lands visited by Landorus grant such bountiful crops that it has been hailed as \u201cThe Guardian of the Fields.\u201d",
+    "genus": "Abundance Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 90,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/332/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 332,
+      "chain": {
+        "species_name": "landorus",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

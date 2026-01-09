@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Salamence (Pokedex #10089) is the Mega Evolved form of the Dragon Pokémon, a transformation achieved when Salamence reacts to a Salamencite Mega Stone. Originating from the Hoenn region in Generation III, Salamence is the result of a Bagon’s intense, long-held dream of growing wings, which eventually triggered a cellular mutation. In its Mega form, its wings fuse into a single, massive crescent-shaped blade, and its temperament becomes significantly more vicious, earning it the nickname "the blood-soaked crescent." As a Pseudo-Legendary Pokémon, it possesses power rivaling that of legendary beings. While this profile focuses on its Mega Evolution, researchers have also identified a Paradox relative in the Paldea region known as Roaring Moon, which bears a striking resemblance to this Mega form.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 145, Defense 130, Sp. Atk 120, Sp. Def 90, Speed 120.
+* **Archetype:** Fast Physical Sweeper / Mixed Attacker.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice**. It is also **weak to Rock, Electric, Dragon, and Fairy**. Conversely, it **resists Fighting, Bug, Fire, Water, and Grass**, and possesses a total **Immunity to Ground** moves.
+* **Move Selection:** Mega Salamence excels by utilizing its massive Attack and Speed. Key moves include **Double-Edge** (which becomes a STAB Flying-type move due to its ability), **Earthquake** for coverage against Steel and Electric types, **Outrage** for devastating Dragon-type damage, and **Roost** to maintain longevity by healing half its max HP.
+* **Abilities:** Aerilate (This ability converts all Normal-type moves used by the Pokémon into Flying-type moves and increases their power by 20%. This makes moves like Double-Edge and Hyper Voice incredibly potent STAB options).
+
+## Evolution & Biology
+Mega Salamence is the final pinnacle of a three-stage evolutionary line. It begins as **Bagon**, which evolves into the cocoon-like **Shelgon** starting at Level 30. Shelgon finally achieves its dream of flight and evolves into **Salamence** at Level 50. The transition to Mega Salamence is a temporary combat transformation triggered by a Mega Stone. Biologically, it belongs to the **Dragon** egg group. It is a quadrupedal, blue-scaled predator that primarily inhabits rough terrain and mountainous areas. Its growth rate is notably slow, reflecting the immense amount of energy and time required to reach its final, Draconic state.

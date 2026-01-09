@@ -1,0 +1,224 @@
+{
+  "pokemon_details": {
+    "id": 709,
+    "name": "trevenant",
+    "stats": {
+      "hp": 85,
+      "attack": 110,
+      "defense": 76,
+      "special-attack": 65,
+      "special-defense": 82,
+      "speed": 56
+    },
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 71.0,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "trevenant"
+    ],
+    "moves": [
+      "cut",
+      "tackle",
+      "take-down",
+      "disable",
+      "hyper-beam",
+      "strength",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "reflect",
+      "dream-eater",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "destiny-bond",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "trick",
+      "role-play",
+      "ingrain",
+      "magic-coat",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "astonish",
+      "block",
+      "magical-leaf",
+      "calm-mind",
+      "worry-seed",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "seed-bomb",
+      "x-scissor",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "trick-room",
+      "leaf-storm",
+      "grass-knot",
+      "wood-hammer",
+      "hone-claws",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "bulldoze",
+      "horn-leech",
+      "phantom-force",
+      "forests-curse",
+      "grassy-terrain",
+      "confide",
+      "venom-drench",
+      "power-up-punch",
+      "brutal-swing",
+      "branch-poke",
+      "grassy-glide",
+      "skitter-smack",
+      "burning-jealousy",
+      "lash-out",
+      "poltergeist",
+      "tera-blast",
+      "trailblaze",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 166,
+    "is_default": true,
+    "order": 843,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/709.png"
+    },
+    "species_name": "trevenant",
+    "flavor_text": "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+    "genus": "Elder Tree Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "brown",
+    "egg_groups": [
+      "plant",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/364/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 364,
+      "chain": {
+        "species_name": "phantump",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "trevenant",
+            "evolution_details": [
+              {
+                "trigger": "trade"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

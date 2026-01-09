@@ -1,0 +1,176 @@
+{
+  "pokemon_details": {
+    "id": 995,
+    "name": "iron-thorns",
+    "stats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "special-attack": 70,
+      "special-defense": 84,
+      "speed": 72
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 303.0,
+    "abilities": [
+      {
+        "name": "quark-drive",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "iron-thorns"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "pin-missile",
+      "bite",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "screech",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "protect",
+      "scary-face",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "charge",
+      "taunt",
+      "brick-break",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "dragon-claw",
+      "dragon-dance",
+      "rock-blast",
+      "fling",
+      "power-gem",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "smack-down",
+      "heavy-slam",
+      "electro-ball",
+      "volt-switch",
+      "bulldoze",
+      "dragon-tail",
+      "electroweb",
+      "wild-charge",
+      "snarl",
+      "eerie-impulse",
+      "electric-terrain",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "meteor-beam",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 991,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/995.png"
+    },
+    "species_name": "iron-thorns",
+    "flavor_text": "It has some similarities to a Pok\u00e9mon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/526/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 526,
+      "chain": {
+        "species_name": "iron-thorns",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

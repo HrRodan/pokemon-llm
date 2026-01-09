@@ -1,0 +1,12 @@
+## Identity & Lore
+Gothorita (Pokedex #575) is the Manipulate Pokémon, a humanoid Psychic-type first discovered in the Unova region during Generation V. Characterized by its purple skin and multiple white ribbons that resemble a gothic aesthetic, Gothorita is a creature of the night that draws its power from the stars. Lore states that this Pokémon uses hypnosis to control both humans and other Pokémon, with chilling tales across every region describing Gothorita leading unsuspecting people astray. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, its evolutionary line is famous for its space-distorting powers and the ability to predict the future.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 45, Defense 70, Sp. Atk 75, Sp. Def 85, Speed 55.
+* **Archetype:** Special Defensive Trapper / Support.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark**. It **resists Fighting and Psychic** types.
+* **Move Selection:** Prioritizing its higher Special Attack and wide utility pool, essential moves include **Psychic** for primary STAB damage, **Shadow Ball** for coverage against Ghost-types, **Thunderbolt** for versatile offense, and **Trick Room** or **Hypnosis** to manipulate the flow of battle.
+* **Abilities:** **Frisk** allows the trainer to see the opponent's held item, providing immediate tactical intel. **Competitive** raises its Special Attack by two stages if any of its stats are lowered by an opponent. Its Hidden Ability, **Shadow Tag**, is highly prized in competitive play as it prevents opponents from switching out, allowing Gothorita to trap and eliminate specific threats.
+
+## Evolution & Biology
+Gothorita is the centerpiece of a three-stage evolutionary line. It evolves from **Gothita** starting at **Level 32**. Upon reaching **Level 41**, it reaches its final form, the celestial **Gothitelle**. Biologically, it is part of the **Humanshape** egg group, and its growth is classified as medium-slow. In the wild, it is sometimes found holding a **Persim Berry** to protect itself from confusion. Breeders should note a hatch counter of 20, reflecting the time needed for its complex psychic organs to develop within the egg.

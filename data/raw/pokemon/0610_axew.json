@@ -1,0 +1,197 @@
+{
+  "pokemon_details": {
+    "id": 610,
+    "name": "axew",
+    "stats": {
+      "hp": 46,
+      "attack": 87,
+      "defense": 60,
+      "special-attack": 30,
+      "special-defense": 40,
+      "speed": 57
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 18.0,
+    "abilities": [
+      {
+        "name": "rivalry",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "axew"
+    ],
+    "moves": [
+      "scratch",
+      "guillotine",
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "surf",
+      "counter",
+      "strength",
+      "dragon-rage",
+      "dig",
+      "toxic",
+      "double-team",
+      "harden",
+      "focus-energy",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "shock-wave",
+      "payback",
+      "assurance",
+      "fling",
+      "poison-jab",
+      "night-slash",
+      "aqua-tail",
+      "x-scissor",
+      "dragon-pulse",
+      "giga-impact",
+      "shadow-claw",
+      "draco-meteor",
+      "iron-head",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "dual-chop",
+      "snarl",
+      "confide",
+      "first-impression",
+      "laser-focus",
+      "stomping-tantrum",
+      "breaking-swipe",
+      "scale-shot",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 732,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/610.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/610.png"
+    },
+    "species_name": "axew",
+    "flavor_text": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+    "genus": "Tusk Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/309/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 309,
+      "chain": {
+        "species_name": "axew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "fraxure",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 38
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "haxorus",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 48
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

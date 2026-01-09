@@ -1,0 +1,147 @@
+{
+  "pokemon_details": {
+    "id": 829,
+    "name": "gossifleur",
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 60,
+      "speed": 10
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 2.2,
+    "abilities": [
+      {
+        "name": "cotton-down",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gossifleur"
+    ],
+    "moves": [
+      "sing",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "light-screen",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "rapid-spin",
+      "sweet-scent",
+      "synthesis",
+      "sunny-day",
+      "facade",
+      "helping-hand",
+      "hyper-voice",
+      "aromatherapy",
+      "bullet-seed",
+      "magical-leaf",
+      "worry-seed",
+      "energy-ball",
+      "leaf-storm",
+      "grass-knot",
+      "round",
+      "leaf-tornado",
+      "grassy-terrain",
+      "leafage",
+      "pollen-puff",
+      "grassy-glide"
+    ],
+    "held_items": [],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 1010,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/829.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/829.png"
+    },
+    "species_name": "gossifleur",
+    "flavor_text": "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
+    "genus": "Flowering Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/437/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 437,
+      "chain": {
+        "species_name": "gossifleur",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "eldegoss",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

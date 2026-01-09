@@ -1,0 +1,12 @@
+## Identity & Lore
+Ferroseed (#597) is the Thorn Seed Pokémon, a dual Grass and Steel-type specimen first discovered in the Unova region during Generation V. This gray, metallic seed-like creature is covered in sharp, moss-coated spikes that allow it to cling to the ceilings and walls of caves. It derives nutrients by absorbing minerals from rocks rather than sunlight. When threatened, Ferroseed defends itself by firing a volley of spikes from its body, using the recoil and its spherical shape to roll away to safety. While Ferroseed itself does not possess a Mega Evolution, Gigantamax, or Paradox form, its evolved form, Ferrothorn, is regarded as one of the most resilient and tactically significant Pokémon in competitive history.
+
+## Combat Profile
+* **Stats:** HP 44, Attack 50, Defense 91, Sp. Atk 24, Sp. Def 86, Speed 10.
+* **Archetype:** Physical Wall / Entry Hazard Setter.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Fire** and a standard weakness to **Fighting**. Conversely, it is **Immune to Poison** and provides an immense defensive profile by **resisting Normal, Water, Electric, Psychic, Dragon, Steel, Rock, and Fairy**, while maintaining a double resistance to **Grass**.
+* **Move Selection:** Ferroseed thrives on its low speed and high defense to facilitate chip damage and hazards. Key moves include **Gyro Ball** (which maximizes damage due to its base 10 Speed), **Leech Seed** for sustainable recovery, **Stealth Rock** or **Spikes** to pressure the opponent's bench, and **Seed Bomb** as a reliable physical STAB (Same Type Attack Bonus) option.
+* **Abilities:** **Iron Barbs** (Any opponent that hits this Pokémon with a contact move takes damage equal to 1/8th of their maximum HP, punishing physical attackers).
+
+## Evolution & Biology
+Ferroseed is the initial stage of a two-part evolutionary line. It evolves into the powerful Ferrothorn once it has been sufficiently seasoned in battle, reaching **Level 40**. It belongs to the **Plant** and **Mineral** Egg Groups, reflecting its hybrid nature as a living organism encased in a metallic shell. Wild Ferroseed are often found carrying the **Sticky Barb** held item, which clings to and damages any Pokémon that touches it. Despite its small stature of 0.6 meters, its metallic composition gives it a significant weight of 18.8 kg, aiding the impact of its rolling escapes.

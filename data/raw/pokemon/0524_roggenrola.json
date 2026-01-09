@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 524,
+    "name": "roggenrola",
+    "stats": {
+      "hp": 55,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 15
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 18.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "roggenrola"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "strength",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "harden",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "hidden-power",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "gravity",
+      "rock-polish",
+      "earth-power",
+      "flash-cannon",
+      "stone-edge",
+      "stealth-rock",
+      "wide-guard",
+      "autotomize",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "confide",
+      "body-press",
+      "meteor-beam"
+    ],
+    "held_items": [
+      "everstone",
+      "hard-stone"
+    ],
+    "base_experience": 56,
+    "is_default": true,
+    "order": 639,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/524.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/524.png"
+    },
+    "species_name": "roggenrola",
+    "flavor_text": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+    "genus": "Mantle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/268/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 268,
+      "chain": {
+        "species_name": "roggenrola",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "boldore",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gigalith",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

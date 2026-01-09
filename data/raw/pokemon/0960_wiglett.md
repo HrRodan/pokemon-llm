@@ -1,0 +1,12 @@
+## Identity & Lore
+Wiglett (Pokedex #960) is the Garden Eel Pokémon, a unique species discovered in the Paldea region during Generation IX. Despite its striking physical resemblance to the Kanto native Diglett, Wiglett is a separate species—an example of convergent evolution that adapted to life in marine environments rather than underground tunnels. This slender, white Pokémon possesses a keen sense of smell, allowing it to detect the scent of predators like Veluza from over 65 feet away, at which point it immediately burrows into the sand to hide. While it appears to be a simple eel, its biology is specifically tuned to coastal habitats where it pokes its head out of the sand to feed in the ocean breeze. Currently, Wiglett does not possess any known Mega Evolutions, Gigantamax forms, or Paradox counterparts, though its evolution Wugtrio continues its unique biological lineage.
+
+## Combat Profile
+* **Stats:** HP 10, Attack 55, Defense 25, Sp. Atk 35, Sp. Def 25, Speed 95.
+* **Archetype:** Fast Physical Glass Cannon. Due to its exceptionally low HP and defensive stats, Wiglett relies entirely on outspeeding opponents before it can be struck.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric**. It **resists Fire, Water, Ice, and Steel** types.
+* **Move Selection:** Leveraging its higher Physical Attack and high Speed tier for a base-stage Pokémon, its most effective moves include **Liquidation** for heavy STAB damage, **Aqua Jet** for priority finishing, **Sucker Punch** to punish offensive threats, and **Throat Chop** for dark-type coverage and utility.
+* **Abilities:** **Gooey** (lowers the Speed of any attacker that makes contact), **Rattled** (boosts its own Speed when hit by Bug, Ghost, or Dark-type moves), and its Hidden Ability **Sand Veil** (increases evasion during a Sandstorm, reflecting its habitat-based camouflage).
+
+## Evolution & Biology
+Wiglett is the first stage of a two-part evolutionary line. It evolves into **Wugtrio** starting at **Level 26**. While it looks and behaves similarly to Diglett by spending most of its life submerged in the ground (or sand), it is biologically distinct, categorized in the **Water 3** Egg Group. Breeders should note a hatch counter of 20, with the species following a medium growth rate. Its white, "blob" shaped body is highly flexible, allowing it to retract into small burrows instantly when threatened by Paldean marine predators.

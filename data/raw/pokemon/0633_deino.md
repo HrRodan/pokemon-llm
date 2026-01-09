@@ -1,0 +1,12 @@
+## Identity & Lore
+Deino (Pokedex #633) is the Irate Pokémon, a blue, quadrupedal creature first discovered in the Unova region during Generation V. Due to its thick, black fur covering its eyes, Deino is functionally blind and must navigate its surroundings by constantly headbutting and biting everything in its path. This aggressive behavior is driven by a lack of pickiness in its diet; it is a dangerous scavenger that will attempt to eat anything that moves. As the base form of the Unova region's "Pseudo-Legendary" line, Deino represents the beginning of a highly volatile developmental cycle. While Deino does not possess a Mega Evolution or Gigantamax form, its evolutionary lineage is deep-rooted in history, later seen through the lens of Paradox Pokémon such as the futuristic **Iron Jugulis** (modeled after its final evolution, Hydreigon) and the ancient **Roaring Moon**.
+
+## Combat Profile
+* **Stats:** HP 52, Attack 65, Defense 50, Sp. Atk 45, Sp. Def 50, Speed 38.
+* **Archetype:** Physical Wallbreaker. 
+* **Type Matchups:** It is **weak to Fighting, Bug, Ice, and Dragon**, and carries a devastating **Double Weakness (4x) to Fairy**. Conversely, it **resists Fire, Water, Grass, Electric, Ghost, and Dark**, and possesses a total **immunity to Psychic**.
+* **Move Selection:** While its final evolution is often a special attacker, Deino's current stat distribution and ability make it a potent physical threat. Key moves include **Outrage** for raw power, **Dragon Rush** for high-impact damage, **Crunch** for STAB (Same Type Attack Bonus) utility, and **Superpower** for coverage against Steel and Ice types.
+* **Abilities:** Hustle (Boosts the Pokémon's Attack stat by 50% but reduces the accuracy of all physical moves by 20%. This makes Deino a high-risk, high-reward combatant capable of punching far above its weight class).
+
+## Evolution & Biology
+Deino is part of a three-stage evolutionary line characterized by one of the longest growth cycles of any known species. It evolves into the two-headed **Zweilous** when it reaches **Level 50**. The line finally culminates in the three-headed terror, **Hydreigon**, at the exceptionally high threshold of **Level 64**. Biologically, Deino belongs to the **Dragon** egg group. Its growth rate is classified as "Slow," requiring significant experience to reach its full potential, a trait common among the most elite Dragon-type Pokémon. Its habitat is typically dark, secluded areas like caves where its lack of sight is less of a disadvantage.

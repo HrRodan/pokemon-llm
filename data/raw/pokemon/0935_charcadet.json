@@ -1,0 +1,141 @@
+{
+  "pokemon_details": {
+    "id": 935,
+    "name": "charcadet",
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 40,
+      "speed": 35
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 10.5,
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "charcadet"
+    ],
+    "moves": [
+      "take-down",
+      "leer",
+      "disable",
+      "ember",
+      "flamethrower",
+      "fire-spin",
+      "night-shade",
+      "confuse-ray",
+      "fire-blast",
+      "substitute",
+      "spite",
+      "protect",
+      "destiny-bond",
+      "endure",
+      "sleep-talk",
+      "sunny-day",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "astonish",
+      "overheat",
+      "flare-blitz",
+      "lava-plume",
+      "flame-charge",
+      "clear-smog",
+      "incinerate",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 51,
+    "is_default": true,
+    "order": 1003,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/935.png"
+    },
+    "species_name": "charcadet",
+    "flavor_text": "Burnt charcoal came to life and became a Pok\u00e9mon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+    "genus": "Fire Child Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/490/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 490,
+      "chain": {
+        "species_name": "charcadet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "armarouge",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "auspicious-armor"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "ceruledge",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "malicious-armor"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

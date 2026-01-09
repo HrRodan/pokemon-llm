@@ -1,0 +1,134 @@
+{
+  "pokemon_details": {
+    "id": 953,
+    "name": "rellor",
+    "stats": {
+      "hp": 41,
+      "attack": 50,
+      "defense": 60,
+      "special-attack": 31,
+      "special-defense": 58,
+      "speed": 30
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 1.0,
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rellor"
+    ],
+    "moves": [
+      "sand-attack",
+      "tackle",
+      "take-down",
+      "dig",
+      "recover",
+      "defense-curl",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "memento",
+      "facade",
+      "weather-ball",
+      "rock-tomb",
+      "cosmic-power",
+      "iron-defense",
+      "mud-shot",
+      "fling",
+      "x-scissor",
+      "bug-buzz",
+      "gunk-shot",
+      "bug-bite",
+      "struggle-bug",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 922,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/953.png"
+    },
+    "species_name": "rellor",
+    "flavor_text": "This Pok\u00e9mon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+    "genus": "Rolling Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "armor",
+    "color": "brown",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/499/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 499,
+      "chain": {
+        "species_name": "rellor",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rabsca",
+            "evolution_details": [
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

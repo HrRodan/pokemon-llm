@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 721,
+    "name": "volcanion",
+    "stats": {
+      "hp": 80,
+      "attack": 110,
+      "defense": 120,
+      "special-attack": 130,
+      "special-defense": 90,
+      "speed": 70
+    },
+    "types": [
+      "fire",
+      "water"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 195.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "volcanion"
+    ],
+    "moves": [
+      "cut",
+      "stomp",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "flamethrower",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "haze",
+      "focus-energy",
+      "self-destruct",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "weather-ball",
+      "overheat",
+      "rock-tomb",
+      "mud-shot",
+      "water-pulse",
+      "gyro-ball",
+      "fling",
+      "flare-blitz",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "flash-cannon",
+      "defog",
+      "stone-edge",
+      "smack-down",
+      "sludge-wave",
+      "heavy-slam",
+      "flame-charge",
+      "round",
+      "scald",
+      "incinerate",
+      "bulldoze",
+      "wild-charge",
+      "heat-crash",
+      "misty-terrain",
+      "confide",
+      "steam-eruption",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 867,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/721.png"
+    },
+    "species_name": "volcanion",
+    "flavor_text": "It lets out billows of steam and disappears into the dense fog. It\u2019s said to live in mountains where humans do not tread.",
+    "genus": "Steam Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 100,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/373/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 373,
+      "chain": {
+        "species_name": "volcanion",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

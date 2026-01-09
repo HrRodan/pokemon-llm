@@ -1,0 +1,108 @@
+{
+  "pokemon_details": {
+    "id": 808,
+    "name": "meltan",
+    "stats": {
+      "hp": 46,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 55,
+      "special-defense": 35,
+      "speed": 34
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "meltan"
+    ],
+    "moves": [
+      "headbutt",
+      "tail-whip",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "harden",
+      "acid-armor",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "sleep-talk",
+      "facade",
+      "iron-defense",
+      "gyro-ball",
+      "flash-cannon",
+      "round",
+      "steel-beam"
+    ],
+    "held_items": [],
+    "base_experience": 135,
+    "is_default": true,
+    "order": 989,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/808.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/808.png"
+    },
+    "species_name": "meltan",
+    "flavor_text": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+    "genus": "Hex Nut Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/428/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 428,
+      "chain": {
+        "species_name": "meltan",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

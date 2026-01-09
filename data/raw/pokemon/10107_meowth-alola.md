@@ -1,0 +1,15 @@
+## Identity & Lore
+Alolan Meowth (Pokedex #10107) is the Scratch Cat Pokémon, a regional variant of the classic Kantonian Meowth. While the species originated in Generation I (Kanto), this specific form was introduced in the Alola region (Generation VII). Originally brought to Alola as a gift for royalty, these Pokémon were pampered until their numbers grew, leading them to live feral lives in urban habitats. This history of luxury and subsequent abandonment hardened their personalities, making them cunning, prideful, and prone to selfishness. It is notably obsessed with cleanliness, regularly washing its face to ensure the gold coin on its forehead remains spotless. Interestingly, the Alolan Meowth is known for its territorial friction and general dislike toward the Galarian Meowth variant. While this specific Alolan form does not possess a Mega Evolution, the Meowth species as a whole is capable of achieving a Gigantamax form, where its body stretches to incredible lengths.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 35, Defense 35, Sp. Atk 50, Sp. Def 40, Speed 90.
+* **Archetype:** Fast Special Disruptor. Despite its low base stat total, its high Speed allows it to act as an effective pivot or status spreader in lower competitive tiers.
+* **Type Matchups:** As a pure **Dark-type**, it is **weak to Fighting, Bug, and Fairy**. It possesses **resistances to Ghost and Dark** and maintains a complete **immunity to Psychic-type** attacks.
+* **Move Selection:** Prioritizing its higher Special Attack and Speed for maximum efficiency, key moves include **Dark Pulse** (reliable STAB), **Power Gem** (valuable Rock-type coverage), **Nasty Plot** (to boost its Special Attack), and **Parting Shot** (a vital utility move for pivoting while lowering the opponent's offensive stats).
+* **Abilities:** 
+    * **Pickup:** Allows the Pokémon to occasionally find and hold an item after a battle or during combat if its held item is consumed.
+    * **Technician:** Increases the power of moves with a base power of 60 or less by 50%, making moves like *Snarl* or *Shock Wave* significantly more threatening.
+    * **Rattled (Hidden):** Boosts the Pokémon's Speed stat when hit by a Bug, Ghost, or Dark-type move, or when intimidated.
+
+## Evolution & Biology
+Alolan Meowth is the first stage of a two-stage regional evolutionary line. Unlike the standard Meowth which evolves at Level 28, Alolan Meowth evolves into **Alolan Persian** only when leveled up with **High Friendship** (reaching a happiness value of at least 160). This reflects the necessity of a strong bond to tame its naturally haughty disposition. Biologically, it belongs to the **Ground** egg group, with a hatch counter of 20. While the species shares a common ancestor with the Galarian line (which evolves into Perrserker), Alolan Meowth maintains the sleek, feline silhouette associated with the Persian lineage. In the wild, it is often found carrying a **Quick Claw**, reflecting its high-speed reactive nature.

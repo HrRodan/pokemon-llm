@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 1003,
+    "name": "ting-lu",
+    "stats": {
+      "hp": 155,
+      "attack": 110,
+      "defense": 125,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 45
+    },
+    "types": [
+      "dark",
+      "ground"
+    ],
+    "height_m": 2.7,
+    "weight_kg": 699.7,
+    "abilities": [
+      {
+        "name": "vessel-of-ruin",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "ting-lu"
+    ],
+    "moves": [
+      "whirlwind",
+      "stomp",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "hyper-beam",
+      "earthquake",
+      "fissure",
+      "dig",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "mean-look",
+      "sleep-talk",
+      "sunny-day",
+      "memento",
+      "facade",
+      "taunt",
+      "rock-tomb",
+      "sand-tomb",
+      "mud-shot",
+      "payback",
+      "dark-pulse",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "stone-edge",
+      "stealth-rock",
+      "heavy-slam",
+      "hex",
+      "bulldoze",
+      "snarl",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "ruination"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 994,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1003.png"
+    },
+    "species_name": "ting-lu",
+    "flavor_text": "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pok\u00e9mon.",
+    "genus": "Ruinous Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 6,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/531/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 531,
+      "chain": {
+        "species_name": "ting-lu",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 945,
+    "name": "grafaiai",
+    "stats": {
+      "hp": 63,
+      "attack": 95,
+      "defense": 65,
+      "special-attack": 80,
+      "special-defense": 72,
+      "speed": 110
+    },
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 27.2,
+    "abilities": [
+      {
+        "name": "unburden",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "prankster",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "grafaiai"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "take-down",
+      "double-edge",
+      "leer",
+      "low-kick",
+      "dig",
+      "toxic",
+      "metronome",
+      "fury-swipes",
+      "rest",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "sleep-talk",
+      "baton-pass",
+      "encore",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "flatter",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "poison-fang",
+      "mud-shot",
+      "poison-tail",
+      "u-turn",
+      "fling",
+      "poison-jab",
+      "x-scissor",
+      "switcheroo",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "gunk-shot",
+      "venoshock",
+      "sludge-wave",
+      "low-sweep",
+      "acid-spray",
+      "foul-play",
+      "acrobatics",
+      "throat-chop",
+      "skitter-smack",
+      "tera-blast",
+      "doodle",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 969,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/945.png"
+    },
+    "species_name": "grafaiai",
+    "flavor_text": "The color of the poisonous saliva depends on what the Pok\u00e9mon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+    "genus": "Toxic Monkey Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/494/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 494,
+      "chain": {
+        "species_name": "shroodle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "grafaiai",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

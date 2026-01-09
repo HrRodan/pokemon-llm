@@ -1,0 +1,165 @@
+{
+  "pokemon_details": {
+    "id": 984,
+    "name": "great-tusk",
+    "stats": {
+      "hp": 115,
+      "attack": 131,
+      "defense": 131,
+      "special-attack": 53,
+      "special-defense": 53,
+      "speed": 87
+    },
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "height_m": 2.2,
+    "weight_kg": 320.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "great-tusk"
+    ],
+    "moves": [
+      "horn-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "defense-curl",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "megahorn",
+      "rapid-spin",
+      "sunny-day",
+      "facade",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "rock-tomb",
+      "bulk-up",
+      "mud-shot",
+      "close-combat",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "head-smash",
+      "psyshock",
+      "smack-down",
+      "heavy-slam",
+      "bulldoze",
+      "play-rough",
+      "high-horsepower",
+      "throat-chop",
+      "smart-strike",
+      "stomping-tantrum",
+      "body-press",
+      "headlong-rush",
+      "tera-blast",
+      "ice-spinner",
+      "temper-flare",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 978,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/984.png"
+    },
+    "species_name": "great-tusk",
+    "flavor_text": "Sightings of this Pok\u00e9mon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/515/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 515,
+      "chain": {
+        "species_name": "great-tusk",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "pokemon_details": {
+    "id": 10190,
+    "name": "eternatus-eternamax",
+    "stats": {
+      "hp": 255,
+      "attack": 115,
+      "defense": 250,
+      "special-attack": 125,
+      "special-defense": 250,
+      "speed": 130
+    },
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "height_m": 100.0,
+    "weight_kg": 0.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "eternatus-eternamax"
+    ],
+    "moves": [
+      "fly",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "toxic",
+      "agility",
+      "screech",
+      "recover",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "endure",
+      "sleep-talk",
+      "shadow-ball",
+      "facade",
+      "cosmic-power",
+      "poison-tail",
+      "dragon-dance",
+      "payback",
+      "assurance",
+      "toxic-spikes",
+      "poison-jab",
+      "dragon-pulse",
+      "giga-impact",
+      "flash-cannon",
+      "draco-meteor",
+      "cross-poison",
+      "venoshock",
+      "sludge-wave",
+      "round",
+      "dragon-tail",
+      "mystical-fire",
+      "venom-drench",
+      "brutal-swing",
+      "dynamax-cannon",
+      "eternabeam",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 563,
+    "is_default": false,
+    "order": 1080,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10190.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10190.png"
+    },
+    "species_name": "eternatus",
+    "flavor_text": "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+    "genus": "Gigantic Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/469/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 469,
+      "chain": {
+        "species_name": "eternatus",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+## Identity & Lore
+Alolan Raticate (Pokedex #10092) is the Alolan Form of the classic Mouse Pokémon, a regional variant introduced in Generation VII (Alola). Unlike its Kanto counterpart, this version adapted to an urban, nocturnal lifestyle after being driven out of its original habitats by Yungoos. It is distinguished by its dark, obsidian fur and significantly larger, puffy cheeks, which it uses to store high-calorie food gathered by its subordinate Rattata. This Pokémon is often seen leading nests and acts as a "boss" in the Alolan ecosystem; in *Pokémon Sun and Moon*, it notably serves as the Totem Pokémon of Verdant Cavern in *Pokémon Moon*. Its whiskers are vital sensory organs used to maintain balance and navigate the darkness of Alolan cities, and its temperament is much greedier than the standard form due to its obsession with high-quality ingredients. While it does not possess a Mega Evolution or Gigantamax form, its status as a Totem Pokémon grants it specialized aura-based enhancements in the wild.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 71, Defense 70, Sp. Atk 40, Sp. Def 80, Speed 77.
+* **Archetype:** Physical Bulk Attacker / Hustle Wallbreaker.
+* **Type Matchups:** It is **Double Weak (4x) to Fighting**, and also weak to **Bug and Fairy**. It possesses a dual **Immunity to Psychic and Ghost** and **resists Dark**-type moves.
+* **Move Selection:** Utilizing its superior physical Attack over its negligible Special Attack, Alolan Raticate excels with **Crunch** and **Sucker Punch** for Dark-type STAB (Same Type Attack Bonus) and priority, **Double-Edge** for high-recoil Normal-type damage, and **Knock Off** to remove opponent held items. **Super Fang** is also a key utility move to instantly halve an opponent's health regardless of their defenses.
+* **Abilities:** 
+    * **Gluttony:** Causes the Pokémon to consume a held Berry (like the Pecha Berry it is known to carry) much earlier than usual when HP drops.
+    * **Hustle:** Boosts the Attack stat by 50% but reduces the accuracy of physical moves by 20%, turning Alolan Raticate into a high-risk, high-reward physical threat.
+    * **Thick Fat (Hidden Ability):** Provides excellent defensive utility by halving the damage taken from Fire and Ice-type moves.
+
+## Evolution & Biology
+Alolan Raticate is the final stage of a two-stage evolutionary line. It evolves from **Alolan Rattata** when leveled up to **Level 20 specifically during the Night**. This nocturnal evolution is a requirement unique to its regional form. Biologically, it is a sturdy quadruped that thrives in grassland and urban environments. It belongs to the **Ground** Egg Group, and researchers note a Hatch Counter of 15 (approximately 3840–4096 steps) to hatch an egg. Its diet is so refined that it is rumored that gourmet chefs in the Alola region use Alolan Raticate to help them identify the freshest and highest-quality ingredients for their restaurants.
