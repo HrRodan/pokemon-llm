@@ -421,7 +421,7 @@ class PokemonAPIClient:
         except Exception as e:
             return {"error": str(e)}
 
-    def get_move_details(self, name: str) -> Dict[str, Any]:
+    def get_move_details(self, name: str, learned_by_limit: int = 20) -> Dict[str, Any]:
         """
         Retrieves details about a move.
         """
@@ -429,10 +429,54 @@ class PokemonAPIClient:
             data = self._get("move", name.lower())
 
             effect = "No description."
+            effect_chance = data.get("effect_chance")
             if data["effect_entries"]:
-                effect = data["effect_entries"][0]["effect"]
+                # Try to find English effect
+                for entry in data["effect_entries"]:
+                    if entry["language"]["name"] == "en":
+                        effect = entry["effect"]
+                        # Replace $effect_chance variable in text if present
+                        if effect_chance is not None:
+                            effect = effect.replace(
+                                "$effect_chance", str(effect_chance)
+                            )
+                        break
+
+            # Flavor Text
+            flavor_text = "No description available."
+            if data.get("flavor_text_entries"):
+                for entry in data["flavor_text_entries"]:
+                    if entry["language"]["name"] == "en":
+                        flavor_text = self._clean_text(entry["flavor_text"])
+                        # We just take the first English one we find
+                        break
+
+            # Learned By (with sampling)
+            all_learned_by = [p["name"] for p in data.get("learned_by_pokemon", [])]
+            total_learned_by = len(all_learned_by)
+
+            if learned_by_limit == -1:
+                learned_by = all_learned_by
+            else:
+                # Sample random candidates if limit is set
+                limit = min(learned_by_limit, total_learned_by)
+                if limit > 0:
+                    learned_by = random.sample(all_learned_by, limit)
+                else:
+                    learned_by = []
+
+            # Machines (TMs)
+            machines = []
+            if data.get("machines"):
+                machines = [
+                    m["version_group"]["name"] for m in data.get("machines", [])
+                ]
+
+            # Contest Combos
+            contest_combos = data.get("contest_combos")
 
             return {
+                "id": data["id"],
                 "name": data["name"],
                 "type": data["type"]["name"],
                 "power": data["power"],
@@ -440,6 +484,12 @@ class PokemonAPIClient:
                 "pp": data["pp"],
                 "damage_class": data["damage_class"]["name"],
                 "effect_description": self._clean_text(effect),
+                "effect_chance": effect_chance,
+                "flavor_text": flavor_text,
+                "learned_by": learned_by,
+                "total_learned_by": total_learned_by,
+                "machines": machines,
+                "contest_combos": contest_combos,
                 "priority": data.get("priority"),
                 "target": data.get("target", {}).get("name"),
                 "generation": data.get("generation", {}).get("name"),
@@ -737,7 +787,7 @@ TOOLS: List[Dict[str, Any]] = [
         "type": "function",
         "function": {
             "name": "get_move_details",
-            "description": "Retrieves data about a move: power, accuracy, PP, damage class, and generation.",
+            "description": "Retrieves data about a move: power, accuracy, PP, damage class, generation, effect chance, flavor text, contest combos, machine details (TM/HM) and which Pokemon learn it.",
             "strict": True,
             "parameters": {
                 "type": "object",
@@ -745,7 +795,11 @@ TOOLS: List[Dict[str, Any]] = [
                     "name": {
                         "type": "string",
                         "description": "The name of the move (e.g. 'fireball').",
-                    }
+                    },
+                    "learned_by_limit": {
+                        "type": "integer",
+                        "description": "Limit the number of Pokemon returned in 'learned_by'. Defaults to 20. Set to -1 to return all.",
+                    },
                 },
                 "required": ["name"],
                 "additionalProperties": False,
