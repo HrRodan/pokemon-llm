@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 758,
+    "name": "salazzle",
+    "stats": {
+      "hp": 68,
+      "attack": 64,
+      "defense": 60,
+      "special-attack": 111,
+      "special-defense": 60,
+      "speed": 117
+    },
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 22.2,
+    "abilities": [
+      {
+        "name": "corrosion",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "salazzle"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "scratch",
+      "body-slam",
+      "take-down",
+      "disable",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "dragon-rage",
+      "thunder-wave",
+      "toxic",
+      "agility",
+      "double-team",
+      "smog",
+      "fire-blast",
+      "swift",
+      "poison-gas",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "sweet-scent",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "beat-up",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "hyper-voice",
+      "poison-fang",
+      "fake-tears",
+      "overheat",
+      "dragon-claw",
+      "poison-tail",
+      "covet",
+      "dragon-dance",
+      "payback",
+      "fling",
+      "toxic-spikes",
+      "flare-blitz",
+      "poison-jab",
+      "dragon-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "fire-fang",
+      "cross-poison",
+      "gunk-shot",
+      "captivate",
+      "venoshock",
+      "flame-burst",
+      "sludge-wave",
+      "flame-charge",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "incinerate",
+      "acrobatics",
+      "dragon-tail",
+      "confide",
+      "venom-drench",
+      "laser-focus",
+      "fire-lash",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "burning-jealousy",
+      "corrosive-gas",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer",
+      "temper-flare"
+    ],
+    "held_items": [
+      "smoke-ball"
+    ],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 916,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/758.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/758.png"
+    },
+    "species_name": "salazzle",
+    "flavor_text": "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+    "genus": "Toxic Lizard Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/390/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 390,
+      "chain": {
+        "species_name": "salandit",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "salazzle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

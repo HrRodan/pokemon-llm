@@ -1,0 +1,15 @@
+## Identity & Lore
+Golurk (Pokedex #623) is the Automaton Pokémon, a massive bipedal construct first discovered in the Unova region (Generation V). Standing at nearly three meters tall and weighing 330 kilograms, this green, clay-like entity is powered by a mysterious internal energy source. According to ancient lore, Golurk was created by an extinct civilization to serve as a protector of both people and Pokémon. Its biology is unique; it features a seal on its chest that, if removed, causes its internal energy to spiral out of control, potentially leading to catastrophic destruction. Despite its bulky appearance, Golurk is capable of retracting its hands and feet into its body to transform into a rocket-like flight mode, allowing it to traverse the sky at Mach speeds. While it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, its sheer scale and mechanical nature often lead to comparisons with the ancient Paradox Pokémon of Paldea.
+
+## Combat Profile
+* **Stats:** HP 89, Attack 124, Defense 80, Sp. Atk 55, Sp. Def 80, Speed 55.
+* **Archetype:** Physical Wallbreaker / Tank. With a massive base Attack and low Speed, Golurk is designed to take a hit and retaliate with devastating physical force.
+* **Type Matchups:** It is **weak to Water, Grass, Ice, Ghost, and Dark**. It possesses invaluable **immunities to Electric, Normal, and Fighting** types, and **resists Poison and Rock**.
+* **Move Selection:** Capitalizing on its elite physical strength and its abilities, key moves include **Earthquake** (high-power STAB), **Poltergeist** (heavy Ghost-type damage), **Dynamic Punch** (guaranteed confusion when paired with No Guard), and **Shadow Punch** (reliable STAB that never misses).
+* **Abilities:** 
+    * **Iron Fist:** Increases the power of "punching" moves (like Ice Punch and Shadow Punch) by 20%. 
+    * **Klutz:** Prevents the Pokémon from using held items; this is often used tactically with the move Switcheroo or Trick to disable an opponent’s item. 
+    * **No Guard (Hidden Ability):** Ensures that all moves used by or against this Pokémon will land with 100% accuracy, making high-impact moves like Dynamic Punch and Stone Edge extremely dangerous.
+
+## Evolution & Biology
+Golurk is the final stage of a two-stage evolutionary line. It evolves from **Golett** starting at **Level 43**. As a member of the **Mineral** egg group, it is an inorganic lifeform, often found in ruins or deep underground chambers. It has a hatch counter of 25, reflecting the complexity of its construction. Biologically, Golurk functions more like a machine than a living creature, requiring no food but instead relying on the ancient energy swirling within its hollow, armor-like body. It is often seen holding a **Light Clay**, an item that may reference its physical composition or its ancient architectural origins.

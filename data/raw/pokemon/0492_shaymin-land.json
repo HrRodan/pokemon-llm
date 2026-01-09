@@ -1,0 +1,166 @@
+{
+  "pokemon_details": {
+    "id": 492,
+    "name": "shaymin-land",
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 2.1,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "shaymin-land"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "sleep-powder",
+      "toxic",
+      "psychic",
+      "quick-attack",
+      "double-team",
+      "recover",
+      "defense-curl",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "facade",
+      "nature-power",
+      "endeavor",
+      "secret-power",
+      "aromatherapy",
+      "air-cutter",
+      "grass-whistle",
+      "bullet-seed",
+      "aerial-ace",
+      "covet",
+      "magical-leaf",
+      "healing-wish",
+      "natural-gift",
+      "tailwind",
+      "lucky-chant",
+      "last-resort",
+      "worry-seed",
+      "seed-bomb",
+      "air-slash",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "grass-knot",
+      "seed-flare",
+      "ominous-wind",
+      "round",
+      "petal-blizzard",
+      "disarming-voice",
+      "grassy-terrain",
+      "play-rough",
+      "confide",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "leafage",
+      "laser-focus",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "lum-berry"
+    ],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 606,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/492.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/492.png"
+    },
+    "species_name": "shaymin",
+    "flavor_text": "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+    "genus": "Gratitude Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 100,
+    "hatch_counter": 120,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/253/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 253,
+      "chain": {
+        "species_name": "shaymin",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

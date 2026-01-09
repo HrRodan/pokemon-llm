@@ -1,0 +1,204 @@
+{
+  "pokemon_details": {
+    "id": 908,
+    "name": "meowscarada",
+    "stats": {
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 81,
+      "special-defense": 70,
+      "speed": 123
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 31.2,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "protean",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "meowscarada"
+    ],
+    "moves": [
+      "thunder-punch",
+      "scratch",
+      "take-down",
+      "tail-whip",
+      "bite",
+      "hyper-beam",
+      "low-kick",
+      "solar-beam",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "protect",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "psych-up",
+      "shadow-ball",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "brick-break",
+      "knock-off",
+      "skill-swap",
+      "fake-tears",
+      "bullet-seed",
+      "aerial-ace",
+      "frenzy-plant",
+      "magical-leaf",
+      "u-turn",
+      "fling",
+      "worry-seed",
+      "toxic-spikes",
+      "aura-sphere",
+      "dark-pulse",
+      "night-slash",
+      "seed-bomb",
+      "power-gem",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "trick-room",
+      "leaf-storm",
+      "grass-knot",
+      "hone-claws",
+      "low-sweep",
+      "foul-play",
+      "acrobatics",
+      "grass-pledge",
+      "petal-blizzard",
+      "disarming-voice",
+      "grassy-terrain",
+      "play-rough",
+      "leafage",
+      "throat-chop",
+      "pollen-puff",
+      "grassy-glide",
+      "lash-out",
+      "triple-axel",
+      "tera-blast",
+      "flower-trick",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": true,
+    "order": 908,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/908.png"
+    },
+    "species_name": "meowscarada",
+    "flavor_text": "This Pok\u00e9mon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+    "genus": "Magician Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "ground",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/478/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 478,
+      "chain": {
+        "species_name": "sprigatito",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "floragato",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "meowscarada",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

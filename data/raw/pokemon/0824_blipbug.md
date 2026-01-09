@@ -1,0 +1,12 @@
+## Identity & Lore
+Blipbug (Pokedex #824) is the Larva Pokémon, first discovered in the Galar region during Generation VIII. A small, blue-colored larva known for its massive, compound eyes and prominent, eyebrow-like bristles, Blipbug is often found in the fields and gardens of its native region. While it is physically fragile, it is remarkably intelligent; it uses the hairs on its body to sense its surroundings and collect information, though its lack of strength makes it a cautious and defensive creature in the wild. As it matures, Blipbug’s biology undergoes significant radical transformations, eventually culminating in its final form, Orbeetle, which possesses the potential to Gigantamax into a massive, UFO-like entity capable of immense psychic power.
+
+## Combat Profile
+* **Stats:** HP 25, Attack 20, Defense 20, Sp. Atk 25, Sp. Def 45, Speed 45.
+* **Archetype:** Early-Game Support / Entry Hazard Setter.
+* **Type Matchups:** It is **weak to Fire, Flying, and Rock**. As a pure Bug-type, it **resists Grass, Fighting, and Ground** moves.
+* **Move Selection:** Despite its low offensive presence, Blipbug provides significant utility for a team. Key moves include **Sticky Web** for lowering the speed of incoming opponents, **Recover** to maintain its longevity, **Struggle Bug** to lower the opponent's Special Attack, and **Infestation** to trap and chip away at enemies.
+* **Abilities:** **Swarm** (Increases the power of Bug-type moves by 50% when HP is below 1/3), **Compound-Eyes** (Boosts the accuracy of moves by 30%, which is invaluable for ensuring support moves land), and **Telepathy** (Hidden Ability; prevents damage from an ally's moves in Double or Triple Battles).
+
+## Evolution & Biology
+Blipbug is the first stage of a three-stage evolutionary line. It evolves into the cocoon-like **Dottler** starting at Level 10, which eventually evolves into the predatory **Orbeetle** at Level 30. This progression reflects its biological growth from a simple information-collecting larva into a highly sophisticated psychic predator. Blipbug belongs to the **Bug** Egg Group and has a hatch counter of 15, indicating a relatively fast breeding cycle for trainers. As a "Larva Pokémon," it spends most of its early life feeding and gathering data to prepare for its sedentary stage as Dottler.

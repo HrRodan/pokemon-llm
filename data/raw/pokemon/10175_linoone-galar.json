@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 10175,
+    "name": "linoone-galar",
+    "stats": {
+      "hp": 78,
+      "attack": 70,
+      "defense": 61,
+      "special-attack": 50,
+      "special-defense": 61,
+      "speed": 100
+    },
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 32.5,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "linoone-galar"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "pin-missile",
+      "leer",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "screech",
+      "lick",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "iron-tail",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "whirlpool",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "hyper-voice",
+      "fake-tears",
+      "mud-shot",
+      "payback",
+      "assurance",
+      "fling",
+      "night-slash",
+      "seed-bomb",
+      "switcheroo",
+      "giga-impact",
+      "shadow-claw",
+      "gunk-shot",
+      "grass-knot",
+      "hone-claws",
+      "round",
+      "retaliate",
+      "work-up",
+      "snarl",
+      "baby-doll-eyes",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out"
+    ],
+    "held_items": [],
+    "base_experience": 147,
+    "is_default": false,
+    "order": 364,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10175.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10175.png"
+    },
+    "species_name": "linoone",
+    "flavor_text": "LINOONE always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This POK\u00e9MON is very challenged by gently curving roads.",
+    "genus": "Rushing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/134/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 134,
+      "chain": {
+        "species_name": "zigzagoon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "linoone",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "obstagoon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35,
+                    "time_of_day": "night"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

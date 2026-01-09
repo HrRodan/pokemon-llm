@@ -1,0 +1,12 @@
+## Identity & Lore
+Bergmite (Pokedex #712) is the Ice Chunk Pokémon, a quadrupedal creature first discovered in the Kalos region during Generation VI. Appearing as a small, blue creature encased in a translucent, jagged ice shell, Bergmite lives in frigid environments like glacial caves and snowy mountain peaks. Its biology is centered around temperature regulation; it survives by freezing moisture in the air to create a protective suit of armor. According to its lore, Bergmite uses incredibly cold air to repair any cracks in its icy body, allowing it to withstand heavy blows from predators. While Bergmite does not have a Mega Evolution or Gigantamax form, it is historically significant for its evolutionary potential; in the ancient Hisui region, Bergmite evolved into a distinct regional variant known as Hisuian Avalugg, which gains the Rock typing.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 69, Defense 85, Sp. Atk 32, Sp. Def 35, Speed 28.
+* **Archetype:** Physical Tank (Little Cup Utility).
+* **Type Matchups:** It is **weak to Fire, Fighting, Rock, and Steel** and **resists Ice**. As a pure Ice-type, it has limited resistances, making its high physical defense critical for survival.
+* **Move Selection:** Capitalizing on its physical Attack and abysmal Speed, key moves include **Avalanche** (which doubles in power if Bergmite is hit first), **Ice Spinner** (for consistent physical damage and terrain removal), **Recover** (to sustain its HP throughout a battle), and **Rapid Spin** (to clear entry hazards like Stealth Rock).
+* **Abilities:** **Own Tempo** (prevents the Pokémon from becoming confused), **Ice Body** (gradually restores HP during Snow or Hail weather), and its Hidden Ability, **Sturdy** (ensures it survives a one-hit KO move with 1 HP remaining).
+
+## Evolution & Biology
+Bergmite is part of a two-stage evolutionary line. It evolves into the massive **Avalugg** when it reaches **Level 37**. In the Hisui region, this same level trigger results in the Ice/Rock-type **Hisuian Avalugg**. Bergmite is unique in its biological classification, belonging to both the **Monster** and **Mineral** Egg Groups. It has a hatch counter of 20, suggesting that while it appears as a living creature, its mineral-like composition requires significant time to gestate and harden. Its high weight (99.5 kg) relative to its small size (1.0 m) further emphasizes its dense, ice-compressed structure.

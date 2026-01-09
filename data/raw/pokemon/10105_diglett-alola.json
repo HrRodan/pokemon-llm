@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 10105,
+    "name": "diglett-alola",
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 30,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 90
+    },
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 1.0,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tangling-hair",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "diglett-alola"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "growl",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "agility",
+      "screech",
+      "double-team",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "pursuit",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "beat-up",
+      "uproar",
+      "memento",
+      "facade",
+      "helping-hand",
+      "astonish",
+      "rock-tomb",
+      "metal-sound",
+      "sand-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "assurance",
+      "sucker-punch",
+      "earth-power",
+      "shadow-claw",
+      "mud-bomb",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "smack-down",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "final-gambit",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "stomping-tantrum",
+      "steel-beam",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "soft-sand"
+    ],
+    "base_experience": 53,
+    "is_default": false,
+    "order": 85,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10105.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10105.png"
+    },
+    "species_name": "diglett",
+    "flavor_text": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+    "genus": "Mole Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "blob",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/21/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 21,
+      "chain": {
+        "species_name": "diglett",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dugtrio",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

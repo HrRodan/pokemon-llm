@@ -1,0 +1,185 @@
+{
+  "pokemon_details": {
+    "id": 936,
+    "name": "armarouge",
+    "stats": {
+      "hp": 85,
+      "attack": 60,
+      "defense": 100,
+      "special-attack": 125,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 85.0,
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "armarouge"
+    ],
+    "moves": [
+      "take-down",
+      "leer",
+      "ember",
+      "flamethrower",
+      "psybeam",
+      "solar-beam",
+      "fire-spin",
+      "psychic",
+      "night-shade",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "spite",
+      "protect",
+      "endure",
+      "sleep-talk",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "astonish",
+      "weather-ball",
+      "overheat",
+      "iron-defense",
+      "calm-mind",
+      "fling",
+      "flare-blitz",
+      "aura-sphere",
+      "dark-pulse",
+      "dragon-pulse",
+      "focus-blast",
+      "energy-ball",
+      "flash-cannon",
+      "trick-room",
+      "lava-plume",
+      "wide-guard",
+      "psyshock",
+      "flame-charge",
+      "acid-spray",
+      "clear-smog",
+      "stored-power",
+      "ally-switch",
+      "incinerate",
+      "mystical-fire",
+      "psychic-terrain",
+      "expanding-force",
+      "meteor-beam",
+      "scorching-sands",
+      "tera-blast",
+      "armor-cannon"
+    ],
+    "held_items": [],
+    "base_experience": 263,
+    "is_default": true,
+    "order": 1004,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/936.png"
+    },
+    "species_name": "armarouge",
+    "flavor_text": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pok\u00e9mon is incredibly loyal.",
+    "genus": "Fire Warrior Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 20,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/490/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 490,
+      "chain": {
+        "species_name": "charcadet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "armarouge",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "auspicious-armor"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "ceruledge",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "malicious-armor"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

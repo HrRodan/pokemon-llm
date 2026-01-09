@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Chesnaught (Pokedex #10292) is the Spiny Armor Pokémon, a massive and formidable evolution of the Generation VI (Kalos) Grass-type starter. This specific form represents a Mega Evolution of Chesnaught, pushing its defensive capabilities to an extreme level. Its body is encased in a shell so durable it can withstand massive explosions, and its physical strength is legendary—its Tackle is forceful enough to flip a 50-ton tank. Renowned for its protective nature, Mega Chesnaught acts as a living shield, using its armored limbs to protect allies from harm. While Chesnaught does not currently possess a Mega Evolution in the core series games, this form represents a significant power peak in the Kalos region's evolutionary lore, similar to the Gigantamax forms found in Galar or the Paradox forms of Paldea.
+
+## Combat Profile
+* **Stats:** HP 88, Attack 137, Defense 172, Sp. Atk 74, Sp. Def 115, Speed 44.
+* **Archetype:** Physical Tank / Wallbreaker. With a massive Defense stat of 172 and a heavy-hitting Attack of 137, it serves as a premier physical wall that can deal significant damage.
+* **Type Matchups:** It is **weak to Poison, Bug, Fire, Ice, Psychic, and Fairy**, and has a **Double Weakness (4x) to Flying**. It **resists Ground, Rock, Water, Grass, Electric, and Dark**.
+* **Move Selection:** Utilizing its immense physical power and defensive utility, key moves for this Pokémon include **Wood Hammer** (High-power STAB), **Hammer Arm** (Heavy Fighting-type damage), **Drain Punch** (for recovery and sustain), and its signature **Spiky Shield** (to protect itself while damaging attackers who make contact).
+* **Abilities:** While data for this form is specialized, it typically utilizes **Bulletproof**, an ability that makes the Pokémon immune to "ball" and "bomb" moves such as Shadow Ball, Sludge Bomb, and Focus Blast, further cementing its role as a defensive powerhouse.
+
+## Evolution & Biology
+Mega Chesnaught is the final stage of a three-stage evolutionary line originating in the Kalos region. It begins as **Chespin**, which evolves into **Quilladin** starting at Level 16. The line reaches its standard final form, **Chesnaught**, at Level 36. The transition to Mega Chesnaught is triggered through the use of a specific Mega Stone in battle, momentarily unlocking its dormant potential. Biologically, it is a mammalian Pokémon with a rigid, armor-like shell and belongs to the **Field (Ground)** Egg Group. It follows a medium-slow growth rate, requiring significant experience to reach its full potential.

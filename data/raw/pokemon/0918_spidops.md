@@ -1,0 +1,12 @@
+## Identity & Lore
+Spidops (Pokedex #918) is the Trap Pokémon, a unique Bug-type introduced in Generation IX (Paldea). This green-colored arachnid is a master of stealth and tactical entrapment, characterized by its silent movement and ability to cling to ceilings and branches using high-tension threads. In the wild, it operates as an apex ambush predator, neutralizing prey with its silk before they are even aware of its presence. While it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, its design philosophy draws heavily from ogre-faced spiders and tactical military gear, reflecting its role as a methodical hunter that controls the battlefield.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 79, Defense 92, Sp. Atk 52, Sp. Def 86, Speed 35.
+* **Archetype:** Defensive Hazard Setter / Utility Tank. 
+* **Type Matchups:** As a pure Bug-type, Spidops is **weak to Fire, Flying, and Rock**. It **resists Fighting, Ground, and Grass** moves.
+* **Move Selection:** Spidops excels at battlefield control and disruption. Capitalizing on its physical Attack and defensive utility, its optimal moveset includes **Silk Trap** (a signature protection move that lowers the attacker's Speed), **Sticky Web** (to slow down the entire opposing team), **Circle Throw** (to force switches and rack up hazard damage), and **Lunge** (to lower the opponent's Attack stat while dealing damage).
+* **Abilities:** **Insomnia** prevents the Pokémon from falling asleep, making it a reliable counter to Spore or Sleep Powder users. Its Hidden Ability, **Stakeout**, is particularly lethal for a slow Pokémon, as it doubles the damage dealt to a target that has just switched into battle, synergizing perfectly with its ability to force switches via Circle Throw.
+
+## Evolution & Biology
+Spidops is the final stage of a two-stage evolutionary line. It evolves from **Tarountula** once it reaches **Level 15**. Biologically, it is highly specialized for weaving intricate, high-strength nets. It belongs to the **Bug** Egg Group and has a hatch counter of 15, indicating a relatively standard breeding cycle. Its growth rate is unique, starting slow but becoming very fast in the later stages of its development, mirroring its transition from a ball of silk into a fully-equipped tactical hunter.

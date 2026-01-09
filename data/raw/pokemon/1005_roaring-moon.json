@@ -1,0 +1,168 @@
+{
+  "pokemon_details": {
+    "id": 1005,
+    "name": "roaring-moon",
+    "stats": {
+      "hp": 105,
+      "attack": 139,
+      "defense": 71,
+      "special-attack": 55,
+      "special-defense": 101,
+      "speed": 119
+    },
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 380.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "roaring-moon"
+    ],
+    "moves": [
+      "fly",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "hydro-pump",
+      "hyper-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "dragon-breath",
+      "metal-claw",
+      "sunny-day",
+      "crunch",
+      "heat-wave",
+      "facade",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "hyper-voice",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "dark-pulse",
+      "night-slash",
+      "air-slash",
+      "x-scissor",
+      "dragon-pulse",
+      "dragon-rush",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "incinerate",
+      "acrobatics",
+      "dragon-tail",
+      "hurricane",
+      "snarl",
+      "throat-chop",
+      "stomping-tantrum",
+      "jaw-lock",
+      "body-press",
+      "breaking-swipe",
+      "scale-shot",
+      "lash-out",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 295,
+    "is_default": true,
+    "order": 985,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1005.png"
+    },
+    "species_name": "roaring-moon",
+    "flavor_text": "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/533/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 533,
+      "chain": {
+        "species_name": "roaring-moon",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

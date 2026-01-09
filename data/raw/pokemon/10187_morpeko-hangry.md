@@ -1,0 +1,12 @@
+## Identity & Lore
+Morpeko-Hangry (Pokedex #10187) is the Two-Sided Pokémon, a unique species first discovered in the Galar region of Generation VIII. While its standard "Full Belly Mode" is characterized by a relatively docile nature, the Hangry Mode is a volatile transformation triggered by constant hunger. In this state, its hormones balance shifts, turning its fur a dark purple and its disposition aggressively territorial. As it relentlessly consumes seeds stored in its pocket-like pouches, it generates a volatile electric current. Although it does not possess a Mega Evolution or a Gigantamax form, it is widely known as the signature Pokémon of the Spikemuth Gym Leader candidate, Marnie. Its biology is defined by a metabolic cycle that forces it into a state of perpetual foraging to manage its intense electrical output.
+
+## Combat Profile
+* **Stats:** HP 58, Attack 95, Defense 58, Sp. Atk 70, Sp. Def 58, Speed 97.
+* **Archetype:** Fast Physical Attacker / Offensive Pivot.
+* **Type Matchups:** It is **weak to Ground, Fighting, Bug, and Fairy**. It resists **Flying, Steel, Electric, Dark, and Ghost** types, and it is completely **immune to Psychic** attacks due to its Dark typing.
+* **Move Selection:** Capitalizing on its high Attack and signature mechanics, key moves include **Aura Wheel** (a powerful 110-power move that changes from Electric to Dark in this form), **Crunch**, **Wild Charge**, and **Psychic Fangs** for coverage against Fighting-type threats.
+* **Abilities:** Hunger Switch (The signature ability of this species; it causes Morpeko to alternate between its Full Belly and Hangry forms at the end of every turn, which dynamically changes the type of its signature move, Aura Wheel).
+
+## Evolution & Biology
+Morpeko is a single-stage Pokémon and does not evolve from or into any other species. It represents a unique evolutionary niche where its survival is tied to its dual-mode temperament. It belongs to the **Ground** and **Fairy** Egg Groups, making it a versatile partner for breeding high-speed physical attackers. Despite its small stature of only 0.3 meters and 3.0 kilograms, its electrical capacity is immense, fueled by its constant need to eat. Breeders note its relatively quick maturation, indicated by a hatch counter of 10.

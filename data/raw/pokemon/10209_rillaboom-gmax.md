@@ -1,0 +1,13 @@
+## Identity & Lore
+Gigantamax Rillaboom (Pokedex #10209) is the towering Gigantamax form of the Drummer Pokémon, a massive Grass-type originally discovered in the Galar region (Generation VIII). In this form, its power surges to such a degree that its single tree stump has transformed into a colossal forest of drums. Standing at a staggering 28 meters tall, it uses its immense strength to wield long drumsticks, controlling the roots of its stump through rhythmic beats to strike enemies from below. Lore describes it as a master percussionist whose drumming can be heard across entire regions, tapping into the spiritual power of the forest to command nature itself. While it primarily exists in the Galar region, its presence is a hallmark of the Max Raid dens and competitive Dynamax battles.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 125, Defense 90, Sp. Atk 60, Sp. Def 70, Speed 85.
+* **Archetype:** Physical Tank & Terrain Setter. With high Attack and solid HP/Defense, it excels at applying pressure while maintaining staying power.
+* **Type Matchups:** As a pure Grass-type, it is **weak to Fire, Ice, Poison, Flying, and Bug**. It **resists Water, Electric, Grass, and Ground** types.
+* **Move Selection:** Leveraging its massive 125 Attack stat, it utilizes its signature move **Drum Beating** to lower opponents' Speed. In competitive play, **Grassy Glide** is essential for high-priority strikes within its terrain, while **Knock Off** provides vital utility by removing opponent items. **Drain Punch** or **Wood Hammer** serve as powerful finishers to exploit its physical prowess.
+* **Abilities:** **Overgrow** (Powers up Grass-type moves when HP is low) and the highly coveted Hidden Ability **Grassy Surge**, which automatically summons Grassy Terrain upon entering battle, boosting Grass moves and providing passive healing.
+* **G-Max Move:** Its unique move, **G-Max Drum Solo**, deals massive Grass damage that ignores the target's ability, making it a terrifying threat against Pokémon with defensive abilities like Sturdy or Unaware.
+
+## Evolution & Biology
+Rillaboom-Gmax is the final stage of a three-stage evolutionary line. It begins as the Grass-type starter **Grookey**, which evolves into **Thwackey** starting at Level 16. Thwackey then evolves into the standard **Rillaboom** at Level 35. To achieve this specific Gigantamax form, a Rillaboom must possess the **Gigantamax Factor**, typically obtained by consuming Max Soup in the Isle of Armor. Biologically, it is a humanoid-shaped creature belonging to both the **Ground and Plant Egg Groups**, with a hatch counter of 20, reflecting its medium-slow growth rate and the dedication required to raise this powerful forest guardian.

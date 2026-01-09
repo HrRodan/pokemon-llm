@@ -1,0 +1,12 @@
+## Identity & Lore
+Miraidon (Low Power Mode) (Pokedex #10268) is the Paradox Pokémon, a legendary mechanical being originating from the futuristic timeline of the Paldea region in Generation IX. As the futuristic counterpart to Cyclizar, Miraidon is often referred to as the "Iron Serpent." While this specific entry denotes its Low Power Mode—a state frequently used for terrestrial navigation and energy conservation—it remains a ruthless and formidable entity far surpassing modern Pokémon in capability. Its body is composed of advanced metallic structures and energy-based membranes, colored in a deep, sleek blue. Though it primarily functions as a high-tech mount in this form, its internal reactor, known as the Hadron Engine, signifies its status as an apex predator of the future.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 85, Defense 100, Sp. Atk 135, Sp. Def 115, Speed 135.
+* **Archetype:** Fast Special Sweeper. Miraidon is a top-tier offensive threat characterized by its blistering Speed and immense Special Attack, allowing it to dictate the tempo of any battle.
+* **Type Matchups:** It is **weak to Ground, Ice, Dragon, and Fairy**. It possesses significant **resistances to Flying, Steel, Fire, Water, and Grass**, and features a **Double Resistance (4x) to Electric**.
+* **Move Selection:** Maximizing its specialized offensive capabilities, Miraidon's optimal moveset includes **Electro Drift** (its signature move that deals increased damage on super-effective hits), **Draco Meteor** for overwhelming Dragon-type STAB damage, **Volt Switch** for maintaining momentum, and **Dazzling Gleam** or **Overheat** for essential coverage.
+* **Abilities:** Hadron Engine (Automatically summons Electric Terrain upon entering the battlefield and provides a 30% boost to Special Attack while the terrain is active, effectively self-buffing its primary offensive stat).
+
+## Evolution & Biology
+Miraidon is a standalone Legendary Pokémon and is not part of an evolutionary chain. It is considered a Paradox relative of the Pokémon Cyclizar, though it does not evolve from it. This specimen belongs to the **No-Eggs** group and cannot be bred. Biologically, Miraidon is capable of shifting between various modes; while the Low Power Mode is optimized for traversing the Paldean landscape, it can transition into its "Ultimate Mode" to unleash its full combat potential. It possesses a "Slow" growth rate, typical of high-tier legendary entities that require significant experience to reach their peak power levels.

@@ -1,0 +1,14 @@
+## Identity & Lore
+Frigibax (Pokedex #996) is the Ice Fin Pokémon, representing the first stage of the Paldea region’s "Pseudo-Legendary" evolutionary line introduced in Generation IX. This gray-toned, upright bipedal Pokémon is primarily characterized by the large, metallic dorsal fin on its back, which functions as a sophisticated thermal regulator. Frigibax possesses the unique biological ability to absorb ambient heat from its environment through this fin, efficiently converting that thermal energy into ice energy stored within its body. This physiological quirk means that Frigibax thrives in higher temperatures, as the heat directly correlates to the volume of energy it can store. While it is currently found roaming the frigid peaks of Glaseado Mountain, its evolutionary potential eventually culminates in the massive Baxcalibur. Although it does not possess a Mega Evolution or Gigantamax form, its final stage is widely considered one of the most powerful non-Legendary Pokémon in the competitive circuit.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 75, Defense 45, Sp. Atk 35, Sp. Def 45, Speed 55.
+* **Archetype:** Physical Early-Game Attacker. While its base stats are modest, its high Attack relative to its other stats defines it as a physical brawler that relies on heavy-hitting contact moves.
+* **Type Matchups:** It is **weak to Fighting, Rock, Steel, Fire, Dragon, and Fairy**. It possesses **resistances to Water, Grass, and Electric** types. 
+* **Move Selection:** Prioritizing its superior Attack stat and STAB (Same Type Attack Bonus) potential, key moves for Frigibax include **Dragon Claw**, **Icicle Crash**, **Dragon Rush**, and **Crunch**. It can also utilize **Swords Dance** to further amplify its physical lethality.
+* **Abilities:** 
+    * **Thermal Exchange:** A signature ability that prevents the Pokémon from being burned and boosts its Attack stat by one stage when hit by a Fire-type move. 
+    * **Ice Body (Hidden Ability):** Slowly targets HP recovery during snowy weather conditions (Snowscape).
+
+## Evolution & Biology
+Frigibax is part of a three-stage evolutionary line characterized by high level-up requirements typical of the Pseudo-Legendary class. It evolves into **Arctibax** upon reaching **Level 35**, which subsequently evolves into the formidable **Baxcalibur** starting at **Level 54**. Biologically, it belongs to both the **Dragon** and **Mineral** Egg Groups, making it a versatile candidate for breeding specific competitive move sets like Icicle Spear or Aqua Tail. Despite its small stature of 0.5 meters, its high hatch counter (40) and slow growth rate reflect the significant investment required by trainers to unlock its true draconic potential.

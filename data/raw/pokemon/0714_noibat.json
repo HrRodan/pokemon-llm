@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 714,
+    "name": "noibat",
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 35,
+      "special-attack": 45,
+      "special-defense": 40,
+      "speed": 55
+    },
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "noibat"
+    ],
+    "moves": [
+      "razor-wind",
+      "cut",
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "tackle",
+      "take-down",
+      "bite",
+      "supersonic",
+      "absorb",
+      "solar-beam",
+      "toxic",
+      "psychic",
+      "agility",
+      "screech",
+      "double-team",
+      "swift",
+      "dream-eater",
+      "leech-life",
+      "sky-attack",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "outrage",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "brick-break",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "air-cutter",
+      "aerial-ace",
+      "dragon-claw",
+      "water-pulse",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "dark-pulse",
+      "air-slash",
+      "x-scissor",
+      "dragon-pulse",
+      "dragon-rush",
+      "switcheroo",
+      "shadow-claw",
+      "defog",
+      "draco-meteor",
+      "round",
+      "echoed-voice",
+      "acrobatics",
+      "wild-charge",
+      "hurricane",
+      "confide",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 49,
+    "is_default": true,
+    "order": 854,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/714.png"
+    },
+    "species_name": "noibat",
+    "flavor_text": "They live in pitch-black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+    "genus": "Sound Wave Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "flying",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/367/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 367,
+      "chain": {
+        "species_name": "noibat",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "noivern",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 48
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

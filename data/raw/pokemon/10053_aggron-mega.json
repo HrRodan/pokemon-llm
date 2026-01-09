@@ -1,0 +1,204 @@
+{
+  "pokemon_details": {
+    "id": 10053,
+    "name": "aggron-mega",
+    "stats": {
+      "hp": 70,
+      "attack": 140,
+      "defense": 230,
+      "special-attack": 60,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 2.2,
+    "weight_kg": 395.0,
+    "abilities": [
+      {
+        "name": "filter",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "aggron-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "cut",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "harden",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "dragon-claw",
+      "shock-wave",
+      "water-pulse",
+      "metal-burst",
+      "payback",
+      "fling",
+      "magnet-rise",
+      "rock-polish",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "autotomize",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "power-up-punch",
+      "smart-strike",
+      "brutal-swing",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "hard-stone"
+    ],
+    "base_experience": 284,
+    "is_default": false,
+    "order": 412,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10053.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10053.png"
+    },
+    "species_name": "aggron",
+    "flavor_text": "AGGRON claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This POK\u00e9MON vigilantly patrols its territory at all times.",
+    "genus": "Iron Armor Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/151/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 151,
+      "chain": {
+        "species_name": "aron",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lairon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "aggron",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 42
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

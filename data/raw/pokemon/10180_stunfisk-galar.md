@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Stunfisk (Pokedex #10180) is the Trap Pokémon, a unique regional variant of the Unovan Stunfisk first discovered in the Galar region (Generation VIII). Unlike its flat, mud-dwelling cousin, this Steel/Ground-type variant has evolved to live in caves and mines, sporting a grey, serrated body that resembles a rusted bear trap. Its most striking feature is its mouth, which evolved to mimic the appearance of a Poké Ball to lure unsuspecting trainers and prey. According to local lore, its skin is so incredibly durable that it remains completely unharmed even when stepped on by massive sumo wrestlers. While the original Stunfisk is known for its electrical properties, the Galarian form focuses on physical entrapment, though it still "smiles" with an eerie satisfaction when it successfully snaps its jaws shut on a victim.
+
+## Combat Profile
+* **Stats:** HP 109, Attack 81, Defense 99, Sp. Atk 66, Sp. Def 84, Speed 32.
+* **Archetype:** Physical Tank / Hazard Setter. 
+* **Type Matchups:** It is **weak to Fire, Water, Ground, and Fighting**. It is highly resilient, **resisting Normal, Flying, Rock, Bug, Steel, Psychic, Dragon, and Fairy**, while maintaining a complete **immunity to Electric and Poison** types.
+* **Move Selection:** Capitalizing on its physical bulk and its higher Attack stat, key moves include **Snap Trap** (its signature move which prevents escape and deals damage), **Earthquake** (powerful STAB physical damage), **Stealth Rock** (to punish enemy switches), and **Iron Defense** (to further bolster its impressive physical durability).
+* **Abilities:** Mimicry (This unique ability changes Galarian Stunfisk's secondary type to match the current battlefield Terrain, allowing it to adapt its resistances and STAB bonuses dynamically during combat).
+
+## Evolution & Biology
+Galarian Stunfisk is a single-stage Pokémon and does not evolve into or from any other species, though it shares a common ancestry with the Unovan Stunfisk. It is a biological marvel of mimicry and camouflage. It belongs to the **Water 1 and Indeterminate** (Amorphous) Egg Groups, making it a versatile breeder. Its biology is centered around patience; it can remain stationary for days, disguised as a discarded item, waiting for the tactile pressure of a footstep to trigger its powerful, snapping reflex. Despite its fish-like shape, it is perfectly adapted to terrestrial and subterranean environments.

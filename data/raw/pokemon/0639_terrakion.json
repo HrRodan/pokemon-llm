@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 639,
+    "name": "terrakion",
+    "stats": {
+      "hp": 91,
+      "attack": 129,
+      "defense": 90,
+      "special-attack": 72,
+      "special-defense": 90,
+      "speed": 108
+    },
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 260.0,
+    "abilities": [
+      {
+        "name": "justified",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "terrakion"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "double-kick",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "reflect",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "hidden-power",
+      "psych-up",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "block",
+      "calm-mind",
+      "rock-blast",
+      "close-combat",
+      "aura-sphere",
+      "rock-polish",
+      "poison-jab",
+      "air-slash",
+      "x-scissor",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "smack-down",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "sacred-sword",
+      "confide",
+      "high-horsepower",
+      "laser-focus",
+      "smart-strike",
+      "stomping-tantrum",
+      "coaching",
+      "tera-blast",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 762,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/639.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/639.png"
+    },
+    "species_name": "terrakion",
+    "flavor_text": "This Pok\u00e9mon came to the defense of Pok\u00e9mon that had lost their homes in a war among humans.",
+    "genus": "Cavern Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/326/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 326,
+      "chain": {
+        "species_name": "terrakion",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

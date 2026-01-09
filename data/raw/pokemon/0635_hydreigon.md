@@ -1,0 +1,12 @@
+## Identity & Lore
+Hydreigon (Pokedex #635) is the Brutal Pokémon, a terrifying three-headed dragon first discovered in the Unova region (Generation V). This dark-blue, six-winged predator is notorious for its extreme aggression; lore states that it perceives anything that moves as a foe and will attack without hesitation. While only the central head contains a brain, the two specialized heads on its arms are used to consume food and strike enemies. As a "Pseudo-legendary" Pokémon, it occupies a tier of power similar to Dragonite and Tyranitar. While it does not possess a Mega Evolution or Gigantamax form, it shares a striking resemblance to the futuristic Paradox Pokémon, Iron Jugulis, found in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 92, Attack 105, Defense 90, Sp. Atk 125, Sp. Def 90, Speed 98.
+* **Archetype:** Special Wallbreaker / Offensive Pivot.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Fairy-type moves**. It is also weak to **Ice, Fighting, Bug, and Dragon**. It provides excellent defensive utility by resisting **Fire, Water, Electric, Grass, Ghost, and Dark**.
+* **Move Selection:** Capitalizing on its elite Special Attack, Hydreigon's optimal moveset includes **Draco Meteor** for massive burst damage, **Dark Pulse** for consistent STAB pressure, **Flash Cannon** to counter incoming Fairy-types, and **Fire Blast** or **Earth Power** for vital steel-type coverage.
+* **Abilities:** **Levitate** (Grants the Pokémon full immunity to Ground-type moves, Spikes, and Toxic Spikes, effectively removing a common weakness and increasing its switching opportunities).
+
+## Evolution & Biology
+Hydreigon is the final stage of a three-stage evolutionary line characterized by the highest level requirements of any non-legendary Pokémon. It evolves from **Zweilous** starting at **Level 64**, which itself evolves from **Deino** starting at **Level 50**. This slow growth rate is reflected in its "Slow" experience group and its categorization in the **Dragon** egg group. Biologically, the transition from Zweilous to Hydreigon represents a massive increase in mobility as it gains its six wings, allowing it to move from caves to the open skies. It has a base happiness of 35, making it initially difficult for trainers to tame.

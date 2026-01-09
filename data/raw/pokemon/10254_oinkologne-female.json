@@ -1,0 +1,150 @@
+{
+  "pokemon_details": {
+    "id": 10254,
+    "name": "oinkologne-female",
+    "stats": {
+      "hp": 115,
+      "attack": 90,
+      "defense": 70,
+      "special-attack": 59,
+      "special-defense": 90,
+      "speed": 65
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 120.0,
+    "abilities": [
+      {
+        "name": "aroma-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "oinkologne-female"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "hyper-beam",
+      "dig",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "curse",
+      "protect",
+      "mud-slap",
+      "endure",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "endeavor",
+      "hyper-voice",
+      "bullet-seed",
+      "mud-shot",
+      "covet",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "echoed-voice",
+      "bulldoze",
+      "work-up",
+      "belch",
+      "disarming-voice",
+      "play-rough",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 171,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10254.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10254.png"
+    },
+    "species_name": "oinkologne",
+    "flavor_text": "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
+    "genus": "Hog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/481/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 481,
+      "chain": {
+        "species_name": "lechonk",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "oinkologne",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

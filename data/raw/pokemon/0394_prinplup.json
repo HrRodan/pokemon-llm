@@ -1,0 +1,203 @@
+{
+  "pokemon_details": {
+    "id": 394,
+    "name": "prinplup",
+    "stats": {
+      "hp": 64,
+      "attack": 66,
+      "defense": 68,
+      "special-attack": 81,
+      "special-defense": 76,
+      "speed": 50
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 23.0,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "prinplup"
+    ],
+    "moves": [
+      "pound",
+      "cut",
+      "headbutt",
+      "fury-attack",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "peck",
+      "drill-peck",
+      "strength",
+      "dig",
+      "toxic",
+      "agility",
+      "double-team",
+      "haze",
+      "bide",
+      "waterfall",
+      "swift",
+      "bubble",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "yawn",
+      "secret-power",
+      "dive",
+      "feather-dance",
+      "weather-ball",
+      "rock-tomb",
+      "signal-beam",
+      "aerial-ace",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "pluck",
+      "fling",
+      "aqua-ring",
+      "shadow-claw",
+      "defog",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "scald",
+      "quash",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "confide",
+      "power-trip",
+      "liquidation",
+      "flip-turn",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 525,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/394.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/394.png"
+    },
+    "species_name": "prinplup",
+    "flavor_text": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+    "genus": "Penguin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/205/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 205,
+      "chain": {
+        "species_name": "piplup",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "prinplup",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "empoleon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

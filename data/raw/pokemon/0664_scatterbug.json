@@ -1,0 +1,146 @@
+{
+  "pokemon_details": {
+    "id": 664,
+    "name": "scatterbug",
+    "stats": {
+      "hp": 38,
+      "attack": 35,
+      "defense": 40,
+      "special-attack": 27,
+      "special-defense": 25,
+      "speed": 35
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.5,
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "scatterbug-icy-snow",
+      "scatterbug-polar",
+      "scatterbug-tundra",
+      "scatterbug-continental",
+      "scatterbug-garden",
+      "scatterbug-elegant",
+      "scatterbug-meadow",
+      "scatterbug-modern",
+      "scatterbug-marine",
+      "scatterbug-archipelago",
+      "scatterbug-high-plains",
+      "scatterbug-sandstorm",
+      "scatterbug-river",
+      "scatterbug-monsoon",
+      "scatterbug-savanna",
+      "scatterbug-sun",
+      "scatterbug-ocean",
+      "scatterbug-jungle",
+      "scatterbug-fancy",
+      "scatterbug-poke-ball"
+    ],
+    "moves": [
+      "tackle",
+      "poison-powder",
+      "stun-spore",
+      "string-shot",
+      "bug-bite",
+      "rage-powder",
+      "struggle-bug",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 40,
+    "is_default": true,
+    "order": 796,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/664.png"
+    },
+    "species_name": "scatterbug",
+    "flavor_text": "When under attack from bird Pok\u00e9mon, it spews a poisonous black powder that causes paralysis on contact.",
+    "genus": "Scatterdust Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "armor",
+    "color": "black",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/342/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 342,
+      "chain": {
+        "species_name": "scatterbug",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "spewpa",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 9
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "vivillon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 12
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

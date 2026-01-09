@@ -1,0 +1,12 @@
+## Identity & Lore
+Yamper (#835) is the Puppy Pokémon, a quadrupedal Electric-type recognized for its vibrant yellow fur and playful disposition. First discovered in the Galar region during Generation VIII, this Pokémon has become a staple of Galarian culture, widely utilized as a dedicated herding dog for Wooloo flocks. Yamper possesses an organ in its body that generates electricity, but it cannot store it efficiently; consequently, it is often seen running around with sparks flying from the base of its tail. Its design is heavily inspired by the Corgi, reflecting its role in a region based on the United Kingdom. While Yamper does not possess a Mega Evolution or Gigantamax form itself, its evolved form, Boltund, is a prominent competitive threat in lower tiers, and Yamper remains a fan favorite for its unique "Ball Fetch" behavior, reflecting its obsession with chasing moving objects.
+
+## Combat Profile
+* **Stats:** HP 59, Attack 45, Defense 50, Sp. Atk 40, Sp. Def 50, Speed 26.
+* **Archetype:** Early-game Physical Attacker / Utility Support.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**. 
+* **Move Selection:** Despite its low base stat total, Yamper can utilize a diverse physical and utility movepool. Key moves include **Wild Charge** for powerful STAB (Same Type Attack Bonus) damage, **Play Rough** for Fairy-type coverage against Dragon and Fighting types, **Fire Fang** to surprise Grass and Steel types, and **Nuzzle** for guaranteed paralysis to compensate for its low Speed.
+* **Abilities:** Ball Fetch (If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of a capture attempt); Rattled (Its Speed is boosted when hit by a Bug-, Ghost-, or Dark-type move).
+
+## Evolution & Biology
+Yamper is the first stage of a two-stage evolutionary line. It evolves into **Boltund** starting at **Level 25**. Biologically, Yamper is driven by a gluttonous appetite, often only helping humans in exchange for treats. It belongs to the **Field (Ground)** Egg Group, and with a hatch counter of 20, it is relatively easy for breeders to produce. Its "Fast" growth rate allows it to reach its evolved state quickly, making it an ideal companion for trainers beginning their journey through the Galar region.

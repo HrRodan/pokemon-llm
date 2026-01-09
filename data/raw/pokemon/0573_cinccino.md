@@ -1,0 +1,12 @@
+## Identity & Lore
+Cinccino (Pokedex #573) is the Scarf Pokémon, a sophisticated Normal-type creature first discovered in the Unova region during Generation V. Distinguished by its luxurious, white fur that wraps around its neck like a scarf, Cinccino is renowned for its obsession with cleanliness and elegance. This fur is not merely aesthetic; it is coated in a unique, secret oil that allows the Pokémon to deflect enemy attacks and prevent dust or static electricity from clinging to its body. In the wild and in domestic settings, Cinccino is known to use its long, soft tail as a feather duster to meticulously clean its surroundings. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, its high-speed performance and unique move pool make it a staple in competitive play for trainers seeking a fast, multi-hit specialist.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 95, Defense 60, Sp. Atk 65, Sp. Def 60, Speed 115.
+* **Archetype:** Fast Physical Sweeper / Hazard Cleaner. 
+* **Type Matchups:** It is **weak to Fighting** and possesses a natural **immunity to Ghost**. As a pure Normal-type, it has no elemental resistances, relying instead on its high Speed to strike first.
+* **Move Selection:** Cinccino excels by utilizing multi-hit physical attacks that bypass "Sturdy" abilities and "Focus Sash" items. Key moves include **Tail Slap** (STAB multi-hit), **Bullet Seed** (Grass-type coverage), **Rock Blast** (Rock-type coverage), and the pivotal setup move **Tidy Up**, which clears hazards like Spikes and Stealth Rock while simultaneously boosting its Attack and Speed.
+* **Abilities:** **Skill Link** (Hidden Ability: Guarantees that multi-hit moves like Tail Slap will always hit the maximum 5 times); **Technician** (Increases the power of moves with a base power of 60 or less by 50%); **Cute Charm** (May cause infatuation if the opponent makes contact).
+
+## Evolution & Biology
+Cinccino is the final form of a two-stage evolutionary line. It evolves from **Minccino** when exposed to the radiant energy of a **Shiny Stone**. Biologically, it is a mammalian quadruped (though often seen standing) that belongs to the **Field (Ground)** Egg Group. With a hatch counter of 15, it is relatively quick to breed. Cinccino's physiology is built for agility rather than endurance, as evidenced by its high Base Speed and relatively low defensive stats. Its white fur is so smooth and oil-rich that even the grip of a foe is said to slide right off, making it a difficult target to pin down in close-quarters combat.

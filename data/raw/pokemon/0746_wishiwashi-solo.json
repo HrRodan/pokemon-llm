@@ -1,0 +1,137 @@
+{
+  "pokemon_details": {
+    "id": 746,
+    "name": "wishiwashi-solo",
+    "stats": {
+      "hp": 45,
+      "attack": 20,
+      "defense": 20,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 40
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.3,
+    "abilities": [
+      {
+        "name": "schooling",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "wishiwashi-solo"
+    ],
+    "moves": [
+      "take-down",
+      "double-edge",
+      "growl",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "waterfall",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "feint-attack",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "beat-up",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "dive",
+      "muddy-water",
+      "mud-shot",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "brine",
+      "u-turn",
+      "aqua-ring",
+      "aqua-tail",
+      "soak",
+      "round",
+      "scald",
+      "bulldoze",
+      "confide",
+      "liquidation",
+      "tearful-look",
+      "scale-shot",
+      "flip-turn"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 901,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/746.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/746.png"
+    },
+    "species_name": "wishiwashi",
+    "flavor_text": "When it\u2019s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
+    "genus": "Small Fry Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/384/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 384,
+      "chain": {
+        "species_name": "wishiwashi",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

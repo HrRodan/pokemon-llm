@@ -1,0 +1,12 @@
+## Identity & Lore
+Indeedee (Female) (Pokedex #10186) is the Emotion Pokémon, a unique Psychic/Normal-type species first discovered in the Galar region of Generation VIII. Characterized by its nurturing and diligent nature, this female variant serves as a dedicated housekeeper or nanny, using the sensitive horns on its head to detect the subtle emotional shifts of those it serves. Unlike its more aggressive male counterpart, the female Indeedee radiates a calm aura and thrives in domestic environments where it can provide support and care. While it does not possess a Mega Evolution or Gigantamax form, its presence in the Paldea region has further cemented its reputation as a premier support specialist. Its appearance is defined by its purple and white coloration, rounded features, and an expression of serene readiness.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 55, Defense 65, Sp. Atk 95, Sp. Def 105, Speed 85.
+* **Archetype:** Defensive Utility Support / Terrain Setter.
+* **Type Matchups:** It is **weak to Bug and Dark**. It possesses a vital **Immunity to Ghost** due to its Normal typing and **resists Psychic** attacks.
+* **Move Selection:** Focused on redirecting attacks and capitalizing on terrain, its key moves include **Expanding Force** (which hits both foes in Psychic Terrain), **Follow Me** (to protect allies), **Helping Hand** (to boost partner damage), and **Mystical Fire** (to lower the opponent's Special Attack).
+* **Abilities:** **Own Tempo** (prevents the Pokémon from becoming confused), **Synchronize** (passes burns, paralysis, or poison back to the attacker), and its most vital hidden ability, **Psychic Surge** (automatically summons Psychic Terrain upon entering battle, preventing priority moves and boosting Psychic-type power).
+
+## Evolution & Biology
+Indeedee is a single-stage Pokémon and does not evolve into or from any other species. It exhibits significant sexual dimorphism; while both genders belong to the same species, the female is biologically predisposed toward defensive stats and supportive techniques like *Follow Me*, whereas the male focuses on offensive pressure. It belongs to the **Fairy** egg group, and its biology is deeply intertwined with the emotional states of nearby humans and Pokémon, often appearing in areas where happiness is abundant. It has a hatch counter of 40 and a fast growth rate, allowing it to reach maturity quickly to begin its life of service.

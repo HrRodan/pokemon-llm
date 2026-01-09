@@ -1,0 +1,159 @@
+{
+  "pokemon_details": {
+    "id": 929,
+    "name": "dolliv",
+    "stats": {
+      "hp": 52,
+      "attack": 53,
+      "defense": 60,
+      "special-attack": 78,
+      "special-defense": 78,
+      "speed": 33
+    },
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 11.9,
+    "abilities": [
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dolliv"
+    ],
+    "moves": [
+      "tackle",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "swift",
+      "rest",
+      "substitute",
+      "flail",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "sweet-scent",
+      "sunny-day",
+      "facade",
+      "helping-hand",
+      "weather-ball",
+      "bullet-seed",
+      "magical-leaf",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "leaf-storm",
+      "grass-knot",
+      "grassy-terrain",
+      "solar-blade",
+      "terrain-pulse",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 124,
+    "is_default": true,
+    "order": 936,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/929.png"
+    },
+    "species_name": "dolliv",
+    "flavor_text": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+    "genus": "Olive Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/487/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 487,
+      "chain": {
+        "species_name": "smoliv",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dolliv",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "arboliva",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

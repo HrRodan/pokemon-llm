@@ -1,0 +1,143 @@
+{
+  "pokemon_details": {
+    "id": 10216,
+    "name": "flapple-gmax",
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 95,
+      "special-defense": 60,
+      "speed": 70
+    },
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "height_m": 24.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "ripen",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "flapple-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10216.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10216.png"
+    },
+    "species_name": "flapple",
+    "flavor_text": "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
+    "genus": "Apple Wing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "wings",
+    "color": "green",
+    "egg_groups": [
+      "plant",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/442/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 442,
+      "chain": {
+        "species_name": "applin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "flapple",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "tart-apple"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "appletun",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "sweet-apple"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "dipplin",
+            "evolution_details": [],
+            "evolves_to": [
+              {
+                "species_name": "hydrapple",
+                "evolution_details": [],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

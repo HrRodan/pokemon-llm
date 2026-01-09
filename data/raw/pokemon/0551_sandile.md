@@ -1,0 +1,12 @@
+## Identity & Lore
+Sandile (Pokedex #551) is the Desert Croc Pokémon, a dual-type Ground and Dark-type creature first discovered in the Unova region (Generation V). Appearing primarily as a small, quadrupedal crocodile with a tan body and distinctive black stripes, Sandile is perfectly adapted for arid environments. It spends the majority of its life buried just beneath the surface of desert sands, leaving only its eyes and nose exposed to monitor its surroundings. This behavior is not just for hunting; the sun-warmed sand is vital for its survival, as it uses the external heat to prevent its body temperature from dropping during the cold desert nights. While it does not possess a Mega Evolution or Gigantamax form, its final evolution, Krookodile, is renowned for its predatory prowess and intimidation.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 72, Defense 35, Sp. Atk 35, Sp. Def 35, Speed 65.
+* **Archetype:** Early-game Physical Attacker / Moxie Sweeper.
+* **Type Matchups:** It is **weak to Water, Grass, Ice, Fighting, Bug, and Fairy**. Conversely, it is completely **immune to Electric and Psychic** attacks and possesses resistances to Rock, Poison, Ghost, and Dark.
+* **Move Selection:** Sandile thrives when utilizing its Physical Attack stat. In competitive play (particularly in Little Cup tiers), its most effective moves include **Earthquake** (its strongest STAB Ground move), **Crunch** (for consistent Dark-type damage), **Stone Edge** (for Rock-type coverage against Flying types), and **Pursuit** or **Power-Trip** to capitalize on forced switches or stat boosts.
+* **Abilities:** **Intimidate** (lowers the opponent's Attack upon entering battle, providing much-needed bulk to its low defenses); **Moxie** (boosts its Attack stat by one stage every time it knocks out an opponent, allowing it to become a snowballing physical sweeper); **Anger Point** (Hidden Ability—instantly maximizes Attack if the Pokémon is hit by a critical hit).
+
+## Evolution & Biology
+Sandile is the first stage of a three-stage evolutionary line. It evolves into **Krokorok** starting at **Level 29**, which then matures into the formidable **Krookodile** at **Level 40**. Biologically, Sandile are often found holding **Black Glasses**, which enhance their Dark-type maneuvers. They belong to the **Field** (Ground) Egg Group and have a hatch counter of 20, making them relatively accessible for trainers and breeders. Their medium-slow growth rate reflects their steady transition from a camouflaged desert dweller to an apex predator of the Unovan dunes.

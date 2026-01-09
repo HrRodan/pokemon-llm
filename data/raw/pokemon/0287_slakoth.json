@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 287,
+    "name": "slakoth",
+    "stats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 30
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 24.0,
+    "abilities": [
+      {
+        "name": "truant",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "slakoth"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "toxic",
+      "mimic",
+      "double-team",
+      "metronome",
+      "fire-blast",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "pursuit",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "brick-break",
+      "yawn",
+      "secret-power",
+      "slack-off",
+      "crush-claw",
+      "rock-tomb",
+      "tickle",
+      "aerial-ace",
+      "bulk-up",
+      "mud-shot",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "sucker-punch",
+      "poison-jab",
+      "night-slash",
+      "seed-bomb",
+      "x-scissor",
+      "shadow-claw",
+      "zen-headbutt",
+      "gunk-shot",
+      "captivate",
+      "hone-claws",
+      "after-you",
+      "round",
+      "chip-away",
+      "incinerate",
+      "retaliate",
+      "work-up",
+      "play-rough",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 56,
+    "is_default": true,
+    "order": 390,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/287.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/287.png"
+    },
+    "species_name": "slakoth",
+    "flavor_text": "SLAKOTH lolls around for over twenty hours every day. Because it moves so little, it does not need much food. This POK\u00e9MON\u2019s sole daily meal consists of just three leaves.",
+    "genus": "Slacker Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/143/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 143,
+      "chain": {
+        "species_name": "slakoth",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vigoroth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "slaking",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

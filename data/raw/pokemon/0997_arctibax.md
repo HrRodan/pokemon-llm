@@ -1,0 +1,14 @@
+## Identity & Lore
+Arctibax (#997) is the Ice Fin Pokémon, representing the formidable mid-stage of the Paldean region’s Pseudo-legendary evolutionary line introduced in Generation IX. This bipedal, gray-scaled Pokémon is characterized by its distinct biological adaptation to sub-zero temperatures; it freezes the moisture in the air to create a protective ice mask over its face. Its most striking feature is the large, sail-like dorsal fin which it transforms into a razor-sharp blade of ice for combat. As a member of the elite Pseudo-legendary family, Arctibax is the precursor to the titan Baxcalibur, and while it does not possess a Mega Evolution or Gigantamax form, it is a primary candidate for the Terastal phenomenon in its native Paldea, often utilizing the Ice or Dragon Tera Type to bolster its offensive presence.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 95, Defense 66, Sp. Atk 45, Sp. Def 65, Speed 62.
+* **Archetype:** Physical Bruiser. While currently in its growth phase, its high HP and Attack make it a potent mid-game threat that can take a hit before retaliating with significant force.
+* **Type Matchups:** As a Dragon/Ice type, it is **weak to Fighting, Rock, Steel, Dragon, and Fairy**. Notably, its Dragon typing neutralizes the traditional Fire weakness of Ice types, making Fire-type attacks neutral. It **resists Water, Grass, and Electric**.
+* **Move Selection:** Arctibax relies heavily on its physical prowess, as its Special Attack is significantly lower than its base Attack. Optimal moves include **Icicle Crash** for heavy STAB (Same Type Attack Bonus) damage, **Dragon Claw** for reliable physical pressure, **Swords Dance** to drastically increase its sweeping potential, and **Iron Head** to provide vital coverage against the Fairy and Rock types that threaten it.
+* **Abilities:** 
+    * **Thermal Exchange:** A signature ability of this line; it boosts the Pokémon's Attack stat when hit by a Fire-type move and grants total immunity to the Burn status condition.
+    * **Ice Body (Hidden Ability):** Gradually regenerates HP during a hailstorm or snowscape, enhancing its durability in weather-based team compositions.
+
+## Evolution & Biology
+Arctibax is the second stage of a three-part evolutionary chain. it evolves from **Frigibax** once it reaches **Level 35**. It undergoes its final transformation into the massive **Baxcalibur** upon reaching **Level 54**, making it one of the later-evolving species in the Paldea region. Biologically, Arctibax belongs to the **Dragon and Mineral** Egg Groups. It has a **Slow** growth rate, reflecting the intensive training required to master its thermal abilities, and requires a **Hatch Counter of 40** (approx. 10,240 steps) to emerge from an Egg, a trait common among high-tier draconic species.

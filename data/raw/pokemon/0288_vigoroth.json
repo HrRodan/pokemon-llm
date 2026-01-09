@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 288,
+    "name": "vigoroth",
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 90
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 46.5,
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "vigoroth"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "metronome",
+      "fire-blast",
+      "amnesia",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "yawn",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "slack-off",
+      "hyper-voice",
+      "rock-tomb",
+      "aerial-ace",
+      "bulk-up",
+      "mud-shot",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "sucker-punch",
+      "poison-jab",
+      "seed-bomb",
+      "x-scissor",
+      "drain-punch",
+      "focus-blast",
+      "shadow-claw",
+      "zen-headbutt",
+      "rock-climb",
+      "gunk-shot",
+      "captivate",
+      "hone-claws",
+      "low-sweep",
+      "after-you",
+      "round",
+      "chip-away",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "play-rough",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "stomping-tantrum",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 154,
+    "is_default": true,
+    "order": 391,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/288.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/288.png"
+    },
+    "species_name": "vigoroth",
+    "flavor_text": "VIGOROTH is always itching and agitated to go on a wild rampage. It simply can\u2019t tolerate sitting still for even a minute. This POK\u00e9MON\u2019s stress level rises if it can\u2019t be moving constantly.",
+    "genus": "Wild Monkey Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow",
+    "habitat": "forest",
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/143/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 143,
+      "chain": {
+        "species_name": "slakoth",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vigoroth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "slaking",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

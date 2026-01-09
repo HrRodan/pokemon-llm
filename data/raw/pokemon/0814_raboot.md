@@ -1,0 +1,12 @@
+## Identity & Lore
+Raboot (#814) is the Rabbit Pokémon, a pure Fire-type species first discovered in the Galar region during Generation VIII. It is easily recognized by its thick, gray, fluffy fur that serves as a natural thermal insulator, protecting it from freezing temperatures while simultaneously allowing it to store and harness internal heat to unleash significantly hotter fire moves. Raboot often keeps its hands tucked into its belly fur—much like a hoodie pocket—to maintain its body heat and practice its signature footwork. While Raboot itself does not possess a Mega Evolution or a Gigantamax form, its final evolution, Cinderace, is well-known for its powerful Gigantamax capability.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 86, Defense 60, Sp. Atk 55, Sp. Def 60, Speed 94.
+* **Archetype:** Fast Physical Attacker. Its base Speed of 94 allows it to outpace many mid-tier threats, while its Attack stat is significantly higher than its Special Attack.
+* **Type Matchups:** It is **weak to Ground, Rock, and Water**. It **resists Bug, Steel, Grass, Ice, Fire, and Fairy-type** attacks.
+* **Move Selection:** Capitalizing on its high Attack and Speed, key moves include **Flare Blitz** for maximum STAB (Same-Type Attack Bonus) damage, **High Jump Kick** for high-power Fighting-type coverage, **Sucker Punch** for essential priority against faster threats, and **U-turn** to maintain offensive momentum and pivot out of danger.
+* **Abilities:** **Blaze** increases the power of Fire-type moves by 50% when Raboot's health drops below one-third. Its Hidden Ability, **Libero**, is exceptionally powerful in competitive play; it changes Raboot’s type to match the move it is currently using, ensuring that every attack it executes receives a STAB boost.
+
+## Evolution & Biology
+Raboot is part of a three-stage evolutionary line. It evolves from the Fire-type starter **Scorbunny** once it reaches **Level 16**. Following its growth as a disciplined and stoic combatant, Raboot evolves into its final form, **Cinderace**, starting at **Level 35**. Biologically, Raboot belongs to both the **Ground** and **Human-Like** Egg Groups. It has a hatch counter of 20 and exhibits a medium-slow growth rate, requiring dedicated training to reach its full potential as a professional-grade striker.

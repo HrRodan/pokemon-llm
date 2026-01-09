@@ -1,0 +1,206 @@
+{
+  "pokemon_details": {
+    "id": 295,
+    "name": "exploud",
+    "stats": {
+      "hp": 104,
+      "attack": 91,
+      "defense": 63,
+      "special-attack": 91,
+      "special-defense": 73,
+      "speed": 68
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 84.0,
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "exploud"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "bite",
+      "roar",
+      "supersonic",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "fake-tears",
+      "overheat",
+      "rock-tomb",
+      "howl",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "focus-blast",
+      "giga-impact",
+      "avalanche",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "rock-climb",
+      "captivate",
+      "smack-down",
+      "synchronoise",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "boomburst",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "terrain-pulse"
+    ],
+    "held_items": [
+      "chesto-berry"
+    ],
+    "base_experience": 221,
+    "is_default": true,
+    "order": 398,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/295.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/295.png"
+    },
+    "species_name": "exploud",
+    "flavor_text": "EXPLOUD triggers earthquakes with the tremors it creates by bellowing. If this POK\u00e9MON violently inhales from the ports on its body, it\u2019s a sign that it is preparing to let loose a huge bellow.",
+    "genus": "Loud Noise Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/145/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 145,
+      "chain": {
+        "species_name": "whismur",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "loudred",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "exploud",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 40
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

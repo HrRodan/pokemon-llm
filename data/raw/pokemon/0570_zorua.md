@@ -1,0 +1,12 @@
+## Identity & Lore
+Zorua (Pokedex #570) is the Tricky Fox Pokémon, a cunning Dark-type species first discovered in the Unova region during Generation V. Characterized by its slate-gray fur and mischievous nature, Zorua is renowned for its ability to conjure illusions to deceive its enemies or protect itself. According to historical flavor text, this shy Pokémon often transforms into a silent child to wander human settlements unnoticed or avoid danger. While the Unovan variant is a pure Dark-type, a distinct regional variant known as **Hisuian Zorua** exists in the ancient Hisui region, possessing a unique Normal/Ghost typing and a grudge-filled origin. Though it does not possess a Mega Evolution or Gigantamax form, its evolved form, Zoroark, is a focal point of competitive strategy and cinematic lore.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 65, Defense 40, Sp. Atk 80, Sp. Def 40, Speed 65.
+* **Archetype:** Special Glass Cannon / Setup Sweeper.
+* **Type Matchups:** It is **weak to Fighting, Bug, and Fairy**. It **resists Ghost and Dark**, and possesses a total **immunity to Psychic-type moves**.
+* **Move Selection:** Prioritizing its superior Special Attack stat, Zorua excels with moves like **Night Daze** (its signature status-lowering STAB), **Dark Pulse** (for consistent flinch potential), **Extrasensory** (to counter Fighting-type weaknesses), and **Sludge Bomb** (to threaten Fairy-type opponents).
+* **Abilities:** **Illusion** (The Pokémon enters the battlefield disguised as the last conscious Pokémon in the trainer's party, breaking only when damaged by a direct attack. This allows for high-level mind games and baiting the opponent into using ineffective moves).
+
+## Evolution & Biology
+Zorua is part of a two-stage evolutionary line. It evolves into the formidable **Zoroark** upon reaching **Level 30**. Biologically, Zorua is a quadrupedal fox-like creature with a distinctive red-tipped tuft of hair on its head. It belongs to the **Field (Ground)** Egg Group, and with a hatch counter of 25, it requires significant effort to breed for competitive play. Its "medium-slow" growth rate reflects the patience required to train this elusive trickster. In the wild, it uses its illusory powers not just for defense, but to playfully prank unsuspecting travelers.

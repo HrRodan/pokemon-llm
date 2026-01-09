@@ -1,0 +1,248 @@
+{
+  "pokemon_details": {
+    "id": 395,
+    "name": "empoleon",
+    "stats": {
+      "hp": 84,
+      "attack": 86,
+      "defense": 88,
+      "special-attack": 111,
+      "special-defense": 101,
+      "speed": 60
+    },
+    "types": [
+      "water",
+      "steel"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 84.5,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "empoleon"
+    ],
+    "moves": [
+      "pound",
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "fury-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "peck",
+      "drill-peck",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "agility",
+      "double-team",
+      "haze",
+      "waterfall",
+      "swift",
+      "bubble",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "yawn",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "feather-dance",
+      "hydro-cannon",
+      "weather-ball",
+      "air-cutter",
+      "rock-tomb",
+      "metal-sound",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "covet",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "pluck",
+      "fling",
+      "aqua-ring",
+      "air-slash",
+      "vacuum-wave",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "flash-cannon",
+      "rock-climb",
+      "defog",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "aqua-jet",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "scald",
+      "quash",
+      "water-pledge",
+      "bulldoze",
+      "work-up",
+      "disarming-voice",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "power-trip",
+      "liquidation",
+      "steel-beam",
+      "lash-out",
+      "flip-turn",
+      "triple-axel",
+      "dual-wingbeat",
+      "wave-crash",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": true,
+    "order": 526,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/395.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/395.png"
+    },
+    "species_name": "empoleon",
+    "flavor_text": "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+    "genus": "Emperor Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/205/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 205,
+      "chain": {
+        "species_name": "piplup",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "prinplup",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "empoleon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

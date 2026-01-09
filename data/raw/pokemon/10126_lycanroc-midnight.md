@@ -1,0 +1,12 @@
+## Identity & Lore
+Midnight Lycanroc (Pokedex #10126) is the Midnight Form of the Wolf Pokémon, a striking bipedal variant first discovered in the Alola region of Generation VII. Unlike its diurnal counterparts, this form is characterized by its hunched posture, glowing red eyes, and a thick mane of rocky fur that it uses to batter its opponents. It is known for a reckless, bloodthirsty battle style, often inviting attacks just to strike back with devastating force. While it does not possess a Mega Evolution or Gigantamax form, it represents one of the three distinct evolutionary paths for Rockruff, alongside the Midday and Dusk forms. Its biological temperament is described as highly aggressive, preferring to live in isolation and coming alive under the light of a full moon to challenge powerful foes.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 115, Defense 75, Sp. Atk 55, Sp. Def 75, Speed 82.
+* **Archetype:** Physical Wallbreaker / Revenge Killer.
+* **Type Matchups:** As a pure Rock-type, it is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Flying, Poison, and Fire**.
+* **Move Selection:** Leveraging its high physical Attack and unique ability, its optimal moveset includes **Stone Edge** (high-damage STAB), **Close Combat** (powerful Fighting-type coverage), **Play Rough** (Fairy-type coverage against Dragon and Fighting types), and **Swords Dance** to boost its sweeping potential.
+* **Abilities:** **Keen Eye** prevents accuracy loss; **Vital Spirit** prevents the Pokémon from falling asleep; **No Guard** (Hidden Ability) ensures that all moves used by or against this Pokémon will land with 100% accuracy, making the inherently inaccurate Stone Edge a guaranteed hit.
+
+## Evolution & Biology
+Midnight Lycanroc is the final stage of a two-stage evolutionary line. It evolves from **Rockruff** starting at **Level 25**, specifically when leveled up during the **nighttime** (or in Pokémon Moon/Ultra Moon versions). Its physiology is built for endurance and counter-attacking; the sharp rocks embedded in its mane are harder than diamond. It belongs to the **Field (Ground)** Egg Group and has a hatch counter of 15, indicating a moderate breeding cycle. Biologically, it is famous for its "Counter" tactic, where it absorbs a blow and immediately retaliates with doubled physical force, a trait reflected in its lore as a fighter that finds thrills in the heat of combat.

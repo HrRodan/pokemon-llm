@@ -1,0 +1,15 @@
+## Identity & Lore
+Hawlucha (Pokedex #701) is the Wrestling Pokémon, a unique Fighting and Flying-type species first discovered in the Kalos region of Generation VI. Standing at just under a meter tall, this green, bipedal avian-like Pokémon possesses a colorful plumage that resembles the ornate masks and capes of traditional *luchadores*. Despite its relatively small size, Hawlucha is celebrated for its technical prowess and tactical brilliance, often engaging in fierce combat with much larger opponents like Machamp, Hariyama, and Primeape. It is known for its flamboyant battle style, often posing to show off its skills before delivering a finishing blow. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox variant, its signature move, **Flying Press**, remains a mechanical marvel in the Pokémon world as the only move to simultaneously deal both Fighting and Flying-type damage.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 92, Defense 75, Sp. Atk 74, Sp. Def 63, Speed 118.
+* **Archetype:** Fast Physical Sweeper. Hawlucha relies on its elite Speed tier and setup potential to dismantle teams before they can react.
+* **Type Matchups:** It is **weak to Flying, Psychic, Fairy, Electric, and Ice**. It possesses a vital **immunity to Ground** and provides resistances against **Fighting, Grass, and Dark**, while taking heavily reduced damage from **Bug** (0.25x resistance).
+* **Move Selection:** Hawlucha excels when utilizing physical moves that leverage its high Speed and Attack. Key moves in its repertoire include **Flying Press** (its signature dual-type strike), **High Jump Kick** (a high-risk, high-reward Fighting STAB), **Acrobatics** (which doubles in power to 110 when no item is held), and **Swords Dance** (to boost its offensive pressure to sweeping levels).
+* **Abilities:** 
+    * **Limber:** Grants immunity to paralysis, ensuring Hawlucha’s crucial Speed stat is never compromised.
+    * **Unburden:** This is Hawlucha's most competitive ability; it doubles its Speed stat when its held item is consumed or lost. This is often triggered using a **Sitrus Berry** or an **Electric/Grassy Seed** in tandem with Terrain.
+    * **Mold Breaker (Hidden):** Allows Hawlucha to ignore the defensive abilities of opponents, such as hitting through Sturdy or ignoring Unaware during a sweep.
+
+## Evolution & Biology
+Hawlucha is a standalone species and is not known to evolve into or from any other Pokémon. It belongs to both the **Flying** and **Human-like** Egg Groups, reflecting its hybrid avian physiology and humanoid combat stance. Biologically, it is highly agile, using its wing-like arms to glide and reposition during wrestling maneuvers. It typically carries a **King's Rock** in the wild, signifying its status as a "king of the ring." Its breeding cycle is standard for mid-tier predators, requiring a hatch counter of approximately 20 (5,120 steps) to produce offspring. Hawlucha's fighting style is a point of pride; it is said to favor artistic finishes over brute force, often leaping from heights to strike its foes with the momentum of its entire body.

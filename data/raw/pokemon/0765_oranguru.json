@@ -1,0 +1,197 @@
+{
+  "pokemon_details": {
+    "id": 765,
+    "name": "oranguru",
+    "stats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 80,
+      "special-attack": 90,
+      "special-defense": 110,
+      "speed": 60
+    },
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 76.0,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "oranguru"
+    ],
+    "moves": [
+      "mega-punch",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "psybeam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "facade",
+      "nature-power",
+      "taunt",
+      "trick",
+      "magic-coat",
+      "brick-break",
+      "yawn",
+      "knock-off",
+      "endeavor",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "hyper-voice",
+      "extrasensory",
+      "block",
+      "covet",
+      "calm-mind",
+      "gravity",
+      "payback",
+      "embargo",
+      "fling",
+      "last-resort",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "after-you",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "quash",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "psychic-terrain",
+      "instruct",
+      "brutal-swing",
+      "expanding-force",
+      "terrain-pulse",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 924,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/765.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/765.png"
+    },
+    "species_name": "oranguru",
+    "flavor_text": "Known for its extreme intelligence, this Pok\u00e9mon will look down on inexperienced Trainers, so it\u2019s best suited to veteran Trainers.",
+    "genus": "Sage Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/394/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 394,
+      "chain": {
+        "species_name": "oranguru",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+## Identity & Lore
+Leavanny (Pokedex #542) is the Nurturing Pokémon, a bipedal, insectoid creature originally discovered in the Unova region during Generation V. Distinguished by its humanoid shape and vibrant green, leaf-like attire, it is renowned in the Pokémon world as a skilled tailor of the forest. Using the sharp cutters on its arms and sticky silk produced from its mouth, it weaves intricate clothing from leaves to keep small Pokémon warm, particularly its pre-evolved form, Sewaddle. While it primarily inhabits lush forests and canopy environments, its maternal instincts extend to other species, often providing shelter and warmth to those in need. Despite its elegant and nurturing appearance, its blade-like appendages are highly functional for both craftsmanship and defense. Currently, Leavanny has no known Mega Evolution, Gigantamax, or Paradox forms, but it remains a staple of the Unovan ecosystem.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 103, Defense 80, Sp. Atk 70, Sp. Def 80, Speed 92.
+* **Archetype:** Physical Setup Sweeper.
+* **Type Matchups:** Due to its dual Bug/Grass typing, Leavanny faces significant defensive challenges. It suffers from a **Double Weakness (4x) to Fire and Flying** types, and is also weak to Rock, Poison, Bug, and Ice. Conversely, it provides valuable **resistances to Ground, Water, Electric, Fighting, and Grass.**
+* **Move Selection:** Leveraging its high physical Attack and access to setup moves, Leavanny excels with a moveset including **Swords Dance** to double its offensive pressure, **Leaf Blade** for a high-critical-hit STAB (Same Type Attack Bonus) option, **X-Scissor** for reliable Bug-type damage, and **Poison Jab** or **Knock Off** for crucial coverage against Fairy and Psychic types.
+* **Abilities:** 
+    * **Swarm:** Increases the power of Bug-type moves by 50% when HP is low, turning X-Scissor into a devastating finisher.
+    * **Chlorophyll:** Doubles Speed in harsh sunlight, transforming Leavanny into a premier threat on "Sun Teams."
+    * **Overcoat (Hidden):** Protects the Pokémon from weather-related damage (like Sandstorm or Hail) and powder-based moves (like Sleep Powder or Spore).
+
+## Evolution & Biology
+Leavanny is the final stage of a three-stage evolutionary line. It begins its life as **Sewaddle**, which lives on the forest floor. Sewaddle evolves into the reclusive, leaf-wrapped **Swadloon** starting at Level 20. The final transformation into **Leavanny** is unique; it occurs only when Swadloon is leveled up with **High Friendship (220+ happiness)**, representing the bond and care it has developed for its trainer or environment. Biologically, it belongs to the **Bug** egg group and has a medium-slow growth rate. Its humanoid shape allows it to use moves like **Triple Axel** and **Helping Hand**, reflecting its versatile and supportive nature in both wild and competitive settings.

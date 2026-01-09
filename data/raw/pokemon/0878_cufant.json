@@ -1,0 +1,162 @@
+{
+  "pokemon_details": {
+    "id": 878,
+    "name": "cufant",
+    "stats": {
+      "hp": 72,
+      "attack": 80,
+      "defense": 49,
+      "special-attack": 40,
+      "special-defense": 49,
+      "speed": 40
+    },
+    "types": [
+      "steel"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 100.0,
+    "abilities": [
+      {
+        "name": "sheer-force",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heavy-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cufant"
+    ],
+    "moves": [
+      "whirlwind",
+      "slam",
+      "stomp",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "screech",
+      "defense-curl",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "rock-smash",
+      "facade",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "rock-tomb",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "fling",
+      "earth-power",
+      "zen-headbutt",
+      "flash-cannon",
+      "power-whip",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "work-up",
+      "belch",
+      "play-rough",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "steel-roller",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 1065,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/878.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/878.png"
+    },
+    "species_name": "cufant",
+    "flavor_text": "It digs up the ground with its trunk. It\u2019s also very strong, being able to carry loads of over five tons without any problem at all.",
+    "genus": "Copperderm Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/460/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 460,
+      "chain": {
+        "species_name": "cufant",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "copperajah",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

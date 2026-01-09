@@ -1,0 +1,185 @@
+{
+  "pokemon_details": {
+    "id": 804,
+    "name": "naganadel",
+    "stats": {
+      "hp": 73,
+      "attack": 73,
+      "defense": 73,
+      "special-attack": 127,
+      "special-defense": 73,
+      "speed": 121
+    },
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "height_m": 3.6,
+    "weight_kg": 150.0,
+    "abilities": [
+      {
+        "name": "beast-boost",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "naganadel"
+    ],
+    "moves": [
+      "fly",
+      "fury-attack",
+      "pin-missile",
+      "growl",
+      "acid",
+      "flamethrower",
+      "hyper-beam",
+      "peck",
+      "thunderbolt",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "swift",
+      "leech-life",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "spikes",
+      "outrage",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "helping-hand",
+      "snatch",
+      "air-cutter",
+      "signal-beam",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "shock-wave",
+      "tailwind",
+      "u-turn",
+      "assurance",
+      "gastro-acid",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "air-slash",
+      "x-scissor",
+      "dragon-pulse",
+      "dragon-rush",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "draco-meteor",
+      "cross-poison",
+      "gunk-shot",
+      "venoshock",
+      "sludge-wave",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "hex",
+      "sky-drop",
+      "acrobatics",
+      "dragon-tail",
+      "snarl",
+      "fell-stinger",
+      "confide",
+      "venom-drench",
+      "laser-focus",
+      "throat-chop",
+      "smart-strike",
+      "breaking-swipe",
+      "scale-shot",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 243,
+    "is_default": true,
+    "order": 985,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/804.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/804.png"
+    },
+    "species_name": "naganadel",
+    "flavor_text": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+    "genus": "Poison Pin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/424/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 424,
+      "chain": {
+        "species_name": "poipole",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "naganadel",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "dragon-pulse"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

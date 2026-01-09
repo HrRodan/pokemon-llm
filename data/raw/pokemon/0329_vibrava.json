@@ -1,0 +1,219 @@
+{
+  "pokemon_details": {
+    "id": 329,
+    "name": "vibrava",
+    "stats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 70
+    },
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 15.3,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "vibrava"
+    ],
+    "moves": [
+      "gust",
+      "fly",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "supersonic",
+      "sonic-boom",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "mimic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "hidden-power",
+      "twister",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "superpower",
+      "secret-power",
+      "astonish",
+      "air-cutter",
+      "rock-tomb",
+      "silver-wind",
+      "signal-beam",
+      "sand-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "mud-shot",
+      "roost",
+      "natural-gift",
+      "feint",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "bug-buzz",
+      "dragon-pulse",
+      "dragon-rush",
+      "earth-power",
+      "giga-impact",
+      "defog",
+      "draco-meteor",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "bug-bite",
+      "ominous-wind",
+      "round",
+      "struggle-bug",
+      "bulldoze",
+      "dragon-tail",
+      "boomburst",
+      "confide",
+      "first-impression",
+      "laser-focus",
+      "throat-chop",
+      "dual-wingbeat",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 119,
+    "is_default": true,
+    "order": 441,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/329.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/329.png"
+    },
+    "species_name": "vibrava",
+    "flavor_text": "To make prey faint, VIBRAVA generates ultrasonic waves by vigorously making its two wings vibrate. This POK\u00e9MON\u2019s ultrasonic waves are so powerful, they can bring on headaches in people.",
+    "genus": "Vibration Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "rough-terrain",
+    "shape": "bug-wings",
+    "color": "green",
+    "egg_groups": [
+      "bug",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/166/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 166,
+      "chain": {
+        "species_name": "trapinch",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vibrava",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "flygon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 45
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

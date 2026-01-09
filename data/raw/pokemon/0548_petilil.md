@@ -1,0 +1,12 @@
+## Identity & Lore
+Petilil (Pokedex #548) is the Bulb Pokémon, a small plant-like creature originally discovered in the Unova region during Generation V. Characterized by its small, round body and the three vibrant leaves sprouting from its head, Petilil is a staple of lush, green environments. These leaves are a defining biological feature; they are remarkably bitter to the taste, yet they possess potent medicinal properties capable of instantly refreshing a fatigued body. While Petilil is a pure Grass-type in its base form, it holds unique evolutionary potential depending on its environment. Although it traditionally evolves into the elegant Lilligant, world knowledge confirms it can also evolve into the Grass/Fighting-type Hisuian Lilligant when exposed to a Sun Stone in the Hisui region (Generation VIII).
+
+## Combat Profile
+* **Stats:** HP 45, Attack 35, Defense 50, Sp. Atk 70, Sp. Def 50, Speed 30.
+* **Archetype:** Special Sun Sweeper. While its base Speed is low, its access to weather-based abilities allows it to function as a fast offensive threat in specialized team compositions.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, and Ice**. It maintains **resistances against Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Capitalizing on its high Special Attack relative to its other stats, key moves include **Leaf Storm** for high-impact damage, **Energy Ball** for reliable STAB (Same Type Attack Bonus), **Giga Drain** for simultaneous damage and recovery, and **Pollen Puff** for versatile Bug-type coverage.
+* **Abilities:** **Chlorophyll** doubles its Speed stat during harsh sunlight, making it a dangerous "Sun Sweeper." **Own Tempo** provides a tactical advantage by preventing the Pokémon from becoming confused. **Leaf Guard** (Hidden Ability) protects it from status conditions like paralysis or sleep while the sun is shining.
+
+## Evolution & Biology
+Petilil is the initial stage of a two-stage evolutionary line. It evolves into Lilligant when **exposed to a Sun Stone**. In the ancient Hisui region, this same exposure to a Sun Stone results in the regionally distinct Hisuian Lilligant. Petilil is a member of the **Grass** egg group (also known as the Plant group). Biologically, it is often found in the wild carrying an **Absorb Bulb**, a specialized item that increases its Special Attack if it is struck by a Water-type move. It has a medium growth rate and is known for its relatively high capture rate, making it a common sight for trainers exploring temperate forests.

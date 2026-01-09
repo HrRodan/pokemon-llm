@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Low Key Toxtricity (Pokedex #10228) is the massive, G-Max powered manifestation of the Punk Pokémon, originating from the Galar region (Generation VIII). This specific form represents a Toxtricity that has undergone Gigantamaxing, a phenomenon exclusive to Power Spots in Galar, transforming its physical stature into a towering, neon-hued titan of sound and electricity. While the standard Low Key form is known for its cool and collected demeanor, its Gigantamax state is a visual spectacle of purple bio-electricity, generating enough power to create thunderclouds. It produces sound not through vocal cords, but by rhythmically clawing at the specialized electrical protrusions on its chest, mimicking the vibrations of a bass guitar. In addition to its Gigantamax form, Toxtricity is famous for its "Amped Up" counterpart, with the distinction determined entirely by the Pokémon's Nature upon evolution.
+
+## Combat Profile
+*   **Stats:** HP 75, Attack 98, Defense 70, Sp. Atk 114, Sp. Def 70, Speed 75.
+*   **Archetype:** Special Sound-Based Wallbreaker. Despite its moderate Speed, its high Special Attack combined with sound-based damage multipliers makes it a terrifying offensive threat.
+*   **Type Matchups:** It is **double weak to Ground (4x)** and weak to **Psychic**. It boasts an impressive array of resistances, including **Fighting, Poison, Bug, Steel, Grass, Electric, Fairy, and Flying**.
+*   **Move Selection:** Toxtricity-Low Key excels when using sound-based and high-powered special attacks. Key moves include **Overdrive** (its signature sound-based Electric move), **Boomburst** (an extremely high-base power Normal move with Punk Rock synergy), **Sludge Wave** (STAB Poison damage), and **Volt Switch** (for tactical pivoting). As a Gigantamax Pokémon, its Electric-type moves transform into **G-Max Stun Shock**, which poisons or paralyzes all opponents.
+*   **Abilities:** 
+    *   **Punk Rock:** Boosts the power of sound-based moves by 30% and halves the damage received from incoming sound-based moves. This is the cornerstone of its competitive viability.
+    *   **Minus:** Increases Special Attack when an ally has Plus or Minus; primarily used in specific Double Battle gimmicks.
+    *   **Technician (Hidden):** Increases the power of moves with a base power of 60 or less by 50%, though less commonly used than Punk Rock on this specific set.
+
+## Evolution & Biology
+Toxtricity-Low Key is the final stage of a two-stage evolutionary line. it evolves from the baby Pokémon **Toxel** starting at **Level 30**. The form it takes is dictated by its **Nature**: Toxel evolves into the **Low Key Form** if its nature is Lonely, Bold, Relaxed, Timid, Serious, Modest, Mild, Quiet, Bashful, Calm, Gentle, or Careful. It belongs to the **Humanshape** Egg Group and has a hatch counter of 25, requiring significant steps to breed. Biologically, it functions as a living battery, storing toxins in its body that it can secret through its skin or convert into high-voltage electricity for musical and defensive displays.

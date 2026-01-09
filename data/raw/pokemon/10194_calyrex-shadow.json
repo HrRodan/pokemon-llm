@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 10194,
+    "name": "calyrex-shadow",
+    "stats": {
+      "hp": 100,
+      "attack": 85,
+      "defense": 80,
+      "special-attack": 165,
+      "special-defense": 100,
+      "speed": 150
+    },
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "height_m": 2.4,
+    "weight_kg": 53.6,
+    "abilities": [
+      {
+        "name": "as-one-spectrier",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "calyrex-shadow"
+    ],
+    "moves": [
+      "pound",
+      "pay-day",
+      "stomp",
+      "double-kick",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "tail-whip",
+      "disable",
+      "psybeam",
+      "hyper-beam",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "confusion",
+      "psychic",
+      "agility",
+      "night-shade",
+      "confuse-ray",
+      "light-screen",
+      "haze",
+      "reflect",
+      "metronome",
+      "swift",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "aromatherapy",
+      "bullet-seed",
+      "mud-shot",
+      "magical-leaf",
+      "calm-mind",
+      "payback",
+      "assurance",
+      "power-swap",
+      "guard-swap",
+      "dark-pulse",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "leaf-storm",
+      "grass-knot",
+      "wonder-room",
+      "psyshock",
+      "magic-room",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "hex",
+      "bulldoze",
+      "snarl",
+      "phantom-force",
+      "draining-kiss",
+      "grassy-terrain",
+      "solar-blade",
+      "pollen-puff",
+      "psychic-terrain",
+      "speed-swap",
+      "stomping-tantrum",
+      "life-dew",
+      "expanding-force",
+      "lash-out",
+      "astral-barrage",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 340,
+    "is_default": false,
+    "order": 1092,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10194.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10194.png"
+    },
+    "species_name": "calyrex",
+    "flavor_text": "Calyrex is a merciful Pok\u00e9mon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+    "genus": "King Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 100,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/476/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 476,
+      "chain": {
+        "species_name": "calyrex",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

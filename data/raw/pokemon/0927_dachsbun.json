@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 927,
+    "name": "dachsbun",
+    "stats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 115,
+      "special-attack": 50,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 14.9,
+    "abilities": [
+      {
+        "name": "well-baked-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dachsbun"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "dig",
+      "agility",
+      "lick",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "baton-pass",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "mud-shot",
+      "covet",
+      "last-resort",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "work-up",
+      "snarl",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "body-press",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 167,
+    "is_default": true,
+    "order": 971,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/927.png"
+    },
+    "species_name": "dachsbun",
+    "flavor_text": "The pleasant aroma that emanates from this Pok\u00e9mon\u2019s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+    "genus": "Dog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/486/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 486,
+      "chain": {
+        "species_name": "fidough",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dachsbun",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

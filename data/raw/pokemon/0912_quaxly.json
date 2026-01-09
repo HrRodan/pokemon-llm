@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 912,
+    "name": "quaxly",
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 45,
+      "special-attack": 50,
+      "special-defense": 45,
+      "speed": 50
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 6.1,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "quaxly"
+    ],
+    "moves": [
+      "pound",
+      "wing-attack",
+      "take-down",
+      "growl",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "low-kick",
+      "focus-energy",
+      "swift",
+      "rest",
+      "protect",
+      "detect",
+      "endure",
+      "baton-pass",
+      "encore",
+      "rapid-spin",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "last-resort",
+      "air-slash",
+      "brave-bird",
+      "aqua-jet",
+      "double-hit",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "misty-terrain",
+      "liquidation",
+      "tera-blast",
+      "chilling-water",
+      "aqua-cutter"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 912,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/912.png"
+    },
+    "species_name": "quaxly",
+    "flavor_text": "This Pok\u00e9mon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.\"",
+    "genus": "Duckling Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "flying",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/480/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 480,
+      "chain": {
+        "species_name": "quaxly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quaxwell",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "quaquaval",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

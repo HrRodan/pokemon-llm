@@ -1,0 +1,177 @@
+{
+  "pokemon_details": {
+    "id": 590,
+    "name": "foongus",
+    "stats": {
+      "hp": 69,
+      "attack": 55,
+      "defense": 45,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 15
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 1.0,
+    "abilities": [
+      {
+        "name": "effect-spore",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "foongus"
+    ],
+    "moves": [
+      "body-slam",
+      "absorb",
+      "mega-drain",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "spore",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "feint-attack",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "secret-power",
+      "astonish",
+      "bullet-seed",
+      "magical-leaf",
+      "payback",
+      "gastro-acid",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "leaf-storm",
+      "grass-knot",
+      "venoshock",
+      "rage-powder",
+      "foul-play",
+      "after-you",
+      "round",
+      "clear-smog",
+      "grassy-terrain",
+      "confide",
+      "pollen-puff",
+      "tera-blast"
+    ],
+    "held_items": [
+      "tiny-mushroom",
+      "big-mushroom",
+      "balm-mushroom"
+    ],
+    "base_experience": 59,
+    "is_default": true,
+    "order": 712,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/590.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/590.png"
+    },
+    "species_name": "foongus",
+    "flavor_text": "It lures people in with its Pok\u00e9 Ball pattern, then releases poison spores. Why it resembles a Pok\u00e9 Ball is unknown.",
+    "genus": "Mushroom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "white",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/300/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 300,
+      "chain": {
+        "species_name": "foongus",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "amoonguss",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 39
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

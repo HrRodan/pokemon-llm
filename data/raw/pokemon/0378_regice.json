@@ -1,0 +1,176 @@
+{
+  "pokemon_details": {
+    "id": 378,
+    "name": "regice",
+    "stats": {
+      "hp": 80,
+      "attack": 50,
+      "defense": 100,
+      "special-attack": 100,
+      "special-defense": 200,
+      "speed": 50
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 175.0,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "regice"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "self-destruct",
+      "amnesia",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "lock-on",
+      "endure",
+      "rollout",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "hail",
+      "facade",
+      "focus-punch",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "signal-beam",
+      "icicle-spear",
+      "block",
+      "shock-wave",
+      "gravity",
+      "hammer-arm",
+      "natural-gift",
+      "fling",
+      "rock-polish",
+      "focus-blast",
+      "giga-impact",
+      "avalanche",
+      "flash-cannon",
+      "rock-climb",
+      "iron-head",
+      "charge-beam",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "frost-breath",
+      "confide",
+      "power-up-punch",
+      "aurora-veil",
+      "stomping-tantrum",
+      "body-press",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 501,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/378.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/378.png"
+    },
+    "species_name": "regice",
+    "flavor_text": "REGICE\u2019s body was made during an ice age. The deep-frozen body can\u2019t be melted, even by fire. This POK\u00e9MON controls frigid air of minus 328 degrees F.",
+    "genus": "Iceberg Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": "cave",
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/194/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 194,
+      "chain": {
+        "species_name": "regice",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

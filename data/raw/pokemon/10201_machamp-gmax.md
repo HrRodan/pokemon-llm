@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Machamp (Pokedex #10201) is the Superpower Pokémon, a massive and imposing transformation of the classic Fighting-type originally discovered in the Kanto region (Generation I). In this Gigantamax form, Machamp’s muscles are infused with G-Max energy, causing its four arms to glow with a fierce, orange radiance and its height to swell to a staggering 25 meters. While the base species is known for its mountain habitats and the ability to throw 1,000 punches in two seconds, this specific form is a phenomenon primarily associated with the Power Spots of the Galar region. Its heavy, gray muscles are so dense that it is said its punches can send opponents clear over the horizon. Beyond its standard form, Machamp represents the final stage of one of the most iconic physical powerhouses in Pokémon history, standing alongside other regional powerhouses as a symbol of pure martial prowess.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 130, Defense 80, Sp. Atk 65, Sp. Def 85, Speed 55.
+* **Archetype:** Bulky Physical Sweeper / Tank.
+* **Type Matchups:** As a pure Fighting-type, it is **weak to Flying, Psychic, and Fairy**. It **resists Bug, Rock, and Dark** types.
+* **Move Selection:** Capitalizing on its massive 130 Base Attack and the unique properties of its Gigantamax form, key moves include **Dynamic Punch** (which causes guaranteed confusion), **Close Combat** (for massive STAB damage), **Stone Edge** (to cover Flying-type weaknesses), and **Knock Off** (for utility and Psychic-type coverage). In its Gigantamax state, its Fighting-type moves transform into **G-Max Chi Strike**, which significantly raises its critical-hit ratio.
+* **Abilities:** 
+    * **Guts:** Increases the Attack stat by 50% if the Pokémon has a status condition (Burn, Poison, or Paralysis), ignoring the Attack drop from Burn.
+    * **No Guard:** Ensures that all moves used by or against the Pokémon will land with 100% accuracy, making high-risk moves like Dynamic Punch extremely lethal.
+    * **Steadfast (Hidden):** Boosts the Speed stat each time the Pokémon flinches.
+
+## Evolution & Biology
+Gigantamax Machamp is the final result of a three-stage evolutionary line. It begins as **Machop**, a small but incredibly strong humanoid Pokémon that evolves into **Machoke** starting at Level 28. To reach its final form as **Machamp**, Machoke must be **traded between trainers**, a process that triggers its final growth spurt and the development of its two additional arms. The Gigantamax factor is a rare trait that allows a Machamp to undergo this specific transformation when Dynamaxing in Galar's Power Spots. Biologically, it belongs to the **Humanshape** Egg Group, and with a hatch counter of 20, it requires significant effort to breed and train for competitive play. It is known for a medium-slow growth rate, reflecting the discipline required to master its four-armed combat style.

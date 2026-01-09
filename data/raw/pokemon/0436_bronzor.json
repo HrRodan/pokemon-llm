@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 436,
+    "name": "bronzor",
+    "stats": {
+      "hp": 57,
+      "attack": 24,
+      "defense": 86,
+      "special-attack": 24,
+      "special-defense": 86,
+      "speed": 23
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 60.5,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heatproof",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "heavy-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bronzor"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "feint-attack",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "facade",
+      "helping-hand",
+      "trick",
+      "recycle",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "signal-beam",
+      "extrasensory",
+      "iron-defense",
+      "calm-mind",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "natural-gift",
+      "payback",
+      "heal-block",
+      "power-swap",
+      "guard-swap",
+      "rock-polish",
+      "power-gem",
+      "zen-headbutt",
+      "flash-cannon",
+      "trick-room",
+      "iron-head",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "heavy-slam",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "bulldoze",
+      "confide",
+      "psychic-terrain",
+      "speed-swap",
+      "stomping-tantrum",
+      "steel-beam",
+      "expanding-force",
+      "steel-roller",
+      "tera-blast",
+      "ice-spinner"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 564,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/436.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/436.png"
+    },
+    "species_name": "bronzor",
+    "flavor_text": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+    "genus": "Bronze Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "green",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/224/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 224,
+      "chain": {
+        "species_name": "bronzor",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bronzong",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

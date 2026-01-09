@@ -1,0 +1,12 @@
+## Identity & Lore
+Terapagos (Terastal Form) (Pokedex #10276) is the Tera Pokémon, a legendary entity that serves as the literal progenitor of the Terastal phenomenon within the Paldea region (Generation IX). Discovered deep within the Underdepths of Area Zero, this Pokémon is a small, turtle-like creature that protects itself by transforming raw energy into impenetrable hard crystals. While this specific form is its battle-ready state, it exists in three distinct phases: its dormant Normal Form, this crystalline Terastal Form, and its ultimate **Stellar Form**, which it assumes upon Terastallizing. As the source of all Tera Shards and the Terastal energy utilized by Paldean Trainers, Terapagos holds a unique biological niche, capable of manipulating the very elemental properties of the world around it. Its presence is central to the history of the Great Crater of Paldea and the research of the AI Professors.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 95, Defense 110, Sp. Atk 105, Sp. Def 110, Speed 85.
+* **Archetype:** Bulky Special Attacker / Defensive Tank.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a complete **immunity to Ghost**.
+* **Move Selection:** Utilizing its superior Special Attack and its unique signature mechanics, key moves include **Tera Starstorm** (a powerful signature move that becomes Stellar-type upon Terastallization), **Earth Power** for coverage against Steel and Rock types, **Ice Beam** for versatile elemental damage, and **Calm Mind** to further bolster its impressive defensive and offensive presence.
+* **Abilities:** **Tera-Shell** (This unique ability ensures that as long as Terapagos is at full HP, any incoming damaging move will be "Not Very Effective," significantly reducing damage and making it incredibly difficult to one-shot).
+
+## Evolution & Biology
+Terapagos does not follow a traditional evolutionary line but instead undergoes form changes based on environmental and battle conditions. It starts in its **Normal Form** and automatically transitions into this **Terastal Form** (the "Tera Pokémon" state) upon entering battle. If the trainer activates the Terastal Phenomenon, it undergoes a final transformation into its massive **Stellar Form**, gaining a significant boost to its base stats. It belongs to the **No Eggs Discovered** egg group, and as a legendary Pokémon, it cannot be bred. Its biology is inextricably linked to the crystals of Area Zero, and it possesses a slow growth rate, reflecting its ancient and enduring nature.

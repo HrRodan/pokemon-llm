@@ -1,0 +1,12 @@
+## Identity & Lore
+Dracovish (Pokedex #882) is a dual-type Water/Dragon Fossil Pokémon introduced in Generation VIII (Galar). Known as the Fossil Pokémon, it is a biological chimera resurrected from two mismatched fossils: the Fossilized Fish and the Fossilized Drake. This green, monstrous entity possesses a massive fish head attached to the muscular hindquarters of a prehistoric dragon. Its lore is tragic and bizarre; despite being an apex predator with powerful legs and jaws capable of overhunting its prey into extinction, its current form is anatomically impossible, as it cannot breathe unless it is underwater, despite having the body of a land-dweller. While Dracovish does not possess a Mega Evolution or Gigantamax form, it became one of the most feared competitive Pokémon in the Galar region due to its unique biological traits.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 90, Defense 100, Sp. Atk 70, Sp. Def 80, Speed 75.
+* **Archetype:** Physical Wallbreaker / Choice Scarf Sweeper.
+* **Type Matchups:** It is **weak to Dragon and Fairy**. Thanks to its unique typing, it possesses a **Double Resistance (4x) to Fire and Water**, and also resists Steel. 
+* **Move Selection:** Dracovish’s viability centers almost entirely on its signature move, **Fishious Rend**, which doubles in power if it attacks before the target. To complement its physical stat and ability, key moves include **Psychic Fangs** (to break screens), **Crunch** (for Ghost and Psychic coverage), and **Ice Fang** (to threaten Grass and Dragon types).
+* **Abilities:** **Strong Jaw** (Increases the power of biting moves like Fishious Rend, Crunch, and the Elemental Fangs by 50%), **Water Absorb** (Grants immunity to Water moves and restores HP when hit by them), and **Sand Rush** (Hidden Ability; doubles Speed in a Sandstorm, making it a lethal threat on weather-based teams).
+
+## Evolution & Biology
+Dracovish is a single-stage Pokémon and does not evolve from or into any other species. It can only be obtained by reviving a combination of the **Fossilized Fish** and **Fossilized Drake** at the Route 6 Fossil Lab in Galar. Because it is an unnatural restoration of two different creatures, it belongs to the **No Eggs Discovered** egg group and cannot breed. Its biological makeup is highly specialized for crushing power, featuring a hatch counter of 35 and a slow growth rate, reflecting the immense energy required to sustain its distorted physical form.

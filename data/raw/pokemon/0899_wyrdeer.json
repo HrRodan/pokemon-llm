@@ -1,0 +1,185 @@
+{
+  "pokemon_details": {
+    "id": 899,
+    "name": "wyrdeer",
+    "stats": {
+      "hp": 103,
+      "attack": 105,
+      "defense": 72,
+      "special-attack": 105,
+      "special-defense": 75,
+      "speed": 65
+    },
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 95.1,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wyrdeer"
+    ],
+    "moves": [
+      "stomp",
+      "sand-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "dig",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "endure",
+      "sleep-talk",
+      "megahorn",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "skill-swap",
+      "imprison",
+      "astonish",
+      "extrasensory",
+      "calm-mind",
+      "gravity",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "charge-beam",
+      "psyshock",
+      "stored-power",
+      "bulldoze",
+      "wild-charge",
+      "high-horsepower",
+      "throat-chop",
+      "lunge",
+      "expanding-force",
+      "psyshield-bash",
+      "tera-blast",
+      "trailblaze",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 263,
+    "is_default": true,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/899.png"
+    },
+    "species_name": "wyrdeer",
+    "flavor_text": "The black orbs shine with an uncanny light when the Pok\u00e9mon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+    "genus": "Big Horn Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 135,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/120/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 120,
+      "chain": {
+        "species_name": "stantler",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wyrdeer",
+            "evolution_details": [
+              {
+                "trigger": "agile-style-move",
+                "known_move": "psyshield-bash"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

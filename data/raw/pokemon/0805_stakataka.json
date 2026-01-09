@@ -1,0 +1,172 @@
+{
+  "pokemon_details": {
+    "id": 805,
+    "name": "stakataka",
+    "stats": {
+      "hp": 61,
+      "attack": 131,
+      "defense": 211,
+      "special-attack": 53,
+      "special-defense": 101,
+      "speed": 13
+    },
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "height_m": 5.5,
+    "weight_kg": 820.0,
+    "abilities": [
+      {
+        "name": "beast-boost",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "stakataka"
+    ],
+    "moves": [
+      "bind",
+      "stomp",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "harden",
+      "light-screen",
+      "reflect",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "facade",
+      "role-play",
+      "superpower",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "magnet-rise",
+      "rock-polish",
+      "giga-impact",
+      "zen-headbutt",
+      "flash-cannon",
+      "trick-room",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "wide-guard",
+      "wonder-room",
+      "autotomize",
+      "telekinesis",
+      "magic-room",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "ally-switch",
+      "bulldoze",
+      "heat-crash",
+      "infestation",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "steel-roller",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 257,
+    "is_default": true,
+    "order": 986,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/805.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/805.png"
+    },
+    "species_name": "stakataka",
+    "flavor_text": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+    "genus": "Rampart Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/425/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 425,
+      "chain": {
+        "species_name": "stakataka",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

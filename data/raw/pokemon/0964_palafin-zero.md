@@ -1,0 +1,12 @@
+## Identity & Lore
+Palafin-Zero (Pokedex #964) is the Dolphin Pokémon, a unique species discovered in the Paldea region during Generation IX. While it bears a striking resemblance to its pre-evolution, Finizen, Palafin-Zero is distinguished by a faint, heart-shaped mark on its chest. This Pokémon is deeply tied to the concept of a "secret identity"; according to Paldean lore, it changes its appearance when it hears its allies calling for help, but it is fiercely private, never allowing anyone to witness the moment of its transformation. While it does not possess a Mega Evolution or Gigantamax form, its unique biology allows it to undergo a massive power shift into its "Hero Form" through its signature ability. Despite its humble appearance in this "Zero Form," it is known as a guardian of the seas, capable of swimming at incredible speeds to reach those in distress.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 70, Defense 72, Sp. Atk 53, Sp. Def 62, Speed 100.
+* **Archetype:** Fast Offensive Pivot. In its Zero Form, Palafin focuses on tactical repositioning rather than raw power.
+* **Type Matchups:** It is **weak to Grass and Electric**. It **resists Fire, Ice, Steel, and Water** types.
+* **Move Selection:** Palafin's kit is designed to exploit its Physical Attack and facilitate its transformation. Key moves include **Jet Punch** (a signature Water-type priority move), **Flip Turn** (essential for pivoting and triggering its ability), **Wave Crash** (high-power STAB with recoil), and **Close Combat** (powerful Fighting-type coverage for Steel and Ice types).
+* **Abilities:** Zero-to-Hero (When this Pokémon switches out of battle, it undergoes a transformation into its "Hero Form," which drastically boosts its base stats—specifically its Attack—the next time it enters the field).
+
+## Evolution & Biology
+Palafin is the final stage of a two-stage evolutionary line. It evolves from **Finizen** starting at **Level 38**, but with a unique social requirement: it must level up while the player is connected with friends via the **Union Circle (Co-op mode)**. Biologically, it is highly social and belongs to the **Field (Ground)** and **Water 2** Egg Groups. It has a slow growth rate, reflecting the discipline required to master its "Hero" powers. Despite being a pure Water-type, its movepool is exceptionally diverse, granting it access to various physical strikes and utility moves like Taunt and Haze.

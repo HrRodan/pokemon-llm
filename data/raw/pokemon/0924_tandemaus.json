@@ -1,0 +1,153 @@
+{
+  "pokemon_details": {
+    "id": 924,
+    "name": "tandemaus",
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 40,
+      "special-defense": 45,
+      "speed": 75
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.8,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tandemaus"
+    ],
+    "moves": [
+      "pound",
+      "take-down",
+      "double-edge",
+      "bite",
+      "low-kick",
+      "thunder-wave",
+      "dig",
+      "agility",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "protect",
+      "mud-slap",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "baton-pass",
+      "encore",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "beat-up",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "hyper-voice",
+      "fake-tears",
+      "tickle",
+      "bullet-seed",
+      "aerial-ace",
+      "mud-shot",
+      "water-pulse",
+      "feint",
+      "u-turn",
+      "copycat",
+      "seed-bomb",
+      "switcheroo",
+      "shadow-claw",
+      "grass-knot",
+      "double-hit",
+      "low-sweep",
+      "after-you",
+      "echoed-voice",
+      "play-rough",
+      "baby-doll-eyes",
+      "tera-blast",
+      "population-bomb"
+    ],
+    "held_items": [],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 945,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/924.png"
+    },
+    "species_name": "tandemaus",
+    "flavor_text": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+    "genus": "Couple Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 150,
+    "base_happiness": 50,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "heads",
+    "color": "white",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/485/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 485,
+      "chain": {
+        "species_name": "tandemaus",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "maushold",
+            "evolution_details": [
+              {
+                "trigger": "other",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

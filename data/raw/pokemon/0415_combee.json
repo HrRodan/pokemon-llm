@@ -1,0 +1,139 @@
+{
+  "pokemon_details": {
+    "id": 415,
+    "name": "combee",
+    "stats": {
+      "hp": 30,
+      "attack": 30,
+      "defense": 42,
+      "special-attack": 30,
+      "special-defense": 42,
+      "speed": 70
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 5.5,
+    "abilities": [
+      {
+        "name": "honey-gather",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "combee"
+    ],
+    "moves": [
+      "gust",
+      "string-shot",
+      "swift",
+      "snore",
+      "mud-slap",
+      "sleep-talk",
+      "sweet-scent",
+      "endeavor",
+      "air-cutter",
+      "tailwind",
+      "bug-buzz",
+      "bug-bite",
+      "ominous-wind",
+      "struggle-bug",
+      "lunge",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [
+      "honey"
+    ],
+    "base_experience": 49,
+    "is_default": true,
+    "order": 546,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/415.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/415.png"
+    },
+    "species_name": "combee",
+    "flavor_text": "A Pok\u00e9mon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
+    "genus": "Tiny Bee Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "heads",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/214/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 214,
+      "chain": {
+        "species_name": "combee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "vespiquen",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 21
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "pokemon_details": {
+    "id": 869,
+    "name": "alcremie",
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 121,
+      "speed": 64
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 0.5,
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "alcremie-vanilla-cream-strawberry-sweet",
+      "alcremie-ruby-cream-strawberry-sweet",
+      "alcremie-matcha-cream-strawberry-sweet",
+      "alcremie-mint-cream-strawberry-sweet",
+      "alcremie-lemon-cream-strawberry-sweet",
+      "alcremie-salted-cream-strawberry-sweet",
+      "alcremie-ruby-swirl-strawberry-sweet",
+      "alcremie-caramel-swirl-strawberry-sweet",
+      "alcremie-rainbow-swirl-strawberry-sweet",
+      "alcremie-vanilla-cream-berry-sweet",
+      "alcremie-ruby-cream-berry-sweet",
+      "alcremie-matcha-cream-berry-sweet",
+      "alcremie-mint-cream-berry-sweet",
+      "alcremie-lemon-cream-berry-sweet",
+      "alcremie-salted-cream-berry-sweet",
+      "alcremie-ruby-swirl-berry-sweet",
+      "alcremie-caramel-swirl-berry-sweet",
+      "alcremie-rainbow-swirl-berry-sweet",
+      "alcremie-vanilla-cream-love-sweet",
+      "alcremie-ruby-cream-love-sweet",
+      "alcremie-matcha-cream-love-sweet",
+      "alcremie-mint-cream-love-sweet",
+      "alcremie-lemon-cream-love-sweet",
+      "alcremie-salted-cream-love-sweet",
+      "alcremie-ruby-swirl-love-sweet",
+      "alcremie-caramel-swirl-love-sweet",
+      "alcremie-rainbow-swirl-love-sweet",
+      "alcremie-vanilla-cream-star-sweet",
+      "alcremie-ruby-cream-star-sweet",
+      "alcremie-matcha-cream-star-sweet",
+      "alcremie-mint-cream-star-sweet",
+      "alcremie-lemon-cream-star-sweet",
+      "alcremie-salted-cream-star-sweet",
+      "alcremie-ruby-swirl-star-sweet",
+      "alcremie-caramel-swirl-star-sweet",
+      "alcremie-rainbow-swirl-star-sweet",
+      "alcremie-vanilla-cream-clover-sweet",
+      "alcremie-ruby-cream-clover-sweet",
+      "alcremie-matcha-cream-clover-sweet",
+      "alcremie-mint-cream-clover-sweet",
+      "alcremie-lemon-cream-clover-sweet",
+      "alcremie-salted-cream-clover-sweet",
+      "alcremie-ruby-swirl-clover-sweet",
+      "alcremie-caramel-swirl-clover-sweet",
+      "alcremie-rainbow-swirl-clover-sweet",
+      "alcremie-vanilla-cream-flower-sweet",
+      "alcremie-ruby-cream-flower-sweet",
+      "alcremie-matcha-cream-flower-sweet",
+      "alcremie-mint-cream-flower-sweet",
+      "alcremie-lemon-cream-flower-sweet",
+      "alcremie-salted-cream-flower-sweet",
+      "alcremie-ruby-swirl-flower-sweet",
+      "alcremie-caramel-swirl-flower-sweet",
+      "alcremie-rainbow-swirl-flower-sweet",
+      "alcremie-vanilla-cream-ribbon-sweet",
+      "alcremie-ruby-cream-ribbon-sweet",
+      "alcremie-matcha-cream-ribbon-sweet",
+      "alcremie-mint-cream-ribbon-sweet",
+      "alcremie-lemon-cream-ribbon-sweet",
+      "alcremie-salted-cream-ribbon-sweet",
+      "alcremie-ruby-swirl-ribbon-sweet",
+      "alcremie-caramel-swirl-ribbon-sweet",
+      "alcremie-rainbow-swirl-ribbon-sweet"
+    ],
+    "moves": [
+      "tackle",
+      "hyper-beam",
+      "solar-beam",
+      "psychic",
+      "recover",
+      "light-screen",
+      "metronome",
+      "acid-armor",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "giga-drain",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "sweet-scent",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "imprison",
+      "aromatherapy",
+      "fake-tears",
+      "magical-leaf",
+      "calm-mind",
+      "fling",
+      "last-resort",
+      "drain-punch",
+      "energy-ball",
+      "giga-impact",
+      "wonder-room",
+      "psyshock",
+      "magic-room",
+      "entrainment",
+      "round",
+      "stored-power",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "mystical-fire",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "decorate",
+      "misty-explosion",
+      "tera-blast",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 1053,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/869.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/869.png"
+    },
+    "species_name": "alcremie",
+    "flavor_text": "When it trusts a Trainer, it will treat them to berries it\u2019s decorated with cream.",
+    "genus": "Cream Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "white",
+    "egg_groups": [
+      "fairy",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/452/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 452,
+      "chain": {
+        "species_name": "milcery",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "alcremie",
+            "evolution_details": [
+              {
+                "trigger": "spin"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

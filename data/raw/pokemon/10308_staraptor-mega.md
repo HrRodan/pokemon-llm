@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Staraptor (Pokedex #10308) is the Predator Pokémon, a powerful and territorial avian found originally in the Sinnoh region (Generation IV). This Mega Evolved form enhances its already savage nature, granting it the courage to challenge foes many times its own size without hesitation. While the base form is characterized by its brown plumage and the prominent crest it develops upon reaching its final stage, Mega Evolution infuses it with Fighting-type energy, transforming its combat style from a simple aerial predator into a disciplined, high-velocity martial artist of the skies. Although Mega Staraptor does not appear in the core Pokémon canon, its presence in various regional simulations depicts it as a apex predator that utilizes its sharpened talons and reinforced wings to deliver devastating physical blows.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 140, Defense 100, Sp. Atk 60, Sp. Def 90, Speed 110.
+* **Archetype:** Physical Wallbreaker / Speed Tier Sweeper.
+* **Type Matchups:** It is **weak to Flying, Psychic, Fairy, Rock, Electric, and Ice.** It possesses a **Double Resistance (0.25x) to Bug** and also resists Fighting, Grass, and Dark-type moves. It is completely **immune to Ground** due to its Flying-type properties.
+* **Move Selection:** With a massive Base 140 Attack, Mega Staraptor excels with high-recoil, high-power physical moves. Key selections include **Brave Bird** (Flying STAB), **Close Combat** (Fighting STAB), **Double-Edge** (Normal coverage), and **U-turn** for maintaining offensive momentum.
+* **Abilities:** While specific Mega abilities vary by simulation, it typically inherits or enhances traits like **Intimidate** (lowering the opponent's Attack upon entry) or **Reckless** (increasing the power of recoil-inducing moves like Brave Bird and Double-Edge by 20%), making its physical onslaught nearly impossible to wall.
+
+## Evolution & Biology
+Mega Staraptor is the final, temporary stage of a three-stage evolutionary line. It begins as **Starly**, a common sight in the Sinnoh region. Starly evolves into **Staravia** starting at Level 14, and further matures into **Staraptor** starting at Level 34. The transformation into Mega Staraptor is triggered during battle when Staraptor holds a specific Mega Stone (Staraptorite). Biologically, it is a member of the **Flying** egg group and has a hatch counter of 15, reflecting its medium-slow growth rate. Despite its aggressive temperament, it is known to be highly loyal to trainers who can match its fierce spirit and determination.

@@ -1,0 +1,176 @@
+{
+  "pokemon_details": {
+    "id": 285,
+    "name": "shroomish",
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 60,
+      "speed": 35
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 4.5,
+    "abilities": [
+      {
+        "name": "effect-spore",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-heal",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shroomish"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "toxic",
+      "mimic",
+      "double-team",
+      "swift",
+      "spore",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "charm",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "snatch",
+      "secret-power",
+      "fake-tears",
+      "bullet-seed",
+      "magical-leaf",
+      "wake-up-slap",
+      "natural-gift",
+      "worry-seed",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "zen-headbutt",
+      "gunk-shot",
+      "captivate",
+      "grass-knot",
+      "venoshock",
+      "round",
+      "grassy-terrain",
+      "confide",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [
+      "tiny-mushroom",
+      "big-mushroom",
+      "kebia-berry"
+    ],
+    "base_experience": 59,
+    "is_default": true,
+    "order": 388,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/285.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/285.png"
+    },
+    "species_name": "shroomish",
+    "flavor_text": "SHROOMISH live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This POK\u00e9MON feeds on compost that is made up of fallen, rotted leaves.",
+    "genus": "Mushroom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "forest",
+    "shape": "legs",
+    "color": "brown",
+    "egg_groups": [
+      "fairy",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/142/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 142,
+      "chain": {
+        "species_name": "shroomish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "breloom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 23
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

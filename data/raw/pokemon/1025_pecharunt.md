@@ -1,0 +1,12 @@
+## Identity & Lore
+Pecharunt (Pokedex #1025) is the Subjugation Pokémon, a Mythical entity first discovered in the Paldea region during the Generation IX era. This small, purple, peach-like Pokémon is the mastermind behind the "Loyal Three" of Kitakami—Okidogi, Munkidori, and Fezandipiti—whom it controlled using its binding chains. Its lore describes an insidious nature: it feeds toxic mochi to humans and Pokémon alike, drawing out their deepest desires and greed to bind them to its will. Its shell-like exterior protects a core that is remarkably small and lightweight. While it does not currently possess any Mega Evolutions, Paradox forms, or a Gigantamax factor, its unique biological ability to manipulate others through specialized toxins makes it one of the most dangerous Mythical entities in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 88, Attack 88, Defense 160, Sp. Atk 88, Sp. Def 88, Speed 88.
+* **Archetype:** Physical Tank / Bulky Disruptor.
+* **Type Matchups:** It is **weak to Ground, Psychic, Ghost, and Dark**. It possesses a **Double Resistance (0.25x) to Bug** and also resists **Poison, Grass, and Fairy**. It is **immune to Normal and Fighting** moves.
+* **Move Selection:** Capitalizing on its massive physical bulk and its signature status-inflicting capabilities, key moves include **Malignant Chain** (its signature Poison-type move with a 50% chance to badly poison), **Shadow Ball** (reliable Ghost-type special STAB), **Recover** (for essential health maintenance), and **Parting Shot** (to pivot out while weakening the opponent's offensive stats).
+* **Abilities:** Poison Puppeteer (A signature ability that causes any target poisoned by Pecharunt to also become confused, creating a devastating status-lock that forces switches or self-inflicted damage).
+
+## Evolution & Biology
+Pecharunt is a single-stage Mythical Pokémon and is not known to evolve into or from any other Pokémon. It belongs to the **No Eggs** egg group, meaning it cannot be bred in captivity. Biologically, it is a Poison/Ghost-type that stores high concentrations of toxins within its core to create "Binding Mochi." Its growth rate is slow, requiring significant experience to reach its full potential (base experience of 300). Despite its tiny size of 0.3 meters and light weight of 0.3 kg, its shell provides a base Defense stat of 160, making it one of the most resilient physical walls in the Paldean Pokédex.

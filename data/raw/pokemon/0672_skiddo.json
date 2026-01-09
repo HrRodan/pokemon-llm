@@ -1,0 +1,173 @@
+{
+  "pokemon_details": {
+    "id": 672,
+    "name": "skiddo",
+    "stats": {
+      "hp": 66,
+      "attack": 65,
+      "defense": 48,
+      "special-attack": 62,
+      "special-defense": 57,
+      "speed": 52
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 31.0,
+    "abilities": [
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "grass-pelt",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "skiddo"
+    ],
+    "moves": [
+      "vine-whip",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "roar",
+      "surf",
+      "strength",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "dig",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "milk-drink",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "bullet-seed",
+      "bulk-up",
+      "mud-shot",
+      "magical-leaf",
+      "leaf-blade",
+      "payback",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "zen-headbutt",
+      "leaf-storm",
+      "grass-knot",
+      "round",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "horn-leech",
+      "grassy-terrain",
+      "play-rough",
+      "confide",
+      "stomping-tantrum",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 70,
+    "is_default": true,
+    "order": 805,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/672.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/672.png"
+    },
+    "species_name": "skiddo",
+    "flavor_text": "Thought to be one of the first Pok\u00e9mon to live in harmony with humans, it has a placid disposition.",
+    "genus": "Mount Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/345/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 345,
+      "chain": {
+        "species_name": "skiddo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gogoat",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

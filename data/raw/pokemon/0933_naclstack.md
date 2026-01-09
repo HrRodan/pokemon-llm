@@ -1,0 +1,12 @@
+## Identity & Lore
+Naclstack (Pokedex #933) is the Rock Salt Pokémon, a quadrupedal mineral creature first discovered in the Paldea region during Generation IX. Its body is composed of stratified layers of salt, which it uses both for protection and predation. This Pokémon is known to dry cure its prey by spraying a concentrated salt solution over them, a brutal biological process that rapidly dehydrates the target by stealing the water directly from its body. While Naclstack does not currently possess a Mega Evolution or Gigantamax form, it is highly regarded in the scientific and competitive communities for its unique mineral biology, which eventually culminates in the massive, fortress-like Garganacl.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 60, Defense 100, Sp. Atk 35, Sp. Def 65, Speed 35.
+* **Archetype:** Physical Tank / Hazard Setter.
+* **Type Matchups:** It is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Flying, Poison, and Fire**.
+* **Move Selection:** Capitalizing on its massive Defense and unique signature mechanics, key moves include **Salt Cure** (a signature move that inflicts massive damage over time, especially against Water and Steel types), **Recover** (essential for maintaining its tanking capabilities), **Body Press** (which calculates damage using its high Defense stat rather than Attack), and **Stealth Rock** (for consistent entry hazard pressure).
+* **Abilities:** **Purifying Salt** (A premier defensive ability that grants immunity to status conditions and halves damage taken from Ghost-type moves); **Sturdy** (Prevents the Pokémon from being knocked out in one hit from full health); **Clear Body** (Prevents opponents from lowering its stats).
+
+## Evolution & Biology
+Naclstack is the second stage of a three-stage evolutionary line. It evolves from **Nacli** starting at **Level 24** and subsequently evolves into its final form, **Garganacl**, starting at **Level 38**. As a member of the **Mineral** egg group, Naclstack's biology is entirely inorganic, allowing it to withstand harsh environmental pressures. Despite its relatively small height of 0.6 meters, it is incredibly dense, weighing in at 105.0 kg. This density is a result of the high-pressure sedimentation of salt that forms its sturdy, block-like limbs and torso.

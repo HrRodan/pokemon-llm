@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 1006,
+    "name": "iron-valiant",
+    "stats": {
+      "hp": 74,
+      "attack": 130,
+      "defense": 90,
+      "special-attack": 120,
+      "special-defense": 60,
+      "speed": 116
+    },
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 35.0,
+    "abilities": [
+      {
+        "name": "quark-drive",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "iron-valiant"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "disable",
+      "psybeam",
+      "hyper-beam",
+      "low-kick",
+      "thunderbolt",
+      "thunder-wave",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "rest",
+      "substitute",
+      "reversal",
+      "protect",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "fury-cutter",
+      "sleep-talk",
+      "encore",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "brick-break",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "hyper-voice",
+      "aerial-ace",
+      "magical-leaf",
+      "calm-mind",
+      "leaf-blade",
+      "feint",
+      "close-combat",
+      "fling",
+      "aura-sphere",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "shadow-sneak",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "grass-knot",
+      "charge-beam",
+      "wide-guard",
+      "psyshock",
+      "stored-power",
+      "quick-guard",
+      "hex",
+      "misty-terrain",
+      "moonblast",
+      "electric-terrain",
+      "dazzling-gleam",
+      "throat-chop",
+      "psychic-terrain",
+      "liquidation",
+      "spirit-break",
+      "expanding-force",
+      "coaching",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 295,
+    "is_default": true,
+    "order": 993,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1006.png"
+    },
+    "species_name": "iron-valiant",
+    "flavor_text": "It has some similarities to a mad scientist\u2019s invention covered in a paranormal magazine.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/534/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 534,
+      "chain": {
+        "species_name": "iron-valiant",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

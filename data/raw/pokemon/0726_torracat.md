@@ -1,0 +1,12 @@
+## Identity & Lore
+Torracat (#726) is the Fire Cat Pokémon, serving as the mid-stage evolution of the Fire-type starter from Generation VII (Alola). This sleek, feline Pokémon is recognized by the flame-producing organ situated at the base of its throat, which resembles a golden bell. This "fire bell" rings with a bright, metallic sound whenever Torracat spits flames, and its temperature rises significantly based on the Pokémon's battle spirit and emotions. While it lacks a Mega Evolution or Gigantamax form, its final evolution, Incineroar, is globally recognized as one of the most dominant forces in competitive Pokémon history. Torracat itself is known for its pugnacious and sometimes fickle personality; it loves to fight but can be dismissive of its trainer if it is not in the mood for affection. Its mane serves as a sensory organ, allowing it to navigate perfectly in the dark.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 85, Defense 50, Sp. Atk 80, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Physical Pivot / Eviolite Tank.
+* **Type Matchups:** It is **weak to Ground, Rock, and Water**. It **resists Fire, Grass, Ice, Bug, Steel, and Fairy** types.
+* **Move Selection:** Utilizing its high Speed and solid Attack, Torracat’s most effective moves include **Flare Blitz** for high-impact STAB (Same Type Attack Bonus), **Parting Shot** or **U-turn** for tactical pivoting to maintain momentum, **Fake Out** to provide immediate pressure and flinch opponents, and **Will-O-Wisp** to burn and neutralize physical threats. 
+* **Abilities:** **Blaze** (Standard) powers up Fire-type moves by 50% when Torracat's health is below 1/3. **Intimidate** (Hidden) is its premier competitive ability, which lowers the Attack stat of opposing Pokémon by one stage upon Torracat entering the battlefield, significantly increasing its team's defensive longevity.
+
+## Evolution & Biology
+Torracat is the central stage of a three-part evolutionary line. It evolves from **Litten** once it reaches **Level 17**. Following significant battle experience, it evolves into the Fire/Dark-type **Incineroar** starting at **Level 34**. As a member of the **Ground** egg group, Torracat displays a medium-slow growth rate. Biologically, its forelegs are incredibly powerful, allowing it to deliver punches capable of bending iron bars. Despite its cat-like appearance, its internal fire is its most defining trait, requiring constant fuel and a high-energy lifestyle to maintain the heat of its internal combustion chamber.

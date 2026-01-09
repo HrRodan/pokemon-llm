@@ -1,0 +1,139 @@
+{
+  "pokemon_details": {
+    "id": 978,
+    "name": "tatsugiri-curly",
+    "stats": {
+      "hp": 68,
+      "attack": 50,
+      "defense": 60,
+      "special-attack": 120,
+      "special-defense": 95,
+      "speed": 82
+    },
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "commander",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tatsugiri-curly"
+    ],
+    "moves": [
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "counter",
+      "harden",
+      "splash",
+      "rest",
+      "substitute",
+      "protect",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "baton-pass",
+      "rapid-spin",
+      "rain-dance",
+      "mirror-coat",
+      "whirlpool",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "muddy-water",
+      "dragon-dance",
+      "water-pulse",
+      "dragon-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "draco-meteor",
+      "soak",
+      "lunge",
+      "tera-blast",
+      "chilling-water",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 166,
+    "is_default": true,
+    "order": 952,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/978.png"
+    },
+    "species_name": "tatsugiri",
+    "flavor_text": "This is a small dragon Pok\u00e9mon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+    "genus": "Mimicry Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "hatch_counter": 35,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "pink",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/514/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 514,
+      "chain": {
+        "species_name": "tatsugiri",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

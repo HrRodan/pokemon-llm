@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 763,
+    "name": "tsareena",
+    "stats": {
+      "hp": 72,
+      "attack": 120,
+      "defense": 98,
+      "special-attack": 50,
+      "special-defense": 98,
+      "speed": 72
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 21.4,
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "queenly-majesty",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sweet-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tsareena"
+    ],
+    "moves": [
+      "double-slap",
+      "stomp",
+      "mega-kick",
+      "take-down",
+      "hyper-beam",
+      "low-kick",
+      "razor-leaf",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "high-jump-kick",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "rapid-spin",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "teeter-dance",
+      "aromatherapy",
+      "bullet-seed",
+      "bounce",
+      "covet",
+      "magical-leaf",
+      "u-turn",
+      "payback",
+      "fling",
+      "punishment",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "power-whip",
+      "captivate",
+      "grass-knot",
+      "low-sweep",
+      "round",
+      "acrobatics",
+      "petal-blizzard",
+      "draining-kiss",
+      "grassy-terrain",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "solar-blade",
+      "laser-focus",
+      "trop-kick",
+      "grassy-glide",
+      "triple-axel",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "grassy-seed"
+    ],
+    "base_experience": 230,
+    "is_default": true,
+    "order": 922,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/763.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/763.png"
+    },
+    "species_name": "tsareena",
+    "flavor_text": "Its long, striking legs aren\u2019t just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+    "genus": "Fruit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/392/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 392,
+      "chain": {
+        "species_name": "bounsweet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "steenee",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "tsareena",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "known_move": "stomp"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

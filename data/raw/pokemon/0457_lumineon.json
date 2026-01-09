@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 457,
+    "name": "lumineon",
+    "stats": {
+      "hp": 69,
+      "attack": 69,
+      "defense": 76,
+      "special-attack": 69,
+      "special-defense": 86,
+      "speed": 91
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 24.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lumineon"
+    ],
+    "moves": [
+      "pound",
+      "gust",
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "hyper-beam",
+      "toxic",
+      "agility",
+      "double-team",
+      "confuse-ray",
+      "waterfall",
+      "swift",
+      "bubble",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "bounce",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "aqua-ring",
+      "aqua-tail",
+      "air-slash",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "soak",
+      "round",
+      "scald",
+      "acrobatics",
+      "confide",
+      "dazzling-gleam",
+      "flip-turn",
+      "tera-blast",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "rindo-berry"
+    ],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 583,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/457.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/457.png"
+    },
+    "species_name": "lumineon",
+    "flavor_text": "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
+    "genus": "Neon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/237/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 237,
+      "chain": {
+        "species_name": "finneon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lumineon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 31
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 353,
+    "name": "shuppet",
+    "stats": {
+      "hp": 44,
+      "attack": 75,
+      "defense": 35,
+      "special-attack": 63,
+      "special-defense": 33,
+      "speed": 45
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 2.3,
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cursed-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shuppet"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "disable",
+      "psybeam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "mimic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "metronome",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "foresight",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "encore",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "sucker-punch",
+      "dark-pulse",
+      "nasty-plot",
+      "shadow-sneak",
+      "trick-room",
+      "gunk-shot",
+      "captivate",
+      "charge-beam",
+      "ominous-wind",
+      "telekinesis",
+      "magic-room",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "phantom-force",
+      "confide",
+      "dazzling-gleam",
+      "skitter-smack",
+      "lash-out",
+      "poltergeist",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [
+      "spell-tag"
+    ],
+    "base_experience": 59,
+    "is_default": true,
+    "order": 469,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/353.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/353.png"
+    },
+    "species_name": "shuppet",
+    "flavor_text": "SHUPPET is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this POK\u00e9MON will appear in a swarm and line up beneath the eaves of that person\u2019s home.",
+    "genus": "Puppet Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 35,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": "urban",
+    "shape": "ball",
+    "color": "black",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/181/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 181,
+      "chain": {
+        "species_name": "shuppet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "banette",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "pokemon_details": {
+    "id": 848,
+    "name": "toxel",
+    "stats": {
+      "hp": 40,
+      "attack": 38,
+      "defense": 35,
+      "special-attack": 54,
+      "special-defense": 35,
+      "speed": 40
+    },
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 11.0,
+    "abilities": [
+      {
+        "name": "rattled",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "klutz",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "toxel"
+    ],
+    "moves": [
+      "growl",
+      "acid",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "encore",
+      "facade",
+      "endeavor",
+      "metal-sound",
+      "round",
+      "belch",
+      "nuzzle",
+      "power-up-punch",
+      "tearful-look",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 48,
+    "is_default": true,
+    "order": 1031,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/848.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/848.png"
+    },
+    "species_name": "toxel",
+    "flavor_text": "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pok\u00e9mon, a tingling sensation follows.",
+    "genus": "Baby Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/446/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 446,
+      "chain": {
+        "species_name": "toxel",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "toxtricity",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

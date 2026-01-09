@@ -1,0 +1,204 @@
+{
+  "pokemon_details": {
+    "id": 10233,
+    "name": "typhlosion-hisui",
+    "stats": {
+      "hp": 73,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 119,
+      "special-defense": 85,
+      "speed": 95
+    },
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 69.8,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "typhlosion-hisui"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "quick-attack",
+      "night-shade",
+      "smokescreen",
+      "confuse-ray",
+      "defense-curl",
+      "fire-blast",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "flame-wheel",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "iron-tail",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "endeavor",
+      "eruption",
+      "blast-burn",
+      "overheat",
+      "aerial-ace",
+      "calm-mind",
+      "gyro-ball",
+      "flare-blitz",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "fire-fang",
+      "zen-headbutt",
+      "lava-plume",
+      "iron-head",
+      "ominous-wind",
+      "flame-charge",
+      "hex",
+      "inferno",
+      "fire-pledge",
+      "bulldoze",
+      "wild-charge",
+      "play-rough",
+      "mystical-fire",
+      "stomping-tantrum",
+      "burning-jealousy",
+      "poltergeist",
+      "infernal-parade",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 240,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10233.png"
+    },
+    "species_name": "typhlosion",
+    "flavor_text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+    "genus": "Volcano Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/80/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 80,
+      "chain": {
+        "species_name": "cyndaquil",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quilava",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 14
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "typhlosion",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

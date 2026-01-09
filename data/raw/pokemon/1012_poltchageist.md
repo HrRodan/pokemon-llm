@@ -1,0 +1,14 @@
+## Identity & Lore
+Poltchageist (Pokedex #1012) is the Matcha Pokémon, a unique Grass and Ghost-type creature first discovered in the land of Kitakami during the Generation IX (Paldea) era. This Pokémon is said to be the physical manifestation of the lingering regrets of a tea ceremony master who passed away before perfecting his craft; these regrets possessed a jar of matcha powder to create Poltchageist. While it bears a striking resemblance to Sinistea, it is actually a **convergent species**, meaning it evolved independently to fill a similar niche. 
+
+Poltchageist is famous for its two distinct variations: the **Counterfeit Form** and the rare **Artisan Form**. The Artisan Form can be identified by a small stamp of authenticity on the bottom of its container, reflecting its origin in genuine, antique tea-ware. Though it does not have a Mega Evolution or Gigantamax form, its evolved state, Sinistcha, shares its unique "tea" biology and signature traits. In its natural habitat, it is known to haunt old houses and may even use its matcha-like powder to repair broken objects, though those who drink its tea may find their vitality drained.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 45, Defense 45, Sp. Atk 74, Sp. Def 54, Speed 50.
+* **Archetype:** Special Support / Niche Special Attacker.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Ghost, Dark, Fire, and Ice**. It possesses immunities to **Normal and Fighting** types and resists **Ground, Water, Grass, and Electric** attacks.
+* **Move Selection:** Capitalizing on its Special Attack stat and utility, key moves include **Shadow Ball** (powerful STAB), **Energy Ball** (reliable Grass damage), **Leaf Storm** (high-power burst), and **Giga Drain** (for recovery). It also excels in doubles with utility moves like **Rage Powder** and **Trick Room**.
+* **Abilities:** **Hospitality** (A signature ability that restores a small portion of an ally's HP when Poltchageist enters the battlefield) and **Heatproof** (Hidden Ability; significantly reduces damage from Fire-type moves and protects the Pokémon from burn damage, effectively mitigating its Fire weakness).
+
+## Evolution & Biology
+Poltchageist is part of a two-stage evolutionary line. It evolves into **Sinistcha** through a unique item-based trigger. If it is in its Counterfeit Form, it requires an **Unremarkable Teacup** to evolve; if it is in its rare Artisan Form, it requires a **Masterpiece Teacup**. It belongs to the **Mineral** and **Amorphous (Indeterminate)** Egg Groups. Its biology is centered around its tea-like essence, which it can manipulate to drain life force or inflict status conditions like sleep using **Stun Spore** or **Sleep Talk**. Despite its small stature (0.1m), it is a sophisticated spirit that thrives in structured, traditional environments.

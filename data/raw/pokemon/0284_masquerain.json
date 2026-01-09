@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 284,
+    "name": "masquerain",
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 62,
+      "special-attack": 100,
+      "special-defense": 82,
+      "speed": 80
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 3.6,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "masquerain"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "hyper-beam",
+      "solar-beam",
+      "stun-spore",
+      "string-shot",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "haze",
+      "waterfall",
+      "swift",
+      "leech-life",
+      "bubble",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "sweet-scent",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "weather-ball",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "aerial-ace",
+      "mud-shot",
+      "water-sport",
+      "water-pulse",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "aqua-jet",
+      "ominous-wind",
+      "quiver-dance",
+      "soak",
+      "foul-play",
+      "round",
+      "scald",
+      "acrobatics",
+      "struggle-bug",
+      "hurricane",
+      "sticky-web",
+      "confide",
+      "infestation",
+      "lunge",
+      "liquidation",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce",
+      "chilling-water"
+    ],
+    "held_items": [
+      "silver-powder"
+    ],
+    "base_experience": 159,
+    "is_default": true,
+    "order": 387,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/284.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/284.png"
+    },
+    "species_name": "masquerain",
+    "flavor_text": "MASQUERAIN intimidates enemies with the eyelike patterns on its antennas. This POK\u00e9MON flaps its four wings to freely fly in any direction - even sideways and backwards - as if it were a helicopter.",
+    "genus": "Eyeball Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "bug-wings",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/141/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 141,
+      "chain": {
+        "species_name": "surskit",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "masquerain",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

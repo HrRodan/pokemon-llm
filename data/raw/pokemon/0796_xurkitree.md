@@ -1,0 +1,12 @@
+## Identity & Lore
+Xurkitree (Pokedex #796) is the Glowing Pokémon, a bizarre and mysterious life-form classified as an **Ultra Beast**, specifically codenamed **UB-03 Lighting**. First discovered in the **Alola region** during the **Generation VII** era, this black, wire-like entity is composed of materials resembling electrical cables, held together by white zip-tie-like bands. It lacks traditional facial features, instead possessing a star-shaped head that glows brilliantly when discharging high-voltage shocks. According to Alolan witnesses and Aether Foundation research, Xurkitree has been observed raiding power plants to "plug" itself into the ground or electrical outlets, siphoning massive amounts of energy to sustain its power. While it does not possess a Mega Evolution or Gigantamax form, its presence is considered a Tier-1 threat due to its volatile nature and extra-dimensional origin from the **Ultra Plant**.
+
+## Combat Profile
+* **Stats:** HP 83, Attack 89, Defense 71, Sp. Atk 173, Sp. Def 71, Speed 83.
+* **Archetype:** **Special Wallbreaker / Snowball Sweeper**. Its Special Attack stat is among the highest of all non-Mega evolved Pokémon, making it a terrifying offensive presence.
+* **Type Matchups:** As a pure Electric-type, it is **weak to Ground**. It **resists Electric, Flying, and Steel** types.
+* **Move Selection:** Utilizing its massive Special Attack and unique access to rare setup moves, Xurkitree excels with **Thunderbolt** for reliable STAB damage, **Tail Glow** to boost its Special Attack by three stages in a single turn, **Energy Ball** to check its Ground-type weaknesses, and **Dazzling Gleam** for wide-range coverage against Dragon and Fighting types.
+* **Abilities:** **Beast Boost** (Increases the Pokémon's highest stat—statistically almost always its Special Attack—each time it knocks out an opponent, allowing it to become progressively more unstoppable during a match).
+
+## Evolution & Biology
+Xurkitree is a single-stage Ultra Beast and does not evolve from or into any other species. It is an asexual entity that belongs to the **No Eggs Discovered** egg group, meaning it cannot be bred in captivity. Its biology is strikingly similar to an electrical conduit; it can stand still and mimic a power line to blend into human environments, though its rhythmic, swaying movement often gives it away. Despite its spindly appearance, it weighs 100 kg and stands at an imposing 3.8 meters, allowing it to loom over most opponents while conducting lethal levels of electricity through its limbs.

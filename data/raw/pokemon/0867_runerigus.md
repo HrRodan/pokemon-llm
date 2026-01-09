@@ -1,0 +1,12 @@
+## Identity & Lore
+Runerigus (Pokedex #867) is the Grudge Pokémon, a Ground and Ghost-type introduced in Generation VIII (Galar). This spectral entity is the result of a powerful, ancient curse woven into stone paintings that came to life after absorbing the spirit of a Galarian Yamask. Unlike its Unovan counterpart, Cofagrigus, which inhabits a golden sarcophagus, Runerigus is composed of jagged, cursed clay slabs held together by shadowy energy. It is primarily found in arid, ancient locations like the Dusty Bowl or Route 6 in the Galar region. Its grey, rocky body is etched with crimson depictions of a stylized serpent, symbolizing the lingering resentment that fuels its movement.
+
+## Combat Profile
+* **Stats:** HP 58, Attack 95, Defense 145, Sp. Atk 50, Sp. Def 105, Speed 30.
+* **Archetype:** Physical Tank / Hazard Setter. With a massive Defense stat of 145 and access to a wide array of utility moves, Runerigus excels at absorbing physical blows and disrupting the opponent's strategy.
+* **Type Matchups:** It is **weak to Water, Grass, Ice, Ghost, and Dark**. It **resists Poison and Rock (0.5x)** and possesses three complete **Immunities to Electric, Normal, and Fighting** types.
+* **Move Selection:** Capitalizing on its high physical Attack and Defense, key moves include **Poltergeist** (high-power Ghost STAB), **Earthquake** (reliable Ground STAB), **Body Press** (which calculates damage using its 145 Defense stat), and **Stealth Rock** (essential entry hazard utility).
+* **Abilities:** Wandering Spirit (When a Pokémon hits Runerigus with a move that makes direct contact, the two Pokémon swap Abilities. This is exceptionally powerful for neutralizing top-tier threats that rely on their abilities, such as Huge Power or Libero users).
+
+## Evolution & Biology
+Runerigus is the final stage of a two-stage evolutionary line. It evolves specifically from **Galarian Yamask**. The evolution process is one of the most unique in the Pokémon world: it occurs when a Galarian Yamask has lost at least 49 HP from enemy attacks (without fainting) and is then brought to the large stone archway in the Dusty Bowl region of Galar. Biologically, it is a "Mineral" and "Indeterminate" Egg Group inhabitant. Despite its sluggish Speed of 30, it is a premier choice for **Trick Room** teams, where it can utilize its high Attack and disruptive moves before faster opponents can react. It is also known to utilize moves like **Will-O-Wisp** to burn physical attackers, further augmenting its naturally high physical bulk.

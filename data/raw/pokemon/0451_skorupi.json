@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 451,
+    "name": "skorupi",
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 90,
+      "special-attack": 30,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 12.0,
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "keen-eye",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "skorupi"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "whirlwind",
+      "sand-attack",
+      "headbutt",
+      "poison-sting",
+      "twineedle",
+      "pin-missile",
+      "leer",
+      "bite",
+      "strength",
+      "dig",
+      "toxic",
+      "agility",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "flash",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "torment",
+      "facade",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "poison-fang",
+      "rock-tomb",
+      "aerial-ace",
+      "poison-tail",
+      "natural-gift",
+      "acupressure",
+      "payback",
+      "assurance",
+      "fling",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "aqua-tail",
+      "x-scissor",
+      "bug-buzz",
+      "cross-poison",
+      "captivate",
+      "bug-bite",
+      "hone-claws",
+      "venoshock",
+      "round",
+      "struggle-bug",
+      "fell-stinger",
+      "confide",
+      "infestation",
+      "skitter-smack"
+    ],
+    "held_items": [
+      "poison-barb"
+    ],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 577,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/451.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/451.png"
+    },
+    "species_name": "skorupi",
+    "flavor_text": "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+    "genus": "Scorpion Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "armor",
+    "color": "purple",
+    "egg_groups": [
+      "bug",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/234/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 234,
+      "chain": {
+        "species_name": "skorupi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "drapion",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

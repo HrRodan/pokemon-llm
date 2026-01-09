@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Tyranitar (Pokedex #10049) is the devastating Mega Evolution of the Armor Pokémon, a species originally discovered in the Johto region (Generation II). This massive, bipedal predator is encased in a green, rocky hide that is famously impervious to almost any form of conventional damage. Upon Mega Evolving, the destructive energy within Tyranitar causes its shell to split, revealing red, eye-like gaps on its chest and more prominent, jagged spikes along its back. Known for its mountain-leveling strength and relentless aggression, it is the Johto region's premier Pseudo-Legendary Pokémon. While it does not possess a Gigantamax form, its ancient ferocity is echoed in the Paldean Paradox Pokémon, Iron Thorns.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 164, Defense 150, Sp. Atk 95, Sp. Def 120, Speed 71.
+* **Archetype:** Bulky Physical Wallbreaker.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Fighting-type moves**. It is also **weak to Ground, Steel, Water, Grass, Bug, and Fairy**. It **resists Normal, Flying, Poison, Ghost, Fire, and Dark**, and possesses a total **Immunity to Psychic**.
+* **Move Selection:** Leveraging its colossal base 164 Attack, its most effective moves include **Stone Edge** (high-crit STAB), **Crunch** (reliable Dark STAB), **Earthquake** (essential Ground coverage), and **Ice Punch** (to punish 4x weak Ground/Flying types like Gliscor or Landorus).
+* **Abilities:** **Sand Stream** (Automatically summons a Sandstorm upon entry. Beyond passive chip damage, this provides Mega Tyranitar with a 1.5x multiplier to its Special Defense, making its 120 base stat significantly harder to penetrate).
+
+## Evolution & Biology
+Mega Tyranitar is the zenith of a three-stage evolutionary line. It begins its life as **Larvitar**, which evolves into the cocoon-like **Pupitar** starting at **Level 30**. Pupitar finally evolves into the base **Tyranitar** at **Level 55**. The transformation into Mega Tyranitar is a temporary state triggered in battle when Tyranitar holds a **Tyranitarite** Mega Stone. Biologically, it is a heavy-set creature belonging to the **Monster** Egg Group, with a slow growth rate reflecting the immense time and energy required to develop its armored body. Its habitat is primarily mountainous terrain, where its presence is enough to redraw maps through its sheer physical power.

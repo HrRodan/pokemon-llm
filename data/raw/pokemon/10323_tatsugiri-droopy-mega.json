@@ -1,0 +1,89 @@
+{
+  "pokemon_details": {
+    "id": 10323,
+    "name": "tatsugiri-droopy-mega",
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 90,
+      "special-attack": 135,
+      "special-defense": 125,
+      "speed": 92
+    },
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 24.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "tatsugiri",
+    "flavor_text": "This is a small dragon Pok\u00e9mon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+    "genus": "Mimicry Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "hatch_counter": 35,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "pink",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/514/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 514,
+      "chain": {
+        "species_name": "tatsugiri",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

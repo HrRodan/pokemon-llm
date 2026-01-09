@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 642,
+    "name": "thundurus-incarnate",
+    "stats": {
+      "hp": 79,
+      "attack": 115,
+      "defense": 70,
+      "special-attack": 125,
+      "special-defense": 80,
+      "speed": 111
+    },
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 61.0,
+    "abilities": [
+      {
+        "name": "prankster",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "thundurus-incarnate"
+    ],
+    "moves": [
+      "thunder-punch",
+      "fly",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "leer",
+      "bite",
+      "hyper-beam",
+      "strength",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "agility",
+      "double-team",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "charge",
+      "taunt",
+      "role-play",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "astonish",
+      "weather-ball",
+      "extrasensory",
+      "bulk-up",
+      "shock-wave",
+      "hammer-arm",
+      "u-turn",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "heal-block",
+      "dark-pulse",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "flash-cannon",
+      "defog",
+      "discharge",
+      "grass-knot",
+      "charge-beam",
+      "smack-down",
+      "sludge-wave",
+      "electro-ball",
+      "foul-play",
+      "round",
+      "sky-drop",
+      "incinerate",
+      "acrobatics",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "snarl",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "smart-strike",
+      "brutal-swing",
+      "rising-voltage",
+      "lash-out",
+      "wildbolt-storm",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 261,
+    "is_default": true,
+    "order": 766,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/642.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/642.png"
+    },
+    "species_name": "thundurus",
+    "flavor_text": "Countless charred remains mar the landscape of places through which Thundurus has passed.",
+    "genus": "Bolt Strike Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 90,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/329/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 329,
+      "chain": {
+        "species_name": "thundurus",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

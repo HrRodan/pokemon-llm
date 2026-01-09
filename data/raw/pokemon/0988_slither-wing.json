@@ -1,0 +1,160 @@
+{
+  "pokemon_details": {
+    "id": 988,
+    "name": "slither-wing",
+    "stats": {
+      "hp": 85,
+      "attack": 135,
+      "defense": 79,
+      "special-attack": 85,
+      "special-defense": 105,
+      "speed": 81
+    },
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "height_m": 3.2,
+    "weight_kg": 92.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "slither-wing"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "stomp",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "ember",
+      "hyper-beam",
+      "low-kick",
+      "poison-powder",
+      "stun-spore",
+      "earthquake",
+      "leech-life",
+      "rest",
+      "substitute",
+      "curse",
+      "reversal",
+      "protect",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "morning-sun",
+      "rain-dance",
+      "sunny-day",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "superpower",
+      "brick-break",
+      "aerial-ace",
+      "bulk-up",
+      "u-turn",
+      "close-combat",
+      "flare-blitz",
+      "bug-buzz",
+      "giga-impact",
+      "zen-headbutt",
+      "bug-bite",
+      "heavy-slam",
+      "flame-charge",
+      "low-sweep",
+      "acrobatics",
+      "wild-charge",
+      "heat-crash",
+      "hurricane",
+      "first-impression",
+      "high-horsepower",
+      "lunge",
+      "stomping-tantrum",
+      "body-press",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 984,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/988.png"
+    },
+    "species_name": "slither-wing",
+    "flavor_text": "This mysterious Pok\u00e9mon has some similarities to a creature that an old book introduced as Slither Wing.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/519/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 519,
+      "chain": {
+        "species_name": "slither-wing",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

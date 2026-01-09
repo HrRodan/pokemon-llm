@@ -1,0 +1,12 @@
+## Identity & Lore
+Tyrantrum (Pokedex #697) is the Despot Pokémon, a massive bipedal predator that dominated the ancient world 100 million years ago. Restored from the Jaw Fossil in the Kalos region (Generation VI), this Rock/Dragon-type behemoth is characterized by its crimson scales, a royal white fringe of feathers resembling a king's collar, and a crown-like crest. Its flavor text highlights its gargantuan jaws, capable of shredding thick metal plates as if they were paper, earning it a reputation for being invincible in its original era. While it does not possess a Mega Evolution or Gigantamax form, it is considered one of the most physically imposing Fossil Pokémon ever discovered.
+
+## Combat Profile
+* **Stats:** HP 82, Attack 121, Defense 119, Sp. Atk 69, Sp. Def 59, Speed 71.
+* **Archetype:** Physical Wallbreaker / Tank. Its massive Attack and high physical Defense allow it to trade hits effectively against physical attackers.
+* **Type Matchups:** It is **weak to Fighting, Ground, Steel, Water, Grass, Ice, Dragon, and Fairy**. Conversely, it **resists Normal, Flying, Poison, and Electric**, and possesses a **Double Resistance (0.25x) to Fire**.
+* **Move Selection:** Capitalizing on its elite physical prowess and unique abilities, key moves include **Head Smash** (its most powerful STAB move), **Outrage** (for high-neutral Dragon damage), **Crunch** (to utilize biting boosts), and **Dragon Dance** (to patch up its middling Speed and sweep).
+* **Abilities:** **Strong Jaw** increases the power of biting moves like Crunch, Psychic Fangs, and the Elemental Fangs by 50%. Its Hidden Ability, **Rock Head**, is arguably its best competitive asset, as it prevents Tyrantrum from taking recoil damage when using the devastating 150-base-power move Head Smash.
+
+## Evolution & Biology
+Tyrantrum is the final stage of a two-stage evolutionary line. It evolves from **Tyrunt** when leveled up to **Level 39**, but only during the **daytime**. Biologically, it is a terrestrial apex predator that thrives in mountainous or primitive environments. It belongs to the **Monster** and **Dragon** Egg Groups, and while it has a low capture rate of 45, it is a prized companion for trainers seeking raw power. Despite its sluggish Special Defense, its presence on the battlefield is defined by its "kingly" aggression and sheer crushing force.

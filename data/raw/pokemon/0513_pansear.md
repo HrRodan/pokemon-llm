@@ -1,0 +1,12 @@
+## Identity & Lore
+Pansear (Pokedex #513) is the High Temp Pokémon, a mammalian Fire-type species first discovered in the Unova region during Generation V. Characterized by its bright red fur and a distinctive flame-shaped tuft atop its head, this tuft serves as a barometer for its emotional state; when Pansear becomes angered, the temperature of this tuft can soar to 600° F. This biological heater is not just for defense, as Pansear is known to intelligently use its tuft to roast berries before consumption. It is one of three "Elemental Monkeys" alongside Pansage and Panpour, often provided to trainers in the Dreamyard to balance their team's elemental weaknesses. While it does not currently possess a Mega Evolution or Gigantamax form, it is recognized for its versatility in early-game environments across the Unova and Kalos regions.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 53, Defense 48, Sp. Atk 53, Sp. Def 48, Speed 64.
+* **Archetype:** Early-game Mixed Attacker / Glass Cannon.
+* **Type Matchups:** It is **weak to Ground, Rock, and Water**. It **resists Bug, Steel, Fire, Grass, Ice, and Fairy** types. 
+* **Move Selection:** Utilizing its balanced offensive stats and access to powerful setup options, Pansear excels with **Flamethrower** for consistent STAB damage, **Fire Blast** for maximum burst potential, **Nasty Plot** to sharply raise its Special Attack, and **Solar Beam** for high-damage coverage against its Water and Rock-type weaknesses when used in sunny weather.
+* **Abilities:** **Gluttony** (Makes the Pokémon use a held Berry earlier than usual, typically at 50% HP instead of 25%); **Blaze** (Hidden Ability: Powers up Fire-type moves by 50% when the Pokémon's HP is low).
+
+## Evolution & Biology
+Pansear is part of a two-stage evolutionary line. It evolves into **Simisear** when **exposed to a Fire Stone**. This evolution is non-level dependent, meaning Pansear can be evolved at any time, though trainers often delay this to ensure it learns specific utility moves first. Biologically, it belongs to the **Ground** (Field) egg group, with a hatch counter of 20, indicating a relatively standard breeding cycle. Pansear is often found in forest environments where it can easily forage for berries to roast and share with its kin.

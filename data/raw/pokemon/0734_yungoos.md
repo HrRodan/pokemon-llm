@@ -1,0 +1,12 @@
+## Identity & Lore
+Yungoos (Pokedex #734) is the Loitering Pokémon, a quadrupedal mammalian creature first introduced in Generation VII (Alola). This brown-furred Pokémon is characterized by its long body and sharp, prominent fangs which it uses to bite anything it encounters. Though synonymous with the Alola region, Yungoos is actually an invasive species; it was originally imported from another region to deal with the overpopulation of Rattata. It is famous for its voracious appetite and its irritable, wandering nature when hungry. While Yungoos does not possess a Mega Evolution, Gigantamax, or Paradox form, its evolved state, Gumshoos, served as a notable Totem Pokémon during the Alolan Island Challenge.
+
+## Combat Profile
+* **Stats:** HP 48, Attack 70, Defense 30, Sp. Atk 30, Sp. Def 30, Speed 45.
+* **Archetype:** Early-Game Physical Attacker. Yungoos relies on high base Attack for its stage of evolution, though it suffers from extremely low defensive bulk and mediocre Speed.
+* **Type Matchups:** It is a pure Normal-type, meaning it is **weak to Fighting** and has a total **immunity to Ghost**. It lacks any resistances to other types.
+* **Move Selection:** Capitalizing on its high Attack and its signature abilities, key moves include **Crunch** (benefiting from Strong Jaw), **Hyper Fang** (a high-power STAB move), **Psychic Fangs** (for Fighting-type coverage), and **Earthquake** (for significant physical ground damage).
+* **Abilities:** **Stakeout** (doubles the damage dealt to a target that has just switched into battle), **Strong Jaw** (increases the power of biting moves like Crunch and the elemental fangs by 50%), and **Adaptability** (increases the STAB modifier for Normal-type moves from 1.5x to 2.0x).
+
+## Evolution & Biology
+Yungoos is part of a two-stage evolutionary line. It evolves into **Gumshoos** when it reaches **Level 20**, provided the level-up occurs during the **Day**. Biologically, Yungoos are persistent hunters that spend most of their waking hours loitering along specific routes looking for prey. Once they fall asleep, they collapse wherever they happen to be. It belongs to the **Field (Ground)** egg group and is often found carrying a **Pecha Berry** in the wild to mitigate poisoning. It has a hatch counter of 15, making it relatively quick to breed for trainers looking for specific competitive abilities like Stakeout.

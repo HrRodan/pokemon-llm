@@ -1,0 +1,15 @@
+## Identity & Lore
+Kilowattrel (Pokedex #941) is the Frigatebird Pokémon, a striking yellow and black avian introduced in the Paldea region during Generation IX. It is recognized for its massive wingspan and the unique, expandable throat sac it uses to amplify electrical energy. By catching ocean breezes and riding wind currents, Kilowattrel is a master of long-distance travel, capable of flying over 430 miles in a single day without exhaustion. While it shares the same Electric/Flying typing as the legendary Zapdos, Kilowattrel is a distinct species often found diving for prey along the shorelines of Paldea. Its biology is deeply tied to kinetic energy, as it converts the friction of the wind against its feathers into high-voltage electricity stored within its anatomy.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 70, Defense 60, Sp. Atk 105, Sp. Def 60, Speed 125.
+* **Archetype:** Fast Special Sweeper / Offensive Pivot. With a blistering Speed tier of 125, Kilowattrel outpaces the vast majority of the metagame, making it an excellent lead or revenge killer.
+* **Type Matchups:** It is **weak to Ice and Rock**. Due to its dual typing, it possesses a crucial **immunity to Ground**, effectively neutralizing the primary weakness of most Electric types. It also **resists Fighting, Flying, Bug, Steel, and Grass**.
+* **Move Selection:** Leveraging its high Special Attack and Speed, Kilowattrel excels with high-power STAB (Same Type Attack Bonus) moves and tactical positioning. Key moves include **Thunderbolt** for reliable damage, **Hurricane** for massive power (especially in Rain), **Volt Switch** to maintain offensive momentum while pivoting, and **Air Slash** for a chance to flinch slower opponents. It also has access to **Roost** for longevity and **Tailwind** to support the entire team's speed.
+* **Abilities:** 
+    * **Wind Power:** A unique ability that grants the "Charged" status when the Pokémon is hit by a wind move or when Tailwind is active, doubling the power of its next Electric attack.
+    * **Volt Absorb:** Provides an additional immunity to Electric-type moves, restoring 25% of its max HP when hit by one.
+    * **Competitive (Hidden Ability):** Boosts Special Attack by two stages if any of its stats are lowered by an opponent, making it a terrifying counter to "Intimidate" users.
+
+## Evolution & Biology
+Kilowattrel is the final form of a two-stage evolutionary line. It evolves from **Wattrel** once it reaches **Level 25**. Biologically, it is a seafaring creature that belongs to the **Water 1 and Flying** Egg Groups. Its anatomy is designed for aerodynamic efficiency, featuring a shape optimized for gliding and diving. Despite its yellow coloration suggesting a high visibility, it uses its speed and electrical discharges to ward off predators and stun schools of fish. Its hatch counter is 20, and it follows a medium-slow growth rate, requiring significant experience to reach its full potential in competitive play.

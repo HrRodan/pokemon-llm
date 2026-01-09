@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 372,
+    "name": "shelgon",
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 100,
+      "special-attack": 60,
+      "special-defense": 50,
+      "speed": 50
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 110.5,
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shelgon"
+    ],
+    "moves": [
+      "cut",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hydro-pump",
+      "strength",
+      "fire-spin",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "hyper-voice",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "dragon-claw",
+      "dragon-dance",
+      "natural-gift",
+      "dragon-pulse",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "draco-meteor",
+      "iron-head",
+      "captivate",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "dragon-tail",
+      "confide",
+      "tera-blast",
+      "dragon-cheer",
+      "temper-flare"
+    ],
+    "held_items": [
+      "dragon-scale",
+      "dragon-fang"
+    ],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 493,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/372.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/372.png"
+    },
+    "species_name": "shelgon",
+    "flavor_text": "Inside SHELGON\u2019s armor-like shell, cells are in the midst of transformation to create an entirely new body. This POK\u00e9MON\u2019s shell is extremely heavy, making its movements sluggish.",
+    "genus": "Endurance Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/191/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 191,
+      "chain": {
+        "species_name": "bagon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "shelgon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "salamence",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 50
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 656,
+    "name": "froakie",
+    "stats": {
+      "hp": 41,
+      "attack": 56,
+      "defense": 40,
+      "special-attack": 62,
+      "special-defense": 44,
+      "speed": 71
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 7.0,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "protean",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "froakie"
+    ],
+    "moves": [
+      "pound",
+      "cut",
+      "take-down",
+      "growl",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "strength",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "smokescreen",
+      "lick",
+      "waterfall",
+      "swift",
+      "bubble",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "snore",
+      "spite",
+      "protect",
+      "mud-slap",
+      "spikes",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "snatch",
+      "secret-power",
+      "dive",
+      "camouflage",
+      "mud-sport",
+      "rock-tomb",
+      "aerial-ace",
+      "bounce",
+      "mud-shot",
+      "water-sport",
+      "water-pulse",
+      "u-turn",
+      "fling",
+      "toxic-spikes",
+      "switcheroo",
+      "grass-knot",
+      "smack-down",
+      "round",
+      "echoed-voice",
+      "scald",
+      "acrobatics",
+      "retaliate",
+      "bestow",
+      "water-pledge",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "liquidation",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 63,
+    "is_default": true,
+    "order": 786,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/656.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/656.png"
+    },
+    "species_name": "froakie",
+    "flavor_text": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+    "genus": "Bubble Frog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/339/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 339,
+      "chain": {
+        "species_name": "froakie",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "frogadier",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "greninja",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

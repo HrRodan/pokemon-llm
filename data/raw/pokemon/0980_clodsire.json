@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 980,
+    "name": "clodsire",
+    "stats": {
+      "hp": 130,
+      "attack": 75,
+      "defense": 60,
+      "special-attack": 45,
+      "special-defense": 100,
+      "speed": 20
+    },
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 223.0,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "clodsire"
+    ],
+    "moves": [
+      "slam",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "poison-sting",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "low-kick",
+      "earthquake",
+      "dig",
+      "toxic",
+      "haze",
+      "waterfall",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "megahorn",
+      "rain-dance",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "rock-tomb",
+      "muddy-water",
+      "mud-shot",
+      "poison-tail",
+      "water-pulse",
+      "toxic-spikes",
+      "poison-jab",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "gunk-shot",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "venoshock",
+      "sludge-wave",
+      "heavy-slam",
+      "acid-spray",
+      "bulldoze",
+      "high-horsepower",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 151,
+    "is_default": true,
+    "order": 1009,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/980.png"
+    },
+    "species_name": "clodsire",
+    "flavor_text": "When attacked, this Pok\u00e9mon will retaliate by sticking thick spines out from its body. It\u2019s a risky move that puts everything on the line.",
+    "genus": "Spiny Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/96/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 96,
+      "chain": {
+        "species_name": "wooper",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quagsire",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "clodsire",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

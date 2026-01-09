@@ -1,0 +1,12 @@
+## Identity & Lore
+Tinkaton (Pokedex #959) is the Hammer Pokémon, a bold and highly intelligent species first discovered in the Paldea region during Generation IX. Standing only 0.7 meters tall but weighing a massive 112.8 kilograms—largely due to the colossal, handcrafted hammer it wields—this pink, humanoid Pokémon is known for its daring and somewhat mischievous disposition. Tinkaton possesses a natural predatory intellect, famously using its hammer to swat rocks into the sky with pinpoint accuracy to knock flying Corviknight out of the air. While it does not currently possess a Mega Evolution or Gigantamax form, its hammer is said to be forged from scrap metal stolen from other Steel-type Pokémon, growing in size as it evolves.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 75, Defense 77, Sp. Atk 70, Sp. Def 105, Speed 94.
+* **Archetype:** Tactical Disruptor / Special Tank. While its base Attack is modest, its high Special Defense and unique movepool allow it to serve as a durable support lead or a heavy hitter through high-power moves.
+* **Type Matchups:** It possesses the elite **Fairy/Steel** typing. It is **weak to Ground and Fire**. It is **immune to Dragon and Poison**, and provides a massive list of resistances, including a **Double Resistance (1/4x) to Bug**, and standard resistances to **Normal, Flying, Rock, Grass, Psychic, Ice, Dark, and Fairy**.
+* **Move Selection:** Tinkaton relies on its signature high-impact physical moves and utility to control the battlefield. Key moves include **Gigaton Hammer** (its signature 160-power Steel move), **Play Rough** (secondary STAB), **Knock Off** (to remove foe items), and **Stealth Rock** (for entry hazard support).
+* **Abilities:** **Mold Breaker** (allows its moves to ignore the target's defensive abilities like Levitate or Sturdy), **Own Tempo** (prevents confusion and intimidation), and its hidden ability **Pickpocket** (steals an item from an opponent when contacted).
+
+## Evolution & Biology
+Tinkaton is the final stage of a three-stage evolutionary line. It begins as **Tinkatink**, which evolves into **Tinkatuff** starting at Level 24. Tinkatuff then evolves into the final form, **Tinkaton**, starting at Level 38. Biologically, the line is defined by the evolution of their tool; what begins as a small rattle-like club for Tinkatink becomes a massive, 100-pound mallet by the time it reaches its final stage. Tinkaton belongs to the **Fairy** egg group and has a medium-slow growth rate, requiring significant experience to reach its full potential.

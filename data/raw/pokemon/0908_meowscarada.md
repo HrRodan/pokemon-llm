@@ -1,0 +1,12 @@
+## Identity & Lore
+Meowscarada (Pokedex #908) is the Magician Pokémon, a sophisticated bipedal feline representing the final evolutionary stage of the Grass-type starter from the Paldea region (Generation IX). Standing at 1.5 meters, it is distinguished by its dark, mask-like facial markings and a flowing green cape lined with reflective fur. This cape is used to camouflage the stem of its flower, creating a deceptive illusion that the flower is floating in mid-air—a hallmark of its theatrical and misdirection-based behavior. While it does not possess a Mega Evolution or Gigantamax form, Meowscarada is a primary candidate for the Terastal phenomenon found in Paldea, often utilizing the Tera-Grass or Tera-Stellar types to augment its offensive capabilities. Known for its prideful and sometimes jealous nature, it is fiercely attached to its trainer and often performs elaborate tricks with pollen-filled flower bombs.
+
+## Combat Profile
+* **Stats:** HP 76, Attack 110, Defense 70, Sp. Atk 81, Sp. Def 70, Speed 123.
+* **Archetype:** Fast Physical Sweeper / Offensive Pivot.
+* **Type Matchups:** It is **weak to Flying, Poison, Fire, Ice, Fighting, and Fairy**, with a notable **Double Weakness (4x) to Bug**. It **resists Ground, Rock, Water, Grass, Ghost, and Dark**, and possesses a complete **immunity to Psychic**-type attacks.
+* **Move Selection:** Capitalizing on its high Speed and Attack, key moves include **Flower Trick** (its signature move which never misses and always results in a critical hit), **Knock Off** (for STAB damage and item removal), **U-turn** (to maintain momentum as a pivot), and **Play Rough** (for Fairy-type coverage against Fighting and Dragon types).
+* **Abilities:** **Overgrow** (Powers up Grass-type moves by 50% when HP is below one-third). **Protean** (Hidden Ability: Changes the Pokémon's type to the type of the move it is about to use, though in Generation IX this effect only triggers once per switch-in).
+
+## Evolution & Biology
+Meowscarada is part of a three-stage evolutionary line. It begins as the Grass Cat Pokémon, **Sprigatito**, which evolves into **Floragato** starting at Level 16. The transition to its final form, **Meowscarada**, occurs once it reaches Level 36. Biologically, it is a highly agile hunter that belongs to the **Ground and Plant** Egg Groups, with a medium-slow growth rate. Despite its elegant appearance, it is a formidable physical combatant that uses its "magician" theme to distract opponents before striking with high-velocity flower bombs.

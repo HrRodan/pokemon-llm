@@ -1,0 +1,162 @@
+{
+  "pokemon_details": {
+    "id": 10074,
+    "name": "glalie-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 120,
+      "special-defense": 80,
+      "speed": 100
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 350.2,
+    "abilities": [
+      {
+        "name": "refrigerate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "glalie-mega"
+    ],
+    "moves": [
+      "headbutt",
+      "leer",
+      "bite",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "flash",
+      "explosion",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "spite",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "shadow-ball",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "signal-beam",
+      "sheer-cold",
+      "block",
+      "water-pulse",
+      "gyro-ball",
+      "payback",
+      "dark-pulse",
+      "giga-impact",
+      "ice-shard",
+      "ice-fang",
+      "iron-head",
+      "round",
+      "bulldoze",
+      "frost-breath",
+      "freeze-dry",
+      "confide",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 203,
+    "is_default": false,
+    "order": 482,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10074.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10074.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10074.png"
+    },
+    "species_name": "glalie",
+    "flavor_text": "GLALIE has a body made of rock, which it hardens with an armor of ice. This POK\u00e9MON has the ability to freeze moisture in the atmosphere into any shape it desires.",
+    "genus": "Face Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "fairy",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/186/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 186,
+      "chain": {
+        "species_name": "snorunt",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "glalie",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 42
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "froslass",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "dawn-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

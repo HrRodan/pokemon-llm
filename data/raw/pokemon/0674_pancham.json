@@ -1,0 +1,203 @@
+{
+  "pokemon_details": {
+    "id": 674,
+    "name": "pancham",
+    "stats": {
+      "hp": 67,
+      "attack": 82,
+      "defense": 62,
+      "special-attack": 46,
+      "special-defense": 48,
+      "speed": 43
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pancham"
+    ],
+    "moves": [
+      "karate-chop",
+      "comet-punch",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "leer",
+      "roar",
+      "surf",
+      "low-kick",
+      "seismic-toss",
+      "strength",
+      "dig",
+      "toxic",
+      "double-team",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "vital-throw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "arm-thrust",
+      "hyper-voice",
+      "rock-tomb",
+      "sky-uppercut",
+      "aerial-ace",
+      "block",
+      "bulk-up",
+      "covet",
+      "payback",
+      "fling",
+      "me-first",
+      "dark-pulse",
+      "drain-punch",
+      "shadow-claw",
+      "zen-headbutt",
+      "gunk-shot",
+      "iron-head",
+      "stone-edge",
+      "grass-knot",
+      "storm-throw",
+      "low-sweep",
+      "foul-play",
+      "entrainment",
+      "round",
+      "echoed-voice",
+      "quick-guard",
+      "circle-throw",
+      "quash",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "parting-shot",
+      "confide",
+      "power-up-punch",
+      "power-trip",
+      "lash-out",
+      "coaching"
+    ],
+    "held_items": [
+      "mental-herb"
+    ],
+    "base_experience": 70,
+    "is_default": true,
+    "order": 807,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/674.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/674.png"
+    },
+    "species_name": "pancham",
+    "flavor_text": "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+    "genus": "Playful Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 220,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/346/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 346,
+      "chain": {
+        "species_name": "pancham",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pangoro",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

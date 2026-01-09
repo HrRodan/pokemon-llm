@@ -1,0 +1,160 @@
+{
+  "pokemon_details": {
+    "id": 10013,
+    "name": "castform-sunny",
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 0.8,
+    "abilities": [
+      {
+        "name": "forecast",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "castform-sunny"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "disable",
+      "ember",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "ice-beam",
+      "blizzard",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "fire-blast",
+      "swift",
+      "amnesia",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "hail",
+      "facade",
+      "secret-power",
+      "weather-ball",
+      "cosmic-power",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "tailwind",
+      "lucky-chant",
+      "guard-swap",
+      "last-resort",
+      "energy-ball",
+      "avalanche",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "round",
+      "clear-smog",
+      "scald",
+      "hex",
+      "incinerate",
+      "reflect-type",
+      "retaliate",
+      "work-up",
+      "hurricane",
+      "confide"
+    ],
+    "held_items": [
+      "mystic-water"
+    ],
+    "base_experience": 147,
+    "is_default": false,
+    "order": 465,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10013.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/351-sunny.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10013.png"
+    },
+    "species_name": "castform",
+    "flavor_text": "CASTFORM\u2019s appearance changes with the weather. This POK\u00e9MON gained the ability to use the vast power of nature to protect its tiny body.",
+    "genus": "Weather Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "fairy",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/179/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 179,
+      "chain": {
+        "species_name": "castform",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

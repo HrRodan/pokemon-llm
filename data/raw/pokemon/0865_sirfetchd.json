@@ -1,0 +1,148 @@
+{
+  "pokemon_details": {
+    "id": 865,
+    "name": "sirfetchd",
+    "stats": {
+      "hp": 62,
+      "attack": 135,
+      "defense": 95,
+      "special-attack": 68,
+      "special-defense": 82,
+      "speed": 65
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 117.0,
+    "abilities": [
+      {
+        "name": "steadfast",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sirfetchd"
+    ],
+    "moves": [
+      "swords-dance",
+      "slam",
+      "sand-attack",
+      "body-slam",
+      "leer",
+      "peck",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "detect",
+      "endure",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "iron-defense",
+      "leaf-blade",
+      "close-combat",
+      "assurance",
+      "poison-jab",
+      "brave-bird",
+      "defog",
+      "round",
+      "retaliate",
+      "final-gambit",
+      "work-up",
+      "first-impression",
+      "solar-blade",
+      "throat-chop",
+      "brutal-swing",
+      "meteor-assault",
+      "grassy-glide",
+      "coaching",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 177,
+    "is_default": true,
+    "order": 1049,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/865.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/865.png"
+    },
+    "species_name": "sirfetchd",
+    "flavor_text": "Only Farfetch\u2019d that have survived many battles can attain this evolution. When this Pok\u00e9mon\u2019s leek withers, it will retire from combat.",
+    "genus": "Wild Duck Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "white",
+    "egg_groups": [
+      "flying",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/35/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 35,
+      "chain": {
+        "species_name": "farfetchd",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sirfetchd",
+            "evolution_details": [
+              {
+                "trigger": "three-critical-hits"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

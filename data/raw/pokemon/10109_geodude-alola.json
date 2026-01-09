@@ -1,0 +1,213 @@
+{
+  "pokemon_details": {
+    "id": 10109,
+    "name": "geodude-alola",
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 20
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 20.3,
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "galvanize",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "geodude-alola"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "flamethrower",
+      "counter",
+      "seismic-toss",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "self-destruct",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "charge",
+      "superpower",
+      "brick-break",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "gyro-ball",
+      "fling",
+      "magnet-rise",
+      "rock-polish",
+      "earth-power",
+      "rock-climb",
+      "discharge",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "wide-guard",
+      "autotomize",
+      "smack-down",
+      "round",
+      "volt-switch",
+      "bulldoze",
+      "electroweb",
+      "wild-charge",
+      "confide",
+      "high-horsepower",
+      "brutal-swing",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "cell-battery"
+    ],
+    "base_experience": 60,
+    "is_default": false,
+    "order": 116,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10109.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10109.png"
+    },
+    "species_name": "geodude",
+    "flavor_text": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+    "genus": "Rock Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "arms",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/31/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 31,
+      "chain": {
+        "species_name": "geodude",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "graveler",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "golem",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Zacian (Pokedex #888) is the Warrior Pokémon, a legendary figure from the Galar region (Generation VIII) that is celebrated as one of the "Hero Duo" alongside its counterpart, Zamazenta. Standing as a majestic, lupine protector, Zacian is known for its graceful yet lethal combat style, often absorbing metal particles to transform them into a formidable weapon. According to Galarian myth, it slumbered for centuries in the Slumbering Weald after defeating Eternatus during the first "Darkest Day." While its base state is known as the **Hero of Many Battles** form, it possesses the unique potential to transform into its **Crowned Sword** form when it holds the Rusted Sword, gaining the Steel typing and a massive power surge. Although it does not possess a Mega Evolution or Gigantamax form, its Crowned state is widely considered one of the most powerful entities in the history of Pokémon, rivaling the strength of Primal Reversions and Mega Evolutions.
+
+## Combat Profile
+* **Stats:** HP 92, Attack 120, Defense 115, Sp. Atk 80, Sp. Def 115, Speed 138.
+* **Archetype:** Fast Physical Sweeper.
+* **Type Matchups:** In its Hero of Many Battles form, Zacian is a pure Fairy-type. It is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and it is **immune to Dragon-type moves**.
+* **Move Selection:** Utilizing its elite Attack and Speed, Zacian excels with a physical moveset. Key moves include **Play Rough** for high-damage Fairy STAB, **Close Combat** or **Sacred Sword** to bypass defensive walls, **Wild Charge** for coverage against Flying and Water types, and **Swords Dance** to further boost its already staggering offensive presence.
+* **Abilities:** Intrepid Sword (Automatically boosts the Pokémon's Attack stat by one stage when it enters the battlefield, making Zacian an immediate threat without needing a turn to setup).
+
+## Evolution & Biology
+Zacian is a legendary Pokémon and is not part of a traditional evolutionary line. It does not evolve from or into any other species. However, it undergoes a significant **Forme Change** rather than evolution; when equipped with the **Rusted Sword** item, it enters its Crowned Sword form, changing its type to Fairy/Steel and replacing the move Iron Head with its signature move, **Behemoth Blade**. As a member of the **No-Eggs (Undiscovered)** group, Zacian cannot be bred. Its biology is centered around the absorption of metal to refine its blade, and it is capable of moving so quickly that it strikes before its enemies can even register its presence.

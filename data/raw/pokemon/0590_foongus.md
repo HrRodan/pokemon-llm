@@ -1,0 +1,14 @@
+## Identity & Lore
+Foongus (Pokedex #590) is the Mushroom Pokémon, a unique Grass and Poison-type species first discovered in the Unova region (Generation V). Characterized by its small, white body and a cap that bears an uncanny resemblance to a standard Poké Ball, Foongus is a master of mimicry and deception. It utilizes this appearance to lure humans and other Pokémon into close proximity before releasing clouds of debilitating spores to defend itself or escape. While the reason for its resemblance to man-made Poké Balls remains a biological mystery, it is often found in tall grass or near forest paths where items are frequently dropped. While Foongus itself does not possess a Mega Evolution or Gigantamax form, its evolutionary lineage is linked to the ancient past via the Paradox Pokémon **Brute Bonnet**, which shares its signature fungal aesthetic and Poké Ball patterning.
+
+## Combat Profile
+* **Stats:** HP 69, Attack 55, Defense 45, Sp. Atk 55, Sp. Def 55, Speed 15.
+* **Archetype:** Defensive Status Disruptor. Despite its low base stat total, Foongus serves as a potent utility specialist, particularly in "Little Cup" formats or lower-tier play.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, Ice, and Psychic**. It notably **resists Water, Electric, Fairy, and Fighting**, and possesses a **Double Resistance (0.25x)** to Grass-type attacks.
+* **Move Selection:** Utilizing its equal offensive stats and legendary utility pool, Foongus excels with **Spore** (a 100% accuracy sleep move), **Giga Drain** (providing STAB damage and sustainability), **Sludge Bomb** (for primary Poison-type damage), and **Rage Powder** (a vital redirection tool that forces opponents to target it instead of its allies).
+* **Abilities:** 
+    * **Effect Spore:** A defensive ability that has a 10% chance to induce Poison, Paralysis, or Sleep when the opponent makes contact.
+    * **Regenerator (Hidden Ability):** Highly prized in competitive play, this allows Foongus to recover 33.3% of its maximum HP every time it switches out of battle, granting it immense longevity.
+
+## Evolution & Biology
+Foongus is the initial stage of a two-part evolutionary line. It evolves into its massive, dual-shield-wielding successor, **Amoonguss**, once it reaches **Level 39**. Biologically, Foongus is a slow-moving organism with a base speed of only 15, relying on status-inducing spores rather than physical prowess to survive. It belongs to the **Plant** egg group and is frequently sought after by foragers for the valuable items it carries, such as **Tiny Mushrooms**, **Big Mushrooms**, and the rare **Balm Mushroom**. Its growth rate is categorized as Medium, and it is known for its distinct "arms" shape despite its stationary appearance.

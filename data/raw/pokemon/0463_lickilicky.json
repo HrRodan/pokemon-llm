@@ -1,0 +1,207 @@
+{
+  "pokemon_details": {
+    "id": 463,
+    "name": "lickilicky",
+    "stats": {
+      "hp": 110,
+      "attack": 85,
+      "defense": 95,
+      "special-attack": 80,
+      "special-defense": 95,
+      "speed": 50
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 140.0,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lickilicky"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "bind",
+      "slam",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "wrap",
+      "double-edge",
+      "supersonic",
+      "disable",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "self-destruct",
+      "lick",
+      "fire-blast",
+      "amnesia",
+      "dream-eater",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "refresh",
+      "secret-power",
+      "rock-tomb",
+      "muddy-water",
+      "block",
+      "shock-wave",
+      "water-pulse",
+      "gyro-ball",
+      "natural-gift",
+      "fling",
+      "wring-out",
+      "me-first",
+      "aqua-tail",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "rock-climb",
+      "power-whip",
+      "captivate",
+      "round",
+      "chip-away",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "steel-roller",
+      "terrain-pulse"
+    ],
+    "held_items": [
+      "lagging-tail"
+    ],
+    "base_experience": 180,
+    "is_default": true,
+    "order": 172,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/463.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/463.png"
+    },
+    "species_name": "lickilicky",
+    "flavor_text": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+    "genus": "Licking Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/48/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 48,
+      "chain": {
+        "species_name": "lickitung",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lickilicky",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "rollout"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

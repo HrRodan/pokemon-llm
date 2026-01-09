@@ -1,0 +1,164 @@
+{
+  "pokemon_details": {
+    "id": 996,
+    "name": "frigibax",
+    "stats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 45,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 55
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 17.0,
+    "abilities": [
+      {
+        "name": "thermal-exchange",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "frigibax"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "leer",
+      "bite",
+      "ice-beam",
+      "blizzard",
+      "dig",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "protect",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "dragon-breath",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "helping-hand",
+      "icicle-spear",
+      "dragon-claw",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "avalanche",
+      "ice-fang",
+      "draco-meteor",
+      "dragon-tail",
+      "icicle-crash",
+      "freeze-dry",
+      "tera-blast",
+      "snowscape"
+    ],
+    "held_items": [],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 949,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/996.png"
+    },
+    "species_name": "frigibax",
+    "flavor_text": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+    "genus": "Ice Fin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "dragon",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/527/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 527,
+      "chain": {
+        "species_name": "frigibax",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "arctibax",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "baxcalibur",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 54
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

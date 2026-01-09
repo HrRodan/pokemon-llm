@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 325,
+    "name": "spoink",
+    "stats": {
+      "hp": 60,
+      "attack": 25,
+      "defense": 35,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 60
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 30.6,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spoink"
+    ],
+    "moves": [
+      "whirlwind",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "psybeam",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "night-shade",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "mirror-coat",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "endeavor",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "odor-sleuth",
+      "signal-beam",
+      "extrasensory",
+      "bounce",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "lucky-chant",
+      "power-gem",
+      "zen-headbutt",
+      "flash-cannon",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "psyshock",
+      "telekinesis",
+      "simple-beam",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "snarl",
+      "confide",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "lunge",
+      "expanding-force",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "persim-berry",
+      "tanga-berry"
+    ],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 437,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/325.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/325.png"
+    },
+    "species_name": "spoink",
+    "flavor_text": "SPOINK bounces around on its tail. The shock of its bouncing makes its heart pump. As a result, this POK\u00e9MON cannot afford to stop bouncing - if it stops, its heart will stop.",
+    "genus": "Bounce Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": "mountain",
+    "shape": "arms",
+    "color": "black",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/164/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 164,
+      "chain": {
+        "species_name": "spoink",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "grumpig",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

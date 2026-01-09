@@ -1,0 +1,179 @@
+{
+  "pokemon_details": {
+    "id": 694,
+    "name": "helioptile",
+    "stats": {
+      "hp": 44,
+      "attack": 38,
+      "defense": 33,
+      "special-attack": 61,
+      "special-defense": 43,
+      "speed": 70
+    },
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 6.0,
+    "abilities": [
+      {
+        "name": "dry-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "helioptile"
+    ],
+    "moves": [
+      "pound",
+      "razor-wind",
+      "cut",
+      "tail-whip",
+      "surf",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "light-screen",
+      "swift",
+      "glare",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "facade",
+      "charge",
+      "secret-power",
+      "camouflage",
+      "rock-tomb",
+      "signal-beam",
+      "shock-wave",
+      "u-turn",
+      "magnet-rise",
+      "dark-pulse",
+      "dragon-rush",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "low-sweep",
+      "round",
+      "ally-switch",
+      "volt-switch",
+      "bulldoze",
+      "dragon-tail",
+      "electroweb",
+      "wild-charge",
+      "parabolic-charge",
+      "electrify",
+      "confide",
+      "electric-terrain",
+      "scale-shot",
+      "rising-voltage"
+    ],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": true,
+    "order": 829,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/694.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/694.png"
+    },
+    "species_name": "helioptile",
+    "flavor_text": "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+    "genus": "Generator Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/356/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 356,
+      "chain": {
+        "species_name": "helioptile",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "heliolisk",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "sun-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

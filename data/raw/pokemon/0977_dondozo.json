@@ -1,0 +1,141 @@
+{
+  "pokemon_details": {
+    "id": 977,
+    "name": "dondozo",
+    "stats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 115,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 35
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 12.0,
+    "weight_kg": 220.0,
+    "abilities": [
+      {
+        "name": "unaware",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dondozo"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "earthquake",
+      "fissure",
+      "waterfall",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "flail",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "yawn",
+      "dive",
+      "tickle",
+      "water-pulse",
+      "aqua-tail",
+      "giga-impact",
+      "avalanche",
+      "ice-fang",
+      "zen-headbutt",
+      "heavy-slam",
+      "soak",
+      "bulldoze",
+      "noble-roar",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "wave-crash",
+      "tera-blast",
+      "order-up",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": true,
+    "order": 931,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/977.png"
+    },
+    "species_name": "dondozo",
+    "flavor_text": "This Pok\u00e9mon is a glutton, but it\u2019s bad at getting food. It teams up with a Tatsugiri to catch prey.",
+    "genus": "Big Catfish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/513/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 513,
+      "chain": {
+        "species_name": "dondozo",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

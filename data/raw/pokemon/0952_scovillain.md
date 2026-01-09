@@ -1,0 +1,15 @@
+## Identity & Lore
+Scovillain (Pokedex #952) is the Spicy Pepper Pokémon, a unique dual-type creature introduced in Generation IX within the Paldea region. Standing at 0.9 meters, this bipedal Pokémon is characterized by its two distinct heads: a green head that primarily handles its biological plant-based functions and a red head that synthesizes spicy chemicals into volatile fire energy. According to Paldean lore, the red head is particularly aggressive, blasting its surroundings with a super-spicy stream of flame that can reach incredible temperatures. As the first-ever Pokémon to possess the Grass/Fire typing, Scovillain occupies a rare ecological niche, thriving in environments where sun and heat are abundant. While it does not currently possess a Mega Evolution or Gigantamax form, its biological design is heavily influenced by high-SHU (Scoville Heat Unit) peppers, making it a symbolic representation of Paldea's culinary and agricultural themes.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 108, Defense 65, Sp. Atk 108, Sp. Def 65, Speed 75.
+* **Archetype:** Mixed Sun Sweeper / Glass Cannon. Scovillain excels in Sun-based weather teams where its speed and offensive pressure are maximized.
+* **Type Matchups:** It is **weak to Flying, Poison, and Rock**. Due to its dual typing, it possesses a **Double Resistance (4x) to Grass** and also **resists Electric, Steel, and Fairy** types. Notably, its typing negates the traditional Fire weakness to Water and the Grass weakness to Ice and Fire.
+* **Move Selection:** Scovillain is a potent mixed attacker. Leveraging its equal 108 offensive stats, key moves include **Fire Blast** for massive Fire-type STAB, **Leaf Storm** for high-burst Grass damage, **Solar Beam** (which skips its charge turn in Sunny Day conditions), and its signature move **Spicy Extract**, which sharply raises the target's Attack while sharply lowering their Defense.
+* **Abilities:** 
+    * **Chlorophyll:** Doubles the Pokémon’s Speed stat during strong sunlight, transforming Scovillain into a terrifying outspeed threat.
+    * **Insomnia:** Prevents the Pokémon from falling asleep; a crucial counter to Spore or Sleep Powder users.
+    * **Moody (Hidden Ability):** At the end of every turn, one stat is raised by two stages while another is decreased by one. This provides high-variance potential that can make Scovillain unmanageable if it stays on the field.
+
+## Evolution & Biology
+Scovillain is the second and final stage of a two-stage evolutionary line. It evolves from **Capsakid** when the player **uses a Fire Stone**. This transformation triggers the growth of the second head and the development of its internal fire-producing organs. Biologically, Scovillain belongs to the **Plant** Egg Group. Breeders should note a hatch counter of 20, with the species following a medium growth rate. Its physiology is upright and primarily green, though its dual-headed nature represents the chemical transition from a mild pepper to a scorching culinary hazard.

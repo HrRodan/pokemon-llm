@@ -1,0 +1,209 @@
+{
+  "pokemon_details": {
+    "id": 715,
+    "name": "noivern",
+    "stats": {
+      "hp": 85,
+      "attack": 70,
+      "defense": 80,
+      "special-attack": 97,
+      "special-defense": 80,
+      "speed": 123
+    },
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 85.0,
+    "abilities": [
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "noivern"
+    ],
+    "moves": [
+      "razor-wind",
+      "cut",
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "supersonic",
+      "flamethrower",
+      "hyper-beam",
+      "absorb",
+      "solar-beam",
+      "toxic",
+      "psychic",
+      "agility",
+      "screech",
+      "double-team",
+      "swift",
+      "dream-eater",
+      "leech-life",
+      "sky-attack",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "moonlight",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "brick-break",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "air-cutter",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "water-pulse",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "dark-pulse",
+      "air-slash",
+      "x-scissor",
+      "dragon-pulse",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "defog",
+      "draco-meteor",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "acrobatics",
+      "dragon-tail",
+      "wild-charge",
+      "hurricane",
+      "boomburst",
+      "confide",
+      "laser-focus",
+      "breaking-swipe",
+      "dual-wingbeat",
+      "tera-blast",
+      "dragon-cheer",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 187,
+    "is_default": true,
+    "order": 855,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/715.png"
+    },
+    "species_name": "noivern",
+    "flavor_text": "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+    "genus": "Sound Wave Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "flying",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/367/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 367,
+      "chain": {
+        "species_name": "noibat",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "noivern",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 48
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

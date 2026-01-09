@@ -1,0 +1,12 @@
+## Identity & Lore
+Volcanion (Pokedex #721) is the Steam Pokémon, a unique and powerful Mythical Pokémon that first appeared in the Kalos region (Generation VI). This massive, quadrupedal creature is distinct for being the only Pokémon to possess the dual Fire and Water typing. It is characterized by the large, ring-like cannons on its back, which it uses to expel internal steam with enough pressure to blow away entire mountains. According to legend, it inhabits secluded mountain ranges where humans do not tread, using billows of thick steam to create a dense fog that masks its presence. Despite its immense power and mechanical appearance, Volcanion does not possess a Mega Evolution, Gigantamax form, or Paradox counterpart, standing alone as a singular force of nature that can vaporize water instantly to fuel its explosive movements.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 110, Defense 120, Sp. Atk 130, Sp. Def 90, Speed 70.
+* **Archetype:** Bulky Special Wallbreaker. Volcanion excels at taking physical hits and retaliating with overwhelming special offense.
+* **Type Matchups:** It is **weak to Ground, Rock, and Electric**. Its unique typing grants it incredible defensive utility, providing **4x Resistances to Steel, Ice, and Fire**, while also resisting Bug and Fairy moves.
+* **Move Selection:** Utilizing its elite Special Attack and signature capabilities, its optimal moveset includes **Steam Eruption** (a high-power Water move with a 30% burn chance), **Fire Blast** (heavy STAB damage), **Earth Power** (critical coverage against Electric and Rock types), and **Sludge Wave** (to punish Fairy-type switch-ins).
+* **Abilities:** Water Absorb (Provides a complete immunity to Water-type moves; if hit by one, Volcanion restores 25% of its maximum HP, effectively turning a former neutral typing into a tactical recovery tool).
+
+## Evolution & Biology
+Volcanion is a standalone Mythical Pokémon and is not part of any evolutionary line. It does not evolve from or into any other species. Biologically, it functions as a living steam engine, drawing in water to store in its internal reservoirs before heating it to extreme temperatures for combat or locomotion. As a Mythical Pokémon, it belongs to the **No-Eggs (Undiscovered)** egg group, meaning it cannot be bred in captivity. It has a very slow growth rate and a high hatch counter of 120, reflecting its status as a rare and legendary entity within the Pokémon world.

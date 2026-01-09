@@ -1,0 +1,151 @@
+{
+  "pokemon_details": {
+    "id": 1023,
+    "name": "iron-crown",
+    "stats": {
+      "hp": 90,
+      "attack": 72,
+      "defense": 100,
+      "special-attack": 122,
+      "special-defense": 108,
+      "speed": 98
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 156.0,
+    "abilities": [
+      {
+        "name": "quark-drive",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "iron-crown"
+    ],
+    "moves": [
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "hyper-beam",
+      "confusion",
+      "psychic",
+      "agility",
+      "rest",
+      "slash",
+      "substitute",
+      "protect",
+      "scary-face",
+      "endure",
+      "sleep-talk",
+      "metal-claw",
+      "future-sight",
+      "facade",
+      "brick-break",
+      "metal-sound",
+      "iron-defense",
+      "calm-mind",
+      "gravity",
+      "metal-burst",
+      "air-slash",
+      "x-scissor",
+      "focus-blast",
+      "giga-impact",
+      "psycho-cut",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "psyshock",
+      "heavy-slam",
+      "stored-power",
+      "quick-guard",
+      "volt-switch",
+      "bulldoze",
+      "sacred-sword",
+      "electric-terrain",
+      "solar-blade",
+      "smart-strike",
+      "steel-beam",
+      "expanding-force",
+      "tera-blast",
+      "tachyon-cutter",
+      "supercell-slam",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 295,
+    "is_default": true,
+    "order": 1107,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1023.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1023.png"
+    },
+    "species_name": "iron-crown",
+    "flavor_text": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/546/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 546,
+      "chain": {
+        "species_name": "iron-crown",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

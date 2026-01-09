@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 523,
+    "name": "zebstrika",
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 63,
+      "special-attack": 80,
+      "special-defense": 63,
+      "speed": 116
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 79.5,
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "motor-drive",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "zebstrika"
+    ],
+    "moves": [
+      "stomp",
+      "double-kick",
+      "sand-attack",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "tail-whip",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "screech",
+      "double-team",
+      "light-screen",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "charge",
+      "taunt",
+      "helping-hand",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "overheat",
+      "signal-beam",
+      "bounce",
+      "shock-wave",
+      "feint",
+      "magnet-rise",
+      "giga-impact",
+      "discharge",
+      "charge-beam",
+      "electro-ball",
+      "flame-charge",
+      "round",
+      "ally-switch",
+      "volt-switch",
+      "bulldoze",
+      "electroweb",
+      "wild-charge",
+      "ion-deluge",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "high-horsepower",
+      "laser-focus",
+      "smart-strike",
+      "tera-blast",
+      "trailblaze",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "cheri-berry"
+    ],
+    "base_experience": 174,
+    "is_default": true,
+    "order": 638,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/523.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/523.png"
+    },
+    "species_name": "zebstrika",
+    "flavor_text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+    "genus": "Thunderbolt Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/267/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 267,
+      "chain": {
+        "species_name": "blitzle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "zebstrika",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 27
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

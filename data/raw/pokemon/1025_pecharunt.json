@@ -1,0 +1,135 @@
+{
+  "pokemon_details": {
+    "id": 1025,
+    "name": "pecharunt",
+    "stats": {
+      "hp": 88,
+      "attack": 88,
+      "defense": 160,
+      "special-attack": 88,
+      "special-defense": 88,
+      "speed": 88
+    },
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 0.3,
+    "abilities": [
+      {
+        "name": "poison-puppeteer",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "pecharunt"
+    ],
+    "moves": [
+      "toxic",
+      "night-shade",
+      "recover",
+      "withdraw",
+      "defense-curl",
+      "smog",
+      "poison-gas",
+      "rest",
+      "substitute",
+      "curse",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "destiny-bond",
+      "endure",
+      "rollout",
+      "mean-look",
+      "sleep-talk",
+      "shadow-ball",
+      "memento",
+      "imprison",
+      "astonish",
+      "fake-tears",
+      "nasty-plot",
+      "gunk-shot",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "foul-play",
+      "hex",
+      "phantom-force",
+      "parting-shot",
+      "poltergeist",
+      "tera-blast",
+      "malignant-chain"
+    ],
+    "held_items": [],
+    "base_experience": 300,
+    "is_default": true,
+    "order": 1109,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1025.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1025.png"
+    },
+    "species_name": "pecharunt",
+    "flavor_text": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt\u2019s control, chained to its will.",
+    "genus": "Subjugation Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "purple",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/549/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 549,
+      "chain": {
+        "species_name": "pecharunt",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

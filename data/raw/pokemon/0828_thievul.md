@@ -1,0 +1,12 @@
+## Identity & Lore
+Thievul (Pokedex #828) is the Fox Pokémon, a cunning and lithe Dark-type introduced in Generation VIII (Galar). Known for its distinctive "mask" and a tail that it uses to brush away its footprints to avoid tracking, Thievul is the evolution of Nickit. It is a master of stealth that marks its prey with a specific scent, allowing it to stalk targets for days before stealing their food or possessions when they are most vulnerable. While Thievul does not possess a Mega Evolution, Gigantamax form, or Paradox variant, it is often seen in the Galar region as the natural rival to Boltund, which is frequently used by trainers and farmers to hunt Thievul down. This brown-furred predator is most common in open fields and the outskirts of cities where it can easily find targets to plunder.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 58, Defense 58, Sp. Atk 87, Sp. Def 92, Speed 90.
+* **Archetype:** Special Disruptor / Setup Sweeper. Thievul relies on its respectable Special Defense and Speed to facilitate tactical swaps or boost its offensive presence.
+* **Type Matchups:** As a pure Dark-type, it is **weak to Fighting, Bug, and Fairy**. It **resists Ghost and Dark** and possesses a total **immunity to Psychic** attacks.
+* **Move Selection:** Capitalizing on its higher Special Attack and utility pool, key moves include **Dark Pulse** for reliable STAB damage, **Nasty Plot** to boost its offensive pressure, **Parting Shot** to pivot while lowering the opponent's stats, and **Burning Jealousy** or **Psychic** for essential type coverage.
+* **Abilities:** **Run Away** (allows for a guaranteed escape from wild encounters); **Unburden** (doubles the Pokémon's Speed stat if its held item is consumed or lost); **Stakeout** (Hidden Ability that doubles the damage dealt to a target that has just switched into battle, making Thievul a terrifying punisher for cautious opponents).
+
+## Evolution & Biology
+Thievul is the final stage of a two-stage evolutionary line. It evolves from **Nickit** once it reaches **Level 18**. Biologically, Thievul are quadrupeds with a body designed for agility rather than brute strength. Their sharp wits and keen sense of smell define their survival strategy. They belong to the **Ground** egg group, and their development is characterized by a "Fast" growth rate, allowing them to reach their full potential quickly in the wild. Breeders should note a hatch counter of 15, making them relatively quick to produce for competitive training.

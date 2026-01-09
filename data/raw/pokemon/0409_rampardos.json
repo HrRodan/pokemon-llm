@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 409,
+    "name": "rampardos",
+    "stats": {
+      "hp": 97,
+      "attack": 165,
+      "defense": 60,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 58
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 102.5,
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "rampardos"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "whirlwind",
+      "slam",
+      "stomp",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "dragon-claw",
+      "rock-blast",
+      "shock-wave",
+      "hammer-arm",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "fling",
+      "rock-polish",
+      "dragon-pulse",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "chip-away",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 538,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/409.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/409.png"
+    },
+    "species_name": "rampardos",
+    "flavor_text": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+    "genus": "Head Butt Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/211/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 211,
+      "chain": {
+        "species_name": "cranidos",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rampardos",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

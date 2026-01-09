@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 768,
+    "name": "golisopod",
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 140,
+      "special-attack": 60,
+      "special-defense": 90,
+      "speed": 40
+    },
+    "types": [
+      "bug",
+      "water"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 108.0,
+    "abilities": [
+      {
+        "name": "emergency-exit",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "golisopod"
+    ],
+    "moves": [
+      "swords-dance",
+      "sand-attack",
+      "pin-missile",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "toxic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "waterfall",
+      "swift",
+      "leech-life",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "spikes",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "rock-smash",
+      "hail",
+      "facade",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "dive",
+      "rock-tomb",
+      "muddy-water",
+      "aerial-ace",
+      "iron-defense",
+      "bulk-up",
+      "mud-shot",
+      "water-pulse",
+      "close-combat",
+      "payback",
+      "assurance",
+      "fling",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "x-scissor",
+      "bug-buzz",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "iron-head",
+      "bug-bite",
+      "venoshock",
+      "sludge-wave",
+      "round",
+      "scald",
+      "struggle-bug",
+      "frost-breath",
+      "drill-run",
+      "dual-chop",
+      "razor-shell",
+      "snarl",
+      "confide",
+      "first-impression",
+      "laser-focus",
+      "throat-chop",
+      "liquidation",
+      "skitter-smack"
+    ],
+    "held_items": [],
+    "base_experience": 186,
+    "is_default": true,
+    "order": 927,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/768.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/768.png"
+    },
+    "species_name": "golisopod",
+    "flavor_text": "With a flashing slash of its giant sharp claws, it cleaves seawater\u2014or even air\u2014right in two.",
+    "genus": "Hard Scale Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "bug",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/396/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 396,
+      "chain": {
+        "species_name": "wimpod",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "golisopod",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

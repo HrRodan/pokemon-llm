@@ -1,0 +1,12 @@
+## Identity & Lore
+Klefki (Pokedex #707) is the Key Ring Pokémon, a unique Steel and Fairy-type creature first discovered in the mountain and urban areas of the Kalos region during Generation VI. This diminutive, gray, metallic Pokémon has a habit of collecting keys it likes, refusing to let go of them once they are looped onto its wire-like body. In Kalosian lore, Klefki were once used by lords and ladies to safeguard vault keys, as they will never release their prizes even if attacked. To ward off predators, it jingles its collection to create a high-pitched, menacing din. While Klefki does not possess a Mega Evolution or Gigantamax form, it is historically significant in the competitive meta for being one of the most effective users of the Prankster ability.
+
+## Combat Profile
+* **Stats:** HP 57, Attack 80, Defense 91, Sp. Atk 80, Sp. Def 87, Speed 75.
+* **Archetype:** Prankster Utility Disruptor.
+* **Type Matchups:** It is **weak to Fire and Ground**. It possesses a stellar defensive profile, boasting **immunities to Poison and Dragon**, while **resisting** Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dark, and Fairy types.
+* **Move Selection:** Klefki excels at setting the pace of battle through priority status moves and entry hazards. Key moves include **Spikes** for incremental damage, **Thunder Wave** for speed control, **Reflect** and **Light Screen** for team-wide damage reduction (Dual Screens), and **Play Rough** or **Flash Cannon** to utilize its respectable base 80 offensive stats for STAB (Same Type Attack Bonus) damage.
+* **Abilities:** **Prankster** is its primary tactical asset, giving priority to non-damaging status moves, allowing it to set screens or hazards before an opponent can move. Its Hidden Ability, **Magician**, allows it to steal the held item of any Pokémon it hits with an attack, provided Klefki is not already holding an item.
+
+## Evolution & Biology
+Klefki is a single-stage Pokémon and does not evolve from or into any other species. Despite its artificial appearance, it is a biological entity that belongs to the **Mineral** egg group. It has a fast growth rate, reaching its full potential quickly compared to other Steel-types. In the wild, it is often found near human settlements where keys are plentiful, and it is known to inhabit the same rocky environments as other Mineral-group Pokémon. Biology-wise, it is exceptionally light at only 3.0 kg, allowing it to float and maneuver quickly despite its metallic composition.

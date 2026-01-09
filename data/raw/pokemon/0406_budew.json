@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 406,
+    "name": "budew",
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 55
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 1.2,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "budew"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "poison-sting",
+      "pin-missile",
+      "absorb",
+      "mega-drain",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "petal-dance",
+      "toxic",
+      "double-team",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "mind-reader",
+      "snore",
+      "cotton-spore",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "nature-power",
+      "secret-power",
+      "weather-ball",
+      "grass-whistle",
+      "extrasensory",
+      "bullet-seed",
+      "covet",
+      "water-sport",
+      "natural-gift",
+      "worry-seed",
+      "poison-jab",
+      "seed-bomb",
+      "energy-ball",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "venoshock",
+      "round",
+      "confide",
+      "dazzling-gleam",
+      "life-dew",
+      "grassy-glide"
+    ],
+    "held_items": [
+      "poison-barb"
+    ],
+    "base_experience": 56,
+    "is_default": true,
+    "order": 423,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/406.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/406.png"
+    },
+    "species_name": "budew",
+    "flavor_text": "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+    "genus": "Bud Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/158/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 158,
+      "chain": {
+        "species_name": "budew",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "roselia",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "roserade",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

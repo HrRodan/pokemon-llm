@@ -1,0 +1,12 @@
+## Identity & Lore
+Emolga (Pokedex #587) is the Sky Squirrel Pokémon, a dual Electric/Flying-type first discovered in the Unova region during Generation V. Small and agile, it is characterized by its white body and the yellow wing-like membranes it uses to glide through the forest canopy. Emolga produces electricity within the electric pouches located in its cheeks; it stores this energy inside its membranes and discharges it while soaring to deter predators or stun prey. While it does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants, it occupies a unique niche as a "Pikaclone"—a small, rodent-like Electric-type—distinguished by its secondary Flying typing, which grants it total immunity to the Ground-type moves that usually plague Electric types.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 75, Defense 60, Sp. Atk 75, Sp. Def 60, Speed 103.
+* **Archetype:** Fast Utility Pivot. Emolga relies on its high base Speed to outpace opponents, acting as a disruptive lead or a hit-and-run attacker.
+* **Type Matchups:** It is **weak to Rock and Ice**. Due to its dual typing, it **resists Fighting, Flying, Bug, Steel, and Grass**, and possesses a total **immunity to Ground** moves.
+* **Move Selection:** With balanced offensive stats but superior utility, Emolga excels with moves that leverage its Speed and STAB (Same Type Attack Bonus). Key moves include **Thunderbolt** and **Air Slash** for reliable special damage, **Volt Switch** for pivoting out of danger, and **Roost** to mitigate its low defensive bulk and sustain its presence on the field. Additionally, it often utilizes **Nuzzle** for guaranteed paralysis or **Acrobatics** if it has consumed its held item.
+* **Abilities:** **Static** (Contact moves used against Emolga have a 30% chance of paralyzing the attacker) and **Motor Drive** (Hidden Ability; grants immunity to Electric-type moves and raises Speed by one stage when hit by one).
+
+## Evolution & Biology
+Emolga is a single-stage Pokémon and does not evolve into or from any other species. This lack of evolution means it reaches its full power early, making it a common sight in the mid-game of the Unova region. Biologically, it is highly social but can be mischievous, often competing with other small Pokémon for food in forest habitats. It belongs to the **Ground** egg group and has a hatch counter of 20, meaning breeders must travel a moderate distance to hatch its eggs. In the wild, it is known to occasionally carry **Cheri Berries**, which it can use to heal its own paralysis.

@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Sandaconda (Pokedex #10218) is the formidable Gigantamax form of the Sand Snake Pokémon, a massive serpentine creature originating from the Galar region in Generation VIII. In this colossal state, it towers at 22 meters, coiled into a terrifying, upright spiral resembling a cyclone of scales and grit. Its most distinctive feature is its expanded neck pouch, which stores massive amounts of sand—over 220 pounds of which can be sprayed from its nostrils with enough force to erode stone. Lore states that if it ever runs out of sand, it becomes severely disheartened and vulnerable. While the standard Sandaconda is common in the dusty locales of Galar, only individuals possessing the rare G-Max Factor can undergo this transformation, assuming a posture that allows them to swirl sand around their bodies like a localized dust storm.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 107, Defense 125, Sp. Atk 65, Sp. Def 70, Speed 71.
+* **Archetype:** Physical Tank / Bulky Attacker. Its exceptional Defense allows it to withstand heavy physical hits while retaliating with significant force.
+* **Type Matchups:** As a pure **Ground-type**, it is **weak to Water, Grass, and Ice**. It **resists Poison and Rock**, and possesses a vital **Immunity to Electric** attacks.
+* **Move Selection:** Prioritizing its high Attack and Defense-based utility, key moves for this Pokémon include **Earthquake** (STAB), **Stone Edge** (Coverage), **Body Press** (utilizing its 125 Defense), and **Stealth Rock** (Utility). When Gigantamaxed, its Ground-type moves transform into **G-Max Sandblast**, which deals massive damage and traps opponents in a sandstorm for four to five turns.
+* **Abilities:** 
+    * **Sand Spit:** A signature ability that automatically summons a Sandstorm when the Pokémon is hit by an attack, providing immediate chip damage and weather control.
+    * **Shed Skin:** Provides a 30% chance each turn to heal any non-volatile status condition (Burn, Paralysis, Sleep), increasing its longevity as a tank.
+    * **Sand Veil (Hidden):** Boosts the Pokémon's evasion during a Sandstorm, making it harder for opponents to land hits.
+
+## Evolution & Biology
+Gigantamax Sandaconda is the final form in a two-stage evolutionary line. It begins its life as **Silicobra**, a smaller ground-dwelling snake. Silicobra evolves into **Sandaconda** starting at **Level 36**. The Gigantamax form is not a permanent evolution but a temporary transformation triggered through the Dynamax phenomenon if the Sandaconda possesses the G-Max Factor (often obtained through Max Raid Battles or by consuming Max Soup in the Isle of Armor). Biologically, it belongs to the **Field (Ground) and Dragon Egg Groups**, and its green-patterned scales are designed for camouflage in arid environments. Despite its intimidating size, it retains a medium growth rate, requiring balanced training to reach its full potential.

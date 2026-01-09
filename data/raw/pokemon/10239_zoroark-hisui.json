@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 10239,
+    "name": "zoroark-hisui",
+    "stats": {
+      "hp": 55,
+      "attack": 100,
+      "defense": 60,
+      "special-attack": 125,
+      "special-defense": 60,
+      "speed": 110
+    },
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 73.0,
+    "abilities": [
+      {
+        "name": "illusion",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zoroark-hisui"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "leer",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "low-kick",
+      "dig",
+      "psychic",
+      "agility",
+      "night-shade",
+      "confuse-ray",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "icy-wind",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "crunch",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "brick-break",
+      "knock-off",
+      "imprison",
+      "hyper-voice",
+      "fake-tears",
+      "extrasensory",
+      "aerial-ace",
+      "calm-mind",
+      "u-turn",
+      "fling",
+      "dark-pulse",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "shadow-sneak",
+      "grass-knot",
+      "ominous-wind",
+      "hone-claws",
+      "low-sweep",
+      "foul-play",
+      "hex",
+      "snarl",
+      "phantom-force",
+      "throat-chop",
+      "skitter-smack",
+      "burning-jealousy",
+      "lash-out",
+      "poltergeist",
+      "bitter-malice",
+      "tera-blast",
+      "snowscape"
+    ],
+    "held_items": [],
+    "base_experience": 179,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10239.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10239.png"
+    },
+    "species_name": "zoroark",
+    "flavor_text": "Bonds between these Pok\u00e9mon are very strong. It protects the safety of its pack by tricking its opponents.",
+    "genus": "Illusion Fox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/291/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 291,
+      "chain": {
+        "species_name": "zorua",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "zoroark",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

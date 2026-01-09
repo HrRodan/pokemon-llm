@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 296,
+    "name": "makuhita",
+    "stats": {
+      "hp": 72,
+      "attack": 60,
+      "defense": 30,
+      "special-attack": 20,
+      "special-defense": 30,
+      "speed": 25
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 86.4,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "makuhita"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "whirlwind",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "surf",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "metronome",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "feint-attack",
+      "belly-drum",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "vital-throw",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "whirlpool",
+      "fake-out",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "arm-thrust",
+      "rock-tomb",
+      "bulk-up",
+      "mud-shot",
+      "wake-up-slap",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "fling",
+      "force-palm",
+      "poison-jab",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "bullet-punch",
+      "zen-headbutt",
+      "rock-climb",
+      "stone-edge",
+      "captivate",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "low-sweep",
+      "round",
+      "chip-away",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "body-press",
+      "coaching",
+      "tera-blast",
+      "chilling-water",
+      "upper-hand"
+    ],
+    "held_items": [
+      "black-belt"
+    ],
+    "base_experience": 47,
+    "is_default": true,
+    "order": 399,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/296.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/296.png"
+    },
+    "species_name": "makuhita",
+    "flavor_text": "MAKUHITA is tenacious - it will keep getting up and attacking its foe however many times it is knocked down. Every time it gets back up, this POK\u00e9MON stores more energy in its body for evolving.",
+    "genus": "Guts Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 180,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "mountain",
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/146/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 146,
+      "chain": {
+        "species_name": "makuhita",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hariyama",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 576,
+    "name": "gothitelle",
+    "stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 95,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 65
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 44.0,
+    "abilities": [
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "shadow-tag",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gothitelle"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "body-slam",
+      "psybeam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "feint-attack",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "flatter",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "fake-tears",
+      "rock-tomb",
+      "tickle",
+      "cosmic-power",
+      "signal-beam",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "payback",
+      "embargo",
+      "fling",
+      "heal-block",
+      "guard-swap",
+      "dark-pulse",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "grass-knot",
+      "charge-beam",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "play-nice",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "psychic-terrain",
+      "expanding-force",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "persim-berry"
+    ],
+    "base_experience": 221,
+    "is_default": true,
+    "order": 698,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/576.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/576.png"
+    },
+    "species_name": "gothitelle",
+    "flavor_text": "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+    "genus": "Astral Body Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "purple",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/293/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 293,
+      "chain": {
+        "species_name": "gothita",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gothorita",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gothitelle",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 41
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

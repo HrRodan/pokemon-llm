@@ -1,0 +1,12 @@
+## Identity & Lore
+Garganacl (Pokedex #934) is the Rock Salt Pokémon, a massive humanoid-shaped salt formation introduced in Generation IX (Paldea). This brown-hued behemoth is recognized for its unique biological function: it rubs its cubic fingertips together to sprinkle salt onto injured Pokémon, effectively disinfecting and healing even the most severe wounds. Standing 2.3 meters tall and weighing 240.0 kg, it serves as a guardian of the Paldean rocky terrains. While it currently possesses no Mega Evolution, Gigantamax, or Paradox forms, its presence is fundamental to the Paldean ecosystem, representing the sediment and mineral wealth of the region.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 100, Defense 130, Sp. Atk 45, Sp. Def 90, Speed 35.
+* **Archetype:** Physical Tank / Defensive Wall.
+* **Type Matchups:** As a pure Rock-type, it is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Flying, Poison, and Fire**.
+* **Move Selection:** Garganacl excels at wearing down opponents while maintaining its own health. Key moves include **Salt Cure** (its signature move that deals massive chip damage, especially to Steel and Water types), **Recover** (to capitalize on its 100 HP base stat), **Body Press** (to utilize its massive 130 Defense for offense), and **Earthquake** (leveraging its solid 100 Attack stat).
+* **Abilities:** **Purifying Salt** is its most vital trait, granting it complete immunity to status conditions and halving damage taken from Ghost-type moves. **Sturdy** prevents it from being knocked out in a single hit from full health. **Clear Body** (Hidden Ability) prevents other Pokémon from lowering its stats.
+
+## Evolution & Biology
+Garganacl is the final stage of a three-stage evolutionary line. It evolves from **Naclstack** starting at **Level 38**, which itself evolves from the base form **Nacli** starting at **Level 24**. Belonging to the **Mineral** egg group, Garganacl’s biology is entirely inorganic, composed of layers of rock salt that have compressed over time into a durable, humanoid frame. Despite its intimidating size, its nature is inherently medicinal, as it spends much of its time seeking out those in need of its purifying salt.

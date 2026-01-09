@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Weezing (Pokedex #10167) is the Poison Gas Pokémon, a unique regional variant first discovered in the Galar region of Generation VIII. Standing at three meters tall, this form is distinguished by its long, chimney-like top hats and smog-formed facial hair, reflecting the industrial history of Galar. While the species originates from Generation I (Kanto), the Galarian form adapted to consume polluted air, expelling clean, purified air from the tops of its heads. Unlike the standard purple variant, Galarian Weezing features a refined gray coloration. Although it does not possess a Mega Evolution or Gigantamax form itself, it is frequently associated with the industrial landscapes where Galar’s massive energy factories operate.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 90, Defense 120, Sp. Atk 85, Sp. Def 70, Speed 60.
+* **Archetype:** Physical Tank / Utility Disruptor.
+* **Type Matchups:** It is **weak to Ground, Psychic, and Steel**. It possesses remarkable defensive utility, boasting **Double Resistances (0.25x) to Fighting and Bug**, while also resisting Grass, Fairy, Poison, and Dark. Notably, its Fairy typing grants it a complete **immunity to Dragon-type** moves.
+* **Move Selection:** Utilizing its solid physical and special offensive stats, Galarian Weezing excels with moves like **Strange Steam** (its signature Fairy-type move that causes confusion), **Sludge Bomb** for reliable Poison-type damage, **Will-O-Wisp** to cripple physical attackers, and **Pain Split** to manage its moderate HP pool.
+* **Abilities:** **Levitate** (provides full immunity to Ground-type moves, removing a primary weakness); **Neutralizing Gas** (a high-tier competitive ability that nullifies the abilities of all other Pokémon on the field); **Misty Surge** (sets Misty Terrain upon entering battle, protecting grounded allies from status conditions).
+
+## Evolution & Biology
+Galarian Weezing is the final stage of a two-stage evolutionary line. It evolves from **Koffing** starting at **Level 35** specifically when leveled up within the Galar region. This metamorphosis occurs as two Koffing fuse over many years, though in Galar, the process is influenced by the consumption of industrial waste gases. Biologically, it belongs to the **Amorphous** (Indeterminate) Egg Group. Its unique physiology allows it to act as a living filtration system, making it one of the few Poison-type Pokémon that actively improves the environmental health of urban habitats.

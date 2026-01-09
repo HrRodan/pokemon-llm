@@ -1,0 +1,207 @@
+{
+  "pokemon_details": {
+    "id": 447,
+    "name": "riolu",
+    "stats": {
+      "hp": 40,
+      "attack": 70,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 40,
+      "speed": 60
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 20.2,
+    "abilities": [
+      {
+        "name": "steadfast",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "prankster",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "riolu"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "headbutt",
+      "take-down",
+      "bite",
+      "roar",
+      "low-kick",
+      "counter",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "screech",
+      "double-team",
+      "swift",
+      "high-jump-kick",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "mind-reader",
+      "snore",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "cross-chop",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "helping-hand",
+      "role-play",
+      "revenge",
+      "brick-break",
+      "secret-power",
+      "blaze-kick",
+      "meteor-mash",
+      "rock-tomb",
+      "sky-uppercut",
+      "aerial-ace",
+      "iron-defense",
+      "howl",
+      "bulk-up",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "payback",
+      "fling",
+      "copycat",
+      "magnet-rise",
+      "force-palm",
+      "aura-sphere",
+      "poison-jab",
+      "drain-punch",
+      "vacuum-wave",
+      "focus-blast",
+      "nasty-plot",
+      "bullet-punch",
+      "shadow-claw",
+      "zen-headbutt",
+      "captivate",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "circle-throw",
+      "retaliate",
+      "final-gambit",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "coaching",
+      "tera-blast",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 57,
+    "is_default": true,
+    "order": 572,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/447.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/447.png"
+    },
+    "species_name": "riolu",
+    "flavor_text": "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+    "genus": "Emanation Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/232/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 232,
+      "chain": {
+        "species_name": "riolu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lucario",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160,
+                "time_of_day": "day"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

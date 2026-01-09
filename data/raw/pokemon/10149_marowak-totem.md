@@ -1,0 +1,15 @@
+## Identity & Lore
+Totem Alolan Marowak (Pokedex #10149) is a specialized Alolan Variant of the Bone Keeper Pokémon, first introduced in the Alola region during Generation VII. This specific Totem form is significantly larger and heavier than its standard counterpart, standing at 1.7 meters and weighing 98.0 kg. Unlike the Ground-type Marowak found in the Kanto region (Generation I), this variant adapted to the Alolan environment—specifically volcanic areas like Wela Volcano Park—by developing a dual Fire/Ghost typing. It is said that the deceased mother’s regrets manifested as flames on the marrow of the bone it carries. These green, spectral flames cannot be extinguished by water and are used in traditional Alolan fire-dancing ceremonies. While Marowak does not possess a Mega Evolution or Gigantamax form, this Totem variant is naturally shrouded in a special aura that boosts its stats in battle, serving as a formidable guardian of the Island Challenge.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 80, Defense 110, Sp. Atk 50, Sp. Def 80, Speed 45.
+* **Archetype:** Physical Tank / Bulky Wallbreaker. Despite its modest Base Attack, the possession of the **Thick Club** held item doubles its Attack stat, making it one of the most dangerous physical hitters in the game.
+* **Type Matchups:** It is **weak to Ground, Rock, Water, Ghost, and Dark**. It possesses a **Double Resistance (1/4x) to Bug** and resists Steel, Fire, Grass, Ice, Poison, and Fairy. It is **immune to Normal and Fighting**.
+* **Move Selection:** Leveraging its massive physical power and signature bone-based attacks, its optimal moveset includes **Shadow Bone** (for STAB ghost damage), **Flare Blitz** (its strongest Fire STAB), **Bonemerang** (to hit through Substitutes and provide Ground coverage), and **Swords Dance** (to further amplify its wallbreaking potential).
+* **Abilities:** 
+    * **Lightning Rod:** Provides a crucial immunity to Electric-type moves, drawing them in to boost Sp. Atk (though mainly used for the immunity in competitive play).
+    * **Rock Head:** Protects the Pokémon from recoil damage, allowing it to spam *Flare Blitz* without consequence.
+    * **Cursed Body:** A defensive ability that has a 30% chance to disable a move that deals damage to it.
+
+## Evolution & Biology
+Totem Alolan Marowak is the final stage of a two-stage evolutionary line. It evolves from **Cubone** when leveled up to **Level 28 during the Night** specifically within the Alola region. In other regions, Cubone would typically evolve into the standard Ground-type Marowak. This Pokémon belongs to the **Monster** egg group and is known for its mountain and volcanic habitats. Biologically, its most distinctive feature is the bone it carries, which it uses as both a club and a projectile, skillfully throwing it like a boomerang to knock out targets. Its bone is etched with spiritual energy, allowing it to strike the souls of its enemies directly.

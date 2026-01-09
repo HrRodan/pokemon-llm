@@ -1,0 +1,160 @@
+{
+  "pokemon_details": {
+    "id": 489,
+    "name": "phione",
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 80
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 3.1,
+    "abilities": [
+      {
+        "name": "hydration",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "phione"
+    ],
+    "moves": [
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "toxic",
+      "confusion",
+      "double-team",
+      "haze",
+      "waterfall",
+      "swift",
+      "bubble",
+      "acid-armor",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "ancient-power",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "weather-ball",
+      "signal-beam",
+      "bounce",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "u-turn",
+      "fling",
+      "last-resort",
+      "aqua-ring",
+      "zen-headbutt",
+      "grass-knot",
+      "round",
+      "scald",
+      "disarming-voice",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "liquidation",
+      "flip-turn",
+      "take-heart",
+      "tera-blast",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 216,
+    "is_default": true,
+    "order": 603,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/489.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/489.png"
+    },
+    "species_name": "phione",
+    "flavor_text": "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+    "genus": "Sea Drifter Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/250/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 250,
+      "chain": {
+        "species_name": "phione",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "manaphy",
+            "evolution_details": [],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

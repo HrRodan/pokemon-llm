@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 740,
+    "name": "crabominable",
+    "stats": {
+      "hp": 97,
+      "attack": 132,
+      "defense": 77,
+      "special-attack": 62,
+      "special-defense": 67,
+      "speed": 43
+    },
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 180.0,
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "crabominable"
+    ],
+    "moves": [
+      "ice-punch",
+      "thunder-punch",
+      "slam",
+      "body-slam",
+      "take-down",
+      "leer",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "swift",
+      "amnesia",
+      "bubble",
+      "dizzy-punch",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "bulk-up",
+      "mud-shot",
+      "close-combat",
+      "payback",
+      "fling",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "gunk-shot",
+      "iron-head",
+      "stone-edge",
+      "round",
+      "scald",
+      "bulldoze",
+      "frost-breath",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "power-up-punch",
+      "ice-hammer",
+      "brutal-swing",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "coaching",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water",
+      "hard-press",
+      "upper-hand"
+    ],
+    "held_items": [
+      "cheri-berry"
+    ],
+    "base_experience": 167,
+    "is_default": true,
+    "order": 888,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/740.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/740.png"
+    },
+    "species_name": "crabominable",
+    "flavor_text": "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pok\u00e9mon evolved and grew fur.",
+    "genus": "Woolly Crab Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "armor",
+    "color": "white",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/380/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 380,
+      "chain": {
+        "species_name": "crabrawler",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crabominable",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "mount-lanakila"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

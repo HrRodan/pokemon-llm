@@ -1,0 +1,157 @@
+{
+  "pokemon_details": {
+    "id": 910,
+    "name": "crocalor",
+    "stats": {
+      "hp": 81,
+      "attack": 55,
+      "defense": 78,
+      "special-attack": 90,
+      "special-defense": 58,
+      "speed": 49
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 30.7,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "crocalor"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "fire-spin",
+      "dig",
+      "lick",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "curse",
+      "protect",
+      "mud-slap",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "sunny-day",
+      "crunch",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "hyper-voice",
+      "overheat",
+      "flare-blitz",
+      "seed-bomb",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "fire-pledge",
+      "snarl",
+      "disarming-voice",
+      "stomping-tantrum",
+      "tera-blast",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 910,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/910.png"
+    },
+    "species_name": "crocalor",
+    "flavor_text": "The combination of Crocalor\u2019s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pok\u00e9mon\u2019s head.",
+    "genus": "Fire Croc Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/479/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 479,
+      "chain": {
+        "species_name": "fuecoco",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crocalor",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "skeledirge",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

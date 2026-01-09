@@ -1,0 +1,175 @@
+{
+  "pokemon_details": {
+    "id": 399,
+    "name": "bidoof",
+    "stats": {
+      "hp": 59,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 40,
+      "speed": 31
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 20.0,
+    "abilities": [
+      {
+        "name": "simple",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unaware",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bidoof"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "bite",
+      "growl",
+      "ice-beam",
+      "blizzard",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "defense-curl",
+      "swift",
+      "skull-bash",
+      "amnesia",
+      "fury-swipes",
+      "rest",
+      "hyper-fang",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "superpower",
+      "yawn",
+      "secret-power",
+      "mud-sport",
+      "odor-sleuth",
+      "covet",
+      "water-sport",
+      "shock-wave",
+      "natural-gift",
+      "pluck",
+      "last-resort",
+      "aqua-tail",
+      "rock-climb",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "work-up",
+      "confide"
+    ],
+    "held_items": [],
+    "base_experience": 50,
+    "is_default": true,
+    "order": 530,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/399.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/399.png"
+    },
+    "species_name": "bidoof",
+    "flavor_text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+    "genus": "Plump Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/207/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 207,
+      "chain": {
+        "species_name": "bidoof",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bibarel",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 15
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

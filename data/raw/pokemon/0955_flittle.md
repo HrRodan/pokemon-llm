@@ -1,0 +1,12 @@
+## Identity & Lore
+Flittle (Pokedex #955) is the Frill Pokémon, a curious avian-like Psychic-type discovered in the Paldea region during Generation IX. This small, yellow Pokémon is characterized by the vibrant, flowing frills on its underbelly; these frills emit constant psychic power, allowing Flittle to levitate roughly half an inch off the ground rather than walking. Though it appears delicate, it is a hardy inhabitant of Paldea’s mountain and desert biomes. While Flittle itself does not possess a Mega Evolution or Gigantamax form, it eventually matures into the powerful and stylish Espathra, a Pokémon known for its signature move, Lumina Crash.
+
+## Combat Profile
+*   **Stats:** HP 30, Attack 35, Defense 30, Sp. Atk 55, Sp. Def 30, Speed 75.
+*   **Archetype:** Early-Game Special Sweeper / Setup Attacker.
+*   **Type Matchups:** As a pure Psychic-type, Flittle is **weak to Bug, Ghost, and Dark**. It **resists Fighting and Psychic** types. 
+*   **Move Selection:** Flittle benefits most from moves that leverage its Special Attack and its potential for stat-stacking. Key moves include **Psychic** for reliable STAB damage, **Stored Power** (which grows stronger with Speed Boost triggers), **Calm Mind** for boosting its offensive and defensive presence, and **Roost** to maintain its health during setup.
+*   **Abilities:** **Anticipation** allows Flittle to sense dangerous, super-effective, or one-hit KO moves from the opponent. **Frisk** provides tactical utility by revealing the opponent's held item upon entering battle. Its Hidden Ability, **Speed Boost**, is its most competitive trait, raising its Speed stat at the end of every turn and making it an escalating threat the longer it stays on the field.
+
+## Evolution & Biology
+Flittle is the first stage of a two-part evolutionary line. It evolves into **Espathra** starting at **Level 35**. Biologically, Flittle is unique for its classification in the **Flying egg group**, despite its primary Psychic typing and lack of the Flying type. It has a hatch counter of 20, making it a relatively accessible Pokémon for breeders. Its growth rate is medium-slow, reflecting the significant power spike it achieves upon reaching its final form. While it primarily relies on its psychic levitation for movement, its tiny toes and bird-like structure hint at its eventual transformation into a large, flightless, ostrich-like runner.

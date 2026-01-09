@@ -1,0 +1,12 @@
+## Identity & Lore
+Boldore (Pokedex #525) is the Ore Pokémon, a rugged rock-type creature first discovered in the Unova region of Generation V. Its jagged, blue-rock body is punctuated by vibrant orange crystals that glow brightly when the Pokémon is surging with internal energy. Boldore is primarily a subterranean dweller, frequently found in deep cave systems where it searches for underground water sources. Its crystals act as sensitive sensors to detect moisture and resonance. While Boldore itself does not possess a Mega Evolution or Gigantamax form, it serves as the vital midpoint to Gigalith, a Pokémon often compared to the raw power of certain Paradox Pokémon due to its ability to compress and fire beams of light from its core.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 105, Defense 105, Sp. Atk 50, Sp. Def 40, Speed 20.
+* **Archetype:** Physical Tank / Bulky Attacker. Boldore is designed to survive heavy physical blows and retaliate with significant force, though it is exceptionally slow and vulnerable to special attackers.
+* **Type Matchups:** It is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Flying, Poison, and Fire**. 
+* **Move Selection:** Capitalizing on its high Attack and Defense stats, key moves include **Stone Edge** for powerful STAB (Same Type Attack Bonus) damage, **Earthquake** for essential ground-type coverage, **Body Press** to utilize its high Defense stat for offensive damage, and **Stealth Rock** to provide entry hazard support for its team.
+* **Abilities:** **Sturdy** ensures the Pokémon cannot be knocked out in one hit from full health, a critical asset for a slow tank. **Weak Armor** decreases Defense but raises Speed when hit by a physical move, potentially catching opponents off-guard. Its hidden ability, **Sand Force**, boosts the power of Rock, Ground, and Steel-type moves by 30% during a Sandstorm.
+
+## Evolution & Biology
+Boldore is part of a three-stage evolutionary line. It evolves from **Roggenrola** starting at Level 25. To trigger its final transformation into **Gigalith**, Boldore must be **traded** between trainers, which causes its internal energy to reach a critical mass, resulting in its final crystalline form. It belongs to the **Mineral** egg group and has a hatch counter of 15, reflecting its dense, inorganic composition. In the wild, Boldore are frequently found carrying **Hard Stones** to boost their power or **Everstones**, which ironically prevents them from evolving.

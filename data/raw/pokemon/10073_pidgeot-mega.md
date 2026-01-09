@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Pidgeot (Pokedex #10073) is the Bird Pokémon and the powerful Mega Evolved form of the iconic Pidgeot, a species first discovered in the Kanto region (Generation I). This Pokémon is characterized by its magnificent, elongated plumage and a sprawling wingspan that allows it to fly at Mach 2 speeds. Originally known for its brown feathers and forest habitat, Mega Evolution significantly enhances its muscular structure and sharpens its hunting instincts. In its natural behavior, Pidgeot is a relentless predator that skims the water's surface at high velocities to snatch prey like Magikarp. While it does not possess a Gigantamax or Paradox form, Mega Pidgeot represents the pinnacle of its evolutionary line, transformed by the bond with its Trainer and a Pidgeotite.
+
+## Combat Profile
+* **Stats:** HP 83, Attack 80, Defense 80, Sp. Atk 135, Sp. Def 80, Speed 121.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Rock, Electric, and Ice** types. It **resists Bug and Grass** moves and possesses a dual immunity to **Ground and Ghost** type attacks.
+* **Move Selection:** Mega Pidgeot utilizes its massive Special Attack and unmatched accuracy to dominate the field. Key moves include **Hurricane** (a high-power STAB move that never misses thanks to its ability), **Heat Wave** (crucial coverage for Steel and Ice types), **U-turn** (to maintain offensive momentum and pivot out of disadvantageous matchups), and **Roost** (to sustain its HP during prolonged engagements).
+* **Abilities:** No Guard (The Pokémon’s mastery of the air ensures that all moves used by or against it will always hit, regardless of accuracy or evasion—making the notoriously inaccurate Hurricane a 100% reliable weapon).
+
+## Evolution & Biology
+Mega Pidgeot is the final stage of a three-stage evolutionary line, supplemented by a temporary Mega Evolution. The journey begins with **Pidgey**, which evolves into **Pidgeotto** starting at Level 18. Pidgeotto then matures into **Pidgeot** at Level 36. Under the influence of a Mega Stone, Pidgeot undergoes a temporary transformation into Mega Pidgeot during battle. Biologically, it belongs to the **Flying** egg group and is known for its "medium-slow" growth rate. Its physical form is optimized for aerial maneuvers, boasting powerful chest muscles that can whip up windstorms capable of bending massive trees.

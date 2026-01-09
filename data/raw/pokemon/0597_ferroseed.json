@@ -1,0 +1,179 @@
+{
+  "pokemon_details": {
+    "id": 597,
+    "name": "ferroseed",
+    "stats": {
+      "hp": 44,
+      "attack": 50,
+      "defense": 91,
+      "special-attack": 24,
+      "special-defense": 86,
+      "speed": 10
+    },
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 18.8,
+    "abilities": [
+      {
+        "name": "iron-barbs",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "ferroseed"
+    ],
+    "moves": [
+      "tackle",
+      "pin-missile",
+      "leech-seed",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "double-team",
+      "harden",
+      "self-destruct",
+      "flash",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "revenge",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "bullet-seed",
+      "iron-defense",
+      "gravity",
+      "gyro-ball",
+      "payback",
+      "assurance",
+      "worry-seed",
+      "magnet-rise",
+      "rock-polish",
+      "poison-jab",
+      "seed-bomb",
+      "energy-ball",
+      "mirror-shot",
+      "flash-cannon",
+      "rock-climb",
+      "iron-head",
+      "stealth-rock",
+      "hone-claws",
+      "acid-spray",
+      "round",
+      "confide",
+      "steel-beam",
+      "steel-roller"
+    ],
+    "held_items": [
+      "sticky-barb"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 719,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/597.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/597.png"
+    },
+    "species_name": "ferroseed",
+    "flavor_text": "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+    "genus": "Thorn Seed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "plant",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/304/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 304,
+      "chain": {
+        "species_name": "ferroseed",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ferrothorn",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

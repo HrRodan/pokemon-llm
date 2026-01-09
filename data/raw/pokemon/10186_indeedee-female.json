@@ -1,0 +1,164 @@
+{
+  "pokemon_details": {
+    "id": 10186,
+    "name": "indeedee-female",
+    "stats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 65,
+      "special-attack": 95,
+      "special-defense": 105,
+      "speed": 85
+    },
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "synchronize",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "psychic-surge",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "indeedee-female"
+    ],
+    "moves": [
+      "pay-day",
+      "body-slam",
+      "take-down",
+      "psybeam",
+      "psychic",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "fake-out",
+      "facade",
+      "follow-me",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "imprison",
+      "hyper-voice",
+      "aromatherapy",
+      "magical-leaf",
+      "calm-mind",
+      "gravity",
+      "healing-wish",
+      "psycho-shift",
+      "guard-swap",
+      "drain-punch",
+      "energy-ball",
+      "zen-headbutt",
+      "trick-room",
+      "guard-split",
+      "psyshock",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "disarming-voice",
+      "draining-kiss",
+      "play-rough",
+      "play-nice",
+      "mystical-fire",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "expanding-force",
+      "terrain-pulse",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 166,
+    "is_default": false,
+    "order": 1062,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10186.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10186.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10186.png"
+    },
+    "species_name": "indeedee",
+    "flavor_text": "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
+    "genus": "Emotion Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 140,
+    "hatch_counter": 40,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/458/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 458,
+      "chain": {
+        "species_name": "indeedee",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

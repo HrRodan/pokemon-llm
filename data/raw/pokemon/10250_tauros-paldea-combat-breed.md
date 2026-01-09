@@ -1,0 +1,12 @@
+## Identity & Lore
+Paldean Tauros (Combat Breed) (Pokedex #10250) is the Wild Bull Pokémon, a regional Fighting-type variant of the classic Kanto Tauros introduced in Generation IX (Paldea). Characterized by its thick, jet-black fur and shorter, sturdier horns, this "Combat Breed" is distinguished from the Blaze and Aqua breeds by its pure Fighting-type nature. It is famously hot-headed, charging furiously at enemies while whipping its body with its long tails to build momentum. While it does not possess a Mega Evolution or Gigantamax form, its regional physiology allows it to excel in the rugged terrain of the Paldea region, where it lives in large, protective herds.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 110, Defense 105, Sp. Atk 30, Sp. Def 70, Speed 100.
+* **Archetype:** Bulky Physical Attacker. With a high base Attack and respectable 105 Defense, it functions as a potent mid-speed threat capable of taking physical hits while retaliating with significant force.
+* **Type Matchups:** As a pure Fighting-type, it is **weak to Flying, Psychic, and Fairy**. It **resists Rock, Bug, and Dark-type moves**.
+* **Move Selection:** Leveraging its high Attack stat and signature mechanics, key moves include **Raging Bull** (a signature Fighting-type move for this breed that breaks barriers like Light Screen and Reflect), **Close Combat** (high-power STAB), **Wild Charge** (electric coverage for Flying-types), and **Bulk Up** (to further boost its physical presence).
+* **Abilities:** **Intimidate** (immediately lowers the Attack of opposing Pokémon upon entry, enhancing its physical bulk); **Anger Point** (maximizes Attack to +6 if the Pokémon is struck by a critical hit); **Cud Chew** (Hidden Ability that allows it to eat the same Berry a second time at the end of the next turn).
+
+## Evolution & Biology
+Paldean Tauros is a single-stage Pokémon and does not evolve from or into any other species. It belongs to the **Ground** Egg Group and has a slow growth rate, requiring significant experience to reach its full potential. Biologically, it is a quadrupedal mammal adapted for high-intensity charging. Unlike its Kanto cousin, which is a Normal-type found in grasslands like the Safari Zone, the Paldean Combat Breed has developed intense musculature specifically for physical brawling. It has a hatch counter of 20, making it a moderately time-intensive Pokémon to breed for competitive use.

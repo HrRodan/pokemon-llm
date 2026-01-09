@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 621,
+    "name": "druddigon",
+    "stats": {
+      "hp": 77,
+      "attack": 120,
+      "defense": 90,
+      "special-attack": 60,
+      "special-defense": 90,
+      "speed": 48
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 139.0,
+    "abilities": [
+      {
+        "name": "rough-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "druddigon"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "body-slam",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "surf",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "glare",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "outrage",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "superpower",
+      "revenge",
+      "snatch",
+      "secret-power",
+      "crush-claw",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "poison-tail",
+      "shock-wave",
+      "payback",
+      "fling",
+      "sucker-punch",
+      "dark-pulse",
+      "night-slash",
+      "aqua-tail",
+      "dragon-pulse",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "flash-cannon",
+      "rock-climb",
+      "draco-meteor",
+      "gunk-shot",
+      "iron-head",
+      "stealth-rock",
+      "charge-beam",
+      "hone-claws",
+      "smack-down",
+      "round",
+      "chip-away",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "dragon-tail",
+      "snarl",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "scale-shot",
+      "lash-out",
+      "dual-wingbeat"
+    ],
+    "held_items": [
+      "dragon-fang"
+    ],
+    "base_experience": 170,
+    "is_default": true,
+    "order": 744,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/621.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/621.png"
+    },
+    "species_name": "druddigon",
+    "flavor_text": "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+    "genus": "Cave Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "dragon",
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/315/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 315,
+      "chain": {
+        "species_name": "druddigon",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

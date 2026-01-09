@@ -1,0 +1,199 @@
+{
+  "pokemon_details": {
+    "id": 410,
+    "name": "shieldon",
+    "stats": {
+      "hp": 30,
+      "attack": 42,
+      "defense": 118,
+      "special-attack": 42,
+      "special-defense": 88,
+      "speed": 30
+    },
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 57.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "soundproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "shieldon"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "sand-tomb",
+      "iron-defense",
+      "rock-blast",
+      "shock-wave",
+      "natural-gift",
+      "metal-burst",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "wide-guard",
+      "guard-split",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "confide",
+      "stomping-tantrum",
+      "steel-beam",
+      "scorching-sands",
+      "tera-blast",
+      "trailblaze",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 70,
+    "is_default": true,
+    "order": 539,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/410.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/410.png"
+    },
+    "species_name": "shieldon",
+    "flavor_text": "A Pok\u00e9mon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
+    "genus": "Shield Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/212/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 212,
+      "chain": {
+        "species_name": "shieldon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bastiodon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

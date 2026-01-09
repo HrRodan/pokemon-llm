@@ -1,0 +1,171 @@
+{
+  "pokemon_details": {
+    "id": 813,
+    "name": "scorbunny",
+    "stats": {
+      "hp": 50,
+      "attack": 71,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 69
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 4.5,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "libero",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "scorbunny"
+    ],
+    "moves": [
+      "double-kick",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "ember",
+      "flamethrower",
+      "low-kick",
+      "counter",
+      "fire-spin",
+      "agility",
+      "quick-attack",
+      "focus-energy",
+      "fire-blast",
+      "swift",
+      "high-jump-kick",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "sunny-day",
+      "heat-wave",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "blaze-kick",
+      "overheat",
+      "bounce",
+      "mud-shot",
+      "u-turn",
+      "assurance",
+      "sucker-punch",
+      "flare-blitz",
+      "fire-fang",
+      "gunk-shot",
+      "electro-ball",
+      "flame-charge",
+      "low-sweep",
+      "round",
+      "ally-switch",
+      "acrobatics",
+      "fire-pledge",
+      "work-up",
+      "burning-jealousy",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 994,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/813.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/813.png"
+    },
+    "species_name": "scorbunny",
+    "flavor_text": "A warm-up of running around gets fire energy coursing through this Pok\u00e9mon\u2019s body. Once that happens, it\u2019s ready to fight at full power.",
+    "genus": "Rabbit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/431/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 431,
+      "chain": {
+        "species_name": "scorbunny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "raboot",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "cinderace",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

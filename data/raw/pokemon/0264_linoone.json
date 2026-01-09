@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 264,
+    "name": "linoone",
+    "stats": {
+      "hp": 78,
+      "attack": 70,
+      "defense": 61,
+      "special-attack": 50,
+      "special-defense": 61,
+      "speed": 100
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 32.5,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "linoone"
+    ],
+    "moves": [
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "pin-missile",
+      "growl",
+      "roar",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "trick",
+      "secret-power",
+      "mud-sport",
+      "hyper-voice",
+      "odor-sleuth",
+      "mud-shot",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "last-resort",
+      "seed-bomb",
+      "switcheroo",
+      "giga-impact",
+      "shadow-claw",
+      "gunk-shot",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "bestow",
+      "work-up",
+      "tail-slap",
+      "rototiller",
+      "play-rough",
+      "confide",
+      "baby-doll-eyes",
+      "throat-chop",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "potion",
+      "max-revive",
+      "oran-berry",
+      "sitrus-berry"
+    ],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 363,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/264.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/264.png"
+    },
+    "species_name": "linoone",
+    "flavor_text": "LINOONE always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This POK\u00e9MON is very challenged by gently curving roads.",
+    "genus": "Rushing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/134/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 134,
+      "chain": {
+        "species_name": "zigzagoon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "linoone",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "obstagoon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35,
+                    "time_of_day": "night"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

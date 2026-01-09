@@ -1,0 +1,12 @@
+## Identity & Lore
+Buzzwole (Pokedex #794) is the Swollen Pokémon, a powerful interdimensional entity classified as an Ultra Beast, specifically codenamed UB-02 Absorption. First discovered in the Alola region during Generation VII, this massive, red insectoid creature is composed of dense, hyper-developed musculature that is said to be harder than steel. Buzzwole is known for its peculiar behavior of constantly striking bodybuilder-like poses; while researchers are unsure if this is a form of communication, a boast of strength, or a threat display, the sheer physical pressure it radiates is undeniable. Although it does not possess a Mega Evolution or Gigantamax form, its status as an Ultra Beast grants it power levels that rival those of legendary deities. It is native to the Ultra Jungle, an environment within Ultra Space that mirrors its own extreme physical requirements.
+
+## Combat Profile
+* **Stats:** HP 107, Attack 139, Defense 139, Sp. Atk 53, Sp. Def 53, Speed 79.
+* **Archetype:** Bulky Physical Tank / Physical Sweeper.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Flying**. It is also **weak to Fire, Psychic, and Fairy**. Conversely, it **resists Fighting, Ground, Grass, Bug, and Dark**.
+* **Move Selection:** Capitalizing on its massive base 139 Attack and physical bulk, key moves include **Close Combat** for devastating Fighting-type STAB, **Leech Life** to deal Bug-type damage while providing vital HP recovery, **Ice Punch** to provide 4x coverage against the Flying and Ground types that threaten it, and **Roost** for reliable longevity on the field.
+* **Abilities:** Beast Boost (A signature Ultra Beast ability that increases Buzzwole's highest stat—typically Attack or Defense—by one stage every time it knocks out an opposing Pokémon, allowing it to become an unstoppable physical force).
+
+## Evolution & Biology
+Buzzwole is a standalone entity and is part of a single-stage evolutionary line; it does not evolve from or into any other Pokémon. As an extradimensional traveler, it belongs to the No Eggs Discovered egg group, meaning it cannot be bred in captivity. Its biology is unique among Bug-types, featuring a transparent, glass-like proboscis that is capable of piercing even the toughest hides to absorb energy. Despite its heavy weight of 333.6 kg, it is capable of explosive bursts of speed. It is most commonly associated with the Alola region's Poni Grove, where it has been known to emerge from Ultra Wormholes.

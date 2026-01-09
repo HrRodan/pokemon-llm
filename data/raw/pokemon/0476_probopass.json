@@ -1,0 +1,240 @@
+{
+  "pokemon_details": {
+    "id": 476,
+    "name": "probopass",
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 145,
+      "special-attack": 75,
+      "special-defense": 150,
+      "speed": 40
+    },
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 340.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magnet-pull",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "probopass"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "harden",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "magic-coat",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "flash-cannon",
+      "discharge",
+      "iron-head",
+      "magnet-bomb",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "wide-guard",
+      "telekinesis",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "ally-switch",
+      "volt-switch",
+      "bulldoze",
+      "confide",
+      "magnetic-flux",
+      "dazzling-gleam",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "steel-beam",
+      "meteor-beam",
+      "tera-blast",
+      "hard-press",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "hard-stone",
+      "magnet"
+    ],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 402,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/476.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/476.png"
+    },
+    "species_name": "probopass",
+    "flavor_text": "It freely controls three small units called Mini-Noses using magnetic force.",
+    "genus": "Compass Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "heads",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/147/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 147,
+      "chain": {
+        "species_name": "nosepass",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "probopass",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "location": "mt-coronet"
+              },
+              {
+                "trigger": "level-up",
+                "location": "chargestone-cave"
+              },
+              {
+                "trigger": "level-up",
+                "location": "kalos-route-13"
+              },
+              {
+                "trigger": "level-up",
+                "location": "blush-mountain"
+              },
+              {
+                "trigger": "level-up",
+                "location": "vast-poni-canyon"
+              },
+              {
+                "trigger": "use-item",
+                "item": "thunder-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 10026,
+    "name": "aegislash-blade",
+    "stats": {
+      "hp": 60,
+      "attack": 140,
+      "defense": 50,
+      "special-attack": 140,
+      "special-defense": 50,
+      "speed": 60
+    },
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 53.0,
+    "abilities": [
+      {
+        "name": "stance-change",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "aegislash-blade"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "tackle",
+      "hyper-beam",
+      "toxic",
+      "screech",
+      "double-team",
+      "reflect",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "reversal",
+      "spite",
+      "protect",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "secret-power",
+      "metal-sound",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "shock-wave",
+      "gyro-ball",
+      "close-combat",
+      "power-trick",
+      "magnet-rise",
+      "night-slash",
+      "air-slash",
+      "giga-impact",
+      "shadow-claw",
+      "shadow-sneak",
+      "psycho-cut",
+      "flash-cannon",
+      "iron-head",
+      "head-smash",
+      "autotomize",
+      "after-you",
+      "round",
+      "retaliate",
+      "sacred-sword",
+      "kings-shield",
+      "confide",
+      "solar-blade",
+      "laser-focus",
+      "brutal-swing",
+      "steel-beam"
+    ],
+    "held_items": [],
+    "base_experience": 250,
+    "is_default": false,
+    "order": 816,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10026.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10026.png"
+    },
+    "species_name": "aegislash",
+    "flavor_text": "Generations of kings were attended by these Pok\u00e9mon, which used their spectral power to manipulate and control people and Pok\u00e9mon.",
+    "genus": "Royal Sword Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/349/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 349,
+      "chain": {
+        "species_name": "honedge",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "doublade",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "aegislash",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "dusk-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

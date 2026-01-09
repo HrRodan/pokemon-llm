@@ -1,0 +1,12 @@
+## Identity & Lore
+Munna (Pokedex #517) is the Dream Eater Pokémon, a floating, pink, quadrupedal creature that first appeared in the Unova region during Generation V. Adorned with purple floral patterns, Munna is deeply connected to the realm of dreams; it is known to hover near the pillows of sleeping humans and Pokémon to feast on their dreams. When it consumes a pleasant dream, it exudes a glowing pink "Dream Mist," whereas nightmares are said to cause it distress. Historically, Munna serves as a precursor to the "Dream World" mechanics introduced in the Black and White era. While it does not possess a Mega Evolution or Gigantamax form, its evolved form, Musharna, is iconic for its association with the Fennel research lab and the manifestation of dreams into reality.
+
+## Combat Profile
+* **Stats:** HP 76, Attack 25, Defense 45, Sp. Atk 67, Sp. Def 55, Speed 24.
+* **Archetype:** Trick Room Support / Bulky Special Attacker. With a base Speed of 24, Munna is naturally suited for Trick Room strategies, allowing its decent Special Attack to hit before opponents.
+* **Type Matchups:** As a pure Psychic-type, it is **weak to Bug, Ghost, and Dark**. It **resists Fighting and Psychic** types.
+* **Move Selection:** Leveraging its high Special Attack and utility pool, key moves include **Psychic** for primary STAB damage, **Moonblast** for coverage against Dark-types, **Calm Mind** to boost its offensive and defensive presence, and **Trick Room** to manipulate the turn order in its favor.
+* **Abilities:** **Forewarn** (Alerts the Pokémon to the foe's strongest move upon entering battle), **Synchronize** (Passes on status conditions like paralysis or poison to the attacker), and its Hidden Ability **Telepathy** (Protects the Pokémon from damage dealt by its allies in double battles).
+
+## Evolution & Biology
+Munna is the first stage of a two-stage evolutionary line. It evolves into Musharna when **exposed to a Moon Stone**. Biologically, Munna is closely related to the Drowzee line, though it is more benevolent, often helping people forget nightmares by consuming them. It belongs to the **Ground** (Field) egg group and has a fast growth rate, allowing it to reach its full potential quickly in a trainer's journey. In competitive "Little Cup" formats, Munna is often seen holding an **Eviolite** to drastically boost its Defense and Special Defense, making it a formidable tanky pivot.

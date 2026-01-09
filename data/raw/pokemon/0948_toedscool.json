@@ -1,0 +1,181 @@
+{
+  "pokemon_details": {
+    "id": 948,
+    "name": "toedscool",
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 33.0,
+    "abilities": [
+      {
+        "name": "mycelium-might",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "mycelium-might",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "toedscool"
+    ],
+    "moves": [
+      "tackle",
+      "wrap",
+      "supersonic",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "toxic",
+      "screech",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "spore",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "rapid-spin",
+      "rain-dance",
+      "mirror-coat",
+      "taunt",
+      "knock-off",
+      "tickle",
+      "bullet-seed",
+      "mud-shot",
+      "magical-leaf",
+      "acupressure",
+      "toxic-spikes",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "flash-cannon",
+      "trick-room",
+      "leaf-storm",
+      "power-whip",
+      "grass-knot",
+      "venoshock",
+      "rage-powder",
+      "acid-spray",
+      "foul-play",
+      "hex",
+      "grassy-terrain",
+      "dazzling-gleam",
+      "lunge",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 1006,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/948.png"
+    },
+    "species_name": "toedscool",
+    "flavor_text": "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+    "genus": "Woodear Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "yellow",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/496/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 496,
+      "chain": {
+        "species_name": "toedscool",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "toedscruel",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

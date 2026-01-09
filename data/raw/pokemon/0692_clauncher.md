@@ -1,0 +1,12 @@
+## Identity & Lore
+Clauncher (Pokedex #692) is the Water Gun Pokémon, a crustacean species first discovered in the Kalos region (Generation VI). This bright blue Pokémon is easily recognized by its single, oversized claw, which it uses as a biological weapon. It behaves much like a biological artillery unit, taking in water and expelling it through the internal combustion of gases within its claw. According to local lore, Clauncher can fire compressed water with enough force to shoot down flying prey or shatter thick rocks. While it lacks a Mega Evolution or Gigantamax form, its biological design is heavily inspired by the real-world pistol shrimp, focusing entirely on its specialized "Mega Launcher" capabilities.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 53, Defense 62, Sp. Atk 58, Sp. Def 63, Speed 44.
+* **Archetype:** Low-Speed Special Attacker. In competitive formats like Little Cup, it functions as a bulky tank capable of dealing high burst damage.
+* **Type Matchups:** It is **weak to Grass and Electric** types. As a pure Water-type, it **resists Steel, Fire, Water, and Ice** moves.
+* **Move Selection:** Clauncher’s kit is designed to exploit its signature ability. Key moves include **Water Pulse** (boosted STAB), **Aura Sphere** (high-accuracy Fighting coverage), **Dark Pulse** (Ghost/Psychic coverage), and **Dragon Pulse** (neutral coverage against Dragon types).
+* **Abilities:** Mega Launcher (Increases the power of pulse and aura moves—such as Water Pulse, Dragon Pulse, Aura Sphere, and Dark Pulse—by 50%). This unique ability effectively transforms Clauncher into a much more threatening offensive threat than its base Special Attack stat would suggest.
+
+## Evolution & Biology
+Clauncher is part of a two-stage evolutionary line. It evolves into the powerful **Clawitzer** once it reaches **Level 37**. Biologically, Clauncher is highly dependent on its large claw; if it loses the limb, it can eventually regrow it, though the meat inside is often considered a delicacy in certain regions. It belongs to both the **Water 1** and **Water 3** Egg Groups, making it a versatile breeder for passing down specialized egg moves like Entrainment or Helping Hand. It has a relatively slow growth rate but a high capture rate, making it an accessible addition to teams needing a specialized special attacker.

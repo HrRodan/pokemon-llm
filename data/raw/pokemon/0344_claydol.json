@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 344,
+    "name": "claydol",
+    "stats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 105,
+      "special-attack": 70,
+      "special-defense": 120,
+      "speed": 75
+    },
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 108.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "claydol"
+    ],
+    "moves": [
+      "headbutt",
+      "double-edge",
+      "ice-beam",
+      "psybeam",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "confusion",
+      "psychic",
+      "teleport",
+      "mimic",
+      "double-team",
+      "harden",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "dream-eater",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "rapid-spin",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "facade",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "imprison",
+      "secret-power",
+      "rock-tomb",
+      "cosmic-power",
+      "signal-beam",
+      "extrasensory",
+      "sand-tomb",
+      "iron-defense",
+      "calm-mind",
+      "gravity",
+      "gyro-ball",
+      "natural-gift",
+      "heal-block",
+      "power-trick",
+      "power-swap",
+      "guard-swap",
+      "rock-polish",
+      "earth-power",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "charge-beam",
+      "guard-split",
+      "power-split",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "smack-down",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "bulldoze",
+      "drill-run",
+      "confide",
+      "eerie-impulse",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "body-press",
+      "expanding-force",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "light-clay"
+    ],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 457,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/344.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/344.png"
+    },
+    "species_name": "claydol",
+    "flavor_text": "CLAYDOL are said to be dolls of mud made by primitive humans and brought to life by exposure to a mysterious ray. This POK\u00e9MON moves about while levitating.",
+    "genus": "Clay Doll Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "rough-terrain",
+    "shape": "arms",
+    "color": "black",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/175/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 175,
+      "chain": {
+        "species_name": "baltoy",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "claydol",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 36
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

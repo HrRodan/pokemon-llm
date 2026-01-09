@@ -1,0 +1,205 @@
+{
+  "pokemon_details": {
+    "id": 534,
+    "name": "conkeldurr",
+    "stats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 95,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 87.0,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "conkeldurr"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "slam",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "mach-punch",
+      "scary-face",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "block",
+      "bulk-up",
+      "rock-blast",
+      "wake-up-slap",
+      "hammer-arm",
+      "close-combat",
+      "payback",
+      "fling",
+      "poison-jab",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "defog",
+      "stone-edge",
+      "grass-knot",
+      "wide-guard",
+      "smack-down",
+      "low-sweep",
+      "round",
+      "chip-away",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "coaching",
+      "tera-blast",
+      "hard-press",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 227,
+    "is_default": true,
+    "order": 650,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/534.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/534.png"
+    },
+    "species_name": "conkeldurr",
+    "flavor_text": "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+    "genus": "Muscular Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/272/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 272,
+      "chain": {
+        "species_name": "timburr",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gurdurr",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "conkeldurr",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

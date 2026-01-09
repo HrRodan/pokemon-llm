@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Charizard X (Pokedex #10034) is the transformed state of the iconic Flame Pokémon, a form achieved through Mega Evolution. Originally discovered in the Kanto region (Generation I) as a Fire/Flying type, this specific Mega Evolution alters its very essence, turning its skin charcoal black and its flames a searing, ethereal blue. In this form, it finally adopts its long-sought Dragon typing. Beyond this transformation, the species is known to possess a second Mega Evolution (Mega Charizard Y) and a towering Gigantamax form, highlighting its status as one of the most versatile and powerful creatures in the Pokémon world. It typically inhabits mountainous terrain, where its blue breath is said to be hot enough to melt solid boulders and incinerate the surrounding environment with ease.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 130, Defense 111, Sp. Atk 130, Sp. Def 85, Speed 100.
+* **Archetype:** Physical Set-up Sweeper. While its offensive stats are balanced, its Ability forces a heavy bias toward physical contact moves.
+* **Type Matchups:** It is **weak to Ground, Rock, and Dragon**. Its unique typing grants it **Resistances to Bug, Steel, and Electric**, and **Double Resistances (1/4x damage) to Fire and Grass**.
+* **Move Selection:** Leveraging its massive Attack stat and contact-move bonus, its optimal kit includes **Flare Blitz** for overwhelming STAB damage, **Dragon Claw** for consistent Dragon-type pressure, **Earthquake** for vital coverage against Rock and Electric types, and **Roost** to maintain longevity during a sweep.
+* **Abilities:** Tough Claws (Increases the power of moves that make physical contact by 30%, effectively boosting its physical output far beyond its Special Attack capabilities).
+
+## Evolution & Biology
+Mega Charizard X is the final zenith of a three-stage evolutionary line. The cycle begins with **Charmander**, which evolves into **Charmeleon** starting at Level 16. It then evolves into **Charizard** at Level 36. To reach this specific form, Charizard must be exposed to a **Charizardite X** Mega Stone during battle. Biologically, it is highly compatible for breeding within the **Monster and Dragon** Egg Groups. It has a hatch counter of 20, and its growth rate is classified as Medium-Slow, reflecting the significant effort required by trainers to harness its true draconic potential.

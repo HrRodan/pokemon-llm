@@ -1,0 +1,224 @@
+{
+  "pokemon_details": {
+    "id": 375,
+    "name": "metang",
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 100,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 202.5,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "light-metal",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "metang"
+    ],
+    "moves": [
+      "ice-punch",
+      "thunder-punch",
+      "cut",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "agility",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "swift",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "fury-cutter",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "pursuit",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "trick",
+      "brick-break",
+      "secret-power",
+      "meteor-mash",
+      "rock-tomb",
+      "cosmic-power",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "gravity",
+      "miracle-eye",
+      "gyro-ball",
+      "natural-gift",
+      "magnet-rise",
+      "rock-polish",
+      "giga-impact",
+      "bullet-punch",
+      "psycho-cut",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "psyshock",
+      "telekinesis",
+      "heavy-slam",
+      "round",
+      "ally-switch",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "steel-beam",
+      "expanding-force",
+      "steel-roller",
+      "meteor-beam",
+      "tera-blast",
+      "trailblaze",
+      "hard-press",
+      "psychic-noise"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 497,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/375.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/375.png"
+    },
+    "species_name": "metang",
+    "flavor_text": "When two BELDUM fuse together, METANG is formed. The brains of the BELDUM are joined by a magnetic nervous system. By linking its brains magnetically, this POK\u00e9MON generates strong psychokinetic power.",
+    "genus": "Iron Claw Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "arms",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/192/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 192,
+      "chain": {
+        "species_name": "beldum",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "metang",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "metagross",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 45
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

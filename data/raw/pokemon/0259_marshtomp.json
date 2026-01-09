@@ -1,0 +1,228 @@
+{
+  "pokemon_details": {
+    "id": 259,
+    "name": "marshtomp",
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 50
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "damp",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "marshtomp"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "stomp",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "growl",
+      "roar",
+      "supersonic",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "sludge",
+      "waterfall",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "mirror-coat",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "yawn",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "rock-tomb",
+      "sand-tomb",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "aqua-tail",
+      "earth-power",
+      "avalanche",
+      "mud-bomb",
+      "captivate",
+      "stealth-rock",
+      "wide-guard",
+      "sludge-wave",
+      "round",
+      "echoed-voice",
+      "scald",
+      "water-pledge",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "liquidation",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 142,
+    "is_default": true,
+    "order": 356,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/259.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/259.png"
+    },
+    "species_name": "marshtomp",
+    "flavor_text": "The surface of MARSHTOMP\u2019s body is enveloped by a thin, sticky film that enables it to live on land. This POK\u00e9MON plays in mud on beaches when the ocean tide is low.",
+    "genus": "Mud Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/132/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 132,
+      "chain": {
+        "species_name": "mudkip",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "marshtomp",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "swampert",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Slowbro (Pokedex #10165) is the Hermit Crab Pokémon, a unique regional variant discovered in the Galar region. Unlike its Kantonian counterpart, Galarian Slowbro is a Poison/Psychic-type creature whose physiology was altered by a chemical reaction between the Galarica seeds it consumes and the Shellder latched onto its arm. This Shellder has become a living weapon, functioning like a firearm that can spray poisonous liquids from its tip. While the species originated in Generation I, this specific form was introduced in Generation VIII (Galar). While standard Slowbro is known to possess a Mega Evolution, Galarian Slowbro does not, though it remains a formidable presence due to its unpredictable nature and the spicy spices that surge through its nervous system.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 100, Defense 95, Sp. Atk 100, Sp. Def 70, Speed 30.
+* **Archetype:** Mixed Tank / Trick Room Attacker. Its balanced offensive stats allow it to threaten enemies physically and specially, while its extremely low Speed makes it a premier candidate for Trick Room teams.
+* **Type Matchups:** It is **weak to Ground, Ghost, and Dark**. It possesses a **Double Resistance (0.25x) to Fighting** and also resists **Poison, Grass, and Fairy** types.
+* **Move Selection:** Utilizing its unique signature move and balanced offenses, key moves include **Shell Side Arm** (which calculates damage based on the target's weaker defensive stat), **Sludge Bomb**, **Psychic**, and **Slack Off** for reliable recovery.
+* **Abilities:** **Quick Draw** (A signature ability that occasionally allows the Pokémon to move first despite its low speed), **Own Tempo** (Prevents the Pokémon from becoming confused), and **Regenerator** (A powerful hidden ability that restores 1/3 of its maximum HP when switching out of battle).
+
+## Evolution & Biology
+Galarian Slowbro is part of a branching three-stage evolutionary line. It evolves from Galarian Slowpoke when exposed to a **Galarica Cuff**, an item woven from Galarica twigs. Alternatively, Galarian Slowpoke can evolve into Galarian Slowking if exposed to a Galarica Wreath. Galarian Slowbro's biology is defined by its symbiotic—and somewhat parasitic—relationship with Shellder; the Shellder's bite occasionally triggers a reflex that causes Slowbro to indiscriminately fire poison from its arm. It belongs to the **Monster** and **Water 1** Egg Groups and has a medium growth rate, requiring significant nourishment to maintain the toxins in its body.

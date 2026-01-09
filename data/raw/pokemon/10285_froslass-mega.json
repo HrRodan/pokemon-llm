@@ -1,0 +1,117 @@
+{
+  "pokemon_details": {
+    "id": 10285,
+    "name": "froslass-mega",
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 140,
+      "special-defense": 100,
+      "speed": 120
+    },
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "height_m": 2.6,
+    "weight_kg": 29.6,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "froslass",
+    "flavor_text": "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+    "genus": "Snow Land Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "white",
+    "egg_groups": [
+      "fairy",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/186/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 186,
+      "chain": {
+        "species_name": "snorunt",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "glalie",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 42
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "froslass",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "dawn-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

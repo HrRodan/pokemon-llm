@@ -1,0 +1,12 @@
+## Identity & Lore
+Stakataka (Pokedex #805) is the Rampart Pokémon, a colossal and mysterious Rock/Steel-type lifeform that emerged from the Ultra Wormholes. First discovered in the Alola region (Generation VII), it is classified as an **Ultra Beast**, known by the code name **UB Assembly**. This creature's unique biology is actually a colonial aggregate; it is composed of many individual gray, stone-like life-forms stacked atop one another to form a singular, four-legged fortress. Each "stone" is a sentient being with a glowing blue eye that turns red when the Pokémon becomes agitated. Standing at 5.5 meters and weighing a massive 820 kg, it is one of the heaviest and sturdiest Ultra Beasts known to science. While it lacks a Mega Evolution or Gigantamax form, its status as an Ultra Beast grants it power comparable to legendary Pokémon.
+
+## Combat Profile
+* **Stats:** HP 61, Attack 131, Defense 211, Sp. Atk 53, Sp. Def 101, Speed 13.
+* **Archetype:** Physical Tank / Trick Room Sweeper.
+* **Type Matchups:** It suffers from **Double Weaknesses (4x) to Fighting and Ground**, and a standard weakness to **Water**. However, it possesses a massive array of resistances, including **Normal (0.25x), Flying (0.25x), Rock, Bug, Psychic, Ice, Dragon, and Fairy**. It is **immune to Poison**.
+* **Move Selection:** Stakataka is built to dominate under Trick Room conditions due to its abysmal Speed. Key moves include **Gyro Ball** (which reaches maximum power due to its low speed), **Stone Edge** for high-crit STAB damage, **Heavy Slam** (utilizing its 820kg weight), and **Trick Room** to invert the turn order. **Body Press** is also a premiere choice, as it calculates damage using Stakataka's astronomical 211 Defense stat.
+* **Abilities:** Beast Boost (Increases the Pokémon's most proficient stat—usually Defense or Attack—by one stage each time it knocks out an opponent).
+
+## Evolution & Biology
+Stakataka is a single-stage Ultra Beast and does not evolve into or from any other Pokémon. It belongs to the **No Eggs Discovered** group, meaning it cannot be bred in captivity. Its biology is unique among Pokémon; because it is a collection of many smaller organisms, it can coordinate its movements to defend from any angle. Despite its rocky exterior, it is highly mobile in low-speed environments and thrives in competitive strategies that utilize its "slow and steady" nature to punish faster, frailer opponents. It is most commonly found in Ultra Space or near the Altar of the Sunne/Moone when Ultra Wormholes manifest.

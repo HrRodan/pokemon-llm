@@ -1,0 +1,15 @@
+## Identity & Lore
+Litleo (Pokedex #667) is the Lion Cub Pokémon, a dual-type Fire and Normal creature first discovered in the Kalos region (Generation VI). This quadrupedal Pokémon is characterized by its dark brown fur and a distinctive reddish-orange tuft of hair on its head, which serves as a precursor to the majestic mane it will develop later in life. According to biological records, Litleo is a hot-blooded combatant; the stronger the opponent it faces, the more intense the heat that radiates from its mane. In the wild, young Litleo are known to set out on their own to develop independence, often seen prowling the tall grasses of the Kalosian outskirts. While it does not possess a Mega Evolution or Gigantamax form, its evolution is notable for its dramatic sexual dimorphism.
+
+## Combat Profile
+* **Stats:** HP 62, Attack 50, Defense 58, Sp. Atk 73, Sp. Def 54, Speed 72.
+* **Archetype:** Early-game Special Sweeper. In competitive tiers like Little Cup, Litleo functions as a glass cannon that relies on its decent Speed and Special Attack to outpace common Grass and Bug types.
+* **Type Matchups:** It is **weak to Water, Ground, Rock, and Fighting.** It provides excellent defensive utility by being **immune to Ghost** and possessing **resistances to Fire, Grass, Ice, Bug, Steel, and Fairy.**
+* **Move Selection:** Capitalizing on its superior Special Attack stat, Litleo excels with high-power STAB (Same Type Attack Bonus) moves. Key selections include **Flamethrower** for consistent fire damage, **Hyper Voice** for a powerful Normal-type special assault, **Fire Blast** for maximum burst potential, and **Overheat** for a high-risk, high-reward tactical strike.
+* **Abilities:** 
+    * **Rivalry:** Increases damage dealt to Pokémon of the same gender but decreases it against the opposite gender, making it a situational power booster.
+    * **Unnerve:** Intimidates opponents, making them too nervous to eat their held Berries.
+    * **Moxie (Hidden):** Boosts the Attack stat after knocking out an opponent; though Litleo is naturally a Special Attacker, this can theoretically support mixed sets using moves like Flare Blitz.
+
+## Evolution & Biology
+Litleo is the first stage of a two-stage evolutionary line. It evolves into **Pyroar** when it reaches **Level 35**. Upon evolution, its appearance changes significantly based on gender, with males growing a massive circular mane and females developing a long, trailing hair-like mane. Litleo belongs to the **Field (Ground)** Egg Group and has a medium-slow growth rate, requiring significant experience to reach its full potential. Biologically, its Fire-type energy is concentrated in its mane, which flares up whenever it senses a challenge or prepares to use its signature "Noble Roar" to intimidate foes and lower their offensive capabilities.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Gigantamax Charizard (Pokedex #10196) is the massive, empowered Gigantamax form of the Flame Pokémon. While Charizard originated in the Kanto region (Generation I), this specific Gigantamax manifestation was first discovered in the Galar region. In this form, its wings have transformed into capes of living fire, and its internal temperature has increased to the point where it constantly spits flames capable of melting solid boulders. Beyond its Galar-exclusive Gigantamax form, Charizard is one of the few Pokémon known to possess two distinct Mega Evolutions (Mega Charizard X and Y) and has recently been seen utilizing the Terastal phenomenon in Paldea. It is frequently found in mountainous habitats and is notoriously high-spirited, seeking out powerful opponents to test its flames.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 84, Defense 78, Sp. Atk 109, Sp. Def 85, Speed 100.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Water and Electric**, and carries a devastating **Double Weakness (4x) to Rock**. It **resists Fire, Grass, Fighting, Bug, Steel, and Fairy**, and possesses a total **immunity to Ground** moves.
+* **Move Selection:** Utilizing its high Special Attack and G-Max potential, key moves include **Fire Blast** (which becomes G-Max Wildfire to deal damage over time), **Hurricane** (for heavy Flying-type STAB), **Solar Beam** (to check Water and Rock types under Sun), and **Focus Blast** (for Steel and Rock coverage).
+* **Abilities:** **Blaze** (Increases the power of Fire-type moves by 50% when HP is below one-third). **Solar Power** (A potent Hidden Ability that increases Special Attack by 1.5x during harsh sunlight, though it costs 1/8 of its max HP every turn).
+
+## Evolution & Biology
+Gigantamax Charizard is the final stage of a three-stage evolutionary line. It begins as **Charmander**, which evolves into **Charmeleon** starting at Level 16. Charmeleon then evolves into **Charizard** starting at Level 36. To achieve the Gigantamax form, a Charizard must possess the **Gigantamax Factor**, often obtained through Max Raid Battles or by consuming Max Soup in the Isle of Armor. It belongs to the **Monster and Dragon** Egg Groups, making it a versatile candidate for breeding high-IV competitive sets. Despite its draconic appearance and "Dragon" egg group, it only gains the Dragon typing when Mega Evolving into Mega Charizard X.

@@ -1,0 +1,227 @@
+{
+  "pokemon_details": {
+    "id": 439,
+    "name": "mime-jr",
+    "stats": {
+      "hp": 20,
+      "attack": 25,
+      "defense": 45,
+      "special-attack": 70,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 13.0,
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "filter",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mime-jr"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "headbutt",
+      "psybeam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "meditate",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "fake-out",
+      "uproar",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "teeter-dance",
+      "tickle",
+      "signal-beam",
+      "iron-defense",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "wake-up-slap",
+      "healing-wish",
+      "natural-gift",
+      "fling",
+      "copycat",
+      "sucker-punch",
+      "drain-punch",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "power-split",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "misty-terrain",
+      "confide",
+      "dazzling-gleam",
+      "infestation",
+      "psychic-terrain"
+    ],
+    "held_items": [
+      "leppa-berry"
+    ],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 193,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/439.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/439.png"
+    },
+    "species_name": "mime-jr",
+    "flavor_text": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pok\u00e9mon.",
+    "genus": "Mime Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 145,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/57/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 57,
+      "chain": {
+        "species_name": "mime-jr",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mr-mime",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "mimic"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "mr-rime",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 42
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

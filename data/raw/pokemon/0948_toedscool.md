@@ -1,0 +1,12 @@
+## Identity & Lore
+Toedscool (Pokedex #948) is the Woodear Pokémon, a fascinating Ground/Grass-type species introduced in Generation IX (Paldea). Though it bears a striking physical resemblance to the Kanto native Tentacool, it is a completely unrelated species, representing a biological phenomenon known as convergent evolution. This yellow, mushroom-like creature thrives in muggy forests, where it scurries across the forest floor on its long, thin legs. According to Paldean lore, the flaps that naturally fall from Toedscool’s body are prized for their chewy texture and are considered a delicious delicacy. While Toedscool does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox counterparts, its unique biological niche as a land-dwelling "jellyfish" makes it a subject of great scientific interest in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 40, Defense 35, Sp. Atk 50, Sp. Def 100, Speed 70.
+* **Archetype:** Special Utility Support. Despite its low base stat total, its exceptionally high Special Defense for a basic Pokémon allows it to survive magical onslaughts while it sets up hazards.
+* **Type Matchups:** It is **weak to Water, Grass, Flying, Poison, Bug, and Fire**, with a dangerous **Double Weakness (4x) to Ice**. It **resists Ground and Rock**, and possesses a natural **Immunity to Electric** moves.
+* **Move Selection:** Utilizing its higher Special Attack and incredible utility pool, key moves for Toedscool include **Earth Power** for powerful Ground-type STAB, **Giga Drain** for health maintenance, **Spore** to guarantee sleep on opponents, and **Rapid Spin** to clear entry hazards from its own side of the field.
+* **Abilities:** Mycelium Might (The Pokémon’s status moves act with the lowest priority in the speed bracket, but they ignore the effects of the target's Ability, allowing it to inflict status on Pokémon with protective abilities like Good as Gold or Magic Bounce).
+
+## Evolution & Biology
+Toedscool is part of a two-stage evolutionary line. It evolves into Toedscruel once it has been sufficiently seasoned through battle and reaches Level 30. Biologically, Toedscool functions more like a fungus than an animal, using its mycelium-based body to navigate terrain that its aquatic lookalike could never reach. It belongs to the Plant egg group, and researchers note a hatch counter of 20, reflecting its medium-slow growth rate as it slowly spreads its fungal spores throughout the humid Paldean undergrowth.

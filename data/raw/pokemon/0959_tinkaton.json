@@ -1,0 +1,185 @@
+{
+  "pokemon_details": {
+    "id": 959,
+    "name": "tinkaton",
+    "stats": {
+      "hp": 85,
+      "attack": 75,
+      "defense": 77,
+      "special-attack": 70,
+      "special-defense": 105,
+      "speed": 94
+    },
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 112.8,
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tinkaton"
+    ],
+    "moves": [
+      "swords-dance",
+      "slam",
+      "thunder-wave",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "protect",
+      "sweet-kiss",
+      "endure",
+      "sleep-talk",
+      "encore",
+      "metal-claw",
+      "rock-smash",
+      "fake-out",
+      "flatter",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "skill-swap",
+      "astonish",
+      "fake-tears",
+      "rock-tomb",
+      "metal-sound",
+      "covet",
+      "fling",
+      "flash-cannon",
+      "stone-edge",
+      "stealth-rock",
+      "smack-down",
+      "heavy-slam",
+      "foul-play",
+      "bulldoze",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "baby-doll-eyes",
+      "brutal-swing",
+      "steel-beam",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "gigaton-hammer",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 253,
+    "is_default": true,
+    "order": 1002,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/959.png"
+    },
+    "species_name": "tinkaton",
+    "flavor_text": "This intelligent Pok\u00e9mon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+    "genus": "Hammer Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/501/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 501,
+      "chain": {
+        "species_name": "tinkatink",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "tinkatuff",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "tinkaton",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 38
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

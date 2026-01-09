@@ -1,0 +1,12 @@
+## Identity & Lore
+Zebstrika (#523) is the Thunderbolt Pokémon, a striking equine species first discovered in the Unova region during Generation V. Known for its sleek black coat adorned with jagged white patterns reminiscent of lightning bolts, Zebstrika is as volatile as the electricity it generates. Its mane consists of white, conductive bristles that crackle with high-voltage energy, and when this Pokémon reaches full gallop, the sound of its hooves is said to mimic the reverberation of rolling thunder. While Zebstrika does not possess any known Mega Evolutions, Gigantamax forms, or Paradox counterparts, it remains a quintessential example of Unova's high-speed wildlife. It is often found in open plains where it can reach its maximum velocity, often causing lightning-like flashes that illuminate the horizon during its nocturnal sprints.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 100, Defense 63, Sp. Atk 80, Sp. Def 63, Speed 116.
+* **Archetype:** Fast Physical Sweeper / Offensive Pivot.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Capitalizing on its superior base 100 Attack and high Speed, key moves include **Wild Charge** for powerful STAB damage, **Supercell Slam** for high-risk high-reward physical impact, **High Horsepower** for crucial Ground-type coverage against other Electric types, and **Flame Charge** to patch up its Speed and hit Grass or Steel types.
+* **Abilities:** **Lightning-rod** (Draws in all Electric-type moves to increase Special Attack), **Motor Drive** (Boosts Speed when hit by an Electric-type move), and its Hidden Ability, **Sap Sipper** (Grants immunity to Grass-type moves and boosts Attack when hit by them).
+
+## Evolution & Biology
+Zebstrika is the final stage of a two-stage evolutionary line. It evolves from **Blitzle** starting at **Level 27**. Biologically, Zebstrika is highly specialized for locomotion and energy conduction, possessing a "Ground" egg group classification which makes it compatible with a wide variety of land-based mammals for breeding. It has a hatch counter of 20, requiring a moderate amount of travel to bring an egg to term. In the wild, Zebstrika are known for their prickly personalities; they are easily agitated and will discharge lightning from their manes in all directions if provoked, making them challenging but rewarding companions for experienced trainers.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Hatenna (Pokedex #856) is the Calm Pokémon, a sensitive creature first discovered in the Galar region during Generation VIII. This small, pink Pokémon is characterized by the protrusion on its head, which functions as a biological sensor for picking up the emotions of other living beings. Its behavior is dictated entirely by the emotional "noise" of its environment; it will never warm up to individuals who lack a calm disposition and will actively flee from anyone projecting strong or aggressive feelings. While Hatenna itself is a pure Psychic-type, its evolutionary lineage is deeply tied to the "Forest Witch" mythos. Its final evolution, Hatterene, is notable for possessing a powerful Gigantamax form, though Hatenna is primarily found in quiet, secluded areas like the Glimwood Tangle.
+
+## Combat Profile
+* **Stats:** HP 42, Attack 30, Defense 45, Sp. Atk 56, Sp. Def 53, Speed 39.
+* **Archetype:** Little Cup Trick Room Setter / Special Attacker.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark**. It **resists Fighting and Psychic** types.
+* **Move Selection:** Capitalizing on its Special Attack and its role as a slow, tactical combatant, key moves include **Psychic** for heavy STAB damage, **Dazzling Gleam** for Fairy-type coverage against Dark-types, **Trick Room** to turn its low speed into a tactical advantage, and **Mystical Fire** to suppress opposing Special Attackers.
+* **Abilities:** **Healer** (sometimes heals an ally's status condition in doubles), **Anticipation** (senses if the opponent possesses a super-effective or one-hit KO move), and **Magic Bounce** (Hidden Ability: reflects non-damaging status moves and hazards back at the opponent).
+
+## Evolution & Biology
+Hatenna is part of a three-stage evolutionary line. It evolves into **Hattrem** starting at Level 32, which subsequently evolves into the powerful **Hatterene** once it reaches Level 42. This growth reflects the Pokémon's increasing intolerance for emotional outbursts, as its evolutions become more physically capable of silencing noisy surroundings. Hatenna belongs to the **Fairy** egg group, mirroring its whimsical appearance and magical capabilities. It has a slow growth rate, requiring patient cultivation from its trainer, and is found exclusively in female-only populations.

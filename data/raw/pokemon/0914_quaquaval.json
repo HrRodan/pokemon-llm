@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 914,
+    "name": "quaquaval",
+    "stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 85
+    },
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 61.9,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "quaquaval"
+    ],
+    "moves": [
+      "pound",
+      "swords-dance",
+      "wing-attack",
+      "mega-kick",
+      "take-down",
+      "growl",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "agility",
+      "focus-energy",
+      "swift",
+      "rest",
+      "substitute",
+      "reversal",
+      "protect",
+      "icy-wind",
+      "endure",
+      "sleep-talk",
+      "baton-pass",
+      "encore",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "feather-dance",
+      "hydro-cannon",
+      "air-cutter",
+      "aerial-ace",
+      "bulk-up",
+      "water-pulse",
+      "u-turn",
+      "close-combat",
+      "fling",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "aqua-jet",
+      "double-hit",
+      "low-sweep",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "hurricane",
+      "disarming-voice",
+      "misty-terrain",
+      "liquidation",
+      "coaching",
+      "flip-turn",
+      "triple-axel",
+      "wave-crash",
+      "tera-blast",
+      "ice-spinner",
+      "aqua-step",
+      "chilling-water",
+      "aqua-cutter",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": true,
+    "order": 914,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/914.png"
+    },
+    "species_name": "quaquaval",
+    "flavor_text": "A single kick from a Quaquaval can send a truck rolling. This Pok\u00e9mon uses its powerful legs to perform striking dances from far-off lands.",
+    "genus": "Dancer Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "flying",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/480/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 480,
+      "chain": {
+        "species_name": "quaxly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quaxwell",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "quaquaval",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

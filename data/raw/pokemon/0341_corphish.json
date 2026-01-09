@@ -1,0 +1,192 @@
+{
+  "pokemon_details": {
+    "id": 341,
+    "name": "corphish",
+    "stats": {
+      "hp": 43,
+      "attack": 80,
+      "defense": 65,
+      "special-attack": 50,
+      "special-defense": 35,
+      "speed": 35
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 11.5,
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "corphish"
+    ],
+    "moves": [
+      "vice-grip",
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "counter",
+      "strength",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "waterfall",
+      "bubble",
+      "crabhammer",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "mud-sport",
+      "rock-tomb",
+      "muddy-water",
+      "aerial-ace",
+      "iron-defense",
+      "mud-shot",
+      "dragon-dance",
+      "water-pulse",
+      "natural-gift",
+      "payback",
+      "fling",
+      "trump-card",
+      "night-slash",
+      "x-scissor",
+      "switcheroo",
+      "captivate",
+      "aqua-jet",
+      "double-hit",
+      "hone-claws",
+      "round",
+      "chip-away",
+      "scald",
+      "razor-shell",
+      "confide",
+      "liquidation",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 454,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/341.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/341.png"
+    },
+    "species_name": "corphish",
+    "flavor_text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+    "genus": "Ruffian Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 205,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "waters-edge",
+    "shape": "armor",
+    "color": "red",
+    "egg_groups": [
+      "water1",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/174/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 174,
+      "chain": {
+        "species_name": "corphish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crawdaunt",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

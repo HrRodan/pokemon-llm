@@ -1,0 +1,14 @@
+## Identity & Lore
+Frogadier (Pokedex #657) is the Bubble Frog Pokémon, a sleek and agile bipedal amphibian introduced in Generation VI (Kalos). This blue-colored Pokémon is distinguished by its incredible dexterity and the thick muffler of white "Frubbles" around its neck, which it uses to sense its surroundings and distract foes. As a specialized projectile combatant, Frogadier can launch bubble-covered pebbles with such precision that it can strike a target from over one hundred feet away. Its biology reflects a transition into a master of stealth, evolving from the diminutive Froakie into a creature capable of scaling ceilings and trees with ease. While Frogadier is a powerful mid-stage Pokémon, it eventually reaches its pinnacle as Greninja, a Pokémon known for its diverse forms, including the legendary Battle Bond "Ash-Greninja" and its formidable Gigantamax potential in specific regional contexts.
+
+## Combat Profile
+* **Stats:** HP 54, Attack 63, Defense 52, Sp. Atk 83, Sp. Def 56, Speed 97.
+* **Archetype:** Fast Special Sweeper / Offensive Pivot. In its evolutionary bracket (Not Fully Evolved), Frogadier acts as a high-speed disruptor.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric**. It **resists Steel, Fire, Water, and Ice** type attacks.
+* **Move Selection:** Prioritizing its superior Special Attack and Speed, Frogadier excels with a kit including **Hydro Pump** for massive STAB damage, **Ice Beam** for essential coverage against Grass and Dragon types, **Scald** to threaten physical attackers with a burn status, and **U-turn** to maintain offensive momentum and pivot out of disadvantageous matchups.
+* **Abilities:** 
+    * **Torrent:** Increases the power of Water-type moves by 50% when Frogadier’s HP falls below a third of its maximum.
+    * **Protean (Hidden Ability):** One of the most powerful tactical abilities in the game, it changes Frogadier's type to match the move it is about to use, granting it a Same Type Attack Bonus (STAB) on every offensive action and allowing for complex defensive type-shifting.
+
+## Evolution & Biology
+Frogadier is the second stage of a three-part evolutionary line. It evolves from **Froakie** starting at **Level 16** and undergoes its final transformation into **Greninja** once it reaches **Level 36**. Biologically, Frogadier is highly adapted to aquatic and terrestrial hunting, utilizing its long tongue and agile limbs to outmaneuver prey. It belongs to the **Water 1** Egg Group, and with a hatch counter of 20, it requires significant effort to breed for competitive play. Its growth rate is "Medium-Slow," reflecting the disciplined training required to master its ninja-like combat style. While it lacks a habitat designation in modern data, it is traditionally associated with the lush wetlands and riverside forests of the Kalos region.

@@ -1,0 +1,166 @@
+{
+  "pokemon_details": {
+    "id": 10274,
+    "name": "ogerpon-hearthflame-mask",
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 84,
+      "special-attack": 60,
+      "special-defense": 96,
+      "speed": 110
+    },
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 39.8,
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "ogerpon-hearthflame-mask"
+    ],
+    "moves": [
+      "swords-dance",
+      "slam",
+      "vine-whip",
+      "double-kick",
+      "take-down",
+      "low-kick",
+      "counter",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "quick-attack",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "reversal",
+      "protect",
+      "scary-face",
+      "spikes",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "charm",
+      "false-swipe",
+      "sleep-talk",
+      "encore",
+      "synthesis",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "follow-me",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "rock-tomb",
+      "bullet-seed",
+      "magical-leaf",
+      "u-turn",
+      "fling",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "power-whip",
+      "grass-knot",
+      "wood-hammer",
+      "low-sweep",
+      "retaliate",
+      "horn-leech",
+      "grassy-terrain",
+      "play-rough",
+      "spiky-shield",
+      "solar-blade",
+      "throat-chop",
+      "stomping-tantrum",
+      "grassy-glide",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "ivy-cudgel"
+    ],
+    "held_items": [],
+    "base_experience": 275,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10274.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10274.png"
+    },
+    "species_name": "ogerpon",
+    "flavor_text": "This Pok\u00e9mon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.",
+    "genus": "Mask Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 5,
+    "base_happiness": 50,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/543/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 543,
+      "chain": {
+        "species_name": "ogerpon",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

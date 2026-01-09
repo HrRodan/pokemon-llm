@@ -1,0 +1,12 @@
+## Identity & Lore
+Doublade (Pokedex #680) is the Sword Pokémon, a dual-wielding spectral entity that first appeared in the Kalos region during Generation VI. It is the evolved form of Honedge, and upon evolving, the single blade splits into two distinct swords that communicate through complex telepathy. This coordination allows them to execute intricate, simultaneous attacks that can slash opponents to ribbons with surgical precision. Its physical form is characterized by its brown, metallic scabbards and pinkish-purple ethereal sashes which act as hands. While Doublade itself does not possess a Mega Evolution or Gigantamax form, its final evolution, Aegislash, is world-renowned for its unique "Stance Change" ability, shifting between Shield and Blade forms.
+
+## Combat Profile
+* **Stats:** HP 59, Attack 110, Defense 150, Sp. Atk 45, Sp. Def 49, Speed 35.
+* **Archetype:** Physical Tank / Eviolite Wall. With a massive base Defense of 150, Doublade is often utilized with the Eviolite held item to surpass even its evolution’s bulk, making it a premier physical wall.
+* **Type Matchups:** It is **weak to Fire, Ground, Ghost, and Dark**. It possesses a massive array of resistances, including **Steel, Grass, Ice, Flying, Psychic, Rock, and Fairy**, and a **Double Resistance (1/4x) to Bug**. It is completely **immune to Normal, Fighting, and Poison** types.
+* **Move Selection:** Leveraging its high Attack and low Speed, Doublade excels with physical and priority moves: **Swords Dance** for setup, **Iron Head** for reliable Steel-type STAB, **Shadow Sneak** to bypass its low speed with priority spectral damage, and **Sacred Sword** to ignore the opponent's stat changes.
+* **Abilities:** No Guard (This ability ensures that all moves used by or against Doublade will never miss, making it particularly effective against opponents relying on evasion but leaving it vulnerable to perfectly accurate powerful strikes).
+
+## Evolution & Biology
+Doublade is the second stage of a three-stage evolutionary line. It evolves from **Honedge** starting at Level 35. To reach its final form, **Aegislash**, Doublade must be exposed to the radiation of a **Dusk Stone**. Biologically, Doublade is a sentient spectral possession of ancient weaponry. It belongs to the **Mineral** Egg Group and is known for its relatively slow development, requiring 20 hatch cycles to emerge from an egg. Despite its metallic exterior, its life force is tied to the ghostly energy that binds the two blades together.

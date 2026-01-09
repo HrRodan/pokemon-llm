@@ -1,0 +1,12 @@
+## Identity & Lore
+Lunala (Pokedex #792) is the Moone Pokémon, a legendary Psychic and Ghost-type entity that first appeared in the Alola region during Generation VII. Described in ancient folklore as the "beast that calls the moon," Lunala is said to be the female evolution of Cosmog, constantly absorbing light to convert into energy, which causes its wings to glow with a brilliant, veil-like shimmer resembling the night sky. Standing at 4.0 meters tall and weighing 120.0 kg, this majestic purple creature possesses a "third eye" that activates when it travels between dimensions via Ultra Wormholes. While it does not possess a Mega Evolution or Gigantamax form, Lunala plays a critical role in the "Light Trio" alongside Solgaleo and Necrozma; notably, it can fuse with Necrozma to become **Dawn Wings Necrozma** using the N-Lunarizer.
+
+## Combat Profile
+* **Stats:** HP 137, Attack 113, Defense 89, Sp. Atk 137, Sp. Def 107, Speed 97.
+* **Archetype:** Bulky Special Sweeper. Lunala leverages its massive HP pool and high Special Attack to outlast opponents while dealing devastating damage.
+* **Type Matchups:** It suffers from a **Double Weakness (4x)** to both **Ghost** and **Dark** types. It is **weak to** nothing else, while it **resists** Poison and Psychic moves. It possesses complete **immunity** to Normal and Fighting-type attacks.
+* **Move Selection:** Capitalizing on its exceptional Special Attack, key moves include its signature move **Moongeist Beam** (which ignores abilities), **Psyshock** (to hit specially defensive walls), **Moonblast** (for coverage against Dark types), and **Roost** or **Moonlight** for sustained longevity.
+* **Abilities:** Shadow Shield (An exclusive ability that reduces the damage Lunala takes from any move by 50% when its HP is full. Unlike Multiscale, this ability cannot be ignored by moves or abilities like Mold Breaker, making Lunala incredibly difficult to one-shot).
+
+## Evolution & Biology
+Lunala is the final stage of a three-stage legendary evolutionary line, a rarity among Mythical and Legendary Pokémon. It evolves from **Cosmoem** starting at level 53, specifically in Pokémon Moon, Ultra Moon, or Shield, whereas Cosmoem would evolve into Solgaleo in the opposite versions. The journey begins with **Cosmog**, which evolves into Cosmoem at level 43. Biologically, it is classified in the **No Eggs Discovered** group, meaning it cannot be bred. Despite its appearance, it is known to be an extra-dimensional traveler, capable of opening rifts in space-time to access Ultra Space.

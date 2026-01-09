@@ -1,0 +1,12 @@
+## Identity & Lore
+Furfrou (#676) is the Poodle Pokémon, a stylish and loyal quadruped introduced in Generation VI (Kalos). Standing 1.2 meters tall with thick, white, wool-like fur, Furfrou is deeply integrated into the culture of the Kalos region, where it was historically kept as the loyal companion of royalty. Its most defining characteristic is its "Furfrou Trims," which allow it to take on various aesthetic forms including Heart, Star, Diamond, Debutante, Matron, Dandy, La Reine, Kabuki, and Pharaoh styles. While these trims are purely cosmetic, lore suggests that grooming its coat not only enhances its elegance but significantly increases its swiftness and agility. Despite its prominence in the fashion-forward Kalos region, Furfrou does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 80, Defense 60, Sp. Atk 65, Sp. Def 90, Speed 102.
+* **Archetype:** Physical Tank / Utility Pivot. 
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a complete **immunity to Ghost**. It has no natural resistances.
+* **Move Selection:** While its Speed allows it to act as a disruptor, its move set should leverage its Physical Attack and utility. Key moves include **Return** for high-accuracy STAB damage, **Sucker Punch** for priority and Dark-type coverage, **U-turn** to maintain momentum as a pivot, and **Wild Charge** for Electric-type coverage against Water or Flying threats. **Cotton Guard** is also highly recommended to further bolster its survivability.
+* **Abilities:** Fur Coat (Doubles the Pokémon's Defense stat). This ability is Furfrou's competitive cornerstone, effectively doubling its physical bulk and allowing it to survive hits from some of the strongest physical attackers in the game, making its effective base Defense far higher than its base 60 would suggest.
+
+## Evolution & Biology
+Furfrou is a single-stage Pokémon and does not evolve from or into any other species. Its biological uniqueness lies in its thick coat, which grows continuously; if left untrimmed, it becomes shaggy and unkempt, reverting to its "Natural Form." Biologically, it is highly social and intelligent, often seen in urban environments. It belongs to the Ground Egg Group, and trainers breeding Furfrou can expect a hatch counter of approximately 20 cycles. While it is a common sight in the gardens of Lumiose City, it is a capable fighter that uses its high speed and specialized coat to exhaust opponents.

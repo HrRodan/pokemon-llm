@@ -1,0 +1,12 @@
+## Identity & Lore
+Armarouge (Pokedex #936) is the Fire Warrior Pokémon, a humanoid combatant first discovered in the Paldea region during Generation IX. Clad in a suit of ornate, burning plates, it is said that Armarouge evolved through the use of armor that belonged to a distinguished warrior of antiquity. This armor is not merely decorative; it is the source of the Pokémon’s psychic energy, allowing it to manipulate fire with tactical precision. While it lacks a Mega Evolution or Gigantamax form, Armarouge serves as the noble, defensive counterpart to the blade-wielding Ceruledge. Known for its unwavering loyalty to its Trainer, Armarouge fights with a principled code of honor, preferring to blast foes from a distance using its pauldrons as cannon barrels.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 60, Defense 100, Sp. Atk 125, Sp. Def 80, Speed 75.
+* **Archetype:** Bulky Special Sweeper / Trick Room Attacker.
+* **Type Matchups:** It is **weak to Ground, Rock, Water, Ghost, Dark, and Bug**. It **resists Fire, Grass, Ice, Fighting, Psychic, Steel, and Fairy** types.
+* **Move Selection:** Utilizing its elite Special Attack and signature capabilities, Armarouge’s optimal moveset includes **Armor Cannon** (a high-power signature Fire move), **Expanding Force** (which becomes devastatingly powerful in Psychic Terrain), **Aura Sphere** (for perfect-accuracy coverage against Dark and Rock types), and **Psyshock** (to target the opponent's physical defense).
+* **Abilities:** **Flash Fire** (provides immunity to Fire-type moves and powers up its own Fire attacks when hit by one); **Weak Armor** (Hidden Ability; triggers a sharp increase in Speed at the cost of Defense when struck by a physical move, allowing it to outpace the entire unboosted metagame).
+
+## Evolution & Biology
+Armarouge is a two-stage evolutionary line, serving as one of the two possible final forms of **Charcadet**. It evolves from Charcadet when the **Auspicious Armor** is used (an item historically exclusive to the Paldea region). Biologically, Armarouge channels its internal flame through its psychic-infused plating to stabilize its attacks. It belongs to the **Humanshape** egg group, and its development is characterized by a slow growth rate, necessitating significant experience to reach its full potential. Its physiology is built for endurance and ranged bombardment, a stark contrast to the agile, melee-focused biology of its sister evolution.

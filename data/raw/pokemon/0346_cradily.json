@@ -1,0 +1,203 @@
+{
+  "pokemon_details": {
+    "id": 346,
+    "name": "cradily",
+    "stats": {
+      "hp": 86,
+      "attack": 81,
+      "defense": 97,
+      "special-attack": 81,
+      "special-defense": 107,
+      "speed": 43
+    },
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 60.4,
+    "abilities": [
+      {
+        "name": "suction-cups",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cradily"
+    ],
+    "moves": [
+      "swords-dance",
+      "bind",
+      "headbutt",
+      "body-slam",
+      "wrap",
+      "double-edge",
+      "acid",
+      "hyper-beam",
+      "strength",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "string-shot",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "constrict",
+      "amnesia",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "ingrain",
+      "secret-power",
+      "astonish",
+      "rock-tomb",
+      "bullet-seed",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "brine",
+      "natural-gift",
+      "wring-out",
+      "gastro-acid",
+      "worry-seed",
+      "rock-polish",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "power-whip",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "smack-down",
+      "sludge-wave",
+      "round",
+      "bulldoze",
+      "grassy-terrain",
+      "confide",
+      "infestation",
+      "meteor-beam"
+    ],
+    "held_items": [
+      "big-root"
+    ],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 459,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/346.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/346.png"
+    },
+    "species_name": "cradily",
+    "flavor_text": "CRADILY roams around the ocean floor in search of food. This POK\u00e9MON freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.",
+    "genus": "Barnacle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "sea",
+    "shape": "blob",
+    "color": "green",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/176/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 176,
+      "chain": {
+        "species_name": "lileep",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cradily",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

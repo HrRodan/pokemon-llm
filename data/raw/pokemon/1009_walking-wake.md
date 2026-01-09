@@ -1,0 +1,12 @@
+## Identity & Lore
+Walking Wake (#1009) is the Paradox Pokémon, a primal and enigmatic creature first discovered in the Paldea region during Generation IX. Shrouded in mystery, it is described in the Scarlet Book as an ancient relative of the Legendary Pokémon Suicune, though it exhibits a much more predatory, theropod-like morphology. Standing at 3.5 meters, this bipedal beast features a sleek blue body and a large, flowing purple crest that mimics the aurora. While it does not possess a Mega Evolution or Gigantamax form, it is classified as an "Ancient" Paradox Pokémon, a category of beings that supposedly lived millions of years ago and have been brought into the present through the temporal rift in Area Zero.
+
+## Combat Profile
+* **Stats:** HP 99, Attack 83, Defense 91, Sp. Atk 125, Sp. Def 83, Speed 109.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Dragon and Fairy**. Due to its unique dual-typing, it boasts exceptional defensive utility, including a **Double Resistance (1/4x) to Fire and Water**, and a standard resistance to **Steel**.
+* **Move Selection:** Capitalizing on its elite Special Attack and its synergy with sunny weather, key moves include **Hydro Steam** (a signature move that increases in power during Harsh Sunlight), **Draco Meteor** for maximum burst damage, **Flamethrower** for perfect coverage against Steel and Grass types, and **Dragon Pulse** for a reliable, high-accuracy STAB (Same Type Attack Bonus) option.
+* **Abilities:** Protosynthesis (Automatically boosts the Pokémon's highest stat—usually Special Attack or Speed—by 30% or 50% respectively when the weather is Harsh Sunlight or if it is holding a Booster Energy).
+
+## Evolution & Biology
+Walking Wake is a single-stage Paradox Pokémon and does not evolve from or into any other known species. It is a biological anomaly that cannot be found in the wild through traditional means, appearing only in specialized Tera Raid Battle events within the Paldea region. As an Undiscovered species, it belongs to the **No-Eggs** group and cannot be bred. Its biology is fine-tuned for high-speed aquatic and terrestrial movement, though it remains notoriously difficult to tame, evidenced by its base happiness of 0 and a **Slow** growth rate that requires immense effort to train to level 100.

@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 331,
+    "name": "cacnea",
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 40,
+      "special-attack": 85,
+      "special-defense": 40,
+      "speed": 35
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 51.3,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cacnea"
+    ],
+    "moves": [
+      "mega-punch",
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "pin-missile",
+      "leer",
+      "disable",
+      "acid",
+      "low-kick",
+      "counter",
+      "seismic-toss",
+      "absorb",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "swift",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "cotton-spore",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "spikes",
+      "destiny-bond",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "focus-punch",
+      "smelling-salts",
+      "nature-power",
+      "helping-hand",
+      "role-play",
+      "ingrain",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "teeter-dance",
+      "needle-arm",
+      "grass-whistle",
+      "bullet-seed",
+      "block",
+      "magical-leaf",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "fling",
+      "worry-seed",
+      "sucker-punch",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "switcheroo",
+      "nasty-plot",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "venoshock",
+      "foul-play",
+      "round",
+      "bulldoze",
+      "belch",
+      "rototiller",
+      "fell-stinger",
+      "grassy-terrain",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "power-trip",
+      "grassy-glide",
+      "skitter-smack",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "poison-barb",
+      "sticky-barb"
+    ],
+    "base_experience": 67,
+    "is_default": true,
+    "order": 443,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/331.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/331.png"
+    },
+    "species_name": "cacnea",
+    "flavor_text": "CACNEA lives in arid locations such as deserts. It releases a strong aroma from its flower to attract prey. When prey comes near, this POK\u00e9MON shoots sharp thorns from its body to bring the victim down.",
+    "genus": "Cactus Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "rough-terrain",
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "plant",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/167/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 167,
+      "chain": {
+        "species_name": "cacnea",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cacturne",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

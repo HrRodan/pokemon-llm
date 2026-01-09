@@ -1,0 +1,130 @@
+{
+  "pokemon_details": {
+    "id": 771,
+    "name": "pyukumuku",
+    "stats": {
+      "hp": 55,
+      "attack": 60,
+      "defense": 130,
+      "special-attack": 30,
+      "special-defense": 130,
+      "speed": 5
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 1.2,
+    "abilities": [
+      {
+        "name": "innards-out",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pyukumuku"
+    ],
+    "moves": [
+      "counter",
+      "toxic",
+      "screech",
+      "double-team",
+      "recover",
+      "harden",
+      "light-screen",
+      "reflect",
+      "bide",
+      "rest",
+      "substitute",
+      "curse",
+      "spite",
+      "protect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "pain-split",
+      "baton-pass",
+      "rain-dance",
+      "mirror-coat",
+      "psych-up",
+      "hail",
+      "memento",
+      "taunt",
+      "helping-hand",
+      "recycle",
+      "mud-sport",
+      "tickle",
+      "block",
+      "water-sport",
+      "gastro-acid",
+      "soak",
+      "quash",
+      "bestow",
+      "confide",
+      "venom-drench",
+      "purify"
+    ],
+    "held_items": [],
+    "base_experience": 144,
+    "is_default": true,
+    "order": 930,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/771.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/771.png"
+    },
+    "species_name": "pyukumuku",
+    "flavor_text": "It\u2019s covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up.",
+    "genus": "Sea Cucumber Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "black",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/398/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 398,
+      "chain": {
+        "species_name": "pyukumuku",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

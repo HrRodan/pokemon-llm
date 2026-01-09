@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Slowpoke (Pokedex #10164) is the Dopey Pokémon, a regional variant first discovered in the Galar region (Generation VIII). While the species originally hails from Generation I (Kanto), this variant has been physically altered by its diet of Galarica Seeds, which has turned its forehead and tail tip a vibrant yellow. It is characterized by its incredibly slow reaction times and dim-witted nature, often taking up to five seconds to register pain after an attack. While Galarian Slowpoke itself does not possess a Mega Evolution or Gigantamax form, it serves as the essential precursor to Galarian Slowbro and Galarian Slowking, the former of which possesses a Mega Evolution in its Kantonian form.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 65, Defense 65, Sp. Atk 40, Sp. Def 40, Speed 15.
+* **Archetype:** Physical Tank / Trick Room Setter.
+* **Type Matchups:** It is **weak to Bug, Ghost, and Dark** types. It **resists Fighting and Psychic** damage. 
+* **Move Selection:** Despite the species' reputation for special attacks, the Galarian form's Physical Attack is significantly higher than its Special Attack. Optimized moves include **Zen Headbutt** (STAB), **Liquidation** (High-power coverage), **Slack Off** (Reliable recovery), and **Trick Room** (to turn its low Speed into a tactical advantage).
+* **Abilities:** **Gluttony** allows the Pokémon to consume held berries at 50% HP instead of 25%. **Own Tempo** provides immunity to confusion and the Intimidate ability. Its hidden ability, **Regenerator**, is its most competitive trait, restoring 33% of its maximum HP every time it switches out of combat.
+
+## Evolution & Biology
+Galarian Slowpoke is part of a branched 2-stage evolutionary line. Its evolution is unique compared to its Kantonian counterparts, as it relies on items woven from Galarica Twigs rather than level-up or trading. It evolves into **Galarian Slowbro** when exposed to a **Galarica Cuff**. Alternatively, it can evolve into **Galarian Slowking** if the trainer uses a **Galarica Wreath**. Biologically, it is a quadruped residing in the **Monster** and **Water 1** Egg Groups. Its life is largely sedentary, often found near the water's edge in Galar, where it spends its days in a spice-induced daze from the plants it consumes.

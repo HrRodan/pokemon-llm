@@ -1,0 +1,177 @@
+{
+  "pokemon_details": {
+    "id": 1018,
+    "name": "archaludon",
+    "stats": {
+      "hp": 90,
+      "attack": 105,
+      "defense": 130,
+      "special-attack": 125,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 60.0,
+    "abilities": [
+      {
+        "name": "stamina",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "stalwart",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "archaludon"
+    ],
+    "moves": [
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "metal-claw",
+      "mirror-coat",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "rock-tomb",
+      "metal-sound",
+      "iron-defense",
+      "dragon-claw",
+      "gyro-ball",
+      "metal-burst",
+      "aura-sphere",
+      "dark-pulse",
+      "night-slash",
+      "dragon-pulse",
+      "giga-impact",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "smack-down",
+      "heavy-slam",
+      "foul-play",
+      "dragon-tail",
+      "snarl",
+      "body-press",
+      "breaking-swipe",
+      "steel-beam",
+      "meteor-beam",
+      "tera-blast",
+      "electro-shot",
+      "hard-press",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 300,
+    "is_default": true,
+    "order": 1102,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1018.png"
+    },
+    "species_name": "archaludon",
+    "flavor_text": "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+    "genus": "Alloy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "mineral",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/465/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 465,
+      "chain": {
+        "species_name": "duraludon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "archaludon",
+            "evolution_details": [],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

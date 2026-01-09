@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 283,
+    "name": "surskit",
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 32,
+      "special-attack": 50,
+      "special-defense": 52,
+      "speed": 65
+    },
+    "types": [
+      "bug",
+      "water"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 1.7,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "surskit"
+    ],
+    "moves": [
+      "take-down",
+      "double-edge",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "bubble-beam",
+      "solar-beam",
+      "string-shot",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "haze",
+      "waterfall",
+      "swift",
+      "leech-life",
+      "bubble",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "mind-reader",
+      "snore",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "signal-beam",
+      "mud-shot",
+      "water-sport",
+      "water-pulse",
+      "natural-gift",
+      "bug-buzz",
+      "captivate",
+      "bug-bite",
+      "aqua-jet",
+      "power-split",
+      "soak",
+      "round",
+      "scald",
+      "acrobatics",
+      "struggle-bug",
+      "sticky-web",
+      "fell-stinger",
+      "confide",
+      "infestation",
+      "lunge",
+      "liquidation",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "chilling-water"
+    ],
+    "held_items": [
+      "honey"
+    ],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 386,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/283.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/283.png"
+    },
+    "species_name": "surskit",
+    "flavor_text": "From the tips of its feet, SURSKIT secretes an oil that enables it to walk on water as if it were skating. This POK\u00e9MON feeds on microscopic organisms in ponds and lakes.",
+    "genus": "Pond Skater Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "armor",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/141/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 141,
+      "chain": {
+        "species_name": "surskit",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "masquerain",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

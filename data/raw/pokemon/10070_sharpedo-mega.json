@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 10070,
+    "name": "sharpedo-mega",
+    "stats": {
+      "hp": 70,
+      "attack": 140,
+      "defense": 70,
+      "special-attack": 110,
+      "special-defense": 65,
+      "speed": 105
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 130.3,
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "sharpedo-mega"
+    ],
+    "moves": [
+      "leer",
+      "bite",
+      "roar",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "agility",
+      "rage",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "waterfall",
+      "skull-bash",
+      "rest",
+      "super-fang",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "dive",
+      "poison-fang",
+      "rock-tomb",
+      "bounce",
+      "water-pulse",
+      "feint",
+      "payback",
+      "assurance",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "giga-impact",
+      "ice-fang",
+      "zen-headbutt",
+      "aqua-jet",
+      "round",
+      "scald",
+      "retaliate",
+      "bulldoze",
+      "snarl",
+      "confide",
+      "liquidation"
+    ],
+    "held_items": [
+      "deep-sea-tooth"
+    ],
+    "base_experience": 196,
+    "is_default": false,
+    "order": 430,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10070.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10070.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10070.png"
+    },
+    "species_name": "sharpedo",
+    "flavor_text": "Nicknamed \u201cthe bully of the sea,\u201d SHARPEDO is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these POK\u00e9MON can thoroughly tear apart a supertanker.",
+    "genus": "Brutal Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/160/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 160,
+      "chain": {
+        "species_name": "carvanha",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sharpedo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

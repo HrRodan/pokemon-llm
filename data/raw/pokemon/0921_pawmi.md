@@ -1,0 +1,12 @@
+## Identity & Lore
+Pawmi (Pokedex #921) is the Mouse Pokémon, a small quadruped creature introduced in Generation IX (Paldea). This yellow-furred Electric-type is characterized by its large, expressive ears and the thick fur on its neck that acts as an insulator. Biologically, Pawmi possesses underdeveloped electric sacs in its cheeks; it must rub its forepaws against its face to generate electricity through the pads on its paws before discharging it. As the "Pikaclone" of the Paldea region, it holds a unique place in the ecosystem, often seen scurrying in grassy fields. While Pawmi does not have a Mega Evolution, Gigantamax form, or Paradox variant, it is historically significant for being the first of the "electric rodent" archetypes to feature a full three-stage evolutionary line.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 50, Defense 20, Sp. Atk 40, Sp. Def 25, Speed 60.
+* **Archetype:** Early-game Physical Scout.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Prioritizing its higher Physical Attack and Speed stats, Pawmi’s most effective moves include **Wild Charge** for high-power STAB, **Nuzzle** for guaranteed paralysis support, **Play Rough** for Fairy-type coverage, and **Fake Out** to provide immediate flinch pressure upon entering battle.
+* **Abilities:** **Static** grants a chance to paralyze any opponent that makes physical contact. **Natural Cure** allows it to heal status conditions automatically when switching out. Its Hidden Ability, **Iron Fist**, boosts the power of punching moves, which becomes particularly relevant as it evolves and gains access to more combat-oriented techniques.
+
+## Evolution & Biology
+Pawmi is the first stage of a three-member evolutionary line. It evolves into **Pawmo** starting at Level 18. To reach its final form, **Pawmot**, the trainer must walk 1,000 steps with Pawmo outside of its Poké Ball using the "Let's Go" mechanic and then level it up. Belonging to the **Ground** egg group, Pawmi has a relatively fast hatch rate and a medium growth rate, making it a common sight for beginning trainers in Paldea. Its biology is centered around kinetic energy, requiring constant movement to stay charged.

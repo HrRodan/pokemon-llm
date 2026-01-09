@@ -1,0 +1,12 @@
+## Identity & Lore
+Hisuian Lilligant (Pokedex #10237) is the Flowering Pokémon, a majestic regional variant first discovered in the ancient Hisui region (the precursor to modern-day Sinnoh). While the species originated in Generation V (Unova), this Hisuian form adapted to the rugged terrain of the Diamond and Pearl Settlements, trading its stationary, queen-like appearance for a more agile, long-limbed dancer’s physique. Its flavor text notes that even veteran Trainers find it difficult to make its beautiful flower bloom, a testament to its finicky and refined nature. Unlike its Unovan counterpart, which is a pure Grass-type, the Hisuian variant incorporates Fighting-type mastery, reflecting its powerful legs and rhythmic combat style. While it does not possess a Mega Evolution or Gigantamax form, it is uniquely known for its signature move, Victory Dance.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 105, Defense 75, Sp. Atk 50, Sp. Def 75, Speed 105.
+* **Archetype:** Fast Physical Sweeper. With a high Base Attack and Speed, it functions as a setup-heavy glass cannon.
+* **Type Matchups:** It is **double weak (4x) to Flying**. It is also **weak to Poison, Bug, Fire, Ice, Psychic, and Fairy**. It **resists Ground, Water, Grass, Electric, Rock, and Dark**.
+* **Move Selection:** Hisuian Lilligant excels by using its high physical Attack and its signature setup move. Key moves include **Victory Dance** (which boosts Attack, Defense, and Speed simultaneously), **Close Combat** (high-power Fighting STAB), **Leaf Blade** (high-crit Grass STAB), and **Triple Axel** or **Axe Kick** for technical coverage and high impact.
+* **Abilities:** **Chlorophyll** (doubles Speed in Harsh Sunlight, making it an elite Sun-team sweeper), **Hustle** (increases Attack power by 50% at the cost of 20% accuracy), and **Leaf Guard** (prevents status conditions during Harsh Sunlight).
+
+## Evolution & Biology
+Hisuian Lilligant is part of a two-stage evolutionary line. It evolves from **Petilil** when exposed to a **Sun Stone** while in the Hisui region. Biologically, this form is characterized by its light weight (19.2 kg) and dancer-like movement, which allows it to traverse mountainous terrain and deliver devastating kicks. It belongs to the **Plant** egg group and has a medium growth rate. Its biology is deeply tied to the sun, as evidenced by its abilities and its requirement of a Sun Stone to reach its final form.

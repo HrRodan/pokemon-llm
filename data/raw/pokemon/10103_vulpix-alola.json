@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 10103,
+    "name": "vulpix-alola",
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 9.9,
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-warning",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "vulpix-alola"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "roar",
+      "disable",
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "aurora-beam",
+      "dig",
+      "toxic",
+      "hypnosis",
+      "agility",
+      "double-team",
+      "confuse-ray",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "spite",
+      "powder-snow",
+      "protect",
+      "feint-attack",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "baton-pass",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "hail",
+      "facade",
+      "helping-hand",
+      "role-play",
+      "imprison",
+      "grudge",
+      "secret-power",
+      "weather-ball",
+      "fake-tears",
+      "extrasensory",
+      "sheer-cold",
+      "icicle-spear",
+      "howl",
+      "covet",
+      "payback",
+      "power-swap",
+      "dark-pulse",
+      "aqua-tail",
+      "energy-ball",
+      "nasty-plot",
+      "ice-shard",
+      "ice-fang",
+      "zen-headbutt",
+      "captivate",
+      "foul-play",
+      "round",
+      "stored-power",
+      "hex",
+      "frost-breath",
+      "tail-slap",
+      "freeze-dry",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "aurora-veil",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [
+      "snowball"
+    ],
+    "base_experience": 60,
+    "is_default": false,
+    "order": 67,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10103.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10103.png"
+    },
+    "species_name": "vulpix",
+    "flavor_text": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+    "genus": "Fox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/15/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 15,
+      "chain": {
+        "species_name": "vulpix",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ninetales",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "fire-stone"
+              },
+              {
+                "trigger": "use-item",
+                "item": "ice-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

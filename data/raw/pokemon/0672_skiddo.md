@@ -1,0 +1,12 @@
+## Identity & Lore
+Skiddo (Pokedex #672) is the Mount Pokémon, a gentle Grass-type quadruped introduced in Generation VI (Kalos). This Pokémon is famously known as one of the first species to live in harmony with humans; it possesses a placid disposition that allows it to bond deeply with its trainers. Skiddo is characterized by its leafy collar and small, sturdy horns, which it uses to sense the feelings of its rider—a unique empathic ability that allows for seamless communication without words. While predominantly found in the mountainous regions of Kalos and more recently the Paldea region, Skiddo is often seen in farm settings or being used for transportation. While Skiddo does not possess a Mega Evolution, Gigantamax form, or Paradox variant, its evolved form, Gogoat, remains a notable icon of the Kalos region's transit system in Lumiose City.
+
+## Combat Profile
+* **Stats:** HP 66, Attack 65, Defense 48, Sp. Atk 62, Sp. Def 57, Speed 52.
+* **Archetype:** Physical Tank/Attacker. Although its base stats are balanced for an unevolved Pokémon, its access to high-power physical moves and reliable recovery makes it a durable early-game combatant.
+* **Type Matchups:** As a pure Grass-type, it is **weak to Flying, Poison, Bug, Fire, and Ice**. It **resists Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Capitalizing on its physical prowess and unique utility, key moves include **Horn Leech** (for combined damage and healing), **Leaf Blade** (for high-critical hit potential), **Wild Charge** (to provide crucial coverage against Flying types), and **Milk Drink** (a rare and highly effective recovery move).
+* **Abilities:** **Sap Sipper** (Grants immunity to Grass-type moves and boosts Attack when hit by one, making it an excellent switch-in against other Grass types); **Grass Pelt** (A Hidden Ability that boosts Skiddo's Defense by 50% when Grassy Terrain is active).
+
+## Evolution & Biology
+Skiddo is part of a two-stage evolutionary line. It evolves into the powerful Gogoat when it reaches **Level 32**. Biologically, Skiddo is a hardy herbivore that can survive on very little water as long as it has access to sunlight and greenery, which it converts into energy. It belongs to the **Field (Ground)** Egg Group, and its eggs have a hatch counter of 20, requiring moderate travel to reach maturity. Its brown coat and plant-like features allow it to blend into hillside environments, where it is often seen grazing or playfully butting heads with others of its kind to establish social hierarchy.

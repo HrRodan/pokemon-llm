@@ -1,0 +1,204 @@
+{
+  "pokemon_details": {
+    "id": 278,
+    "name": "wingull",
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "special-attack": 55,
+      "special-defense": 30,
+      "speed": 85
+    },
+    "types": [
+      "water",
+      "flying"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 9.5,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wingull"
+    ],
+    "moves": [
+      "gust",
+      "wing-attack",
+      "fly",
+      "take-down",
+      "double-edge",
+      "growl",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "waterfall",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "knock-off",
+      "secret-power",
+      "feather-dance",
+      "air-cutter",
+      "muddy-water",
+      "aerial-ace",
+      "water-sport",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "aqua-ring",
+      "air-slash",
+      "brave-bird",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "wide-guard",
+      "soak",
+      "round",
+      "echoed-voice",
+      "scald",
+      "acrobatics",
+      "hurricane",
+      "confide",
+      "liquidation",
+      "dual-wingbeat",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [
+      "pretty-wing"
+    ],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 378,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/278.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/278.png"
+    },
+    "species_name": "wingull",
+    "flavor_text": "WINGULL has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This POK\u00e9MON rides the winds and flies as if it were skating across the sky.",
+    "genus": "Seagull Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "wings",
+    "color": "white",
+    "egg_groups": [
+      "water1",
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/139/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 139,
+      "chain": {
+        "species_name": "wingull",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pelipper",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

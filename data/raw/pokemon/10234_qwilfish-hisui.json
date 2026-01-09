@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 10234,
+    "name": "qwilfish-hisui",
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 3.9,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "intimidate",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "qwilfish-hisui"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "poison-sting",
+      "pin-missile",
+      "bite",
+      "supersonic",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "toxic",
+      "agility",
+      "harden",
+      "minimize",
+      "haze",
+      "self-destruct",
+      "waterfall",
+      "swift",
+      "rest",
+      "substitute",
+      "curse",
+      "flail",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "spikes",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "crunch",
+      "shadow-ball",
+      "stockpile",
+      "spit-up",
+      "facade",
+      "taunt",
+      "ice-ball",
+      "astonish",
+      "mud-shot",
+      "poison-tail",
+      "water-pulse",
+      "gyro-ball",
+      "brine",
+      "acupressure",
+      "toxic-spikes",
+      "poison-jab",
+      "dark-pulse",
+      "aqua-tail",
+      "giga-impact",
+      "gunk-shot",
+      "aqua-jet",
+      "venoshock",
+      "acid-spray",
+      "hex",
+      "fell-stinger",
+      "throat-chop",
+      "liquidation",
+      "scale-shot",
+      "lash-out",
+      "barb-barrage",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 88,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10234.png"
+    },
+    "species_name": "qwilfish",
+    "flavor_text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+    "genus": "Balloon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "gray",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/106/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 106,
+      "chain": {
+        "species_name": "qwilfish",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "overqwil",
+            "evolution_details": [
+              {
+                "trigger": "strong-style-move",
+                "known_move": "barb-barrage"
+              },
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

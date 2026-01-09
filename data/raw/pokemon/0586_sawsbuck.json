@@ -1,0 +1,203 @@
+{
+  "pokemon_details": {
+    "id": 586,
+    "name": "sawsbuck",
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 95
+    },
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 92.5,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sap-sipper",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sawsbuck-spring",
+      "sawsbuck-summer",
+      "sawsbuck-autumn",
+      "sawsbuck-winter"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "double-kick",
+      "jump-kick",
+      "sand-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "hyper-beam",
+      "leech-seed",
+      "solar-beam",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "agility",
+      "double-team",
+      "light-screen",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "feint-attack",
+      "giga-drain",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "baton-pass",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "endeavor",
+      "secret-power",
+      "camouflage",
+      "aromatherapy",
+      "fake-tears",
+      "bullet-seed",
+      "bounce",
+      "magical-leaf",
+      "last-resort",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "grass-knot",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "wild-charge",
+      "horn-leech",
+      "petal-blizzard",
+      "grassy-terrain",
+      "play-rough",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "smart-strike",
+      "stomping-tantrum",
+      "grassy-glide",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 166,
+    "is_default": true,
+    "order": 708,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/586.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586.png"
+    },
+    "species_name": "sawsbuck",
+    "flavor_text": "They migrate according to the seasons. People can tell the season by looking at Sawsbuck\u2019s horns.",
+    "genus": "Season Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/297/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 297,
+      "chain": {
+        "species_name": "deerling",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sawsbuck",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

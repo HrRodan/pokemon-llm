@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 10038,
+    "name": "gengar-mega",
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "special-attack": 170,
+      "special-defense": 95,
+      "speed": 130
+    },
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 40.5,
+    "abilities": [
+      {
+        "name": "shadow-tag",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gengar-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "headbutt",
+      "disable",
+      "hyper-beam",
+      "seismic-toss",
+      "strength",
+      "mega-drain",
+      "thunderbolt",
+      "thunder",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "self-destruct",
+      "lick",
+      "smog",
+      "dream-eater",
+      "poison-gas",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "destiny-bond",
+      "icy-wind",
+      "giga-drain",
+      "swagger",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "role-play",
+      "brick-break",
+      "knock-off",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "shadow-punch",
+      "payback",
+      "embargo",
+      "fling",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "trick-room",
+      "wonder-room",
+      "venoshock",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "confide",
+      "dazzling-gleam",
+      "infestation",
+      "power-up-punch",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": false,
+    "order": 150,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10038.png"
+    },
+    "species_name": "gengar",
+    "flavor_text": "Under a full moon, this POK\u00e9MON likes to mimic the shadows of people and laugh at their fright.",
+    "genus": "Shadow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "cave",
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 40,
+      "chain": {
+        "species_name": "gastly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "haunter",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gengar",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Mimikyu (Busted Form) (Pokedex #10143) is the Disguise Pokémon, a unique Ghost/Fairy-type originating from the Alola region in Generation VII. This specific form represents Mimikyu after its handmade Pikachu-themed rag has been damaged by an attack, causing its wooden neck to snap and the head to droop pathetically. A lonely Pokémon, Mimikyu hides its terrifying true appearance—which is said to cause painful death or illness to anyone who sees it—under a cloth designed to mimic the famous Pikachu, hoping to find friendship. While it does not have a Mega Evolution or Gigantamax form, Mimikyu is famous for its exclusive Z-Move, "Let's Snuggle Forever," which highlights its desperate desire for affection.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 90, Defense 80, Sp. Atk 50, Sp. Def 105, Speed 96.
+* **Archetype:** Physical Set-up Sweeper / Revenge Killer. 
+* **Type Matchups:** It is **weak to Ghost and Steel**. It remarkably **resists Bug (0.25x)** and possesses three total immunities: **Normal, Fighting, and Dragon**.
+* **Move Selection:** Leveraging its solid Attack and Speed, Mimikyu excels with moves such as **Play Rough** (its strongest Fairy STAB), **Shadow Claw** (reliable Ghost STAB), **Shadow Sneak** (essential priority for finishing weakened foes), and **Swords Dance** (to capitalize on the free turn its ability provides).
+* **Abilities:** Disguise (The "Busted" form is triggered by this ability. Disguise protects Mimikyu from the damage of one physical or special attack per battle, though in later generations, it takes a small amount of damage to its HP once the disguise is broken).
+
+## Evolution & Biology
+Mimikyu is a single-stage Pokémon and does not evolve into or from any other species. The "Busted" state is a temporary form change that occurs mid-battle when its protective rag is struck. It belongs to the Amorphous (Indeterminate) Egg Group, and breeding one requires a Hatch Counter of 20 (approximately 5,120 steps). Despite its creepy reputation, its behavior is largely driven by a yearning for companionship, though it reacts with intense, vengeful violence if its rag is fully destroyed or if someone attempts to peek underneath.

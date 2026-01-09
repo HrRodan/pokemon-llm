@@ -1,0 +1,177 @@
+{
+  "pokemon_details": {
+    "id": 520,
+    "name": "tranquill",
+    "stats": {
+      "hp": 62,
+      "attack": 77,
+      "defense": 62,
+      "special-attack": 50,
+      "special-defense": 42,
+      "speed": 65
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "big-pecks",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tranquill"
+    ],
+    "moves": [
+      "razor-wind",
+      "gust",
+      "fly",
+      "leer",
+      "growl",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "focus-energy",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "detect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "taunt",
+      "secret-power",
+      "feather-dance",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "defog",
+      "round",
+      "echoed-voice",
+      "work-up",
+      "confide",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 125,
+    "is_default": true,
+    "order": 635,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/520.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/520.png"
+    },
+    "species_name": "tranquill",
+    "flavor_text": "It can return to its Trainer\u2019s location regardless of the distance separating them.",
+    "genus": "Wild Pigeon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "gray",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/266/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 266,
+      "chain": {
+        "species_name": "pidove",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "tranquill",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 21
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "unfezant",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 32
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

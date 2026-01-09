@@ -1,0 +1,12 @@
+## Identity & Lore
+Spewpa (Pokedex #665) is the Scatterdust Pokémon, a specialized larval stage that first appeared in the Kalos region during Generation VI. Clad in a thick, furry coat that resembles a sturdy shell, Spewpa lives a sedentary life hidden within the deep shadows of thickets and undergrowth. When threatened by predators, it utilizes a unique defense mechanism by bristling its fur to appear larger and more intimidating. While Spewpa itself lacks a Mega Evolution, Gigantamax form, or Paradox variant, it is world-renowned for its evolutionary potential into Vivillon, a Pokémon with over 20 distinct wing patterns—such as Icy Snow, Continental, Marine, and High Plains—that are determined by the real-world geographic climate in which it was caught or hatched.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 22, Defense 60, Sp. Atk 27, Sp. Def 30, Speed 29.
+* **Archetype:** Physical Evasive Tank. 
+* **Type Matchups:** As a pure Bug-type, it is **weak to Flying, Rock, and Fire**. It provides valuable **resistances to Fighting, Ground, and Grass** types.
+* **Move Selection:** While Spewpa is primarily a defensive bridge between its evolutionary stages, it can utilize its slightly higher Special Attack and utility pool with moves such as **Electroweb** for speed control, **Struggle Bug** to lower the opponent's Special Attack, **Iron Defense** to maximize its physical bulk, and **Protect** to scout enemy intentions.
+* **Abilities:** **Shed Skin** allows Spewpa a 30% chance to heal itself of status conditions like paralysis or poison at the end of each turn. Its Hidden Ability, **Friend Guard**, is highly prized in competitive Double Battles as it reduces the damage taken by its allies by 25%.
+
+## Evolution & Biology
+Spewpa is the second stage of a three-part evolutionary line. It evolves from **Scatterbug** starting at Level 9 and subsequently evolves into its final form, **Vivillon**, at Level 12. This rapid maturation is characteristic of early-route Bug-types, allowing trainers to reach a fully evolved Pokémon very early in their journey. Biologically, Spewpa belongs to the **Bug** egg group and has a hatch counter of 15, making it relatively quick to breed. Despite its "blob" shape and black coloration, the powder it scatters during movement is a precursor to the complex scale patterns seen on the wings of its adult form.

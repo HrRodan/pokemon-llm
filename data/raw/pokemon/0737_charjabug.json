@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 737,
+    "name": "charjabug",
+    "stats": {
+      "hp": 57,
+      "attack": 82,
+      "defense": 95,
+      "special-attack": 55,
+      "special-defense": 75,
+      "speed": 36
+    },
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 10.5,
+    "abilities": [
+      {
+        "name": "battery",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "charjabug"
+    ],
+    "moves": [
+      "vice-grip",
+      "take-down",
+      "bite",
+      "string-shot",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "harden",
+      "light-screen",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "charge",
+      "iron-defense",
+      "mud-shot",
+      "shock-wave",
+      "magnet-rise",
+      "poison-jab",
+      "x-scissor",
+      "discharge",
+      "bug-bite",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "acrobatics",
+      "volt-switch",
+      "struggle-bug",
+      "electroweb",
+      "wild-charge",
+      "sticky-web",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "lunge",
+      "rising-voltage",
+      "skitter-smack",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [
+      "cell-battery"
+    ],
+    "base_experience": 140,
+    "is_default": true,
+    "order": 884,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/737.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/737.png"
+    },
+    "species_name": "charjabug",
+    "flavor_text": "Its body is capable of storing electricity. On camping trips, people are grateful to have one around.",
+    "genus": "Battery Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/379/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 379,
+      "chain": {
+        "species_name": "grubbin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "charjabug",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "vikavolt",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "location": "vast-poni-canyon"
+                  },
+                  {
+                    "trigger": "level-up",
+                    "location": "blush-mountain"
+                  },
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

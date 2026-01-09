@@ -1,0 +1,13 @@
+## Identity & Lore
+Totem Lurantis (Pokedex #10128) is the Bloom Sickle Pokémon, a specialized and formidable variant of the species native to the Alola region of Generation VII. Reaching a height of 1.5 meters and weighing 58 kilograms, this Totem variant is significantly larger and more powerful than a standard Lurantis, serving as the guardian of the Lush Jungle trial on Akala Island. Despite its insectoid appearance resembling a praying mantis, it is a pure Grass-type that uses its petal-like scythes to mimic the look of a Bug-type to deter predators. Its elegant pink coloration requires significant grooming and effort to maintain; collectors often find the maintenance of its vivid hues to be a rewarding hobby. While Lurantis does not currently possess a Mega Evolution or Gigantamax form, its status as a Totem Pokémon grants it a special aura that typically boosts its stats at the start of battle.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 105, Defense 90, Sp. Atk 80, Sp. Def 90, Speed 45.
+* **Archetype:** Bulky Physical Wallbreaker / Contrary Sweeper.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, and Ice**. It **resists Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Totem Lurantis utilizes its high Physical Attack and signature floral weaponry to dominate the field. Key moves include **Solar Blade**, a devastating physical Grass move that charges instantly in sunlight; **Superpower**, which synergizes with its ability to turn debuffs into buffs; **Leaf Blade**, a high-critical-hit STAB move; and **Knock Off**, which provides essential Dark-type coverage and utility by removing opponent items.
+* **Abilities:** **Leaf Guard** prevents the Pokémon from being afflicted by status conditions during harsh sunlight. Its Hidden Ability, **Contrary**, is its most strategically significant trait, causing all stat changes to have the opposite effect (e.g., the Attack and Defense drops from using Superpower instead become boosts).
+* **Held Items:** It is often found holding a **Miracle Seed**, which provides a 20% boost to the power of its Grass-type moves.
+
+## Evolution & Biology
+Totem Lurantis is the final stage of a two-stage evolutionary line. It evolves from **Fomantis** once it reaches **Level 34**, but only if the level-up occurs during the **Daytime**. Biologically, it is highly humanoid in shape and belongs to the **Plant** Egg Group. Its reproductive cycle is characterized by a hatch counter of 20, and it follows a medium growth rate. As a master of mimicry, its behavior is focused on elegance and deception, using its brilliant colors to blend into Alolan flora while waiting for the perfect moment to strike with its sickle-like arms.

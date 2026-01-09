@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 10100,
+    "name": "raichu-alola",
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 50,
+      "special-attack": 95,
+      "special-defense": 85,
+      "speed": 110
+    },
+    "types": [
+      "electric",
+      "psychic"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 21.0,
+    "abilities": [
+      {
+        "name": "surge-surfer",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "raichu-alola"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "thunder-punch",
+      "slam",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "tail-whip",
+      "growl",
+      "surf",
+      "hyper-beam",
+      "seismic-toss",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "psychic",
+      "agility",
+      "quick-attack",
+      "teleport",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "sweet-kiss",
+      "endure",
+      "charm",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "future-sight",
+      "fake-out",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "charge",
+      "helping-hand",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "skill-swap",
+      "signal-beam",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "feint",
+      "fling",
+      "magnet-rise",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "discharge",
+      "grass-knot",
+      "charge-beam",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "electro-ball",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "draining-kiss",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "nuzzle",
+      "laser-focus",
+      "psychic-terrain",
+      "speed-swap",
+      "expanding-force",
+      "rising-voltage",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice",
+      "psychic-noise",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 243,
+    "is_default": false,
+    "order": 52,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10100.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10100.png"
+    },
+    "species_name": "raichu",
+    "flavor_text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "genus": "Mouse Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "upright",
+    "color": "yellow",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 10,
+      "chain": {
+        "species_name": "pichu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pikachu",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 220
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "raichu",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Gigantamax Butterfree (Pokedex #10198) is the Butterfly Pokémon, a colossal transformation of the classic Bug/Flying-type species first discovered in Generation I (Kanto). While the species is native to forests across many regions, this specific Gigantamax form is a phenomenon unique to the Power Spots of the Galar region (Generation VIII). In this state, its wings grow to massive proportions, glowing with a translucent, eerie light. It is known to flap these wings at high speeds to release clouds of highly toxic dust into the air, which can cause paralysis, poisoning, or sleep in its foes. While Butterfree does not possess a Mega Evolution or a Paradox form, its Gigantamax state grants it access to the exclusive move **G-Max Befuddle**, which inflicts a random status condition on all opponents.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 45, Defense 50, Sp. Atk 90, Sp. Def 80, Speed 70.
+* **Archetype:** Status-Inducing Special Sweeper.
+* **Type Matchups:** It is **weak to Fire, Flying, Electric, and Ice**, with a catastrophic **Double Weakness (4x) to Rock**. It **resists Fighting and Bug**, possesses a double resistance to **Grass**, and is completely **immune to Ground** moves.
+* **Move Selection:** Butterfree-Gmax excels when using its superior Special Attack and utility. Key moves include **Hurricane** (high-power STAB), **Bug Buzz** (reliable Special STAB), **Sleep Powder** (crucial for crowd control), and **Quiver Dance** (essential for boosting Special Attack, Special Defense, and Speed simultaneously).
+* **Abilities:** **Compound-Eyes** (Significantly boosts the accuracy of its moves, making Sleep Powder and Hurricane nearly 100% accurate). **Tinted Lens** (Hidden Ability) (Powers up "not very effective" moves, allowing it to blast through types that would usually resist its attacks).
+
+## Evolution & Biology
+Gigantamax Butterfree is the final stage of a three-stage evolutionary line. It begins as **Caterpie**, which evolves into the cocoon-like **Metapod** upon reaching Level 7. Metapod then evolves into **Butterfree** starting at Level 10. The Gigantamax form is not a permanent evolution but a temporary transformation triggered by the Dynamax Band if the Butterfree possesses the rare **G-Max Factor**. Biologically, it belongs to the **Bug** egg group and is characterized by a "medium" growth rate. Its wings are its most distinctive feature, capable of shedding scales that act as a potent defense mechanism against predators in its natural forest habitat.

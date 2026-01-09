@@ -1,0 +1,195 @@
+{
+  "pokemon_details": {
+    "id": 396,
+    "name": "starly",
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 60
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.0,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "starly"
+    ],
+    "moves": [
+      "gust",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "sand-attack",
+      "fury-attack",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "mirror-move",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "detect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "helping-hand",
+      "revenge",
+      "endeavor",
+      "secret-power",
+      "feather-dance",
+      "astonish",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "round",
+      "echoed-voice",
+      "acrobatics",
+      "final-gambit",
+      "work-up",
+      "hurricane",
+      "confide",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [
+      "yache-berry"
+    ],
+    "base_experience": 49,
+    "is_default": true,
+    "order": 527,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/396.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/396.png"
+    },
+    "species_name": "starly",
+    "flavor_text": "They flock in great numbers. Though small, they flap their wings with great power.",
+    "genus": "Starling Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "brown",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/206/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 206,
+      "chain": {
+        "species_name": "starly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "staravia",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 14
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "staraptor",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 34
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

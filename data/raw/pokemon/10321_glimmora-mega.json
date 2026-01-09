@@ -1,0 +1,104 @@
+{
+  "pokemon_details": {
+    "id": 10321,
+    "name": "glimmora-mega",
+    "stats": {
+      "hp": 83,
+      "attack": 90,
+      "defense": 105,
+      "special-attack": 150,
+      "special-defense": 96,
+      "speed": 101
+    },
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "height_m": 2.8,
+    "weight_kg": 77.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "glimmora",
+    "flavor_text": "When this Pok\u00e9mon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+    "genus": "Ore Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/508/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 508,
+      "chain": {
+        "species_name": "glimmet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "glimmora",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

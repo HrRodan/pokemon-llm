@@ -1,0 +1,226 @@
+{
+  "pokemon_details": {
+    "id": 445,
+    "name": "garchomp",
+    "stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "special-attack": 80,
+      "special-defense": 85,
+      "speed": 102
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 95.0,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rough-skin",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "garchomp"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "flamethrower",
+      "surf",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "swift",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "spikes",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "mud-shot",
+      "natural-gift",
+      "fling",
+      "poison-jab",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "rock-climb",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "dual-chop",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "stomping-tantrum",
+      "liquidation",
+      "breaking-swipe",
+      "scale-shot",
+      "scorching-sands",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [
+      "haban-berry"
+    ],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 570,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/445.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/445.png"
+    },
+    "species_name": "garchomp",
+    "flavor_text": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+    "genus": "Mach Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/230/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 230,
+      "chain": {
+        "species_name": "gible",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gabite",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "garchomp",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 48
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 483,
+    "name": "dialga",
+    "stats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 120,
+      "special-attack": 150,
+      "special-defense": 100,
+      "speed": 90
+    },
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "height_m": 5.4,
+    "weight_kg": 683.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dialga"
+    ],
+    "moves": [
+      "cut",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "roar",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "trick",
+      "brick-break",
+      "secret-power",
+      "hyper-voice",
+      "overheat",
+      "rock-tomb",
+      "metal-sound",
+      "aerial-ace",
+      "iron-defense",
+      "dragon-claw",
+      "bulk-up",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "metal-burst",
+      "heal-block",
+      "magnet-rise",
+      "aura-sphere",
+      "dragon-pulse",
+      "power-gem",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "flash-cannon",
+      "trick-room",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "roar-of-time",
+      "hone-claws",
+      "heavy-slam",
+      "round",
+      "echoed-voice",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "steel-beam",
+      "scale-shot",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 306,
+    "is_default": true,
+    "order": 596,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/483.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/483.png"
+    },
+    "species_name": "dialga",
+    "flavor_text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+    "genus": "Temporal Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/244/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 244,
+      "chain": {
+        "species_name": "dialga",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 10023,
+    "name": "kyurem-white",
+    "stats": {
+      "hp": 125,
+      "attack": 120,
+      "defense": 90,
+      "special-attack": 170,
+      "special-defense": 100,
+      "speed": 95
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "height_m": 3.6,
+    "weight_kg": 325.0,
+    "abilities": [
+      {
+        "name": "turboblaze",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "kyurem-white"
+    ],
+    "moves": [
+      "cut",
+      "fly",
+      "body-slam",
+      "take-down",
+      "roar",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "dragon-breath",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "shadow-ball",
+      "rock-smash",
+      "hail",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "imprison",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "rock-tomb",
+      "signal-beam",
+      "sheer-cold",
+      "aerial-ace",
+      "icicle-spear",
+      "dragon-claw",
+      "dragon-dance",
+      "roost",
+      "payback",
+      "fling",
+      "dragon-pulse",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "ice-fang",
+      "zen-headbutt",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "dragon-tail",
+      "ice-burn",
+      "fusion-flare",
+      "noble-roar",
+      "freeze-dry",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "body-press",
+      "breaking-swipe",
+      "scale-shot",
+      "dual-wingbeat",
+      "tera-blast",
+      "snowscape",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 350,
+    "is_default": false,
+    "order": 773,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/646-white.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/646-white.png"
+    },
+    "species_name": "kyurem",
+    "flavor_text": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+    "genus": "Boundary Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/333/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 333,
+      "chain": {
+        "species_name": "kyurem",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

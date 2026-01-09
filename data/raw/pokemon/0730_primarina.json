@@ -1,0 +1,217 @@
+{
+  "pokemon_details": {
+    "id": 730,
+    "name": "primarina",
+    "stats": {
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "special-attack": 126,
+      "special-defense": 116,
+      "speed": 60
+    },
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 44.0,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "liquid-voice",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "primarina"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "body-slam",
+      "growl",
+      "sing",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "magic-coat",
+      "dive",
+      "hyper-voice",
+      "hydro-cannon",
+      "weather-ball",
+      "covet",
+      "calm-mind",
+      "water-pulse",
+      "brine",
+      "aqua-ring",
+      "aqua-tail",
+      "energy-ball",
+      "giga-impact",
+      "captivate",
+      "aqua-jet",
+      "wonder-room",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "scald",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "sparkling-aria",
+      "liquidation",
+      "life-dew",
+      "misty-explosion",
+      "flip-turn",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water",
+      "alluring-voice",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": true,
+    "order": 876,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/730.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/730.png"
+    },
+    "species_name": "primarina",
+    "flavor_text": "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
+    "genus": "Soloist Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/376/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 376,
+      "chain": {
+        "species_name": "popplio",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "brionne",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "primarina",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 34
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

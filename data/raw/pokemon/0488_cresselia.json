@@ -1,0 +1,167 @@
+{
+  "pokemon_details": {
+    "id": 488,
+    "name": "cresselia",
+    "stats": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 110,
+      "special-attack": 75,
+      "special-defense": 120,
+      "speed": 85
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 85.6,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "cresselia"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "mist",
+      "ice-beam",
+      "psybeam",
+      "aurora-beam",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "double-team",
+      "recover",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "moonlight",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "facade",
+      "helping-hand",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "secret-power",
+      "signal-beam",
+      "calm-mind",
+      "gravity",
+      "natural-gift",
+      "psycho-shift",
+      "power-swap",
+      "guard-swap",
+      "power-gem",
+      "energy-ball",
+      "giga-impact",
+      "psycho-cut",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "lunar-dance",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "psychic-terrain",
+      "expanding-force",
+      "lunar-blessing",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 602,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/488.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/488.png"
+    },
+    "species_name": "cresselia",
+    "flavor_text": "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+    "genus": "Lunar Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 100,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/249/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 249,
+      "chain": {
+        "species_name": "cresselia",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

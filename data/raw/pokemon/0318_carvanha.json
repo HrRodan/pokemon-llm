@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 318,
+    "name": "carvanha",
+    "stats": {
+      "hp": 45,
+      "attack": 90,
+      "defense": 20,
+      "special-attack": 65,
+      "special-defense": 20,
+      "speed": 65
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 20.8,
+    "abilities": [
+      {
+        "name": "rough-skin",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "carvanha"
+    ],
+    "moves": [
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "waterfall",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "destiny-bond",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "dive",
+      "poison-fang",
+      "bounce",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "dark-pulse",
+      "ice-fang",
+      "zen-headbutt",
+      "captivate",
+      "aqua-jet",
+      "round",
+      "scald",
+      "retaliate",
+      "snarl",
+      "confide",
+      "psychic-fangs",
+      "liquidation",
+      "scale-shot",
+      "flip-turn"
+    ],
+    "held_items": [
+      "deep-sea-tooth"
+    ],
+    "base_experience": 61,
+    "is_default": true,
+    "order": 428,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/318.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/318.png"
+    },
+    "species_name": "carvanha",
+    "flavor_text": "CARVANHA\u2019s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this POK\u00e9MON.",
+    "genus": "Savage Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 225,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "red",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/160/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 160,
+      "chain": {
+        "species_name": "carvanha",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sharpedo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

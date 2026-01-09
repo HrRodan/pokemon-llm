@@ -1,0 +1,235 @@
+{
+  "pokemon_details": {
+    "id": 462,
+    "name": "magnezone",
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 115,
+      "special-attack": 130,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 180.0,
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "magnezone"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "supersonic",
+      "sonic-boom",
+      "hyper-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "swift",
+      "flash",
+      "explosion",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "protect",
+      "zap-cannon",
+      "lock-on",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "spark",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "mirror-coat",
+      "psych-up",
+      "facade",
+      "charge",
+      "helping-hand",
+      "magic-coat",
+      "recycle",
+      "secret-power",
+      "metal-sound",
+      "signal-beam",
+      "iron-defense",
+      "shock-wave",
+      "gravity",
+      "gyro-ball",
+      "natural-gift",
+      "magnet-rise",
+      "giga-impact",
+      "mirror-shot",
+      "flash-cannon",
+      "discharge",
+      "iron-head",
+      "magnet-bomb",
+      "charge-beam",
+      "heavy-slam",
+      "electro-ball",
+      "round",
+      "ally-switch",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "confide",
+      "eerie-impulse",
+      "magnetic-flux",
+      "electric-terrain",
+      "body-press",
+      "steel-beam",
+      "steel-roller",
+      "rising-voltage",
+      "tera-blast",
+      "hard-press",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "metal-coat"
+    ],
+    "base_experience": 241,
+    "is_default": true,
+    "order": 134,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/462.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/462.png"
+    },
+    "species_name": "magnezone",
+    "flavor_text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+    "genus": "Magnet Area Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/34/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 34,
+      "chain": {
+        "species_name": "magnemite",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "magneton",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "magnezone",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "location": "mt-coronet"
+                  },
+                  {
+                    "trigger": "level-up",
+                    "location": "chargestone-cave"
+                  },
+                  {
+                    "trigger": "level-up",
+                    "location": "kalos-route-13"
+                  },
+                  {
+                    "trigger": "level-up",
+                    "location": "blush-mountain"
+                  },
+                  {
+                    "trigger": "level-up",
+                    "location": "vast-poni-canyon"
+                  },
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

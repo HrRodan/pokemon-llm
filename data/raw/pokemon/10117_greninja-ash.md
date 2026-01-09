@@ -1,0 +1,12 @@
+## Identity & Lore
+Ash-Greninja (Pokedex #10117) is the Ninja Pokémon, a unique and powerful transformation of Greninja that occurs through the "Bond Phenomenon." First discovered in the Kalos region (Generation VI), this form is the result of a deep connection between the Pokémon and its Trainer, famously mirroring the appearance of its trainer, Ash Ketchum. It is characterized by its sleek, blue-and-black humanoid appearance and the massive, glowing Water Shuriken it carries on its back. This form is functionally similar to a Mega Evolution but is triggered by the **Battle Bond** ability rather than a Mega Stone. In the wild or in urban environments, it moves with peerless grace, compressing water into sharp blades capable of slicing through solid metal.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 145, Defense 67, Sp. Atk 153, Sp. Def 71, Speed 132.
+* **Archetype:** Fast Mixed Sweeper. With elite Speed and massive offensive stats, it excels at cleaning up weakened teams and delivering rapid-fire strikes.
+* **Type Matchups:** It is **weak to Grass, Electric, Fighting, Bug, and Fairy**. It **resists Fire, Water, Ice, Steel, Ghost, and Dark**, and possesses a complete **immunity to Psychic** attacks.
+* **Move Selection:** Utilizing its immense Special Attack and signature mechanics, its optimal moveset includes **Water Shuriken** (which hits harder in this form), **Hydro Pump**, **Dark Pulse**, and **Ice Beam** for essential coverage against Grass and Dragon types.
+* **Abilities:** **Battle Bond** (A unique ability that triggers the Ash-Greninja transformation or provides a significant stat boost to Attack, Special Attack, and Speed after the Pokémon knocks out an opponent).
+
+## Evolution & Biology
+Ash-Greninja is the final stage of a three-stage evolutionary line. It begins as **Froakie**, which evolves into **Frogadier** starting at Level 16. It then evolves into **Greninja** starting at Level 36. This specific "Ash" form is not achieved through standard leveling, but is a temporary combat transformation exclusive to Greninja possessing the rare **Battle Bond** ability. Biologically, it is a member of the **Water 1** Egg Group. Despite its fragile defensive stats (Defense 67 and Sp. Def 71), its biology is optimized for extreme evasion and high-velocity projectile attacks, such as those used in its signature **Water Shuriken** technique.

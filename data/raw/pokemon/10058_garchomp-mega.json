@@ -1,0 +1,192 @@
+{
+  "pokemon_details": {
+    "id": 10058,
+    "name": "garchomp-mega",
+    "stats": {
+      "hp": 108,
+      "attack": 170,
+      "defense": 115,
+      "special-attack": 120,
+      "special-defense": 95,
+      "speed": 92
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 95.0,
+    "abilities": [
+      {
+        "name": "sand-force",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "garchomp-mega"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "tackle",
+      "take-down",
+      "roar",
+      "flamethrower",
+      "surf",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "outrage",
+      "sandstorm",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "fling",
+      "poison-jab",
+      "aqua-tail",
+      "dragon-pulse",
+      "dragon-rush",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "fire-fang",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "dual-chop",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "stomping-tantrum"
+    ],
+    "held_items": [],
+    "base_experience": 315,
+    "is_default": false,
+    "order": 571,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10058.png"
+    },
+    "species_name": "garchomp",
+    "flavor_text": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+    "genus": "Mach Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/230/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 230,
+      "chain": {
+        "species_name": "gible",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gabite",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "garchomp",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 48
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

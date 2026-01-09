@@ -1,0 +1,12 @@
+## Identity & Lore
+Lilligant (Pokedex #549) is the Flowering Pokémon, a regal and elegant Grass-type first discovered in the Unova region (Generation V). This Pokémon is characterized by the magnificent, crown-like flower atop its head, which emits a relaxing fragrance that can settle the nerves of those nearby. Lilligant is a favorite among celebrities and high-society trainers due to its beauty; however, even veteran trainers find it difficult to make its flower bloom to its fullest potential, as it requires specific soil nutrients and constant care. While the standard Unovan Lilligant is a pure Grass-type, a distinct **Hisuian Form** exists in the ancient Hisui region, where it takes on a Grass/Fighting typing and adopts a more athletic, dancer-like appearance. Though it does not possess a Mega Evolution or Gigantamax form, Lilligant's presence in competitive "Sun" teams remains a staple of its identity.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 60, Defense 75, Sp. Atk 110, Sp. Def 75, Speed 90.
+* **Archetype:** Special Setup Sweeper.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, and Ice**. It **resists Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Lilligant excels when using its high Special Attack and access to one of the best setup moves in the game. Key moves include **Quiver Dance** (to boost Sp. Atk, Sp. Def, and Speed), **Petal Dance** (high-power STAB), **Giga Drain** (for health sustain), and **Sleep Powder** (to create opportunities for setup). On Sun-based teams, **Solar Beam** and **Weather Ball** (Fire-type coverage) are also highly effective.
+* **Abilities:** **Chlorophyll** (Doubles Speed in harsh sunlight, making it an elite late-game cleaner); **Own Tempo** (Prevents confusion, which perfectly negates the self-confusion side effect of Petal Dance); **Leaf Guard** (Prevents status conditions during harsh sunlight).
+
+## Evolution & Biology
+Lilligant is the final stage of a two-stage evolutionary line. It evolves from **Petilil** only when it is **exposed to a Sun Stone**. Biologically, it is a female-only species. Its health and the brilliance of its petals are closely tied to the environment; if neglected, its flower will wilt. It belongs to the **Plant** Egg Group and is known to be found in lush, flower-rich habitats like Pinwheel Forest or the gardens of the Alola region. In the wild, it may occasionally be found holding an **Absorb Bulb**, which boosts its Special Attack if hit by a Water-type move.

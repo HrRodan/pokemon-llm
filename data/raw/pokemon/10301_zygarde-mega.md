@@ -1,0 +1,12 @@
+## Identity & Lore
+Zygarde-Mega (Pokedex #10301) is the ultimate manifestation of the Order Pokémon, canonically known as Zygarde Complete Forme. Appearing when the ecosystem of the Kalos region (Generation VI) falls into catastrophic disarray, this legendary titan represents the combined power of 100% of Zygarde’s scattered cells and cores. While this specific data entry utilizes "Mega" nomenclature, it functions as a form change triggered when the guardian’s life force is threatened. Its appearance is that of a massive, mechanical humanoid giant, towering at 7.7 meters and weighing a staggering 610.0 kg. It serves as the apex neutralizer, designed to suppress both Xerneas and Yveltal should they disrupt the natural balance.
+
+## Combat Profile
+* **Stats:** HP 216, Attack 70, Defense 91, Sp. Atk 216, Sp. Def 85, Speed 100.
+* **Archetype:** Bulky Special Juggernaut. With an extraordinary HP pool and massive Special Attack, this Pokémon is designed to absorb hits and retaliate with overwhelming force.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice**, and is also weak to **Dragon, Fairy, Water, and Grass**. It **resists Poison, Rock, and Fire**, while maintaining a total **Immunity to Electric** moves.
+* **Move Selection:** Prioritizing its massive Special Attack and legendary status, key moves include **Core Enforcer** (its signature Dragon-type beam that erases Ability effects), **Earth Power** (high-accuracy Ground STAB), **Dragon Pulse** (consistent Special damage), and **Glare** (vital utility to paralyze opponents and mitigate its moderate Speed).
+* **Abilities:** **Power Construct** (This form is achieved when Zygarde's 10% or 50% forms drop below half health, allowing it to assemble into this "Complete" state to restore its vitality).
+
+## Evolution & Biology
+Zygarde-Mega is part of a unique non-traditional evolutionary line. It does not evolve through levels but through the gathering of **Zygarde Cells and Cores** found throughout the world. In its Complete Forme, it integrates different colored cores in its wings—representing the blue and red of the Kalos mascots—to maintain total control over the environment. As a legendary entity, it belongs to the **No Eggs** group and cannot be bred. It possesses a **Slow** growth rate, requiring significant experience to reach its full potential, and has a base happiness of 0, reflecting its cold, machine-like dedication to maintaining ecological order.

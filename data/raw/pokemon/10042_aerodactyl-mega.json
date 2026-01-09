@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 10042,
+    "name": "aerodactyl-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 85,
+      "special-attack": 70,
+      "special-defense": 95,
+      "speed": 150
+    },
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 79.0,
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "aerodactyl-mega"
+    ],
+    "moves": [
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "headbutt",
+      "take-down",
+      "bite",
+      "roar",
+      "supersonic",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "agility",
+      "double-team",
+      "reflect",
+      "fire-blast",
+      "sky-attack",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "foresight",
+      "sandstorm",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "heat-wave",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "roost",
+      "tailwind",
+      "payback",
+      "assurance",
+      "rock-polish",
+      "aqua-tail",
+      "dragon-pulse",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "defog",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "wide-guard",
+      "smack-down",
+      "round",
+      "sky-drop",
+      "incinerate",
+      "bulldoze",
+      "confide",
+      "laser-focus",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 215,
+    "is_default": false,
+    "order": 233,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10042.png"
+    },
+    "species_name": "aerodactyl",
+    "flavor_text": "A Pok\u00e9mon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+    "genus": "Fossil Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": "mountain",
+    "shape": "wings",
+    "color": "purple",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/71/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 71,
+      "chain": {
+        "species_name": "aerodactyl",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

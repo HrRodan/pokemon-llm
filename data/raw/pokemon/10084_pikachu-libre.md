@@ -1,0 +1,14 @@
+## Identity & Lore
+Pikachu-Libre (Pokedex #10084) is a specialized "Cosplay" variant of the Mouse Pokémon, a species famously known to inhabit the forests of the Kanto region (Generation I). This specific form is distinguished by its vibrant Mexican Luchador-inspired wrestling costume, complete with a mask and cape, which it wears to compete in Pokémon Contests. A key anatomical marker of Pikachu-Libre is the black heart-shaped silhouette at the end of its tail, a trait unique to female Pikachu. Lore suggests that when several of these Pokémon congregate, their collective electrical discharge can trigger localized lightning storms. While this specific costume-wearing variant is restricted from evolving, the broader Pikachu species possesses the potential for Gigantamax transformation, where it grows to a colossal size and gains the move G-Max Volt Crash.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Physical Disruptor. Despite its low base stats, when equipped with its signature **Light Ball** (found in its held items), its offensive pressure doubles, allowing it to function as a glass cannon.
+* **Type Matchups:** As a pure Electric-type, it is **weak to Ground**. It effectively **resists Electric, Flying, and Steel-type moves**.
+* **Move Selection:** Pikachu-Libre has access to a unique movepool that blends traditional electricity with wrestling maneuvers. Key moves include its signature **Flying Press** (a unique dual Fighting/Flying-press move), **Wild Charge** for physical STAB (Same Type Attack Bonus) damage, **Nuzzle** for guaranteed paralysis, and **Knock Off** to remove opponent items.
+* **Abilities:** 
+    * **Static:** Provides a 30% chance to paralyze any opponent that makes direct physical contact, punishing physical attackers.
+    * **Lightning Rod (Hidden):** Grants total immunity to Electric-type moves and raises the Pokémon's Special Attack when hit by one, providing excellent utility for switching into predicted electric attacks.
+
+## Evolution & Biology
+Pikachu-Libre is a unique member of a three-stage evolutionary line. The cycle begins with **Pichu**, which evolves into **Pikachu** when leveled up with High Friendship (minimum 220 happiness). Under normal circumstances, Pikachu would evolve into **Raichu** (or Alolan Raichu) when exposed to a **Thunder Stone**. However, Pikachu-Libre is a special "Cosplay Pikachu" form that is incapable of evolving, choosing instead to maintain its specialized wrestling prowess. It belongs to the **Ground and Fairy Egg Groups**, and while its base stats are modest, its high capture rate and relatively fast hatch counter (10) make it a popular choice for trainers focusing on speed and specialized move sets.

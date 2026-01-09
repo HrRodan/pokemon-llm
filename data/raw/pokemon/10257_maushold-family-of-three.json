@@ -1,0 +1,153 @@
+{
+  "pokemon_details": {
+    "id": 10257,
+    "name": "maushold-family-of-three",
+    "stats": {
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 111
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.8,
+    "abilities": [
+      {
+        "name": "friend-guard",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "cheek-pouch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "maushold-family-of-three"
+    ],
+    "moves": [
+      "pound",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "low-kick",
+      "thunder-wave",
+      "dig",
+      "agility",
+      "swift",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "protect",
+      "mud-slap",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "encore",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "beat-up",
+      "facade",
+      "follow-me",
+      "taunt",
+      "helping-hand",
+      "hyper-voice",
+      "fake-tears",
+      "bullet-seed",
+      "aerial-ace",
+      "mud-shot",
+      "water-pulse",
+      "u-turn",
+      "copycat",
+      "seed-bomb",
+      "giga-impact",
+      "shadow-claw",
+      "grass-knot",
+      "double-hit",
+      "low-sweep",
+      "echoed-voice",
+      "play-rough",
+      "baby-doll-eyes",
+      "tera-blast",
+      "population-bomb",
+      "tidy-up",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10257.png"
+    },
+    "species_name": "maushold",
+    "flavor_text": "The two little ones just appeared one day. The group might be a family of related Pok\u00e9mon, but nobody knows for sure.",
+    "genus": "Family Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "heads",
+    "color": "white",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/485/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 485,
+      "chain": {
+        "species_name": "tandemaus",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "maushold",
+            "evolution_details": [
+              {
+                "trigger": "other",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

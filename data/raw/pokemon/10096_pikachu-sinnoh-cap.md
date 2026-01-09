@@ -1,0 +1,12 @@
+## Identity & Lore
+Sinnoh Cap Pikachu (Pokedex #10096) is the Mouse Pokémon, a unique variant of the iconic Electric-type wearing the signature headwear of its trainer from the Sinnoh region journey. While originally discovered in the Kanto region (Generation I), this specific form commemorates travels through the Sinnoh region (Generation IV). It is characterized by its yellow fur, long ears with black tips, and the distinctive red-and-white cap featuring a blue symbol. In the wild, Pikachu are typically found in forest habitats; lore states that when several of these Pokémon gather, their collective electricity can build intensity and trigger localized lightning storms. While this specific event-based form is focused on its connection to Sinnoh, the Pikachu species as a whole is capable of undergoing **Gigantamax** transformation, growing to a colossal size with a glowing, oversized tail.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Glass Cannon / Revenge Killer.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Despite its modest base stats, this Pokémon becomes a threat when holding its signature **Light Ball**, which doubles its offensive stats. Key moves include **Volt Tackle** for massive physical damage, **Thunderbolt** for reliable special STAB, **Iron Tail** for coverage against Rock and Ice types, and **Nuzzle** to provide guaranteed paralysis support.
+* **Abilities:** **Static** (Contact moves used against this Pokémon have a 30% chance of paralyzing the attacker) and **Lightning Rod** (Provides immunity to Electric-type moves and raises Special Attack when hit by one).
+
+## Evolution & Biology
+Sinnoh Cap Pikachu is part of a three-stage evolutionary line. It evolves from **Pichu** once a high level of friendship (220+ Base Happiness) is achieved. Under normal circumstances, a Pikachu would evolve into **Raichu** (or Alolan Raichu in the Alola region) when exposed to a **Thunder Stone**. However, special cap-wearing variants are biologically unique and typically do not undergo further evolution, maintaining their form to preserve their commemorative status. It belongs to the **Ground and Fairy** Egg Groups, and despite its small stature, it possesses a high capture rate of 190. Its biological cycle is relatively quick, with a hatch counter of 10, making it a frequent subject of study for breeders interested in the "Volt Tackle" egg move.

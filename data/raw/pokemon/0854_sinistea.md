@@ -1,0 +1,12 @@
+## Identity & Lore
+Sinistea (Pokedex #854) is the Black Tea Pokémon, a unique Ghost-type spirit first discovered in the Galar region during Generation VIII. It is said to be born when a lonely soul possesses a cold, leftover cup of forgotten tea. This small, purple spectral entity inhabits a delicate porcelain cup and is notoriously difficult to spot in the wild due to its diminutive size. Interestingly, Sinistea exists in two distinct forms: the **Phony Form** and the rare **Antique Form**. The only way to distinguish them is a small mark of authenticity on the bottom of the cup, which represents a masterpiece of craftsmanship. While Sinistea does not possess a Mega Evolution or Gigantamax form, its evolved form, Polteageist, is a staple of Galarian tea culture and haunted estates.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 45, Defense 45, Sp. Atk 74, Sp. Def 54, Speed 50.
+* **Archetype:** Early-Stage Special Setup Sweeper. Despite its low base stats as an unevolved Pokémon, its access to high-tier setup moves makes it a threat in lower competitive tiers (Little Cup).
+* **Type Matchups:** It is **weak to Ghost and Dark**. It **resists Bug and Poison**, and it is **immune to Normal and Fighting** types.
+* **Move Selection:** Prioritizing its superior Special Attack and its access to one of the best setup moves in the game, key moves include **Shell Smash** (to double its offensive presence and speed), **Shadow Ball** (primary STAB), **Psyshock** (to hit specially defensive targets), and **Giga Drain** (for coverage against Water/Ground types and health recovery).
+* **Abilities:** **Weak Armor** (Decreases Defense but sharply increases Speed when hit by a physical move, synergizing with its sweep potential) and **Cursed Body** (Hidden Ability; has a 30% chance to disable a move that deals damage to it).
+
+## Evolution & Biology
+Sinistea is part of a two-stage evolutionary line. It evolves into **Polteageist** through the use of specific ceramic items found in the Galar and Paldea regions. The evolution method depends entirely on the Sinistea's form: a **Phony Form** Sinistea requires a **Cracked Pot** to evolve, whereas the rare **Antique Form** requires a **Chipped Pot**. Biologically, Sinistea is known to absorb the life force of those who drink it, though it is said to taste absolutely terrible. It belongs to the **Mineral** and **Amorphous** (Indeterminate) Egg Groups, and while it has a genderless biological profile, it requires a Hatch Counter of 20 to emerge from an egg.

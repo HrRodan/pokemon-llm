@@ -1,0 +1,12 @@
+## Identity & Lore
+Unova Cap Pikachu (#10097) is the Mouse Pokémon, a unique Electric-type variant that debuted during the Generation VII (Alola) era as a tribute to Ash Ketchum’s journey through the Unova region (Generation V). This specific form is distinguished by its yellow fur and the iconic red, white, and blue Poké Ball-patterned hat worn by its trainer during his travels in the Unova forests and cities. As a species, Pikachu are known for their social nature, often gathering in large groups to discharge electricity; when many congregate, they can generate massive lightning storms that illuminate the sky. While this specific cap-wearing form is a collectible variant, the base species Pikachu is world-renowned for its potential to undergo Gigantamax transformation, becoming a towering entity capable of using the move G-Max Volt Crash to paralyze all opponents.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Glass Cannon / Utility Pivot.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Despite its modest base stats, Unova Cap Pikachu is usually equipped with a **Light Ball** to double its offensive power. Optimal moves to leverage its speed and balanced offensive stats include **Volt Tackle** (its signature high-damage Physical STAB), **Thunderbolt** (reliable Special STAB), **Volt Switch** (to maintain momentum), and **Nuzzle** (for guaranteed paralysis utility).
+* **Abilities:** **Static** (Has a 30% chance to paralyze attackers that make contact) and **Lightning-Rod** (An excellent tactical ability that provides immunity to Electric moves and boosts its Special Attack when hit by one).
+
+## Evolution & Biology
+Unova Cap Pikachu is part of a three-stage evolutionary line, though special event forms like this one are typically unable to evolve. In the natural world, the line begins with **Pichu**, which evolves into Pikachu when leveled up with **High Friendship (220+)**. A standard Pikachu would then evolve into **Raichu** when exposed to a **Thunder Stone**, or into Alolan Raichu if the stone is used within the Alola region. It belongs to the **Ground and Fairy** egg groups. Biologically, its most vital asset is the electric sacs in its cheeks, which are used to store energy and roast berries to a perfect tenderness before consumption.

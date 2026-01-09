@@ -1,0 +1,12 @@
+## Identity & Lore
+Zamazenta (Pokedex #889) is the Warrior Pokémon, a legendary figure from the Generation VIII Galar region. This quadrupedal entity is draped in a striking red and blue palette, known in ancient legends as the "Hero of Many Battles" who, alongside its peer Zacian, saved Galar from the catastrophe known as the Darkest Day. Zamazenta is unique for its ability to absorb metal into its body to bolster its strength, effectively acting as a living bastion. While appearing in its base form as a pure Fighting-type, Zamazenta possesses a **Crowned Shield form** (becoming Fighting/Steel) when it holds the Rusted Shield, granting it an impenetrable armored mane. It is revered for its regal, stoic nature and its history of working in tandem with the kings of old.
+
+## Combat Profile
+* **Stats:** HP 92, Attack 120, Defense 115, Sp. Atk 80, Sp. Def 115, Speed 138.
+* **Archetype:** Fast Bulky Physical Attacker / Utility Tank. With an elite Speed tier of 138, Zamazenta can outpace most of the unboosted metagame while maintaining significant natural bulk.
+* **Type Matchups:** In its base form, it is **weak to Flying, Psychic, and Fairy**. It **resists Rock, Bug, and Dark** types. 
+* **Move Selection:** Leveraging its high Attack and synergy with its ability, key moves include **Body Press** (which calculates damage using its high Defense), **Close Combat** (for high-power STAB), **Iron Head** (crucial for Fairy-type coverage), and **Wild Charge** (to check Flying-type threats). 
+* **Abilities:** Dauntless Shield (Automatically boosts the Pokémon's Defense stat by one stage when it enters a battle, increasing its survivability and the power of its Body Press immediately).
+
+## Evolution & Biology
+Zamazenta is a legendary Pokémon and part of a single-stage evolutionary line; it does not evolve from or into any other species. However, it undergoes a **Forme Change** when equipped with the Rusted Shield item. Biologically, it is a genderless creature that belongs to the **No Eggs Discovered** group, meaning it cannot be bred. It has a high hatch counter of 120, reflecting its status as a high-tier legendary. In the wild, it is said to have slept for millennia in the Slumbering Weald, awaiting a time when its defensive prowess would be needed once more to protect the realm.

@@ -1,0 +1,15 @@
+## Identity & Lore
+Bouffalant (Pokedex #626) is the Bash Buffalo Pokémon, a powerful quadrupedal species first discovered in the Unova region (Generation V). Recognizable by its dark brown hide and its massive, afro-like crown of black fur, Bouffalant is defined by its reckless and territorial behavior. This thick, fluffy fur is not merely aesthetic; it serves as a highly efficient shock absorber, allowing the Pokémon to deliver devastating headbutts that can shatter a large tree or even derail a train without sustaining injury to itself. While it bears a passing resemblance to the Kanto-native Tauros, Bouffalant is a distinct species known for its wild, unyielding nature. Although it does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants, it remains a feared powerhouse in grassy plains and frontier habitats.
+
+## Combat Profile
+* **Stats:** HP 95, Attack 110, Defense 95, Sp. Atk 40, Sp. Def 95, Speed 55.
+* **Archetype:** Physical Tank / Bulky Attacker. With high natural bulk across HP and both defensive categories, Bouffalant is designed to trade hits and punish opponents with high-impact physical strikes.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a natural **immunity to Ghost**. It has no resistances, but its neutral coverage makes it a stable defensive presence.
+* **Move Selection:** Utilizing its significant base 110 Attack, Bouffalant excels with moves that leverage its physical strength. Key moves include its signature **Head Charge** (a high-power STAB move), **Megahorn** (for powerful Bug-type coverage against Psychic and Dark types), **Earthquake** (to handle Steel and Rock types that resist its primary attacks), and **Swords Dance** to further boost its wall-breaking potential.
+* **Abilities:** 
+    * **Reckless:** Increases the power of moves that have recoil damage (like Head Charge and Wild Charge) by 20%. 
+    * **Sap Sipper:** Grants immunity to Grass-type moves and raises Attack by one stage when hit by one, making it an excellent switch-in against Spore or Giga Drain users.
+    * **Soundproof:** The hidden ability provides total immunity to sound-based moves such as Hyper Voice or Bug Buzz.
+
+## Evolution & Biology
+Bouffalant is a single-stage Pokémon that does not evolve from or into any other species. Despite its lack of an evolutionary chain, it is a formidable combatant from the moment it is encountered. It belongs to the **Ground** Egg Group, and with a Hatch Counter of 20, it is a relatively standard breed for trainers. Biologically, the horns of a Bouffalant are adorned with golden rings, which are often used as a sign of maturity and status within their herds. Their social structure is dictated by headbutting matches; the individual with the largest, most resilient head of hair typically leads the group.

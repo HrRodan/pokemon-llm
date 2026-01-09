@@ -1,0 +1,100 @@
+{
+  "pokemon_details": {
+    "id": 10295,
+    "name": "pyroar-mega",
+    "stats": {
+      "hp": 86,
+      "attack": 88,
+      "defense": 92,
+      "special-attack": 129,
+      "special-defense": 86,
+      "speed": 126
+    },
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 93.3,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "pyroar",
+    "flavor_text": "The male with the largest mane of fire is the leader of the pride.",
+    "genus": "Royal Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 65,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/343/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 343,
+      "chain": {
+        "species_name": "litleo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pyroar",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

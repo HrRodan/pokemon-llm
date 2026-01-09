@@ -1,0 +1,220 @@
+{
+  "pokemon_details": {
+    "id": 625,
+    "name": "bisharp",
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 70.0,
+    "abilities": [
+      {
+        "name": "defiant",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pressure",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bisharp"
+    ],
+    "moves": [
+      "scratch",
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "take-down",
+      "leer",
+      "hyper-beam",
+      "low-kick",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "beat-up",
+      "torment",
+      "facade",
+      "taunt",
+      "role-play",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "rock-tomb",
+      "metal-sound",
+      "aerial-ace",
+      "iron-defense",
+      "metal-burst",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "magnet-rise",
+      "rock-polish",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "air-slash",
+      "x-scissor",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "psycho-cut",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "retaliate",
+      "dual-chop",
+      "snarl",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "steel-beam",
+      "lash-out",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": true,
+    "order": 748,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/625.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/625.png"
+    },
+    "species_name": "bisharp",
+    "flavor_text": "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+    "genus": "Sword Blade Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/317/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 317,
+      "chain": {
+        "species_name": "pawniard",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "bisharp",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 52
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "kingambit",
+                "evolution_details": [
+                  {
+                    "trigger": "other"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

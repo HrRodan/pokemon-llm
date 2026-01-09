@@ -1,0 +1,116 @@
+{
+  "pokemon_details": {
+    "id": 10226,
+    "name": "urshifu-single-strike-gmax",
+    "stats": {
+      "hp": 100,
+      "attack": 130,
+      "defense": 100,
+      "special-attack": 63,
+      "special-defense": 60,
+      "speed": 97
+    },
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "height_m": 29.0,
+    "weight_kg": 1000.0,
+    "abilities": [
+      {
+        "name": "unseen-fist",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "urshifu-single-strike-gmax"
+    ],
+    "moves": [],
+    "held_items": [],
+    "base_experience": 275,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10226.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10226.png"
+    },
+    "species_name": "urshifu",
+    "flavor_text": "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.",
+    "genus": "Wushu Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 50,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/470/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 470,
+      "chain": {
+        "species_name": "kubfu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "urshifu",
+            "evolution_details": [
+              {
+                "trigger": "tower-of-darkness"
+              },
+              {
+                "trigger": "tower-of-waters"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

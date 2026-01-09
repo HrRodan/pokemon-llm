@@ -1,0 +1,14 @@
+## Identity & Lore
+Stretchy Form Tatsugiri (#10259) is the Mimicry Pokémon, a cunning Dragon/Water-type native to the lakes and rivers of the Paldea region in Generation IX. Despite its diminutive size and fish-like appearance, it is a highly intelligent dragon that uses mimicry to lure prey and protect itself. The Stretchy Form is specifically noted for its elongated, flattened shape, which allows it to mimic certain types of sushi topping. Its flavor text reveals a fascinating symbiotic relationship with the massive Pokémon Dondozo; Tatsugiri lives inside Dondozo's mouth, acting as a commander and strategist to protect itself from predators while directing the larger Pokémon's attacks. While it lacks Mega Evolutions or Gigantamax forms, its unique interaction with Dondozo in competitive "Doubles" battles serves as its primary tactical niche.
+
+## Combat Profile
+* **Stats:** HP 68, Attack 50, Defense 60, Sp. Atk 120, Sp. Def 95, Speed 82.
+* **Archetype:** Special Sweeper / Tactical Support. With a high Special Attack of 120 and respectable Special Defense, it functions as a glass cannon that can pivot into a support role.
+* **Type Matchups:** It is **weak to Dragon and Fairy**. It possesses an excellent defensive profile, providing **Double Resistances (0.25x damage) to Fire and Water**, and a standard resistance to **Steel**.
+* **Move Selection:** Capitalizing on its elite Special Attack and its role in Paldean combat, key moves include **Draco Meteor** for massive burst damage, **Muddy Water** for spread damage in doubles, **Nasty Plot** to further boost its offensive presence, and **Dragon Pulse** for consistent STAB (Same Type Attack Bonus) damage.
+* **Abilities:** 
+    * **Commander:** Its signature ability. In Double Battles, if a Dondozo is on the field, Tatsugiri jumps into its mouth, becoming untargetable but boosting all of Dondozo’s stats by two stages. In this "Stretchy" form, Dondozo's "Order Up" move specifically grants Dondozo a Speed boost.
+    * **Storm Drain (Hidden Ability):** Draws in all Water-type moves to negate damage and boost Tatsugiri's Special Attack, making it a hard counter to rain-based teams.
+
+## Evolution & Biology
+Tatsugiri is a single-stage Pokémon and does not evolve into or from any other species. However, it exists in three distinct forms—Curly, Droopy, and Stretchy—which differ in color and the specific stat they boost when utilizing the Commander ability. It belongs to the **Water 2** Egg Group and has a medium-slow growth rate. Biologically, it is famous for its "sushi-mimicry," using its throat sac to inflate and its body to change shape to trick bird Pokémon like Kilowattrel. Despite its frail appearance, its dragon-type blood grants it significant elemental resistances, allowing it to survive in the competitive Paldean ecosystem.

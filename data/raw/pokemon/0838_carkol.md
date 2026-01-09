@@ -1,0 +1,12 @@
+## Identity & Lore
+Carkol (Pokedex #838) is the Coal Pokémon, a black, locomotive-like creature first discovered in the Galar region during Generation VIII. Its body serves as a natural furnace, forming high-quality coal internally which it frequently sheds; historically, this coal was a vital energy source that fueled the lives and industries of the Galar people. While Carkol typically maintains this singular form, its final evolution, Coalossal, is famous for its towering Gigantamax form which resembles a colossal, burning volcano. It is commonly found in mines and cavernous habitats where it can navigate dark tunnels with ease, often reaching speeds of over 18 mph while maintaining the intense heat required to produce its namesake fuel.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 60, Defense 90, Sp. Atk 60, Sp. Def 70, Speed 50.
+* **Archetype:** Physical Tank / Hazard Lead.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Water** and a **Double Weakness (4x) to Ground**, while also being weak to **Fighting** and **Rock**. It is highly resilient against **Bug** (taking 1/4 damage) and resists **Fire, Ice, Poison, Flying, Normal,** and **Fairy**.
+* **Move Selection:** Capitalizing on its high physical bulk and utility, key moves include **Body Press** (which uses its 90 Defense for damage calculation), **Heat Crash** (utilizing its weight for Fire-type damage), **Stealth Rock** for essential entry hazard support, and **Stone Edge** for high-crit Rock-type coverage. 
+* **Abilities:** **Steam Engine** (drastically boosts Speed by six stages when hit by a Fire or Water-type move), **Flame Body** (has a 30% chance to burn an opponent upon contact), and the hidden ability **Flash Fire** (grants immunity to Fire-type moves and powers up its own Fire-type attacks).
+
+## Evolution & Biology
+Carkol is part of a three-stage evolutionary line within the **Mineral** egg group. It evolves from **Rolycoly** starting at **Level 18**. After further training and growth, Carkol evolves into its final form, **Coalossal**, beginning at **Level 34**. Biologically, it is a sturdy creature with a hatch counter of 15, known for its rapid movements that mimic a train. Its internal temperature is incredibly high, allowing it to process minerals into the coal that constantly overflows from its back.

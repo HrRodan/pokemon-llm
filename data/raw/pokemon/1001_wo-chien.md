@@ -1,0 +1,12 @@
+## Identity & Lore
+Wo-Chien (Pokedex #1001) is the Ruinous Pokémon, a legendary entity first discovered in the Paldea region during Generation IX. It is one of the four "Treasures of Ruin," a quartet of calamities that nearly brought an ancient kingdom to its knees. Wo-Chien’s physical form is a manifestation of a grudge held by a person who was punished for documenting a king’s atrocities on wooden tablets. This vengeful spirit has clad itself in a dense mass of dead leaves and organic debris to form a snail-like body, with the original wooden tablets forming a protective shell. While it does not possess a Mega Evolution or Gigantamax form, its status as a "Ruinous" legendary grants it unique atmospheric powers that drain the vitality of the flora around it, turning lush forests into barren fields instantly.
+
+## Combat Profile
+* **Stats:** HP 85, Attack 85, Defense 100, Sp. Atk 95, Sp. Def 135, Speed 70.
+* **Archetype:** Specially Defensive Tank / Stall Support.
+* **Type Matchups:** It is **weak to Fighting, Flying, Poison, Fire, Ice, and Fairy**, and has a **Double Weakness (4x) to Bug**. It **resists Ground, Ghost, Water, Grass, Electric, and Dark**, and is completely **immune to Psychic**.
+* **Move Selection:** Wo-Chien excels at outlasting opponents through chip damage and recovery. Key moves include **Giga Drain** (STAB and healing), **Ruination** (its signature move which halves the opponent's current HP), **Leech Seed** (for passive recovery and pressure), and **Knock Off** (to remove crucial opponent items while providing STAB damage).
+* **Abilities:** Tablets of Ruin (The power of the Pokémon’s ruinous wooden tablets lowers the Attack stats of all Pokémon except itself by 25%. This effectively bolsters Wo-Chien’s physical survivability, compensating for its lower physical Defense compared to its massive Special Defense).
+
+## Evolution & Biology
+Wo-Chien is a single-stage Legendary Pokémon and is not known to evolve into or from any other species. As a member of the "Undiscovered" Egg Group (No Eggs), it cannot be bred in captivity. In the wild of Paldea, it was sealed away centuries ago behind a magical purple gate. To encounter it, a trainer must pull eight purple stakes driven into the ground across the southeastern province. Its biology is unique in that it lacks internal organs, being composed entirely of a spiritual grudge bound to rotting vegetation and ancient wood. Because it thrives on the "drain" of life force, it is often found in damp, shaded areas where organic decay is prevalent.

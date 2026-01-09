@@ -1,0 +1,15 @@
+## Identity & Lore
+Drampa (Pokedex #780) is the Placid Pokémon, a unique Normal and Dragon-type species first discovered in the Alola region of Generation VII. Reaching heights of 3 meters, Drampa is known for its long, serpentine body covered in white, fleece-like fur that gives it the appearance of a wise elder. It typically resides high in the mountains, over 10,000 feet above sea level, where it feeds on nutritious berries. Drampa is famous for its exceptionally compassionate nature, particularly toward children, whom it often protects with fierce devotion. However, this kindness hides a volatile core; if a friend is harmed, Drampa flies into a "Berserk" rage, exhaling breath powerful enough to reduce buildings to rubble. While it does not currently possess any Mega Evolutions, Paradox forms, or a Gigantamax form, its unique typing makes it a singular entity in the Draconic world.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 60, Defense 85, Sp. Atk 135, Sp. Def 91, Speed 36.
+* **Archetype:** Slow Special Wallbreaker / Trick Room Sweeper.
+* **Type Matchups:** It is **weak to Fighting, Ice, Dragon, and Fairy** types. It **resists Fire, Water, Electric, and Grass** and maintains a complete **immunity to Ghost-type** attacks.
+* **Move Selection:** Leveraging its massive Special Attack and wide movepool, Drampa excels with high-powered elemental and STAB (Same Type Attack Bonus) moves. Key selections include **Draco Meteor** for overwhelming Dragon-type damage, **Hyper Voice** for reliable Normal-type STAB, **Flamethrower** to incinerate Steel-type counters, and **Roost** to sustain its bulk.
+* **Abilities:** 
+    * **Berserk:** Boosts Special Attack by one stage when the Pokémon's HP drops below half, making it increasingly dangerous as the battle progresses.
+    * **Sap Sipper:** Grants complete immunity to Grass-type moves; while it boosts the Attack stat (which Drampa rarely uses), the defensive utility of the immunity is invaluable.
+    * **Cloud Nine (Hidden):** Negates all effects of weather on the field, serving as a hard counter to Sun, Rain, Sandstorm, or Hail-based strategies.
+
+## Evolution & Biology
+Drampa is a single-stage Pokémon and is not known to evolve into or from any other species. Despite its lack of evolution, it is a highly specialized member of the **Monster** and **Dragon** egg groups. Biologically, it is noted for its "squiggle" shape and white coloration. Its reproductive cycle is moderately paced, with a hatch counter of 20. In the wild, Drampa are often seen descending from mountain peaks to visit urban areas just to play with children, displaying a level of social intelligence rarely seen in other Dragon-types. It is often found carrying a **Persim Berry**, which helps it snap out of confusion—a common side effect of its own high-intensity draconic outbursts.

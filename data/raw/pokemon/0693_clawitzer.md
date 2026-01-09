@@ -1,0 +1,12 @@
+## Identity & Lore
+Clawitzer (#693) is the Howitzer Pokémon, a specialized aquatic crustacean first discovered in the Kalos region (Generation VI). This striking blue Pokémon is defined by its massive, oversized right claw, which has evolved into a biological cannon capable of firing compressed water with enough force to pierce the steel hulls of tanker ships. The internal mechanisms of its claw allow it to expel water from the rear to propel itself forward at high speeds, though it typically maintains a stationary or slow-moving posture in combat to act as heavy artillery. While Clawitzer does not have a Mega Evolution or Gigantamax form, it is functionally similar to other artillery-based species like Blastoise and Octillery. In its natural habitat, it is a fearsome predator that uses the feelers on its smaller claw to detect the movements of prey before unleashing a devastating long-range barrage.
+
+## Combat Profile
+* **Stats:** HP 71, Attack 73, Defense 88, Sp. Atk 120, Sp. Def 89, Speed 59.
+* **Archetype:** Special Wallbreaker / Bulky Special Attacker.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric** types. It **resists Fire, Ice, Steel, and Water** moves.
+* **Move Selection:** Capitalizing on its massive Special Attack and its signature ability, Clawitzer excels with "pulse" and "aura" moves. Key moves include **Water Pulse** (STAB and ability-boosted), **Aura Sphere** (perfect accuracy and ability-boosted), **Dark Pulse** (coverage and ability-boosted), and **Dragon Pulse** (neutral coverage and ability-boosted).
+* **Abilities:** Mega Launcher (Increases the power of "aura" and "pulse" moves by 50%. This unique ability effectively gives Clawitzer a 1.5x damage multiplier on its most versatile coverage moves, making it a threat to many different Pokémon types).
+
+## Evolution & Biology
+Clawitzer is the final form of a two-stage evolutionary line. it evolves from **Clauncher** once it reaches **Level 37**. Its biology is heavily influenced by its lopsided anatomy; the nutrients it consumes are diverted primarily to its right claw, causing it to grow to a massive size while its left claw remains relatively stunted. Clawitzer belongs to the **Water 1** and **Water 3** Egg Groups, sharing lineage with other shell-based marine life and aquatic invertebrates. Despite its slow movement speed on land or the ocean floor, its "Slow" growth rate results in a Pokémon that becomes exceptionally sturdy and powerful as it matures into its role as an apex predator of the deep.

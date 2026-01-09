@@ -1,0 +1,180 @@
+{
+  "pokemon_details": {
+    "id": 729,
+    "name": "brionne",
+    "stats": {
+      "hp": 60,
+      "attack": 69,
+      "defense": 69,
+      "special-attack": 91,
+      "special-defense": 81,
+      "speed": 50
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 17.5,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "liquid-voice",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "brionne"
+    ],
+    "moves": [
+      "pound",
+      "double-slap",
+      "body-slam",
+      "growl",
+      "sing",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "toxic",
+      "double-team",
+      "waterfall",
+      "swift",
+      "amnesia",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "whirlpool",
+      "uproar",
+      "hail",
+      "facade",
+      "helping-hand",
+      "dive",
+      "hyper-voice",
+      "covet",
+      "water-pulse",
+      "brine",
+      "aqua-ring",
+      "aqua-tail",
+      "captivate",
+      "aqua-jet",
+      "wonder-room",
+      "round",
+      "echoed-voice",
+      "scald",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "moonblast",
+      "confide",
+      "baby-doll-eyes",
+      "life-dew",
+      "flip-turn",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 875,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/729.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/729.png"
+    },
+    "species_name": "brionne",
+    "flavor_text": "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies.",
+    "genus": "Pop Star Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/376/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 376,
+      "chain": {
+        "species_name": "popplio",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "brionne",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "primarina",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 34
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

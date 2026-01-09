@@ -1,0 +1,144 @@
+{
+  "pokemon_details": {
+    "id": 10185,
+    "name": "eiscue-noice",
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 130
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 89.0,
+    "abilities": [
+      {
+        "name": "ice-face",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "eiscue-noice"
+    ],
+    "moves": [
+      "ice-punch",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "mist",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "agility",
+      "reflect",
+      "waterfall",
+      "amnesia",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "powder-snow",
+      "protect",
+      "belly-drum",
+      "icy-wind",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "rain-dance",
+      "whirlpool",
+      "hail",
+      "facade",
+      "dive",
+      "feather-dance",
+      "weather-ball",
+      "icicle-spear",
+      "iron-defense",
+      "water-pulse",
+      "brine",
+      "aqua-ring",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "iron-head",
+      "head-smash",
+      "soak",
+      "round",
+      "icicle-crash",
+      "freeze-dry",
+      "aurora-veil",
+      "liquidation",
+      "flip-turn",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": false,
+    "order": 1060,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10185.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10185.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10185.png"
+    },
+    "species_name": "eiscue",
+    "flavor_text": "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.",
+    "genus": "Penguin Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/457/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 457,
+      "chain": {
+        "species_name": "eiscue",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

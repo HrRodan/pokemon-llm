@@ -1,0 +1,12 @@
+## Identity & Lore
+Chien-Pao (Pokedex #1002) is the Ruinous Pokémon, a legendary entity introduced in Generation IX (Paldea). Manifesting as a sleek, feline predator composed of snow and ice, its most striking features are the two broken sword blades that serve as its upper fangs. According to Paldean legend, Chien-Pao is one of the "Treasures of Ruin," born from the hatred of those who perished by the sword in ancient times. It possesses the terrifying ability to control over 100 tons of fallen snow, often causing massive avalanches just to play innocently within the tumbling white chaos. While it currently lacks Mega Evolutions or Gigantamax forms, it is established as a core member of the Ruinous quartet alongside Wo-Chien, Ting-Lu, and Chi-Yu.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 120, Defense 80, Sp. Atk 90, Sp. Def 65, Speed 135.
+* **Archetype:** Fast Physical Sweeper. With a blistering base Speed of 135 and a high Attack stat further amplified by its ability, Chien-Pao functions as one of the most threatening offensive threats in the competitive circuit.
+* **Type Matchups:** It is **weak to Fire, Bug, Rock, Steel, and Fairy**, with a catastrophic **Double Weakness (4x) to Fighting**. It **resists Ice, Ghost, and Dark**, and maintains a complete **immunity to Psychic**.
+* **Move Selection:** Utilizing its superior Physical Attack and Speed, Chien-Pao excels with moves such as **Icicle Crash** for high-damage STAB with a flinch chance, **Sucker Punch** for essential priority, **Sacred Sword** to bypass opponent stat changes, and **Ice Spinner** to remove active terrain while dealing consistent damage.
+* **Abilities:** Sword of Ruin (The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself by 25%). This ability effectively boosts Chien-Pao's damage output to astronomical levels, allowing it to break through even dedicated physical walls.
+
+## Evolution & Biology
+Chien-Pao is a standalone Legendary Pokémon and does not belong to an evolutionary line. It is a genderless creature belonging to the "No Eggs" group, meaning it cannot be bred. In the Paldea region, it was sealed away within the Icy Altar behind eight yellow stakes to prevent its ruinous power from consuming the land. Its biology is unique; while it appears organic, it is a localized manifestation of ancient malice bound to a physical object (the broken sword), allowing it to maintain a body of compact snow that can withstand extreme temperatures despite its Ice/Dark typing.

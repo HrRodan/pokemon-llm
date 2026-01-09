@@ -1,0 +1,12 @@
+## Identity & Lore
+Tympole (Pokedex #535) is the Tadpole Pokémon, a small aquatic creature first discovered in the Unova region (Generation V). This blue-colored Pokémon is characterized by its large, circular cheeks which it vibrates rapidly to generate high-pitched sounds; these sound waves are used as a sophisticated warning system to alert its peers of approaching danger. While Tympole itself is a pure Water-type, it represents the base form of a versatile evolutionary line that eventually gains the Ground typing. Although the Tympole line currently lacks Mega Evolutions, Gigantamax forms, or Paradox variants, its final evolution, Seismitoad, is a renowned competitive threat known for its bulk and utility. Tympole are typically found in freshwater habitats like ponds and rivers where they can swim with agility.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 50, Defense 40, Sp. Atk 50, Sp. Def 40, Speed 64.
+* **Archetype:** Fast Special Sweeper (Early-game/Little Cup). While its offensive stats are balanced, its higher base Speed and access to powerful special moves make it most effective as a special attacker.
+* **Type Matchups:** It is **weak to Grass and Electric**. It **resists Steel, Fire, Water, and Ice**.
+* **Move Selection:** Capitalizing on its special movepool and late-game evolution potential, key moves include **Hydro Pump** for maximum STAB damage, **Scald** for a high burn chance, **Earth Power** (gained via move tutoring or preparation for its Ground-type evolution), and **Sludge Wave** to provide crucial coverage against Grass-type threats.
+* **Abilities:** **Swift Swim** (doubles the Pokémon's Speed stat during rain, making it an excellent Rain Dance teammate); **Hydration** (heals any status conditions at the end of the turn if it is raining); **Water Absorb** (Hidden Ability that grants immunity to Water-type moves and restores 25% of maximum HP instead).
+
+## Evolution & Biology
+Tympole is part of a three-stage evolutionary line. It evolves into **Palpitoad** when it reaches Level 25, at which point it gains the Ground sub-typing. Its final transformation occurs at Level 36, where it matures into the powerful **Seismitoad**. Biologically, Tympole is highly social, using rhythm and vibrations to communicate. It belongs to the **Water 1** Egg Group and has a hatch counter of 20, meaning breeders can expect a moderate hatching time. In the wild, they are occasionally found holding **Pecha Berries** or **Persim Berries**, which they likely consume to cure poisons or confusion in their swampy environments.

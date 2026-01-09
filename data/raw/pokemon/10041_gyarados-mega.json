@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 10041,
+    "name": "gyarados-mega",
+    "stats": {
+      "hp": 95,
+      "attack": 155,
+      "defense": 109,
+      "special-attack": 70,
+      "special-defense": 130,
+      "speed": 81
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "height_m": 6.5,
+    "weight_kg": 305.0,
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gyarados-mega"
+    ],
+    "moves": [
+      "bind",
+      "headbutt",
+      "thrash",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "rage",
+      "double-team",
+      "reflect",
+      "fire-blast",
+      "waterfall",
+      "rest",
+      "substitute",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "crunch",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "secret-power",
+      "dive",
+      "bounce",
+      "dragon-dance",
+      "water-pulse",
+      "payback",
+      "dark-pulse",
+      "aqua-tail",
+      "dragon-pulse",
+      "giga-impact",
+      "ice-fang",
+      "iron-head",
+      "stone-edge",
+      "round",
+      "scald",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "hurricane",
+      "confide",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 224,
+    "is_default": false,
+    "order": 212,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10041.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10041.png"
+    },
+    "species_name": "gyarados",
+    "flavor_text": "Once it begins to rampage, a GYARADOS will burn everything down, even in a harsh storm.",
+    "genus": "Atrocious Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 5,
+    "growth_rate": "slow",
+    "habitat": "waters-edge",
+    "shape": "squiggle",
+    "color": "blue",
+    "egg_groups": [
+      "water2",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/64/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 64,
+      "chain": {
+        "species_name": "magikarp",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gyarados",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

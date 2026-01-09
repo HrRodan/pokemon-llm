@@ -1,0 +1,12 @@
+## Identity & Lore
+Crocalor (Pokedex #910) is the Fire Croc Pokémon, a bipedal reptilian creature first discovered in the Paldea region during Generation IX. It is characterized by its vibrant red scales and a peculiar, glowing fireball resting atop its head that resembles a bird's egg. This fireball is the result of Crocalor’s internal fire energy mixing with its overflowing vitality, and it serves as a focal point for its thermal power. As the middle evolutionary stage of the Paldean Fire-type starter, Fuecoco, it displays a more upright posture and a developing sense of rhythm that hints at its eventual transformation into the soulful singer, Skeledirge. While Crocalor does not possess a Mega Evolution or Gigantamax form, it is a primary candidate for the Terastal phenomenon native to Paldea, often enhancing its Fire-type prowess with a Fire Tera Type.
+
+## Combat Profile
+* **Stats:** HP 81, Attack 55, Defense 78, Sp. Atk 90, Sp. Def 58, Speed 49.
+* **Archetype:** Bulky Special Attacker. With its high Special Attack and respectable physical bulk for a middle-stage Pokémon, Crocalor functions well as a tanky attacker, particularly when holding an Eviolite to boost its defenses.
+* **Type Matchups:** It is **weak to Ground, Rock, and Water**. It **resists Bug, Steel, Grass, Ice, Fairy, and Fire** types.
+* **Move Selection:** Capitalizing on its superior 90 Base Special Attack, key moves include **Flamethrower** for reliable STAB damage, **Overheat** for a powerful burst, **Hyper Voice** for neutral coverage, and **Will-O-Wisp** to cripple physical attackers by inflicting burns.
+* **Abilities:** **Blaze** (Increases the power of Fire-type moves by 50% when HP is below one-third) and **Unaware** (A highly competitive Hidden Ability that allows Crocalor to ignore the opponent's stat changes when dealing or receiving damage).
+
+## Evolution & Biology
+Crocalor is part of a three-stage evolutionary line. It evolves from **Fuecoco** starting at **Level 16** and further matures into the Fire/Ghost-type **Skeledirge** once it reaches **Level 36**. Biologically, it is a hardy creature with a "Medium-Slow" growth rate, reflecting the time needed to stabilize the intense fire energy within its body. It belongs to the **Field (Ground)** Egg Group, and its eggs generally require a standard incubation period (hatch counter 20) before they are ready to hatch. Its behavior is often described as energetic yet somewhat laid-back, mirroring the tropical temperament of its native Paldean habitat.

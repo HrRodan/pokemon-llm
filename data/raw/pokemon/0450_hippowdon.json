@@ -1,0 +1,176 @@
+{
+  "pokemon_details": {
+    "id": 450,
+    "name": "hippowdon",
+    "stats": {
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "special-attack": 68,
+      "special-defense": 72,
+      "speed": 47
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 300.0,
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "hippowdon"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "double-team",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "yawn",
+      "secret-power",
+      "slack-off",
+      "hyper-voice",
+      "weather-ball",
+      "rock-tomb",
+      "sand-tomb",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "natural-gift",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "mud-bomb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "confide",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "scorching-sands",
+      "tera-blast",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 184,
+    "is_default": true,
+    "order": 576,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/450.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/450.png"
+    },
+    "species_name": "hippowdon",
+    "flavor_text": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+    "genus": "Heavyweight Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/233/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 233,
+      "chain": {
+        "species_name": "hippopotas",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "hippowdon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 10152,
+    "name": "lycanroc-dusk",
+    "stats": {
+      "hp": 75,
+      "attack": 117,
+      "defense": 65,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 110
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 25.0,
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "lycanroc-dusk"
+    ],
+    "moves": [
+      "swords-dance",
+      "sand-attack",
+      "tackle",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "counter",
+      "rock-throw",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "double-team",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "crunch",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "hyper-voice",
+      "crush-claw",
+      "odor-sleuth",
+      "rock-tomb",
+      "iron-defense",
+      "howl",
+      "bulk-up",
+      "covet",
+      "rock-blast",
+      "close-combat",
+      "last-resort",
+      "sucker-punch",
+      "rock-polish",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "round",
+      "echoed-voice",
+      "quick-guard",
+      "bulldoze",
+      "work-up",
+      "drill-run",
+      "tail-slap",
+      "snarl",
+      "play-rough",
+      "confide",
+      "throat-chop",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "accelerock",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": false,
+    "order": 900,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10152.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10152.png"
+    },
+    "species_name": "lycanroc",
+    "flavor_text": "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+    "genus": "Wolf Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/383/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 383,
+      "chain": {
+        "species_name": "rockruff",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lycanroc",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25,
+                "time_of_day": "day"
+              },
+              {
+                "trigger": "level-up",
+                "min_level": 25,
+                "time_of_day": "night"
+              },
+              {
+                "trigger": "level-up",
+                "min_level": 25,
+                "time_of_day": "dusk"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

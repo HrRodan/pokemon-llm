@@ -1,0 +1,12 @@
+## Identity & Lore
+Zygarde (Pokedex #10119) is the Order Pokémon, a legendary Dragon/Ground-type entity that serves as the guardian of the Kalos region's ecosystem. This specific manifestation is its **50% Forme**, characterized by its serpent-like, green-and-black "squiggle" silhouette. According to lore from Generation VI, Zygarde monitors the world from deep within caves; when the balance of nature is disrupted—often by the interference of Xerneas or Yveltal—it reveals its secret power. While this form represents half of its total cellular assembly, it possesses the unique **Power Construct** ability, allowing it to integrate remaining cells during battle to reach its **Complete Forme**, a massive humanoid titan that surpasses even Alpha Pokémon in raw power. In addition to its 50% and Complete states, it can also manifest as a swift, canine **10% Forme**.
+
+## Combat Profile
+* **Stats:** HP 108, Attack 100, Defense 121, Sp. Atk 81, Sp. Def 95, Speed 95.
+* **Archetype:** Bulky Physical Setup Sweeper / Tank.
+* **Type Matchups:** It suffers a **Double Weakness (4x) to Ice**, and is also weak to **Dragon, Fairy, Water, and Grass**. It resists **Fire, Poison, and Rock**, and possesses a total **Immunity to Electric** moves.
+* **Move Selection:** Utilizing its high physical bulk and Attack, Zygarde excels with **Thousand Arrows** (a signature Ground move that strikes Flying-type and Levitating opponents), **Extreme Speed** (high-priority finishing), **Dragon Dance** (to boost its Speed and Attack), and **Outrage** (for high-yield STAB damage).
+* **Abilities:** Power Construct (When HP falls below 50% at the end of a turn, Zygarde gathers more cells and transforms into its Complete Forme, massively increasing its base HP stat and changing its appearance).
+
+## Evolution & Biology
+Zygarde does not evolve through traditional leveling or stones; instead, it is part of a unique assembly process involving **Zygarde Cells** and **Zygarde Cores**. While the species itself does not breed and belongs to the **No-Eggs Discovered** group, it is fundamentally linked to the "Zygarde Cube," which players use to collect components throughout the region. The 50% Forme is its most iconic state, used to suppress those who would threaten the natural order. Because it possesses the Power Construct ability, this specific Zygarde is considered a "Complete-capable" unit, distinct from those with the Aura Break ability. It maintains a **Slow** growth rate, requiring significant experience to reach its full potential in competitive environments.

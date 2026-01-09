@@ -1,0 +1,170 @@
+{
+  "pokemon_details": {
+    "id": 749,
+    "name": "mudbray",
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 45
+    },
+    "types": [
+      "ground"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 110.0,
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "stamina",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mudbray"
+    ],
+    "moves": [
+      "stomp",
+      "double-kick",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "low-kick",
+      "counter",
+      "strength",
+      "earthquake",
+      "fissure",
+      "toxic",
+      "double-team",
+      "bide",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "superpower",
+      "endeavor",
+      "mud-sport",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "close-combat",
+      "payback",
+      "earth-power",
+      "mud-bomb",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "smack-down",
+      "heavy-slam",
+      "low-sweep",
+      "round",
+      "bulldoze",
+      "rototiller",
+      "confide",
+      "high-horsepower",
+      "stomping-tantrum",
+      "tera-blast"
+    ],
+    "held_items": [
+      "light-clay"
+    ],
+    "base_experience": 77,
+    "is_default": true,
+    "order": 905,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/749.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/749.png"
+    },
+    "species_name": "mudbray",
+    "flavor_text": "The mud stuck to Mudbray\u2019s hooves enhances its grip and its powerful running gait.",
+    "genus": "Donkey Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/386/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 386,
+      "chain": {
+        "species_name": "mudbray",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mudsdale",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

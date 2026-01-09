@@ -1,0 +1,210 @@
+{
+  "pokemon_details": {
+    "id": 446,
+    "name": "munchlax",
+    "stats": {
+      "hp": 135,
+      "attack": 85,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 85,
+      "speed": 5
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 105.0,
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "munchlax"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "whirlwind",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "flamethrower",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "counter",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "psychic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "metronome",
+      "self-destruct",
+      "lick",
+      "fire-blast",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "belly-drum",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "uproar",
+      "stockpile",
+      "swallow",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "recycle",
+      "brick-break",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "odor-sleuth",
+      "rock-tomb",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "fling",
+      "last-resort",
+      "seed-bomb",
+      "giga-impact",
+      "zen-headbutt",
+      "rock-climb",
+      "gunk-shot",
+      "captivate",
+      "after-you",
+      "round",
+      "chip-away",
+      "incinerate",
+      "retaliate",
+      "bulldoze",
+      "work-up",
+      "belch",
+      "confide",
+      "power-up-punch",
+      "high-horsepower",
+      "stomping-tantrum",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "leftovers"
+    ],
+    "base_experience": 78,
+    "is_default": true,
+    "order": 234,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/446.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/446.png"
+    },
+    "species_name": "munchlax",
+    "flavor_text": "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
+    "genus": "Big Eater Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 50,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "black",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/72/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 72,
+      "chain": {
+        "species_name": "munchlax",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "snorlax",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

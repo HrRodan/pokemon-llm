@@ -1,0 +1,12 @@
+## Identity & Lore
+Great Tusk (Pokedex #984) is the Paradox Pokémon, a mysterious and prehistoric relative of the modern-day Donphan discovered in the Paldea region (Generation IX). This massive, quadrupedal creature is characterized by its thick purple hide, formidable tusks, and a plated trunk that extends over its back. Sighted primarily within the Great Crater of Paldea (Area Zero), it is described in the "Scarlet Book" as a savage monster that attacked researchers with overwhelming power. As an Ancient Paradox Pokémon, it represents a primal version of its contemporary counterpart, Donphan, though it remains a distinct species without the ability to undergo Mega Evolution or Gigantamaxing. Its presence in the modern era is a temporal anomaly, often linked to the experimental time-travel technology found deep within the zero-gate.
+
+## Combat Profile
+* **Stats:** HP 115, Attack 131, Defense 131, Sp. Atk 53, Sp. Def 53, Speed 87.
+* **Archetype:** Physical Tank / Bulky Sweeper. Great Tusk excels at absorbing physical blows and returning massive damage, though it must be wary of its low Special Defense.
+* **Type Matchups:** It is **weak to Water, Grass, Ice, Flying, Psychic, and Fairy**. It **resists Poison, Rock, Bug, and Dark** types, and possesses a total **Immunity to Electric** moves.
+* **Move Selection:** Capitalizing on its elite physical Attack stat, key moves include **Headlong Rush** (massive Ground STAB), **Close Combat** (high-power Fighting STAB), **Rapid Spin** (for clearing hazards and boosting Speed), and **Knock Off** (for utility and removing opponent items). It also utilizes **Stealth Rock** for entry hazard support.
+* **Abilities:** Protosynthesis (Increases the Pokémon’s highest stat—usually Attack or Defense—by 30%, or 50% if Speed, when in Harsh Sunlight or holding a Booster Energy). This makes Great Tusk a premier threat on Sun-based weather teams.
+
+## Evolution & Biology
+Great Tusk is a standalone Pokémon and is not part of a traditional evolutionary line; it does not evolve from or into any other species. Despite its resemblance to Donphan, it is treated as a separate biological entity. It belongs to the **No-Eggs** group, meaning it cannot breed in captivity and has no known gender. Its biology is optimized for survival in a prehistoric environment, with a high hatch counter and a slow growth rate, reflecting the difficulty of taming such a primitive beast. Its massive weight of 320.0 kg allows it to utilize moves like **Heavy Slam** effectively against lighter opponents.

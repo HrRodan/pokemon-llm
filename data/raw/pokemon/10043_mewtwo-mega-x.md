@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Mewtwo X (Pokedex #10043) is the Genetic Pokémon, representing a specialized Mega Evolution of the legendary Mewtwo. Originally discovered in the Kanto region (Generation I), Mewtwo was created by scientists through years of horrific gene splicing and DNA engineering experiments using Mew's DNA. While the base form is a pure Psychic-type, the exposure to Mewtwonite X triggers a physiological transformation, granting it a secondary Fighting type and a significantly more muscular, armored physique. This form is characterized by its increased physical prowess, shifting Mewtwo’s focus from purely telekinetic energy to devastating martial arts and kinetic force. It is one of two possible Mega Evolutions, the other being the Special Attack-oriented Mega Mewtwo Y.
+
+## Combat Profile
+* **Stats:** HP 106, Attack 190, Defense 100, Sp. Atk 154, Sp. Def 100, Speed 130.
+* **Archetype:** Elite Physical Wallbreaker / Mixed Sweeper.
+* **Type Matchups:** It is **weak to Fairy, Flying, and Ghost**. It **resists Rock and Fighting**. Notably, its secondary Fighting type removes Mewtwo's standard weakness to Dark-type attacks.
+* **Move Selection:** Capitalizing on its massive 190 Base Attack and high Speed, key moves include **Psycho Cut** (high critical-hit ratio with STAB), **Drain Punch** (providing essential HP recovery and STAB), **Zen Headbutt** (for high-power physical Psychic damage), and **Low Kick** (to punish heavy legendary opponents). It can also utilize **Bulk Up** to become an unstoppable physical force or **Taunt** to shut down defensive walls.
+* **Abilities:** Steadfast (Increases the Pokémon's Speed stat by one stage every time it flinches, turning a missed turn into a tactical velocity advantage).
+
+## Evolution & Biology
+Mega Mewtwo X is a temporary evolutionary state and is part of a unique legendary branch. It does not evolve through traditional leveling; instead, it undergoes **Mega Evolution** from Mewtwo during battle when holding the **Mewtwonite X** Mega Stone. Mewtwo itself is the final form of its line, having no pre-evolutions. Biologically, it is genderless and belongs to the **No Eggs Discovered** group, meaning it cannot be bred in captivity. Despite its artificial origins, it possesses a Slow growth rate and requires immense experience to reach its full potential. While its primary color is purple, the Mega X form takes on a more combat-ready, upright shape, standing at 2.3 meters and weighing 127.0 kg.

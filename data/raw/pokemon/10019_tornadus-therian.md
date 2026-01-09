@@ -1,0 +1,12 @@
+## Identity & Lore
+Tornadus-Therian (Pokedex #10019) is the Cyclone Pokémon, a legendary avian entity first discovered in the Unova region (Generation V). While its Incarnate Forme is humanoid and cloud-bound, this **Therian Forme** transforms the deity into a predatory, bird-like creature. Its body is composed of green, muscular plumage and purple spotted markings, with its lower half often described as being wrapped in a dense cloud of energy that allows it to zoom through the sky at speeds exceeding 200 mph. As a member of the **Forces of Nature**—alongside Thundurus, Landorus, and Enamorus—Tornadus represents the chaotic power of the wind. According to Unovan myths, it can whip up storms capable of blowing away entire houses. This form is traditionally triggered by exposure to the **Reveal Glass** item.
+
+## Combat Profile
+* **Stats:** HP 79, Attack 100, Defense 80, Sp. Atk 110, Sp. Def 90, Speed 121.
+* **Archetype:** Fast Pivot / Special Sweeper. Its elite Speed tier allows it to outpace the vast majority of the competitive meta.
+* **Type Matchups:** As a pure Flying-type, it is **weak to Rock, Electric, and Ice**. It **resists Fighting, Bug, and Grass**, and possesses a total **Immunity to Ground-type moves**.
+* **Move Selection:** Leveraging its high Special Attack and utility, key moves include **Bleakwind Storm** (its signature high-damage spread move), **Hurricane** (for maximum STAB power, especially in rain), **Focus Blast** (to threaten Steel and Rock types), and **U-turn** (to cycle through the team and maintain momentum).
+* **Abilities:** Regenerator (Restores 33.3% of its maximum HP upon switching out of battle, making it an exceptionally durable pivot despite its average defensive stats).
+
+## Evolution & Biology
+Tornadus-Therian is a standalone legendary Pokémon and is part of a **single-stage evolutionary line**, meaning it does not evolve into or from any other species. However, it can transition between its Incarnate and Therian Formes. It belongs to the **No Eggs (Undiscovered)** egg group, meaning it cannot be bred. Biologically, it is a manifestation of atmospheric forces, characterized by its "arms" shape and distinct green coloration. Its high base experience yield of 290 reflects its status as a high-tier legendary combatant. In the wild, it is known for its migratory behavior, often appearing during intense windstorms.

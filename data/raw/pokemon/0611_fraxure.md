@@ -1,0 +1,15 @@
+## Identity & Lore
+Fraxure (Pokedex #611) is the Axe Jaw Pokémon, a bipedal, reptilian creature recognized by its dark green hide and the prominent, scythe-like tusks protruding from its jaw. First discovered in the Unova region during Generation V, Fraxure is known for its territorial nature and the extreme care it provides its weaponry. Because a broken tusk will never grow back, Fraxure are frequently seen diligently sharpening their blades on river rocks after battles to maintain their lethality. This Pokémon is a middle-stage evolution, possessing a ruggedness that bridges the gap between the small Axew and the devastating Haxorus. While it does not currently possess a Mega Evolution or Gigantamax form, its final evolution, Haxorus, is renowned as one of the most powerful non-legendary physical attackers in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 66, Attack 117, Defense 70, Sp. Atk 40, Sp. Def 50, Speed 67.
+* **Archetype:** Physical Wallbreaker / NFE Tank. With a staggering base 117 Attack stat, Fraxure functions as a potent offensive threat, especially in "Not Fully Evolved" (NFE) competitive brackets where it can utilize an Eviolite to bolster its moderate bulk.
+* **Type Matchups:** As a pure Dragon-type, it is **weak to Ice, Dragon, and Fairy**. It provides valuable **resistances to Fire, Water, Grass, and Electric** types.
+* **Move Selection:** Prioritizing its elite Attack stat over its negligible Special Attack, Fraxure excels with a physical moveset. Key moves include **Dragon Dance** for boosting Speed and power, **Outrage** or **Dragon Claw** for high-impact STAB (Same Type Attack Bonus) damage, **Poison Jab** to threaten Fairy-type switch-ins, and **Superpower** or **Low Kick** to dismantle Steel and Ice-type opponents.
+* **Abilities:** 
+    * **Mold Breaker:** Its most competitive ability, allowing Fraxure to ignore the defensive abilities of opponents (such as hitting through Levitate with Ground moves or ignoring Sturdy).
+    * **Rivalry:** Increases damage dealt to Pokémon of the same gender but decreases it against the opposite gender.
+    * **Unnerve (Hidden):** Prevents opposing Pokémon from eating their held Berries, disrupting defensive strategies.
+
+## Evolution & Biology
+Fraxure is the second stage of a three-stage evolutionary line. It evolves from **Axew starting at Level 38** and reaches its final form, the formidable **Haxorus, starting at Level 48**. This late-blooming growth rate is categorized as "Slow," reflecting the intense physical development required to harden its tusks. Biologically, it belongs to both the **Monster and Dragon Egg Groups**, and trainers should note its relatively long incubation period, indicated by a hatch counter of 40. Its biology is centered around its tusks, which are capable of shattering boulders and serve as the primary tool for both hunting and defending its mountain or cave-based territory.

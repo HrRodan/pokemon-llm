@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 10232,
+    "name": "electrode-hisui",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 150
+    },
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 71.0,
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "electrode-hisui"
+    ],
+    "moves": [
+      "tackle",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "solar-beam",
+      "stun-spore",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "screech",
+      "reflect",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "spark",
+      "sleep-talk",
+      "rain-dance",
+      "facade",
+      "charge",
+      "taunt",
+      "ice-ball",
+      "bullet-seed",
+      "magical-leaf",
+      "gyro-ball",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "discharge",
+      "leaf-storm",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "foul-play",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "grassy-terrain",
+      "electric-terrain",
+      "grassy-glide",
+      "chloroblast",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 172,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10232.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10232.png"
+    },
+    "species_name": "electrode",
+    "flavor_text": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+    "genus": "Ball Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "ball",
+    "color": "red",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/44/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 44,
+      "chain": {
+        "species_name": "voltorb",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "electrode",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 703,
+    "name": "carbink",
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 150,
+      "special-attack": 50,
+      "special-defense": 150,
+      "speed": 50
+    },
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 5.7,
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "carbink"
+    ],
+    "moves": [
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "rock-throw",
+      "toxic",
+      "psychic",
+      "double-team",
+      "harden",
+      "light-screen",
+      "reflect",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "sharpen",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "charm",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "hail",
+      "facade",
+      "nature-power",
+      "magic-coat",
+      "endeavor",
+      "skill-swap",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "covet",
+      "calm-mind",
+      "rock-blast",
+      "gravity",
+      "gyro-ball",
+      "guard-swap",
+      "magnet-rise",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "flash-cannon",
+      "trick-room",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "guard-split",
+      "wonder-room",
+      "telekinesis",
+      "smack-down",
+      "heavy-slam",
+      "after-you",
+      "round",
+      "ally-switch",
+      "misty-terrain",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "stomping-tantrum",
+      "body-press",
+      "meteor-beam",
+      "misty-explosion",
+      "terrain-pulse",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 100,
+    "is_default": true,
+    "order": 837,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/703.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/703.png"
+    },
+    "species_name": "carbink",
+    "flavor_text": "Born from the temperatures and pressures deep underground, it fires beams from the stone in its head.",
+    "genus": "Jewel Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "fairy",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/361/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 361,
+      "chain": {
+        "species_name": "carbink",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

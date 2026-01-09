@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 402,
+    "name": "kricketune",
+    "stats": {
+      "hp": 77,
+      "attack": 85,
+      "defense": 51,
+      "special-attack": 55,
+      "special-defense": 51,
+      "speed": 65
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 25.5,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "kricketune"
+    ],
+    "moves": [
+      "pound",
+      "swords-dance",
+      "cut",
+      "tackle",
+      "take-down",
+      "growl",
+      "sing",
+      "hyper-beam",
+      "strength",
+      "absorb",
+      "string-shot",
+      "toxic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "bide",
+      "leech-life",
+      "flash",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "perish-song",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "hyper-voice",
+      "silver-wind",
+      "aerial-ace",
+      "natural-gift",
+      "night-slash",
+      "x-scissor",
+      "bug-buzz",
+      "giga-impact",
+      "captivate",
+      "bug-bite",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "struggle-bug",
+      "sticky-web",
+      "fell-stinger",
+      "confide",
+      "infestation",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [
+      "metronome"
+    ],
+    "base_experience": 134,
+    "is_default": true,
+    "order": 533,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/402.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/402.png"
+    },
+    "species_name": "kricketune",
+    "flavor_text": "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+    "genus": "Cricket Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "bug-wings",
+    "color": "red",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/208/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 208,
+      "chain": {
+        "species_name": "kricketot",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kricketune",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 10
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

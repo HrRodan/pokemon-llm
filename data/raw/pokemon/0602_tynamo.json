@@ -1,0 +1,113 @@
+{
+  "pokemon_details": {
+    "id": 602,
+    "name": "tynamo",
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special-attack": 45,
+      "special-defense": 40,
+      "speed": 60
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.3,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "tynamo"
+    ],
+    "moves": [
+      "tackle",
+      "thunder-wave",
+      "spark",
+      "charge",
+      "knock-off",
+      "magnet-rise",
+      "charge-beam",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 55,
+    "is_default": true,
+    "order": 724,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/602.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/602.png"
+    },
+    "species_name": "tynamo",
+    "flavor_text": "While one alone doesn\u2019t have much power, a chain of many Tynamo can be as powerful as lightning.",
+    "genus": "EleFish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "white",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/306/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 306,
+      "chain": {
+        "species_name": "tynamo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "eelektrik",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 39
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "eelektross",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

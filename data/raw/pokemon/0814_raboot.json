@@ -1,0 +1,174 @@
+{
+  "pokemon_details": {
+    "id": 814,
+    "name": "raboot",
+    "stats": {
+      "hp": 65,
+      "attack": 86,
+      "defense": 60,
+      "special-attack": 55,
+      "special-defense": 60,
+      "speed": 94
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 9.0,
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "libero",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "raboot"
+    ],
+    "moves": [
+      "swords-dance",
+      "double-kick",
+      "mega-kick",
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "ember",
+      "flamethrower",
+      "low-kick",
+      "counter",
+      "fire-spin",
+      "agility",
+      "quick-attack",
+      "focus-energy",
+      "fire-blast",
+      "swift",
+      "high-jump-kick",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "baton-pass",
+      "sunny-day",
+      "heat-wave",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "blaze-kick",
+      "weather-ball",
+      "overheat",
+      "bulk-up",
+      "bounce",
+      "mud-shot",
+      "u-turn",
+      "assurance",
+      "sucker-punch",
+      "flare-blitz",
+      "fire-fang",
+      "gunk-shot",
+      "electro-ball",
+      "flame-charge",
+      "low-sweep",
+      "round",
+      "ally-switch",
+      "acrobatics",
+      "fire-pledge",
+      "work-up",
+      "burning-jealousy",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 995,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/814.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/814.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/814.png"
+    },
+    "species_name": "raboot",
+    "flavor_text": "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves.",
+    "genus": "Rabbit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/431/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 431,
+      "chain": {
+        "species_name": "scorbunny",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "raboot",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "cinderace",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

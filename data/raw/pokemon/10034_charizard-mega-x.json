@@ -1,0 +1,206 @@
+{
+  "pokemon_details": {
+    "id": 10034,
+    "name": "charizard-mega-x",
+    "stats": {
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "special-attack": 130,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 110.5,
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "charizard-mega-x"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "swords-dance",
+      "cut",
+      "wing-attack",
+      "fly",
+      "headbutt",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "dragon-rage",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "smokescreen",
+      "reflect",
+      "fire-blast",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "secret-power",
+      "blast-burn",
+      "overheat",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "roost",
+      "tailwind",
+      "fling",
+      "flare-blitz",
+      "air-slash",
+      "dragon-pulse",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "fire-fang",
+      "defog",
+      "hone-claws",
+      "flame-burst",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "sky-drop",
+      "incinerate",
+      "inferno",
+      "fire-pledge",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": false,
+    "order": 8,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10034.png"
+    },
+    "species_name": "charizard",
+    "flavor_text": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+    "genus": "Flame Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 2,
+      "chain": {
+        "species_name": "charmander",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "charmeleon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "charizard",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

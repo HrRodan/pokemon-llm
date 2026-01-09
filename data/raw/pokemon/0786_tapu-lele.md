@@ -1,0 +1,12 @@
+## Identity & Lore
+Tapu Lele (Pokedex #786) is the Land Spirit Pokémon and serves as the guardian deity of Akala Island in the Alola region (Generation VII). This pink-colored legendary being is known for its paradoxical nature; while it possesses a dainty and graceful appearance, its flavor text describes it as "guilelessly cruel," scattering glowing scales that heal others while simultaneously overwhelming those who touch too many. As one of the four "Tapu" guardians, it is intrinsically tied to the spiritual landscape of Alola. While it does not possess a Mega Evolution or Gigantamax form, it is one of the few Pokémon capable of using the specialized Z-Move, *Guardian of Alola*, when equipped with Tapunium Z. Its energy is derived from the fragrant aroma of flowers, and it is often seen flitting through lush, tropical environments.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 75, Sp. Atk 130, Sp. Def 115, Speed 95.
+* **Archetype:** Special Wallbreaker / Terrain Setter.
+* **Type Matchups:** It is **weak to Poison, Ghost, and Steel**. It highly **resists Fighting (1/4x damage)** and **Psychic**, and possesses a total **immunity to Dragon-type** moves.
+* **Move Selection:** Utilizing its massive Special Attack stat and its ability to set terrain, key moves include **Psychic** (boosted by Psychic Surge), **Moonblast** (powerful STAB Fairy damage), **Psyshock** (to hit specially defensive walls on their physical side), and **Focus Blast** (essential coverage against Steel-type checks).
+* **Abilities:** **Psychic Surge** (Automatically summons Psychic Terrain upon entering battle, which boosts Psychic-type move power by 30% and protects grounded Pokémon from priority moves like Extreme Speed or Sucker Punch). **Telepathy** (Hidden Ability: Prevents the Pokémon from taking damage from its allies' moves in Double Battles, such as Earthquake or Surf).
+
+## Evolution & Biology
+Tapu Lele is a standalone legendary Pokémon and is not part of an evolutionary line. It does not evolve from or into any other species. As a member of the **No-Eggs Discovered** group, it cannot be bred in captivity. Biologically, its shell-like lower body can close entirely, resembling a traditional Alolan totem or a floral bud. It is a genderless species with a "Slow" growth rate, reflecting the immense time and effort required to train a guardian deity to its full potential. In its native Alola, it is often sought at the Ruins of Life, where it tests the resolve of trainers who have completed their island challenge.

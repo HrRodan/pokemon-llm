@@ -1,0 +1,12 @@
+## Identity & Lore
+Iron Moth (Pokedex #994) is the Paradox Pokémon, a mechanical enigma first discovered in the Paldea region during the Generation IX expedition into Area Zero. It is a dual Fire and Poison-type entity that bears a striking, futuristic resemblance to the contemporary Pokémon Volcarona. According to paranormal publications like the Occulture magazine, this being is described as a UFO sent to observe humanity, though its true origins remain a mystery of the Great Crater. Its body is composed of metallic, segmented plates and glowing wings that emit intense thermal energy. While it lacks a Mega Evolution or Gigantamax form, it belongs to the exclusive "Future Paradox" group, characterized by its chrome-like finish and reliance on advanced energy sources.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 70, Defense 60, Sp. Atk 140, Sp. Def 110, Speed 110.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Water, Psychic, and Rock**, and suffers from a **Double Weakness (4x) to Ground**. Conversely, it is highly resilient, resisting **Fire, Fighting, Poison, Steel, Ice, and Fairy**, while possessing a double resistance (0.25x) to **Bug and Grass**.
+* **Move Selection:** Leveraging its massive Special Attack and high Speed, Iron Moth excels with a moveset consisting of **Fiery Dance** (which offers a chance to further boost its Special Attack), **Sludge Wave** for high-power STAB Poison damage, **Energy Ball** to check its Water and Ground-type weaknesses, and **Morning Sun** for reliable recovery.
+* **Abilities:** Quark Drive (Automatically boosts the Pokémon’s most proficient stat—usually Special Attack or Speed—by 30% or 50% respectively when active on Electric Terrain or while holding a Booster Energy).
+
+## Evolution & Biology
+Iron Moth is a standalone Paradox Pokémon and is not part of a traditional evolutionary line; it does not evolve from or into any other species. Despite its biological similarity to the Larvesta and Volcarona lineage, it is considered a distinct species found only in the depths of the Great Crater of Paldea. Biologically, it is genderless and belongs to the **No Eggs Discovered** egg group, meaning it cannot be bred in captivity. Its high hatch counter of 50 reflects its status as a rare and powerful late-game encounter. In competitive environments, it is often utilized as a powerful wallbreaker capable of pivoting with moves like **U-turn** or setting hazards such as **Toxic Spikes**.

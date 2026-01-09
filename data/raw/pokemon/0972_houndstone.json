@@ -1,0 +1,154 @@
+{
+  "pokemon_details": {
+    "id": 972,
+    "name": "houndstone",
+    "stats": {
+      "hp": 72,
+      "attack": 101,
+      "defense": 100,
+      "special-attack": 50,
+      "special-defense": 97,
+      "speed": 68
+    },
+    "types": [
+      "ghost"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "sand-rush",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "fluffy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "houndstone"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "dig",
+      "night-shade",
+      "confuse-ray",
+      "lick",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "uproar",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "trick",
+      "endeavor",
+      "mud-shot",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "hex",
+      "bulldoze",
+      "snarl",
+      "phantom-force",
+      "play-rough",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "body-press",
+      "poltergeist",
+      "tera-blast",
+      "last-respects"
+    ],
+    "held_items": [],
+    "base_experience": 171,
+    "is_default": true,
+    "order": 925,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/972.png"
+    },
+    "species_name": "houndstone",
+    "flavor_text": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pok\u00e9mon, this one is most loyal to its master.",
+    "genus": "Ghost Dog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/509/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 509,
+      "chain": {
+        "species_name": "greavard",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "houndstone",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

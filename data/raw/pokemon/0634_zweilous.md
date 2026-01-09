@@ -1,0 +1,12 @@
+## Identity & Lore
+Zweilous (Pokedex #634) is the Hostile Pokémon, a dual-type Dark and Dragon-type creature first discovered in the Unova region (Generation V). This blue-furred, quadrupedal dragon is most famous for its two heads, which do not get along and constantly compete for food and territory. This internal rivalry makes it extremely aggressive; once it has completely despoiled a territory of its resources, it migrates to a new area to repeat the process. While Zweilous does not possess a Mega Evolution or Gigantamax form, it serves as the crucial bridge to the powerful pseudo-legendary Hydreigon and shares a thematic connection to the futuristic Paradox Pokémon, **Iron Jugulis**, found in the Paldea region.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 85, Defense 70, Sp. Atk 65, Sp. Def 70, Speed 58.
+* **Archetype:** Physical Eviolite Wallbreaker.
+* **Type Matchups:** It is **weak to Fighting, Bug, Ice, and Dragon**, and it possesses a devastating **Double Weakness (4x) to Fairy**. Conversely, it **resists Ghost, Dark, Fire, Water, Grass, and Electric** types, and it is completely **immune to Psychic** attacks.
+* **Move Selection:** Leveraging its higher physical Attack stat and STAB (Same Type Attack Bonus) potential, Zweilous excels with **Outrage** and **Dragon Rush** for massive Dragon-type damage, **Crunch** for a reliable Dark-type offensive, and **Superpower** to provide essential coverage against Ice and Steel types.
+* **Abilities:** Hustle (Increases the Pokémon's Attack stat by 50% but reduces physical move accuracy by 20%, turning Zweilous into a high-risk, high-damage physical threat, especially when holding an Eviolite to boost its survivability).
+
+## Evolution & Biology
+Zweilous is the second stage of a formidable three-stage pseudo-legendary evolutionary line. It evolves from **Deino** starting at Level 50. The struggle for dominance between its two heads continues until it reaches Level 64—the highest level requirement for any evolution in the Pokémon series—at which point it evolves into the three-headed **Hydreigon**. Biologically, it belongs to the **Dragon** egg group and has a slow growth rate, requiring extensive training and a high hatch counter of 40. Its biology is defined by its constant state of hunger and the physical manifestation of its internal conflict, as the two heads never cooperate, often biting each other during meals.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Tynamo (Pokedex #602) is the EleFish Pokémon, a distinctive white, eel-like creature first discovered in the Unova region during Generation V. Despite its small size, weighing only 0.3kg, it possesses an internal organ that generates electricity. Lore states that while a single Tynamo produces a negligible amount of power, they aggregate in large schools to discharge bolts as powerful as natural lightning. It is primarily found in damp, electricity-charged environments like the Chargestone Cave. While Tynamo itself does not possess a Mega Evolution or Gigantamax form, it eventually evolves into Eelektross, which is famously known in competitive circles as one of the few Pokémon with no natural type weaknesses due to its ability.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 45, Sp. Def 40, Speed 60.
+* **Archetype:** Physical Speed Lead / Utility Fodder. 
+* **Type Matchups:** As a pure Electric-type with the Levitate ability, Tynamo has **no weaknesses**. It typically resists **Electric, Flying, and Steel**. Its Ability renders it completely immune to Ground-type attacks, which would otherwise be its only vulnerability.
+* **Move Selection:** Tynamo has a very limited move pool, but it prioritizes its slightly higher Physical Attack stat. Key moves include **Spark** for STAB (Same Type Attack Bonus) paralysis chance, **Knock Off** to remove opponent items, **Thunder Wave** for speed control, and **Tera Blast** to provide much-needed elemental coverage.
+* **Abilities:** Levitate (Provides full immunity to Ground-type moves, Spikes, and Toxic Spikes, effectively removing the Electric type's sole weakness).
+
+## Evolution & Biology
+Tynamo is the initial stage of a three-stage evolutionary line. It undergoes a late-blooming metamorphosis, evolving into **Eelektrik** starting at **Level 39**. From there, the evolution into the apex predator **Eelektross** requires the exposure to a **Thunder Stone**. Biologically, it belongs to the **Indeterminate** egg group (also known as the Amorphous group). Because of its "Slow" growth rate and late evolution level, Tynamo requires significant investment from a trainer before it reaches its full potential as a versatile offensive threat.

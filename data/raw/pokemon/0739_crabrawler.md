@@ -1,0 +1,15 @@
+## Identity & Lore
+Crabrawler (Pokedex #739) is the Boxing Pokémon, a tenacious and highly competitive pure Fighting-type originally discovered in the Alola region (Generation VII). This purple-shelled crustacean is defined by its drive to reach the top of social hierarchies, a literal ambition that leads it to climb tall trees and eventually seek out the highest mountain peaks. In the wild, Crabrawler are frequently found gathered around trees with ripe Berries; they will punch anything—including human collectors—to defend their food source. While it lacks a Mega Evolution, Gigantamax, or Paradox form, its biological drive to ascend is what eventually triggers its transformation into a dual Ice-type. Its flavor text notes that it is a strategic fighter, guarding its weak points with heavy pincers while searching for an opening to unleash a flurry of jabs. If it suffers a defeat, it is known to foam at the mouth and faint in frustration.
+
+## Combat Profile
+* **Stats:** HP 47, Attack 82, Defense 57, Sp. Atk 42, Sp. Def 47, Speed 63.
+* **Archetype:** Physical Wallbreaker. While its defensive stats are relatively frail, its high base Attack for a first-stage Pokémon makes it a dangerous offensive threat in lower-tier competitive brackets.
+* **Type Matchups:** As a pure Fighting-type, it is **weak to Flying, Psychic, and Fairy**. It **resists Rock, Bug, and Dark** type moves. 
+* **Move Selection:** Crabrawler thrives when utilizing its physical prowess and ability synergy. Key moves include **Close Combat** (high-power STAB), **Ice Punch** (essential coverage against Flying types), **Drain Punch** (providing necessary recovery and Iron Fist synergy), and **Crabhammer** (a powerful Water-type coverage move that fits its crustacean nature).
+* **Abilities:** 
+    * **Hyper Cutter:** Prevents other Pokémon from lowering its Attack stat, ensuring it maintains its offensive pressure.
+    * **Iron Fist:** Boosts the power of punching moves by 20%, significantly enhancing moves like Drain Punch, Ice Punch, and Thunder Punch.
+    * **Anger Point (Hidden Ability):** Maxes its Attack stat instantly if it is struck by a critical hit, turning it into an immediate, albeit risky, sweeper.
+
+## Evolution & Biology
+Crabrawler is the first stage of a two-stage evolutionary line. It evolves into **Crabominable** through two distinct methods depending on the region: originally, it required **leveling up at Mount Lanakila** in the Alola region, but in more recent environments (like Paldea), it can be evolved by **using an Ice Stone**. This evolution represents its adaptation to the harsh, freezing climates it encounters while trying to reach the highest point of a mountain. Crabrawler belongs to the **Water 3** egg group, and despite its aquatic appearance, it is a terrestrial creature that prefers solid ground or tree bark to the open ocean. Breeders should note a hatch counter of 20, making it a relatively standard Pokémon to raise from an egg.

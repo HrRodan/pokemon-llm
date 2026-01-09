@@ -1,0 +1,12 @@
+## Identity & Lore
+Wugtrio (Pokedex #961) is the Garden Eel Pokémon, a fascinating species first discovered in the Paldea region during Generation IX. While it bears a striking physical resemblance to the Dugtrio of the Kanto region, Wugtrio is a prime example of convergent evolution; it is an entirely different biological lineage that evolved a similar form to suit its aquatic environment. This Pokémon consists of three long, red bodies that share a single burrow. Contrary to its somewhat goofy appearance, Wugtrio possesses a vicious temperament. It is a predatory Pokémon that uses its elongated bodies to wrap around prey, forcefully dragging them into its den beneath the sand. Although it does not currently possess Mega Evolutions, Gigantamax forms, or Paradox counterparts, its existence as a "Convergent Species" makes it a unique focal point of Paldean biological research.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 100, Defense 50, Sp. Atk 50, Sp. Def 70, Speed 120.
+* **Archetype:** Fast Physical Sweeper / Revenge Killer.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric** and **resists Fire, Water, Ice, and Steel**.
+* **Move Selection:** Capitalizing on its high Speed and Physical Attack, key moves include **Triple Dive** (its signature multi-hit Water move), **Liquidation** (for high-damage STAB), **Sucker Punch** (for priority and psychological pressure), and **Stomping Tantrum** (for physical coverage against Electric types).
+* **Abilities:** **Gooey** (Decreases the opponent's Speed stat by one stage if they hit Wugtrio with a contact move), **Rattled** (Boosts Speed when hit by Bug, Ghost, or Dark-type moves), and **Sand Veil** (Boosts evasion during a Sandstorm).
+
+## Evolution & Biology
+Wugtrio is part of a two-stage evolutionary line. It evolves from **Wiglett** starting at **Level 26**. Despite its terrestrial-looking burrowing behavior, it is biologically adapted for coastal life and belongs to the **Water 3** Egg Group. Wugtrio has a medium growth rate and a hatch counter of 20, making it a relatively accessible Pokémon for trainers to raise. Its "blob" shape classification reflects the highly flexible, eel-like anatomy that allows all three of its bodies to retract and maneuver through subterranean or sub-aquatic tunnels with incredible agility.

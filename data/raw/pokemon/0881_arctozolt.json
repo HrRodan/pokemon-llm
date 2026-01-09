@@ -1,0 +1,164 @@
+{
+  "pokemon_details": {
+    "id": 881,
+    "name": "arctozolt",
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 55
+    },
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 150.0,
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "slush-rush",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "arctozolt"
+    ],
+    "moves": [
+      "mega-punch",
+      "thunder-punch",
+      "slam",
+      "mega-kick",
+      "body-slam",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "endure",
+      "sleep-talk",
+      "iron-tail",
+      "rain-dance",
+      "ancient-power",
+      "hail",
+      "facade",
+      "charge",
+      "taunt",
+      "hyper-voice",
+      "rock-tomb",
+      "icicle-spear",
+      "rock-blast",
+      "pluck",
+      "payback",
+      "giga-impact",
+      "avalanche",
+      "thunder-fang",
+      "ice-fang",
+      "discharge",
+      "stone-edge",
+      "electro-ball",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "wild-charge",
+      "icicle-crash",
+      "freeze-dry",
+      "stomping-tantrum",
+      "bolt-beak",
+      "meteor-beam",
+      "rising-voltage"
+    ],
+    "held_items": [],
+    "base_experience": 177,
+    "is_default": true,
+    "order": 1068,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/881.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/881.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/881.png"
+    },
+    "species_name": "arctozolt",
+    "flavor_text": "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
+    "genus": "Fossil Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/462/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 462,
+      "chain": {
+        "species_name": "arctozolt",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

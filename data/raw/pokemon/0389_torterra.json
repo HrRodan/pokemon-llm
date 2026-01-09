@@ -1,0 +1,241 @@
+{
+  "pokemon_details": {
+    "id": 389,
+    "name": "torterra",
+    "stats": {
+      "hp": 95,
+      "attack": 109,
+      "defense": 105,
+      "special-attack": 75,
+      "special-defense": 85,
+      "speed": 56
+    },
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "height_m": 2.2,
+    "weight_kg": 310.0,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "torterra"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "sleep-powder",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "withdraw",
+      "light-screen",
+      "reflect",
+      "amnesia",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "iron-tail",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "nature-power",
+      "superpower",
+      "secret-power",
+      "hyper-voice",
+      "rock-tomb",
+      "tickle",
+      "sand-tomb",
+      "bullet-seed",
+      "iron-defense",
+      "block",
+      "frenzy-plant",
+      "mud-shot",
+      "magical-leaf",
+      "leaf-blade",
+      "rock-blast",
+      "natural-gift",
+      "worry-seed",
+      "rock-polish",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "rock-climb",
+      "leaf-storm",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "wood-hammer",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "shell-smash",
+      "grass-pledge",
+      "bulldoze",
+      "work-up",
+      "grassy-terrain",
+      "confide",
+      "high-horsepower",
+      "leafage",
+      "stomping-tantrum",
+      "body-press",
+      "grassy-glide",
+      "scorching-sands",
+      "headlong-rush",
+      "tera-blast",
+      "trailblaze",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 236,
+    "is_default": true,
+    "order": 520,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/389.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/389.png"
+    },
+    "species_name": "torterra",
+    "flavor_text": "Small Pok\u00e9mon occasionally gather on its unmoving back to begin building their nests.",
+    "genus": "Continent Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/203/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 203,
+      "chain": {
+        "species_name": "turtwig",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "grotle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "torterra",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 32
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

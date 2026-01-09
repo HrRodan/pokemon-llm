@@ -1,0 +1,12 @@
+## Identity & Lore
+Swanna (#581) is the White Bird Pokémon, an elegant avian species first discovered in the Unova region during Generation V. Known for its striking white plumage and graceful disposition, Swanna is often seen performing elaborate synchronized dances at dusk; in these displays, the leader of the flock occupies the central position to direct its kin. While it lacks a Mega Evolution or Gigantamax form, it is highly regarded for its beauty and is frequently found inhabiting the lakes and bridges of the Unova region, such as the Marvelous Bridge. Its physical design is a testament to its dual nature as both a powerful flyer and a capable swimmer.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 87, Defense 63, Sp. Atk 87, Sp. Def 63, Speed 98.
+* **Archetype:** Fast Mixed Sweeper / Offensive Utility.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Electric** and a standard weakness to **Rock**. It **resists** Fire, Water, Fighting, Bug, and Steel, while maintaining a complete **immunity to Ground** moves due to its Flying type.
+* **Move Selection:** Utilizing its perfectly balanced offensive stats and high speed, Swanna excels with **Hurricane** for heavy STAB damage, **Scald** to threaten physical attackers with burns, **Ice Beam** for essential coverage against Grass and Dragon types, and **Roost** to capitalize on its longevity. It can also utilize **Aqua Jet** for priority or **Defog** to clear entry hazards.
+* **Abilities:** **Keen Eye** prevents other Pokémon from lowering its accuracy. **Big Pecks** protects the user from having its Defense stat lowered. Its Hidden Ability, **Hydration**, is its most competitive trait, allowing Swanna to heal all status conditions at the end of each turn if it is raining.
+
+## Evolution & Biology
+Swanna is the final stage of a two-stage evolutionary line. It evolves from **Ducklett** starting at **Level 35**. Belonging to both the **Water 1 and Flying** Egg Groups, Swanna is a versatile breeder with a hatch counter of 20. Its biology allows it to thrive in both aerial and aquatic environments, a trait reflected in its diverse movepool that includes both high-pressure water jets and powerful wind gusts. Collectors often prize its shiny variant, which trades its white feathers for a distinct purple-hued plumage.

@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 10253,
+    "name": "wooper-paldea",
+    "stats": {
+      "hp": 55,
+      "attack": 45,
+      "defense": 45,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 15
+    },
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 11.0,
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wooper-paldea"
+    ],
+    "moves": [
+      "slam",
+      "double-kick",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "mist",
+      "hydro-pump",
+      "surf",
+      "low-kick",
+      "counter",
+      "earthquake",
+      "dig",
+      "toxic",
+      "recover",
+      "haze",
+      "waterfall",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "curse",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "rain-dance",
+      "ancient-power",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "rock-tomb",
+      "mud-shot",
+      "poison-tail",
+      "water-pulse",
+      "toxic-spikes",
+      "poison-jab",
+      "earth-power",
+      "gunk-shot",
+      "stone-edge",
+      "stealth-rock",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "after-you",
+      "bulldoze",
+      "stomping-tantrum",
+      "liquidation",
+      "body-press",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 42,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10253.png"
+    },
+    "species_name": "wooper",
+    "flavor_text": "This POK\u00e9MON lives in cold water. It will leave the water to search for food when it gets cold outside.",
+    "genus": "Water Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "waters-edge",
+    "shape": "legs",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/96/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 96,
+      "chain": {
+        "species_name": "wooper",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quagsire",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "clodsire",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

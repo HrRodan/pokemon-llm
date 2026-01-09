@@ -1,0 +1,12 @@
+## Identity & Lore
+Rainy Form Castform (Pokedex #10014) is the Rainy Form of the Weather Pokémon, a unique lifeform originally synthesized by researchers at the Weather Institute in the Hoenn region (Generation III). This specific form manifests only when the Pokémon is exposed to heavy rainfall or the move Rain Dance, causing its molecular structure to shift so that its lower body resembles a large, translucent water droplet. While typically found in grasslands or near meteorological research centers, Castform is a gray, ball-shaped entity in its "Normal" state, but this Rainy Form is a pure Water-type. Though it lacks a Mega Evolution or Gigantamax form, its biological gimmick allows it to adapt to environmental shifts instantaneously. Lore dictates that its cells were specially designed to react to humidity and temperature, making it a living barometer used by scientists to predict local climate patterns.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 70, Defense 70, Sp. Atk 70, Sp. Def 70, Speed 70.
+* **Archetype:** Weather-Dependent Special Attacker.
+* **Type Matchups:** As a pure Water-type in this form, it is **weak to Grass and Electric** types. It **resists Fire, Water, Ice, and Steel** moves.
+* **Move Selection:** Utilizing its balanced stats and the power boost provided by active rain, its optimal moveset includes **Weather Ball** (which becomes a 100-base power Water move with STAB), **Hydro Pump** for maximum damage, **Thunder** (which gains 100% accuracy in the rain), and **Hurricane** to punish Grass-type switch-ins with perfect accuracy during downpours.
+* **Abilities:** Forecast (The Pokémon changes its type and form depending on the current weather conditions. It shifts to this Rainy Form specifically during Rain).
+
+## Evolution & Biology
+Castform is a single-stage Pokémon and does not evolve into or from any other species. However, it possesses one of the most dynamic biological triggers in the Pokémon world: the **Forecast** ability. This allows it to undergo a pseudo-evolutionary transformation into its Sunny, Snowy, or Rainy forms mid-battle. It is often found carrying a **Mystic Water** to further bolster its aquatic capabilities. Biologically, it belongs to both the **Fairy** and **Indeterminate** (Amorphous) Egg Groups, sharing breeding traits with both mystical and shapeshifting entities. Despite its artificial origins at the Weather Institute, it possesses a medium growth rate and is known to be quite rare in the wild, often appearing only where the weather is most volatile.

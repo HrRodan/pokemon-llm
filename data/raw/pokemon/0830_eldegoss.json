@@ -1,0 +1,147 @@
+{
+  "pokemon_details": {
+    "id": 830,
+    "name": "eldegoss",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 90,
+      "special-attack": 80,
+      "special-defense": 120,
+      "speed": 60
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 2.5,
+    "abilities": [
+      {
+        "name": "cotton-down",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "eldegoss"
+    ],
+    "moves": [
+      "sing",
+      "hyper-beam",
+      "razor-leaf",
+      "solar-beam",
+      "light-screen",
+      "rest",
+      "substitute",
+      "snore",
+      "cotton-spore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "rapid-spin",
+      "sweet-scent",
+      "synthesis",
+      "sunny-day",
+      "facade",
+      "helping-hand",
+      "hyper-voice",
+      "weather-ball",
+      "aromatherapy",
+      "bullet-seed",
+      "magical-leaf",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "leaf-storm",
+      "grass-knot",
+      "round",
+      "leaf-tornado",
+      "cotton-guard",
+      "grassy-terrain",
+      "leafage",
+      "pollen-puff",
+      "grassy-glide"
+    ],
+    "held_items": [],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 1011,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/830.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/830.png"
+    },
+    "species_name": "eldegoss",
+    "flavor_text": "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pok\u00e9mon can benefit from them.",
+    "genus": "Cotton Bloom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/437/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 437,
+      "chain": {
+        "species_name": "gossifleur",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "eldegoss",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Enamorus (Pokedex #905), specifically in its Incarnate Form, is the Love-Hate Pokémon and represents the fourth member of the Forces of Nature, joining Landorus, Thundurus, and Tornadus. Introduced during the exploration of the Hisui region (Generation VIII), this pink-hued legendary is said to fly across the sea to signal the end of bitter winters, with its "love" stimulating the budding of fresh life. While its appearance is tied to themes of affection, its "Love-Hate" classification reflects a more volatile nature common to its counterparts. Though it lacks a Gigantamax form, Enamorus possesses a secondary **Therian Form**, which it assumes when exposed to the **Reveal Glass**, shifting its biology from a cloud-riding humanoid to a heavy-set, turtle-like creature.
+
+## Combat Profile
+* **Stats:** HP 74, Attack 115, Defense 70, Sp. Atk 135, Sp. Def 80, Speed 106.
+* **Archetype:** Fast Special Wallbreaker / Mixed Sweeper. With a high Special Attack and a Speed tier that outpaces many threats, it excels at applying offensive pressure.
+* **Type Matchups:** It is **weak to Poison, Steel, Rock, Electric, and Ice**. It possesses crucial immunities to **Dragon and Ground** types and provides resistances against **Fighting, Bug, Grass, and Dark**.
+* **Move Selection:** Capitalizing on its exceptional offensive stats and unique ability synergy, key moves include **Springtide Storm** (its signature Fairy-type move), **Moonblast** for reliable STAB damage, **Earth Power** to check its Poison and Steel-type weaknesses, and **Superpower** to exploit its Hidden Ability.
+* **Abilities:** Cute Charm (may infatuate attackers on contact) and **Contrary** (its Hidden Ability, which reverses stat changes, turning the stat drops from moves like Superpower into significant Attack and Defense boosts).
+
+## Evolution & Biology
+Enamorus is a standalone Legendary Pokémon and is not part of an evolutionary chain. It does not evolve from or into any other species. It belongs to the **No-Eggs** group, meaning it cannot be bred in captivity. Biologically, it is a female-only species, contrasting with its all-male counterparts in the Forces of Nature trio. Its habitat is tied to the ancient Hisui region, where it was revered for bringing the spring. In its Incarnate Form, it uses its serpent-like tail and cloud-like lower body to navigate the skies with high agility.

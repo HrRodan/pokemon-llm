@@ -1,0 +1,151 @@
+{
+  "pokemon_details": {
+    "id": 955,
+    "name": "flittle",
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 55,
+      "special-defense": 30,
+      "speed": 75
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 1.5,
+    "abilities": [
+      {
+        "name": "anticipation",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "speed-boost",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "flittle"
+    ],
+    "moves": [
+      "take-down",
+      "growl",
+      "psybeam",
+      "peck",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "quick-attack",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "baton-pass",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "trick",
+      "skill-swap",
+      "calm-mind",
+      "roost",
+      "pluck",
+      "u-turn",
+      "seed-bomb",
+      "zen-headbutt",
+      "trick-room",
+      "psyshock",
+      "foul-play",
+      "stored-power",
+      "ally-switch",
+      "disarming-voice",
+      "baby-doll-eyes",
+      "psychic-terrain",
+      "tera-blast",
+      "pounce"
+    ],
+    "held_items": [],
+    "base_experience": 51,
+    "is_default": true,
+    "order": 926,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/955.png"
+    },
+    "species_name": "flittle",
+    "flavor_text": "Flittle\u2019s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pok\u00e9mon\u2019s belly.",
+    "genus": "Frill Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "legs",
+    "color": "yellow",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/500/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 500,
+      "chain": {
+        "species_name": "flittle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "espathra",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

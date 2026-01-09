@@ -1,0 +1,12 @@
+## Identity & Lore
+Iron Treads (Pokedex #990) is a Paradox Pokémon of the Ground and Steel types, first discovered in the Paldea region during Generation IX. It bears a striking, metallic resemblance to the modern-day Pokémon Donphan, yet it possesses a cold, robotic physiology. Described as a "scientific weapon" by paranormal magazines, lore suggests it may have been sent to Earth by extraterrestrials or originated from a distant future timeline within Area Zero. This gray, quadrupedal machine can curl into a tread-like sphere to move at high speeds, leaving destruction in its wake. While it does not possess a Mega Evolution or Gigantamax form, it is classified alongside other futuristic "Iron" entities that utilize advanced technology to mimic organic biological functions.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 112, Defense 120, Sp. Atk 72, Sp. Def 70, Speed 106.
+* **Archetype:** Fast Physical Tank / Utility Spinner. Its high base Speed and Defense allow it to outpace many threats while absorbing physical hits.
+* **Type Matchups:** It is **weak to Fire, Water, Fighting, and Ground**. It possesses a massive array of resistances, including **Normal, Flying, Psychic, Bug, Rock, Steel, Dragon, and Fairy**. Furthermore, it is **immune to Electric and Poison** types.
+* **Move Selection:** Capitalizing on its high Attack and Speed, key moves include **Earthquake** (high-power STAB), **Iron Head** (reliable Steel STAB with flinch potential), **Rapid Spin** (to clear entry hazards and boost Speed), and **Knock Off** (for essential item-removal utility). 
+* **Abilities:** Quark Drive (Increases the Pokémon's most proficient stat—usually Defense or Attack in this case—by 30%, or Speed by 50%, while on Electric Terrain or if holding Booster Energy).
+
+## Evolution & Biology
+Iron Treads is a standalone Paradox Pokémon and is not part of a conventional evolutionary line; it does not evolve from or into any other Pokémon. Biologically, it is an anomaly that mirrors the Great Tusk of the past, representing a futuristic divergence of the Donphan lineage. It belongs to the **No-Eggs** (Undiscovered) group, meaning it cannot be bred in captivity. Despite its mechanical nature, it exhibits a "slow" growth rate and is significantly heavier than its organic counterparts, weighing in at 240.0 kg. It is most commonly sighted within the restricted depths of the Great Crater of Paldea.

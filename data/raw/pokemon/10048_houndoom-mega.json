@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 10048,
+    "name": "houndoom-mega",
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 90,
+      "special-attack": 140,
+      "special-defense": 90,
+      "speed": 115
+    },
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 49.5,
+    "abilities": [
+      {
+        "name": "solar-power",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "houndoom-mega"
+    ],
+    "moves": [
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "toxic",
+      "double-team",
+      "smog",
+      "fire-blast",
+      "dream-eater",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "feint-attack",
+      "sludge-bomb",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "shadow-ball",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "role-play",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "overheat",
+      "odor-sleuth",
+      "howl",
+      "payback",
+      "embargo",
+      "dark-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "thunder-fang",
+      "fire-fang",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "incinerate",
+      "retaliate",
+      "inferno",
+      "snarl",
+      "confide",
+      "laser-focus",
+      "throat-chop"
+    ],
+    "held_items": [],
+    "base_experience": 210,
+    "is_default": false,
+    "order": 331,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10048.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10048.png"
+    },
+    "species_name": "houndoom",
+    "flavor_text": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    "genus": "Dark Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/118/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 118,
+      "chain": {
+        "species_name": "houndour",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "houndoom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

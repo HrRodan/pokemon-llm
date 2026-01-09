@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 614,
+    "name": "beartic",
+    "stats": {
+      "hp": 95,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 2.6,
+    "weight_kg": 260.0,
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "slush-rush",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "beartic"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "growl",
+      "roar",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "bide",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "powder-snow",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "rock-smash",
+      "hail",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "rock-tomb",
+      "sheer-cold",
+      "aerial-ace",
+      "icicle-spear",
+      "bulk-up",
+      "mud-shot",
+      "covet",
+      "water-pulse",
+      "brine",
+      "close-combat",
+      "assurance",
+      "fling",
+      "x-scissor",
+      "focus-blast",
+      "giga-impact",
+      "avalanche",
+      "shadow-claw",
+      "ice-fang",
+      "stone-edge",
+      "grass-knot",
+      "aqua-jet",
+      "hone-claws",
+      "heavy-slam",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "frost-breath",
+      "snarl",
+      "icicle-crash",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "liquidation",
+      "body-press",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water",
+      "hard-press"
+    ],
+    "held_items": [
+      "aspear-berry"
+    ],
+    "base_experience": 177,
+    "is_default": true,
+    "order": 736,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/614.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/614.png"
+    },
+    "species_name": "beartic",
+    "flavor_text": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+    "genus": "Freezing Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/310/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 310,
+      "chain": {
+        "species_name": "cubchoo",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "beartic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Iron Boulder (#1022) is the Paradox Pokémon discovered within the depths of Area Zero in the Paldea region (Generation IX). Classified as a Rock and Psychic-type entity, it bears a striking, mechanical resemblance to the Legendary Pokémon Terrakion. According to flavor text from dubious magazines, it is rumored to be a Terrakion that was modified by a malevolent organization in a distant future. Standing at 1.5 meters and weighing 162.5 kg, this quadrupedal gray machine possesses glowing highlights and a metallic sheen characteristic of "Future Paradox" Pokémon. While it currently lacks Mega Evolutions or Gigantamax forms, its existence as a temporal anomaly makes it a centerpiece of the Hidden Treasure of Area Zero lore, specifically associated with the "Swords of Justice" counterparts like Iron Crown and Iron Valiant.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 120, Defense 80, Sp. Atk 68, Sp. Def 108, Speed 124.
+* **Archetype:** Fast Physical Sweeper. Its blistering base 124 Speed allows it to outpace a significant portion of the competitive metagame, while its 120 Attack makes it a potent offensive threat.
+* **Type Matchups:** It is **weak to Water, Grass, Fighting, Ground, Steel, Bug, Ghost, and Dark**. It **resists Normal, Fire, Poison, Flying, and Psychic**. 
+* **Move Selection:** Capitalizing on its high Attack and Speed, Iron Boulder excels with a kit including **Mighty Cleave** (its signature Rock-type move that bypasses Protection), **Psycho Cut** (a high-critical-hit Physical Psychic STAB), **Close Combat** (vital Fighting-type coverage for Steel and Dark types), and **Swords Dance** (to boost its offensive pressure to wall-breaking levels).
+* **Abilities:** Quark Drive (Automatically boosts the Pokémon's most proficient stat—usually Speed or Attack—by 30% or 50% respectively when on Electric Terrain or when holding the Booster Energy item).
+
+## Evolution & Biology
+Iron Boulder is a standalone Paradox Pokémon and is not part of an evolutionary line. It does not evolve from or into any other species, nor does it share a direct biological lineage with Terrakion despite their visual similarities. As a genderless robotic entity from a future timeline, it belongs to the **No Eggs** group, meaning it cannot be bred at a Pokémon Picnic or Daycare. It has a slow growth rate, requiring significant experience to reach level 100, and is primarily found in the rocky, subterranean environments of the Great Crater of Paldea.

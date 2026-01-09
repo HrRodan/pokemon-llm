@@ -1,0 +1,192 @@
+{
+  "pokemon_details": {
+    "id": 10155,
+    "name": "necrozma-dusk",
+    "stats": {
+      "hp": 97,
+      "attack": 157,
+      "defense": 127,
+      "special-attack": 113,
+      "special-defense": 109,
+      "speed": 77
+    },
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "height_m": 3.8,
+    "weight_kg": 460.0,
+    "abilities": [
+      {
+        "name": "prism-armor",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "necrozma-dusk"
+    ],
+    "moves": [
+      "swords-dance",
+      "body-slam",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-wave",
+      "earthquake",
+      "toxic",
+      "confusion",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "morning-sun",
+      "moonlight",
+      "hidden-power",
+      "sunny-day",
+      "future-sight",
+      "heat-wave",
+      "facade",
+      "recycle",
+      "brick-break",
+      "knock-off",
+      "imprison",
+      "hyper-voice",
+      "rock-tomb",
+      "cosmic-power",
+      "signal-beam",
+      "aerial-ace",
+      "iron-defense",
+      "calm-mind",
+      "dragon-dance",
+      "rock-blast",
+      "shock-wave",
+      "gravity",
+      "gyro-ball",
+      "embargo",
+      "fling",
+      "wring-out",
+      "magnet-rise",
+      "rock-polish",
+      "dark-pulse",
+      "night-slash",
+      "x-scissor",
+      "dragon-pulse",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "psycho-cut",
+      "mirror-shot",
+      "flash-cannon",
+      "trick-room",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "psyshock",
+      "autotomize",
+      "telekinesis",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "bulldoze",
+      "confide",
+      "smart-strike",
+      "brutal-swing",
+      "psychic-fangs",
+      "prismatic-laser",
+      "photon-geyser",
+      "breaking-swipe",
+      "expanding-force",
+      "meteor-beam",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 340,
+    "is_default": false,
+    "order": 978,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10155.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10155.png"
+    },
+    "species_name": "necrozma",
+    "flavor_text": "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+    "genus": "Prism Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "black",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/421/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 421,
+      "chain": {
+        "species_name": "necrozma",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

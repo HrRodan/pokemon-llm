@@ -1,0 +1,12 @@
+## Identity & Lore
+Tornadus (#641) is the Cyclone Pokémon, a legendary entity of the Unova region first introduced in Generation V. In its Incarnate Forme, it appears as a powerful, green-skinned humanoid figure with the lower half of its body perpetually wrapped in a dense cloud of energy. This legendary traveler zooms through the sky at speeds of 200 mph, leaving destructive whirlwinds in its wake that can blow away houses. Tornadus is a member of the Forces of Nature (the "Cloud Trio") alongside Thundurus and Landorus, and later Enamorus. While this profile details its genie-like Incarnate Forme, it is also capable of transforming into its bird-like **Therian Forme** when exposed to the Reveal Glass, which shifts its focus toward higher speed and survivability.
+
+## Combat Profile
+* **Stats:** HP 79, Attack 115, Defense 70, Sp. Atk 125, Sp. Def 80, Speed 111.
+* **Archetype:** Fast Special Sweeper / Offensive Utility Lead.
+* **Type Matchups:** As a rare pure Flying-type, Tornadus is **weak to Rock, Electric, and Ice**. It **resists Fighting, Bug, and Grass** and maintains a total **immunity to Ground**.
+* **Move Selection:** Capitalizing on its high Special Attack and signature wind-based powers, key moves include **Bleakwind Storm** (signature move with speed-lowering potential), **Hurricane** (extremely high power in Rain), **Focus Blast** (critical coverage against Rock and Steel types), and **Tailwind** (crucial speed control).
+* **Abilities:** **Prankster** is its most tactically significant ability, granting priority to status moves like Tailwind, Taunt, and Rain Dance. **Defiant** (Hidden) provides a sharp Attack boost if the opponent attempts to lower its stats, effectively countering Intimidate users in physical sets.
+
+## Evolution & Biology
+Tornadus is a single-stage Legendary Pokémon and does not belong to an evolutionary chain. However, it exhibits biological plasticity through its Forme change; while the Incarnate Forme emphasizes offensive pressure and Prankster utility, the Therian Forme (noted for its avian appearance) alters its base stats and grants the Regenerator ability. It belongs to the **No Eggs Discovered** group and is a male-only species. As a legendary being with a slow growth rate, it is rarely found in the wild, typically appearing as a roaming Pokémon or a raid boss in high-altitude environments.

@@ -1,0 +1,170 @@
+{
+  "pokemon_details": {
+    "id": 10181,
+    "name": "zygarde-10",
+    "stats": {
+      "hp": 54,
+      "attack": 100,
+      "defense": 71,
+      "special-attack": 61,
+      "special-defense": 85,
+      "speed": 115
+    },
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 33.5,
+    "abilities": [
+      {
+        "name": "aura-break",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zygarde-10"
+    ],
+    "moves": [
+      "bind",
+      "body-slam",
+      "bite",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "haze",
+      "swift",
+      "glare",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "spite",
+      "protect",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "extreme-speed",
+      "facade",
+      "superpower",
+      "brick-break",
+      "camouflage",
+      "hyper-voice",
+      "block",
+      "dragon-dance",
+      "shock-wave",
+      "payback",
+      "dragon-pulse",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "draco-meteor",
+      "stone-edge",
+      "grass-knot",
+      "sludge-wave",
+      "coil",
+      "round",
+      "retaliate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "thousand-arrows",
+      "thousand-waves",
+      "lands-wrath",
+      "high-horsepower",
+      "core-enforcer",
+      "stomping-tantrum",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "scorching-sands"
+    ],
+    "held_items": [],
+    "base_experience": 243,
+    "is_default": false,
+    "order": 859,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/718-10.png"
+    },
+    "species_name": "zygarde",
+    "flavor_text": "When the Kalos region\u2019s ecosystem falls into disarray, it appears and reveals its secret power.",
+    "genus": "Order Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/370/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 370,
+      "chain": {
+        "species_name": "zygarde",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

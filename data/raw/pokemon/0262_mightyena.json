@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 262,
+    "name": "mightyena",
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 70
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 37.0,
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mightyena"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "counter",
+      "strength",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "yawn",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "poison-fang",
+      "astonish",
+      "odor-sleuth",
+      "howl",
+      "covet",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "embargo",
+      "sucker-punch",
+      "dark-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "captivate",
+      "foul-play",
+      "round",
+      "incinerate",
+      "retaliate",
+      "snarl",
+      "play-rough",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "psychic-fangs",
+      "lash-out",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [
+      "pecha-berry"
+    ],
+    "base_experience": 147,
+    "is_default": true,
+    "order": 360,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/262.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/262.png"
+    },
+    "species_name": "mightyena",
+    "flavor_text": "MIGHTYENA gives obvious signals when it is preparing to attack. It starts to growl deeply and then flattens its body. This POK\u00e9MON will bite savagely with its sharply pointed fangs.",
+    "genus": "Bite Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 127,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/133/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 133,
+      "chain": {
+        "species_name": "poochyena",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "mightyena",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "pokemon_details": {
+    "id": 461,
+    "name": "weavile",
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "special-attack": 45,
+      "special-defense": 85,
+      "speed": 125
+    },
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 34.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "weavile"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "scratch",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "take-down",
+      "leer",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "screech",
+      "double-team",
+      "reflect",
+      "metronome",
+      "swift",
+      "dream-eater",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "whirlpool",
+      "beat-up",
+      "hail",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "fake-tears",
+      "aerial-ace",
+      "icicle-spear",
+      "calm-mind",
+      "water-pulse",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "punishment",
+      "poison-jab",
+      "dark-pulse",
+      "night-slash",
+      "x-scissor",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "avalanche",
+      "ice-shard",
+      "shadow-claw",
+      "psycho-cut",
+      "captivate",
+      "hone-claws",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "retaliate",
+      "snarl",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "lash-out",
+      "triple-axel",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "trailblaze",
+      "chilling-water",
+      "upper-hand"
+    ],
+    "held_items": [
+      "quick-claw",
+      "grip-claw"
+    ],
+    "base_experience": 179,
+    "is_default": true,
+    "order": 313,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/461.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/461.png"
+    },
+    "species_name": "weavile",
+    "flavor_text": "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+    "genus": "Sharp Claw Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "black",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/109/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 109,
+      "chain": {
+        "species_name": "sneasel",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "weavile",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "time_of_day": "night",
+                "held_item": "razor-claw"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "sneasler",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "time_of_day": "day",
+                "held_item": "razor-claw"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

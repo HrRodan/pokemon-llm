@@ -1,0 +1,12 @@
+## Identity & Lore
+Farigiraf (Pokedex #981) is the Long Neck Pokémon, a striking evolution first discovered in the Paldea region during Generation IX. Its unique appearance is the result of the brain waves from its main head and the head on its tail finally syncing up, causing the tail-head to envelop the main head like a sturdy helmet. This physiological fusion increases Farigiraf's psychic power to ten times that of its predecessor, Girafarig. Standing at 3.2 meters, this quadrupedal Pokémon features a brown, patterned coat and a thick, armored neck. While it currently lacks Mega Evolutions or Gigantamax forms, its specialized biology has made it a focal point of ecological and competitive study in the Paldean wilderness.
+
+## Combat Profile
+* **Stats:** HP 120, Attack 90, Defense 70, Sp. Atk 110, Sp. Def 70, Speed 60.
+* **Archetype:** Bulky Special Attacker / Trick Room Support.
+* **Type Matchups:** It is **weak to Bug and Dark**. It possesses a vital **immunity to Ghost**, which is rare for Psychic types, thanks to its secondary Normal typing.
+* **Move Selection:** Leveraging its high Special Attack and signature capabilities, key moves include **Twin Beam** (a two-hit Psychic move that bypasses Focus Sashes), **Hyper Voice** (powerful spread STAB), **Psychic-Noise** (to prevent opponent healing), and **Trick Room** (to turn its low Speed into a tactical advantage).
+* **Abilities:** **Armor Tail** prevents opponents from using priority moves (like Fake Out or Extreme Speed) against Farigiraf or its allies. **Cud Chew** allows the Pokémon to consume a Berry twice, gaining its benefits again at the end of the next turn. **Sap Sipper** (Hidden) provides a complete immunity to Grass-type moves and boosts its Attack stat when hit by one.
+
+## Evolution & Biology
+Farigiraf is the second and final stage of its evolutionary line. It evolves from **Girafarig** when the latter **levels up while knowing the move Twin Beam** (learned naturally at level 32). This evolution represents a total synchronization of the nervous system, allowing the two brains to act as one. Farigiraf belongs to the **Field (Ground)** egg group, and its biological makeup is characterized by a high base experience yield of 260. Despite its bulky 160.0 kg frame, it is known for its graceful yet powerful psychic resonance.

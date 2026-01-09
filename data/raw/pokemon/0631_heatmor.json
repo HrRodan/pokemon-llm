@@ -1,0 +1,179 @@
+{
+  "pokemon_details": {
+    "id": 631,
+    "name": "heatmor",
+    "stats": {
+      "hp": 85,
+      "attack": 97,
+      "defense": 66,
+      "special-attack": 105,
+      "special-defense": 66,
+      "speed": 65
+    },
+    "types": [
+      "fire"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 58.0,
+    "abilities": [
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "white-smoke",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "heatmor"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "cut",
+      "bind",
+      "tackle",
+      "body-slam",
+      "wrap",
+      "flamethrower",
+      "low-kick",
+      "solar-beam",
+      "fire-spin",
+      "dig",
+      "toxic",
+      "double-team",
+      "lick",
+      "fire-blast",
+      "amnesia",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "protect",
+      "feint-attack",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "superpower",
+      "recycle",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "overheat",
+      "odor-sleuth",
+      "rock-tomb",
+      "tickle",
+      "aerial-ace",
+      "fling",
+      "gastro-acid",
+      "sucker-punch",
+      "flare-blitz",
+      "night-slash",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "bug-bite",
+      "hone-claws",
+      "flame-burst",
+      "round",
+      "incinerate",
+      "inferno",
+      "belch",
+      "confide",
+      "power-up-punch",
+      "throat-chop",
+      "fire-lash",
+      "brutal-swing",
+      "stomping-tantrum",
+      "burning-jealousy",
+      "scorching-sands"
+    ],
+    "held_items": [
+      "flame-orb"
+    ],
+    "base_experience": 169,
+    "is_default": true,
+    "order": 754,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/631.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/631.png"
+    },
+    "species_name": "heatmor",
+    "flavor_text": "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
+    "genus": "Anteater Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "red",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/321/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 321,
+      "chain": {
+        "species_name": "heatmor",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

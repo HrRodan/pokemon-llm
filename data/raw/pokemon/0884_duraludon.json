@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 884,
+    "name": "duraludon",
+    "stats": {
+      "hp": 70,
+      "attack": 95,
+      "defense": 115,
+      "special-attack": 120,
+      "special-defense": 50,
+      "speed": 85
+    },
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 40.0,
+    "abilities": [
+      {
+        "name": "light-metal",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heavy-metal",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "stalwart",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "duraludon"
+    ],
+    "moves": [
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "screech",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "metal-claw",
+      "mirror-coat",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "rock-tomb",
+      "metal-sound",
+      "iron-defense",
+      "dragon-claw",
+      "gyro-ball",
+      "metal-burst",
+      "dark-pulse",
+      "night-slash",
+      "dragon-pulse",
+      "giga-impact",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "heavy-slam",
+      "foul-play",
+      "round",
+      "dragon-tail",
+      "snarl",
+      "laser-focus",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "steel-beam",
+      "steel-roller",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 187,
+    "is_default": true,
+    "order": 1071,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/884.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/884.png"
+    },
+    "species_name": "duraludon",
+    "flavor_text": "Its body resembles polished metal, and it\u2019s both lightweight and strong. The only drawback is that it rusts easily.",
+    "genus": "Alloy Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "white",
+    "egg_groups": [
+      "mineral",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/465/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 465,
+      "chain": {
+        "species_name": "duraludon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "archaludon",
+            "evolution_details": [],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

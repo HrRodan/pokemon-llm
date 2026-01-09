@@ -1,0 +1,200 @@
+{
+  "pokemon_details": {
+    "id": 663,
+    "name": "talonflame",
+    "stats": {
+      "hp": 78,
+      "attack": 81,
+      "defense": 71,
+      "special-attack": 74,
+      "special-defense": 69,
+      "speed": 126
+    },
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 24.5,
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gale-wings",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "talonflame"
+    ],
+    "moves": [
+      "razor-wind",
+      "swords-dance",
+      "fly",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "peck",
+      "solar-beam",
+      "fire-spin",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "fire-blast",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "snatch",
+      "secret-power",
+      "feather-dance",
+      "air-cutter",
+      "overheat",
+      "aerial-ace",
+      "bulk-up",
+      "roost",
+      "natural-gift",
+      "feint",
+      "tailwind",
+      "u-turn",
+      "me-first",
+      "flare-blitz",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "hone-claws",
+      "flame-charge",
+      "round",
+      "incinerate",
+      "acrobatics",
+      "work-up",
+      "hurricane",
+      "confide",
+      "dual-wingbeat",
+      "tera-blast",
+      "temper-flare",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 795,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/663.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/663.png"
+    },
+    "species_name": "talonflame",
+    "flavor_text": "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+    "genus": "Scorching Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "red",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/341/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 341,
+      "chain": {
+        "species_name": "fletchling",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "fletchinder",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "talonflame",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

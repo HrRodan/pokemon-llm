@@ -1,0 +1,12 @@
+## Identity & Lore
+Urshifu (Single Strike Style) (Pokedex #892) is the Wushu Pokémon, a legendary master of martial arts introduced in Generation VIII (Galar) during the Isle of Armor expedition. Standing 1.9 meters tall, this gray, humanoid warrior is the embodiment of decisive force, emphasizing a combat philosophy that favors a single, devastating knockout blow over a flurry of attacks. It is known to leap into close quarters, using its hardened fists to shatter the defenses of any challenger. Beyond its standard form, Urshifu possesses a unique **Gigantamax Form**, which grants it access to the specialized G-Max Move, G-Max One Blow, capable of piercing through Max Guard.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 130, Defense 100, Sp. Atk 63, Sp. Def 60, Speed 97.
+* **Archetype:** Physical Wallbreaker.
+* **Type Matchups:** As a Fighting/Dark type, Urshifu is **weak to Flying, Fighting, and Bug** moves. It faces a significant threat from **Fairy-type attacks, which represent a Double Weakness (4x).** Defensively, it **resists Rock, Ghost, and Dark**, and it is completely **immune to Psychic** attacks.
+* **Move Selection:** Leveraging its massive base 130 Attack, Urshifu’s optimal moveset includes its signature **Wicked Blow** (which always results in a critical hit), **Close Combat** for high-power STAB (Same Type Attack Bonus), **Sucker Punch** for necessary priority against faster threats, and **Iron Head** to provide crucial coverage against its Fairy-type weakness.
+* **Abilities:** **Unseen Fist** (This unique ability ensures that Urshifu's contact-making moves will hit the target even if the opponent uses protective moves like Protect, Detect, or Spiky Shield).
+
+## Evolution & Biology
+Urshifu is the final stage of a two-part evolutionary line. It evolves from **Kubfu** once the trainer and Pokémon have conquered the **Tower of Darkness** located in the Galar region. This specific evolutionary trigger determines its "Single Strike" style; if it had trained in the Tower of Waters, it would have become the Rapid Strike form instead. Biologically, Urshifu is a rare Legendary Pokémon and is categorized in the **No-Eggs** egg group, meaning it cannot be bred. It has a slow growth rate and a high hatch counter of 120, signifying the intense discipline and long duration required to master its wushu techniques.

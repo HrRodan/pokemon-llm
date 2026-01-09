@@ -1,0 +1,183 @@
+{
+  "pokemon_details": {
+    "id": 677,
+    "name": "espurr",
+    "stats": {
+      "hp": 62,
+      "attack": 48,
+      "defense": 54,
+      "special-attack": 63,
+      "special-defense": 60,
+      "speed": 68
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 3.5,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "espurr"
+    ],
+    "moves": [
+      "pay-day",
+      "scratch",
+      "cut",
+      "leer",
+      "psybeam",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "double-team",
+      "barrier",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "fake-out",
+      "torment",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "assist",
+      "magic-coat",
+      "recycle",
+      "yawn",
+      "skill-swap",
+      "snatch",
+      "secret-power",
+      "fake-tears",
+      "tickle",
+      "signal-beam",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "payback",
+      "dark-pulse",
+      "energy-ball",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "work-up",
+      "disarming-voice",
+      "play-rough",
+      "confide",
+      "expanding-force",
+      "tera-blast",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 71,
+    "is_default": true,
+    "order": 810,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/677.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/677.png"
+    },
+    "species_name": "espurr",
+    "flavor_text": "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+    "genus": "Restraint Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/348/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 348,
+      "chain": {
+        "species_name": "espurr",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "meowstic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

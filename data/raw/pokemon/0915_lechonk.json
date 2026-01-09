@@ -1,0 +1,145 @@
+{
+  "pokemon_details": {
+    "id": 915,
+    "name": "lechonk",
+    "stats": {
+      "hp": 54,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 10.2,
+    "abilities": [
+      {
+        "name": "aroma-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lechonk"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "dig",
+      "rest",
+      "super-fang",
+      "substitute",
+      "thief",
+      "curse",
+      "protect",
+      "mud-slap",
+      "endure",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "helping-hand",
+      "yawn",
+      "endeavor",
+      "hyper-voice",
+      "bullet-seed",
+      "mud-shot",
+      "covet",
+      "seed-bomb",
+      "zen-headbutt",
+      "iron-head",
+      "echoed-voice",
+      "bulldoze",
+      "work-up",
+      "disarming-voice",
+      "play-rough",
+      "stuff-cheeks",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 51,
+    "is_default": true,
+    "order": 915,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/915.png"
+    },
+    "species_name": "lechonk",
+    "flavor_text": "It searches for food all day. It possesses a keen sense of smell but doesn\u2019t use it for anything other than foraging.",
+    "genus": "Hog Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/481/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 481,
+      "chain": {
+        "species_name": "lechonk",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "oinkologne",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 18
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

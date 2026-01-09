@@ -1,0 +1,255 @@
+{
+  "pokemon_details": {
+    "id": 468,
+    "name": "togekiss",
+    "stats": {
+      "hp": 85,
+      "attack": 50,
+      "defense": 95,
+      "special-attack": 120,
+      "special-defense": 115,
+      "speed": 80
+    },
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 38.0,
+    "abilities": [
+      {
+        "name": "hustle",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "togekiss"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fly",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-wave",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "fire-blast",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "sky-attack",
+      "flash",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "extreme-speed",
+      "ancient-power",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "uproar",
+      "heat-wave",
+      "facade",
+      "focus-punch",
+      "follow-me",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "brick-break",
+      "yawn",
+      "endeavor",
+      "imprison",
+      "secret-power",
+      "hyper-voice",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "extrasensory",
+      "aerial-ace",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "fling",
+      "last-resort",
+      "aura-sphere",
+      "air-slash",
+      "drain-punch",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "defog",
+      "captivate",
+      "grass-knot",
+      "ominous-wind",
+      "psyshock",
+      "telekinesis",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "incinerate",
+      "retaliate",
+      "work-up",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "laser-focus",
+      "smart-strike",
+      "life-dew",
+      "dual-wingbeat"
+    ],
+    "held_items": [],
+    "base_experience": 245,
+    "is_default": true,
+    "order": 270,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/468.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/468.png"
+    },
+    "species_name": "togekiss",
+    "flavor_text": "It will never appear where there is strife. Its sightings have become rare recently.",
+    "genus": "Jubilee Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 10,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "wings",
+    "color": "white",
+    "egg_groups": [
+      "flying",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/87/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 87,
+      "chain": {
+        "species_name": "togepi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "togetic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "togekiss",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

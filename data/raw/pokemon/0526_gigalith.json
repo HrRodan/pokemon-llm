@@ -1,0 +1,179 @@
+{
+  "pokemon_details": {
+    "id": 526,
+    "name": "gigalith",
+    "stats": {
+      "hp": 85,
+      "attack": 135,
+      "defense": 130,
+      "special-attack": 60,
+      "special-defense": 80,
+      "speed": 25
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 260.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sand-stream",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "gigalith"
+    ],
+    "moves": [
+      "sand-attack",
+      "headbutt",
+      "tackle",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "harden",
+      "self-destruct",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "superpower",
+      "secret-power",
+      "weather-ball",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "gravity",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "meteor-beam"
+    ],
+    "held_items": [
+      "everstone",
+      "hard-stone"
+    ],
+    "base_experience": 232,
+    "is_default": true,
+    "order": 641,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/526.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/526.png"
+    },
+    "species_name": "gigalith",
+    "flavor_text": "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+    "genus": "Compressed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "blue",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/268/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 268,
+      "chain": {
+        "species_name": "roggenrola",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "boldore",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gigalith",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

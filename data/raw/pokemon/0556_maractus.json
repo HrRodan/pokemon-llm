@@ -1,0 +1,165 @@
+{
+  "pokemon_details": {
+    "id": 556,
+    "name": "maractus",
+    "stats": {
+      "hp": 75,
+      "attack": 86,
+      "defense": 67,
+      "special-attack": 106,
+      "special-defense": 67,
+      "speed": 60
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "maractus"
+    ],
+    "moves": [
+      "pin-missile",
+      "peck",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "petal-dance",
+      "toxic",
+      "screech",
+      "double-team",
+      "rest",
+      "substitute",
+      "snore",
+      "cotton-spore",
+      "protect",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "ingrain",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "needle-arm",
+      "hyper-voice",
+      "weather-ball",
+      "grass-whistle",
+      "bullet-seed",
+      "aerial-ace",
+      "bounce",
+      "acupressure",
+      "assurance",
+      "worry-seed",
+      "sucker-punch",
+      "poison-jab",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "leaf-storm",
+      "grass-knot",
+      "wood-hammer",
+      "after-you",
+      "round",
+      "cotton-guard",
+      "petal-blizzard",
+      "grassy-terrain",
+      "confide",
+      "spiky-shield",
+      "throat-chop",
+      "grassy-glide"
+    ],
+    "held_items": [
+      "miracle-seed"
+    ],
+    "base_experience": 161,
+    "is_default": true,
+    "order": 677,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/556.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/556.png"
+    },
+    "species_name": "maractus",
+    "flavor_text": "It uses an up-tempo song and dance to drive away the bird Pok\u00e9mon that prey on its flower seeds.",
+    "genus": "Cactus Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/283/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 283,
+      "chain": {
+        "species_name": "maractus",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

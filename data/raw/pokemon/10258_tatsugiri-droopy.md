@@ -1,0 +1,12 @@
+## Identity & Lore
+Tatsugiri-Droopy (Pokedex #10258) is the Mimicry Pokémon, a highly intelligent Dragon and Water-type species first discovered in the Paldea region (Generation IX). This specific variant, known as the **Droopy Form**, is distinguished by its pink scales and its habit of feigning exhaustion to lure in predators before its partner strikes. Though it appears small and vulnerable, Tatsugiri is the mastermind of a sophisticated symbiotic relationship with the massive Pokémon Dondozo; it spends much of its time inside Dondozo's mouth, directing the larger creature's movements and strategy. While it currently possesses no Mega Evolution or Gigantamax forms, its unique biology allows it to function as a "commander" on the battlefield, making it a cornerstone of competitive doubles strategies. It is primarily found in aquatic habitats like Casseroya Lake, where its sushi-like appearance serves as perfect camouflage.
+
+## Combat Profile
+* **Stats:** HP 68, Attack 50, Defense 60, Sp. Atk 120, Sp. Def 95, Speed 82.
+* **Archetype:** Special Wallbreaker / Tactical Support.
+* **Type Matchups:** It is **weak to Dragon and Fairy**. Thanks to its dual typing, it is **Double Resistant (4x) to Fire and Water** and also resists Steel-type attacks.
+* **Move Selection:** Capitalizing on its elite Special Attack stat, key moves include **Draco Meteor** for devastating Dragon-type damage, **Hydro Pump** for a high-powered Water STAB, **Muddy Water** for lowering the opponent's accuracy, and **Nasty Plot** to set up and sweep through enemy teams.
+* **Abilities:** **Commander** (Signature ability; if Dondozo is on the field, Tatsugiri jumps into its mouth, boosting all of Dondozo's stats by two stages while making Tatsugiri untargetable). **Storm Drain** (Hidden Ability; draws in all Water-type moves to increase its own Special Attack while granting immunity to Water damage).
+
+## Evolution & Biology
+Tatsugiri-Droopy is part of a single-stage evolutionary line and does not evolve from or into any other Pokémon. It belongs to the **Water 2** Egg Group, and its reproductive biology is tied to its role as a mimic. Despite its lack of evolution, it exists in three distinct forms (Curly, Droopy, and Stretchy), each interacting with Dondozo's "Order Up" move to provide different stat boosts—specifically, the Droopy Form provides a Defense boost to its partner. It has a hatch counter of 35 and follows a medium-slow growth rate, reflecting the time needed to master its complex deceptive behaviors.

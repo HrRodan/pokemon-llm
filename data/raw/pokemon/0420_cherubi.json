@@ -1,0 +1,165 @@
+{
+  "pokemon_details": {
+    "id": 420,
+    "name": "cherubi",
+    "stats": {
+      "hp": 45,
+      "attack": 35,
+      "defense": 45,
+      "special-attack": 62,
+      "special-defense": 53,
+      "speed": 35
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 3.3,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "cherubi"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "absorb",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "stun-spore",
+      "sleep-powder",
+      "petal-dance",
+      "toxic",
+      "double-team",
+      "defense-curl",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "morning-sun",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "secret-power",
+      "weather-ball",
+      "aromatherapy",
+      "grass-whistle",
+      "tickle",
+      "bullet-seed",
+      "magical-leaf",
+      "healing-wish",
+      "natural-gift",
+      "lucky-chant",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "captivate",
+      "grass-knot",
+      "round",
+      "heal-pulse",
+      "petal-blizzard",
+      "draining-kiss",
+      "flower-shield",
+      "grassy-terrain",
+      "confide",
+      "dazzling-gleam",
+      "leafage",
+      "pollen-puff",
+      "grassy-glide"
+    ],
+    "held_items": [
+      "miracle-seed"
+    ],
+    "base_experience": 55,
+    "is_default": true,
+    "order": 551,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/420.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/420.png"
+    },
+    "species_name": "cherubi",
+    "flavor_text": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+    "genus": "Cherry Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "heads",
+    "color": "pink",
+    "egg_groups": [
+      "fairy",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/217/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 217,
+      "chain": {
+        "species_name": "cherubi",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "cherrim",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

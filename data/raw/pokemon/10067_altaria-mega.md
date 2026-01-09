@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Altaria (Pokedex #10067) is the Humming Pokémon, a majestic evolution of form that occurs when Altaria undergoes Mega Evolution using an Altarianite. Originating from the Hoenn region (Generation III), this Pokémon is renowned for dancing and wheeling through the sky amidst billowing, cotton-like clouds. Its body is enveloped in a massive, shimmering coat of soft, downy feathers that have grown to protect it. By singing melodies in a crystal-clear soprano voice, Mega Altaria induces a state of dreamy wonderment in those who hear it. Unlike its base form, which is a Dragon/Flying-type, Mega Altaria gains the unique and powerful Dragon/Fairy typing, making it the only Pokémon with this specific elemental combination.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 110, Defense 110, Sp. Atk 110, Sp. Def 105, Speed 80.
+* **Archetype:** Bulky Mixed Sweeper / Dragon Dance Setup.
+* **Type Matchups:** It is **weak to Ice, Poison, Steel, and Fairy**. It possesses notable **resistances to Fire, Water, Electric, Grass, Fighting, Bug, and Dark**, and is completely **immune to Dragon-type moves**.
+* **Move Selection:** Mega Altaria's balanced offensive stats allow it to threaten teams from both sides. Key moves include **Hyper Voice** (which becomes a STAB-boosted Fairy move), **Dragon Dance** (to patch up its middling Speed and boost Attack), **Earthquake** (to hit Steel and Poison-type counters), and **Roost** (to leverage its 110/105 defensive bulk for longevity).
+* **Abilities:** Pixilate (Mega Altaria's signature ability. It converts all Normal-type moves used by the Pokémon into Fairy-type moves and increases their power by 20%. This makes moves like *Hyper Voice*, *Return*, and *Double-Edge* devastatingly powerful STAB options).
+
+## Evolution & Biology
+Mega Altaria is the final stage of a three-stage evolutionary line. It begins as **Swablu**, a Normal/Flying-type that resembles a small blue bird with cotton-wing plumage. Swablu evolves into the Dragon/Flying-type **Altaria** starting at **Level 35**. To reach the Mega form, Altaria must be holding an **Altarianite** Mega Stone during battle. Biologically, it is highly social and often found in **Forest** habitats, though it spends much of its time high in the atmosphere. It belongs to the **Flying and Dragon Egg Groups**, and its growth is characterized by a "slow-then-very-fast" rate, requiring significant investment before it reaches its peak competitive potential.

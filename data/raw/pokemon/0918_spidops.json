@@ -1,0 +1,157 @@
+{
+  "pokemon_details": {
+    "id": 918,
+    "name": "spidops",
+    "stats": {
+      "hp": 60,
+      "attack": 79,
+      "defense": 92,
+      "special-attack": 52,
+      "special-defense": 86,
+      "speed": 35
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 16.5,
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "stakeout",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spidops"
+    ],
+    "moves": [
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "low-kick",
+      "counter",
+      "string-shot",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "reversal",
+      "protect",
+      "scary-face",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "sleep-talk",
+      "pain-split",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "taunt",
+      "brick-break",
+      "knock-off",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "block",
+      "feint",
+      "u-turn",
+      "assurance",
+      "fling",
+      "gastro-acid",
+      "toxic-spikes",
+      "poison-jab",
+      "x-scissor",
+      "bug-buzz",
+      "giga-impact",
+      "shadow-claw",
+      "grass-knot",
+      "bug-bite",
+      "circle-throw",
+      "struggle-bug",
+      "electroweb",
+      "sticky-web",
+      "throat-chop",
+      "lunge",
+      "skitter-smack",
+      "tera-blast",
+      "silk-trap",
+      "pounce",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 141,
+    "is_default": true,
+    "order": 919,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/918.png"
+    },
+    "species_name": "spidops",
+    "flavor_text": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+    "genus": "Trap Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "armor",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/482/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 482,
+      "chain": {
+        "species_name": "tarountula",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "spidops",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 15
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

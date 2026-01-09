@@ -1,0 +1,14 @@
+## Identity & Lore
+Brionne (#729) is the Pop Star Pokémon, a graceful and diligent Water-type introduced in Generation VII (Alola). This bright blue pinniped is characterized by its cheerful disposition and its dedication to the art of dance; even when feeling sad, it hides its sorrow behind a bubbly, energetic performance. Brionne is known for its ability to create a sequence of water balloons while dancing, which it then briskly bombards against enemies with rhythmic precision. As the middle evolution of the Alolan Water-type starter, Popplio, it serves as the bridge toward its final, elegant form, Primarina. While it does not possess a Mega Evolution or Gigantamax form, its final evolution is famous for its unique signature Z-Move, Oceanic Operetta, emphasizing the performance-themed lineage of this species.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 69, Defense 69, Sp. Atk 91, Sp. Def 81, Speed 50.
+* **Archetype:** Special Bulky Attacker (NFE). While its speed is relatively low, its Special Attack and Special Defense allow it to function as a durable special hitter in Middle-Evolution or "Not Fully Evolved" (NFE) competitive tiers.
+* **Type Matchups:** As a pure Water-type, it is **weak to Grass and Electric**. It **resists Fire, Water, Ice, and Steel** moves.
+* **Move Selection:** Capitalizing on its high Special Attack and its future Fairy-typing potential, key moves include **Hydro Pump** for heavy STAB damage, **Moonblast** for powerful Fairy-type coverage, **Ice Beam** to threaten Grass and Dragon-types, and **Hyper Voice**, which gains tactical utility through its Hidden Ability.
+* **Abilities:** 
+    * **Torrent:** Increases the power of Water-type moves by 50% when the Pokémon's HP is below one-third, providing a crucial comeback mechanic.
+    * **Liquid Voice (Hidden Ability):** Converts all sound-based moves (like Hyper Voice or Sing) into Water-type moves, allowing Brionne to bypass certain defensive abilities and utilize sound-based STAB.
+
+## Evolution & Biology
+Brionne is the second stage of a three-stage evolutionary line. It evolves from **Popplio** starting at **Level 17**. It continues to hone its singing and dancing skills until it reaches **Level 34**, at which point it evolves into **Primarina**, gaining the secondary Fairy typing. Biologically, Brionne is a hard worker that learns its dance steps by imitating others in its colony. It belongs to the **Water 1 and Field** (Ground) Egg Groups, making it compatible with a wide variety of mammalian and aquatic Pokémon for breeding. With a hatch counter of 15, its eggs require a moderate amount of travel to hatch.

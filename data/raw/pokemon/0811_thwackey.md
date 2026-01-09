@@ -1,0 +1,12 @@
+## Identity & Lore
+Thwackey (Pokedex #811) is the Beat Pokémon, a vibrant green primate-like creature that first emerged in the Galar region during Generation VIII. As the mid-stage evolution of the Galar Grass-type starter, Thwackey is defined by its intense focus on rhythm; it carries two sturdy sticks tucked into its hair, which it uses to drum out rapid-fire beats on any available surface. This drumming is not merely for entertainment—the faster and more complex the rhythm Thwackey can maintain, the more prestige and respect it commands within its troop. While Thwackey does not possess a Mega Evolution or a Paradox form, its final evolutionary form, Rillaboom, is famously capable of undergoing Gigantamaxing, transforming into a massive percussionist with a forest-sized drum kit.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 70, Sp. Atk 55, Sp. Def 60, Speed 80.
+* **Archetype:** Physical Pivot / Terrain Setter. 
+* **Type Matchups:** As a pure Grass-type, it is **weak to Fire, Ice, Poison, Flying, and Bug**. It **resists Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Thwackey excels when utilizing its physical prowess and utility. Key moves include **Grassy Glide** (which gains priority under Grassy Terrain), **Wood Hammer** for massive STAB (Same Type Attack Bonus) damage, **Knock Off** to remove opponent items, and **U-turn** to maintain offensive momentum.
+* **Abilities:** **Overgrow** (increases the power of Grass-type moves by 50% when HP is below one-third) and its highly sought-after Hidden Ability, **Grassy Surge** (automatically summons Grassy Terrain upon entering the battlefield, healing grounded Pokémon and boosting Grass-type attacks).
+
+## Evolution & Biology
+Thwackey is the second stage of a three-stage evolutionary line. It evolves from **Grookey** starting at **Level 16** and subsequently evolves into the powerhouse **Rillaboom** upon reaching **Level 35**. Biologically, it is a highly active species that belongs to both the **Ground and Plant Egg Groups**. Its development is marked by an increase in upper-body strength and heightened reflexes, necessary for the high-speed drumming that characterizes its behavior. In competitive "Not Fully Evolved" (NFE) tiers, Thwackey is often utilized as a premier offensive threat thanks to the combination of Eviolite for bulk and its ability to dictate the battlefield via Grassy Terrain.

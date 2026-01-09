@@ -1,0 +1,12 @@
+## Identity & Lore
+Sky Forme Shaymin (Pokedex #10006) is the Sky variant of the Mythical Gratitude Pokémon, originally discovered in the Sinnoh region (Generation IV). Unlike its land-bound form, which resembles a small hedgehog, this form is a slender, canine-like creature with petal-like ears that function as wings. According to legend, Shaymin takes to the sky to express deep gratitude, leaving behind fields of blooming flowers in its wake. While it does not possess a Mega Evolution or Gigantamax form, the Sky Forme itself is a temporary transformation triggered by environmental factors. It is frequently associated with the Gracidea flower, a rare bloom that catalyzes its metamorphosis from its "Land Forme" to this high-speed aerial variant.
+
+## Combat Profile
+* **Stats:** HP 100, Attack 103, Defense 75, Sp. Atk 120, Sp. Def 75, Speed 127.
+* **Archetype:** Fast Special Sweeper / Fluctuation Attacker.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, Rock, and Electric**, and possesses a **Double Weakness (4x) to Ice**. It maintains resistances to Water and Fighting, a double resistance to Grass, and is **immune to Ground-type** moves.
+* **Move Selection:** Shaymin-Sky is designed to overwhelm opponents with high-speed Special attacks. Key moves in its repertoire include **Seed Flare** (its signature move with a massive 120 base power), **Air Slash** (to capitalize on its speed and ability), **Earth Power** (for critical coverage against Fire and Steel types), and **Leaf Storm** (for maximum immediate damage).
+* **Abilities:** Serene Grace (Doubles the chance of moves having secondary effects. This is devastating when paired with Air Slash, increasing the flinch rate to 60%, and Seed Flare, making a Special Defense drop nearly guaranteed).
+
+## Evolution & Biology
+Shaymin is a unique Mythical Pokémon that does not follow a standard multi-stage evolutionary line. Instead, it undergoes a **Forme Change**. It transitions from its Land Forme into Sky Forme when **exposed to the Gracidea flower during the daytime**. It will revert to its Land Forme at night, if it becomes Frozen in battle, or if it is deposited into a PC storage system. Biologically, it is a quadruped of the "Green" color category. Despite its powerful presence, it belongs to the **No Eggs** (Undiscovered) egg group, meaning it cannot be bred in captivity. It has a medium-slow growth rate and a base happiness of 100, reflecting its status as the Gratitude Pokémon.

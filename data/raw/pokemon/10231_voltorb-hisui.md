@@ -1,0 +1,12 @@
+## Identity & Lore
+Hisuian Voltorb (Pokedex #10231) is the Ball Pokémon, a fascinating ancient regional variant found in the Hisui region (the historical era of Generation VIII's Sinnoh). While the species was originally discovered in Generation I (Kanto), this ancestor distinguishes itself with a wood-grain-like body composition and a hole in its head that occasionally vents steam. Its appearance is a biological mimicry of the primitive, steam-powered Poké Balls used by the Galaxy Expedition Team. Unlike its modern Kantonian counterpart, which is known for its irritability and tendency to explode at the slightest touch, Hisuian Voltorb is often described as friendly and excitable, though it still discharges stored electricity when agitated. While it does not possess a Mega Evolution or Gigantamax form, it represents a unique evolutionary adaptation to the natural materials of the ancient world.
+
+## Combat Profile
+* **Stats:** HP 40, Attack 30, Defense 50, Sp. Atk 55, Sp. Def 55, Speed 100.
+* **Archetype:** Fast Special Pivot. Hisuian Voltorb excels at outspeeding opponents to apply status or cycle out of combat.
+* **Type Matchups:** As an Electric/Grass type, it is **weak to Fire, Ice, Poison, and Bug**. It provides valuable **resistances to Steel, Water, and Electric**, and features a **Double Resistance (1/4x) to Grass**. 
+* **Move Selection:** Utilizing its superior Speed and Special Attack, Hisuian Voltorb thrives with a moveset including **Thunderbolt** for reliable STAB damage, **Leaf Storm** for high-impact Grass-type offense, **Volt Switch** for tactical pivoting, and **Giga Drain** for health recovery.
+* **Abilities:** **Soundproof** (Provides total immunity to sound-based moves like Bug Buzz or Boomburst), **Static** (Contact with this Pokémon has a 30% chance of paralyzing the attacker), and **Aftermath** (A hidden ability that damages the opponent if they knock it out with a contact move).
+
+## Evolution & Biology
+Hisuian Voltorb is the first stage of a two-stage evolutionary line. It evolves into Hisuian Electrode when exposed to a **Leaf Stone**, a departure from the standard Voltorb which evolves via leveling. This biological trigger highlights its symbiotic relationship with the flora of the Hisui region. Despite its mechanical appearance, it belongs to the **Mineral** egg group, and its physiology is a blend of organic plant-like material and bio-electric energy. It is typically found in mountainous or forest environments where natural electrical discharges occur.

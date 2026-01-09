@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 10171,
+    "name": "moltres-galar",
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 90,
+      "special-attack": 100,
+      "special-defense": 125,
+      "speed": 90
+    },
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 66.0,
+    "abilities": [
+      {
+        "name": "berserk",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "moltres-galar"
+    ],
+    "moves": [
+      "gust",
+      "wing-attack",
+      "fly",
+      "take-down",
+      "leer",
+      "hyper-beam",
+      "agility",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "steel-wing",
+      "sleep-talk",
+      "safeguard",
+      "pain-split",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "shadow-ball",
+      "memento",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "imprison",
+      "hyper-voice",
+      "aerial-ace",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "sucker-punch",
+      "dark-pulse",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "nasty-plot",
+      "foul-play",
+      "after-you",
+      "round",
+      "hex",
+      "acrobatics",
+      "hurricane",
+      "snarl",
+      "lash-out",
+      "dual-wingbeat",
+      "fiery-wrath",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 290,
+    "is_default": false,
+    "order": 241,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10171.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10171.png"
+    },
+    "species_name": "moltres",
+    "flavor_text": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+    "genus": "Flame Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "wings",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/75/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 75,
+      "chain": {
+        "species_name": "moltres",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

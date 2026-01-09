@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 10033,
+    "name": "venusaur-mega",
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 123,
+      "special-attack": 122,
+      "special-defense": 120,
+      "speed": 80
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "height_m": 2.4,
+    "weight_kg": 155.5,
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "venusaur-mega"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "bind",
+      "vine-whip",
+      "headbutt",
+      "tackle",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "strength",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "poison-powder",
+      "sleep-powder",
+      "petal-dance",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "amnesia",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "outrage",
+      "giga-drain",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "knock-off",
+      "secret-power",
+      "block",
+      "frenzy-plant",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "power-whip",
+      "grass-knot",
+      "venoshock",
+      "round",
+      "echoed-voice",
+      "grass-pledge",
+      "bulldoze",
+      "work-up",
+      "petal-blizzard",
+      "confide",
+      "stomping-tantrum"
+    ],
+    "held_items": [],
+    "base_experience": 281,
+    "is_default": false,
+    "order": 4,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10033.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10033.png"
+    },
+    "species_name": "venusaur",
+    "flavor_text": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "genus": "Seed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "quadruped",
+    "color": "green",
+    "egg_groups": [
+      "monster",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/1/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 1,
+      "chain": {
+        "species_name": "bulbasaur",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ivysaur",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "venusaur",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 32
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

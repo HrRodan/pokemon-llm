@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 757,
+    "name": "salandit",
+    "stats": {
+      "hp": 48,
+      "attack": 44,
+      "defense": 40,
+      "special-attack": 71,
+      "special-defense": 40,
+      "speed": 77
+    },
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 4.8,
+    "abilities": [
+      {
+        "name": "corrosion",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "salandit"
+    ],
+    "moves": [
+      "double-slap",
+      "scratch",
+      "sand-attack",
+      "take-down",
+      "ember",
+      "flamethrower",
+      "dragon-rage",
+      "thunder-wave",
+      "toxic",
+      "agility",
+      "double-team",
+      "smog",
+      "fire-blast",
+      "swift",
+      "poison-gas",
+      "leech-life",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "sweet-scent",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "beat-up",
+      "fake-out",
+      "heat-wave",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "poison-fang",
+      "overheat",
+      "dragon-claw",
+      "poison-tail",
+      "covet",
+      "payback",
+      "fling",
+      "toxic-spikes",
+      "flare-blitz",
+      "poison-jab",
+      "dragon-pulse",
+      "nasty-plot",
+      "shadow-claw",
+      "fire-fang",
+      "gunk-shot",
+      "venoshock",
+      "flame-burst",
+      "sludge-wave",
+      "flame-charge",
+      "acid-spray",
+      "foul-play",
+      "round",
+      "incinerate",
+      "belch",
+      "confide",
+      "venom-drench",
+      "scale-shot",
+      "skitter-smack",
+      "burning-jealousy",
+      "tera-blast",
+      "trailblaze",
+      "temper-flare"
+    ],
+    "held_items": [
+      "smoke-ball"
+    ],
+    "base_experience": 64,
+    "is_default": true,
+    "order": 915,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/757.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/757.png"
+    },
+    "species_name": "salandit",
+    "flavor_text": "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
+    "genus": "Toxic Lizard Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "black",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/390/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 390,
+      "chain": {
+        "species_name": "salandit",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "salazzle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

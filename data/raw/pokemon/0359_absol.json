@@ -1,0 +1,211 @@
+{
+  "pokemon_details": {
+    "id": 359,
+    "name": "absol",
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 75,
+      "special-defense": 60,
+      "speed": 75
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 47.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "super-luck",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "justified",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "absol"
+    ],
+    "moves": [
+      "scratch",
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "leer",
+      "bite",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "perish-song",
+      "icy-wind",
+      "detect",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "baton-pass",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "hail",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "role-play",
+      "superpower",
+      "magic-coat",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "bounce",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "payback",
+      "assurance",
+      "me-first",
+      "punishment",
+      "sucker-punch",
+      "dark-pulse",
+      "night-slash",
+      "air-slash",
+      "x-scissor",
+      "giga-impact",
+      "shadow-claw",
+      "psycho-cut",
+      "zen-headbutt",
+      "stone-edge",
+      "captivate",
+      "charge-beam",
+      "hone-claws",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "hex",
+      "incinerate",
+      "retaliate",
+      "snarl",
+      "play-rough",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "brutal-swing"
+    ],
+    "held_items": [
+      "life-orb"
+    ],
+    "base_experience": 163,
+    "is_default": true,
+    "order": 478,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/359.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/359.png"
+    },
+    "species_name": "absol",
+    "flavor_text": "Every time ABSOL appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster POK\u00e9MON.",
+    "genus": "Disaster Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 35,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "quadruped",
+    "color": "white",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/185/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 185,
+      "chain": {
+        "species_name": "absol",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

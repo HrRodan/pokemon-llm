@@ -1,0 +1,192 @@
+{
+  "pokemon_details": {
+    "id": 408,
+    "name": "cranidos",
+    "stats": {
+      "hp": 67,
+      "attack": 125,
+      "defense": 40,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 58
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 31.5,
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "cranidos"
+    ],
+    "moves": [
+      "fire-punch",
+      "thunder-punch",
+      "swords-dance",
+      "whirlwind",
+      "slam",
+      "stomp",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "strength",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "superpower",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "rock-blast",
+      "shock-wave",
+      "hammer-arm",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "fling",
+      "rock-polish",
+      "dragon-pulse",
+      "earth-power",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "head-smash",
+      "smack-down",
+      "round",
+      "chip-away",
+      "incinerate",
+      "bulldoze",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum",
+      "tera-blast",
+      "trailblaze",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 70,
+    "is_default": true,
+    "order": 537,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/408.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/408.png"
+    },
+    "species_name": "cranidos",
+    "flavor_text": "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
+    "genus": "Head Butt Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/211/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 211,
+      "chain": {
+        "species_name": "cranidos",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "rampardos",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

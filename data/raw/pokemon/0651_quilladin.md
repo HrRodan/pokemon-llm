@@ -1,0 +1,12 @@
+## Identity & Lore
+Quilladin (Pokedex #651) is the Spiny Armor Pokémon, a bipedal, mammalian Pokémon introduced in Generation VI (Kalos) as the middle stage of the Grass-type starter evolutionary line. Encased in a sturdy, rotund shell of armor, it is primarily green with brown plates and sharp quills that protect its body from predators. This Pokémon is known for its gentle nature, often avoiding conflict, though its shell is hard enough to deflect a head-on collision from a large truck. In the wild, Quilladin strengthens its lower body by running into one another, using their armor to absorb impacts. While Quilladin itself does not possess a Mega Evolution or Gigantamax form, it eventually evolves into Chesnaught, a Pokémon renowned for its massive physical bulk and signature defensive move, Spiky Shield.
+
+## Combat Profile
+* **Stats:** HP 61, Attack 78, Defense 95, Sp. Atk 56, Sp. Def 58, Speed 57.
+* **Archetype:** Physical Tank / Bulky Attacker.
+* **Type Matchups:** As a pure Grass-type, it is **weak to Flying, Poison, Bug, Fire, and Ice**. It provides resistance against **Ground, Water, Grass, and Electric** types.
+* **Move Selection:** Utilizing its superior Physical Attack over its Special Attack, Quilladin excels with moves that leverage its weight and strength. Key moves include **Seed Bomb** (STAB), **Wood Hammer** (High damage STAB), **Drain Punch** (Recovery and coverage), and **Pin Missile** (Multi-hit coverage). It also has access to utility moves like **Spikes** and **Bulk Up** to further enhance its role as a defensive pivot.
+* **Abilities:** **Overgrow** (Powers up Grass-type moves by 50% when the Pokémon's HP is low). **Bulletproof** (Hidden Ability: Protects the Pokémon from some ball and bomb moves, such as Shadow Ball, Sludge Bomb, and Focus Blast, providing a unique tactical immunity in competitive play).
+
+## Evolution & Biology
+Quilladin is part of a three-stage evolutionary line originating in the Kalos region. It evolves from **Chespin** starting at Level 16 and eventually reaches its final form, **Chesnaught**, at Level 36. Its biology reflects a transition from a small mammal into a heavily armored juggernaut. It belongs to the **Ground** (Field) egg group, with a hatch counter of approximately 20 cycles. In its Quilladin stage, the Pokémon focuses on developing the density of its shell and the strength of its quills, preparing it for the massive defensive capabilities it will possess upon final evolution.

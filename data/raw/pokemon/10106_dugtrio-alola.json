@@ -1,0 +1,212 @@
+{
+  "pokemon_details": {
+    "id": 10106,
+    "name": "dugtrio-alola",
+    "stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 60,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 110
+    },
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 66.6,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "tangling-hair",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dugtrio-alola"
+    ],
+    "moves": [
+      "scratch",
+      "swords-dance",
+      "sand-attack",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "hyper-beam",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "agility",
+      "screech",
+      "double-team",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "tri-attack",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "magnitude",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "beat-up",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "astonish",
+      "rock-tomb",
+      "metal-sound",
+      "sand-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "assurance",
+      "sucker-punch",
+      "night-slash",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "mud-bomb",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "smack-down",
+      "sludge-wave",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "bulldoze",
+      "work-up",
+      "rototiller",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "stomping-tantrum",
+      "steel-beam",
+      "scorching-sands",
+      "tera-blast"
+    ],
+    "held_items": [
+      "soft-sand"
+    ],
+    "base_experience": 149,
+    "is_default": false,
+    "order": 87,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10106.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10106.png"
+    },
+    "species_name": "dugtrio",
+    "flavor_text": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+    "genus": "Mole Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "heads",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/21/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 21,
+      "chain": {
+        "species_name": "diglett",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dugtrio",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

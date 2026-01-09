@@ -1,0 +1,12 @@
+## Identity & Lore
+Dusk Form Lycanroc (Pokedex #10152) is the Wolf Pokémon, a unique and rare variant first discovered in the Alola region during Generation VII. This form is a biological anomaly, occurring only when a specific Rockruff is bathed in the setting sun's rays, causing it to manifest traits of both its Midday and Midnight counterparts. It possesses the calm, collected demeanor of the Midday form paired with the intense, hidden fighting spirit of the Midnight form, often signaled by its eyes glowing green when it launches an attack. Physically, it is characterized by its vibrant orange fur and a prominent mane of sharp, obsidian-like rocks. While Lycanroc does not have a Mega Evolution or Gigantamax form, its Dusk Form is famous for its exclusive access to the specialized Z-Move, "Splintered Stormshards," in its debut generation.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 117, Defense 65, Sp. Atk 55, Sp. Def 65, Speed 110.
+* **Archetype:** Fast Physical Sweeper / Revenge Killer. 
+* **Type Matchups:** As a pure Rock-type, it is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Flying, Poison, and Fire**.
+* **Move Selection:** Lycanroc-Dusk excels with contact-based physical attacks. Key moves in its arsenal include **Accelerock** (a signature Rock-type priority move), **Stone Edge** (high-crit STAB), **Close Combat** (powerful Fighting-type coverage), and **Psychic Fangs** (which destroys screens like Reflect and Light Screen).
+* **Abilities:** Tough Claws (Increases the power of moves that make direct contact by 30%). This ability is the cornerstone of its competitive viability, significantly boosting its STAB and coverage options.
+
+## Evolution & Biology
+Lycanroc-Dusk is the final stage of a two-stage evolutionary line. It evolves from a special **Rockruff** possessing the **Own Tempo** ability. The evolution occurs when Rockruff reaches **Level 25** specifically during the **dusk timeframe** (traditionally 5:00 PM to 5:59 PM in-game time). This evolutionary trigger is highly sensitive to the atmosphere, reflecting the Pokémon's deep connection to solar energy. Biologically, it is a quadruped hunter that uses the rocks in its mane to slash at foes, and its quick movements are designed to confuse prey in the rugged, mountainous terrain of Alola. It belongs to the **Ground** Egg Group and is known for its intense loyalty once a bond is formed with a Trainer.

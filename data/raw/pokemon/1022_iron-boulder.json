@@ -1,0 +1,152 @@
+{
+  "pokemon_details": {
+    "id": 1022,
+    "name": "iron-boulder",
+    "stats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 68,
+      "special-defense": 108,
+      "speed": 124
+    },
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 162.5,
+    "abilities": [
+      {
+        "name": "quark-drive",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "iron-boulder"
+    ],
+    "moves": [
+      "swords-dance",
+      "horn-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "hyper-beam",
+      "counter",
+      "rock-throw",
+      "earthquake",
+      "psychic",
+      "agility",
+      "quick-attack",
+      "rest",
+      "slash",
+      "substitute",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "sleep-talk",
+      "megahorn",
+      "facade",
+      "taunt",
+      "brick-break",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "rock-blast",
+      "close-combat",
+      "poison-jab",
+      "air-slash",
+      "x-scissor",
+      "giga-impact",
+      "psycho-cut",
+      "zen-headbutt",
+      "iron-head",
+      "stone-edge",
+      "psyshock",
+      "quick-guard",
+      "bulldoze",
+      "wild-charge",
+      "sacred-sword",
+      "electric-terrain",
+      "solar-blade",
+      "throat-chop",
+      "meteor-beam",
+      "tera-blast",
+      "mighty-cleave"
+    ],
+    "held_items": [],
+    "base_experience": 295,
+    "is_default": true,
+    "order": 1106,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1022.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1022.png"
+    },
+    "species_name": "iron-boulder",
+    "flavor_text": "It resembles a Pok\u00e9mon described in a dubious magazine as a Terrakion that had been modified by an evil organization.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/547/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 547,
+      "chain": {
+        "species_name": "iron-boulder",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "pokemon_details": {
+    "id": 895,
+    "name": "regidrago",
+    "stats": {
+      "hp": 200,
+      "attack": 100,
+      "defense": 50,
+      "special-attack": 100,
+      "special-defense": 50,
+      "speed": 80
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 200.0,
+    "abilities": [
+      {
+        "name": "dragons-maw",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "regidrago"
+    ],
+    "moves": [
+      "vice-grip",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "bite",
+      "hyper-beam",
+      "earthquake",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "outrage",
+      "endure",
+      "sleep-talk",
+      "dragon-breath",
+      "twister",
+      "crunch",
+      "ancient-power",
+      "facade",
+      "dragon-claw",
+      "dragon-dance",
+      "hammer-arm",
+      "dragon-pulse",
+      "earth-power",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "draco-meteor",
+      "round",
+      "laser-focus",
+      "breaking-swipe",
+      "scale-shot",
+      "dragon-energy",
+      "tera-blast",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 290,
+    "is_default": true,
+    "order": 1087,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/895.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/895.png"
+    },
+    "species_name": "regidrago",
+    "flavor_text": "An academic theory proposes that Regidrago\u2019s arms were once the head of an ancient dragon Pok\u00e9mon. The theory remains unproven.",
+    "genus": "Dragon Orb Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/473/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 473,
+      "chain": {
+        "species_name": "regidrago",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Houndoom (Pokedex #10048) is the Mega Evolved form of the Dark Pokémon, a sinister quadruped originally discovered in the Johto region during Generation II. This transformation occurs when a Houndoom is exposed to a Houndoominite, causing its body to become encased in skeletal, bone-like armor and its horns to grow into formidable, curved ridges. Known for its pitch-black fur and its reputation as a harbinger of doom, its lore states that the fires it breathes are infused with toxins; once burned by Mega Houndoom, the physical pain is said to never truly dissipate. Primarily inhabiting rough terrain, this Pokémon is a relentless hunter. While this profile focuses on its Mega Evolution, it is important to note that Houndoom does not possess a Gigantamax form or a Paradox variant, making this Mega state its most powerful known manifestation.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 90, Defense 90, Sp. Atk 140, Sp. Def 90, Speed 115.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** As a Dark/Fire type, it is **weak to Fighting, Ground, Rock, and Water**. Conversely, it **resists Ghost, Dark, Fire, Grass, Ice, and Steel**, and it possesses a total **immunity to Psychic** attacks.
+* **Move Selection:** Capitalizing on its massive Special Attack and Speed, key moves include **Fire Blast** for devastating primary STAB damage, **Dark Pulse** for consistent Dark-type coverage and flinch potential, **Solar Beam** to surprise Water and Rock-type switch-ins (especially when paired with its ability), and **Nasty Plot** to boost its offensive power to wall-breaking levels.
+* **Abilities:** **Solar Power** (During harsh sunlight, the Pokémon's Special Attack is increased by 50%, but it loses 1/8th of its maximum HP at the end of every turn). This ability defines its niche as a premier glass cannon in sun-based weather teams.
+
+## Evolution & Biology
+Mega Houndoom is the temporary, final stage of a three-stage evolutionary line. It begins its life as **Houndour**, a pack-hunting Pokémon that evolves into **Houndoom** starting at **Level 24**. The transition into its Mega form is not achieved through leveling, but through the mechanics of Mega Evolution during battle. It belongs to the **Field (Ground)** egg group, and its biological growth rate is classified as slow, reflecting the maturity required to handle its internal heat. Despite its fierce appearance, it is a loyal protector of its pack, though its base happiness remains relatively low upon capture.

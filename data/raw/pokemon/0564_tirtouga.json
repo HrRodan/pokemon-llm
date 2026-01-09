@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 564,
+    "name": "tirtouga",
+    "stats": {
+      "hp": 54,
+      "attack": 78,
+      "defense": 103,
+      "special-attack": 53,
+      "special-defense": 45,
+      "speed": 22
+    },
+    "types": [
+      "water",
+      "rock"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 16.5,
+    "abilities": [
+      {
+        "name": "solid-rock",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tirtouga"
+    ],
+    "moves": [
+      "slam",
+      "body-slam",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "strength",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "withdraw",
+      "bide",
+      "waterfall",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "rock-tomb",
+      "muddy-water",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "brine",
+      "guard-swap",
+      "rock-polish",
+      "aqua-tail",
+      "earth-power",
+      "zen-headbutt",
+      "stone-edge",
+      "stealth-rock",
+      "aqua-jet",
+      "wide-guard",
+      "smack-down",
+      "round",
+      "scald",
+      "shell-smash",
+      "bulldoze",
+      "confide",
+      "liquidation",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 71,
+    "is_default": true,
+    "order": 686,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/564.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/564.png"
+    },
+    "species_name": "tirtouga",
+    "flavor_text": "Restored from a fossil, this Pok\u00e9mon can dive to depths beyond half a mile.",
+    "genus": "Prototurtle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/288/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 288,
+      "chain": {
+        "species_name": "tirtouga",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "carracosta",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

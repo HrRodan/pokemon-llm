@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 10184,
+    "name": "toxtricity-low-key",
+    "stats": {
+      "hp": 75,
+      "attack": 98,
+      "defense": 70,
+      "special-attack": 114,
+      "special-defense": 70,
+      "speed": 75
+    },
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 40.0,
+    "abilities": [
+      {
+        "name": "punk-rock",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "minus",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "technician",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "toxtricity-low-key"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "mega-kick",
+      "take-down",
+      "leer",
+      "growl",
+      "acid",
+      "hyper-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "screech",
+      "metronome",
+      "swift",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "endure",
+      "charm",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "encore",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "facade",
+      "charge",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "endeavor",
+      "hyper-voice",
+      "metal-sound",
+      "poison-tail",
+      "shock-wave",
+      "payback",
+      "fling",
+      "toxic-spikes",
+      "poison-jab",
+      "drain-punch",
+      "giga-impact",
+      "thunder-fang",
+      "discharge",
+      "gunk-shot",
+      "charge-beam",
+      "venoshock",
+      "sludge-wave",
+      "electro-ball",
+      "acid-spray",
+      "round",
+      "stored-power",
+      "hex",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "snarl",
+      "belch",
+      "noble-roar",
+      "boomburst",
+      "eerie-impulse",
+      "venom-drench",
+      "magnetic-flux",
+      "electric-terrain",
+      "nuzzle",
+      "throat-chop",
+      "tearful-look",
+      "overdrive",
+      "rising-voltage",
+      "tera-blast",
+      "trailblaze",
+      "psychic-noise"
+    ],
+    "held_items": [],
+    "base_experience": 176,
+    "is_default": false,
+    "order": 1033,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10184.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10184.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10184.png"
+    },
+    "species_name": "toxtricity",
+    "flavor_text": "When this Pok\u00e9mon sounds as if it\u2019s strumming a guitar, it\u2019s actually clawing at the protrusions on its chest to generate electricity.",
+    "genus": "Punk Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/446/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 446,
+      "chain": {
+        "species_name": "toxel",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "toxtricity",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

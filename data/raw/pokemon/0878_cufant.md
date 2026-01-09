@@ -1,0 +1,14 @@
+## Identity & Lore
+Cufant (Pokedex #878) is the Copperderm Pokémon, a robust Steel-type introduced in Generation VIII (Galar). Resembling a small elephant made of living copper, Cufant is characterized by its immense physical strength, capable of hauling loads exceeding five tons without fatigue. Its distinctive trunk is specially adapted for digging through solid earth and stone, often assisting humans in industrial and construction work. While currently appearing in its base form, its biological potential is significant; its evolved form, Copperajah, is known to possess a massive Gigantamax form, emphasizing the latent power within this species. Despite its heavy metallic composition, Cufant's body changes color over time, developing a greenish patina as it oxidizes, a detail reflected in its Copperderm classification.
+
+## Combat Profile
+* **Stats:** HP 72, Attack 80, Defense 49, Sp. Atk 40, Sp. Def 49, Speed 40.
+* **Archetype:** Physical Tank / Heavy Hitter. While its speed is low, its base Attack and HP make it a formidable presence in lower-tier competitive brackets or "Little Cup" formats.
+* **Type Matchups:** It is **weak to Fighting, Ground, and Fire**. As a pure Steel-type, it boasts an incredible defensive profile, **resisting Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Ghost, Dragon, and Steel**, while being completely **immune to Poison**.
+* **Move Selection:** Utilizing its high physical Attack and weight-based mechanics, Cufant excels with **Iron Head** (STAB with flinch chance), **Heavy Slam** (scales with its high weight), **Play Rough** (Fairy-type coverage for Fighting types), and **Power Whip** (High-power Grass coverage for Ground types).
+* **Abilities:** 
+    * **Sheer Force:** Increases the power of moves with secondary effects by 30%, but ignores those effects (highly effective with Iron Head and Play Rough).
+    * **Heavy Metal (Hidden):** Doubles the Pokémon's weight, which significantly boosts the damage output of the move Heavy Slam.
+
+## Evolution & Biology
+Cufant is part of a two-stage evolutionary line. It evolves into the massive **Copperajah** once it reaches **Level 34**. This evolution sees a dramatic increase in size and weight, shifting from a helpful laborer into a heavy-duty powerhouse often used for large-scale mining operations. Cufant belongs to the **Ground** and **Mineral** Egg Groups, reflecting both its biological elephantine nature and its metallic constitution. Its growth rate is medium, and it is known to be relatively easy to capture for trainers looking for early-game Steel-type utility in the Galar or Paldea regions.

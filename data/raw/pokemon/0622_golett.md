@@ -1,0 +1,12 @@
+## Identity & Lore
+Golett (Pokedex #622) is the Automaton Pokémon, a bipedal humanoid construct composed of ancient clay discovered primarily in the Unova region (Generation V). It is an artificial Pokémon, brought to life by a mysterious energy core burning within its chest; this energy is so potent that it has allowed Golett to function for thousands of years without depleting. Its design is heavily inspired by the Golem of Prague and ancient clay idols (Dogū). While Golett does not possess a Mega Evolution, Gigantamax form, or Paradox variant, its evolved form, Golurk, is famously known for its ability to retract its limbs and fly at mach speeds like a rocket, a trait often hinted at in Golett's own mysterious biology.
+
+## Combat Profile
+*   **Stats:** HP 59, Attack 74, Defense 50, Sp. Atk 35, Sp. Def 50, Speed 35.
+*   **Archetype:** Physical Tank / Bulky Attacker. In Little Cup formats, Golett functions as a durable threat that can capitalize on its high natural Attack.
+*   **Type Matchups:** It is **weak to Water, Grass, Ice, Ghost, and Dark**. It notably possesses three immunities, being completely unaffected by **Electric, Normal, and Fighting** moves. It also **resists Poison, Rock, and Bug** types.
+*   **Move Selection:** Capitalizing on its high Attack and its Iron Fist ability, key moves include **Shadow Punch** (Iron Fist boosted STAB), **Earthquake** (High-power Ground STAB), **Drain Punch** (Iron Fist boosted coverage and recovery), and **Poltergeist** (High-damage Ghost STAB).
+*   **Abilities:** **Iron Fist** (Increases the power of punching moves by 20%), **Klutz** (The Pokémon cannot use held items, which can be strategically used with the move Switcheroo), and **No Guard** (Hidden Ability; ensures all moves used by or against the Pokémon will land, making it an excellent user of Dynamic Punch).
+
+## Evolution & Biology
+Golett is the first stage of a two-stage evolutionary line. It evolves into **Golurk** when it reaches **Level 43**, one of the higher level-up thresholds for a middle-stage evolution. Biologically, Golett is genderless and belongs to the **Mineral** Egg Group. Despite its slow movement, its clay body is incredibly heavy, weighing 92.0 kg, which aids in its ability to utilize moves like **Heavy Slam**. In the wild, it is occasionally found carrying **Light Clay**, a material likely used in its original construction.

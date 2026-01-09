@@ -1,0 +1,123 @@
+{
+  "pokemon_details": {
+    "id": 824,
+    "name": "blipbug",
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 20,
+      "special-attack": 25,
+      "special-defense": 45,
+      "speed": 45
+    },
+    "types": [
+      "bug"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "blipbug"
+    ],
+    "moves": [
+      "supersonic",
+      "recover",
+      "struggle-bug",
+      "sticky-web",
+      "infestation"
+    ],
+    "held_items": [],
+    "base_experience": 36,
+    "is_default": true,
+    "order": 1005,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/824.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/824.png"
+    },
+    "species_name": "blipbug",
+    "flavor_text": "A constant collector of information, this Pok\u00e9mon is very smart. Very strong is what it isn\u2019t.",
+    "genus": "Larva Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "armor",
+    "color": "blue",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/435/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 435,
+      "chain": {
+        "species_name": "blipbug",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dottler",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 10
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "orbeetle",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

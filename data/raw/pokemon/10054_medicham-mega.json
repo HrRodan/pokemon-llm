@@ -1,0 +1,188 @@
+{
+  "pokemon_details": {
+    "id": 10054,
+    "name": "medicham-mega",
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 85,
+      "special-attack": 80,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "height_m": 1.3,
+    "weight_kg": 31.5,
+    "abilities": [
+      {
+        "name": "pure-power",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "medicham-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "strength",
+      "toxic",
+      "confusion",
+      "psychic",
+      "meditate",
+      "double-team",
+      "recover",
+      "light-screen",
+      "reflect",
+      "bide",
+      "high-jump-kick",
+      "dream-eater",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "mind-reader",
+      "snore",
+      "reversal",
+      "protect",
+      "detect",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "recycle",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "signal-beam",
+      "bulk-up",
+      "calm-mind",
+      "gravity",
+      "feint",
+      "acupressure",
+      "fling",
+      "power-trick",
+      "force-palm",
+      "poison-jab",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "grass-knot",
+      "psyshock",
+      "telekinesis",
+      "low-sweep",
+      "round",
+      "retaliate",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 179,
+    "is_default": false,
+    "order": 415,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10054.png"
+    },
+    "species_name": "medicham",
+    "flavor_text": "It is said that through meditation, MEDICHAM heightens energy inside its body and sharpens its sixth sense. This POK\u00e9MON hides its presence by merging itself with fields and mountains.",
+    "genus": "Meditate Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "mountain",
+    "shape": "humanoid",
+    "color": "red",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/152/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 152,
+      "chain": {
+        "species_name": "meditite",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "medicham",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 37
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

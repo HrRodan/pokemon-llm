@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 10046,
+    "name": "scizor-mega",
+    "stats": {
+      "hp": 70,
+      "attack": 150,
+      "defense": 140,
+      "special-attack": 65,
+      "special-defense": 100,
+      "speed": 75
+    },
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 125.0,
+    "abilities": [
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "scizor-mega"
+    ],
+    "moves": [
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "leer",
+      "hyper-beam",
+      "strength",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "light-screen",
+      "focus-energy",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sandstorm",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pursuit",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "aerial-ace",
+      "iron-defense",
+      "roost",
+      "feint",
+      "tailwind",
+      "u-turn",
+      "fling",
+      "night-slash",
+      "x-scissor",
+      "giga-impact",
+      "bullet-punch",
+      "flash-cannon",
+      "defog",
+      "iron-head",
+      "bug-bite",
+      "double-hit",
+      "venoshock",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "confide",
+      "laser-focus",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 210,
+    "is_default": false,
+    "order": 198,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10046.png"
+    },
+    "species_name": "scizor",
+    "flavor_text": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+    "genus": "Pincer Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": "grassland",
+    "shape": "bug-wings",
+    "color": "red",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/58/",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    },
+    "evolution": {
+      "chain_id": 58,
+      "chain": {
+        "species_name": "scyther",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "scizor",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "metal-coat"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "kleavor",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "black-augurite"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

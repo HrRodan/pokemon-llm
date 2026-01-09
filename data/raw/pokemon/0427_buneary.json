@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 427,
+    "name": "buneary",
+    "stats": {
+      "hp": 55,
+      "attack": 66,
+      "defense": 44,
+      "special-attack": 44,
+      "special-defense": 56,
+      "speed": 85
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 5.5,
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "klutz",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "limber",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "buneary"
+    ],
+    "moves": [
+      "pound",
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "cut",
+      "double-kick",
+      "mega-kick",
+      "jump-kick",
+      "headbutt",
+      "double-edge",
+      "ice-beam",
+      "low-kick",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "defense-curl",
+      "swift",
+      "dizzy-punch",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "foresight",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "baton-pass",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "flatter",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "magic-coat",
+      "endeavor",
+      "secret-power",
+      "teeter-dance",
+      "mud-sport",
+      "hyper-voice",
+      "fake-tears",
+      "cosmic-power",
+      "sky-uppercut",
+      "bounce",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "healing-wish",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "fling",
+      "copycat",
+      "last-resort",
+      "drain-punch",
+      "switcheroo",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "double-hit",
+      "low-sweep",
+      "entrainment",
+      "after-you",
+      "round",
+      "circle-throw",
+      "retaliate",
+      "work-up",
+      "draining-kiss",
+      "play-rough",
+      "confide",
+      "baby-doll-eyes",
+      "power-up-punch",
+      "triple-axel"
+    ],
+    "held_items": [
+      "pecha-berry",
+      "chople-berry"
+    ],
+    "base_experience": 70,
+    "is_default": true,
+    "order": 557,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/427.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/427.png"
+    },
+    "species_name": "buneary",
+    "flavor_text": "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+    "genus": "Rabbit Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 0,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "brown",
+    "egg_groups": [
+      "ground",
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/220/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 220,
+      "chain": {
+        "species_name": "buneary",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lopunny",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

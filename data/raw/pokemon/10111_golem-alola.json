@@ -1,0 +1,227 @@
+{
+  "pokemon_details": {
+    "id": 10111,
+    "name": "golem-alola",
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "height_m": 1.7,
+    "weight_kg": 316.0,
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "galvanize",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "golem-alola"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "roar",
+      "flamethrower",
+      "hyper-beam",
+      "counter",
+      "seismic-toss",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "defense-curl",
+      "bide",
+      "metronome",
+      "self-destruct",
+      "fire-blast",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "zap-cannon",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "sunny-day",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "charge",
+      "superpower",
+      "brick-break",
+      "rock-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "shock-wave",
+      "gyro-ball",
+      "fling",
+      "magnet-rise",
+      "rock-polish",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "discharge",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "wide-guard",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "volt-switch",
+      "bulldoze",
+      "electroweb",
+      "wild-charge",
+      "steamroller",
+      "confide",
+      "electric-terrain",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
+      "meteor-beam",
+      "tera-blast",
+      "hard-press",
+      "supercell-slam"
+    ],
+    "held_items": [
+      "cell-battery"
+    ],
+    "base_experience": 223,
+    "is_default": false,
+    "order": 120,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10111.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10111.png"
+    },
+    "species_name": "golem",
+    "flavor_text": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+    "genus": "Megaton Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "mountain",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/31/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 31,
+      "chain": {
+        "species_name": "geodude",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "graveler",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "golem",
+                "evolution_details": [
+                  {
+                    "trigger": "trade"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

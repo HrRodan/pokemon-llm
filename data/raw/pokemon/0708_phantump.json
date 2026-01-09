@@ -1,0 +1,209 @@
+{
+  "pokemon_details": {
+    "id": 708,
+    "name": "phantump",
+    "stats": {
+      "hp": 43,
+      "attack": 70,
+      "defense": 48,
+      "special-attack": 50,
+      "special-defense": 60,
+      "speed": 38
+    },
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 7.0,
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "frisk",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "phantump"
+    ],
+    "moves": [
+      "cut",
+      "tackle",
+      "disable",
+      "strength",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "dig",
+      "toxic",
+      "psychic",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "reflect",
+      "dream-eater",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "feint-attack",
+      "destiny-bond",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "will-o-wisp",
+      "facade",
+      "nature-power",
+      "trick",
+      "role-play",
+      "ingrain",
+      "magic-coat",
+      "skill-swap",
+      "imprison",
+      "grudge",
+      "secret-power",
+      "astonish",
+      "magical-leaf",
+      "worry-seed",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "seed-bomb",
+      "energy-ball",
+      "shadow-claw",
+      "trick-room",
+      "grass-knot",
+      "wood-hammer",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "hex",
+      "bestow",
+      "bulldoze",
+      "horn-leech",
+      "phantom-force",
+      "forests-curse",
+      "grassy-terrain",
+      "confide",
+      "venom-drench",
+      "power-up-punch",
+      "branch-poke",
+      "grassy-glide",
+      "skitter-smack",
+      "lash-out",
+      "poltergeist",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 842,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/708.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/708.png"
+    },
+    "species_name": "phantump",
+    "flavor_text": "These Pok\u00e9mon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
+    "genus": "Stump Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "brown",
+    "egg_groups": [
+      "plant",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/364/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 364,
+      "chain": {
+        "species_name": "phantump",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "trevenant",
+            "evolution_details": [
+              {
+                "trigger": "trade"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

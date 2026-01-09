@@ -1,0 +1,12 @@
+## Identity & Lore
+Keldeo (#647), known as the Colt Pokémon, is a Mythical creature that first appeared in the Unova region during Generation V. This quadrupedal, water-dwelling combatant is the youngest member of the "Swords of Justice," a legendary group that includes Cobalion, Terrakion, and Virizion. Keldeo is distinguished by its ability to blast high-pressure water from its hooves, allowing it to glide across water surfaces or propel itself through the air to execute devastating leg-based maneuvers. While this profile describes its "Ordinary Form," Keldeo possesses a second state known as **Resolute Form**, which it assumes specifically when it masters its signature move, Secret Sword. Though it does not have a Mega Evolution or Gigantamax form, its status as a Mythical protector makes it a rare and powerful entity in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 91, Attack 72, Defense 90, Sp. Atk 129, Sp. Def 90, Speed 108.
+* **Archetype:** Fast Special Sweeper. Keldeo excels at outspeeding mid-tier threats and delivering heavy Special damage while maintaining respectable natural bulk.
+* **Type Matchups:** It is **weak to Grass, Electric, Flying, Psychic, and Fairy**. Conversely, it boasts a strong defensive profile, **resisting Fire, Water, Ice, Steel, Bug, Rock, and Dark** types.
+* **Move Selection:** Prioritizing its massive Special Attack and signature mechanics, key moves include **Secret Sword** (which deals physical damage using its special stat), **Hydro Pump** for maximum STAB power, **Scald** for consistent damage and burn utility, and **Calm Mind** to further boost its offensive presence and special bulk.
+* **Abilities:** Justified (Raises the Pokémon's Attack stat by one stage when hit by a Dark-type move). While Keldeo is primarily a Special Attacker, this ability reflects its thematic role as a hero and member of the Swords of Justice, punishing Dark-type foes who attempt to strike it.
+
+## Evolution & Biology
+Keldeo is a unique Mythical Pokémon and does not belong to a traditional multi-stage evolutionary line. However, it undergoes a **Form Change** rather than an evolution; when taught the move **Secret Sword** via a special tutor, Keldeo transforms from its "Ordinary Form" into its "Resolute Form," reflecting its growth and determination as a warrior. It belongs to the **No Eggs Discovered** egg group, meaning it cannot be bred in captivity. Its biology is optimized for aquatic and terrestrial mobility, using its water-jet hooves to maintain a speed advantage in various environments.

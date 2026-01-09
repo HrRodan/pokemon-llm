@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 276,
+    "name": "taillow",
+    "stats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 85
+    },
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 2.3,
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "taillow"
+    ],
+    "moves": [
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "double-edge",
+      "growl",
+      "supersonic",
+      "peck",
+      "counter",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "focus-energy",
+      "mirror-move",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "reversal",
+      "protect",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "heat-wave",
+      "facade",
+      "endeavor",
+      "refresh",
+      "secret-power",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "brave-bird",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "round",
+      "echoed-voice",
+      "quick-guard",
+      "work-up",
+      "hurricane",
+      "boomburst",
+      "confide"
+    ],
+    "held_items": [
+      "charti-berry"
+    ],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 376,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/276.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/276.png"
+    },
+    "species_name": "taillow",
+    "flavor_text": "TAILLOW courageously stands its ground against foes, however strong they may be. This gutsy POK\u00e9MON will remain defiant even after a loss. On the other hand, it cries loudly if it becomes hungry.",
+    "genus": "Tiny Swallow Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "grassland",
+    "shape": "wings",
+    "color": "blue",
+    "egg_groups": [
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/138/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 138,
+      "chain": {
+        "species_name": "taillow",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "swellow",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Darumaka (Pokedex #10176) is the Zen Charm Pokémon, a regional variant adapted to the frigid climates of the Galar region (Generation VIII). While the original Unovan Darumaka is fueled by an internal fire, this variant has seen its fire sac become dormant through adaptation to snowy peaks, resulting in a thick white coat and an organ that produces freezing air. According to its behavioral lore, when its internal energy burns, it becomes hyperactive and runs around uncontrollably, but it falls into a deep slumber once that energy diminishes. Despite being introduced in the Galar region, it remains categorized within the Generation V lineage. It eventually evolves into Galarian Darmanitan, a powerful predator that can access the unique "Zen Mode," transforming it into a dual Ice/Fire-type powerhouse.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 90, Defense 45, Sp. Atk 15, Sp. Def 45, Speed 50.
+* **Archetype:** Physical Wallbreaker.
+* **Type Matchups:** As a pure Ice-type, it is **weak to Fire, Fighting, Rock, and Steel**. It possesses a single **resistance to Ice**.
+* **Move Selection:** Maximizing its impressive base 90 Attack, Galarian Darumaka excels with physical moves like **Ice Punch** for STAB (Same Type Attack Bonus), **Flare Blitz** for high-damage coverage against Steel and Grass types, **Superpower** to punish Rock and Ice types, and **U-turn** for maintaining offensive momentum.
+* **Abilities:** **Hustle** (Increases Attack by 50% but reduces physical move accuracy by 20%, making it a high-risk, high-reward attacker). **Inner Focus** (Hidden Ability: Prevents the Pokémon from flinching and protects against the Attack drop from the Intimidate ability).
+
+## Evolution & Biology
+Galarian Darumaka is part of a two-stage evolutionary line. Unlike its Unovan cousin which evolves through growth, Galarian Darumaka evolves into Galarian Darmanitan specifically when **exposed to an Ice Stone**. This biological shift reflects its total dependency on the cold to reach its mature state. It belongs to the **Field** (Ground) egg group and has a hatch counter of 20. Its humanoid shape and 40.0kg weight make it surprisingly sturdy for its size, allowing it to navigate deep snowdrifts where it spends its life in a state of constant, energetic movement.

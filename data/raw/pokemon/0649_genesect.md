@@ -1,0 +1,12 @@
+## Identity & Lore
+Genesect (Pokedex #649) is the Paleozoic Pokémon, a powerful Mythical creature originating from the Generation V Unova region. Originally an apex hunter that dominated the world 300 million years ago, this ancient Bug-type was resurrected from a fossil and cybernetically enhanced by Team Plasma’s scientists. They equipped its back with a specialized cannon, transforming a prehistoric predator into a high-tech weapon of war. While it primarily appears in its purple metallic form, Genesect is famous for its modularity; by equipping various "Drives" (Burn, Chill, Douse, and Shock), it can alter the elemental typing of its signature weaponry. Though it does not possess a Mega Evolution or Gigantamax form, its presence is defined by its artificial augmentations and its status as a "modified" legend.
+
+## Combat Profile
+* **Stats:** HP 71, Attack 120, Defense 95, Sp. Atk 120, Sp. Def 95, Speed 99.
+* **Archetype:** Mixed Offensive Pivot. With perfectly balanced 120-base offensive stats, Genesect is a versatile threat capable of breaking through physical and special walls alike.
+* **Type Matchups:** It possesses a **Double Weakness (4x) to Fire**. Defensively, it is exceptionally sturdy, boasting an **Immunity to Poison** and **Resistances to Normal, Grass, Ice, Psychic, Bug, Dragon, Steel, and Fairy**.
+* **Move Selection:** Genesect utilizes its vast movepool to exploit enemy weaknesses. Key moves include **Techno Blast** (which changes type based on its held Drive), **U-turn** for momentum-generating pivoting, **Iron Head** for physical Steel-type STAB with a flinch chance, and **Ice Beam** or **Flamethrower** for essential special coverage against Dragon and Steel types.
+* **Abilities:** **Download** (Upon entering battle, Genesect compares the opponent’s Defense and Sp. Def, raising its own Attack if Defense is lower, or its Sp. Atk if Sp. Def is lower, ensuring it always hits where the enemy is most vulnerable).
+
+## Evolution & Biology
+Genesect is a single-stage Mythical Pokémon and does not evolve from or into any other species. As an artificial reconstruction of a Paleozoic organism, it belongs to the **No Eggs Discovered** group, meaning it cannot be bred. Despite its mechanical appearance, its biological core remains that of a hunter, evidenced by its aggressive predatory instincts and "Slow" growth rate. It is often associated with high-tech laboratories and was specifically designed to be the ultimate weapon for Team Plasma, blending ancient biological ferocity with modern Unovan engineering.

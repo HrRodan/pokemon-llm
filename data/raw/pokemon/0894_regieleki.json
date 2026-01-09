@@ -1,0 +1,130 @@
+{
+  "pokemon_details": {
+    "id": 894,
+    "name": "regieleki",
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 50,
+      "special-attack": 100,
+      "special-defense": 50,
+      "speed": 200
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 145.0,
+    "abilities": [
+      {
+        "name": "transistor",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "regieleki"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "thrash",
+      "hyper-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "screech",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "swift",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "zap-cannon",
+      "lock-on",
+      "endure",
+      "sleep-talk",
+      "rapid-spin",
+      "rain-dance",
+      "extreme-speed",
+      "ancient-power",
+      "facade",
+      "charge",
+      "bounce",
+      "shock-wave",
+      "assurance",
+      "magnet-rise",
+      "giga-impact",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "acrobatics",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "eerie-impulse",
+      "electric-terrain",
+      "rising-voltage",
+      "thunder-cage",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 290,
+    "is_default": true,
+    "order": 1086,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/894.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/894.png"
+    },
+    "species_name": "regieleki",
+    "flavor_text": "This Pok\u00e9mon is a cluster of electrical energy. It\u2019s said that removing the rings on Regieleki\u2019s body will unleash the Pok\u00e9mon\u2019s latent power.",
+    "genus": "Electron Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/472/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 472,
+      "chain": {
+        "species_name": "regieleki",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

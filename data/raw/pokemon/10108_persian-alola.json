@@ -1,0 +1,221 @@
+{
+  "pokemon_details": {
+    "id": 10108,
+    "name": "persian-alola",
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 75,
+      "special-defense": 65,
+      "speed": 115
+    },
+    "types": [
+      "dark"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 33.0,
+    "abilities": [
+      {
+        "name": "fur-coat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "persian-alola"
+    ],
+    "moves": [
+      "pay-day",
+      "scratch",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "hypnosis",
+      "agility",
+      "screech",
+      "double-team",
+      "confuse-ray",
+      "swift",
+      "amnesia",
+      "dream-eater",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "feint-attack",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "beat-up",
+      "fake-out",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "hyper-voice",
+      "fake-tears",
+      "aerial-ace",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "feint",
+      "u-turn",
+      "payback",
+      "assurance",
+      "embargo",
+      "last-resort",
+      "dark-pulse",
+      "night-slash",
+      "seed-bomb",
+      "power-gem",
+      "switcheroo",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "gunk-shot",
+      "captivate",
+      "smack-down",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "quash",
+      "retaliate",
+      "work-up",
+      "snarl",
+      "play-rough",
+      "confide",
+      "throat-chop",
+      "skitter-smack",
+      "burning-jealousy",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "quick-claw"
+    ],
+    "base_experience": 154,
+    "is_default": false,
+    "order": 92,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10108.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10108.png"
+    },
+    "species_name": "persian",
+    "flavor_text": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+    "genus": "Classy Cat Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "urban",
+    "shape": "quadruped",
+    "color": "yellow",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/22/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 22,
+      "chain": {
+        "species_name": "meowth",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "persian",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              },
+              {
+                "trigger": "level-up",
+                "min_happiness": 160
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "perrserker",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 28
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

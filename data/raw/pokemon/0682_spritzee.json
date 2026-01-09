@@ -1,0 +1,166 @@
+{
+  "pokemon_details": {
+    "id": 682,
+    "name": "spritzee",
+    "stats": {
+      "hp": 78,
+      "attack": 52,
+      "defense": 60,
+      "special-attack": 63,
+      "special-defense": 65,
+      "speed": 23
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.5,
+    "abilities": [
+      {
+        "name": "healer",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "aroma-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "spritzee"
+    ],
+    "moves": [
+      "disable",
+      "thunderbolt",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "sweet-kiss",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "encore",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "torment",
+      "facade",
+      "helping-hand",
+      "wish",
+      "magic-coat",
+      "endeavor",
+      "skill-swap",
+      "refresh",
+      "secret-power",
+      "aromatherapy",
+      "fake-tears",
+      "odor-sleuth",
+      "covet",
+      "calm-mind",
+      "gyro-ball",
+      "energy-ball",
+      "nasty-plot",
+      "flash-cannon",
+      "trick-room",
+      "captivate",
+      "charge-beam",
+      "telekinesis",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "misty-explosion"
+    ],
+    "held_items": [],
+    "base_experience": 68,
+    "is_default": true,
+    "order": 817,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/682.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/682.png"
+    },
+    "species_name": "spritzee",
+    "flavor_text": "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
+    "genus": "Perfume Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "pink",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/350/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 350,
+      "chain": {
+        "species_name": "spritzee",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "aromatisse",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "sachet"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Rockruff (Pokedex #744) is the Puppy Pokémon, a friendly and loyal quadruped introduced in Generation VII (Alola). Characterized by its brown fur and the sharp, pebble-laden ruff around its neck, it is frequently cited as an ideal companion for beginner trainers due to its sociable nature. However, as Rockruff matures, its disposition becomes increasingly wild and difficult to manage, often signaling its proximity to evolution by howling at the moon. While Rockruff does not possess a Mega Evolution or Gigantamax form itself, it is unique for its "branching" evolution into three distinct forms of Lycanroc (Midday, Midnight, and Dusk), each reflecting different behavioral traits influenced by the solar or lunar cycle.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 65, Defense 40, Sp. Atk 30, Sp. Def 40, Speed 60.
+* **Archetype:** Physical Early-game Attacker.
+* **Type Matchups:** As a pure Rock-type, it is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Fire, Poison, and Flying** types. 
+* **Move Selection:** Capitalizing on its physical Attack stat, Rockruff's most effective tools include **Stone Edge** for high-power STAB (Same Type Attack Bonus), **Crunch** for Dark-type coverage, **Sucker Punch** to compensate for its middling speed with priority, and **Stealth Rock** for competitive entry hazard support.
+* **Abilities:** Keen Eye (prevents accuracy from being lowered), Vital Spirit (prevents the Pokémon from falling asleep), and its Hidden Ability, Steadfast (increases Speed each time the Pokémon flinches).
+
+## Evolution & Biology
+Rockruff is part of a two-stage evolutionary line. It evolves into **Lycanroc** starting at Level 25, though the specific form it takes is highly dependent on environmental factors and innate traits. It evolves into **Midday Form** during the day, **Midnight Form** during the night, and the rare **Dusk Form** specifically when leveled up during the evening while possessing the "Own Tempo" ability. Biologically, Rockruff uses the rocks in its neck as a tool for both affection and combat, rubbing them against those it trusts. It belongs to the **Field (Ground)** Egg Group and has a hatch counter of 15, indicating a relatively fast breeding cycle for trainers looking to optimize its stats.

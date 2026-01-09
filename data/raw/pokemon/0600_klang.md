@@ -1,0 +1,12 @@
+## Identity & Lore
+Klang (Pokedex #600) is the Gear Pokémon, a complex mechanical organism first discovered in the Unova region (Generation V). Appearing as a pair of interlocking gears with a smaller, third gear attached to its side, Klang is an inorganic species that lives and breathes through rotational kinetic energy. It communicates its internal state to others by deliberately changing the direction and speed of its rotation; a sudden, rapid spinning is a primary biological indicator of anger. While Klang does not possess a Mega Evolution or Gigantamax form, it is recognized in competitive circles as a prerequisite for the powerful Klinklang, often utilizing the Eviolite item to bolster its naturally high durability.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 80, Defense 95, Sp. Atk 70, Sp. Def 85, Speed 50.
+* **Archetype:** Physical Setup Tank.
+* **Type Matchups:** As a pure Steel-type, it is **weak to Fighting, Ground, and Fire**. It provides immense defensive utility by **resisting** Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dragon, Steel, and Fairy types, and it possesses a total **immunity to Poison**.
+* **Move Selection:** Capitalizing on its physical prowess and access to one of the best setup moves in the game, Klang's optimal toolkit includes **Shift Gear** (to drastically raise Speed and Attack), **Gear Grind** (its signature multi-hit Steel STAB), **Wild Charge** (to punish Water and Flying types), and **Volt Switch** (to pivot out of unfavorable matchups).
+* **Abilities:** Plus and Minus (which provide a Special Attack boost if an ally has the corresponding ability, ideal for Double Battles); and its Hidden Ability, **Clear Body**, which prevents opponents from lowering its stats, making it immune to the effects of Intimidate or String Shot.
+
+## Evolution & Biology
+Klang is part of a three-stage evolutionary line. It evolves from **Klink** once it reaches **Level 38**, representing the addition of a third, larger gear to the system. To reach its final form, Klang must be **leveled up to 49**, at which point it evolves into **Klinklang**, gaining a red core and a large peripheral ring. It belongs to the **Mineral** egg group and has a hatch counter of 20, reflecting its dense, metallic composition. Its biology is entirely reliant on the seamless meshing of its parts; if the gears are separated, the Pokémon loses its ability to function.

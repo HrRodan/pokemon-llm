@@ -1,0 +1,158 @@
+{
+  "pokemon_details": {
+    "id": 1013,
+    "name": "sinistcha",
+    "stats": {
+      "hp": 71,
+      "attack": 60,
+      "defense": 106,
+      "special-attack": 121,
+      "special-defense": 80,
+      "speed": 70
+    },
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 2.2,
+    "abilities": [
+      {
+        "name": "hospitality",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heatproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "sinistcha-unremarkable",
+      "sinistcha-masterpiece"
+    ],
+    "moves": [
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "solar-beam",
+      "stun-spore",
+      "night-shade",
+      "withdraw",
+      "reflect",
+      "rest",
+      "substitute",
+      "curse",
+      "spite",
+      "protect",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "memento",
+      "imprison",
+      "astonish",
+      "iron-defense",
+      "magical-leaf",
+      "calm-mind",
+      "energy-ball",
+      "nasty-plot",
+      "trick-room",
+      "leaf-storm",
+      "rage-powder",
+      "foul-play",
+      "scald",
+      "hex",
+      "phantom-force",
+      "grassy-terrain",
+      "strength-sap",
+      "life-dew",
+      "poltergeist",
+      "tera-blast",
+      "matcha-gotcha"
+    ],
+    "held_items": [],
+    "base_experience": 178,
+    "is_default": true,
+    "order": 1097,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1013.png"
+    },
+    "species_name": "sinistcha",
+    "flavor_text": "It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.",
+    "genus": "Matcha Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 50,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "green",
+    "egg_groups": [
+      "mineral",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/539/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 539,
+      "chain": {
+        "species_name": "poltchageist",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sinistcha",
+            "evolution_details": [],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

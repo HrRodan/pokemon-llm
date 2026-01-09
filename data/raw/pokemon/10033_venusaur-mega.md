@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Venusaur (Pokedex #10033) is the Mega Evolved form of the classic Seed Pokémon from the Kanto region (Generation I). This transformation occurs when Venusaur is exposed to a Venusaurite Mega Stone. In this empowered state, the flower on its back grows even larger, supported by a sturdier, more muscular frame and new palm-like foliage. Its appearance reflects its lore as a creature that thrives on solar energy; the bloom is said to take on more vivid colors as it absorbs sunlight, often attracting other Pokémon with its sweet scent. While primarily found in the grasslands of Kanto, Mega Venusaur represents the peak of its evolutionary potential, though it should be noted that Venusaur also possesses a distinct **Gigantamax form** discovered in the Galar region, characterized by a flower so large it covers its entire body.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 100, Defense 123, Sp. Atk 122, Sp. Def 120, Speed 80.
+* **Archetype:** Bulky Special Tank (Mixed Wall).
+* **Type Matchups:** It is **weak to Flying and Psychic**. Due to its ability, it neutralizes its usual weaknesses to **Fire and Ice**. It effectively **resists Fighting, Water, Electric, Fairy**, and has a **Double Resistance (1/4x) to Grass**.
+* **Move Selection:** Utilizing its high Special Attack and sustainability, key moves include **Giga Drain** (for damage and recovery), **Sludge Bomb** (for STAB poison damage and fairy coverage), **Synthesis** (for reliable healing), and **Earthquake** or **Sleep Powder** (for utility and coverage against Steel and Fire types).
+* **Abilities:** **Thick Fat** (Reduces the power of incoming Fire-type and Ice-type moves by 50%, effectively removing two of its primary elemental weaknesses and making it an exceptional defensive pivot).
+
+## Evolution & Biology
+Mega Venusaur is the final temporary stage of a three-stage evolutionary line. It begins as **Bulbasaur**, which evolves into **Ivysaur** starting at Level 16, and then into **Venusaur** starting at Level 32. The transition to Mega Venusaur is a temporary mid-battle transformation rather than a permanent evolution. It belongs to the **Monster and Plant** egg groups, making it a versatile breeder. Biologically, it is a quadrupedal symbiotic organism; the plant on its back shares a neural connection with the Pokémon, allowing it to manipulate vines and spores with precision. Despite its massive weight of 155.5 kg, it remains mobile enough to seek out optimal sunlight to fuel its devastating **Solar Beam** and **Frenzy Plant** attacks.

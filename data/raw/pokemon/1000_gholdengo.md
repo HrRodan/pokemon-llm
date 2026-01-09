@@ -1,0 +1,12 @@
+## Identity & Lore
+Gholdengo (Pokedex #1000) is the Coin Entity Pokémon, a landmark species introduced in Generation IX (Paldea) as the one-thousandth entry in the National Pokédex. Its humanoid body is composed entirely of a stack of 1,000 gold coins, which it can manipulate for both movement—often manifesting a surfboard made of coins—and combat. Found primarily in the Paldea region, Gholdengo is described as an exceptionally gregarious Pokémon that quickly befriends humans and Pokémon alike. While it does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its unique status as the "millennial" Pokémon gives it a legendary-like prestige. Its golden, metallic luster is a testament to the 1,000 Gimmighoul coins required for its evolution, symbolizing wealth and prosperity within the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 87, Attack 60, Defense 95, Sp. Atk 133, Sp. Def 91, Speed 84.
+* **Archetype:** Bulky Special Sweeper / Setup Sweeper.
+* **Type Matchups:** It is **weak to Ground, Ghost, Fire, and Dark**. It possesses an incredible defensive profile, **resisting** Steel, Grass, Ice, Flying, Psychic, Rock, Dragon, and Fairy, while maintaining a **Double Resistance (1/4x) to Bug**. It is completely **immune to Normal, Fighting, and Poison** types.
+* **Move Selection:** Utilizing its massive Special Attack, Gholdengo dominates with its signature move **Make It Rain**, a high-power Steel-type attack that hits multiple targets. It rounds out its kit with **Shadow Ball** for secondary STAB, **Nasty Plot** to skyrocket its offensive pressure, and **Recover** to take advantage of its solid natural bulk.
+* **Abilities:** Good as Gold (An elite competitive ability that makes Gholdengo immune to all status moves from other Pokémon, including Taunt, Spore, Defog, and Thunder Wave, making it an incredible "anti-hazard" and "anti-support" unit).
+
+## Evolution & Biology
+Gholdengo is the final stage of a two-part evolutionary line. It evolves from **Gimmighoul** (either its Chest or Roaming Form) through a unique environmental trigger: the trainer must collect **999 Gimmighoul Coins** and then level Gimmighoul up. Once the coins are consumed, the Pokémon integrates them into its physical form to reach its gilded state. Biologically, it is a genderless entity and belongs to the **No-Eggs (Undiscovered)** group, meaning it cannot be bred in Daycare or Picnic facilities. Despite its heavy metallic composition, it is surprisingly agile, using its coin-manipulation abilities to adapt to various terrains.

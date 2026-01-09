@@ -1,0 +1,15 @@
+## Identity & Lore
+Lechonk (Pokedex #915) is the Hog Pokémon, a quintessential early-game encounter first discovered in the Paldea region during Generation IX. This quadrupedal, gray-colored Pokémon is characterized by its timid nature and an obsessive drive to forage for food. While it appears stout, its body is primarily composed of muscle built from its constant wandering in search of berries and wild grasses. It possesses an extraordinary sense of smell, which it uses exclusively for locating the most fragrant flora, though this often leads it to become startled by sudden movements or smells while its nose is to the ground. In Paldean culture, Lechonk is a beloved staple of the landscape, often found in the grassy fields near Poco Path. While Lechonk does not possess a Mega Evolution, Gigantamax, or Paradox form, its evolution Oinkologne is noted for having distinct gender-based physical and tactical variations.
+
+## Combat Profile
+* **Stats:** HP 54, Attack 45, Defense 40, Sp. Atk 35, Sp. Def 45, Speed 35.
+* **Archetype:** Early-game Physical Tank. In the Little Cup (LC) competitive tier, Lechonk functions as a bulky physical attacker with significant utility options.
+* **Type Matchups:** As a pure **Normal-type**, it is **weak to Fighting** and possesses a unique **immunity to Ghost**. It has no natural resistances, though its Hidden Ability can modify this.
+* **Move Selection:** Utilizing its higher Physical Attack stat and wide coverage pool, effective moves include **Body Slam** (for STAB damage and a 30% paralysis chance), **Play Rough** (crucial Fairy-type coverage against Fighting-types), **Zen Headbutt** (Psychic coverage for its primary weakness), and **Seed Bomb** (Grass-type utility against Ground/Rock types).
+* **Abilities:** 
+    * **Aroma Veil:** Protects Lechonk and its allies from effects that limit move choice, such as Taunt, Torment, or Encore.
+    * **Gluttony:** Causes the Pokémon to consume its held Berry at 50% HP rather than 25%, allowing for earlier healing or stat boosts.
+    * **Thick Fat (Hidden):** A premier defensive ability that provides 50% resistance to **Fire** and **Ice** moves, effectively granting Lechonk two elemental resistances it would not otherwise have.
+
+## Evolution & Biology
+Lechonk is part of a two-stage evolutionary line. It evolves into **Oinkologne** starting at **Level 18**. Upon evolution, the Pokémon's appearance and abilities shift significantly depending on its gender: the male form typically focuses on higher physical power (Lingering Aroma ability), while the female form often emphasizes support and bulk (Aroma Veil ability). Lechonk belongs to the **Ground** Egg Group, making it compatible with a vast array of terrestrial species for breeding. Despite its gourmet-tasting flesh being a point of lore in the Paldea region, it is a hardy survivor with a hatch counter of 15, making it relatively quick to breed and train for aspiring trainers.

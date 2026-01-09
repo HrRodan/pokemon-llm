@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 10090,
+    "name": "beedrill-mega",
+    "stats": {
+      "hp": 65,
+      "attack": 150,
+      "defense": 40,
+      "special-attack": 15,
+      "special-defense": 80,
+      "speed": 145
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 40.5,
+    "abilities": [
+      {
+        "name": "adaptability",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "beedrill-mega"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "fury-attack",
+      "twineedle",
+      "pin-missile",
+      "hyper-beam",
+      "peck",
+      "mega-drain",
+      "solar-beam",
+      "toxic",
+      "agility",
+      "rage",
+      "double-team",
+      "reflect",
+      "focus-energy",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "outrage",
+      "giga-drain",
+      "false-swipe",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pursuit",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "aerial-ace",
+      "roost",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "toxic-spikes",
+      "poison-jab",
+      "x-scissor",
+      "giga-impact",
+      "defog",
+      "bug-bite",
+      "venoshock",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "electroweb",
+      "drill-run",
+      "fell-stinger",
+      "confide",
+      "infestation",
+      "laser-focus",
+      "throat-chop",
+      "brutal-swing"
+    ],
+    "held_items": [
+      "poison-barb"
+    ],
+    "base_experience": 223,
+    "is_default": false,
+    "order": 20,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10090.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10090.png"
+    },
+    "species_name": "beedrill",
+    "flavor_text": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "genus": "Poison Bee Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "yellow",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/5/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 5,
+      "chain": {
+        "species_name": "weedle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kakuna",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "beedrill",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

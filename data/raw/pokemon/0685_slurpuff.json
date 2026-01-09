@@ -1,0 +1,163 @@
+{
+  "pokemon_details": {
+    "id": 685,
+    "name": "slurpuff",
+    "stats": {
+      "hp": 82,
+      "attack": 80,
+      "defense": 86,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 72
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 5.0,
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "slurpuff"
+    ],
+    "moves": [
+      "tackle",
+      "flamethrower",
+      "surf",
+      "hyper-beam",
+      "string-shot",
+      "thunderbolt",
+      "thunder",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "metronome",
+      "amnesia",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "cotton-spore",
+      "protect",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "sweet-scent",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "wish",
+      "magic-coat",
+      "endeavor",
+      "secret-power",
+      "aromatherapy",
+      "fake-tears",
+      "covet",
+      "calm-mind",
+      "gastro-acid",
+      "drain-punch",
+      "energy-ball",
+      "giga-impact",
+      "after-you",
+      "round",
+      "cotton-guard",
+      "sticky-web",
+      "draining-kiss",
+      "play-rough",
+      "fairy-wind",
+      "play-nice",
+      "confide",
+      "dazzling-gleam",
+      "misty-explosion"
+    ],
+    "held_items": [],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 820,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/685.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/685.png"
+    },
+    "species_name": "slurpuff",
+    "flavor_text": "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+    "genus": "Meringue Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 140,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/351/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 351,
+      "chain": {
+        "species_name": "swirlix",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "slurpuff",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "whipped-dream"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

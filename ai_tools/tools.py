@@ -92,6 +92,7 @@ GeminiModels = Literal[
     "gemini-flash-lite-latest",
     "models/imagen-4.0-generate-001",
     "gemini-2.5-pro-preview-tts",
+    "gemini-3-flash-preview",
 ]
 
 OpenRouterModels = Literal[

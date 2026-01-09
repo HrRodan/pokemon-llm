@@ -1,0 +1,12 @@
+## Identity & Lore
+Rotom-Heat (Pokedex #10008) is the Plasma Pokémon, a specialized Electric and Fire-type form of the versatile Pokémon Rotom, first discovered in the Sinnoh region (Generation IV). This specific form is manifest when Rotom’s plasma-based body inhabits a microwave oven, allowing it to manipulate thermal energy and wreak havoc on electronic circuitry. Its red, orb-like body is surrounded by orange plasma that mimics the shape of a heating appliance. While it does not possess a Mega Evolution or Gigantamax form, Rotom-Heat is one of five appliance-based transformations—alongside Wash, Mow, Frost, and Fan forms—that allow it to adapt its elemental properties to suit different combat environments.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 65, Defense 107, Sp. Atk 105, Sp. Def 107, Speed 86.
+* **Archetype:** Bulky Special Attacker / Pivot.
+* **Type Matchups:** It is **weak to Water and Rock**. While its Fire/Electric typing would naturally result in a **Double Weakness (4x) to Ground**, its ability effectively nullifies this threat. It **resists** Steel, Fire, Grass, Ice, Flying, Bug, and Fairy-type moves.
+* **Move Selection:** Capitalizing on its high Special Attack and utility, key moves include **Overheat** (a high-damage signature STAB move), **Thunderbolt** for consistent damage, **Volt Switch** to maintain offensive momentum by pivoting, and **Will-O-Wisp** to burn targets and compensate for its low base HP.
+* **Abilities:** Levitate (Gives the Pokémon full immunity to Ground-type moves and damaging entry hazards like Spikes and Toxic Spikes, a crucial trait that removes its most dangerous elemental vulnerability).
+
+## Evolution & Biology
+Rotom-Heat is part of a multi-form single-stage evolutionary line. It does not evolve via traditional leveling; instead, a base-form Rotom transforms into Rotom-Heat when it interacts with a specific microwave oven (often found in the "Rotom Catalog" or a specialized laboratory). This process is reversible, allowing it to cycle through various forms to gain different secondary typings. Biologically, it is a genderless entity composed of plasma that can merge with motor-driven machinery. It belongs to the Amorphous (Indeterminate) egg group and requires significant effort to hatch, with a hatch counter of 20. In its Heat form, it trades its Ghost-type traits for Fire-type prowess, drastically increasing its Defense and Special stats compared to its standard form.

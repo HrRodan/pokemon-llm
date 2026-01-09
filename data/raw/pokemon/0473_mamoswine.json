@@ -1,0 +1,230 @@
+{
+  "pokemon_details": {
+    "id": 473,
+    "name": "mamoswine",
+    "stats": {
+      "hp": 110,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 60,
+      "speed": 80
+    },
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "height_m": 2.5,
+    "weight_kg": 291.0,
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "mamoswine"
+    ],
+    "moves": [
+      "headbutt",
+      "fury-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "bite",
+      "roar",
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "peck",
+      "strength",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "amnesia",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "powder-snow",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "icy-wind",
+      "sandstorm",
+      "endure",
+      "charm",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "rock-smash",
+      "hail",
+      "facade",
+      "superpower",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "mud-sport",
+      "odor-sleuth",
+      "rock-tomb",
+      "sand-tomb",
+      "icicle-spear",
+      "block",
+      "mud-shot",
+      "rock-blast",
+      "natural-gift",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "mud-bomb",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "double-hit",
+      "smack-down",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "icicle-crash",
+      "freeze-dry",
+      "confide",
+      "high-horsepower",
+      "throat-chop",
+      "stomping-tantrum",
+      "body-press",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "hard-press"
+    ],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": true,
+    "order": 320,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/473.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/473.png"
+    },
+    "species_name": "mamoswine",
+    "flavor_text": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+    "genus": "Twin Tusk Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/112/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 112,
+      "chain": {
+        "species_name": "swinub",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "piloswine",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 33
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "mamoswine",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "known_move": "ancient-power"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

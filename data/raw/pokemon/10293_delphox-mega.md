@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Delphox (Pokedex #10293) is the Fox Pokémon, a formidable Fire and Psychic-type being that represents the peak of mystical evolution within the Kalos region (Generation VI). As a Mega Evolution, it amplifies the latent psychic energies of its base form, utilizing its signature branch as a conduit for devastating pyrokinesis. By gazing intently into the flickering flame at the tip of its branch, Mega Delphox enters a transcendent, focused state that allows it to peer into the future, anticipating enemy movements before they occur. This elegant, upright Pokémon is draped in fur reminiscent of a mage's robe, and while it originated in the Kalos region, its presence is felt across the competitive landscape as a premier special attacker.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 69, Defense 72, Sp. Atk 159, Sp. Def 125, Speed 134.
+* **Archetype:** Fast Special Sweeper. With a staggering base Special Attack and high Speed, Mega Delphox is designed to outpace opponents and land decisive one-hit knockouts.
+* **Type Matchups:** It is **weak to Ground, Rock, Water, Ghost, and Dark.** Conversely, it boasts a wide array of **resistances including Fire, Grass, Ice, Fighting, Steel, Psychic, and Fairy.**
+* **Move Selection:** Capitalizing on its elite Special Attack stat, Mega Delphox excels with high-intensity special moves. Key selections include **Fire Blast** (for maximum STAB damage), **Psychic** (to leverage its mental prowess), **Shadow Ball** (for coverage against Ghost types), and **Calm Mind** (to further boost its already immense offensive and defensive special capabilities).
+* **Tactical Note:** While its Special Defense is quite high, allowing it to take hits from other mages, its physical Defense is relatively low, making it vulnerable to strong physical priority moves like Sucker Punch or Aqua Jet.
+
+## Evolution & Biology
+Mega Delphox is the final stage of a three-part evolutionary line that begins with the Fire-type starter of the Kalos region. It evolves from **Fennekin** starting at **Level 16**, which then becomes **Braixen**. Braixen further matures into **Delphox** starting at **Level 36**. The transition into its Mega Form is achieved through the use of a Mega Stone during battle. Biologically, it belongs to the **Field (Ground)** egg group. Despite its fiery nature, it is classified under the "red" color category and maintains an "upright" bipedal shape to better facilitate the somatic components of its flame-based sorcery.

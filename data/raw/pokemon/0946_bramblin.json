@@ -1,0 +1,163 @@
+{
+  "pokemon_details": {
+    "id": 946,
+    "name": "bramblin",
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 30,
+      "special-attack": 45,
+      "special-defense": 35,
+      "speed": 60
+    },
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 0.6,
+    "abilities": [
+      {
+        "name": "wind-rider",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bramblin"
+    ],
+    "moves": [
+      "disable",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "night-shade",
+      "confuse-ray",
+      "defense-curl",
+      "rest",
+      "substitute",
+      "thief",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "sleep-talk",
+      "pain-split",
+      "rapid-spin",
+      "shadow-ball",
+      "beat-up",
+      "facade",
+      "astonish",
+      "bullet-seed",
+      "block",
+      "seed-bomb",
+      "energy-ball",
+      "shadow-sneak",
+      "leaf-storm",
+      "power-whip",
+      "grass-knot",
+      "hex",
+      "phantom-force",
+      "grassy-terrain",
+      "infestation",
+      "strength-sap",
+      "grassy-glide",
+      "poltergeist",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 55,
+    "is_default": true,
+    "order": 974,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/946.png"
+    },
+    "species_name": "bramblin",
+    "flavor_text": "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pok\u00e9mon.",
+    "genus": "Tumbleweed Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "ball",
+    "color": "brown",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/495/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 495,
+      "chain": {
+        "species_name": "bramblin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "brambleghast",
+            "evolution_details": [
+              {
+                "trigger": "other"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

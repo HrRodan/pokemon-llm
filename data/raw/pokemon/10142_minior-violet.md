@@ -1,0 +1,12 @@
+## Identity & Lore
+Minior (Pokedex #10142) is the Meteor Pokémon, a unique celestial being that originates from the ozone layer. This specific variant is the **Violet Core**, one of several vibrant colors hidden beneath its rocky exterior. First discovered in the Alola region during Generation VII, Minior survives by consuming dust in the atmosphere. When its heavy, rocky shell becomes too weighed down by accumulated detritus, it falls from the sky toward the planet's surface. While it lacks Mega Evolutions or Gigantamax forms, its biology is defined by its "Shields Down" transformation, which drastically alters its appearance and combat capabilities once its outer shell shatters.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 100, Defense 60, Sp. Atk 100, Sp. Def 60, Speed 120.
+* **Archetype:** Mixed Setup Sweeper. In its Core form, Minior sacrifices the massive defenses of its Meteor form for elite Speed and potent offensive stats.
+* **Type Matchups:** It is **weak to Water, Electric, Ice, Rock, and Steel**. It **resists Normal, Flying, Poison, Fire, and Bug**, and possesses a total **immunity to Ground** thanks to its Flying type.
+* **Move Selection:** Utilizing its balanced offensive stats and access to one of the best setup moves in the game, key moves include **Shell Smash** (to double its offensive pressure), **Acrobatics** (which doubles in power if a held item like a White Herb is consumed), **Power Gem** for reliable Special Rock STAB, and **Earthquake** for essential coverage against Steel and Electric types.
+* **Abilities:** Shields Down (The Pokémon remains in its protected Meteor Form while above 50% HP, granting it high defenses and immunity to status conditions. When HP drops below half, the shell breaks to reveal the Violet Core, doubling its Speed and significantly increasing its offensive stats).
+
+## Evolution & Biology
+Minior is part of a single-stage evolutionary line and does not evolve into or from any other Pokémon. However, it is biologically diverse, appearing in seven different core colors (Red, Orange, Yellow, Green, Blue, Indigo, and Violet) which are determined at birth and revealed only when its shell is compromised; notably, its Shiny form features a unique black core with multicolored spots. It belongs to the **Mineral** egg group and has a hatch counter of 25, making it a relatively difficult Pokémon to breed. Despite its rocky exterior, it is exceptionally light in its Core form, weighing only 0.3kg.

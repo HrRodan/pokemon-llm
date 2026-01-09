@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 818,
+    "name": "inteleon",
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "special-attack": 125,
+      "special-defense": 65,
+      "speed": 120
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 45.2,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "inteleon"
+    ],
+    "moves": [
+      "pound",
+      "swords-dance",
+      "bind",
+      "take-down",
+      "growl",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "agility",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "focus-energy",
+      "metronome",
+      "waterfall",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "whirlpool",
+      "facade",
+      "taunt",
+      "dive",
+      "hydro-cannon",
+      "weather-ball",
+      "air-cutter",
+      "muddy-water",
+      "icicle-spear",
+      "bounce",
+      "mud-shot",
+      "water-pulse",
+      "u-turn",
+      "fling",
+      "sucker-punch",
+      "aqua-ring",
+      "dark-pulse",
+      "air-slash",
+      "vacuum-wave",
+      "giga-impact",
+      "ice-shard",
+      "aqua-jet",
+      "smack-down",
+      "soak",
+      "round",
+      "scald",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "fell-stinger",
+      "liquidation",
+      "tearful-look",
+      "snipe-shot",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "flip-turn",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 265,
+    "is_default": true,
+    "order": 999,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/818.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/818.png"
+    },
+    "species_name": "inteleon",
+    "flavor_text": "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
+    "genus": "Secret Agent Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "water1",
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/432/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 432,
+      "chain": {
+        "species_name": "sobble",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "drizzile",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "inteleon",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

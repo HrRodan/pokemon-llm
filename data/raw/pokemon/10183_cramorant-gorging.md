@@ -1,0 +1,12 @@
+## Identity & Lore
+Gorging Cramorant (Pokedex #10183) is the Gorging Form of the Gulp Pokémon, a unique avian species primarily found in the Galar region of Generation VIII. This specific form is not a permanent state but a tactical biological shift that occurs mid-battle; when a Cramorant uses the moves Surf or Dive while its health is below 50%, it emerges with a Pikachu accidentally lodged in its throat instead of its usual Arrokuda prey. This blue, feathered Pokémon is notorious for its gluttonous nature and somewhat vacuous personality, often being so focused on swallowing its catch that it forgets the opponent it is currently facing. While it does not possess a Mega Evolution or a Gigantamax form, its ability to weaponize other Pokémon makes it one of the most mechanically distinct species in the Galar Dex.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 85, Defense 55, Sp. Atk 85, Sp. Def 95, Speed 85.
+* **Archetype:** Mixed Tactical Disruptor. With balanced offensive stats and decent Special Defense, it functions best as a utility attacker that punishes opponents for making contact.
+* **Type Matchups:** It is **weak to Rock and Ice**, and it possesses a catastrophic **Double Weakness (4x) to Electric**. Conversely, it **resists Fire, Water, Fighting, Bug, and Steel**, and maintains a total **Immunity to Ground** moves.
+* **Move Selection:** To maximize its balanced offensive presence and trigger its form changes, key moves include **Surf** (essential for entering Gorging Form), **Hurricane** (high-power STAB), **Scald** (for burn utility), and **Roost** (to manage its HP threshold for form triggers).
+* **Abilities:** Gulp-Missile (When the Pokémon uses Surf or Dive, it will catch prey. If it is hit by an attack while Gorging, it spits the Pikachu at the attacker, dealing damage equal to 1/4 of the attacker's max HP and guaranteed Paralysis).
+
+## Evolution & Biology
+Cramorant is part of a single-stage evolutionary line and does not evolve into or from any other Pokémon. However, it is a form-changing specialist. The "Gorging Form" is triggered exclusively through its **Gulp-Missile** ability during combat when its HP is at half or less. Biologically, it is a remarkably hardy hunter, capable of swallowing prey nearly as large as itself, though its lack of intelligence often leads to it choking on unintended targets like Pikachu. It belongs to the **Water 1 and Flying** Egg Groups, and researchers note a Hatch Counter of 20, indicating a moderate breeding cycle.

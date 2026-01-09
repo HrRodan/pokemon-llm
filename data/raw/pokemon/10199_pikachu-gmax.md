@@ -1,0 +1,14 @@
+## Identity & Lore
+Gigantamax Pikachu (Pokedex #10199) is the Gigantamax manifestation of the iconic Mouse Pokémon. While the species originates from Generation I (Kanto), this colossal form was discovered in the Galar region (Generation VIII). Standing at a towering 21 meters, Gigantamax Pikachu undergoes a physical transformation that pays homage to its "chubby" historical appearance, with its tail growing so long it can reach the clouds. It possesses such immense electrical power that it can generate lightning storms simply by gathering with others of its kind. Its signature power is concentrated in its tail, which it uses to strike opponents with the force of a lightning bolt. Beyond this form, Pikachu is famous for its evolutionary potential, having a Baby form (Pichu) and the ability to evolve into Raichu or the psychic Alolan Raichu.
+
+## Combat Profile
+* **Stats:** HP 35, Attack 55, Defense 40, Sp. Atk 50, Sp. Def 50, Speed 90.
+* **Archetype:** Fast Mixed Glass Cannon. While its base stats are humble, Pikachu is traditionally a high-speed offensive threat when holding a **Light Ball**, which doubles its Attack and Special Attack.
+* **Type Matchups:** It is **weak to Ground**. It provides valuable resistances against **Electric, Flying, and Steel** types.
+* **Move Selection:** Utilizing its Gigantamax power and mixed offensive capabilities, key moves include **Volt Tackle** (its signature high-recoil physical move), **Thunderbolt** (reliable special STAB), **G-Max Volt Crash** (which paralyzes all opponents on the field), and **Surf** or **Play Rough** for vital type coverage against Ground and Dragon types. 
+* **Abilities:** 
+    * **Static:** Provides a 30% chance to paralyze any opponent that makes physical contact, punishing physical attackers.
+    * **Lightning Rod (Hidden):** Grants total immunity to Electric-type moves and boosts Special Attack when hit by one, making it an excellent switch-in for doubles play.
+
+## Evolution & Biology
+Gigantamax Pikachu is part of a three-stage evolutionary line and represents a specialized state of the second stage. It begins life as **Pichu**, a baby Pokémon that evolves into **Pikachu** when leveled up with **High Friendship (220+ Tier)**. Under normal circumstances, Pikachu evolves into **Raichu** when exposed to a **Thunder Stone**. However, individuals capable of Gigantamaxing are unique and cannot evolve into Raichu while possessing the G-Max factor. Biologically, it belongs to both the **Ground and Fairy Egg Groups** and is known for its forest habitat where it stores electricity in its yellow cheek pouches. Despite its massive weight of 1000kg in this form, it remains a nimble quadrupedal species.

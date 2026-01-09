@@ -1,0 +1,12 @@
+## Identity & Lore
+Appletun (Pokedex #842) is the Apple Nectar Pokémon, a distinctive Grass/Dragon-type creature first discovered in the Galar region (Generation VIII). Its body is covered in a sweet, sticky nectar, and the skin on its back is said to be delicious, often eaten by children as a snack in the past. This quadrupedal Pokémon emits a powerful, nectarous scent that it uses to lure in the bug Pokémon it preys upon. While it appears humble and slow, it possesses a unique Gigantamax form (shared with its counterpart Flapple) where it transforms into a giant, nectar-filled apple capable of producing a "G-Max Sweetness" attack that heals the status conditions of its allies.
+
+## Combat Profile
+* **Stats:** HP 110, Attack 85, Defense 80, Sp. Atk 100, Sp. Def 80, Speed 30.
+* **Archetype:** Bulky Special Tank. With high base HP and a respectable Special Attack stat, Appletun is designed to absorb hits and retaliate with powerful specialized moves.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Fire, Dragon, and Fairy**, with a catastrophic **Double Weakness (4x) to Ice**. It effectively resists Ground, Water, and Electric, and has a double resistance (0.25x) to Grass.
+* **Move Selection:** Appletun excels when using its signature move **Apple Acid**, which deals damage and guaranteed lowers the target's Special Defense. To capitalize on its stats, it also utilizes **Dragon Pulse** for consistent STAB damage, **Giga Drain** for health maintenance, and **Recover** to maximize its longevity as a tank.
+* **Abilities:** **Ripen** doubles the effect of any held Berry, making it a unique defensive threat. **Gluttony** allows it to use its held Berry earlier than usual. Its Hidden Ability, **Thick Fat**, is highly prized competitively as it halves the damage taken from Fire and Ice-type moves, effectively neutralizing its Fire weakness and mitigating its quadruple Ice weakness.
+
+## Evolution & Biology
+Appletun is part of a complex, branching evolutionary line centered around Applin. It evolves from Applin when exposed to a **Sweet Apple**, a specific item found in the Galar region. This distinguishes it from Flapple (who requires a Tart Apple) and the more recently discovered Dipplin and Hydrapple found in the Kitakami and Blueberry Academy regions. Biologically, it is a member of both the **Plant and Dragon** Egg Groups and has a slow-then-very-fast growth rate, requiring significant effort to train initially before reaching its full potential quickly in later levels.

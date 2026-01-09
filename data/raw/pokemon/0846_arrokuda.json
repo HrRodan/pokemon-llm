@@ -1,0 +1,147 @@
+{
+  "pokemon_details": {
+    "id": 846,
+    "name": "arrokuda",
+    "stats": {
+      "hp": 41,
+      "attack": 63,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 30,
+      "speed": 66
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 1.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "propeller-tail",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "arrokuda"
+    ],
+    "moves": [
+      "fury-attack",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "bite",
+      "hydro-pump",
+      "surf",
+      "peck",
+      "agility",
+      "focus-energy",
+      "waterfall",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "rain-dance",
+      "crunch",
+      "whirlpool",
+      "facade",
+      "brick-break",
+      "dive",
+      "bounce",
+      "water-pulse",
+      "acupressure",
+      "close-combat",
+      "assurance",
+      "poison-jab",
+      "night-slash",
+      "ice-fang",
+      "aqua-jet",
+      "round",
+      "scald",
+      "drill-run",
+      "laser-focus",
+      "throat-chop",
+      "psychic-fangs",
+      "liquidation",
+      "scale-shot",
+      "flip-turn",
+      "tera-blast",
+      "chilling-water"
+    ],
+    "held_items": [],
+    "base_experience": 56,
+    "is_default": true,
+    "order": 1029,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/846.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/846.png"
+    },
+    "species_name": "arrokuda",
+    "flavor_text": "If it sees any movement around it, this Pok\u00e9mon charges for it straightaway, leading with its sharply pointed jaw. It\u2019s very proud of that jaw.",
+    "genus": "Rush Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "fish",
+    "color": "brown",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/445/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 445,
+      "chain": {
+        "species_name": "arrokuda",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "barraskewda",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 26
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

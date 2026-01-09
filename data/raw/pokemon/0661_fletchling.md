@@ -1,0 +1,12 @@
+## Identity & Lore
+Fletchling (Pokedex #661) is the Tiny Robin Pokémon, a small avian species first discovered in the Kalos region during Generation VI. This red-headed Pokémon is widely recognized for its friendly nature and its habit of sending signals to its peers through beautiful chirps and specific tail-feather movements. Despite its diminutive size and "Tiny Robin" classification, it is known to be surprisingly aggressive in battle once provoked. While Fletchling does not possess a Mega Evolution, Gigantamax, or Paradox form itself, its final evolution, Talonflame, is legendary in the competitive circuit for its high speed and signature ability. In the wild of Kalos and later regions like Paldea, Fletchling is a common sight in forests and meadows, often serving as a trainer's first introduction to the Flying type.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 50, Defense 43, Sp. Atk 40, Sp. Def 38, Speed 62.
+* **Archetype:** Early-game Speed Pivot.
+* **Type Matchups:** As a Normal/Flying type, it is **weak to Rock, Electric, and Ice**. It **resists Bug and Grass** and possesses two vital **immunities to Ground and Ghost** moves.
+* **Move Selection:** Capitalizing on its physical Attack and high Speed, Fletchling excels with moves like **Brave Bird** for high-impact STAB damage, **Acrobatics** (which doubles in power if no item is held), **U-turn** for maintaining offensive momentum, and **Roost** to sustain its health during longer skirmishes.
+* **Abilities:** **Big Pecks** (protects the Pokémon from having its Defense stat lowered by opponents) and its highly coveted Hidden Ability, **Gale Wings** (grants priority to Flying-type moves when the Pokémon is at full HP, allowing it to strike before even the fastest opponents).
+
+## Evolution & Biology
+Fletchling is the first stage of a three-stage evolutionary line. It evolves into **Fletchinder** starting at Level 17, at which point it sheds its Normal typing to become Fire/Flying. Fletchinder further evolves into the apex predator **Talonflame** at Level 35. Fletchling belongs to the **Flying** Egg Group and has a hatch counter of 15. Its biological development is marked by a "Medium-Slow" growth rate, reflecting the significant power spike it receives upon reaching its final, fiery form. Its anatomy is specifically adapted for high-speed maneuvers, represented by its "wings" shape classification.

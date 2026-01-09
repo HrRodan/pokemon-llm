@@ -1,0 +1,15 @@
+## Identity & Lore
+Pyroar (Pokedex #668) is the Royal Pokémon, a majestic leonine species first discovered in the Kalos region of Generation VI. This quadrupedal predator is distinguished by its dramatic sexual dimorphism; males possess a massive, flowing mane of fire shaped like the kanji for "fire," while females sport a long, singular ribbon-like mane of flame. As the leader of a pride, the male with the largest mane of fire is granted the most authority, fiercely protecting its kin with breaths of over 10,000 degrees Fahrenheit. While Pyroar does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its presence in the wild is synonymous with the savanna-like environments of Kalos and Paldea. Its regal bearing and "Royal" classification highlight its status at the top of the food chain, where it lives in social structures rare among feline Pokémon.
+
+## Combat Profile
+* **Stats:** HP 86, Attack 68, Defense 72, Sp. Atk 109, Sp. Def 66, Speed 106.
+* **Archetype:** Fast Special Sweeper. Pyroar relies on its high Speed and significant Special Attack to overwhelm opponents before they can exploit its relatively fragile defensive stats.
+* **Type Matchups:** It is **weak to Water, Ground, Rock, and Fighting**. It possesses a diverse set of **resistances including Fire, Grass, Ice, Bug, Steel, and Fairy**, and enjoys a complete **immunity to Ghost-type** moves due to its secondary Normal typing.
+* **Move Selection:** Capitalizing on its high Special Attack and Speed, Pyroar excels with a moveset including **Fire Blast** for massive STAB (Same Type Attack Bonus) damage, **Hyper Voice** as a reliable Normal-type STAB that bypasses Substitutes, **Overheat** for a high-intensity tactical nuke, and **Dark Pulse** for essential coverage against Psychic and Ghost-type threats.
+* **Abilities:** 
+    * **Rivalry:** Deals more damage to Pokémon of the same gender but less to those of the opposite gender, reflecting its pride-based social hierarchy.
+    * **Unnerve:** Intimidates the opponent, making them too nervous to eat held Berries, which can disrupt many defensive strategies.
+    * **Moxie (Hidden Ability):** Boosts the Attack stat after knocking out an opponent. While traditionally a physical-biased ability, it is less optimal for Pyroar's primary special-attacking role but can be used in niche mixed-attacker sets.
+
+## Evolution & Biology
+Pyroar is the final stage of a two-stage evolutionary line. It evolves from **Litleo** starting at **Level 35**. Biologically, it is a highly social Pokémon that belongs to the **Ground** egg group, with a hatch counter of approximately 20 cycles. In its natural habitat, young Litleo are often sent out from the pride to live independently to grow stronger before evolving into the dominant Pyroar. Its metabolism is fueled by internal fire, which it can vent through its mane to intimidate rivals or incinerate prey. Despite its aggressive nature in battle, it shows deep loyalty to its pride members, often working in tandem with other Pyroar to secure territory.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Scorbunny (Pokedex #813) is the Rabbit Pokémon, recognized as the energetic Fire-type starter of Generation VIII (Galar). This white, upright-standing Pokémon is defined by its extreme physical activity; it possesses special pads on its feet and a yellow patch on its nose that radiate heat. According to Galar lore, Scorbunny runs around to increase its body temperature, allowing fire energy to course through its system and elevate its physical capabilities to peak performance. While Scorbunny itself does not possess alternate forms, its final evolutionary stage, Cinderace, is capable of undergoing Gigantamaxing, transforming into a towering figure atop a massive fireball. As a pure Fire-type, it is frequently found in the care of new trainers beginning their journey in the Galar region.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 71, Defense 40, Sp. Atk 40, Sp. Def 40, Speed 69.
+* **Archetype:** Physical Speedster / Early-game Sweeper.
+* **Type Matchups:** It is **weak to Ground, Rock, and Water**. Offensively and defensively, it **resists Bug, Steel, Grass, Ice, Fire, and Fairy** types.
+* **Move Selection:** Capitalizing on its superior Attack and Speed, Scorbunny excels with physical strikes and momentum-shifting maneuvers. Key moves include **Flare Blitz** (high-power physical STAB), **Blaze Kick** (high critical-hit ratio), **High Jump Kick** (powerful Fighting-type coverage), and **U-turn** (allowing it to pivot out of unfavorable matchups).
+* **Abilities:** **Blaze** (Standard ability that powers up Fire-type moves by 50% when current HP is below one-third). **Libero** (Hidden Ability that changes the Pokémon's type to the type of the move it is about to use, granting a Same-Type Attack Bonus [STAB] on every offensive action).
+
+## Evolution & Biology
+Scorbunny is the initial stage of a three-stage evolutionary line. It evolves into **Raboot** upon reaching **Level 16**, which further evolves into the striker Pokémon **Cinderace** starting at **Level 35**. Biologically, Scorbunny is a high-metabolism creature that belongs to both the **Field (Ground)** and **Human-Like (Humanshape)** Egg Groups. It has a hatch counter of 20, meaning it requires a moderate amount of travel to hatch from an egg. Its growth rate is categorized as Medium-Slow, requiring disciplined training to reach its full potential as a professional-tier competitive combatant.

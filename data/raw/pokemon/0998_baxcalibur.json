@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 998,
+    "name": "baxcalibur",
+    "stats": {
+      "hp": 115,
+      "attack": 145,
+      "defense": 92,
+      "special-attack": 75,
+      "special-defense": 86,
+      "speed": 87
+    },
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 210.0,
+    "abilities": [
+      {
+        "name": "thermal-exchange",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "baxcalibur"
+    ],
+    "moves": [
+      "swords-dance",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "sleep-talk",
+      "dragon-breath",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "aerial-ace",
+      "icicle-spear",
+      "dragon-claw",
+      "dragon-dance",
+      "dragon-pulse",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "thunder-fang",
+      "ice-fang",
+      "zen-headbutt",
+      "draco-meteor",
+      "iron-head",
+      "bulldoze",
+      "dragon-tail",
+      "icicle-crash",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "scale-shot",
+      "tera-blast",
+      "glaive-rush",
+      "snowscape",
+      "dragon-cheer"
+    ],
+    "held_items": [],
+    "base_experience": 300,
+    "is_default": true,
+    "order": 951,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/998.png"
+    },
+    "species_name": "baxcalibur",
+    "flavor_text": "This Pok\u00e9mon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+    "genus": "Ice Dragon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 50,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "dragon",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/527/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 527,
+      "chain": {
+        "species_name": "frigibax",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "arctibax",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 35
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "baxcalibur",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 54
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

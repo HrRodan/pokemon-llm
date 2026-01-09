@@ -1,0 +1,194 @@
+{
+  "pokemon_details": {
+    "id": 474,
+    "name": "porygon-z",
+    "stats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 135,
+      "special-defense": 75,
+      "speed": 90
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 0.9,
+    "weight_kg": 34.0,
+    "abilities": [
+      {
+        "name": "adaptability",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "download",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "porygon-z"
+    ],
+    "moves": [
+      "tackle",
+      "take-down",
+      "double-edge",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "psychic",
+      "agility",
+      "double-team",
+      "recover",
+      "defense-curl",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "conversion",
+      "tri-attack",
+      "substitute",
+      "thief",
+      "snore",
+      "conversion-2",
+      "protect",
+      "zap-cannon",
+      "icy-wind",
+      "lock-on",
+      "endure",
+      "swagger",
+      "spark",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "facade",
+      "charge",
+      "trick",
+      "magic-coat",
+      "recycle",
+      "secret-power",
+      "signal-beam",
+      "aerial-ace",
+      "shock-wave",
+      "gravity",
+      "natural-gift",
+      "embargo",
+      "power-swap",
+      "guard-swap",
+      "last-resort",
+      "magnet-rise",
+      "dark-pulse",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "trick-room",
+      "discharge",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "foul-play",
+      "round",
+      "ally-switch",
+      "electroweb",
+      "confide",
+      "eerie-impulse",
+      "speed-swap",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 241,
+    "is_default": true,
+    "order": 227,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/474.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/474.png"
+    },
+    "species_name": "porygon-z",
+    "flavor_text": "Additional software was installed to make it a better Pok\u00e9mon. It began acting oddly, however.",
+    "genus": "Virtual Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "red",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/68/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 68,
+      "chain": {
+        "species_name": "porygon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "porygon2",
+            "evolution_details": [
+              {
+                "trigger": "trade",
+                "held_item": "up-grade"
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "porygon-z",
+                "evolution_details": [
+                  {
+                    "trigger": "trade",
+                    "held_item": "dubious-disc"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

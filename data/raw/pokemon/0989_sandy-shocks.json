@@ -1,0 +1,156 @@
+{
+  "pokemon_details": {
+    "id": 989,
+    "name": "sandy-shocks",
+    "stats": {
+      "hp": 85,
+      "attack": 81,
+      "defense": 97,
+      "special-attack": 121,
+      "special-defense": 85,
+      "speed": 101
+    },
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "height_m": 2.3,
+    "weight_kg": 60.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "sandy-shocks"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "supersonic",
+      "hyper-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "screech",
+      "light-screen",
+      "reflect",
+      "swift",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "protect",
+      "spikes",
+      "zap-cannon",
+      "sandstorm",
+      "endure",
+      "spark",
+      "sleep-talk",
+      "sunny-day",
+      "mirror-coat",
+      "facade",
+      "charge",
+      "metal-sound",
+      "sand-tomb",
+      "iron-defense",
+      "mud-shot",
+      "gravity",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "flash-cannon",
+      "discharge",
+      "stealth-rock",
+      "charge-beam",
+      "heavy-slam",
+      "electro-ball",
+      "volt-switch",
+      "bulldoze",
+      "electroweb",
+      "wild-charge",
+      "eerie-impulse",
+      "magnetic-flux",
+      "electric-terrain",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "scorching-sands",
+      "tera-blast",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 981,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/989.png"
+    },
+    "species_name": "sandy-shocks",
+    "flavor_text": "No records exist of this Pok\u00e9mon being caught. Data is lacking, but the Pok\u00e9mon\u2019s traits match up with a creature shown in an expedition journal.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/520/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 520,
+      "chain": {
+        "species_name": "sandy-shocks",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Hatterene (Pokedex #858) is the Silent Pokémon, a reclusive and powerful creature first discovered in the Galar region during Generation VIII. Reaching a height of 2.1 meters, it is known for its "Forest Witch" aesthetic, draped in a cloak of pink and blue hair-like structures. Hatterene is intensely solitary and sensitive to the emotions of others; it emits psychic power strong enough to cause debilitating headaches as a deterrent to keep living things from approaching. If an individual becomes too loud or expressive near it, Hatterene may use the claws on its tentacles to silence them violently. Beyond its standard form, Hatterene is capable of **Gigantamaxing**, gaining a massive, tower-like appearance and the ability to use the signature move G-Max Befuddle, which inflicts confusion on all opponents.
+
+## Combat Profile
+* **Stats:** HP 57, Attack 90, Defense 95, Sp. Atk 136, Sp. Def 103, Speed 29.
+* **Archetype:** Trick Room Special Sweeper. Its exceptionally low Speed stat makes it one of the premier offensive threats in Trick Room compositions, while its high Special Attack and respectable Special Defense allow it to function as a tanky Special Wallbreaker.
+* **Type Matchups:** It is **weak to Ghost, Steel, and Poison**. It possesses a vital **Immunity to Dragon** and a **Double Resistance (0.25x) to Fighting**, while also resisting Psychic-type moves.
+* **Move Selection:** Capitalizing on its elite Special Attack, key moves include **Psychic** (or Psyshock to hit specially defensive walls), **Dazzling Gleam** for spread Fairy damage, **Mystical Fire** to provide essential coverage against Steel-type weaknesses, and **Trick Room** to invert the turn order.
+* **Abilities:** **Healer** (Chance to cure an ally's status condition), **Anticipation** (Alerts the Pokémon to the presence of dangerous moves), and the highly competitive Hidden Ability **Magic Bounce**, which reflects status moves, hazards (like Stealth Rock), and taunts back at the user.
+
+## Evolution & Biology
+Hatterene is the final stage of a three-stage evolutionary line. It begins its life as **Hatenna**, which evolves into **Hattrem** starting at Level 32. Finally, Hattrem evolves into **Hatterene** starting at Level 42. This species is entirely female and belongs to the **Fairy** Egg Group. Despite its tall appearance, its true body is small and "blob-like," hidden beneath the mass of its psychic-responsive hair. It has a "Slow" growth rate, reflecting the time and discipline required to master its overwhelming psychic potential.

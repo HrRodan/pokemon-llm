@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 557,
+    "name": "dwebble",
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 85,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 55
+    },
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 14.5,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dwebble"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "counter",
+      "strength",
+      "solar-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "withdraw",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "feint-attack",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "knock-off",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "rock-blast",
+      "rock-polish",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "shadow-claw",
+      "rock-wrecker",
+      "stone-edge",
+      "stealth-rock",
+      "bug-bite",
+      "hone-claws",
+      "wide-guard",
+      "smack-down",
+      "round",
+      "shell-smash",
+      "struggle-bug",
+      "bulldoze",
+      "rototiller",
+      "confide",
+      "skitter-smack"
+    ],
+    "held_items": [
+      "rare-bone",
+      "hard-stone"
+    ],
+    "base_experience": 65,
+    "is_default": true,
+    "order": 678,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/557.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/557.png"
+    },
+    "species_name": "dwebble",
+    "flavor_text": "This Pok\u00e9mon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+    "genus": "Rock Inn Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "armor",
+    "color": "red",
+    "egg_groups": [
+      "bug",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/284/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 284,
+      "chain": {
+        "species_name": "dwebble",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "crustle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 34
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

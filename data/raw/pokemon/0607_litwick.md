@@ -1,0 +1,12 @@
+## Identity & Lore
+Litwick (Pokedex #607) is the Candle Pokémon, a dual-type Ghost and Fire-type creature first discovered in the Unova region (Generation V). Appearing as a small, white candle with a purple flame, its cute aesthetic masks a predatory nature. Litwick shines a light that appears to guide the way, but it is actually absorbing the life energy of people and Pokémon to fuel its flame. It thrives in dark, damp places like the Celestial Tower. While Litwick does not possess a Mega Evolution or Gigantamax form, its final evolution, Chandelure, is renowned as one of the most powerful non-legendary Special Attackers in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 30, Defense 55, Sp. Atk 65, Sp. Def 55, Speed 20.
+* **Archetype:** Trick Room Special Attacker. Due to its abysmal Speed but respectable Special Attack for a base-stage Pokémon, it excels in Trick Room compositions.
+* **Type Matchups:** It is **weak to Ghost, Dark, Ground, Rock, and Water**. It boasts a **Double Resistance (1/4x) to Bug** and resists Fire, Grass, Ice, Poison, and Steel. Furthermore, it is **immune to Normal and Fighting** types.
+* **Move Selection:** Capitalizing on its superior Special Attack stat, key moves include **Shadow Ball** (STAB), **Flamethrower** (STAB), **Energy Ball** (crucial coverage for Water, Rock, and Ground weaknesses), and **Fire Blast** (high-power offensive pressure).
+* **Abilities:** **Flash Fire** (Provides immunity to Fire-type moves and powers up its own Fire moves when hit by one), **Flame Body** (Gives a 30% chance to burn attackers who make contact), and the Hidden Ability **Infiltrator** (Allows moves to bypass the effects of Reflect, Light Screen, and Substitute).
+
+## Evolution & Biology
+Litwick is the first stage of a three-stage evolutionary line. It evolves into **Lampent** upon reaching **Level 41**, a late evolution for a base-stage Pokémon. Lampent further evolves into the formidable **Chandelure** when exposed to a **Dusk Stone**. Biologically, Litwick belongs to the **Amorphous (Indeterminate)** Egg Group. It is a slow-growing species, requiring a hatch counter of 20 (approximately 5,120 steps) to emerge from an Egg. Its biology is centered around the conversion of spiritual energy into thermal energy, a process that intensifies as it matures through its evolutionary stages.

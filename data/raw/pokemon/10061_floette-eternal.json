@@ -1,0 +1,167 @@
+{
+  "pokemon_details": {
+    "id": 10061,
+    "name": "floette-eternal",
+    "stats": {
+      "hp": 74,
+      "attack": 65,
+      "defense": 67,
+      "special-attack": 125,
+      "special-defense": 128,
+      "speed": 92
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 0.2,
+    "weight_kg": 0.9,
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "symbiosis",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "floette-eternal"
+    ],
+    "moves": [
+      "vine-whip",
+      "tackle",
+      "razor-leaf",
+      "solar-beam",
+      "petal-dance",
+      "toxic",
+      "psychic",
+      "double-team",
+      "flash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "giga-drain",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "wish",
+      "magic-coat",
+      "endeavor",
+      "secret-power",
+      "aromatherapy",
+      "covet",
+      "magical-leaf",
+      "calm-mind",
+      "lucky-chant",
+      "worry-seed",
+      "seed-bomb",
+      "energy-ball",
+      "grass-knot",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "ally-switch",
+      "petal-blizzard",
+      "grassy-terrain",
+      "misty-terrain",
+      "fairy-wind",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "light-of-ruin"
+    ],
+    "held_items": [],
+    "base_experience": 243,
+    "is_default": false,
+    "order": 803,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10061.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10061.png"
+    },
+    "species_name": "floette",
+    "flavor_text": "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+    "genus": "Single Bloom Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "arms",
+    "color": "white",
+    "egg_groups": [
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/344/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 344,
+      "chain": {
+        "species_name": "flabebe",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "floette",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 19
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "florges",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "shiny-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

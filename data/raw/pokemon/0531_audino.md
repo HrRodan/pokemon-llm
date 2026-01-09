@@ -1,0 +1,12 @@
+## Identity & Lore
+Audino (Pokedex #531) is the Hearing Pokémon, a compassionate species first discovered in the Unova region (Generation V). Characterized by its bipedal, pink-and-cream physique and oversized, sensitive ears, Audino serves as a natural diagnostic tool. It uses the feelers on its ears to sense heartbeats, allowing it to accurately assess the physical health and emotional state of both humans and other Pokémon. While primarily associated with the Unova region, it is globally recognized as a dedicated assistant in medical facilities. Although it does not have a standard evolution, Audino is capable of **Mega Evolution** when holding an Audinite, gaining the Fairy type and a significant boost to its defensive capabilities.
+
+## Combat Profile
+* **Stats:** HP 103, Attack 60, Defense 86, Sp. Atk 60, Sp. Def 86, Speed 50.
+* **Archetype:** Defensive Utility Tank / Cleric.
+* **Type Matchups:** As a pure Normal-type, it is **weak to Fighting** and possesses a total **immunity to Ghost**. It has no resistances to other types.
+* **Move Selection:** Audino excels in a supportive role, leveraging its high HP to sustain the team. Key moves include **Wish** for passing health to teammates, **Heal Bell** to cleanse status conditions, **Hyper Voice** for consistent STAB (Same Type Attack Bonus) damage, and **Knock Off** to disrupt opponents by removing their held items. 
+* **Abilities:** **Regenerator** is its most potent tactical tool, restoring 33% of its maximum HP whenever it switches out of battle. **Healer** provides a chance to cure an adjacent ally's status condition in double battles, while the hidden ability **Klutz** prevents it from utilizing its own held items (though it can be used to bypass the negative effects of items like the Iron Ball).
+
+## Evolution & Biology
+Audino is a single-stage Pokémon and does not evolve from or into any other species through traditional leveling. It belongs to the **Fairy** egg group, and its biology is geared toward endurance rather than raw offensive power, as evidenced by its fast growth rate and high base experience yield. In the wild, it is often found carrying **Sitrus Berries** or **Oran Berries**, which it likely uses to tend to injured Pokémon. Its role in the ecosystem is primarily that of a healer, often found in shaking grass where it avoids unnecessary conflict but provides a wealth of experience to those who engage it in training.

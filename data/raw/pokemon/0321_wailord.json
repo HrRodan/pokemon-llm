@@ -1,0 +1,175 @@
+{
+  "pokemon_details": {
+    "id": 321,
+    "name": "wailord",
+    "stats": {
+      "hp": 170,
+      "attack": 90,
+      "defense": 45,
+      "special-attack": 90,
+      "special-defense": 45,
+      "speed": 60
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 14.5,
+    "weight_kg": 398.0,
+    "abilities": [
+      {
+        "name": "water-veil",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pressure",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wailord"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "growl",
+      "roar",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "self-destruct",
+      "waterfall",
+      "amnesia",
+      "splash",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "astonish",
+      "weather-ball",
+      "rock-tomb",
+      "water-spout",
+      "block",
+      "bounce",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "iron-head",
+      "captivate",
+      "heavy-slam",
+      "soak",
+      "round",
+      "echoed-voice",
+      "scald",
+      "bulldoze",
+      "noble-roar",
+      "confide",
+      "liquidation",
+      "body-press",
+      "steel-roller"
+    ],
+    "held_items": [],
+    "base_experience": 175,
+    "is_default": true,
+    "order": 432,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/321.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/321.png"
+    },
+    "species_name": "wailord",
+    "flavor_text": "WAILORD is the largest of all identified POK\u00e9MON up to now. This giant POK\u00e9MON swims languorously in the vast open sea, eating massive amounts of food at once with its enormous mouth.",
+    "genus": "Float Whale Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "fast-then-very-slow",
+    "habitat": "sea",
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "ground",
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/161/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 161,
+      "chain": {
+        "species_name": "wailmer",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "wailord",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

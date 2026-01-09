@@ -1,0 +1,12 @@
+## Identity & Lore
+Simisear (Pokedex #514) is the Ember Pokémon, a simian species first discovered within the Unova region during Generation V. Characterized by the flame-like tuft of white-and-red fur atop its head, Simisear is known for the intense heat it radiates from its body. According to local lore, it has a specialized internal physiology that converts sugar into thermal energy; consequently, it possesses a notable craving for sweets to keep its internal fire burning. While Simisear does not currently have a Mega Evolution, Gigantamax form, or Paradox counterpart, it is recognized as a member of the "Elemental Monkey" trio alongside Simisage and Simipour, representing the burning passion of the Unovan forests.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 98, Defense 63, Sp. Atk 98, Sp. Def 63, Speed 101.
+* **Archetype:** Fast Mixed Attacker. Simisear occupies a niche where it can threaten opponents with both physical and special moves while outspeeding many mid-tier threats.
+* **Type Matchups:** As a pure Fire-type, it is **weak to Ground, Rock, and Water**. It **resists Bug, Steel, Grass, Ice, Fairy, and Fire** attacks.
+* **Move Selection:** Capitalizing on its perfectly balanced offensive stats and its respectable 101 Base Speed, Simisear excels with a diverse toolkit. Key moves include **Fire Blast** for high-power special STAB, **Superpower** to provide heavy-hitting physical coverage against Rock and Steel types, **Grass Knot** to punish heavy Water and Ground types, and **Flamethrower** for reliable, accurate Fire-type damage.
+* **Abilities:** **Gluttony** allows the Pokémon to consume a held berry (such as the Passho Berry to mitigate Water damage) earlier than usual when HP drops. Its Hidden Ability, **Blaze**, significantly boosts the power of Fire-type moves when Simisear's health is below one-third.
+
+## Evolution & Biology
+Simisear is the final form of a two-stage evolutionary line. It evolves from **Pansear** only when the pre-evolution is **exposed to a Fire Stone**. Biologically, it is categorized within the **Field** (Ground) egg group, making it compatible for breeding with many other mammalian Pokémon. With a hatch counter of 20, it requires a standard amount of travel to emerge from an egg. Its biology is centered around heat management; when excited or fueled by sugar, it can scatter embers from its head and tail to ward off predators or rival Pokémon.

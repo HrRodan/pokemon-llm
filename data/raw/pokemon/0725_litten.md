@@ -1,0 +1,12 @@
+## Identity & Lore
+Litten (Pokedex #725) is the Fire Cat Pokémon, a stoic and logical Fire-type starter originating from the Alola region in Generation VII. Characterized by its black fur with red stripes, Litten is known for its cool-headed demeanor, rarely showing its emotions. Its biology is unique; while grooming itself, it collects loose fur inside its stomach to create hairballs of flammable oil. By setting these fur balls alight, it can launch searing fire attacks at its foes, with the intensity of the flames changing based on how Litten coughs. While Litten does not possess a Mega Evolution or Paradox form itself, its final evolutionary form, Incineroar, is one of the most decorated competitive Pokémon in history and possesses a signature Z-Move, Malicious Moonsault.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 65, Defense 40, Sp. Atk 60, Sp. Def 40, Speed 70.
+* **Archetype:** Fast Physical Attacker. While its offensive stats are relatively balanced, its movepool and eventual evolution favor a physical approach with utility.
+* **Type Matchups:** As a pure Fire-type, it is **weak to Ground, Rock, and Water**. It **resists Bug, Steel, Grass, Ice, Fire, and Fairy** types.
+* **Move Selection:** Capitalizing on its physical Attack and high utility, key moves for Litten include **Flare Blitz** for massive STAB damage, **U-turn** for pivoting and momentum, **Shadow Claw** for coverage against Ghost and Psychic types, and **Parting Shot** to lower the enemy's offensive presence while switching out.
+* **Abilities:** **Blaze** increases the power of Fire-type moves by 50% when Litten's health is below one-third. Its Hidden Ability, **Intimidate**, is its most valuable asset, lowering the Attack stat of opposing Pokémon upon entering the battlefield—a trait that makes its evolutionary line a staple in VGC and doubles formats.
+
+## Evolution & Biology
+Litten is the first stage of a three-stage evolutionary line. It evolves into **Torracat** starting at Level 17, which eventually evolves into the powerhouse **Incineroar** starting at Level 34. Litten belongs to the **Field (Ground)** Egg Group, and breeders can expect a hatch counter of approximately 15 cycles. Its growth rate is medium-slow, reflecting the patience required to tame its independent nature and develop its full combat potential.

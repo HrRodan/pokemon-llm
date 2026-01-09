@@ -1,0 +1,168 @@
+{
+  "pokemon_details": {
+    "id": 940,
+    "name": "wattrel",
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special-attack": 55,
+      "special-defense": 40,
+      "speed": 70
+    },
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 3.6,
+    "abilities": [
+      {
+        "name": "wind-power",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "competitive",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "wattrel"
+    ],
+    "moves": [
+      "fly",
+      "take-down",
+      "growl",
+      "peck",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "agility",
+      "quick-attack",
+      "swift",
+      "rest",
+      "substitute",
+      "protect",
+      "endure",
+      "spark",
+      "sleep-talk",
+      "uproar",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "facade",
+      "charge",
+      "endeavor",
+      "feather-dance",
+      "weather-ball",
+      "air-cutter",
+      "aerial-ace",
+      "roost",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "air-slash",
+      "brave-bird",
+      "discharge",
+      "charge-beam",
+      "electro-ball",
+      "acrobatics",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "hurricane",
+      "eerie-impulse",
+      "electric-terrain",
+      "dual-wingbeat",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 56,
+    "is_default": true,
+    "order": 957,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/940.png"
+    },
+    "species_name": "wattrel",
+    "flavor_text": "When its wings catch the wind, the bones within produce electricity. This Pok\u00e9mon dives into the ocean, catching prey by electrocuting them.",
+    "genus": "Storm Petrel Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 180,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "wings",
+    "color": "black",
+    "egg_groups": [
+      "water1",
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/492/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 492,
+      "chain": {
+        "species_name": "wattrel",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kilowattrel",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Grapploct (Pokedex #853) is the Jujitsu Pokémon, a remarkable pure Fighting-type cephalopod introduced in the Galar region (Generation VIII). Its body is composed entirely of powerful, dense muscle, allowing it to execute grappling maneuvers with its tentacles that exert tremendous pressure. While it is an octopus and is frequently found in or near the ocean, it notably lacks the Water typing, though it retains the ability to learn many Water-type moves like Liquidation and Octazooka. Grapploct is known to emerge from the sea to search for opponents to test its strength against on land, returning to the water once its battle is finished. Although it currently does not possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its unique signature move, Octolock, makes it a distinct and feared wrestler of the shoreline.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 118, Defense 90, Sp. Atk 70, Sp. Def 80, Speed 42.
+* **Archetype:** Physical Tank / Bulky Wallbreaker.
+* **Type Matchups:** It is **weak to Flying, Psychic, and Fairy** types. It **resists Rock, Bug, and Dark** types.
+* **Move Selection:** With a formidable base 118 Attack, Grapploct excels with physical strikes and trapping utility. Key moves include **Close Combat** for massive STAB (Same Type Attack Bonus) damage, **Drain Punch** for health recovery, **Ice Punch** for essential coverage against Flying types, and its signature move **Octolock**, which prevents the target from fleeing and lowers their Defense and Special Defense every turn.
+* **Abilities:** **Limber** prevents the Pokémon from being afflicted by paralysis, ensuring it isn't further slowed down. Its Hidden Ability, **Technician**, is highly valuable as it increases the power of moves with a base power of 60 or less by 50%, significantly boosting the viability of moves like Ice Punch and Power-Up Punch.
+
+## Evolution & Biology
+Grapploct is part of a two-stage evolutionary line. It evolves from **Clobbopus** specifically when the Pokémon **levels up while knowing the move Taunt**. This unique evolution requirement reflects its combative nature and desire to provoke opponents into a physical confrontation. Biologically, Grapploct is characterized by its blue and teal coloration and its "human-like" fighting stance. It belongs to the **Water 1 and Human-Like Egg Groups**, highlighting its dual nature as both a marine creature and a sophisticated martial artist. It has a medium-slow growth rate, requiring significant training to reach its full potential as a master of jujitsu.

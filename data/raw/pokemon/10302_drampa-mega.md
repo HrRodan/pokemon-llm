@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Drampa (#10302) is a powerful Mega Evolution of the Placid Pokémon, a species originally discovered in the Alola region of Generation VII. This long, serpentine dragon-like Pokémon is characterized by its white, cloud-like plumage and a gentle, compassionate temperament. Drampa typically reside in high altitudes, exceeding 10,000 feet, but are known to descend to mountainsides to interact with and protect children. While naturally friendly, Mega Drampa embodies the species' "Berserk" nature; if a child it cares for is hurt, it can fly into a rage capable of leveling buildings with its intense breath. This Mega-evolved state likely channels its inner draconic energy to significantly harden its defenses and amplify its special offensive capabilities to cataclysmic levels.
+
+## Combat Profile
+* **Stats:** HP 78, Attack 85, Defense 110, Sp. Atk 160, Sp. Def 116, Speed 36.
+* **Archetype:** Bulky Special Wallbreaker / Trick Room Sweeper. With a massive Base 160 Special Attack and extremely low Speed, it is a premier candidate for Trick Room teams.
+* **Type Matchups:** As a Normal/Dragon-type, it is **weak to Fighting, Ice, Dragon, and Fairy**. It possesses a crucial **Immunity to Ghost** and **resists Fire, Water, Electric, and Grass**.
+* **Move Selection:** Leveraging its elite Special Attack and STAB (Same Type Attack Bonus) combination, its optimal moveset includes **Draco Meteor** for overwhelming power, **Hyper Voice** for consistent STAB damage that bypasses Substitutes, **Fire Blast** or **Flamethrower** to incinerate Steel-type counters, and **Roost** to capitalize on its 110/116 defensive bulk for longevity.
+* **Abilities:** While specific Mega-abilities may vary in custom data environments, the base species is defined by **Berserk** (boosting Special Attack when HP drops below half), **Sap Sipper** (providing an immunity to Grass moves and an Attack boost), and **Cloud Nine** (negating all weather effects).
+
+## Evolution & Biology
+Mega Drampa represents a temporary, high-energy evolution of Drampa, achieved through the use of a Mega Stone. Drampa is a single-stage evolutionary line and does not evolve from or into any other Pokémon through traditional leveling. It belongs to the **Monster** and **Dragon** Egg Groups, with a biological growth rate classified as Medium. Its "squiggle" body shape and white coloration allow it to blend into the mountain mists of the Alolan peaks where it makes its home.

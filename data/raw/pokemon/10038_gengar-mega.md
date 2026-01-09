@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Gengar (Pokedex #10038) is the Shadow Pokémon, representing the pinnacle of Gengar's spectral power through the phenomenon of Mega Evolution. Originally discovered in the Kanto region (Generation I), this purple, phantom-like entity transforms into a more menacing form that appears partially sunken into the ground, as if emerging from another dimension. According to lore, under a full moon, this Pokémon delights in mimicking the shadows of people and laughing at their fright. While Gengar is its base form, it also possesses the potential for **Gigantamaxing**, where it transforms into a massive, cavernous maw capable of swallowing everything. As a Mega Evolution, it gains a third eye on its forehead, allowing it to see into other dimensions and track its prey with terrifying precision.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 65, Defense 80, Sp. Atk 170, Sp. Def 95, Speed 130.
+* **Archetype:** Fast Special Sweeper / Revenge Killer.
+* **Type Matchups:** It is **weak to Ghost, Dark, Ground, and Psychic**. It possesses significant **resistances to Grass, Fairy, and Poison**, and a **Double Resistance (1/4x damage) to Bug**. It is completely **immune to Normal and Fighting** moves.
+* **Move Selection:** With a world-class Special Attack stat of 170, Mega Gengar is a devastating offensive threat. Key moves include **Shadow Ball** (high-power STAB), **Sludge Bomb** (STAB with a high poison chance), **Focus Blast** (to cover Dark and Steel types), and **Destiny Bond**, which allows it to take an opponent down with it when it faints.
+* **Abilities:** Shadow Tag (Prevents opposing Pokémon from switching out or fleeing, allowing Mega Gengar to trap and eliminate specific threats with ease).
+
+## Evolution & Biology
+Mega Gengar is the final stage of a three-stage evolutionary line, temporary triggered by the Gengarite Mega Stone. It begins its life as **Gastly**, a gaseous entity that evolves into **Haunter** upon reaching Level 25. To reach its true potential as **Gengar**, Haunter must be traded between trainers. While in its base form, it belongs to the **Indeterminate** Egg Group and is known to inhabit caves and urban areas where shadows are plentiful. Its biological cycle is relatively slow, indicated by a hatch counter of 20 and a medium-slow growth rate. Biology experts note its weight increases to 40.5 kg in this form, suggesting its spectral density hardens as it manifests its Mega-evolved power.

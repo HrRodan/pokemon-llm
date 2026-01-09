@@ -1,0 +1,186 @@
+{
+  "pokemon_details": {
+    "id": 290,
+    "name": "nincada",
+    "stats": {
+      "hp": 31,
+      "attack": 45,
+      "defense": 90,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 5.5,
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "nincada"
+    ],
+    "moves": [
+      "scratch",
+      "cut",
+      "gust",
+      "sand-attack",
+      "double-edge",
+      "absorb",
+      "solar-beam",
+      "string-shot",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "bide",
+      "leech-life",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "mind-reader",
+      "snore",
+      "flail",
+      "spite",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "shadow-ball",
+      "facade",
+      "secret-power",
+      "silver-wind",
+      "aerial-ace",
+      "natural-gift",
+      "night-slash",
+      "x-scissor",
+      "bug-buzz",
+      "bug-bite",
+      "hone-claws",
+      "round",
+      "final-gambit",
+      "struggle-bug",
+      "confide",
+      "skitter-smack"
+    ],
+    "held_items": [
+      "soft-sand"
+    ],
+    "base_experience": 53,
+    "is_default": true,
+    "order": 393,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/290.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/290.png"
+    },
+    "species_name": "nincada",
+    "flavor_text": "NINCADA lives underground for many years in complete darkness. This POK\u00e9MON absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.",
+    "genus": "Trainee Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": "forest",
+    "shape": "armor",
+    "color": "gray",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/144/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 144,
+      "chain": {
+        "species_name": "nincada",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ninjask",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "shedinja",
+            "evolution_details": [
+              {
+                "trigger": "shed"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

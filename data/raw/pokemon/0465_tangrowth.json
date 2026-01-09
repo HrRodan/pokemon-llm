@@ -1,0 +1,193 @@
+{
+  "pokemon_details": {
+    "id": 465,
+    "name": "tangrowth",
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 125,
+      "special-attack": 110,
+      "special-defense": 50,
+      "speed": 50
+    },
+    "types": [
+      "grass"
+    ],
+    "height_m": 2.0,
+    "weight_kg": 128.6,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tangrowth"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "bind",
+      "slam",
+      "vine-whip",
+      "headbutt",
+      "body-slam",
+      "hyper-beam",
+      "strength",
+      "absorb",
+      "mega-drain",
+      "growth",
+      "solar-beam",
+      "poison-powder",
+      "stun-spore",
+      "sleep-powder",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "reflect",
+      "constrict",
+      "amnesia",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "rock-tomb",
+      "tickle",
+      "bullet-seed",
+      "aerial-ace",
+      "block",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "fling",
+      "wring-out",
+      "power-swap",
+      "worry-seed",
+      "poison-jab",
+      "seed-bomb",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "leaf-storm",
+      "power-whip",
+      "captivate",
+      "grass-knot",
+      "double-hit",
+      "acid-spray",
+      "round",
+      "bulldoze",
+      "grassy-terrain",
+      "confide",
+      "infestation",
+      "solar-blade",
+      "brutal-swing",
+      "stomping-tantrum",
+      "grassy-glide"
+    ],
+    "held_items": [],
+    "base_experience": 187,
+    "is_default": true,
+    "order": 183,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/465.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/465.png"
+    },
+    "species_name": "tangrowth",
+    "flavor_text": "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+    "genus": "Vine Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 30,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/52/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 52,
+      "chain": {
+        "species_name": "tangela",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "tangrowth",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "ancient-power"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

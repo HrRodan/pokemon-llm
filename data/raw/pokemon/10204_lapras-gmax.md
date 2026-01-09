@@ -1,0 +1,15 @@
+## Identity & Lore
+Gigantamax Lapras (Pokedex #10204) is the Transport Pokémon, a majestic and colossal variant of the classic Water/Ice-type first discovered in Generation I (Kanto). While the base species is known for its gentle nature and its history of being over-hunted to the brink of extinction, this Gigantamax form is a manifestation of immense Galar power. In this state, Lapras grows to a staggering height of over 24 meters, and its shell becomes a massive cruise-liner-like structure surrounded by a ring of frozen ice crystals and musical bars. This form is unique to the Galar region (Generation VIII), where certain Lapras individuals possess the "Gigantamax Factor," allowing them to transform during Dynamax battles. Its flavor text highlights its utility to humans, often serving as a reliable ferry across icy seas and treacherous waters.
+
+## Combat Profile
+* **Stats:** HP 130, Attack 85, Defense 80, Sp. Atk 85, Sp. Def 95, Speed 60.
+* **Archetype:** Bulky Special Tank / Set-up Support. 
+* **Type Matchups:** It is **weak to Grass, Electric, Fighting, and Rock**. It notably **resists Ice and Water** (becoming immune to Water with the right ability).
+* **Move Selection:** Lapras-Gmax excels when utilizing its special movepool to trigger its unique G-Max effect. Key moves include **Freeze-Dry** (which allows it to hit Water-types for super-effective damage), **Hydro Pump** for high-power STAB, **Ice Beam** for consistency, and **Thunderbolt** for essential coverage against other Flying and Water types. In its Gigantamax form, any Ice-type move becomes **G-Max Resonance**, which deals massive damage and automatically sets up **Aurora Veil**, reducing damage from physical and special attacks for five turns.
+* **Abilities:** 
+    * **Water Absorb:** Grants immunity to Water-type moves and restores 25% of maximum HP when hit by one, making it a hard counter to rain-based teams.
+    * **Shell Armor:** Protects the Pokémon from critical hits, reinforcing its role as a sturdy tank.
+    * **Hydration (Hidden):** Heals status conditions at the end of the turn if it is raining, providing excellent synergy with Max Geyser.
+
+## Evolution & Biology
+Lapras-Gmax is part of a single-stage evolutionary line; it does not evolve from or into any other Pokémon. However, it represents a temporary biological peak achieved through the Gigantamax phenomenon. Biologically, it is a highly intelligent aquatic creature capable of understanding human speech. It belongs to the **Monster** and **Water 1** Egg Groups, with a slow growth rate and a high hatch counter, reflecting its rarity in the wild. Despite its lack of a standard evolution, its ability to shift into this G-Max form provides it with a tier of power comparable to many final-stage evolutions, combining its massive 130 base HP with the utility of G-Max Resonance to dominate the battlefield.

@@ -1,0 +1,178 @@
+{
+  "pokemon_details": {
+    "id": 515,
+    "name": "panpour",
+    "stats": {
+      "hp": 50,
+      "attack": 53,
+      "defense": 48,
+      "special-attack": 53,
+      "special-defense": 48,
+      "speed": 64
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 13.5,
+    "abilities": [
+      {
+        "name": "gluttony",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "torrent",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "panpour"
+    ],
+    "moves": [
+      "ice-punch",
+      "scratch",
+      "cut",
+      "leer",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "low-kick",
+      "dig",
+      "toxic",
+      "double-team",
+      "lick",
+      "waterfall",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "icy-wind",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "torment",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "recycle",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "astonish",
+      "rock-tomb",
+      "tickle",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "payback",
+      "fling",
+      "gastro-acid",
+      "aqua-ring",
+      "aqua-tail",
+      "nasty-plot",
+      "shadow-claw",
+      "gunk-shot",
+      "grass-knot",
+      "hone-claws",
+      "low-sweep",
+      "round",
+      "scald",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "disarming-voice",
+      "play-nice",
+      "confide"
+    ],
+    "held_items": [
+      "oran-berry",
+      "rindo-berry"
+    ],
+    "base_experience": 63,
+    "is_default": true,
+    "order": 630,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/515.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/515.png"
+    },
+    "species_name": "panpour",
+    "flavor_text": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+    "genus": "Spray Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/264/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 264,
+      "chain": {
+        "species_name": "panpour",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "simipour",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "water-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Glalie (Pokedex #10074) is the Mega Evolved form of the Face Pokémon, a transformation achieved when Glalie undergoes Mega Evolution using a Glalitite. Originally discovered in the Hoenn region (Generation III), this Ice-type Pokémon is characterized by its body of hardened rock encased in a thick, crystalline armor of ice. Upon Mega Evolving, the overwhelming energy of the transformation causes its lower jaw to break and unhinge, resulting in a massive, gaping maw that perpetually vents freezing air. This intense cold allows it to instantly freeze the moisture in the atmosphere to create sub-zero shards or defensive barriers. While it lacks a Gigantamax or Paradox form, its Mega Evolution represents the absolute peak of its predatory power, turning it into a living blizzard capable of consuming everything in its path.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 120, Defense 80, Sp. Atk 120, Sp. Def 80, Speed 100.
+* **Archetype:** Mixed Wallbreaker. With perfectly balanced 120/120 offensive stats and a respectable base 100 Speed, it can pressure opponents from both the physical and special sides.
+* **Type Matchups:** As a pure Ice-type, it is **weak to Fire, Fighting, Rock, and Steel**. It possesses a single resistance to **Ice** and has no natural immunities.
+* **Move Selection:** Capitalizing on its balanced offenses and unique ability, key moves include **Explosion** (a devastating nuke when converted by its ability), **Return** (a high-power STAB physical option), **Freeze-Dry** (essential for hitting Water-types super-effectively), and **Earthquake** (critical coverage against Steel and Fire-types). 
+* **Abilities:** Refrigerate (Converts all Normal-type moves used by the Pokémon into Ice-type moves and boosts their power by 20%. This provides Mega Glalie with some of the strongest Ice-type attacks in the game).
+
+## Evolution & Biology
+Mega Glalie is the final stage of a branching evolutionary line. It begins as **Snorunt**, a small Pokémon found in icy caves. Snorunt evolves into **Glalie** starting at Level 42. It is important to note that Snorunt has a branched path: while any Snorunt can become a Glalie, only a female Snorunt exposed to a Dawn Stone will evolve into Froslass. Mega Glalie is a temporary battle state that can only be reached by Glalie. Biologically, it is highly adapted to freezing environments and belongs to the **Fairy** and **Mineral** Egg Groups, with a medium growth rate and a high base weight of 350.2 kg due to its dense rock and ice composition.

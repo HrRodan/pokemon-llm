@@ -1,0 +1,151 @@
+{
+  "pokemon_details": {
+    "id": 870,
+    "name": "falinks",
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 70,
+      "special-defense": 60,
+      "speed": 75
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 3.0,
+    "weight_kg": 62.0,
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "falinks"
+    ],
+    "moves": [
+      "swords-dance",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "hyper-beam",
+      "counter",
+      "agility",
+      "screech",
+      "focus-energy",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "endure",
+      "false-swipe",
+      "sleep-talk",
+      "megahorn",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "beat-up",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "rock-tomb",
+      "iron-defense",
+      "bulk-up",
+      "close-combat",
+      "payback",
+      "assurance",
+      "poison-jab",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "round",
+      "retaliate",
+      "first-impression",
+      "high-horsepower",
+      "throat-chop",
+      "lunge",
+      "smart-strike",
+      "no-retreat",
+      "body-press",
+      "coaching",
+      "tera-blast",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 1054,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/870.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/870.png"
+    },
+    "species_name": "falinks",
+    "flavor_text": "Five of them are troopers, and one is the brass. The brass\u2019s orders are absolute.",
+    "genus": "Formation Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 25,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "heads",
+    "color": "yellow",
+    "egg_groups": [
+      "fairy",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/453/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 453,
+      "chain": {
+        "species_name": "falinks",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

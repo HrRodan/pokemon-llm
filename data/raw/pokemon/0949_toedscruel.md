@@ -1,0 +1,12 @@
+## Identity & Lore
+Toedscruel (Pokedex #949) is the Woodear Pokémon, a fascinating example of convergent evolution discovered in the Paldea region during Generation IX. While it bears a striking physical resemblance to the aquatic Tentacruel, Toedscruel is a terrestrial fungal organism that makes its home deep within lush forests. This black-colored, tentacled Pokémon is known to gather in large groups to form colonies. They are highly territorial and possess a reclusive nature, reportedly hating it when strangers or trainers approach their fungal settlements. Unlike its sea-dwelling lookalike, Toedscruel's "tentacles" are actually mycelium structures that it uses to walk and navigate the forest floor.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 70, Defense 65, Sp. Atk 80, Sp. Def 120, Speed 100.
+* **Archetype:** Specially Defensive Disruptor / Support.
+* **Type Matchups:** It is **weak to Fire, Flying, and Bug**, and possesses a devastating **Double Weakness (4x) to Ice**. It **resists Ground and Rock** and maintains a total **immunity to Electric** attacks.
+* **Move Selection:** Utilizing its solid Speed and Special Attack, Toedscruel excels with a kit including **Spore** (the most accurate sleep-inducing move), **Earth Power** (strong Special Ground STAB), **Giga Drain** (for recovery and Special Grass STAB), and **Leaf Storm** (for high-power offensive pressure). It also has access to excellent utility in **Knock Off** and **Rapid Spin**.
+* **Abilities:** Mycelium Might (A unique ability where Toedscruel's status moves act with lower priority, but they bypass the abilities of the target, allowing it to land moves like Spore on Pokémon with Gholdengo's "Good as Gold" or Garganacl's "Purifying Salt").
+
+## Evolution & Biology
+Toedscruel is the final stage of a two-stage evolutionary line. It evolves from **Toedscool** once it reaches **Level 30**. Biologically, it is classified within the **Plant** egg group, and despite its appearance, it behaves more like a mushroom than a jellyfish. Its long, elastic legs allow it to run at surprisingly high speeds, though it often uses them to wrap around prey or intruders. Trainers looking to breed this species should note a hatch counter of 20 and a medium-slow growth rate.

@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 438,
+    "name": "bonsly",
+    "stats": {
+      "hp": 50,
+      "attack": 80,
+      "defense": 95,
+      "special-attack": 10,
+      "special-defense": 45,
+      "speed": 10
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 0.5,
+    "weight_kg": 15.0,
+    "abilities": [
+      {
+        "name": "sturdy",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "bonsly"
+    ],
+    "moves": [
+      "slam",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "low-kick",
+      "counter",
+      "rock-throw",
+      "earthquake",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "self-destruct",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "feint-attack",
+      "mud-slap",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "uproar",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "role-play",
+      "brick-break",
+      "secret-power",
+      "fake-tears",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "block",
+      "mud-shot",
+      "covet",
+      "calm-mind",
+      "rock-blast",
+      "natural-gift",
+      "copycat",
+      "sucker-punch",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "stone-edge",
+      "captivate",
+      "stealth-rock",
+      "grass-knot",
+      "head-smash",
+      "smack-down",
+      "foul-play",
+      "after-you",
+      "round",
+      "bulldoze",
+      "confide",
+      "stomping-tantrum",
+      "tearful-look",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 58,
+    "is_default": true,
+    "order": 280,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/438.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/438.png"
+    },
+    "species_name": "bonsly",
+    "flavor_text": "It looks as if it is always crying. It is actually adjusting its body\u2019s fluid levels by eliminating excess.",
+    "genus": "Bonsai Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": true,
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "legs",
+    "color": "brown",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/91/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 91,
+      "chain": {
+        "species_name": "bonsly",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sudowoodo",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "mimic"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

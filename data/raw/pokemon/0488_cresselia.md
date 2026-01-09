@@ -1,0 +1,12 @@
+## Identity & Lore
+Cresselia (Pokedex #488) is the Legendary **Lunar Pokémon** introduced in **Generation IV (Sinnoh)**. Renowned for its elegance, this pure Psychic-type possesses a yellow, swan-like body adorned with pink rings on its sides. It is said to represent the crescent moon and serves as the benevolent counterpart to the nightmare-inducing Darkrai; together, they form the **Lunar Duo**. According to Sinnoh myths, Cresselia travels across the night sky, releasing shiny particles from its veil-like wings that have the power to dispel nightmares. In the Hisui region (ancient Sinnoh), it is revered as a noble entity capable of bestowing blessings. While it does not have a Mega Evolution or Gigantamax form, it gained a significant lore expansion and signature move in *Pokémon Legends: Arceus*.
+
+## Combat Profile
+*   **Stats:** HP 120, Attack 70, Defense 110, Sp. Atk 75, Sp. Def 120, Speed 85.
+*   **Archetype:** **Mixed Wall / Support Tank**. With colossal bulk across HP, Defense, and Special Defense, Cresselia is one of the most durable defensive pivots in the franchise.
+*   **Type Matchups:** As a pure Psychic-type, it is **weak to Bug, Ghost, and Dark** moves. It **resists Fighting and Psychic** attacks. Crucially, its Ability grants it a complete **immunity to Ground-type** moves and entry hazards like Spikes.
+*   **Move Selection:** Capitalizing on its high durability and decent Special Attack, an optimal set includes **Moonblast** for coverage against Dark-types, **Psychic** for primary STAB damage, **Calm Mind** to simultaneously boost its offensive presence and special bulk, and its signature move **Lunar Blessing** (or **Moonlight**) to restore HP and cure status conditions. **Lunar Dance** is also a viable option for a sacrificial full-heal to a teammate.
+*   **Abilities:** **Levitate** (makes the Pokémon immune to Ground-type moves). This is vital for Cresselia's viability, removing a potential weakness and allowing it to switch into Earthquakes freely.
+
+## Evolution & Biology
+Cresselia is a **Legendary Pokémon** and is not part of an evolutionary chain; it does not evolve from or into any other Pokémon. It belongs to the **No Eggs** (Undiscovered) Egg Group, meaning it cannot breed, though it is exclusively female. In the wild, Cresselia is often encountered as a **Roaming Pokémon** after the player interacts with the Lunar Wing on Fullmoon Island. Biologically, it is noted for the aurora-colored light it emits, which is said to bring sweet dreams to those who hold one of its feathers.

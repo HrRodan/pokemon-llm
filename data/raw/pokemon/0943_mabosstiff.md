@@ -1,0 +1,15 @@
+## Identity & Lore
+Mabosstiff (#943) is the Boss Pokémon, a powerful and imposing Dark-type introduced in the Paldea region during Generation IX. Standing 1.1 meters tall and weighing 61 kilograms, this gray, mastiff-like creature is characterized by its large, saggy dewlap which serves as a biological storage unit for energy. In battle, it unleashes this stored power all at once, creating a force capable of blowing away even the most resilient enemies. While it possesses a frightening appearance and a deep, rumbling voice, it is known for its protective nature; in Paldean lore, it is most famously recognized as the loyal partner of Arven, playing a central role in the "Path of Legends" storyline. Though it does not currently possess a Mega Evolution, Gigantamax form, or Paradox counterpart, its presence as a late-game powerhouse makes it a staple of the Paldean wilderness.
+
+## Combat Profile
+* **Stats:** HP 80, Attack 120, Defense 90, Sp. Atk 60, Sp. Def 70, Speed 85.
+* **Archetype:** Physical Wallbreaker / Bulky Attacker. With a high base Attack of 120 and respectable physical bulk, Mabosstiff excels at pressuring opponents through raw physical force and trapping mechanics.
+* **Type Matchups:** As a pure Dark-type, it is **weak to Fighting, Bug, and Fairy**. It possesses **resistances to Ghost and Dark** and maintains a complete **immunity to Psychic** damage.
+* **Move Selection:** Capitalizing on its high Attack and its signature "jaw" based themes, key moves include **Crunch** for reliable STAB damage, **Jaw Lock** to prevent opponents from fleeing, **Play Rough** for Fairy-type coverage against Fighting-types, and **Psychic Fangs** to shatter enemy barriers like Reflect and Light Screen.
+* **Abilities:** 
+    * **Intimidate:** Upon entering battle, it lowers the Attack stat of all opposing Pokémon, significantly increasing its physical longevity.
+    * **Guard Dog:** A unique defensive ability that prevents Mabosstiff from being forced out of battle by moves like Roar or Whirlwind; additionally, if an opponent attempts to Intimidate Mabosstiff, its Attack is boosted instead of lowered.
+    * **Stakeout (Hidden Ability):** Doubles the damage dealt to any target that switched into the field during that turn, making Mabosstiff a terrifying threat against players who frequently cycle their Pokémon.
+
+## Evolution & Biology
+Mabosstiff is the final form of a two-stage evolutionary line. It evolves from **Maschiff** once it reaches **Level 30**. Biologically, it is a quadruped with a thick coat and a grimace that can scare off smaller predators before a fight even begins. Despite its "Boss" moniker and intimidating scowl, it is incredibly fond of children and its designated family unit. It belongs to the **Ground** Egg Group, and with a hatch counter of 20, it is a relatively accessible Pokémon for breeders looking to optimize for competitive play. Its growth rate is medium-slow, reflecting the time and patience required to cultivate the loyalty and power seen in mature specimens.

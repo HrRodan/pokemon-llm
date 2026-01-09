@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 618,
+    "name": "stunfisk",
+    "stats": {
+      "hp": 109,
+      "attack": 66,
+      "defense": 84,
+      "special-attack": 81,
+      "special-defense": 99,
+      "speed": 32
+    },
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "height_m": 0.7,
+    "weight_kg": 11.0,
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "limber",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "stunfisk"
+    ],
+    "moves": [
+      "tackle",
+      "water-gun",
+      "surf",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "double-team",
+      "bide",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "flail",
+      "spite",
+      "protect",
+      "sludge-bomb",
+      "mud-slap",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "uproar",
+      "facade",
+      "charge",
+      "revenge",
+      "yawn",
+      "endeavor",
+      "secret-power",
+      "camouflage",
+      "mud-sport",
+      "astonish",
+      "rock-tomb",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "shock-wave",
+      "water-pulse",
+      "payback",
+      "me-first",
+      "sucker-punch",
+      "magnet-rise",
+      "aqua-tail",
+      "earth-power",
+      "mud-bomb",
+      "discharge",
+      "stone-edge",
+      "stealth-rock",
+      "sludge-wave",
+      "foul-play",
+      "round",
+      "scald",
+      "reflect-type",
+      "bulldoze",
+      "electroweb",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "infestation",
+      "stomping-tantrum",
+      "lash-out"
+    ],
+    "held_items": [
+      "soft-sand"
+    ],
+    "base_experience": 165,
+    "is_default": true,
+    "order": 740,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/618.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png"
+    },
+    "species_name": "stunfisk",
+    "flavor_text": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+    "genus": "Trap Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "fish",
+    "color": "brown",
+    "egg_groups": [
+      "water1",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/313/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 313,
+      "chain": {
+        "species_name": "stunfisk",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

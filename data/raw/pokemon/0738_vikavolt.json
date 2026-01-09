@@ -1,0 +1,203 @@
+{
+  "pokemon_details": {
+    "id": 738,
+    "name": "vikavolt",
+    "stats": {
+      "hp": 77,
+      "attack": 70,
+      "defense": 90,
+      "special-attack": 145,
+      "special-defense": 75,
+      "speed": 43
+    },
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 45.0,
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "vikavolt"
+    ],
+    "moves": [
+      "vice-grip",
+      "guillotine",
+      "fly",
+      "take-down",
+      "bite",
+      "hyper-beam",
+      "solar-beam",
+      "string-shot",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "screech",
+      "double-team",
+      "harden",
+      "light-screen",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "zap-cannon",
+      "endure",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "charge",
+      "signal-beam",
+      "iron-defense",
+      "mud-shot",
+      "shock-wave",
+      "roost",
+      "magnet-rise",
+      "poison-jab",
+      "air-slash",
+      "x-scissor",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "flash-cannon",
+      "discharge",
+      "bug-bite",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "sky-drop",
+      "acrobatics",
+      "volt-switch",
+      "struggle-bug",
+      "bulldoze",
+      "electroweb",
+      "wild-charge",
+      "sticky-web",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "laser-focus",
+      "lunge",
+      "rising-voltage",
+      "skitter-smack",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce",
+      "supercell-slam"
+    ],
+    "held_items": [],
+    "base_experience": 225,
+    "is_default": true,
+    "order": 885,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/738.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/738.png"
+    },
+    "species_name": "vikavolt",
+    "flavor_text": "It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies.",
+    "genus": "Stag Beetle Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "armor",
+    "color": "blue",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/379/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 379,
+      "chain": {
+        "species_name": "grubbin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "charjabug",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "vikavolt",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "location": "vast-poni-canyon"
+                  },
+                  {
+                    "trigger": "level-up",
+                    "location": "blush-mountain"
+                  },
+                  {
+                    "trigger": "use-item",
+                    "item": "thunder-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

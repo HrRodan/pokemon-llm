@@ -1,0 +1,14 @@
+## Identity & Lore
+Aurorus (Pokedex #699) is the majestic Tundra Pokémon, a massive quadrupedal sauropod that was revived from a Sail Fossil. First discovered in the Kalos region (Generation VI), this Ice/Rock-type is recognized by the flowing, aurora-like membranes that extend from its head and the diamond-shaped crystals embedded along its body. These crystals possess the incredible ability to expel air as cold as -240 degrees Fahrenheit, allowing Aurorus to instantly encase its enemies in ice or create shimmering walls of frozen moisture to protect itself. While it is generally a peaceful herbivore that lived in cold, ancient climates, its presence is intimidating due to its sheer size—standing 2.7 meters tall. Though it currently lacks a Mega Evolution or Gigantamax form, it is often compared to other fossil giants like Tyrantrum and is considered a prime example of prehistoric biological adaptation to arctic environments.
+
+## Combat Profile
+* **Stats:** HP 123, Attack 77, Defense 72, Sp. Atk 99, Sp. Def 92, Speed 58.
+* **Archetype:** Bulky Special Attacker / Weather Setter.
+* **Type Matchups:** It is **weak to Water, Grass, Ground, and Rock**, with a catastrophic **Double Weakness (4x) to Fighting and Steel**. It **resists Normal, Flying, Poison, and Ice**.
+* **Move Selection:** Aurorus relies on its solid Special Attack and unique type coverage to pressure opponents. Key moves include **Freeze-Dry** (which hits Water-types with super-effective damage), **Blizzard** (highly accurate in Snow), **Earth Power** (to cover Steel and Rock weaknesses), and **Meteor Beam** (a powerful Rock-type move that boosts Special Attack).
+* **Abilities:** 
+    * **Refrigerate:** Converts Normal-type moves into Ice-type moves and grants them a 20% power boost. This allows Aurorus to use moves like *Hyper Voice* as devastating Ice STAB (Same Type Attack Bonus) attacks.
+    * **Snow Warning (Hidden):** Automatically summons a hailstorm or snow upon entering battle, boosting the evasion of certain allies or the defense of Rock-types, while making its *Blizzard* perfectly accurate.
+
+## Evolution & Biology
+Aurorus is the final stage of a two-stage evolutionary line. It evolves from **Amaura** when leveled up to **Level 39 specifically during the night**. Biologically, it is a cold-blooded creature that generates extreme cold to regulate its internal temperature, a trait that made it perfectly suited for the ice ages of the Pokémon world's past. It belongs to the **Monster** egg group, and because it is a Fossil Pokémon, it is extremely rare to find in the wild, usually requiring scientific revival of a Sail Fossil to obtain. Trainers value it for its high HP pool and its ability to manipulate the battlefield's weather.

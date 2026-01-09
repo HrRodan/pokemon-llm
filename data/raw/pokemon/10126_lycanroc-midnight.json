@@ -1,0 +1,209 @@
+{
+  "pokemon_details": {
+    "id": 10126,
+    "name": "lycanroc-midnight",
+    "stats": {
+      "hp": 85,
+      "attack": 115,
+      "defense": 75,
+      "special-attack": 55,
+      "special-defense": 75,
+      "speed": 82
+    },
+    "types": [
+      "rock"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 25.0,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "lycanroc-midnight"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "sand-attack",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "counter",
+      "rock-throw",
+      "dig",
+      "toxic",
+      "double-team",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "sunny-day",
+      "crunch",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "hyper-voice",
+      "odor-sleuth",
+      "rock-tomb",
+      "iron-defense",
+      "howl",
+      "bulk-up",
+      "covet",
+      "rock-blast",
+      "close-combat",
+      "payback",
+      "fling",
+      "last-resort",
+      "rock-polish",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "rock-climb",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "dual-chop",
+      "snarl",
+      "play-rough",
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "psychic-fangs",
+      "stomping-tantrum",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 170,
+    "is_default": false,
+    "order": 899,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10126.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10126.png"
+    },
+    "species_name": "lycanroc",
+    "flavor_text": "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+    "genus": "Wolf Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "brown",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/383/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 383,
+      "chain": {
+        "species_name": "rockruff",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lycanroc",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25,
+                "time_of_day": "day"
+              },
+              {
+                "trigger": "level-up",
+                "min_level": 25,
+                "time_of_day": "night"
+              },
+              {
+                "trigger": "level-up",
+                "min_level": 25,
+                "time_of_day": "dusk"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    }
+  ]
+}

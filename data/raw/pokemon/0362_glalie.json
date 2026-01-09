@@ -1,0 +1,203 @@
+{
+  "pokemon_details": {
+    "id": 362,
+    "name": "glalie",
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 80
+    },
+    "types": [
+      "ice"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 256.5,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "moody",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "glalie"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "earthquake",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "self-destruct",
+      "flash",
+      "explosion",
+      "rest",
+      "super-fang",
+      "substitute",
+      "snore",
+      "spite",
+      "powder-snow",
+      "protect",
+      "scary-face",
+      "spikes",
+      "icy-wind",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "shadow-ball",
+      "hail",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "secret-power",
+      "ice-ball",
+      "astonish",
+      "weather-ball",
+      "fake-tears",
+      "signal-beam",
+      "sheer-cold",
+      "icicle-spear",
+      "block",
+      "water-pulse",
+      "gyro-ball",
+      "natural-gift",
+      "payback",
+      "dark-pulse",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "ice-fang",
+      "iron-head",
+      "captivate",
+      "foul-play",
+      "round",
+      "hex",
+      "bulldoze",
+      "frost-breath",
+      "icicle-crash",
+      "freeze-dry",
+      "confide",
+      "laser-focus",
+      "steel-roller",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "babiri-berry",
+      "never-melt-ice"
+    ],
+    "base_experience": 168,
+    "is_default": true,
+    "order": 481,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/362.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/362.png"
+    },
+    "species_name": "glalie",
+    "flavor_text": "GLALIE has a body made of rock, which it hardens with an armor of ice. This POK\u00e9MON has the ability to freeze moisture in the atmosphere into any shape it desires.",
+    "genus": "Face Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "cave",
+    "shape": "ball",
+    "color": "gray",
+    "egg_groups": [
+      "fairy",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/186/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 186,
+      "chain": {
+        "species_name": "snorunt",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "glalie",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 42
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "froslass",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "dawn-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

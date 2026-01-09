@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Audino (Pokedex #10069) is the Mega Evolved form of the Hearing Pokémon, a transformation achieved when Audino harnesses the power of an Audinite Mega Stone. Originally discovered in the Unova region (Generation V), this Normal and Fairy-type Pokémon radiates a soothing aura that can reduce hostility in others. Its appearance shifts into a more regal, physician-like aesthetic, with its pink and cream fur resembling a lab coat and its ear feelers becoming more prominent. These feelers are highly sensitive, allowing Mega Audino to perceive the physical and emotional state of others by monitoring their heartbeats. While the base form is a staple in Pokémon Centers across the Unova region, its Mega Evolution was first documented during the Hoenn region's Primal Reversion era (Gen VI).
+
+## Combat Profile
+* **Stats:** HP 103, Attack 60, Defense 126, Sp. Atk 80, Sp. Def 126, Speed 50.
+* **Archetype:** Bulky Support Tank. With massive defensive investments and a high HP pool, Mega Audino excels at absorbing hits while providing utility to its team.
+* **Type Matchups:** It is **weak to Poison and Steel**. It **resists Bug and Dark**, and possesses a dual **immunity to Ghost and Dragon** types, making it an excellent switch-in against powerful Dragon-type attackers.
+* **Move Selection:** Leveraging its Special Attack and vast support movepool, key moves include **Dazzling Gleam** for Fairy-type spread damage, **Hyper Voice** for reliable Normal-type STAB, **Wish** for sustainable healing, and **Calm Mind** to further bolster its Special Defense and offensive presence.
+* **Abilities:** Healer (During Double or Triple Battles, this ability has a 30% chance of curing an adjacent ally's status condition at the end of each turn, reinforcing its role as a premier medic).
+
+## Evolution & Biology
+Mega Audino is a temporary evolutionary state of Audino, a single-stage Pokémon that does not evolve into other species but possesses the unique "Mega Evolution" potential. To achieve this form, Audino must hold its specific Mega Stone during battle. Biologically, it is part of the **Fairy** egg group. It is often found holding **Oran Berries** or **Sitrus Berries** in the wild, which it uses to sustain itself while tending to other injured Pokémon. Its growth rate is classified as **Fast**, allowing it to reach its full supportive potential quickly. Despite its gentle nature, its high base experience yield makes it a sought-after Pokémon for trainers looking to strengthen their team through training.

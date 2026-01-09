@@ -1,0 +1,100 @@
+{
+  "pokemon_details": {
+    "id": 10299,
+    "name": "dragalge-mega",
+    "stats": {
+      "hp": 65,
+      "attack": 85,
+      "defense": 105,
+      "special-attack": 132,
+      "special-defense": 163,
+      "speed": 44
+    },
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "height_m": 2.1,
+    "weight_kg": 100.3,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "dragalge",
+    "flavor_text": "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+    "genus": "Mock Kelp Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 55,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "blob",
+    "color": "brown",
+    "egg_groups": [
+      "water1",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/354/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 354,
+      "chain": {
+        "species_name": "skrelp",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dragalge",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 48
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Galvantula (Pokedex #596) is the EleSpider Pokémon, a formidable predator first discovered in the Unova region during Generation V. This yellow, arachnid-like Pokémon is covered in electrically conductive fur that it uses to store and discharge high-voltage shocks. Its biology is centered around its ability to produce silk infused with electricity; when threatened, it spits out vast quantities of charged threads to create an electrified barrier that traps and stuns opponents. While it primarily inhabits areas rich in magnetic or electric energy like Chargestone Cave, it is also known for its predatory efficiency. Although it does not currently possess a Mega Evolution, Gigantamax, or Paradox form, its unique dual-typing makes it a standout among Bug-types in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 77, Defense 60, Sp. Atk 97, Sp. Def 60, Speed 108.
+* **Archetype:** Fast Special Sweeper / Entry Hazard Lead.
+* **Type Matchups:** It is **weak to Fire, Rock, and Flying**. Notably, its Bug typing negates the traditional Electric-type weakness to Ground, making Ground-type moves deal neutral damage. It **resists Electric, Fighting, Grass, and Steel**.
+* **Move Selection:** Capitalizing on its high Special Attack and Speed, key moves include **Thunder** (synergizing perfectly with its ability), **Bug Buzz** for strong secondary STAB, **Volt Switch** for maintaining offensive momentum, and **Sticky Web**, which is its signature utility move for lowering the speed of all grounded opponents.
+* **Abilities:** **Compound Eyes** (Increases move accuracy by 30%, which is critical for making Thunder a highly reliable and devastating attack); **Unnerve** (Prevents opposing Pokémon from eating their held Berries); **Swarm** (Powers up Bug-type moves by 50% when the Pokémon's HP is below one-third).
+
+## Evolution & Biology
+Galvantula is the final stage of a two-stage evolutionary line. It evolves from **Joltik**, one of the smallest Pokémon in existence, when it reaches **Level 36**. Biologically, Galvantula is far more aggressive than its predecessor, transitioning from a Pokémon that hitches rides on others to absorb static to a master of web-based traps. It belongs to the **Bug** egg group and is characterized by a "medium" growth rate, requiring consistent training to reach its full potential. Breeding Galvantula typically requires a hatch counter of 20 cycles before the offspring emerges.

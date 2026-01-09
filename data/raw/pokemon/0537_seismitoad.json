@@ -1,0 +1,215 @@
+{
+  "pokemon_details": {
+    "id": 537,
+    "name": "seismitoad",
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 75,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 74
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 62.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "seismitoad"
+    ],
+    "moves": [
+      "mega-punch",
+      "ice-punch",
+      "mega-kick",
+      "growl",
+      "supersonic",
+      "acid",
+      "hydro-pump",
+      "surf",
+      "bubble-beam",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "bubble",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "flail",
+      "protect",
+      "sludge-bomb",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "weather-ball",
+      "rock-tomb",
+      "muddy-water",
+      "bounce",
+      "mud-shot",
+      "water-pulse",
+      "payback",
+      "fling",
+      "gastro-acid",
+      "aqua-ring",
+      "poison-jab",
+      "drain-punch",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "power-whip",
+      "stealth-rock",
+      "grass-knot",
+      "venoshock",
+      "sludge-wave",
+      "after-you",
+      "round",
+      "echoed-voice",
+      "scald",
+      "bulldoze",
+      "confide",
+      "venom-drench",
+      "infestation",
+      "power-up-punch",
+      "stomping-tantrum",
+      "liquidation"
+    ],
+    "held_items": [
+      "pecha-berry",
+      "persim-berry"
+    ],
+    "base_experience": 229,
+    "is_default": true,
+    "order": 653,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/537.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/537.png"
+    },
+    "species_name": "seismitoad",
+    "flavor_text": "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+    "genus": "Vibration Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/273/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 273,
+      "chain": {
+        "species_name": "tympole",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "palpitoad",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "seismitoad",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

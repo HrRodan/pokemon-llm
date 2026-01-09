@@ -1,0 +1,12 @@
+## Identity & Lore
+Scatterbug (Pokedex #664) is the Scatterdust Pokémon, a larval Bug-type first discovered in the Kalos region (Generation VI). This small, black-bodied Pokémon is characterized by the large, square head and the fringe of white, "scattered" dust around its neck. This dust is actually a specialized defensive mechanism; when under attack from bird Pokémon, Scatterbug spews a poisonous black powder that induces paralysis on contact, deterring predators. While Scatterbug does not possess a Mega Evolution or Gigantamax form, it is biologically unique due to its final evolution, Vivillon. The specific wing pattern of its final form—ranging from the rare Poké Ball and Fancy patterns to regional variants like Icy Snow, Sun, and Jungle—is determined by the real-world geographic climate in which the Scatterbug was originally caught or hatched.
+
+## Combat Profile
+* **Stats:** HP 38, Attack 35, Defense 40, Sp. Atk 27, Sp. Def 25, Speed 35.
+* **Archetype:** Early-game Utility / Physical Attacker.
+* **Type Matchups:** It is **weak to Flying, Rock, and Fire**. It **resists Fighting, Grass, and Ground** types.
+* **Move Selection:** Capitalizing on its physical Attack and disruptive capabilities, key moves include **Bug Bite**, **Pounce**, **Stun Spore**, and **Poison Powder**. 
+* **Abilities:** **Shield Dust** (Blocks the secondary effects of incoming damaging moves, such as flinching or stat drops); **Compound Eyes** (Boosts the accuracy of its moves by 30%, making its status powders much more reliable); **Friend Guard** (Hidden Ability: Reduces the damage dealt to allies by 25% in multi-battle formats).
+
+## Evolution & Biology
+Scatterbug is the first stage of a three-stage evolutionary line. It evolves into the cocoon-like Spewpa starting at **Level 9**. Shortly after, it undergoes its final metamorphosis into Vivillon upon reaching **Level 12**. As a member of the **Bug** Egg Group, Scatterbug has a relatively short incubation period (hatch counter of 15), allowing it to proliferate quickly in various environments. Despite its fragile appearance, its ability to adapt its biological traits to different climates makes it one of the most widely distributed Pokémon across the globe.

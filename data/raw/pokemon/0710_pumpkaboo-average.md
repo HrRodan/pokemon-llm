@@ -1,0 +1,15 @@
+## Identity & Lore
+Pumpkaboo (Pokedex #710) is the Pumpkin Pokémon, a dual-type Ghost and Grass-type creature first discovered in the Kalos region of Generation VI. Its physical form is characterized by a brown, pumpkin-like lower body inhabited by a spirit that is said to be trapped within this world. According to Kalosian folklore, this spirit becomes restless as the sun sets, driving the Pokémon to become significantly more active at night. While this specific profile details the **Average Size** variant, Pumpkaboo is unique in the Pokémon world for its "Size" mechanic, existing in four distinct forms (Small, Average, Large, and Super Size) which directly influence its physical dimensions and Base HP stat. Though it does not possess a Mega Evolution or Gigantamax form, its evolution, Gourgeist, shares its distinct size-based stat variations.
+
+## Combat Profile
+* **Stats:** HP 49, Attack 66, Defense 70, Sp. Atk 44, Sp. Def 55, Speed 51.
+* **Archetype:** Physical Defensive Utility. While its base stats are modest as an unevolved Pokémon, its Physical Defense is its strongest asset, allowing it to function as a niche disruptor in lower-tier competitive brackets.
+* **Type Matchups:** It is **weak to Flying, Poison, Bug, Ghost, Steel, Fire, and Ice**. Conversely, it **resists Ground, Water, Grass, and Electric** types, and possesses complete **immunity to Normal and Fighting** attacks due to its Ghost typing.
+* **Move Selection:** Leveraging its superior Physical Attack over its Special Attack, Pumpkaboo excels with moves such as **Seed Bomb** (STAB physical damage), **Shadow Sneak** (priority STAB), **Poltergeist** (high-power physical Ghost move), and its signature utility move **Trick-or-Treat**, which adds the Ghost type to the opponent to create new weaknesses.
+* **Abilities:** 
+    * **Frisk:** Allows the Pokémon to check the opponent's held item upon entering battle, providing vital tactical information.
+    * **Pickup:** A utility ability where the Pokémon may find items after a battle or retrieve used items in combat.
+    * **Insomnia (Hidden Ability):** Prevents the Pokémon from falling asleep, making it a hard counter to "Spore" or "Sleep Powder" users.
+
+## Evolution & Biology
+Pumpkaboo is the first stage of a two-part evolutionary line. It evolves into **Gourgeist** exclusively when **traded** between trainers. This biological transition maintains the specific size variant the Pumpkaboo possessed prior to evolution. Biologically, Pumpkaboo belongs to the **Indeterminate** (also known as Amorphous) Egg Group, and its eggs typically require a moderate hatch cycle (20 hatch counters). Despite its spectral nature, its physical pumpkin shell is often associated with harvest seasons in the Pokémon world, and its glowing eyes are said to illuminate the path for wandering spirits.

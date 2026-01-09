@@ -1,0 +1,12 @@
+## Identity & Lore
+Zoroark (Pokedex #571) is the Illusion Fox Pokémon, a cunning and protective species first discovered in the Unova region during Generation V. Known for its bipedal, fox-like appearance with a voluminous slate-gray and crimson mane, Zoroark is legendary for its ability to create hyper-realistic illusions that fool even the most perceptive humans and Pokémon. These illusions are not just used for hunting but are vital for protecting the pack; a single Zoroark can hide an entire den or conjure the image of a much more terrifying Pokémon to ward off threats. While the standard form is a pure Dark-type, a distinct regional variant known as **Hisuian Zoroark** (Normal/Ghost-type) exists in the ancient Hisui region, born from restless spirits. Zoroark's lore is deeply tied to the bonds it shares with its kin, often portrayed as a fiercely loyal guardian that uses its deceptive powers to ensure the safety of its family.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 105, Defense 60, Sp. Atk 120, Sp. Def 60, Speed 105.
+* **Archetype:** Fast Special Sweeper / Mixed Attacker.
+* **Type Matchups:** It is **weak to Fighting, Bug, and Fairy** types. It **resists Ghost and Dark** and possesses a complete **immunity to Psychic**-type moves.
+* **Move Selection:** Capitalizing on its superior Special Attack and Speed, key moves include its signature move **Night Daze**, the reliable **Dark Pulse**, the powerful coverage option **Focus Blast**, and the high-utility **Flamethrower** to deal with Bug and Steel-type threats.
+* **Abilities:** Illusion (Upon entering battle, it takes on the appearance of the last conscious Pokémon in the trainer's party, breaking only when damaged by an attack. This allows for psychological warfare, forcing opponents to waste moves or switch incorrectly).
+
+## Evolution & Biology
+Zoroark is part of a two-stage evolutionary line. It evolves from **Zorua** when it reaches **Level 30**. Biologically, it is a highly intelligent mammal that primarily navigates its environment in an upright, bipedal stance. Despite its slender frame and "glass cannon" defensive profile, its high offensive pressure makes it a formidable predator. It belongs to the **Ground** Egg Group, and trainers often find that breeding and hatching a Zorua requires significant patience, with a hatch counter of 20. Its growth rate is medium-slow, reflecting the time and discipline required to master its complex illusory abilities.

@@ -1,0 +1,98 @@
+{
+  "pokemon_details": {
+    "id": 10309,
+    "name": "garchomp-mega-z",
+    "stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 85,
+      "special-attack": 141,
+      "special-defense": 85,
+      "speed": 151
+    },
+    "types": [
+      "dragon"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 99.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "garchomp",
+    "flavor_text": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+    "genus": "Mach Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/230/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 230,
+      "chain": {
+        "species_name": "gible",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "gabite",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 24
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "garchomp",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 48
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

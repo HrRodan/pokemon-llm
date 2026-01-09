@@ -1,0 +1,249 @@
+{
+  "pokemon_details": {
+    "id": 652,
+    "name": "chesnaught",
+    "stats": {
+      "hp": 88,
+      "attack": 107,
+      "defense": 122,
+      "special-attack": 74,
+      "special-defense": 75,
+      "speed": 64
+    },
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 90.0,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "bulletproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "chesnaught"
+    ],
+    "moves": [
+      "thunder-punch",
+      "swords-dance",
+      "cut",
+      "vine-whip",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "pin-missile",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "leech-seed",
+      "solar-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "reflect",
+      "swift",
+      "flash",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "curse",
+      "reversal",
+      "protect",
+      "scary-face",
+      "belly-drum",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "iron-tail",
+      "metal-claw",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "needle-arm",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "dragon-claw",
+      "frenzy-plant",
+      "bulk-up",
+      "mud-shot",
+      "magical-leaf",
+      "hammer-arm",
+      "gyro-ball",
+      "feint",
+      "close-combat",
+      "payback",
+      "fling",
+      "worry-seed",
+      "poison-jab",
+      "seed-bomb",
+      "drain-punch",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
+      "leaf-storm",
+      "iron-head",
+      "stone-edge",
+      "grass-knot",
+      "wood-hammer",
+      "hone-claws",
+      "wide-guard",
+      "smack-down",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "grass-pledge",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "grassy-terrain",
+      "confide",
+      "spiky-shield",
+      "power-up-punch",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "grassy-glide",
+      "coaching",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 239,
+    "is_default": true,
+    "order": 782,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/652.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/652.png"
+    },
+    "species_name": "chesnaught",
+    "flavor_text": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+    "genus": "Spiny Armor Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/337/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 337,
+      "chain": {
+        "species_name": "chespin",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "quilladin",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "chesnaught",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

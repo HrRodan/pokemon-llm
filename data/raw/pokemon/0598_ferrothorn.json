@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 598,
+    "name": "ferrothorn",
+    "stats": {
+      "hp": 74,
+      "attack": 94,
+      "defense": 131,
+      "special-attack": 54,
+      "special-defense": 116,
+      "speed": 20
+    },
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 110.0,
+    "abilities": [
+      {
+        "name": "iron-barbs",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ferrothorn"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "tackle",
+      "pin-missile",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "double-team",
+      "harden",
+      "self-destruct",
+      "flash",
+      "explosion",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "spikes",
+      "sandstorm",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "nature-power",
+      "ingrain",
+      "revenge",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "bullet-seed",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "gravity",
+      "gyro-ball",
+      "payback",
+      "assurance",
+      "worry-seed",
+      "magnet-rise",
+      "rock-polish",
+      "poison-jab",
+      "seed-bomb",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "mirror-shot",
+      "flash-cannon",
+      "rock-climb",
+      "power-whip",
+      "iron-head",
+      "stealth-rock",
+      "grass-knot",
+      "hone-claws",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "confide",
+      "brutal-swing",
+      "body-press",
+      "steel-beam",
+      "steel-roller"
+    ],
+    "held_items": [
+      "sticky-barb"
+    ],
+    "base_experience": 171,
+    "is_default": true,
+    "order": 720,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/598.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/598.png"
+    },
+    "species_name": "ferrothorn",
+    "flavor_text": "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+    "genus": "Thorn Pod Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 90,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "tentacles",
+    "color": "gray",
+    "egg_groups": [
+      "plant",
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/304/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 304,
+      "chain": {
+        "species_name": "ferroseed",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ferrothorn",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Dedenne (Pokedex #702) is the Antenna Pokémon, a small, bipedal rodent first discovered in the Kalos region of Generation VI. This round, orange Pokémon is easily identified by its prominent whiskers, which serve as sophisticated sensors. By sending and receiving electrical waves, Dedenne can communicate with allies over vast distances, effectively acting as a living transmitter. It is frequently observed sneaking into human habitations to siphon electricity from wall outlets using its tail, which functions as a grounding wire. While it is a member of the "Pikachu-clone" lineage, Dedenne holds the distinction of being the first Pokémon to possess the Electric/Fairy typing. Despite its popularity, Dedenne does not currently possess any Mega Evolutions, Gigantamax forms, or Paradox variants.
+
+## Combat Profile
+* **Stats:** HP 67, Attack 58, Defense 57, Sp. Atk 81, Sp. Def 67, Speed 101.
+* **Archetype:** Fast Utility Pivot. With a respectable Speed stat of 101, Dedenne excels at moving first to disrupt opponents or switch out of unfavorable matchups.
+* **Type Matchups:** It is **weak to Ground, Poison, and Steel**. It effectively **resists Electric, Fighting, Flying, Bug, and Dark**, and possesses a total **immunity to Dragon-type** moves, making it a surprising counter to powerful dragons.
+* **Move Selection:** Utilizing its superior Special Attack and Speed, Dedenne’s most effective moves include **Thunderbolt** for reliable STAB damage, **Dazzling Gleam** for Fairy-type coverage, **Volt Switch** to maintain offensive momentum, and **Parabolic Charge**, which allows it to damage enemies while recovering its own HP. For utility, it frequently employs **Nuzzle** to guarantee paralysis on targets.
+* **Abilities:** **Cheek Pouch** (Restores 1/3 of max HP when a Berry is consumed, regardless of the Berry's effect); **Pickup** (Allows the Pokémon to find held items outside of battle or retrieve used items in battle); **Plus** (Increases Special Attack by 50% when paired with a teammate that has the Plus or Minus ability).
+
+## Evolution & Biology
+Dedenne is a single-stage Pokémon and does not evolve into or from any other species. It is a highly social creature that belongs to both the **Ground** and **Fairy** Egg Groups. In the wild, it is known for its energetic behavior and its tendency to nest in urban environments where electricity is plentiful. With a hatch counter of 20, it is a relatively common sight for breeders looking for a fast Support Pokémon with the unique defensive profile of a Fairy-type.

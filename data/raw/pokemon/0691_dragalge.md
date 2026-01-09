@@ -1,0 +1,12 @@
+## Identity & Lore
+Dragalge (Pokedex #691) is the Mock Kelp Pokémon, a unique dual Poison and Dragon-type inhabitant of the Kalos region, first introduced in Generation VI. This aquatic predator is a master of mimicry, evolving a body that resembles rotting seaweed to blend into kelp forests and ambush unsuspecting prey. Its biology is defined by extreme toxicity; Dragalge is known to produce poison so corrosive that it can eat through the thick metal hulls of oil tankers. Extremely territorial and prone to indiscriminate aggression, it will spray its deadly acid at any creature or vessel that wanders into its waters. While it currently possesses no Mega Evolution or Gigantamax forms, it remains one of the few non-Water-type Pokémon to thrive exclusively in deep-sea habitats.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 75, Defense 90, Sp. Atk 97, Sp. Def 123, Speed 44.
+* **Archetype:** Bulky Special Tank.
+* **Type Matchups:** Dragalge is **weak to Ground, Psychic, Ice, and Dragon**. Its Poison typing grants it a vital **4x Resistance to Grass**, and it further resists Fire, Water, Electric, Fighting, Poison, and Bug.
+* **Move Selection:** Dragalge utilizes its high Special Attack and signature ability to pressure opponents. Key moves include **Draco Meteor** for overwhelming Dragon-type damage, **Sludge Wave** for high-accuracy Poison STAB, **Scald** to provide utility via burn chance, and **Focus Blast** to punish Steel-types that resist its primary attacks.
+* **Abilities:** **Poison Point** (30% chance to poison attackers on contact), **Poison Touch** (30% chance to poison the target when using contact moves), and its most competitively viable ability, **Adaptability** (increases the STAB modifier from 1.5x to 2.0x for Poison and Dragon moves).
+
+## Evolution & Biology
+Dragalge is the final form of a two-stage evolutionary line. It evolves from **Skrelp** starting at **Level 48**. Despite its appearance and habitat, it is not a Water-type, though it retains strong biological ties to the sea, belonging to both the **Water 1** and **Dragon** Egg Groups. Its slow base speed reflects its drifting hunting style, while its massive Special Defense allows it to act as a pivot against powerful elemental attackers. Researchers note a hatch counter of 20, suggesting a relatively long developmental period for its eggs.

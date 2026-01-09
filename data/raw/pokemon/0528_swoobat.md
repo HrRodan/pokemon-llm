@@ -1,0 +1,15 @@
+## Identity & Lore
+Swoobat (Pokedex #528) is the Courting Pokémon, a unique Psychic/Flying-type avian mammal first discovered in the Unova region (Generation V). Recognizable by its distinct blue fur and heart-shaped nose, Swoobat is known for its peculiar courting rituals where it emits sound waves from its nose to produce a variety of effects. While its flavor text notes its ability to shatter rocks with high-frequency sound waves, it is also said that any human or Pokémon who comes into contact with the ultrasonic waves emitted by its nose will experience a sudden shift in mood to a state of extreme happiness. Swoobat primarily inhabits dark caves, hanging from ceilings with its tail. Although it does not possess a Mega Evolution, Gigantamax form, or Paradox variant, it remains a notable representative of Unova's diverse cave-dwelling fauna.
+
+## Combat Profile
+* **Stats:** HP 67, Attack 57, Defense 55, Sp. Atk 77, Sp. Def 55, Speed 114.
+* **Archetype:** Fast Setup Sweeper. While its base offensive stats are modest, its high Speed tier allows it to outpace most unboosted threats, serving as a dangerous win condition if allowed to set up.
+* **Type Matchups:** It is **weak to Bug, Ghost, Dark, Rock, Electric, and Ice**. It **resists Grass and Psychic**, is **immune to Ground**, and possesses a double resistance to **Fighting (0.25x)**.
+* **Move Selection:** Swoobat thrives by combining its Speed with its Special Attack. Key moves include **Stored Power** (which scales massively with stat boosts), **Air Slash** (for STAB damage and flinch potential), **Calm Mind** (to boost stats), and **Heat Wave** (to provide crucial coverage against Steel-type resistances).
+* **Abilities:** 
+    * **Unaware:** Ignores the opponent's stat changes when dealing or taking damage, making it a solid check to opposing setup sweepers.
+    * **Klutz:** Prevents the Pokémon from using held items; while often a hindrance, it can be used strategically with the move *Trick* to disable an opponent's item.
+    * **Simple (Hidden Ability):** Doubles the effect of stat changes. This is Swoobat's most lethal ability, allowing a single *Calm Mind* to provide +2 stages of Special Attack and Special Defense.
+
+## Evolution & Biology
+Swoobat is the second and final stage of a two-stage evolutionary line. It evolves from **Woobat** when leveled up with **High Friendship** (minimum 160 happiness). This transition reflects its lore as the "Courting Pokémon," as the bond with its trainer triggers its physical growth and the development of its powerful ultrasonic nose. Swoobat belongs to both the **Field (Ground)** and **Flying** Egg Groups, and it typically takes approximately 15 hatch cycles to produce an offspring. Its biology is centered around its tail, which is strong enough to allow it to grip cave ceilings while it sleeps, and its heart-shaped nose, which serves as both a sensory organ and a sonic weapon.

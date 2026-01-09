@@ -1,0 +1,12 @@
+## Identity & Lore
+Lokix (Pokedex #920) is the Grasshopper Pokémon, a striking Bug and Dark-type inhabitant of the Paldea region (Generation IX). Characterized by its sleek, bipedal, and humanoid-like gray exoskeleton, Lokix is known for its incredible leg strength and unique "Showdown Mode." When Lokix decides to engage in an all-out battle, it unfolds its hidden set of legs to stand upright, significantly increasing its mobility and striking power to neutralize enemies in short order. Drawing thematic inspiration from grasshoppers and sentai-style superheroes, Lokix is a fierce predator that prefers aggressive, fast-paced confrontations. While it does not currently possess a Mega Evolution or Gigantamax form, its Showdown Mode represents a significant biological shift in combat readiness.
+
+## Combat Profile
+* **Stats:** HP 71, Attack 102, Defense 78, Sp. Atk 52, Sp. Def 55, Speed 92.
+* **Archetype:** Physical Revenge Killer / Early-Game Sweeper.
+* **Type Matchups:** It is **weak to Flying, Rock, Fire, Fighting, Bug, and Fairy**. It **resists Grass, Dark, and Ghost**, and possesses a total **immunity to Psychic-type** attacks.
+* **Move Selection:** Capitalizing on its high Attack and its signature competitive utility, key moves include **First Impression** (a powerful Bug-type priority move available only on the first turn), **Axe Kick** (a high-power Fighting-type move that can confuse opponents), **Knock Off** (to remove held items while dealing STAB damage), and **U-turn** (for maintaining offensive momentum).
+* **Abilities:** **Swarm** (Power up Bug-type moves when HP is low). **Tinted Lens** (Hidden Ability: This ability is vital for its competitive viability, as it doubles the damage of "not very effective" moves, allowing Lokix to bypass many of its natural resistances).
+
+## Evolution & Biology
+Lokix is part of a two-stage evolutionary line. It evolves from **Nymble** after reaching **Level 24**, transitioning from a small, vulnerable insect into a formidable combatant. As a member of the **Bug Egg Group**, Lokix is relatively easy to breed, with a hatch counter of 20. Biologically, its body is designed for explosive bursts of speed and kinetic energy, which it channels through its specialized leg joints. Its low base happiness (0) reflects its naturally aggressive and competitive temperament.

@@ -1,0 +1,12 @@
+## Identity & Lore
+Maushold (Family of Three) (Pokedex #10257) is the Family Pokémon, a unique Normal-type species introduced in Generation IX (Paldea). Characterized by its small, white, mouse-like appearance, this specific form consists of three individuals—two larger parents and one smaller child—who operate as a single unit. The lore of Maushold is shrouded in mystery; the smaller members often appear suddenly without explanation, and while they behave as a family, their biological relationship is not fully understood. In the Paldea region, they are known for their incredible teamwork and for building large, intricate nests divided into rooms for eating and sleeping. While Maushold does not possess a Mega Evolution or Gigantamax form, it is distinct for having two separate biological iterations: the "Family of Three" and the more common "Family of Four."
+
+## Combat Profile
+* **Stats:** HP 74, Attack 75, Defense 70, Sp. Atk 65, Sp. Def 75, Speed 111.
+* **Archetype:** Fast Technical Support / Multi-Hit Sweeper.
+* **Type Matchups:** It is **weak to Fighting** and possesses a complete **immunity to Ghost**.
+* **Move Selection:** Maushold relies on its signature move and high speed to disrupt opponents. Key moves include **Population Bomb** (a devastating 10-hit signature move), **Tidy Up** (which boosts Attack and Speed while clearing hazards), **Follow Me** (for redirection in doubles), and **Play Rough** (for Fairy-type coverage against Fighting types).
+* **Abilities:** **Friend Guard** (reduces damage taken by allies in double battles), **Cheek Pouch** (restores HP when a Berry is consumed), and **Technician** (Hidden Ability; increases the power of moves with 60 BP or less, making Population Bomb one of the most powerful moves in the game).
+
+## Evolution & Biology
+Maushold is the second and final stage of a two-stage evolutionary line. It evolves from **Tandemaus** starting at **Level 25**. Uniquely, Maushold often evolves "silently" while in the party without the typical evolution screen, appearing as a family unit suddenly. The "Family of Three" form is a rare genetic variant, occurring only 1% of the time upon evolution, whereas the "Family of Four" is the standard. Maushold belongs to the **Ground** and **Fairy** Egg Groups, and despite their appearance as a group, they hatch from a single egg and are treated as one entity in battle. They have a fast growth rate and a hatch counter of 10, making them relatively quick to breed for competitive use.

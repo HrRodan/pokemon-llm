@@ -1,0 +1,12 @@
+## Identity & Lore
+Turtonator (Pokedex #776) is the Blast Turtle Pokémon, a formidable Fire/Dragon-type creature first discovered in the Alola region during Generation VII. This bipedal turtle is easily recognized by its large, spiked shell which is coated in a layer of explosive sulfur. It primarily inhabits volcanic environments, such as Alola’s Wela Volcano Park, where it camouflages itself as a jagged rock to ambush prey. When an unsuspecting opponent touches its shell, the sulfurous spikes ignite, triggering a violent blast that Turtonator itself can withstand. However, it possesses a notable physiological vulnerability: the small hole in its stomach acts as a weak point that, if struck, causes it to take significant damage. While Turtonator currently has no Mega Evolution, Gigantamax form, or Paradox variant, it remains a rare and powerful Pokémon often associated with Kiawe, the Trial Captain of Akala Island.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 78, Defense 135, Sp. Atk 91, Sp. Def 85, Speed 36.
+* **Archetype:** Physical Tank / Setup Sweeper.
+* **Type Matchups:** It is **weak to Ground, Rock, and Dragon**. Due to its Fire/Dragon typing, it **resists Bug, Steel, Electric, and Fire**, and takes quarter-damage from **Grass**.
+* **Move Selection:** Capitalizing on its high Special Attack and signature mechanics, key moves include **Shell Trap** (a high-damage signature move that detonates if Turtonator is hit by a physical attack), **Draco Meteor** for overwhelming Dragon-type burst damage, **Fire Blast** for maximum offensive Fire pressure, and **Shell Smash**, a high-risk move that lowers its massive defenses to drastically boost its offensive stats and mediocre speed.
+* **Abilities:** Shell Armor (A defensive ability that protects the Pokémon from critical hits, ensuring that its massive 135 Base Defense cannot be bypassed by high-roll attacks).
+
+## Evolution & Biology
+Turtonator is a single-stage Pokémon and is not known to evolve from or into any other species. It belongs to the **Monster** and **Dragon** Egg Groups, making it a valuable candidate for breeding specialized moves like Head Smash or Wide Guard onto other draconic species. It has a hatch counter of 20, reflecting its status as a relatively rare encounter. Biologically, its diet consists of sulfur and other volcanic materials which accumulate in its shell, making it a walking hazard. In the wild, it is frequently found holding a **Charcoal**, which naturally enhances its combustion-based Fire attacks.

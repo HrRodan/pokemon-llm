@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 10089,
+    "name": "salamence-mega",
+    "stats": {
+      "hp": 95,
+      "attack": 145,
+      "defense": 130,
+      "special-attack": 120,
+      "special-defense": 90,
+      "speed": 120
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 112.6,
+    "abilities": [
+      {
+        "name": "aerilate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "salamence-mega"
+    ],
+    "moves": [
+      "cut",
+      "fly",
+      "headbutt",
+      "double-edge",
+      "leer",
+      "bite",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "strength",
+      "earthquake",
+      "toxic",
+      "rage",
+      "double-team",
+      "focus-energy",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "heat-wave",
+      "facade",
+      "brick-break",
+      "secret-power",
+      "hyper-voice",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "roost",
+      "tailwind",
+      "aqua-tail",
+      "dragon-pulse",
+      "giga-impact",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "zen-headbutt",
+      "defog",
+      "draco-meteor",
+      "stone-edge",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "laser-focus",
+      "brutal-swing"
+    ],
+    "held_items": [
+      "dragon-fang"
+    ],
+    "base_experience": 315,
+    "is_default": false,
+    "order": 495,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10089.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10089.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10089.png"
+    },
+    "species_name": "salamence",
+    "flavor_text": "SALAMENCE came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this POK\u00e9MON\u2019s cells, causing it to sprout its magnificent wings.",
+    "genus": "Dragon Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 40,
+    "growth_rate": "slow",
+    "habitat": "rough-terrain",
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "dragon"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/191/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 191,
+      "chain": {
+        "species_name": "bagon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "shelgon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 30
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "salamence",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 50
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "pokemon_details": {
+    "id": 986,
+    "name": "brute-bonnet",
+    "stats": {
+      "hp": 111,
+      "attack": 127,
+      "defense": 99,
+      "special-attack": 79,
+      "special-defense": 99,
+      "speed": 55
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 21.0,
+    "abilities": [
+      {
+        "name": "protosynthesis",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "brute-bonnet"
+    ],
+    "moves": [
+      "body-slam",
+      "thrash",
+      "double-edge",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "growth",
+      "solar-beam",
+      "stun-spore",
+      "confuse-ray",
+      "spore",
+      "rest",
+      "substitute",
+      "thief",
+      "protect",
+      "scary-face",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "synthesis",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "taunt",
+      "ingrain",
+      "astonish",
+      "bullet-seed",
+      "magical-leaf",
+      "close-combat",
+      "payback",
+      "sucker-punch",
+      "dark-pulse",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "zen-headbutt",
+      "leaf-storm",
+      "grass-knot",
+      "venoshock",
+      "rage-powder",
+      "clear-smog",
+      "hex",
+      "grassy-terrain",
+      "pollen-puff",
+      "stomping-tantrum",
+      "body-press",
+      "lash-out",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 285,
+    "is_default": true,
+    "order": 979,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/986.png"
+    },
+    "species_name": "brute-bonnet",
+    "flavor_text": "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pok\u00e9mon.",
+    "genus": "Paradox Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 50,
+    "base_happiness": 0,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/517/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 517,
+      "chain": {
+        "species_name": "brute-bonnet",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

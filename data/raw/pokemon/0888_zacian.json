@@ -1,0 +1,150 @@
+{
+  "pokemon_details": {
+    "id": 888,
+    "name": "zacian",
+    "stats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 115,
+      "special-attack": 80,
+      "special-defense": 115,
+      "speed": 138
+    },
+    "types": [
+      "fairy"
+    ],
+    "height_m": 2.8,
+    "weight_kg": 110.0,
+    "abilities": [
+      {
+        "name": "intrepid-sword",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zacian"
+    ],
+    "moves": [
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "bite",
+      "hyper-beam",
+      "dig",
+      "agility",
+      "quick-attack",
+      "focus-energy",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "endure",
+      "false-swipe",
+      "sleep-talk",
+      "iron-tail",
+      "metal-claw",
+      "crunch",
+      "facade",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "imprison",
+      "hyper-voice",
+      "iron-defense",
+      "howl",
+      "close-combat",
+      "assurance",
+      "poison-jab",
+      "air-slash",
+      "focus-blast",
+      "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
+      "psycho-cut",
+      "flash-cannon",
+      "iron-head",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "work-up",
+      "wild-charge",
+      "sacred-sword",
+      "tail-slap",
+      "snarl",
+      "noble-roar",
+      "misty-terrain",
+      "play-rough",
+      "moonblast",
+      "dazzling-gleam",
+      "solar-blade",
+      "laser-focus",
+      "brutal-swing",
+      "psychic-fangs",
+      "steel-beam",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 335,
+    "is_default": true,
+    "order": 1075,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/888.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/888.png"
+    },
+    "species_name": "zacian",
+    "flavor_text": "Known as a legendary hero, this Pok\u00e9mon absorbs metal particles, transforming them into a weapon it uses to battle.",
+    "genus": "Warrior Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 10,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/467/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 467,
+      "chain": {
+        "species_name": "zacian",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

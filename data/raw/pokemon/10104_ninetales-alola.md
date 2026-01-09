@@ -1,0 +1,12 @@
+## Identity & Lore
+Alolan Ninetales (Pokedex #10104) is the Fox Pokémon, a majestic regional variant of the original Kanto species. While the traditional Ninetales is a Fire-type, this Alolan form adapted to the snowy, high-altitude environment of Mount Lanakila in the Alola region (Generation VII), gaining a unique Ice and Fairy typing. It is easily distinguished by its shimmering, pale blue-white fur that flows like mist and its nine elegant tails. In Alolan culture, it is revered as a sacred messenger of the mountains, possessing a temperament that is both serene and intensely protective. Its biology allows it to produce ice crystals from its fur to coat its surroundings. Though it does not currently possess a Mega Evolution or Gigantamax form, its ability to manipulate the weather makes it a cornerstone of frost-based combat strategies.
+
+## Combat Profile
+* **Stats:** HP 73, Attack 67, Defense 75, Sp. Atk 81, Sp. Def 100, Speed 109.
+* **Archetype:** Fast Weather Support / Special Attacker.
+* **Type Matchups:** It is **weak to Fire, Rock, and Poison**, and suffers from a devastating **Double Weakness (4x) to Steel**. It provides defensive utility by **resisting Ice, Bug, and Dark**, and it maintains a total **Immunity to Dragon-type moves**.
+* **Move Selection:** Utilizing its high Speed and Special Attack, Alolan Ninetales is most effective with **Aurora Veil** (which sets both Reflect and Light Screen simultaneously in snow), **Blizzard** (which bypasses accuracy checks in snow), **Moonblast** (for high-power Fairy STAB), and **Nasty Plot** to shore up its moderate offensive presence.
+* **Abilities:** **Snow Warning** (Hidden Ability) is its defining trait, instantly summoning a snowstorm upon entry. **Snow Cloak** serves a more defensive role, increasing the Pokémon's evasion during snowstorms to frustrate opponents.
+
+## Evolution & Biology
+Alolan Ninetales is the final form of a two-stage evolutionary line. It evolves from **Alolan Vulpix** when the trainer uses an **Ice Stone**; this is a sharp departure from its Kanto relative, which requires a Fire Stone. This evolution represents its complete adaptation to sub-zero temperatures. It is a member of the **Field (Ground)** egg group and is known for its high intelligence and long lifespan. Its presence on a mountain is often considered an omen of snow, and it is said to guide lost travelers back down the slopes, provided they treat the mountain with respect.

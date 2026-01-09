@@ -1,0 +1,190 @@
+{
+  "pokemon_details": {
+    "id": 787,
+    "name": "tapu-bulu",
+    "stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 115,
+      "special-attack": 85,
+      "special-defense": 95,
+      "speed": 75
+    },
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 45.5,
+    "abilities": [
+      {
+        "name": "grassy-surge",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "telepathy",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "tapu-bulu"
+    ],
+    "moves": [
+      "mega-punch",
+      "swords-dance",
+      "whirlwind",
+      "horn-attack",
+      "roar",
+      "disable",
+      "hyper-beam",
+      "mega-drain",
+      "leech-seed",
+      "solar-beam",
+      "toxic",
+      "withdraw",
+      "light-screen",
+      "reflect",
+      "skull-bash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "mean-look",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "synthesis",
+      "hidden-power",
+      "sunny-day",
+      "psych-up",
+      "rock-smash",
+      "torment",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "taunt",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "rock-tomb",
+      "bullet-seed",
+      "iron-defense",
+      "bulk-up",
+      "calm-mind",
+      "close-combat",
+      "payback",
+      "fling",
+      "power-swap",
+      "guard-swap",
+      "worry-seed",
+      "seed-bomb",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "stone-edge",
+      "grass-knot",
+      "wood-hammer",
+      "telekinesis",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "work-up",
+      "dual-chop",
+      "horn-leech",
+      "snarl",
+      "rototiller",
+      "grassy-terrain",
+      "confide",
+      "dazzling-gleam",
+      "darkest-lariat",
+      "high-horsepower",
+      "leafage",
+      "smart-strike",
+      "brutal-swing",
+      "natures-madness"
+    ],
+    "held_items": [],
+    "base_experience": 257,
+    "is_default": true,
+    "order": 964,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/787.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/787.png"
+    },
+    "species_name": "tapu-bulu",
+    "flavor_text": "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
+    "genus": "Land Spirit Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "arms",
+    "color": "red",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/411/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 411,
+      "chain": {
+        "species_name": "tapu-bulu",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

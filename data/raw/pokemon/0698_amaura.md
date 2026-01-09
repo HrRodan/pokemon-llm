@@ -1,0 +1,12 @@
+## Identity & Lore
+Amaura (Pokedex #698) is the Tundra Pokémon, a prehistoric species brought back to life in the Kalos region (Generation VI) through advanced fossil regeneration technology. This ancient quadruped was restored from genetic material found in body parts that remained flash-frozen in ice for over 100 million years. Characterized by its calm temperament and distinctive, sail-like crests that change color like an aurora, Amaura lived in cold, mountainous climates long before the modern era. While it lacks a Mega Evolution or Gigantamax form, its evolved form, Aurorus, is known for its ability to create walls of ice or encase enemies in absolute zero temperatures. In the wild of the past, these Pokémon were likely prey to large predators, leading to their specialized defensive ice-manipulation abilities.
+
+## Combat Profile
+* **Stats:** HP 77, Attack 59, Defense 50, Sp. Atk 67, Sp. Def 63, Speed 46.
+* **Archetype:** Special Bulky Attacker / Weather Setter.
+* **Type Matchups:** It is **weak to Ground, Water, Grass, and Rock**, and suffers from a **Double Weakness (4x) to Fighting and Steel**. It **resists Normal, Flying, Poison, and Ice**.
+* **Move Selection:** Utilizing its superior Special Attack and unique coverage, key moves include **Freeze-Dry** (which hits Water-types super-effectively), **Earth Power** for coverage against Steel and Rock types, **Hyper Voice** (to capitalize on the Refrigerate ability), and **Stealth Rock** for competitive entry hazard support.
+* **Abilities:** **Refrigerate** (Converts Normal-type moves into Ice-type moves and grants them a 20% power boost, allowing for powerful STAB-boosted Hyper Voices); **Snow Warning** (Automatically summons a Hailstorm or Snow upon entering battle, which can boost the evasion or defense of Ice-types and enables perfectly accurate Blizzards).
+
+## Evolution & Biology
+Amaura is part of a two-stage evolutionary line. It evolves into **Aurorus** once it reaches **Level 39**, but this evolution is unique as it can only be triggered **at night**. This nocturnal requirement reflects its biological connection to the aurora borealis, which illuminates the night sky. Biologically, Amaura is a member of the **Monster** egg group. It has a relatively high hatch counter of 30, requiring significant effort for breeders to produce. Its blue coloration and cold-to-the-touch skin are adaptations for the freezing environments of the prehistoric Tundra.

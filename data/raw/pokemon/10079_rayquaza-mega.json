@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 10079,
+    "name": "rayquaza-mega",
+    "stats": {
+      "hp": 105,
+      "attack": 180,
+      "defense": 100,
+      "special-attack": 180,
+      "special-defense": 100,
+      "speed": 115
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "height_m": 10.8,
+    "weight_kg": 392.0,
+    "abilities": [
+      {
+        "name": "delta-stream",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "rayquaza-mega"
+    ],
+    "moves": [
+      "swords-dance",
+      "fly",
+      "bind",
+      "roar",
+      "flamethrower",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "waterfall",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "psych-up",
+      "extreme-speed",
+      "ancient-power",
+      "rock-smash",
+      "uproar",
+      "facade",
+      "brick-break",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "overheat",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "bulk-up",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "gyro-ball",
+      "tailwind",
+      "fling",
+      "aqua-tail",
+      "air-slash",
+      "dragon-pulse",
+      "focus-blast",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "shadow-claw",
+      "defog",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "hone-claws",
+      "round",
+      "echoed-voice",
+      "sky-drop",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "confide",
+      "dragon-ascent",
+      "brutal-swing"
+    ],
+    "held_items": [],
+    "base_experience": 351,
+    "is_default": false,
+    "order": 512,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10079.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10079.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10079.png"
+    },
+    "species_name": "rayquaza",
+    "flavor_text": "RAYQUAZA lived for hundreds of millions of years in the earth\u2019s ozone layer,  never descending to the ground. This POK\u00e9MON appears to feed on water and particles in the atmosphere.",
+    "genus": "Sky High Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "squiggle",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/200/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 200,
+      "chain": {
+        "species_name": "rayquaza",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dragon",
+      "weak_against": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "strong_against": [
+        "dragon"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

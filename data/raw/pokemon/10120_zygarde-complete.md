@@ -1,0 +1,12 @@
+## Identity & Lore
+Zygarde-Complete (Pokedex #10120) is the formidable Order Pokémon, representing the ultimate manifestation of the ecosystem's balance. Originating in the Kalos region of Generation VI, this massive humanoid entity is the final form of Zygarde, appearing only when the world’s environment falls into total disarray and its 50% Form is unable to handle the threat. While it does not possess a Mega Evolution or Gigantamax form, the Complete Form is considered a "form change" triggered by its unique biological core assembly. Legend states that its power exceeds that of the legendary life-giver Xerneas and the harbinger of destruction Yveltal. Standing at 4.5 meters and weighing 610kg, its body is composed of thousands of individual Cores and Cells that act as a single hive-mind to enforce natural law.
+
+## Combat Profile
+* **Stats:** HP 216, Attack 100, Defense 121, Sp. Atk 91, Sp. Def 95, Speed 85.
+* **Archetype:** Colossal Physical Tank / Sustained Bruiser.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice**, and is additionally **weak to Dragon, Fairy, Water, and Grass**. It maintains a critical **immunity to Electric** and **resists Poison, Rock, Steel, and Fire**.
+* **Move Selection:** Leveraging its superior Attack stat and signature utility, its optimal moveset includes **Thousand Arrows** (a unique Ground-type move that hits Flying and Levitating targets), **Thousand Waves** (to prevent the opponent from switching out), **Extreme Speed** (to compensate for its mediocre Speed with high-priority damage), and **Outrage** (for devastating Dragon-type STAB damage). 
+* **Abilities:** Power Construct (This ability allows Zygarde to transform into this Complete form mid-battle when its HP falls below 50%, instantly and massively increasing its base HP pool).
+
+## Evolution & Biology
+Zygarde-Complete is the pinnacle of a unique assembly-based biological line rather than a traditional evolution. It is composed of Zygarde Cores—which act as the brains—and Zygarde Cells, which compose its mass. It exists in three primary states: the 10% Form (resembling a hound), the 50% Form (resembling a serpent), and this 100% Complete Form (resembling a mechanical giant). It belongs to the **No Eggs Discovered** group and cannot be bred. In the wild, it is said to monitor the world from the depths of caves like Terminus Cave, only assembling its full form when the very fabric of the ecosystem is at risk of collapsing.

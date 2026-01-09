@@ -1,0 +1,201 @@
+{
+  "pokemon_details": {
+    "id": 699,
+    "name": "aurorus",
+    "stats": {
+      "hp": 123,
+      "attack": 77,
+      "defense": 72,
+      "special-attack": 99,
+      "special-defense": 92,
+      "speed": 58
+    },
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "height_m": 2.7,
+    "weight_kg": 225.0,
+    "abilities": [
+      {
+        "name": "refrigerate",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "snow-warning",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "aurorus"
+    ],
+    "moves": [
+      "body-slam",
+      "take-down",
+      "growl",
+      "roar",
+      "mist",
+      "ice-beam",
+      "blizzard",
+      "aurora-beam",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "rock-throw",
+      "earthquake",
+      "toxic",
+      "psychic",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "dream-eater",
+      "flash",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "powder-snow",
+      "protect",
+      "icy-wind",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "psych-up",
+      "ancient-power",
+      "rock-smash",
+      "hail",
+      "facade",
+      "nature-power",
+      "secret-power",
+      "hyper-voice",
+      "weather-ball",
+      "rock-tomb",
+      "icicle-spear",
+      "iron-defense",
+      "mud-shot",
+      "calm-mind",
+      "rock-blast",
+      "water-pulse",
+      "magnet-rise",
+      "rock-polish",
+      "dark-pulse",
+      "aqua-tail",
+      "earth-power",
+      "giga-impact",
+      "avalanche",
+      "zen-headbutt",
+      "flash-cannon",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "charge-beam",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "frost-breath",
+      "dragon-tail",
+      "freeze-dry",
+      "confide",
+      "meteor-beam"
+    ],
+    "held_items": [],
+    "base_experience": 104,
+    "is_default": true,
+    "order": 834,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/699.png"
+    },
+    "species_name": "aurorus",
+    "flavor_text": "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+    "genus": "Tundra Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 30,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "quadruped",
+    "color": "blue",
+    "egg_groups": [
+      "monster"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/358/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 358,
+      "chain": {
+        "species_name": "amaura",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "aurorus",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 39,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ice",
+      "weak_against": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "strong_against": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "immune_to": []
+    }
+  ]
+}

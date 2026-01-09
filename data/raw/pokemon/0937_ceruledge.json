@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 937,
+    "name": "ceruledge",
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 85
+    },
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 62.0,
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ceruledge"
+    ],
+    "moves": [
+      "swords-dance",
+      "take-down",
+      "leer",
+      "ember",
+      "flamethrower",
+      "fire-spin",
+      "night-shade",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "fire-blast",
+      "rest",
+      "substitute",
+      "curse",
+      "spite",
+      "protect",
+      "endure",
+      "false-swipe",
+      "sleep-talk",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "brick-break",
+      "astonish",
+      "overheat",
+      "iron-defense",
+      "dragon-claw",
+      "bulk-up",
+      "close-combat",
+      "fling",
+      "flare-blitz",
+      "poison-jab",
+      "night-slash",
+      "x-scissor",
+      "vacuum-wave",
+      "shadow-claw",
+      "shadow-sneak",
+      "psycho-cut",
+      "lava-plume",
+      "iron-head",
+      "flame-charge",
+      "clear-smog",
+      "stored-power",
+      "quick-guard",
+      "ally-switch",
+      "hex",
+      "incinerate",
+      "phantom-force",
+      "solar-blade",
+      "throat-chop",
+      "poltergeist",
+      "tera-blast",
+      "bitter-blade"
+    ],
+    "held_items": [],
+    "base_experience": 263,
+    "is_default": true,
+    "order": 1005,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/937.png"
+    },
+    "species_name": "ceruledge",
+    "flavor_text": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+    "genus": "Fire Blades Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 25,
+    "base_happiness": 20,
+    "hatch_counter": 35,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "blue",
+    "egg_groups": [
+      "humanshape"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/490/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 490,
+      "chain": {
+        "species_name": "charcadet",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "armarouge",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "auspicious-armor"
+              }
+            ],
+            "evolves_to": []
+          },
+          {
+            "species_name": "ceruledge",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "malicious-armor"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fire",
+      "weak_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "strong_against": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

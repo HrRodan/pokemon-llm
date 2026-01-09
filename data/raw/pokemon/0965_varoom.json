@@ -1,0 +1,163 @@
+{
+  "pokemon_details": {
+    "id": 965,
+    "name": "varoom",
+    "stats": {
+      "hp": 45,
+      "attack": 70,
+      "defense": 63,
+      "special-attack": 30,
+      "special-defense": 45,
+      "speed": 47
+    },
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 35.0,
+    "abilities": [
+      {
+        "name": "overcoat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "slow-start",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "varoom"
+    ],
+    "moves": [
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "toxic",
+      "screech",
+      "haze",
+      "self-destruct",
+      "lick",
+      "smog",
+      "sludge",
+      "poison-gas",
+      "substitute",
+      "thief",
+      "curse",
+      "protect",
+      "scary-face",
+      "sludge-bomb",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "metal-sound",
+      "iron-defense",
+      "gyro-ball",
+      "assurance",
+      "toxic-spikes",
+      "poison-jab",
+      "zen-headbutt",
+      "flash-cannon",
+      "gunk-shot",
+      "iron-head",
+      "venoshock",
+      "sludge-wave",
+      "acid-spray",
+      "bulldoze",
+      "parting-shot",
+      "steel-beam",
+      "tera-blast",
+      "spin-out"
+    ],
+    "held_items": [],
+    "base_experience": 60,
+    "is_default": true,
+    "order": 942,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/965.png"
+    },
+    "species_name": "varoom",
+    "flavor_text": "It is said that this Pok\u00e9mon was born when an unknown poison Pok\u00e9mon entered and inspirited an engine left at a scrap-processing factory.",
+    "genus": "Single-Cyl Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "legs",
+    "color": "gray",
+    "egg_groups": [
+      "mineral"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/505/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 505,
+      "chain": {
+        "species_name": "varoom",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "revavroom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 40
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+## Identity & Lore
+Skrelp (Pokedex #690) is the Mock Kelp Pokémon, a unique aquatic species first discovered in the Kalos region during Generation VI. Appearing as a piece of rotting brown seaweed, Skrelp utilizes master-class camouflage to drift aimlessly in the ocean, avoiding the gaze of larger predators while simultaneously stalking its own prey. When an unsuspecting target wanders too close, Skrelp sprays a potent liquid poison to immobilize them. This biological mimicry is so effective that it often remains unnoticed even by humans until it moves. While Skrelp itself does not possess a Mega Evolution, Gigantamax, or Paradox form, it is highly regarded for its eventual transformation into the formidable Poison/Dragon-type Dragalge, which occupies a unique ecological niche as a dragon that dwells in kelp forests.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 60, Defense 60, Sp. Atk 60, Sp. Def 60, Speed 30.
+* **Archetype:** Eviolite Tank / Adaptability Attacker. In its base form, Skrelp often functions as a resilient pivot in lower-tier competitive brackets (like Little Cup) when holding an Eviolite to boost its defensive stats.
+* **Type Matchups:** As a Poison/Water type, it is **weak to Ground, Psychic, and Electric**. It possesses a strong defensive profile, **resisting Fighting, Poison, Bug, Steel, Fire, Water, Ice, and Fairy** types. 
+* **Move Selection:** Leveraging its balanced offensive stats and its access to the Adaptability ability, Skrelp excels with a mix of high-power STAB (Same Type Attack Bonus) and utility moves. Key selections include **Sludge Bomb** for a high poison chance, **Hydro Pump** for raw heavy damage, **Dragon Pulse** for specialized coverage, and **Toxic Spikes** to set entry hazards that pressure the opposing team.
+* **Abilities:** 
+    * **Poison Point:** May poison an attacker upon making physical contact.
+    * **Poison Touch:** May poison a target when Skrelp uses a contact move.
+    * **Adaptability (Hidden Ability):** Increases the power of STAB moves from the standard 1.5x to 2x, significantly boosting its offensive pressure despite its low base stats.
+
+## Evolution & Biology
+Skrelp is the first stage of a two-part evolutionary line. It evolves into **Dragalge** specifically when it reaches the high threshold of **Level 48**. This evolution marks a significant biological shift, as it loses its Water typing in favor of the Dragon type, reflecting its increased predatory power. Biologically, Skrelp belongs to the **Water 1 and Dragon** Egg Groups, highlighting its ancestral links to sea-dwelling drakes. Trainers breeding Skrelp should note a hatch counter of 20, requiring a moderate amount of travel before the Egg hatches. Its growth rate is classified as Medium, requiring a steady amount of experience to reach its powerful final form.

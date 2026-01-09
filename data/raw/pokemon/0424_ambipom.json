@@ -1,0 +1,208 @@
+{
+  "pokemon_details": {
+    "id": 424,
+    "name": "ambipom",
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 66,
+      "special-attack": 60,
+      "special-defense": 66,
+      "speed": 115
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 20.3,
+    "abilities": [
+      {
+        "name": "technician",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "pickup",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "ambipom"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "scratch",
+      "cut",
+      "slam",
+      "sand-attack",
+      "headbutt",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "hyper-beam",
+      "low-kick",
+      "counter",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "screech",
+      "double-team",
+      "metronome",
+      "swift",
+      "dream-eater",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "spite",
+      "protect",
+      "mud-slap",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "baton-pass",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "shadow-ball",
+      "rock-smash",
+      "beat-up",
+      "fake-out",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "role-play",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "tickle",
+      "aerial-ace",
+      "bounce",
+      "mud-shot",
+      "covet",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "u-turn",
+      "payback",
+      "fling",
+      "last-resort",
+      "seed-bomb",
+      "switcheroo",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "mud-bomb",
+      "gunk-shot",
+      "captivate",
+      "grass-knot",
+      "double-hit",
+      "hone-claws",
+      "smack-down",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "quick-guard",
+      "acrobatics",
+      "retaliate",
+      "work-up",
+      "dual-chop",
+      "confide",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "triple-axel",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water",
+      "upper-hand"
+    ],
+    "held_items": [],
+    "base_experience": 169,
+    "is_default": true,
+    "order": 286,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/424.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/424.png"
+    },
+    "species_name": "ambipom",
+    "flavor_text": "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
+    "genus": "Long Tail Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 100,
+    "hatch_counter": 20,
+    "growth_rate": "fast",
+    "habitat": null,
+    "shape": "upright",
+    "color": "purple",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/93/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 93,
+      "chain": {
+        "species_name": "aipom",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "ambipom",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "known_move": "double-hit"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

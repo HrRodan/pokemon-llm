@@ -1,0 +1,166 @@
+{
+  "pokemon_details": {
+    "id": 807,
+    "name": "zeraora",
+    "stats": {
+      "hp": 88,
+      "attack": 112,
+      "defense": 75,
+      "special-attack": 102,
+      "special-defense": 80,
+      "speed": 143
+    },
+    "types": [
+      "electric"
+    ],
+    "height_m": 1.5,
+    "weight_kg": 44.5,
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zeraora"
+    ],
+    "moves": [
+      "mega-punch",
+      "pay-day",
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "mega-kick",
+      "hyper-beam",
+      "low-kick",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "double-team",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "slash",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "spark",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "fake-out",
+      "facade",
+      "focus-punch",
+      "charge",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "snatch",
+      "blaze-kick",
+      "aerial-ace",
+      "bulk-up",
+      "bounce",
+      "calm-mind",
+      "shock-wave",
+      "close-combat",
+      "assurance",
+      "fling",
+      "aura-sphere",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "discharge",
+      "grass-knot",
+      "hone-claws",
+      "electro-ball",
+      "low-sweep",
+      "round",
+      "echoed-voice",
+      "quick-guard",
+      "acrobatics",
+      "volt-switch",
+      "work-up",
+      "electroweb",
+      "wild-charge",
+      "dual-chop",
+      "snarl",
+      "play-rough",
+      "confide",
+      "electric-terrain",
+      "power-up-punch",
+      "laser-focus",
+      "throat-chop",
+      "brutal-swing",
+      "plasma-fists",
+      "rising-voltage",
+      "coaching"
+    ],
+    "held_items": [],
+    "base_experience": 270,
+    "is_default": true,
+    "order": 988,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/807.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/807.png"
+    },
+    "species_name": "zeraora",
+    "flavor_text": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they\u2019ll be electrocuted by the flying sparks.",
+    "genus": "Thunderclap Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/427/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 427,
+      "chain": {
+        "species_name": "zeraora",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "electric",
+      "weak_against": [
+        "ground"
+      ],
+      "strong_against": [
+        "flying",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

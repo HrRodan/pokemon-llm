@@ -1,0 +1,175 @@
+{
+  "pokemon_details": {
+    "id": 930,
+    "name": "arboliva",
+    "stats": {
+      "hp": 78,
+      "attack": 69,
+      "defense": 90,
+      "special-attack": 125,
+      "special-defense": 109,
+      "speed": 39
+    },
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 48.2,
+    "abilities": [
+      {
+        "name": "seed-sower",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "arboliva"
+    ],
+    "moves": [
+      "tackle",
+      "hyper-beam",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "petal-dance",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "swift",
+      "rest",
+      "substitute",
+      "flail",
+      "protect",
+      "giga-drain",
+      "endure",
+      "charm",
+      "sleep-talk",
+      "safeguard",
+      "encore",
+      "sweet-scent",
+      "sunny-day",
+      "mirror-coat",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "hyper-voice",
+      "weather-ball",
+      "bullet-seed",
+      "magical-leaf",
+      "fling",
+      "seed-bomb",
+      "energy-ball",
+      "earth-power",
+      "giga-impact",
+      "leaf-storm",
+      "grass-knot",
+      "petal-blizzard",
+      "grassy-terrain",
+      "dazzling-gleam",
+      "solar-blade",
+      "pollen-puff",
+      "terrain-pulse",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice"
+    ],
+    "held_items": [],
+    "base_experience": 255,
+    "is_default": true,
+    "order": 937,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/930.png"
+    },
+    "species_name": "arboliva",
+    "flavor_text": "This calm Pok\u00e9mon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pok\u00e9mon.",
+    "genus": "Olive Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "humanoid",
+    "color": "green",
+    "egg_groups": [
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/487/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 487,
+      "chain": {
+        "species_name": "smoliv",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dolliv",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "arboliva",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 35
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

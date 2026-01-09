@@ -1,0 +1,155 @@
+{
+  "pokemon_details": {
+    "id": 1012,
+    "name": "poltchageist",
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 45,
+      "special-attack": 74,
+      "special-defense": 54,
+      "speed": 50
+    },
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "height_m": 0.1,
+    "weight_kg": 1.1,
+    "abilities": [
+      {
+        "name": "hospitality",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "heatproof",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "poltchageist-counterfeit",
+      "poltchageist-artisan"
+    ],
+    "moves": [
+      "absorb",
+      "mega-drain",
+      "solar-beam",
+      "stun-spore",
+      "night-shade",
+      "withdraw",
+      "reflect",
+      "rest",
+      "substitute",
+      "curse",
+      "spite",
+      "protect",
+      "giga-drain",
+      "endure",
+      "sleep-talk",
+      "pain-split",
+      "psych-up",
+      "shadow-ball",
+      "uproar",
+      "memento",
+      "imprison",
+      "astonish",
+      "iron-defense",
+      "magical-leaf",
+      "calm-mind",
+      "energy-ball",
+      "nasty-plot",
+      "trick-room",
+      "leaf-storm",
+      "rage-powder",
+      "foul-play",
+      "scald",
+      "hex",
+      "phantom-force",
+      "grassy-terrain",
+      "life-dew",
+      "poltergeist",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 62,
+    "is_default": true,
+    "order": 1096,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1012.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1012.png"
+    },
+    "species_name": "poltchageist",
+    "flavor_text": "Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pok\u00e9mon.",
+    "genus": "Matcha Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 50,
+    "hatch_counter": 50,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "green",
+    "egg_groups": [
+      "mineral",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/539/",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    },
+    "evolution": {
+      "chain_id": 539,
+      "chain": {
+        "species_name": "poltchageist",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "sinistcha",
+            "evolution_details": [],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ghost",
+      "weak_against": [
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "normal",
+        "fighting"
+      ]
+    }
+  ]
+}

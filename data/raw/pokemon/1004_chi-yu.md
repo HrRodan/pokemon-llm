@@ -1,0 +1,12 @@
+## Identity & Lore
+Chi-Yu (Pokedex #1004) is the Ruinous Pokémon, a legendary entity introduced in Generation IX (Paldea). Manifesting as a small, fish-like creature composed of flickering flames and jade beads, Chi-Yu is one of the four "Treasures of Ruin." Lore dictates that it was born from the envy accumulated within ceremonial beads that sparked countless conflicts. It possesses the terrifying ability to control temperatures exceeding 5,400 degrees Fahrenheit, allowing it to swim through rock and sand by instantly liquifying them into a sea of lava. While it currently has no known Mega Evolution or Gigantamax form, its status as a Sub-Legendary makes it one of the most feared Special Attackers in the Paldean region.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 80, Defense 80, Sp. Atk 135, Sp. Def 120, Speed 100.
+* **Archetype:** Fast Special Wallbreaker / Sweeper.
+* **Type Matchups:** It is **weak to Fighting, Ground, Rock, and Water**. It **resists Ghost, Dark, Fire, Grass, Ice, and Steel**, and possesses a complete **immunity to Psychic** types.
+* **Move Selection:** Leveraging its massive Special Attack and its ability to lower opponent defenses, Chi-Yu excels with moves like **Overheat** for maximum immediate damage, **Dark Pulse** for reliable STAB (Same Type Attack Bonus) with a flinch chance, **Flamethrower** for consistent fire-type pressure, and **Nasty Plot** to boost its offensive presence to overwhelming levels. It also has access to **Psychic** for coverage against Fighting-type threats.
+* **Abilities:** Beads of Ruin (The power of the Pokémon's ruinous beads lowers the Special Defense stat of all Pokémon except itself by 25%). This ability effectively multiplies Chi-Yu's damage output, allowing it to punch through even dedicated special walls.
+
+## Evolution & Biology
+Chi-Yu is a single-stage Legendary Pokémon and is not known to evolve into or from any other species. It belongs to the "No Eggs Discovered" group, meaning it cannot be bred. Biologically, it is less a living organism and more a spiritual manifestation of ancient malice bound to physical objects. In the Paldea region, it was sealed away in the Firescourge Shrine, accessible only by pulling eight blue ominous stakes from the ground. Its high base experience yield and slow growth rate reflect its status as a high-tier legendary protector of the ruinous treasures.

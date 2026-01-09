@@ -1,0 +1,14 @@
+## Identity & Lore
+Totem Salazzle (Pokedex #10129) is the imposing Totem-sized variant of the Toxic Lizard Pokémon, originally encountered in the Alola region during Generation VII. This specific form is significantly larger and heavier than a standard Salazzle, standing at 2.1 meters tall. Found deep within the Wela Volcano Park, it served as a formidable boss in the Island Challenge, known for its ability to summon Salandit allies to its side. Lore dictates that this species is exclusively female; it emits pheromones filled with poisonous gas to attract and control a "reverse harem" of male Salandit, who do all the hunting for her. Its sleek, black body and vibrant markings signal its deadly toxicity, and its mastery over both flame and venom makes it a top-tier predator in volcanic habitats.
+
+## Combat Profile
+* **Stats:** HP 68, Attack 64, Defense 60, Sp. Atk 111, Sp. Def 60, Speed 117.
+* **Archetype:** Fast Special Sweeper / Stall-Breaker.
+* **Type Matchups:** As a Poison/Fire type, it suffers a **Double Weakness (4x) to Ground**. It is also weak to **Psychic, Rock, and Water**. Conversely, it boasts an incredible 4x resistance to **Bug, Fairy, and Grass**, and standard resistances to **Fighting, Poison, Steel, Fire, and Ice**.
+* **Move Selection:** Utilizing its exceptional Speed and Special Attack, Totem Salazzle excels with a kit including **Sludge Wave** (primary STAB), **Fire Blast** (high-power STAB), **Nasty Plot** (to boost its offensive pressure), and **Dragon Pulse** or **Overheat** for coverage and raw burst damage.
+* **Abilities:** 
+    * **Corrosion:** A unique and powerful ability that allows Salazzle to inflict the Poisoned or Badly Poisoned status on Pokémon that are normally immune, specifically Steel and Poison types.
+    * **Oblivious (Hidden):** Protects the Pokémon from being infatuated or intimidated, and prevents it from being affected by the move Taunt, ensuring it can always set up its status moves.
+
+## Evolution & Biology
+Salazzle is the second and final stage of a two-stage evolutionary line. It evolves from **Salandit**, but with a very specific biological requirement: only **female Salandit** can evolve, which occurs starting at **Level 33**. Male Salandit remain in their juvenile state indefinitely, serving the evolved females. Totem Salazzle belongs to the **Monster and Dragon Egg Groups**, emphasizing its reptilian heritage. Biologically, it is famous for its toxic gas, which is not only a weapon but a tool for mind control, allowing Salazzle to rule over its territory with absolute authority. Due to its "medium" growth rate and high base experience, it is a rewarding but challenging Pokémon to train for competitive play.

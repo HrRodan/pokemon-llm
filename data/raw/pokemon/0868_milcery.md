@@ -1,0 +1,14 @@
+## Identity & Lore
+Milcery (#868) is the Cream Pokémon, a small, white liquid-based entity first discovered in the Galar region during Generation VIII. It is a unique creature born from sweet-smelling particles in the air; its entire body is composed of a rich, fragrant cream. This Pokémon is highly sought after by pastry chefs, as the cream it produces is famously delicious. While Milcery itself maintains a singular form, it possesses one of the most complex evolutionary potentials in the Pokémon world. Its evolution, Alcremie, can manifest in 63 different variations based on the "Sweet" it holds and the specific way its trainer spins. Furthermore, Alcremie has a massive **Gigantamax form** resembling a multi-tiered cake, which is a centerpiece of Galar’s competitive and culinary culture.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 40, Defense 40, Sp. Atk 50, Sp. Def 61, Speed 34.
+* **Archetype:** Special Support / Eviolite Tank. In its unevolved state, Milcery functions best as a defensive pivot in Little Cup formats, utilizing its decent Special Defense.
+* **Type Matchups:** As a pure **Fairy type**, it is **weak to Poison and Steel**. It **resists Fighting, Bug, and Dark**, and possesses a complete **immunity to Dragon-type** moves.
+* **Move Selection:** Utilizing its higher Special Attack and utility pool, Milcery excels with moves such as **Dazzling Gleam** for spread STAB damage, **Draining Kiss** for simultaneous damage and healing, **Recover** to maintain longevity, and **Stored Power**, which can become devastating if Milcery is boosted by its own Acid Armor or ally buffs.
+* **Abilities:** 
+    * **Sweet Veil:** Prevents Milcery and its allies from falling asleep, making it an excellent counter to "Spore" or "Sleep Powder" strategies.
+    * **Aroma Veil (Hidden Ability):** Provides vital protection for Milcery and its teammates against mental status conditions that limit move selection, such as Taunt, Torment, Encore, and Disable.
+
+## Evolution & Biology
+Milcery is part of a two-stage evolutionary line. It evolves into **Alcremie** through a unique ritual: the trainer must give Milcery a "Sweet" item to hold (such as a Strawberry Sweet, Berry Sweet, or Love Sweet) and then perform a **Spin** (pirouette) in the field. The resulting form of Alcremie is determined by the duration of the spin, the direction (clockwise or counter-clockwise), and the time of day, leading to flavors like Ruby Cream, Matcha Cream, or the rare Rainbow Swirl. Biologically, it belongs to both the **Fairy and Indeterminate** Egg Groups. It has a hatch counter of 20, reflecting its status as a relatively common but chemically complex organism.

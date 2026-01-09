@@ -1,0 +1,247 @@
+{
+  "pokemon_details": {
+    "id": 274,
+    "name": "nuzleaf",
+    "stats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 40,
+      "special-attack": 60,
+      "special-defense": 40,
+      "speed": 60
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "height_m": 1.0,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "pickpocket",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "nuzleaf"
+    ],
+    "moves": [
+      "pound",
+      "razor-wind",
+      "swords-dance",
+      "cut",
+      "mega-kick",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "absorb",
+      "mega-drain",
+      "leech-seed",
+      "growth",
+      "razor-leaf",
+      "solar-beam",
+      "dig",
+      "toxic",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "harden",
+      "defense-curl",
+      "self-destruct",
+      "swift",
+      "amnesia",
+      "flash",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "mud-slap",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "beat-up",
+      "fake-out",
+      "uproar",
+      "torment",
+      "facade",
+      "nature-power",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "astonish",
+      "weather-ball",
+      "air-cutter",
+      "rock-tomb",
+      "extrasensory",
+      "bullet-seed",
+      "magical-leaf",
+      "leaf-blade",
+      "natural-gift",
+      "payback",
+      "assurance",
+      "embargo",
+      "fling",
+      "power-swap",
+      "worry-seed",
+      "sucker-punch",
+      "dark-pulse",
+      "night-slash",
+      "seed-bomb",
+      "energy-ball",
+      "nasty-plot",
+      "defog",
+      "leaf-storm",
+      "captivate",
+      "grass-knot",
+      "low-sweep",
+      "foul-play",
+      "round",
+      "retaliate",
+      "snarl",
+      "grassy-terrain",
+      "confide",
+      "power-up-punch",
+      "solar-blade",
+      "grassy-glide",
+      "lash-out",
+      "tera-blast",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "power-herb"
+    ],
+    "base_experience": 119,
+    "is_default": true,
+    "order": 374,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/274.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/274.png"
+    },
+    "species_name": "nuzleaf",
+    "flavor_text": "NUZLEAF live in densely overgrown forests. They occasionally venture out of the forest to startle people. This POK\u00e9MON dislikes having its long nose pinched.",
+    "genus": "Wily Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium-slow",
+    "habitat": "forest",
+    "shape": "humanoid",
+    "color": "brown",
+    "egg_groups": [
+      "ground",
+      "plant"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/137/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 137,
+      "chain": {
+        "species_name": "seedot",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "nuzleaf",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 14
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "shiftry",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "leaf-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    }
+  ]
+}

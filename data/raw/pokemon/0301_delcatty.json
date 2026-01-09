@@ -1,0 +1,187 @@
+{
+  "pokemon_details": {
+    "id": 301,
+    "name": "delcatty",
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 90
+    },
+    "types": [
+      "normal"
+    ],
+    "height_m": 1.1,
+    "weight_kg": 32.6,
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "normalize",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "wonder-skin",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "delcatty"
+    ],
+    "moves": [
+      "double-slap",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "double-edge",
+      "tail-whip",
+      "growl",
+      "sing",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "swift",
+      "dream-eater",
+      "flash",
+      "fury-swipes",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "facade",
+      "helping-hand",
+      "secret-power",
+      "hyper-voice",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "payback",
+      "copycat",
+      "last-resort",
+      "sucker-punch",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "round",
+      "echoed-voice",
+      "retaliate",
+      "work-up",
+      "wild-charge",
+      "disarming-voice",
+      "play-rough",
+      "confide",
+      "baby-doll-eyes",
+      "laser-focus",
+      "stomping-tantrum"
+    ],
+    "held_items": [
+      "pecha-berry",
+      "leppa-berry"
+    ],
+    "base_experience": 140,
+    "is_default": true,
+    "order": 404,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/301.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/301.png"
+    },
+    "species_name": "delcatty",
+    "flavor_text": "DELCATTY prefers to live an unfettered existence in which it can do as it pleases at its own pace. Because this POK\u00e9MON eats and sleeps whenever it decides, its daily routines are completely random.",
+    "genus": "Prim Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 60,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "fast",
+    "habitat": "forest",
+    "shape": "quadruped",
+    "color": "purple",
+    "egg_groups": [
+      "ground",
+      "fairy"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/148/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 148,
+      "chain": {
+        "species_name": "skitty",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "delcatty",
+            "evolution_details": [
+              {
+                "trigger": "use-item",
+                "item": "moon-stone"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "normal",
+      "weak_against": [
+        "fighting"
+      ],
+      "strong_against": [],
+      "immune_to": [
+        "ghost"
+      ]
+    }
+  ]
+}

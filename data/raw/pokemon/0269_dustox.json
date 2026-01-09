@@ -1,0 +1,216 @@
+{
+  "pokemon_details": {
+    "id": 269,
+    "name": "dustox",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special-attack": 50,
+      "special-defense": 90,
+      "speed": 65
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 31.6,
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "compound-eyes",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dustox"
+    ],
+    "moves": [
+      "gust",
+      "whirlwind",
+      "tackle",
+      "double-edge",
+      "poison-sting",
+      "psybeam",
+      "hyper-beam",
+      "solar-beam",
+      "poison-powder",
+      "string-shot",
+      "toxic",
+      "confusion",
+      "psychic",
+      "mimic",
+      "double-team",
+      "harden",
+      "light-screen",
+      "swift",
+      "leech-life",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "sludge-bomb",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "moonlight",
+      "hidden-power",
+      "twister",
+      "sunny-day",
+      "shadow-ball",
+      "facade",
+      "secret-power",
+      "air-cutter",
+      "silver-wind",
+      "signal-beam",
+      "extrasensory",
+      "aerial-ace",
+      "iron-defense",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "bug-buzz",
+      "energy-ball",
+      "giga-impact",
+      "defog",
+      "captivate",
+      "bug-bite",
+      "ominous-wind",
+      "venoshock",
+      "quiver-dance",
+      "round",
+      "acrobatics",
+      "struggle-bug",
+      "electroweb",
+      "confide",
+      "infestation",
+      "laser-focus"
+    ],
+    "held_items": [
+      "silver-powder",
+      "shed-shell"
+    ],
+    "base_experience": 173,
+    "is_default": true,
+    "order": 369,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/269.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/269.png"
+    },
+    "species_name": "dustox",
+    "flavor_text": "DUSTOX is instinctively drawn to light. Swarms of this POK\u00e9MON are attracted by the bright lights of cities, where they wreak havoc by stripping the leaves off roadside trees for food.",
+    "genus": "Poison Moth Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": "forest",
+    "shape": "bug-wings",
+    "color": "green",
+    "egg_groups": [
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/135/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 135,
+      "chain": {
+        "species_name": "wurmple",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "silcoon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "beautifly",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          },
+          {
+            "species_name": "cascoon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 7
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "dustox",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 10
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "poison",
+      "weak_against": [
+        "ground",
+        "psychic"
+      ],
+      "strong_against": [
+        "grass",
+        "fairy"
+      ],
+      "immune_to": []
+    }
+  ]
+}

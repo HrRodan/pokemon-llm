@@ -1,0 +1,12 @@
+## Identity & Lore
+Mareanie (Pokedex #747) is the Brutal Star Pokémon, a dual-type Poison and Water species first discovered in the Alola region of Generation VII. This blue, dome-shaped predator is easily identified by the ten heavy tentacles that sprout from its head, each tipped with potent toxic spikes. In its natural habitat, Mareanie is a notorious hunter, often found along coastlines where it specifically preys upon Corsola; it uses its spikes to weaken targets before entangling them in its tentacles to deliver a finishing blow. While it does not possess a Mega Evolution or Gigantamax form, its evolution, Toxapex, is feared globally for having some of the most resilient defensive capabilities in the natural world.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 53, Defense 62, Sp. Atk 43, Sp. Def 52, Speed 45.
+* **Archetype:** Eviolite Defensive Tank. While its base stats are modest, its access to high-utility moves and top-tier abilities allows it to function as a formidable wall in lower competitive tiers.
+* **Type Matchups:** It is **weak to Ground, Psychic, and Electric**. It possesses an impressive array of resistances, effectively **resisting Fire, Water, Ice, Fighting, Poison, Bug, Steel, and Fairy** types.
+* **Move Selection:** Capitalizing on its slightly higher Physical Attack and immense utility, key moves include **Poison Jab** (reliable STAB with poison chance), **Liquidation** (powerful Water STAB that can lower opponent defense), **Knock Off** (essential utility for removing enemy held items), and **Recover** (critical for maintaining longevity during a battle).
+* **Abilities:** **Merciless** (guarantees critical hits against poisoned opponents, synergizing with its toxic spikes), **Limber** (provides absolute immunity to paralysis, ensuring its speed isn't further hindered), and its Hidden Ability, **Regenerator** (tactically elite, restoring 1/3 of its maximum HP whenever it switches out of battle).
+
+## Evolution & Biology
+Mareanie is the first stage of a two-part evolutionary line. It evolves into the formidable Toxapex once it reaches **Level 38**. Biologically, Mareanie is known for its durability and its "poison-barb" held item, which enhances the potency of its venomous strikes. It belongs to the **Water 1** Egg Group and requires significant patience to raise, with a hatch counter of approximately 20 cycles. Its anatomy is designed for seafloor survival, using its shape to withstand high pressure and its tentacles to crawl across both the ocean floor and sandy beaches in search of prey.

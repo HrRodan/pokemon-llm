@@ -1,0 +1,184 @@
+{
+  "pokemon_details": {
+    "id": 10192,
+    "name": "zarude-dada",
+    "stats": {
+      "hp": 105,
+      "attack": 120,
+      "defense": 105,
+      "special-attack": 70,
+      "special-defense": 95,
+      "speed": 105
+    },
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 70.0,
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zarude-dada"
+    ],
+    "moves": [
+      "mega-punch",
+      "scratch",
+      "swords-dance",
+      "bind",
+      "vine-whip",
+      "mega-kick",
+      "body-slam",
+      "take-down",
+      "thrash",
+      "leer",
+      "bite",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "growth",
+      "solar-beam",
+      "dig",
+      "swift",
+      "fury-swipes",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "scary-face",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "encore",
+      "iron-tail",
+      "synthesis",
+      "sunny-day",
+      "crunch",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "hyper-voice",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "bulk-up",
+      "mud-shot",
+      "magical-leaf",
+      "hammer-arm",
+      "u-turn",
+      "close-combat",
+      "payback",
+      "assurance",
+      "fling",
+      "dark-pulse",
+      "seed-bomb",
+      "drain-punch",
+      "energy-ball",
+      "giga-impact",
+      "nasty-plot",
+      "leaf-storm",
+      "power-whip",
+      "grass-knot",
+      "low-sweep",
+      "round",
+      "acrobatics",
+      "snarl",
+      "grassy-terrain",
+      "darkest-lariat",
+      "solar-blade",
+      "throat-chop",
+      "brutal-swing",
+      "stomping-tantrum",
+      "grassy-glide",
+      "lash-out",
+      "jungle-healing",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 300,
+    "is_default": false,
+    "order": 1085,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10192.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10192.png"
+    },
+    "species_name": "zarude",
+    "flavor_text": "Within dense forests, this Pok\u00e9mon lives in a pack with others of its kind. It\u2019s incredibly aggressive, and the other Pok\u00e9mon of the forest fear it.",
+    "genus": "Rogue Monkey Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": true,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 0,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "green",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/471/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 471,
+      "chain": {
+        "species_name": "zarude",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "dark",
+      "weak_against": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "strong_against": [
+        "ghost",
+        "psychic"
+      ],
+      "immune_to": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "grass",
+      "weak_against": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "immune_to": []
+    }
+  ]
+}

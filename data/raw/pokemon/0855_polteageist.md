@@ -1,0 +1,12 @@
+## Identity & Lore
+Polteageist (Pokedex #855) is the Black Tea Pokémon, a spectral entity that inhabits antique teapots and was first discovered in the Galar region during Generation VIII. This Ghost-type Pokémon is unique for existing in two distinct states: the "Phony Form," which occupies common counterfeit teapots, and the incredibly rare "Antique Form," which possesses a genuine masterpiece teapot featuring a stamp of authenticity on the underside. Polteageist is known to be formed from tea that has been left alone for a long time; it has a distinct purple hue and can multiply by pouring a portion of its liquid body into leftover cold tea. While it does not possess a Mega Evolution or Gigantamax form, its tactical presence in the Galar region is significant due to its signature move, Teatime.
+
+## Combat Profile
+* **Stats:** HP 60, Attack 65, Defense 65, Sp. Atk 134, Sp. Def 114, Speed 70.
+* **Archetype:** Special Setup Sweeper.
+* **Type Matchups:** It is **weak to Ghost and Dark**. It possesses **resistances to Poison and Bug**, and is completely **immune to Normal and Fighting** moves.
+* **Move Selection:** Leveraging its massive base 134 Special Attack and access to the best setup move in the game, key moves include **Shell Smash** (to double its offensive presence and speed), **Shadow Ball** (primary STAB), **Stored Power** (which reaches astronomical damage after a Shell Smash), and **Giga Drain** (for coverage against Rock/Ground types and health restoration).
+* **Abilities:** **Weak Armor** (Decreases Defense but sharply raises Speed when hit by a physical attack, synergizing perfectly with setup strategies); **Cursed Body** (Hidden Ability: Has a 30% chance to disable a move that deals damage to it, providing defensive utility).
+
+## Evolution & Biology
+Polteageist is part of a two-stage evolutionary line. It evolves from **Sinistea** when exposed to a specific evolutionary item; the item required depends on the Sinistea's authenticity. A Phony Form Sinistea requires a **Cracked Pot** to evolve, while the rare Antique Form Sinistea requires a **Chipped Pot**. Despite being made of liquid, Polteageist belongs to the **Mineral and Indeterminate (Amorphous)** Egg Groups. Biologically, it is a fickle creature; while it allows trusted Trainers to sample its tea, drinking too much can lead to indigestion or even possession, as the "tea" is actually a ghost-infused concoction.

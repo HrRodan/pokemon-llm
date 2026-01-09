@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 751,
+    "name": "dewpider",
+    "stats": {
+      "hp": 38,
+      "attack": 40,
+      "defense": 52,
+      "special-attack": 40,
+      "special-defense": 72,
+      "speed": 27
+    },
+    "types": [
+      "water",
+      "bug"
+    ],
+    "height_m": 0.3,
+    "weight_kg": 4.0,
+    "abilities": [
+      {
+        "name": "water-bubble",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "water-absorb",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dewpider"
+    ],
+    "moves": [
+      "headbutt",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "toxic",
+      "double-team",
+      "waterfall",
+      "leech-life",
+      "bubble",
+      "rest",
+      "substitute",
+      "spider-web",
+      "snore",
+      "protect",
+      "icy-wind",
+      "giga-drain",
+      "endure",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "crunch",
+      "mirror-coat",
+      "stockpile",
+      "spit-up",
+      "facade",
+      "magic-coat",
+      "endeavor",
+      "signal-beam",
+      "iron-defense",
+      "water-sport",
+      "water-pulse",
+      "aqua-ring",
+      "poison-jab",
+      "x-scissor",
+      "bug-buzz",
+      "bug-bite",
+      "power-split",
+      "wonder-room",
+      "magic-room",
+      "soak",
+      "entrainment",
+      "round",
+      "scald",
+      "frost-breath",
+      "sticky-web",
+      "confide",
+      "infestation",
+      "lunge",
+      "liquidation",
+      "skitter-smack",
+      "tera-blast",
+      "pounce",
+      "trailblaze",
+      "chilling-water"
+    ],
+    "held_items": [
+      "mystic-water"
+    ],
+    "base_experience": 54,
+    "is_default": true,
+    "order": 907,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/751.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/751.png"
+    },
+    "species_name": "dewpider",
+    "flavor_text": "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
+    "genus": "Water Bubble Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 200,
+    "base_happiness": 70,
+    "hatch_counter": 15,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "legs",
+    "color": "green",
+    "egg_groups": [
+      "water1",
+      "bug"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/387/",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    },
+    "evolution": {
+      "chain_id": 387,
+      "chain": {
+        "species_name": "dewpider",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "araquanid",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 22
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "bug",
+      "weak_against": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "strong_against": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+## Identity & Lore
+Alolan Vulpix (Pokedex #10103) is the Fox Pokémon, a regional Ice-type variant of the classic Fire-type Vulpix first discovered in Generation I. While the species originated in the Kanto region, this specific form developed in the Alola region (Generation VII) after migrating to high-altitude, snow-capped mountains to avoid the habitats of other Pokémon. Its fur, which is white as snow, allows it to blend into its freezing environment. According to lore, Alolan Vulpix is born with a single white tail that splits into six beautiful tails as it matures. It exhales air at temperatures as low as -58 degrees Fahrenheit, capable of freezing anything solid. While Alolan Vulpix does not possess a Mega Evolution or Gigantamax form, its evolution, Alolan Ninetales, is a premier user of the rare Aurora Veil technique.
+
+## Combat Profile
+* **Stats:** HP 38, Attack 41, Defense 40, Sp. Atk 50, Sp. Def 65, Speed 65.
+* **Archetype:** Weather-Setting Support / Special Attacker.
+* **Type Matchups:** As a pure Ice-type, it is **weak to Fire, Fighting, Rock, and Steel**. It notably possesses a **resistance to Ice-type moves**, but lacks the defensive profile to tank heavy hits.
+* **Move Selection:** Alolan Vulpix excels when utilizing its Special Attack and utility pool. Key moves include **Blizzard** (which becomes 100% accurate in snow), **Freeze-Dry** (unique for being super-effective against Water-types), **Moonblast** for Fairy-type coverage, and **Aurora Veil**, which provides a massive defensive boost to the entire team during snowy weather.
+* **Abilities:** **Snow Cloak** increases its evasiveness during a hailstorm or snow, making it harder to hit. Its Hidden Ability, **Snow Warning**, is its most competitive asset, automatically summoning snow upon entering the battlefield to enable its own Blizzard and Aurora Veil.
+
+## Evolution & Biology
+Alolan Vulpix is the first stage of a two-stage evolutionary line. It evolves into **Alolan Ninetales** specifically when **exposed to an Ice Stone**; unlike its Kanto counterpart, it will not respond to a Fire Stone. It belongs to the **Field (Ground)** Egg Group and has a hatch counter of 20, making it a relatively common sight for breeders. In the wild, Alolan Vulpix are known to carry the **Snowball** item, which boosts the Attack stat if the holder is hit by an Ice-type move. Despite its delicate appearance, it is a hardy survivor of the Alolan peaks, using its icy breath to create paths or defend its territory from predators.

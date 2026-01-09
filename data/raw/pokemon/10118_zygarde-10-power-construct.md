@@ -1,0 +1,12 @@
+## Identity & Lore
+Zygarde 10% Form (Pokedex #10118) is the Order Pokémon, a legendary Dragon and Ground-type guardian that first appeared in Generation VI (Kalos). While often recognized in its 50% serpentine form, this specific 10% manifestation takes on a sleek, canine appearance, resembling a Doberman Pinscher with a green "leash" around its neck. It serves as a rapid-response unit for the ecosystem, utilizing its sharp teeth and extreme speed to suppress those who threaten the natural balance. This form represents Zygarde Cores gathering only a small fraction of the available Zygarde Cells. While it lacks a Mega Evolution or Gigantamax form, its unique **Power Construct** ability allows it to transcend its physical limitations and transform into its massive, humanoid **Complete Form** during battle, a state said to possess power exceeding even that of Xerneas and Yveltal.
+
+## Combat Profile
+* **Stats:** HP 54, Attack 100, Defense 71, Sp. Atk 61, Sp. Def 85, Speed 115.
+* **Archetype:** Fast Physical Sweeper / Revenge Killer.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice**, and is also weak to **Dragon, Fairy, Water, and Grass**. It maintains resistances to **Poison, Rock, and Fire**, with a complete immunity to **Electric** attacks.
+* **Move Selection:** Utilizing its high Speed and Physical Attack, Zygarde 10% excels with **Thousand Arrows** (a legendary Ground move that hits Flying-types and Levitate users), **Extreme Speed** for high-priority finishing, **Outrage** for massive STAB damage, and **Dragon Dance** to further boost its sweeping potential.
+* **Abilities:** Power Construct (If the Pokémon's HP is below 50% at the end of a turn, it transforms into its "Complete Form," massively increasing its HP stat and changing its silhouette).
+
+## Evolution & Biology
+Zygarde does not follow a traditional evolutionary line and instead functions as a collective of **Zygarde Cores** and **Zygarde Cells**. It is a single-stage legendary entity that belongs to the **No Eggs Discovered** group, meaning it cannot be bred. Its biology is unique; the 10% form is a specialized combat state meant for high-speed maneuvers. When its health is depleted, the Power Construct ability draws in every surrounding cell to manifest its Complete Form, which resembles a giant mecha. Despite its canine look in this form, it remains a biological construct designed to monitor the environment from its lair, typically associated with deep cave systems like the Terminus Cave in Kalos or the Resolution Cave in Alola.

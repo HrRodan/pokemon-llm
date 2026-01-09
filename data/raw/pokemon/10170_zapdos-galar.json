@@ -1,0 +1,167 @@
+{
+  "pokemon_details": {
+    "id": 10170,
+    "name": "zapdos-galar",
+    "stats": {
+      "hp": 90,
+      "attack": 125,
+      "defense": 90,
+      "special-attack": 85,
+      "special-defense": 90,
+      "speed": 100
+    },
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 58.2,
+    "abilities": [
+      {
+        "name": "defiant",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "zapdos-galar"
+    ],
+    "moves": [
+      "fly",
+      "mega-kick",
+      "take-down",
+      "double-edge",
+      "hyper-beam",
+      "peck",
+      "drill-peck",
+      "low-kick",
+      "counter",
+      "agility",
+      "screech",
+      "light-screen",
+      "focus-energy",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "detect",
+      "sandstorm",
+      "endure",
+      "steel-wing",
+      "sleep-talk",
+      "rain-dance",
+      "sunny-day",
+      "ancient-power",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "blaze-kick",
+      "aerial-ace",
+      "bulk-up",
+      "bounce",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "close-combat",
+      "payback",
+      "assurance",
+      "brave-bird",
+      "giga-impact",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "acrobatics",
+      "retaliate",
+      "hurricane",
+      "throat-chop",
+      "stomping-tantrum",
+      "coaching",
+      "dual-wingbeat",
+      "thunderous-kick",
+      "tera-blast",
+      "trailblaze"
+    ],
+    "held_items": [],
+    "base_experience": 290,
+    "is_default": false,
+    "order": 239,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10170.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10170.png"
+    },
+    "species_name": "zapdos",
+    "flavor_text": "A legendary bird POK\u00e9MON that is said to appear from clouds while dropping enormous lightning bolts.",
+    "genus": "Electric Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 35,
+    "hatch_counter": 80,
+    "growth_rate": "slow",
+    "habitat": "rare",
+    "shape": "wings",
+    "color": "yellow",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/74/",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    },
+    "evolution": {
+      "chain_id": 74,
+      "chain": {
+        "species_name": "zapdos",
+        "evolution_details": [],
+        "evolves_to": []
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

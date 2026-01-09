@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Blastoise (Pokedex #10036) is the Mega Evolved form of the Shellfish Pokémon, a transformation that significantly enhances the firepower of the classic Kanto starter. Originally discovered in the Kanto region (Generation I), this blue, bipedal turtle-like Pokémon undergoes a massive physiological shift during Mega Evolution, merging its two smaller shoulder cannons into a single, colossal central cannon atop its shell, while gaining additional smaller launchers on its forearms. According to its lore, these pressurized water jets are used for devastating long-range strikes and high-speed tackles. While this specific form is a temporary battle state triggered by Blastoisinite, it is worth noting that Blastoise also possesses a Gigantamax form found in the Galar region, further cementing its status as one of the most versatile aquatic tanks in the Pokémon world.
+
+## Combat Profile
+* **Stats:** HP 79, Attack 103, Defense 120, Sp. Atk 135, Sp. Def 115, Speed 78.
+* **Archetype:** Bulky Special Wallbreaker. Its massive Special Attack paired with high defensive bulk allows it to take hits and retaliate with immense force.
+* **Type Matchups:** As a pure Water-type, Mega Blastoise is **weak to Grass and Electric**. It **resists Fire, Water, Ice, and Steel** moves, making it a reliable switch-in against many common offensive threats.
+* **Move Selection:** Capitalizing on its elite Special Attack and its unique ability, key moves include **Water Pulse**, **Dark Pulse**, **Dragon Pulse**, and **Hydro Pump**. These moves provide exceptional coverage and tactical advantages, especially when boosted by its signature ability.
+* **Abilities:** Mega Launcher (Increases the power of pulse and aura moves—such as Water Pulse, Dark Pulse, and Dragon Pulse—by 50%). This ability turns utility-focused moves into heavy-hitting nukes.
+
+## Evolution & Biology
+Mega Blastoise is the final temporary stage of a three-stage evolutionary line. It begins as **Squirtle**, which evolves into **Wartortle** starting at Level 16, and then into **Blastoise** at Level 36. The Mega Evolution is a temporary combat state and does not occur through standard leveling. Biologically, it is a member of the **Monster** and **Water 1** Egg Groups, with a medium-slow growth rate. It is primarily found near the water's edge in its natural habitat. Its heavy shell and massive cannons reflect its role as a "living fortress," capable of withstanding extreme pressure while delivering precision strikes.

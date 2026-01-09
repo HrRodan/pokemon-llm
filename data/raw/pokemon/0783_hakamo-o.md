@@ -1,0 +1,15 @@
+## Identity & Lore
+Hakamo-o (Pokedex #783) is the Scaly Pokémon, a bipedal Dragon and Fighting-type introduced in Generation VII (Alola). This warrior-like Pokémon is covered in sturdy, gray scales that it clangs together to intimidate opponents and communicate with its pride. Its behavior is defined by a rigorous code of combat; it leaps at prey with a courageous shout, utilizing scaly punches to tear through defenses. Hakamo-o lives in harsh, mountainous environments where it undergoes intense training to prepare for its final evolution. While Hakamo-o does not possess a Mega Evolution or Gigantamax form itself, its final evolution, Kommo-o, is a celebrated "Pseudo-Legendary" Pokémon known for its devastating Clangorous Soulblaze Z-Move in the Alola region and its ability to utilize the Clangorous Soul move to boost all its parameters.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 75, Defense 90, Sp. Atk 65, Sp. Def 70, Speed 65.
+* **Archetype:** Physical Eviolite Tank / Setup Sweeper. Given its status as a middle evolution, Hakamo-o is a potent threat in lower competitive tiers when holding an Eviolite to bolster its already impressive 90 Base Defense.
+* **Type Matchups:** It is **weak to Ice, Dragon, Flying, and Psychic**. It suffers from a **Double Weakness (4x) to Fairy-type moves**. Conversely, it **resists Fire, Water, Electric, Grass, Bug, Rock, and Dark** types.
+* **Move Selection:** Prioritizing its physical Attack and setup potential, Hakamo-o excels with moves such as **Dragon Dance** for boosting Speed and power, **Close Combat** for massive STAB (Same Type Attack Bonus) damage, **Dragon Claw** for consistent physical pressure, and **Drain Punch** to maintain longevity during a sweep.
+* **Abilities:** 
+    * **Bulletproof:** Provides immunity to "ball" and "bomb" moves (e.g., Shadow Ball, Sludge Bomb), making it a hard counter to specific special attackers.
+    * **Soundproof:** Grants total immunity to sound-based moves like Bug Buzz or Boomburst.
+    * **Overcoat (Hidden Ability):** Protects the Pokémon from weather-related damage (Sandstorm, Hail) and powder-based moves like Spore or Sleep Powder.
+
+## Evolution & Biology
+Hakamo-o is the second stage of a three-stage evolutionary line. It evolves from **Jangmo-o** starting at **Level 35**. After proving its mettle through continued combat and training, it evolves into the formidable **Kommo-o** starting at **Level 45**. Biologically, its scales are its greatest asset, serving as both armor and weaponry; it often leaves its scales behind after battle, which are highly prized for their durability. It belongs to the **Dragon** egg group and has a slow growth rate, reflecting the long journey required to master its dragon heritage. In the wild, it is sometimes found holding a **Razor Claw**, an item that increases its critical-hit ratio and can trigger the evolution of other species like Sneasel.

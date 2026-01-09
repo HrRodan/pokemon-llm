@@ -1,0 +1,12 @@
+## Identity & Lore
+Trumbeak (#732) is the Bugle Beak Pokémon, a dual-type Normal and Flying species first introduced in the Alola region during Generation VII. This avian Pokémon is distinguished by its long, colorful beak which possesses remarkable flexibility; by bending the tip of its beak, it can produce a vast array of sounds, often mimicking a bugle to signal others or intimidate rivals. A black-feathered inhabitant of forested areas, Trumbeak is a tactical forager that consumes various berries and stores the leftover seeds within its beak. When it encounters prey or predators, it utilizes its beak as a natural Gatling gun, firing these seeds in rapid-fire bursts. While this evolutionary line—consisting of Pikipek, Trumbeak, and Toucannon—does not possess any known Mega Evolutions, Gigantamax forms, or Paradox variants, Trumbeak is respected in the Alolan ecosystem for its vocal complexity and defensive seed-firing capabilities.
+
+## Combat Profile
+* **Stats:** HP 55, Attack 85, Defense 50, Sp. Atk 40, Sp. Def 50, Speed 75.
+* **Archetype:** Multi-Hit Physical Attacker.
+* **Type Matchups:** It is **weak to Rock, Electric, and Ice** moves. It **resists Bug and Grass** and maintains a dual **immunity to Ghost and Ground**-type attacks.
+* **Move Selection:** Capitalizing on its significantly higher Attack stat and its access to multi-hit synergy, key moves include **Brave Bird** for high-impact STAB damage, **Bullet Seed** and **Rock Blast** to exploit its abilities, and **Roost** for reliable recovery during combat.
+* **Abilities:** Keen Eye (prevents other Pokémon from lowering its accuracy and ignores evasion boosts); Skill Link (increases the frequency of multi-strike moves, ensuring moves like Rock Blast always hit five times); Pickup (a hidden ability that allows the Pokémon to find held items or retrieve used items in battle).
+
+## Evolution & Biology
+Trumbeak is the second stage of a three-stage evolutionary line. It evolves from **Pikipek** upon reaching level 14. Through continued battle experience, Trumbeak evolves into its final form, **Toucannon**, starting at level 28. Its biology is centered around its specialized beak, which serves as both a musical instrument and a projectile weapon. Trumbeak are known to be quite noisy, often engaging in "shouting matches" with one another to establish territory. It belongs to the **Flying** egg group and is often found carrying Sitrus Berries, which it uses for both sustenance and ammunition.

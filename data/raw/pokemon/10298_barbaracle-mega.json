@@ -1,0 +1,108 @@
+{
+  "pokemon_details": {
+    "id": 10298,
+    "name": "barbaracle-mega",
+    "stats": {
+      "hp": 72,
+      "attack": 140,
+      "defense": 130,
+      "special-attack": 64,
+      "special-defense": 106,
+      "speed": 88
+    },
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "height_m": 2.2,
+    "weight_kg": 100.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "barbaracle",
+    "flavor_text": "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+    "genus": "Collective Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "heads",
+    "color": "brown",
+    "egg_groups": [
+      "water3"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/353/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 353,
+      "chain": {
+        "species_name": "binacle",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "barbaracle",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 39
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "rock",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "strong_against": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "pokemon_details": {
+    "id": 10314,
+    "name": "meowstic-mega",
+    "stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special-attack": 143,
+      "special-defense": 101,
+      "speed": 124
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 10.1,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "meowstic",
+    "flavor_text": "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+    "genus": "Constraint Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 75,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/348/",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    },
+    "evolution": {
+      "chain_id": 348,
+      "chain": {
+        "species_name": "espurr",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "meowstic",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

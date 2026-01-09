@@ -1,0 +1,182 @@
+{
+  "pokemon_details": {
+    "id": 456,
+    "name": "finneon",
+    "stats": {
+      "hp": 49,
+      "attack": 49,
+      "defense": 56,
+      "special-attack": 49,
+      "special-defense": 61,
+      "speed": 66
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.4,
+    "weight_kg": 7.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "storm-drain",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "finneon"
+    ],
+    "moves": [
+      "pound",
+      "gust",
+      "take-down",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "psybeam",
+      "aurora-beam",
+      "toxic",
+      "agility",
+      "double-team",
+      "confuse-ray",
+      "waterfall",
+      "swift",
+      "bubble",
+      "flash",
+      "splash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "flail",
+      "protect",
+      "sweet-kiss",
+      "icy-wind",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "psych-up",
+      "whirlpool",
+      "hail",
+      "facade",
+      "nature-power",
+      "helping-hand",
+      "secret-power",
+      "dive",
+      "air-cutter",
+      "silver-wind",
+      "tickle",
+      "signal-beam",
+      "bounce",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "aqua-ring",
+      "aqua-tail",
+      "air-slash",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "soak",
+      "round",
+      "scald",
+      "acrobatics",
+      "confide",
+      "dazzling-gleam",
+      "flip-turn",
+      "tera-blast",
+      "chilling-water",
+      "alluring-voice"
+    ],
+    "held_items": [
+      "rindo-berry"
+    ],
+    "base_experience": 66,
+    "is_default": true,
+    "order": 582,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/456.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/456.png"
+    },
+    "species_name": "finneon",
+    "flavor_text": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+    "genus": "Wing Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 190,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "slow-then-very-fast",
+    "habitat": null,
+    "shape": "fish",
+    "color": "blue",
+    "egg_groups": [
+      "water2"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/237/",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    },
+    "evolution": {
+      "chain_id": 237,
+      "chain": {
+        "species_name": "finneon",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "lumineon",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 31
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

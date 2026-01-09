@@ -1,0 +1,215 @@
+{
+  "pokemon_details": {
+    "id": 10051,
+    "name": "gardevoir-mega",
+    "stats": {
+      "hp": 68,
+      "attack": 85,
+      "defense": 65,
+      "special-attack": 165,
+      "special-defense": 135,
+      "speed": 100
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "height_m": 1.6,
+    "weight_kg": 48.4,
+    "abilities": [
+      {
+        "name": "pixilate",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "gardevoir-mega"
+    ],
+    "moves": [
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "growl",
+      "hyper-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "teleport",
+      "double-team",
+      "light-screen",
+      "reflect",
+      "dream-eater",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "icy-wind",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "signal-beam",
+      "magical-leaf",
+      "calm-mind",
+      "shock-wave",
+      "healing-wish",
+      "fling",
+      "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "moonblast",
+      "confide",
+      "dazzling-gleam",
+      "laser-focus"
+    ],
+    "held_items": [],
+    "base_experience": 278,
+    "is_default": false,
+    "order": 383,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10051.png"
+    },
+    "species_name": "gardevoir",
+    "flavor_text": "GARDEVOIR has the ability to read the future. If it senses impending danger to its TRAINER, this POK\u00e9MON is said to unleash its psychokinetic energy at full power.",
+    "genus": "Embrace Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 35,
+    "hatch_counter": 20,
+    "growth_rate": "slow",
+    "habitat": "urban",
+    "shape": "humanoid",
+    "color": "white",
+    "egg_groups": [
+      "humanshape",
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/140/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 140,
+      "chain": {
+        "species_name": "ralts",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "kirlia",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 20
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "gardevoir",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 30
+                  }
+                ],
+                "evolves_to": []
+              },
+              {
+                "species_name": "gallade",
+                "evolution_details": [
+                  {
+                    "trigger": "use-item",
+                    "item": "dawn-stone"
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "fairy",
+      "weak_against": [
+        "poison",
+        "steel"
+      ],
+      "strong_against": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "immune_to": [
+        "dragon"
+      ]
+    }
+  ]
+}

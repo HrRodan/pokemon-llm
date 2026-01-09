@@ -1,0 +1,12 @@
+## Identity & Lore
+Simisage (#512) is the Thorn Monkey Pokémon, a spirited Grass-type inhabitant of the Unova region first introduced in Generation V. Characterized by its rebellious tuft of hair that resembles a bitter leaf and a long, barbed tail, Simisage is known for its ill-tempered and aggressive disposition. It often fights by swinging its tail wildly like a morning star, utilizing the sharp barbs to inflict damage. While it lacks Mega Evolutions, Gigantamax forms, or Paradox variants, it serves as the Grass-type cornerstone of the "elemental monkey" trio alongside Simisear and Simipour. Its design draws inspiration from "bosozoku" (Japanese biker gang) culture, reflected in its defiant posture and pompadour-like foliage.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 98, Defense 63, Sp. Atk 98, Sp. Def 63, Speed 101.
+* **Archetype:** Fast Mixed Attacker. Simisage occupies a unique speed tier at base 101, allowing it to outpace common base 100 threats, though its defensive profile is quite fragile.
+* **Type Matchups:** It is **weak to Fire, Ice, Poison, Flying, and Bug-type moves**. It **resists Water, Electric, Grass, and Ground-type attacks**. 
+* **Move Selection:** Utilizing its perfectly balanced offensive stats, Simisage can threaten opponents with **Energy Ball** (Special STAB), **Seed Bomb** (Physical STAB), **Gunk Shot** (high-powered Poison coverage for opposing Grass and Fairy types), and **Knock Off** (crucial utility for removing items and hitting Psychic/Ghost types).
+* **Abilities:** **Gluttony** allows the Pokémon to consume a held Berry (like the Oran or Occa Berries it is known to carry) at 50% HP instead of the usual 25%. **Overgrow** (Hidden Ability) powers up Grass-type moves by 50% when Simisage's health drops below one-third.
+
+## Evolution & Biology
+Simisage is the final stage of a two-stage evolutionary line. It evolves from **Pansage** when the latter is exposed to a **Leaf Stone**. This evolution typically results in a significant increase in physical aggression and combat prowess. Biologically, it belongs to the **Field (Ground)** Egg Group, making it compatible with a wide variety of mammalian Pokémon for breeding. It has a hatch counter of 20, requiring significant travel to hatch from an Egg. In the wild, it is known to be protective of its territory, using its bitter head-leaf as a deterrent against those who would try to consume it.

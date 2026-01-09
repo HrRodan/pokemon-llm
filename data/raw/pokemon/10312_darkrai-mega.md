@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Darkrai (Pokedex #10312) is the Pitch-Black Pokémon, a terrifying Mythical entity that originated in the Sinnoh region (Generation IV). As a Mega Evolved form of the legendary Darkrai, it embodies the essence of nightmares, becoming most active during the nights of the new moon. Its lore suggests it does not harbor personal malice but instinctively lulls people and Pokémon into a deep sleep to protect its territory, trapping them in vivid, inescapable dreams. In this ascended state, its shadowy, smoke-like physical form becomes more stabilized and armored, reflecting its massive increase in defensive capabilities compared to its base form.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 120, Defense 130, Sp. Atk 165, Sp. Def 130, Speed 85.
+* **Archetype:** Bulky Special Sweeper. In a significant departure from its standard form's high-speed glass cannon profile, Mega Darkrai functions as a "Tanky Nuke," trading raw speed for immense 130-base defensive stats and a devastating 165 Special Attack.
+* **Type Matchups:** As a pure **Dark-type**, it is **weak to Fighting, Bug, and Fairy**. It **resists Ghost and Dark** type attacks and maintains a complete **immunity to Psychic-type** moves.
+* **Move Selection:** Capitalizing on its elite Special Attack and its signature status-inflicting capabilities, key moves include **Dark Pulse** (high-powered STAB), **Dark Void** (to induce sleep in multiple targets), **Ice Beam** (essential coverage against Dragon and Grass types), and **Focus Blast** (to pierce through opposing Steel and Dark types).
+* **Abilities:** Mega Darkrai typically retains or enhances the **Bad Dreams** ability, which deals consistent chip damage to any opponent currently in the sleep state, making it a lethal passive threat while it sets up.
+
+## Evolution & Biology
+Mega Darkrai is part of a single-stage Mythical evolutionary line. It does not evolve from or into any other Pokémon through traditional leveling; instead, it undergoes **Mega Evolution** in battle, a temporary transformation triggered by the bond between Trainer and Pokémon. It is a member of the **No-Eggs (Undiscovered)** group, making it impossible to breed. Biologically, it is a humanoid-shaped shadow with a wispy, spectral lower body and a jagged, red-hued collar, designed to merge seamlessly into the darkness of the night. It has a slow growth rate and requires significant experience to reach its full combat potential.

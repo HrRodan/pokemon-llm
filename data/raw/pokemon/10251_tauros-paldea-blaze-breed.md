@@ -1,0 +1,15 @@
+## Identity & Lore
+Paldean Tauros (Blaze Breed) (Pokedex #10251) is the Wild Bull Pokémon, a formidable regional variant introduced in Generation IX (Paldea). This specific subspecies is characterized by its short, thick horns and a heated temperament that manifests in its dual Fighting and Fire typing. While the original Tauros was discovered in the grasslands of Kanto (Generation I), this Paldean form has adapted to the rugged environments of the Paldea region, specifically appearing as the "Blaze Breed." It is known for its intense physical power, often seen charging furiously while whipping its body with three distinct, long tails. In the wild, Blaze Breed Tauros are often the leaders of their herds, distinguished by their ability to breathe hot air from their nostrils when agitated. While it does not currently possess a Mega Evolution, Gigantamax form, or a specific Paradox counterpart, its unique breed mechanic allows its signature move to change properties based on its elemental alignment.
+
+## Combat Profile
+* **Stats:** HP 75, Attack 110, Defense 105, Sp. Atk 30, Sp. Def 70, Speed 100.
+* **Archetype:** Physical Tank / Bulky Attacker. With a high Base Defense and a respectable Speed tier of 100, it functions as a potent threat that can both take hits and dish out heavy physical damage.
+* **Type Matchups:** As a Fighting/Fire-type, it is **weak to Water, Ground, Rock, Flying, Psychic, and Fairy**. Conversely, it boasts a **Double Resistance (1/4x) to Bug** and resists Fire, Grass, Ice, Steel, and Dark.
+* **Move Selection:** Capitalizing on its high Attack and signature mechanics, key moves include **Raging Bull** (a signature move that breaks screens and becomes Fire-type in this form), **Flare Blitz** (high-power STAB), **Close Combat** (powerful Fighting STAB), and **Wild Charge** (crucial coverage against Water and Flying types).
+* **Abilities:** 
+    * **Intimidate:** Automatically lowers the Attack stat of opposing Pokémon upon entering battle, significantly enhancing its physical bulk.
+    * **Anger Point:** Instantly maxes the Attack stat to +6 if the Pokémon is struck by a critical hit.
+    * **Cud Chew (Hidden):** Allows the Pokémon to eat the same Berry twice, once at the end of the turn it was consumed and again at the end of the next turn.
+
+## Evolution & Biology
+Paldean Tauros (Blaze Breed) is a single-stage Pokémon and does not evolve from or into any other species. It is part of a complex regional triad alongside the Combat Breed and the Aqua Breed (found in Pokémon Violet). In terms of reproduction, it belongs to the **Field (Ground)** egg group. Biologically, the Blaze Breed is distinct from its Kanto ancestor by its darker fur and the red-tinted glow of its horns when it prepares to use fire-based attacks. Despite its aggressive nature, it is known to be highly social within its own herd, using its tails to communicate intensity and direction during a stampede. It has a slow growth rate, requiring significant experience to reach its full potential in competitive circuits.

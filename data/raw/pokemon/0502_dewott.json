@@ -1,0 +1,189 @@
+{
+  "pokemon_details": {
+    "id": 502,
+    "name": "dewott",
+    "stats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 60,
+      "special-attack": 83,
+      "special-defense": 60,
+      "speed": 60
+    },
+    "types": [
+      "water"
+    ],
+    "height_m": 0.8,
+    "weight_kg": 24.5,
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "dewott"
+    ],
+    "moves": [
+      "swords-dance",
+      "cut",
+      "tackle",
+      "take-down",
+      "tail-whip",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "dig",
+      "toxic",
+      "screech",
+      "double-team",
+      "focus-energy",
+      "waterfall",
+      "swift",
+      "rest",
+      "slash",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "icy-wind",
+      "detect",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "revenge",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "aerial-ace",
+      "covet",
+      "water-sport",
+      "water-pulse",
+      "fling",
+      "copycat",
+      "night-slash",
+      "aqua-tail",
+      "air-slash",
+      "x-scissor",
+      "vacuum-wave",
+      "avalanche",
+      "grass-knot",
+      "aqua-jet",
+      "soak",
+      "round",
+      "scald",
+      "retaliate",
+      "water-pledge",
+      "work-up",
+      "sacred-sword",
+      "razor-shell",
+      "confide",
+      "liquidation",
+      "flip-turn",
+      "tera-blast",
+      "snowscape",
+      "chilling-water",
+      "aqua-cutter"
+    ],
+    "held_items": [],
+    "base_experience": 145,
+    "is_default": true,
+    "order": 617,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/502.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/502.png"
+    },
+    "species_name": "dewott",
+    "flavor_text": "Strict training is how it learns its flowing double-scalchop technique.",
+    "genus": "Discipline Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "ground"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/258/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 258,
+      "chain": {
+        "species_name": "oshawott",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "dewott",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 17
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "samurott",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    }
+  ]
+}

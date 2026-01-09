@@ -1,0 +1,149 @@
+{
+  "pokemon_details": {
+    "id": 891,
+    "name": "kubfu",
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 60,
+      "special-attack": 53,
+      "special-defense": 50,
+      "speed": 72
+    },
+    "types": [
+      "fighting"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 12.0,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "kubfu"
+    ],
+    "moves": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "low-kick",
+      "counter",
+      "dig",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "detect",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "dynamic-punch",
+      "metal-claw",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "aerial-ace",
+      "bulk-up",
+      "u-turn",
+      "close-combat",
+      "fling",
+      "zen-headbutt",
+      "iron-head",
+      "low-sweep",
+      "round",
+      "acrobatics",
+      "retaliate",
+      "work-up",
+      "coaching",
+      "tera-blast"
+    ],
+    "held_items": [],
+    "base_experience": 77,
+    "is_default": true,
+    "order": 1081,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/891.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/891.png"
+    },
+    "species_name": "kubfu",
+    "flavor_text": "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
+    "genus": "Wushu Pok\u00e9mon",
+    "is_legendary": true,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 3,
+    "base_happiness": 50,
+    "hatch_counter": 120,
+    "growth_rate": "slow",
+    "habitat": null,
+    "shape": "upright",
+    "color": "gray",
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/470/",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    },
+    "evolution": {
+      "chain_id": 470,
+      "chain": {
+        "species_name": "kubfu",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "urshifu",
+            "evolution_details": [
+              {
+                "trigger": "tower-of-darkness"
+              },
+              {
+                "trigger": "tower-of-waters"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "fighting",
+      "weak_against": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "strong_against": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "immune_to": []
+    }
+  ]
+}

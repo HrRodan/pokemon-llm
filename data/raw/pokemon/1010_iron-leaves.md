@@ -1,0 +1,12 @@
+## Identity & Lore
+Iron Leaves (Pokedex #1010) is a futuristic Paradox Pokémon classified as the Paradox Pokémon genus. Originally discovered in the Paldea region during the Generation IX era, this quadrupedal, metallic entity bears a striking resemblance to the legendary Pokémon Virizion. Its body is composed of a sleek, green chrome-like material, and it is frequently described in paranormal magazines as a robotic version of the "Sword of Justice" from a distant future. While it does not possess Mega Evolutions or Gigantamax forms, it belongs to the elite group of Paradox Pokémon—specifically the "Future" variants—that are found exclusively in the Great Crater of Paldea (Area Zero). Its presence is often associated with advanced technology, as evidenced by the glowing energy blades it can manifest from its neck and limbs.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 130, Defense 88, Sp. Atk 70, Sp. Def 108, Speed 104.
+* **Archetype:** Physical Sweeper / Wallbreaker.
+* **Type Matchups:** As a Grass/Psychic type, it suffers from a **Double Weakness (4x) to Bug**. It is also weak to Flying, Poison, Fire, Ice, Ghost, and Dark. Conversely, it resists Fighting, Ground, Water, Grass, Electric, and Psychic types.
+* **Move Selection:** Utilizing its massive base 130 Attack, Iron Leaves excels with a physical moveset. Its signature move, **Psyblade**, becomes significantly more powerful in Electric Terrain. Other essential moves include **Leaf Blade** for high-critical hit STAB (Same Type Attack Bonus) damage, **Close Combat** for powerful Fighting-type coverage against Steel and Dark types, and **Swords Dance** to further amplify its sweeping potential.
+* **Abilities:** Quark Drive (This ability automatically boosts the Pokémon’s most proficient stat—usually its Attack—by 30% when the Pokémon is holding a Booster Energy or when Electric Terrain is active).
+
+## Evolution & Biology
+Iron Leaves is a standalone entity and is not part of an evolutionary chain; it does not evolve from or into any other Pokémon. Biologically, it is an enigma, sharing no direct genetic lineage with modern species despite its physical similarities to Virizion. It belongs to the **No Eggs** (Undiscovered) egg group, meaning it cannot be bred in captivity. Its metallic composition suggests it does not require biological sustenance in the traditional sense, though it reacts dynamically to the presence of Electric Terrain, which seems to overcharge its internal systems.

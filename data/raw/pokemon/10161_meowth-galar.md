@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Meowth (Pokedex #052) is the regional Steel-type variant of the Scratch Cat Pokémon, native to the Galar region of Generation VIII. Unlike its Kantonian or Alolan cousins, Galarian Meowth evolved through a life spent with seafaring, Viking-like cultures, resulting in its body toughening into iron. Its appearance is characterized by shaggy, brownish-grey fur, a beard-like growth of black hair, and a blackened, iron-hard coin on its forehead. This Pokémon is notoriously fierce and aggressive, often clashing with other Meowth variants due to its territorial nature. While this specific form evolves into Perrserker, the Meowth species as a whole is notable for possessing a unique Gigantamax form, where its body stretches to incredible lengths and its coin glows with golden energy.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 65, Defense 55, Sp. Atk 40, Sp. Def 40, Speed 40.
+* **Archetype:** Physical Contact Attacker.
+* **Type Matchups:** As a pure Steel-type, it is **weak to Fire, Fighting, and Ground**. It possesses an extensive list of resistances, including **Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dragon, Steel, and Fairy**, and it is completely **immune to Poison**.
+* **Move Selection:** Utilizing its superior Attack stat and STAB (Same Type Attack Bonus), effective moves include **Iron Head** for consistent flinch potential, **Play Rough** for fairy-type coverage against Fighting types, **Crunch** for Dark-type utility, and **Fake Out** to disrupt opponents upon entry.
+* **Abilities:** **Pickup** (allows the Pokémon to find items outside of battle or retrieve used items); **Tough Claws** (a high-tier offensive ability that increases the power of contact moves by 30%); **Unnerve** (Hidden Ability that prevents opponents from eating their held Berries).
+
+## Evolution & Biology
+Galarian Meowth is the first stage of a two-stage evolutionary line. It evolves into **Perrserker** once it reaches **Level 28**, abandoning the typical evolution into Persian seen in other regions. Biologically, its fur has hardened into a mail-like texture to protect it during raids and battles. It belongs to the **Field (Ground)** egg group and is often found in urban or rocky coastal habitats. Trainers should note its medium growth rate and a hatch counter of 20, making it a relatively accessible Pokémon to breed and train for early-game competitive tiers.

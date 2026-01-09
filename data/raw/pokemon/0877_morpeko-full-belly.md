@@ -1,0 +1,12 @@
+## Identity & Lore
+Morpeko (Pokedex #877) is the Two-Sided Pokémon, a unique Electric/Dark-type species introduced in Generation VIII (Galar). This small, rodent-like Pokémon is characterized by its constant hunger, carrying seeds in its cheek pouches to nibble on throughout the day. This behavior isn't just for sustenance; it allows Morpeko to generate the electricity it needs for its various attacks. While this specific entry details its "Full Belly Mode," Morpeko is famous for its volatile personality and its ability to shift into "Hangry Mode," a state of intense irritation caused by hunger. Despite its lack of a Mega Evolution or Gigantamax form, Morpeko’s presence in the Galar region is iconic, often associated with the rival trainer Marnie and Team Yell.
+
+## Combat Profile
+* **Stats:** HP 58, Attack 95, Defense 58, Sp. Atk 70, Sp. Def 58, Speed 97.
+* **Archetype:** Physical Pivot / Revenge Killer.
+* **Type Matchups:** Morpeko is **weak to Ground, Fighting, Bug, and Fairy**. It possesses **resistances to Electric, Flying, Steel, Ghost, and Dark**, and it is completely **immune to Psychic** attacks due to its Dark typing.
+* **Move Selection:** Morpeko relies on its high Attack and Speed to disrupt opponents. Its signature move, **Aura Wheel**, is essential as it changes type between Electric (Full Belly) and Dark (Hangry) depending on its form. Other key moves include **Fake Out** for immediate pressure, **Crunch** for reliable Dark-type STAB, and **Parting Shot** to pivot while lowering the opponent's offensive stats.
+* **Abilities:** Hunger-Switch (At the end of every turn, this Pokémon switches between its Full Belly Mode and its Hangry Mode. This specifically alters the type of its signature move, Aura Wheel).
+
+## Evolution & Biology
+Morpeko is a single-stage Pokémon and does not evolve from or into any other species. It is a highly specialized member of the "Pikachu-clone" family, defined by its form-changing biology rather than evolutionary stages. Biologically, it is driven by its high metabolism, which forces it to constantly consume food to maintain its temperament. It belongs to the **Ground and Fairy** Egg Groups, and trainers typically find that its eggs require a standard incubation period (Hatch Counter 10) before they are ready to emerge.

@@ -1,0 +1,214 @@
+{
+  "pokemon_details": {
+    "id": 279,
+    "name": "pelipper",
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 70,
+      "speed": 65
+    },
+    "types": [
+      "water",
+      "flying"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 28.0,
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "drizzle",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "pelipper"
+    ],
+    "moves": [
+      "wing-attack",
+      "fly",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "supersonic",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "mimic",
+      "double-team",
+      "waterfall",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "whirlpool",
+      "uproar",
+      "stockpile",
+      "spit-up",
+      "swallow",
+      "hail",
+      "facade",
+      "helping-hand",
+      "knock-off",
+      "secret-power",
+      "feather-dance",
+      "weather-ball",
+      "air-cutter",
+      "muddy-water",
+      "aerial-ace",
+      "water-sport",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "brine",
+      "natural-gift",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "fling",
+      "seed-bomb",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "defog",
+      "gunk-shot",
+      "captivate",
+      "ominous-wind",
+      "wide-guard",
+      "soak",
+      "round",
+      "echoed-voice",
+      "scald",
+      "sky-drop",
+      "acrobatics",
+      "hurricane",
+      "confide",
+      "liquidation",
+      "dual-wingbeat",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ],
+    "held_items": [
+      "lucky-egg",
+      "pretty-wing"
+    ],
+    "base_experience": 154,
+    "is_default": true,
+    "order": 379,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/279.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/279.png"
+    },
+    "species_name": "pelipper",
+    "flavor_text": "It is a messenger of the skies, carrying small Pok\u00e9mon and eggs to safety in its bill.",
+    "genus": "Water Bird Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium",
+    "habitat": "sea",
+    "shape": "wings",
+    "color": "yellow",
+    "egg_groups": [
+      "water1",
+      "flying"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/139/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 139,
+      "chain": {
+        "species_name": "wingull",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "pelipper",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 25
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "flying",
+      "weak_against": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "strong_against": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune_to": [
+        "ground"
+      ]
+    }
+  ]
+}

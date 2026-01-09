@@ -1,0 +1,12 @@
+## Identity & Lore
+Blitzle (Pokedex #522) is the Electrified Pokémon, a striking quadruped first discovered in the Unova region during Generation V. Its sleek black body is marked with white zig-zagging stripes reminiscent of lightning bolts, and it possesses a prominent mane that functions as a natural lightning rod. According to local lore, Blitzle are most active when thunderclouds darken the sky, as they use their manes to intercept and store electricity from atmospheric discharges. While this species does not currently have any known Mega Evolutions, Gigantamax forms, or Paradox counterparts, it remains a quintessential example of the Unova region's unique elemental fauna, often found in grassy plains where it can gallop at high speeds.
+
+## Combat Profile
+* **Stats:** HP 45, Attack 60, Defense 32, Sp. Atk 50, Sp. Def 32, Speed 76.
+* **Archetype:** Fast Physical Attacker.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**.
+* **Move Selection:** Prioritizing its higher physical Attack stat and high Speed, key moves include **Wild Charge** for heavy STAB damage, **Flame Charge** for Fire-type coverage and Speed enhancement, **Supercell Slam** for high-risk physical power, and **Volt Switch** to maintain offensive momentum through pivoting.
+* **Abilities:** Lightning-rod (Draws in Electric-type moves to boost Special Attack), Motor Drive (Negates Electric-type damage to increase Speed), and Sap Sipper (Hidden Ability; provides immunity to Grass-type moves and boosts the Attack stat when hit by them).
+
+## Evolution & Biology
+Blitzle is part of a two-stage evolutionary line. It evolves into the powerful Zebra Pokémon, Zebstrika, through rigorous training once it reaches Level 27. Biologically, Blitzle is a member of the Ground (Field) Egg Group, and researchers have noted its high hatch counter (20), suggesting it requires significant care before emerging from its egg. In the wild, Blitzle are occasionally found carrying Cheri Berries, which they likely use to stay healthy during high-voltage discharges. Its biology is entirely centered on energy absorption and conversion, allowing it to communicate by flickering its mane with stored electricity.

@@ -1,0 +1,105 @@
+{
+  "pokemon_details": {
+    "id": 10306,
+    "name": "chimecho-mega",
+    "stats": {
+      "hp": 75,
+      "attack": 50,
+      "defense": 110,
+      "special-attack": 135,
+      "special-defense": 120,
+      "speed": 65
+    },
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "height_m": 1.2,
+    "weight_kg": 8.0,
+    "abilities": [],
+    "forms": [],
+    "moves": [],
+    "held_items": [],
+    "base_experience": null,
+    "is_default": false,
+    "order": -1,
+    "sprites": {
+      "front_default": null,
+      "back_default": null,
+      "front_shiny": null
+    },
+    "species_name": "chimecho",
+    "flavor_text": "CHIMECHO makes its cries echo inside its hollow body. When this POK\u00e9MON becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying.",
+    "genus": "Wind Chime Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 25,
+    "growth_rate": "fast",
+    "habitat": "grassland",
+    "shape": "arms",
+    "color": "blue",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/184/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 184,
+      "chain": {
+        "species_name": "chingling",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "chimecho",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_happiness": 220,
+                "time_of_day": "night"
+              }
+            ],
+            "evolves_to": []
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "steel",
+      "weak_against": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "strong_against": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "immune_to": [
+        "poison"
+      ]
+    }
+  ]
+}

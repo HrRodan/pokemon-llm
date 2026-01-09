@@ -1,0 +1,12 @@
+## Identity & Lore
+Woobat (Pokedex #527) is the Bat Pokémon, first discovered in the Unova region during Generation V. This blue, spherical Pokémon is defined by its shaggy fur and its large, heart-shaped nose, which serves as its primary tool for navigation. Residing primarily in dark forests and deep caves, Woobat emits ultrasonic waves from its nostrils to perceive its surroundings through echolocation. While it lacks the Mega Evolution or Gigantamax forms seen in other species, it is famous in Pokémon lore for the heart-shaped suction marks it leaves on cave walls—and occasionally on people—which are said to bring good luck to those who find them.
+
+## Combat Profile
+* **Stats:** HP 65, Attack 45, Defense 43, Sp. Atk 55, Sp. Def 43, Speed 72.
+* **Archetype:** Fast Special Setup Sweeper. While its base stats are modest, its high Speed relative to other unevolved Pokémon allows it to function as a disruptive special attacker.
+* **Type Matchups:** It is **weak to Ghost, Dark, Rock, Electric, and Ice**. It possesses a **double resistance (0.25x) to Fighting** and a standard resistance to **Grass and Psychic**. It is **immune to Ground-type moves** due to its Flying typing.
+* **Move Selection:** Leveraging its Special Attack and its unique ability to boost stats, key moves include **Stored Power** (which gains massive power from stat boosts), **Air Slash** (for STAB damage and flinch chance), **Psychic**, and **Roost** for longevity.
+* **Abilities:** **Unaware** (Ignores the opponent's stat changes during damage calculation), **Klutz** (The Pokémon is unable to use any held items), and **Simple** (A powerful Hidden Ability that doubles the effect of all stat modifiers, making moves like Calm Mind twice as effective).
+
+## Evolution & Biology
+Woobat is the first stage of a two-stage evolutionary line. It evolves into Swoobat only when it has achieved a high level of friendship (minimum 160 Happiness) and is subsequently leveled up. Biologically, it is a unique flyer that belongs to both the **Ground and Flying Egg Groups**, a rare combination that reflects its cave-dwelling nature. Its heart-shaped nose is not just for show; it functions as a suction cup, allowing Woobat to cling to ceilings while it sleeps, leaving behind its signature mark when it detaches.

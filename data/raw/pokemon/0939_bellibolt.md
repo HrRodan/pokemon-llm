@@ -1,0 +1,12 @@
+## Identity & Lore
+Bellibolt (Pokedex #939) is the EleFrog Pokémon, a quirky and lovable Electric-type introduced in Generation IX within the Paldea region. This green, bulbous amphibian is characterized by its soft, elastic body and two large, eye-like bumps on the sides of its head that actually function as discharge organs; its true eyes are tiny and situated just above its mouth. According to Paldean lore, Bellibolt generates massive amounts of electricity by expanding and contracting its wobbly frame, which powers the "belly-button dynamo" located in its midsection. While it lacks a Mega Evolution or Gigantamax form, it gained significant fame as the partner Pokémon of the Levincia Gym Leader and influencer, Iono. Its habitat is typically near water, though it is biologically distinct from most aquatic frogs, relying on internal kinetic energy rather than external moisture to stay active.
+
+## Combat Profile
+* **Stats:** HP 109, Attack 64, Defense 91, Sp. Atk 103, Sp. Def 83, Speed 45.
+* **Archetype:** Bulky Special Tank / Reactive Attacker.
+* **Type Matchups:** It is **weak to Ground** and **resists Electric, Flying, and Steel**. It has no double weaknesses (4x).
+* **Move Selection:** Utilizing its high Special Attack and natural bulk, Bellibolt excels with a moveset including **Thunderbolt** for consistent STAB damage, **Discharge** for spreading paralysis, **Acid Spray** to sharply lower the opponent's Special Defense, and **Slack Off** for reliable HP recovery. It can also utilize **Volt Switch** for tactical pivoting or **Muddy Water** for unexpected coverage against Ground types.
+* **Abilities:** **Electromorphosis** (Signature ability that boosts the power of the next Electric-type move when Bellibolt takes damage), **Static** (Chance to paralyze opponents who make physical contact), and **Damp** (Prevents all Pokémon on the field from using self-destructing moves).
+
+## Evolution & Biology
+Bellibolt is part of a two-stage evolutionary line. It evolves from the small, tadpole-like **Tadbulb** when exposed to a **Thunder Stone**, regardless of its level. Biologically, it is a sedentary Pokémon that often has a delayed reaction to its environment, making it appear oblivious despite its high defensive utility. It belongs to the **Water 1** Egg Group, reflecting its amphibian roots despite its pure Electric typing. With a base HP of 109, it is exceptionally durable for a non-legendary Pokémon, allowing it to survive hits to trigger its Electromorphosis ability and retaliate with doubled power.

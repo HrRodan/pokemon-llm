@@ -1,0 +1,15 @@
+## Identity & Lore
+Perrserker (Pokedex #863) is the Viking Pokémon, a fierce and battle-hardened creature introduced in Generation VIII (Galar). What distinguishes Perrserker from its feline relatives is the shaggy, black fur covering its body and the massive, horn-like protrusions on its head; this "helmet" is actually composed of hair that has hardened into a metallic substance over years of combat. Unlike the elegant Persian found in Kanto or Alola, Perrserker is the result of Galarian Meowth evolving after living alongside seafaring Viking cultures, developing a violent temperament and a love for the thrill of the fray. While Perrserker itself does not possess a Gigantamax form, its evolutionary precursor, Meowth, is famous for its long-bodied Gigantamax variant. In the wild, Perrserker are known for their sharp, dagger-like claws which they use to strike fear into opponents, often engaging in savage competitions to prove their strength.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 110, Defense 100, Sp. Atk 50, Sp. Def 60, Speed 50.
+* **Archetype:** Physical Tank / Wallbreaker. With a high Attack stat and solid physical bulk, Perrserker excels at trading hits with physical attackers.
+* **Type Matchups:** As a pure Steel-type, it is **weak to Fighting, Ground, and Fire**. It boasts an impressive array of resistances, including **Normal, Grass, Ice, Flying, Psychic, Bug, Rock, Dragon, Steel, and Fairy**, and is completely **immune to Poison**.
+* **Move Selection:** Perrserker relies on its heavy-hitting physical arsenal and contact-based moves. Key selections include **Iron Head** (for STAB and flinch potential), **Close Combat** (for high-power coverage), **Play Rough** (to check Fighting and Dragon types), and **Fake Out** (for valuable priority and flinching in lead positions).
+* **Abilities:** 
+    * **Battle Armor**: Protects the Pokémon from critical hits, ensuring its physical bulk remains reliable.
+    * **Tough Claws**: Increases the power of moves that make physical contact by 30%, making Perrserker a terrifying offensive threat.
+    * **Steely Spirit (Hidden Ability)**: Powers up the Steel-type moves of the Pokémon and its allies by 50%. This makes Perrserker a premier choice for Max Raid Battles and competitive doubles, as the effect is stackable.
+
+## Evolution & Biology
+Perrserker is the final stage of a localized two-stage evolutionary line. It evolves from **Galarian Meowth** starting at **Level 28**. This is a distinct evolutionary branch compared to the Kanto and Alola forms, which evolve into Persian. Biologically, Perrserker belongs to the **Ground** egg group. Its physiology is defined by its metallic fur and "berserker" persona, often clashing its claws together like swords to intimidate rivals. Despite its rugged appearance, it shares the same base happiness as most Meowth variants (50) and has a hatch counter of 20, making it a relatively accessible Pokémon for trainers looking to add a sturdy Steel-type to their Galar or Paldea rosters.

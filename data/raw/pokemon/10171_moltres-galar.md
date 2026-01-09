@@ -1,0 +1,12 @@
+## Identity & Lore
+Galarian Moltres (Pokedex #10171) is the legendary Flame Pokémon, a sinister regional variant of the Kantonian Moltres first discovered in the Galar region’s Crown Tundra (Generation VIII). Despite its classification as the "Flame Pokémon," this variant eschews fire in favor of a malevolent, fire-like aura composed of dark energy. Its pitch-black feathers and glowing crimson energy make it a terrifying sight in the wild. Unlike its Kanto counterpart, it is a Dark and Flying type, known for migrating across the Galar region and overwhelming its victims with an aura that saps their vitality. While Galarian Moltres does not possess a Mega Evolution or Gigantamax form, it is considered a peer to other legendary entities like Paradox Pokémon in terms of its unique ecological niche and overwhelming presence.
+
+## Combat Profile
+* **Stats:** HP 90, Attack 85, Defense 90, Sp. Atk 100, Sp. Def 125, Speed 90.
+* **Archetype:** Bulky Special Sweeper. Its exceptional Special Defense allows it to trade hits effectively before retaliating.
+* **Type Matchups:** It is **weak to Rock, Electric, Ice, and Fairy** types. It **resists Ghost, Dark, and Grass**, and maintains a complete **immunity to Ground and Psychic** moves due to its dual typing.
+* **Move Selection:** Capitalizing on its Special Attack and signature capabilities, its optimal moves include **Fiery Wrath** (a signature Dark-type move with a high flinch rate), **Hurricane** (its strongest Flying-type STAB), **Nasty Plot** (to boost its offensive presence), and **Air Slash** (for reliable damage and flinch synergy).
+* **Abilities:** Berserk (This ability boosts the Pokémon's Special Attack when its HP drops to 50% or below, synergizing perfectly with its high Special Defense to turn it into a late-game cleaner).
+
+## Evolution & Biology
+Galarian Moltres is a legendary specimen and part of a single-stage evolutionary line; it does not evolve from or into any other Pokémon. It belongs to the **No-eggs (Undiscovered)** group, meaning it cannot be bred. Biologically, it is distinct from its Kanto relative, with its "flames" actually being a manifestation of its internal energy that burns with a dark, haughty spirit. It is often found as a roaming legendary, requiring trainers to pursue it across vast distances. Its base happiness is lower than average at 35, reflecting its aloof and malevolent nature.

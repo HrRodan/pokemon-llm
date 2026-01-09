@@ -1,0 +1,198 @@
+{
+  "pokemon_details": {
+    "id": 578,
+    "name": "duosion",
+    "stats": {
+      "hp": 65,
+      "attack": 40,
+      "defense": 50,
+      "special-attack": 125,
+      "special-defense": 60,
+      "speed": 30
+    },
+    "types": [
+      "psychic"
+    ],
+    "height_m": 0.6,
+    "weight_kg": 8.0,
+    "abilities": [
+      {
+        "name": "overcoat",
+        "is_hidden": false,
+        "slot": 1
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false,
+        "slot": 2
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true,
+        "slot": 3
+      }
+    ],
+    "forms": [
+      "duosion"
+    ],
+    "moves": [
+      "psybeam",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "confusion",
+      "psychic",
+      "night-shade",
+      "double-team",
+      "recover",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "swift",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "acid-armor",
+      "explosion",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "magic-coat",
+      "endeavor",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "astonish",
+      "rock-tomb",
+      "signal-beam",
+      "iron-defense",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "gyro-ball",
+      "embargo",
+      "heal-block",
+      "power-swap",
+      "guard-swap",
+      "energy-ball",
+      "zen-headbutt",
+      "flash-cannon",
+      "trick-room",
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "after-you",
+      "round",
+      "stored-power",
+      "ally-switch",
+      "confide",
+      "infestation",
+      "psychic-terrain",
+      "expanding-force",
+      "steel-roller",
+      "tera-blast"
+    ],
+    "held_items": [
+      "persim-berry"
+    ],
+    "base_experience": 130,
+    "is_default": true,
+    "order": 700,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/578.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/578.png"
+    },
+    "species_name": "duosion",
+    "flavor_text": "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+    "genus": "Mitosis Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 100,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": null,
+    "shape": "ball",
+    "color": "green",
+    "egg_groups": [
+      "indeterminate"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/294/",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    },
+    "evolution": {
+      "chain_id": 294,
+      "chain": {
+        "species_name": "solosis",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "duosion",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 32
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "reuniclus",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 41
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "psychic",
+      "weak_against": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "strong_against": [
+        "fighting",
+        "poison"
+      ],
+      "immune_to": []
+    }
+  ]
+}

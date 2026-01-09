@@ -1,0 +1,196 @@
+{
+  "pokemon_details": {
+    "id": 10064,
+    "name": "swampert-mega",
+    "stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 110,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 70
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "height_m": 1.9,
+    "weight_kg": 102.0,
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false,
+        "slot": 1
+      }
+    ],
+    "forms": [
+      "swampert-mega"
+    ],
+    "moves": [
+      "ice-punch",
+      "tackle",
+      "take-down",
+      "growl",
+      "roar",
+      "water-gun",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "bide",
+      "waterfall",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "mud-slap",
+      "foresight",
+      "icy-wind",
+      "outrage",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "uproar",
+      "hail",
+      "facade",
+      "focus-punch",
+      "superpower",
+      "brick-break",
+      "endeavor",
+      "secret-power",
+      "dive",
+      "hydro-cannon",
+      "rock-tomb",
+      "muddy-water",
+      "mud-shot",
+      "water-pulse",
+      "hammer-arm",
+      "fling",
+      "aqua-tail",
+      "focus-blast",
+      "earth-power",
+      "giga-impact",
+      "mud-bomb",
+      "stone-edge",
+      "stealth-rock",
+      "sludge-wave",
+      "round",
+      "echoed-voice",
+      "scald",
+      "water-pledge",
+      "bulldoze",
+      "work-up",
+      "confide",
+      "power-up-punch",
+      "stomping-tantrum"
+    ],
+    "held_items": [],
+    "base_experience": 286,
+    "is_default": false,
+    "order": 358,
+    "sprites": {
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10064.png",
+      "back_default": null,
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10064.png"
+    },
+    "species_name": "swampert",
+    "flavor_text": "SWAMPERT is very strong. It has enough power to easily drag a boulder weighing more than a ton. This POK\u00e9MON also has powerful vision that lets it see even in murky water.",
+    "genus": "Mud Fish Pok\u00e9mon",
+    "is_legendary": false,
+    "is_mythical": false,
+    "is_baby": false,
+    "capture_rate": 45,
+    "base_happiness": 70,
+    "hatch_counter": 20,
+    "growth_rate": "medium-slow",
+    "habitat": "waters-edge",
+    "shape": "upright",
+    "color": "blue",
+    "egg_groups": [
+      "monster",
+      "water1"
+    ],
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/132/",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    },
+    "evolution": {
+      "chain_id": 132,
+      "chain": {
+        "species_name": "mudkip",
+        "evolution_details": [],
+        "evolves_to": [
+          {
+            "species_name": "marshtomp",
+            "evolution_details": [
+              {
+                "trigger": "level-up",
+                "min_level": 16
+              }
+            ],
+            "evolves_to": [
+              {
+                "species_name": "swampert",
+                "evolution_details": [
+                  {
+                    "trigger": "level-up",
+                    "min_level": 36
+                  }
+                ],
+                "evolves_to": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "type_info": [
+    {
+      "name": "water",
+      "weak_against": [
+        "grass",
+        "electric"
+      ],
+      "strong_against": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "immune_to": []
+    },
+    {
+      "name": "ground",
+      "weak_against": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "strong_against": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "immune_to": [
+        "electric"
+      ]
+    }
+  ]
+}

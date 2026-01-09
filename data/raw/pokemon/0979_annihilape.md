@@ -1,0 +1,12 @@
+## Identity & Lore
+Annihilape (Pokedex #979) is the Rage Monkey Pokémon, a powerful Fighting and Ghost-type introduced in Generation IX (Paldea). It represents the ultimate evolutionary state of a Primeape whose boiling anger finally surpassed the physical limitations of its body, allowing its spirit to manifest as unfettered power. This gray, humanoid creature is wreathed in a shadowy, ethereal aura that suggests its transition into the spectral realm. While it does not currently possess a Mega Evolution or Gigantamax form, its lore describes it as a being whose rage has reached a "critical point," effectively transcending death itself to achieve its new form.
+
+## Combat Profile
+* **Stats:** HP 110, Attack 115, Defense 80, Sp. Atk 50, Sp. Def 90, Speed 90.
+* **Archetype:** Bulky Physical Wallbreaker / Setup Sweeper.
+* **Type Matchups:** It is **weak to Flying, Psychic, Fairy, Ghost, and Dark**. It possesses unique **immunities to Normal and Fighting** attacks and resists Poison and Bug-type moves.
+* **Move Selection:** Capitalizing on its high Attack and unique signature move mechanics, key moves include **Rage Fist** (which gains 50 base power every time Annihilape is hit), **Close Combat** for massive STAB damage, **Drain Punch** for physical sustain, and **Bulk Up** to enhance its physical bulk and damage output simultaneously.
+* **Abilities:** **Vital Spirit** prevents the Pokémon from falling asleep, providing a hard counter to sleep-inducing moves like Spore. **Inner Focus** prevents the Pokémon from flinching and protects it from the Attack-lowering effects of the Intimidate ability. Its Hidden Ability, **Defiant**, is highly prized in competitive play, as it sharply increases Attack whenever an opponent lowers its stats.
+
+## Evolution & Biology
+Annihilape is the final stage of a three-stage evolutionary line. It evolves from **Mankey**, which transitions into **Primeape** starting at Level 28. Primeape evolves into Annihilape after using its signature move, **Rage Fist**, 20 times in battle and then leveling up. This transformation is biologically unique, as it represents a physical body becoming infused with spiritual energy. It belongs to the **Ground** egg group and has a hatch counter of 20, reflecting its status as a fully evolved, high-tier combatant.

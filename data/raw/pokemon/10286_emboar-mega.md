@@ -1,0 +1,12 @@
+## Identity & Lore
+Mega Emboar (Pokedex #10286) is the Mega Fire Pig Pokémon, representing a colossal surge of power within the final evolution of the Unova region's Fire-type starter. Originally discovered in Generation V (Unova), this massive, bipedal swine is characterized by its deep red coloration and a "beard" of swirling flames. According to lore, it can set its fists ablaze using its fiery chin to deliver devastating fire punches, yet despite its intimidating bulk and 180.3 kg weight, it is known to care deeply for its companions. While Emboar did not traditionally possess a Mega Evolution in the core Unova games, this form represents a hypothetical peak of its combat potential, channeling its fighting spirit into a formidable "upright" warrior stance.
+
+## Combat Profile
+*   **Stats:** HP 110, Attack 148, Defense 75, Sp. Atk 110, Sp. Def 110, Speed 75.
+*   **Archetype:** Mixed Tanky Wallbreaker. With a massive Attack stat and significant Special bulk, Mega Emboar functions as a heavy hitter that can trade blows effectively.
+*   **Type Matchups:** As a **Fire/Fighting** type, it is **weak to Ground, Rock, Water, Flying, Psychic, and Fairy**. It compensates with key resistances to **Fire, Grass, Ice, Steel, Dark,** and a double resistance to **Bug**.
+*   **Move Selection:** Leveraging its elite physical power and diverse move pool, essential maneuvers include **Flare Blitz** for maximum STAB (Same Type Attack Bonus) damage, **Drain Punch** for sustainability, **Wild Charge** to punish incoming Water and Flying types, and **Heat Crash**, which utilizes its heavy frame to crush lighter opponents.
+*   **Abilities:** While its specific Mega-form ability is often tailored to its explosive nature, its lineage typically utilizes **Blaze** or **Reckless**, the latter of which would significantly empower its recoil-based moves like Flare Blitz and Wild Charge.
+
+## Evolution & Biology
+Mega Emboar is the final stage of a three-part evolutionary line, achieved through a temporary transformation in battle. It begins as the Fire Pig Pokémon **Tepig**, which evolves into the dual-type **Pignite** starting at Level 17. Pignite reaches its final base form, **Emboar**, at Level 36. To achieve this Mega state, Emboar must be exposed to its specific Mega Stone during combat. Biologically, it belongs to the **Ground** Egg Group and maintains a medium-slow growth rate. Its physiology is built for raw power, utilizing its thick layer of fat and muscle to withstand physical strain while channeling heat through its extremities.

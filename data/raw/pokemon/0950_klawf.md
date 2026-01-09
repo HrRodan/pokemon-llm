@@ -1,0 +1,12 @@
+## Identity & Lore
+Klawf (#950) is the Ambush Pokémon, a large and expressive crustacean introduced in Generation IX within the Paldea region. Recognizable by its vivid red shell and rotating eyes that eliminate blind spots, Klawf is a specialist at vertical terrain. It is known to hang upside-down from cliffsides to drop onto unsuspecting prey, though its biology limits this tactic as the blood eventually rushes to its head, forcing it to descend. Within the Paldean "Path of Legends" narrative, a specific "Titan" variant of Klawf—the Stony Cliff Titan—attains a massive size due to the consumption of Herba Mystica. While it does not currently possess a Mega Evolution or Gigantamax form, its role as a territorial guardian makes it one of the most iconic wilderness encounters in Paldea.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 100, Defense 115, Sp. Atk 35, Sp. Def 55, Speed 75.
+* **Archetype:** Physical Tank / Reactive Sweeper.
+* **Type Matchups:** As a pure Rock-type, it is **weak to Fighting, Ground, Steel, Water, and Grass**. It **resists Normal, Flying, Poison, and Fire**.
+* **Move Selection:** Maximizing its base 100 Attack and unique access to water-based physical moves, its optimal kit includes **Stone Edge** for high-crit STAB damage, **Crabhammer** for unexpected high-power coverage, **High Horsepower** to hit opposing Steel and Electric types, and **X-Scissor** to combat Grass-type threats.
+* **Abilities:** **Anger Shell** is its signature ability; when its HP drops below half, it lowers its defensive stats to drastically boost its Attack, Sp. Atk, and Speed, making it a "berserker" style threat. **Shell Armor** provides defensive consistency by protecting it from critical hits. **Regenerator (Hidden Ability)** allows Klawf to function as a pivot, recovering 1/3 of its health upon switching out.
+
+## Evolution & Biology
+Klawf is a standalone Pokémon and is not known to evolve from or into any other species, representing a single-stage evolutionary line. Biologically, it is a terrestrial crustacean that has adapted to mountainous environments rather than the sea. It belongs to the **Water 3** egg group, sharing ancestry with other shelled Pokémon like Kingler and Omastar. Its biology is characterized by its powerful pincers, which it uses to clamp onto cliff faces with enough strength to support its 79.0kg weight indefinitely, provided it is not positioned upside-down. Its shell is highly prized in Paldean culinary circles, though the Pokémon's aggressive nature makes harvesting it a dangerous endeavor.

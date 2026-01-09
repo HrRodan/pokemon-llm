@@ -1,0 +1,12 @@
+## Identity & Lore
+Dottler (Pokedex #825) is the Radome Pokémon, a dual-type Bug/Psychic creature first discovered in the Galar region during Generation VIII. It possesses a distinctive yellow, armor-like shell resembling a geodesic dome or a radar station, which it uses to monitor its surroundings while in a semi-dormant state. This Pokémon rarely moves, remaining stationary and surviving without food or water; this intense period of meditation and sensory deprivation is what ultimately awakens its formidable latent psychic powers. While Dottler itself does not have a special form, its final evolution, Orbeetle, is capable of undergoing Gigantamaxing, transforming into a massive, UFO-like entity that exerts even greater psychic control over its environment.
+
+## Combat Profile
+* **Stats:** HP 50, Attack 35, Defense 80, Sp. Atk 50, Sp. Def 90, Speed 30.
+* **Archetype:** Eviolite Support Tank. With its high natural Defense and Special Defense, Dottler is exceptionally durable for a middle-stage Pokémon when equipped with an Eviolite.
+* **Type Matchups:** It is **weak to Flying, Rock, Fire, Bug, Ghost, and Dark**. It notably possesses a **Double Resistance (0.25x)** to Fighting-type moves and further resists Grass, Ground, and Psychic.
+* **Move Selection:** Dottler utilizes its defensive profile and psychic capabilities to control the battlefield. Key moves include **Psychic** and **Bug Buzz** for STAB (Same Type Attack Bonus) damage, **Body Press** to capitalize on its high Defense stat for offensive pressure, and **Trick Room** to turn its low Speed into a tactical advantage.
+* **Abilities:** Swarm (powers up Bug-type moves when HP is low), Compound Eyes (boosts the accuracy of its moves, making it more reliable), and Telepathy (prevents damage from teammates' moves in double battles).
+
+## Evolution & Biology
+Dottler is the second stage of a three-stage evolutionary line. It evolves from **Blipbug** starting at **Level 10**, representing the larval stage entering its pupal transition. After further honing its psychic energy, it evolves into **Orbeetle** at **Level 30**. Biologically, Dottler belongs to the **Bug** egg group and has a hatch counter of 15, indicating a relatively fast breeding cycle. Its shell is not merely for protection; it functions as an organic sensory array, allowing Dottler to perceive everything happening within its vicinity through telepathic waves, even while it appears to be completely still.

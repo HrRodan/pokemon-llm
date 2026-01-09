@@ -1,0 +1,12 @@
+## Identity & Lore
+Munkidori (#1015) is the Retainer Pokémon, a legendary Poison/Psychic-type introduced in Generation IX (Paldea) as part of the *The Teal Mask* expansion set in the land of Kitakami. Historically recognized as one of the "Loyal Three" alongside Okidogi and Fezandipiti, Munkidori is a humanoid, black-colored Pokémon whose existence is defined by the glowing purple chain wrapped around its head. According to Kitakami folklore, this chain is made of a specialized toxin that stimulated Munkidori’s brain, causing its immense psychic powers to bloom and granting it a level of cunning and intelligence far beyond its original nature. While it currently possesses no Mega Evolution or Gigantamax forms, it is a unique Legendary entity with deep ties to regional mythology and the paradoxical history of the "Ogre" Ogerpon.
+
+## Combat Profile
+* **Stats:** HP 88, Attack 75, Defense 66, Sp. Atk 130, Sp. Def 90, Speed 106.
+* **Archetype:** Fast Special Sweeper.
+* **Type Matchups:** It is **weak to Ground, Ghost, and Dark**. It **resists Poison, Grass, and Fairy**, and it possesses a notable **Double Resistance (0.25x) to Fighting**.
+* **Move Selection:** Capitalizing on its elite Special Attack and high Speed, key moves include **Psychic** (powerful STAB), **Sludge Wave** (hitting multiple targets in doubles), **Focus Blast** (to coverage its Dark and Steel-type counters), and **Nasty Plot** (to further boost its offensive pressure).
+* **Abilities:** **Toxic Chain** (Munkidori’s signature ability, which grants a 30% chance to badly poison a target whenever it hits them with a move) and **Frisk** (reveals the opponent's held item upon entering the field, providing vital competitive intelligence).
+
+## Evolution & Biology
+Munkidori is a single-stage Legendary Pokémon and is not part of an evolutionary chain. It does not evolve from or into any other Pokémon. It belongs to the **No-Eggs (Undiscovered)** egg group, meaning it cannot be bred. Biologically, its psychic capabilities are entirely extrinsic, derived from the toxic chain that serves as its source of power. It has a hatch counter of 50 and a slow growth rate, reflecting the difficulty of taming and training such a specialized and intelligent Legendary creature.

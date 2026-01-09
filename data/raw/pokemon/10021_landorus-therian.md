@@ -1,0 +1,12 @@
+## Identity & Lore
+Landorus-Therian (#10021) is the Abundance Pokémon, a legendary Ground and Flying-type entity first discovered in the Unova region (Generation V). In this quadrupedal Therian Forme, it takes on a predatory, feline appearance, stalking the lands it once protected as a genie-like cloud-dweller. Known as the "Guardian of the Fields," Landorus is worshipped by farmers because the lands it visits are said to grant incredibly bountiful crops, fueled by the nutrients it provides through its tail. While it lacks a Mega Evolution or Gigantamax form, it is a core member of the **Forces of Nature** alongside Tornadus, Thundurus, and Enamorus. It can shift between this beast-like Therian Forme and its original Incarnate Forme through the use of the **Reveal Glass** artifact.
+
+## Combat Profile
+* **Stats:** HP 89, Attack 145, Defense 90, Sp. Atk 105, Sp. Def 80, Speed 91.
+* **Archetype:** Versatile Physical Wallbreaker / Defensive Pivot.
+* **Type Matchups:** It suffers from a **Double Weakness (4x) to Ice** and a standard weakness to **Water**. It maintains strategic **immunities to Electric and Ground**, and **resists Fighting, Poison, and Bug** types.
+* **Move Selection:** Utilizing its massive Attack stat and STAB (Same Type Attack Bonus), its most effective moves include **Earthquake** for raw power, **U-turn** for tactical pivoting, **Stone Edge** to hit Flying-type checks, and **Knock Off** to remove crucial opponent held items.
+* **Abilities:** **Intimidate** (Automatically lowers the Attack stat of opposing Pokémon by one stage upon entering the field, significantly boosting its physical bulk and utility as a switch-in).
+
+## Evolution & Biology
+Landorus-Therian is a legendary Pokémon and does not belong to a standard evolutionary line. It is a static, non-evolving entity that occupies a unique biological niche as a "Force of Nature." It belongs to the **No Eggs** group and cannot be bred in captivity. While it does not evolve, it possesses the unique ability to undergo **Metamorphosis**; by using the Reveal Glass, it transitions from its Incarnate Forme—which focuses more on Special Attack and Speed—into this Therian Forme, which prioritizes raw Physical Attack and the Intimidate ability. It is chemically and biologically linked to the soil, using its power to fertilize the earth and settle disputes between its counterparts, Thundurus and Tornadus.

@@ -1,0 +1,15 @@
+## Identity & Lore
+Crustle (Pokedex #558) is the Stone Home Pokémon, a formidable Bug/Rock-type species originally discovered in the Unova region during Generation V. Characterized by its immense strength and the heavy, stratified sediment boulder it carries on its back, Crustle is a highly territorial creature. These Pokémon are known to engage in violent clashes over territory; the loser is determined when its massive shell is shattered, leaving it vulnerable until it can craft a new one from heavy slabs of earth. While Crustle does not possess a Mega Evolution, Gigantamax form, or Paradox variant, it is renowned for its sheer durability and its ability to withstand extreme environmental pressure. Its appearance, resembling a giant hermit crab fused with a geological cross-section, reflects its dual nature as both a biological organism and a living fortress. In the wild, it is often found in rocky terrains and desert-like environments where it can scavenge for high-quality sediment to maintain its shell.
+
+## Combat Profile
+* **Stats:** HP 70, Attack 105, Defense 125, Sp. Atk 65, Sp. Def 75, Speed 45.
+* **Archetype:** Physical Tank / Setup Sweeper. While its base speed is low, its access to transformative setup moves allows it to pivot from a defensive wall to a dangerous offensive threat.
+* **Type Matchups:** It is **weak to Water, Rock, and Steel**. Due to its unique Bug/Rock typing, it successfully neutralizes several common weaknesses, providing it with **resistances to Normal and Poison** types.
+* **Move Selection:** Leveraging its high Attack and Defense, Crustle excels with a moveset featuring **Shell Smash** (to trade its high Defense for a massive boost in Speed and Attack), **Stone Edge** (a high-crit Rock STAB), **X-Scissor** (reliable Bug STAB), and **Earthquake** (for essential coverage against Steel and Fire types).
+* **Abilities:** 
+    * **Sturdy:** Prevents the Pokémon from being defeated by a single hit from full HP, making it a reliable lead for setting up hazards like Stealth Rock.
+    * **Shell Armor:** Protects the Pokémon from receiving critical hits, reinforcing its role as a physical wall.
+    * **Weak Armor (Hidden):** Causes its Defense to lower but its Speed to sharply increase when hit by a physical attack, synergizing perfectly with its setup-heavy playstyle.
+
+## Evolution & Biology
+Crustle is the final stage of a two-stage evolutionary line. It evolves from **Dwebble** starting at **Level 34**. While Dwebble is known for finding small rocks or even garbage to use as protection, Crustle has the physical power to hoist massive chunks of sediment weighing hundreds of kilograms. Biologically, it belongs to both the **Bug and Mineral Egg Groups**, reflecting its insectoid anatomy and its symbiotic relationship with geological materials. Its growth is relatively steady, and it is frequently found carrying items such as the **Rare Bone** or **Hard Stone**, which are often embedded within its layered shell. Its massive weight (200.0 kg) makes it an ideal user of the move **Heavy Slam**, as it can easily crush smaller opponents under the sheer mass of its "stone home."
