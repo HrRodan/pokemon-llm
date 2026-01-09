@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 726,
+    "name": "lets-snuggle-forever",
+    "type": "fairy",
+    "power": 190,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "After obtaining Z-Power, the user, Mimikyu, punches the target with full force.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

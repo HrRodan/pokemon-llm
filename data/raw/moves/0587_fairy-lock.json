@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 587,
+    "name": "fairy-lock",
+    "type": "fairy",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Prevents all Pok\u00e9mon from fleeing or switching out during the next turn.",
+    "effect_chance": null,
+    "flavor_text": "By locking down the battlefield, the user keeps all Pok\u00e9mon from fleeing during the next turn.",
+    "learned_by": [
+      "klefki"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

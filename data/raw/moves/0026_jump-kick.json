@@ -1,0 +1,53 @@
+{
+  "move_details": {
+    "id": 26,
+    "name": "jump-kick",
+    "type": "fighting",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.  This move cannot be used while gravity is in effect.",
+    "effect_chance": null,
+    "flavor_text": "May miss, damaging the user.",
+    "learned_by": [
+      "doduo",
+      "dodrio",
+      "hitmonlee",
+      "stantler",
+      "buneary",
+      "lopunny",
+      "deerling",
+      "sawsbuck",
+      "mienfoo",
+      "mienshao",
+      "pheromosa",
+      "marshadow",
+      "lopunny-mega"
+    ],
+    "total_learned_by": 13,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "mind-reader",
+            "url": "https://pokeapi.co/api/v2/move/170/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

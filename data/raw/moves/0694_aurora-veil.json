@@ -1,0 +1,51 @@
+{
+  "move_details": {
+    "id": 694,
+    "name": "aurora-veil",
+    "type": "ice",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Places the Aurora Veil effect on the user\u2019s side of the field for the next 5 turns.  If the weather is not hail, or the weather is disabled by the effects of cloud nine or air lock, this move will fail.  Any regular damage dealt to an affected Pok\u00e9mon is reduced by \u00bd.  (If there are multiple Pok\u00e9mon on the affected field, the reduction is \u2153.)",
+    "effect_chance": null,
+    "flavor_text": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+    "learned_by": [
+      "jynx",
+      "articuno",
+      "mew",
+      "delibird",
+      "smoochum",
+      "regice",
+      "abomasnow",
+      "glaceon",
+      "froslass",
+      "vanillite",
+      "cryogonal",
+      "amaura",
+      "bergmite",
+      "frosmoth",
+      "eiscue-ice",
+      "arctovish",
+      "iron-bundle",
+      "sandshrew-alola",
+      "sandslash-alola",
+      "vulpix-alola",
+      "ninetales-alola",
+      "eiscue-noice"
+    ],
+    "total_learned_by": 22,
+    "machines": [
+      "sun-moon",
+      "ultra-sun-ultra-moon"
+    ],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "users-field",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 689,
+    "name": "instruct",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "The target immediately uses its most recently-used move.  This is independent of the target\u2019s normal action for the turn (i.e., it may end up moving twice), but otherwise functions as usual, including deduction of PP.  This effect works for disabled moves and ignores torment.",
+    "effect_chance": null,
+    "flavor_text": "The user instructs the target to use the target\u2019s last move again.",
+    "learned_by": [
+      "oranguru"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

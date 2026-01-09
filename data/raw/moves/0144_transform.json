@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 144,
+    "name": "transform",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "User copies the target\u2019s species, weight, type, ability, calculated stats (except HP), and moves.  Copied moves will all have 5 PP remaining.  IVs are copied for the purposes of hidden power, but stats are not recalculated.  choice band, choice scarf, and choice specs stay in effect, and the user must select a new move.  This move cannot be copied by mirror move, nor forced by encore.",
+    "effect_chance": null,
+    "flavor_text": "The user assumes the foe's guise.",
+    "learned_by": [
+      "ditto",
+      "mew"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

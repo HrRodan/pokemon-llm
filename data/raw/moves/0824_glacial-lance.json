@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 824,
+    "name": "glacial-lance",
+    "type": "ice",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pok\u00e9mon.",
+    "learned_by": [
+      "calyrex-ice"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

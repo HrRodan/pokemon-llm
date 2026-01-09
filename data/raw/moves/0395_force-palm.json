@@ -1,0 +1,41 @@
+{
+  "move_details": {
+    "id": 395,
+    "name": "force-palm",
+    "type": "fighting",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to paralyze the target.",
+    "effect_chance": 30,
+    "flavor_text": "The foe is attacked with a shock wave. It may also leave the target paralyzed. ",
+    "learned_by": [
+      "breloom",
+      "makuhita",
+      "hariyama",
+      "meditite",
+      "medicham",
+      "riolu",
+      "lucario",
+      "timburr",
+      "mienfoo",
+      "mienshao",
+      "stufful",
+      "marshadow",
+      "iron-hands",
+      "okidogi",
+      "medicham-mega"
+    ],
+    "total_learned_by": 15,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

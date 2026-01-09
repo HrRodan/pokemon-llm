@@ -1,0 +1,35 @@
+{
+  "move_details": {
+    "id": 895,
+    "name": "aqua-cutter",
+    "type": "water",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit.",
+    "learned_by": [
+      "gallade",
+      "oshawott",
+      "dewott",
+      "samurott",
+      "cramorant",
+      "quaxly",
+      "quaxwell",
+      "quaquaval",
+      "veluza"
+    ],
+    "total_learned_by": 9,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

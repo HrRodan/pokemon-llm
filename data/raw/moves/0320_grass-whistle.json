@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 320,
+    "name": "grass-whistle",
+    "type": "grass",
+    "power": null,
+    "accuracy": 55,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Puts the target to sleep.",
+    "effect_chance": null,
+    "flavor_text": "Lulls the foe into sleep with a pleasant melody.",
+    "learned_by": [
+      "bulbasaur",
+      "chikorita",
+      "sunkern",
+      "sunflora",
+      "treecko",
+      "roselia",
+      "cacnea",
+      "budew",
+      "cherubi",
+      "carnivine",
+      "snover",
+      "abomasnow",
+      "leafeon",
+      "shaymin-land",
+      "pansage",
+      "swadloon",
+      "cottonee",
+      "petilil",
+      "maractus",
+      "deerling",
+      "bounsweet",
+      "abomasnow-mega"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

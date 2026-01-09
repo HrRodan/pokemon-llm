@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 842,
+    "name": "shelter",
+    "type": "steel",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user makes its skin as hard as an iron shield, raising its defensive stats. Incoming moves also become more likely to miss.",
+    "learned_by": [
+      "goomy",
+      "sliggoo-hisui",
+      "goodra-hisui"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

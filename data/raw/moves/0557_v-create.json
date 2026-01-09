@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 557,
+    "name": "v-create",
+    "type": "fire",
+    "power": 180,
+    "accuracy": 95,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Lowers the user\u2019s Defense, Special Defense, and Speed by one stage each.",
+    "effect_chance": 100,
+    "flavor_text": "With a hot flame on its forehead, the user hurls itself at its target. It lowers the user\u2019s Defense, Sp. Def, and Speed stats.",
+    "learned_by": [
+      "victini"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

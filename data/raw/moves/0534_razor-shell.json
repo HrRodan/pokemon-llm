@@ -1,0 +1,50 @@
+{
+  "move_details": {
+    "id": 534,
+    "name": "razor-shell",
+    "type": "water",
+    "power": 75,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to lower the target\u2019s Defense by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "The user cuts its target with sharp shells. This attack may also lower the target\u2019s Defense stat.",
+    "learned_by": [
+      "slowbro",
+      "shellder",
+      "cloyster",
+      "krabby",
+      "kingler",
+      "kabutops",
+      "mew",
+      "slowking",
+      "corphish",
+      "crawdaunt",
+      "oshawott",
+      "dewott",
+      "samurott",
+      "carracosta",
+      "escavalier",
+      "binacle",
+      "barbaracle",
+      "golisopod",
+      "drednaw",
+      "slowbro-galar",
+      "slowking-galar",
+      "samurott-hisui"
+    ],
+    "total_learned_by": 22,
+    "machines": [
+      "sword-shield"
+    ],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

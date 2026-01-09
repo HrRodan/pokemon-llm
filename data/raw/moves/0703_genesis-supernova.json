@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 703,
+    "name": "genesis-supernova",
+    "type": "psychic",
+    "power": 185,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage, then (if successful) changes the terrain to psychic terrain.",
+    "effect_chance": null,
+    "flavor_text": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

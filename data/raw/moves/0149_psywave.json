@@ -1,0 +1,103 @@
+{
+  "move_details": {
+    "id": 149,
+    "name": "psywave",
+    "type": "psychic",
+    "power": null,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "Inflicts typeless damage between 50% and 150% of the user\u2019s level, selected at random in increments of 10%.",
+    "effect_chance": null,
+    "flavor_text": "An attack with variable power.",
+    "learned_by": [
+      "butterfree",
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "venonat",
+      "venomoth",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "slowpoke",
+      "slowbro",
+      "gastly",
+      "haunter",
+      "gengar",
+      "drowzee",
+      "hypno",
+      "exeggcute",
+      "exeggutor",
+      "koffing",
+      "chansey",
+      "staryu",
+      "starmie",
+      "mr-mime",
+      "jynx",
+      "electabuzz",
+      "magmar",
+      "lapras",
+      "porygon",
+      "snorlax",
+      "mewtwo",
+      "mew",
+      "misdreavus",
+      "spoink",
+      "grumpig",
+      "lunatone",
+      "solrock",
+      "chimecho",
+      "latias",
+      "latios",
+      "mismagius",
+      "bronzor",
+      "bronzong",
+      "munna",
+      "sigilyph",
+      "solosis",
+      "duosion",
+      "reuniclus",
+      "inkay",
+      "malamar",
+      "bruxish",
+      "tapu-lele",
+      "nihilego",
+      "mewtwo-mega-x",
+      "mewtwo-mega-y",
+      "latias-mega",
+      "latios-mega"
+    ],
+    "total_learned_by": 60,
+    "machines": [
+      "red-blue",
+      "yellow"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "calm-mind",
+            "url": "https://pokeapi.co/api/v2/move/347/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

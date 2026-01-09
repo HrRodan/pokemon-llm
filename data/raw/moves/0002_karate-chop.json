@@ -1,0 +1,51 @@
+{
+  "move_details": {
+    "id": 2,
+    "name": "karate-chop",
+    "type": "fighting",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 25,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User\u2019s critical hit rate is one level higher when using this move.",
+    "effect_chance": null,
+    "flavor_text": "Has a high criti\u00ad cal hit ratio.",
+    "learned_by": [
+      "mankey",
+      "primeape",
+      "machop",
+      "machoke",
+      "machamp",
+      "elekid",
+      "magby",
+      "sawk",
+      "pancham",
+      "pangoro",
+      "hawlucha"
+    ],
+    "total_learned_by": 11,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "focus-energy",
+            "url": "https://pokeapi.co/api/v2/move/116/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

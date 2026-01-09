@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 659,
+    "name": "shore-up",
+    "type": "ground",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "Heals the user for \u00bd its max HP.  During a sandstorm, the healing is increased to \u2154.",
+    "effect_chance": null,
+    "flavor_text": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+    "learned_by": [
+      "sandygast",
+      "palossand"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

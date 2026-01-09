@@ -1,0 +1,109 @@
+{
+  "move_details": {
+    "id": 300,
+    "name": "mud-sport",
+    "type": "ground",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "electric moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends.",
+    "effect_chance": null,
+    "flavor_text": "Covers the user in mud to raise electrical resistance.",
+    "learned_by": [
+      "squirtle",
+      "geodude",
+      "graveler",
+      "golem",
+      "slowpoke",
+      "onix",
+      "krabby",
+      "kingler",
+      "goldeen",
+      "totodile",
+      "wooper",
+      "quagsire",
+      "steelix",
+      "swinub",
+      "piloswine",
+      "mantine",
+      "stantler",
+      "treecko",
+      "mudkip",
+      "marshtomp",
+      "swampert",
+      "zigzagoon",
+      "linoone",
+      "barboach",
+      "whiscash",
+      "corphish",
+      "anorith",
+      "armaldo",
+      "feebas",
+      "clamperl",
+      "relicanth",
+      "luvdisc",
+      "piplup",
+      "bidoof",
+      "shellos",
+      "gastrodon",
+      "buneary",
+      "mantyke",
+      "mamoswine",
+      "panpour",
+      "drilbur",
+      "excadrill",
+      "tympole",
+      "trubbish",
+      "ducklett",
+      "stunfisk",
+      "froakie",
+      "hawlucha",
+      "mudbray",
+      "mudsdale",
+      "pyukumuku",
+      "steelix-mega"
+    ],
+    "total_learned_by": 52,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "mud-slap",
+            "url": "https://pokeapi.co/api/v2/move/189/"
+          },
+          {
+            "name": "water-sport",
+            "url": "https://pokeapi.co/api/v2/move/346/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "water-gun",
+            "url": "https://pokeapi.co/api/v2/move/55/"
+          },
+          {
+            "name": "mud-slap",
+            "url": "https://pokeapi.co/api/v2/move/189/"
+          },
+          {
+            "name": "water-sport",
+            "url": "https://pokeapi.co/api/v2/move/346/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

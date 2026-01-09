@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 621,
+    "name": "hyperspace-fury",
+    "type": "dark",
+    "power": 100,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Bypasses and removes any protection effect on the target.",
+    "effect_chance": 100,
+    "flavor_text": "Using its many arms, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. This attack lowers the user\u2019s Defense.",
+    "learned_by": [
+      "hoopa-unbound"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

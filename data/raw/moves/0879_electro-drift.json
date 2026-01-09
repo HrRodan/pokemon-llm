@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 879,
+    "name": "electro-drift",
+    "type": "electric",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move's power is boosted more than usual if it's a supereffective hit.",
+    "learned_by": [
+      "miraidon",
+      "miraidon-low-power-mode",
+      "miraidon-drive-mode",
+      "miraidon-aquatic-mode",
+      "miraidon-glide-mode"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

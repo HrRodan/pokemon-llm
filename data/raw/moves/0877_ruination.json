@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 877,
+    "name": "ruination",
+    "type": "dark",
+    "power": 1,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user summons a ruinous disaster. This cuts the target\u2019s HP in half.",
+    "learned_by": [
+      "wo-chien",
+      "chien-pao",
+      "ting-lu",
+      "chi-yu"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 448,
+    "name": "chatter",
+    "type": "flying",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has either a 1%, 11%, or 31% chance to confuse the target, based on the volume of the recording made for this move; louder recordings increase the chance of confusion.  If the user is not a chatot, this move will not cause confusion.  This move cannot be copied by mimic, mirror move, or sketch, nor selected by assist, metronome, or sleep talk.",
+    "effect_chance": 100,
+    "flavor_text": "The user attacks using a sound wave based on words it has learned. It may also confuse the foe.",
+    "learned_by": [
+      "chatot"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

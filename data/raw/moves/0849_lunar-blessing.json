@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 849,
+    "name": "lunar-blessing",
+    "type": "psychic",
+    "power": 0,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user heals its own status conditions and restores its HP. Incoming moves also become more likely to miss.",
+    "learned_by": [
+      "cresselia"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-allies",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

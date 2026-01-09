@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 27,
+    "name": "rolling-kick",
+    "type": "fighting",
+    "power": 60,
+    "accuracy": 85,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.",
+    "effect_chance": 30,
+    "flavor_text": "A fast, spinning kick.",
+    "learned_by": [
+      "machop",
+      "hitmonlee",
+      "hitmontop",
+      "elekid",
+      "marshadow"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 571,
+    "name": "forests-curse",
+    "type": "grass",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Adds grass to the target\u2019s types.",
+    "effect_chance": null,
+    "flavor_text": "The user puts a forest curse on the target. Afflicted targets are now Grass type as well.",
+    "learned_by": [
+      "phantump",
+      "trevenant"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

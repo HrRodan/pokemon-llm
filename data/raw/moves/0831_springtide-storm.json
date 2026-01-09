@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 831,
+    "name": "springtide-storm",
+    "type": "fairy",
+    "power": 100,
+    "accuracy": 80,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks by wrapping the target in fierce winds brimming with love and hate. This move\u2019s additional effects depend on the user\u2019s form.",
+    "learned_by": [
+      "enamorus-incarnate",
+      "enamorus-therian"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

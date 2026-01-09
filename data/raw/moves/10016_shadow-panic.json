@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10016,
+    "name": "shadow-panic",
+    "type": "shadow",
+    "power": null,
+    "accuracy": 90,
+    "pp": null,
+    "damage_class": "status",
+    "effect_description": "Confuses the target.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "opponents-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 714,
+    "name": "moongeist-beam",
+    "type": "ghost",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Other Pok\u00e9mon\u2019s abilities cannot activate in response to this move.  In particular, it hits through disguise",
+    "effect_chance": null,
+    "flavor_text": "The user emits a sinister ray to attack the target. This move can be used on the target regardless of  its Abilities.",
+    "learned_by": [
+      "lunala"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

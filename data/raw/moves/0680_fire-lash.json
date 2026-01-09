@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 680,
+    "name": "fire-lash",
+    "type": "fire",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Lowers the target\u2019s Defense by one stage.",
+    "effect_chance": 100,
+    "flavor_text": "The user strikes the target with a burning lash. This also lowers the target\u2019s Defense stat.",
+    "learned_by": [
+      "heatmor",
+      "salazzle",
+      "sizzlipede",
+      "centiskorch"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

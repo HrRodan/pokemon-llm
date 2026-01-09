@@ -1,0 +1,99 @@
+{
+  "move_details": {
+    "id": 254,
+    "name": "stockpile",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Defense and Special Defense by one stage each.  Stores energy for use with spit up and swallow.  Up to three levels of energy can be stored, and all are lost if the user leaves the field.  Energy is still stored even if the stat boosts cannot be applied.  If the user uses baton pass, the stat boosts are passed as normal, but the stored energy is not.",
+    "effect_chance": null,
+    "flavor_text": "Charges up power for up to 3 turns.",
+    "learned_by": [
+      "ekans",
+      "arbok",
+      "jigglypuff",
+      "wigglytuff",
+      "victreebel",
+      "seel",
+      "dewgong",
+      "grimer",
+      "koffing",
+      "snorlax",
+      "lanturn",
+      "wooper",
+      "qwilfish",
+      "slugma",
+      "magcargo",
+      "pelipper",
+      "mawile",
+      "gulpin",
+      "swalot",
+      "numel",
+      "seviper",
+      "lileep",
+      "cradily",
+      "spheal",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "shellos",
+      "drifloon",
+      "drifblim",
+      "munchlax",
+      "hippopotas",
+      "carnivine",
+      "trubbish",
+      "garbodor",
+      "heatmor",
+      "mareanie",
+      "dewpider",
+      "araquanid",
+      "sandygast",
+      "komala",
+      "guzzlord",
+      "skwovet",
+      "greedent",
+      "cramorant",
+      "overqwil",
+      "lechonk",
+      "wattrel",
+      "mawile-mega",
+      "rattata-alola",
+      "grimer-alola",
+      "cramorant-gulping",
+      "cramorant-gorging",
+      "qwilfish-hisui",
+      "wooper-paldea"
+    ],
+    "total_learned_by": 55,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "spit-up",
+            "url": "https://pokeapi.co/api/v2/move/255/"
+          },
+          {
+            "name": "swallow",
+            "url": "https://pokeapi.co/api/v2/move/256/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

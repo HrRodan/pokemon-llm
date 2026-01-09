@@ -1,0 +1,45 @@
+{
+  "move_details": {
+    "id": 668,
+    "name": "strength-sap",
+    "type": "grass",
+    "power": null,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Lowers the target\u2019s Attack by one stage.  Heals the user by the target\u2019s current Attack, including modifiers, but not including this move\u2019s Attack-lowering effect.  If the target\u2019s Attack is already at -6, this move will fail.  In any other situation that would prevent a stat modification, the healing will still succeed.",
+    "effect_chance": 100,
+    "flavor_text": "The user restores its HP by the same amount as the target\u2019s Attack stat. It also lowers the target\u2019s Attack stat.",
+    "learned_by": [
+      "oddish",
+      "gloom",
+      "vileplume",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "bellossom",
+      "hoppip",
+      "drifblim",
+      "frillish",
+      "morelull",
+      "shiinotic",
+      "polteageist",
+      "cursola",
+      "smoliv",
+      "bramblin",
+      "brambleghast",
+      "sinistcha",
+      "corsola-galar"
+    ],
+    "total_learned_by": 19,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

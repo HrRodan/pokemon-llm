@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 692,
+    "name": "dragon-hammer",
+    "type": "dragon",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user uses its body like a hammer to attack the target and inflict damage.",
+    "learned_by": [
+      "tropius",
+      "raging-bolt",
+      "exeggutor-alola"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

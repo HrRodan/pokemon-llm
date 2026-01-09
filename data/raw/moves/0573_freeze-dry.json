@@ -1,0 +1,52 @@
+{
+  "move_details": {
+    "id": 573,
+    "name": "freeze-dry",
+    "type": "ice",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  This move is super-effective against the water type.  The target\u2019s other type will affect damage as usual.  If this move\u2019s type is changed, it remains super-effective against Water regardless of its type.",
+    "effect_chance": 10,
+    "flavor_text": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+    "learned_by": [
+      "lapras",
+      "articuno",
+      "swinub",
+      "piloswine",
+      "delibird",
+      "glalie",
+      "glaceon",
+      "mamoswine",
+      "vanilluxe",
+      "cryogonal",
+      "kyurem",
+      "amaura",
+      "aurorus",
+      "mr-rime",
+      "eiscue-ice",
+      "arctozolt",
+      "arctovish",
+      "iron-bundle",
+      "frigibax",
+      "kyurem-black",
+      "kyurem-white",
+      "glalie-mega",
+      "vulpix-alola",
+      "mr-mime-galar",
+      "darumaka-galar",
+      "eiscue-noice"
+    ],
+    "total_learned_by": 26,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

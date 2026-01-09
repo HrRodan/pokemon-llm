@@ -1,0 +1,62 @@
+{
+  "move_details": {
+    "id": 238,
+    "name": "cross-chop",
+    "type": "fighting",
+    "power": 100,
+    "accuracy": 80,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User\u2019s critical hit rate is one level higher when using this move.",
+    "effect_chance": null,
+    "flavor_text": "Has a high criti\u00ad cal hit ratio.",
+    "learned_by": [
+      "psyduck",
+      "mankey",
+      "primeape",
+      "machop",
+      "machoke",
+      "machamp",
+      "electabuzz",
+      "magmar",
+      "teddiursa",
+      "elekid",
+      "magby",
+      "makuhita",
+      "riolu",
+      "croagunk",
+      "electivire",
+      "magmortar",
+      "binacle",
+      "barbaracle",
+      "hawlucha",
+      "incineroar",
+      "obstagoon",
+      "annihilape"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "focus-energy",
+            "url": "https://pokeapi.co/api/v2/move/116/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

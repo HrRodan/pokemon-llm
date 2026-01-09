@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 552,
+    "name": "fiery-dance",
+    "type": "fire",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to raise the user\u2019s Special Attack by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "Cloaked in flames, the user dances and flaps its wings. It may also raise the user\u2019s Sp. Atk stat.",
+    "learned_by": [
+      "volcarona",
+      "iron-moth"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

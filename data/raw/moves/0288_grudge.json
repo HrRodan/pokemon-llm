@@ -1,0 +1,63 @@
+{
+  "move_details": {
+    "id": 288,
+    "name": "grudge",
+    "type": "ghost",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "If the user faints before it next acts, the move that fainted it will have its PP dropped to 0.  End-of-turn damage does not trigger this effect.",
+    "effect_chance": null,
+    "flavor_text": "If the user faints, deletes the PP of the final move.",
+    "learned_by": [
+      "vulpix",
+      "ninetales",
+      "gastly",
+      "koffing",
+      "misdreavus",
+      "ralts",
+      "shedinja",
+      "shuppet",
+      "banette",
+      "duskull",
+      "mismagius",
+      "spiritomb",
+      "yamask",
+      "cofagrigus",
+      "phantump",
+      "mimikyu-disguised",
+      "cursola",
+      "dreepy",
+      "banette-mega",
+      "vulpix-alola",
+      "ninetales-alola",
+      "mimikyu-busted",
+      "corsola-galar"
+    ],
+    "total_learned_by": 23,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "curse",
+            "url": "https://pokeapi.co/api/v2/move/174/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

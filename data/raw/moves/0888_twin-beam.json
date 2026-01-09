@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 888,
+    "name": "twin-beam",
+    "type": "psychic",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.",
+    "learned_by": [
+      "girafarig",
+      "farigiraf"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

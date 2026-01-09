@@ -1,0 +1,72 @@
+{
+  "move_details": {
+    "id": 172,
+    "name": "flame-wheel",
+    "type": "fire",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 25,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 10% chance to burn the target.  Frozen Pok\u00e9mon may use this move, in which case they will thaw.",
+    "effect_chance": 10,
+    "flavor_text": "An attack that may cause a burn.",
+    "learned_by": [
+      "rattata",
+      "vulpix",
+      "ninetales",
+      "growlithe",
+      "arcanine",
+      "ponyta",
+      "rapidash",
+      "magmar",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "magby",
+      "entei",
+      "numel",
+      "camerupt",
+      "torkoal",
+      "chimchar",
+      "monferno",
+      "infernape",
+      "magmortar",
+      "darumaka",
+      "larvesta",
+      "volcarona",
+      "sizzlipede",
+      "centiskorch",
+      "chi-yu",
+      "marowak-alola",
+      "marowak-totem",
+      "darumaka-galar",
+      "growlithe-hisui",
+      "arcanine-hisui",
+      "typhlosion-hisui"
+    ],
+    "total_learned_by": 32,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sunny-day",
+            "url": "https://pokeapi.co/api/v2/move/241/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

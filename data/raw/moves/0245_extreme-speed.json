@@ -1,0 +1,47 @@
+{
+  "move_details": {
+    "id": 245,
+    "name": "extreme-speed",
+    "type": "normal",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "A powerful first- strike move.",
+    "learned_by": [
+      "arcanine",
+      "dratini",
+      "dragonite",
+      "raikou",
+      "entei",
+      "suicune",
+      "zigzagoon",
+      "rayquaza",
+      "lucario",
+      "togekiss",
+      "arceus",
+      "zygarde-50",
+      "regieleki",
+      "deoxys-speed",
+      "lucario-mega",
+      "rayquaza-mega",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "zygarde-10",
+      "arcanine-hisui"
+    ],
+    "total_learned_by": 21,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 2,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

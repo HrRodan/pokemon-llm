@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 832,
+    "name": "mystical-power",
+    "type": "psychic",
+    "power": 70,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user strengthens itself with a mysterious power. If it excels in offense, its offensive stats are raised. If it excels in defense, its defensive stats are raised.",
+    "learned_by": [
+      "uxie",
+      "mesprit",
+      "azelf"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

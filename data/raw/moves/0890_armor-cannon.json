@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 890,
+    "name": "armor-cannon",
+    "type": "fire",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user shoots its own armor out as blazing projectiles. This also lowers the user\u2019s Defense and Sp. Def stats.",
+    "learned_by": [
+      "armarouge"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

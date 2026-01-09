@@ -1,0 +1,43 @@
+{
+  "move_details": {
+    "id": 178,
+    "name": "cotton-spore",
+    "type": "grass",
+    "power": null,
+    "accuracy": 100,
+    "pp": 40,
+    "damage_class": "status",
+    "effect_description": "Lowers the target\u2019s Speed by two stages.",
+    "effect_chance": null,
+    "flavor_text": "Sharply reduces the foe's SPEED.",
+    "learned_by": [
+      "mareep",
+      "flaaffy",
+      "ampharos",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "roselia",
+      "cacnea",
+      "cacturne",
+      "budew",
+      "cottonee",
+      "whimsicott",
+      "maractus",
+      "swirlix",
+      "slurpuff",
+      "eldegoss",
+      "ampharos-mega"
+    ],
+    "total_learned_by": 17,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

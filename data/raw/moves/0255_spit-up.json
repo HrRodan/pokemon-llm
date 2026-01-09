@@ -1,0 +1,88 @@
+{
+  "move_details": {
+    "id": 255,
+    "name": "spit-up",
+    "type": "normal",
+    "power": null,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Power is equal to 100 times the amount of energy stored by stockpile.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user\u2019s Defense and Special Defense are reset to what they would be if stockpile had not been used.  If the user has no energy stored, this move will fail.  This move cannot be copied by mirror move.",
+    "effect_chance": null,
+    "flavor_text": "Releases stockpiled power (the more the better).",
+    "learned_by": [
+      "ekans",
+      "arbok",
+      "jigglypuff",
+      "wigglytuff",
+      "victreebel",
+      "seel",
+      "dewgong",
+      "grimer",
+      "koffing",
+      "lanturn",
+      "wooper",
+      "qwilfish",
+      "slugma",
+      "pelipper",
+      "mawile",
+      "gulpin",
+      "swalot",
+      "numel",
+      "seviper",
+      "lileep",
+      "cradily",
+      "spheal",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "shellos",
+      "drifloon",
+      "drifblim",
+      "hippopotas",
+      "carnivine",
+      "heatmor",
+      "mareanie",
+      "dewpider",
+      "araquanid",
+      "sandygast",
+      "komala",
+      "skwovet",
+      "greedent",
+      "cramorant",
+      "overqwil",
+      "lechonk",
+      "wattrel",
+      "mawile-mega",
+      "grimer-alola",
+      "cramorant-gulping",
+      "cramorant-gorging",
+      "qwilfish-hisui",
+      "wooper-paldea"
+    ],
+    "total_learned_by": 48,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "stockpile",
+            "url": "https://pokeapi.co/api/v2/move/254/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

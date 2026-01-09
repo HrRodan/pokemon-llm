@@ -1,0 +1,41 @@
+{
+  "move_details": {
+    "id": 301,
+    "name": "ice-ball",
+    "type": "ice",
+    "power": 30,
+    "accuracy": 90,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.  If the user has used defense curl since entering the field, this move has double power.",
+    "effect_chance": null,
+    "flavor_text": "A 5-turn attack that gains power on successive hits.",
+    "learned_by": [
+      "poliwag",
+      "delibird",
+      "mudkip",
+      "glalie",
+      "spheal",
+      "sealeo",
+      "walrein",
+      "bergmite",
+      "avalugg",
+      "sandshrew-alola",
+      "sandslash-alola",
+      "voltorb-hisui",
+      "electrode-hisui",
+      "qwilfish-hisui",
+      "avalugg-hisui"
+    ],
+    "total_learned_by": 15,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "move_details": {
+    "id": 41,
+    "name": "twineedle",
+    "type": "bug",
+    "power": 25,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits twice in the same turn.  Has a 20% chance to poison the target.",
+    "effect_chance": 20,
+    "flavor_text": "Jabs the foe twice using stingers.",
+    "learned_by": [
+      "beedrill",
+      "shellder",
+      "cloyster",
+      "spinarak",
+      "skorupi",
+      "venipede",
+      "escavalier",
+      "togedemaru",
+      "beedrill-mega",
+      "togedemaru-totem"
+    ],
+    "total_learned_by": 10,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

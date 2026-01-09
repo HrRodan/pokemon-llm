@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 593,
+    "name": "hyperspace-hole",
+    "type": "psychic",
+    "power": 80,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Bypasses and removes any protection effect on the target.",
+    "effect_chance": null,
+    "flavor_text": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.",
+    "learned_by": [
+      "hoopa"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

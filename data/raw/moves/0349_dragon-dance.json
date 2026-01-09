@@ -1,0 +1,145 @@
+{
+  "move_details": {
+    "id": 349,
+    "name": "dragon-dance",
+    "type": "dragon",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Attack and Speed by one stage each.",
+    "effect_chance": null,
+    "flavor_text": "A mystical dance that ups ATTACK and SPEED.",
+    "learned_by": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "onix",
+      "horsea",
+      "seadra",
+      "gyarados",
+      "lapras",
+      "aerodactyl",
+      "dratini",
+      "dragonair",
+      "dragonite",
+      "mew",
+      "totodile",
+      "croconaw",
+      "feraligatr",
+      "steelix",
+      "kingdra",
+      "larvitar",
+      "pupitar",
+      "tyranitar",
+      "sceptile",
+      "flygon",
+      "altaria",
+      "barboach",
+      "whiscash",
+      "corphish",
+      "crawdaunt",
+      "milotic",
+      "tropius",
+      "bagon",
+      "shelgon",
+      "salamence",
+      "latias",
+      "latios",
+      "rayquaza",
+      "arceus",
+      "scraggy",
+      "scrafty",
+      "axew",
+      "fraxure",
+      "haxorus",
+      "hydreigon",
+      "reshiram",
+      "zekrom",
+      "kyurem",
+      "tyrunt",
+      "tyrantrum",
+      "noivern",
+      "zygarde-50",
+      "salazzle",
+      "drampa",
+      "jangmo-o",
+      "hakamo-o",
+      "kommo-o",
+      "necrozma",
+      "naganadel",
+      "flapple",
+      "drakloak",
+      "dragapult",
+      "eternatus",
+      "regidrago",
+      "tatsugiri-curly",
+      "iron-thorns",
+      "baxcalibur",
+      "roaring-moon",
+      "walking-wake",
+      "gouging-fire",
+      "kyurem-black",
+      "kyurem-white",
+      "gyarados-mega",
+      "latios-mega",
+      "altaria-mega",
+      "rayquaza-mega",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "kommo-o-totem",
+      "necrozma-dusk",
+      "necrozma-dawn",
+      "zygarde-10",
+      "eternatus-eternamax",
+      "tatsugiri-droopy",
+      "tatsugiri-stretchy"
+    ],
+    "total_learned_by": 84,
+    "machines": [
+      "sword-shield",
+      "scarlet-violet",
+      "the-indigo-disk"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "dragon-rage",
+            "url": "https://pokeapi.co/api/v2/move/82/"
+          },
+          {
+            "name": "dragon-breath",
+            "url": "https://pokeapi.co/api/v2/move/225/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "dragon-rage",
+            "url": "https://pokeapi.co/api/v2/move/82/"
+          },
+          {
+            "name": "dragon-breath",
+            "url": "https://pokeapi.co/api/v2/move/225/"
+          },
+          {
+            "name": "dragon-claw",
+            "url": "https://pokeapi.co/api/v2/move/337/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

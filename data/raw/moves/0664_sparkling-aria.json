@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 664,
+    "name": "sparkling-aria",
+    "type": "water",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  If the target has a burn and takes damage from this move, its burn is healed.",
+    "effect_chance": null,
+    "flavor_text": "The user bursts into song, emitting many bubbles. Any Pok\u00e9mon suffering from a burn will be healed by the touch of these bubbles.",
+    "learned_by": [
+      "lapras",
+      "primarina"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

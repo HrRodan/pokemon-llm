@@ -1,0 +1,72 @@
+{
+  "move_details": {
+    "id": 22,
+    "name": "vine-whip",
+    "type": "grass",
+    "power": 45,
+    "accuracy": 100,
+    "pp": 25,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "Whips the foe with slender vines.",
+    "learned_by": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "tangela",
+      "chikorita",
+      "bayleef",
+      "meganium",
+      "carnivine",
+      "tangrowth",
+      "snivy",
+      "servine",
+      "serperior",
+      "pansage",
+      "chespin",
+      "quilladin",
+      "chesnaught",
+      "flabebe",
+      "floette",
+      "skiddo",
+      "gogoat",
+      "comfey",
+      "zarude",
+      "ogerpon",
+      "venusaur-mega",
+      "floette-eternal",
+      "zarude-dada",
+      "ogerpon-wellspring-mask",
+      "ogerpon-hearthflame-mask",
+      "ogerpon-cornerstone-mask"
+    ],
+    "total_learned_by": 32,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "growth",
+            "url": "https://pokeapi.co/api/v2/move/74/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

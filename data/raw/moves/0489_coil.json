@@ -1,0 +1,51 @@
+{
+  "move_details": {
+    "id": 489,
+    "name": "coil",
+    "type": "poison",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Attack, Defense, and accuracy by one stage each.",
+    "effect_chance": null,
+    "flavor_text": "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.",
+    "learned_by": [
+      "ekans",
+      "arbok",
+      "furret",
+      "dunsparce",
+      "seviper",
+      "milotic",
+      "huntail",
+      "gorebyss",
+      "snivy",
+      "servine",
+      "serperior",
+      "eelektrik",
+      "eelektross",
+      "zygarde-50",
+      "silicobra",
+      "sandaconda",
+      "sizzlipede",
+      "centiskorch",
+      "orthworm",
+      "dudunsparce-two-segment",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "zygarde-10",
+      "dudunsparce-three-segment"
+    ],
+    "total_learned_by": 25,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

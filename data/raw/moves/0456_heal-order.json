@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 456,
+    "name": "heal-order",
+    "type": "bug",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Heals the user for half its max HP.",
+    "effect_chance": null,
+    "flavor_text": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+    "learned_by": [
+      "vespiquen"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

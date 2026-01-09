@@ -1,0 +1,47 @@
+{
+  "move_details": {
+    "id": 183,
+    "name": "mach-punch",
+    "type": "fighting",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "A fast punch that lands first.",
+    "learned_by": [
+      "machop",
+      "machoke",
+      "machamp",
+      "hitmonlee",
+      "hitmonchan",
+      "magmar",
+      "ledyba",
+      "ledian",
+      "tyrogue",
+      "hitmontop",
+      "magby",
+      "breloom",
+      "monferno",
+      "infernape",
+      "lopunny",
+      "lucario",
+      "magmortar",
+      "timburr",
+      "gurdurr",
+      "conkeldurr",
+      "pawmi"
+    ],
+    "total_learned_by": 21,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

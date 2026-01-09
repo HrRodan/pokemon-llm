@@ -1,0 +1,151 @@
+{
+  "move_details": {
+    "id": 225,
+    "name": "dragon-breath",
+    "type": "dragon",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to paralyze the target.",
+    "effect_chance": 30,
+    "flavor_text": "A strong breath attack.",
+    "learned_by": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "growlithe",
+      "arcanine",
+      "onix",
+      "horsea",
+      "seadra",
+      "gyarados",
+      "lapras",
+      "aerodactyl",
+      "dratini",
+      "dragonair",
+      "dragonite",
+      "mew",
+      "steelix",
+      "kingdra",
+      "tyranitar",
+      "lugia",
+      "ho-oh",
+      "treecko",
+      "grovyle",
+      "sceptile",
+      "vibrava",
+      "flygon",
+      "swablu",
+      "altaria",
+      "feebas",
+      "milotic",
+      "bagon",
+      "shelgon",
+      "salamence",
+      "latias",
+      "latios",
+      "gible",
+      "gabite",
+      "garchomp",
+      "dialga",
+      "palkia",
+      "giratina-altered",
+      "archen",
+      "archeops",
+      "deino",
+      "zweilous",
+      "hydreigon",
+      "reshiram",
+      "zekrom",
+      "kyurem",
+      "goomy",
+      "sliggoo",
+      "goodra",
+      "zygarde-50",
+      "drampa",
+      "jangmo-o",
+      "hakamo-o",
+      "kommo-o",
+      "flapple",
+      "dracovish",
+      "dragapult",
+      "regidrago",
+      "iron-jugulis",
+      "frigibax",
+      "arctibax",
+      "baxcalibur",
+      "roaring-moon",
+      "miraidon",
+      "walking-wake",
+      "dipplin",
+      "hydrapple",
+      "raging-bolt",
+      "giratina-origin",
+      "kyurem-black",
+      "kyurem-white",
+      "aerodactyl-mega",
+      "latias-mega",
+      "latios-mega",
+      "altaria-mega",
+      "steelix-mega",
+      "salamence-mega",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "zygarde-10",
+      "sliggoo-hisui",
+      "goodra-hisui",
+      "dialga-origin",
+      "palkia-origin",
+      "miraidon-low-power-mode",
+      "miraidon-drive-mode",
+      "miraidon-aquatic-mode",
+      "miraidon-glide-mode"
+    ],
+    "total_learned_by": 91,
+    "machines": [
+      "gold-silver",
+      "crystal"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "dragon-rage",
+            "url": "https://pokeapi.co/api/v2/move/82/"
+          },
+          {
+            "name": "dragon-dance",
+            "url": "https://pokeapi.co/api/v2/move/349/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "dragon-rage",
+            "url": "https://pokeapi.co/api/v2/move/82/"
+          },
+          {
+            "name": "dragon-claw",
+            "url": "https://pokeapi.co/api/v2/move/337/"
+          },
+          {
+            "name": "dragon-dance",
+            "url": "https://pokeapi.co/api/v2/move/349/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

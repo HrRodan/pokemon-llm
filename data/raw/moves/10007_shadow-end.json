@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10007,
+    "name": "shadow-end",
+    "type": "shadow",
+    "power": 120,
+    "accuracy": 60,
+    "pp": null,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User takes 1/2 of its current HP in recoil.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

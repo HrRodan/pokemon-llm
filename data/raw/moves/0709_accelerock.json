@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 709,
+    "name": "accelerock",
+    "type": "rock",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user smashes into the target at high speed. This move always goes first.",
+    "learned_by": [
+      "lycanroc-midday",
+      "lycanroc-dusk"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

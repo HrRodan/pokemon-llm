@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 826,
+    "name": "eerie-spell",
+    "type": "psychic",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks with its tremendous psychic power. This also removes 3 PP from the target\u2019s last move.",
+    "learned_by": [
+      "slowking-galar"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

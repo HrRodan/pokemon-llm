@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 746,
+    "name": "jaw-lock",
+    "type": "dark",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage, then (if successful) sets leech seed on the target.",
+    "effect_chance": null,
+    "flavor_text": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pok\u00e9mon leaves the field.",
+    "learned_by": [
+      "chewtle",
+      "drednaw",
+      "maschiff",
+      "mabosstiff",
+      "roaring-moon"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 463,
+    "name": "magma-storm",
+    "type": "fire",
+    "power": 100,
+    "accuracy": 75,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  For the next 2\u20135 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.  Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.  rapid spin cancels this effect.",
+    "effect_chance": 100,
+    "flavor_text": "The foe becomes trapped within a maelstrom of fire that rages for two to five turns.",
+    "learned_by": [
+      "heatran"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

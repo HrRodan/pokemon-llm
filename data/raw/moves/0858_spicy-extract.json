@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 858,
+    "name": "spicy-extract",
+    "type": "grass",
+    "power": 0,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user emits an incredibly spicy extract, sharply boosting the target's Attack stat and harshly lowering the target's Defense stat.",
+    "learned_by": [
+      "scovillain"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

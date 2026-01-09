@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 712,
+    "name": "spectral-thief",
+    "type": "ghost",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Steals the target\u2019s stat increases, then inflicts regular damage.  Will not steal stat increases that would put any of the user\u2019s stats at more than +6; any excess is left on the target.  Stolen increases are affected by abilities as normal.",
+    "effect_chance": null,
+    "flavor_text": "The user hides in the target\u2019s shadow, steals the target\u2019s stat boosts, and then attacks.",
+    "learned_by": [
+      "marshadow"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

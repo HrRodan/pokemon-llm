@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 835,
+    "name": "chloroblast",
+    "type": "grass",
+    "power": 150,
+    "accuracy": 95,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user and lowers the user's action speed.",
+    "learned_by": [
+      "electrode-hisui"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

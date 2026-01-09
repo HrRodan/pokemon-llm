@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 166,
+    "name": "sketch",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "status",
+    "effect_description": "Permanently replaces itself with the target\u2019s last used move.  If that move is chatter or struggle, this move will fail.  This move cannot be copied by mimic or mirror move, nor selected by assist or metronome, nor forced by encore.",
+    "effect_chance": null,
+    "flavor_text": "Copies the foe's move permanently.",
+    "learned_by": [
+      "smeargle"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

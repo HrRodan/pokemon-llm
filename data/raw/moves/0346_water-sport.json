@@ -1,0 +1,109 @@
+{
+  "move_details": {
+    "id": 346,
+    "name": "water-sport",
+    "type": "water",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "fire moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends.",
+    "effect_chance": null,
+    "flavor_text": "The user becomes soaked to raise resistance to fire.",
+    "learned_by": [
+      "psyduck",
+      "golduck",
+      "poliwag",
+      "poliwhirl",
+      "seel",
+      "goldeen",
+      "seaking",
+      "totodile",
+      "marill",
+      "azumarill",
+      "mantine",
+      "lombre",
+      "wingull",
+      "pelipper",
+      "surskit",
+      "masquerain",
+      "azurill",
+      "barboach",
+      "whiscash",
+      "milotic",
+      "spheal",
+      "gorebyss",
+      "relicanth",
+      "luvdisc",
+      "latias",
+      "piplup",
+      "prinplup",
+      "bidoof",
+      "budew",
+      "buizel",
+      "floatzel",
+      "mantyke",
+      "phione",
+      "manaphy",
+      "oshawott",
+      "dewott",
+      "samurott",
+      "panpour",
+      "ducklett",
+      "swanna",
+      "frillish",
+      "jellicent",
+      "alomomola",
+      "froakie",
+      "binacle",
+      "clauncher",
+      "clawitzer",
+      "wishiwashi-solo",
+      "dewpider",
+      "pyukumuku",
+      "latias-mega",
+      "wishiwashi-school"
+    ],
+    "total_learned_by": 52,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "rain-dance",
+            "url": "https://pokeapi.co/api/v2/move/240/"
+          },
+          {
+            "name": "mud-sport",
+            "url": "https://pokeapi.co/api/v2/move/300/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "water-gun",
+            "url": "https://pokeapi.co/api/v2/move/55/"
+          },
+          {
+            "name": "refresh",
+            "url": "https://pokeapi.co/api/v2/move/287/"
+          },
+          {
+            "name": "mud-sport",
+            "url": "https://pokeapi.co/api/v2/move/300/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 461,
+    "name": "lunar-dance",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "User faints.  Its replacement\u2019s HP and PP are fully restored, and any major status effect is removed.",
+    "effect_chance": null,
+    "flavor_text": "The user faints. In return, the Pok\u00e9mon taking its place will have its status and HP fully restored.",
+    "learned_by": [
+      "cresselia"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

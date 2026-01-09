@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 854,
+    "name": "last-respects",
+    "type": "ghost",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks to avenge its allies. The more defeated allies there are in the user's party, the greater the move's power.",
+    "learned_by": [
+      "basculegion-male",
+      "houndstone",
+      "basculin-white-striped",
+      "basculegion-female"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

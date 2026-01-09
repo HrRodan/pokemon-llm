@@ -1,0 +1,101 @@
+{
+  "move_details": {
+    "id": 212,
+    "name": "mean-look",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.  The target may still escape by using baton pass, u turn, or a shed shell.  Both the user and the target pass on this effect with baton pass.",
+    "effect_chance": null,
+    "flavor_text": "Prevents fleeing or switching.",
+    "learned_by": [
+      "zubat",
+      "golbat",
+      "grimer",
+      "gastly",
+      "haunter",
+      "gengar",
+      "jynx",
+      "hoothoot",
+      "crobat",
+      "umbreon",
+      "murkrow",
+      "misdreavus",
+      "girafarig",
+      "smoochum",
+      "ralts",
+      "sableye",
+      "duskull",
+      "dusclops",
+      "absol",
+      "mismagius",
+      "honchkrow",
+      "dusknoir",
+      "snivy",
+      "servine",
+      "serperior",
+      "patrat",
+      "watchog",
+      "sandile",
+      "yamask",
+      "cofagrigus",
+      "gothita",
+      "pawniard",
+      "vullaby",
+      "mandibuzz",
+      "meowstic-male",
+      "hawlucha",
+      "tapu-koko",
+      "tapu-lele",
+      "tapu-bulu",
+      "tapu-fini",
+      "runerigus",
+      "flutter-mane",
+      "wo-chien",
+      "chien-pao",
+      "ting-lu",
+      "chi-yu",
+      "pecharunt",
+      "gengar-mega",
+      "absol-mega",
+      "sableye-mega",
+      "grimer-alola",
+      "yamask-galar"
+    ],
+    "total_learned_by": 52,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "curse",
+            "url": "https://pokeapi.co/api/v2/move/174/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "destiny-bond",
+            "url": "https://pokeapi.co/api/v2/move/194/"
+          },
+          {
+            "name": "perish-song",
+            "url": "https://pokeapi.co/api/v2/move/195/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

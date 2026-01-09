@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 828,
+    "name": "psyshield-bash",
+    "type": "psychic",
+    "power": 70,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "Cloaking itself in psychic energy, the user slams into the target. This may also raise the user\u2019s defensive stats.",
+    "learned_by": [
+      "stantler",
+      "wyrdeer"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

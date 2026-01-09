@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 876,
+    "name": "hydro-steam",
+    "type": "water",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent.",
+    "learned_by": [
+      "walking-wake"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

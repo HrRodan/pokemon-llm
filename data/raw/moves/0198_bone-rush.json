@@ -1,0 +1,64 @@
+{
+  "move_details": {
+    "id": 198,
+    "name": "bone-rush",
+    "type": "ground",
+    "power": 25,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits 2\u20135 times in one turn.  Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "effect_chance": null,
+    "flavor_text": "An attack that hits 2-5 times.",
+    "learned_by": [
+      "cubone",
+      "marowak",
+      "lucario",
+      "mandibuzz",
+      "lucario-mega",
+      "marowak-alola",
+      "marowak-totem"
+    ],
+    "total_learned_by": 7,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "focus-energy",
+            "url": "https://pokeapi.co/api/v2/move/116/"
+          },
+          {
+            "name": "bone-club",
+            "url": "https://pokeapi.co/api/v2/move/125/"
+          },
+          {
+            "name": "bonemerang",
+            "url": "https://pokeapi.co/api/v2/move/155/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "bone-club",
+            "url": "https://pokeapi.co/api/v2/move/125/"
+          },
+          {
+            "name": "bonemerang",
+            "url": "https://pokeapi.co/api/v2/move/155/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 742,
+    "name": "double-iron-bash",
+    "type": "steel",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits twice in one turn.",
+    "effect_chance": 30,
+    "flavor_text": "The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch.",
+    "learned_by": [
+      "melmetal"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

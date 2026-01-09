@@ -1,0 +1,44 @@
+{
+  "move_details": {
+    "id": 354,
+    "name": "psycho-boost",
+    "type": "psychic",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage, then lowers the user\u2019s Special Attack by two stages.",
+    "effect_chance": 100,
+    "flavor_text": "Allows a full-power attack, but sharply lowers SP. ATK.",
+    "learned_by": [
+      "deoxys-normal",
+      "deoxys-attack",
+      "deoxys-defense",
+      "deoxys-speed"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "calm-mind",
+            "url": "https://pokeapi.co/api/v2/move/347/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

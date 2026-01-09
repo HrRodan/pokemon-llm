@@ -1,0 +1,67 @@
+{
+  "move_details": {
+    "id": 32,
+    "name": "horn-drill",
+    "type": "normal",
+    "power": null,
+    "accuracy": 30,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts damage equal to the target\u2019s max HP.  Ignores accuracy and evasion modifiers.  This move\u2019s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.  Because this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.  The effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
+    "effect_chance": null,
+    "flavor_text": "A one-hit KO, drill attack.",
+    "learned_by": [
+      "nidorina",
+      "nidoqueen",
+      "nidoran-m",
+      "nidorino",
+      "nidoking",
+      "ponyta",
+      "rapidash",
+      "seel",
+      "dewgong",
+      "rhyhorn",
+      "rhydon",
+      "goldeen",
+      "seaking",
+      "tauros",
+      "lapras",
+      "omastar",
+      "dragonair",
+      "dragonite",
+      "mew",
+      "rhyperior",
+      "excadrill",
+      "tyrunt",
+      "tyrantrum",
+      "ponyta-galar"
+    ],
+    "total_learned_by": 24,
+    "machines": [
+      "red-blue",
+      "yellow"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "horn-attack",
+            "url": "https://pokeapi.co/api/v2/move/30/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 483,
+    "name": "quiver-dance",
+    "type": "bug",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Special Attack, Special Defense, and Speed by one stage each.",
+    "effect_chance": null,
+    "flavor_text": "The user lightly performs a beautiful, mystic dance. It boosts the user\u2019s Sp. Atk, Sp. Def, and Speed stats.",
+    "learned_by": [
+      "butterfree",
+      "venomoth",
+      "bellossom",
+      "beautifly",
+      "dustox",
+      "masquerain",
+      "wormadam-plant",
+      "mothim",
+      "lilligant",
+      "volcarona",
+      "vivillon",
+      "oricorio-baile",
+      "cutiefly",
+      "ribombee",
+      "pheromosa",
+      "frosmoth",
+      "wormadam-sandy",
+      "wormadam-trash",
+      "oricorio-pom-pom",
+      "oricorio-pau",
+      "oricorio-sensu",
+      "ribombee-totem"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

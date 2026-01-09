@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 600,
+    "name": "powder",
+    "type": "bug",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move.",
+    "effect_chance": null,
+    "flavor_text": "The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.",
+    "learned_by": [
+      "vivillon",
+      "cutiefly"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

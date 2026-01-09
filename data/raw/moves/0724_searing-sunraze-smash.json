@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 724,
+    "name": "searing-sunraze-smash",
+    "type": "steel",
+    "power": 200,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Other Pok\u00e9mon\u2019s abilities cannot activate in response to this move.  In particular, it hits through disguise",
+    "effect_chance": null,
+    "flavor_text": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target\u2019s Ability.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

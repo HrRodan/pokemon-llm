@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 367,
+    "name": "acupressure",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 30,
+    "damage_class": "status",
+    "effect_description": "Raises one of the target\u2019s stats by two stages.  The raised stat is chosen at random from any stats that can be raised by two stages.  If no stat is eligible, this move will fail.  If the target has a substitute, this move will have no effect, even if the user is the target.  This move cannot be copied by mirror move.",
+    "effect_chance": null,
+    "flavor_text": "The user applies pressure to stress points, sharply boosting one of its stats.",
+    "learned_by": [
+      "tentacool",
+      "tentacruel",
+      "doduo",
+      "dodrio",
+      "goldeen",
+      "qwilfish",
+      "shuckle",
+      "meditite",
+      "medicham",
+      "skorupi",
+      "drapion",
+      "croagunk",
+      "maractus",
+      "inkay",
+      "malamar",
+      "bounsweet",
+      "arrokuda",
+      "pincurchin",
+      "overqwil",
+      "toedscool",
+      "medicham-mega",
+      "qwilfish-hisui"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user-or-ally",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 591,
+    "name": "diamond-storm",
+    "type": "rock",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to raise the user\u2019s Defense by two stages for each target hit.",
+    "effect_chance": 50,
+    "flavor_text": "The user whips up a storm of diamonds to damage opposing Pok\u00e9mon. This may also raise the user\u2019s Defense stat.",
+    "learned_by": [
+      "diancie",
+      "diancie-mega"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

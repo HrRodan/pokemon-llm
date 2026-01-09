@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 704,
+    "name": "shell-trap",
+    "type": "fire",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  If the user was not yet hit by an opponent\u2019s physical move this turn, this move will fail.",
+    "effect_chance": null,
+    "flavor_text": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pok\u00e9mon.",
+    "learned_by": [
+      "turtonator"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": -3,
+    "target": "all-opponents",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

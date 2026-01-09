@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 674,
+    "name": "gear-up",
+    "type": "steel",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the Attack and Special Attack of all friendly Pok\u00e9mon with plus or minus by one stage.",
+    "effect_chance": null,
+    "flavor_text": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pok\u00e9mon with the Plus or Minus Ability.",
+    "learned_by": [
+      "klinklang",
+      "magearna",
+      "magearna-original"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user-and-allies",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 755,
+    "name": "fishious-rend",
+    "type": "water",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user rends the target with its hard gills. If the user attacks before the target, the power of this move is doubled.",
+    "learned_by": [
+      "dracovish",
+      "arctovish"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "move_details": {
+    "id": 834,
+    "name": "wave-crash",
+    "type": "water",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user shrouds itself in water and slams into the target with its whole body to inflict damage. This also damages the user and raises the user\u2019s action speed.",
+    "learned_by": [
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "kingdra",
+      "empoleon",
+      "buizel",
+      "floatzel",
+      "basculin-red-striped",
+      "bruxish",
+      "basculegion-male",
+      "quaquaval",
+      "palafin-zero",
+      "dondozo",
+      "basculin-blue-striped",
+      "basculin-white-striped",
+      "basculegion-female",
+      "tauros-paldea-aqua-breed",
+      "palafin-hero"
+    ],
+    "total_learned_by": 18,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

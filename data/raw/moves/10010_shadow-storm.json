@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10010,
+    "name": "shadow-storm",
+    "type": "shadow",
+    "power": 95,
+    "accuracy": 100,
+    "pp": null,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "opponents-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

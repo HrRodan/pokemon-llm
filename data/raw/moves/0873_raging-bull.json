@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 873,
+    "name": "raging-bull",
+    "type": "normal",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user performs a tackle like a raging bull. This move's type depends on the user's form. It can also break barriers, such as Light Screen and Reflect.",
+    "learned_by": [
+      "tauros",
+      "tauros-paldea-combat-breed",
+      "tauros-paldea-blaze-breed",
+      "tauros-paldea-aqua-breed"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

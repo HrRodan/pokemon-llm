@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10011,
+    "name": "shadow-wave",
+    "type": "shadow",
+    "power": 50,
+    "accuracy": 100,
+    "pp": null,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "opponents-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

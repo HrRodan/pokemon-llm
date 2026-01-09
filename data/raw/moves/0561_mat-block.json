@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 561,
+    "name": "mat-block",
+    "type": "fighting",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Protects all friendly Pok\u00e9mon from damaging moves.  Only works on the first turn after the user is sent out.",
+    "effect_chance": null,
+    "flavor_text": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+    "learned_by": [
+      "throh",
+      "greninja",
+      "greninja-battle-bond",
+      "greninja-ash"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "users-field",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

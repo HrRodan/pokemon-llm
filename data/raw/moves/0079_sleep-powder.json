@@ -1,0 +1,78 @@
+{
+  "move_details": {
+    "id": 79,
+    "name": "sleep-powder",
+    "type": "grass",
+    "power": null,
+    "accuracy": 75,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Puts the target to sleep.",
+    "effect_chance": null,
+    "flavor_text": "May cause the foe to fall asleep.",
+    "learned_by": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "butterfree",
+      "oddish",
+      "gloom",
+      "vileplume",
+      "paras",
+      "parasect",
+      "venonat",
+      "venomoth",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "exeggcute",
+      "tangela",
+      "bellossom",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "roselia",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "budew",
+      "cherubi",
+      "cherrim",
+      "carnivine",
+      "tangrowth",
+      "shaymin-land",
+      "petilil",
+      "lilligant",
+      "vivillon",
+      "morelull",
+      "shiinotic",
+      "gossifleur",
+      "venusaur-mega",
+      "lilligant-hisui"
+    ],
+    "total_learned_by": 38,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sweet-scent",
+            "url": "https://pokeapi.co/api/v2/move/230/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

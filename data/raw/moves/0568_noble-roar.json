@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 568,
+    "name": "noble-roar",
+    "type": "normal",
+    "power": null,
+    "accuracy": 100,
+    "pp": 30,
+    "damage_class": "status",
+    "effect_description": "Lowers the target\u2019s Attack and Special Attack by one stage.",
+    "effect_chance": 100,
+    "flavor_text": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+    "learned_by": [
+      "wailord",
+      "reshiram",
+      "zekrom",
+      "kyurem",
+      "litleo",
+      "pyroar",
+      "jangmo-o",
+      "hakamo-o",
+      "kommo-o",
+      "solgaleo",
+      "rillaboom",
+      "toxtricity-amped",
+      "zacian",
+      "dondozo",
+      "scream-tail",
+      "walking-wake",
+      "gouging-fire",
+      "kyurem-black",
+      "kyurem-white",
+      "kommo-o-totem",
+      "toxtricity-low-key",
+      "zacian-crowned"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

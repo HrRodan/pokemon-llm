@@ -1,0 +1,85 @@
+{
+  "move_details": {
+    "id": 77,
+    "name": "poison-powder",
+    "type": "poison",
+    "power": null,
+    "accuracy": 75,
+    "pp": 35,
+    "damage_class": "status",
+    "effect_description": "Poisons the target.",
+    "effect_chance": null,
+    "flavor_text": "A move that may poison the foe.",
+    "learned_by": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "butterfree",
+      "oddish",
+      "gloom",
+      "vileplume",
+      "paras",
+      "parasect",
+      "venonat",
+      "venomoth",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "exeggcute",
+      "tangela",
+      "chikorita",
+      "bayleef",
+      "meganium",
+      "bellossom",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "dustox",
+      "shroomish",
+      "breloom",
+      "roselia",
+      "budew",
+      "roserade",
+      "mothim",
+      "tangrowth",
+      "cottonee",
+      "whimsicott",
+      "petilil",
+      "foongus",
+      "scatterbug",
+      "vivillon",
+      "morelull",
+      "gossifleur",
+      "toedscool",
+      "toedscruel",
+      "slither-wing",
+      "wo-chien",
+      "venusaur-mega",
+      "lilligant-hisui"
+    ],
+    "total_learned_by": 45,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sweet-scent",
+            "url": "https://pokeapi.co/api/v2/move/230/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

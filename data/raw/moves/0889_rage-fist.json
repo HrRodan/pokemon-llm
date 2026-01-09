@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 889,
+    "name": "rage-fist",
+    "type": "ghost",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user converts its rage into energy to attack. The more times the user has been hit by attacks, the greater the move's power.",
+    "learned_by": [
+      "primeape",
+      "annihilape"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

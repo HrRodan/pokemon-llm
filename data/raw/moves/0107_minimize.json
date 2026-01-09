@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 107,
+    "name": "minimize",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s evasion by two stages.  stomp and steamroller have double power against Pok\u00e9mon that have used this move since entering the field.",
+    "effect_chance": null,
+    "flavor_text": "Heightens evasive\u00ad ness.",
+    "learned_by": [
+      "clefairy",
+      "clefable",
+      "wigglytuff",
+      "grimer",
+      "muk",
+      "chansey",
+      "staryu",
+      "starmie",
+      "qwilfish",
+      "blissey",
+      "drifloon",
+      "drifblim",
+      "happiny",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "silicobra",
+      "sandaconda",
+      "overqwil",
+      "grimer-alola",
+      "muk-alola",
+      "qwilfish-hisui"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

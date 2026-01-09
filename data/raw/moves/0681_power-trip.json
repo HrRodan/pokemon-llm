@@ -1,0 +1,46 @@
+{
+  "move_details": {
+    "id": 681,
+    "name": "power-trip",
+    "type": "dark",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user\u2019s stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move\u2019s power.  For a Pok\u00e9mon with all five stats modified to +6, this move\u2019s power is 31\u00d7.",
+    "effect_chance": null,
+    "flavor_text": "The user boasts its strength and attacks the target. The more the user\u2019s stats are raised, the greater the move\u2019s power.",
+    "learned_by": [
+      "mankey",
+      "cacnea",
+      "cacturne",
+      "zangoose",
+      "piplup",
+      "prinplup",
+      "empoleon",
+      "sandile",
+      "krokorok",
+      "krookodile",
+      "pancham",
+      "litten",
+      "torracat",
+      "incineroar",
+      "rookidee",
+      "corvisquire",
+      "corviknight",
+      "morpeko-full-belly",
+      "bombirdier",
+      "morpeko-hangry"
+    ],
+    "total_learned_by": 20,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

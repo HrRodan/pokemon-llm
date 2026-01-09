@@ -1,0 +1,49 @@
+{
+  "move_details": {
+    "id": 436,
+    "name": "lava-plume",
+    "type": "fire",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to burn the target.",
+    "effect_chance": 30,
+    "flavor_text": "An inferno of scarlet flames washes over all Pok\u00e9mon in battle. It may also inflict burns.",
+    "learned_by": [
+      "magmar",
+      "flareon",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "slugma",
+      "magcargo",
+      "magby",
+      "entei",
+      "numel",
+      "camerupt",
+      "torkoal",
+      "groudon",
+      "magmortar",
+      "heatran",
+      "charcadet",
+      "armarouge",
+      "ceruledge",
+      "chi-yu",
+      "gouging-fire",
+      "groudon-primal",
+      "camerupt-mega",
+      "typhlosion-hisui"
+    ],
+    "total_learned_by": 23,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

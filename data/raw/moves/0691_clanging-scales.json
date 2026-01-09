@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 691,
+    "name": "clanging-scales",
+    "type": "dragon",
+    "power": 110,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Lowers the user\u2019s Defense by one stage.",
+    "effect_chance": 100,
+    "flavor_text": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pok\u00e9mon. The user\u2019s Defense stat goes down after the attack.",
+    "learned_by": [
+      "kommo-o",
+      "kommo-o-totem"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

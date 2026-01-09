@@ -1,0 +1,44 @@
+{
+  "move_details": {
+    "id": 418,
+    "name": "bullet-punch",
+    "type": "steel",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user strikes with a tough punch as fast as a bullet. This move always goes first.",
+    "learned_by": [
+      "machop",
+      "machoke",
+      "machamp",
+      "hitmonlee",
+      "hitmonchan",
+      "scizor",
+      "tyrogue",
+      "hitmontop",
+      "makuhita",
+      "meditite",
+      "metang",
+      "metagross",
+      "riolu",
+      "lucario",
+      "croagunk",
+      "pangoro",
+      "scizor-mega",
+      "metagross-mega"
+    ],
+    "total_learned_by": 18,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

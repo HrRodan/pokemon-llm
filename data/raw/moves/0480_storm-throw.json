@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 480,
+    "name": "storm-throw",
+    "type": "fighting",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Always scores a critical hit.",
+    "effect_chance": null,
+    "flavor_text": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
+    "learned_by": [
+      "pinsir",
+      "throh",
+      "pancham",
+      "pinsir-mega"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

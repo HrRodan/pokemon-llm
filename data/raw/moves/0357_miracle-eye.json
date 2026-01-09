@@ -1,0 +1,43 @@
+{
+  "move_details": {
+    "id": 357,
+    "name": "miracle-eye",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 40,
+    "damage_class": "status",
+    "effect_description": "Resets the target\u2019s evasion to normal and prevents any further boosting until the target leaves the field.  A dark Pok\u00e9mon under this effect takes normal damage from psychic moves.  This move itself ignores accuracy and evasion modifiers.",
+    "effect_chance": null,
+    "flavor_text": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+    "learned_by": [
+      "kadabra",
+      "alakazam",
+      "mewtwo",
+      "natu",
+      "xatu",
+      "smoochum",
+      "metang",
+      "metagross",
+      "sigilyph",
+      "gothita",
+      "elgyem",
+      "beheeyem",
+      "meowstic-male",
+      "alakazam-mega",
+      "mewtwo-mega-x",
+      "mewtwo-mega-y",
+      "metagross-mega"
+    ],
+    "total_learned_by": 17,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

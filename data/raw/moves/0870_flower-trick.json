@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 870,
+    "name": "flower-trick",
+    "type": "grass",
+    "power": 70,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user throws a rigged bouquet of flowers at the target. This attack never misses and always lands a critical hit.",
+    "learned_by": [
+      "meowscarada"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

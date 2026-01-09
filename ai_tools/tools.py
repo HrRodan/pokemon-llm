@@ -92,7 +92,7 @@ GeminiModels = Literal[
     "gemini-flash-lite-latest",
     "models/imagen-4.0-generate-001",
     "gemini-2.5-pro-preview-tts",
-    "gemini-3-flash-preview",
+    "gemini-3-flash-preview"
 ]
 
 OpenRouterModels = Literal[
@@ -105,6 +105,7 @@ OpenRouterModels = Literal[
     "x-ai/grok-4.1-fast",  # top price / intelligence
     "z-ai/glm-4.7",
     "moonshotai/kimi-k2-thinking",
+    "qwen/qwen3-embedding-8b",  # Embedding model
 ]
 
 ModelName = Union[GPTModels, OllamaModels, GeminiModels, OpenRouterModels]
@@ -242,6 +243,7 @@ class LLMQuery:
         image_model: str = "models/imagen-4.0-generate-001",
         tts_model: str = "gpt-4o-mini-tts",
         transcription_model: str = "gemini-2.5-flash",
+        embedding_model: str = "qwen/qwen3-embedding-8b",
         reasoning_effort: Optional[str] = None,
         history_limit: Optional[int] = None,
         response_format: Union[Dict[str, Any], Type[BaseModel], None] = None,
@@ -260,6 +262,8 @@ class LLMQuery:
             image_model (str, optional): The image generation model to use. Defaults to "models/imagen-4.0-generate-001".
             tts_model (str, optional): The TTS model to use. Defaults to "gpt-4o-mini-tts".
             transcription_model (str, optional): The transcription model to use. Defaults to "gemini-2.5-flash".
+            embedding_model (str, optional): The embedding model to use. Defaults to "qwen/qwen3-embedding-8b".
+            reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
             reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
             reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
             history_limit (int, optional): The maximum number of history entries to include. Defaults to None (all history).
@@ -269,6 +273,7 @@ class LLMQuery:
         self.image_model = image_model
         self.tts_model = tts_model
         self.transcription_model = transcription_model
+        self.embedding_model = embedding_model
         self.reasoning_effort = reasoning_effort
         self.history_limit = history_limit
         self.stream = stream
@@ -468,6 +473,20 @@ class LLMQuery:
 
         # Include any additional kwargs
         request_kwargs.update(kwargs)
+
+        # OpenRouter specific configuration
+        if target_model in MODEL_DICT["openrouter"]:
+            extra_body = request_kwargs.get("extra_body", {})
+            if "provider" not in extra_body:
+                extra_body["provider"] = {}
+
+            # Ensure OpenRouter specific parameters are set
+            # require_parameters: True -> ensures 400 error if parameters are missing
+            # data_collection: "deny" -> opts out of data collection
+            extra_body["provider"].setdefault("require_parameters", True)
+            extra_body["provider"].setdefault("data_collection", "deny")
+
+            request_kwargs["extra_body"] = extra_body
 
         return request_kwargs
 
@@ -1094,6 +1113,30 @@ class LLMQuery:
         finally:
             if should_close and file_obj:
                 file_obj.close()
+
+    def generate_embedding(
+        self,
+        text: List[str],
+        model: Optional[str] = None,
+    ) -> List[List[float]]:
+        """
+        Generate embeddings for a list of texts using the specified model.
+
+        Args:
+            text: A list of strings to generate embeddings for.
+            model: Optional model to use, overriding the default instance embedding_model.
+
+        Returns:
+            List[List[float]]: A list of embedding vectors.
+        """
+        target_model = model if model is not None else self.embedding_model
+        client = self._get_client_for_model(target_model)
+
+        response = client.embeddings.create(
+            model=target_model,
+            input=text,
+        )
+        return [data.embedding for data in response.data]
 
 
 if __name__ == "__main__":

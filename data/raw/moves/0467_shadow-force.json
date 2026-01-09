@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 467,
+    "name": "shadow-force",
+    "type": "ghost",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.  This move ignores the effects of detect and protect.  This move cannot be selected by sleep talk.",
+    "effect_chance": null,
+    "flavor_text": "The user disappears, then strikes the foe on the second turn. It hits even if the foe used Protect.",
+    "learned_by": [
+      "giratina-altered",
+      "giratina-origin"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

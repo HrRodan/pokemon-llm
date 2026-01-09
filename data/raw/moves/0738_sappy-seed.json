@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 738,
+    "name": "sappy-seed",
+    "type": "grass",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 100,
+    "flavor_text": "The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target\u2019s HP every turn.",
+    "learned_by": [
+      "eevee-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

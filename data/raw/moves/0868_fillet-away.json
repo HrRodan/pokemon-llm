@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 868,
+    "name": "fillet-away",
+    "type": "normal",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP.",
+    "learned_by": [
+      "veluza"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

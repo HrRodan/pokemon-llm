@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 716,
+    "name": "zing-zap",
+    "type": "electric",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.",
+    "effect_chance": 30,
+    "flavor_text": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+    "learned_by": [
+      "togedemaru",
+      "pincurchin",
+      "togedemaru-totem"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

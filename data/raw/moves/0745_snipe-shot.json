@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 745,
+    "name": "snipe-shot",
+    "type": "water",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage, then (if successful) sets reflect on the user\u2019s side of the field.",
+    "effect_chance": null,
+    "flavor_text": "The user ignores the effects of opposing Pok\u00e9mon\u2019s moves and Abilities that draw in moves, allowing this move to hit the chosen target.",
+    "learned_by": [
+      "inteleon"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "move_details": {
+    "id": 564,
+    "name": "sticky-web",
+    "type": "bug",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Shoots a web over the opponents\u2019 side of the field, which lowers the Speed of any opposing Pok\u00e9mon that enters the field by one stage.  Pok\u00e9mon in the air, such as flying-types and those with levitate, are unaffected.  rapid spin removes Sticky Web from the user\u2019s side of the field; defog removes it from both sides.",
+    "effect_chance": null,
+    "flavor_text": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+    "learned_by": [
+      "spinarak",
+      "ariados",
+      "shuckle",
+      "surskit",
+      "masquerain",
+      "kricketune",
+      "sewaddle",
+      "swadloon",
+      "galvantula",
+      "swirlix",
+      "slurpuff",
+      "grubbin",
+      "charjabug",
+      "vikavolt",
+      "cutiefly",
+      "ribombee",
+      "dewpider",
+      "araquanid",
+      "blipbug",
+      "tarountula",
+      "spidops"
+    ],
+    "total_learned_by": 21,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "opponents-field",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

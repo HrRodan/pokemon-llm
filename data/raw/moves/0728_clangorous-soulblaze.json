@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 728,
+    "name": "clangorous-soulblaze",
+    "type": "dragon",
+    "power": 185,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "special",
+    "effect_description": "Inflicts sound-based damage to all opposing Pok\u00e9mon and increases the user\u2019s Attack, Defense, Special Attack, Special Defense, and Speed by one stage each. The user\u2019s stats are not raised if the move fails to damage any opposing Pok\u00e9mon.",
+    "effect_chance": 100,
+    "flavor_text": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pok\u00e9mon with full force. This move boosts the user\u2019s stats.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

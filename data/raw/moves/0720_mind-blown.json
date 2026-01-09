@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 720,
+    "name": "mind-blown",
+    "type": "fire",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up. The user still takes damage if the move is blocked by Protect or Substitute, misses, or if the target has Flash Fire.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks everything around it by causing its own head to explode. This also damages the user.",
+    "learned_by": [
+      "blacephalon"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

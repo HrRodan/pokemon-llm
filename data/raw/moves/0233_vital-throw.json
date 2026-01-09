@@ -1,0 +1,53 @@
+{
+  "move_details": {
+    "id": 233,
+    "name": "vital-throw",
+    "type": "fighting",
+    "power": 70,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+    "effect_chance": null,
+    "flavor_text": "A 2nd-strike move that never misses.",
+    "learned_by": [
+      "machop",
+      "machoke",
+      "machamp",
+      "pinsir",
+      "makuhita",
+      "hariyama",
+      "throh",
+      "mienfoo",
+      "pancham",
+      "pangoro",
+      "passimian",
+      "buzzwole",
+      "pinsir-mega"
+    ],
+    "total_learned_by": 13,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "fake-out",
+            "url": "https://pokeapi.co/api/v2/move/252/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": -1,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

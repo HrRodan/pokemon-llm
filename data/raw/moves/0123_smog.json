@@ -1,0 +1,74 @@
+{
+  "move_details": {
+    "id": 123,
+    "name": "smog",
+    "type": "poison",
+    "power": 30,
+    "accuracy": 70,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 40% chance to poison the target.",
+    "effect_chance": 40,
+    "flavor_text": "An attack that may poison the foe.",
+    "learned_by": [
+      "grimer",
+      "muk",
+      "gastly",
+      "haunter",
+      "gengar",
+      "koffing",
+      "weezing",
+      "magmar",
+      "flareon",
+      "slugma",
+      "magcargo",
+      "houndour",
+      "houndoom",
+      "magby",
+      "gulpin",
+      "torkoal",
+      "stunky",
+      "magmortar",
+      "tepig",
+      "pignite",
+      "emboar",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "salandit",
+      "salazzle",
+      "turtonator",
+      "varoom",
+      "revavroom",
+      "pecharunt",
+      "gengar-mega",
+      "houndoom-mega",
+      "salazzle-totem",
+      "weezing-galar"
+    ],
+    "total_learned_by": 34,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "smokescreen",
+            "url": "https://pokeapi.co/api/v2/move/108/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

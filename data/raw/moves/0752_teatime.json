@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 752,
+    "name": "teatime",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user has teatime with all the Pok\u00e9mon in the battle. Each Pok\u00e9mon eats its held Berry.",
+    "learned_by": [
+      "polteageist"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 880,
+    "name": "shed-tail",
+    "type": "normal",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user creates a substitute for itself using its own HP before switching places with a party Pok\u00e9mon in waiting.",
+    "learned_by": [
+      "sceptile",
+      "cyclizar",
+      "orthworm"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 610,
+    "name": "hold-back",
+    "type": "normal",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 40,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Will not reduce the target\u2019s HP below 1.",
+    "effect_chance": null,
+    "flavor_text": "The user holds back when it attacks and the target is left with at least 1 HP.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "move_details": {
+    "id": 65,
+    "name": "drill-peck",
+    "type": "flying",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "A strong, spin\u00ad ning-peck attack.",
+    "learned_by": [
+      "spearow",
+      "fearow",
+      "doduo",
+      "dodrio",
+      "zapdos",
+      "natu",
+      "murkrow",
+      "delibird",
+      "skarmory",
+      "piplup",
+      "prinplup",
+      "empoleon",
+      "pikipek",
+      "trumbeak",
+      "toucannon",
+      "rookidee",
+      "corvisquire",
+      "corviknight",
+      "cramorant",
+      "espathra",
+      "iron-bundle",
+      "zapdos-galar",
+      "cramorant-gulping",
+      "cramorant-gorging"
+    ],
+    "total_learned_by": 24,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "peck",
+            "url": "https://pokeapi.co/api/v2/move/64/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

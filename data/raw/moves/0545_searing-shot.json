@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 545,
+    "name": "searing-shot",
+    "type": "fire",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to burn the target.",
+    "effect_chance": 30,
+    "flavor_text": "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
+    "learned_by": [
+      "victini"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 294,
+    "name": "tail-glow",
+    "type": "bug",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Special Attack by three stages.",
+    "effect_chance": null,
+    "flavor_text": "Flashes a light that sharply raises SP. ATK.",
+    "learned_by": [
+      "volbeat",
+      "manaphy",
+      "xurkitree"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

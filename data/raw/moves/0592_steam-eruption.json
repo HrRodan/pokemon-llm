@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 592,
+    "name": "steam-eruption",
+    "type": "water",
+    "power": 110,
+    "accuracy": 95,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to burn the target.",
+    "effect_chance": 30,
+    "flavor_text": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+    "learned_by": [
+      "volcanion"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 744,
+    "name": "dynamax-cannon",
+    "type": "dragon",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage, then (if successful) sets light screen on the user\u2019s side of the field.",
+    "effect_chance": null,
+    "flavor_text": "The user unleashes a strong beam from its core. This move deals twice the damage if the target is Dynamaxed.",
+    "learned_by": [
+      "eternatus",
+      "eternatus-eternamax"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 443,
+    "name": "magnet-bomb",
+    "type": "steel",
+    "power": 60,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+    "effect_chance": null,
+    "flavor_text": "The user launches a steel bomb that sticks to the target. This attack will not miss.",
+    "learned_by": [
+      "magnemite",
+      "magneton",
+      "magnezone",
+      "probopass",
+      "genesect"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 662,
+    "name": "spirit-shackle",
+    "type": "ghost",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Traps the target.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks while simultaneously stitching the target\u2019s shadow to the ground to prevent the target from escaping.",
+    "learned_by": [
+      "decidueye"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

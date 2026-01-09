@@ -1,0 +1,70 @@
+{
+  "move_details": {
+    "id": 30,
+    "name": "horn-attack",
+    "type": "normal",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 25,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "An attack using a horn to jab.",
+    "learned_by": [
+      "nidoran-m",
+      "nidorino",
+      "nidoking",
+      "rhyhorn",
+      "rhydon",
+      "goldeen",
+      "seaking",
+      "tauros",
+      "omanyte",
+      "omastar",
+      "heracross",
+      "piloswine",
+      "donphan",
+      "rhyperior",
+      "karrablast",
+      "bouffalant",
+      "tapu-bulu",
+      "great-tusk",
+      "iron-treads",
+      "iron-boulder",
+      "heracross-mega"
+    ],
+    "total_learned_by": 21,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "leer",
+            "url": "https://pokeapi.co/api/v2/move/43/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "fury-attack",
+            "url": "https://pokeapi.co/api/v2/move/31/"
+          },
+          {
+            "name": "horn-drill",
+            "url": "https://pokeapi.co/api/v2/move/32/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

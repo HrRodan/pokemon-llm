@@ -1,0 +1,44 @@
+{
+  "move_details": {
+    "id": 132,
+    "name": "constrict",
+    "type": "normal",
+    "power": 10,
+    "accuracy": 100,
+    "pp": 35,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 10% chance to lower the target\u2019s Speed by one stage.",
+    "effect_chance": 10,
+    "flavor_text": "An attack that may lower SPEED.",
+    "learned_by": [
+      "tentacool",
+      "tentacruel",
+      "tangela",
+      "omanyte",
+      "omastar",
+      "spinarak",
+      "ariados",
+      "shuckle",
+      "octillery",
+      "lileep",
+      "cradily",
+      "drifloon",
+      "drifblim",
+      "tangrowth",
+      "frillish",
+      "inkay",
+      "malamar",
+      "nihilego"
+    ],
+    "total_learned_by": 18,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

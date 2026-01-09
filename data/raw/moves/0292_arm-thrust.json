@@ -1,0 +1,55 @@
+{
+  "move_details": {
+    "id": 292,
+    "name": "arm-thrust",
+    "type": "fighting",
+    "power": 15,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits 2\u20135 times in one turn.  Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "effect_chance": null,
+    "flavor_text": "Straight-arm punches that strike the foe 2 to 5 times.",
+    "learned_by": [
+      "heracross",
+      "makuhita",
+      "hariyama",
+      "pignite",
+      "emboar",
+      "pancham",
+      "pangoro",
+      "pawmo",
+      "pawmot",
+      "iron-hands",
+      "heracross-mega"
+    ],
+    "total_learned_by": 11,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "focus-energy",
+            "url": "https://pokeapi.co/api/v2/move/116/"
+          },
+          {
+            "name": "fake-out",
+            "url": "https://pokeapi.co/api/v2/move/252/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

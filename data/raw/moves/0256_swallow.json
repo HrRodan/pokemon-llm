@@ -1,0 +1,89 @@
+{
+  "move_details": {
+    "id": 256,
+    "name": "swallow",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Heals the user depending on the amount of energy stored by stockpile: 1/4 its max HP after one use, 1/2 its max HP after two uses, or fully after three uses.  Stored energy is consumed, and the user\u2019s Defense and Special Defense are reset to what they would be if stockpile had not been used.  If the user has no energy stored, this move will fail.",
+    "effect_chance": null,
+    "flavor_text": "Absorbs stockpiled power and restores HP.",
+    "learned_by": [
+      "ekans",
+      "arbok",
+      "jigglypuff",
+      "wigglytuff",
+      "victreebel",
+      "seel",
+      "dewgong",
+      "grimer",
+      "koffing",
+      "snorlax",
+      "lanturn",
+      "wooper",
+      "slugma",
+      "pelipper",
+      "mawile",
+      "gulpin",
+      "swalot",
+      "numel",
+      "seviper",
+      "lileep",
+      "cradily",
+      "spheal",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "shellos",
+      "drifloon",
+      "drifblim",
+      "munchlax",
+      "hippopotas",
+      "carnivine",
+      "trubbish",
+      "garbodor",
+      "heatmor",
+      "mareanie",
+      "sandygast",
+      "komala",
+      "guzzlord",
+      "skwovet",
+      "greedent",
+      "cramorant",
+      "lechonk",
+      "wattrel",
+      "mawile-mega",
+      "rattata-alola",
+      "grimer-alola",
+      "cramorant-gulping",
+      "cramorant-gorging",
+      "wooper-paldea"
+    ],
+    "total_learned_by": 49,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "stockpile",
+            "url": "https://pokeapi.co/api/v2/move/254/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

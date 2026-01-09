@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 617,
+    "name": "light-of-ruin",
+    "type": "fairy",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  User takes 1/2 the damage it inflicts in recoil.",
+    "effect_chance": null,
+    "flavor_text": "Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.",
+    "learned_by": [
+      "floette-eternal"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

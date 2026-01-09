@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 560,
+    "name": "flying-press",
+    "type": "fighting",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  For the purposes of type effectiveness, this move is both fighting- and flying-type: its final effectiveness is determined by multiplying the effectiveness of each type against each of the target\u2019s types.  For all other purposes, this move is pure Fighting-type.  If this move\u2019s type is changed, its Fighting typing is overwritten, and its secondary type remains Flying.  If the target has used minimize since entering battle, this move has double power and will never miss.",
+    "effect_chance": null,
+    "flavor_text": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+    "learned_by": [
+      "hawlucha",
+      "pikachu-libre"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 751,
+    "name": "dragon-darts",
+    "type": "dragon",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks twice using Dreepy. If there are two targets, this move hits each target once.",
+    "learned_by": [
+      "dragapult"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

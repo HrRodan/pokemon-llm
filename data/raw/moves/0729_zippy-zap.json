@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 729,
+    "name": "zippy-zap",
+    "type": "electric",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 100,
+    "flavor_text": "The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.",
+    "learned_by": [
+      "pikachu-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 2,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 722,
+    "name": "photon-geyser",
+    "type": "psychic",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks a target with a pillar of light. This move inflicts Attack or Sp. Atk damage\u2014whichever stat is higher for the user.",
+    "learned_by": [
+      "necrozma",
+      "necrozma-dusk",
+      "necrozma-dawn",
+      "necrozma-ultra"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

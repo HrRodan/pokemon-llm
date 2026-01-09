@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 739,
+    "name": "freezy-frost",
+    "type": "ice",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pok\u00e9mon engaged in battle.",
+    "learned_by": [
+      "eevee-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

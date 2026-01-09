@@ -1,0 +1,49 @@
+{
+  "move_details": {
+    "id": 663,
+    "name": "darkest-lariat",
+    "type": "dark",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Damage calculation ignores the target\u2019s stat modifiers, including evasion.",
+    "effect_chance": null,
+    "flavor_text": "The user swings both arms and hits the target. The target\u2019s stat changes don\u2019t affect this attack\u2019s damage.",
+    "learned_by": [
+      "poliwrath",
+      "machamp",
+      "snorlax",
+      "mew",
+      "swampert",
+      "electivire",
+      "dusknoir",
+      "regigigas",
+      "krookodile",
+      "golurk",
+      "pangoro",
+      "incineroar",
+      "bewear",
+      "tapu-bulu",
+      "buzzwole",
+      "melmetal",
+      "rillaboom",
+      "grimmsnarl",
+      "urshifu-single-strike",
+      "zarude",
+      "zarude-dada"
+    ],
+    "total_learned_by": 21,
+    "machines": [
+      "sword-shield"
+    ],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "move_details": {
+    "id": 274,
+    "name": "assist",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Uses a move from another Pok\u00e9mon in the user\u2019s party, both selected at random.  Moves from fainted Pok\u00e9mon can be used.  If there are no eligible Pok\u00e9mon or moves, this move will fail.  This move will not select assist, chatter, circle throw, copycat, counter, covet, destiny bond, detect, dig, dive, dragon tail, endure, feint, fly focus punch, follow me, helping hand, me first, metronome, mimic, mirror coat, mirror move, phantom force protect, quick guard, roar shadow force, sketch, sleep talk, snatch, struggle, switcheroo, thief, trick, whirlwind, or wide guard.  This move cannot be copied by mirror move, nor selected by metronome or sleep talk.",
+    "effect_chance": null,
+    "flavor_text": "Attacks randomly with one of the partner\u2019s moves.",
+    "learned_by": [
+      "meowth",
+      "drowzee",
+      "sentret",
+      "sneasel",
+      "skitty",
+      "spinda",
+      "chimchar",
+      "glameow",
+      "purugly",
+      "purrloin",
+      "liepard",
+      "espurr",
+      "meowth-alola"
+    ],
+    "total_learned_by": 13,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

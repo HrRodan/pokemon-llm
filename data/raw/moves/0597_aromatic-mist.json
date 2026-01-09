@@ -1,0 +1,43 @@
+{
+  "move_details": {
+    "id": 597,
+    "name": "aromatic-mist",
+    "type": "fairy",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises a selected ally\u2019s Special Defense by one stage.",
+    "effect_chance": null,
+    "flavor_text": "The user raises the Sp. Def stat of an ally Pok\u00e9mon by using a mysterious aroma.",
+    "learned_by": [
+      "vespiquen",
+      "aromatisse",
+      "popplio",
+      "cutiefly",
+      "ribombee",
+      "bounsweet",
+      "steenee",
+      "tsareena",
+      "tapu-lele",
+      "sinistea",
+      "polteageist",
+      "hatenna",
+      "hattrem",
+      "hatterene",
+      "milcery",
+      "alcremie",
+      "weezing-galar"
+    ],
+    "total_learned_by": 17,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "ally",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

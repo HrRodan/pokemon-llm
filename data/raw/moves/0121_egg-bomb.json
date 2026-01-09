@@ -1,0 +1,49 @@
+{
+  "move_details": {
+    "id": 121,
+    "name": "egg-bomb",
+    "type": "normal",
+    "power": 100,
+    "accuracy": 75,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "Eggs are hurled at the foe.",
+    "learned_by": [
+      "exeggcute",
+      "exeggutor",
+      "chansey",
+      "mew",
+      "blissey",
+      "exeggutor-alola"
+    ],
+    "total_learned_by": 6,
+    "machines": [
+      "red-blue",
+      "yellow"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "soft-boiled",
+            "url": "https://pokeapi.co/api/v2/move/135/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

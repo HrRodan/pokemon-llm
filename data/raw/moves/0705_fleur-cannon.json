@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 705,
+    "name": "fleur-cannon",
+    "type": "fairy",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage, then lowers the user\u2019s Special Attack by two stages.",
+    "effect_chance": 100,
+    "flavor_text": "The user unleashes a strong beam. The attack\u2019s recoil harshly lowers the user\u2019s Sp. Atk stat.",
+    "learned_by": [
+      "magearna",
+      "magearna-original"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

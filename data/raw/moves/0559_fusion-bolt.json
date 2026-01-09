@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 559,
+    "name": "fusion-bolt",
+    "type": "electric",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  If a friendly Pok\u00e9mon used fusion flare earlier this turn, this move has double power.",
+    "effect_chance": null,
+    "flavor_text": "The user throws down a giant thunderbolt. This attack does greater damage when influenced by an enormous flame.",
+    "learned_by": [
+      "zekrom",
+      "kyurem-black"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

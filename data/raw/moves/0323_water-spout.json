@@ -1,0 +1,50 @@
+{
+  "move_details": {
+    "id": 323,
+    "name": "water-spout",
+    "type": "water",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Power increases with the user\u2019s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+    "effect_chance": null,
+    "flavor_text": "Inflicts more damage if the user\u2019s HP is high.",
+    "learned_by": [
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "remoraid",
+      "wailmer",
+      "wailord",
+      "kyogre",
+      "frillish",
+      "jellicent",
+      "kyogre-primal"
+    ],
+    "total_learned_by": 10,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "rain-dance",
+            "url": "https://pokeapi.co/api/v2/move/240/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

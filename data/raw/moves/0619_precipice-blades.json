@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 619,
+    "name": "precipice-blades",
+    "type": "ground",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks opposing Pok\u00e9mon by manifesting the power of the land in fearsome blades of stone.",
+    "learned_by": [
+      "groudon",
+      "groudon-primal"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

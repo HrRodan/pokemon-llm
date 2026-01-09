@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 711,
+    "name": "prismatic-laser",
+    "type": "psychic",
+    "power": 160,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+    "effect_chance": null,
+    "flavor_text": "The user shoots powerful lasers using the power of a prism. The user can\u2019t move on the next turn.",
+    "learned_by": [
+      "necrozma",
+      "necrozma-dusk",
+      "necrozma-dawn",
+      "necrozma-ultra"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

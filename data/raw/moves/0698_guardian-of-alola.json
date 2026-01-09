@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 698,
+    "name": "guardian-of-alola",
+    "type": "fairy",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "special",
+    "effect_description": "Inflicts direct damage equal to \u00be of the target\u2019s remaining HP.",
+    "effect_chance": null,
+    "flavor_text": "The user, the Land Spirit Pok\u00e9mon, obtains Alola\u2019s energy using its Z-Power and attacks the target with full force. This reduces the target\u2019s HP greatly.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

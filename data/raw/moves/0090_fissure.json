@@ -1,0 +1,110 @@
+{
+  "move_details": {
+    "id": 90,
+    "name": "fissure",
+    "type": "ground",
+    "power": null,
+    "accuracy": 30,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts damage equal to the target\u2019s max HP.  Ignores accuracy and evasion modifiers.  This move\u2019s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.  Because this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.  The effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
+    "effect_chance": null,
+    "flavor_text": "A ground-type, one-hit KO attack.",
+    "learned_by": [
+      "charizard",
+      "blastoise",
+      "ekans",
+      "arbok",
+      "sandshrew",
+      "sandslash",
+      "nidoqueen",
+      "nidoking",
+      "diglett",
+      "dugtrio",
+      "poliwhirl",
+      "poliwrath",
+      "machop",
+      "machoke",
+      "machamp",
+      "geodude",
+      "graveler",
+      "golem",
+      "slowpoke",
+      "slowbro",
+      "onix",
+      "cubone",
+      "marowak",
+      "lickitung",
+      "rhyhorn",
+      "rhydon",
+      "kangaskhan",
+      "tauros",
+      "lapras",
+      "snorlax",
+      "mew",
+      "swinub",
+      "piloswine",
+      "phanpy",
+      "wailmer",
+      "camerupt",
+      "torkoal",
+      "trapinch",
+      "vibrava",
+      "flygon",
+      "barboach",
+      "whiscash",
+      "spheal",
+      "groudon",
+      "shieldon",
+      "bastiodon",
+      "shellos",
+      "munchlax",
+      "hippopotas",
+      "hippowdon",
+      "mamoswine",
+      "drilbur",
+      "excadrill",
+      "stunfisk",
+      "landorus-incarnate",
+      "mudbray",
+      "cufant",
+      "nacli",
+      "dondozo",
+      "ting-lu",
+      "wormadam-sandy",
+      "landorus-therian",
+      "groudon-primal",
+      "camerupt-mega",
+      "diglett-alola",
+      "dugtrio-alola",
+      "stunfisk-galar"
+    ],
+    "total_learned_by": 67,
+    "machines": [
+      "red-blue",
+      "yellow"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "earthquake",
+            "url": "https://pokeapi.co/api/v2/move/89/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

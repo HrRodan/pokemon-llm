@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 588,
+    "name": "kings-shield",
+    "type": "steel",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Blocks damaging attacks and lowers attacking Pok\u00e9mon\u2019s Attack by two stages on contact.  Switches Aegislash to Shield Forme.",
+    "effect_chance": null,
+    "flavor_text": "The user takes a defensive stance while it protects itself from damage. It also harshly lowers the Attack stat of any attacker who makes direct contact.",
+    "learned_by": [
+      "aegislash-shield",
+      "aegislash-blade"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 4,
+    "target": "user",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

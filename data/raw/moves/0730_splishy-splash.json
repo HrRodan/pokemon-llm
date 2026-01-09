@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 730,
+    "name": "splishy-splash",
+    "type": "water",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 30,
+    "flavor_text": "The user charges a huge wave with electricity and hits the opposing Pok\u00e9mon with the wave. This may also leave the opposing Pok\u00e9mon with paralysis.",
+    "learned_by": [
+      "pikachu-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

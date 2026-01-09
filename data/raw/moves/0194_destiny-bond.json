@@ -1,0 +1,105 @@
+{
+  "move_details": {
+    "id": 194,
+    "name": "destiny-bond",
+    "type": "ghost",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "If the user faints before its next move, the Pok\u00e9mon that fainted it will automatically faint.  End-of-turn damage is ignored.  This move cannot be selected by assist or metronome.",
+    "effect_chance": null,
+    "flavor_text": "The foe faints if the user does.",
+    "learned_by": [
+      "gastly",
+      "haunter",
+      "gengar",
+      "koffing",
+      "weezing",
+      "misdreavus",
+      "wobbuffet",
+      "qwilfish",
+      "delibird",
+      "houndour",
+      "ralts",
+      "gulpin",
+      "carvanha",
+      "cacnea",
+      "cacturne",
+      "shuppet",
+      "duskull",
+      "wynaut",
+      "vespiquen",
+      "drifloon",
+      "drifblim",
+      "spiritomb",
+      "dusknoir",
+      "froslass",
+      "giratina-altered",
+      "yamask",
+      "cofagrigus",
+      "frillish",
+      "jellicent",
+      "elgyem",
+      "honedge",
+      "inkay",
+      "malamar",
+      "phantump",
+      "trevenant",
+      "pumpkaboo-average",
+      "hoopa",
+      "sandygast",
+      "mimikyu-disguised",
+      "runerigus",
+      "overqwil",
+      "charcadet",
+      "maschiff",
+      "greavard",
+      "iron-valiant",
+      "pecharunt",
+      "giratina-origin",
+      "pumpkaboo-small",
+      "pumpkaboo-large",
+      "pumpkaboo-super",
+      "gengar-mega",
+      "hoopa-unbound",
+      "mimikyu-busted",
+      "weezing-galar",
+      "corsola-galar",
+      "yamask-galar",
+      "qwilfish-hisui"
+    ],
+    "total_learned_by": 57,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "curse",
+            "url": "https://pokeapi.co/api/v2/move/174/"
+          },
+          {
+            "name": "endure",
+            "url": "https://pokeapi.co/api/v2/move/203/"
+          },
+          {
+            "name": "mean-look",
+            "url": "https://pokeapi.co/api/v2/move/212/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

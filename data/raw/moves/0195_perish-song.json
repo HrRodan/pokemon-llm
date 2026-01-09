@@ -1,0 +1,76 @@
+{
+  "move_details": {
+    "id": 195,
+    "name": "perish-song",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "Every Pok\u00e9mon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one.  When a Pok\u00e9mon\u2019s counter reaches zero, that Pok\u00e9mon faints.  A Pok\u00e9mon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pok\u00e9mon\u2019s counters remain.  This effect is passed on by baton pass.  This move cannot be copied by mirror move.",
+    "effect_chance": null,
+    "flavor_text": "Both user and foe faint in 3 turns.",
+    "learned_by": [
+      "seel",
+      "dewgong",
+      "gastly",
+      "gengar",
+      "cubone",
+      "jynx",
+      "lapras",
+      "igglybuff",
+      "marill",
+      "politoed",
+      "murkrow",
+      "misdreavus",
+      "smoochum",
+      "celebi",
+      "azurill",
+      "swablu",
+      "altaria",
+      "chimecho",
+      "absol",
+      "kricketune",
+      "mismagius",
+      "arceus",
+      "meloetta-aria",
+      "popplio",
+      "brionne",
+      "primarina",
+      "cursola",
+      "scream-tail",
+      "flutter-mane",
+      "meloetta-pirouette",
+      "absol-mega",
+      "altaria-mega"
+    ],
+    "total_learned_by": 32,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sing",
+            "url": "https://pokeapi.co/api/v2/move/47/"
+          },
+          {
+            "name": "mean-look",
+            "url": "https://pokeapi.co/api/v2/move/212/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "all-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

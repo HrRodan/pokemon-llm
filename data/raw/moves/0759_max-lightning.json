@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 759,
+    "name": "max-lightning",
+    "type": "electric",
+    "power": 10,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "This is an Electric-type attack Dynamax Pok\u00e9mon use. The user turns the ground into Electric Terrain for five turns.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon-me-first",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

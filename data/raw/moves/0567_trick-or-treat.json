@@ -1,0 +1,34 @@
+{
+  "move_details": {
+    "id": 567,
+    "name": "trick-or-treat",
+    "type": "ghost",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Adds ghost to the target\u2019s types.",
+    "effect_chance": null,
+    "flavor_text": "The user takes the target trick-or-treating. This adds Ghost type to the target\u2019s type.",
+    "learned_by": [
+      "pumpkaboo-average",
+      "gourgeist-average",
+      "pumpkaboo-small",
+      "pumpkaboo-large",
+      "pumpkaboo-super",
+      "gourgeist-small",
+      "gourgeist-large",
+      "gourgeist-super"
+    ],
+    "total_learned_by": 8,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}
