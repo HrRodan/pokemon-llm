@@ -1,0 +1,43 @@
+{
+  "move_details": {
+    "id": 810,
+    "name": "corrosive-gas",
+    "type": "poison",
+    "power": null,
+    "accuracy": 100,
+    "pp": 40,
+    "damage_class": "status",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user surrounds everything around it with highly acidic gas and melts away items they hold.",
+    "learned_by": [
+      "vileplume",
+      "tentacruel",
+      "gastly",
+      "haunter",
+      "gengar",
+      "koffing",
+      "weezing",
+      "mew",
+      "stunky",
+      "skuntank",
+      "toxicroak",
+      "trubbish",
+      "garbodor",
+      "salazzle",
+      "nihilego",
+      "guzzlord",
+      "weezing-galar"
+    ],
+    "total_learned_by": 17,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

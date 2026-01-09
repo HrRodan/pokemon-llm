@@ -1,0 +1,34 @@
+{
+  "move_details": {
+    "id": 508,
+    "name": "shift-gear",
+    "type": "steel",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Attack by one stage and its Speed by two stages.",
+    "effect_chance": null,
+    "flavor_text": "The user rotates its gears, raising its Attack and sharply raising its Speed.",
+    "learned_by": [
+      "klink",
+      "klang",
+      "klinklang",
+      "magearna",
+      "toxtricity-amped",
+      "revavroom",
+      "cyclizar",
+      "magearna-original"
+    ],
+    "total_learned_by": 8,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

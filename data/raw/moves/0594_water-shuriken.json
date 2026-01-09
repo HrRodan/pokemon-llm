@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 594,
+    "name": "water-shuriken",
+    "type": "water",
+    "power": 15,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Hits 2\u20135 times.",
+    "effect_chance": null,
+    "flavor_text": "The user hits the target with throwing stars two to five times in a row. This move always goes first.",
+    "learned_by": [
+      "accelgor",
+      "greninja",
+      "greninja-battle-bond",
+      "greninja-ash"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

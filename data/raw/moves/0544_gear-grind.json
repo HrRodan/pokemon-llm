@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 544,
+    "name": "gear-grind",
+    "type": "steel",
+    "power": 50,
+    "accuracy": 85,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits twice in one turn.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks by throwing two steel gears at its target.",
+    "learned_by": [
+      "klink",
+      "klang",
+      "klinklang"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

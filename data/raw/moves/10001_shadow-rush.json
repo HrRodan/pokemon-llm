@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10001,
+    "name": "shadow-rush",
+    "type": "shadow",
+    "power": 55,
+    "accuracy": 100,
+    "pp": null,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User\u2019s critical hit rate is one level higher when using this move while in hyper mode.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

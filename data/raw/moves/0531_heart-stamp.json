@@ -1,0 +1,32 @@
+{
+  "move_details": {
+    "id": 531,
+    "name": "heart-stamp",
+    "type": "psychic",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 25,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.",
+    "effect_chance": 30,
+    "flavor_text": "The user unleashes a vicious blow after its cute act makes the target less wary. It may also make the target flinch.",
+    "learned_by": [
+      "jynx",
+      "smoochum",
+      "miltank",
+      "luvdisc",
+      "woobat",
+      "swoobat"
+    ],
+    "total_learned_by": 6,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

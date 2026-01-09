@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 687,
+    "name": "core-enforcer",
+    "type": "dragon",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  If the target has already moved this turn, its ability is nullified.",
+    "effect_chance": null,
+    "flavor_text": "If the Pok\u00e9mon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target\u2019s Ability.",
+    "learned_by": [
+      "zygarde-50",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "zygarde-10"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

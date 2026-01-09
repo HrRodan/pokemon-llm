@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 695,
+    "name": "sinister-arrow-raid",
+    "type": "ghost",
+    "power": 180,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

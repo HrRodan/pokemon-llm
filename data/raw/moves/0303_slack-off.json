@@ -1,0 +1,58 @@
+{
+  "move_details": {
+    "id": 303,
+    "name": "slack-off",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "Heals the user for half its max HP.",
+    "effect_chance": null,
+    "flavor_text": "Slacks off and restores half the maximum HP.",
+    "learned_by": [
+      "slowpoke",
+      "slowbro",
+      "slowking",
+      "slakoth",
+      "vigoroth",
+      "slaking",
+      "chimchar",
+      "monferno",
+      "infernape",
+      "hippopotas",
+      "hippowdon",
+      "mr-rime",
+      "fuecoco",
+      "bellibolt",
+      "slowbro-mega",
+      "slowpoke-galar",
+      "slowbro-galar",
+      "slowking-galar"
+    ],
+    "total_learned_by": 18,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "yawn",
+            "url": "https://pokeapi.co/api/v2/move/281/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

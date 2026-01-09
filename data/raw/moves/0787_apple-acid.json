@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 787,
+    "name": "apple-acid",
+    "type": "grass",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": 100,
+    "flavor_text": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target\u2019s Sp. Def stat.",
+    "learned_by": [
+      "appletun"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

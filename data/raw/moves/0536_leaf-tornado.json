@@ -1,0 +1,36 @@
+{
+  "move_details": {
+    "id": 536,
+    "name": "leaf-tornado",
+    "type": "grass",
+    "power": 65,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to lower the target\u2019s accuracy by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "The user attacks its target by encircling it in sharp leaves. This attack may also lower the target\u2019s accuracy.",
+    "learned_by": [
+      "victreebel",
+      "shiftry",
+      "tropius",
+      "carnivine",
+      "snivy",
+      "servine",
+      "serperior",
+      "comfey",
+      "gossifleur",
+      "eldegoss"
+    ],
+    "total_learned_by": 10,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

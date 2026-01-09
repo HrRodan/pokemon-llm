@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 554,
+    "name": "ice-burn",
+    "type": "ice",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to burn the target.  User charges for one turn before attacking.",
+    "effect_chance": 30,
+    "flavor_text": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.",
+    "learned_by": [
+      "kyurem-white"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

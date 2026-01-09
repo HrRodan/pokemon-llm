@@ -1,0 +1,37 @@
+{
+  "move_details": {
+    "id": 532,
+    "name": "horn-leech",
+    "type": "grass",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+    "effect_chance": null,
+    "flavor_text": "The user drains the target\u2019s energy with its horns. The user\u2019s HP is restored by half the damage taken by the target.",
+    "learned_by": [
+      "sawsbuck",
+      "skiddo",
+      "gogoat",
+      "phantump",
+      "trevenant",
+      "xerneas",
+      "tapu-bulu",
+      "ogerpon",
+      "ogerpon-wellspring-mask",
+      "ogerpon-hearthflame-mask",
+      "ogerpon-cornerstone-mask"
+    ],
+    "total_learned_by": 11,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 620,
+    "name": "dragon-ascent",
+    "type": "flying",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage, then lowers the user\u2019s Defense and Special Defense by one stage each.",
+    "effect_chance": 100,
+    "flavor_text": "After soaring upward, the user attacks its target by dropping out of the sky at high speeds, although it lowers its own Defense and Sp. Def in the process.",
+    "learned_by": [
+      "rayquaza",
+      "rayquaza-mega"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

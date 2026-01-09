@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 795,
+    "name": "eternabeam",
+    "type": "dragon",
+    "power": 160,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+    "effect_chance": null,
+    "flavor_text": "This is Eternatus\u2019s most powerful attack in its original form. The user can\u2019t move on the next turn.",
+    "learned_by": [
+      "eternatus",
+      "eternatus-eternamax"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

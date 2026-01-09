@@ -1,0 +1,47 @@
+{
+  "move_details": {
+    "id": 169,
+    "name": "spider-web",
+    "type": "bug",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.  The target may still escape by using baton pass, u turn, or a shed shell.  Both the user and the target pass on this effect with baton pass.",
+    "effect_chance": null,
+    "flavor_text": "Prevents fleeing or switching.",
+    "learned_by": [
+      "spinarak",
+      "ariados",
+      "joltik",
+      "galvantula",
+      "dewpider",
+      "araquanid",
+      "araquanid-totem"
+    ],
+    "total_learned_by": 7,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "string-shot",
+            "url": "https://pokeapi.co/api/v2/move/81/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 677,
+    "name": "anchor-shot",
+    "type": "steel",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Traps the target.",
+    "effect_chance": null,
+    "flavor_text": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
+    "learned_by": [
+      "dhelmise"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

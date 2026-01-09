@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 614,
+    "name": "thousand-arrows",
+    "type": "ground",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Grounds the target until it leaves battle.  Ignores levitation effects and the immunity of flying-type Pok\u00e9mon.",
+    "effect_chance": 100,
+    "flavor_text": "This move also hits opposing Pok\u00e9mon that are in the air. Those Pok\u00e9mon are knocked down to the ground.",
+    "learned_by": [
+      "zygarde-50",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "zygarde-10"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

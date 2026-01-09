@@ -1,0 +1,57 @@
+{
+  "move_details": {
+    "id": 802,
+    "name": "misty-explosion",
+    "type": "fairy",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks everything around it and faints upon using this move. This move\u2019s power is increased on Misty Terrain.",
+    "learned_by": [
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "mew",
+      "marill",
+      "azumarill",
+      "gardevoir",
+      "musharna",
+      "florges",
+      "spritzee",
+      "aromatisse",
+      "swirlix",
+      "slurpuff",
+      "sylveon",
+      "carbink",
+      "xerneas",
+      "diancie",
+      "primarina",
+      "magearna",
+      "hatterene",
+      "alcremie",
+      "enamorus-incarnate",
+      "scream-tail",
+      "magearna-original",
+      "weezing-galar",
+      "enamorus-therian"
+    ],
+    "total_learned_by": 27,
+    "machines": [
+      "scarlet-violet",
+      "the-teal-mask",
+      "the-indigo-disk"
+    ],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

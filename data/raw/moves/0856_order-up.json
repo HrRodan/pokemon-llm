@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 856,
+    "name": "order-up",
+    "type": "dragon",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user's stats based on the Tatsugiri's form.",
+    "learned_by": [
+      "dondozo"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

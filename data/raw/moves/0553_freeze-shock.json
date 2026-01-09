@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 553,
+    "name": "freeze-shock",
+    "type": "ice",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to paralyze the target.  User charges for one turn before attacking.",
+    "effect_chance": 30,
+    "flavor_text": "On the second turn, the user hits the target with electrically charged ice. It may leave the target with paralysis.",
+    "learned_by": [
+      "kyurem-black"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

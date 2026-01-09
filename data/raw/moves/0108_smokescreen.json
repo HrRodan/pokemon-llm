@@ -1,0 +1,78 @@
+{
+  "move_details": {
+    "id": 108,
+    "name": "smokescreen",
+    "type": "normal",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Lowers the target\u2019s accuracy by one stage.",
+    "effect_chance": null,
+    "flavor_text": "Lowers the foe's accuracy.",
+    "learned_by": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "koffing",
+      "weezing",
+      "horsea",
+      "seadra",
+      "magmar",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "slugma",
+      "magcargo",
+      "kingdra",
+      "magby",
+      "entei",
+      "whismur",
+      "torkoal",
+      "stunky",
+      "skuntank",
+      "spiritomb",
+      "magmortar",
+      "froakie",
+      "frogadier",
+      "greninja",
+      "skrelp",
+      "dragalge",
+      "rolycoly",
+      "carkol",
+      "coalossal",
+      "sizzlipede",
+      "centiskorch",
+      "charizard-mega-x",
+      "charizard-mega-y",
+      "greninja-battle-bond",
+      "greninja-ash",
+      "weezing-galar",
+      "typhlosion-hisui"
+    ],
+    "total_learned_by": 38,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "smog",
+            "url": "https://pokeapi.co/api/v2/move/123/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

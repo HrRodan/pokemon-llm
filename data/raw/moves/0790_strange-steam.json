@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 790,
+    "name": "strange-steam",
+    "type": "fairy",
+    "power": 90,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 20% chance to confuse the target.",
+    "effect_chance": 20,
+    "flavor_text": "The user attacks the target by emitting steam. This may also confuse the target.",
+    "learned_by": [
+      "weezing-galar"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

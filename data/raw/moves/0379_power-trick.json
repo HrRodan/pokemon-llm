@@ -1,0 +1,40 @@
+{
+  "move_details": {
+    "id": 379,
+    "name": "power-trick",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "The user\u2019s original Attack and Defense are swapped.  This effect is passed on by baton pass.",
+    "effect_chance": null,
+    "flavor_text": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+    "learned_by": [
+      "abra",
+      "machop",
+      "pineco",
+      "gligar",
+      "shuckle",
+      "meditite",
+      "medicham",
+      "baltoy",
+      "claydol",
+      "honedge",
+      "doublade",
+      "aegislash-shield",
+      "aegislash-blade",
+      "medicham-mega"
+    ],
+    "total_learned_by": 14,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

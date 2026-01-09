@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 910,
+    "name": "mighty-cleave",
+    "type": "rock",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user wields the light that has accumulated atop its head to cleave the target. This move hits even if the target protects itself.",
+    "learned_by": [
+      "iron-boulder"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

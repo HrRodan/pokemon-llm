@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 743,
+    "name": "max-guard",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.  If the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.  lock on, mind reader, and no guard provide a (100 \u2013 accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.  thunder during rain dance and blizzard during hail have a 30% chance to break through this move.  The following effects are not prevented by this move:  * acupressure from an ally * curse\u2019s curse effect * Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn * feint, which will also end this move\u2019s protection after it hits * imprison * perish song * shadow force * Moves that merely copy the user, such as transform or psych up  This move cannot be selected by assist or metronome.",
+    "effect_chance": null,
+    "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 4,
+    "target": "user",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

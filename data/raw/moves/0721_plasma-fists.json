@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 721,
+    "name": "plasma-fists",
+    "type": "electric",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "After inflicting damage, all Normal-type moves become Electric-type for the remainder of the turn, including status moves. This effect is applied after move type-changing abilities, such as Pixilate and Normalize.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks with electrically charged fists. This move changes Normal-type moves to Electric-type moves.",
+    "learned_by": [
+      "zeraora"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

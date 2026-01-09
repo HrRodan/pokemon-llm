@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 686,
+    "name": "revelation-dance",
+    "type": "normal",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  This move\u2019s type matches the user\u2019s first type, if any; otherwise, it\u2019s typeless.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks the target by dancing very hard. The user\u2019s type determines the type of this move.",
+    "learned_by": [
+      "oricorio-baile",
+      "oricorio-pom-pom",
+      "oricorio-pau",
+      "oricorio-sensu"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

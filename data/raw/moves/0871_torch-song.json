@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 871,
+    "name": "torch-song",
+    "type": "fire",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat.",
+    "learned_by": [
+      "skeledirge"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

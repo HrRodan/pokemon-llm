@@ -1,0 +1,50 @@
+{
+  "move_details": {
+    "id": 222,
+    "name": "magnitude",
+    "type": "ground",
+    "power": null,
+    "accuracy": 100,
+    "pp": 30,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Power is selected at random between 10 and 150, with an average of 71:  Magnitude | Power | Chance --------: | ----: | -----:         4 |    10 |     5%         5 |    30 |    10%         6 |    50 |    20%         7 |    70 |    30%         8 |    90 |    20%         9 |   110 |    10%        10 |   150 |     5%  This move has double power against Pok\u00e9mon currently underground due to dig.",
+    "effect_chance": null,
+    "flavor_text": "A ground attack with random power.",
+    "learned_by": [
+      "sandshrew",
+      "sandslash",
+      "diglett",
+      "dugtrio",
+      "geodude",
+      "graveler",
+      "golem",
+      "lickitung",
+      "rhyhorn",
+      "donphan",
+      "nosepass",
+      "numel",
+      "camerupt",
+      "barboach",
+      "whiscash",
+      "relicanth",
+      "tepig",
+      "roggenrola",
+      "golett",
+      "golurk",
+      "mudbray",
+      "camerupt-mega",
+      "diglett-alola",
+      "dugtrio-alola"
+    ],
+    "total_learned_by": 24,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

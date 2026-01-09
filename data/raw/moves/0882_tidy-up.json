@@ -1,0 +1,32 @@
+{
+  "move_details": {
+    "id": 882,
+    "name": "tidy-up",
+    "type": "normal",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user\u2019s Attack and Speed stats.",
+    "learned_by": [
+      "sentret",
+      "furret",
+      "minccino",
+      "cinccino",
+      "maushold-family-of-four",
+      "maushold-family-of-three"
+    ],
+    "total_learned_by": 6,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

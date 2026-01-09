@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 727,
+    "name": "splintered-stormshards",
+    "type": "rock",
+    "power": 190,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts damage and removes any terrain present on the battlefield.",
+    "effect_chance": null,
+    "flavor_text": "After obtaining Z-Power, the user, Lycanroc, attacks the target with full force. This move negates the effect on the battlefield.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

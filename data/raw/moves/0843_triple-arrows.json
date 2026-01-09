@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 843,
+    "name": "triple-arrows",
+    "type": "fighting",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user delivers an axe kick, then fires three arrows. This raises the chance of its future attacks landing critical hits and also lowers the target's defensive stats.",
+    "learned_by": [
+      "decidueye-hisui"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

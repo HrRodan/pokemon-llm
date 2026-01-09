@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 850,
+    "name": "take-heart",
+    "type": "psychic",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user lifts its spirits, healing its own status conditions and raising its offensive and defensive stats.",
+    "learned_by": [
+      "phione",
+      "manaphy"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-allies",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

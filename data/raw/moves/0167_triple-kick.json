@@ -1,0 +1,42 @@
+{
+  "move_details": {
+    "id": 167,
+    "name": "triple-kick",
+    "type": "fighting",
+    "power": 10,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits three times in the same turn.  The second hit has double power, and the third hit has triple power.  Each hit has a separate accuracy check, and this move stops if a hit misses.  skill link does not apply.",
+    "effect_chance": null,
+    "flavor_text": "Hits three times with rising power.",
+    "learned_by": [
+      "hitmontop",
+      "pheromosa"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "focus-energy",
+            "url": "https://pokeapi.co/api/v2/move/116/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

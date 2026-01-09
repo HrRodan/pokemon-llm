@@ -1,0 +1,104 @@
+{
+  "move_details": {
+    "id": 66,
+    "name": "submission",
+    "type": "fighting",
+    "power": 80,
+    "accuracy": 80,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+    "effect_chance": null,
+    "flavor_text": "An attack that al\u00ad so hurts the user.",
+    "learned_by": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "pikachu",
+      "raichu",
+      "sandshrew",
+      "sandslash",
+      "nidoqueen",
+      "nidoking",
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "psyduck",
+      "golduck",
+      "mankey",
+      "primeape",
+      "poliwhirl",
+      "poliwrath",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "machop",
+      "machoke",
+      "machamp",
+      "geodude",
+      "graveler",
+      "golem",
+      "slowbro",
+      "gengar",
+      "drowzee",
+      "hypno",
+      "cubone",
+      "marowak",
+      "hitmonlee",
+      "hitmonchan",
+      "lickitung",
+      "rhydon",
+      "chansey",
+      "kangaskhan",
+      "mr-mime",
+      "jynx",
+      "electabuzz",
+      "magmar",
+      "pinsir",
+      "omastar",
+      "kabutops",
+      "snorlax",
+      "mewtwo",
+      "mew",
+      "cyndaquil",
+      "chimchar",
+      "drilbur",
+      "hawlucha",
+      "clobbopus",
+      "grapploct",
+      "obstagoon",
+      "pinsir-mega"
+    ],
+    "total_learned_by": 61,
+    "machines": [
+      "red-blue",
+      "yellow"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "mind-reader",
+            "url": "https://pokeapi.co/api/v2/move/170/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

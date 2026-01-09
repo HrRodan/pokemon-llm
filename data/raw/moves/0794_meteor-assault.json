@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 794,
+    "name": "meteor-assault",
+    "type": "fighting",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks wildly with its thick leek. The user can\u2019t move on the next turn, because the force of this move makes it stagger.",
+    "learned_by": [
+      "sirfetchd"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

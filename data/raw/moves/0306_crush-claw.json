@@ -1,0 +1,71 @@
+{
+  "move_details": {
+    "id": 306,
+    "name": "crush-claw",
+    "type": "normal",
+    "power": 75,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to lower the target\u2019s Defense by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "Tears at the foe with sharp claws. May lower DEFENSE.",
+    "learned_by": [
+      "sandshrew",
+      "sandslash",
+      "rhyhorn",
+      "kangaskhan",
+      "cyndaquil",
+      "sneasel",
+      "treecko",
+      "torchic",
+      "combusken",
+      "blaziken",
+      "slakoth",
+      "zangoose",
+      "anorith",
+      "armaldo",
+      "drilbur",
+      "excadrill",
+      "eelektross",
+      "druddigon",
+      "rufflet",
+      "braviary",
+      "rockruff",
+      "type-null",
+      "silvally",
+      "gouging-fire",
+      "kangaskhan-mega",
+      "pikachu-sinnoh-cap",
+      "sandshrew-alola",
+      "sandslash-alola",
+      "rockruff-own-tempo",
+      "lycanroc-dusk",
+      "braviary-hisui"
+    ],
+    "total_learned_by": 31,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "swords-dance",
+            "url": "https://pokeapi.co/api/v2/move/14/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

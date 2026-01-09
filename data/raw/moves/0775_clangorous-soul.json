@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 775,
+    "name": "clangorous-soul",
+    "type": "dragon",
+    "power": null,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": 100,
+    "flavor_text": "The user raises all its stats by using some of its HP.",
+    "learned_by": [
+      "kommo-o"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

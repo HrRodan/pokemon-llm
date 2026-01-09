@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 793,
+    "name": "false-surrender",
+    "type": "dark",
+    "power": 80,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+    "effect_chance": null,
+    "flavor_text": "The user pretends to bow its head, but then it stabs the target with its disheveled hair. This attack never misses.",
+    "learned_by": [
+      "morgrem",
+      "grimmsnarl"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 881,
+    "name": "chilly-reception",
+    "type": "ice",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [
+      "slowking",
+      "slowking-galar"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

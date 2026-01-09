@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 908,
+    "name": "burning-bulwark",
+    "type": "fire",
+    "power": 0,
+    "accuracy": 0,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user's intensely hot fur protects it from attacks and also burns any attacker that makes direct contact with it.",
+    "learned_by": [
+      "gouging-fire"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 4,
+    "target": "user",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

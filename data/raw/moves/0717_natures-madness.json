@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 717,
+    "name": "natures-madness",
+    "type": "fairy",
+    "power": null,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts typeless damage equal to half the target\u2019s remaining HP.",
+    "effect_chance": null,
+    "flavor_text": "The user hits the target with the force of nature. It halves the target\u2019s HP.",
+    "learned_by": [
+      "tapu-koko",
+      "tapu-lele",
+      "tapu-bulu",
+      "tapu-fini"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

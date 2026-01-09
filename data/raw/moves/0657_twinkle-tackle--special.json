@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 657,
+    "name": "twinkle-tackle--special",
+    "type": "fairy",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "Dummy Data",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

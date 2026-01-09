@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 575,
+    "name": "parting-shot",
+    "type": "dark",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Lowers all targets\u2019 Attack and Special Attack by one stage.  Makes the user switch out.",
+    "effect_chance": 100,
+    "flavor_text": "With a parting threat, the user lowers the target\u2019s Attack and Sp. Atk stats. Then it switches with a party Pok\u00e9mon.",
+    "learned_by": [
+      "chatot",
+      "pancham",
+      "pangoro",
+      "litten",
+      "torracat",
+      "incineroar",
+      "silvally",
+      "thievul",
+      "impidimp",
+      "morpeko-full-belly",
+      "squawkabilly-green-plumage",
+      "shroodle",
+      "bombirdier",
+      "varoom",
+      "munkidori",
+      "pecharunt",
+      "meowth-alola",
+      "zigzagoon-galar",
+      "morpeko-hangry",
+      "squawkabilly-blue-plumage",
+      "squawkabilly-yellow-plumage",
+      "squawkabilly-white-plumage"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

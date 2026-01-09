@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 840,
+    "name": "esper-wing",
+    "type": "psychic",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user slashes the target with aura-enriched wings. This also raises the user's action speed. This move has a heightened chance of landing a critical hit.",
+    "learned_by": [
+      "braviary-hisui"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

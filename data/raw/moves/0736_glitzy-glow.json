@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 736,
+    "name": "glitzy-glow",
+    "type": "psychic",
+    "power": 80,
+    "accuracy": 95,
+    "pp": 15,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pok\u00e9mon\u2019s special moves.",
+    "learned_by": [
+      "eevee-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

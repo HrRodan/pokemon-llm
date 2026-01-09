@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 820,
+    "name": "dragon-energy",
+    "type": "dragon",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "Converting its life-force into power, the user attacks opposing Pok\u00e9mon. The lower the user\u2019s HP, the lower the move\u2019s power.",
+    "learned_by": [
+      "regidrago"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

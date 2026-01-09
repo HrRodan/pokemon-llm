@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 551,
+    "name": "blue-flare",
+    "type": "fire",
+    "power": 130,
+    "accuracy": 85,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 20% chance to burn the target.",
+    "effect_chance": 20,
+    "flavor_text": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. It may leave the target with a burn.",
+    "learned_by": [
+      "reshiram"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

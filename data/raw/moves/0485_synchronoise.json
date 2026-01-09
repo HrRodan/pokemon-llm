@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 485,
+    "name": "synchronoise",
+    "type": "psychic",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Only Pok\u00e9mon that share a type with the user will take damage from this move.",
+    "effect_chance": null,
+    "flavor_text": "Using an odd shock wave, the user inflicts damage on any Pok\u00e9mon of the same type in the area around it.",
+    "learned_by": [
+      "psyduck",
+      "drowzee",
+      "hypno",
+      "eevee",
+      "hoothoot",
+      "noctowl",
+      "natu",
+      "ralts",
+      "whismur",
+      "loudred",
+      "exploud",
+      "kecleon",
+      "chimecho",
+      "chatot",
+      "munna",
+      "woobat",
+      "sigilyph",
+      "elgyem",
+      "beheeyem",
+      "bruxish",
+      "magearna",
+      "magearna-original"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 774,
+    "name": "max-steelspike",
+    "type": "steel",
+    "power": 10,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "This is a Steel-type attack Dynamax Pok\u00e9mon use. This raises ally Pok\u00e9mon\u2019s Defense stats.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon-me-first",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

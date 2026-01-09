@@ -1,0 +1,42 @@
+{
+  "move_details": {
+    "id": 296,
+    "name": "mist-ball",
+    "type": "psychic",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to lower the target\u2019s Special Attack by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "Attacks with a flurry of down. May lower SP. ATK.",
+    "learned_by": [
+      "latias",
+      "latias-mega"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "calm-mind",
+            "url": "https://pokeapi.co/api/v2/move/347/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

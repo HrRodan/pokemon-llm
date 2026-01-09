@@ -1,0 +1,63 @@
+{
+  "move_details": {
+    "id": 11,
+    "name": "vice-grip",
+    "type": "normal",
+    "power": 55,
+    "accuracy": 100,
+    "pp": 30,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "Grips with power\u00ad ful pincers.",
+    "learned_by": [
+      "krabby",
+      "kingler",
+      "pinsir",
+      "mawile",
+      "corphish",
+      "crawdaunt",
+      "klink",
+      "klang",
+      "klinklang",
+      "durant",
+      "clauncher",
+      "clawitzer",
+      "grubbin",
+      "charjabug",
+      "vikavolt",
+      "regidrago",
+      "pinsir-mega",
+      "mawile-mega",
+      "vikavolt-totem"
+    ],
+    "total_learned_by": 19,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "guillotine",
+            "url": "https://pokeapi.co/api/v2/move/12/"
+          },
+          {
+            "name": "bind",
+            "url": "https://pokeapi.co/api/v2/move/20/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

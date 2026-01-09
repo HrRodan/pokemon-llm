@@ -1,0 +1,57 @@
+{
+  "move_details": {
+    "id": 155,
+    "name": "bonemerang",
+    "type": "ground",
+    "power": 50,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits twice in one turn.",
+    "effect_chance": null,
+    "flavor_text": "An attack that strikes twice.",
+    "learned_by": [
+      "cubone",
+      "marowak",
+      "marowak-alola",
+      "marowak-totem"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "bone-club",
+            "url": "https://pokeapi.co/api/v2/move/125/"
+          },
+          {
+            "name": "bone-rush",
+            "url": "https://pokeapi.co/api/v2/move/198/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "bone-club",
+            "url": "https://pokeapi.co/api/v2/move/125/"
+          },
+          {
+            "name": "bone-rush",
+            "url": "https://pokeapi.co/api/v2/move/198/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

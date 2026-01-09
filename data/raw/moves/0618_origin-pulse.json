@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 618,
+    "name": "origin-pulse",
+    "type": "water",
+    "power": 110,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks opposing Pok\u00e9mon with countless beams of light that glow a deep and brilliant blue.",
+    "learned_by": [
+      "kyogre",
+      "kyogre-primal"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

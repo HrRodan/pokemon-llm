@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 142,
+    "name": "lovely-kiss",
+    "type": "normal",
+    "power": null,
+    "accuracy": 75,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Puts the target to sleep.",
+    "effect_chance": null,
+    "flavor_text": "May cause the foe to fall asleep.",
+    "learned_by": [
+      "jynx",
+      "smoochum"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

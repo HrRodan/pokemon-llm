@@ -1,0 +1,54 @@
+{
+  "move_details": {
+    "id": 327,
+    "name": "sky-uppercut",
+    "type": "fighting",
+    "power": 85,
+    "accuracy": 90,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  This move can hit Pok\u00e9mon under the effect of bounce, fly, or sky drop.",
+    "effect_chance": null,
+    "flavor_text": "An uppercut thrown as if leaping into the sky.",
+    "learned_by": [
+      "hitmonchan",
+      "gligar",
+      "combusken",
+      "blaziken",
+      "breloom",
+      "buneary",
+      "riolu",
+      "gliscor",
+      "pancham",
+      "pangoro",
+      "hakamo-o",
+      "kommo-o",
+      "blaziken-mega",
+      "kommo-o-totem"
+    ],
+    "total_learned_by": 14,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "focus-energy",
+            "url": "https://pokeapi.co/api/v2/move/116/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

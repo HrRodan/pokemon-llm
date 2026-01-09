@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 630,
+    "name": "tectonic-rage--physical",
+    "type": "ground",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user burrows deep into the ground and slams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

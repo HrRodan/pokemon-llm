@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 718,
+    "name": "multi-attack",
+    "type": "normal",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  If the user is holding a plate or a drive, this move\u2019s type is the type corresponding to that item.  Note: This effect is technically shared by both techno blast and judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+    "effect_chance": null,
+    "flavor_text": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move\u2019s type.",
+    "learned_by": [
+      "silvally"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

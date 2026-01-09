@@ -1,0 +1,78 @@
+{
+  "move_details": {
+    "id": 47,
+    "name": "sing",
+    "type": "normal",
+    "power": null,
+    "accuracy": 55,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Puts the target to sleep.",
+    "effect_chance": null,
+    "flavor_text": "May cause the foe to fall asleep.",
+    "learned_by": [
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "chansey",
+      "jynx",
+      "lapras",
+      "cleffa",
+      "igglybuff",
+      "marill",
+      "smoochum",
+      "blissey",
+      "azurill",
+      "skitty",
+      "delcatty",
+      "plusle",
+      "minun",
+      "swablu",
+      "altaria",
+      "kricketune",
+      "chatot",
+      "minccino",
+      "cinccino",
+      "meloetta-aria",
+      "popplio",
+      "brionne",
+      "primarina",
+      "komala",
+      "gossifleur",
+      "eldegoss",
+      "skeledirge",
+      "scream-tail",
+      "meloetta-pirouette",
+      "altaria-mega"
+    ],
+    "total_learned_by": 34,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "perish-song",
+            "url": "https://pokeapi.co/api/v2/move/195/"
+          },
+          {
+            "name": "refresh",
+            "url": "https://pokeapi.co/api/v2/move/287/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

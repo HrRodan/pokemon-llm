@@ -1,0 +1,64 @@
+{
+  "move_details": {
+    "id": 134,
+    "name": "kinesis",
+    "type": "psychic",
+    "power": null,
+    "accuracy": 80,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Lowers the target\u2019s accuracy by one stage.",
+    "effect_chance": null,
+    "flavor_text": "Reduces the foe's accuracy.",
+    "learned_by": [
+      "kadabra",
+      "alakazam",
+      "alakazam-mega"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "confusion",
+            "url": "https://pokeapi.co/api/v2/move/93/"
+          },
+          {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/move/94/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "confusion",
+            "url": "https://pokeapi.co/api/v2/move/93/"
+          },
+          {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/move/94/"
+          },
+          {
+            "name": "teleport",
+            "url": "https://pokeapi.co/api/v2/move/100/"
+          },
+          {
+            "name": "future-sight",
+            "url": "https://pokeapi.co/api/v2/move/248/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

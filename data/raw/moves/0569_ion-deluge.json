@@ -1,0 +1,36 @@
+{
+  "move_details": {
+    "id": 569,
+    "name": "ion-deluge",
+    "type": "electric",
+    "power": null,
+    "accuracy": null,
+    "pp": 25,
+    "damage_class": "status",
+    "effect_description": "Changes all Pok\u00e9mon\u2019s normal moves to electric moves for the rest of the turn.",
+    "effect_chance": null,
+    "flavor_text": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+    "learned_by": [
+      "chinchou",
+      "lanturn",
+      "ampharos",
+      "pachirisu",
+      "electivire",
+      "zebstrika",
+      "emolga",
+      "eelektross",
+      "xurkitree",
+      "ampharos-mega"
+    ],
+    "total_learned_by": 10,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "entire-field",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "move_details": {
+    "id": 4,
+    "name": "comet-punch",
+    "type": "normal",
+    "power": 18,
+    "accuracy": 85,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits 2\u20135 times in one turn.  Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "effect_chance": null,
+    "flavor_text": "Repeatedly punches 2-5 times.",
+    "learned_by": [
+      "hitmonchan",
+      "kangaskhan",
+      "ledyba",
+      "ledian",
+      "timburr",
+      "pancham",
+      "pangoro",
+      "buzzwole",
+      "kangaskhan-mega"
+    ],
+    "total_learned_by": 9,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

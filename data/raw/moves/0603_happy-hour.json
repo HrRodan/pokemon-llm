@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 603,
+    "name": "happy-hour",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 30,
+    "damage_class": "status",
+    "effect_description": "Doubles prize money.  Stacks with a held item.  Only works once per battle.",
+    "effect_chance": null,
+    "flavor_text": "Using Happy Hour doubles the amount of prize money received after battle.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "users-field",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

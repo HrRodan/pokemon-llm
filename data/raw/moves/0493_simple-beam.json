@@ -1,0 +1,42 @@
+{
+  "move_details": {
+    "id": 493,
+    "name": "simple-beam",
+    "type": "normal",
+    "power": null,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Changes the target\u2019s ability to simple.",
+    "effect_chance": null,
+    "flavor_text": "The user\u2019s mysterious psychic wave changes the target\u2019s Ability to Simple.",
+    "learned_by": [
+      "psyduck",
+      "farfetchd",
+      "natu",
+      "zigzagoon",
+      "skitty",
+      "spoink",
+      "latios",
+      "woobat",
+      "swoobat",
+      "audino",
+      "elgyem",
+      "beheeyem",
+      "genesect",
+      "inkay",
+      "audino-mega",
+      "farfetchd-galar"
+    ],
+    "total_learned_by": 16,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

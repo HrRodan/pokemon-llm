@@ -1,0 +1,94 @@
+{
+  "move_details": {
+    "id": 78,
+    "name": "stun-spore",
+    "type": "grass",
+    "power": null,
+    "accuracy": 75,
+    "pp": 30,
+    "damage_class": "status",
+    "effect_description": "Paralyzes the target.",
+    "effect_chance": null,
+    "flavor_text": "A move that may paralyze the foe.",
+    "learned_by": [
+      "butterfree",
+      "oddish",
+      "gloom",
+      "vileplume",
+      "paras",
+      "parasect",
+      "venonat",
+      "venomoth",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "exeggcute",
+      "exeggutor",
+      "tangela",
+      "bellossom",
+      "hoppip",
+      "skiploom",
+      "jumpluff",
+      "beautifly",
+      "masquerain",
+      "shroomish",
+      "breloom",
+      "roselia",
+      "budew",
+      "roserade",
+      "cherubi",
+      "cherrim",
+      "carnivine",
+      "tangrowth",
+      "cottonee",
+      "whimsicott",
+      "petilil",
+      "lilligant",
+      "foongus",
+      "amoonguss",
+      "scatterbug",
+      "vivillon",
+      "cutiefly",
+      "ribombee",
+      "morelull",
+      "gossifleur",
+      "frosmoth",
+      "toedscool",
+      "toedscruel",
+      "brute-bonnet",
+      "slither-wing",
+      "wo-chien",
+      "poltchageist",
+      "sinistcha",
+      "exeggutor-alola",
+      "ribombee-totem",
+      "voltorb-hisui",
+      "electrode-hisui",
+      "lilligant-hisui"
+    ],
+    "total_learned_by": 54,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sweet-scent",
+            "url": "https://pokeapi.co/api/v2/move/230/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

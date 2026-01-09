@@ -1,0 +1,35 @@
+{
+  "move_details": {
+    "id": 309,
+    "name": "meteor-mash",
+    "type": "steel",
+    "power": 90,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage. Has a 20% chance to raise the user\u2019s Attack one stage.",
+    "effect_chance": 20,
+    "flavor_text": "Fires a meteor-like punch. May raise ATTACK.",
+    "learned_by": [
+      "clefairy",
+      "clefable",
+      "metang",
+      "metagross",
+      "jirachi",
+      "riolu",
+      "lucario",
+      "metagross-mega",
+      "pikachu-rock-star"
+    ],
+    "total_learned_by": 9,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

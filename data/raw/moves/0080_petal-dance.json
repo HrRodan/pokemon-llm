@@ -1,0 +1,64 @@
+{
+  "move_details": {
+    "id": 80,
+    "name": "petal-dance",
+    "type": "grass",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.  safeguard does not protect against the confusion from this move.",
+    "effect_chance": null,
+    "flavor_text": "Works 2-3 turns and confuses user.",
+    "learned_by": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "oddish",
+      "gloom",
+      "vileplume",
+      "meganium",
+      "bellossom",
+      "sunflora",
+      "roselia",
+      "budew",
+      "roserade",
+      "cherubi",
+      "cherrim",
+      "lilligant",
+      "maractus",
+      "flabebe",
+      "floette",
+      "florges",
+      "comfey",
+      "arboliva",
+      "venusaur-mega",
+      "floette-eternal",
+      "lilligant-hisui"
+    ],
+    "total_learned_by": 24,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "growth",
+            "url": "https://pokeapi.co/api/v2/move/74/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "random-opponent",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

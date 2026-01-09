@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 823,
+    "name": "thunderous-kick",
+    "type": "fighting",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 100,
+    "flavor_text": "The user overwhelms the target with lightning-like movement before delivering a kick. This also lowers the target\u2019s Defense stat.",
+    "learned_by": [
+      "zapdos-galar"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

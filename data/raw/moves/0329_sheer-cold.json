@@ -1,0 +1,52 @@
+{
+  "move_details": {
+    "id": 329,
+    "name": "sheer-cold",
+    "type": "ice",
+    "power": null,
+    "accuracy": 30,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts damage equal to the target\u2019s max HP.  Ignores accuracy and evasion modifiers.  This move\u2019s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.  Because this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.  The effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
+    "effect_chance": null,
+    "flavor_text": "A chilling attack that causes fainting if it hits.",
+    "learned_by": [
+      "dewgong",
+      "lapras",
+      "articuno",
+      "suicune",
+      "glalie",
+      "spheal",
+      "sealeo",
+      "walrein",
+      "kyogre",
+      "snover",
+      "abomasnow",
+      "vanillite",
+      "vanillish",
+      "vanilluxe",
+      "cubchoo",
+      "beartic",
+      "cryogonal",
+      "kyurem",
+      "chien-pao",
+      "kyurem-black",
+      "kyurem-white",
+      "abomasnow-mega",
+      "glalie-mega",
+      "kyogre-primal",
+      "vulpix-alola",
+      "ninetales-alola"
+    ],
+    "total_learned_by": 26,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

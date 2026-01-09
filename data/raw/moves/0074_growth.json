@@ -1,0 +1,168 @@
+{
+  "move_details": {
+    "id": 74,
+    "name": "growth",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Attack and Special Attack by one stage each.  During sunny day, raises both stats by two stages.",
+    "effect_chance": null,
+    "flavor_text": "Raises the SPCL. ATK rating.",
+    "learned_by": [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur",
+      "oddish",
+      "gloom",
+      "vileplume",
+      "paras",
+      "parasect",
+      "bellsprout",
+      "weepinbell",
+      "victreebel",
+      "tangela",
+      "bellossom",
+      "sunkern",
+      "sunflora",
+      "seedot",
+      "nuzleaf",
+      "shiftry",
+      "shroomish",
+      "breloom",
+      "illumise",
+      "roselia",
+      "numel",
+      "cacnea",
+      "cacturne",
+      "tropius",
+      "turtwig",
+      "grotle",
+      "torterra",
+      "budew",
+      "roserade",
+      "wormadam-plant",
+      "cherubi",
+      "cherrim",
+      "carnivine",
+      "snover",
+      "tangrowth",
+      "shaymin-land",
+      "snivy",
+      "servine",
+      "serperior",
+      "cottonee",
+      "whimsicott",
+      "petilil",
+      "lilligant",
+      "maractus",
+      "foongus",
+      "amoonguss",
+      "skiddo",
+      "gogoat",
+      "phantump",
+      "trevenant",
+      "fomantis",
+      "lurantis",
+      "morelull",
+      "comfey",
+      "dhelmise",
+      "grookey",
+      "thwackey",
+      "rillaboom",
+      "gossifleur",
+      "flapple",
+      "appletun",
+      "zarude",
+      "calyrex",
+      "smoliv",
+      "dolliv",
+      "arboliva",
+      "toedscool",
+      "toedscruel",
+      "capsakid",
+      "scovillain",
+      "brute-bonnet",
+      "wo-chien",
+      "dipplin",
+      "ogerpon",
+      "hydrapple",
+      "shaymin-sky",
+      "venusaur-mega",
+      "lurantis-totem",
+      "zarude-dada",
+      "calyrex-ice",
+      "calyrex-shadow",
+      "lilligant-hisui",
+      "ogerpon-wellspring-mask",
+      "ogerpon-hearthflame-mask",
+      "ogerpon-cornerstone-mask"
+    ],
+    "total_learned_by": 87,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "vine-whip",
+            "url": "https://pokeapi.co/api/v2/move/22/"
+          },
+          {
+            "name": "absorb",
+            "url": "https://pokeapi.co/api/v2/move/71/"
+          },
+          {
+            "name": "mega-drain",
+            "url": "https://pokeapi.co/api/v2/move/72/"
+          },
+          {
+            "name": "razor-leaf",
+            "url": "https://pokeapi.co/api/v2/move/75/"
+          },
+          {
+            "name": "solar-beam",
+            "url": "https://pokeapi.co/api/v2/move/76/"
+          },
+          {
+            "name": "petal-dance",
+            "url": "https://pokeapi.co/api/v2/move/80/"
+          },
+          {
+            "name": "giga-drain",
+            "url": "https://pokeapi.co/api/v2/move/202/"
+          },
+          {
+            "name": "bullet-seed",
+            "url": "https://pokeapi.co/api/v2/move/331/"
+          },
+          {
+            "name": "frenzy-plant",
+            "url": "https://pokeapi.co/api/v2/move/338/"
+          },
+          {
+            "name": "magical-leaf",
+            "url": "https://pokeapi.co/api/v2/move/345/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "magical-leaf",
+            "url": "https://pokeapi.co/api/v2/move/345/"
+          }
+        ]
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

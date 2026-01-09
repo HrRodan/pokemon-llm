@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 863,
+    "name": "revival-blessing",
+    "type": "normal",
+    "power": 0,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user bestows a loving blessing, reviving a party Pok\u00e9mon that has fainted and restoring half that Pok\u00e9mon's max HP.",
+    "learned_by": [
+      "pawmot",
+      "rabsca"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "fainting-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

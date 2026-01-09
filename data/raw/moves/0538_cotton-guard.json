@@ -1,0 +1,44 @@
+{
+  "move_details": {
+    "id": 538,
+    "name": "cotton-guard",
+    "type": "grass",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Defense by three stages.",
+    "effect_chance": null,
+    "flavor_text": "The user protects itself by wrapping its body in soft cotton, drastically raising the user\u2019s Defense stat.",
+    "learned_by": [
+      "mareep",
+      "flaaffy",
+      "ampharos",
+      "hoppip",
+      "swablu",
+      "altaria",
+      "cottonee",
+      "whimsicott",
+      "maractus",
+      "bouffalant",
+      "furfrou",
+      "swirlix",
+      "slurpuff",
+      "eldegoss",
+      "wooloo",
+      "dubwool",
+      "ampharos-mega",
+      "altaria-mega"
+    ],
+    "total_learned_by": 18,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 785,
+    "name": "branch-poke",
+    "type": "grass",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 40,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks the target by poking it with a sharply pointed branch.",
+    "learned_by": [
+      "phantump",
+      "trevenant",
+      "grookey",
+      "thwackey",
+      "rillaboom"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

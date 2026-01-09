@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 658,
+    "name": "catastropika",
+    "type": "electric",
+    "power": 210,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user, Pikachu, surrounds itself with the maximum amount of electricity using its Z-Power and pounces on its target with full force.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

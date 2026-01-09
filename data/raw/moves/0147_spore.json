@@ -1,0 +1,37 @@
+{
+  "move_details": {
+    "id": 147,
+    "name": "spore",
+    "type": "grass",
+    "power": null,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Puts the target to sleep.",
+    "effect_chance": null,
+    "flavor_text": "A move that induces sleep.",
+    "learned_by": [
+      "paras",
+      "parasect",
+      "shroomish",
+      "breloom",
+      "foongus",
+      "amoonguss",
+      "morelull",
+      "shiinotic",
+      "toedscool",
+      "toedscruel",
+      "brute-bonnet"
+    ],
+    "total_learned_by": 11,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

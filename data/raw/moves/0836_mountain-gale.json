@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 836,
+    "name": "mountain-gale",
+    "type": "ice",
+    "power": 100,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user hurls giant chunks of ice at the target to inflict damage.",
+    "learned_by": [
+      "avalugg-hisui"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

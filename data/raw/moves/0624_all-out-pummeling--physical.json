@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 624,
+    "name": "all-out-pummeling--physical",
+    "type": "fighting",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user rams an energy orb created by its Z-Power into the target with full force. The power varies, depending on the original move.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

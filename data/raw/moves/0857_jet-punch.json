@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 857,
+    "name": "jet-punch",
+    "type": "water",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user summons a torrent around its fist and punches at blinding speed. This move always goes first.",
+    "learned_by": [
+      "palafin-zero",
+      "palafin-hero"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 1,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "move_details": {
+    "id": 181,
+    "name": "powder-snow",
+    "type": "ice",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 25,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 10% chance to freeze the target.",
+    "effect_chance": 10,
+    "flavor_text": "An attack that may cause freezing.",
+    "learned_by": [
+      "jynx",
+      "articuno",
+      "swinub",
+      "piloswine",
+      "smoochum",
+      "castform",
+      "snorunt",
+      "glalie",
+      "spheal",
+      "sealeo",
+      "walrein",
+      "snover",
+      "abomasnow",
+      "glaceon",
+      "mamoswine",
+      "froslass",
+      "vanillite",
+      "cubchoo",
+      "beartic",
+      "amaura",
+      "aurorus",
+      "bergmite",
+      "avalugg",
+      "snom",
+      "frosmoth",
+      "eiscue-ice",
+      "arctozolt",
+      "arctovish",
+      "cetoddle",
+      "cetitan",
+      "iron-bundle",
+      "chien-pao",
+      "castform-sunny",
+      "castform-rainy",
+      "castform-snowy",
+      "abomasnow-mega",
+      "glalie-mega",
+      "sandshrew-alola",
+      "sandslash-alola",
+      "vulpix-alola",
+      "ninetales-alola",
+      "darumaka-galar",
+      "darmanitan-galar-standard",
+      "darmanitan-galar-zen",
+      "eiscue-noice",
+      "avalugg-hisui"
+    ],
+    "total_learned_by": 46,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "hail",
+            "url": "https://pokeapi.co/api/v2/move/258/"
+          }
+        ],
+        "use_before": [
+          {
+            "name": "blizzard",
+            "url": "https://pokeapi.co/api/v2/move/59/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

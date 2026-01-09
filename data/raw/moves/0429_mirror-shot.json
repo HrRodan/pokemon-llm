@@ -1,0 +1,46 @@
+{
+  "move_details": {
+    "id": 429,
+    "name": "mirror-shot",
+    "type": "steel",
+    "power": 65,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to lower the target\u2019s accuracy by one stage.",
+    "effect_chance": 30,
+    "flavor_text": "The user looses a flash of energy from its polished body. It may also lower the target\u2019s accuracy.",
+    "learned_by": [
+      "magnemite",
+      "magneton",
+      "forretress",
+      "magnezone",
+      "vanillite",
+      "vanillish",
+      "vanilluxe",
+      "ferroseed",
+      "ferrothorn",
+      "klink",
+      "klang",
+      "klinklang",
+      "klefki",
+      "necrozma",
+      "magearna",
+      "wormadam-trash",
+      "magearna-original",
+      "necrozma-dusk",
+      "necrozma-dawn",
+      "necrozma-ultra"
+    ],
+    "total_learned_by": 20,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

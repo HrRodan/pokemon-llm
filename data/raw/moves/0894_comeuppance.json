@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 894,
+    "name": "comeuppance",
+    "type": "dark",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+    "learned_by": [
+      "houndour",
+      "houndoom",
+      "honchkrow",
+      "mabosstiff",
+      "zorua-hisui"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "specific-move",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

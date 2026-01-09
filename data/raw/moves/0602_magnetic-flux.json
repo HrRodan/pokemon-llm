@@ -1,0 +1,37 @@
+{
+  "move_details": {
+    "id": 602,
+    "name": "magnetic-flux",
+    "type": "electric",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the Defense and Special Defense of all friendly Pok\u00e9mon with plus or minus by one stage.",
+    "effect_chance": null,
+    "flavor_text": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pok\u00e9mon with the Plus or Minus Ability.",
+    "learned_by": [
+      "electrode",
+      "zapdos",
+      "ampharos",
+      "magnezone",
+      "probopass",
+      "klinklang",
+      "magearna",
+      "sandy-shocks",
+      "ampharos-mega",
+      "magearna-original",
+      "toxtricity-low-key"
+    ],
+    "total_learned_by": 11,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user-and-allies",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

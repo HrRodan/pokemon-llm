@@ -1,0 +1,67 @@
+{
+  "move_details": {
+    "id": 136,
+    "name": "high-jump-kick",
+    "type": "fighting",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.  This move cannot be used while gravity is in effect.",
+    "effect_chance": null,
+    "flavor_text": "May miss and hurt the user.",
+    "learned_by": [
+      "hitmonlee",
+      "hitmonchan",
+      "tyrogue",
+      "hitmontop",
+      "blaziken",
+      "meditite",
+      "medicham",
+      "lopunny",
+      "riolu",
+      "scraggy",
+      "scrafty",
+      "mienfoo",
+      "mienshao",
+      "hawlucha",
+      "tsareena",
+      "pheromosa",
+      "scorbunny",
+      "raboot",
+      "cinderace",
+      "blaziken-mega",
+      "medicham-mega",
+      "lopunny-mega"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "mind-reader",
+            "url": "https://pokeapi.co/api/v2/move/170/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": [
+          {
+            "name": "meditate",
+            "url": "https://pokeapi.co/api/v2/move/96/"
+          }
+        ],
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 582,
+    "name": "electrify",
+    "type": "electric",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Changes the target\u2019s move\u2019s type to electric if it hasn\u2019t moved yet this turn.",
+    "effect_chance": null,
+    "flavor_text": "If the target is electrified before it uses a move during that turn, the target\u2019s move becomes Electric type.",
+    "learned_by": [
+      "helioptile",
+      "heliolisk",
+      "boltund"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

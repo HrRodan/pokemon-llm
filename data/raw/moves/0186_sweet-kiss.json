@@ -1,0 +1,85 @@
+{
+  "move_details": {
+    "id": 186,
+    "name": "sweet-kiss",
+    "type": "fairy",
+    "power": null,
+    "accuracy": 75,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Confuses the target.",
+    "effect_chance": null,
+    "flavor_text": "A move that causes confusion.",
+    "learned_by": [
+      "pikachu",
+      "raichu",
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "chansey",
+      "jynx",
+      "pichu",
+      "cleffa",
+      "igglybuff",
+      "togepi",
+      "togetic",
+      "smoochum",
+      "blissey",
+      "plusle",
+      "minun",
+      "luvdisc",
+      "pachirisu",
+      "buneary",
+      "happiny",
+      "finneon",
+      "togekiss",
+      "shaymin-land",
+      "audino",
+      "spritzee",
+      "aromatisse",
+      "comfey",
+      "milcery",
+      "alcremie",
+      "pawmi",
+      "tinkatink",
+      "tinkatuff",
+      "tinkaton",
+      "shaymin-sky",
+      "audino-mega",
+      "pikachu-original-cap",
+      "pikachu-hoenn-cap",
+      "pikachu-sinnoh-cap",
+      "pikachu-unova-cap",
+      "pikachu-kalos-cap",
+      "pikachu-alola-cap",
+      "raichu-alola",
+      "pikachu-partner-cap",
+      "pikachu-world-cap"
+    ],
+    "total_learned_by": 45,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "charm",
+            "url": "https://pokeapi.co/api/v2/move/204/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "move_details": {
+    "id": 513,
+    "name": "reflect-type",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "User\u2019s type changes to match the target\u2019s.",
+    "effect_chance": null,
+    "flavor_text": "The user reflects the target\u2019s type, making it the same type as the target.",
+    "learned_by": [
+      "tentacruel",
+      "gastly",
+      "gengar",
+      "staryu",
+      "omanyte",
+      "mew",
+      "castform",
+      "latias",
+      "stunfisk",
+      "toedscruel",
+      "castform-sunny",
+      "castform-rainy",
+      "castform-snowy",
+      "latias-mega",
+      "stunfisk-galar"
+    ],
+    "total_learned_by": 15,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 792,
+    "name": "obstruct",
+    "type": "dark",
+    "power": null,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession. Direct contact harshly lowers the attacker\u2019s Defense stat.",
+    "learned_by": [
+      "obstagoon"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 4,
+    "target": "user",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

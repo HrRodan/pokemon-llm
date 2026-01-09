@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 665,
+    "name": "ice-hammer",
+    "type": "ice",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage, then lowers the user\u2019s Speed by one stage.",
+    "effect_chance": 100,
+    "flavor_text": "The user swings and hits with its strong, heavy fist. It lowers the user\u2019s Speed, however.",
+    "learned_by": [
+      "crabominable",
+      "tinkatink"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

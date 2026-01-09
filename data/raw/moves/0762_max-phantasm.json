@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 762,
+    "name": "max-phantasm",
+    "type": "ghost",
+    "power": 10,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "This is a Ghost-type attack Dynamax Pok\u00e9mon use. This lowers the target\u2019s Defense stat.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon-me-first",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

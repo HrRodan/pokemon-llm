@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 864,
+    "name": "salt-cure",
+    "type": "rock",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move.",
+    "learned_by": [
+      "naclstack",
+      "garganacl"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

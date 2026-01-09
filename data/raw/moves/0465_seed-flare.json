@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 465,
+    "name": "seed-flare",
+    "type": "grass",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 40% chance to lower the target\u2019s Special Defense by two stages.",
+    "effect_chance": 40,
+    "flavor_text": "The user generates a shock wave from within its body. It may also lower the target\u2019s Sp. Def.",
+    "learned_by": [
+      "shaymin-land",
+      "shaymin-sky"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

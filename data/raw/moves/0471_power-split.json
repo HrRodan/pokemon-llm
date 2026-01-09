@@ -1,0 +1,52 @@
+{
+  "move_details": {
+    "id": 471,
+    "name": "power-split",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Averages the user\u2019s unmodified Attack with the target\u2019s unmodified Attack; the value becomes the unmodified Attack for both Pok\u00e9mon. Unmodified Special Attack is averaged the same way.  This effect applies before any other persistent changes to unmodified Attack or Special Attack, such as flower gift during sunny day.",
+    "effect_chance": null,
+    "flavor_text": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target\u2019s.",
+    "learned_by": [
+      "drowzee",
+      "mr-mime",
+      "shuckle",
+      "surskit",
+      "baltoy",
+      "claydol",
+      "latios",
+      "mime-jr",
+      "yamask",
+      "cofagrigus",
+      "elgyem",
+      "beheeyem",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "inkay",
+      "hoopa",
+      "dewpider",
+      "araquanid",
+      "nihilego",
+      "runerigus",
+      "indeedee-male",
+      "latios-mega",
+      "hoopa-unbound",
+      "mr-mime-galar",
+      "yamask-galar"
+    ],
+    "total_learned_by": 26,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

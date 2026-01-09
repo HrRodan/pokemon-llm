@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 875,
+    "name": "psyblade",
+    "type": "psychic",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user rends the target with an ethereal blade. This move's power is boosted by 50 percent if the user is on Electric Terrain.",
+    "learned_by": [
+      "iron-leaves"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 821,
+    "name": "freezing-glare",
+    "type": "psychic",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 10,
+    "flavor_text": "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
+    "learned_by": [
+      "articuno-galar"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

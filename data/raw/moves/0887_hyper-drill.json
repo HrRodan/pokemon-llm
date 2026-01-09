@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 887,
+    "name": "hyper-drill",
+    "type": "normal",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user spins the pointed part of its body at high speed to pierce the target. This attack can hit a target using a move such as Protect or Detect.",
+    "learned_by": [
+      "dunsparce",
+      "dudunsparce-two-segment",
+      "dudunsparce-three-segment"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

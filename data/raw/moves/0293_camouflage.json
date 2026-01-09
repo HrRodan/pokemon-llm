@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 293,
+    "name": "camouflage",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "User\u2019s type changes according to the terrain.  Terrain        | New type -------------- | -------------- Building       | normal Cave           | rock Desert         | ground Grass          | grass Mountain       | rock Ocean          | water Pond           | water Road           | ground Snow           | ice Tall grass     | grass  In Pok\u00e9mon Battle Revolution:  Terrain        | New type -------------- | -------------- Courtyard      | normal Crystal        | rock Gateway        | water Magma          | rock Main Street    | normal Neon           | normal Stargazer      | rock Sunny Park     | grass Sunset         | ground Waterfall      | grass ",
+    "effect_chance": null,
+    "flavor_text": "Alters the POK\u00e9MON\u2019s type depending on the location.",
+    "learned_by": [
+      "staryu",
+      "marill",
+      "corsola",
+      "azurill",
+      "kecleon",
+      "mothim",
+      "sewaddle",
+      "deerling",
+      "sawsbuck",
+      "joltik",
+      "stunfisk",
+      "froakie",
+      "flabebe",
+      "inkay",
+      "skrelp",
+      "dragalge",
+      "helioptile",
+      "zygarde-50",
+      "zygarde-10-power-construct",
+      "zygarde-50-power-construct",
+      "zygarde-complete",
+      "zygarde-10"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

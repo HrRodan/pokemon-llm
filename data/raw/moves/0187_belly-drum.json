@@ -1,0 +1,84 @@
+{
+  "move_details": {
+    "id": 187,
+    "name": "belly-drum",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "User pays half its max HP to raise its Attack to +6 stages.  If the user cannot pay the HP cost, this move will fail.",
+    "effect_chance": null,
+    "flavor_text": "Reduces own HP to maximize ATTACK.",
+    "learned_by": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "slowpoke",
+      "cubone",
+      "lickitung",
+      "magmar",
+      "snorlax",
+      "cleffa",
+      "marill",
+      "politoed",
+      "teddiursa",
+      "magby",
+      "zigzagoon",
+      "linoone",
+      "makuhita",
+      "hariyama",
+      "azurill",
+      "zangoose",
+      "spheal",
+      "munchlax",
+      "lickilicky",
+      "magmortar",
+      "darumaka",
+      "darmanitan-standard",
+      "chespin",
+      "quilladin",
+      "chesnaught",
+      "swirlix",
+      "kommo-o",
+      "skwovet",
+      "eiscue-ice",
+      "cetoddle",
+      "iron-hands",
+      "darmanitan-zen",
+      "kommo-o-totem",
+      "slowpoke-galar",
+      "darumaka-galar",
+      "darmanitan-galar-standard",
+      "darmanitan-galar-zen",
+      "eiscue-noice"
+    ],
+    "total_learned_by": 44,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "rest",
+            "url": "https://pokeapi.co/api/v2/move/156/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

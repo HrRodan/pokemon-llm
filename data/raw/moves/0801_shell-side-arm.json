@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 801,
+    "name": "shell-side-arm",
+    "type": "poison",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 20,
+    "flavor_text": "This move inflicts physical or special damage, whichever will be more effective. This may also poison the target.",
+    "learned_by": [
+      "slowbro-galar"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "move_details": {
+    "id": 287,
+    "name": "refresh",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Removes a burn, paralysis, or poison from the user.",
+    "effect_chance": null,
+    "flavor_text": "Heals poisoning, paralysis, or a burn.",
+    "learned_by": [
+      "squirtle",
+      "psyduck",
+      "poliwag",
+      "lickitung",
+      "chansey",
+      "lapras",
+      "eevee",
+      "chikorita",
+      "natu",
+      "marill",
+      "corsola",
+      "blissey",
+      "mudkip",
+      "taillow",
+      "azurill",
+      "swablu",
+      "altaria",
+      "milotic",
+      "clamperl",
+      "latias",
+      "latios",
+      "jirachi",
+      "happiny",
+      "lickilicky",
+      "arceus",
+      "audino",
+      "tympole",
+      "alomomola",
+      "furfrou",
+      "spritzee",
+      "tapu-fini",
+      "latias-mega",
+      "latios-mega",
+      "altaria-mega",
+      "audino-mega"
+    ],
+    "total_learned_by": 35,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sing",
+            "url": "https://pokeapi.co/api/v2/move/47/"
+          },
+          {
+            "name": "water-sport",
+            "url": "https://pokeapi.co/api/v2/move/346/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

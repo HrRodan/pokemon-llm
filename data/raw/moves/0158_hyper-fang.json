@@ -1,0 +1,39 @@
+{
+  "move_details": {
+    "id": 158,
+    "name": "hyper-fang",
+    "type": "normal",
+    "power": 80,
+    "accuracy": 90,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 10% chance to make the target flinch.",
+    "effect_chance": 10,
+    "flavor_text": "An attack that may cause flinching.",
+    "learned_by": [
+      "rattata",
+      "raticate",
+      "bidoof",
+      "bibarel",
+      "pachirisu",
+      "patrat",
+      "watchog",
+      "yungoos",
+      "gumshoos",
+      "rattata-alola",
+      "raticate-alola",
+      "raticate-totem-alola",
+      "gumshoos-totem"
+    ],
+    "total_learned_by": 13,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

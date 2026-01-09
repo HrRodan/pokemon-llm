@@ -1,0 +1,37 @@
+{
+  "move_details": {
+    "id": 596,
+    "name": "spiky-shield",
+    "type": "grass",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Blocks damaging attacks and damages attacking Pok\u00e9mon for 1/8 their max HP.",
+    "effect_chance": null,
+    "flavor_text": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+    "learned_by": [
+      "cacturne",
+      "pansage",
+      "maractus",
+      "chesnaught",
+      "togedemaru",
+      "glimmora",
+      "ogerpon",
+      "togedemaru-totem",
+      "ogerpon-wellspring-mask",
+      "ogerpon-hearthflame-mask",
+      "ogerpon-cornerstone-mask"
+    ],
+    "total_learned_by": 11,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 4,
+    "target": "user",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

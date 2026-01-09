@@ -1,0 +1,173 @@
+{
+  "move_details": {
+    "id": 268,
+    "name": "charge",
+    "type": "electric",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Special Defense by one stage.  If the user uses an electric move next turn, its power will be doubled.",
+    "effect_chance": null,
+    "flavor_text": "Charges power to boost the electric move used next.",
+    "learned_by": [
+      "pikachu",
+      "raichu",
+      "magnemite",
+      "magneton",
+      "voltorb",
+      "electrode",
+      "electabuzz",
+      "jolteon",
+      "porygon",
+      "zapdos",
+      "mew",
+      "chinchou",
+      "lanturn",
+      "pichu",
+      "mareep",
+      "flaaffy",
+      "ampharos",
+      "porygon2",
+      "elekid",
+      "raikou",
+      "electrike",
+      "manectric",
+      "plusle",
+      "minun",
+      "shinx",
+      "luxio",
+      "luxray",
+      "pachirisu",
+      "magnezone",
+      "electivire",
+      "porygon-z",
+      "rotom",
+      "blitzle",
+      "zebstrika",
+      "emolga",
+      "galvantula",
+      "klink",
+      "klang",
+      "klinklang",
+      "tynamo",
+      "eelektrik",
+      "eelektross",
+      "stunfisk",
+      "thundurus-incarnate",
+      "zekrom",
+      "helioptile",
+      "heliolisk",
+      "dedenne",
+      "grubbin",
+      "charjabug",
+      "vikavolt",
+      "togedemaru",
+      "tapu-koko",
+      "xurkitree",
+      "zeraora",
+      "yamper",
+      "boltund",
+      "toxtricity-amped",
+      "pincurchin",
+      "morpeko-full-belly",
+      "dracozolt",
+      "arctozolt",
+      "regieleki",
+      "pawmi",
+      "pawmo",
+      "pawmot",
+      "tadbulb",
+      "bellibolt",
+      "wattrel",
+      "kilowattrel",
+      "sandy-shocks",
+      "iron-hands",
+      "iron-thorns",
+      "miraidon",
+      "raging-bolt",
+      "rotom-heat",
+      "rotom-wash",
+      "rotom-frost",
+      "rotom-fan",
+      "rotom-mow",
+      "thundurus-therian",
+      "ampharos-mega",
+      "manectric-mega",
+      "raichu-alola",
+      "geodude-alola",
+      "graveler-alola",
+      "golem-alola",
+      "vikavolt-totem",
+      "togedemaru-totem",
+      "toxtricity-low-key",
+      "morpeko-hangry",
+      "voltorb-hisui",
+      "electrode-hisui",
+      "miraidon-low-power-mode",
+      "miraidon-drive-mode",
+      "miraidon-aquatic-mode",
+      "miraidon-glide-mode"
+    ],
+    "total_learned_by": 97,
+    "machines": [
+      "scarlet-violet",
+      "the-teal-mask"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "thunder-punch",
+            "url": "https://pokeapi.co/api/v2/move/9/"
+          },
+          {
+            "name": "thunder-shock",
+            "url": "https://pokeapi.co/api/v2/move/84/"
+          },
+          {
+            "name": "thunderbolt",
+            "url": "https://pokeapi.co/api/v2/move/85/"
+          },
+          {
+            "name": "thunder-wave",
+            "url": "https://pokeapi.co/api/v2/move/86/"
+          },
+          {
+            "name": "thunder",
+            "url": "https://pokeapi.co/api/v2/move/87/"
+          },
+          {
+            "name": "spark",
+            "url": "https://pokeapi.co/api/v2/move/209/"
+          },
+          {
+            "name": "volt-tackle",
+            "url": "https://pokeapi.co/api/v2/move/344/"
+          },
+          {
+            "name": "shock-wave",
+            "url": "https://pokeapi.co/api/v2/move/351/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "thunder-fang",
+            "url": "https://pokeapi.co/api/v2/move/422/"
+          }
+        ]
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

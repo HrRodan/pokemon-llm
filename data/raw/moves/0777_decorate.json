@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 777,
+    "name": "decorate",
+    "type": "fairy",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": 100,
+    "flavor_text": "The user sharply raises the target\u2019s Attack and Sp. Atk stats by decorating the target.",
+    "learned_by": [
+      "alcremie"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

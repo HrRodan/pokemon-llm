@@ -1,0 +1,52 @@
+{
+  "move_details": {
+    "id": 298,
+    "name": "teeter-dance",
+    "type": "normal",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Confuses all targets.",
+    "effect_chance": null,
+    "flavor_text": "Confuses all POK\u00e9MON on the scene.",
+    "learned_by": [
+      "oddish",
+      "gloom",
+      "vileplume",
+      "mr-mime",
+      "bellossom",
+      "lotad",
+      "lombre",
+      "ludicolo",
+      "grumpig",
+      "spinda",
+      "cacnea",
+      "buneary",
+      "mime-jr",
+      "lilligant",
+      "meloetta-aria",
+      "oricorio-baile",
+      "bounsweet",
+      "steenee",
+      "tsareena",
+      "mr-rime",
+      "meloetta-pirouette",
+      "oricorio-pom-pom",
+      "oricorio-pau",
+      "oricorio-sensu",
+      "mr-mime-galar",
+      "lilligant-hisui"
+    ],
+    "total_learned_by": 26,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

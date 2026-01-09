@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 817,
+    "name": "wicked-blow",
+    "type": "dark",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user, having mastered the Dark style, strikes the target with a fierce blow. This attack always results in a critical hit.",
+    "learned_by": [
+      "urshifu-single-strike"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

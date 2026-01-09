@@ -1,0 +1,92 @@
+{
+  "move_details": {
+    "id": 260,
+    "name": "flatter",
+    "type": "dark",
+    "power": null,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Raises the target\u2019s Special Attack by one stage, then confuses it.",
+    "effect_chance": null,
+    "flavor_text": "Confuses the foe, but raises its SP. ATK.",
+    "learned_by": [
+      "nidoran-f",
+      "nidorina",
+      "nidoqueen",
+      "nidoran-m",
+      "nidorino",
+      "nidoking",
+      "drowzee",
+      "totodile",
+      "croconaw",
+      "feraligatr",
+      "mareep",
+      "murkrow",
+      "sableye",
+      "illumise",
+      "pachirisu",
+      "buneary",
+      "lopunny",
+      "croagunk",
+      "toxicroak",
+      "mesprit",
+      "woobat",
+      "gothita",
+      "gothorita",
+      "gothitelle",
+      "vullaby",
+      "mandibuzz",
+      "inkay",
+      "oricorio-baile",
+      "tapu-lele",
+      "impidimp",
+      "morgrem",
+      "grimmsnarl",
+      "morpeko-full-belly",
+      "enamorus-incarnate",
+      "squawkabilly-green-plumage",
+      "shroodle",
+      "grafaiai",
+      "tinkatink",
+      "tinkatuff",
+      "tinkaton",
+      "munkidori",
+      "fezandipiti",
+      "sableye-mega",
+      "meowth-alola",
+      "oricorio-pom-pom",
+      "oricorio-pau",
+      "oricorio-sensu",
+      "morpeko-hangry",
+      "enamorus-therian",
+      "squawkabilly-blue-plumage",
+      "squawkabilly-yellow-plumage",
+      "squawkabilly-white-plumage"
+    ],
+    "total_learned_by": 52,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "charm",
+            "url": "https://pokeapi.co/api/v2/move/204/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

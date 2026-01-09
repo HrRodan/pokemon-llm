@@ -1,0 +1,60 @@
+{
+  "move_details": {
+    "id": 96,
+    "name": "meditate",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 40,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Attack by one stage.",
+    "effect_chance": null,
+    "flavor_text": "Raises the user's ATTACK.",
+    "learned_by": [
+      "mankey",
+      "machop",
+      "drowzee",
+      "hypno",
+      "hitmonlee",
+      "mr-mime",
+      "smoochum",
+      "elekid",
+      "meditite",
+      "medicham",
+      "mime-jr",
+      "croagunk",
+      "mienfoo",
+      "mienshao",
+      "medicham-mega"
+    ],
+    "total_learned_by": 15,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "calm-mind",
+            "url": "https://pokeapi.co/api/v2/move/347/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "high-jump-kick",
+            "url": "https://pokeapi.co/api/v2/move/136/"
+          }
+        ]
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

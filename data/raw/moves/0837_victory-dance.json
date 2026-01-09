@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 837,
+    "name": "victory-dance",
+    "type": "fighting",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user performs a dance to usher in victory. This raises the user\u2019s offensive and defensive stats and increases the damage dealt by the user\u2019s moves by 50 percent.",
+    "learned_by": [
+      "lilligant-hisui"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

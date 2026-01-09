@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 547,
+    "name": "relic-song",
+    "type": "normal",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 10% chance to put the target to sleep. If the user is a meloetta, it will toggle between Aria and Pirouette Forme.",
+    "effect_chance": 10,
+    "flavor_text": "The user sings an ancient song and attacks by appealing to the hearts of those listening. It may also induce sleep.",
+    "learned_by": [
+      "meloetta-aria",
+      "meloetta-pirouette"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

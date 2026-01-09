@@ -1,0 +1,51 @@
+{
+  "move_details": {
+    "id": 516,
+    "name": "bestow",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "Transfers the user\u2019s held item to the target.  If the user has no held item, or the target already has a held item, this move will fail.",
+    "effect_chance": null,
+    "flavor_text": "The user passes its held item to the target when the target isn\u2019t holding an item.",
+    "learned_by": [
+      "clefairy",
+      "exeggcute",
+      "chansey",
+      "pichu",
+      "togepi",
+      "togetic",
+      "delibird",
+      "blissey",
+      "zigzagoon",
+      "linoone",
+      "plusle",
+      "tropius",
+      "pachirisu",
+      "pidove",
+      "audino",
+      "froakie",
+      "phantump",
+      "pumpkaboo-average",
+      "cutiefly",
+      "passimian",
+      "pyukumuku",
+      "pumpkaboo-small",
+      "pumpkaboo-large",
+      "pumpkaboo-super",
+      "audino-mega"
+    ],
+    "total_learned_by": 25,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

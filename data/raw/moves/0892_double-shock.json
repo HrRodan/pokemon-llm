@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 892,
+    "name": "double-shock",
+    "type": "electric",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type.",
+    "learned_by": [
+      "pawmot"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

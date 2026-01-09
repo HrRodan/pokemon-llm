@@ -1,0 +1,33 @@
+{
+  "move_details": {
+    "id": 159,
+    "name": "sharpen",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 30,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Attack by one stage.",
+    "effect_chance": null,
+    "flavor_text": "A move that raises the user's ATTACK.",
+    "learned_by": [
+      "porygon",
+      "cryogonal",
+      "carbink",
+      "bergmite",
+      "avalugg",
+      "diancie",
+      "diancie-mega"
+    ],
+    "total_learned_by": 7,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

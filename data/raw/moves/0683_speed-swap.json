@@ -1,0 +1,57 @@
+{
+  "move_details": {
+    "id": 683,
+    "name": "speed-swap",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Exchanges the original Speed stats of the user and target.",
+    "effect_chance": null,
+    "flavor_text": "The user exchanges Speed stats with the target.",
+    "learned_by": [
+      "raichu",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "porygon",
+      "mewtwo",
+      "mew",
+      "porygon2",
+      "bronzor",
+      "bronzong",
+      "porygon-z",
+      "victini",
+      "woobat",
+      "swoobat",
+      "sigilyph",
+      "emolga",
+      "joltik",
+      "galvantula",
+      "cutiefly",
+      "ribombee",
+      "tapu-lele",
+      "pheromosa",
+      "magearna",
+      "calyrex",
+      "rabsca",
+      "raichu-alola",
+      "magearna-original",
+      "calyrex-ice",
+      "calyrex-shadow"
+    ],
+    "total_learned_by": 29,
+    "machines": [
+      "sword-shield"
+    ],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

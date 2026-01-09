@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 731,
+    "name": "floaty-fall",
+    "type": "flying",
+    "power": 90,
+    "accuracy": 95,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 30,
+    "flavor_text": "The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch.",
+    "learned_by": [
+      "pikachu-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

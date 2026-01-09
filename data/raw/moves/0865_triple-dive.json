@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 865,
+    "name": "triple-dive",
+    "type": "water",
+    "power": 30,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row.",
+    "learned_by": [
+      "wugtrio"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

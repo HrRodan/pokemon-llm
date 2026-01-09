@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 816,
+    "name": "jungle-healing",
+    "type": "grass",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user becomes one with the jungle, restoring HP and healing any status conditions of itself and its ally Pok\u00e9mon in battle.",
+    "learned_by": [
+      "zarude",
+      "zarude-dada"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user-and-allies",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

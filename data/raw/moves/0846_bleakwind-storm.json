@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 846,
+    "name": "bleakwind-storm",
+    "type": "flying",
+    "power": 100,
+    "accuracy": 80,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also leave the target with frostbite.",
+    "learned_by": [
+      "tornadus-incarnate",
+      "tornadus-therian"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

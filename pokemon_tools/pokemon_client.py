@@ -497,8 +497,12 @@ class PokemonAPIClient:
                     data.get("generation", {}).get("name")
                 ),
             }
-        except requests.exceptions.RequestException:
-            return {"error": "Move not found."}
+        except requests.exceptions.HTTPError as e:
+            return {
+                "error": f"HTTP Error {e.response.status_code} for Move {name}: {e}"
+            }
+        except requests.exceptions.RequestException as e:
+            return {"error": f"Request Error for Move {name}: {e}"}
         except Exception as e:
             return {"error": str(e)}
 

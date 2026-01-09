@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 748,
+    "name": "no-retreat",
+    "type": "fighting",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "Inflicts regular damage.  Hits twice in one turn, with a 100% chance to make the target flinch.",
+    "effect_chance": 100,
+    "flavor_text": "This move raises all the user\u2019s stats but prevents the user from switching out or fleeing.",
+    "learned_by": [
+      "falinks"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

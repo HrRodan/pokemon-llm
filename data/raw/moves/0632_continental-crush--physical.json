@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 632,
+    "name": "continental-crush--physical",
+    "type": "rock",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force. The power varies, depending on the original move.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

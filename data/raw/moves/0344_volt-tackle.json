@@ -1,0 +1,49 @@
+{
+  "move_details": {
+    "id": 344,
+    "name": "volt-tackle",
+    "type": "electric",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.  Has a 10% chance to paralyze the target.",
+    "effect_chance": 10,
+    "flavor_text": "A life-risking tackle that slightly hurts the user.",
+    "learned_by": [
+      "pikachu",
+      "pichu",
+      "pikachu-original-cap",
+      "pikachu-hoenn-cap",
+      "pikachu-sinnoh-cap",
+      "pikachu-unova-cap",
+      "pikachu-kalos-cap",
+      "pikachu-alola-cap",
+      "pikachu-partner-cap"
+    ],
+    "total_learned_by": 9,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "charge",
+            "url": "https://pokeapi.co/api/v2/move/268/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

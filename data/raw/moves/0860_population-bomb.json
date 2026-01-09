@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 860,
+    "name": "population-bomb",
+    "type": "normal",
+    "power": 20,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user\u2019s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row.",
+    "learned_by": [
+      "tandemaus",
+      "maushold-family-of-four",
+      "maushold-family-of-three"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

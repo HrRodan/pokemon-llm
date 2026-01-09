@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 847,
+    "name": "wildbolt-storm",
+    "type": "electric",
+    "power": 100,
+    "accuracy": 80,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave the target with paralysis.",
+    "learned_by": [
+      "thundurus-incarnate",
+      "thundurus-therian"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

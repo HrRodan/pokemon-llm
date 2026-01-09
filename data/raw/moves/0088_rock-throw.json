@@ -1,0 +1,108 @@
+{
+  "move_details": {
+    "id": 88,
+    "name": "rock-throw",
+    "type": "rock",
+    "power": 50,
+    "accuracy": 90,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "Drops rocks on the enemy.",
+    "learned_by": [
+      "geodude",
+      "graveler",
+      "golem",
+      "onix",
+      "rhyhorn",
+      "rhydon",
+      "omanyte",
+      "omastar",
+      "kabuto",
+      "kabutops",
+      "aerodactyl",
+      "sudowoodo",
+      "steelix",
+      "shuckle",
+      "slugma",
+      "magcargo",
+      "larvitar",
+      "pupitar",
+      "tyranitar",
+      "mudkip",
+      "marshtomp",
+      "swampert",
+      "nosepass",
+      "lunatone",
+      "solrock",
+      "regirock",
+      "bonsly",
+      "probopass",
+      "timburr",
+      "gurdurr",
+      "conkeldurr",
+      "tirtouga",
+      "archen",
+      "archeops",
+      "landorus-incarnate",
+      "tyrunt",
+      "amaura",
+      "aurorus",
+      "carbink",
+      "diancie",
+      "rockruff",
+      "lycanroc-midday",
+      "stakataka",
+      "stonjourner",
+      "nacli",
+      "naclstack",
+      "garganacl",
+      "klawf",
+      "bombirdier",
+      "glimmet",
+      "glimmora",
+      "iron-thorns",
+      "iron-boulder",
+      "landorus-therian",
+      "aerodactyl-mega",
+      "steelix-mega",
+      "diancie-mega",
+      "geodude-alola",
+      "graveler-alola",
+      "golem-alola",
+      "lycanroc-midnight",
+      "rockruff-own-tempo",
+      "lycanroc-dusk",
+      "arcanine-hisui"
+    ],
+    "total_learned_by": 64,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "rock-slide",
+            "url": "https://pokeapi.co/api/v2/move/157/"
+          },
+          {
+            "name": "rock-tomb",
+            "url": "https://pokeapi.co/api/v2/move/317/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

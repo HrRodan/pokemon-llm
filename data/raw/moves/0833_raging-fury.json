@@ -1,0 +1,30 @@
+{
+  "move_details": {
+    "id": 833,
+    "name": "raging-fury",
+    "type": "fire",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user rampages and spews vicious flames to inflict damage on the target, then becomes fixated on using this move.",
+    "learned_by": [
+      "growlithe",
+      "infernape",
+      "gouging-fire",
+      "arcanine-hisui"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "random-opponent",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

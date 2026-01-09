@@ -1,0 +1,52 @@
+{
+  "move_details": {
+    "id": 517,
+    "name": "inferno",
+    "type": "fire",
+    "power": 100,
+    "accuracy": 50,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 100% chance to burn the target.",
+    "effect_chance": 100,
+    "flavor_text": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
+    "learned_by": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "vulpix",
+      "ninetales",
+      "ponyta",
+      "rapidash",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "slugma",
+      "magcargo",
+      "houndour",
+      "houndoom",
+      "torkoal",
+      "victini",
+      "litwick",
+      "lampent",
+      "chandelure",
+      "heatmor",
+      "centiskorch",
+      "chi-yu",
+      "charizard-mega-x",
+      "charizard-mega-y",
+      "houndoom-mega",
+      "typhlosion-hisui"
+    ],
+    "total_learned_by": 26,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

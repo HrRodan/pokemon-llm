@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 579,
+    "name": "flower-shield",
+    "type": "fairy",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Raises the Defense of all grass Pok\u00e9mon in battle.",
+    "effect_chance": 100,
+    "flavor_text": "The user raises the Defense stat of all Grass-type Pok\u00e9mon in battle with a mysterious power.",
+    "learned_by": [
+      "sunflora",
+      "cherubi",
+      "cherrim",
+      "florges",
+      "comfey"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

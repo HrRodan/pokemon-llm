@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 176,
+    "name": "conversion-2",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 30,
+    "damage_class": "status",
+    "effect_description": "Changes the user\u2019s type to a type either resistant or immune to the last damaging move that hit it.  The new type is selected at random and cannot be a type the user already is.  If there is no eligible new type, this move will fail.",
+    "effect_chance": null,
+    "flavor_text": "The user's type is made resistant.",
+    "learned_by": [
+      "porygon",
+      "porygon2",
+      "porygon-z"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 391,
+    "name": "heart-swap",
+    "type": "psychic",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "User swaps its stat modifiers with the target.",
+    "effect_chance": null,
+    "flavor_text": "The user employs its psychic power to switch stat changes with the foe. ",
+    "learned_by": [
+      "manaphy",
+      "magearna",
+      "magearna-original"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

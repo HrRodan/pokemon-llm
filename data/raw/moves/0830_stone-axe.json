@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 830,
+    "name": "stone-axe",
+    "type": "rock",
+    "power": 65,
+    "accuracy": 90,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user swings its stone axes at the target, aiming to land a critical hit. Stone splinters left behind by this attack continue to damage the target for several turns.",
+    "learned_by": [
+      "kleavor"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

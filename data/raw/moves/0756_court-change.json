@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 756,
+    "name": "court-change",
+    "type": "normal",
+    "power": null,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "With its mysterious power, the user swaps the effects on either side of the field.",
+    "learned_by": [
+      "cinderace"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

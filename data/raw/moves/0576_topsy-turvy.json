@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 576,
+    "name": "topsy-turvy",
+    "type": "dark",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Inverts the target\u2019s stat modifiers.",
+    "effect_chance": null,
+    "flavor_text": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.",
+    "learned_by": [
+      "inkay",
+      "malamar",
+      "grapploct"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

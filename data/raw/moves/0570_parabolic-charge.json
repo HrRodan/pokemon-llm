@@ -1,0 +1,35 @@
+{
+  "move_details": {
+    "id": 570,
+    "name": "parabolic-charge",
+    "type": "electric",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Heals the user for half the total damage dealt to all targets.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks everything around it. The user\u2019s HP is restored by half the damage taken by those hit.",
+    "learned_by": [
+      "helioptile",
+      "heliolisk",
+      "dedenne",
+      "tadbulb",
+      "miraidon",
+      "miraidon-low-power-mode",
+      "miraidon-drive-mode",
+      "miraidon-aquatic-mode",
+      "miraidon-glide-mode"
+    ],
+    "total_learned_by": 9,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

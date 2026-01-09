@@ -1,0 +1,110 @@
+{
+  "move_details": {
+    "id": 161,
+    "name": "tri-attack",
+    "type": "normal",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 20% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
+    "effect_chance": 20,
+    "flavor_text": "Fires three kinds of beams at once.",
+    "learned_by": [
+      "spearow",
+      "fearow",
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "dugtrio",
+      "abra",
+      "kadabra",
+      "alakazam",
+      "slowpoke",
+      "slowbro",
+      "magneton",
+      "doduo",
+      "dodrio",
+      "shellder",
+      "cloyster",
+      "drowzee",
+      "hypno",
+      "chansey",
+      "staryu",
+      "starmie",
+      "porygon",
+      "mewtwo",
+      "mew",
+      "togepi",
+      "togetic",
+      "slowking",
+      "porygon2",
+      "blissey",
+      "latias",
+      "latios",
+      "magnezone",
+      "togekiss",
+      "porygon-z",
+      "probopass",
+      "uxie",
+      "mesprit",
+      "azelf",
+      "beheeyem",
+      "hydreigon",
+      "genesect",
+      "type-null",
+      "silvally",
+      "magearna",
+      "alcremie",
+      "indeedee-male",
+      "dragapult",
+      "calyrex",
+      "sandy-shocks",
+      "iron-jugulis",
+      "terapagos",
+      "alakazam-mega",
+      "mewtwo-mega-x",
+      "mewtwo-mega-y",
+      "slowbro-mega",
+      "dugtrio-alola",
+      "magearna-original",
+      "slowpoke-galar",
+      "slowbro-galar",
+      "slowking-galar",
+      "calyrex-ice",
+      "calyrex-shadow",
+      "terapagos-terastal",
+      "terapagos-stellar"
+    ],
+    "total_learned_by": 65,
+    "machines": [
+      "lets-go-pikachu-lets-go-eevee",
+      "red-blue",
+      "yellow",
+      "sword-shield"
+    ],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "lock-on",
+            "url": "https://pokeapi.co/api/v2/move/199/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

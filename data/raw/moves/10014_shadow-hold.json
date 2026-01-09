@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10014,
+    "name": "shadow-hold",
+    "type": "shadow",
+    "power": null,
+    "accuracy": null,
+    "pp": null,
+    "damage_class": "status",
+    "effect_description": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.  The target may still escape by using baton pass, u turn, or a shed shell.  Both the user and the target pass on this effect with baton pass.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "opponents-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

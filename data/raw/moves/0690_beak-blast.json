@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 690,
+    "name": "beak-blast",
+    "type": "flying",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Begins charging at the start of the turn, then attacks as normal.  Any Pok\u00e9mon that makes contact with the user while charging is burned.  The charging is not affected by accuracy, sleep, paralysis, or any other effect that would interfere with a move.",
+    "effect_chance": null,
+    "flavor_text": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pok\u00e9mon while it\u2019s heating up its beak results in a burn.",
+    "learned_by": [
+      "toucannon"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": -3,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

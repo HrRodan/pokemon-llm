@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 700,
+    "name": "stoked-sparksurfer",
+    "type": "electric",
+    "power": 175,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 100% chance to paralyze the target.",
+    "effect_chance": 100,
+    "flavor_text": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "move_details": {
+    "id": 190,
+    "name": "octazooka",
+    "type": "water",
+    "power": 65,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to lower the target\u2019s accuracy by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "An attack that may reduce accuracy.",
+    "learned_by": [
+      "horsea",
+      "remoraid",
+      "octillery",
+      "grapploct"
+    ],
+    "total_learned_by": 4,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "lock-on",
+            "url": "https://pokeapi.co/api/v2/move/199/"
+          },
+          {
+            "name": "rain-dance",
+            "url": "https://pokeapi.co/api/v2/move/240/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

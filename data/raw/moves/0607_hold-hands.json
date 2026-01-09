@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 607,
+    "name": "hold-hands",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 40,
+    "damage_class": "status",
+    "effect_description": "Does nothing.",
+    "effect_chance": null,
+    "flavor_text": "The user and an ally hold hands. This makes them very happy.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "ally",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

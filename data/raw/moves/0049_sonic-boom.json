@@ -1,0 +1,41 @@
+{
+  "move_details": {
+    "id": 49,
+    "name": "sonic-boom",
+    "type": "normal",
+    "power": null,
+    "accuracy": 90,
+    "pp": 20,
+    "damage_class": "special",
+    "effect_description": "Inflicts exactly 20 damage.",
+    "effect_chance": null,
+    "flavor_text": "Always inflicts 20HP damage.",
+    "learned_by": [
+      "magnemite",
+      "magneton",
+      "voltorb",
+      "electrode",
+      "spinarak",
+      "yanma",
+      "vibrava",
+      "flygon",
+      "buizel",
+      "floatzel",
+      "magnezone",
+      "yanmega",
+      "munna",
+      "magearna",
+      "magearna-original"
+    ],
+    "total_learned_by": 15,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 546,
+    "name": "techno-blast",
+    "type": "normal",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  If the user is holding a plate or a drive, this move\u2019s type is the type corresponding to that item.  Note: This effect is technically shared by both techno blast and judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+    "effect_chance": null,
+    "flavor_text": "The user fires a beam of light at its target. The type changes depending on the Drive the user holds.",
+    "learned_by": [
+      "genesect"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

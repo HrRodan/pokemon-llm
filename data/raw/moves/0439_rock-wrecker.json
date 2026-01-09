@@ -1,0 +1,29 @@
+{
+  "move_details": {
+    "id": 439,
+    "name": "rock-wrecker",
+    "type": "rock",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+    "effect_chance": null,
+    "flavor_text": "The user launches a huge boulder at the foe to attack. It must rest on the next turn, however.",
+    "learned_by": [
+      "rhyperior",
+      "dwebble",
+      "crustle"
+    ],
+    "total_learned_by": 3,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

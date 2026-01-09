@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 753,
+    "name": "octolock",
+    "type": "fighting",
+    "power": null,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user locks the target in and prevents it from fleeing. This move also lowers the target\u2019s Defense and Sp. Def every turn.",
+    "learned_by": [
+      "grapploct"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

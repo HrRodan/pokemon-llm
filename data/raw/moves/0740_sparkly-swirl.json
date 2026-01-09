@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 740,
+    "name": "sparkly-swirl",
+    "type": "fairy",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user\u2019s party.",
+    "learned_by": [
+      "eevee-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

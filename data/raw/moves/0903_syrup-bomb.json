@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 903,
+    "name": "syrup-bomb",
+    "type": "grass",
+    "power": 60,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target's Speed stat to drop each turn for three turns.",
+    "learned_by": [
+      "dipplin",
+      "hydrapple"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

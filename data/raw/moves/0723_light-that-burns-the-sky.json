@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 723,
+    "name": "light-that-burns-the-sky",
+    "type": "psychic",
+    "power": 200,
+    "accuracy": null,
+    "pp": 1,
+    "damage_class": "special",
+    "effect_description": "Inflicts damage using either Attack or Special Attack stat, whichever is higher. Determining which stat is used takes into account stat changes but not held items or abilities.",
+    "effect_chance": null,
+    "flavor_text": "This attack inflicts Attack or Sp. Atk damage\u2014 whichever stat is higher for the user, Necrozma.  This move ignores the target\u2019s Ability.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

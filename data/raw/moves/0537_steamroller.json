@@ -1,0 +1,32 @@
+{
+  "move_details": {
+    "id": 537,
+    "name": "steamroller",
+    "type": "bug",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.  Power is doubled against Pok\u00e9mon that have used minimize since entering the field.",
+    "effect_chance": 30,
+    "flavor_text": "The user crushes its targets by rolling over them with its rolled-up body. This attack may make the target flinch.",
+    "learned_by": [
+      "golem",
+      "venipede",
+      "whirlipede",
+      "scolipede",
+      "guzzlord",
+      "golem-alola"
+    ],
+    "total_learned_by": 6,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

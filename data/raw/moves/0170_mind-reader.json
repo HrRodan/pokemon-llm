@@ -1,0 +1,84 @@
+{
+  "move_details": {
+    "id": 170,
+    "name": "mind-reader",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers.  One-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pok\u00e9mon that are off the field due to moves such as dig or fly.  If the target uses detect or protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.  This effect is passed on by baton pass.",
+    "effect_chance": null,
+    "flavor_text": "Ensures the next attack will hit.",
+    "learned_by": [
+      "poliwag",
+      "poliwrath",
+      "drowzee",
+      "hypno",
+      "hitmonlee",
+      "articuno",
+      "tyrogue",
+      "surskit",
+      "breloom",
+      "nincada",
+      "ninjask",
+      "shedinja",
+      "meditite",
+      "medicham",
+      "roselia",
+      "budew",
+      "riolu",
+      "sewaddle",
+      "shelmet",
+      "froakie",
+      "magearna",
+      "medicham-mega",
+      "magearna-original",
+      "articuno-galar"
+    ],
+    "total_learned_by": 24,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "mega-punch",
+            "url": "https://pokeapi.co/api/v2/move/5/"
+          },
+          {
+            "name": "mega-kick",
+            "url": "https://pokeapi.co/api/v2/move/25/"
+          },
+          {
+            "name": "jump-kick",
+            "url": "https://pokeapi.co/api/v2/move/26/"
+          },
+          {
+            "name": "submission",
+            "url": "https://pokeapi.co/api/v2/move/66/"
+          },
+          {
+            "name": "high-jump-kick",
+            "url": "https://pokeapi.co/api/v2/move/136/"
+          },
+          {
+            "name": "dynamic-punch",
+            "url": "https://pokeapi.co/api/v2/move/223/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

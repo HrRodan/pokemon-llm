@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 822,
+    "name": "fiery-wrath",
+    "type": "dark",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 20,
+    "flavor_text": "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pok\u00e9mon flinch.",
+    "learned_by": [
+      "moltres-galar"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

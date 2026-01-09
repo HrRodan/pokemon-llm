@@ -1,0 +1,52 @@
+{
+  "move_details": {
+    "id": 452,
+    "name": "wood-hammer",
+    "type": "grass",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+    "effect_chance": null,
+    "flavor_text": "The user slams its rugged body into the foe to attack. The user also sustains serious damage.",
+    "learned_by": [
+      "exeggutor",
+      "sudowoodo",
+      "torterra",
+      "snover",
+      "abomasnow",
+      "maractus",
+      "chespin",
+      "quilladin",
+      "chesnaught",
+      "phantump",
+      "trevenant",
+      "komala",
+      "mimikyu-disguised",
+      "tapu-bulu",
+      "grookey",
+      "thwackey",
+      "rillaboom",
+      "ogerpon",
+      "abomasnow-mega",
+      "exeggutor-alola",
+      "mimikyu-busted",
+      "mimikyu-totem-disguised",
+      "mimikyu-totem-busted",
+      "ogerpon-wellspring-mask",
+      "ogerpon-hearthflame-mask",
+      "ogerpon-cornerstone-mask"
+    ],
+    "total_learned_by": 26,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

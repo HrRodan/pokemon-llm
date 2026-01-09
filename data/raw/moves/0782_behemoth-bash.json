@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 782,
+    "name": "behemoth-bash",
+    "type": "steel",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user becomes a gigantic shield and slams into the target. This move deals twice the damage if the target is Dynamaxed.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

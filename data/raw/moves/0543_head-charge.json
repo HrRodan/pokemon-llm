@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 543,
+    "name": "head-charge",
+    "type": "normal",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+    "effect_chance": null,
+    "flavor_text": "The user charges its head into its target, using its powerful guard hair. It also damages the user a little.",
+    "learned_by": [
+      "bouffalant"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

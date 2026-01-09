@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10018,
+    "name": "shadow-sky",
+    "type": "shadow",
+    "power": null,
+    "accuracy": null,
+    "pp": null,
+    "damage_class": "status",
+    "effect_description": "Changes the weather to Shadow Sky for five turns.  Pok\u00e9mon other than shadow Pok\u00e9mon take 1/16 their max HP at the end of every turn.  This move is typeless for the purposes of weather ball.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

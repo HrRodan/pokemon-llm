@@ -1,0 +1,46 @@
+{
+  "move_details": {
+    "id": 533,
+    "name": "sacred-sword",
+    "type": "fighting",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Damage calculation ignores the target\u2019s stat modifiers, including evasion.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks by slicing with its long horns. The target\u2019s stat changes don\u2019t affect this attack\u2019s damage.",
+    "learned_by": [
+      "gallade",
+      "oshawott",
+      "dewott",
+      "samurott",
+      "cobalion",
+      "terrakion",
+      "virizion",
+      "keldeo-ordinary",
+      "honedge",
+      "doublade",
+      "aegislash-shield",
+      "kartana",
+      "zacian",
+      "chien-pao",
+      "iron-leaves",
+      "iron-boulder",
+      "iron-crown",
+      "keldeo-resolute",
+      "aegislash-blade",
+      "zacian-crowned"
+    ],
+    "total_learned_by": 20,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

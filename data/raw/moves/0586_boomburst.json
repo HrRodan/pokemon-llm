@@ -1,0 +1,43 @@
+{
+  "move_details": {
+    "id": 586,
+    "name": "boomburst",
+    "type": "normal",
+    "power": 140,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks everything around it with the destructive power of a terrible, explosive sound.",
+    "learned_by": [
+      "taillow",
+      "exploud",
+      "vibrava",
+      "flygon",
+      "chatot",
+      "noivern",
+      "pikipek",
+      "trumbeak",
+      "toucannon",
+      "kommo-o",
+      "rillaboom",
+      "toxtricity-amped",
+      "finizen",
+      "dudunsparce-two-segment",
+      "scream-tail",
+      "toxtricity-low-key",
+      "dudunsparce-three-segment"
+    ],
+    "total_learned_by": 17,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-other-pokemon",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

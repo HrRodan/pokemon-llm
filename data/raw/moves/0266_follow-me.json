@@ -1,0 +1,50 @@
+{
+  "move_details": {
+    "id": 266,
+    "name": "follow-me",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "Until the end of this turn, any moves that opposing Pok\u00e9mon target solely at the user\u2019s ally will instead target the user.  If both Pok\u00e9mon on the same side of the field use this move on the same turn, the Pok\u00e9mon that uses it last will become the target.  This effect takes priority over lightning rod and storm drain.  If the user\u2019s ally switches out, opposing Pok\u00e9mon may still hit it with pursuit.  This move cannot be selected by assist or metronome.",
+    "effect_chance": null,
+    "flavor_text": "Draws attention to make foes attack only the user.",
+    "learned_by": [
+      "squirtle",
+      "clefairy",
+      "clefable",
+      "electabuzz",
+      "magmar",
+      "sentret",
+      "furret",
+      "pichu",
+      "togepi",
+      "togetic",
+      "elekid",
+      "magby",
+      "pachirisu",
+      "riolu",
+      "electivire",
+      "magmortar",
+      "togekiss",
+      "maushold-family-of-four",
+      "ogerpon",
+      "indeedee-female",
+      "maushold-family-of-three",
+      "ogerpon-wellspring-mask",
+      "ogerpon-hearthflame-mask",
+      "ogerpon-cornerstone-mask"
+    ],
+    "total_learned_by": 24,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 2,
+    "target": "user",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

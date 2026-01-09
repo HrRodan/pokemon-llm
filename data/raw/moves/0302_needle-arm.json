@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 302,
+    "name": "needle-arm",
+    "type": "grass",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 15,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Has a 30% chance to make the target flinch.",
+    "effect_chance": 30,
+    "flavor_text": "Attacks with thorny arms. May cause flinching.",
+    "learned_by": [
+      "cacnea",
+      "cacturne",
+      "maractus",
+      "quilladin",
+      "chesnaught"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 661,
+    "name": "baneful-bunker",
+    "type": "poison",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Grants the user protection for the rest of the turn.  If a Pok\u00e9mon attempts to use a move that makes contact with the user, that Pok\u00e9mon will be poisoned.  This move\u2019s chance of success halves every time it\u2019s used consecutively with any other protection move.",
+    "effect_chance": null,
+    "flavor_text": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
+    "learned_by": [
+      "toxapex"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 4,
+    "target": "user",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

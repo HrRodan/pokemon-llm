@@ -1,0 +1,42 @@
+{
+  "move_details": {
+    "id": 295,
+    "name": "luster-purge",
+    "type": "psychic",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Has a 50% chance to lower the target\u2019s Special Defense by one stage.",
+    "effect_chance": 50,
+    "flavor_text": "Attacks with a burst of light. May lower SP. DEF.",
+    "learned_by": [
+      "latios",
+      "latios-mega"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "calm-mind",
+            "url": "https://pokeapi.co/api/v2/move/347/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

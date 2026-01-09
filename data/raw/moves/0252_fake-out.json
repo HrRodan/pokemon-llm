@@ -1,0 +1,140 @@
+{
+  "move_details": {
+    "id": 252,
+    "name": "fake-out",
+    "type": "normal",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Causes the target to flinch.  Can only be used on the user\u2019s first turn after entering the field.",
+    "effect_chance": 100,
+    "flavor_text": "A 1st-turn, 1st-strike move that causes flinching.",
+    "learned_by": [
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "raichu",
+      "meowth",
+      "persian",
+      "seel",
+      "dewgong",
+      "hitmonlee",
+      "hitmonchan",
+      "kangaskhan",
+      "mr-mime",
+      "mew",
+      "pichu",
+      "aipom",
+      "sneasel",
+      "delibird",
+      "tyrogue",
+      "hitmontop",
+      "smoochum",
+      "lombre",
+      "ludicolo",
+      "nuzleaf",
+      "shiftry",
+      "makuhita",
+      "hariyama",
+      "skitty",
+      "delcatty",
+      "sableye",
+      "meditite",
+      "spinda",
+      "kecleon",
+      "chimchar",
+      "monferno",
+      "infernape",
+      "ambipom",
+      "buneary",
+      "glameow",
+      "purugly",
+      "mime-jr",
+      "croagunk",
+      "purrloin",
+      "liepard",
+      "scraggy",
+      "scrafty",
+      "gothita",
+      "mienfoo",
+      "mienshao",
+      "espurr",
+      "meowstic-male",
+      "litten",
+      "torracat",
+      "incineroar",
+      "salandit",
+      "togedemaru",
+      "zeraora",
+      "grookey",
+      "thwackey",
+      "rillaboom",
+      "impidimp",
+      "morgrem",
+      "grimmsnarl",
+      "perrserker",
+      "indeedee-male",
+      "morpeko-full-belly",
+      "pawmi",
+      "tinkatink",
+      "tinkatuff",
+      "tinkaton",
+      "iron-hands",
+      "munkidori",
+      "meowstic-female",
+      "blastoise-mega",
+      "kangaskhan-mega",
+      "sableye-mega",
+      "raichu-alola",
+      "meowth-alola",
+      "persian-alola",
+      "togedemaru-totem",
+      "meowth-galar",
+      "mr-mime-galar",
+      "indeedee-female",
+      "morpeko-hangry",
+      "sneasel-hisui"
+    ],
+    "total_learned_by": 84,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": null,
+        "use_before": [
+          {
+            "name": "seismic-toss",
+            "url": "https://pokeapi.co/api/v2/move/69/"
+          },
+          {
+            "name": "feint-attack",
+            "url": "https://pokeapi.co/api/v2/move/185/"
+          },
+          {
+            "name": "vital-throw",
+            "url": "https://pokeapi.co/api/v2/move/233/"
+          },
+          {
+            "name": "knock-off",
+            "url": "https://pokeapi.co/api/v2/move/282/"
+          },
+          {
+            "name": "arm-thrust",
+            "url": "https://pokeapi.co/api/v2/move/292/"
+          }
+        ]
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 3,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

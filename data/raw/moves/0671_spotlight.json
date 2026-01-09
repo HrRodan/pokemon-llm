@@ -1,0 +1,33 @@
+{
+  "move_details": {
+    "id": 671,
+    "name": "spotlight",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 15,
+    "damage_class": "status",
+    "effect_description": "For the duration of the turn, if the target is also a valid target for a move used by one of its opponents, that move will target it instead.",
+    "effect_chance": null,
+    "flavor_text": "The user shines a spotlight on the target so that only the target will be attacked during the turn.",
+    "learned_by": [
+      "clefairy",
+      "clefable",
+      "starmie",
+      "lanturn",
+      "spinda",
+      "morelull",
+      "shiinotic"
+    ],
+    "total_learned_by": 7,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 3,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 783,
+    "name": "aura-wheel",
+    "type": "electric",
+    "power": 110,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": 100,
+    "flavor_text": "Morpeko attacks and raises its Speed with the energy stored in its cheeks. This move\u2019s type changes depending on the user\u2019s form.",
+    "learned_by": [
+      "morpeko-full-belly",
+      "morpeko-hangry"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

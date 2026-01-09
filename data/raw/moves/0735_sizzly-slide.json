@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 735,
+    "name": "sizzly-slide",
+    "type": "fire",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": 100,
+    "flavor_text": "The user cloaks itself in fire and charges at the target. This also leaves the target with a burn.",
+    "learned_by": [
+      "eevee-starter"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 750,
+    "name": "magic-powder",
+    "type": "psychic",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "damage_class": "status",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user scatters a cloud of magic powder that changes the target to Psychic type.",
+    "learned_by": [
+      "hatterene"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

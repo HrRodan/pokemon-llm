@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 455,
+    "name": "defend-order",
+    "type": "bug",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "Raises the user\u2019s Defense and Special Defense by one stage.",
+    "effect_chance": null,
+    "flavor_text": "The user calls out its underlings to make a living shield, raising its Defense and Sp. Def stats.",
+    "learned_by": [
+      "vespiquen"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

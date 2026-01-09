@@ -1,0 +1,47 @@
+{
+  "move_details": {
+    "id": 375,
+    "name": "psycho-shift",
+    "type": "psychic",
+    "power": null,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "status",
+    "effect_description": "If the user has a major status effect and the target does not, the user\u2019s status is transferred to the target.",
+    "effect_chance": null,
+    "flavor_text": "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+    "learned_by": [
+      "abra",
+      "hoothoot",
+      "noctowl",
+      "togepi",
+      "natu",
+      "xatu",
+      "murkrow",
+      "spinda",
+      "latias",
+      "latios",
+      "deoxys-normal",
+      "cresselia",
+      "woobat",
+      "sigilyph",
+      "deoxys-attack",
+      "deoxys-defense",
+      "deoxys-speed",
+      "latias-mega",
+      "latios-mega",
+      "articuno-galar",
+      "indeedee-female"
+    ],
+    "total_learned_by": 21,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

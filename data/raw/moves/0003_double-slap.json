@@ -1,0 +1,83 @@
+{
+  "move_details": {
+    "id": 3,
+    "name": "double-slap",
+    "type": "normal",
+    "power": 15,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits 2\u20135 times in one turn.  Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "effect_chance": null,
+    "flavor_text": "Repeatedly slaps 2-5 times.",
+    "learned_by": [
+      "clefairy",
+      "clefable",
+      "jigglypuff",
+      "wigglytuff",
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "chansey",
+      "mr-mime",
+      "jynx",
+      "pichu",
+      "politoed",
+      "aipom",
+      "blissey",
+      "skitty",
+      "delcatty",
+      "buizel",
+      "mime-jr",
+      "audino",
+      "trubbish",
+      "garbodor",
+      "minccino",
+      "gothita",
+      "gothorita",
+      "gothitelle",
+      "alomomola",
+      "mienfoo",
+      "mienshao",
+      "bunnelby",
+      "diggersby",
+      "popplio",
+      "brionne",
+      "primarina",
+      "oricorio-baile",
+      "salandit",
+      "salazzle",
+      "steenee",
+      "tsareena",
+      "audino-mega",
+      "oricorio-pom-pom",
+      "oricorio-pau",
+      "oricorio-sensu",
+      "salazzle-totem"
+    ],
+    "total_learned_by": 43,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "pound",
+            "url": "https://pokeapi.co/api/v2/move/1/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}

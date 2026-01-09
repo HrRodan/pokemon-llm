@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 549,
+    "name": "glaciate",
+    "type": "ice",
+    "power": 65,
+    "accuracy": 95,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Lowers the target\u2019s Speed by one stage.",
+    "effect_chance": 100,
+    "flavor_text": "The user attacks by blowing freezing cold air at opposing Pok\u00e9mon. This attack reduces the targets\u2019 Speed stat.",
+    "learned_by": [
+      "kyurem"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

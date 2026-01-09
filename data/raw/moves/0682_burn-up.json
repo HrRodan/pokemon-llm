@@ -1,0 +1,38 @@
+{
+  "move_details": {
+    "id": 682,
+    "name": "burn-up",
+    "type": "fire",
+    "power": 130,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Removes the user\u2019s fire type after damage calculation.  If the user is not fire-type, this move will fail.",
+    "effect_chance": null,
+    "flavor_text": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.",
+    "learned_by": [
+      "growlithe",
+      "arcanine",
+      "moltres",
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "ho-oh",
+      "tepig",
+      "carkol",
+      "coalossal",
+      "sizzlipede",
+      "centiskorch"
+    ],
+    "total_learned_by": 12,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

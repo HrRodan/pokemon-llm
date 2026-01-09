@@ -1,0 +1,62 @@
+{
+  "move_details": {
+    "id": 234,
+    "name": "morning-sun",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "damage_class": "status",
+    "effect_description": "Heals the user for half its max HP.  During sunny day, the healing is increased to 2/3 max HP.  During hail, rain dance, or sandstorm, the healing is decreased to 1/4 max HP.",
+    "effect_chance": null,
+    "flavor_text": "Restores HP (varies by time).",
+    "learned_by": [
+      "venonat",
+      "growlithe",
+      "ponyta",
+      "togepi",
+      "sunkern",
+      "espeon",
+      "beautifly",
+      "solrock",
+      "cherubi",
+      "cherrim",
+      "pidove",
+      "larvesta",
+      "solgaleo",
+      "necrozma",
+      "slither-wing",
+      "iron-moth",
+      "gouging-fire",
+      "necrozma-dusk",
+      "necrozma-dawn",
+      "necrozma-ultra",
+      "ponyta-galar",
+      "growlithe-hisui"
+    ],
+    "total_learned_by": 22,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "sunny-day",
+            "url": "https://pokeapi.co/api/v2/move/241/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "user",
+    "generation": "generation-ii",
+    "generation_info": {
+      "name": "Generation II",
+      "region": "Johto"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "move_details": {
+    "id": 541,
+    "name": "tail-slap",
+    "type": "normal",
+    "power": 25,
+    "accuracy": 85,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  Hits 2\u20135 times in one turn.  Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks by striking the target with its hard tail. It hits the target two to five times in a row.",
+    "learned_by": [
+      "vulpix",
+      "ninetales",
+      "mew",
+      "aipom",
+      "zigzagoon",
+      "linoone",
+      "buizel",
+      "stunky",
+      "skuntank",
+      "minccino",
+      "cinccino",
+      "meowstic-male",
+      "lycanroc-midday",
+      "skwovet",
+      "greedent",
+      "nickit",
+      "thievul",
+      "zacian",
+      "zamazenta",
+      "fezandipiti",
+      "meowstic-female",
+      "vulpix-alola",
+      "ninetales-alola",
+      "lycanroc-dusk",
+      "zacian-crowned",
+      "zamazenta-crowned"
+    ],
+    "total_learned_by": 26,
+    "machines": [
+      "sword-shield"
+    ],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

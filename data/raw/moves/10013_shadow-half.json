@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 10013,
+    "name": "shadow-half",
+    "type": "shadow",
+    "power": null,
+    "accuracy": 100,
+    "pp": null,
+    "damage_class": "special",
+    "effect_description": "Halves HP of all Pok\u00e9mon on the field.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+    "effect_chance": null,
+    "flavor_text": "No description available.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "entire-field",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

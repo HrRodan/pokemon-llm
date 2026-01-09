@@ -1,0 +1,28 @@
+{
+  "move_details": {
+    "id": 786,
+    "name": "overdrive",
+    "type": "electric",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "damage_class": "special",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user attacks opposing Pok\u00e9mon by twanging a guitar or bass guitar, causing a huge echo and strong vibration.",
+    "learned_by": [
+      "toxtricity-amped",
+      "toxtricity-low-key"
+    ],
+    "total_learned_by": 2,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

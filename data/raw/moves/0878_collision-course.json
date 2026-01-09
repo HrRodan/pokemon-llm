@@ -1,0 +1,31 @@
+{
+  "move_details": {
+    "id": 878,
+    "name": "collision-course",
+    "type": "fighting",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "physical",
+    "effect_description": "No description.",
+    "effect_chance": null,
+    "flavor_text": "The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move's power is boosted more than usual if it\u2019s a supereffective hit.",
+    "learned_by": [
+      "koraidon",
+      "koraidon-limited-build",
+      "koraidon-sprinting-build",
+      "koraidon-swimming-build",
+      "koraidon-gliding-build"
+    ],
+    "total_learned_by": 5,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-ix",
+    "generation_info": {
+      "name": "Generation IX",
+      "region": "Paldea"
+    }
+  }
+}

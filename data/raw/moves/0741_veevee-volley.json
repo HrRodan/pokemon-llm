@@ -1,0 +1,25 @@
+{
+  "move_details": {
+    "id": 741,
+    "name": "veevee-volley",
+    "type": "normal",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.",
+    "effect_chance": null,
+    "flavor_text": "The more Eevee loves its Trainer, the greater the move\u2019s power. It never misses.",
+    "learned_by": [],
+    "total_learned_by": 0,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

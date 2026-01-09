@@ -1,0 +1,58 @@
+{
+  "move_details": {
+    "id": 284,
+    "name": "eruption",
+    "type": "fire",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts regular damage.  Power increases with the user\u2019s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+    "effect_chance": null,
+    "flavor_text": "The higher the user\u2019s HP, the more damage caused.",
+    "learned_by": [
+      "cyndaquil",
+      "quilava",
+      "typhlosion",
+      "entei",
+      "camerupt",
+      "torkoal",
+      "groudon",
+      "groudon-primal",
+      "camerupt-mega",
+      "typhlosion-hisui"
+    ],
+    "total_learned_by": 10,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "earthquake",
+            "url": "https://pokeapi.co/api/v2/move/89/"
+          },
+          {
+            "name": "endure",
+            "url": "https://pokeapi.co/api/v2/move/203/"
+          },
+          {
+            "name": "sunny-day",
+            "url": "https://pokeapi.co/api/v2/move/241/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "all-opponents",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

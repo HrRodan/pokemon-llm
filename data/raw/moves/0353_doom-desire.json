@@ -1,0 +1,27 @@
+{
+  "move_details": {
+    "id": 353,
+    "name": "doom-desire",
+    "type": "steel",
+    "power": 140,
+    "accuracy": 100,
+    "pp": 5,
+    "damage_class": "special",
+    "effect_description": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won\u2019t change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.  This effect breaks through wonder guard.  If the target is protected by protect or detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection.  The damage is applied at the end of the turn, so it ignores endure and focus sash.  This move cannot be copied by mirror move.",
+    "effect_chance": null,
+    "flavor_text": "Summons strong sunlight to attack 2 turns later.",
+    "learned_by": [
+      "jirachi"
+    ],
+    "total_learned_by": 1,
+    "machines": [],
+    "contest_combos": null,
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

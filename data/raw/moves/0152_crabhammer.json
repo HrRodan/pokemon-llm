@@ -1,0 +1,54 @@
+{
+  "move_details": {
+    "id": 152,
+    "name": "crabhammer",
+    "type": "water",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 10,
+    "damage_class": "physical",
+    "effect_description": "Inflicts regular damage.  User\u2019s critical hit rate is one level higher when using this move.",
+    "effect_chance": null,
+    "flavor_text": "Has a high criti\u00ad cal hit ratio.",
+    "learned_by": [
+      "krabby",
+      "kingler",
+      "gligar",
+      "corphish",
+      "crawdaunt",
+      "gliscor",
+      "clauncher",
+      "clawitzer",
+      "crabrawler",
+      "klawf"
+    ],
+    "total_learned_by": 10,
+    "machines": [],
+    "contest_combos": {
+      "normal": {
+        "use_after": [
+          {
+            "name": "swords-dance",
+            "url": "https://pokeapi.co/api/v2/move/14/"
+          },
+          {
+            "name": "rain-dance",
+            "url": "https://pokeapi.co/api/v2/move/240/"
+          }
+        ],
+        "use_before": null
+      },
+      "super": {
+        "use_after": null,
+        "use_before": null
+      }
+    },
+    "priority": 0,
+    "target": "selected-pokemon",
+    "generation": "generation-i",
+    "generation_info": {
+      "name": "Generation I",
+      "region": "Kanto"
+    }
+  }
+}
