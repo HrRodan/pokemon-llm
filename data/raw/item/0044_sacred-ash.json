@@ -1,0 +1,51 @@
+{
+  "item_details": {
+    "id": 44,
+    "name": "sacred-ash",
+    "cost": 50000,
+    "category": "revival",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used\n:   Revives all fainted Pok\u00e9mon in the party and restores their HP to full.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Revives all fainted Pok\u00e9mon with full HP."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "This rare ash can revive all fainted Pok\u00e9mon in a party. In doing so, it also fully restores their maximum HP.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "ho-oh"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

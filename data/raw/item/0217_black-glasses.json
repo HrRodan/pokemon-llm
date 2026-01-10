@@ -1,0 +1,50 @@
+{
+  "item_details": {
+    "id": 217,
+    "name": "black-glasses",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the power of the holder\u2019s Dark moves by 20%.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Dark-Type moves from holder do 20% more damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It\u2019s a pair of shady-looking glasses that boost the power of Dark-type moves.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "sandile",
+      "krokorok",
+      "krookodile"
+    ],
+    "total_held_by": 3,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

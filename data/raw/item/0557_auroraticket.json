@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 557,
+    "name": "auroraticket",
+    "cost": 0,
+    "category": "event-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Provides access to Birth Island and deoxys.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Allows access to Birth Island and Deoxys."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A ticket required to board the ship to BIRTH ISLAND. It glows beautifully.",
+        "version_group": {
+          "name": "firered-leafgreen",
+          "url": "https://pokeapi.co/api/v2/version-group/7/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

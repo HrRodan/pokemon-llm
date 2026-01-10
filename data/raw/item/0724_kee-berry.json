@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 724,
+    "name": "kee-berry",
+    "cost": 80,
+    "category": "other",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held: When the holder is hit by a physical move, increases its Defense by one stage.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: When the holder is hit by a physical move, increases its Defense by one stage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "If held by a Pok\u00e9mon, this Berry will increase the holder\u2019s Defense if it\u2019s hit with a physical move.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": "berry-effect",
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

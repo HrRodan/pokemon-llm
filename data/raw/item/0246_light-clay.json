@@ -1,0 +1,54 @@
+{
+  "item_details": {
+    "id": 246,
+    "name": "light-clay",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: The holder\u2019s Reflect and Light Screen will create effects lasting for eight turns rather than five.  As this item affects the move rather than the barrier itself, the effect is not lost if the holder leaves battle or drops this item.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Light Screen and Reflect used by the holder last 8 rounds instead of 5."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Pok\u00e9mon hold item that extends the duration of barrier moves like Light Screen and Reflect used by the holder.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "baltoy",
+      "claydol",
+      "golett",
+      "golurk",
+      "mudbray",
+      "mudsdale"
+    ],
+    "total_held_by": 6,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

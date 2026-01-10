@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 408,
+    "name": "poke-radar",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Designates several nearby patches of grass as containing Pok\u00e9mon, some of which may be special radar-only Pok\u00e9mon.  Successive uses in a certain way create chains of encounters with the same species; longer chains increase the chance that a shiny Pok\u00e9mon of that species will appear.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Use to track down rare or shiny Pok\u00e9mon. 50 steps to recharge."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A tool that can search out Pok\u00e9mon that are hiding in the tall grass. Its battery is recharged as you walk.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

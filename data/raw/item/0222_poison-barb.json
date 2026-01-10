@@ -1,0 +1,66 @@
+{
+  "item_details": {
+    "id": 222,
+    "name": "poison-barb",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the power of the holder\u2019s Poison moves by 20%.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Poison-Type moves from holder do 20% more damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It is a small, poisonous barb that ups the power of Poison-type moves.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "beedrill",
+      "arbok",
+      "tentacool",
+      "tentacruel",
+      "qwilfish",
+      "roselia",
+      "cacnea",
+      "cacturne",
+      "budew",
+      "roserade",
+      "vespiquen",
+      "skorupi",
+      "drapion",
+      "venipede",
+      "whirlipede",
+      "scolipede",
+      "mareanie",
+      "toxapex",
+      "beedrill-mega"
+    ],
+    "total_held_by": 19,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 70,
+    "fling_effect": "poison",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

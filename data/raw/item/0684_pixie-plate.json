@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 684,
+    "name": "pixie-plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held: Fairy-Type moves from holder do 20% more damage. Changes Arceus\u2019s and Judgment\u2019s type to Fairy.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Fairy-Type moves from holder do 20% more damage. Changes Arceus\u2019s and Judgment\u2019s type to Fairy."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It is a stone tablet that boosts the power of Fairy-type moves.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 90,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

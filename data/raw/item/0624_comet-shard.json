@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 624,
+    "name": "comet-shard",
+    "cost": 25000,
+    "category": "loot",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Cult vendor trash.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Sell to Ore Collector for 60000 Pok\u00e9dollars."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A shard that fell to the ground when a comet approached. It can be sold at a high price to shops.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "clefairy",
+      "clefable",
+      "cleffa",
+      "lunatone",
+      "solrock"
+    ],
+    "total_held_by": 5,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

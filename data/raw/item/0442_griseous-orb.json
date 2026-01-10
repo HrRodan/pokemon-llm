@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 442,
+    "name": "griseous-orb",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held by giratina\n:   Holder\u2019s dragon and ghost moves have 1.2\u00d7 their base power.\n\n    Holder is in Origin Forme.\n\nThis item cannot be held by any Pok\u00e9mon but Giratina.  When you enter the Union Room or connect to Wi-Fi, this item returns to your bag.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Boosts the damage from Giratina\u2019s Dragon-type and Ghost-type moves by 20%, and transforms it into Origin Forme."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves when it is held.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 60,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

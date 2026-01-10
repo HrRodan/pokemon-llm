@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 251,
+    "name": "quick-powder",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held by Ditto: Doubles the holder\u2019s initial Speed.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Doubles Ditto\u2019s Speed when held. The boost is lost after transforming."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by DITTO. Extremely fine yet hard, this odd powder boosts the Speed stat.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "ditto"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

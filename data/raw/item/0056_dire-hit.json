@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 56,
+    "name": "dire-hit",
+    "cost": 1000,
+    "category": "stat-boosts",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon in battle\n:   Increases the target\u2019s critical hit chance by one stage until it leaves the field.  Increases happiness by 1/1/0.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Increases the chance of a critical hit in battle.  Raises happiness."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item that greatly raises the critical-hit ratio of a Pok\u00e9mon during a battle. It can be used only once and wears off if the Pok\u00e9mon is withdrawn.",
+        "version_group": {
+          "name": "lets-go-pikachu-lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version-group/19/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

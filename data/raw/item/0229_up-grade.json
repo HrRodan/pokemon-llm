@@ -1,0 +1,45 @@
+{
+  "item_details": {
+    "id": 229,
+    "name": "up-grade",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held by Porygon: Evolves the holder into Porygon2 when traded.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Traded on a Porygon: Holder evolves into Porygon2."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A transparent device somehow filled with all sorts of data. It was produced by Silph Co.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "porygon2"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

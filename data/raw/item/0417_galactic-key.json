@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 417,
+    "name": "galactic-key",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Grants access to Galactic HQ in Veilstone City.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Grants access to Galactic HQ in Veilstone City."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A card key for disengaging the security systems in the Galactic HQ. Losing it can result in punishment, apparently.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

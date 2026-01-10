@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 982,
+    "name": "blue-petal",
+    "cost": 0,
+    "category": "unused",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "XXX new effect for blue-petal",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "XXX new effect for blue-petal"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A pressed flower petal you receive from Lana  during Mina\u2019s trial. The goal is to collect seven different kinds of petals.",
+        "version_group": {
+          "name": "ultra-sun-ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/18/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

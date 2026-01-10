@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 620,
+    "name": "dragon-skull",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Only used as a plot point; this item is given to the player and taken away in the same cutscene.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Return to the museum in Nacrene City."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A skull of a Pok\u00e9mon which was said to have braved the angry waters to fly around the world.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

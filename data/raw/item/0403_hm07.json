@@ -1,0 +1,56 @@
+{
+  "item_details": {
+    "id": 403,
+    "name": "hm07",
+    "cost": 0,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Teaches Waterfall to a compatible Pok\u00e9mon.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Teaches a move to a compatible Pok\u00e9mon. (Gen IV & III & II: Waterfall)"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "gold-silver",
+      "crystal",
+      "ruby-sapphire",
+      "emerald",
+      "firered-leafgreen",
+      "diamond-pearl",
+      "platinum",
+      "heartgold-soulsilver",
+      "colosseum",
+      "xd",
+      "omega-ruby-alpha-sapphire",
+      "brilliant-diamond-shining-pearl"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

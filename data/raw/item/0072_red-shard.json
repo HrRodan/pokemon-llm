@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 72,
+    "name": "red-shard",
+    "cost": 1000,
+    "category": "collectibles",
+    "attributes": [
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "No effect.\n\nIn Diamond and Pearl, trade ten for a sunny day TM in the house midway along the southern section of sinnoh route 212.\n\nIn Platinum, trade to move tutors on sinnoh route 212, in snowpoint city, and in the survival area.  Eight shards total are required per tutelage, but the particular combination of colors varies by move.\n\nIn HeartGold and SoulSilver, trade one for a cheri berry, a leppa berry, and a pecha berry with the Juggler near the Pok\u00e9mon Center in violet city.\n\nIn HeartGold and SoulSilver, trade one for a persim berry, a pomeg berry, and a razz berry with the Juggler near the pal park entrance in fuchsia city.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "No effect. Can be traded for items or moves."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A small red shard. It appears to be a fragment of some sort of implement made long ago.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "corsola"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

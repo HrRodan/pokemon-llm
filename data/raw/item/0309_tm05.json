@@ -1,0 +1,65 @@
+{
+  "item_details": {
+    "id": 309,
+    "name": "tm05",
+    "cost": 50000,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Teaches Roar to a compatible Pok\u00e9mon.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Teaches Roar to a compatible Pok\u00e9mon. (Gen I: Mega Kick)"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The target is scared off, and a different Pok\u00e9mon is dragged out. In the wild, this ends a battle against a single Pok\u00e9mon.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "red-blue",
+      "yellow",
+      "gold-silver",
+      "crystal",
+      "ruby-sapphire",
+      "emerald",
+      "firered-leafgreen",
+      "diamond-pearl",
+      "platinum",
+      "heartgold-soulsilver",
+      "black-white",
+      "colosseum",
+      "xd",
+      "black-2-white-2",
+      "x-y",
+      "omega-ruby-alpha-sapphire",
+      "sun-moon",
+      "ultra-sun-ultra-moon",
+      "lets-go-pikachu-lets-go-eevee",
+      "sword-shield",
+      "scarlet-violet"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

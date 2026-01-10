@@ -1,0 +1,52 @@
+{
+  "item_details": {
+    "id": 86,
+    "name": "tiny-mushroom",
+    "cost": 500,
+    "category": "loot",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Vendor trash.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Fire Red and Leaf Green: Trade two for prior Level-up moves. Sell for 250 Pok\u00e9dollars, or to Hungry Maid for 500 Pok\u00e9dollars."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A very small and rare mushroom. It\u2019s popular with a certain class of collectors and sought out by them.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "paras",
+      "parasect",
+      "shroomish",
+      "breloom",
+      "foongus",
+      "amoonguss",
+      "morelull",
+      "shiinotic"
+    ],
+    "total_held_by": 8,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

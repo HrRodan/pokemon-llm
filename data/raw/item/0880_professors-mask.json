@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 880,
+    "name": "professors-mask",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Lost by Professor Kukui.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Lost by Professor Kukui."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The mask that belongs to The Masked Royal.  This pro wrestler apparently sews his mask on a machine himself.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

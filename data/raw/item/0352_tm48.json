@@ -1,0 +1,65 @@
+{
+  "item_details": {
+    "id": 352,
+    "name": "tm48",
+    "cost": 1000,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Teaches Skill Swap to a compatible Pok\u00e9mon.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Teaches Round to a compatible Pok\u00e9mon. (Gen IV & III: Skill Swap Gen II: Fire Punch Gen I: Rock Slide)"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "red-blue",
+      "yellow",
+      "gold-silver",
+      "crystal",
+      "ruby-sapphire",
+      "emerald",
+      "firered-leafgreen",
+      "diamond-pearl",
+      "platinum",
+      "heartgold-soulsilver",
+      "black-white",
+      "colosseum",
+      "xd",
+      "black-2-white-2",
+      "x-y",
+      "omega-ruby-alpha-sapphire",
+      "sun-moon",
+      "ultra-sun-ultra-moon",
+      "lets-go-pikachu-lets-go-eevee",
+      "sword-shield",
+      "scarlet-violet"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 8,
+    "name": "nest-ball",
+    "cost": 1000,
+    "category": "special-balls",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  Has a catch rate of given by `(40 - level) / 10`, where `level` is the wild Pok\u00e9mon\u2019s level, to a maximum of 3.9\u00d7 for level 1 Pok\u00e9mon.  If the wild Pok\u00e9mon\u2019s level is higher than 30, this ball has a catch rate of 1\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Tries to catch a wild Pok\u00e9mon.  Success rate is 3.9\u00d7 for level 1 Pok\u00e9mon, and drops steadily to 1\u00d7 at level 30."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A somewhat different Pok\u00e9 Ball that becomes more effective the lower the level of the wild Pok\u00e9mon.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

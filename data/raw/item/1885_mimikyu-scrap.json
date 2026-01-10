@@ -1,0 +1,22 @@
+{
+  "item_details": {
+    "id": 1885,
+    "name": "mimikyu-scrap",
+    "cost": 40,
+    "category": "tm-materials",
+    "attributes": [],
+    "effect_entries": [],
+    "flavor_text_entries": [],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": null,
+    "generation_info": {
+      "name": "Unknown",
+      "region": "Unknown"
+    }
+  }
+}

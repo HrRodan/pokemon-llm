@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 1003,
+    "name": "roto-pp-restore",
+    "cost": 0,
+    "category": "unused",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "XXX new effect for roto-pp-restore",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "XXX new effect for roto-pp-restore"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "One of the Rotom Powers. It fully restores the PP of your battling Pok\u00e9mon.",
+        "version_group": {
+          "name": "ultra-sun-ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/18/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

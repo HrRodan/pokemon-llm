@@ -1,0 +1,45 @@
+{
+  "item_details": {
+    "id": 241,
+    "name": "yellow-scarf",
+    "cost": 100,
+    "category": "scarves",
+    "attributes": [
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the holder\u2019s Toughness during a Super Contest\u2019s Visual Competition.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Raises the holder\u2019s Toughness while in a contest."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. During a Contest, it raises the Tough aspect of the Pok\u00e9mon holding it.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

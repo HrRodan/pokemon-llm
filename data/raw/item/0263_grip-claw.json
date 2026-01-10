@@ -1,0 +1,53 @@
+{
+  "item_details": {
+    "id": 263,
+    "name": "grip-claw",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the duration of the holder\u2019s multiturn (2-5 turn) moves by three turns.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Holder\u2019s multi-turn trapping moves last 5 turns."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It extends the duration of multi-turn attacks, such as Bind and Wrap.",
+        "version_group": {
+          "name": "lets-go-pikachu-lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version-group/19/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "sandshrew",
+      "sandslash",
+      "sneasel",
+      "weavile",
+      "sandshrew-alola",
+      "sandslash-alola"
+    ],
+    "total_held_by": 6,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 90,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 440,
+    "name": "storage-key",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Grants access to the Team Galactic warehouse in Veilstone City."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A key that opens the storage hold inside the ABANDONED SHIP. It is old and looks easily broken.",
+        "version_group": {
+          "name": "firered-leafgreen",
+          "url": "https://pokeapi.co/api/v2/version-group/7/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

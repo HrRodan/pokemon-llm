@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 236,
+    "name": "stick",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held by Farfetch\u2019d: Raises the holder\u2019s critical hit counter by 2.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Raises Farfetch\u2019d\u2019s critical hit ratio by two stages."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by FARFETCH\u2019D. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "farfetchd"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 60,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

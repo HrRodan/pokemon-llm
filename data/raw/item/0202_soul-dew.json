@@ -1,0 +1,45 @@
+{
+  "item_details": {
+    "id": 202,
+    "name": "soul-dew",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held by Latias or Latios: Increases the holder\u2019s Special Attack and Special Defense by 50%.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Raises Latias and Latios\u2019s Special Attack and Special Defense by 50%."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 476,
+    "name": "basement-key",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used by trainer outside of battle\n:   Opens the door to the basement tunnel under goldenrod city.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "HS: Key to the tunnel under Goldenrod City. Gen III: Key to New Mauville."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The key to NEW MAUVILLE, which was constructed beneath MAUVILLE CITY.",
+        "version_group": {
+          "name": "firered-leafgreen",
+          "url": "https://pokeapi.co/api/v2/version-group/7/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

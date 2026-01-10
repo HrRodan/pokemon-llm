@@ -1,0 +1,58 @@
+{
+  "item_details": {
+    "id": 129,
+    "name": "rawst-berry",
+    "cost": 80,
+    "category": "medicine",
+    "attributes": [
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held in battle\n:   When the holder is burned, it consumes this item to cure the burn.\n\nUsed on a party Pok\u00e9mon\n:   Cures a burn.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Consumed when burned to cure a burn."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from a burn on its own in battle.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "vulpix",
+      "ninetales",
+      "growlithe",
+      "arcanine",
+      "magmar",
+      "magby",
+      "numel",
+      "camerupt",
+      "darumaka",
+      "darmanitan-standard",
+      "toucannon",
+      "darmanitan-zen"
+    ],
+    "total_held_by": 12,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": "berry-effect",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

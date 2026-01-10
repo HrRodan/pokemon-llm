@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 911,
+    "name": "water-memory",
+    "cost": 1000,
+    "category": "memories",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held: Changes Silvally to its Water form.  Changes Multi-Attack\u2019s type to Water.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Changes Silvally to its Water form.  Changes Multi-Attack\u2019s type to Water."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A memory disc that contains Water-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 50,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 7,
+    "name": "dive-ball",
+    "cost": 1000,
+    "category": "special-balls",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If the wild Pok\u00e9mon was encountered by surfing or fishing, this ball has a catch rate of 3.5\u00d7.  Otherwise, it has a catch rate of 1\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Tries to catch a wild Pok\u00e9mon. Success rate is 3.5\u00d7 when underwater, fishing, or surfing."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A somewhat different Pok\u00e9 Ball that works especially well when catching Pok\u00e9mon that live underwater.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 289,
+    "name": "dread-plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the power of the holder\u2019s Dark moves by 20%.\nHeld by a Multitype Pok\u00e9mon: Holder\u2019s type becomes Dark.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Dark-Type moves from holder do 20% more damage. Changes Arceus\u2019s and Judgment\u2019s type to Dark."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It is a stone tablet that boosts the power of Dark-type moves.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 90,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

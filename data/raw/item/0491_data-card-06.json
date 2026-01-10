@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 491,
+    "name": "data-card-06",
+    "cost": 0,
+    "category": "data-cards",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Relay Run.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Records the number of times the trainer has come in first in the Pok\u00e9athlon Relay Run."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "It holds Pok\u00e9athlon records. It is a card that shows how many times you won the Pok\u00e9athlon\u2019s Relay Run.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

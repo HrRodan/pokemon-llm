@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 888,
+    "name": "big-malasada",
+    "cost": 350,
+    "category": "status-cures",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Cures major status ailments and confusion.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Cures major status ailments and confusion."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The Alola region\u2019s local specialty\u2014fried bread. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

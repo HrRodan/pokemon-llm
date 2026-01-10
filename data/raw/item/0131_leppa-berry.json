@@ -1,0 +1,53 @@
+{
+  "item_details": {
+    "id": 131,
+    "name": "leppa-berry",
+    "cost": 80,
+    "category": "medicine",
+    "attributes": [
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held in battle\n:   When the holder is out of PP for one of its moves, it consumes this item to restore 10 of that move\u2019s PP.\n\nUsed on a party Pok\u00e9mon\n:   Restores 10 PP for a selected move.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Consumed when a move runs out of PP to restore its PP by 10."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can restore 10 PP to a depleted move during battle.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "clefairy",
+      "clefable",
+      "mr-mime",
+      "cleffa",
+      "skitty",
+      "delcatty",
+      "mime-jr"
+    ],
+    "total_held_by": 7,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": "berry-effect",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 453,
+    "name": "fast-ball",
+    "cost": 0,
+    "category": "apricorn-balls",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n:   If the wild Pok\u00e9mon\u2019s base speed is 100 or more, its catch rate is 4\u00d7 normal.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "4\u00d7 effectiveness on Pok\u00e9mon with 100 or greater base speed. (Gen II: Roaming or Fleeing Pok\u00e9mon). Made from Wht Apricorn."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Pok\u00e9 Ball that makes it easier to catch Pok\u00e9mon that are usually very quick to run away.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

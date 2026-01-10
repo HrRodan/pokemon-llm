@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 930,
+    "name": "holo-caster--red",
+    "cost": 0,
+    "category": "unused",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "XXX new effect for holo-caster--red",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "XXX new effect for holo-caster--red"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A device that allows users to receive and view hologram clips at any time. It\u2019s also used to chat with others.",
+        "version_group": {
+          "name": "ultra-sun-ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/18/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

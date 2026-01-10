@@ -1,0 +1,53 @@
+{
+  "item_details": {
+    "id": 94,
+    "name": "honey",
+    "cost": 900,
+    "category": "dex-completion",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used outside of battle\n:   Immediately triggers a wild Pok\u00e9mon battle, as long as the trainer is somewhere with wild Pok\u00e9mon\u2014i.e., in tall grass, in a cave, or surfing.\n\nCan be smeared on sweet-smelling trees to attract tree-dwelling Pok\u00e9mon after six hours.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": ""
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A sweet honey with a lush aroma that attracts wild Pok\u00e9mon when it is used in tall grass, in caves, or on special trees.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "surskit",
+      "combee",
+      "oricorio-baile",
+      "cutiefly",
+      "ribombee",
+      "oricorio-pom-pom",
+      "oricorio-pau",
+      "oricorio-sensu",
+      "ribombee-totem"
+    ],
+    "total_held_by": 9,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

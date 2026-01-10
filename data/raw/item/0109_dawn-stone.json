@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 109,
+    "name": "dawn-stone",
+    "cost": 3000,
+    "category": "evolution",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Evolves a male kirlia into gallade or a female snorunt into froslass.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Evolves a male Kirlia into Gallade or a female Snorunt into Froslass."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It sparkles like a glittering eye.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 80,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 621,
+    "name": "balm-mushroom",
+    "cost": 15000,
+    "category": "loot",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Cult vendor trash.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Sell to Hungry Maid for 25000 Pok\u00e9dollars."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A rare mushroom that gives off a nice fragrance. It can be sold at a high price to shops.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "paras",
+      "parasect",
+      "foongus",
+      "amoonguss"
+    ],
+    "total_held_by": 4,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

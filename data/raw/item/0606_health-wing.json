@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 606,
+    "name": "health-wing",
+    "cost": 300,
+    "category": "vitamins",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Increases the target\u2019s HP effort by 1.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Increases HP effort by 1."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item for use on a Pok\u00e9mon. It slightly increases the HP base points of a single Pok\u00e9mon.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 20,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

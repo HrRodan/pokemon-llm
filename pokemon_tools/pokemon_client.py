@@ -648,7 +648,7 @@ class PokemonAPIClient:
         except Exception as e:
             return {"error": str(e)}
 
-    def get_item_info(self, name: str) -> Dict[str, Any]:
+    def get_item_info(self, name: str, held_by_limit: int = 20) -> Dict[str, Any]:
         """
         Retrieves info about an Item.
         """
@@ -656,22 +656,75 @@ class PokemonAPIClient:
             clean_name = name.lower().replace(" ", "-")
             data = self._get("item", clean_name)
 
-            effect = "No description available."
-            for entry in data["effect_entries"]:
-                if entry["language"]["name"] == "en":
-                    effect = entry["effect"]
-                    break
+            # Effect Entries
+            effect_entries = []
+            if data.get("effect_entries"):
+                for entry in data["effect_entries"]:
+                    if entry["language"]["name"] == "en":
+                        effect_entries.append(entry)
+                        break
+
+            # Flavor Text (Longest English entry)
+            flavor_text_entries = []
+            if data.get("flavor_text_entries"):
+                english_entries = [
+                    entry
+                    for entry in data["flavor_text_entries"]
+                    if entry["language"]["name"] == "en"
+                ]
+                if english_entries:
+                    longest_entry = max(english_entries, key=lambda x: len(x["text"]))
+                    longest_entry["text"] = self._clean_text(longest_entry["text"])
+                    flavor_text_entries.append(longest_entry)
+
+            # Held By Pokemon
+            held_by_pokemon = []
+            total_held_by = 0
+            if data.get("held_by_pokemon"):
+                all_held_by = [h["pokemon"]["name"] for h in data["held_by_pokemon"]]
+                total_held_by = len(all_held_by)
+                if held_by_limit == -1:
+                    held_by_pokemon = all_held_by
+                else:
+                    held_by_pokemon = all_held_by[:held_by_limit]
+
+            # Machines
+            machines = []
+            if data.get("machines"):
+                machines = [m["version_group"]["name"] for m in data["machines"]]
+
+            # Generation
+            generation = None
+            if data.get("game_indices"):
+                # Sort by game index to find the earliest appearance roughly
+                sorted_indices = sorted(
+                    data["game_indices"], key=lambda x: x["game_index"]
+                )
+                if sorted_indices:
+                    # The 'game_indices' list in Item objects contains generation information.
+                    # We use the first index to approximate the generation.
+                    first_index = sorted_indices[0]
+                    if "generation" in first_index:
+                        generation = first_index["generation"]["name"]
 
             return {
+                "id": data["id"],
                 "name": data["name"],
                 "cost": data["cost"],
                 "category": data["category"]["name"],
-                "effect": self._clean_text(effect),
                 "attributes": [a["name"] for a in data.get("attributes", [])],
-                "fling_power": data.get("fling_power"),
+                "effect_entries": effect_entries,
+                "flavor_text_entries": flavor_text_entries,
+                "held_by_pokemon": held_by_pokemon,
+                "total_held_by": total_held_by,
+                "machines": machines,
+                "baby_trigger_for": data.get("baby_trigger_for"),
+                "sling_power": data.get("fling_power"),
                 "fling_effect": data.get("fling_effect", {}).get("name")
                 if data.get("fling_effect")
                 else None,
+                "generation": generation,
+                "generation_info": self._get_generation_info(generation),
             }
         except requests.exceptions.RequestException:
             return {"error": "Item not found."}
@@ -913,7 +966,7 @@ TOOLS: List[Dict[str, Any]] = [
         "type": "function",
         "function": {
             "name": "get_item_info",
-            "description": "Retrieves details about an Item (cost, effect, attributes, fling power).",
+            "description": "Retrieves info about an Item, including effects, flavor text, cost, attributes, who holds it (and total count), machines, and baby triggers.",
             "strict": True,
             "parameters": {
                 "type": "object",
@@ -921,7 +974,11 @@ TOOLS: List[Dict[str, Any]] = [
                     "name": {
                         "type": "string",
                         "description": "The name of the Item (e.g. 'leftovers').",
-                    }
+                    },
+                    "held_by_limit": {
+                        "type": "integer",
+                        "description": "Limit the number of pokemon shown to hold this item. Default 20. Set to -1 for all.",
+                    },
                 },
                 "required": ["name"],
                 "additionalProperties": False,

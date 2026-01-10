@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 106,
+    "name": "rare-bone",
+    "cost": 5000,
+    "category": "loot",
+    "attributes": [
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Vendor trash.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Sell for 5000 Pok\u00e9dollars, or to Bone Man for 10000 Pok\u00e9dollars."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A rare bone that is extremely valuable for the study of Pok\u00e9mon archeology. It can be sold for a high price to shops.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "dwebble",
+      "crustle"
+    ],
+    "total_held_by": 2,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 100,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

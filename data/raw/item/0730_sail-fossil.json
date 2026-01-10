@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 730,
+    "name": "sail-fossil",
+    "cost": 7000,
+    "category": "dex-completion",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Can be revived into an Amaura.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Can be revived into an Amaura."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A fossil from a prehistoric Pok\u00e9mon that once lived on the land. It looks like the impression from a skin sail.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 100,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

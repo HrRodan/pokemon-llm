@@ -1,0 +1,45 @@
+{
+  "item_details": {
+    "id": 99,
+    "name": "root-fossil",
+    "cost": 7000,
+    "category": "dex-completion",
+    "attributes": [
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Give to a scientist in the mining museum in oreburgh city or the Museum of Science in pewter city to receive a lileep.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Can be revived into a Lileep."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sea. It looks as if it could be part of a plant\u2019s root.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 100,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

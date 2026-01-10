@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 460,
+    "name": "yellow-apricorn",
+    "cost": 200,
+    "category": "apricorn-box",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "May be given to Kurt in azalea town to produce a moon ball.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Used to make a Moon Ball."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A yellow Apricorn. It has an invigorating scent.",
+        "version_group": {
+          "name": "heartgold-soulsilver",
+          "url": "https://pokeapi.co/api/v2/version-group/10/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

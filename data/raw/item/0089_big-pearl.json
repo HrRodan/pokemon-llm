@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 89,
+    "name": "big-pearl",
+    "cost": 8000,
+    "category": "loot",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Vendor trash.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Sell for 3750 Pok\u00e9dollars, or to Ore Collector for 7500 Pok\u00e9dollars."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "shellder",
+      "cloyster",
+      "gulpin",
+      "swalot",
+      "clamperl"
+    ],
+    "total_held_by": 5,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}
