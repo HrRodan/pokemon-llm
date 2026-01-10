@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 420,
+    "name": "vs-seeker",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Reveals trainers who want a rematch, by showing !! over their heads.  Each use drains the battery; requires 100 steps to charge.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Allows rebattling of on-screen trainers. 100 steps to recharge."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A device that indicates TRAINERS who want to battle. The battery charges while traveling.",
+        "version_group": {
+          "name": "firered-leafgreen",
+          "url": "https://pokeapi.co/api/v2/version-group/7/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 565,
+    "name": "burn-drive",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held by genesect\n:   Holder\u2019s buster is red, and its techno blast is fire-type.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Grants Genesect a red, Fire-type Techno Blast."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A cassette to be held by Genesect. It changes Genesect\u2019s Techno Blast move so it becomes Fire type.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 70,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

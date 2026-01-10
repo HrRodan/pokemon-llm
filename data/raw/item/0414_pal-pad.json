@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 414,
+    "name": "pal-pad",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Contains friend codes for up to 32 other players, as well as their sprite, gender, and basic statistics for those that have been seen on WFC.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Use to record Friend Codes and check your own."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play.",
+        "version_group": {
+          "name": "platinum",
+          "url": "https://pokeapi.co/api/v2/version-group/9/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 107,
+    "name": "shiny-stone",
+    "cost": 3000,
+    "category": "evolution",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Evolves a minccino into cinccino, a roselia into roserade, or a togetic into togekiss.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It shines with a dazzling light.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 80,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

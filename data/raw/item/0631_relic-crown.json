@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 631,
+    "name": "relic-crown",
+    "cost": 0,
+    "category": "loot",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Cult vendor trash.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Sell to Villa Owner for 300000 Pok\u00e9dollars."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

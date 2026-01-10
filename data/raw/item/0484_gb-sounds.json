@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 484,
+    "name": "gb-sounds",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used by trainer outside of battle\n:   Changes the background music to the equivalent 8-bit music.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Use to listen to GameBoy era audio."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A music player that allows you to listen to nostalgic songs. It\u2019s operated with the flip of a single switch.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

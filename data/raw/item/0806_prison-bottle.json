@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 806,
+    "name": "prison-bottle",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Transforms Hoopa into its Unbound form for up to three days.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Transforms Hoopa into its Unbound form for up to three days."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A bottle believed to have been used to seal away the power of a certain Pok\u00e9mon long, long ago.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

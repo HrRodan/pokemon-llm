@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 80,
+    "name": "sun-stone",
+    "cost": 3000,
+    "category": "evolution",
+    "attributes": [
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Evolves a cottonee into whimsicott, a gloom into bellossom, a petilil into lilligant, or a sunkern into sunflora.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It burns as red as the evening sun.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "solrock"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

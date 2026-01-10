@@ -1,0 +1,55 @@
+{
+  "item_details": {
+    "id": 258,
+    "name": "black-sludge",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: If the holder is Poison-type, restores 1/16 max HP at the end of each turn.  Otherwise, damages the holder by 1/16 its max HP at the end of each turn.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It gradually restores HP to Poison-type Pok\u00e9mon. It damages any other type.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "grimer",
+      "muk",
+      "croagunk",
+      "toxicroak",
+      "trubbish",
+      "garbodor",
+      "grimer-alola",
+      "muk-alola"
+    ],
+    "total_held_by": 8,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

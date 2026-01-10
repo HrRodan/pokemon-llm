@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 430,
+    "name": "lunar-wing",
+    "cost": 0,
+    "category": "event-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Cures the sailor\u2019s son of his nightmares; no reward, only a side effect of seeing Cresselia.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Cures sailor\u2019s son of nightmares in Canalave City."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A feather that glows like the moon. It is said to possess the power to dispel nightmares.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

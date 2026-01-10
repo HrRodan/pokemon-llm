@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 616,
+    "name": "pass-orb",
+    "cost": 200,
+    "category": "held-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Acts as currency to activate Pass Powers in the Entralink.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Activates Pass Powers."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A mysterious orb containing the power of the Unova region, to be used when generating Pass Power.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

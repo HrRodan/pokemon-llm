@@ -1,0 +1,46 @@
+{
+  "item_details": {
+    "id": 209,
+    "name": "scope-lens",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Raises the holder\u2019s critical hit counter by 1.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Raises the holder\u2019s critical hit ratio by one stage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It\u2019s a lens for scoping out weak points. It boosts the holder\u2019s critical-hit ratio.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "item_details": {
+    "id": 205,
+    "name": "smoke-ball",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: In wild battles, attempts to run away on the holder\u2019s turn will always succeed.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Allows the Holder to escape from any wild battle."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It enables the holder to flee from any wild Pok\u00e9mon encounter without fail.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "koffing",
+      "weezing",
+      "salandit",
+      "salazzle",
+      "salazzle-totem"
+    ],
+    "total_held_by": 5,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

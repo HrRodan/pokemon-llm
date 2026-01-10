@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 428,
+    "name": "suite-key",
+    "cost": 0,
+    "category": "event-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Opens the locked building in the lakeside resort.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Opens a locked building in the Lakeside Resort."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A key to one of the suites at a certain luxury hotel by a lake. For some odd reason, it often disappears.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

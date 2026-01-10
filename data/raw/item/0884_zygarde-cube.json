@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 884,
+    "name": "zygarde-cube",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Contains collected Zygarde cells/cores.  Can teach Zygarde moves.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Contains collected Zygarde cells/cores.  Can teach Zygarde moves."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde\u2019s forms.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

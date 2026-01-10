@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 255,
+    "name": "iron-ball",
+    "cost": 4000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Decreases the holder\u2019s Speed by 50%.  If the holder is Flying or has Levitate, it takes regular damage from Ground attacks and is suspectible to Spikes and Toxic Spikes.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Holder\u2019s Speed is halved. Negates all Ground-type immunities, and makes Flying-types take neutral damage from Ground-type moves. Arena Trap. Spikes, and Toxic Spikes affect the holder."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It lowers Speed and allows Ground-type moves to hit Flying types and holders that are levitating.",
+        "version_group": {
+          "name": "lets-go-pikachu-lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version-group/19/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "mawile"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 130,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

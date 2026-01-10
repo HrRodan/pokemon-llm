@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 297,
+    "name": "pure-incense",
+    "cost": 6000,
+    "category": "training",
+    "attributes": [
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held by lead Pok\u00e9mon: Prevents wild battles with Pok\u00e9mon that are lower level than the holder.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Prevents wild encounters of level lower than your party\u2019s lead Pok\u00e9mon. Breeding: Chimecho begets a Chingling Egg."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It helps keep wild Pok\u00e9mon away if the holder is the first one in the party.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": {
+      "url": "https://pokeapi.co/api/v2/evolution-chain/184/"
+    },
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

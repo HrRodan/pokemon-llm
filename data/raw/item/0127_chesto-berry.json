@@ -1,0 +1,55 @@
+{
+  "item_details": {
+    "id": 127,
+    "name": "chesto-berry",
+    "cost": 80,
+    "category": "medicine",
+    "attributes": [
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held in battle\n:   When the holder is asleep, it consumes this item to wake up.\n\nUsed on a party Pok\u00e9mon\n:   Cures sleep.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Consumed when asleep to cure sleep."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from sleep on its own in battle.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "snorlax",
+      "whismur",
+      "loudred",
+      "exploud",
+      "spinda",
+      "minccino",
+      "cinccino",
+      "mimikyu-disguised",
+      "mimikyu-totem-disguised"
+    ],
+    "total_held_by": 9,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": "berry-effect",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

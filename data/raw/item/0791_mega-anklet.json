@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 791,
+    "name": "mega-anklet",
+    "cost": 0,
+    "category": "unused",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Unused.  This is Zinnia\u2019s Key Stone in Omega Ruby and Alpha Sapphire, but it cannot be obtained by the player.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Unused NPC Key Stone."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "This anklet contains an untold power that somehow enables Pok\u00e9mon carrying a Mega Stone to Mega Evolve in battle.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

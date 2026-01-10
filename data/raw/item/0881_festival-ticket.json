@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 881,
+    "name": "festival-ticket",
+    "cost": 10,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Hosts a mission in Festival Plaza.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Hosts a mission in Festival Plaza."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A ticket that allows you to host a mission in Festival Plaza.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 585,
+    "name": "red-card",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held\n:   When the holder takes damage directly from a move and does not faint, it switches out for another random, non-fainted Pok\u00e9mon in its party.\nThis effect does not activate if another effect prevents the holder from switching out.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: When the holder takes damage from a move, the opponent switches out for another random party Pok\u00e9mon. Consumed after use."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. When the holder is hit by an attack, the attacker is removed from battle.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_details": {
+    "id": 1166,
+    "name": "fossilized-dino",
+    "cost": 5000,
+    "category": "dex-completion",
+    "attributes": [],
+    "effect_entries": [],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The fossil of an ancient Pok\u00e9mon that once lived in the sea. What it looked like is a mystery.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 100,
+    "fling_effect": null,
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

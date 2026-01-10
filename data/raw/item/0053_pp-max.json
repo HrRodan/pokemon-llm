@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 53,
+    "name": "pp-max",
+    "cost": 10000,
+    "category": "vitamins",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Increases a selected move\u2019s max PP to 1.6\u00d7 its original max PP.  Increases happiness by 5/3/2.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Raises a move\u2019s max PP by 60%."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A medicine that can optimally raise the maximum PP of a single move that has been learned by the target Pok\u00e9mon.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

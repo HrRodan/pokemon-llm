@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 594,
+    "name": "grass-gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held\n:   When the holder uses a damaging grass-type move, the move has 1.5\u00d7 power and this item is consumed.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: When the holder uses a damaging grass-type move, the move has 1.5\u00d7 power and this item is consumed."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

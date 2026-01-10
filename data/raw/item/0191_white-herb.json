@@ -1,0 +1,46 @@
+{
+  "item_details": {
+    "id": 191,
+    "name": "white-herb",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held in battle\n:   At the end of each turn, if any of the holder\u2019s stats have a negative stat modifier, the holder consumes this item to remove the modifiers from those stats.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Resets all lowered stats to normal at end of turn. Consumed after use."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It will restore any lowered stat in battle. It can be used only once.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": "herb-effect",
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

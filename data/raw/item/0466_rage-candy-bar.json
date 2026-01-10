@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 466,
+    "name": "rage-candy-bar",
+    "cost": 350,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "May be traded for a tm64 in the vertical Underground Path.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "HS: Traded for TM64. Gen II & Gen V: Acts as a Potion."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A famous Mahogany Town candy tourists like to buy and take home. It restores the HP of one Pok\u00e9mon by 20 points.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

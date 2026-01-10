@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 707,
+    "name": "banettite",
+    "cost": 0,
+    "category": "mega-stones",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held: Allows Banette to Mega Evolve into Mega Banette.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Allows Banette to Mega Evolve into Mega Banette."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "One of a variety of mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 80,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

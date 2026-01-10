@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 46,
+    "name": "protein",
+    "cost": 10000,
+    "category": "vitamins",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Increases Attack effort by 10, but won\u2019t increase it beyond 100.  Increases happiness by 5/3/2.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Raises Attack effort and happiness."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the Attack base points of a single Pok\u00e9mon.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

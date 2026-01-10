@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 472,
+    "name": "blue-card",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Allows the trainer to answer the daily question on Buena\u2019s radio show.  Records the points earned for correct answers.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Keeps track of points from Buena\u2019s show."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A card to save points for the Buena\u2019s Password show.",
+        "version_group": {
+          "name": "heartgold-soulsilver",
+          "url": "https://pokeapi.co/api/v2/version-group/10/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

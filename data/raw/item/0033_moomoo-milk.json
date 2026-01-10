@@ -1,0 +1,51 @@
+{
+  "item_details": {
+    "id": 33,
+    "name": "moomoo-milk",
+    "cost": 600,
+    "category": "healing",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Restores 100 HP.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Restores 100 HP."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A bottle of highly nutritious milk. When consumed, it restores up to 100 HP to an injured Pok\u00e9mon.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "miltank"
+    ],
+    "total_held_by": 1,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

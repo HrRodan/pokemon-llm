@@ -1,0 +1,36 @@
+{
+  "item_details": {
+    "id": 1233,
+    "name": "tr45",
+    "cost": 10000,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The user attacks by shooting muddy water at opposing Pok\u00e9mon. This may also lower their accuracy.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "sword-shield"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": 90,
+    "fling_effect": null,
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 587,
+    "name": "binding-band",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held\n:   Moves used by the holder that trap and damage a target for multiple turns (e.g. bind, fire spin) inflict twice their usual per-turn damage.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Doubles the per-turn damage of multi-turn trapping moves."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It\u2019s a band that increases the power of binding moves used by the holder.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

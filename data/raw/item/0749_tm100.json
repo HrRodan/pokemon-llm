@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 749,
+    "name": "tm100",
+    "cost": 5000,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Teaches a Pok\u00e9mon TM100.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Teaches a Pok\u00e9mon TM100."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target\u2019s Sp. Atk stat.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "x-y",
+      "omega-ruby-alpha-sapphire",
+      "sun-moon",
+      "ultra-sun-ultra-moon"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

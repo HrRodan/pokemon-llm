@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 110,
+    "name": "oval-stone",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held by happiny\n:   Holder evolves into chansey when it levels up during the daytime.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Level-up during Day on a Happiny: Holder evolves into Chansey."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It\u2019s as round as a Pok\u00e9mon Egg.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "chansey",
+      "blissey",
+      "happiny"
+    ],
+    "total_held_by": 3,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 80,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 245,
+    "name": "expert-belt",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: When the holder hits with a super-effective move, its power is raised by 20%.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Holder\u2019s Super Effective moves do 20% extra damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It is a well-worn belt that slightly boosts the power of supereffective moves.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "throh",
+      "sawk"
+    ],
+    "total_held_by": 2,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

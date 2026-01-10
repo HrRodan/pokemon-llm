@@ -1,0 +1,45 @@
+{
+  "item_details": {
+    "id": 111,
+    "name": "odd-keystone",
+    "cost": 2100,
+    "category": "dex-completion",
+    "attributes": [
+      "underground"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Place in the tower on sinnoh route 209.  Check the stone to encounter a spiritomb, as long as the trainer\u2019s Underground status card counts at least 32 greetings.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Use on the tower on Route 209 to encounter Spiritomb if you have at least 32 Underground greetings."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 80,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

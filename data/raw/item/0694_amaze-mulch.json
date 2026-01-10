@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 694,
+    "name": "amaze-mulch",
+    "cost": 200,
+    "category": "mulch",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Increases the total number of Berries by 2, increases the chance of Berry mutation, and causes soil to dry out in 4 hours.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Increases the total number of Berries by 2, increases the chance of Berry mutation, and causes soil to dry out in 4 hours."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

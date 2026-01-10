@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 580,
+    "name": "prism-scale",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held by feebas\n:   Holder evolves into milotic when traded.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Traded on a Feebas: Holder evolves into Milotic."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A mysterious scale that causes a certain Pok\u00e9mon to evolve. It shines in rainbow colors.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

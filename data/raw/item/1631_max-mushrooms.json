@@ -1,0 +1,34 @@
+{
+  "item_details": {
+    "id": 1631,
+    "name": "max-mushrooms",
+    "cost": 6000,
+    "category": "stat-boosts",
+    "attributes": [],
+    "effect_entries": [],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "Mushrooms that have the power of changing Dynamax forms. They boost all stats of a Pok\u00e9mon during battle.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-viii",
+    "generation_info": {
+      "name": "Generation VIII",
+      "region": "Galar"
+    }
+  }
+}

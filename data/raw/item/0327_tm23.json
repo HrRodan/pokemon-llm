@@ -1,0 +1,65 @@
+{
+  "item_details": {
+    "id": 327,
+    "name": "tm23",
+    "cost": 10000,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Teaches Iron Tail to a compatible Pok\u00e9mon.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Teaches Smack Down to a compatible Pok\u00e9mon. (Gen IV & III & II: Iron Tail Gen I: Dragon Rage)"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The user attacks and steals the target\u2019s held item simultaneously. The user can\u2019t steal anything if it already holds an item.",
+        "version_group": {
+          "name": "sword-shield",
+          "url": "https://pokeapi.co/api/v2/version-group/20/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "red-blue",
+      "yellow",
+      "gold-silver",
+      "crystal",
+      "ruby-sapphire",
+      "emerald",
+      "firered-leafgreen",
+      "diamond-pearl",
+      "platinum",
+      "heartgold-soulsilver",
+      "black-white",
+      "colosseum",
+      "xd",
+      "black-2-white-2",
+      "x-y",
+      "omega-ruby-alpha-sapphire",
+      "sun-moon",
+      "ultra-sun-ultra-moon",
+      "lets-go-pikachu-lets-go-eevee",
+      "sword-shield",
+      "scarlet-violet"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

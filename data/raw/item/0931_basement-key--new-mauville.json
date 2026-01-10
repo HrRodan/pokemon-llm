@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 931,
+    "name": "basement-key--new-mauville",
+    "cost": 0,
+    "category": "unused",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "XXX new effect for basement-key--new-mauville",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "XXX new effect for basement-key--new-mauville"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The key to New Mauville, which was constructed beneath Mauville City.",
+        "version_group": {
+          "name": "ultra-sun-ultra-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/18/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

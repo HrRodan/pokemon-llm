@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 740,
+    "name": "power-plant-pass",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Permits entry to the Kalos Power Plant.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Permits entry to the Kalos Power Plant."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "This pass serves as an ID card for gaining access to the power plant that lies along Route 13.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

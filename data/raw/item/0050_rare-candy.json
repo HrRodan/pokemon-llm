@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 50,
+    "name": "rare-candy",
+    "cost": 10000,
+    "category": "vitamins",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Increases level by 1.  Increases happiness by 5/3/2.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Causes a level-up and raises happiness."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pok\u00e9mon by one.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

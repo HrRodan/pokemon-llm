@@ -1,0 +1,46 @@
+{
+  "item_details": {
+    "id": 257,
+    "name": "destiny-knot",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: When the holder becomes Attracted, the Pok\u00e9mon it is Attracted to becomes Attracted back.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Infatuates opposing Pok\u00e9mon when holder is inflicted with infatuation."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A long, thin, bright red string to be held by a Pok\u00e9mon. If the holder becomes infatuated, the foe does too.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

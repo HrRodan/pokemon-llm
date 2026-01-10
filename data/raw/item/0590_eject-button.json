@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 590,
+    "name": "eject-button",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held\n:   When the holder takes damage directly from a move and does not faint, it switches out for another non-fainted Pok\u00e9mon in its party, as chosen by the Trainer.\nThis effect does not activate if another effect prevents the holder from switching out.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: When the holder takes damage from a move, it switches out for a party Pok\u00e9mon of the Trainer\u2019s choice."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. If the holder is hit by an attack, it will be switched out of battle.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

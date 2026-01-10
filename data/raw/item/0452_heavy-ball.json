@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 452,
+    "name": "heavy-ball",
+    "cost": 0,
+    "category": "apricorn-balls",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the wild Pok\u00e9mon weighs:\n\n    * 409.6 kg (903.0 lb) or more, its catch rate is 40 more than normal.\n    * 307.2 kg (677.3 lb) or more, its catch rate is 30 more than normal.\n    * 204.8 kg (451.5 lb) or more, its catch rate is 20 more than normal.\n    * less than 204.8 kg (451.5 lb), its catch rate is 20 less than normal.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Has flat bonus or penalty to catch rate depending on weight class of target. Made from Blk Apricorn."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Pok\u00e9 Ball that is better than usual at catching very heavy Pok\u00e9mon.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 432,
+    "name": "azure-flute",
+    "cost": 0,
+    "category": "event-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Allows entry into the Hall of Origin. Unreleased."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

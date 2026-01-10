@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 735,
+    "name": "honor-of-kalos",
+    "cost": 0,
+    "category": "plot-advancement",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Does nothing, but signifies becoming Champion.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Does nothing, but signifies becoming Champion."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A precious symbol that is awarded only to an individual who has done great things for the Kalos region.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vi",
+    "generation_info": {
+      "name": "Generation VI",
+      "region": "Kalos"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 662,
+    "name": "xtransceiver",
+    "cost": 0,
+    "category": "gameplay",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Makes four-way video calls.  Used for plot advancement in-game, but also works with other players via the C-Gear.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Makes four-way video calls."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A high-tech transceiver with a  camera function. It allows up to four-way calls.",
+        "version_group": {
+          "name": "black-white",
+          "url": "https://pokeapi.co/api/v2/version-group/11/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

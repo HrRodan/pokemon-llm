@@ -1,0 +1,47 @@
+{
+  "item_details": {
+    "id": 299,
+    "name": "electirizer",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held by Electabuzz: Evolves the holder into Electivire when traded.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Traded on an Electabuzz: Holder evolves into Electivire."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A box packed with a tremendous amount of electric energy. It is loved by a certain Pok\u00e9mon.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "electabuzz",
+      "elekid",
+      "electivire"
+    ],
+    "total_held_by": 3,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 80,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

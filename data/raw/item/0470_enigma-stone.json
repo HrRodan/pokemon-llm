@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 470,
+    "name": "enigma-stone",
+    "cost": 0,
+    "category": "event-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "When taken to the pewter city museum, causes latias or latios to attack the trainer.\n\nThe Pok\u00e9mon to appear will be whicher can\u2019t be encountered roaming in the wild.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "S: Summons Latias H: Summons Latios."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A crystal ball that was excavated from the ground. It\u2019s a very beautiful stone that is covered with bits of rock and earth.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

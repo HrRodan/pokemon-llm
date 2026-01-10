@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 887,
+    "name": "beast-ball",
+    "cost": 0,
+    "category": "special-balls",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If the wild Pok\u00e9mon is an Ultra Beast, this ball has a catch rate of 5\u00d7.  Otherwise, it has a catch rate of 0.1\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Tries to catch a wild Pok\u00e9mon.  Success rate is 5\u00d7 for Ultra Beasts and 0.1\u00d7 for all other Pok\u00e9mon."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A special Pok\u00e9 Ball designed to catch Ultra Beasts. It has a low success rate for catching others.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

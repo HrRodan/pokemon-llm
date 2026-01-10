@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 68,
+    "name": "black-flute",
+    "cost": 20,
+    "category": "spelunking",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used outside of battle\n:   Decreases the wild Pok\u00e9mon encounter rate by 50%.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Halves the wild Pok\u00e9mon encounter rate."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A flute made from black glass. It makes it easier to encounter strong Pok\u00e9mon in the place you use it.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

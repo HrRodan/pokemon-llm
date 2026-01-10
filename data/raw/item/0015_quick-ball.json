@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 15,
+    "name": "quick-ball",
+    "cost": 1000,
+    "category": "special-balls",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon, using a catch rate of 4\u00d7 on the first turn of a battle, but 1\u00d7 any other time.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Tries to catch a wild Pok\u00e9mon. Success rate is 4\u00d7 (Gen V: 5\u00d7), but only on the first turn."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A somewhat different Pok\u00e9 Ball that provides a better catch rate if it is used at the start of a wild encounter.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

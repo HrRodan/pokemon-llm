@@ -1,0 +1,54 @@
+{
+  "item_details": {
+    "id": 227,
+    "name": "dragon-fang",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the power of the holder\u2019s Dragon moves by 20%.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Dragon-Type moves from holder do 20% more damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
+        "version_group": {
+          "name": "diamond-pearl",
+          "url": "https://pokeapi.co/api/v2/version-group/8/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "dragonair",
+      "dragonite",
+      "bagon",
+      "shelgon",
+      "salamence",
+      "druddigon",
+      "salamence-mega"
+    ],
+    "total_held_by": 7,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 70,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

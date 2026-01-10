@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 836,
+    "name": "bottle-cap",
+    "cost": 5000,
+    "category": "loot",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Trade to Mr. Hyper to set one of a Pok\u00e9mon\u2019s genes to 31.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Trade to Mr. Hyper to maximize one of a Pok\u00e9mon\u2019s genes."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

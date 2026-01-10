@@ -1,0 +1,49 @@
+{
+  "item_details": {
+    "id": 41,
+    "name": "max-elixir",
+    "cost": 4500,
+    "category": "pp-recovery",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-overworld",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used on a party Pok\u00e9mon\n:   Restores PP to full for each move.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Restores PP to full for each move."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "This medicine can be used to fully restore the PP of all of the moves that have been learned by a Pok\u00e9mon.",
+        "version_group": {
+          "name": "lets-go-pikachu-lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version-group/19/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

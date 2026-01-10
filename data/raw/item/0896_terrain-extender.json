@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 896,
+    "name": "terrain-extender",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held: When the holder changes the Terrain (whether by move or ability), it will last  8 turns instead of 5.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Extends the holder\u2019s Terrain effects to 8 turns."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It extends the duration of the terrain caused by the holder\u2019s move or Ability.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 60,
+    "fling_effect": null,
+    "generation": "generation-vii",
+    "generation_info": {
+      "name": "Generation VII",
+      "region": "Alola"
+    }
+  }
+}

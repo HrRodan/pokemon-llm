@@ -1,0 +1,59 @@
+{
+  "item_details": {
+    "id": 210,
+    "name": "metal-coat",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held: Increases the power of the holder\u2019s Steel moves by 20%.\nHeld by Onix or Scyther: Evolves the holder into Steelix or Scizor when traded, respectively.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Steel-Type moves from holder do 20% more damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It is a special metallic film that can boost the power of Steel-type moves.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "magnemite",
+      "magneton",
+      "steelix",
+      "skarmory",
+      "beldum",
+      "metang",
+      "metagross",
+      "bronzor",
+      "bronzong",
+      "magnezone",
+      "steelix-mega",
+      "metagross-mega"
+    ],
+    "total_held_by": 12,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

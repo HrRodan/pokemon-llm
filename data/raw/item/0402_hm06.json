@@ -1,0 +1,58 @@
+{
+  "item_details": {
+    "id": 402,
+    "name": "hm06",
+    "cost": 0,
+    "category": "all-machines",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Teaches Rock Smash to a compatible Pok\u00e9mon.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Teaches Dive to a compatible Pok\u00e9mon. (Gen IV & III: Rock Smash Gen II: Whirlpool)"
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "The user attacks with a punch. This may also lower the target\u2019s Defense stat. This move can also shatter rocks in the field.",
+        "version_group": {
+          "name": "sun-moon",
+          "url": "https://pokeapi.co/api/v2/version-group/17/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [
+      "gold-silver",
+      "crystal",
+      "ruby-sapphire",
+      "emerald",
+      "firered-leafgreen",
+      "diamond-pearl",
+      "platinum",
+      "heartgold-soulsilver",
+      "black-white",
+      "colosseum",
+      "xd",
+      "black-2-white-2",
+      "omega-ruby-alpha-sapphire",
+      "brilliant-diamond-shining-pearl"
+    ],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iii",
+    "generation_info": {
+      "name": "Generation III",
+      "region": "Hoenn"
+    }
+  }
+}

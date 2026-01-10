@@ -1,0 +1,50 @@
+{
+  "item_details": {
+    "id": 589,
+    "name": "cell-battery",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Held\n:   When the holder takes electric-type damage from a move, its Attack rises by one stage and this item is consumed.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Raises the holder\u2019s Attack by one stage when it takes Electric-type damage."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "An item to be held by a Pok\u00e9mon. It boosts Attack if the holder is hit with an Electric-type attack. It can only be used once.",
+        "version_group": {
+          "name": "lets-go-pikachu-lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version-group/19/"
+        }
+      }
+    ],
+    "held_by_pokemon": [
+      "plusle",
+      "minun",
+      "charjabug",
+      "geodude-alola",
+      "graveler-alola",
+      "golem-alola"
+    ],
+    "total_held_by": 6,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 30,
+    "fling_effect": null,
+    "generation": "generation-v",
+    "generation_info": {
+      "name": "Generation V",
+      "region": "Unova"
+    }
+  }
+}

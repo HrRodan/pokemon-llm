@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 451,
+    "name": "moon-ball",
+    "cost": 0,
+    "category": "apricorn-balls",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used by trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the wild Pok\u00e9mon is a clefairy, nidoran m, nidoran f, jigglypuff, skitty, or any evolution thereof, the wild Pok\u00e9mon has 4\u00d7 its catch rate.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "4\u00d7 effectiveness on familes of Pok\u00e9mon with a Moon Stone evolution. Made from Ylw Apricorn."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Pok\u00e9 Ball that will make it easier to catch Pok\u00e9mon that can evolve using a Moon Stone.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

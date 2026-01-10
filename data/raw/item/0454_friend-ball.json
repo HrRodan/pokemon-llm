@@ -1,0 +1,43 @@
+{
+  "item_details": {
+    "id": 454,
+    "name": "friend-ball",
+    "cost": 0,
+    "category": "apricorn-balls",
+    "attributes": [],
+    "effect_entries": [
+      {
+        "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If caught, the wild Pok\u00e9mon\u2019s happiness starts at 200.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Caught Pok\u00e9mon start with 200 happiness. Made from Grn Apricorn."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A strange Pok\u00e9 Ball that will make the wild Pok\u00e9mon caught with it more friendly toward you immediately.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

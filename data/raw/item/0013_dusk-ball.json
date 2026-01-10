@@ -1,0 +1,48 @@
+{
+  "item_details": {
+    "id": 13,
+    "name": "dusk-ball",
+    "cost": 1000,
+    "category": "special-balls",
+    "attributes": [
+      "countable",
+      "consumable",
+      "usable-in-battle",
+      "holdable"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Used in battle\n:   Attempts to catch a wild Pok\u00e9mon.  If it\u2019s currently nighttime or the wild Pok\u00e9mon was encountered while walking in a cave, this ball has a catch rate of 3.5\u00d7.  Otherwise, it has a catch rate of 1\u00d7.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Tries to catch a wild Pok\u00e9mon.  Success rate is 3.5\u00d7 at night and in caves."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A somewhat different Pok\u00e9 Ball that makes it easier to catch wild Pok\u00e9mon at night or in dark places such as caves.",
+        "version_group": {
+          "name": "lets-go-pikachu-lets-go-eevee",
+          "url": "https://pokeapi.co/api/v2/version-group/19/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": null,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "item_details": {
+    "id": 188,
+    "name": "jaboca-berry",
+    "cost": 80,
+    "category": "other",
+    "attributes": [
+      "holdable-active"
+    ],
+    "effect_entries": [
+      {
+        "effect": "Held in battle\n:   When the holder takes physical damage, it consumes this item to damage the attacking Pok\u00e9mon for 1/8 its max HP.",
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "short_effect": "Held: Consumed to deal 1/8 attacker\u2019s max HP when holder is struck by a physical attack."
+      }
+    ],
+    "flavor_text_entries": [
+      {
+        "language": {
+          "name": "en",
+          "url": "https://pokeapi.co/api/v2/language/9/"
+        },
+        "text": "A Berry to be consumed by Pok\u00e9mon. If a physical attack hits the Pok\u00e9mon holding it, the attacker will also be hurt.",
+        "version_group": {
+          "name": "x-y",
+          "url": "https://pokeapi.co/api/v2/version-group/15/"
+        }
+      }
+    ],
+    "held_by_pokemon": [],
+    "total_held_by": 0,
+    "machines": [],
+    "baby_trigger_for": null,
+    "sling_power": 10,
+    "fling_effect": null,
+    "generation": "generation-iv",
+    "generation_info": {
+      "name": "Generation IV",
+      "region": "Sinnoh"
+    }
+  }
+}
