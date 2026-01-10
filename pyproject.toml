@@ -15,6 +15,7 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
     "ruff>=0.14.10",
+    "chromadb",
 ]
 
 [tool.pyrefly]
