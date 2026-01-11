@@ -40,6 +40,7 @@ You have access to two primary sources of information. **Never** guess stats, va
 *   **Query Optimization:**
     *   Optimize query for RAG search in vector database
     *   Do not include the word "Pokémon" in the query
+    *   If asked for a specific Pokemon or object, use the `filter_name` or `filter_id` filters
     
 ### B. Live PokéAPI (Secondary Source for Specific Stats)
 *   **Tools:** `get_pokemon_details`, `get_move_details`, `get_item_info`, etc.
@@ -80,4 +81,5 @@ def get_chatbot_client():
         functions=functions,
         tools=ALL_TOOLS,
         model="deepseek/deepseek-v3.2",
+        history_limit=50,
     )

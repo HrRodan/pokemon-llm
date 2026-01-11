@@ -321,6 +321,8 @@ def get_similar_objects(
     category: Optional[List[Literal["pokemon", "move", "item"]]] = None,
     max_generation: Optional[int] = None,
     only_default_version: bool = True,
+    filter_name: Optional[str] = None,
+    filter_id: Optional[int] = None,
 ) -> PokemonObjectList:
     """Queries the database and returns a PokemonObjectList.
 
@@ -330,6 +332,9 @@ def get_similar_objects(
         category: Optional list of categories to filter by.
         max_generation: Optional maximum generation (inclusive) to filter by.
         only_default_version: If True, only returns default forms (is_default=True).
+
+        filter_name: Optional name of the Pokemon, Move, or Item to filter by.
+        filter_id: Optional ID of the Pokemon, Move, or Item to filter by.
     """
     where_clauses = []
 
@@ -341,6 +346,14 @@ def get_similar_objects(
 
     if only_default_version:
         where_clauses.append({"is_default": True})
+
+    if filter_name:
+        clean_name = filter_name.lower().strip()
+        if clean_name not in ["null", "none"]:
+            where_clauses.append({"name": clean_name})
+
+    if filter_id is not None:
+        where_clauses.append({"id": filter_id})
 
     if len(where_clauses) > 1:
         where = {"$and": where_clauses}
@@ -377,6 +390,8 @@ def query_database(
     category: Optional[List[Literal["pokemon", "move", "item"]]] = None,
     max_generation: Optional[int] = None,
     only_default_version: bool = True,
+    filter_name: Optional[str] = None,
+    filter_id: Optional[int] = None,
 ) -> str:
     """Queries the database and returns a formatted string."""
     n_results = min(n_results, 20)
@@ -386,6 +401,8 @@ def query_database(
         category=category,
         max_generation=max_generation,
         only_default_version=only_default_version,
+        filter_name=filter_name,
+        filter_id=filter_id,
     )
     return object_list.to_formatted_string()
 
@@ -426,6 +443,14 @@ TOOLS: List[Dict[str, Any]] = [
                         "description": "Defaults to True. is_default: true: This is the 'main' version of the Pokémon (e.g., standard Bulbasaur, ID 1). is_default: false: This is a variant form (e.g., Mega Venusaur, ID 10033). Set to False to include variants.",
                         "default": True,
                     },
+                    "filter_name": {
+                        "type": ["string", "null"],
+                        "description": "Optional name of the Pokemon, Move, or Item to filter by (e.g. 'charizard'). Use this when being asked for a specific Pokemon or object.",
+                    },
+                    "filter_id": {
+                        "type": ["integer", "null"],
+                        "description": "Optional ID of the Pokemon, Move, or Item to filter by (e.g. 6). Use this when being asked for a specific ID.",
+                    },
                 },
                 "required": [
                     "query",
@@ -433,6 +458,8 @@ TOOLS: List[Dict[str, Any]] = [
                     "category",
                     "max_generation",
                     "only_default_version",
+                    "filter_name",
+                    "filter_id",
                 ],
                 "additionalProperties": False,
             },

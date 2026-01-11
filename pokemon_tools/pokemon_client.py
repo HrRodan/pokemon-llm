@@ -211,9 +211,6 @@ class PokemonAPIClient:
                 for a in data["abilities"]
             ]
 
-            # Moves
-            moves = [m["move"]["name"] for m in data["moves"]]
-
             # Forms
             forms = [f["name"] for f in data["forms"]]
 
@@ -266,9 +263,6 @@ class PokemonAPIClient:
                         "egg_groups": [
                             egg["name"] for egg in sp_data.get("egg_groups", [])
                         ],
-                        "evolution_chain_url": sp_data.get("evolution_chain", {}).get(
-                            "url"
-                        ),
                         "generation": sp_data.get("generation", {}).get("name"),
                         "generation_info": self._get_generation_info(
                             sp_data.get("generation", {}).get("name")
@@ -300,16 +294,10 @@ class PokemonAPIClient:
                 "weight_kg": weight_kg,
                 "abilities": abilities,
                 "forms": forms,
-                "moves": moves,
                 "held_items": held_items,
                 "base_experience": data.get("base_experience"),
                 "is_default": data.get("is_default"),
                 "order": data.get("order"),
-                "sprites": {
-                    "front_default": data["sprites"].get("front_default"),
-                    "back_default": data["sprites"].get("back_default"),
-                    "front_shiny": data["sprites"].get("front_shiny"),
-                },
             }
             # Merge species data
             result.update(species_data)
@@ -317,6 +305,44 @@ class PokemonAPIClient:
                 result["evolution"] = evolution_chain_data
             return result
 
+        except requests.exceptions.RequestException:
+            return {"error": f"Pokemon '{name}' not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_pokemon_moves(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves the full list of moves for a Pokemon.
+        """
+        try:
+            data = self._get("pokemon", name.lower())
+            moves = [m["move"]["name"] for m in data["moves"]]
+            return {
+                "name": data["name"],
+                "moves": moves,
+                "total_moves": len(moves),
+            }
+        except requests.exceptions.RequestException:
+            return {"error": f"Pokemon '{name}' not found."}
+        except Exception as e:
+            return {"error": str(e)}
+
+    def get_pokemon_sprites(self, name: str) -> Dict[str, Any]:
+        """
+        Retrieves sprites/images for a Pokemon.
+        """
+        try:
+            data = self._get("pokemon", name.lower())
+            return {
+                "name": data["name"],
+                "sprites": {
+                    "front_default": data["sprites"].get("front_default"),
+                    "back_default": data["sprites"].get("back_default"),
+                    "front_shiny": data["sprites"].get("front_shiny"),
+                    "back_shiny": data["sprites"].get("back_shiny"),
+                    "other": data["sprites"].get("other", {}),
+                },
+            }
         except requests.exceptions.RequestException:
             return {"error": f"Pokemon '{name}' not found."}
         except Exception as e:
@@ -349,7 +375,6 @@ class PokemonAPIClient:
                 "flavor_text": flavor_text,
                 "is_legendary": is_legendary,
                 "capture_rate": data["capture_rate"],
-                "evolution_chain_url": data["evolution_chain"]["url"],
                 "genus": genus,
                 "generation": data.get("generation", {}).get("name"),
                 "generation_info": self._get_generation_info(
@@ -797,6 +822,7 @@ You have access to external Python functions (Tools) to retrieve live data. **Ne
 
 ## 3. Process
 * **Input:** Use the name provided by the user (or search/infer the closest match if the name is not exact) for tool calls (e.g., "Charizard" -> `get_pokemon_details("charizard")`).
+* **Specific Moves:** Only call `get_pokemon_moves` if the user *explicitly* asks for the moves of a Pokemon. Do not call it for general inquiries.
 * **Parallel Execution:** You can and should make **multiple tool calls simultaneously** if you need data for more than one entity. For example, if asked about Charmander and Squirtle, call `get_pokemon_details("charmander")` and `get_pokemon_details("squirtle")` in the same turn.
 * **Output:** Incorporate the returned JSON data naturally into your response.
 
@@ -825,7 +851,45 @@ TOOLS: List[Dict[str, Any]] = [
         "type": "function",
         "function": {
             "name": "get_pokemon_details",
-            "description": "Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), moves, forms, held items, species info (flavor text, habitat, happiness, generation), AND full evolution chain. Use this for almost all Pokemon questions.",
+            "description": "Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), forms, held items, species info (flavor text, habitat, happiness, generation), AND full evolution chain. Use this for almost all Pokemon questions. Note: DOES NOT return moves or sprites.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Pokemon (e.g. 'charizard').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_pokemon_sprites",
+            "description": "Retrieves images/sprites for a specific Pokemon. Only use this if the user explicitly asks to see what a pokemon looks like.",
+            "strict": True,
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the Pokemon (e.g. 'charizard').",
+                    }
+                },
+                "required": ["name"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_pokemon_moves",
+            "description": "Retrieves the full list of moves for a specific Pokemon. Only use this if the user explicitly asks for moves.",
             "strict": True,
             "parameters": {
                 "type": "object",
