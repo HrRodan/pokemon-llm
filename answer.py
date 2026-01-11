@@ -1,3 +1,5 @@
+import time
+import threading
 from chatbot import get_chatbot_client
 
 
@@ -76,8 +78,26 @@ def respond(message, client_state):
         client_state,
     )
 
-    # Handle tool calls
-    response = client_state.get_tool_responses()
+    # Handle tool calls using a separate thread for UI responsiveness
+    t = threading.Thread(target=client_state.get_tool_responses)
+    t.start()
+
+    # Poll thread status and yield updates to UI
+    while t.is_alive():
+        # Wait up to 5 seconds for the thread to finish
+        t.join(timeout=5)
+        # If still alive, yield an update to show we are still processing
+        if t.is_alive():
+            yield (
+                "",
+                client_state.clean_chat_history
+                + [{"role": "assistant", "content": "..."}],
+                extract_tool_info(client_state),
+                client_state,
+            )
+
+    # Ensure thread is fully joined
+    t.join()
 
     # Yield 3: Final state
     yield (

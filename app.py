@@ -2,64 +2,85 @@ import gradio as gr
 from chatbot import get_chatbot_client
 from answer import respond, change_model
 
+# 🎨 Modern Theme Definition
+# Default theme requested
 
-with gr.Blocks() as app:
-    gr.Markdown("# Pokémon Chatbot")
-
-    # Create unique client per session
+# 📱 Application Layout
+with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
+    # State Management
     client_state = gr.State(get_chatbot_client)
 
+    # Header
     with gr.Row():
-        with gr.Column(scale=3):
-            # Main Chatbot
-            chatbot = gr.Chatbot(height=500, label="Chat History")
+        gr.Markdown(
+            """
+            # ⚡ Pokémon AI Agent
+            *Your intelligent companion for all things Pokémon. Powered by Vector Search & Function Calling.*
+            """
+        )
+
+    with gr.Row(equal_height=True):
+        # 💬 Left Column: Chat Interface
+        with gr.Column(scale=3, min_width=400):
+            chatbot = gr.Chatbot(
+                height=600,
+                label="Conversation",
+                avatar_images=(
+                    None,
+                    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+                ),
+                render=True,
+            )
 
             with gr.Row():
                 msg = gr.Textbox(
                     scale=4,
-                    placeholder="Ask me about Pokémon...",
+                    placeholder="Ask about Pokémon stats, moves, items, or lore...",
                     show_label=False,
                     container=False,
+                    autofocus=True,
                 )
-                btn = gr.Button("Submit", scale=1, variant="primary")
+                btn = gr.Button("Send", scale=1, variant="primary")
 
-            gr.Markdown("### ⚙️ Settings")
-            model_selector = gr.Dropdown(
-                choices=[
-                    "deepseek/deepseek-v3.2",
-                    "openai/gpt-oss-120b",
-                    "openai/gpt-oss-20b",
+            # Examples for User Onboarding
+            gr.Examples(
+                examples=[
+                    ["Tell me about a top fire pokemon."],
+                    ["What Pokemon does look like a dog?"],
+                    ["Describe the move Hyper Beam."],
+                    ["Who is Eevee?"],
+                    ["How do I evolve Scyther?"],
                 ],
-                value="deepseek/deepseek-v3.2",
-                label="Model",
-                interactive=True,
+                inputs=msg,
+                label="📝 Try these examples (Vector DB & Tools)",
+                elem_id="example-prompts",
             )
 
-        with gr.Column(scale=2):
-            # Settings and Tool Outputs
+        # 🛠️ Right Column: Tools & Settings
+        with gr.Column(scale=2, min_width=300):
+            with gr.Tabs():
+                with gr.TabItem("🛠️ Tool Activity"):
+                    tool_output = gr.Chatbot(
+                        height=550,
+                        label="Tool Logs",
+                        show_label=False,
+                    )
 
-            gr.Markdown("### 🛠️ Tool Activity")
-            tool_output = gr.Chatbot(
-                height=500,
-                label="Tool Output",
-                show_label=True,
-            )
-    # Bind events
-    dataset = gr.Dataset(
-        components=[msg],
-        samples=[
-            ["How do I evolve Eevee?"],
-            ["Tell me about Pikachu."],
-            ["Tell me something about fire Pokemon."],
-        ],
-    )
+                with gr.TabItem("⚙️ Settings"):
+                    gr.Markdown("### 🧠 Model Configuration")
+                    model_selector = gr.Dropdown(
+                        choices=[
+                            "deepseek/deepseek-v3.2",
+                            "openai/gpt-oss-120b",
+                            "openai/gpt-oss-20b",
+                        ],
+                        value="deepseek/deepseek-v3.2",
+                        label="Select LLM",
+                        interactive=True,
+                        info="Choose the underlying model processing your requests.",
+                    )
 
-    def fill_input(sample):
-        return sample[0]
-
-    dataset.click(fill_input, inputs=dataset, outputs=msg)
-
-    # Update respond event to include tool_output
+    # 🔗 Event Wiring
     msg.submit(
         respond,
         inputs=[msg, client_state],
@@ -71,7 +92,7 @@ with gr.Blocks() as app:
         outputs=[msg, chatbot, tool_output, client_state],
     )
 
-    # Model change event
+    # Model Change Handler
     model_selector.change(
         change_model, inputs=[model_selector, client_state], outputs=[client_state]
     )

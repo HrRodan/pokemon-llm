@@ -92,16 +92,16 @@ GeminiModels = Literal[
     "gemini-flash-lite-latest",
     "models/imagen-4.0-generate-001",
     "gemini-2.5-pro-preview-tts",
-    "gemini-3-flash-preview"
+    "gemini-3-flash-preview",
 ]
 
 OpenRouterModels = Literal[
-    "anthropic/claude-sonnet-4.5",
+    #"anthropic/claude-sonnet-4.5",
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
     "deepseek/deepseek-v3.2",  # top price / intelligence
-    "x-ai/grok-4",
-    "anthropic/claude-opus-4.5",
+    #"x-ai/grok-4",
+    #"anthropic/claude-opus-4.5",
     "x-ai/grok-4.1-fast",  # top price / intelligence
     "z-ai/glm-4.7",
     "moonshotai/kimi-k2-thinking",

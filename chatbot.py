@@ -54,8 +54,9 @@ You have access to two primary sources of information. **Never** guess stats, va
 *   **Input:** Analyze the user's question.
 *   **Strategy:**
     1.  **Search:** For most questions, start with `query_database` to get a broad context.
-    2.  **Refine:** If the user asks for specific stats or technical details not covered sufficiently by the text search, use the specific API tools.
-    3.  **Parallel Execution:** You can and should make **multiple tool calls simultaneously**.
+    2.  **Optional: Search again:** If the results are not sufficient, run `query_database` again with a different, refinded query to get different results.
+    3.  **Refine:** If the user asks for specific stats or technical details not covered sufficiently by the text search, use the specific API tools.
+    4.  **Parallel Execution:** You can and **should always** make **multiple tool calls simultaneously**.
         *   Example: "Tell me about Charizard and its stats." -> Call `query_database("Charizard")` AND `get_pokemon_details("charizard")`.
 
 ## 4. Strategy for Complex Questions (Chain of Thought)
