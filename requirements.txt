@@ -99,9 +99,9 @@ google-auth==2.47.0
     # via kubernetes
 googleapis-common-protos==1.72.0
     # via opentelemetry-exporter-otlp-proto-grpc
-gradio==6.2.0
+gradio==6.3.0
     # via pokemon-llm (pyproject.toml)
-gradio-client==2.0.2
+gradio-client==2.0.3
     # via gradio
 groovy==0.1.2
     # via gradio
