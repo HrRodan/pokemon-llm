@@ -281,7 +281,7 @@ def _process_batch(batch_items):
 
     for uid in ids_to_process:
         obj = objects_map[uid]
-        meta_dict = obj.metadatas.model_dump()
+        meta_dict = obj.metadatas.model_dump(exclude_none=True)
 
         if uid in existing_ids:
             update_ids.append(uid)
