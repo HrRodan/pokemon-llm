@@ -96,16 +96,18 @@ GeminiModels = Literal[
 ]
 
 OpenRouterModels = Literal[
-    #"anthropic/claude-sonnet-4.5",
+    # "anthropic/claude-sonnet-4.5",
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
     "deepseek/deepseek-v3.2",  # top price / intelligence
-    #"x-ai/grok-4",
-    #"anthropic/claude-opus-4.5",
+    # "x-ai/grok-4",
+    # "anthropic/claude-opus-4.5",
     "x-ai/grok-4.1-fast",  # top price / intelligence
     "z-ai/glm-4.7",
     "moonshotai/kimi-k2-thinking",
+    "xiaomi/mimo-v2-flash:free",  # free model
     "qwen/qwen3-embedding-8b",  # Embedding model
+    "nvidia/nemotron-3-nano-30b-a3b",
 ]
 
 ModelName = Union[GPTModels, OllamaModels, GeminiModels, OpenRouterModels]
@@ -263,8 +265,6 @@ class LLMQuery:
             tts_model (str, optional): The TTS model to use. Defaults to "gpt-4o-mini-tts".
             transcription_model (str, optional): The transcription model to use. Defaults to "gemini-2.5-flash".
             embedding_model (str, optional): The embedding model to use. Defaults to "qwen/qwen3-embedding-8b".
-            reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
-            reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
             reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
             history_limit (int, optional): The maximum number of history entries to include. Defaults to None (all history).
             response_format (Union[Dict[str, Any], Type[BaseModel], None], optional): The format of the response. Can be a dict or a Pydantic model. Defaults to None.

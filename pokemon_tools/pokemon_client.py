@@ -628,15 +628,17 @@ class PokemonAPIClient:
             data = self._get("type", type_name.lower())
 
             pokemon_list = [p["pokemon"]["name"] for p in data["pokemon"]]
+            total_count = len(pokemon_list)
 
-            selected_pokemon = random.sample(
-                pokemon_list, min(len(pokemon_list), limit)
-            )
+            if limit == -1:
+                selected_pokemon = pokemon_list
+            else:
+                selected_pokemon = random.sample(pokemon_list, min(total_count, limit))
 
             return {
                 "type": type_name,
-                "pokemon_examples": selected_pokemon,
-                "total_count": len(pokemon_list),
+                "pokemon": selected_pokemon,
+                "total_count": total_count,
             }
         except requests.exceptions.RequestException:
             return {"error": "Type not found."}
@@ -809,41 +811,6 @@ class PokemonAPIClient:
         except Exception as e:
             return {"error": str(e)}
 
-    def get_system_prompt(self) -> str:
-        return """# System Prompt: Professor Oak (Pokémon API Agent)
-
-## 1. Role and Personality
-You are **Professor Oak**, the renowned Pokémon researcher from Pallet Town.
-* Your goal is to help trainers with their questions by consulting the **Pokédex** (the PokéAPI).
-* You are helpful, encyclopedic, and friendly.
-
-## 2. Your Tools
-You have access to external Python functions (Tools) to retrieve live data. **Never** guess stats, values, or other details – **always use the Tools.** The tools are crucial for correct answers.
-
-## 3. Process
-* **Input:** Use the name provided by the user (or search/infer the closest match if the name is not exact) for tool calls (e.g., "Charizard" -> `get_pokemon_details("charizard")`).
-* **Specific Moves:** Only call `get_pokemon_moves` if the user *explicitly* asks for the moves of a Pokemon. Do not call it for general inquiries.
-* **Parallel Execution:** You can and should make **multiple tool calls simultaneously** if you need data for more than one entity. For example, if asked about Charmander and Squirtle, call `get_pokemon_details("charmander")` and `get_pokemon_details("squirtle")` in the same turn.
-* **Output:** Incorporate the returned JSON data naturally into your response.
-
-## 4. Strategy for Complex Questions (Chain of Thought)
-If an answer requires multiple steps, plan independently. Follow the references in the Tool Output.
-
-**Scenario: "How do I evolve Eevee into Umbreon?"**
-1.  I need evolution data -> Call `get_pokemon_details("eevee")`.
-2.  I analyze the `evolution` key in the JSON response.
-3.  I find "umbreon" in `evolves_to` and check its conditions.
-4.  I see `time_of_day: night` and `min_happiness`.
-5.  **Answer:** "You must train Eevee at **night** while it has high **friendship** with you."
-
-## 5. Formatting
-* Use **Bold** for Pokémon names, locations, and important values.
-* Use bullet points for lists (e.g., moves or locations).
-* If data is missing (e.g., API Error), apologize in character ("My Pokédex is currently not providing data on this").
-
----
-**Begin the interaction now.**"""
-
 
 # Tool definitions matching the class methods
 TOOLS: List[Dict[str, Any]] = [
@@ -965,30 +932,30 @@ TOOLS: List[Dict[str, Any]] = [
             },
         },
     },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_nature_info",
-            "description": "Retrieves details about a Nature. Shows which stat is increased and which is decreased. Important for strategic questions.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Nature (e.g. 'adamant', 'jolly').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
+    # {
+    #     "type": "function",
+    #     "function": {
+    #         "name": "get_nature_info",
+    #         "description": "Retrieves details about a Nature. Shows which stat is increased and which is decreased. Important for strategic questions.",
+    #         "strict": True,
+    #         "parameters": {
+    #             "type": "object",
+    #             "properties": {
+    #                 "name": {
+    #                     "type": "string",
+    #                     "description": "The name of the Nature (e.g. 'adamant', 'jolly').",
+    #                 }
+    #             },
+    #             "required": ["name"],
+    #             "additionalProperties": False,
+    #         },
+    #     },
+    # },
     {
         "type": "function",
         "function": {
             "name": "get_pokemon_list_by_type",
-            "description": "Returns a list of Pokemon that share a specific elemental type. Use this when the user asks for examples of a type.",
+            "description": "Returns a list of Pokemon that share a specific elemental type. Use this when the user asks for examples or all Pokemon of a type.",
             "strict": True,
             "parameters": {
                 "type": "object",
@@ -999,7 +966,7 @@ TOOLS: List[Dict[str, Any]] = [
                     },
                     "limit": {
                         "type": "integer",
-                        "description": "How many examples to return (Default: 10).",
+                        "description": "How many examples to return (Default: 10). Set to -1 to return all.",
                     },
                 },
                 "required": ["type_name", "limit"],
@@ -1049,61 +1016,62 @@ TOOLS: List[Dict[str, Any]] = [
             },
         },
     },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_evolution_trigger_info",
-            "description": "Returns info about which Pokemon evolve via a specific trigger (e.g. 'trade').",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Trigger (e.g. 'level-up', 'trade', 'use-item').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_item_category_info",
-            "description": "Lists items in a specific category (e.g. 'standard-balls', 'healing').",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The category name.",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_item_attribute_info",
-            "description": "Lists items with a specific attribute (e.g. 'consumable', 'holdable').",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The attribute name.",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
+    # {
+    #     "type": "function",
+    #     "function": {
+    #         "name": "get_evolution_trigger_info",
+    #         "description": "Returns info about which Pokemon evolve via a specific trigger (e.g. 'trade').",
+    #         "strict": True,
+    #         "parameters": {
+    #             "type": "object",
+    #             "properties": {
+    #                 "name": {
+    #                     "type": "string",
+    #                     "description": "The name of the Trigger (e.g. 'level-up', 'trade', 'use-item').",
+    #                 }
+    #             },
+    #             "required": ["name"],
+    #             "additionalProperties": False,
+    #         },
+    #     },
+    # },
+    # {
+    #     "type": "function",
+    #     "function": {
+    #         "name": "get_item_category_info",
+    #         "description": "Lists items in a specific category (e.g. 'standard-balls', 'healing').",
+    #         "strict": True,
+    #         "parameters": {
+    #             "type": "object",
+    #             "properties": {
+    #                 "name": {
+    #                     "type": "string",
+    #                     "description": "The category name.",
+    #                 }
+    #             },
+    #             "required": ["name"],
+    #             "additionalProperties": False,
+    #         },
+    #     },
+    # },
+    # {
+    #     "type": "function",
+    #     "function": {
+    #         "name": "get_item_attribute_info",
+    #         "description": "Lists items with a specific attribute (e.g. 'consumable', 'holdable').",
+    #         "strict": True,
+    #         "parameters": {
+    #             "type": "object",
+    #             "properties": {
+    #                 "name": {
+    #                     "type": "string",
+    #                     "description": "The attribute name.",
+    #                 }
+    #             },
+    #             "required": ["name"],
+    #             "additionalProperties": False,
+    #         },
+    #     },
+    # },
 ]
+# BACKUP Tools

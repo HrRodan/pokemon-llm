@@ -336,7 +336,7 @@ def get_similar_objects(
         filter_name: Optional name of the Pokemon, Move, or Item to filter by.
         filter_id: Optional ID of the Pokemon, Move, or Item to filter by.
     """
-    where_clauses = []
+    where_clauses: List[Dict[str, Any]] = []
 
     if category:
         where_clauses.append({"category": {"$in": category}})
@@ -344,17 +344,20 @@ def get_similar_objects(
     if max_generation is not None:
         where_clauses.append({"generation": {"$lte": max_generation}})
 
-    if only_default_version:
-        where_clauses.append({"is_default": True})
-
     if filter_name:
-        clean_name = filter_name.lower().strip()
+        clean_name = filter_name.lower().strip().replace(" ", "-")
         if clean_name not in ["null", "none"]:
             where_clauses.append({"name": clean_name})
+            only_default_version = False
 
     if filter_id is not None:
         where_clauses.append({"id": filter_id})
+        only_default_version = False
 
+    if only_default_version:
+        where_clauses.append({"is_default": True})
+
+    where: Any
     if len(where_clauses) > 1:
         where = {"$and": where_clauses}
     elif len(where_clauses) == 1:
