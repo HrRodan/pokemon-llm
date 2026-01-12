@@ -318,8 +318,8 @@ def _process_batch(batch_items):
 def get_similar_objects(
     query: str,
     n_results: int = 5,
-    category: Optional[List[Literal["pokemon", "move", "item"]]] = None,
-    max_generation: Optional[int] = None,
+    category: Optional[Union[List[Literal["pokemon", "move", "item"]], str]] = None,
+    max_generation: Union[int, str, None] = None,
     only_default_version: bool = True,
     filter_name: Optional[str] = None,
     filter_id: Optional[int] = None,
@@ -339,10 +339,19 @@ def get_similar_objects(
     where_clauses: List[Dict[str, Any]] = []
 
     if category:
+        if isinstance(category, str):
+            category = [category]  # type: ignore
         where_clauses.append({"category": {"$in": category}})
 
     if max_generation is not None:
-        where_clauses.append({"generation": {"$lte": max_generation}})
+        if isinstance(max_generation, str):
+            if not max_generation.strip():
+                max_generation = None
+            elif max_generation.isdigit():
+                max_generation = int(max_generation)
+
+        if max_generation is not None:
+            where_clauses.append({"generation": {"$lte": max_generation}})
 
     if filter_name:
         clean_name = filter_name.lower().strip().replace(" ", "-")
@@ -390,8 +399,8 @@ def get_similar_objects(
 def query_database(
     query: str,
     n_results: int = 5,
-    category: Optional[List[Literal["pokemon", "move", "item"]]] = None,
-    max_generation: Optional[int] = None,
+    category: Optional[Union[List[Literal["pokemon", "move", "item"]], str]] = None,
+    max_generation: Union[int, str, None] = None,
     only_default_version: bool = True,
     filter_name: Optional[str] = None,
     filter_id: Optional[int] = None,

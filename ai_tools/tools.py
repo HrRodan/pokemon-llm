@@ -100,6 +100,7 @@ OpenRouterModels = Literal[
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
     "deepseek/deepseek-v3.2",  # top price / intelligence
+    "deepseek/deepseek-r1",  # reasoning model
     # "x-ai/grok-4",
     # "anthropic/claude-opus-4.5",
     "x-ai/grok-4.1-fast",  # top price / intelligence
@@ -289,6 +290,7 @@ class LLMQuery:
         self.chat_history: List[Dict[str, Any]] = []
         self.tool_calls: List[Dict] = []
         self.response = ""
+        self.reasoning_history: List[Optional[str]] = []
 
     def _parse_xml_tool_calls(self, content: str) -> List[Dict[str, Any]]:
         """
@@ -607,12 +609,18 @@ class LLMQuery:
         # Based on docs: extra_content.google.thought_signature
         # Also checking model_extra as a fallback/alternative location for extra fields
         thought_signature = None
+        # Initialize current reasoning to None
+        current_reasoning = None
 
         # Check standard Pydantic model_extra/extra_fields if available
         # Note: model_extra might contain 'extra_content' dict inside it
         extra_fields = getattr(message, "model_extra", None) or getattr(
             message, "extra_content", None
         )
+
+        # Check for reasoning in standard OpenAI message object (e.g. o1/r1 models in some SDK versions)
+        if hasattr(message, "reasoning") and message.reasoning:
+            current_reasoning = message.reasoning
 
         if extra_fields:
             # Handle case where extra_content is nested inside model_extra
@@ -623,11 +631,22 @@ class LLMQuery:
             else:
                 extra_content = extra_fields
 
+            # Check for reasoning in model_extra (OpenRouter standard)
+            if (
+                not current_reasoning
+                and "reasoning" in extra_fields
+                and extra_fields["reasoning"]
+            ):
+                current_reasoning = extra_fields["reasoning"]
+
             # Navigate key path: google -> thought_signature
             if isinstance(extra_content, dict):
                 google_info = extra_content.get("google")
                 if isinstance(google_info, dict):
                     thought_signature = google_info.get("thought_signature")
+
+        # Update reasoning history
+        self.reasoning_history.append(current_reasoning)
 
         # Update state
         self.response = content if content is not None else ""
@@ -1138,8 +1157,3 @@ class LLMQuery:
         )
         return [data.embedding for data in response.data]
 
-
-if __name__ == "__main__":
-    llm = LLMQuery(system_prompt="", model="gemini-flash-lite-latest")
-    a = llm.query(user_prompt="Hi", display_output=True)
-    print(a)

@@ -44,6 +44,27 @@ def extract_tool_info(client_state):
     return tool_history
 
 
+def extract_reasoning_info(client_state):
+    """
+    Extracts reasoning history from the client state.
+    Returns a list of assistant messages for the reasoning chatbot.
+    """
+    hint_message = {
+        "role": "user",
+        "content": "ℹ️ **Note:** Not all models provide reasoning tokens. Try **DeepSeek-R2** or **GPT-OSS** models to see thoughts here.",
+    }
+
+    if not client_state:
+        return [hint_message]
+
+    reasoning_items = [r for r in client_state.reasoning_history if r]
+
+    if not reasoning_items:
+        return [hint_message]
+
+    return [{"role": "assistant", "content": r} for r in reasoning_items]
+
+
 def change_model(model_name, client_state):
     if client_state:
         client_state.model = model_name
@@ -63,11 +84,19 @@ def respond(message, client_state):
     ]
 
     current_tool_history = extract_tool_info(client_state)
+    current_reasoning_history = extract_reasoning_info(client_state)
 
     # Yield 1: Direct list of dicts + tool history
-    yield "", preview_history, current_tool_history, client_state
+    yield (
+        "",
+        preview_history,
+        current_tool_history,
+        current_reasoning_history,
+        client_state,
+    )
 
     # Query logic
+
     response = client_state.query(message)
 
     # Yield 2: Show tool calls if any (before execution loop finishes)
@@ -75,6 +104,7 @@ def respond(message, client_state):
         "",
         client_state.clean_chat_history + [{"role": "assistant", "content": "..."}],
         extract_tool_info(client_state),
+        extract_reasoning_info(client_state),
         client_state,
     )
 
@@ -93,6 +123,7 @@ def respond(message, client_state):
                 client_state.clean_chat_history
                 + [{"role": "assistant", "content": "..."}],
                 extract_tool_info(client_state),
+                extract_reasoning_info(client_state),
                 client_state,
             )
 
@@ -104,5 +135,6 @@ def respond(message, client_state):
         "",
         client_state.clean_chat_history,
         extract_tool_info(client_state),
+        extract_reasoning_info(client_state),
         client_state,
     )

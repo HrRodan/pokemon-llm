@@ -66,6 +66,13 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                         show_label=False,
                     )
 
+                with gr.TabItem("🧠 Reasoning History"):
+                    reasoning_output = gr.Chatbot(
+                        height=550,
+                        label="Reasoning History",
+                        show_label=False,
+                    )
+
                 with gr.TabItem("⚙️ Settings"):
                     gr.Markdown("### 🧠 Model Configuration")
                     model_selector = gr.Dropdown(
@@ -87,12 +94,13 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
     msg.submit(
         respond,
         inputs=[msg, client_state],
-        outputs=[msg, chatbot, tool_output, client_state],
+        outputs=[msg, chatbot, tool_output, reasoning_output, client_state],
     )
+
     btn.click(
         respond,
         inputs=[msg, client_state],
-        outputs=[msg, chatbot, tool_output, client_state],
+        outputs=[msg, chatbot, tool_output, reasoning_output, client_state],
     )
 
     # Model Change Handler
