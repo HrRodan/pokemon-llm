@@ -133,7 +133,7 @@ def respond(message, client_state):
     # Yield 3: Final state
     yield (
         "",
-        client_state.clean_chat_history,
+        client_state.clean_chat_history + [{"role": "assistant", "content": "--end of response--"}],
         extract_tool_info(client_state),
         extract_reasoning_info(client_state),
         client_state,

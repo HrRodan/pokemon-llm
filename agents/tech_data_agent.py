@@ -14,7 +14,7 @@ Schema Overview:
 - items: id, name, cost, category, generation, effect...
 
 **Important Query Actions:**
-1. **Lists & Weaknesses**: Columns like `weak_against_1`, `weak_against_2`, `strong_against_1`, and `strong_against_2` contain comma-separated values (e.g., "fire,ice,flying").
+1. **Lists & Weaknesses & Strengths**: Columns like `weak_against_1`, `weak_against_2`, `strong_against_1`, and `strong_against_2` contain comma-separated values (e.g., "fire,ice,flying").
    - To check if a pokemon is weak against "fire", you MUST use the `LIKE` operator with wildcards: `%fire%`.
    - Example Condition: `{"column": "weak_against_1", "operator": "LIKE", "value": "%fire%"}`.
    - For "weak against fire AND electric", check BOTH conditions (AND logic).
@@ -28,7 +28,7 @@ Schema Overview:
 
 When a user asks a question:
 1. Analyze the request.
-2. Formulate a query using the `execute_query` tool. Use the `TechDataQuery` structure.
+2. Formulate a query using the `execute_query` tool. Use the provided json schema.
    - `columns`: List of columns (e.g. "name", "attack") or aggregations.
    - `table`: "pokemons", "moves", or "items".
    - `conditions`: List of filters. Logic can be AND or OR.
@@ -40,6 +40,24 @@ When a user asks a question:
    - `limit`: Optional max rows.
 3. The tool will return a Markdown table.
 4. Uses this table to answer the user's question, providing context if needed.
+5. Query again if necessary (e.g. if an error occurs)
+6. **Complex Logic**: If a user asks for complex logic like `(A OR B) AND C`, the tool CANNOT handle mixed AND/OR.
+   - You MUST split this into two queries:
+     1. Query for `A AND C`
+     2. Query for `B AND C`
+   - Then combine the results yourself in your final answer.
+   - For aggregations (like "average"), you might need to query the raw data (or counts and sums) and calculate the final aggregate yourself slightly, or just present both partial averages if exact mathematical combination is too hard without raw data.
+     - **REQUIRED STRATEGY** for Mixed Logic (e.g. "(A OR B) AND C", or "Average X for A or B"):
+       1. **Query 1**: Get list of `id`s for condition A AND C. (Select only `id`).
+       2. **Query 2**: Get list of `id`s for condition B AND C. (Select only `id`).
+       3. **Combine IDs**: Create a single list of unique IDs (Union) in your thought process.
+       4. **Query 3**: Execute the final aggregation/retrieval using `id IN (...)` with the combined list.
+          - Example: `conditions=[{"column": "id", "operator": "IN", "value": [1, 4, 7, ...]}]`
+       - DO NOT ask the user to do it. YOU must do it.
+       - DO NOT hallucinate results. Run the queries.
+   - You may output the result of several queries with a short explanation if you are not able to combine them.
+
+When you cannot create a valid query, you **must** return an error message.
 
 Example:
 User: "Show me 5 strongest fire pokemon"
@@ -68,9 +86,6 @@ def execute_query(**kwargs: Any) -> str:
     try:
         # Pydantic validation
         query = TechDataQuery(**kwargs)
-        # Call the actual logic (imported as execute_query_logic to avoid recursion if I renamed import)
-        # But here I imported `execute_query` from tool.
-        # Let's import it as `_execute_query` or similar in the file header to differ.
         return _execute_query(query)
     except Exception as e:
         return f"Invalid Query Format: {e}"
@@ -101,7 +116,6 @@ def create_tech_data_agent() -> LLMQuery:
         model="openai/gpt-oss-20b",
         tools=[tool_definition],
         functions=[execute_query],
-        history_limit=10,
     )
 
 
@@ -129,13 +143,13 @@ TECH_DATA_AGENT_TOOL_DEFINITION = {
     "type": "function",
     "function": {
         "name": "tech_data_agent_respond",
-        "description": "Answers technical questions about Pokemon, Moves, and Items using a SQL database. Use this for questions like 'strongest fire pokemon', 'moves with power > 100', 'price of master ball', etc.",
+        "description": "Answers technical questions about Pokemon, Moves, and Items using a SQL database. Use this for questions like 'top five fire pokemon with highest attack', 'moves with power > 100', 'average price of items', etc.",
         "parameters": {
             "type": "object",
             "properties": {
                 "query": {
                     "type": "string",
-                    "description": "The natural language question from the user.",
+                    "description": "The natural language question. Query field must be provided!",
                 }
             },
             "required": ["query"],

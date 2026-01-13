@@ -957,7 +957,7 @@ class LLMQuery:
 
             if not query_response and not self.tool_calls:
                 # Retry strategy: If LLM returns empty string after tools ran, prompt it again
-                if self.chat_history and self.chat_history[-1]["role"] == "assistant":
+                if self.chat_history and self.chat_history[-1]["role"] == "assistant" and not self.chat_history[-1]["content"]:
                     self.chat_history.pop()
                 query_response = self.query(tools=self.tools)
 

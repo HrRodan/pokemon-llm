@@ -46,10 +46,11 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
             gr.Examples(
                 examples=[
                     ["Tell me about a top fire pokemon."],
-                    ["What Pokemon does look like a dog?"],
+                    ["What Pokemon look like a dog?"],
                     ["Describe the move Hyper Beam."],
                     ["Who is Eevee?"],
                     ["How do I evolve Scyther?"],
+                    ["What is the average attack of all fire pokemon with defense lower 100? Search for type 1 and type 2"]
                 ],
                 inputs=msg,
                 label="📝 Try these examples (Vector DB & Tools)",

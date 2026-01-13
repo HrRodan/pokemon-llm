@@ -110,7 +110,7 @@ def execute_query(query: TechDataQuery) -> str:
 
     try:
         # Construct SELECT
-        select_parts = []
+        select_parts : List[str] = []
         for col in query.columns:
             if isinstance(col, str):
                 select_parts.append(col)
@@ -124,11 +124,11 @@ def execute_query(query: TechDataQuery) -> str:
         select_clause = ", ".join(select_parts)
 
         sql = f"SELECT {select_clause} FROM {query.table}"
-        params = []
+        params : List[Any] = []
 
         # Construct WHERE
         if query.conditions:
-            where_parts = []
+            where_parts : List[str] = []
             for cond in query.conditions:
                 if cond.operator == "IN":
                     if isinstance(cond.value, list):
