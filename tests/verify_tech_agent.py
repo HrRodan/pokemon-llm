@@ -5,9 +5,7 @@ import sys
 def test_wrapper():
     print("--- Testing tech_data_agent_respond Wrapper ---")
 
-    questions = [
-        "Which pokemon have an (attack greater 100 or Defense smaller 100) and are in generation smaller than 5?"
-    ]
+    questions = ["Which Pokemon are strong against dragon type?"]
 
     for q in questions:
         print(f"\n{'=' * 20}\nQuestion: {q}\n{'=' * 20}")

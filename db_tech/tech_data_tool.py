@@ -4,13 +4,67 @@ from pydantic import BaseModel, Field
 
 DB_PATH = "db_tech/tech.db"
 
+# Explicit column definitions for better agent awareness
+PokemonColumn = Literal[
+    "id",
+    "name",
+    "hit_points",
+    "attack",
+    "defense",
+    "special_attack",
+    "special_defense",
+    "speed",
+    "type_1",
+    "type_2",
+    "ability_1",
+    "ability_2",
+    "ability_hidden",
+    "height_m",
+    "weight_kg",
+    "base_experience",
+    "base_happiness",
+    "capture_rate",
+    "hatch_counter",
+    "is_legendary",
+    "is_mythical",
+    "generation",
+    "weak_against_1",
+    "weak_against_2",
+    "strong_against_1",
+    "strong_against_2",
+]
+
+MoveColumn = Literal[
+    "id",
+    "name",
+    "type",
+    "power",
+    "accuracy",
+    "power_points",
+    "damage_class",
+    "priority",
+    "generation",
+]
+
+ItemColumn = Literal[
+    "id",
+    "name",
+    "cost",
+    "category",
+    "generation",
+    "effect",
+]
+
+# Combined column type for queries that might target any table (though 'table' field restricts context)
+AnyColumn = Union[PokemonColumn, MoveColumn, ItemColumn]
+
 
 class QueryCondition(BaseModel):
     """
     Represents a single SQL WHERE condition.
     """
 
-    column: str
+    column: AnyColumn
     operator: Literal["=", ">", "<", ">=", "<=", "!=", "LIKE", "IN"]
     value: Any
 
@@ -21,7 +75,7 @@ class Aggregation(BaseModel):
     """
 
     func: Literal["MIN", "MAX", "AVG", "SUM", "COUNT"]
-    column: str
+    column: AnyColumn
 
 
 class TechDataQuery(BaseModel):
@@ -31,7 +85,8 @@ class TechDataQuery(BaseModel):
     """
 
     table: Literal["pokemons", "moves", "items"]
-    columns: List[Union[str, Aggregation]]
+    # Allow columns to be specific names or aggregations
+    columns: List[Union[AnyColumn, Aggregation]]
     conditions: List[QueryCondition] = Field(default_factory=list)
     condition_logic: Literal["AND", "OR"] = "AND"
     group_by: Optional[List[str]] = None

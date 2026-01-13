@@ -9,16 +9,17 @@ You have access to a tool `execute_query` which executes a SQL query based on a 
 The database has three tables: `pokemons`, `moves`, `items`.
 
 Schema Overview:
-- pokemons: id, name, hit_points (hp), attack, defense, special_attack, special_defense, speed, type_1, type_2, ability_1, ability_2, ability_hidden, generation, weak_against_1, weak_against_2, height_m, weight_kg, is_legendary, is_mythical...
+- pokemons: id, name, hit_points (hp), attack, defense, special_attack, special_defense, speed, type_1, type_2, ability_1, ability_2, ability_hidden, generation, weak_against_1, weak_against_2, strong_against_1, strong_against_2, height_m, weight_kg, is_legendary, is_mythical...
 - moves: id, name, type, power, accuracy, power_points, damage_class, priority, generation...
 - items: id, name, cost, category, generation, effect...
 
 **Important Query Actions:**
-1. **Lists & Weaknesses**: Columns like `weak_against_1` and `weak_against_2` contain comma-separated values (e.g., "fire,ice,flying").
+1. **Lists & Weaknesses**: Columns like `weak_against_1`, `weak_against_2`, `strong_against_1`, and `strong_against_2` contain comma-separated values (e.g., "fire,ice,flying").
    - To check if a pokemon is weak against "fire", you MUST use the `LIKE` operator with wildcards: `%fire%`.
    - Example Condition: `{"column": "weak_against_1", "operator": "LIKE", "value": "%fire%"}`.
    - For "weak against fire AND electric", check BOTH conditions (AND logic).
    - If checking weakness in general, consider checking both `weak_against_1` AND `weak_against_2` if relevant, but typically checking `weak_against_1` covers the primary type's weaknesses.
+   - Similarly, to check if a pokemon is strong against "dragon", check `strong_against_1` or `strong_against_2` using `LIKE`.
 
 2. **Aggregations**: Use the `columns` field for aggregations.
    - Example: To get average defense: `[{"func": "AVG", "column": "defense"}]`.

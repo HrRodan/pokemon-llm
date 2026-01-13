@@ -73,7 +73,9 @@ def create_tables(cursor: sqlite3.Cursor) -> None:
         is_mythical BOOLEAN,
         generation INTEGER,
         weak_against_1 TEXT,
-        weak_against_2 TEXT
+        weak_against_2 TEXT,
+        strong_against_1 TEXT,
+        strong_against_2 TEXT
     )
     """)
 
@@ -141,16 +143,20 @@ def process_pokemons(conn: sqlite3.Connection) -> None:
             type_1 = types[0] if len(types) > 0 else None
             type_2 = types[1] if len(types) > 1 else None
 
-            # Weakness extraction
+            # Weakness and Strength extraction
             type_info = data.get("type_info", [])
             weak_against_1 = None
             weak_against_2 = None
+            strong_against_1 = None
+            strong_against_2 = None
 
             if len(type_info) > 0:
                 weak_against_1 = ",".join(type_info[0].get("weak_against", []))
+                strong_against_1 = ",".join(type_info[0].get("strong_against", []))
 
             if len(type_info) > 1:
                 weak_against_2 = ",".join(type_info[1].get("weak_against", []))
+                strong_against_2 = ",".join(type_info[1].get("strong_against", []))
 
             # Stats
             stats = details.get("stats", {})
@@ -184,13 +190,15 @@ def process_pokemons(conn: sqlite3.Connection) -> None:
                 generation,
                 weak_against_1,
                 weak_against_2,
+                strong_against_1,
+                strong_against_2,
             )
             records.append(record)
 
     cursor.executemany(
         """
         INSERT OR REPLACE INTO pokemons VALUES (
-            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
         )
     """,
         records,
