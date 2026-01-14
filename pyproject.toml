@@ -16,10 +16,11 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
     "ruff>=0.14.10",
+    "sqlalchemy>=2.0.45",
 ]
 
 [tool.pyrefly]
 project-includes = ["**/*.py","**/*.ipynb"]
-project-excludes = ["**/node_modules", "**/__pycache__", "**/*venv/**", "**/.[!/.]*/**", "**/community-contributions", "**/community-contributions/**", "**/community_contributions", "**/community_contributions/**"]
+project-excludes = ["**/node_modules", "**/__pycache__", "**/*venv/**", "**/.[!/.]*/**"]
 use-ignore-files = true
 search-path = ["."]

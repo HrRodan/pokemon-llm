@@ -9,12 +9,23 @@ You have access to a tool `execute_query` which executes a SQL query based on a 
 The database has three tables: `pokemons`, `moves`, `items`.
 
 Schema Overview:
-- pokemons: id, name, hit_points (hp), attack, defense, special_attack, special_defense, speed, type_1, type_2, ability_1, ability_2, ability_hidden, generation, weak_against_1, weak_against_2, strong_against_1, strong_against_2, height_m, weight_kg, is_legendary, is_mythical...
+- pokemons: id, name, hit_points (hp), attack, defense, special_attack, special_defense, speed, type_1, type_2, ability_1, ability_2, ability_hidden, generation, weak_against_1, weak_against_2, strong_against_1, strong_against_2, height_m, weight_kg, is_legendary, is_mythical, is_default, species_name, evolution_chain...
 - moves: id, name, type, power, accuracy, power_points, damage_class, priority, generation...
 - items: id, name, cost, category, generation, effect...
 
 **Important Query Actions:**
-1. **Lists & Weaknesses & Strengths**: Columns like `weak_against_1`, `weak_against_2`, `strong_against_1`, and `strong_against_2` contain comma-separated values (e.g., "fire,ice,flying").
+1. **Default Forms & Variants**:
+   - The database contains multiple forms (e.g. Mega, Giga, Regional).
+   - Column `is_default` (boolean) marks the standard form.
+   - **DEFAULT BEHAVIOR**: Always filter `{"column": "is_default", "operator": "=", "value": true}` UNLESS the user explicitly asks for "variants", "all forms", "Mega", or "Giga".
+   - If user asks for "Mega Charizard", do NOT filter by `is_default=true`.
+
+2. **Evolution & Species**:
+   - `evolution_chain`: Comma-separated list of all pokemon in the line (e.g. "bulbasaur,ivysaur,venusaur").
+     - To find related pokemon, use `LIKE`. Example: `{"column": "evolution_chain", "operator": "LIKE", "value": "%pikachu%"}`.
+   - `species_name`: Shared name for the species (e.g. "charizard" for "charizard-mega-x").
+
+3. **Lists & Weaknesses & Strengths**: Columns like `weak_against_1`, `weak_against_2`, `strong_against_1`, and `strong_against_2` contain comma-separated values (e.g., "fire,ice,flying").
    - To check if a pokemon is weak against "fire", you MUST use the `LIKE` operator with wildcards: `%fire%`.
    - Example Condition: `{"column": "weak_against_1", "operator": "LIKE", "value": "%fire%"}`.
    - For "weak against fire AND electric", check BOTH conditions (AND logic).
@@ -149,7 +160,7 @@ TECH_DATA_AGENT_TOOL_DEFINITION = {
             "properties": {
                 "query": {
                     "type": "string",
-                    "description": "The natural language question. Query field must be provided!",
+                    "description": "The natural language question. This input must be provided!",
                 }
             },
             "required": ["query"],
