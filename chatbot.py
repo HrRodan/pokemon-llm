@@ -101,15 +101,15 @@ You have access to three sources of information. **Never** guess stats or values
 
 
 ALLOWED_MODELS = [
-    #"deepseek/deepseek-v3.2",
-    #"openai/gpt-oss-120b",
+    "deepseek/deepseek-v3.2",
+    "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
     "xiaomi/mimo-v2-flash:free",
     "x-ai/grok-4.1-fast",
     "nvidia/nemotron-3-nano-30b-a3b",
 ]
 
-DEFAULT_MODEL = "openai/gpt-oss-20b"
+DEFAULT_MODEL = "deepseek/deepseek-v3.2"
 
 
 def get_chatbot_client(model=DEFAULT_MODEL):
