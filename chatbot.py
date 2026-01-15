@@ -100,11 +100,23 @@ You have access to three sources of information. **Never** guess stats or values
 **Begin the interaction now.**"""
 
 
-def get_chatbot_client():
+ALLOWED_MODELS = [
+    #"deepseek/deepseek-v3.2",
+    #"openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    "xiaomi/mimo-v2-flash:free",
+    "x-ai/grok-4.1-fast",
+    "nvidia/nemotron-3-nano-30b-a3b",
+]
+
+DEFAULT_MODEL = "openai/gpt-oss-20b"
+
+
+def get_chatbot_client(model=DEFAULT_MODEL):
     return LLMQuery(
         system_prompt=SYSTEM_PROMPT_CHATBOT,
         functions=functions,
         tools=ALL_TOOLS,
-        model="deepseek/deepseek-v3.2",
+        model=model,  # pyrefly: ignore
         history_limit=100,
     )

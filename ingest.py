@@ -4,7 +4,8 @@ import json
 import chromadb
 from tqdm import tqdm
 from ai_tools.tools import LLMQuery
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
+
 
 # Initialize embedding client
 embedding_client = LLMQuery(embedding_model="qwen/qwen3-embedding-8b")
@@ -315,11 +316,87 @@ def _process_batch(batch_items):
             print(f"Error updating batch: {e}")
 
 
+# Valid categories
+CATEGORY_LITERAL = Literal["pokemon", "move", "item"]
+
+
+class QueryDatabaseArgs(BaseModel):
+    """Queries the vector database for relevant Pokemon information (Pokemon, Moves, Items) based on a semantic query string. returns a markdown formatted string with the results."""
+
+    query: str = Field(
+        description="The semantic query string to search for (e.g. 'fire type pokemon that can learn fly', 'items that restore PP')."
+    )
+    n_results: int = Field(
+        default=5,
+        ge=1,
+        le=10,
+        description="Number of results to return. Defaults to 5. Do NOT Exceed 10.",
+    )
+    category: Optional[List[CATEGORY_LITERAL]] = Field(
+        default=None,
+        description="Optional list of categories to filter by. Valid values: 'pokemon', 'move', 'item', e.g. for only listing Pokemon, use ['pokemon']. If not specified, all categories are included.",
+    )
+    max_generation: Optional[int] = Field(
+        default=None,
+        description="Optional maximum generation (inclusive) to filter by. e.g. 1 for Gen I only, 3 for Gen I-III.",
+    )
+    only_default_version: bool = Field(
+        default=True,
+        description="Defaults to True. is_default: true: This is the 'main' version of the Pokémon (e.g., standard Bulbasaur, ID 1). is_default: false: This is a variant form (e.g., Mega Venusaur, ID 10033). Set to **False** to include variants like **Mega Forms** or **Giga Forms**.",
+    )
+    filter_name: Optional[str] = Field(
+        default=None,
+        description="Optional name of the Pokemon, Move, or Item to filter by (e.g. 'charizard'). Use this when being asked for a specific Pokemon or object.",
+    )
+    filter_id: Optional[int] = Field(
+        default=None,
+        description="Optional ID of the Pokemon, Move, or Item to filter by (e.g. 6). Use this when being asked for a specific ID.",
+    )
+
+    @field_validator("category", mode="before")
+    @classmethod
+    def parse_category(cls, v: Any) -> Any:
+        if isinstance(v, str):
+            try:
+                parsed = json.loads(v)
+                if isinstance(parsed, list):
+                    return parsed
+                return [v]
+            except json.JSONDecodeError:
+                return [v]
+        return v
+
+    @field_validator("max_generation", mode="before")
+    @classmethod
+    def parse_max_generation(cls, v: Any) -> Any:
+        if v == "" or v is None:
+            return None
+        return v
+
+    @field_validator("filter_name", mode="before")
+    @classmethod
+    def parse_filter_name(cls, v: Any) -> Any:
+        if v is None:
+            return None
+        if isinstance(v, str):
+            clean_v = v.strip().lower()
+            if clean_v in ["null", "none", ""]:
+                return None
+            return clean_v.replace(" ", "-")
+        return v
+
+    @model_validator(mode="after")
+    def check_filters(self) -> "QueryDatabaseArgs":
+        if self.filter_name is not None or self.filter_id is not None:
+            self.only_default_version = False
+        return self
+
+
 def get_similar_objects(
     query: str,
     n_results: int = 5,
-    category: Optional[Union[List[Literal["pokemon", "move", "item"]], str]] = None,
-    max_generation: Union[int, str, None] = None,
+    category: Optional[List[CATEGORY_LITERAL]] = None,
+    max_generation: Optional[int] = None,
     only_default_version: bool = True,
     filter_name: Optional[str] = None,
     filter_id: Optional[int] = None,
@@ -339,29 +416,16 @@ def get_similar_objects(
     where_clauses: List[Dict[str, Any]] = []
 
     if category:
-        if isinstance(category, str):
-            category = [category]  # type: ignore
         where_clauses.append({"category": {"$in": category}})
 
     if max_generation is not None:
-        if isinstance(max_generation, str):
-            if not max_generation.strip():
-                max_generation = None
-            elif max_generation.isdigit():
-                max_generation = int(max_generation)
-
-        if max_generation is not None:
-            where_clauses.append({"generation": {"$lte": max_generation}})
+        where_clauses.append({"generation": {"$lte": max_generation}})
 
     if filter_name:
-        clean_name = filter_name.lower().strip().replace(" ", "-")
-        if clean_name not in ["null", "none"]:
-            where_clauses.append({"name": clean_name})
-            only_default_version = False
+        where_clauses.append({"name": filter_name})
 
     if filter_id is not None:
         where_clauses.append({"id": filter_id})
-        only_default_version = False
 
     if only_default_version:
         where_clauses.append({"is_default": True})
@@ -399,82 +463,49 @@ def get_similar_objects(
 def query_database(
     query: str,
     n_results: int = 5,
-    category: Optional[Union[List[Literal["pokemon", "move", "item"]], str]] = None,
+    category: Optional[Union[List[CATEGORY_LITERAL], str]] = None,
     max_generation: Union[int, str, None] = None,
     only_default_version: bool = True,
     filter_name: Optional[str] = None,
     filter_id: Optional[int] = None,
 ) -> str:
     """Queries the database and returns a formatted string."""
-    n_results = min(n_results, 20)
+    try:
+        # Validate arguments using Pydantic
+        args = QueryDatabaseArgs(
+            query=query,
+            n_results=n_results,
+            category=category,
+            max_generation=max_generation,
+            only_default_version=only_default_version,
+            filter_name=filter_name,
+            filter_id=filter_id,
+        )
+    except ValidationError as e:
+        return f"Argument Validation Error: {e.json()}"
+
     object_list = get_similar_objects(
-        query,
-        n_results,
-        category=category,
-        max_generation=max_generation,
-        only_default_version=only_default_version,
-        filter_name=filter_name,
-        filter_id=filter_id,
+        query=args.query,
+        n_results=args.n_results,
+        category=args.category,
+        max_generation=args.max_generation,
+        only_default_version=args.only_default_version,
+        filter_name=args.filter_name,
+        filter_id=args.filter_id,
     )
     return object_list.to_formatted_string()
 
+
+# Define tool schema
+tool_schema = QueryDatabaseArgs.model_json_schema()
 
 TOOLS: List[Dict[str, Any]] = [
     {
         "type": "function",
         "function": {
             "name": "query_database",
-            "description": "Queries the vector database for relevant Pokemon information (Pokemon, Moves, Items) based on a semantic query string. returns a markdown formatted string with the results.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "query": {
-                        "type": "string",
-                        "description": "The semantic query string to search for (e.g. 'fire type pokemon that can learn fly', 'items that restore PP').",
-                    },
-                    "n_results": {
-                        "type": "integer",
-                        "description": "Number of results to return. Defaults to 5. Do NOT Exceed 10.",
-                        "default": 5,
-                    },
-                    "category": {
-                        "type": "array",
-                        "description": "Optional list of categories to filter by. Valid values: 'pokemon', 'move', 'item'.",
-                        "items": {
-                            "type": "string",
-                            "enum": ["pokemon", "move", "item"],
-                        },
-                    },
-                    "max_generation": {
-                        "type": ["integer", "null"],
-                        "description": "Optional maximum generation (inclusive) to filter by. e.g. 1 for Gen I only, 3 for Gen I-III.",
-                    },
-                    "only_default_version": {
-                        "type": "boolean",
-                        "description": "Defaults to True. is_default: true: This is the 'main' version of the Pokémon (e.g., standard Bulbasaur, ID 1). is_default: false: This is a variant form (e.g., Mega Venusaur, ID 10033). Set to False to include variants.",
-                        "default": True,
-                    },
-                    "filter_name": {
-                        "type": ["string", "null"],
-                        "description": "Optional name of the Pokemon, Move, or Item to filter by (e.g. 'charizard'). Use this when being asked for a specific Pokemon or object.",
-                    },
-                    "filter_id": {
-                        "type": ["integer", "null"],
-                        "description": "Optional ID of the Pokemon, Move, or Item to filter by (e.g. 6). Use this when being asked for a specific ID.",
-                    },
-                },
-                "required": [
-                    "query",
-                    "n_results",
-                    "category",
-                    "max_generation",
-                    "only_default_version",
-                    "filter_name",
-                    "filter_id",
-                ],
-                "additionalProperties": False,
-            },
+            "description": QueryDatabaseArgs.__doc__,
+            "parameters": tool_schema,
         },
     }
 ]
@@ -494,3 +525,9 @@ if __name__ == "__main__":
     print(
         query_database("mega evolved pokemon", n_results=2, only_default_version=False)
     )
+
+    print("\nTesting Query: 'invalid category' (expect error)")
+    print(query_database("something", category=["invalid_cat"]))
+
+    print("\nTesting Query: 'max generation validation' (parsing)")
+    print(query_database("fire pokemon", max_generation="1", n_results=1))

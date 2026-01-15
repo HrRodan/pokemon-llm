@@ -1,6 +1,6 @@
 import time
 import threading
-from chatbot import get_chatbot_client
+from chatbot import get_chatbot_client, ALLOWED_MODELS
 
 
 def extract_tool_info(client_state):
@@ -66,15 +66,19 @@ def extract_reasoning_info(client_state):
 
 
 def change_model(model_name, client_state):
-    if client_state:
+    if client_state and model_name in ALLOWED_MODELS:
         client_state.model = model_name
     return client_state
 
 
-def respond(message, client_state):
+def respond(message, client_state, model_name=None):
     # Ensure client exists
     if client_state is None:
         client_state = get_chatbot_client()
+
+    # Sync model if provided
+    if model_name:
+        change_model(model_name, client_state)
 
     # Optimistic update: Show user message immediately
     current_history = client_state.clean_chat_history
@@ -133,7 +137,8 @@ def respond(message, client_state):
     # Yield 3: Final state
     yield (
         "",
-        client_state.clean_chat_history + [{"role": "assistant", "content": "--end of response--"}],
+        client_state.clean_chat_history
+        + [{"role": "assistant", "content": "--end of response--"}],
         extract_tool_info(client_state),
         extract_reasoning_info(client_state),
         client_state,

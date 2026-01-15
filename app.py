@@ -1,9 +1,7 @@
 import gradio as gr
-from chatbot import get_chatbot_client
+from chatbot import get_chatbot_client, ALLOWED_MODELS, DEFAULT_MODEL
 from answer import respond, change_model
 
-# 🎨 Modern Theme Definition
-# Default theme requested
 
 # 📱 Application Layout
 with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
@@ -50,7 +48,9 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                     ["Describe the move Hyper Beam."],
                     ["Who is Eevee?"],
                     ["How do I evolve Scyther?"],
-                    ["What is the average attack of all fire pokemon with defense lower 100? Search for type 1 and type 2"]
+                    [
+                        "What is the average attack of all fire pokemon with defense lower 100? Search for type 1 and type 2"
+                    ],
                 ],
                 inputs=msg,
                 label="📝 Try these examples (Vector DB & Tools)",
@@ -77,15 +77,8 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                 with gr.TabItem("⚙️ Settings"):
                     gr.Markdown("### 🧠 Model Configuration")
                     model_selector = gr.Dropdown(
-                        choices=[
-                            "deepseek/deepseek-v3.2",
-                            "openai/gpt-oss-120b",
-                            "openai/gpt-oss-20b",
-                            "xiaomi/mimo-v2-flash:free",
-                            "x-ai/grok-4.1-fast",
-                            "nvidia/nemotron-3-nano-30b-a3b",
-                        ],
-                        value="deepseek/deepseek-v3.2",
+                        choices=ALLOWED_MODELS,
+                        value=DEFAULT_MODEL,
                         label="Select LLM",
                         interactive=True,
                         info="Choose the underlying model processing your requests.",
@@ -94,13 +87,13 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
     # 🔗 Event Wiring
     msg.submit(
         respond,
-        inputs=[msg, client_state],
+        inputs=[msg, client_state, model_selector],
         outputs=[msg, chatbot, tool_output, reasoning_output, client_state],
     )
 
     btn.click(
         respond,
-        inputs=[msg, client_state],
+        inputs=[msg, client_state, model_selector],
         outputs=[msg, chatbot, tool_output, reasoning_output, client_state],
     )
 
