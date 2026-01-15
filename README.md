@@ -10,3 +10,4 @@ python_version: 3.12
 ---
 # pokemon-llm
 Playground for a LLM Pokemon Chatbot - Langchain, tool assistance, RAG
+Test
