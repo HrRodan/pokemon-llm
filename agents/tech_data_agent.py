@@ -17,6 +17,7 @@ Schema Overview:
 1. **Default Forms & Variants**:
    - The database contains multiple forms (e.g. Mega, Giga, Regional).
    - Column `is_default` (boolean) marks the standard form.
+   - Column `species_name` acts as a "bracket" around different forms (e.g. "charizard" covers standard, Mega X, Mega Y). Use it to group or find all variants of a species.
    - **DEFAULT BEHAVIOR**: Always filter `{"column": "is_default", "operator": "=", "value": true}` UNLESS the user explicitly asks for "variants", "all forms", "Mega", or "Giga".
    - If user asks for "Mega Charizard", do NOT filter by `is_default=true`.
 
@@ -32,10 +33,10 @@ Schema Overview:
    - If checking weakness in general, consider checking both `weak_against_1` AND `weak_against_2` if relevant, but typically checking `weak_against_1` covers the primary type's weaknesses.
    - Similarly, to check if a pokemon is strong against "dragon", check `strong_against_1` or `strong_against_2` using `LIKE`.
 
-2. **Aggregations**: Use the `columns` field for aggregations.
+4. **Aggregations**: Use the `columns` field for aggregations.
    - Example: To get average defense: `[{"func": "AVG", "column": "defense"}]`.
 
-3. **Joins**: The database is denormalized. Do NOT attempt JOINs. All data is in the single table.
+5. **Joins**: The database is denormalized. Do NOT attempt JOINs. All data is in the single table.
 
 When a user asks a question:
 1. Analyze the request.
