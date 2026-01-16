@@ -16,8 +16,7 @@ def parse_gitignore(gitignore_path=".gitignore"):
     Attempts to convert gitignore patterns to glob patterns used by huggingface_hub.
     """
     ignore_patterns = [
-        "db/**"
-        ".git",
+        "db/**.git",
         ".env",
         ".venv",
         ".venv/**",
@@ -75,18 +74,20 @@ def main():
 
     print("Uploading folder...")
     try:
-        api.upload_folder(
+        api.upload_large_folder(
             folder_path=".",
             repo_id=REPO_ID,
             repo_type=REPO_TYPE,
             ignore_patterns=ignore_patterns,
-            path_in_repo=".",
         )
         print("Upload successful!")
+
+        print("Squashing history...")
+        api.super_squash_history(repo_id=REPO_ID, repo_type=REPO_TYPE)
+        print("History squashed!")
     except Exception as e:
         print(f"Error during upload: {e}")
 
 
 if __name__ == "__main__":
     main()
-
