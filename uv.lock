@@ -2573,6 +2573,7 @@ dependencies = [
     { name = "requests" },
     { name = "ruff" },
     { name = "sqlalchemy" },
+    { name = "tenacity" },
 ]
 
 [package.metadata]
@@ -2592,6 +2593,7 @@ requires-dist = [
     { name = "requests", specifier = ">=2.32.5" },
     { name = "ruff", specifier = ">=0.14.10" },
     { name = "sqlalchemy", specifier = ">=2.0.45" },
+    { name = "tenacity", specifier = ">=9.1.2" },
 ]
 
 [[package]]

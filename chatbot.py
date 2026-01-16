@@ -118,5 +118,5 @@ def get_chatbot_client(model=DEFAULT_MODEL):
         functions=functions,
         tools=ALL_TOOLS,
         model=model,  # pyrefly: ignore
-        history_limit=100,
+        history_limit=50,
     )

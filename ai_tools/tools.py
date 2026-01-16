@@ -6,6 +6,7 @@ import mimetypes
 import getpass
 import re
 import uuid
+from tenacity import retry, stop_after_attempt, wait_exponential
 from PIL import Image
 from typing import (
     Dict,
@@ -291,6 +292,40 @@ class LLMQuery:
         self.tool_calls: List[Dict] = []
         self.response = ""
         self.reasoning_history: List[Optional[str]] = []
+        self.total_cost: float = 0.0
+        self.total_prompt_tokens: int = 0
+        self.total_completion_tokens: int = 0
+        self.total_reasoning_tokens: int = 0
+        self.total_tokens: int = 0
+
+    @retry(
+        stop=stop_after_attempt(5),
+        wait=wait_exponential(multiplier=1, min=1, max=10),
+        reraise=True,
+    )
+    def _create_chat_completion(self, client, **kwargs):
+        """
+        Helper method to execute the chat completion with retries.
+        """
+        response = client.chat.completions.create(**kwargs)
+        if not response or not response.choices:
+            print(f"Invalid response structure: response={response}, retrying")
+            raise ValueError(f"Invalid response structure: response={response}")
+
+        message = response.choices[0].message
+        if message is None:
+            print(f"Message is None response={response}, retrying")
+            raise ValueError(f"Message is None response={response}")
+
+        if not message.content and not message.tool_calls:
+            print(
+                f"Response content is empty and no tool calls found response={response}, retrying"
+            )
+            raise ValueError(
+                f"Response content is empty and no tool calls found response={response}"
+            )
+
+        return response
 
     def _parse_xml_tool_calls(self, content: str) -> List[Dict[str, Any]]:
         """
@@ -344,6 +379,16 @@ class LLMQuery:
                 )
 
         return tool_calls
+
+    def _sanitize_tool_id(self, tool_id: Optional[str]) -> str:
+        """
+        Sanitize a tool call ID to be alphanumeric + underscore, or generate one.
+        """
+        if not tool_id:
+            return f"call_{uuid.uuid4().hex[:8]}"
+
+        # Replace invalid chars (only allow a-zA-Z0-9_-)
+        return re.sub(r"[^a-zA-Z0-9_-]", "_", tool_id)
 
     def _get_client_for_model(self, model: str) -> OpenAI:
         """
@@ -488,6 +533,10 @@ class LLMQuery:
             extra_body["provider"].setdefault("require_parameters", True)
             extra_body["provider"].setdefault("data_collection", "deny")
 
+            # Enable usage tracking
+            if self.model in MODEL_DICT["openrouter"]:
+                extra_body["usage"] = {"include": True}
+
             request_kwargs["extra_body"] = extra_body
 
         return request_kwargs
@@ -587,7 +636,32 @@ class LLMQuery:
             **kwargs,
         )
 
-        response = client.chat.completions.create(**request_kwargs)
+        response = self._create_chat_completion(client, **request_kwargs)
+
+        if hasattr(response, "usage") and response.usage:
+            self.total_prompt_tokens += response.usage.prompt_tokens
+            self.total_completion_tokens += response.usage.completion_tokens
+            self.total_tokens += response.usage.total_tokens
+
+            # Extract cost from OpenRouter extra fields
+            # Check model_extra for 'cost' or similar if provided by the client's Pydantic model
+            if hasattr(response.usage, "model_extra") and response.usage.model_extra:
+                self.total_cost += response.usage.model_extra.get("cost", 0.0)
+            elif isinstance(response.usage, dict):
+                self.total_cost += response.usage.get("cost", 0.0)
+
+            # Extract reasoning tokens if available
+            if (
+                hasattr(response.usage, "completion_tokens_details")
+                and response.usage.completion_tokens_details
+            ):
+                # Check if it's a dict or object (Pydantic model)
+                details = response.usage.completion_tokens_details
+                if isinstance(details, dict):
+                    self.total_reasoning_tokens += details.get("reasoning_tokens", 0)
+                elif hasattr(details, "reasoning_tokens"):
+                    self.total_reasoning_tokens += details.reasoning_tokens
+
         message = response.choices[0].message
         content = message.content
 
@@ -600,6 +674,15 @@ class LLMQuery:
             xml_tool_calls = self._parse_xml_tool_calls(content)
             if xml_tool_calls:
                 self.tool_calls.extend(xml_tool_calls)
+
+        # Sanitize tool calls (on write to history)
+        for tc in self.tool_calls:
+            tc["id"] = self._sanitize_tool_id(tc.get("id"))
+            # Ensure function name is a valid string
+            if not tc.get("function"):
+                tc["function"] = {"name": "unknown_function", "arguments": "{}"}
+            elif not tc["function"].get("name"):
+                tc["function"]["name"] = "unknown_function"
 
         # Clean JSON if requested
         if target_json_format and content:
@@ -834,6 +917,15 @@ class LLMQuery:
                 if xml_tool_calls:
                     self.tool_calls.extend(xml_tool_calls)
 
+            # Sanitize tool calls (on write to history)
+            for tc in self.tool_calls:
+                tc["id"] = self._sanitize_tool_id(tc.get("id"))
+                # Ensure function name is a valid string
+                if not tc.get("function"):
+                    tc["function"] = {"name": "unknown_function", "arguments": "{}"}
+                elif not tc["function"].get("name"):
+                    tc["function"]["name"] = "unknown_function"
+
             self._update_history(
                 user_prompt,
                 output if output else None,
@@ -877,7 +969,7 @@ class LLMQuery:
                 {
                     "role": "tool",
                     "content": output_content,
-                    "tool_call_id": tool_output["tool_call_id"],
+                    "tool_call_id": self._sanitize_tool_id(tool_output["tool_call_id"]),
                 }
             )
 
@@ -957,7 +1049,11 @@ class LLMQuery:
 
             if not query_response and not self.tool_calls:
                 # Retry strategy: If LLM returns empty string after tools ran, prompt it again
-                if self.chat_history and self.chat_history[-1]["role"] == "assistant" and not self.chat_history[-1]["content"]:
+                if (
+                    self.chat_history
+                    and self.chat_history[-1]["role"] == "assistant"
+                    and not self.chat_history[-1]["content"]
+                ):
                     self.chat_history.pop()
                 query_response = self.query(tools=self.tools)
 
@@ -1156,4 +1252,3 @@ class LLMQuery:
             input=text,
         )
         return [data.embedding for data in response.data]
-

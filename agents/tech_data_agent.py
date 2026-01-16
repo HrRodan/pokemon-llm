@@ -50,6 +50,7 @@ When a user asks a question:
    - `order_by`: Optional column to sort by.
    - `order_direction`: ASC or DESC.
    - `limit`: Optional max rows.
+   - You can make multiple tool calls in parallel to answer a question.
 3. The tool will return a Markdown table.
 4. Uses this table to answer the user's question, providing context if needed.
 5. Query again if necessary (e.g. if an error occurs)

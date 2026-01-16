@@ -84,17 +84,36 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                         info="Choose the underlying model processing your requests.",
                     )
 
+                with gr.TabItem("📊 Usage Statistics"):
+                    usage_output = gr.Markdown(
+                        "### 📊 Token Usage (Accumulated)\n| Metric | Value |\n| :--- | :--- |\n| **Total Cost** | `$0.000000` |\n| **Total Tokens** | `0` |\n| **Prompt Tokens** | `0` |\n| **Completion Tokens** | `0` |\n| **Reasoning Tokens** | `0` |"
+                    )
+
     # 🔗 Event Wiring
     msg.submit(
         respond,
         inputs=[msg, client_state, model_selector],
-        outputs=[msg, chatbot, tool_output, reasoning_output, client_state],
+        outputs=[
+            msg,
+            chatbot,
+            tool_output,
+            reasoning_output,
+            usage_output,
+            client_state,
+        ],
     )
 
     btn.click(
         respond,
         inputs=[msg, client_state, model_selector],
-        outputs=[msg, chatbot, tool_output, reasoning_output, client_state],
+        outputs=[
+            msg,
+            chatbot,
+            tool_output,
+            reasoning_output,
+            usage_output,
+            client_state,
+        ],
     )
 
     # Model Change Handler

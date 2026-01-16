@@ -1,4 +1,3 @@
-import time
 import threading
 from chatbot import get_chatbot_client, ALLOWED_MODELS
 
@@ -65,6 +64,34 @@ def extract_reasoning_info(client_state):
     return [{"role": "assistant", "content": r} for r in reasoning_items]
 
 
+def extract_usage_info(client_state):
+    """
+    Extracts usage statistics from the client state.
+    Returns a markdown string displaying the accumulated stats.
+    """
+    if not client_state:
+        # Return default stats if no state exists
+        return """### 📊 Token Usage (Accumulated)
+| Metric | Value |
+| :--- | :--- |
+| **Total Cost** | `$0.000000` |
+| **Total Tokens** | `0` |
+| **Prompt Tokens** | `0` |
+| **Completion Tokens** | `0` |
+| **Reasoning Tokens** | `0` |
+"""
+
+    return f"""### 📊 Token Usage (Accumulated)
+| Metric | Value |
+| :--- | :--- |
+| **Total Cost** | `${client_state.total_cost:.6f}` |
+| **Total Tokens** | `{client_state.total_tokens:,}` |
+| **Prompt Tokens** | `{client_state.total_prompt_tokens:,}` |
+| **Completion Tokens** | `{client_state.total_completion_tokens:,}` |
+| **Reasoning Tokens** | `{client_state.total_reasoning_tokens:,}` |
+"""
+
+
 def change_model(model_name, client_state):
     if client_state and model_name in ALLOWED_MODELS:
         client_state.model = model_name
@@ -89,6 +116,7 @@ def respond(message, client_state, model_name=None):
 
     current_tool_history = extract_tool_info(client_state)
     current_reasoning_history = extract_reasoning_info(client_state)
+    current_usage_info = extract_usage_info(client_state)
 
     # Yield 1: Direct list of dicts + tool history
     yield (
@@ -96,12 +124,13 @@ def respond(message, client_state, model_name=None):
         preview_history,
         current_tool_history,
         current_reasoning_history,
+        current_usage_info,
         client_state,
     )
 
     # Query logic
 
-    response = client_state.query(message)
+    client_state.query(message)
 
     # Yield 2: Show tool calls if any (before execution loop finishes)
     yield (
@@ -109,6 +138,7 @@ def respond(message, client_state, model_name=None):
         client_state.clean_chat_history + [{"role": "assistant", "content": "..."}],
         extract_tool_info(client_state),
         extract_reasoning_info(client_state),
+        extract_usage_info(client_state),
         client_state,
     )
 
@@ -128,6 +158,7 @@ def respond(message, client_state, model_name=None):
                 + [{"role": "assistant", "content": "..."}],
                 extract_tool_info(client_state),
                 extract_reasoning_info(client_state),
+                extract_usage_info(client_state),
                 client_state,
             )
 
@@ -141,5 +172,6 @@ def respond(message, client_state, model_name=None):
         + [{"role": "assistant", "content": "--end of response--"}],
         extract_tool_info(client_state),
         extract_reasoning_info(client_state),
+        extract_usage_info(client_state),
         client_state,
     )
