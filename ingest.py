@@ -327,10 +327,10 @@ class QueryDatabaseArgs(BaseModel):
         description="The semantic query string to search for (e.g. 'fire type pokemon that can learn fly', 'items that restore PP')."
     )
     n_results: int = Field(
-        default=5,
+        default=3,
         ge=1,
-        le=10,
-        description="Number of results to return. Defaults to 5. Do NOT Exceed 10.",
+        le=7,
+        description="Number of results to return. Defaults to 3. Do NOT Exceed 7.",
     )
     category: Optional[List[CATEGORY_LITERAL]] = Field(
         default=None,
