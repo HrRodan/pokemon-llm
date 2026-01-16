@@ -16,7 +16,8 @@ def parse_gitignore(gitignore_path=".gitignore"):
     Attempts to convert gitignore patterns to glob patterns used by huggingface_hub.
     """
     ignore_patterns = [
-        "db/**.git",
+        "db/**",
+        ".git",
         ".env",
         ".venv",
         ".venv/**",
