@@ -1,5 +1,5 @@
 from pokemon_tools.pokemon_client import PokemonAPIClient, TOOLS as API_TOOLS
-from ingest import query_database, TOOLS as RAG_TOOLS
+from db_tools.rag_data_tool import query_database, TOOLS as RAG_TOOLS
 from ai_tools.tools import LLMQuery
 
 from agents.tech_data_agent import (
