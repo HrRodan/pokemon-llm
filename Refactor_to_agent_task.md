@@ -52,11 +52,11 @@ The project should have a Agent first approach.
 ## RAG Agent ##
 
 - The RAG Agent is responsible for answering questions about Pokemon using the RAG database in db folder.
-- **Status via Refactor**: Does NOT currently exist in `agents/`. Logic is in `ingest.py`. Must be created as `agents/rag_agent.py`.
+- **Status via Refactor**: Does NOT currently exist in `agents/`. Logic is in `rag_data_tool.py`. Must be created as `agents/rag_agent.py`.
 - It must be created in accordance with the new agent structure.
 - The RAG Agent will query the RAG database and return the results, filtered and reordered, depending on the question. 
 - It has detailed knowledge via its tools of the vector database.
-- The function to query the RAG database is located in `ingest.py`.
+- The function to query the RAG database is located in `rag_data_tool.py`.
 - Reuse relevant parts of the current System prompt in `chatbot.py`.
 
 
@@ -77,7 +77,7 @@ project_root/
 ├── tools/                  # Lower-level tools and clients
 │   ├── __init__.py
 │   ├── api_client.py       # [MOVED] from pokemon_tools/pokemon_client.py
-│   ├── vector_db.py        # [MOVED] logic from ingest.py (query_database)
+│   ├── vector_db.py        # [MOVED] from db_tools/rag_data_tool.py
 │   └── tech_data_tools.py  # [MOVED] from db_tech/tech_data_tool.py & models.py
 ├── ai_tools/               # [KEEP] LLM Interface / Core AI Logic
 │   └── tools.py            # Existing LLMQuery interface
@@ -91,7 +91,7 @@ project_root/
 │   ├── config.py           # [NEW] Configuration management
 │   └── ui_utils.py         # [MOVED] from answer.py (chat history extraction)
 ├── scripts/                # Utility scripts
-│   ├── ingest.py           # [MOVED] Entry point for data ingestion
+│   ├── ingest.py           # [MOVED] from db_tools/ingest.py
 │   ├── upload_to_hf.py
 │   └── create_tech_db.py   # [MOVED] from db_tech/create_db.py
 ├── tests/                  # Test suite
