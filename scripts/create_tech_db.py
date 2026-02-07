@@ -19,10 +19,6 @@ from data.models import Base, Pokemon, Move, Item
 from utils.config import settings
 
 # Paths
-# DATA_RAW_DIR is relative to project root in settings, but here we might need absolute or relative to execution.
-# settings.DATA_RAW_DIR is "data/raw"
-# settings.TECH_DB_PATH is "data/tech_db/tech.db"
-
 BASE_DIR = Path(".")
 DB_PATH = Path(settings.TECH_DB_PATH)
 DATA_RAW_DIR = Path(settings.DATA_RAW_DIR)
@@ -281,10 +277,8 @@ def process_items(session: Session) -> None:
         if not details:
             details = data
 
-        name = details.get("name")
         if not name:
             # Skip items without names to ensure integrity
-            # print(f"Skipping item in {file_path.name}: Name is missing.")
             continue
 
         # Extract English effect description

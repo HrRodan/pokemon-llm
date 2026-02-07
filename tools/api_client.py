@@ -104,12 +104,7 @@ class PokemonAPIClient:
         self.enable_cache = enable_cache
 
         if cache_dir is None:
-            # Use configured raw data dir for cache or a subfolder?
-            # Keeping consistent with old logic but using project root relative path
-            # Or better yet, use settings.DATA_RAW_DIR + "/.cache" ?
-            # Let's stick to old logic for now or a dedicated cache dir in data/
-            # The previous logic was project_root/.pokemon_cache
-            # Let's use data/.cache to keep root clean
+            # Use data/.pokemon_cache relative to project root
             self.cache_dir = Path("data/.pokemon_cache")
         else:
             self.cache_dir = Path(cache_dir)
@@ -939,25 +934,6 @@ TOOLS: List[Dict[str, Any]] = [
             },
         },
     },
-    # {
-    #     "type": "function",
-    #     "function": {
-    #         "name": "get_nature_info",
-    #         "description": "Retrieves details about a Nature. Shows which stat is increased and which is decreased. Important for strategic questions.",
-    #         "strict": True,
-    #         "parameters": {
-    #             "type": "object",
-    #             "properties": {
-    #                 "name": {
-    #                     "type": "string",
-    #                     "description": "The name of the Nature (e.g. 'adamant', 'jolly').",
-    #                 }
-    #             },
-    #             "required": ["name"],
-    #             "additionalProperties": False,
-    #         },
-    #     },
-    # },
     {
         "type": "function",
         "function": {
@@ -1023,62 +999,4 @@ TOOLS: List[Dict[str, Any]] = [
             },
         },
     },
-    # {
-    #     "type": "function",
-    #     "function": {
-    #         "name": "get_evolution_trigger_info",
-    #         "description": "Returns info about which Pokemon evolve via a specific trigger (e.g. 'trade').",
-    #         "strict": True,
-    #         "parameters": {
-    #             "type": "object",
-    #             "properties": {
-    #                 "name": {
-    #                     "type": "string",
-    #                     "description": "The name of the Trigger (e.g. 'level-up', 'trade', 'use-item').",
-    #                 }
-    #             },
-    #             "required": ["name"],
-    #             "additionalProperties": False,
-    #         },
-    #     },
-    # },
-    # {
-    #     "type": "function",
-    #     "function": {
-    #         "name": "get_item_category_info",
-    #         "description": "Lists items in a specific category (e.g. 'standard-balls', 'healing').",
-    #         "strict": True,
-    #         "parameters": {
-    #             "type": "object",
-    #             "properties": {
-    #                 "name": {
-    #                     "type": "string",
-    #                     "description": "The category name.",
-    #                 }
-    #             },
-    #             "required": ["name"],
-    #             "additionalProperties": False,
-    #         },
-    #     },
-    # },
-    # {
-    #     "type": "function",
-    #     "function": {
-    #         "name": "get_item_attribute_info",
-    #         "description": "Lists items with a specific attribute (e.g. 'consumable', 'holdable').",
-    #         "strict": True,
-    #         "parameters": {
-    #             "type": "object",
-    #             "properties": {
-    #                 "name": {
-    #                     "type": "string",
-    #                     "description": "The attribute name.",
-    #                 }
-    #             },
-    #             "required": ["name"],
-    #             "additionalProperties": False,
-    #         },
-    #     },
-    # },
 ]
-# BACKUP Tools
