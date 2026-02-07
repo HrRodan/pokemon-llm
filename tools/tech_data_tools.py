@@ -3,11 +3,11 @@ from typing import List, Optional, Any, Literal, Union, Type
 from pydantic import BaseModel, Field
 from sqlalchemy import create_engine, select, func, desc, asc, and_, or_, inspect
 from sqlalchemy.orm import Session
-from sqlalchemy.sql import Select
-from db_tech.models import Pokemon, Move, Item, Base
 
-DB_PATH = "db_tech/tech.db"
-engine = create_engine(f"sqlite:///{DB_PATH}")
+from data.models import Pokemon, Move, Item, Base
+from utils.config import settings
+
+engine = create_engine(f"sqlite:///{settings.TECH_DB_PATH}")
 
 
 def create_column_enum(model_class: Type[Base], enum_name: str) -> Any:

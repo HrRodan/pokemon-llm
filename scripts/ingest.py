@@ -2,19 +2,20 @@ from typing import List, Dict, Any, Optional
 import os
 import json
 from tqdm import tqdm
-from db_tools.rag_data_tool import (
+from tools.vector_db import (
     embedding_client,
     collection,
     MetaData,
     PokemonObject,
     GENERATION_MAPPING,
 )
+from utils.config import settings
 
 
 def clean_database():
     """Removes entries from the database that are no longer valid or excluded."""
     print("Cleaning database...")
-    base_path = "data/raw"
+    base_path = settings.DATA_RAW_DIR
     categories = ["pokemon", "move", "item"]
     valid_ids = set()
 
@@ -68,7 +69,7 @@ def clean_database():
 
 def ingest_data():
     """Ingests data from /data/raw into ChromaDB using Pydantic validation."""
-    base_path = "data/raw"
+    base_path = settings.DATA_RAW_DIR
     categories = ["pokemon", "move", "item"]
 
     # Collect all items to process

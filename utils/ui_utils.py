@@ -1,8 +1,17 @@
 import threading
-from chatbot import get_chatbot_client, ALLOWED_MODELS
+from typing import List, Dict, Any, Optional
+from agents.pokemon_agent import PokemonAgent
+from utils.config import settings, ALLOWED_MODELS
 
 
-def extract_tool_info(client_state):
+def get_agent_client(model: str = settings.DEFAULT_MODEL) -> PokemonAgent:
+    """
+    Factory function to get the Pokemon agent.
+    """
+    return PokemonAgent(model_name=model)
+
+
+def extract_tool_info(client_state: Any) -> List[Dict[str, str]]:
     """
     Extracts tool calls and results from the chat history.
     Returns a list of messages for the chatbot.
@@ -43,7 +52,7 @@ def extract_tool_info(client_state):
     return tool_history
 
 
-def extract_reasoning_info(client_state):
+def extract_reasoning_info(client_state: Any) -> List[Dict[str, str]]:
     """
     Extracts reasoning history from the client state.
     Returns a list of assistant messages for the reasoning chatbot.
@@ -64,7 +73,7 @@ def extract_reasoning_info(client_state):
     return [{"role": "assistant", "content": r} for r in reasoning_items]
 
 
-def extract_usage_info(client_state):
+def extract_usage_info(client_state: Any) -> str:
     """
     Extracts usage statistics from the client state.
     Returns a markdown string displaying the accumulated stats.
@@ -92,16 +101,23 @@ def extract_usage_info(client_state):
 """
 
 
-def change_model(model_name, client_state):
+def change_model(model_name: str, client_state: Any) -> Any:
+    """
+    Updates the model in the client state.
+    """
     if client_state and model_name in ALLOWED_MODELS:
         client_state.model = model_name
     return client_state
 
 
-def respond(message, client_state, model_name=None):
+def respond(message: str, client_state: Any, model_name: Optional[str] = None):
+    """
+    Main generator function for the chat interface.
+    Handles user input, agent queries, and UI updates.
+    """
     # Ensure client exists
     if client_state is None:
-        client_state = get_chatbot_client()
+        client_state = get_agent_client()
 
     # Sync model if provided
     if model_name:
@@ -129,7 +145,6 @@ def respond(message, client_state, model_name=None):
     )
 
     # Query logic
-
     client_state.query(message)
 
     # Yield 2: Show tool calls if any (before execution loop finishes)

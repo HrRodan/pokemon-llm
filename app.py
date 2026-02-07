@@ -1,12 +1,12 @@
 import gradio as gr
-from chatbot import get_chatbot_client, ALLOWED_MODELS, DEFAULT_MODEL
-from answer import respond, change_model
+from utils.ui_utils import get_agent_client, respond, change_model
+from utils.config import ALLOWED_MODELS, settings
 
 
 # 📱 Application Layout
 with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
     # State Management
-    client_state = gr.State(get_chatbot_client)
+    client_state = gr.State(lambda: get_agent_client())
 
     # Header
     with gr.Row():
@@ -78,7 +78,7 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                     gr.Markdown("### 🧠 Model Configuration")
                     model_selector = gr.Dropdown(
                         choices=ALLOWED_MODELS,
-                        value=DEFAULT_MODEL,
+                        value=settings.DEFAULT_MODEL,
                         label="Select LLM",
                         interactive=True,
                         info="Choose the underlying model processing your requests.",
@@ -120,6 +120,7 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
     model_selector.change(
         change_model, inputs=[model_selector, client_state], outputs=[client_state]
     )
+
 
 if __name__ == "__main__":
     app.launch(inbrowser=True)

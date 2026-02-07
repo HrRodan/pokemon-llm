@@ -15,13 +15,17 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
-from db_tech.models import Base, Pokemon, Move, Item
+from data.models import Base, Pokemon, Move, Item
+from utils.config import settings
 
 # Paths
+# DATA_RAW_DIR is relative to project root in settings, but here we might need absolute or relative to execution.
+# settings.DATA_RAW_DIR is "data/raw"
+# settings.TECH_DB_PATH is "data/tech_db/tech.db"
+
 BASE_DIR = Path(".")
-DB_PATH = BASE_DIR / "db_tech" / "tech.db"
-DATA_RAW_DIR = BASE_DIR / "data" / "raw"
-DATA_LIST_DIR = BASE_DIR / "data"
+DB_PATH = Path(settings.TECH_DB_PATH)
+DATA_RAW_DIR = Path(settings.DATA_RAW_DIR)
 
 # Ensure db directory exists
 DB_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -32,6 +36,8 @@ if DB_PATH.exists():
     print(f"Removed existing database at {DB_PATH}")
 
 # Create engine and tables
+# SQLite URL needs 3 slashes for relative, 4 for absolute.
+# settings.TECH_DB_PATH is a relative path string.
 engine = create_engine(f"sqlite:///{DB_PATH}")
 Base.metadata.create_all(engine)
 print("Created database tables.")

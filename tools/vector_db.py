@@ -1,15 +1,15 @@
-from typing import List, Dict, Optional, Literal, Union, Any
+from typing import List, Dict, Optional, Literal, Any
 import json
 import chromadb
 from ai_tools.tools import LLMQuery
 from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
+from utils.config import settings
 
 # Initialize embedding client
-embedding_client = LLMQuery(embedding_model="qwen/qwen3-embedding-8b")
+embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
 
 # Initialize ChromaDB client
-CHROMA_PATH = "./db"
-chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
+chroma_client = chromadb.PersistentClient(path=settings.VECTOR_DB_DIR)
 collection = chroma_client.get_or_create_collection(name="pokemon_data")
 
 

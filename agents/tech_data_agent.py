@@ -1,6 +1,11 @@
-from typing import Any
+from typing import Any, List, Dict
 from ai_tools.tools import LLMQuery
-from db_tech.tech_data_tool import execute_query as _execute_query, TechDataQuery
+from tools.tech_data_tools import (
+    execute_query as _execute_query,
+    TechDataQuery as _TechDataQuery,
+)
+from agents.base_agent import BaseAgent
+from utils.config import settings
 
 SYSTEM_PROMPT = """You are the Tech Data Agent.
 Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead. 
@@ -88,73 +93,59 @@ Tool Call (representation):
 def execute_query(**kwargs: Any) -> str:
     """
     Wrapper to convert kwargs to TechDataQuery model before execution.
-
-    Args:
-        **kwargs: Arguments matching the TechDataQuery Pydantic model.
-
-    Returns:
-        String result (Markdown table) or error message.
     """
     try:
         # Pydantic validation
-        query = TechDataQuery(**kwargs)
+        query = _TechDataQuery(**kwargs)
         return _execute_query(query)
     except Exception as e:
         return f"Invalid Query Format: {e}"
 
 
-def create_tech_data_agent() -> LLMQuery:
+class TechDataAgent(BaseAgent):
     """
-    Creates and configures the Tech Data Agent.
-
-    Returns:
-        LLMQuery: An instance of LLMQuery configured with the Tech Data Agent's system prompt and tools.
+    Agent responsible for querying the technical SQL database.
     """
-    # Define the tool schema using Pydantic
-    tool_schema = TechDataQuery.model_json_schema()
 
-    # helper to convert pydantic schema to OpenAI tool format
-    tool_definition = {
-        "type": "function",
-        "function": {
-            "name": "execute_query",
-            "description": "Executes a query against the Pokemon technical database. Returns a markdown table.",
-            "parameters": tool_schema,
-        },
-    }
+    def __init__(self):
+        super().__init__(name="TechDataAgent", model_name="openai/gpt-oss-20b")
 
-    return LLMQuery(
-        system_prompt=SYSTEM_PROMPT,
-        model="openai/gpt-oss-20b",
-        tools=[tool_definition],
-        functions=[execute_query],
-    )
+        # Define tools
+        self.tool_schema = _TechDataQuery.model_json_schema()
+        self.tool_definition = {
+            "type": "function",
+            "function": {
+                "name": "execute_query",
+                "description": "Executes a query against the Pokemon technical database. Returns a markdown table.",
+                "parameters": self.tool_schema,
+            },
+        }
+
+        # Configure LLM
+        self.llm.system_prompt = SYSTEM_PROMPT
+        self.llm.tools = [self.tool_definition]
+        self.llm.functions = [execute_query]
+
+    def response(self, message: str, history: List[Dict[str, str]] = None) -> str:
+        """
+        Respond to usage query.
+        """
+        return self.llm.query(user_prompt=message, use_history=False)
 
 
-def tech_data_agent_respond(query: str) -> str:
+def run_tech_data_agent(query: str) -> str:
     """
-    Responds to a natural language query about Pokemon technical data.
-    Wraps the agent creation, tool execution, and final response generation.
-
-    Args:
-        query: The user's natural language question.
-
-    Returns:
-        The agent's final response string.
+    Function to be used as a tool by other agents.
+    Instantiates the agent and gets a response.
     """
-    agent = create_tech_data_agent()
-
-    # 1. First call to get potential tool calls
-    response = agent.query(query)
-
-    # 2. Use built-in method to handle tool execution loop
-    return agent.get_tool_responses()
+    agent = TechDataAgent()
+    return agent.response(query)
 
 
 TECH_DATA_AGENT_TOOL_DEFINITION = {
     "type": "function",
     "function": {
-        "name": "tech_data_agent_respond",
+        "name": "run_tech_data_agent",
         "description": "Answers technical questions about Pokemon, Moves, and Items using a SQL database. Use this for questions like 'top five fire pokemon with highest attack', 'moves with power > 100', 'average price of items', etc.",
         "parameters": {
             "type": "object",

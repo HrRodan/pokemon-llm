@@ -10,6 +10,10 @@ from typing import Any, Dict, List, Optional, Union
 import random
 
 import requests
+from utils.logger import setup_logger
+
+
+logger = setup_logger(__name__)
 
 
 class PokemonAPIClient:
@@ -99,11 +103,14 @@ class PokemonAPIClient:
     ):
         self.enable_cache = enable_cache
 
-        # Determine project root (parent of 'pokemon_tools' folder)
-        project_root = Path(__file__).resolve().parent.parent
-
         if cache_dir is None:
-            self.cache_dir = project_root / ".pokemon_cache"
+            # Use configured raw data dir for cache or a subfolder?
+            # Keeping consistent with old logic but using project root relative path
+            # Or better yet, use settings.DATA_RAW_DIR + "/.cache" ?
+            # Let's stick to old logic for now or a dedicated cache dir in data/
+            # The previous logic was project_root/.pokemon_cache
+            # Let's use data/.cache to keep root clean
+            self.cache_dir = Path("data/.pokemon_cache")
         else:
             self.cache_dir = Path(cache_dir)
 
