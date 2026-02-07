@@ -25,6 +25,7 @@ from dotenv import load_dotenv
 from IPython.display import Markdown, display
 from openai import OpenAI
 from pydantic import BaseModel
+import logging
 
 load_dotenv(override=True)
 
@@ -307,18 +308,19 @@ class LLMQuery:
         """
         Helper method to execute the chat completion with retries.
         """
+        logger = logging.getLogger("ai_tools.tools")
         response = client.chat.completions.create(**kwargs)
         if not response or not response.choices:
-            print(f"Invalid response structure: response={response}, retrying")
+            logger.error(f"Invalid response structure: response={response}, retrying")
             raise ValueError(f"Invalid response structure: response={response}")
 
         message = response.choices[0].message
         if message is None:
-            print(f"Message is None response={response}, retrying")
+            logger.error(f"Message is None response={response}, retrying")
             raise ValueError(f"Message is None response={response}")
 
         if not message.content and not message.tool_calls:
-            print(
+            logger.error(
                 f"Response content is empty and no tool calls found response={response}, retrying"
             )
             raise ValueError(
@@ -1042,7 +1044,7 @@ class LLMQuery:
         iterations = 0
 
         while self.tool_calls and iterations < max_iterations:
-            print(self.tool_calls)
+            logging.getLogger("ai_tools.tools").debug(f"Tool calls: {self.tool_calls}")
             tool_response = handle_tool_call(self.tool_calls, functions=self.functions)
             self.append_tool_result(tool_response)
             query_response = self.query(tools=self.tools)

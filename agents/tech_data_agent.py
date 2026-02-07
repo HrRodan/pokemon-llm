@@ -1,11 +1,9 @@
 from typing import Any, List, Dict
-from ai_tools.tools import LLMQuery
 from tools.tech_data_tools import (
     execute_query as _execute_query,
     TechDataQuery as _TechDataQuery,
 )
 from agents.base_agent import BaseAgent
-from utils.config import settings
 
 SYSTEM_PROMPT = """You are the Tech Data Agent.
 Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead. 
@@ -130,7 +128,10 @@ class TechDataAgent(BaseAgent):
         """
         Respond to usage query.
         """
-        return self.llm.query(user_prompt=message, use_history=False)
+        response = self.llm.query(user_prompt=message, use_history=False)
+        if self.llm.tool_calls:
+            return self.llm.get_tool_responses()
+        return response
 
 
 def run_tech_data_agent(query: str) -> str:

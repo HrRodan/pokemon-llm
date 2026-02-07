@@ -212,4 +212,7 @@ __marimo__/
 
 .pokemon_cache
 
+# Debug logs
+debug.log
+
 .agent
