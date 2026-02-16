@@ -110,6 +110,9 @@ def change_model(model_name: str, client_state: Any) -> Any:
     return client_state
 
 
+from utils.logger import get_log_buffer
+
+
 def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     """
     Main generator function for the chat interface.
@@ -133,6 +136,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     current_tool_history = extract_tool_info(client_state)
     current_reasoning_history = extract_reasoning_info(client_state)
     current_usage_info = extract_usage_info(client_state)
+    current_logs = get_log_buffer()
 
     # Yield 1: Direct list of dicts + tool history
     yield (
@@ -141,6 +145,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
         current_tool_history,
         current_reasoning_history,
         current_usage_info,
+        current_logs,
         client_state,
     )
 
@@ -154,6 +159,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
         extract_tool_info(client_state),
         extract_reasoning_info(client_state),
         extract_usage_info(client_state),
+        get_log_buffer(),
         client_state,
     )
 
@@ -164,7 +170,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     # Poll thread status and yield updates to UI
     while t.is_alive():
         # Wait up to 5 seconds for the thread to finish
-        t.join(timeout=5)
+        t.join(timeout=2)  # Shorter timeout for faster log updates
         # If still alive, yield an update to show we are still processing
         if t.is_alive():
             yield (
@@ -174,6 +180,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
                 extract_tool_info(client_state),
                 extract_reasoning_info(client_state),
                 extract_usage_info(client_state),
+                get_log_buffer(),
                 client_state,
             )
 
@@ -183,10 +190,10 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     # Yield 3: Final state
     yield (
         "",
-        client_state.clean_chat_history
-        + [{"role": "assistant", "content": "--end of response--"}],
+        client_state.clean_chat_history,
         extract_tool_info(client_state),
         extract_reasoning_info(client_state),
         extract_usage_info(client_state),
+        get_log_buffer(),
         client_state,
     )

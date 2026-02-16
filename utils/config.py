@@ -26,7 +26,10 @@ class Settings(BaseSettings):
 
     # Model Configuration
     DEFAULT_MODEL: str = Field(
-        default="openai/gpt-oss-20b", description="Default LLM model to use"
+        default="deepseek/deepseek-v3.2", description="Default LLM model to use"
+    )
+    SUB_AGENT_MODEL: str = Field(
+        default="openai/gpt-oss-20b", description="Default model for sub-agents"
     )
     EMBEDDING_MODEL: str = Field(
         default="qwen/qwen3-embedding-8b", description="Embedding model for Vector DB"

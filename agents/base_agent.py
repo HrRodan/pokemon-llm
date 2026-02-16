@@ -53,3 +53,31 @@ class BaseAgent(ABC):
         # If LLMQuery doesn't expose it directly globally, we might need to rely on the shared client state
         # For now, we just log a placeholder or access attributes if available
         pass
+
+    def log_query(self, query: str):
+        """
+        Logs the incoming user query with standard formatting.
+        """
+        self.logger.info(f"QUERY: {query}")
+
+    def log_tool_use(self, tool_name: str, args: Any):
+        """
+        Logs a tool call with standard formatting.
+        """
+        self.logger.info(f"🛠️  TOOL USE: {tool_name} | Args: {args}")
+
+    def log_tool_output(self, output: Any):
+        """
+        Logs a tool output with standard formatting.
+        """
+        # Truncate long outputs for readability
+        str_output = str(output)
+        if len(str_output) > 500:
+            str_output = str_output[:500] + "... [truncated]"
+        self.logger.info(f"✅ TOOL OUTPUT: {str_output}")
+
+    def log_response(self, response: str):
+        """
+        Logs the final agent response with standard formatting.
+        """
+        self.logger.info(f"🧠 RESPONSE: {response}")

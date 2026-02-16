@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional, Literal, Any
+from typing import List, Dict, Optional, Literal, Any, Union
 import json
 import chromadb
 from ai_tools.tools import LLMQuery
@@ -102,7 +102,7 @@ class QueryDatabaseArgs(BaseModel):
         le=7,
         description="Number of results to return. Defaults to 3. Do NOT Exceed 7.",
     )
-    category: Optional[List[CATEGORY_LITERAL]] = Field(
+    category: Optional[Union[List[CATEGORY_LITERAL], CATEGORY_LITERAL]] = Field(
         default=None,
         description="Optional list of categories to filter by. Valid values: 'pokemon', 'move', 'item', e.g. for only listing Pokemon, use ['pokemon']. If not specified, all categories are included.",
     )

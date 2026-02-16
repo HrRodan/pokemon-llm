@@ -74,6 +74,11 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                         show_label=False,
                     )
 
+                with gr.TabItem("📜 Agent Logs"):
+                    log_output = gr.HTML(
+                        label="Realtime Logs",
+                    )
+
                 with gr.TabItem("⚙️ Settings"):
                     gr.Markdown("### 🧠 Model Configuration")
                     model_selector = gr.Dropdown(
@@ -99,6 +104,7 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
             tool_output,
             reasoning_output,
             usage_output,
+            log_output,
             client_state,
         ],
     )
@@ -112,6 +118,7 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
             tool_output,
             reasoning_output,
             usage_output,
+            log_output,
             client_state,
         ],
     )

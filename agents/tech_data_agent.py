@@ -106,7 +106,9 @@ class TechDataAgent(BaseAgent):
     """
 
     def __init__(self):
-        super().__init__(name="TechDataAgent", model_name="openai/gpt-oss-20b")
+        from utils.config import settings
+
+        super().__init__(name="TechDataAgent", model_name=settings.SUB_AGENT_MODEL)
 
         # Define tools
         self.tool_schema = _TechDataQuery.model_json_schema()
@@ -128,9 +130,20 @@ class TechDataAgent(BaseAgent):
         """
         Respond to usage query.
         """
-        response = self.llm.query(user_prompt=message, use_history=False)
+        self.log_query(message)
+        response = self.llm.query(user_prompt=message)
+
         if self.llm.tool_calls:
-            return self.llm.get_tool_responses()
+            for tool in self.llm.tool_calls:
+                self.log_tool_use(
+                    tool["function"]["name"], tool["function"]["arguments"]
+                )
+
+            final_response = self.llm.get_tool_responses()
+            self.log_response(final_response)
+            return final_response
+
+        self.log_response(response)
         return response
 
 
