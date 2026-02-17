@@ -1,4 +1,4 @@
-from typing import Any, List, Dict
+from typing import Any, List, Dict, Optional
 from tools.tech_data_tools import (
     execute_query as _execute_query,
     TechDataQuery as _TechDataQuery,
@@ -43,7 +43,8 @@ Schema Overview:
 
 When a user asks a question:
 1. Analyze the request.
-2. Formulate a query using the `execute_query` tool. Use the provided json schema. **DO NOT** hallucinate results. Run the queries.
+2. **Check the History**: Before searching, check if you have already performed a similar search. **DO NOT** repeat the exact same query if it returned results previously.
+3. Formulate a query using the `execute_query` tool. Use the provided json schema. **DO NOT** hallucinate results. Run the queries.
    - `columns`: List of columns (e.g. "name", "attack") or aggregations.
    - `table`: "pokemons", "moves", or "items".
    - `conditions`: List of filters. Logic can be AND or OR.
@@ -54,10 +55,11 @@ When a user asks a question:
    - `order_direction`: ASC or DESC.
    - `limit`: Optional max rows.
    - You can make multiple tool calls in parallel to answer a question.
-3. The tool will return a Markdown table.
-4. Uses this table to answer the user's question, providing context if needed.
-5. Query again if necessary (e.g. if an error occurs)
-6. **Complex Logic**: If a user asks for complex logic like `(A OR B) AND C`, the tool CANNOT handle mixed AND/OR.
+   - You can use for multiple ids in a single query using the IN operator.
+4. The tool will return a Markdown table.
+5. Uses this table to answer the user's question, providing context if needed.
+6. Query again if necessary (e.g. if an error occurs)
+7. **Complex Logic**: If a user asks for complex logic like `(A OR B) AND C`, the tool CANNOT handle mixed AND/OR.
    - You MUST split this into two queries:
      1. Query for `A AND C`
      2. Query for `B AND C`
@@ -70,7 +72,15 @@ When a user asks a question:
        4. **Query 3**: Execute the final aggregation/retrieval using `id IN (...)` with the combined list.
           - Example: `conditions=[{"column": "id", "operator": "IN", "value": [1, 4, 7, ...]}]`
        - DO NOT ask the user to do it. YOU must do it.
-   - You may output the result of several queries with a short explanation if you are not able to combine them.
+
+**CRITICAL INSTRUCTIONS FOR MULTI-STEP QUERIES:**
+- If you need to search for multiple terms (e.g. "hound" OR "dog" OR "pup"):
+  - You can try to do separate queries for each term.
+  - **DO NOT** repeat a query you have already done.
+  - If you have results for "hound", move on to "dog".
+  - Maintain a mental list of what you have checked.
+  - If you have gathered sufficient information, stop querying and present the answer.
+  - If a query returns no results, do not retry it with the exact same parameters. Try a different approach or move to the next term.
 
 When you cannot create a valid query, you **must** return an error message.
 
@@ -126,24 +136,30 @@ class TechDataAgent(BaseAgent):
         self.llm.tools = [self.tool_definition]
         self.llm.functions = [execute_query]
 
-    def response(self, message: str, history: List[Dict[str, str]] = None) -> str:
+    def response(
+        self, message: str, history: Optional[List[Dict[str, str]]] = None
+    ) -> str:
         """
-        Respond to usage query.
+        Respond to a technical data query by executing SQL against the database.
+
+        Args:
+            message: The user's input message.
+            history: Optional chat history (unused, sub-agent is stateless).
+
+        Returns:
+            The response text containing query results.
         """
         self.log_query(message)
         response = self.llm.query(user_prompt=message)
 
         if self.llm.tool_calls:
-            for tool in self.llm.tool_calls:
-                self.log_tool_use(
-                    tool["function"]["name"], tool["function"]["arguments"]
-                )
-
             final_response = self.llm.get_tool_responses()
             self.log_response(final_response)
+            self._collect_usage()
             return final_response
 
         self.log_response(response)
+        self._collect_usage()
         return response
 
 

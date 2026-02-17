@@ -169,7 +169,9 @@ def clean_json(text: str) -> str:
 
 
 def handle_tool_call(
-    tool_calls: List[Dict[str, Any]], functions: List[Callable]
+    tool_calls: List[Dict[str, Any]],
+    functions: List[Callable],
+    logger: Optional[logging.Logger] = None,
 ) -> List[Dict[str, Any]]:
     """
     Handle LLM tool calls by executing the corresponding functions.
@@ -214,14 +216,25 @@ def handle_tool_call(
 
             # Execute function
             function_to_call = function_map[function_name]
+            if logger:
+                logger.info(f"TOOL CALL: {function_name} | Args: {arguments}")
             try:
                 result = function_to_call(**arguments)
             except Exception as e:
                 # Catch execution errors and return them as tool output so the LLM knows it failed
                 raise RuntimeError(f"Error while executing '{function_name}': {e}")
 
+            # Log successful tool output
+            if logger:
+                str_result = str(result)
+                if len(str_result) > 500:
+                    str_result = str_result[:500] + "... [truncated]"
+                logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
+
         except Exception as e:
             result = f"Error: {str(e)}"
+            if logger:
+                logger.warning(f"TOOL ERROR ({function_name}): {e}")
 
         tool_response.append(
             {
@@ -252,6 +265,7 @@ class LLMQuery:
         reasoning_effort: Optional[str] = None,
         history_limit: Optional[int] = None,
         response_format: Union[Dict[str, Any], Type[BaseModel], None] = None,
+        logger: Optional[logging.Logger] = None,
     ):
         """
         Initialize the LLMQuery instance.
@@ -271,7 +285,9 @@ class LLMQuery:
             reasoning_effort (str, optional): The reasoning effort to use. Defaults to None.
             history_limit (int, optional): The maximum number of history entries to include. Defaults to None (all history).
             response_format (Union[Dict[str, Any], Type[BaseModel], None], optional): The format of the response. Can be a dict or a Pydantic model. Defaults to None.
+            logger (logging.Logger, optional): Logger instance for logging queries, responses, tool calls, and errors. If None, no logging is performed. Defaults to None.
         """
+        self.logger = logger
         self.model = model
         self.image_model = image_model
         self.tts_model = tts_model
@@ -308,21 +324,25 @@ class LLMQuery:
         """
         Helper method to execute the chat completion with retries.
         """
-        logger = logging.getLogger("ai_tools.tools")
         response = client.chat.completions.create(**kwargs)
         if not response or not response.choices:
-            logger.error(f"Invalid response structure: response={response}, retrying")
+            if self.logger:
+                self.logger.error(
+                    f"Invalid response structure: response={response}, retrying"
+                )
             raise ValueError(f"Invalid response structure: response={response}")
 
         message = response.choices[0].message
         if message is None:
-            logger.error(f"Message is None response={response}, retrying")
+            if self.logger:
+                self.logger.error(f"Message is None response={response}, retrying")
             raise ValueError(f"Message is None response={response}")
 
         if not message.content and not message.tool_calls:
-            logger.error(
-                f"Response content is empty and no tool calls found response={response}, retrying"
-            )
+            if self.logger:
+                self.logger.error(
+                    f"Response content is empty and no tool calls found response={response}, retrying"
+                )
             raise ValueError(
                 f"Response content is empty and no tool calls found response={response}"
             )
@@ -622,6 +642,13 @@ class LLMQuery:
             history_limit if history_limit is not None else self.history_limit
         )
 
+        # Log query input
+        if self.logger:
+            prompt_str = str(user_prompt) if user_prompt else "[None/continuation]"
+            if len(prompt_str) > 500:
+                prompt_str = prompt_str[:500] + "... [truncated]"
+            self.logger.debug(f"📝 QUERY INPUT ({target_model}): {prompt_str}")
+
         client = self._get_client_for_model(target_model)
 
         messages = self._prepare_messages(
@@ -733,6 +760,34 @@ class LLMQuery:
         # Update reasoning history
         self.reasoning_history.append(current_reasoning)
 
+        # Log response, reasoning, tool calls, and usage
+        if self.logger:
+            if content:
+                resp_str = content
+                if len(resp_str) > 500:
+                    resp_str = resp_str[:500] + "... [truncated]"
+                self.logger.debug(f"🧠 LLM RESPONSE: {resp_str}")
+
+            if current_reasoning:
+                reasoning_str = str(current_reasoning)
+                if len(reasoning_str) > 500:
+                    reasoning_str = reasoning_str[:500] + "... [truncated]"
+                self.logger.debug(f"💭 REASONING: {reasoning_str}")
+
+            if self.tool_calls:
+                for tc in self.tool_calls:
+                    fn = tc.get("function", {})
+                    self.logger.info(
+                        f"🛠️  TOOL REQUESTED: {fn.get('name', '?')} | Args: {fn.get('arguments', '{}')}"
+                    )
+
+            if hasattr(response, "usage") and response.usage:
+                self.logger.debug(
+                    f"📊 TOKENS: prompt={response.usage.prompt_tokens}, "
+                    f"completion={response.usage.completion_tokens}, "
+                    f"total={response.usage.total_tokens}"
+                )
+
         # Update state
         self.response = content if content is not None else ""
         self._update_history(
@@ -764,29 +819,22 @@ class LLMQuery:
         Returns:
             str: The response text.
         """
-        user_prompt = input
+        user_prompt: Union[str, List[Dict[str, str]], None] = None
 
-        # Handle dict input (e.g. {"input": "..."} or {"query": "..."})
-        if isinstance(input, dict):
-            if "input" in input:
-                user_prompt = input["input"]
-            elif "query" in input:
-                user_prompt = input["query"]
-            elif "content" in input:
-                user_prompt = input["content"]
-
-            if isinstance(user_prompt, str):
-                pass  # Good
-            elif isinstance(user_prompt, list):
-                pass  # Good
-            elif (
-                isinstance(user_prompt, dict)
-                and "role" in user_prompt
-                and "content" in user_prompt
-            ):
-                # If the input is a single message dict (e.g., {"role": "user", "content": "..."}),
-                # wrap it in a list so it matches the expected input format for self.query.
-                user_prompt = [user_prompt]
+        if isinstance(input, str):
+            user_prompt = input
+        elif isinstance(input, list):
+            user_prompt = input
+        elif isinstance(input, dict):
+            raw = input.get("input") or input.get("query") or input.get("content")
+            if isinstance(raw, str):
+                user_prompt = raw
+            elif isinstance(raw, list):
+                user_prompt = raw
+            elif isinstance(raw, dict) and "role" in raw and "content" in raw:
+                user_prompt = [raw]
+            else:
+                user_prompt = str(raw) if raw is not None else None
 
         return self.query(user_prompt=user_prompt, **kwargs)
 
@@ -1044,9 +1092,11 @@ class LLMQuery:
         iterations = 0
 
         while self.tool_calls and iterations < max_iterations:
-            logging.getLogger("ai_tools.tools").debug(f"Tool calls: {self.tool_calls}")
-            tool_response = handle_tool_call(self.tool_calls, functions=self.functions)
+            tool_response = handle_tool_call(
+                self.tool_calls, functions=self.functions, logger=self.logger
+            )
             self.append_tool_result(tool_response)
+
             query_response = self.query(tools=self.tools)
 
             if not query_response and not self.tool_calls:

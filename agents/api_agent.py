@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Optional
 from agents.base_agent import BaseAgent
 from tools.api_client import PokemonAPIClient, TOOLS as API_TOOLS
 from utils.config import settings
@@ -54,25 +54,30 @@ class APIAgent(BaseAgent):
         self.llm.tools = API_TOOLS
         self.llm.functions = self.functions_list
 
-    def response(self, message: str, history: List[Dict[str, str]] = None) -> str:
+    def response(
+        self, message: str, history: Optional[List[Dict[str, str]]] = None
+    ) -> str:
         """
-        Respond to user message.
+        Respond to user message by querying the PokéAPI tools.
+
+        Args:
+            message: The user's input message.
+            history: Optional chat history (unused, sub-agent is stateless).
+
+        Returns:
+            The response text from the API lookup.
         """
         self.log_query(message)
         response = self.llm.query(user_prompt=message, use_history=False)
-        # If it's a tool call, we need to handle it.
 
         if self.llm.tool_calls:
-            for tool in self.llm.tool_calls:
-                self.log_tool_use(
-                    tool["function"]["name"], tool["function"]["arguments"]
-                )
-
             final_response = self.llm.get_tool_responses()
             self.log_response(final_response)
+            self._collect_usage()
             return final_response
 
         self.log_response(response)
+        self._collect_usage()
         return response
 
 

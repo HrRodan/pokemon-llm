@@ -2,12 +2,22 @@ import threading
 from typing import List, Dict, Any, Optional
 from agents.pokemon_agent import PokemonAgent
 from utils.config import settings, ALLOWED_MODELS
+from utils.usage_tracker import UsageTracker
 
 
 def get_agent_client(model: str = settings.DEFAULT_MODEL) -> PokemonAgent:
     """
     Factory function to get the Pokemon agent.
+
+    Resets the global usage tracker so each session starts fresh.
+
+    Args:
+        model: The LLM model name to use.
+
+    Returns:
+        A new PokemonAgent instance.
     """
+    UsageTracker.get().reset()
     return PokemonAgent(model_name=model)
 
 
@@ -73,14 +83,9 @@ def extract_reasoning_info(client_state: Any) -> List[Dict[str, str]]:
     return [{"role": "assistant", "content": r} for r in reasoning_items]
 
 
-def extract_usage_info(client_state: Any) -> str:
-    """
-    Extracts usage statistics from the client state.
-    Returns a markdown string displaying the accumulated stats.
-    """
-    if not client_state:
-        # Return default stats if no state exists
-        return """### 📊 Token Usage (Accumulated)
+def _format_empty_usage() -> str:
+    """Return the default (zeroed) usage markdown when no data is available."""
+    return """### 📊 Token Usage (Accumulated)
 | Metric | Value |
 | :--- | :--- |
 | **Total Cost** | `$0.000000` |
@@ -88,17 +93,62 @@ def extract_usage_info(client_state: Any) -> str:
 | **Prompt Tokens** | `0` |
 | **Completion Tokens** | `0` |
 | **Reasoning Tokens** | `0` |
+
+*No agent activity yet.*
 """
 
-    return f"""### 📊 Token Usage (Accumulated)
+
+def extract_usage_info(client_state: Any) -> str:
+    """
+    Build a Markdown string with accumulated usage statistics.
+
+    Shows a **totals** summary table followed by a **per-agent** breakdown.
+    Data is read from the global :class:`UsageTracker` so it includes
+    sub-agent usage that would otherwise be lost between instantiations.
+
+    Args:
+        client_state: The current PokemonAgent (may be ``None``).
+
+    Returns:
+        A Markdown-formatted string for the Gradio UI.
+    """
+    tracker = UsageTracker.get()
+    totals = tracker.get_totals()
+
+    # If nothing has been tracked yet, show a clean default
+    if totals.total_tokens == 0 and totals.cost == 0.0:
+        return _format_empty_usage()
+
+    # --- Totals table ---
+    md = f"""### 📊 Token Usage (Accumulated)
 | Metric | Value |
 | :--- | :--- |
-| **Total Cost** | `${client_state.total_cost:.6f}` |
-| **Total Tokens** | `{client_state.total_tokens:,}` |
-| **Prompt Tokens** | `{client_state.total_prompt_tokens:,}` |
-| **Completion Tokens** | `{client_state.total_completion_tokens:,}` |
-| **Reasoning Tokens** | `{client_state.total_reasoning_tokens:,}` |
+| **Total Cost** | `${totals.cost:.6f}` |
+| **Total Tokens** | `{totals.total_tokens:,}` |
+| **Prompt Tokens** | `{totals.prompt_tokens:,}` |
+| **Completion Tokens** | `{totals.completion_tokens:,}` |
+| **Reasoning Tokens** | `{totals.reasoning_tokens:,}` |
+
 """
+
+    # --- Per-agent breakdown ---
+    all_agents = tracker.get_all()
+    if all_agents:
+        md += "### 🤖 Per-Agent Breakdown\n"
+        md += "| Agent | Calls | Prompt | Completion | Reasoning | Total | Cost |\n"
+        md += "| :--- | ---: | ---: | ---: | ---: | ---: | ---: |\n"
+        for name, usage in all_agents.items():
+            md += (
+                f"| **{name}** "
+                f"| {usage.call_count} "
+                f"| {usage.prompt_tokens:,} "
+                f"| {usage.completion_tokens:,} "
+                f"| {usage.reasoning_tokens:,} "
+                f"| {usage.total_tokens:,} "
+                f"| `${usage.cost:.6f}` |\n"
+            )
+
+    return md
 
 
 def change_model(model_name: str, client_state: Any) -> Any:

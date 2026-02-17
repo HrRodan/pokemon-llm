@@ -1,10 +1,11 @@
-from typing import List, Dict, Any, Callable
+from typing import List, Dict, Any, Optional
+from ai_tools.tools import ModelName
 from agents.base_agent import BaseAgent
-from ai_tools.tools import LLMQuery
 from agents.api_agent import run_api_agent, API_AGENT_TOOL_DEFINITION
 from agents.rag_agent import run_rag_agent, RAG_AGENT_TOOL_DEFINITION
 from agents.tech_data_agent import run_tech_data_agent, TECH_DATA_AGENT_TOOL_DEFINITION
 from utils.config import settings
+from utils.usage_tracker import UsageTracker
 
 SYSTEM_PROMPT_POKEMON_AGENT = """# System Prompt: Professor Oak (Pokémon AI Agent)
 
@@ -71,7 +72,7 @@ class PokemonAgent(BaseAgent):
     and coordinates between other tools/agents.
     """
 
-    def __init__(self, model_name: str = None):
+    def __init__(self, model_name: Optional[str] = None) -> None:
         super().__init__(
             name="PokemonAgent", model_name=model_name or settings.DEFAULT_MODEL
         )
@@ -100,88 +101,133 @@ class PokemonAgent(BaseAgent):
     def query(self, user_prompt: str, **kwargs) -> str:
         """
         Delegate query to LLM.
+
+        Args:
+            user_prompt: The user's input text.
+            **kwargs: Additional keyword arguments forwarded to ``LLMQuery.query``.
+
+        Returns:
+            The raw LLM response text.
         """
         return self.llm.query(user_prompt=user_prompt, **kwargs)
 
     def get_tool_responses(self, **kwargs) -> str:
         """
         Delegate tool execution loop to LLM.
+
+        Args:
+            **kwargs: Additional keyword arguments forwarded to ``LLMQuery.get_tool_responses``.
+
+        Returns:
+            The final assistant response after tool execution.
         """
-        return self.llm.get_tool_responses(**kwargs)
+        result = self.llm.get_tool_responses(**kwargs)
+        self._collect_usage()
+        return result
 
     @property
     def chat_history(self) -> List[Dict[str, Any]]:
+        """Full chat history including tool messages."""
         return self.llm.chat_history
 
     @property
     def clean_chat_history(self) -> List[Dict[str, str]]:
+        """Chat history filtered to user/assistant messages only."""
         return self.llm.clean_chat_history
 
     @property
     def reasoning_history(self) -> List[Any]:
+        """List of reasoning traces from each LLM turn."""
         return self.llm.reasoning_history
+
+    # ------------------------------------------------------------------
+    # Usage properties — read from the global UsageTracker (includes
+    # sub-agent usage) rather than only the local LLM counters.
+    # ------------------------------------------------------------------
+
+    @property
+    def usage_tracker(self) -> UsageTracker:
+        """Return the global UsageTracker instance."""
+        return UsageTracker.get()
 
     @property
     def total_cost(self) -> float:
-        return self.llm.total_cost
+        """Accumulated cost across **all** agents."""
+        return self.usage_tracker.get_totals().cost
 
     @property
     def total_tokens(self) -> int:
-        return self.llm.total_tokens
+        """Accumulated total tokens across **all** agents."""
+        return self.usage_tracker.get_totals().total_tokens
 
     @property
     def total_prompt_tokens(self) -> int:
-        return self.llm.total_prompt_tokens
+        """Accumulated prompt tokens across **all** agents."""
+        return self.usage_tracker.get_totals().prompt_tokens
 
     @property
     def total_completion_tokens(self) -> int:
-        return self.llm.total_completion_tokens
+        """Accumulated completion tokens across **all** agents."""
+        return self.usage_tracker.get_totals().completion_tokens
 
     @property
     def total_reasoning_tokens(self) -> int:
-        return self.llm.total_reasoning_tokens
+        """Accumulated reasoning tokens across **all** agents."""
+        return self.usage_tracker.get_totals().reasoning_tokens
 
     @property
-    def model(self):
+    def model(self) -> str:
+        """The currently configured LLM model name."""
         return self.llm.model
 
     @model.setter
-    def model(self, value):
+    def model(self, value: "ModelName") -> None:
         self.llm.model = value
 
-    def response(self, message: str, history: List[Dict[str, str]] = None) -> str:
+    def response(
+        self, message: str, history: Optional[List[Dict[str, str]]] = None
+    ) -> str:
         """
-        Respond to user message.
+        Respond to user message (full cycle: query + tool execution).
+
+        Args:
+            message: The user's input message.
+            history: Optional chat history (unused, maintained internally).
+
+        Returns:
+            The final response text.
         """
         self.log_query(message)
         response = self.llm.query(user_prompt=message, use_history=True)
 
         if self.llm.tool_calls:
-            for tool in self.llm.tool_calls:
-                self.log_tool_use(
-                    tool["function"]["name"], tool["function"]["arguments"]
-                )
-
             final_response = self.llm.get_tool_responses()
             self.log_response(final_response)
+            self._collect_usage()
             return final_response
 
         self.log_response(response)
+        self._collect_usage()
         return response
 
     def get_ui_state(self) -> Dict[str, Any]:
         """
-        Helper to expose internal state for UI (tool calls, usage, etc.)
+        Expose internal state for the UI (tool calls, usage, etc.).
+
+        Returns:
+            A dict containing chat history, tool calls, reasoning,
+            token counts, and cost.
         """
+        totals = self.usage_tracker.get_totals()
         return {
             "chat_history": self.llm.chat_history,
             "tool_calls": self.llm.tool_calls,
             "reasoning_history": self.llm.reasoning_history,
             "tokens": {
-                "prompt": self.llm.total_prompt_tokens,
-                "completion": self.llm.total_completion_tokens,
-                "total": self.llm.total_tokens,
-                "reasoning": self.llm.total_reasoning_tokens,
+                "prompt": totals.prompt_tokens,
+                "completion": totals.completion_tokens,
+                "total": totals.total_tokens,
+                "reasoning": totals.reasoning_tokens,
             },
-            "cost": self.llm.total_cost,
+            "cost": totals.cost,
         }
