@@ -68,32 +68,32 @@ def parse_gitignore(gitignore_path=".gitignore"):
 def main():
     api = HfApi()
 
-    print(f"Preparing to upload to {REPO_ID} (type={REPO_TYPE})...")
+    # print(f"Preparing to upload to {REPO_ID} (type={REPO_TYPE})...")
 
     ignore_patterns = parse_gitignore()
-    print(f"Ignore patterns: {ignore_patterns}")
+    # print(f"Ignore patterns: {ignore_patterns}")
 
-    print("Deleting existing remote files before upload...")
-    try:
-        remote_files = api.list_repo_files(repo_id=REPO_ID, repo_type=REPO_TYPE)
-        operations = [
-            CommitOperationDelete(path_in_repo=f)
-            for f in remote_files
-            if f != ".gitattributes"
-        ]
-        if operations:
-            print(f"Deleting {len(operations)} files...")
-            api.create_commit(
-                repo_id=REPO_ID,
-                repo_type=REPO_TYPE,
-                operations=operations,
-                commit_message="Delete everything before uploading",
-            )
-            print("Deletion successful!")
-        else:
-            print("No remote files to delete.")
-    except Exception as e:
-        print(f"Warning during deletion: {e}")
+    # print("Deleting existing remote files before upload...")
+    # try:
+    #     remote_files = api.list_repo_files(repo_id=REPO_ID, repo_type=REPO_TYPE)
+    #     operations = [
+    #         CommitOperationDelete(path_in_repo=f)
+    #         for f in remote_files
+    #         if f != ".gitattributes"
+    #     ]
+    #     if operations:
+    #         print(f"Deleting {len(operations)} files...")
+    #         api.create_commit(
+    #             repo_id=REPO_ID,
+    #             repo_type=REPO_TYPE,
+    #             operations=operations,
+    #             commit_message="Delete everything before uploading",
+    #         )
+    #         print("Deletion successful!")
+    #     else:
+    #         print("No remote files to delete.")
+    # except Exception as e:
+    #     print(f"Warning during deletion: {e}")
 
     print("Uploading folder...")
     try:
