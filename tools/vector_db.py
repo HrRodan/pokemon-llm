@@ -99,8 +99,8 @@ class QueryDatabaseArgs(BaseModel):
     n_results: int = Field(
         default=3,
         ge=1,
-        le=7,
-        description="Number of results to return. Defaults to 3. Do NOT Exceed 7.",
+        le=10,
+        description="Number of results to return. Defaults to 3. Do NOT Exceed 10.",
     )
     category: Optional[Union[List[CATEGORY_LITERAL], CATEGORY_LITERAL]] = Field(
         default=None,

@@ -14,7 +14,7 @@ You excel at answering "Tell me about...", description, behavior, and biology qu
 4.  **No Fluff:** Remove unnecessary introductory or concluding remarks.
 5.  **Refinement:** If the first search is not good enough, you can search again with better terms.
 
-**Input:** A natural language question or topic.
+**Input:** A natural language question or topic. Rephrase this query to be more suitable for the RAG vector database.
 **Output:** A direct, concise summary of the database content.
 """
 

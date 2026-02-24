@@ -352,7 +352,8 @@ class LLMQuery:
     def _parse_xml_tool_calls(self, content: str) -> List[Dict[str, Any]]:
         """
         Parse XML-formatted tool calls from the message content.
-        Looks for <function_calls>...</function_calls> blocks and nested <invoke name="...">...</invoke> tags.
+        Looks for <function_calls>...</function_calls> blocks, <invoke> tags,
+        and DeepSeek 3.2 <functioninvoke> edge cases.
         """
         tool_calls = []
 
@@ -399,6 +400,53 @@ class LLMQuery:
                         "function": {"name": function_name, "arguments": arguments_str},
                     }
                 )
+
+        # Check for DeepSeek 3.2 specific XML-like tool calls
+        # Pattern: <functioninvoke name="run_api_agent"> <parameter name="query" string="true">Get base stats...</parameterinvoke>
+        function_invoke_matches = re.finditer(
+            r"<functioninvoke([^>]*)>(.*?)</(?:parameterinvoke|functioninvoke|invoke)>",
+            content,
+            re.DOTALL | re.IGNORECASE,
+        )
+
+        for match in function_invoke_matches:
+            attrs = match.group(1).strip()
+            inner_content = match.group(2).strip()
+
+            # Extract function name
+            name_match = re.search(r'name=["\']([^"\']+)["\']', attrs)
+            if name_match:
+                function_name = name_match.group(1)
+            else:
+                function_name = "error_missing_function_name"
+
+            # Parse inner parameters using <parameter name="...">value</parameter>
+            args = {}
+            # Match parameter tag up to its closing tag or end of string if swallowed
+            param_matches = re.finditer(
+                r'<parameter\s+name=["\']([^"\']+)["\'][^>]*>(.*?)(?:</parameter>|$)',
+                inner_content,
+                re.DOTALL | re.IGNORECASE,
+            )
+
+            for p_match in param_matches:
+                param_name = p_match.group(1)
+                param_value = p_match.group(2).strip()
+                args[param_name] = param_value
+
+            if args:
+                arguments_str = json.dumps(args)
+            else:
+                arguments_str = inner_content
+
+            tool_id = f"call_via_content_{uuid.uuid4().hex[:8]}"
+            tool_calls.append(
+                {
+                    "id": tool_id,
+                    "type": "function",
+                    "function": {"name": function_name, "arguments": arguments_str},
+                }
+            )
 
         return tool_calls
 
