@@ -1,7 +1,8 @@
 import threading
 from typing import List, Dict, Any, Optional
 from agents.pokemon_agent import PokemonAgent
-from utils.config import settings, ALLOWED_MODELS
+from utils.config import settings
+from utils.logger import get_log_buffer
 from utils.usage_tracker import UsageTracker
 
 
@@ -83,7 +84,7 @@ def extract_reasoning_info(client_state: Any) -> List[Dict[str, str]]:
     return [{"role": "assistant", "content": r} for r in reasoning_items]
 
 
-def _format_empty_usage() -> str:
+def format_empty_usage() -> str:
     """Return the default (zeroed) usage markdown when no data is available."""
     return """### 📊 Token Usage (Accumulated)
 | Metric | Value |
@@ -117,7 +118,7 @@ def extract_usage_info(client_state: Any) -> str:
 
     # If nothing has been tracked yet, show a clean default
     if totals.total_tokens == 0 and totals.cost == 0.0:
-        return _format_empty_usage()
+        return format_empty_usage()
 
     # --- Totals table ---
     md = f"""### 📊 Token Usage (Accumulated)
@@ -155,12 +156,9 @@ def change_model(model_name: str, client_state: Any) -> Any:
     """
     Updates the model in the client state.
     """
-    if client_state and model_name in ALLOWED_MODELS:
+    if client_state and model_name in settings.ALLOWED_MODELS:
         client_state.model = model_name
     return client_state
-
-
-from utils.logger import get_log_buffer
 
 
 def respond(message: str, client_state: Any, model_name: Optional[str] = None):

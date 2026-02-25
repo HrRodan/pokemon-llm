@@ -39,8 +39,8 @@ class APIAgent(BaseAgent):
         # Initialize API Client
         self.pokemon_client = PokemonAPIClient()
 
-        # Map functions
-        # API Client functions need to be bound to the instance
+        # Build function map from the tool definitions so each tool name
+        # maps to the bound method on the client instance.
         self.functions_map = {
             tool["function"]["name"]: getattr(
                 self.pokemon_client, tool["function"]["name"]
@@ -67,27 +67,33 @@ class APIAgent(BaseAgent):
         Returns:
             The response text from the API lookup.
         """
-        self.log_query(message)
-        response = self.llm.query(user_prompt=message, use_history=False)
+        return self._run(message, use_history=False)
 
-        if self.llm.tool_calls:
-            final_response = self.llm.get_tool_responses()
-            self.log_response(final_response)
-            self._collect_usage()
-            return final_response
 
-        self.log_response(response)
-        self._collect_usage()
-        return response
+# ---------------------------------------------------------------------------
+# Lazy singleton — avoids reconstructing PokemonAPIClient on every tool call.
+# ---------------------------------------------------------------------------
+
+_api_agent: "APIAgent | None" = None
 
 
 def run_api_agent(query: str) -> str:
     """
-    Function to be used as a tool by other agents.
-    Instantiates the agent and gets a response.
+    Tool wrapper used by PokemonAgent.
+
+    Lazily creates a single shared APIAgent instance and reuses it for
+    subsequent calls within the same process lifetime.
+
+    Args:
+        query: The specific data request to delegate.
+
+    Returns:
+        The API lookup result as a natural language string.
     """
-    agent = APIAgent()
-    return agent.response(query)
+    global _api_agent
+    if _api_agent is None:
+        _api_agent = APIAgent()
+    return _api_agent.response(query)
 
 
 API_AGENT_TOOL_DEFINITION = {

@@ -57,7 +57,7 @@ All agents extend `BaseAgent` (`agents/base_agent.py`), which provides logging, 
 | **TechDataAgent** | Stats, aggregations, rankings, filtered SQL queries | SQLite (`data/tech_db/tech.db`) |
 | **APIAgent** | Precise lookups — base stats, moves, items, evolutions, locations | PokéAPI (REST) |
 
-Sub-agents are instantiated on-demand for each tool call and destroyed afterwards. Their usage is preserved via the global `UsageTracker`.
+Sub-agents are **lazy singletons** — each is instantiated at most once per process and reused for all tool calls. Their usage stats are preserved via the global `UsageTracker`.
 
 ---
 
@@ -156,7 +156,32 @@ uv run app.py
 ## Tests
 
 ```bash
-uv run python -m pytest tests/ -v
+# Unit tests (no LLM / network required)
+uv run python -m pytest tests/unit/ -v
+
+# Integration tests (require a live API key + populated DBs)
+uv run python -m pytest tests/integration/ -v
+```
+
+**Test layout:**
+
+```
+tests/
+├── conftest.py               # shared sys.path setup
+├── unit/
+│   ├── test_agents.py        # 13 agent unit tests (fully mocked, no API key)
+│   ├── test_tech_db.py       # SQL tool tests (requires SQLite DB)
+│   └── test_usage_tracker.py # pure unit tests, no I/O
+└── integration/
+    ├── test_agent_llm.py     # live LLM tests for all 3 sub-agents + usage tracking
+    └── test_complex_query.py # complex multi-step SQL query (manual run)
+```
+
+**Verification scripts** (live LLM, run manually):
+
+```bash
+uv run scripts/verify_agents.py       # smoke test APIAgent, RAGAgent, PokemonAgent
+uv run scripts/verify_tech_agent.py   # smoke test TechDataAgent
 ```
 
 ---
@@ -164,9 +189,9 @@ uv run python -m pytest tests/ -v
 ## Adding a New Agent
 
 1. Create a new file in `agents/` extending `BaseAgent`.
-2. Implement `response()` and call `self._collect_usage()` at the end.
-3. Define a `run_<name>_agent()` tool function and a `TOOL_DEFINITION` dict.
-4. Register the tool in `PokemonAgent.__init__`.
+2. Implement `response()` — for the standard query-then-tool-loop pattern, simply call `return self._run(message)`. Override the full method only if you need custom behaviour.
+3. Define a `run_<name>_agent()` tool wrapper (use the lazy-singleton pattern) and a `<NAME>_TOOL_DEFINITION` dict.
+4. Register the tool in `PokemonAgent.__init__` (`tools_def` and `functions_list`).
 5. Add the agent name and colour to `AGENT_COLORS` / `AGENT_CSS_COLORS` in `utils/logger.py`.
 
 The usage tracker and UI will automatically discover the new agent — no further wiring needed.

@@ -1,6 +1,6 @@
 import gradio as gr
-from utils.ui_utils import get_agent_client, respond, change_model
-from utils.config import ALLOWED_MODELS, settings
+from utils.ui_utils import get_agent_client, respond, change_model, format_empty_usage
+from utils.config import settings
 
 
 # 📱 Application Layout
@@ -82,7 +82,7 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                 with gr.TabItem("⚙️ Settings"):
                     gr.Markdown("### 🧠 Model Configuration")
                     model_selector = gr.Dropdown(
-                        choices=ALLOWED_MODELS,
+                        choices=settings.ALLOWED_MODELS,
                         value=settings.DEFAULT_MODEL,
                         label="Select LLM",
                         interactive=True,
@@ -90,9 +90,7 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                     )
 
                 with gr.TabItem("📊 Usage Statistics"):
-                    usage_output = gr.Markdown(
-                        "### 📊 Token Usage (Accumulated)\n| Metric | Value |\n| :--- | :--- |\n| **Total Cost** | `$0.000000` |\n| **Total Tokens** | `0` |\n| **Prompt Tokens** | `0` |\n| **Completion Tokens** | `0` |\n| **Reasoning Tokens** | `0` |"
-                    )
+                    usage_output = gr.Markdown(format_empty_usage())
 
     # 🔗 Event Wiring
     msg.submit(

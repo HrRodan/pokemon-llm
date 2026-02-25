@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from pydantic import Field
 from dotenv import load_dotenv
@@ -41,14 +41,18 @@ class Settings(BaseSettings):
     VECTOR_DB_DIR: str = "data/vector_db"
     TECH_DB_PATH: str = "data/tech_db/tech.db"
 
+    # UI — models available in the dropdown
+    ALLOWED_MODELS: List[str] = Field(
+        default=[
+            "deepseek/deepseek-v3.2",
+            "openai/gpt-oss-120b",
+            "openai/gpt-oss-20b",
+            "xiaomi/mimo-v2-flash:free",
+            "x-ai/grok-4.1-fast",
+            "nvidia/nemotron-3-nano-30b-a3b",
+        ],
+        description="Models available in the UI dropdown.",
+    )
+
 
 settings = Settings()
-
-ALLOWED_MODELS = [
-    "deepseek/deepseek-v3.2",
-    "openai/gpt-oss-120b",
-    "openai/gpt-oss-20b",
-    "xiaomi/mimo-v2-flash:free",
-    "x-ai/grok-4.1-fast",
-    "nvidia/nemotron-3-nano-30b-a3b",
-]

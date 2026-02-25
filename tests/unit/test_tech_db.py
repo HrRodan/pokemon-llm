@@ -1,6 +1,9 @@
-import sys
+"""
+Unit tests for tools.tech_data_tools.
+"""
+
 import unittest
-from db_tech.tech_data_tool import (
+from tools.tech_data_tools import (
     execute_query,
     TechDataQuery,
     QueryCondition,
@@ -27,12 +30,10 @@ class TestTechDataTool(unittest.TestCase):
             conditions=[],
         )
         result = execute_query(query)
-        # Should be a number
         self.assertNotIn("No results found", result)
         self.assertIn("MAX(speed)", result)
 
     def test_condition_operators(self):
-        # Test > operator
         query = TechDataQuery(
             table="moves",
             columns=["name", "power"],
@@ -41,7 +42,6 @@ class TestTechDataTool(unittest.TestCase):
         )
         result = execute_query(query)
         self.assertNotIn("No results found", result)
-        # e.g. explosion, self-destruct
 
     def test_group_by(self):
         query = TechDataQuery(
@@ -57,7 +57,6 @@ class TestTechDataTool(unittest.TestCase):
         self.assertIn("COUNT(id)", result)
 
     def test_joins_implicit_via_weakness(self):
-        # Not a real join test, but testing the string field 'weak_against_1'
         query = TechDataQuery(
             table="pokemons",
             columns=["name", "weak_against_1"],
@@ -69,7 +68,6 @@ class TestTechDataTool(unittest.TestCase):
         self.assertIn("rock", result)
 
     def test_aggregation_sum_avg(self):
-        # Test SUM and AVG
         query = TechDataQuery(
             table="pokemons",
             columns=[
@@ -84,7 +82,6 @@ class TestTechDataTool(unittest.TestCase):
         self.assertIn("SUM(base_experience)", result)
 
     def test_complex_logic_or(self):
-        # Test OR logic (Fire type OR water type)
         query = TechDataQuery(
             table="pokemons",
             columns=["name", "type_1"],
@@ -97,11 +94,8 @@ class TestTechDataTool(unittest.TestCase):
         )
         result = execute_query(query)
         self.assertIn("fire", result)
-        # It's possible the list only contains fire if we limit to 5, so explicit check might be tricky without ordering
-        # But we mostly want to ensure it executes without error.
 
     def test_in_operator(self):
-        # Test IN operator
         query = TechDataQuery(
             table="items",
             columns=["name", "cost"],

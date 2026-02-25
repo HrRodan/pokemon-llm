@@ -15,7 +15,7 @@ You excel at answering "Tell me about...", description, behavior, and biology qu
 5.  **Refinement:** If the first search is not good enough, you can search again with better terms.
 
 **Input:** A natural language question or topic. Rephrase this query to be more suitable for the RAG vector database.
-**Output:** A direct, concise summary of the database content.
+**Output:** Depending on the exact question the complete response from the database might be returned or a direct, concise summary.
 """
 
 
@@ -47,27 +47,33 @@ class RAGAgent(BaseAgent):
         Returns:
             The response text synthesised from RAG results.
         """
-        self.log_query(message)
-        response = self.llm.query(user_prompt=message)
+        return self._run(message)
 
-        if self.llm.tool_calls:
-            final_response = self.llm.get_tool_responses()
-            self.log_response(final_response)
-            self._collect_usage()
-            return final_response
 
-        self.log_response(response)
-        self._collect_usage()
-        return response
+# ---------------------------------------------------------------------------
+# Lazy singleton — avoids reconstructing RAGAgent on every tool call.
+# ---------------------------------------------------------------------------
+
+_rag_agent: "RAGAgent | None" = None
 
 
 def run_rag_agent(query: str) -> str:
     """
-    Function to be used as a tool by other agents.
-    Instantiates the agent and gets a response.
+    Tool wrapper used by PokemonAgent.
+
+    Lazily creates a single shared RAGAgent instance and reuses it for
+    subsequent calls within the same process lifetime.
+
+    Args:
+        query: The natural language query to delegate.
+
+    Returns:
+        The RAG lookup result as a natural language string.
     """
-    agent = RAGAgent()
-    return agent.response(query)
+    global _rag_agent
+    if _rag_agent is None:
+        _rag_agent = RAGAgent()
+    return _rag_agent.response(query)
 
 
 RAG_AGENT_TOOL_DEFINITION = {

@@ -84,6 +84,36 @@ class BaseAgent(ABC):
         self._usage_snapshot = current
 
     # ------------------------------------------------------------------
+    # Common execution helper
+    # ------------------------------------------------------------------
+
+    def _run(self, message: str, use_history: bool = False) -> str:
+        """
+        Execute the standard query → tool-loop → collect-usage cycle.
+
+        This is the shared implementation that all sub-agents delegate to
+        from their ``response()`` method.  Sub-agents that need custom
+        behaviour before or after the LLM call should override
+        ``response()`` directly instead of calling this helper.
+
+        Args:
+            message: The user's input text.
+            use_history: Whether to include chat history in the LLM call.
+
+        Returns:
+            Final response text after any tool calls have been resolved.
+        """
+        self.log_query(message)
+        response = self.llm.query(user_prompt=message, use_history=use_history)
+
+        if self.llm.tool_calls:
+            response = self.llm.get_tool_responses()
+
+        self.log_response(response)
+        self._collect_usage()
+        return response
+
+    # ------------------------------------------------------------------
     # Abstract & logging helpers
     # ------------------------------------------------------------------
 

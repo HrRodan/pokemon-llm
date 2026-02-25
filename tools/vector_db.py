@@ -5,12 +5,30 @@ from ai_tools.tools import LLMQuery
 from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
 from utils.config import settings
 
-# Initialize embedding client
-embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
+# ---------------------------------------------------------------------------
+# Lazy singletons — connections are created on first use, not at import time.
+# This prevents slow/failing imports in tests or scripts that don't need the DB.
+# ---------------------------------------------------------------------------
 
-# Initialize ChromaDB client
-chroma_client = chromadb.PersistentClient(path=settings.VECTOR_DB_DIR)
-collection = chroma_client.get_or_create_collection(name="pokemon_data")
+_embedding_client: "LLMQuery | None" = None
+_collection: "chromadb.Collection | None" = None
+
+
+def _get_embedding_client() -> "LLMQuery":
+    """Return (and lazily create) the shared embedding LLMQuery instance."""
+    global _embedding_client
+    if _embedding_client is None:
+        _embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
+    return _embedding_client
+
+
+def _get_collection() -> "chromadb.Collection":
+    """Return (and lazily create) the shared ChromaDB collection."""
+    global _collection
+    if _collection is None:
+        chroma_client = chromadb.PersistentClient(path=settings.VECTOR_DB_DIR)
+        _collection = chroma_client.get_or_create_collection(name="pokemon_data")
+    return _collection
 
 
 # Generation mappings
@@ -94,7 +112,7 @@ class QueryDatabaseArgs(BaseModel):
     """Queries the vector database for relevant Pokemon information (Pokemon, Moves, Items) based on a semantic query string. returns a markdown formatted string with the results."""
 
     query: str = Field(
-        description="The semantic query string to search for (e.g. 'fire type pokemon that can learn fly', 'items that restore PP')."
+        description="The semantic query string to search for (e.g. 'fire type pokemon that can learn fly', 'items that restore PP', 'describe the move solar-beam'). Avoid short queries like 'pokemon', 'move', 'ice-beam'."
     )
     n_results: int = Field(
         default=3,
@@ -193,8 +211,8 @@ def get_similar_objects(args: QueryDatabaseArgs) -> PokemonObjectList:
     else:
         where = None
 
-    query_embedding = embedding_client.generate_embedding([args.query])[0]
-    results = collection.query(
+    query_embedding = _get_embedding_client().generate_embedding([args.query])[0]
+    results = _get_collection().query(
         query_embeddings=[query_embedding], n_results=args.n_results, where=where
     )
 

@@ -1,9 +1,10 @@
 from typing import Any, List, Dict, Optional
+from agents.base_agent import BaseAgent
 from tools.tech_data_tools import (
     execute_query as _execute_query,
     TechDataQuery as _TechDataQuery,
 )
-from agents.base_agent import BaseAgent
+from utils.config import settings
 
 SYSTEM_PROMPT = """You are the Tech Data Agent.
 Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead. 
@@ -116,8 +117,6 @@ class TechDataAgent(BaseAgent):
     """
 
     def __init__(self):
-        from utils.config import settings
-
         super().__init__(name="TechDataAgent", model_name=settings.SUB_AGENT_MODEL)
 
         # Define tools
@@ -149,27 +148,33 @@ class TechDataAgent(BaseAgent):
         Returns:
             The response text containing query results.
         """
-        self.log_query(message)
-        response = self.llm.query(user_prompt=message)
+        return self._run(message)
 
-        if self.llm.tool_calls:
-            final_response = self.llm.get_tool_responses()
-            self.log_response(final_response)
-            self._collect_usage()
-            return final_response
 
-        self.log_response(response)
-        self._collect_usage()
-        return response
+# ---------------------------------------------------------------------------
+# Lazy singleton — avoids reconstructing TechDataAgent on every tool call.
+# ---------------------------------------------------------------------------
+
+_tech_data_agent: "TechDataAgent | None" = None
 
 
 def run_tech_data_agent(query: str) -> str:
     """
-    Function to be used as a tool by other agents.
-    Instantiates the agent and gets a response.
+    Tool wrapper used by PokemonAgent.
+
+    Lazily creates a single shared TechDataAgent instance and reuses it for
+    subsequent calls within the same process lifetime.
+
+    Args:
+        query: The natural language question to delegate.
+
+    Returns:
+        The SQL query result as a markdown-formatted string.
     """
-    agent = TechDataAgent()
-    return agent.response(query)
+    global _tech_data_agent
+    if _tech_data_agent is None:
+        _tech_data_agent = TechDataAgent()
+    return _tech_data_agent.response(query)
 
 
 TECH_DATA_AGENT_TOOL_DEFINITION = {

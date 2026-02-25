@@ -1,12 +1,20 @@
+"""
+Manual verification script — runs API and RAG agents for smoke testing.
+
+Requires a live LLM API key.
+
+    uv run scripts/verify_agents.py
+"""
+
 import sys
 import io
 
 # Force stdout to handle utf-8
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-from agents.api_agent import run_api_agent
-from agents.rag_agent import run_rag_agent
-from agents.pokemon_agent import PokemonAgent
+from agents.api_agent import run_api_agent  # noqa: E402
+from agents.rag_agent import run_rag_agent  # noqa: E402
+from agents.pokemon_agent import PokemonAgent  # noqa: E402
 
 
 def test_api_agent():

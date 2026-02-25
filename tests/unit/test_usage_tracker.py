@@ -1,5 +1,6 @@
 """
-Unit tests for the UsageTracker and AgentUsage classes.
+Unit tests for utils.usage_tracker.
+Moved from tests/ root into tests/unit/ for consistent layout.
 """
 
 import threading

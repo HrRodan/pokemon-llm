@@ -2,12 +2,25 @@ from enum import StrEnum
 from typing import List, Optional, Any, Literal, Union, Type
 from pydantic import BaseModel, Field
 from sqlalchemy import create_engine, select, func, desc, asc, and_, or_, inspect
+from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
 from data.models import Pokemon, Move, Item, Base
 from utils.config import settings
 
-engine = create_engine(f"sqlite:///{settings.TECH_DB_PATH}")
+# ---------------------------------------------------------------------------
+# Lazy singleton — the engine is created on first use, not at import time.
+# ---------------------------------------------------------------------------
+
+_engine: "Engine | None" = None
+
+
+def _get_engine() -> "Engine":
+    """Return (and lazily create) the shared SQLAlchemy engine."""
+    global _engine
+    if _engine is None:
+        _engine = create_engine(f"sqlite:///{settings.TECH_DB_PATH}")
+    return _engine
 
 
 def create_column_enum(model_class: Type[Base], enum_name: str) -> Any:
@@ -174,7 +187,7 @@ def execute_query(query: TechDataQuery) -> str:
             stmt = stmt.limit(query.limit)
 
         # --- Execute and Format ---
-        with Session(engine) as session:
+        with Session(_get_engine()) as session:
             result = session.execute(stmt)
             rows = result.all()
 

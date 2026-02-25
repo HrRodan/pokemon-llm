@@ -197,18 +197,7 @@ class PokemonAgent(BaseAgent):
         Returns:
             The final response text.
         """
-        self.log_query(message)
-        response = self.llm.query(user_prompt=message, use_history=True)
-
-        if self.llm.tool_calls:
-            final_response = self.llm.get_tool_responses()
-            self.log_response(final_response)
-            self._collect_usage()
-            return final_response
-
-        self.log_response(response)
-        self._collect_usage()
-        return response
+        return self._run(message, use_history=True)
 
     def get_ui_state(self) -> Dict[str, Any]:
         """
