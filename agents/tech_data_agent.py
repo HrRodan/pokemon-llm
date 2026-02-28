@@ -1,8 +1,9 @@
-from typing import Any, List, Dict, Optional
+from typing import List, Dict, Optional
+from pydantic import BaseModel, Field
 from agents.base_agent import BaseAgent
 from tools.tech_data_tools import (
-    execute_query as _execute_query,
-    TechDataQuery as _TechDataQuery,
+    execute_query,
+    TOOLS as TECH_DATA_TOOLS,
 )
 from utils.config import settings
 
@@ -99,41 +100,20 @@ Tool Call (representation):
 """
 
 
-def execute_query(**kwargs: Any) -> str:
-    """
-    Wrapper to convert kwargs to TechDataQuery model before execution.
-    """
-    try:
-        # Pydantic validation
-        query = _TechDataQuery(**kwargs)
-        return _execute_query(query)
-    except Exception as e:
-        return f"Invalid Query Format: {e}"
-
-
 class TechDataAgent(BaseAgent):
     """
     Agent responsible for querying the technical SQL database.
     """
 
     def __init__(self):
-        super().__init__(name="TechDataAgent", model_name=settings.SUB_AGENT_MODEL)
-
-        # Define tools
-        self.tool_schema = _TechDataQuery.model_json_schema()
-        self.tool_definition = {
-            "type": "function",
-            "function": {
-                "name": "execute_query",
-                "description": "Executes a query against the Pokemon technical database. Returns a markdown table.",
-                "parameters": self.tool_schema,
-            },
-        }
-
-        # Configure LLM
-        self.llm.system_prompt = SYSTEM_PROMPT
-        self.llm.tools = [self.tool_definition]
-        self.llm.functions = [execute_query]
+        super().__init__(
+            name="TechDataAgent",
+            model_name=settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT,
+            tools=TECH_DATA_TOOLS,
+            functions=[execute_query],
+        )
+        self.llm.history_limit=30
 
     def response(
         self, message: str, history: Optional[List[Dict[str, str]]] = None
@@ -177,20 +157,17 @@ def run_tech_data_agent(query: str) -> str:
     return _tech_data_agent.response(query)
 
 
+class RunTechDataAgentArgs(BaseModel):
+    """Answers technical questions about Pokemon, Moves, and Items using a SQL database. Use this for questions like 'top five fire pokemon with highest attack', 'moves with power > 100', 'average price of items', etc."""
+
+    query: str = Field(description="The natural language question.")
+
+
 TECH_DATA_AGENT_TOOL_DEFINITION = {
     "type": "function",
     "function": {
         "name": "run_tech_data_agent",
-        "description": "Answers technical questions about Pokemon, Moves, and Items using a SQL database. Use this for questions like 'top five fire pokemon with highest attack', 'moves with power > 100', 'average price of items', etc.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The natural language question. This input must be provided!",
-                }
-            },
-            "required": ["query"],
-        },
+        "description": RunTechDataAgentArgs.__doc__,
+        "parameters": RunTechDataAgentArgs.model_json_schema(),
     },
 }

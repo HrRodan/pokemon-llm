@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict, cast
+from typing import Optional, List, Dict, Any, Callable, cast
 from abc import ABC, abstractmethod
 from ai_tools.tools import LLMQuery, ModelName
 from utils.logger import setup_logger
@@ -17,13 +17,25 @@ class BaseAgent(ABC):
     global :class:`UsageTracker`.
     """
 
-    def __init__(self, name: str, model_name: Optional[str] = None) -> None:
+    def __init__(
+        self,
+        name: str,
+        model_name: Optional[str] = None,
+        system_prompt: Optional[str] = None,
+        tools: Optional[List[Dict[str, Any]]] = None,
+        functions: Optional[List[Callable]] = None,
+        history_limit: Optional[int] = None,
+    ) -> None:
         """
         Initialize the agent.
 
         Args:
             name: The name of the agent (used for logging and usage tracking).
             model_name: The LLM model to use. Defaults to ``settings.DEFAULT_MODEL``.
+            system_prompt: System prompt to configure the LLM's behaviour.
+            tools: List of tool definitions (OpenAI-style function dicts) to supply to the LLM.
+            functions: List of callable functions that implement the tools.
+            history_limit: Maximum chat-history turns the LLM will consider.
         """
         self.name = name
         self.logger = setup_logger(name)
@@ -34,8 +46,17 @@ class BaseAgent(ABC):
         # Pass the agent's logger so LLMQuery can log queries, responses, tool calls, etc.
         self.llm = LLMQuery(model=cast(ModelName, self.model_name), logger=self.logger)
 
-        # Snapshot the LLM counters so we can compute deltas later
-        self._usage_snapshot = self._snapshot_usage()
+        # Apply optional LLM configuration supplied by the subclass
+        if system_prompt is not None:
+            self.llm.system_prompt = system_prompt
+        if tools is not None:
+            self.llm.tools = tools
+        if functions is not None:
+            self.llm.functions = functions
+        if history_limit is not None:
+            self.llm.history_limit = history_limit
+
+        self._call_count: int = 0
 
         self.logger.info(
             f"Agent '{self.name}' initialized with model '{self.model_name}'"
@@ -45,43 +66,29 @@ class BaseAgent(ABC):
     # Usage tracking helpers
     # ------------------------------------------------------------------
 
-    def _snapshot_usage(self) -> AgentUsage:
-        """
-        Take a point-in-time snapshot of the LLM client's cumulative counters.
-
-        Returns:
-            An :class:`AgentUsage` reflecting the current counter values.
-        """
-        return AgentUsage(
-            prompt_tokens=self.llm.total_prompt_tokens,
-            completion_tokens=self.llm.total_completion_tokens,
-            reasoning_tokens=self.llm.total_reasoning_tokens,
-            total_tokens=self.llm.total_tokens,
-            cost=self.llm.total_cost,
-            call_count=0,
-        )
-
     def _collect_usage(self) -> None:
         """
-        Compute the delta between the current LLM counters and the last
-        snapshot, then record it in the global :class:`UsageTracker`.
+        Push the LLM client's cumulative totals to the global
+        :class:`UsageTracker`.
+
+        Sub-agents are never reset during a session, so the ``LLMQuery``
+        counters already reflect the full lifetime totals of this agent.
+        We simply overwrite the tracker's snapshot on every call.
 
         Call this at the **end** of every ``response()`` implementation.
         """
-        current = self._snapshot_usage()
-        delta = AgentUsage(
-            prompt_tokens=current.prompt_tokens - self._usage_snapshot.prompt_tokens,
-            completion_tokens=current.completion_tokens
-            - self._usage_snapshot.completion_tokens,
-            reasoning_tokens=current.reasoning_tokens
-            - self._usage_snapshot.reasoning_tokens,
-            total_tokens=current.total_tokens - self._usage_snapshot.total_tokens,
-            cost=current.cost - self._usage_snapshot.cost,
-            call_count=1,
+        self._call_count += 1
+        UsageTracker.get().update(
+            self.name,
+            AgentUsage(
+                prompt_tokens=self.llm.total_prompt_tokens,
+                completion_tokens=self.llm.total_completion_tokens,
+                reasoning_tokens=self.llm.total_reasoning_tokens,
+                total_tokens=self.llm.total_tokens,
+                cost=self.llm.total_cost,
+                call_count=self._call_count,
+            ),
         )
-        UsageTracker.get().record(self.name, delta)
-        # Advance the snapshot so the next call computes a fresh delta
-        self._usage_snapshot = current
 
     # ------------------------------------------------------------------
     # Common execution helper

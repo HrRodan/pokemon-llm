@@ -1,6 +1,6 @@
 from enum import StrEnum
-from typing import List, Optional, Any, Literal, Union, Type
-from pydantic import BaseModel, Field
+from typing import List, Dict, Optional, Any, Literal, Union, Type
+from pydantic import BaseModel, Field, ValidationError
 from sqlalchemy import create_engine, select, func, desc, asc, and_, or_, inspect
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
@@ -93,7 +93,7 @@ def get_model_class(table_name: str) -> Type[Base]:
         raise ValueError(f"Unknown table: {table_name}")
 
 
-def execute_query(query: TechDataQuery) -> str:
+def _execute_query(query: TechDataQuery) -> str:
     """
     Executes a structured query against the technical database and returns a markdown table.
 
@@ -207,6 +207,29 @@ def execute_query(query: TechDataQuery) -> str:
 
     except Exception as e:
         return f"Error executing query: {e}"
+
+
+def execute_query(**kwargs: Any) -> str:
+    """Executes a query against the Pokemon technical database. Returns a markdown table."""
+    try:
+        query = TechDataQuery(**kwargs)
+        return _execute_query(query)
+    except ValidationError as e:
+        return f"Argument Validation Error: {e.json()}"
+    except Exception as e:
+        return f"Invalid Query Format: {e}"
+
+
+TOOLS: List[Dict[str, Any]] = [
+    {
+        "type": "function",
+        "function": {
+            "name": "execute_query",
+            "description": TechDataQuery.__doc__,
+            "parameters": TechDataQuery.model_json_schema(),
+        },
+    }
+]
 
 
 if __name__ == "__main__":

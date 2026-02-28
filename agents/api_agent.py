@@ -1,10 +1,11 @@
 from typing import List, Dict, Optional
+from pydantic import BaseModel, Field
 from agents.base_agent import BaseAgent
-from tools.api_client import PokemonAPIClient, TOOLS as API_TOOLS
+from tools.api_client import TOOLS as API_TOOLS, TOOL_FUNCTIONS
 from utils.config import settings
 
 SYSTEM_PROMPT_API_AGENT = """You are the **Pokemon API Agent**.
-Your role is to strictly fetch precise, raw data from the PokéAPI using the provided tools.
+Your role is to strictly fetch precise, raw data from the PokéAPI using the provided tools and summarize the tool responses in a human readable format.
 You do NOT answer general questions or provide qualitative descriptions unless they are part of the API response (e.g. flavor text).
 
 **Your capabilities:**
@@ -20,6 +21,7 @@ You do NOT answer general questions or provide qualitative descriptions unless t
 2.  **Conciseness:** Provide the data asked for. You don't need to be overly conversional, just helpful and accurate.
 3.  **Error Handling:** If a tool returns an error (e.g., "Pokemon not found"), report this clearly to the user.
 4.  **Multiple Tools:** If the user asks for multiple things (e.g. "stats of Charizard and Bulbasaur"), call the tools in parallel.
+5.  **Output**: Do not reference the tools or the API in your final response. Just provide the data asked for in a natural language summary.
 
 **Input:** A specific request for data (e.g. "What is Charizard's attack?", "How much does a Potion cost?").
 **Output:** A natural language summary of the data returned by the tools.
@@ -33,26 +35,12 @@ class APIAgent(BaseAgent):
 
     def __init__(self, model_name: Optional[str] = None):
         super().__init__(
-            name="APIAgent", model_name=model_name or settings.SUB_AGENT_MODEL
+            name="APIAgent",
+            model_name=model_name or settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT_API_AGENT,
+            tools=API_TOOLS,
+            functions=TOOL_FUNCTIONS,
         )
-
-        # Initialize API Client
-        self.pokemon_client = PokemonAPIClient()
-
-        # Build function map from the tool definitions so each tool name
-        # maps to the bound method on the client instance.
-        self.functions_map = {
-            tool["function"]["name"]: getattr(
-                self.pokemon_client, tool["function"]["name"]
-            )
-            for tool in API_TOOLS
-        }
-        self.functions_list = list(self.functions_map.values())
-
-        # Configure LLM
-        self.llm.system_prompt = SYSTEM_PROMPT_API_AGENT
-        self.llm.tools = API_TOOLS
-        self.llm.functions = self.functions_list
 
     def response(
         self, message: str, history: Optional[List[Dict[str, str]]] = None
@@ -96,20 +84,17 @@ def run_api_agent(query: str) -> str:
     return _api_agent.response(query)
 
 
+class RunApiAgentArgs(BaseModel):
+    """Delegates a request to the API Specialist Agent. Use this for specific data lookups like 'What are Charizard's base stats?', 'How much power does Thunderbolt have?', 'Where can I find Pikachu?'. Do NOT use for aggregations (use TechDataAgent) or lore/qualitative questions (use RAGAgent)."""
+
+    query: str = Field(description="The specific data request.")
+
+
 API_AGENT_TOOL_DEFINITION = {
     "type": "function",
     "function": {
         "name": "run_api_agent",
-        "description": "Delegates a request to the API Specialist Agent. Use this for specific data lookups like 'What are Charizard's base stats?', 'How much power does Thunderbolt have?', 'Where can I find Pikachu?'. Do NOT use for aggregations (use TechDataAgent) or lore/qualitative questions (use RAGAgent).",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The specific data request.",
-                }
-            },
-            "required": ["query"],
-        },
+        "description": RunApiAgentArgs.__doc__,
+        "parameters": RunApiAgentArgs.model_json_schema(),
     },
 }

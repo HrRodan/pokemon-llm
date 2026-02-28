@@ -74,29 +74,17 @@ class PokemonAgent(BaseAgent):
 
     def __init__(self, model_name: Optional[str] = None) -> None:
         super().__init__(
-            name="PokemonAgent", model_name=model_name or settings.DEFAULT_MODEL
+            name="PokemonAgent",
+            model_name=model_name or settings.DEFAULT_MODEL,
+            system_prompt=SYSTEM_PROMPT_POKEMON_AGENT,
+            tools=[
+                TECH_DATA_AGENT_TOOL_DEFINITION,
+                RAG_AGENT_TOOL_DEFINITION,
+                API_AGENT_TOOL_DEFINITION,
+            ],
+            functions=[run_tech_data_agent, run_rag_agent, run_api_agent],
+            history_limit=50,
         )
-
-        # Gather tools
-        self.tools_def = [
-            TECH_DATA_AGENT_TOOL_DEFINITION,
-            RAG_AGENT_TOOL_DEFINITION,
-            API_AGENT_TOOL_DEFINITION,
-        ]
-
-        # Map functions
-        self.functions_list = [
-            run_tech_data_agent,
-            run_rag_agent,
-            run_api_agent,
-        ]
-
-        # Configure LLM
-        self.llm.system_prompt = SYSTEM_PROMPT_POKEMON_AGENT
-        self.llm.tools = self.tools_def
-        self.llm.functions = self.functions_list
-        # Increase history limit for the main chat
-        self.llm.history_limit = 50
 
     def query(self, user_prompt: str, **kwargs) -> str:
         """

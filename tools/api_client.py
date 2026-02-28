@@ -10,10 +10,7 @@ from typing import Any, Dict, List, Optional, Union
 import random
 
 import requests
-from utils.logger import setup_logger
-
-
-logger = setup_logger(__name__)
+from pydantic import BaseModel, Field, ValidationError
 
 
 class PokemonAPIClient:
@@ -814,189 +811,218 @@ class PokemonAPIClient:
             return {"error": str(e)}
 
 
-# Tool definitions matching the class methods
+# ---------------------------------------------------------------------------
+# Lazy singleton — one shared PokemonAPIClient for all wrapper functions.
+# ---------------------------------------------------------------------------
+
+_client: "PokemonAPIClient | None" = None
+
+
+def _get_client() -> "PokemonAPIClient":
+    """Return (and lazily create) the shared PokemonAPIClient instance."""
+    global _client
+    if _client is None:
+        _client = PokemonAPIClient()
+    return _client
+
+
+# ---------------------------------------------------------------------------
+# Pydantic argument models — one per exposed tool.
+# Each docstring is used as the LLM tool description.
+# ---------------------------------------------------------------------------
+
+
+class GetPokemonDetailsArgs(BaseModel):
+    """Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), forms, held items, species info (flavor text, habitat, happiness, generation), AND full evolution chain. Use this for almost all Pokemon questions. Note: DOES NOT return moves or sprites."""
+
+    name: str = Field(description="The name of the Pokemon (e.g. 'charizard').")
+
+
+class GetPokemonSpritesArgs(BaseModel):
+    """Retrieves images/sprites for a specific Pokemon. Only use this if the user explicitly asks to see what a pokemon looks like."""
+
+    name: str = Field(description="The name of the Pokemon (e.g. 'charizard').")
+
+
+class GetPokemonMovesArgs(BaseModel):
+    """Retrieves the full list of moves for a specific Pokemon. Only use this if the user explicitly asks for moves."""
+
+    name: str = Field(description="The name of the Pokemon (e.g. 'charizard').")
+
+
+class GetMoveDetailsArgs(BaseModel):
+    """Retrieves data about a move: power, accuracy, PP, damage class, generation, effect chance, flavor text, contest combos, machine details (TM/HM) and which Pokemon learn it."""
+
+    name: str = Field(description="The name of the move (e.g. 'fire-blast').")
+    learned_by_limit: int = Field(
+        default=20,
+        description="Limit the number of Pokemon returned in 'learned_by'. Defaults to 20. Set to -1 to return all.",
+    )
+
+
+class GetTypeInfoArgs(BaseModel):
+    """Retrieves type effectiveness. Returns lists of what this type is weak or strong against."""
+
+    name: str = Field(description="The name of the elemental type (e.g. 'electric').")
+
+
+class GetEncountersArgs(BaseModel):
+    """Finds locations (routes, caves, areas) where a specific Pokemon can be found in the wild."""
+
+    name: str = Field(description="The name of the Pokemon (e.g. 'pikachu').")
+
+
+class GetPokemonListByTypeArgs(BaseModel):
+    """Returns a list of Pokemon that share a specific elemental type. Use this when the user asks for examples or all Pokemon of a type."""
+
+    type_name: str = Field(description="The name of the type (e.g. 'fire', 'dragon').")
+    limit: int = Field(
+        default=10,
+        description="How many examples to return (Default: 10). Set to -1 to return all.",
+    )
+
+
+class GetAbilityDetailsArgs(BaseModel):
+    """Explains exactly what a passive Ability does in battle and which Pokemon can have it."""
+
+    name: str = Field(
+        description="The name of the Ability (e.g. 'static', 'levitate')."
+    )
+
+
+class GetItemInfoArgs(BaseModel):
+    """Retrieves info about an Item, including effects, flavor text, cost, attributes, who holds it (and total count), machines, and baby triggers."""
+
+    name: str = Field(description="The name of the Item (e.g. 'leftovers').")
+    held_by_limit: int = Field(
+        default=20,
+        description="Limit the number of pokemon shown to hold this item. Default 20. Set to -1 for all.",
+    )
+
+
+# ---------------------------------------------------------------------------
+# Module-level wrapper functions — validate args then delegate to singleton.
+# ---------------------------------------------------------------------------
+
+
+def get_pokemon_details(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetPokemonDetailsArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_pokemon_details(args.name)
+
+
+def get_pokemon_sprites(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetPokemonSpritesArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_pokemon_sprites(args.name)
+
+
+def get_pokemon_moves(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetPokemonMovesArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_pokemon_moves(args.name)
+
+
+def get_move_details(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetMoveDetailsArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_move_details(args.name, args.learned_by_limit)
+
+
+def get_type_info(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetTypeInfoArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_type_info(args.name)
+
+
+def get_encounters(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetEncountersArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_encounters(args.name)
+
+
+def get_pokemon_list_by_type(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetPokemonListByTypeArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_pokemon_list_by_type(args.type_name, args.limit)
+
+
+def get_ability_details(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetAbilityDetailsArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_ability_details(args.name)
+
+
+def get_item_info(**kwargs: Any) -> Dict[str, Any]:
+    """Wrapper: validates args and delegates to PokemonAPIClient."""
+    try:
+        args = GetItemInfoArgs(**kwargs)
+    except ValidationError as e:
+        return {"error": f"Argument Validation Error: {e.json()}"}
+    return _get_client().get_item_info(args.name, args.held_by_limit)
+
+
+# ---------------------------------------------------------------------------
+# Module-level TOOLS list — built from Pydantic schemas and docstrings.
+# ---------------------------------------------------------------------------
+
+_TOOL_MODELS = [
+    ("get_pokemon_details", GetPokemonDetailsArgs),
+    ("get_pokemon_sprites", GetPokemonSpritesArgs),
+    ("get_pokemon_moves", GetPokemonMovesArgs),
+    ("get_move_details", GetMoveDetailsArgs),
+    ("get_type_info", GetTypeInfoArgs),
+    ("get_encounters", GetEncountersArgs),
+    ("get_pokemon_list_by_type", GetPokemonListByTypeArgs),
+    ("get_ability_details", GetAbilityDetailsArgs),
+    ("get_item_info", GetItemInfoArgs),
+]
+
 TOOLS: List[Dict[str, Any]] = [
     {
         "type": "function",
         "function": {
-            "name": "get_pokemon_details",
-            "description": "Retrieves comprehensive technical data for a Pokemon: base stats, types, height, weight, abilities (incl. hidden), forms, held items, species info (flavor text, habitat, happiness, generation), AND full evolution chain. Use this for almost all Pokemon questions. Note: DOES NOT return moves or sprites.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Pokemon (e.g. 'charizard').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
+            "name": name,
+            "description": model.__doc__,
+            "parameters": model.model_json_schema(),
         },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_pokemon_sprites",
-            "description": "Retrieves images/sprites for a specific Pokemon. Only use this if the user explicitly asks to see what a pokemon looks like.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Pokemon (e.g. 'charizard').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_pokemon_moves",
-            "description": "Retrieves the full list of moves for a specific Pokemon. Only use this if the user explicitly asks for moves.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Pokemon (e.g. 'charizard').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_move_details",
-            "description": "Retrieves data about a move: power, accuracy, PP, damage class, generation, effect chance, flavor text, contest combos, machine details (TM/HM) and which Pokemon learn it.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the move (e.g. 'fireball').",
-                    },
-                    "learned_by_limit": {
-                        "type": "integer",
-                        "description": "Limit the number of Pokemon returned in 'learned_by'. Defaults to 20. Set to -1 to return all.",
-                    },
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_type_info",
-            "description": "Retrieves type effectiveness. Returns lists of what this type is weak or strong against.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the elemental type (e.g. 'electric').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_encounters",
-            "description": "Finds locations (routes, caves, areas) where a specific Pokemon can be found in the wild.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Pokemon (e.g. 'pikachu').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_pokemon_list_by_type",
-            "description": "Returns a list of Pokemon that share a specific elemental type. Use this when the user asks for examples or all Pokemon of a type.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "type_name": {
-                        "type": "string",
-                        "description": "The name of the type (e.g. 'fire', 'dragon').",
-                    },
-                    "limit": {
-                        "type": "integer",
-                        "description": "How many examples to return (Default: 10). Set to -1 to return all.",
-                    },
-                },
-                "required": ["type_name", "limit"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_ability_details",
-            "description": "Explains exactly what a passive Ability does in battle and which Pokemon can have it.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Ability (e.g. 'static', 'levitate').",
-                    }
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_item_info",
-            "description": "Retrieves info about an Item, including effects, flavor text, cost, attributes, who holds it (and total count), machines, and baby triggers.",
-            "strict": True,
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the Item (e.g. 'leftovers').",
-                    },
-                    "held_by_limit": {
-                        "type": "integer",
-                        "description": "Limit the number of pokemon shown to hold this item. Default 20. Set to -1 for all.",
-                    },
-                },
-                "required": ["name"],
-                "additionalProperties": False,
-            },
-        },
-    },
+    }
+    for name, model in _TOOL_MODELS
+]
+
+# Convenience list of all wrapper functions in the same order as TOOLS.
+TOOL_FUNCTIONS = [
+    get_pokemon_details,
+    get_pokemon_sprites,
+    get_pokemon_moves,
+    get_move_details,
+    get_type_info,
+    get_encounters,
+    get_pokemon_list_by_type,
+    get_ability_details,
+    get_item_info,
 ]

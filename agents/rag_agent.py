@@ -1,4 +1,5 @@
 from typing import List, Dict, Optional
+from pydantic import BaseModel, Field
 from agents.base_agent import BaseAgent
 from tools.vector_db import query_database, TOOLS as RAG_TOOLS
 from utils.config import settings
@@ -26,13 +27,13 @@ class RAGAgent(BaseAgent):
 
     def __init__(self, model_name: Optional[str] = None):
         super().__init__(
-            name="RAGAgent", model_name=model_name or settings.SUB_AGENT_MODEL
+            name="RAGAgent",
+            model_name=model_name or settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT_RAG_AGENT,
+            tools=RAG_TOOLS,
+            functions=[query_database],
         )
-
-        # Configure LLM
-        self.llm.system_prompt = SYSTEM_PROMPT_RAG_AGENT
-        self.llm.tools = RAG_TOOLS
-        self.llm.functions = [query_database]
+        self.llm.history_limit=30
 
     def response(
         self, message: str, history: Optional[List[Dict[str, str]]] = None
@@ -76,20 +77,17 @@ def run_rag_agent(query: str) -> str:
     return _rag_agent.response(query)
 
 
+class RunRagAgentArgs(BaseModel):
+    """Delegates a request to the RAG Specialist Agent. Use this for qualitative questions, lore, behavior, biology, or semantic searches like 'pokemon that look like dogs', 'tell me about Mewtwo'. Do NOT use for raw stats (use APIAgent) or aggregations (use TechDataAgent)."""
+
+    query: str = Field(description="The natural language query.")
+
+
 RAG_AGENT_TOOL_DEFINITION = {
     "type": "function",
     "function": {
         "name": "run_rag_agent",
-        "description": "Delegates a request to the RAG Specialist Agent. Use this for qualitative questions, lore, behavior, biology, or semantic searches like 'pokemon that look like dogs', 'tell me about Mewtwo'. Do NOT use for raw stats (use APIAgent) or aggregations (use TechDataAgent).",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "query": {
-                    "type": "string",
-                    "description": "The natural language query.",
-                }
-            },
-            "required": ["query"],
-        },
+        "description": RunRagAgentArgs.__doc__,
+        "parameters": RunRagAgentArgs.model_json_schema(),
     },
 }

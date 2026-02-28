@@ -1,10 +1,10 @@
 """
 Usage Tracker Module.
 
-Provides a thread-safe, singleton registry that accumulates per-agent
-token usage and cost statistics. Designed to survive sub-agent
-creation/destruction cycles so the Gradio UI can always display
-accurate cumulative statistics.
+Provides a thread-safe, singleton registry of per-agent token usage and cost
+statistics. Sub-agents are never reset during a session, so their LLMQuery
+counters are already fully cumulative. This tracker simply stores the latest
+snapshot from each agent; get_totals() sums them to produce session totals.
 """
 
 import threading
@@ -14,7 +14,7 @@ from typing import Dict
 
 @dataclass
 class AgentUsage:
-    """Holds accumulated usage metrics for a single agent."""
+    """Holds cumulative usage metrics for a single agent."""
 
     prompt_tokens: int = 0
     completion_tokens: int = 0
@@ -23,29 +23,19 @@ class AgentUsage:
     cost: float = 0.0
     call_count: int = 0
 
-    def add(self, other: "AgentUsage") -> None:
-        """
-        Add another AgentUsage's values to this one (in-place).
-
-        Args:
-            other: The AgentUsage delta to merge in.
-        """
-        self.prompt_tokens += other.prompt_tokens
-        self.completion_tokens += other.completion_tokens
-        self.reasoning_tokens += other.reasoning_tokens
-        self.total_tokens += other.total_tokens
-        self.cost += other.cost
-        self.call_count += other.call_count
-
 
 class UsageTracker:
     """
     Global, thread-safe, singleton registry of per-agent usage statistics.
 
+    Each agent reports its full cumulative totals via ``update()``; the tracker
+    overwrites the previous snapshot.  ``get_totals()`` sums the latest
+    snapshot from every agent to produce session-wide statistics.
+
     Usage::
 
         tracker = UsageTracker.get()
-        tracker.record("RAGAgent", AgentUsage(prompt_tokens=120, ...))
+        tracker.update("RAGAgent", AgentUsage(prompt_tokens=120, ...))
         totals  = tracker.get_totals()
     """
 
@@ -70,22 +60,30 @@ class UsageTracker:
                     cls._instance = cls()
         return cls._instance
 
-    def record(self, agent_name: str, delta: AgentUsage) -> None:
+    def update(self, agent_name: str, usage: AgentUsage) -> None:
         """
-        Record a usage delta for the given agent.
+        Overwrite the stored usage snapshot for the given agent.
+
+        Because sub-agents live for the entire session, ``usage`` should be
+        the agent's **full cumulative totals**, not a per-call delta.
 
         Args:
             agent_name: Identifier of the agent (e.g. ``"RAGAgent"``).
-            delta: The incremental usage to add.
+            usage: The current cumulative usage to store.
         """
         with self._lock:
-            if agent_name not in self._agents:
-                self._agents[agent_name] = AgentUsage()
-            self._agents[agent_name].add(delta)
+            self._agents[agent_name] = AgentUsage(
+                prompt_tokens=usage.prompt_tokens,
+                completion_tokens=usage.completion_tokens,
+                reasoning_tokens=usage.reasoning_tokens,
+                total_tokens=usage.total_tokens,
+                cost=usage.cost,
+                call_count=usage.call_count,
+            )
 
     def get_agent_usage(self, agent_name: str) -> AgentUsage:
         """
-        Return accumulated usage for a specific agent.
+        Return the latest usage snapshot for a specific agent.
 
         Args:
             agent_name: Identifier of the agent.
@@ -95,17 +93,7 @@ class UsageTracker:
         """
         with self._lock:
             usage = self._agents.get(agent_name)
-            if usage is None:
-                return AgentUsage()
-            # Return a copy so callers can't mutate internal state
-            return AgentUsage(
-                prompt_tokens=usage.prompt_tokens,
-                completion_tokens=usage.completion_tokens,
-                reasoning_tokens=usage.reasoning_tokens,
-                total_tokens=usage.total_tokens,
-                cost=usage.cost,
-                call_count=usage.call_count,
-            )
+            return AgentUsage() if usage is None else AgentUsage(**usage.__dict__)
 
     def get_all(self) -> Dict[str, AgentUsage]:
         """
@@ -115,29 +103,26 @@ class UsageTracker:
             Dict mapping agent names to copies of their AgentUsage.
         """
         with self._lock:
-            return {
-                name: AgentUsage(
-                    prompt_tokens=u.prompt_tokens,
-                    completion_tokens=u.completion_tokens,
-                    reasoning_tokens=u.reasoning_tokens,
-                    total_tokens=u.total_tokens,
-                    cost=u.cost,
-                    call_count=u.call_count,
-                )
-                for name, u in self._agents.items()
-            }
+            return {name: AgentUsage(**u.__dict__) for name, u in self._agents.items()}
 
     def get_totals(self) -> AgentUsage:
         """
-        Return the sum of usage across all agents.
+        Return the sum of the latest usage snapshots across all agents.
 
         Returns:
-            An AgentUsage whose fields are the sum of all registered agents.
+            An AgentUsage whose fields are the sum of every registered agent.
         """
-        totals = AgentUsage()
         with self._lock:
-            for u in self._agents.values():
-                totals.add(u)
+            totals = AgentUsage(
+                prompt_tokens=sum(u.prompt_tokens for u in self._agents.values()),
+                completion_tokens=sum(
+                    u.completion_tokens for u in self._agents.values()
+                ),
+                reasoning_tokens=sum(u.reasoning_tokens for u in self._agents.values()),
+                total_tokens=sum(u.total_tokens for u in self._agents.values()),
+                cost=sum(u.cost for u in self._agents.values()),
+                call_count=sum(u.call_count for u in self._agents.values()),
+            )
         return totals
 
     def reset(self) -> None:
