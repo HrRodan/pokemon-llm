@@ -11,7 +11,7 @@ API (OpenAI, Gemini, OpenRouter, Ollama) and performing multi-modal AI tasks
 | Module | Responsibility |
 |---|---|
 | [`config.py`](config.py) | API keys (lazy Colab → env → prompt fallback), model `Literal` types, `MODEL_DICT`, provider base URLs |
-| [`utils.py`](utils.py) | `pretty_print_json`, `clean_json`, `handle_tool_call`, `generate_short_id` |
+| [`utils.py`](utils.py) | `pretty_print_json`, `clean_json`, `handle_tool_call`, `handle_tool_call_async`, `generate_short_id` |
 | [`pipeline.py`](pipeline.py) | Pipe operator classes enabling `"text" \| query1 \| query2` syntax |
 | [`multimodal.py`](multimodal.py) | `MultiModalMixin` — image generation, TTS, audio transcription, embeddings |
 | [`tools.py`](tools.py) | `LLMQuery` (primary class) + backward-compatible re-exports of all symbols |
@@ -71,6 +71,23 @@ llm = LLMQuery(model="gpt-4o-mini", tools=tools_schema, functions=[get_weather])
 llm.query("What's the weather in Berlin?")
 final_response = llm.get_tool_responses()  # executes tool, gets final reply
 ```
+
+### Concurrent Tool Calls
+
+By default, when the LLM returns multiple tool calls in a single response,
+they are dispatched **concurrently** using `asyncio.to_thread`. This is ideal
+for I/O-bound tools (API calls, sub-agent LLM queries) where parallel execution
+cuts wall-clock time significantly.
+
+```python
+# Default: concurrent dispatch (all tool calls run in parallel threads)
+llm = LLMQuery(model="gpt-4o-mini", tools=tools_schema, functions=[fn_a, fn_b])
+
+# Opt out if needed (e.g. tools that share mutable state)
+llm = LLMQuery(model="gpt-4o-mini", concurrent_tool_calls=False, ...)
+```
+
+Works seamlessly in both regular Python scripts and Jupyter notebooks.
 
 ### Override Resolution
 
@@ -184,7 +201,7 @@ Fine-grained imports from sub-modules are also available:
 
 ```python
 from ai_tools.config import ModelName, MODEL_DICT
-from ai_tools.utils import clean_json, pretty_print_json
+from ai_tools.utils import clean_json, pretty_print_json, handle_tool_call_async
 from ai_tools import LLMQuery, handle_tool_call
 ```
 
