@@ -25,6 +25,7 @@ class BaseAgent(ABC):
         tools: Optional[List[Dict[str, Any]]] = None,
         functions: Optional[List[Callable]] = None,
         history_limit: Optional[int] = None,
+        concurrent_tool_calls: bool = True,
     ) -> None:
         """
         Initialize the agent.
@@ -36,6 +37,8 @@ class BaseAgent(ABC):
             tools: List of tool definitions (OpenAI-style function dicts) to supply to the LLM.
             functions: List of callable functions that implement the tools.
             history_limit: Maximum chat-history turns the LLM will consider.
+            concurrent_tool_calls: If ``True``, run tool calls concurrently
+                via ``asyncio.to_thread``.  Ideal for I/O-bound tools.
         """
         self.name = name
         self.logger = setup_logger(name)
@@ -55,6 +58,8 @@ class BaseAgent(ABC):
             self.llm.functions = functions
         if history_limit is not None:
             self.llm.history_limit = history_limit
+        if concurrent_tool_calls:
+            self.llm.concurrent_tool_calls = concurrent_tool_calls
 
         self._call_count: int = 0
 

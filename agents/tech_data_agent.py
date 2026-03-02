@@ -99,7 +99,6 @@ Tool Call (representation):
 }
 """
 
-
 class TechDataAgent(BaseAgent):
     """
     Agent responsible for querying the technical SQL database.
@@ -112,8 +111,8 @@ class TechDataAgent(BaseAgent):
             system_prompt=SYSTEM_PROMPT,
             tools=TECH_DATA_TOOLS,
             functions=[execute_query],
+            history_limit=40
         )
-        self.llm.history_limit=30
 
     def response(
         self, message: str, history: Optional[List[Dict[str, str]]] = None

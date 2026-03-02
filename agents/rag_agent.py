@@ -32,8 +32,8 @@ class RAGAgent(BaseAgent):
             system_prompt=SYSTEM_PROMPT_RAG_AGENT,
             tools=RAG_TOOLS,
             functions=[query_database],
+            history_limit=20
         )
-        self.llm.history_limit=30
 
     def response(
         self, message: str, history: Optional[List[Dict[str, str]]] = None

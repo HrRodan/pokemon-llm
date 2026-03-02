@@ -40,6 +40,7 @@ class APIAgent(BaseAgent):
             system_prompt=SYSTEM_PROMPT_API_AGENT,
             tools=API_TOOLS,
             functions=TOOL_FUNCTIONS,
+            history_limit=40
         )
 
     def response(

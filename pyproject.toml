@@ -12,6 +12,7 @@ dependencies = [
     "ipython>=8.18.0",
     "ipywidgets>=8.1.8",
     "jupyter>=1.1.1",
+    "nest-asyncio>=1.6.0",
     "openai>=2.14.0",
     "pandas>=2.3.3",
     "pillow>=12.1.0",

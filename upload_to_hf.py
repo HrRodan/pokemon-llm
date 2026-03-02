@@ -64,7 +64,7 @@ def parse_gitignore(gitignore_path=".gitignore"):
 
     return list(set(ignore_patterns))
 
-
+   
 def main():
     api = HfApi()
 

@@ -8,8 +8,10 @@ callers:
 - ``clean_json()`` — strips Markdown code fences so JSON strings can be parsed
 - ``pretty_print_json()`` — renders JSON with syntax highlighting in notebooks
 - ``handle_tool_call()`` — dispatches LLM tool-call requests to Python callables
+- ``handle_tool_call_async()`` — concurrent version using ``asyncio.to_thread``
 """
 
+import asyncio
 import json
 import logging
 import uuid
@@ -217,3 +219,85 @@ def handle_tool_call(
         )
 
     return tool_response
+
+
+async def handle_tool_call_async(
+    tool_calls: List[Dict[str, Any]],
+    functions: List[Callable],
+    logger: Optional[logging.Logger] = None,
+) -> List[Dict[str, Any]]:
+    """
+    Concurrent version of :func:`handle_tool_call`.
+
+    Dispatches **all** tool calls in parallel using ``asyncio.to_thread``,
+    which offloads each synchronous function to a separate thread.  This is
+    ideal for I/O-bound tool functions (e.g. LLM API calls, HTTP requests)
+    where wall-clock time is dominated by network latency.
+
+    Error handling mirrors the synchronous version: each tool call is
+    individually wrapped so one failure does not cancel the others.
+
+    Args:
+        tool_calls: List of tool-call dicts (same format as :func:`handle_tool_call`).
+        functions: Python callables available to the model.
+        logger: Optional logger for tracing call/result/error events.
+
+    Returns:
+        List of result dicts in the **same order** as *tool_calls*.
+        On error, ``output`` is ``"Error: <message>"``.
+    """
+    # Build a name → callable map for O(1) lookup.
+    function_map = {f.__name__: f for f in functions}
+
+    async def _dispatch_one(tool_call: Dict[str, Any]) -> Dict[str, Any]:
+        """Parse, validate, and execute a single tool call in a thread."""
+        tool_id = tool_call.get("id", "unknown_id")
+        function_name = tool_call.get("function", {}).get("name", "unknown_function")
+        arguments_str = tool_call.get("function", {}).get("arguments", "")
+        arguments = {}
+
+        try:
+            # --- Parse arguments ---
+            if arguments_str:
+                if isinstance(arguments_str, dict):
+                    arguments = arguments_str
+                else:
+                    try:
+                        arguments = json.loads(arguments_str)
+                    except json.JSONDecodeError as e:
+                        raise ValueError(f"Failed to parse arguments JSON: {e}")
+
+            # --- Validate function name ---
+            if function_name not in function_map:
+                raise ValueError(
+                    f"Function '{function_name}' not found. "
+                    f"Available: {list(function_map.keys())}"
+                )
+
+            # --- Execute in a separate thread ---
+            function_to_call = function_map[function_name]
+            if logger:
+                logger.info(f"TOOL CALL (async): {function_name} | Args: {arguments}")
+
+            result = await asyncio.to_thread(function_to_call, **arguments)
+
+            if logger:
+                str_result = str(result)
+                if len(str_result) > 500:
+                    str_result = str_result[:500] + "... [truncated]"
+                logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
+
+        except Exception as e:
+            result = f"Error: {str(e)}"
+            if logger:
+                logger.warning(f"TOOL ERROR ({function_name}): {e}")
+
+        return {
+            "tool_call_id": tool_id,
+            "output": result,
+            "arguments": arguments,
+            "name": function_name,
+        }
+
+    # Launch all tool calls concurrently and collect results in order.
+    return list(await asyncio.gather(*[_dispatch_one(tc) for tc in tool_calls]))
