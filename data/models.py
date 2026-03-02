@@ -24,7 +24,7 @@ class Pokemon(Base):
         String, doc="Primary type (e.g., 'fire', 'water')"
     )
     type_2: Mapped[Optional[str]] = mapped_column(
-        String, nullable=True, doc="Secondary type, if any"
+        String, nullable=True, doc="Secondary type (e.g., 'fire', 'water'), if any"
     )
     ability_1: Mapped[str] = mapped_column(String, doc="First ability")
     ability_2: Mapped[Optional[str]] = mapped_column(
@@ -51,12 +51,12 @@ class Pokemon(Base):
 
     # Text fields for comma-separated lists
     weak_against_1: Mapped[Optional[str]] = mapped_column(
-        Text, doc="Comma-separated types weak against (derived from type 1?)"
+        Text, doc="Comma-separated types weak against (derived from type 1)"
     )
     weak_against_2: Mapped[Optional[str]] = mapped_column(
         Text,
         nullable=True,
-        doc="Comma-separated types weak against (derived from type 2?)",
+        doc="Comma-separated types weak against (derived from type 2)",
     )
     strong_against_1: Mapped[Optional[str]] = mapped_column(
         Text, doc="Comma-separated types strong against"
@@ -65,7 +65,6 @@ class Pokemon(Base):
         Text, nullable=True, doc="Comma-separated types strong against"
     )
 
-    # New fields
     is_default: Mapped[bool] = mapped_column(
         Boolean,
         default=True,
