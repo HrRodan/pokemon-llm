@@ -2,7 +2,7 @@ from typing import List, Dict, Optional, Literal, Any, Union
 import json
 import chromadb
 from ai_tools.tools import LLMQuery
-from ai_tools.tool_definition import tool, collect_tools
+from ai_tools.tool_definition import tool
 from pydantic import BaseModel, Field, field_validator, model_validator
 from utils.config import settings
 
@@ -244,4 +244,4 @@ def query_database(args: QueryDatabaseArgs) -> str:
     return object_list.to_formatted_string()
 
 
-TOOLS, TOOL_FUNCTIONS = collect_tools(query_database)
+TOOL_FUNCTIONS = [query_database]

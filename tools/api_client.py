@@ -12,7 +12,7 @@ import random
 import requests
 from pydantic import BaseModel, Field
 
-from ai_tools.tool_definition import tool, collect_tools
+from ai_tools.tool_definition import tool
 
 
 class PokemonAPIClient:
@@ -962,10 +962,10 @@ def get_item_info(args: GetItemInfoArgs) -> Dict[str, Any]:
 
 
 # ---------------------------------------------------------------------------
-# TOOLS and TOOL_FUNCTIONS built from decorated callables.
+# TOOLS list built from decorated callables.
 # ---------------------------------------------------------------------------
 
-TOOLS, TOOL_FUNCTIONS = collect_tools(
+TOOL_FUNCTIONS = [
     get_pokemon_details,
     get_pokemon_sprites,
     get_pokemon_moves,
@@ -975,4 +975,4 @@ TOOLS, TOOL_FUNCTIONS = collect_tools(
     get_pokemon_list_by_type,
     get_ability_details,
     get_item_info,
-)
+]

@@ -22,14 +22,12 @@ Provides three complementary ways to define an OpenAI-compatible tool:
        def get_weather(args: WeatherArgs) -> str:
            return fetch(args.city, args.units)
 
-3. **Collect helpers** — ``collect_tools(*fns)`` returns the ``(schemas, fns)``
-   tuple expected by ``LLMQuery(tools=..., functions=...)``.
+2. **Manual generation** — ``function_to_tool_schema(fn)`` and ``pydantic_to_tool_schema(name, model)``
 
 Public API
 ----------
 - ``tool`` — decorator factory
-- ``collect_tools`` — build ``(tool_schemas, functions)`` from decorated fns
-- ``get_tool_schema`` — retrieve the attached schema dict from a decorated fn
+- ``get_tool_schema`` — safely extract schema from a decorated fn
 
 Attributes attached to decorated functions
 ------------------------------------------
@@ -378,37 +376,3 @@ def get_tool_schema(fn: Callable) -> Dict[str, Any]:
             "Did you forget to decorate it with @tool?"
         )
     return schema
-
-
-def collect_tools(*fns: Callable) -> Tuple[List[Dict[str, Any]], List[Callable]]:
-    """
-    Build ``(tool_schemas, functions)`` from a sequence of ``@tool``-decorated callables.
-
-    Returns the raw ``(schemas, functions)`` tuple.  Useful when you need
-    separate access to the lists, for example to inspect schemas or pass them
-    to a system that requires them split.
-
-    For most use cases **you do not need this function** — simply pass the
-    decorated callables directly to :class:`~ai_tools.tools.LLMQuery`::
-
-        # Preferred (no collect_tools needed):
-        @tool
-        def get_weather(city: str) -> str: ...
-
-        llm = LLMQuery(tools=[get_weather])
-
-        # If you need the split lists explicitly:
-        TOOLS, FUNCTIONS = collect_tools(get_weather, search_web)
-        llm = LLMQuery(tools=TOOLS, functions=FUNCTIONS)
-
-    Args:
-        *fns: One or more callables decorated with ``@tool``.
-
-    Returns:
-        Tuple of ``(list of OpenAI tool dicts, list of callable functions)``.
-
-    Raises:
-        ValueError: If any function is missing ``.__tool_schema__``.
-    """
-    schemas = [get_tool_schema(fn) for fn in fns]
-    return schemas, list(fns)

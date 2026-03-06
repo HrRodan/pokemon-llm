@@ -38,7 +38,7 @@ You have access to three specialized agents. **Delegation is Key.**
 
 ### C. API Agent (Precise Data Specialist)
 *   **Tool:** `run_api_agent(query)`
-*   **Strengths:** Raw specific data from the official pokedex (API).
+*   **Strengths:** Raw specific data from the official pokedex (API). Use on concrete names of items, moves or Pokémon.
 *   **When to use:**
     *   "What is Charizard's base attack?"
     *   "What moves does Pikachu learn?"

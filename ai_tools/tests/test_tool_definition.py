@@ -6,7 +6,6 @@ Covers:
   - Optional / default param handling (excluded from 'required')
   - Pydantic-backed schema generation (pydantic_to_tool_schema)
   - @tool decorator — bare, with args, Pydantic, name override
-  - collect_tools — output format and error on undecorated fn
   - handle_tool_call — Pydantic dispatch (receives model instance)
   - handle_tool_call — validation error returns safe error string
   - handle_tool_call_async — same Pydantic path, async
@@ -19,14 +18,11 @@ Covers:
 
 import asyncio
 import json
-import pytest
 from typing import Optional
 from pydantic import BaseModel, Field
 
 from ai_tools.tool_definition import (
     tool,
-    collect_tools,
-    get_tool_schema,
     function_to_tool_schema,
     pydantic_to_tool_schema,
 )
@@ -238,40 +234,6 @@ class TestToolDecorator:
             return x * 2
 
         assert double(5) == 10
-
-
-# ---------------------------------------------------------------------------
-# collect_tools
-# ---------------------------------------------------------------------------
-
-
-class TestCollectTools:
-    def test_returns_schemas_and_fns(self):
-        @tool(description="Tool one.")
-        def fn_one(x: str) -> str: ...
-
-        @tool(description="Tool two.")
-        def fn_two(y: int) -> int: ...
-
-        schemas, fns = collect_tools(fn_one, fn_two)
-        assert len(schemas) == 2
-        assert len(fns) == 2
-        assert schemas[0]["function"]["name"] == "fn_one"
-        assert schemas[1]["function"]["name"] == "fn_two"
-        assert fns[0] is fn_one
-        assert fns[1] is fn_two
-
-    def test_raises_for_undecorated(self):
-        def plain(): ...
-
-        with pytest.raises(ValueError, match="__tool_schema__"):
-            collect_tools(plain)
-
-    def test_get_tool_schema_raises_for_undecorated(self):
-        def plain(): ...
-
-        with pytest.raises(ValueError):
-            get_tool_schema(plain)
 
 
 # ---------------------------------------------------------------------------

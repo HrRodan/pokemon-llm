@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, select, func, desc, asc, and_, or_, inspec
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
-from ai_tools.tool_definition import tool, collect_tools
+from ai_tools.tool_definition import tool
 from data.models import Pokemon, Move, Item, Base
 from utils.config import settings
 
@@ -216,7 +216,7 @@ def execute_query(query: TechDataQuery) -> str:
     return _execute_query(query)
 
 
-TOOLS, TOOL_FUNCTIONS = collect_tools(execute_query)
+TOOL_FUNCTIONS = [execute_query]
 
 
 if __name__ == "__main__":
