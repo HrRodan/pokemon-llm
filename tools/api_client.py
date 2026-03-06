@@ -6,11 +6,13 @@ Merged from pokemon_api_client.py and pokemon_api_functions.py.
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, Optional, Union
 import random
 
 import requests
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field
+
+from ai_tools.tool_definition import tool, collect_tools
 
 
 class PokemonAPIClient:
@@ -901,121 +903,69 @@ class GetItemInfoArgs(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Module-level wrapper functions — validate args then delegate to singleton.
+# Module-level wrapper functions — receive a validated Pydantic model instance.
 # ---------------------------------------------------------------------------
 
 
-def get_pokemon_details(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetPokemonDetailsArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetPokemonDetailsArgs)
+def get_pokemon_details(args: GetPokemonDetailsArgs) -> Dict[str, Any]:
+    """Retrieves comprehensive technical data for a Pokemon."""
     return _get_client().get_pokemon_details(args.name)
 
 
-def get_pokemon_sprites(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetPokemonSpritesArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetPokemonSpritesArgs)
+def get_pokemon_sprites(args: GetPokemonSpritesArgs) -> Dict[str, Any]:
+    """Retrieves images/sprites for a specific Pokemon."""
     return _get_client().get_pokemon_sprites(args.name)
 
 
-def get_pokemon_moves(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetPokemonMovesArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetPokemonMovesArgs)
+def get_pokemon_moves(args: GetPokemonMovesArgs) -> Dict[str, Any]:
+    """Retrieves the full list of moves for a specific Pokemon."""
     return _get_client().get_pokemon_moves(args.name)
 
 
-def get_move_details(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetMoveDetailsArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetMoveDetailsArgs)
+def get_move_details(args: GetMoveDetailsArgs) -> Dict[str, Any]:
+    """Retrieves data about a move."""
     return _get_client().get_move_details(args.name, args.learned_by_limit)
 
 
-def get_type_info(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetTypeInfoArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetTypeInfoArgs)
+def get_type_info(args: GetTypeInfoArgs) -> Dict[str, Any]:
+    """Retrieves type effectiveness."""
     return _get_client().get_type_info(args.name)
 
 
-def get_encounters(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetEncountersArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetEncountersArgs)
+def get_encounters(args: GetEncountersArgs) -> Dict[str, Any]:
+    """Finds locations where a specific Pokemon can be found in the wild."""
     return _get_client().get_encounters(args.name)
 
 
-def get_pokemon_list_by_type(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetPokemonListByTypeArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetPokemonListByTypeArgs)
+def get_pokemon_list_by_type(args: GetPokemonListByTypeArgs) -> Dict[str, Any]:
+    """Returns a list of Pokemon that share a specific elemental type."""
     return _get_client().get_pokemon_list_by_type(args.type_name, args.limit)
 
 
-def get_ability_details(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetAbilityDetailsArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetAbilityDetailsArgs)
+def get_ability_details(args: GetAbilityDetailsArgs) -> Dict[str, Any]:
+    """Explains exactly what a passive Ability does in battle."""
     return _get_client().get_ability_details(args.name)
 
 
-def get_item_info(**kwargs: Any) -> Dict[str, Any]:
-    """Wrapper: validates args and delegates to PokemonAPIClient."""
-    try:
-        args = GetItemInfoArgs(**kwargs)
-    except ValidationError as e:
-        return {"error": f"Argument Validation Error: {e.json()}"}
+@tool(schema=GetItemInfoArgs)
+def get_item_info(args: GetItemInfoArgs) -> Dict[str, Any]:
+    """Retrieves info about an Item."""
     return _get_client().get_item_info(args.name, args.held_by_limit)
 
 
 # ---------------------------------------------------------------------------
-# Module-level TOOLS list — built from Pydantic schemas and docstrings.
+# TOOLS and TOOL_FUNCTIONS built from decorated callables.
 # ---------------------------------------------------------------------------
 
-_TOOL_MODELS = [
-    ("get_pokemon_details", GetPokemonDetailsArgs),
-    ("get_pokemon_sprites", GetPokemonSpritesArgs),
-    ("get_pokemon_moves", GetPokemonMovesArgs),
-    ("get_move_details", GetMoveDetailsArgs),
-    ("get_type_info", GetTypeInfoArgs),
-    ("get_encounters", GetEncountersArgs),
-    ("get_pokemon_list_by_type", GetPokemonListByTypeArgs),
-    ("get_ability_details", GetAbilityDetailsArgs),
-    ("get_item_info", GetItemInfoArgs),
-]
-
-TOOLS: List[Dict[str, Any]] = [
-    {
-        "type": "function",
-        "function": {
-            "name": name,
-            "description": model.__doc__,
-            "parameters": model.model_json_schema(),
-        },
-    }
-    for name, model in _TOOL_MODELS
-]
-
-# Convenience list of all wrapper functions in the same order as TOOLS.
-TOOL_FUNCTIONS = [
+TOOLS, TOOL_FUNCTIONS = collect_tools(
     get_pokemon_details,
     get_pokemon_sprites,
     get_pokemon_moves,
@@ -1025,4 +975,4 @@ TOOL_FUNCTIONS = [
     get_pokemon_list_by_type,
     get_ability_details,
     get_item_info,
-]
+)

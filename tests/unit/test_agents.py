@@ -279,66 +279,140 @@ class TestBaseAgentLogging:
 
 
 # ---------------------------------------------------------------------------
-# run_*_agent lazy singleton
+# BaseAgent.as_tool()
 # ---------------------------------------------------------------------------
 
 
-class TestLazySingletons:
+class TestBaseAgentAsTool:
     """
-    Verify the lazy singleton pattern: calling run_*_agent() twice returns
-    the same underlying agent instance and does not call __init__ twice.
+    Verify BaseAgent.as_tool() returns a callable with .__tool_schema__ set
+    and that the callable delegates to agent.response().
     """
 
-    def test_run_api_agent_reuses_singleton(self):
-        """run_api_agent creates the agent once and reuses it."""
-        import agents.api_agent as api_mod
+    @patch("agents.base_agent.setup_logger")
+    @patch("agents.base_agent.LLMQuery")
+    def _make_agent(self, MockLLMQuery, MockSetupLogger):
+        from agents.base_agent import BaseAgent
 
-        # Reset singleton so each test is independent
-        api_mod._api_agent = None
+        MockSetupLogger.return_value = MagicMock()
+        MockLLMQuery.return_value = MagicMock(tool_calls=[])
+
+        class _A(BaseAgent):
+            TOOL_NAME = "echo_tool"
+            TOOL_DESCRIPTION = "Echoes input."
+
+            def response(self, message, history=None):
+                return f"echoed: {message}"
+
+        return _A(name="EchoAgent", model_name="test-model")
+
+    def test_as_tool_returns_callable_with_schema(self):
+        agent = self._make_agent()
+        fn = agent.as_tool()
+
+        assert callable(fn)
+        assert hasattr(fn, "__tool_schema__")
+        schema = fn.__tool_schema__
+        assert schema["type"] == "function"
+        assert schema["function"]["name"] == "echo_tool"
+        assert schema["function"]["description"] == "Echoes input."
+        params = schema["function"]["parameters"]
+        assert "query" in params["properties"]
+        assert params["required"] == ["query"]
+
+    def test_as_tool_callable_delegates_to_response(self):
+        agent = self._make_agent()
+        fn = agent.as_tool()
+
+        result = fn(query="hello there")
+        assert result == "echoed: hello there"
+
+    def test_as_tool_callable_name_matches_tool_name(self):
+        agent = self._make_agent()
+        fn = agent.as_tool()
+        assert fn.__name__ == "echo_tool"
+
+    def test_as_tool_no_pydantic_model(self):
+        """Wrapper must use the raw **kwargs dispatch path (no Pydantic validation)."""
+        agent = self._make_agent()
+        fn = agent.as_tool()
+        assert fn.__pydantic_model__ is None
+
+    def test_as_tool_raises_without_tool_name(self):
+        """as_tool() must raise ValueError when TOOL_NAME is not set."""
+        from unittest.mock import patch as _patch
+        from agents.base_agent import BaseAgent
 
         with (
-            patch.object(api_mod.APIAgent, "__init__", return_value=None),
-            patch.object(api_mod.APIAgent, "response", return_value="ok"),
+            _patch("agents.base_agent.setup_logger") as MockLogger,
+            _patch("agents.base_agent.LLMQuery") as MockLLM,
         ):
-            # __init__ is mocked to be a no-op, so we need the instance to exist
-            api_mod._api_agent = None
-            # Patch at class level to count creations
-            with patch("agents.api_agent.APIAgent") as MockClass:
-                MockClass.return_value = MagicMock(response=MagicMock(return_value="r"))
-                api_mod._api_agent = None  # ensure fresh start
+            MockLogger.return_value = MagicMock()
+            MockLLM.return_value = MagicMock(tool_calls=[])
 
-                api_mod.run_api_agent("q1")
-                api_mod.run_api_agent("q2")
+            class _NoName(BaseAgent):
+                TOOL_DESCRIPTION = "some desc"
 
-                # APIAgent() constructor should only have been called once
-                MockClass.assert_called_once()
+                def response(self, message, history=None):
+                    return ""
 
-    def test_run_rag_agent_reuses_singleton(self):
-        """run_rag_agent creates the agent once and reuses it."""
-        import agents.rag_agent as rag_mod
+            agent = _NoName(name="X")
+            import pytest
 
-        rag_mod._rag_agent = None
+            with pytest.raises(ValueError, match="TOOL_NAME"):
+                agent.as_tool()
 
-        with patch("agents.rag_agent.RAGAgent") as MockClass:
-            MockClass.return_value = MagicMock(response=MagicMock(return_value="r"))
-            rag_mod._rag_agent = None
 
-            rag_mod.run_rag_agent("q1")
-            rag_mod.run_rag_agent("q2")
+# ---------------------------------------------------------------------------
+# PokemonAgent sub-agent wiring
+# ---------------------------------------------------------------------------
 
-            MockClass.assert_called_once()
 
-    def test_run_tech_data_agent_reuses_singleton(self):
-        """run_tech_data_agent creates the agent once and reuses it."""
-        import agents.tech_data_agent as tda_mod
+class TestPokemonAgentWiring:
+    """
+    Verify PokemonAgent correctly wires three sub-agent tools via as_tool().
+    All LLM and sub-agent calls are mocked.
+    """
 
-        tda_mod._tech_data_agent = None
+    @patch("agents.pokemon_agent.TechDataAgent")
+    @patch("agents.pokemon_agent.RAGAgent")
+    @patch("agents.pokemon_agent.APIAgent")
+    @patch("agents.base_agent.LLMQuery")
+    @patch("agents.base_agent.setup_logger")
+    def test_pokemon_agent_calls_as_tool_on_all_agents(
+        self,
+        MockLogger,
+        MockLLMQuery,
+        MockAPIAgent,
+        MockRAGAgent,
+        MockTechAgent,
+    ):
+        """PokemonAgent.__init__ must call as_tool() on all three sub-agents."""
 
-        with patch("agents.tech_data_agent.TechDataAgent") as MockClass:
-            MockClass.return_value = MagicMock(response=MagicMock(return_value="r"))
-            tda_mod._tech_data_agent = None
+        def _make_tool_fn(name):
+            """Return a callable that looks like a BaseAgent.as_tool() result."""
+            schema = {
+                "type": "function",
+                "function": {"name": name, "parameters": {}, "description": ""},
+            }
+            fn = MagicMock(
+                __name__=name, __tool_schema__=schema, __pydantic_model__=None
+            )
+            fn.return_value = "ok"
+            return fn
 
-            tda_mod.run_tech_data_agent("q1")
-            tda_mod.run_tech_data_agent("q2")
+        MockAPIAgent.return_value.as_tool.return_value = _make_tool_fn("run_api_agent")
+        MockRAGAgent.return_value.as_tool.return_value = _make_tool_fn("run_rag_agent")
+        MockTechAgent.return_value.as_tool.return_value = _make_tool_fn(
+            "run_tech_data_agent"
+        )
+        MockLLMQuery.return_value = MagicMock(tool_calls=[])
+        MockLogger.return_value = MagicMock()
 
-            MockClass.assert_called_once()
+        from agents.pokemon_agent import PokemonAgent
+
+        PokemonAgent(model_name="test-model")
+
+        assert MockAPIAgent.return_value.as_tool.called
+        assert MockRAGAgent.return_value.as_tool.called
+        assert MockTechAgent.return_value.as_tool.called

@@ -1,10 +1,11 @@
 from enum import StrEnum
-from typing import List, Dict, Optional, Any, Literal, Union, Type
-from pydantic import BaseModel, Field, ValidationError
+from typing import List, Optional, Any, Literal, Union, Type
+from pydantic import BaseModel, Field
 from sqlalchemy import create_engine, select, func, desc, asc, and_, or_, inspect
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
+from ai_tools.tool_definition import tool, collect_tools
 from data.models import Pokemon, Move, Item, Base
 from utils.config import settings
 
@@ -209,27 +210,13 @@ def _execute_query(query: TechDataQuery) -> str:
         return f"Error executing query: {e}"
 
 
-def execute_query(**kwargs: Any) -> str:
+@tool(schema=TechDataQuery)
+def execute_query(query: TechDataQuery) -> str:
     """Executes a query against the Pokemon technical database. Returns a markdown table."""
-    try:
-        query = TechDataQuery(**kwargs)
-        return _execute_query(query)
-    except ValidationError as e:
-        return f"Argument Validation Error: {e.json()}"
-    except Exception as e:
-        return f"Invalid Query Format: {e}"
+    return _execute_query(query)
 
 
-TOOLS: List[Dict[str, Any]] = [
-    {
-        "type": "function",
-        "function": {
-            "name": "execute_query",
-            "description": TechDataQuery.__doc__,
-            "parameters": TechDataQuery.model_json_schema(),
-        },
-    }
-]
+TOOLS, TOOL_FUNCTIONS = collect_tools(execute_query)
 
 
 if __name__ == "__main__":

@@ -1,14 +1,10 @@
 from typing import List, Dict, Optional
-from pydantic import BaseModel, Field
 from agents.base_agent import BaseAgent
-from tools.tech_data_tools import (
-    execute_query,
-    TOOLS as TECH_DATA_TOOLS,
-)
+from tools.tech_data_tools import TOOL_FUNCTIONS as TECH_DATA_FUNCTIONS
 from utils.config import settings
 
 SYSTEM_PROMPT = """You are the Tech Data Agent.
-Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead. 
+Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead.
 
 You have access to a tool `execute_query` which executes a SQL query based on a structured JSON input.
 The database has three tables: `pokemons`, `moves`, `items`.
@@ -99,19 +95,26 @@ Tool Call (representation):
 }
 """
 
+
 class TechDataAgent(BaseAgent):
     """
     Agent responsible for querying the technical SQL database.
     """
+
+    TOOL_NAME = "run_tech_data_agent"
+    TOOL_DESCRIPTION = (
+        "Answers technical questions about Pokemon, Moves, and Items using a SQL database. "
+        "Use this for questions like 'top five fire pokemon with highest attack', "
+        "'moves with power > 100', 'average price of items', etc."
+    )
 
     def __init__(self):
         super().__init__(
             name="TechDataAgent",
             model_name=settings.SUB_AGENT_MODEL,
             system_prompt=SYSTEM_PROMPT,
-            tools=TECH_DATA_TOOLS,
-            functions=[execute_query],
-            history_limit=40
+            tools=TECH_DATA_FUNCTIONS,
+            history_limit=40,
         )
 
     def response(
@@ -128,45 +131,3 @@ class TechDataAgent(BaseAgent):
             The response text containing query results.
         """
         return self._run(message)
-
-
-# ---------------------------------------------------------------------------
-# Lazy singleton — avoids reconstructing TechDataAgent on every tool call.
-# ---------------------------------------------------------------------------
-
-_tech_data_agent: "TechDataAgent | None" = None
-
-
-def run_tech_data_agent(query: str) -> str:
-    """
-    Tool wrapper used by PokemonAgent.
-
-    Lazily creates a single shared TechDataAgent instance and reuses it for
-    subsequent calls within the same process lifetime.
-
-    Args:
-        query: The natural language question to delegate.
-
-    Returns:
-        The SQL query result as a markdown-formatted string.
-    """
-    global _tech_data_agent
-    if _tech_data_agent is None:
-        _tech_data_agent = TechDataAgent()
-    return _tech_data_agent.response(query)
-
-
-class RunTechDataAgentArgs(BaseModel):
-    """Answers technical questions about Pokemon, Moves, and Items using a SQL database. Use this for questions like 'top five fire pokemon with highest attack', 'moves with power > 100', 'average price of items', etc."""
-
-    query: str = Field(description="The natural language question.")
-
-
-TECH_DATA_AGENT_TOOL_DEFINITION = {
-    "type": "function",
-    "function": {
-        "name": "run_tech_data_agent",
-        "description": RunTechDataAgentArgs.__doc__,
-        "parameters": RunTechDataAgentArgs.model_json_schema(),
-    },
-}

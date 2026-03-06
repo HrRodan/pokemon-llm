@@ -1,9 +1,10 @@
 from typing import List, Dict, Any, Optional
+
 from ai_tools.tools import ModelName
 from agents.base_agent import BaseAgent
-from agents.api_agent import run_api_agent, API_AGENT_TOOL_DEFINITION
-from agents.rag_agent import run_rag_agent, RAG_AGENT_TOOL_DEFINITION
-from agents.tech_data_agent import run_tech_data_agent, TECH_DATA_AGENT_TOOL_DEFINITION
+from agents.api_agent import APIAgent
+from agents.rag_agent import RAGAgent
+from agents.tech_data_agent import TechDataAgent
 from utils.config import settings
 from utils.usage_tracker import UsageTracker
 
@@ -64,26 +65,37 @@ You have access to three specialized agents. **Delegation is Key.**
 *   **Tone:** Be encouraging and scientific!
 
 ---
-**Begin the interaction now.**"""
+**Begin the interaction now."""
 
 
 class PokemonAgent(BaseAgent):
     """
     Main orchestrator agent (Professor Oak) that interacts with the user
-    and coordinates between other tools/agents.
+    and coordinates between specialised sub-agents via tool calls.
+
+    Each sub-agent is a lazy singleton held on the instance.  Tool schemas
+    and callable wrappers are derived via :meth:`BaseAgent.as_tool` and
+    passed directly to the ``LLMQuery`` constructor — no separate schema
+    dicts or function lists required.
     """
 
     def __init__(self, model_name: Optional[str] = None) -> None:
+        # Instantiate sub-agents — stateful singletons within this instance.
+        self._tech = TechDataAgent()
+        self._rag = RAGAgent()
+        self._api = APIAgent()
+
         super().__init__(
             name="PokemonAgent",
             model_name=model_name or settings.DEFAULT_MODEL,
             system_prompt=SYSTEM_PROMPT_POKEMON_AGENT,
+            # Each as_tool() returns a callable with .__tool_schema__ —
+            # LLMQuery._resolve_tools() extracts the schema automatically.
             tools=[
-                TECH_DATA_AGENT_TOOL_DEFINITION,
-                RAG_AGENT_TOOL_DEFINITION,
-                API_AGENT_TOOL_DEFINITION,
+                self._tech.as_tool(),
+                self._rag.as_tool(),
+                self._api.as_tool(),
             ],
-            functions=[run_tech_data_agent, run_rag_agent, run_api_agent],
             history_limit=50,
         )
 

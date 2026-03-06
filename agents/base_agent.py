@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict, Any, Callable, cast
+from typing import Optional, List, Dict, Callable, cast
 from abc import ABC, abstractmethod
 from ai_tools.tools import LLMQuery, ModelName
 from utils.logger import setup_logger
@@ -15,15 +15,23 @@ class BaseAgent(ABC):
     ``self._collect_usage()`` at the end of its ``response()`` method
     will automatically have its token / cost metrics recorded in the
     global :class:`UsageTracker`.
+
+    Subclasses that need to be used as tools (e.g. sub-agents wired into an
+    orchestrator via :meth:`as_tool`) should define the class-level constants:
+
+    - ``TOOL_NAME``: the function name exposed to the LLM (snake_case).
+    - ``TOOL_DESCRIPTION``: a concise description for the LLM.
     """
+
+    TOOL_NAME: str = ""
+    TOOL_DESCRIPTION: str = ""
 
     def __init__(
         self,
         name: str,
         model_name: Optional[str] = None,
         system_prompt: Optional[str] = None,
-        tools: Optional[List[Dict[str, Any]]] = None,
-        functions: Optional[List[Callable]] = None,
+        tools: Optional[List] = None,
         history_limit: Optional[int] = None,
         concurrent_tool_calls: bool = True,
     ) -> None:
@@ -34,8 +42,11 @@ class BaseAgent(ABC):
             name: The name of the agent (used for logging and usage tracking).
             model_name: The LLM model to use. Defaults to ``settings.DEFAULT_MODEL``.
             system_prompt: System prompt to configure the LLM's behaviour.
-            tools: List of tool definitions (OpenAI-style function dicts) to supply to the LLM.
-            functions: List of callable functions that implement the tools.
+            tools: Tool list passed to the LLM.  Each item may be either a
+                plain OpenAI-style schema dict **or** a ``@tool``-decorated
+                callable — in the latter case the schema is extracted and the
+                callable is registered automatically (see
+                ``LLMQuery._resolve_tools``).
             history_limit: Maximum chat-history turns the LLM will consider.
             concurrent_tool_calls: If ``True``, run tool calls concurrently
                 via ``asyncio.to_thread``.  Ideal for I/O-bound tools.
@@ -44,18 +55,17 @@ class BaseAgent(ABC):
         self.logger = setup_logger(name)
         self.model_name = model_name or settings.DEFAULT_MODEL
 
-        # Initialize LLM Client
-        # We use LLMQuery as the interface to the LLM
-        # Pass the agent's logger so LLMQuery can log queries, responses, tool calls, etc.
-        self.llm = LLMQuery(model=cast(ModelName, self.model_name), logger=self.logger)
+        # Initialize LLM Client — pass the agent's logger so LLMQuery can
+        # log queries, responses, tool calls, etc. with the right context.
+        self.llm = LLMQuery(
+            model=cast(ModelName, self.model_name),
+            logger=self.logger,
+            tools=tools,
+        )
 
         # Apply optional LLM configuration supplied by the subclass
         if system_prompt is not None:
             self.llm.system_prompt = system_prompt
-        if tools is not None:
-            self.llm.tools = tools
-        if functions is not None:
-            self.llm.functions = functions
         if history_limit is not None:
             self.llm.history_limit = history_limit
         if concurrent_tool_calls:
@@ -94,6 +104,71 @@ class BaseAgent(ABC):
                 call_count=self._call_count,
             ),
         )
+
+    def as_tool(self) -> Callable:
+        """
+        Expose this agent as a ``@tool``-compatible callable.
+
+        Returns a wrapper callable whose ``.__tool_schema__`` attribute holds
+        the OpenAI-compatible schema (derived from :attr:`TOOL_NAME` and
+        :attr:`TOOL_DESCRIPTION`).  This mirrors the interface of
+        ``@tool``-decorated functions so orchestrators can pass it directly in
+        their ``tools`` list without handling schemas manually::
+
+            class RAGAgent(BaseAgent):
+                TOOL_NAME = "run_rag_agent"
+                TOOL_DESCRIPTION = "Delegates lore questions to the RAG agent."
+
+            rag = RAGAgent()
+
+            # Wire into an orchestrator — no separate schema or function list:
+            orchestrator = LLMQuery(tools=[rag.as_tool(), api.as_tool()])
+
+        Returns:
+            A callable with ``.__tool_schema__`` and ``.__pydantic_model__``
+            set, suitable for use in a ``tools=[...]`` list.
+
+        Raises:
+            ValueError: If :attr:`TOOL_NAME` or :attr:`TOOL_DESCRIPTION` are
+                not defined on the subclass.
+        """
+        if not self.TOOL_NAME:
+            raise ValueError(
+                f"{self.__class__.__name__}.TOOL_NAME must be defined to use as_tool()."
+            )
+        if not self.TOOL_DESCRIPTION:
+            raise ValueError(
+                f"{self.__class__.__name__}.TOOL_DESCRIPTION must be defined to use as_tool()."
+            )
+
+        tool_schema = {
+            "type": "function",
+            "function": {
+                "name": self.TOOL_NAME,
+                "description": self.TOOL_DESCRIPTION,
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "query": {
+                            "type": "string",
+                            "description": self.TOOL_DESCRIPTION,
+                        }
+                    },
+                    "required": ["query"],
+                },
+            },
+        }
+
+        agent_ref = self
+
+        def _wrapper(**kwargs) -> str:
+            return agent_ref.response(kwargs.get("query", ""))
+
+        _wrapper.__name__ = self.TOOL_NAME
+        _wrapper.__tool_schema__ = tool_schema
+        _wrapper.__pydantic_model__ = None  # use raw **kwargs path in dispatcher
+
+        return _wrapper
 
     # ------------------------------------------------------------------
     # Common execution helper

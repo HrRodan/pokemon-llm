@@ -2,7 +2,8 @@ from typing import List, Dict, Optional, Literal, Any, Union
 import json
 import chromadb
 from ai_tools.tools import LLMQuery
-from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
+from ai_tools.tool_definition import tool, collect_tools
+from pydantic import BaseModel, Field, field_validator, model_validator
 from utils.config import settings
 
 # ---------------------------------------------------------------------------
@@ -236,28 +237,11 @@ def get_similar_objects(args: QueryDatabaseArgs) -> PokemonObjectList:
     return PokemonObjectList(objects=found_objects)
 
 
-def query_database(**kwargs) -> str:
-    """Queries the database and returns a formatted string. Accepts variable arguments that are validated against QueryDatabaseArgs."""
-    try:
-        # Validate arguments using Pydantic
-        args = QueryDatabaseArgs(**kwargs)
-    except ValidationError as e:
-        return f"Argument Validation Error: {e.json()}"
-
+@tool(schema=QueryDatabaseArgs)
+def query_database(args: QueryDatabaseArgs) -> str:
+    """Queries the vector database for relevant Pokemon information based on a semantic query. Returns a markdown formatted string."""
     object_list = get_similar_objects(args)
     return object_list.to_formatted_string()
 
 
-# Define tool schema
-tool_schema = QueryDatabaseArgs.model_json_schema()
-
-TOOLS: List[Dict[str, Any]] = [
-    {
-        "type": "function",
-        "function": {
-            "name": "query_database",
-            "description": QueryDatabaseArgs.__doc__,
-            "parameters": tool_schema,
-        },
-    }
-]
+TOOLS, TOOL_FUNCTIONS = collect_tools(query_database)

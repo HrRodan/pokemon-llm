@@ -38,21 +38,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 from IPython.display import Markdown, display
 import ai_tools.config as _cfg
-
-# Backward-compatible re-exports — callers can still do:
-#   from ai_tools.tools import GPTModels, ModelName, MODEL_DICT, ...
-from .config import (  # noqa: F401
-    get_api_key,
-    OLLAMA_BASE_URL,
-    GEMINI_BASE_URL,
-    OPENROUTER_BASE_URL,
-    GPTModels,
-    OllamaModels,
-    GeminiModels,
-    OpenRouterModels,
-    ModelName,
-    MODEL_DICT,
-)
+from .config import ModelName, MODEL_DICT
 from .utils import (
     pretty_print_json,
     clean_json,
@@ -63,23 +49,21 @@ from .utils import (
 from .pipeline import _Pipeline, _PipeableString, _PipeableQuery
 from .multimodal import MultiModalMixin
 
+# ---------------------------------------------------------------------------
+# Public type alias
+# ---------------------------------------------------------------------------
 
-# Lazy API key accessors — keys are resolved only when called, never at import time.
-# Backward compat: code that does `from ai_tools.tools import GOOGLE_API_KEY`
-# receives a callable; call it like GOOGLE_API_KEY() to get the string.
-def GOOGLE_API_KEY() -> str:  # noqa: N802
-    """Return the Google API key (resolved lazily from env / Colab / getpass)."""
-    return get_api_key("GOOGLE_API_KEY")
-
-
-def OPENAI_API_KEY() -> str:  # noqa: N802
-    """Return the OpenAI API key (resolved lazily from env / Colab / getpass)."""
-    return get_api_key("OPENAI_API_KEY")
-
-
-def OPENROUTER_API_KEY() -> str:  # noqa: N802
-    """Return the OpenRouter API key (resolved lazily from env / Colab / getpass)."""
-    return get_api_key("OPENROUTER_API_KEY")
+#: An item accepted by the ``tools`` constructor argument of :class:`LLMQuery`.
+#:
+#: Can be one of:
+#:
+#: * **``@tool``-decorated callable** (preferred) — a function decorated with
+#:   :func:`ai_tools.tool`.  The schema is extracted automatically and the
+#:   callable is registered as the implementation.  No separate ``functions``
+#:   entry needed.
+#: * **Plain ``dict``** — a fully-specified OpenAI function-tool schema.  When
+#:   using this form you must also pass the matching callable via ``functions``.
+ToolInput = Union[Dict[str, Any], Callable]
 
 
 class LLMQuery(MultiModalMixin):
@@ -101,7 +85,7 @@ class LLMQuery(MultiModalMixin):
         model: ModelName = "gemini-flash-latest",
         stream: bool = False,
         json_format: bool = False,
-        tools: Optional[List[Dict]] = None,
+        tools: Optional[List[ToolInput]] = None,
         tool_choice: Optional[Union[str, Dict]] = None,
         functions: Optional[List[Callable]] = None,
         image_model: str = "models/imagen-4.0-generate-001",
@@ -118,15 +102,50 @@ class LLMQuery(MultiModalMixin):
         """
         Initialize the LLMQuery instance.
 
+        **Tool registration — three supported styles:**
+
+        **Style 1 — ``@tool``-decorated callables (recommended):**
+
+        Pass the decorated function directly in ``tools``.  The schema is
+        extracted automatically and the function is registered without any
+        entry in ``functions``::
+
+            @tool
+            def get_weather(city: str) -> str: ...
+
+            llm = LLMQuery(tools=[get_weather])
+
+        **Style 2 — Raw schema dicts + explicit function list:**
+
+        Pass a hand-crafted OpenAI schema in ``tools`` and the matching
+        callable in ``functions``.  The callable is looked up by name at
+        dispatch time::
+
+            schema = {"type": "function", "function": {"name": "get_weather", ...}}
+            llm = LLMQuery(tools=[schema], functions=[get_weather])
+
+        **Style 3 — Mixed (advanced):**
+
+        ``tools`` may contain a mix of ``@tool`` callables and raw dicts.
+        Explicit ``functions`` entries always take precedence on name
+        collisions::
+
+            llm = LLMQuery(tools=[decorated_fn, raw_schema], functions=[manual_fn])
+
         Args:
-            system_prompt: The system prompt to use.
-            model: The base text chat model to use.
+            system_prompt: System prompt sent before every user message.
+            model: The text chat model to use.
             stream: Whether to stream the response by default.
             json_format: Whether to request JSON format by default.
-            tools: JSON schemas of tools available to the model.
-            tool_choice: Tool choice strategy.
-            functions: Actual Python Callables to execute when a tool is requested.
-                       Keys run against the LLM's requested `function.name`.
+            tools: List of tool definitions.  Each entry is either a
+                ``@tool``-decorated callable or an OpenAI tool schema dict.
+                See the three styles above.
+            tool_choice: Tool choice strategy (``"auto"``, ``"none"``, or a
+                specific function dict).  ``None`` lets the API decide.
+            functions: Explicit list of callables used when ``tools`` contains
+                raw schema dicts.  Each callable's ``__name__`` must match the
+                ``function.name`` in the corresponding schema.  Not needed when
+                all entries in ``tools`` are ``@tool``-decorated.
             image_model: Default image generation model.
             tts_model: Default Text-To-Speech model.
             transcription_model: Default audio transcription model.
@@ -134,12 +153,12 @@ class LLMQuery(MultiModalMixin):
             reasoning_effort: Effort level for reasoning models.
             history_limit: Max number of history entries to include.
             use_history: Whether to use chat history by default.
-            response_format: Format (dict or Pydantic model) for structured outputs.
-            concurrent_tool_calls: If ``True``, tool calls in a single LLM
-                response are dispatched concurrently via ``asyncio.to_thread``.
-                Ideal for I/O-bound tools (e.g. sub-agent LLM calls, HTTP
-                requests).  Defaults to ``True``.  Set to ``False`` to force
-                sequential dispatch.
+            response_format: Format (dict or Pydantic model) for structured
+                outputs.
+            concurrent_tool_calls: If ``True`` (default), tool calls in a
+                single LLM response are dispatched concurrently via
+                ``asyncio.to_thread``.  Ideal for I/O-bound tools.  Set to
+                ``False`` to force sequential dispatch.
             logger: Logger instance for traces.
         """
         self.logger = logger
@@ -155,10 +174,11 @@ class LLMQuery(MultiModalMixin):
         self.json_format = json_format
         self.response_format = response_format
         self.concurrent_tool_calls = concurrent_tool_calls
-        self.tools = tools
-        self.functions = functions if functions is not None else []
         self.tool_choice = tool_choice
         self.system_prompt = system_prompt
+        resolved_schemas, resolved_fns = LLMQuery._resolve_tools(tools, functions)
+        self.tools = resolved_schemas
+        self.functions = resolved_fns
         self.chat_history: List[Dict[str, Any]] = []
         self.tool_calls: List[Dict] = []
         self.response = ""
@@ -168,6 +188,46 @@ class LLMQuery(MultiModalMixin):
         self.total_completion_tokens: int = 0
         self.total_reasoning_tokens: int = 0
         self.total_tokens: int = 0
+
+    @staticmethod
+    def _resolve_tools(
+        tools: Optional[List[ToolInput]] = None,
+        functions: Optional[List[Callable]] = None,
+    ) -> "tuple[list, list]":
+        """
+        Normalise a mixed ``tools`` list into separate schemas and callables.
+
+        Supports three item types in the ``tools`` list:
+
+        - **``@tool``-decorated callable** — carries ``.__tool_schema__``.
+          The schema is extracted and the callable is auto-added to functions.
+        - **Plain dict** — treated as an already-resolved OpenAI schema.
+        - **Anything else** — passed through unchanged (forward-compat guard).
+
+        Explicit entries in ``functions`` are merged in *after* the callables
+        inferred from ``tools``, so they take precedence for name collisions.
+
+        Args:
+            tools: Raw tools list (dicts, decorated callables, or mixed).
+            functions: Explicit callable list (optional).
+
+        Returns:
+            Tuple of ``(schema_list, function_list)``.
+        """
+        schemas: list = []
+        fns: list = list(functions or [])
+        fn_names = {f.__name__ for f in fns}
+
+        for item in tools or []:
+            if callable(item) and hasattr(item, "__tool_schema__"):
+                schemas.append(item.__tool_schema__)
+                if item.__name__ not in fn_names:
+                    fns.append(item)
+                    fn_names.add(item.__name__)
+            else:
+                schemas.append(item)
+
+        return schemas, fns
 
     @retry(
         stop=stop_after_attempt(5),
@@ -1060,6 +1120,25 @@ class LLMQuery(MultiModalMixin):
         return loop.run_until_complete(coro)
 
     def get_tool_responses(self, max_iterations: int = 50) -> str:  # noqa: C901
+        """
+        Run tool calls until no more are returned, up to max_iterations.
+
+        This method drives the tool-use loop:
+
+        1. Checks ``self.tool_calls`` for pending calls.
+        2. If present, calls ``handle_tool_call`` (synchronous) or
+           ``handle_tool_call_async`` (concurrent) to execute them.
+        3. Appends the tool result to the chat history via ``append_tool_result``.
+        4. Repeats until no more tool calls are returned or ``max_iterations``
+           is reached.
+
+        Args:
+            max_iterations: Maximum number of tool-use rounds to allow.
+
+        Returns:
+            The final assistant response text after all tool calls have been
+            processed.
+        """
         response = self.response
         iterations = 0
 
@@ -1097,6 +1176,67 @@ class LLMQuery(MultiModalMixin):
             iterations += 1
 
         return response
+
+    def as_tool(
+        self,
+        name: str,
+        description: str,
+        input_arg: str = "query",
+    ) -> "tuple[dict, Callable]":
+        """
+        Wrap this ``LLMQuery`` instance as an LLM-callable tool.
+
+        Returns a ``(tool_schema_dict, wrapper_fn)`` pair.  The wrapper runs
+        the full ``query() → get_tool_responses()`` agentic loop and returns
+        the final text string.  It is self-contained — each call re-uses
+        this instance's model and settings but does not persist history across
+        tool calls (history is cleared for each invocation so sub-agents stay
+        stateless by default).
+
+        Typical usage::
+
+            rag = LLMQuery(system_prompt="You are a RAG agent…")
+            schema, fn = rag.as_tool(
+                name="run_rag_agent",
+                description="Delegates to the RAG Specialist Agent.",
+            )
+            orchestrator = LLMQuery(tools=[schema], functions=[fn])
+
+        Args:
+            name: The function name exposed to the LLM.
+            description: Human-readable description of what the tool does.
+            input_arg: Name of the single string parameter the LLM must provide.
+                Defaults to ``"query"``.
+
+        Returns:
+            Tuple of ``(tool_schema_dict, wrapper_callable)``.
+        """
+        tool_schema = {
+            "type": "function",
+            "function": {
+                "name": name,
+                "description": description,
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        input_arg: {"type": "string", "description": description}
+                    },
+                    "required": [input_arg],
+                },
+            },
+        }
+
+        llm_ref = self
+
+        def _wrapper(**kwargs) -> str:
+            prompt = kwargs.get(input_arg, "")
+            llm_ref.query(prompt)
+            return llm_ref.get_tool_responses()
+
+        _wrapper.__name__ = name
+        _wrapper.__pydantic_model__ = None  # use raw **kwargs path in dispatcher
+
+        return tool_schema, _wrapper
 
     def __call__(self, **kwargs) -> _PipeableQuery:
         """

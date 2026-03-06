@@ -16,6 +16,8 @@ import json
 import logging
 import uuid
 from typing import Dict, List, Any, Callable, Optional
+
+from pydantic import ValidationError
 from IPython.display import Markdown, display
 
 
@@ -185,14 +187,23 @@ def handle_tool_call(
 
             # ----------------------------------------------------------------
             # Step 3: Execute the function.
-            # Wrap in a separate try/except so execution errors are distinct
-            # from argument-parsing errors in the logs.
+            # When the function was decorated with @tool(schema=Model), it
+            # carries .__pydantic_model__. Validate the arguments and pass a
+            # typed model instance; otherwise fall back to raw **kwargs.
             # ----------------------------------------------------------------
             function_to_call = function_map[function_name]
+            pydantic_model = getattr(function_to_call, "__pydantic_model__", None)
             if logger:
                 logger.info(f"TOOL CALL: {function_name} | Args: {arguments}")
             try:
-                result = function_to_call(**arguments)
+                if pydantic_model is not None:
+                    try:
+                        validated = pydantic_model(**arguments)
+                    except ValidationError as e:
+                        raise ValueError(f"Argument validation failed: {e}")
+                    result = function_to_call(validated)
+                else:
+                    result = function_to_call(**arguments)
             except Exception as e:
                 raise RuntimeError(f"Error while executing '{function_name}': {e}")
 
@@ -275,11 +286,21 @@ async def handle_tool_call_async(
                 )
 
             # --- Execute in a separate thread ---
+            # When the function carries .__pydantic_model__, validate first
+            # and pass a typed model instance; otherwise use raw **kwargs.
             function_to_call = function_map[function_name]
+            pydantic_model = getattr(function_to_call, "__pydantic_model__", None)
             if logger:
                 logger.info(f"TOOL CALL (async): {function_name} | Args: {arguments}")
 
-            result = await asyncio.to_thread(function_to_call, **arguments)
+            if pydantic_model is not None:
+                try:
+                    validated = pydantic_model(**arguments)
+                except ValidationError as e:
+                    raise ValueError(f"Argument validation failed: {e}")
+                result = await asyncio.to_thread(function_to_call, validated)
+            else:
+                result = await asyncio.to_thread(function_to_call, **arguments)
 
             if logger:
                 str_result = str(result)

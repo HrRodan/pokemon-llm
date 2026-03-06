@@ -1,7 +1,11 @@
 """
 Unit tests for tools.tech_data_tools.
+
+execute_query now receives a validated TechDataQuery instance (via @tool dispatcher).
+Direct calls pass the model instance; validation error testing goes through handle_tool_call.
 """
 
+import json
 import unittest
 from tools.tech_data_tools import (
     execute_query,
@@ -9,6 +13,7 @@ from tools.tech_data_tools import (
     QueryCondition,
     Aggregation,
 )
+from ai_tools.utils import handle_tool_call
 
 
 class TestTechDataTool(unittest.TestCase):
@@ -19,7 +24,7 @@ class TestTechDataTool(unittest.TestCase):
             conditions=[QueryCondition(column="name", operator="=", value="bulbasaur")],
             limit=1,
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertIn("bulbasaur", result)
         self.assertIn("45", result)  # HP of bulbasaur
 
@@ -29,7 +34,7 @@ class TestTechDataTool(unittest.TestCase):
             columns=[Aggregation(func="MAX", column="speed")],
             conditions=[],
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertNotIn("No results found", result)
         self.assertIn("MAX(speed)", result)
 
@@ -40,7 +45,7 @@ class TestTechDataTool(unittest.TestCase):
             conditions=[QueryCondition(column="power", operator=">", value=150)],
             limit=5,
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertNotIn("No results found", result)
 
     def test_group_by(self):
@@ -52,7 +57,7 @@ class TestTechDataTool(unittest.TestCase):
             order_by="category",
             limit=5,
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertNotIn("No results found", result)
         self.assertIn("COUNT(id)", result)
 
@@ -63,7 +68,7 @@ class TestTechDataTool(unittest.TestCase):
             conditions=[QueryCondition(column="name", operator="=", value="charizard")],
             limit=1,
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertIn("charizard", result)
         self.assertIn("rock", result)
 
@@ -76,7 +81,7 @@ class TestTechDataTool(unittest.TestCase):
             ],
             conditions=[QueryCondition(column="type_1", operator="=", value="fire")],
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertNotIn("No results found", result)
         self.assertIn("AVG(attack)", result)
         self.assertIn("SUM(base_experience)", result)
@@ -92,7 +97,7 @@ class TestTechDataTool(unittest.TestCase):
             condition_logic="OR",
             limit=5,
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertIn("fire", result)
 
     def test_in_operator(self):
@@ -105,16 +110,24 @@ class TestTechDataTool(unittest.TestCase):
                 )
             ],
         )
-        result = execute_query(**query.model_dump())
+        result = execute_query(query)
         self.assertIn("potion", result)
         self.assertIn("antidote", result)
 
-    def test_validation_error_returns_message(self):
-        """Calling with bad args returns a readable error string (not an exception)."""
-        result = execute_query(
-            table="pokemons", columns=["name"], conditions="not-a-list"
-        )
-        self.assertIn("Error", result)
+    def test_validation_error_returns_error_via_dispatcher(self):
+        """Bad args dispatched through handle_tool_call return a readable error string."""
+        bad_call = {
+            "id": "c1",
+            "function": {
+                "name": "execute_query",
+                # 'table' is invalid (not "pokemons"/"moves"/"items"), triggering ValidationError
+                "arguments": json.dumps(
+                    {"table": "invalid_table", "columns": ["name"]}
+                ),
+            },
+        }
+        results = handle_tool_call([bad_call], [execute_query])
+        self.assertIn("Error", results[0]["output"])
 
 
 if __name__ == "__main__":

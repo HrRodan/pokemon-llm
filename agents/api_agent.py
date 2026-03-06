@@ -1,7 +1,6 @@
 from typing import List, Dict, Optional
-from pydantic import BaseModel, Field
 from agents.base_agent import BaseAgent
-from tools.api_client import TOOLS as API_TOOLS, TOOL_FUNCTIONS
+from tools.api_client import TOOL_FUNCTIONS
 from utils.config import settings
 
 SYSTEM_PROMPT_API_AGENT = """You are the **Pokemon API Agent**.
@@ -33,14 +32,22 @@ class APIAgent(BaseAgent):
     Agent responsible for interacting with the PokéAPI.
     """
 
+    TOOL_NAME = "run_api_agent"
+    TOOL_DESCRIPTION = (
+        "Delegates a request to the API Specialist Agent. "
+        "Use this for **specific** data lookups on **concrete** names of moves, items or pokemon like 'What are Charizard's base stats?', "
+        "'How much power does Thunderbolt have?', 'Where can I find Pikachu?'. "
+        "Do NOT use for aggregations (use run_tech_data_agent) or "
+        "lore/qualitative questions (use run_rag_agent)."
+    )
+
     def __init__(self, model_name: Optional[str] = None):
         super().__init__(
             name="APIAgent",
             model_name=model_name or settings.SUB_AGENT_MODEL,
             system_prompt=SYSTEM_PROMPT_API_AGENT,
-            tools=API_TOOLS,
-            functions=TOOL_FUNCTIONS,
-            history_limit=40
+            tools=TOOL_FUNCTIONS,
+            history_limit=40,
         )
 
     def response(
@@ -57,45 +64,3 @@ class APIAgent(BaseAgent):
             The response text from the API lookup.
         """
         return self._run(message, use_history=False)
-
-
-# ---------------------------------------------------------------------------
-# Lazy singleton — avoids reconstructing PokemonAPIClient on every tool call.
-# ---------------------------------------------------------------------------
-
-_api_agent: "APIAgent | None" = None
-
-
-def run_api_agent(query: str) -> str:
-    """
-    Tool wrapper used by PokemonAgent.
-
-    Lazily creates a single shared APIAgent instance and reuses it for
-    subsequent calls within the same process lifetime.
-
-    Args:
-        query: The specific data request to delegate.
-
-    Returns:
-        The API lookup result as a natural language string.
-    """
-    global _api_agent
-    if _api_agent is None:
-        _api_agent = APIAgent()
-    return _api_agent.response(query)
-
-
-class RunApiAgentArgs(BaseModel):
-    """Delegates a request to the API Specialist Agent. Use this for specific data lookups like 'What are Charizard's base stats?', 'How much power does Thunderbolt have?', 'Where can I find Pikachu?'. Do NOT use for aggregations (use TechDataAgent) or lore/qualitative questions (use RAGAgent)."""
-
-    query: str = Field(description="The specific data request.")
-
-
-API_AGENT_TOOL_DEFINITION = {
-    "type": "function",
-    "function": {
-        "name": "run_api_agent",
-        "description": RunApiAgentArgs.__doc__,
-        "parameters": RunApiAgentArgs.model_json_schema(),
-    },
-}
