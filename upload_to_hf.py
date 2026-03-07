@@ -1,5 +1,5 @@
 import os
-from huggingface_hub import HfApi, CommitOperationDelete
+from huggingface_hub import HfApi
 from dotenv import load_dotenv
 
 # Load environment variables

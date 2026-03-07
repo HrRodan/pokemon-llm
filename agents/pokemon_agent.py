@@ -1,5 +1,6 @@
 from typing import List, Dict, Any, Optional
 
+from ai_tools.agent import AgentConfig
 from ai_tools.tools import ModelName
 from agents.base_agent import BaseAgent
 from agents.api_agent import APIAgent
@@ -86,17 +87,19 @@ class PokemonAgent(BaseAgent):
         self._api = APIAgent()
 
         super().__init__(
-            name="PokemonAgent",
-            model_name=model_name or settings.DEFAULT_MODEL,
-            system_prompt=SYSTEM_PROMPT_POKEMON_AGENT,
-            # Each as_tool() returns a callable with .__tool_schema__ —
-            # LLMQuery._resolve_tools() extracts the schema automatically.
-            tools=[
-                self._tech.as_tool(),
-                self._rag.as_tool(),
-                self._api.as_tool(),
-            ],
-            history_limit=50,
+            config=AgentConfig(
+                name="PokemonAgent",
+                model_name=model_name or settings.DEFAULT_MODEL,
+                system_prompt=SYSTEM_PROMPT_POKEMON_AGENT,
+                # Each as_tool() returns a callable with .__tool_schema__ —
+                # LLMQuery._resolve_tools() extracts the schema automatically.
+                tools=[
+                    self._tech.as_tool(),
+                    self._rag.as_tool(),
+                    self._api.as_tool(),
+                ],
+                history_limit=50,
+            )
         )
 
     def query(self, user_prompt: str, **kwargs) -> str:
@@ -184,21 +187,6 @@ class PokemonAgent(BaseAgent):
     @model.setter
     def model(self, value: "ModelName") -> None:
         self.llm.model = value
-
-    def response(
-        self, message: str, history: Optional[List[Dict[str, str]]] = None
-    ) -> str:
-        """
-        Respond to user message (full cycle: query + tool execution).
-
-        Args:
-            message: The user's input message.
-            history: Optional chat history (unused, maintained internally).
-
-        Returns:
-            The final response text.
-        """
-        return self._run(message, use_history=True)
 
     def get_ui_state(self) -> Dict[str, Any]:
         """

@@ -12,7 +12,7 @@ This script:
 import json
 import os
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from data.models import Base, Pokemon, Move, Item
@@ -277,6 +277,7 @@ def process_items(session: Session) -> None:
         if not details:
             details = data
 
+        name = details.get("name")
         if not name:
             # Skip items without names to ensure integrity
             continue

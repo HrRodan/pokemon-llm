@@ -14,8 +14,10 @@ API (OpenAI, Gemini, OpenRouter, Ollama) and performing multi-modal AI tasks
 | [`utils.py`](utils.py) | `pretty_print_json`, `clean_json`, `handle_tool_call`, `handle_tool_call_async`, `generate_short_id` |
 | [`pipeline.py`](pipeline.py) | Pipe operator classes enabling `"text" \| query1 \| query2` syntax |
 | [`multimodal.py`](multimodal.py) | `MultiModalMixin` — image generation, TTS, audio transcription, embeddings |
-| [`tools.py`](tools.py) | `LLMQuery` (primary class) + backward-compatible re-exports of all symbols |
-| [`tool_definition.py`](tool_definition.py) | `@tool` decorator, `collect_tools`, `get_tool_schema`, schema inference from type hints |
+| [`tools.py`](tools.py) | `LLMQuery` (primary core client) |
+| [`agent.py`](agent.py) | `LLMAgent` — A higher-level wrapper for `LLMQuery` providing an automated execution loop, dynamic usage tracking, and tool exporting. |
+| [`logger.py`](logger.py) | Optional colored console logging functions via `setup_agent_logger()`. |
+| [`tool_definition.py`](tool_definition.py) | `@tool` decorator, `collect_tools`, schema inference from type hints |
 | [`__init__.py`](__init__.py) | Package-level convenience imports |
 
 ---
@@ -159,22 +161,25 @@ llm = LLMQuery(model="gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
 
 ---
 
-### `BaseAgent.as_tool()` — using sub-agents as tools
+### `LLMAgent.as_tool()` — Sub-agents as Tools
 
-Any `BaseAgent` subclass that defines `TOOL_NAME` and `TOOL_DESCRIPTION` can
-expose itself as a `@tool`-compatible callable via `as_tool()`. The returned
-callable carries `.__tool_schema__` and can be passed directly in `tools`:
+Any `LLMAgent` subclass that defines `TOOL_NAME` and `TOOL_DESCRIPTION` can
+expose itself natively as a `@tool`-compatible callable via `as_tool()`. The returned
+callable carries `.__tool_schema__` and can be passed directly into another agent's tools list.
 
 ```python
-class RAGAgent(BaseAgent):
+from ai_tools.agent import LLMAgent
+
+class RAGAgent(LLMAgent):
     TOOL_NAME = "run_rag_agent"
     TOOL_DESCRIPTION = "Semantic search over Pokémon lore."
     ...
 
-rag = RAGAgent()
+rag = RAGAgent(name="RAG", model_name="gpt-4o-mini")
 
-# Pass directly — no separate schema or functions needed:
-orchestrator = LLMQuery(tools=[rag.as_tool(), api.as_tool()])
+# Pass directly to an Orchestrator — no separate schema or functions needed:
+orchestrator = LLMQuery(model="gpt-4o-mini", tools=[rag.as_tool()])
+orchestrator.query("What does the RAG agent think about Mewtwo?")
 ```
 
 ---
@@ -449,21 +454,18 @@ to the function instead of raw `**kwargs`.
 Validation errors are returned to the LLM as a descriptive string — no crash,
 no exception propagation.
 
-### `LLMQuery.as_tool()` and `BaseAgent.as_tool()`
+### `LLMAgent.as_tool()`
 
-Wrap an `LLMQuery` instance (or a `BaseAgent` subclass) as a callable tool for
-an orchestrating agent:
+Wrap an `LLMAgent` instance as a callable tool for an orchestrating agent. This dynamically delegates requests directly into the subclass's native `.run()` method string processing.
 
 ```python
-# From LLMQuery
-rag_llm = LLMQuery(system_prompt="You are a RAG specialist…")
-schema, fn = rag_llm.as_tool(name="run_rag", description="Semantic search.")
-orchestrator = LLMQuery(tools=[schema], functions=[fn])
+from ai_tools.agent import LLMAgent
 
-# From BaseAgent (preferred — preserves usage tracking)
-from agents.rag_agent import RAGAgent
-rag = RAGAgent()
-schema, fn = rag.as_tool(name="run_rag_agent", description="Semantic search.")
+my_agent = LLMAgent(name="MyAgent", model_name="gpt-4o-mini")
+my_agent.TOOL_NAME = "run_custom_agent"
+my_agent.TOOL_DESCRIPTION = "Semantic search customizer."
+
+orchestrator = LLMQuery(model="gpt-4o-mini", tools=[my_agent.as_tool()])
 ```
 
 ---

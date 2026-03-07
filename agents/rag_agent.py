@@ -1,4 +1,5 @@
-from typing import List, Dict, Optional
+from typing import Optional
+from ai_tools.agent import AgentConfig
 from agents.base_agent import BaseAgent
 from tools.vector_db import TOOL_FUNCTIONS as RAG_TOOL_FUNCTIONS
 from utils.config import settings
@@ -32,26 +33,13 @@ class RAGAgent(BaseAgent):
         "Do NOT use for raw stats (use run_api_agent) or aggregations (use run_tech_data_agent)."
     )
 
-    def __init__(self, model_name: Optional[str] = None):
+    def __init__(self, model_name: Optional[str] = None) -> None:
         super().__init__(
-            name="RAGAgent",
-            model_name=model_name or settings.SUB_AGENT_MODEL,
-            system_prompt=SYSTEM_PROMPT_RAG_AGENT,
-            tools=RAG_TOOL_FUNCTIONS,
-            history_limit=20,
+            config=AgentConfig(
+                name="RAGAgent",
+                model_name=model_name or settings.SUB_AGENT_MODEL,
+                system_prompt=SYSTEM_PROMPT_RAG_AGENT,
+                tools=RAG_TOOL_FUNCTIONS,
+                history_limit=20,
+            )
         )
-
-    def response(
-        self, message: str, history: Optional[List[Dict[str, str]]] = None
-    ) -> str:
-        """
-        Respond to user message by searching the vector database.
-
-        Args:
-            message: The user's input message.
-            history: Optional chat history (unused, sub-agent is stateless).
-
-        Returns:
-            The response text synthesised from RAG results.
-        """
-        return self._run(message)

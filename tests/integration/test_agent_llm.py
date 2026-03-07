@@ -34,13 +34,9 @@ from utils.usage_tracker import UsageTracker
 
 @pytest.fixture(autouse=True)
 def reset_singletons():
-    """Reset lazy singletons and the usage tracker before each test."""
-    api_mod._api_agent = None
-    rag_mod._rag_agent = None
-    tda_mod._tech_data_agent = None
+    """Reset usage tracker before each test."""
     UsageTracker.get().reset()
     yield
-    # Cleanup after test (leave singletons intact for speed if desired)
 
 
 # ---------------------------------------------------------------------------
@@ -54,7 +50,7 @@ class TestTechDataAgentIntegration:
 
     def test_known_pokemon_hp(self):
         """Bulbasaur's base HP is 45 — TechDataAgent should confirm this."""
-        response = tda_mod.run_tech_data_agent(
+        response = tda_mod.TechDataAgent().run(
             "What is Bulbasaur's base hit points (HP)?"
         )
         assert isinstance(response, str)
@@ -63,7 +59,7 @@ class TestTechDataAgentIntegration:
 
     def test_fire_type_top_attack(self):
         """Top-attack fire Pokémon query: response should contain Pokémon names."""
-        response = tda_mod.run_tech_data_agent(
+        response = tda_mod.TechDataAgent().run(
             "Which 5 fire-type Pokémon have the highest attack stat?"
         )
         assert isinstance(response, str)
@@ -78,7 +74,7 @@ class TestTechDataAgentIntegration:
 
     def test_average_aggregation(self):
         """Aggregation query: average speed must be a numeric value."""
-        response = tda_mod.run_tech_data_agent(
+        response = tda_mod.TechDataAgent().run(
             "What is the average speed of all water-type Pokémon?"
         )
         assert isinstance(response, str)
@@ -93,7 +89,7 @@ class TestTechDataAgentIntegration:
     def test_no_results_handled_gracefully(self):
         """A question about a non-existent Pokémon should return a meaningful answer,
         not raise an exception."""
-        response = tda_mod.run_tech_data_agent("What are the stats of Fakemon9999?")
+        response = tda_mod.TechDataAgent().run("What are the stats of Fakemon9999?")
         assert isinstance(response, str)
         assert len(response) > 0
 
@@ -109,7 +105,7 @@ class TestRAGAgentIntegration:
 
     def test_bulbasaur_biology(self):
         """The RAG store contains Bulbasaur's biology — the response must mention it."""
-        response = rag_mod.run_rag_agent("Tell me about the biology of Bulbasaur.")
+        response = rag_mod.RAGAgent().run("Tell me about the biology of Bulbasaur.")
         assert isinstance(response, str)
         assert len(response) > 20
         assert "bulbasaur" in response.lower(), (
@@ -118,7 +114,7 @@ class TestRAGAgentIntegration:
 
     def test_semantic_dog_pokemon(self):
         """Semantic query for dog-like Pokémon — should return at least one."""
-        response = rag_mod.run_rag_agent("Pokémon that look like dogs")
+        response = rag_mod.RAGAgent().run("Pokémon that look like dogs")
         assert isinstance(response, str)
         assert len(response) > 20
         lower = response.lower()
@@ -138,7 +134,7 @@ class TestRAGAgentIntegration:
 
     def test_mewtwo_lore(self):
         """Mewtwo lore query — response must mention 'mewtwo'."""
-        response = rag_mod.run_rag_agent("What is the lore behind Mewtwo?")
+        response = rag_mod.RAGAgent().run("What is the lore behind Mewtwo?")
         assert isinstance(response, str)
         assert len(response) > 20
         assert "mewtwo" in response.lower(), f"Expected 'mewtwo' in: {response[:400]}"
@@ -154,7 +150,7 @@ class TestAPIAgentIntegration:
 
     def test_charizard_type(self):
         """Charizard is Fire/Flying — the response must confirm at least one type."""
-        response = api_mod.run_api_agent("What is Charizard's type?")
+        response = api_mod.APIAgent().run("What is Charizard's type?")
         assert isinstance(response, str)
         assert len(response) > 0
         lower = response.lower()
@@ -164,7 +160,7 @@ class TestAPIAgentIntegration:
 
     def test_pikachu_base_stats(self):
         """Pikachu has speed 90 — response should contain a relevant stat."""
-        response = api_mod.run_api_agent("What are Pikachu's base stats?")
+        response = api_mod.APIAgent().run("What are Pikachu's base stats?")
         assert isinstance(response, str)
         assert len(response) > 0
         lower = response.lower()
@@ -175,14 +171,14 @@ class TestAPIAgentIntegration:
 
     def test_potion_cost(self):
         """A Potion costs 300 — the response must mention the cost."""
-        response = api_mod.run_api_agent("How much does a Potion cost?")
+        response = api_mod.APIAgent().run("How much does a Potion cost?")
         assert isinstance(response, str)
         assert len(response) > 0
         assert "300" in response, f"Expected cost '300' in: {response[:400]}"
 
     def test_unknown_pokemon_error_handling(self):
         """Querying an invalid Pokémon should not raise — agent should report the error."""
-        response = api_mod.run_api_agent("What are the stats of Fakemon9999?")
+        response = api_mod.APIAgent().run("What are the stats of Fakemon9999?")
         assert isinstance(response, str)
         assert len(response) > 0
 
@@ -196,13 +192,13 @@ class TestUsageTrackingIntegration:
     """After a real agent call, the UsageTracker should have non-zero token counts."""
 
     def test_tech_agent_usage_recorded(self):
-        tda_mod.run_tech_data_agent("What is Bulbasaur's base HP?")
+        tda_mod.TechDataAgent().run("What is Bulbasaur's base HP?")
         usage = UsageTracker.get().get_agent_usage("TechDataAgent")
         assert usage.total_tokens > 0, "Expected non-zero tokens after real LLM call"
         assert usage.call_count == 1
 
     def test_rag_agent_usage_recorded(self):
-        rag_mod.run_rag_agent("Tell me about Pikachu.")
+        rag_mod.RAGAgent().run("Tell me about Pikachu.")
         usage = UsageTracker.get().get_agent_usage("RAGAgent")
         assert usage.total_tokens > 0
         assert usage.call_count == 1

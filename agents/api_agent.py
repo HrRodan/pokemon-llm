@@ -1,4 +1,5 @@
-from typing import List, Dict, Optional
+from typing import Optional
+from ai_tools.agent import AgentConfig
 from agents.base_agent import BaseAgent
 from tools.api_client import TOOL_FUNCTIONS
 from utils.config import settings
@@ -41,26 +42,26 @@ class APIAgent(BaseAgent):
         "lore/qualitative questions (use run_rag_agent)."
     )
 
-    def __init__(self, model_name: Optional[str] = None):
+    def __init__(self, model_name: Optional[str] = None) -> None:
         super().__init__(
-            name="APIAgent",
-            model_name=model_name or settings.SUB_AGENT_MODEL,
-            system_prompt=SYSTEM_PROMPT_API_AGENT,
-            tools=TOOL_FUNCTIONS,
-            history_limit=40,
+            config=AgentConfig(
+                name="APIAgent",
+                model_name=model_name or settings.SUB_AGENT_MODEL,
+                system_prompt=SYSTEM_PROMPT_API_AGENT,
+                tools=TOOL_FUNCTIONS,
+                history_limit=40,
+            )
         )
 
-    def response(
-        self, message: str, history: Optional[List[Dict[str, str]]] = None
-    ) -> str:
+    def run(self, message: str, use_history: bool = False) -> str:
         """
         Respond to user message by querying the PokéAPI tools.
 
         Args:
             message: The user's input message.
-            history: Optional chat history (unused, sub-agent is stateless).
+            use_history: Optional flag, defaults to False for API lookup.
 
         Returns:
             The response text from the API lookup.
         """
-        return self._run(message, use_history=False)
+        return super().run(message, use_history=use_history)

@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional
+from ai_tools.agent import AgentConfig
 from agents.base_agent import BaseAgent
 from tools.tech_data_tools import TOOL_FUNCTIONS as TECH_DATA_FUNCTIONS
 from utils.config import settings
@@ -108,26 +108,13 @@ class TechDataAgent(BaseAgent):
         "'moves with power > 100', 'average price of items', etc."
     )
 
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__(
-            name="TechDataAgent",
-            model_name=settings.SUB_AGENT_MODEL,
-            system_prompt=SYSTEM_PROMPT,
-            tools=TECH_DATA_FUNCTIONS,
-            history_limit=40,
+            config=AgentConfig(
+                name="TechDataAgent",
+                model_name=settings.SUB_AGENT_MODEL,
+                system_prompt=SYSTEM_PROMPT,
+                tools=TECH_DATA_FUNCTIONS,
+                history_limit=40,
+            )
         )
-
-    def response(
-        self, message: str, history: Optional[List[Dict[str, str]]] = None
-    ) -> str:
-        """
-        Respond to a technical data query by executing SQL against the database.
-
-        Args:
-            message: The user's input message.
-            history: Optional chat history (unused, sub-agent is stateless).
-
-        Returns:
-            The response text containing query results.
-        """
-        return self._run(message)

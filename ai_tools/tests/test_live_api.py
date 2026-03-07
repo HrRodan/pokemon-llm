@@ -12,8 +12,6 @@ unauthenticated environments.
 
 import os
 import pytest
-import asyncio
-from typing import Annotated
 
 from ai_tools.tools import LLMQuery
 from ai_tools.tool_definition import tool

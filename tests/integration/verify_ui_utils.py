@@ -5,8 +5,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 try:
-    from utils.ui_utils import get_agent_client, ALLOWED_MODELS
-    from utils.config import settings
+    from utils.ui_utils import get_agent_client
 
     print("Imports successful.")
 except Exception as e:

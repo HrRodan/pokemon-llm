@@ -11,7 +11,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from agents.tech_data_agent import run_tech_data_agent
+from agents.tech_data_agent import TechDataAgent
 
 
 def test_complex_query():
@@ -24,7 +24,8 @@ def test_complex_query():
 
     print(f"\n{'=' * 20}\nQuestion: {query}\n{'=' * 20}")
     try:
-        response = run_tech_data_agent(query)
+        agent = TechDataAgent()
+        response = agent.run(query)
         sys.stdout.buffer.write(f"Response:\n{response}\n".encode("utf-8"))
     except Exception as e:
         print(f"FAILED: {e}")

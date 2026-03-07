@@ -189,16 +189,20 @@ uv run scripts/verify_tech_agent.py   # smoke test TechDataAgent
 ## Adding a New Agent
 
 1. Create a new file in `agents/` extending `BaseAgent`.
-2. Implement `response()` — for the standard query-then-tool-loop pattern, simply call `return self._run(message)`.
-3. Instantiate the new agent inside `PokemonAgent.__init__` and wire it using `agent.as_tool(name, description)`:
+2. Define `TOOL_NAME` and `TOOL_DESCRIPTION` as class variables.
+3. Call `super().__init__(...)` and supply `system_prompt` and `tools` if it uses specialized sub-tools.
+4. Instantiate the new agent inside `PokemonAgent.__init__` and add it to the `tools` list using `as_tool()`:
    ```python
    self._my_agent = MyAgent()
-   my_schema, my_fn = self._my_agent.as_tool(
-       name="run_my_agent",
-       description="Delegates questions about X to MyAgent.",
-   )
+   
+   # Add to tools list in PokemonAgent's super().__init__:
+   tools=[
+       self._tech.as_tool(),
+       self._rag.as_tool(),
+       self._api.as_tool(),
+       self._my_agent.as_tool(),
+   ]
    ```
-4. Add `my_schema` to the `tools` list and `my_fn` to the `functions` list passed to `super().__init__`.
 5. Add the agent name and colour to `AGENT_COLORS` / `AGENT_CSS_COLORS` in `utils/logger.py`.
 
 The usage tracker and UI will automatically discover the new agent — no further wiring needed.

@@ -52,7 +52,7 @@ class TestBaseAgentRun:
     """Tests for BaseAgent._run() routing logic."""
 
     @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     def _make_agent(self, MockLLMQuery, MockSetupLogger, llm_mock=None):
         """Helper that returns a concrete BaseAgent subclass instance with a mocked LLM."""
         if llm_mock is None:
@@ -62,12 +62,12 @@ class TestBaseAgentRun:
 
         # Import locally so the patch applies
         from agents.base_agent import BaseAgent
+        from ai_tools.agent import AgentConfig
 
         class _Agent(BaseAgent):
-            def response(self, message, history=None):
-                return self._run(message)
+            pass
 
-        agent = _Agent(name="TestAgent", model_name="test-model")
+        agent = _Agent(config=AgentConfig(name="TestAgent", model_name="test-model"))
         agent.llm = llm_mock  # replace with our mock directly
         # Reset snapshot so it starts from zero
         from utils.usage_tracker import AgentUsage
@@ -80,10 +80,10 @@ class TestBaseAgentRun:
         llm = _make_mock_llm(query_return="hello world", tool_calls=[])
         agent = self._make_agent(llm_mock=llm)
 
-        result = agent._run("test message")
+        result = agent.run("test message")
 
         assert result == "hello world"
-        llm.query.assert_called_once_with(user_prompt="test message", use_history=False)
+        llm.query.assert_called_once_with(user_prompt="test message", use_history=True)
         llm.get_tool_responses.assert_not_called()
 
     def test_run_with_tool_calls_returns_tool_response(self):
@@ -95,7 +95,7 @@ class TestBaseAgentRun:
         )
         agent = self._make_agent(llm_mock=llm)
 
-        result = agent._run("test message")
+        result = agent.run("test message")
 
         assert result == "final answer"
         llm.get_tool_responses.assert_called_once()
@@ -105,7 +105,7 @@ class TestBaseAgentRun:
         llm = _make_mock_llm(tool_calls=[])
         agent = self._make_agent(llm_mock=llm)
 
-        agent._run("msg", use_history=True)
+        agent.run("msg", use_history=True)
 
         llm.query.assert_called_once_with(user_prompt="msg", use_history=True)
 
@@ -123,7 +123,7 @@ class TestBaseAgentRun:
         )
         agent = self._make_agent(llm_mock=llm)
 
-        agent._run("anything")
+        agent.run("anything")
 
         usage = tracker.get_agent_usage("TestAgent")
         assert usage.prompt_tokens == 100
@@ -140,14 +140,14 @@ class TestBaseAgentCollectUsage:
     """Tests for the delta-based usage tracking in BaseAgent."""
 
     @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     def test_delta_is_incremental(self, MockLLMQuery, MockSetupLogger):
         """Two consecutive _collect_usage() calls each record only the marginal delta."""
         from agents.base_agent import BaseAgent
+        from ai_tools.agent import AgentConfig
 
         class _Agent(BaseAgent):
-            def response(self, message, history=None):
-                return self._run(message)
+            pass
 
         tracker = UsageTracker.get()
         tracker.reset()
@@ -161,19 +161,21 @@ class TestBaseAgentCollectUsage:
         MockLLMQuery.return_value = llm
         MockSetupLogger.return_value = MagicMock()
 
-        agent = _Agent(name="DeltaAgent", model_name="m")
+        agent = _Agent(config=AgentConfig(name="DeltaAgent", model_name="m"))
         agent.llm = llm
 
         # First call: LLM accumulated 10 tokens
         llm.total_prompt_tokens = 10
         llm.total_tokens = 10
         llm.total_cost = 0.001
+        agent._update_usage()
         agent._collect_usage()
 
         # Second call: LLM accumulated 25 tokens total → delta is 15
         llm.total_prompt_tokens = 25
         llm.total_tokens = 25
         llm.total_cost = 0.002
+        agent._update_usage()
         agent._collect_usage()
 
         usage = tracker.get_agent_usage("DeltaAgent")
@@ -191,49 +193,49 @@ class TestAgentInitialisation:
     """Verify model name defaults and logger wiring."""
 
     @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     def test_default_model_used_when_none_given(self, MockLLMQuery, MockSetupLogger):
         """Omitting model_name falls back to settings.DEFAULT_MODEL."""
         from agents.base_agent import BaseAgent
+        from ai_tools.agent import AgentConfig
         from utils.config import settings
 
         MockSetupLogger.return_value = MagicMock()
 
         class _A(BaseAgent):
-            def response(self, m, h=None):
-                return ""
+            pass
 
-        a = _A(name="X")
+        a = _A(config=AgentConfig(name="X", model_name=""))
         assert a.model_name == settings.DEFAULT_MODEL
 
     @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     def test_explicit_model_name_is_stored(self, MockLLMQuery, MockSetupLogger):
         """An explicit model_name is stored on the agent."""
         from agents.base_agent import BaseAgent
+        from ai_tools.agent import AgentConfig
 
         MockSetupLogger.return_value = MagicMock()
 
         class _A(BaseAgent):
-            def response(self, m, h=None):
-                return ""
+            pass
 
-        a = _A(name="X", model_name="my-custom-model")
+        a = _A(config=AgentConfig(name="X", model_name="my-custom-model"))
         assert a.model_name == "my-custom-model"
 
     @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     def test_logger_is_named_after_agent(self, MockLLMQuery, MockSetupLogger):
         """setup_logger is called with the agent's name."""
         from agents.base_agent import BaseAgent
+        from ai_tools.agent import AgentConfig
 
         MockSetupLogger.return_value = MagicMock()
 
         class _A(BaseAgent):
-            def response(self, m, h=None):
-                return ""
+            pass
 
-        _A(name="ProfessorOak")
+        _A(config=AgentConfig(name="ProfessorOak", model_name="test"))
         MockSetupLogger.assert_called_with("ProfessorOak")
 
 
@@ -242,40 +244,7 @@ class TestAgentInitialisation:
 # ---------------------------------------------------------------------------
 
 
-class TestBaseAgentLogging:
-    """Ensure log helpers don't raise and call logger.info."""
-
-    @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
-    def test_log_query_calls_info(self, MockLLMQuery, MockSetupLogger):
-        from agents.base_agent import BaseAgent
-
-        mock_logger = MagicMock()
-        MockSetupLogger.return_value = mock_logger
-
-        class _A(BaseAgent):
-            def response(self, m, h=None):
-                return ""
-
-        a = _A(name="L")
-        a.log_query("hello?")
-        mock_logger.info.assert_called()
-
-    @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
-    def test_log_response_calls_info(self, MockLLMQuery, MockSetupLogger):
-        from agents.base_agent import BaseAgent
-
-        mock_logger = MagicMock()
-        MockSetupLogger.return_value = mock_logger
-
-        class _A(BaseAgent):
-            def response(self, m, h=None):
-                return ""
-
-        a = _A(name="L")
-        a.log_response("The answer is 42.")
-        mock_logger.info.assert_called()
+# Removed TestBaseAgentLogging as logging is handled directly in LLMAgent.run()
 
 
 # ---------------------------------------------------------------------------
@@ -290,9 +259,10 @@ class TestBaseAgentAsTool:
     """
 
     @patch("agents.base_agent.setup_logger")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     def _make_agent(self, MockLLMQuery, MockSetupLogger):
         from agents.base_agent import BaseAgent
+        from ai_tools.agent import AgentConfig
 
         MockSetupLogger.return_value = MagicMock()
         MockLLMQuery.return_value = MagicMock(tool_calls=[])
@@ -301,10 +271,10 @@ class TestBaseAgentAsTool:
             TOOL_NAME = "echo_tool"
             TOOL_DESCRIPTION = "Echoes input."
 
-            def response(self, message, history=None):
+            def run(self, message, use_history=None):
                 return f"echoed: {message}"
 
-        return _A(name="EchoAgent", model_name="test-model")
+        return _A(config=AgentConfig(name="EchoAgent", model_name="test-model"))
 
     def test_as_tool_returns_callable_with_schema(self):
         agent = self._make_agent()
@@ -345,18 +315,17 @@ class TestBaseAgentAsTool:
 
         with (
             _patch("agents.base_agent.setup_logger") as MockLogger,
-            _patch("agents.base_agent.LLMQuery") as MockLLM,
+            _patch("ai_tools.agent.LLMQuery") as MockLLM,
         ):
             MockLogger.return_value = MagicMock()
             MockLLM.return_value = MagicMock(tool_calls=[])
 
+            from ai_tools.agent import AgentConfig
+
             class _NoName(BaseAgent):
                 TOOL_DESCRIPTION = "some desc"
 
-                def response(self, message, history=None):
-                    return ""
-
-            agent = _NoName(name="X")
+            agent = _NoName(config=AgentConfig(name="X", model_name="gpt"))
             import pytest
 
             with pytest.raises(ValueError, match="TOOL_NAME"):
@@ -377,7 +346,7 @@ class TestPokemonAgentWiring:
     @patch("agents.pokemon_agent.TechDataAgent")
     @patch("agents.pokemon_agent.RAGAgent")
     @patch("agents.pokemon_agent.APIAgent")
-    @patch("agents.base_agent.LLMQuery")
+    @patch("ai_tools.agent.LLMQuery")
     @patch("agents.base_agent.setup_logger")
     def test_pokemon_agent_calls_as_tool_on_all_agents(
         self,

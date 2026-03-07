@@ -5,7 +5,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 from agents.pokemon_agent import PokemonAgent
-from utils.config import settings
 
 
 def test_pokemon_agent_instantiation():
@@ -16,8 +15,8 @@ def test_pokemon_agent_instantiation():
         print(f"Model: {agent.model}")
 
         # Check tools
-        print(f"Number of tools: {len(agent.tools_def)}")
-        tool_names = [t["function"]["name"] for t in agent.tools_def]
+        print(f"Number of tools: {len(agent.llm.tools)}")
+        tool_names = [t["function"]["name"] for t in agent.llm.tools]
         print(f"Tools available: {tool_names}")
 
         assert "run_tech_data_agent" in tool_names
