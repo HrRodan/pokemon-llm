@@ -1,12 +1,14 @@
 from ai_tools.agent import AgentConfig
 from agents.base_agent import BaseAgent
 from tools.tech_data_tools import TOOL_FUNCTIONS as TECH_DATA_FUNCTIONS
+from tools.fuzzy_search import TOOL_FUNCTIONS as FUZZY_FUNCTIONS
 from utils.config import settings
 
 SYSTEM_PROMPT = """You are the Tech Data Agent.
 Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead.
 
 You have access to a tool `execute_query` which executes a SQL query based on a structured JSON input.
+You also have access to `search_exact_name` to find correct spellings or suffixes (e.g. pumpkaboo-small, charizard-mega-x) if your queries return zero results due to misspelled or partial names.
 The database has three tables: `pokemons`, `moves`, `items`.
 
 Schema Overview:
@@ -114,7 +116,7 @@ class TechDataAgent(BaseAgent):
                 name="TechDataAgent",
                 model_name=settings.SUB_AGENT_MODEL,
                 system_prompt=SYSTEM_PROMPT,
-                tools=TECH_DATA_FUNCTIONS,
+                tools=TECH_DATA_FUNCTIONS + FUZZY_FUNCTIONS,
                 history_limit=40,
             )
         )

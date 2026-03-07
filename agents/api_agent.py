@@ -2,6 +2,7 @@ from typing import Optional
 from ai_tools.agent import AgentConfig
 from agents.base_agent import BaseAgent
 from tools.api_client import TOOL_FUNCTIONS
+from tools.fuzzy_search import TOOL_FUNCTIONS as FUZZY_FUNCTIONS
 from utils.config import settings
 
 SYSTEM_PROMPT_API_AGENT = """You are the **Pokemon API Agent**.
@@ -15,6 +16,7 @@ You do NOT answer general questions or provide qualitative descriptions unless t
 - **Items:** Get item cost and attributes using `get_item_info`.
 - **Types:** Get type effectiveness using `get_type_info`.
 - **Locations:** Get encounter locations using `get_encounters`.
+- **Name Lookup:** Find exact valid names from partial strings using `search_exact_name`. Use this if the API fails with "not found" due to typos or missing forms/suffixes (e.g. pumpkaboo-small).
 
 **Guidelines:**
 1.  **Tool Use is Mandatory:** You must ALWAYS use a tool to get information. Do not hallucinate stats.
@@ -48,7 +50,7 @@ class APIAgent(BaseAgent):
                 name="APIAgent",
                 model_name=model_name or settings.SUB_AGENT_MODEL,
                 system_prompt=SYSTEM_PROMPT_API_AGENT,
-                tools=TOOL_FUNCTIONS,
+                tools=TOOL_FUNCTIONS + FUZZY_FUNCTIONS,
                 history_limit=40,
             )
         )
