@@ -44,7 +44,7 @@ class GoogleSearchInput(BaseModel):
     max_results: int = Field(
         default=10,
         ge=1,
-        le=50,
+        le=20,
         description="Maximum number of results to return.",
     )
 
