@@ -8,6 +8,7 @@ dependencies = [
     "chromadb>=1.4.0",
     "datasets>=4.4.2",
     "gradio>=6.6.0",
+    "html-to-markdown>=2.28.2",
     "ipykernel>=7.1.0",
     "ipython>=8.18.0",
     "ipywidgets>=8.1.8",
@@ -21,6 +22,7 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "rapidfuzz>=3.14.3",
     "requests>=2.32.5",
+    "scrapling[all]>=0.4.2",
     "sqlalchemy>=2.0.45",
     "tenacity>=9.1.2",
 ]
