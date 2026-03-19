@@ -8,7 +8,11 @@ stripping navigation, ads, and boilerplate.
 import asyncio
 import concurrent.futures
 import logging
+import re
+from datetime import datetime, timezone
+from pathlib import Path
 
+from html_to_markdown import ConversionOptions
 from html_to_markdown import convert as html_to_md
 from pydantic import BaseModel, Field
 from scrapling.fetchers import Fetcher, StealthyFetcher
@@ -45,6 +49,7 @@ class PageMarkdownResult(BaseModel):
 
     url: str = Field(description="The URL that was fetched.")
     title: str = Field(description="The page title.")
+    timestamp: str = Field(description="The timestamp when the page was fetched.")
     markdown: str = Field(description="The sanitized Markdown content of the page.")
     error: str | None = Field(
         default=None,
@@ -178,6 +183,8 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
         args.url, args.use_stealth, args.css_selector,
     )
 
+    timestamp = datetime.now(timezone.utc).astimezone().isoformat()
+
     # Fetch the page
     try:
         if args.use_stealth:
@@ -189,6 +196,7 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
         result = PageMarkdownResult(
             url=args.url,
             title="",
+            timestamp=timestamp,
             markdown="",
             error=f"Fetch failed: {e}",
         )
@@ -203,6 +211,7 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
         result = PageMarkdownResult(
             url=args.url,
             title="",
+            timestamp=timestamp,
             markdown="",
             error=f"Content extraction failed: {e}",
         )
@@ -210,21 +219,49 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
 
     # Convert HTML to Markdown
     try:
-        markdown = html_to_md(main_html)
+        markdown = html_to_md(main_html, options=ConversionOptions(br_in_tables=True))
     except Exception as e:
         logger.error("Markdown conversion failed for %s: %s", args.url, e)
         result = PageMarkdownResult(
             url=args.url,
             title=title,
+            timestamp=timestamp,
             markdown="",
             error=f"Markdown conversion failed: {e}",
         )
         return result.model_dump_json()
 
+    # Create YAML metadata header
+    yaml_header = (
+        f"---\n"
+        f"title: \"{title}\"\n"
+        f"url: \"{args.url}\"\n"
+        f"timestamp: \"{timestamp}\"\n"
+        f"---\n\n"
+    )
+    full_markdown = yaml_header + markdown
+
+    # Save to file
+    try:
+        safe_title = re.sub(r'[^a-zA-Z0-9]+', '_', title)[:50].strip('_')
+        if not safe_title:
+            safe_title = "untitled"
+        
+        save_dir = Path("data/web_scraper")
+        save_dir.mkdir(parents=True, exist_ok=True)
+        
+        filepath = save_dir / f"{safe_title}.md"
+            
+        filepath.write_text(full_markdown, encoding="utf-8")
+        logger.info("Saved page markdown to %s", filepath)
+    except Exception as e:
+        logger.error("Failed to save markdown file for %s: %s", args.url, e)
+
     result = PageMarkdownResult(
         url=args.url,
         title=title,
-        markdown=markdown,
+        timestamp=timestamp,
+        markdown=full_markdown,
     )
     logger.info(
         "Page fetched: url=%s title=%r markdown_len=%d",

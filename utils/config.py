@@ -2,8 +2,11 @@ from typing import Optional, List
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from pydantic import Field
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 
 class Settings(BaseSettings):
@@ -36,10 +39,10 @@ class Settings(BaseSettings):
     )
 
     # Paths
-    # Using relative paths from project root
-    DATA_RAW_DIR: str = "data/raw"
-    VECTOR_DB_DIR: str = "data/vector_db"
-    TECH_DB_PATH: str = "data/tech_db/tech.db"
+    # Using absolute paths from project root
+    DATA_RAW_DIR: str = os.path.join(PROJECT_ROOT, "data/raw")
+    VECTOR_DB_DIR: str = os.path.join(PROJECT_ROOT, "data/vector_db")
+    TECH_DB_PATH: str = os.path.join(PROJECT_ROOT, "data/tech_db/tech.db")
 
     # UI — models available in the dropdown
     ALLOWED_MODELS: List[str] = Field(

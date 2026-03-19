@@ -5,6 +5,7 @@ description = "Multi-agent Pokémon Q&A system powered by LLMs, RAG, and SQL."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chonkie>=1.6.1",
     "chromadb>=1.4.0",
     "datasets>=4.4.2",
     "gradio>=6.6.0",
@@ -13,6 +14,7 @@ dependencies = [
     "ipython>=8.18.0",
     "ipywidgets>=8.1.8",
     "jupyter>=1.1.1",
+    "litellm>=1.82.4",
     "nest-asyncio>=1.6.0",
     "openai>=2.14.0",
     "pandas>=2.3.3",
