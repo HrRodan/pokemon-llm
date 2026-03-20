@@ -47,6 +47,12 @@ class GoogleSearchInput(BaseModel):
         le=20,
         description="Maximum number of results to return.",
     )
+    timeout: int = Field(
+        default=30000,
+        ge=5000,
+        le=60000,
+        description="Timeout in milliseconds for the search request.",
+    )
 
 
 class GoogleSearchResult(BaseModel):
@@ -77,7 +83,7 @@ def _build_google_url(query: str, num: int = 10) -> str:
     return f"https://www.google.com/search?q={encoded}&num={num}&hl=en"
 
 
-def _run_stealthy_fetch(url: str):
+def _run_stealthy_fetch(url: str, timeout: int = 30000):
     """Run Scrapling's StealthyFetcher in a thread to bypass Playwright's sync API checks.
     
     Playwright's sync API will crash with 'It looks like you are using Playwright Sync 
@@ -88,7 +94,7 @@ def _run_stealthy_fetch(url: str):
         import sys
         if sys.platform == "win32":
             asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-        return StealthyFetcher.fetch(url, headless=True, google_search=True)
+        return StealthyFetcher.fetch(url, headless=True, google_search=True, timeout=timeout)
         
     try:
         loop = asyncio.get_running_loop()
@@ -185,10 +191,10 @@ def google_search(args: GoogleSearchInput) -> str:
         effective_query = f"site:{args.site_restrict} {args.query}"
 
     search_url = _build_google_url(effective_query, num=args.max_results)
-    logger.info("Google search: query=%r url=%s", effective_query, search_url)
+    logger.info("Google search: query=%r url=%s timeout=%dms", effective_query, search_url, args.timeout)
 
     try:
-        page = _run_stealthy_fetch(search_url)
+        page = _run_stealthy_fetch(search_url, timeout=args.timeout)
     except Exception as e:
         logger.error("Google search fetch failed: %s", e)
         result = GoogleSearchResult(
