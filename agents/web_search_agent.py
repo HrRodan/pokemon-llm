@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 from ai_tools.agent import AgentConfig
 from ai_tools.tool_definition import tool
 from agents.base_agent import BaseAgent
-from tools.web_search import google_search, GoogleSearchInput
+from tools.web_search_ddg import duckduckgo_search, DuckDuckGoSearchInput
 from tools.web_vector_db import ingest_web_page, query_web_content, IngestWebPageArgs, QueryWebContentArgs
 from utils.config import settings
 
@@ -16,13 +16,13 @@ class BulbapediaSearchInput(BaseModel):
 @tool(schema=BulbapediaSearchInput)
 def bulbapedia_search(args: BulbapediaSearchInput) -> str:
     """Search Bulbapedia (Pokémon wiki) for the given query and return a list of matching URLs."""
-    # Use the existing google search tool but with a strict site restriction
-    google_input = GoogleSearchInput(
+    # Use the DuckDuckGo search tool but with a strict site restriction
+    ddg_input = DuckDuckGoSearchInput(
         query=args.query,
         site_restrict="bulbapedia.bulbagarden.net",
         max_results=args.max_results
     )
-    return google_search(google_input)
+    return duckduckgo_search(ddg_input)
 
 class BulbapediaIngestInput(BaseModel):
     url: str = Field(description="The Bulbapedia URL to download and ingest.")
