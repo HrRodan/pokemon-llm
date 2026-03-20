@@ -19,6 +19,7 @@ AGENT_COLORS = {
     "APIAgent": MAGENTA,
     "RAGAgent": GREEN,
     "TechDataAgent": YELLOW,
+    "WebSearchAgent": RED,
     "BaseAgent": WHITE,
 }
 
@@ -61,6 +62,7 @@ AGENT_CSS_COLORS = {
     "APIAgent": "#d946ef",  # Magenta
     "RAGAgent": "#22c55e",  # Green
     "TechDataAgent": "#eab308",  # Yellow
+    "WebSearchAgent": "#ef4444",  # Red
     "BaseAgent": "#e5e7eb",  # White
 }
 

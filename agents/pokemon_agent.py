@@ -6,6 +6,7 @@ from agents.base_agent import BaseAgent
 from agents.api_agent import APIAgent
 from agents.rag_agent import RAGAgent
 from agents.tech_data_agent import TechDataAgent
+from agents.web_search_agent import WebSearchAgent
 from utils.config import settings
 from utils.usage_tracker import UsageTracker
 
@@ -47,7 +48,15 @@ You have access to three specialized agents. **Delegation is Key.**
     *   "Where can I find Eevee?"
 *   **Note:** If Tech Agent fails to find specific stats, API Agent is the fallback for single-target lookups.
 
-### D. World Knowledge (Fallback)
+### D. Web Search Agent (Real-time & Deep Lore Specialist)
+*   **Tool:** `run_web_search_agent(query)`
+*   **Strengths:** Finding obscure lore, anime episode summaries, game walkthroughs, newest generation info, or the absolute latest information from Bulbapedia.
+*   **When to use:**
+    *   "In which anime episode does Ash catch Goomy?"
+    *   "How do I evolve Inkay in Pokemon X?"
+    *   *Note:* Use this as the ultimate fallback if Tech, RAG, and API agents fail to find the answer.
+
+### E. World Knowledge (Fallback)
 *   **When to use:** ONLY for chit-chat. Do **NOT** use world knowledge to answer questions about Pokémon, only use the agents.
 
 ## 3. Strategy
@@ -85,6 +94,7 @@ class PokemonAgent(BaseAgent):
         self._tech = TechDataAgent()
         self._rag = RAGAgent()
         self._api = APIAgent()
+        self._web = WebSearchAgent()
 
         super().__init__(
             config=AgentConfig(
@@ -97,6 +107,7 @@ class PokemonAgent(BaseAgent):
                     self._tech.as_tool(),
                     self._rag.as_tool(),
                     self._api.as_tool(),
+                    self._web.as_tool(),
                 ],
                 history_limit=50,
             )

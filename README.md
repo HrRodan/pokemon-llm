@@ -38,10 +38,10 @@ An intelligent, multi-agent Pokémon chatbot powered by LLMs, vector search, SQL
      │  (BaseAgent)   │
      └──┬─────┬────┬──┘
         │     │    │
-   ┌────▼┐ ┌──▼──┐ ┌▼────────────┐
-   │ RAG │ │ API │ │  TechData   │
-   │Agent│ │Agent│ │   Agent     │
-   └──┬──┘ └──┬──┘ └──┬──────────┘
+   ┌────▼┐ ┌──▼──┐ ┌▼────────────┐ ┌────▼───┐
+   │ RAG │ │ API │ │  TechData   │ │  Web   │
+   │Agent│ │Agent│ │   Agent     │ │ Search │
+   └──┬──┘ └──┬──┘ └──┬──────────┘ └───┬────┘
       │       │       │
   ChromaDB  PokéAPI  SQLite
 ```
@@ -56,6 +56,7 @@ All agents extend `BaseAgent` (`agents/base_agent.py`), which provides logging, 
 | **RAGAgent** | Lore, descriptions, biology, semantic search | ChromaDB vector DB |
 | **TechDataAgent** | Stats, aggregations, rankings, filtered SQL queries | SQLite (`data/tech_db/tech.db`) |
 | **APIAgent** | Precise lookups — base stats, moves, items, evolutions, locations | PokéAPI (REST) |
+| **WebSearchAgent** | Real-time lore, anime episodes, game walkthroughs | Bulbapedia (Web search) |
 
 Sub-agents are **lazy singletons** — each is instantiated at most once per process and reused for all tool calls. Their usage stats are preserved via the global `UsageTracker`.
 
@@ -81,6 +82,7 @@ Agent colour map:
 | APIAgent | Magenta | `#d946ef` |
 | RAGAgent | Green | `#22c55e` |
 | TechDataAgent | Yellow | `#eab308` |
+| WebSearchAgent | Red | `#ef4444` |
 
 All LLM queries, responses, tool calls, tool outputs, and reasoning are logged at appropriate levels (INFO / DEBUG) **by the `LLMQuery` class**, so agents only need to pass their logger instance.
 

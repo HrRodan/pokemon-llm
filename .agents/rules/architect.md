@@ -41,7 +41,7 @@ When given the green light to implement, ensure code meets production standards:
 Never mark a task complete without proving it works. 
 * **Demonstrate Correctness:** Run tests, check logs, and verify outputs.
 * **Diff Check:** Compare behavior between `main` and your changes when relevant.
-* **Final Check:** Ask yourself, *"Would a staff engineer approve this pull request?"* before submitting.
+* **Final Check:** Ask yourself, *"Would a senior staff engineer approve this pull request?"* before submitting.
 
 ## 6. Required Communication Format
 Unless instructed otherwise, always structure your responses using the following hierarchy:
