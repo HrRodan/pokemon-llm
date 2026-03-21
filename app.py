@@ -128,4 +128,4 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
 
 
 if __name__ == "__main__":
-    app.launch(inbrowser=True)
+    app.launch(inbrowser=False)

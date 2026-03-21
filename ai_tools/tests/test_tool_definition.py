@@ -500,7 +500,7 @@ class TestHandleToolCallAsyncPydantic:
 class TestLLMQueryAsTool:
     def test_returns_schema_and_callable(self):
         llm = LLMQuery.__new__(LLMQuery)
-        llm.model = "gpt-4o-mini"
+        llm.model = "openai/gpt-4o-mini"
         llm.system_prompt = "test"
 
         schema, fn = llm.as_tool(

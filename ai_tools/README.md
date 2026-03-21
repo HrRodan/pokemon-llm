@@ -28,14 +28,14 @@ API (OpenAI, Gemini, OpenRouter, Ollama) and performing multi-modal AI tasks
 from ai_tools.tools import LLMQuery
 
 # Basic query
-llm = LLMQuery(model="gemini-flash-latest", system_prompt="You are helpful.")
+llm = LLMQuery(model="gemini/gemini-flash-latest", system_prompt="You are helpful.")
 reply = llm.query("Explain quantum computing in one sentence.")
 
 # With chat history (default: on)
 llm.query("Follow up question here...")  # history automatically included
 
 # Single-call model override
-reply = llm.query("Translate this.", model="gpt-4o-mini")
+reply = llm.query("Translate this.", model="openai/gpt-4o-mini")
 ```
 
 ---
@@ -63,7 +63,7 @@ from ai_tools import LLMQuery, tool
 def get_weather(city: str, units: str = "metric") -> str:
     return f"22°C in {city}"
 
-llm = LLMQuery(model="gpt-4o-mini", tools=[get_weather])
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=[get_weather])
 llm.query("What's the weather in Berlin?")
 reply = llm.get_tool_responses()
 ```
@@ -82,7 +82,7 @@ class WeatherArgs(BaseModel):
 def get_weather(args: WeatherArgs) -> str:
     return f"{args.city}: 22°C ({args.units})"
 
-llm = LLMQuery(model="gpt-4o-mini", tools=[get_weather])
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=[get_weather])
 ```
 
 ---
@@ -110,7 +110,7 @@ schema = {
     },
 }
 
-llm = LLMQuery(model="gpt-4o-mini", tools=[schema], functions=[get_weather])
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=[schema], functions=[get_weather])
 ```
 
 ---
@@ -156,7 +156,7 @@ not need it when using Style 1.**
 from ai_tools import collect_tools
 
 TOOLS, FUNCTIONS = collect_tools(get_weather, search_web)
-llm = LLMQuery(model="gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
 ```
 
 ---
@@ -175,10 +175,10 @@ class RAGAgent(LLMAgent):
     TOOL_DESCRIPTION = "Semantic search over Pokémon lore."
     ...
 
-rag = RAGAgent(name="RAG", model_name="gpt-4o-mini")
+rag = RAGAgent(name="RAG", model_name="openai/gpt-4o-mini")
 
 # Pass directly to an Orchestrator — no separate schema or functions needed:
-orchestrator = LLMQuery(model="gpt-4o-mini", tools=[rag.as_tool()])
+orchestrator = LLMQuery(model="openai/gpt-4o-mini", tools=[rag.as_tool()])
 orchestrator.query("What does the RAG agent think about Mewtwo?")
 ```
 
@@ -192,10 +192,10 @@ tools (HTTP, sub-agent LLMs).
 
 ```python
 # Default: concurrent
-llm = LLMQuery(model="gpt-4o-mini", tools=[fn_a, fn_b])
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=[fn_a, fn_b])
 
 # Sequential (e.g. tools share mutable state)
-llm = LLMQuery(model="gpt-4o-mini", tools=[fn_a, fn_b], concurrent_tool_calls=False)
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=[fn_a, fn_b], concurrent_tool_calls=False)
 ```
 
 ---
@@ -225,8 +225,8 @@ per-call argument  >  instance attribute  >  hardcoded default
 Chain queries with Python's `|` operator:
 
 ```python
-q1 = LLMQuery(model="gpt-4o-mini", system_prompt="Translate to German")
-q2 = LLMQuery(model="gpt-4o-mini", system_prompt="Make it UPPERCASE")
+q1 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Translate to German")
+q2 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Make it UPPERCASE")
 
 result = "Hello, how are you?" | q1 | q2
 # result: "HALLO, WIE GEHT ES DIR?"
@@ -237,7 +237,7 @@ result = "Hello, how are you?" | q1 | q2
 ## Multi-Modal
 
 ```python
-llm = LLMQuery(model="gpt-4o-mini")
+llm = LLMQuery(model="openai/gpt-4o-mini")
 
 img   = llm.generate_image("A futuristic city at night")
 audio = llm.generate_tts("Hello, world!", voice="onyx")
@@ -256,7 +256,7 @@ class Summary(BaseModel):
     title: str
     key_points: list[str]
 
-llm = LLMQuery(model="gpt-4o-mini", response_format=Summary)
+llm = LLMQuery(model="openai/gpt-4o-mini", response_format=Summary)
 reply = llm.query("Summarise the French Revolution in 3 points.")
 ```
 
@@ -285,7 +285,7 @@ tools_schema = [{
     }
 }]
 
-llm = LLMQuery(model="gpt-4o-mini", tools=tools_schema, functions=[get_weather])
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=tools_schema, functions=[get_weather])
 llm.query("What's the weather in Berlin?")
 final_response = llm.get_tool_responses()  # executes tool, gets final reply
 ```
@@ -299,10 +299,10 @@ cuts wall-clock time significantly.
 
 ```python
 # Default: concurrent dispatch (all tool calls run in parallel threads)
-llm = LLMQuery(model="gpt-4o-mini", tools=tools_schema, functions=[fn_a, fn_b])
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=tools_schema, functions=[fn_a, fn_b])
 
 # Opt out if needed (e.g. tools that share mutable state)
-llm = LLMQuery(model="gpt-4o-mini", concurrent_tool_calls=False, ...)
+llm = LLMQuery(model="openai/gpt-4o-mini", concurrent_tool_calls=False, ...)
 ```
 
 Works seamlessly in both regular Python scripts and Jupyter notebooks.
@@ -316,7 +316,7 @@ per-call argument  >  instance attribute  >  hardcoded default
 ```
 
 Passing `None` (or omitting the argument) falls back to the instance value.
-For example, passing `model="gpt-4o-mini"` to `query()` overrides `self.model`
+For example, passing `model="openai/gpt-4o-mini"` to `query()` overrides `self.model`
 for that call only.
 
 ### Side Effects of `query()`
@@ -341,7 +341,7 @@ blocking.
 ```python
 # Keys resolved lazily when the first query fires — no blocking on import
 from ai_tools.tools import LLMQuery
-llm = LLMQuery(model="gemini-flash-latest")
+llm = LLMQuery(model="gemini/gemini-flash-latest")
 ```
 
 ---
@@ -351,8 +351,8 @@ llm = LLMQuery(model="gemini-flash-latest")
 Chain queries together with Python's `|` operator:
 
 ```python
-q1 = LLMQuery(model="gpt-4o-mini", system_prompt="Translate to German")
-q2 = LLMQuery(model="gpt-4o-mini", system_prompt="Make it UPPERCASE")
+q1 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Translate to German")
+q2 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Make it UPPERCASE")
 
 # Build a reusable pipeline
 pipeline = q1 | q2
@@ -362,7 +362,7 @@ result = "Hello, how are you?" | pipeline
 # result: "HALLO, WIE GEHT ES DIR?"
 
 # Override kwargs inline
-result = "Hello" | q1(model="gemini-flash-latest")
+result = "Hello" | q1(model="gemini/gemini-flash-latest")
 ```
 
 ---
@@ -373,7 +373,7 @@ result = "Hello" | q1(model="gemini-flash-latest")
 directly on the same object:
 
 ```python
-llm = LLMQuery(model="gpt-4o-mini")
+llm = LLMQuery(model="openai/gpt-4o-mini")
 
 # Image generation (returns PIL Image)
 img = llm.generate_image("A futuristic city at night", size="1024x1024")
@@ -400,7 +400,7 @@ class Summary(BaseModel):
     title: str
     key_points: list[str]
 
-llm = LLMQuery(model="gpt-4o-mini", response_format=Summary)
+llm = LLMQuery(model="openai/gpt-4o-mini", response_format=Summary)
 reply = llm.query("Summarise the French Revolution in 3 points.")
 # reply is a valid JSON string matching the Summary schema
 ```
@@ -442,7 +442,7 @@ Builds the `(tool_schemas, functions)` pair expected by `LLMQuery`:
 
 ```python
 TOOLS, FUNCTIONS = collect_tools(get_weather, get_weather_validated)
-llm = LLMQuery(model="gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
+llm = LLMQuery(model="openai/gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
 ```
 
 ### Automatic Pydantic validation
@@ -461,11 +461,11 @@ Wrap an `LLMAgent` instance as a callable tool for an orchestrating agent. This 
 ```python
 from ai_tools.agent import LLMAgent
 
-my_agent = LLMAgent(name="MyAgent", model_name="gpt-4o-mini")
+my_agent = LLMAgent(name="MyAgent", model_name="openai/gpt-4o-mini")
 my_agent.TOOL_NAME = "run_custom_agent"
 my_agent.TOOL_DESCRIPTION = "Semantic search customizer."
 
-orchestrator = LLMQuery(model="gpt-4o-mini", tools=[my_agent.as_tool()])
+orchestrator = LLMQuery(model="openai/gpt-4o-mini", tools=[my_agent.as_tool()])
 ```
 
 ---

@@ -73,10 +73,16 @@ class MultiModalMixin:
         target_model = model if model is not None else getattr(self, "image_model")
         client = self._get_client_for_model(target_model)  # type: ignore[attr-defined]
 
+        api_model = target_model
+        for prefix in ["openai/", "ollama/", "gemini/", "openrouter/"]:
+            if api_model.startswith(prefix):
+                api_model = api_model[len(prefix):]
+                break
+
         # Always request base64 output — avoids a second HTTP round-trip to
         # download from a temporary URL, and works in offline / firewalled envs.
         response = client.images.generate(  # pyrefly: ignore
-            model=target_model,
+            model=api_model,
             prompt=prompt,
             size=size,
             quality=quality,
@@ -120,8 +126,14 @@ class MultiModalMixin:
         target_model = model if model is not None else getattr(self, "tts_model")
         client = self._get_client_for_model(target_model)  # type: ignore[attr-defined]
 
+        api_model = target_model
+        for prefix in ["openai/", "ollama/", "gemini/", "openrouter/"]:
+            if api_model.startswith(prefix):
+                api_model = api_model[len(prefix):]
+                break
+
         response = client.audio.speech.create(
-            model=target_model,
+            model=api_model,
             input=text,
             voice=voice,
             speed=speed,
@@ -164,13 +176,19 @@ class MultiModalMixin:
         )
         client = self._get_client_for_model(target_model)  # type: ignore[attr-defined]
 
+        api_model = target_model
+        for prefix in ["openai/", "ollama/", "gemini/", "openrouter/"]:
+            if api_model.startswith(prefix):
+                api_model = api_model[len(prefix):]
+                break
+
         # Track whether we opened the file ourself so we can close it cleanly.
         file_obj = None
         should_close = False
 
         # Select the API path: Gemini needs base64 inline data in a chat call
         # because it lacks the /audio/transcriptions endpoint.
-        is_gemini = "gemini" in target_model
+        is_gemini = target_model.startswith("gemini/")
 
         try:
             if is_gemini:
@@ -209,7 +227,7 @@ class MultiModalMixin:
                 # Submit as a multimodal chat completion using the image_url type
                 # (Gemini's OpenAI compat layer accepts audio via this field)
                 response = client.chat.completions.create(
-                    model=target_model,
+                    model=api_model,
                     messages=[
                         {
                             "role": "user",
@@ -254,7 +272,7 @@ class MultiModalMixin:
                     )
 
                 response = client.audio.transcriptions.create(  # pyrefly: ignore
-                    model=target_model,
+                    model=api_model,
                     file=file_obj,
                 )
                 return response.text
@@ -290,8 +308,14 @@ class MultiModalMixin:
         target_model = model if model is not None else getattr(self, "embedding_model")
         client = self._get_client_for_model(target_model)  # type: ignore[attr-defined]
 
+        api_model = target_model
+        for prefix in ["openai/", "ollama/", "gemini/", "openrouter/"]:
+            if api_model.startswith(prefix):
+                api_model = api_model[len(prefix):]
+                break
+
         response = client.embeddings.create(
-            model=target_model,
+            model=api_model,
             input=text,
         )
 

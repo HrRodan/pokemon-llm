@@ -23,7 +23,6 @@ Adding a new provider
 
 import os
 import getpass
-from typing import Literal, Union, get_args
 from dotenv import load_dotenv
 
 # Load .env file so os.getenv() picks up local config.
@@ -40,61 +39,8 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # ---------------------------------------------------------------------------
 # Model definitions
-# Using Literal types gives IDE auto-complete and static type checking.
-# ---------------------------------------------------------------------------
-
-GPTModels = Literal[
-    "gpt-4o-mini",
-    "gpt-5-nano",
-    "gpt-5-mini",
-    "gpt-5.1",
-    "gpt-5.2",
-    "gpt-4.1-mini",
-    "gpt-5.2-pro",
-    "gpt-image-1.5",
-    "gpt-4o-mini-tts",
-    "tts-1",
-]
-
-OllamaModels = Literal["llama3.2", "deepseek-r1:1.5b"]
-
-GeminiModels = Literal[
-    "gemini-3-pro-preview",
-    "gemini-3.1-pro-preview",
-    "gemini-2.5-flash",
-    "gemini-2.5-flash-lite",
-    "gemini-flash-latest",
-    "gemini-flash-lite-latest",
-    "models/imagen-4.0-generate-001",
-    "gemini-2.5-pro-preview-tts",
-    "gemini-3-flash-preview",
-]
-
-OpenRouterModels = Literal[
-    "openai/gpt-oss-120b",
-    "openai/gpt-oss-20b",
-    "deepseek/deepseek-v3.2",
-    "deepseek/deepseek-r1",
-    "x-ai/grok-4.1-fast",
-    "z-ai/glm-4.7",
-    "moonshotai/kimi-k2-thinking",
-    "xiaomi/mimo-v2-flash:free",
-    "qwen/qwen3-embedding-8b",
-    "nvidia/nemotron-3-nano-30b-a3b",
-    "anthropic/claude-opus-4.6",
-]
-
-# Union of all providers for use as the ModelName type annotation.
-ModelName = Union[GPTModels, OllamaModels, GeminiModels, OpenRouterModels]
-
-# Lookup table: provider name -> set of model strings.
-# Used by _get_client_for_model() to select the correct OpenAI client.
-MODEL_DICT = {
-    "gpt": set(get_args(GPTModels)),
-    "ollama": set(get_args(OllamaModels)),
-    "gemini": set(get_args(GeminiModels)),
-    "openrouter": set(get_args(OpenRouterModels)),
-}
+# Using `str` ensures any model available via string prefix can be used.
+ModelName = str
 
 # ---------------------------------------------------------------------------
 # Lazy API key resolution

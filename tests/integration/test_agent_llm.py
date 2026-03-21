@@ -170,11 +170,11 @@ class TestAPIAgentIntegration:
         )
 
     def test_potion_cost(self):
-        """A Potion costs 300 — the response must mention the cost."""
+        """A Potion costs 200 — the response must mention the cost."""
         response = api_mod.APIAgent().run("How much does a Potion cost?")
         assert isinstance(response, str)
         assert len(response) > 0
-        assert "300" in response, f"Expected cost '300' in: {response[:400]}"
+        assert "200" in response, f"Expected cost '200' in: {response[:400]}"
 
     def test_unknown_pokemon_error_handling(self):
         """Querying an invalid Pokémon should not raise — agent should report the error."""

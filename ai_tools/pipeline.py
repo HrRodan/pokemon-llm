@@ -13,7 +13,7 @@ How it works
 - ``_PipeableString`` is a ``str`` subclass that also implements ``__or__``,
   so the result of one step can flow into the next step automatically.
 - ``_PipeableQuery`` wraps a ``LLMQuery`` together with per-call kwargs so
-  that ``llm(model="gpt-4o-mini")`` returns something pipeable without
+  that ``llm(model="openai/gpt-4o-mini")`` returns something pipeable without
   immediately executing the query.
 - ``_Pipeline`` composes any two steps into a single reusable callable.
 """
@@ -110,7 +110,7 @@ class _PipeableQuery:
     keyword arguments and defers actual execution until piped::
 
         # Deferred: create the wrapper without firing the query
-        step = llm_query(model="gpt-4o-mini")
+        step = llm_query(model="openai/gpt-4o-mini")
 
         # Execute: fire the query when piped
         result = "Explain AI" | step

@@ -15,7 +15,7 @@ Typical usage::
 
     from ai_tools.tools import LLMQuery
 
-    llm = LLMQuery(model="gemini-flash-latest", system_prompt="You are helpful.")
+    llm = LLMQuery(model="gemini/gemini-flash-latest", system_prompt="You are helpful.")
     reply = llm.query("What is the capital of France?")
 
 See README.md for full examples including tool use and pipeline syntax.
@@ -38,7 +38,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 from IPython.display import Markdown, display
 import ai_tools.config as _cfg
-from .config import ModelName, MODEL_DICT
+from .config import ModelName
 from .utils import (
     pretty_print_json,
     clean_json,
@@ -82,16 +82,16 @@ class LLMQuery(MultiModalMixin):
     def __init__(
         self,
         system_prompt: str = "",
-        model: ModelName = "gemini-flash-latest",
+        model: ModelName = "gemini/gemini-flash-latest",
         stream: bool = False,
         json_format: bool = False,
         tools: Optional[List[ToolInput]] = None,
         tool_choice: Optional[Union[str, Dict]] = None,
         functions: Optional[List[Callable]] = None,
-        image_model: str = "models/imagen-4.0-generate-001",
-        tts_model: str = "gpt-4o-mini-tts",
-        transcription_model: str = "gemini-2.5-flash",
-        embedding_model: str = "qwen/qwen3-embedding-8b",
+        image_model: str = "gemini/models/imagen-4.0-generate-001",
+        tts_model: str = "openai/gpt-4o-mini-tts",
+        transcription_model: str = "gemini/gemini-2.5-flash",
+        embedding_model: str = "openrouter/qwen/qwen3-embedding-8b",
         reasoning_effort: Optional[str] = None,
         history_limit: Optional[int] = None,
         use_history: bool = True,
@@ -460,24 +460,24 @@ class LLMQuery(MultiModalMixin):
         Return an OpenAI-compatible client for the given model name.
 
         Raises:
-            ValueError: If the model is not listed in any provider's MODEL_DICT.
+            ValueError: If the model is not listed with a supported prefix.
         """
-        if model in _cfg.MODEL_DICT["gpt"]:
+        if model.startswith("openai/"):
             return OpenAI(api_key=_cfg.get_api_key("OPENAI_API_KEY"))
-        elif model in _cfg.MODEL_DICT["ollama"]:
+        elif model.startswith("ollama/"):
             return OpenAI(base_url=_cfg.OLLAMA_BASE_URL, api_key="ollama")
-        elif model in _cfg.MODEL_DICT["gemini"]:
+        elif model.startswith("gemini/"):
             return OpenAI(
                 base_url=_cfg.GEMINI_BASE_URL,
                 api_key=_cfg.get_api_key("GOOGLE_API_KEY"),
             )
-        elif model in _cfg.MODEL_DICT["openrouter"]:
+        elif model.startswith("openrouter/"):
             return OpenAI(
                 base_url=_cfg.OPENROUTER_BASE_URL,
                 api_key=_cfg.get_api_key("OPENROUTER_API_KEY"),
             )
         raise ValueError(
-            f"Model '{model}' is not listed in any provider in MODEL_DICT."
+            f"Model '{model}' lacks a recognized provider prefix (openai/, ollama/, gemini/, openrouter/)."
         )
 
     @property
@@ -563,7 +563,19 @@ class LLMQuery(MultiModalMixin):
             Dict: Ready-to-unpack kwargs for ``create()``.
         """
         target_model = model if model is not None else self.model
-        request_kwargs: Dict[str, Any] = {"model": target_model, "messages": messages}
+        
+        # Strip provider prefix for the API request
+        api_model = target_model
+        if target_model.startswith("openai/"):
+            api_model = target_model[len("openai/"):]
+        elif target_model.startswith("ollama/"):
+            api_model = target_model[len("ollama/"):]
+        elif target_model.startswith("gemini/"):
+            api_model = target_model[len("gemini/"):]
+        elif target_model.startswith("openrouter/"):
+            api_model = target_model[len("openrouter/"):]
+
+        request_kwargs: Dict[str, Any] = {"model": api_model, "messages": messages}
 
         if tools:
             request_kwargs["tools"] = tools
@@ -602,7 +614,7 @@ class LLMQuery(MultiModalMixin):
 
         # OpenRouter requires extra provider hints for correct routing and to
         # receive cost/usage data back in the response.
-        if target_model in MODEL_DICT["openrouter"]:
+        if target_model.startswith("openrouter/"):
             extra_body = request_kwargs.setdefault("extra_body", {})
             provider = extra_body.setdefault("provider", {})
             provider.setdefault("require_parameters", True)  # reject unsupported params
@@ -878,12 +890,12 @@ class LLMQuery(MultiModalMixin):
 
         Example::
 
-            q = LLMQuery(model="gpt-4o-mini", system_prompt="You are helpful.")
+            q = LLMQuery(model="openai/gpt-4o-mini", system_prompt="You are helpful.")
             reply = q.query("What is the capital of France?")
             # reply == "Paris."
 
             # Use tools
-            q = LLMQuery(model="gpt-4o-mini", tools=[...], functions=[my_fn])
+            q = LLMQuery(model="openai/gpt-4o-mini", tools=[...], functions=[my_fn])
             q.query("Call the tool please.")
             final = q.get_tool_responses()
         """
@@ -1245,7 +1257,7 @@ class LLMQuery(MultiModalMixin):
 
         Example::
 
-            result = "Explain AI" | llm(model="gpt-4o-mini")
+            result = "Explain AI" | llm(model="openai/gpt-4o-mini")
         """
         return _PipeableQuery(self, kwargs)
 

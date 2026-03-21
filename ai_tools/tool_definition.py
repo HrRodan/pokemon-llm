@@ -49,6 +49,7 @@ from typing import (
     Type,
     get_args,
     get_origin,
+    get_type_hints,
 )
 
 from pydantic import BaseModel
@@ -330,11 +331,31 @@ def tool(
     def _decorate(func: Callable) -> Callable:
         effective_name = name or func.__name__
 
-        if schema is not None:
+        inferred_schema = schema
+        if inferred_schema is None:
+            try:
+                # get_type_hints safely resolves stringified annotations (PEP 563)
+                hints = get_type_hints(func)
+            except Exception:
+                # Fallback if evaluation fails
+                hints = getattr(func, "__annotations__", {})
+
+            sig = inspect.signature(func)
+            # Filter out standard non-argument parameters like self/cls
+            params = [p for p in sig.parameters.values() if p.name not in ("self", "cls")]
+            
+            if len(params) == 1:
+                param_name = params[0].name
+                param_type = hints.get(param_name)
+                # If the single argument is annotated as a subclass of BaseModel, infer it
+                if isinstance(param_type, type) and issubclass(param_type, BaseModel):
+                    inferred_schema = param_type
+
+        if inferred_schema is not None:
             func.__tool_schema__ = pydantic_to_tool_schema(
-                effective_name, schema, description
+                effective_name, inferred_schema, description
             )
-            func.__pydantic_model__ = schema
+            func.__pydantic_model__ = inferred_schema
         else:
             func.__tool_schema__ = function_to_tool_schema(func, description)
             if effective_name != func.__name__:

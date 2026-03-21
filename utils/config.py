@@ -29,13 +29,16 @@ class Settings(BaseSettings):
 
     # Model Configuration
     DEFAULT_MODEL: str = Field(
-        default="deepseek/deepseek-v3.2", description="Default LLM model to use"
+        default="openrouter/google/gemini-3.1-flash-lite-preview",
+        description="Default LLM model to use",
     )
     SUB_AGENT_MODEL: str = Field(
-        default="openai/gpt-oss-20b", description="Default model for sub-agents"
+        default="openrouter/openai/gpt-oss-20b",
+        description="Default model for sub-agents",
     )
     EMBEDDING_MODEL: str = Field(
-        default="qwen/qwen3-embedding-8b", description="Embedding model for Vector DB"
+        default="openrouter/qwen/qwen3-embedding-8b",
+        description="Embedding model for Vector DB",
     )
 
     # Paths
@@ -47,12 +50,14 @@ class Settings(BaseSettings):
     # UI — models available in the dropdown
     ALLOWED_MODELS: List[str] = Field(
         default=[
-            "deepseek/deepseek-v3.2",
-            "openai/gpt-oss-120b",
-            "openai/gpt-oss-20b",
-            "xiaomi/mimo-v2-flash:free",
-            "x-ai/grok-4.1-fast",
-            "nvidia/nemotron-3-nano-30b-a3b",
+            "openrouter/google/gemini-3.1-flash-lite-preview",
+            "openrouter/google/gemini-3-flash-preview",
+            "openrouter/deepseek/deepseek-v3.2",
+            "openrouter/openai/gpt-oss-120b",
+            "openrouter/openai/gpt-oss-20b",
+            "openrouter/xiaomi/mimo-v2-flash:free",
+            "openrouter/x-ai/grok-4.1-fast",
+            "openrouter/nvidia/nemotron-3-nano-30b-a3b",
         ],
         description="Models available in the UI dropdown.",
     )

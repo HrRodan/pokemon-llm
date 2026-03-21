@@ -28,13 +28,13 @@ class TestLLMQueryInitialization:
     def test_overrides(self):
         llm = LLMQuery(
             system_prompt="Be concise",
-            model="gpt-4o-mini",
+            model="openai/gpt-4o-mini",
             stream=True,
             json_format=True,
             history_limit=5,
         )
         assert llm.system_prompt == "Be concise"
-        assert llm.model == "gpt-4o-mini"
+        assert llm.model == "openai/gpt-4o-mini"
         assert llm.stream is True
         assert llm.json_format is True
         assert llm.history_limit == 5

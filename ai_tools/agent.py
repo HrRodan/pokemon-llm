@@ -30,10 +30,10 @@ class AgentConfig:
     json_format: bool = False
     tool_choice: Optional[Union[str, Dict]] = None
     functions: Optional[List[Callable]] = None
-    image_model: str = "models/imagen-4.0-generate-001"
-    tts_model: str = "gpt-4o-mini-tts"
-    transcription_model: str = "gemini-2.5-flash"
-    embedding_model: str = "qwen/qwen3-embedding-8b"
+    image_model: str = "gemini/models/imagen-4.0-generate-001"
+    tts_model: str = "openai/gpt-4o-mini-tts"
+    transcription_model: str = "gemini/gemini-2.5-flash"
+    embedding_model: str = "openrouter/qwen/qwen3-embedding-8b"
     reasoning_effort: Optional[str] = None
     use_history: bool = True
     response_format: Union[Dict[str, Any], Type[Any], None] = None

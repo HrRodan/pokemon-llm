@@ -11,10 +11,10 @@ class DummyAgent(LLMAgent):
 
 def test_llm_agent_initialization():
     agent = DummyAgent(
-        config=AgentConfig(name="TestAgent", model_name="gpt-4o-mini", history_limit=10)
+        config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini", history_limit=10)
     )
     assert agent.name == "TestAgent"
-    assert agent.model_name == "gpt-4o-mini"
+    assert agent.model_name == "openai/gpt-4o-mini"
     assert isinstance(agent.llm, LLMQuery)
     assert agent.llm.history_limit == 10
     assert agent.usage.prompt_tokens == 0
@@ -25,7 +25,7 @@ def test_llm_agent_initialization():
 @patch.object(LLMQuery, "get_tool_responses")
 def test_llm_agent_run_without_tools(mock_get_tools, mock_query):
     mock_query.return_value = "Mocked LLM Response"
-    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="gpt-4o-mini"))
+    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini"))
 
     # Simulate LLMQuery state
     agent.llm.tool_calls = []
@@ -52,7 +52,7 @@ def test_llm_agent_run_with_tools(mock_get_tools, mock_query):
     mock_query.return_value = "Initial Response"
     mock_get_tools.return_value = "Final Tool Response"
 
-    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="gpt-4o-mini"))
+    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini"))
 
     # Force tool calls
     agent.llm.tool_calls = [{"id": "call_1", "function": {"name": "test"}}]
@@ -66,7 +66,7 @@ def test_llm_agent_run_with_tools(mock_get_tools, mock_query):
 
 
 def test_llm_agent_as_tool():
-    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="gpt-4o-mini"))
+    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini"))
 
     tool_callable = agent.as_tool()
 
