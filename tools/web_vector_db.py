@@ -136,8 +136,8 @@ def _build_chunking_pipeline() -> Pipeline:
     return (
         Pipeline()
         .process_with("markdown")
-        .chunk_with("recursive", chunk_size=1536)
-        .refine_with("overlap", context_size=256)
+        .chunk_with("recursive", chunk_size=2048)
+        .refine_with("overlap", context_size=512)
     )
 
 
