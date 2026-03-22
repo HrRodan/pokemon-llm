@@ -7,7 +7,6 @@ import pytest
 
 from tools.web_content import PageMarkdownResult
 from tools.web_vector_db import (
-    strip_yaml_frontmatter,
     prepare_markdown,
     generate_chunk_id,
     is_content_fresh,
@@ -18,35 +17,6 @@ from tools.web_vector_db import (
 
 
 # ---------------------------------------------------------------------------
-# strip_yaml_frontmatter
-# ---------------------------------------------------------------------------
-
-
-class TestStripYamlFrontmatter:
-    """Verify YAML front-matter removal."""
-
-    def test_strips_yaml_block(self):
-        md = '---\ntitle: "Test"\nurl: "https://example.com"\n---\n\n# Hello\n\nWorld'
-        result = strip_yaml_frontmatter(md)
-        assert result.startswith("# Hello")
-        assert "---" not in result.split("\n")[0]
-
-    def test_preserves_content_without_yaml(self):
-        md = "# No front-matter\n\nJust content."
-        result = strip_yaml_frontmatter(md)
-        assert result == md
-
-    def test_only_strips_first_block(self):
-        md = "---\ntitle: Test\n---\n\n# Content\n\n---\n\nHorizontal rule above"
-        result = strip_yaml_frontmatter(md)
-        assert "# Content" in result
-        assert "---" in result  # The HR should remain
-
-    def test_empty_string(self):
-        assert strip_yaml_frontmatter("") == ""
-
-
-# ---------------------------------------------------------------------------
 # prepare_markdown
 # ---------------------------------------------------------------------------
 
@@ -54,17 +24,16 @@ class TestStripYamlFrontmatter:
 class TestPrepareMarkdown:
     """Verify title prefix injection and YAML removal."""
 
-    def test_prefixes_title_and_strips_yaml(self):
+    def test_prefixes_title(self):
         result = PageMarkdownResult(
             url="https://example.com",
             title="My Page",
             timestamp="2025-01-01T00:00:00Z",
-            markdown='---\ntitle: "My Page"\n---\n\nSome content here.',
+            markdown='Some content here.',
         )
         clean = prepare_markdown(result)
         assert clean.startswith("# My Page\n\n")
         assert "Some content here." in clean
-        assert 'title: "My Page"' not in clean
 
     def test_no_title(self):
         result = PageMarkdownResult(

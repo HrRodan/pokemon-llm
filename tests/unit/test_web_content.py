@@ -1,6 +1,7 @@
 """Unit tests for tools.web_content — schema validation & content extraction."""
 
 import json
+from pathlib import Path
 from unittest.mock import patch
 
 import pytest
@@ -202,7 +203,18 @@ class TestFetchPageAsMarkdownTool:
         assert result.url == "https://example.com"
         assert result.title == "Test Page Title"
         assert "Main Article" in result.markdown
+        assert "---" not in result.markdown  # YAML header should not be in the result object
         assert len(result.markdown) > 0
+
+        # Verify the file was saved with the YAML header
+        save_dir = Path("data/web_scraper")
+        safe_title = "Test_Page_Title"
+        filepath = save_dir / f"{safe_title}.md"
+        assert filepath.exists()
+        saved_content = filepath.read_text(encoding="utf-8")
+        assert saved_content.startswith("---")
+        assert 'title: "Test Page Title"' in saved_content
+        assert "Main Article" in saved_content
 
     @patch("tools.web_content.StealthyFetcher")
     def test_stealth_mode_uses_stealthy_fetcher(self, mock_stealthy_cls):

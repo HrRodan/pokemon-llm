@@ -58,20 +58,13 @@ def _get_collection() -> "chromadb.Collection":
 # Pre-processing helpers
 # ---------------------------------------------------------------------------
 
-_YAML_FRONT_MATTER_RE = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
-
-
-def strip_yaml_frontmatter(markdown: str) -> str:
-    """Remove YAML front-matter block (``---…---``) from the start of markdown."""
-    return _YAML_FRONT_MATTER_RE.sub("", markdown, count=1)
-
 
 def prepare_markdown(result: PageMarkdownResult) -> str:
-    """Strip YAML front-matter and prefix the page title as an H1 heading.
+    """Prefix the page title as an H1 heading.
 
     Returns clean markdown ready for chunking.
     """
-    clean = strip_yaml_frontmatter(result.markdown)
+    clean = result.markdown
     if result.title:
         clean = f"# {result.title}\n\n{clean}"
     return clean.strip()

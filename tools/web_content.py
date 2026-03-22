@@ -321,7 +321,7 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
         url=args.url,
         title=title,
         timestamp=timestamp,
-        markdown=full_markdown,
+        markdown=markdown,
     )
     logger.info(
         "Page fetched: url=%s title=%r markdown_len=%d",

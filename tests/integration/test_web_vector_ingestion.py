@@ -25,8 +25,6 @@ from tools.web_vector_db import (
 # ---------------------------------------------------------------------------
 
 _SAMPLE_MARKDOWN = (
-    '---\ntitle: "Bulbasaur"\nurl: "https://example.com/bulbasaur"\n'
-    'timestamp: "2025-06-01T12:00:00Z"\n---\n\n'
     "## Biology\n\n"
     "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin "
     "with darker patches. It has red eyes with white pupils, pointed, ear-like "
