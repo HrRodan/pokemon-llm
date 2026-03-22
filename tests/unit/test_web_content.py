@@ -206,8 +206,9 @@ class TestFetchPageAsMarkdownTool:
         assert "---" not in result.markdown  # YAML header should not be in the result object
         assert len(result.markdown) > 0
 
+        from utils.config import settings
         # Verify the file was saved with the YAML header
-        save_dir = Path("data/web_scraper")
+        save_dir = Path(settings.WEB_SCRAPER_DIR)
         safe_title = "Test_Page_Title"
         filepath = save_dir / f"{safe_title}.md"
         assert filepath.exists()

@@ -18,6 +18,7 @@ from pydantic import BaseModel, Field
 from scrapling.fetchers import Fetcher, StealthyFetcher
 
 from ai_tools.tool_definition import tool
+from utils.config import settings
 
 logger = logging.getLogger(__name__)
 
@@ -307,7 +308,7 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
         if not safe_title:
             safe_title = "untitled"
         
-        save_dir = Path("data/web_scraper")
+        save_dir = Path(settings.WEB_SCRAPER_DIR)
         save_dir.mkdir(parents=True, exist_ok=True)
         
         filepath = save_dir / f"{safe_title}.md"

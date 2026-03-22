@@ -29,11 +29,12 @@ class Settings(BaseSettings):
 
     # Model Configuration
     DEFAULT_MODEL: str = Field(
-        default="openrouter/google/gemini-3.1-flash-lite-preview",
+        default="openrouter/xiaomi/mimo-v2-flash",
         description="Default LLM model to use",
     )
     SUB_AGENT_MODEL: str = Field(
-        default="openrouter/openai/gpt-oss-20b",
+        #default="openrouter/openai/gpt-oss-20b",
+        default="openrouter/qwen/qwen3.5-9b",
         description="Default model for sub-agents",
     )
     EMBEDDING_MODEL: str = Field(
@@ -46,6 +47,7 @@ class Settings(BaseSettings):
     DATA_RAW_DIR: str = os.path.join(PROJECT_ROOT, "data/raw")
     VECTOR_DB_DIR: str = os.path.join(PROJECT_ROOT, "data/vector_db")
     TECH_DB_PATH: str = os.path.join(PROJECT_ROOT, "data/tech_db/tech.db")
+    WEB_SCRAPER_DIR: str = os.path.join(PROJECT_ROOT, "data/web_scraper")
 
     # UI — models available in the dropdown
     ALLOWED_MODELS: List[str] = Field(
@@ -58,6 +60,7 @@ class Settings(BaseSettings):
             "openrouter/xiaomi/mimo-v2-flash:free",
             "openrouter/x-ai/grok-4.1-fast",
             "openrouter/nvidia/nemotron-3-nano-30b-a3b",
+            "openrouter/xiaomi/mimo-v2-flash",
         ],
         description="Models available in the UI dropdown.",
     )

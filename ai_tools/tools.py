@@ -45,6 +45,7 @@ from .utils import (
     handle_tool_call,
     handle_tool_call_async,
     generate_short_id,
+    sanitize_tool_name,
 )
 from .pipeline import _Pipeline, _PipeableString, _PipeableQuery
 from .multimodal import MultiModalMixin
@@ -273,10 +274,11 @@ class LLMQuery(MultiModalMixin):
                 self.logger.error(f"Message is None response={response}, retrying")
             raise ValueError(f"Message is None response={response}")
 
-        # A valid response must have either text content OR tool calls.
-        # An empty response with neither usually means the model ran out of
-        # tokens mid-generation or had a transient error.
-        if not message.content and not message.tool_calls:
+        # A valid response must have either text content, tool calls, OR reasoning.
+        # Reasoning is included because some providers/models put tool calls there
+        # or return only chain-of-thought before a continuation is needed.
+        reasoning, _ = self._extract_reasoning(message)
+        if not message.content and not message.tool_calls and not reasoning:
             if self.logger:
                 self.logger.error(
                     f"Response empty and no tool calls found response={response}, retrying"
@@ -289,148 +291,130 @@ class LLMQuery(MultiModalMixin):
 
     def _parse_xml_tool_calls(self, content: str) -> List[Dict[str, Any]]:
         """
-        Parse XML-formatted tool calls embedded in message content.
+        Parse XML-formatted and token-based tool calls embedded in message content.
 
-        Handles two distinct XML formats emitted by different models:
+        Handles several distinct formats emitted by different models:
 
-        **Format 1 — Standard ``<invoke>`` (most OpenRouter models):**
+        **Format 1 — Standard ``<invoke>``:**
+        Can be inside ``<function_calls>`` or standalone.
+        ``<invoke name="get_weather">{"city": "Berlin"}</invoke>``
 
-        .. code-block:: xml
+        **Format 2 — DeepSeek 3.2 ``<functioninvoke>``:**
+        Uses ``<parameter>`` tags for arguments.
 
-            <function_calls>
-              <invoke name="get_weather">
-                {"city": "Berlin"}
-              </invoke>
-            </function_calls>
+        **Format 3 — Token-based (Qwen/OpenRouter fallback):**
+        ``to=functions.get_weather json<|message|>{"city": "Berlin"}``
 
-        Arguments are a raw JSON string, optionally wrapped in a CDATA section.
+        **Format 4 — Call-prefix tags:**
+        ``<call:get_weather>{"city": "Berlin"}</call:get_weather>``
 
-        **Format 2 — DeepSeek 3.2 ``<functioninvoke>`` edge case:**
+        **Format 5 — Named tags (for known functions):**
+        ``<get_weather>{"city": "Berlin"}</get_weather>``
 
-        .. code-block:: xml
-
-            <functioninvoke name="run_api_agent">
-              <parameter name="query" string="true">Get base stats</parameter>
-            </functioninvoke>
-
-        Arguments are expressed as ``<parameter>`` child elements that are
-        collected into a dict and serialised to JSON.
-
-        Note: Regex-based XML parsing is intentional — model-generated XML is
-        often malformed, and a strict XML parser would raise rather than salvage
-        the tool call.  Regex is more lenient at the cost of precision.
+        Regex-based parsing is used to salvage malformed or partial XML.
 
         Args:
             content: The raw text content of the assistant message.
 
         Returns:
-            List of tool-call dicts in the same shape as native tool calls.
-            Empty list if no XML tool calls are found.
+            List of tool-call dicts.
         """
         tool_calls = []
+        seen_segments = set()  # prevent double-parsing the same content
 
-        # ----------------------------------------------------------------
-        # Path 1: Standard <function_calls><invoke> format
-        # ----------------------------------------------------------------
-
-        # Match the outer wrapper — re.DOTALL so newlines are included
-        function_calls_match = re.search(
-            r"<function_calls>(.*?)</function_calls>", content, re.DOTALL
-        )
-
-        if function_calls_match:
-            function_calls_content = function_calls_match.group(1)
-
-            # Each <invoke name="fn_name">arguments</invoke> is one tool call
-            invoke_matches = re.finditer(
-                r"<invoke(.*?)>(.*?)</invoke>",
-                function_calls_content,
-                re.DOTALL,
+        def add_call(name: str, args: str, segment: str):
+            if segment in seen_segments:
+                return
+            seen_segments.add(segment)
+            tool_calls.append(
+                {
+                    "id": f"call_via_content_{generate_short_id()}",
+                    "type": "function",
+                    "function": {"name": sanitize_tool_name(name), "arguments": args},
+                }
             )
 
-            for match in invoke_matches:
-                attrs = match.group(1).strip()
-                arguments_str = match.group(2).strip()
-
-                # Extract the function name, supporting single and double quotes
-                name_match = re.search(r'name=["\']([^"\']+)["\']', attrs)
-                if name_match:
-                    function_name = name_match.group(1)
-                else:
-                    # Fallback: trigger a named error in handle_tool_call so
-                    # the model receives a descriptive failure rather than a crash
-                    function_name = "error_missing_function_name"
-
-                # Strip CDATA wrapper if present — used when arguments contain
-                # characters that would break XML parsing (e.g. < > & quotes)
-                # CDATA format: <![CDATA[...]]>  (9 chars opening, 3 closing)
-                if arguments_str.startswith("<![CDATA[") and arguments_str.endswith(
-                    "]]>"
-                ):
-                    arguments_str = arguments_str[9:-3].strip()
-
-                tool_calls.append(
-                    {
-                        "id": f"call_via_content_{generate_short_id()}",
-                        "type": "function",
-                        "function": {"name": function_name, "arguments": arguments_str},
-                    }
-                )
+        # ----------------------------------------------------------------
+        # Path 1: <invoke> tags (standard and standalone)
+        # ----------------------------------------------------------------
+        invoke_matches = re.finditer(
+            r"<invoke([^>]*)>(.*?)</invoke>",
+            content,
+            re.DOTALL,
+        )
+        for match in invoke_matches:
+            attrs = match.group(1).strip()
+            args_str = match.group(2).strip()
+            name_match = re.search(r'name=["\']([^"\']+)["\']', attrs)
+            fn_name = name_match.group(1) if name_match else "error_missing_function_name"
+            
+            if args_str.startswith("<![CDATA[") and args_str.endswith("]]>"):
+                args_str = args_str[9:-3].strip()
+            
+            add_call(fn_name, args_str, match.group(0))
 
         # ----------------------------------------------------------------
         # Path 2: DeepSeek 3.2 <functioninvoke> format
-        # Arguments are <parameter> child elements, not a JSON string.
-        # The closing tag varies across model versions — all three are covered.
         # ----------------------------------------------------------------
-
         function_invoke_matches = re.finditer(
             r"<functioninvoke([^>]*)>(.*?)</(?:parameterinvoke|functioninvoke|invoke)>",
             content,
             re.DOTALL | re.IGNORECASE,
         )
-
         for match in function_invoke_matches:
             attrs = match.group(1).strip()
-            inner_content = match.group(2).strip()
-
-            # Extract function name from the opening tag's attributes
+            inner = match.group(2).strip()
             name_match = re.search(r'name=["\']([^"\']+)["\']', attrs)
-            if name_match:
-                function_name = name_match.group(1)
-            else:
-                function_name = "error_missing_function_name"
+            fn_name = name_match.group(1) if name_match else "error_missing_function_name"
 
-            # Collect <parameter name="key">value</parameter> pairs into a dict.
-            # The closing </parameter> is optional — some DeepSeek responses omit it,
-            # so we allow the pattern to match up to end-of-string as fallback.
             args: Dict[str, Any] = {}
             param_matches = re.finditer(
                 r'<parameter\s+name=["\']([^"\']+)["\'][^>]*>(.*?)(?:</parameter>|$)',
-                inner_content,
+                inner,
                 re.DOTALL | re.IGNORECASE,
             )
-
             for p_match in param_matches:
-                param_name = p_match.group(1)
-                param_value = p_match.group(2).strip()
-                args[param_name] = param_value
+                args[p_match.group(1)] = p_match.group(2).strip()
 
-            if args:
-                # Serialise the collected parameters so handle_tool_call can
-                # parse them uniformly alongside native JSON arguments
-                arguments_str = json.dumps(args)
-            else:
-                # No <parameter> tags found — fall back to raw inner content
-                # (may be a plain JSON string or freeform text)
-                arguments_str = inner_content
+            args_str = json.dumps(args) if args else inner
+            add_call(fn_name, args_str, match.group(0))
 
-            tool_calls.append(
-                {
-                    "id": f"call_via_content_{generate_short_id()}",
-                    "type": "function",
-                    "function": {"name": function_name, "arguments": arguments_str},
-                }
-            )
+        # ----------------------------------------------------------------
+        # Path 3: Token-based (to=functions.NAME json<|message|>ARGS)
+        # ----------------------------------------------------------------
+        token_matches = re.finditer(
+            r"to=functions\.([a-zA-Z0-9_<|>-]+).*?<\|message\|>(.*?)(?=<\||\n\s*\n|$)",
+            content,
+            re.DOTALL
+        )
+        for match in token_matches:
+            add_call(match.group(1), match.group(2).strip(), match.group(0))
+
+        # ----------------------------------------------------------------
+        # Path 4: Call-prefix tags (<call:NAME>ARGS</call:NAME>)
+        # ----------------------------------------------------------------
+        call_prefix_matches = re.finditer(
+            r"<call:([a-zA-Z0-9_-]+)>(.*?)</call:\1>",
+            content,
+            re.DOTALL
+        )
+        for match in call_prefix_matches:
+            add_call(match.group(1), match.group(2).strip(), match.group(0))
+
+        # ----------------------------------------------------------------
+        # Path 5: Named tags (<FUNCTION_NAME>ARGS</FUNCTION_NAME>)
+        # ----------------------------------------------------------------
+        if hasattr(self, "functions") and self.functions:
+            for fn in self.functions:
+                name = fn.__name__
+                # We use a non-greedy match for the content
+                tag_matches = re.finditer(
+                    f"<{name}([^>]*)>(.*?)</{name}>",
+                    content,
+                    re.DOTALL
+                )
+                for match in tag_matches:
+                    add_call(name, match.group(2).strip(), match.group(0))
 
         return tool_calls
 
@@ -745,8 +729,9 @@ class LLMQuery(MultiModalMixin):
             tc["id"] = self._sanitize_tool_id(tc.get("id"))
             if not tc.get("function"):
                 tc["function"] = {"name": "unknown_function", "arguments": "{}"}
-            elif not tc["function"].get("name"):
-                tc["function"]["name"] = "unknown_function"
+            
+            # Sanitize the function name to remove LLM-specific tokens
+            tc["function"]["name"] = sanitize_tool_name(tc["function"].get("name"))
 
         return calls
 

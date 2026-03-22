@@ -24,8 +24,10 @@ def test_tokenizer_comparison():
     except Exception as e:
         print(f"Failed to load cl100k_base tokenizer: {e}")
         chunker_token = None
-    
-    files = glob.glob("data/web_scraper/*.md")
+
+    import os
+    from utils.config import settings
+    files = glob.glob(os.path.join(settings.WEB_SCRAPER_DIR, "*.md"))
     if not files:
         print("No files found!")
         return

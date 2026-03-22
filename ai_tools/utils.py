@@ -103,6 +103,48 @@ def clean_json(text: str) -> str:
     return cleaned_text.strip()
 
 
+def sanitize_tool_name(name: Optional[str]) -> str:
+    """
+    Return a sanitised version of a tool call name.
+
+    Some providers (especially with OpenRouter and specific model formats)
+    may accidentally include special tokens, suffixes, or 'functions.'
+    prefix in the tool call name. This strips them.
+
+    Args:
+        name: Raw tool name from the API or XML parser.
+
+    Returns:
+        str: A clean string containing only the core tool name.
+    """
+    if not name:
+        return "unknown_function"
+
+    # 1. Strip everything from '<' onwards — removes "<|channel|>commentary" etc.
+    name = name.split("<")[0]
+
+    # 2. Strip everything from '|' onwards — fallback for incomplete tokens
+    name = name.split("|")[0]
+
+    # 3. Strip everything from '(' onwards — removes model hallucinated calls like "fn(arg)"
+    name = name.split("(")[0]
+
+    # 4. Remove common prefixes like "functions." or "function."
+    if name.startswith("functions."):
+        name = name[len("functions.") :]
+    elif name.startswith("function."):
+        name = name[len("function.") :]
+
+    # 5. Remove common model-specific suffixes — e.g. "func_namecommentary"
+    # We only do this if the name is long and ends exactly with these words.
+    for suffix in ["commentary", "analysis", "thought", "call"]:
+        if name.endswith(suffix) and name != suffix:
+            name = name[: -len(suffix)]
+
+    # Finally, clean any remaining whitespace
+    return name.strip()
+
+
 def handle_tool_call(
     tool_calls: List[Dict[str, Any]],
     functions: List[Callable],
@@ -154,7 +196,8 @@ def handle_tool_call(
 
     for tool_call in tool_calls:
         tool_id = tool_call.get("id", "unknown_id")
-        function_name = tool_call.get("function", {}).get("name", "unknown_function")
+        raw_name = tool_call.get("function", {}).get("name", "unknown_function")
+        function_name = sanitize_tool_name(raw_name)
         arguments_str = tool_call.get("function", {}).get("arguments", "")
         arguments = {}
 
