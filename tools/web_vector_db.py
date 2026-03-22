@@ -222,11 +222,16 @@ def ingest_web_page(args: IngestWebPageArgs) -> str:
 
     # 6. Run Chonkie chunker
     try:
-        chunker = RecursiveChunker.from_recipe("markdown", lang="en", chunk_size=1024)
+        chunker = RecursiveChunker.from_recipe(
+            "markdown", 
+            lang="en", 
+            chunk_size=512, 
+            tokenizer="cl100k_base"
+        )
         chunks = chunker(clean_markdown)
         
         # Add overlap
-        refinery = OverlapRefinery(context_size=256)
+        refinery = OverlapRefinery(context_size=128)
         chunks = refinery(chunks)
     except Exception as e:
         logger.error("Chunking failed for %s: %s", args.url, e)

@@ -99,8 +99,61 @@ _MAIN_CONTENT_SELECTORS = [
     "#bodyContent",            # Wikipedia
 ]
 
-# Tags to strip when falling back to <body>
-_BOILERPLATE_TAGS = ["nav", "header", "footer", "aside", "script", "style", "noscript"]
+# Elements to strip from the extracted content to reduce noise and token usage
+_NOISY_ELEMENTS = [
+    # Standard boilerplate tags
+    "nav", "header", "footer", "aside", "script", "style", "noscript",
+    # Wiki / generic noisy classes and IDs
+    ".toc", "#toc",                   # Tables of contents
+    ".mw-editsection",                # [edit] links
+    ".reference", "sup.reference",    # [1], [2] superscript references
+    ".reflist", ".references",        # Reference lists at the bottom
+    ".navbox",                        # Navigation boxes at the bottom
+    ".mw-jump-link",                  # "Jump to navigation" links
+    ".catlinks", "#catlinks",         # Categories at the bottom
+    "#siteNotice",                    # Site notices
+    ".metadata", ".ambox",            # Article message boxes (e.g. "needs citations")
+    ".printfooter",                   # Print footers
+]
+
+def _prune_noisy_elements(elements: list) -> str:
+    """
+    Remove noisy elements from a list of Scrapling Selector elements,
+    flatten layout tables, and return their combined, cleaned HTML.
+    """
+    for el in elements:
+        # Remove explicitly noisy classes/IDs
+        for selector in _NOISY_ELEMENTS:
+            for noisy_el in el.css(selector):
+                lxml_el = noisy_el._root
+                parent = lxml_el.getparent()
+                if parent is not None:
+                    parent.remove(lxml_el)
+                    
+        # Remove images entirely to save tokens
+        for img_el in el.css("img"):
+            lxml_el = img_el._root
+            parent = lxml_el.getparent()
+            if parent is not None:
+                parent.remove(lxml_el)
+                
+        # Drop <a> tags but retain their text
+        for a_el in el.css("a"):
+            lxml_el = a_el._root
+            lxml_el.drop_tag()
+            
+        # Unwrap single-cell layout tables to prevent markdown rendering issues
+        # and unnecessary token overhead. MediaWiki platforms frequently wrap 
+        # textual elements in layout tables.
+        for table_el in el.css("table"):
+            lxml_table = table_el._root
+            cells = lxml_table.xpath(".//td | .//th")
+            if len(cells) <= 1:
+                lxml_table.drop_tag()
+                for wrapper in lxml_table.xpath(".//tbody | .//thead | .//tfoot | .//tr | .//td | .//th"):
+                    wrapper.drop_tag()
+    
+    return "".join(el.html_content for el in elements)
 
 
 def _extract_title(page) -> str:
@@ -127,14 +180,15 @@ def _extract_main_html(page, css_selector: str | None = None) -> str:
     Strategy:
     1. Explicit selector — if provided, use it directly.
     2. Semantic auto-detect — try selectors in priority order.
-    3. Fallback — use body with boilerplate tags removed.
+    3. Fallback — use body.
+    In all cases, we strip out boilerplate and noisy elements to minimize token size.
     """
     # 1. Explicit selector
     if css_selector:
         elements = page.css(css_selector)
         if elements:
             logger.info("Extracted content using explicit selector: %s", css_selector)
-            return "".join(el.html_content for el in elements)
+            return _prune_noisy_elements(elements)
         logger.warning(
             "Explicit selector %r matched nothing, falling back to auto-detect",
             css_selector,
@@ -145,25 +199,15 @@ def _extract_main_html(page, css_selector: str | None = None) -> str:
         elements = page.css(selector)
         if elements:
             logger.info("Auto-detected content using selector: %s", selector)
-            return "".join(el.html_content for el in elements)
+            return _prune_noisy_elements(elements)
 
-    # 3. Fallback — use body, strip boilerplate
+    # 3. Fallback — use body
     logger.info("No semantic content element found, falling back to cleaned <body>")
     body = page.css("body")
     if not body:
         return page.html_content
 
-    body_el = body[0]
-    # Remove boilerplate elements via lxml's native API.
-    # Scrapling's Selector wraps lxml HtmlElement in `_root`.
-    for tag in _BOILERPLATE_TAGS:
-        for el in body_el.css(tag):
-            lxml_el = el._root
-            parent = lxml_el.getparent()
-            if parent is not None:
-                parent.remove(lxml_el)
-
-    return body_el.html_content
+    return _prune_noisy_elements(body)
 
 
 # ---------------------------------------------------------------------------
@@ -219,7 +263,23 @@ def fetch_page_as_markdown(args: FetchPageInput) -> str:
 
     # Convert HTML to Markdown
     try:
-        markdown = html_to_md(main_html, options=ConversionOptions(br_in_tables=True))
+        # We do not preserve raw HTML tags as user requested strictly markdown.
+        markdown = html_to_md(
+            main_html, 
+            options=ConversionOptions(
+                br_in_tables=True, 
+                skip_images=True
+            )
+        )
+        
+        # Clean up excessive blank lines (more than 2 consecutive newlines)
+        markdown = re.sub(r'\n{3,}', '\n\n', markdown)
+        
+        # Clean up completely empty markdown table rows (e.g., `| | |`)
+        markdown = re.sub(r'^(?:\|\s*)+\|$', '', markdown, flags=re.MULTILINE)
+        
+        # Clean up remaining <br> tags sometimes emitted
+        markdown = re.sub(r'(?i)<br\s*/?>', ' ', markdown)
     except Exception as e:
         logger.error("Markdown conversion failed for %s: %s", args.url, e)
         result = PageMarkdownResult(

@@ -46,6 +46,7 @@ class TestPageMarkdownResult:
             url="https://example.com",
             title="Example",
             markdown="# Hello\n\nWorld",
+            timestamp="2026-03-22T00:00:00Z",
         )
         assert result.error is None
 
@@ -55,12 +56,13 @@ class TestPageMarkdownResult:
             title="",
             markdown="",
             error="Fetch failed: timeout",
+            timestamp="2026-03-22T00:00:00Z",
         )
         assert result.error is not None
 
     def test_serialization_roundtrip(self):
         result = PageMarkdownResult(
-            url="https://example.com", title="T", markdown="# M"
+            url="https://example.com", title="T", markdown="# M", timestamp="2026-03-22T00:00:00Z"
         )
         data = json.loads(result.model_dump_json())
         reconstructed = PageMarkdownResult(**data)
