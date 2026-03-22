@@ -13,10 +13,10 @@ import hashlib
 import logging
 import re
 from datetime import datetime, timezone, timedelta
-from typing import Optional
+
 
 import chromadb
-from chonkie import Pipeline
+from chonkie import RecursiveChunker, OverlapRefinery
 from pydantic import BaseModel, Field
 
 from ai_tools.tool_definition import tool
@@ -127,18 +127,8 @@ def delete_url_chunks(collection: "chromadb.Collection", url: str) -> int:
 
 
 # ---------------------------------------------------------------------------
-# Chonkie pipeline (chunking only — no store, no embedding refinery)
+# Chonkie chunker configuration
 # ---------------------------------------------------------------------------
-
-
-def _build_chunking_pipeline() -> Pipeline:
-    """Build a Chonkie CHOMP pipeline for markdown-aware chunking."""
-    return (
-        Pipeline()
-        .process_with("markdown")
-        .chunk_with("recursive", chunk_size=2048)
-        .refine_with("overlap", context_size=512)
-    )
 
 
 # ---------------------------------------------------------------------------
@@ -230,15 +220,18 @@ def ingest_web_page(args: IngestWebPageArgs) -> str:
     if deleted:
         logger.info("Deleted %d stale chunks for %s", deleted, args.url)
 
-    # 6. Run Chonkie pipeline (chunking only)
+    # 6. Run Chonkie chunker
     try:
-        pipeline = _build_chunking_pipeline()
-        doc = pipeline.run(texts=clean_markdown)
+        chunker = RecursiveChunker.from_recipe("markdown", lang="en", chunk_size=1024)
+        chunks = chunker(clean_markdown)
+        
+        # Add overlap
+        refinery = OverlapRefinery(context_size=256)
+        chunks = refinery(chunks)
     except Exception as e:
         logger.error("Chunking failed for %s: %s", args.url, e)
         return f"Error: Chunking failed for {args.url}: {e}"
 
-    chunks = doc.chunks
     if not chunks:
         return f"Error: No chunks produced from {args.url}"
 
