@@ -25,9 +25,7 @@ def bulbapedia_search(args: BulbapediaSearchInput) -> str:
     """Search Bulbapedia (Pokémon wiki) for the given query and return a list of matching URLs."""
     # Use the DuckDuckGo search tool but with a strict site restriction
     ddg_input = DuckDuckGoSearchInput(
-        query=args.query,
-        site_restrict="bulbapedia.bulbagarden.net",
-        max_results=10
+        query=args.query, site_restrict="bulbapedia.bulbagarden.net", max_results=10
     )
     return duckduckgo_search(ddg_input)
 
@@ -49,7 +47,8 @@ def bulbapedia_ingest_page(args: BulbapediaIngestInput) -> str:
 class BulbapediaQueryInput(BaseModel):
     query: str = Field(description="The semantic query string to search for.")
     filter_url: Optional[str] = Field(
-        default=None, description="**Optional** exact URL to filter results by. Leave empty if you want to search all ingested pages (default)."
+        default=None,
+        description="**Optional** exact URL to filter results by. Leave empty if you want to search all ingested pages (default).",
     )
 
 
@@ -72,15 +71,16 @@ Your goal is to answer questions by searching Bulbapedia, downloading relevant p
 **Strict Execution Loop (MUST FOLLOW):**
 - **Step 1:** Use `bulbapedia_search` to find the 1 or 2 most relevant URLs. Search for **at most 5 times** per user query.
 - **Step 2:** Use `bulbapedia_ingest_page` to download the chosen URL. (CONSTRAINT: Do not ingest more than 2 websites per user query).
-- **Step 3:** Use `bulbapedia_query_content` to find the exact paragraph answering the user's query. Exact URL is optional.
+- **Step 3:** Use `bulbapedia_query_content` to find the exact paragraph answering the user's query. Exact URL is optional and should typically be omitted to search full database.
 
 **Refinement Strategy:**
 - If `bulbapedia_query_content` does not initially yield the correct answer, you MUST **refine your semantic query** for `bulbapedia_query_content` using different keywords, rather than immediately firing another `bulbapedia_search` to download a new page. Only search for a new page if you are certain the detail isn't on the ingested page.
 
 **Restrictions:**
-- Do not ingest more than 2 websites per search.
-- Do not search for more than 5 times per user query.
-- Stop searching if you cannot find the answer after 5 searches and say so.
+- Ingest **no more than 2** websites per search.
+- Search for **no more than 6 times** per user query.
+- Stop searching if you cannot find the answer after 6 searches and say so.
+- You must **always** return a response or a tool call.
 
 **Directness & Context:**
 - Answer **exclusively** using the data retrieved via `bulbapedia_query_content`. Do NOT answer based on your general pre-trained knowledge (anti-hallucination).

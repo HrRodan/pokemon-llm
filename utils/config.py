@@ -33,8 +33,9 @@ class Settings(BaseSettings):
         description="Default LLM model to use",
     )
     SUB_AGENT_MODEL: str = Field(
-        #default="openrouter/openai/gpt-oss-20b",
-        default="openrouter/qwen/qwen3.5-9b",
+        # default="openrouter/openai/gpt-oss-20b",
+        # default="openrouter/qwen/qwen3.5-9b",
+        default="openrouter/mistralai/mistral-small-2603",
         description="Default model for sub-agents",
     )
     EMBEDDING_MODEL: str = Field(

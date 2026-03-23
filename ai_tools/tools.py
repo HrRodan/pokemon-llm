@@ -274,17 +274,18 @@ class LLMQuery(MultiModalMixin):
                 self.logger.error(f"Message is None response={response}, retrying")
             raise ValueError(f"Message is None response={response}")
 
-        # A valid response must have either text content, tool calls, OR reasoning.
-        # Reasoning is included because some providers/models put tool calls there
-        # or return only chain-of-thought before a continuation is needed.
+        # A valid response must have either text content, tool calls, or reasoning.
+        # We check for reasoning here to avoid retrying when the model is just "thinking"
+        # but hasn't emitted a final response yet.
         reasoning, _ = self._extract_reasoning(message)
+        
         if not message.content and not message.tool_calls and not reasoning:
             if self.logger:
                 self.logger.error(
-                    f"Response empty and no tool calls found response={response}, retrying"
+                    f"Response empty and no tool calls or reasoning found response={response}, retrying"
                 )
             raise ValueError(
-                f"Response empty and no tool calls found response={response}"
+                f"Response empty and no tool calls or reasoning found response={response}"
             )
 
         return response
@@ -759,8 +760,13 @@ class LLMQuery(MultiModalMixin):
 
         if content:
             self.logger.debug(f"🧠 LLM RESPONSE: {trunc(content)}")
+        
         if reasoning:
-            self.logger.debug(f"💭 REASONING: {trunc(str(reasoning))}")
+            if not content and not tool_calls:
+                # Reasoning-only turn: log at INFO for easier debugging
+                self.logger.info(f"💭 REASONING (ONLY): {trunc(str(reasoning))}")
+            else:
+                self.logger.debug(f"💭 REASONING: {trunc(str(reasoning))}")
 
         for tc in tool_calls:
             name = tc.get("function", {}).get("name", "?")
@@ -780,6 +786,7 @@ class LLMQuery(MultiModalMixin):
         response_content: Optional[str],
         tool_calls: Optional[List[Dict]] = None,
         thought_signature: Optional[str] = None,
+        reasoning: Optional[str] = None,
     ) -> None:
         """
         Append the user prompt and assistant response to ``self.chat_history``.
@@ -789,6 +796,7 @@ class LLMQuery(MultiModalMixin):
             response_content: The assistant's text response.
             tool_calls: Any tool calls made by the assistant.
             thought_signature: Gemini-specific thought signature for multi-turn reasoning.
+            reasoning: Chain-of-thought reasoning text.
         """
         if user_prompt is not None:
             if isinstance(user_prompt, list):
@@ -804,6 +812,11 @@ class LLMQuery(MultiModalMixin):
             assistant_msg["tool_calls"] = tool_calls
         if thought_signature:
             assistant_msg["thought_signature"] = thought_signature
+        
+        # Only include reasoning in history if it's the ONLY thing provided.
+        # This allows continuation without bloating history with redundant CoT.
+        if reasoning and not response_content and not tool_calls:
+            assistant_msg["reasoning"] = reasoning
 
         self.chat_history.append(assistant_msg)
 
@@ -818,6 +831,7 @@ class LLMQuery(MultiModalMixin):
         tools: Optional[List[Dict]] = None,
         tool_choice: Optional[Union[str, Dict]] = None,
         history_limit: Optional[int] = None,
+        _recursion_depth: int = 0,
         **kwargs,
     ) -> str:
         """
@@ -866,6 +880,7 @@ class LLMQuery(MultiModalMixin):
                 or a specific-function dict). Overrides ``self.tool_choice``.
             history_limit: Limit the number of history entries included (uses
                 the *last N* entries). ``None`` means include all history.
+            _recursion_depth: Internal counter for re-querying on reasoning-only turns.
             **kwargs: Any extra keyword arguments are forwarded verbatim to the
                 underlying ``client.chat.completions.create()`` call.
 
@@ -942,7 +957,26 @@ class LLMQuery(MultiModalMixin):
             content,
             self.tool_calls if self.tool_calls else None,
             thought_signature=thought_signature,
+            reasoning=reasoning,
         )
+
+        # Handle reasoning-only response by re-querying (max 3 attempts)
+        if not content and not self.tool_calls and reasoning and _recursion_depth < 3:
+            if self.logger:
+                self.logger.info("Reasoning-only response received; re-querying for content...")
+            return self.query(
+                user_prompt=None,
+                model=cfg["model"],
+                use_history=True,
+                display_output=display_output,
+                json_format=cfg["json_format"],
+                reasoning_effort=cfg["reasoning_effort"],
+                tools=cfg["tools"],
+                tool_choice=cfg["tool_choice"],
+                history_limit=cfg["history_limit"],
+                _recursion_depth=_recursion_depth + 1,
+                **kwargs,
+            )
 
         if display_output:
             self.display_response()
