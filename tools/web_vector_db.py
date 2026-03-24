@@ -12,6 +12,7 @@ using Chonkie CHOMP Pipeline for markdown-aware chunking, and the project's
 import hashlib
 import logging
 import re
+import threading
 from datetime import datetime, timezone, timedelta
 
 
@@ -32,25 +33,32 @@ logging.getLogger("chonkie").setLevel(logging.ERROR)
 # ---------------------------------------------------------------------------
 
 _embedding_client: "LLMQuery | None" = None
+_chroma_client: "chromadb.PersistentClient | None" = None
 _collection: "chromadb.Collection | None" = None
+_db_lock = threading.Lock()
 
 
 def _get_embedding_client() -> "LLMQuery":
     """Return (and lazily create) the shared embedding LLMQuery instance."""
     global _embedding_client
     if _embedding_client is None:
-        _embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
+        with _db_lock:
+            if _embedding_client is None:
+                _embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
     return _embedding_client
 
 
 def _get_collection() -> "chromadb.Collection":
     """Return (and lazily create) the shared ChromaDB collection."""
-    global _collection
+    global _chroma_client, _collection
     if _collection is None:
-        chroma_client = chromadb.PersistentClient(path=settings.VECTOR_DB_DIR)
-        _collection = chroma_client.get_or_create_collection(
-            name="pokemon_web_content"
-        )
+        with _db_lock:
+            if _collection is None:
+                # Explicitly keeping client in scope avoids "tenant" errors in multithreaded apps
+                _chroma_client = chromadb.PersistentClient(path=settings.VECTOR_DB_DIR)
+                _collection = _chroma_client.get_or_create_collection(
+                    name="pokemon_web_content"
+                )
     return _collection
 
 

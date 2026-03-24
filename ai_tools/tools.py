@@ -965,7 +965,7 @@ class LLMQuery(MultiModalMixin):
             if self.logger:
                 self.logger.info("Reasoning-only response received; re-querying for content...")
             return self.query(
-                user_prompt=None,
+                user_prompt="Answer the original user question",
                 model=cfg["model"],
                 use_history=True,
                 display_output=display_output,
