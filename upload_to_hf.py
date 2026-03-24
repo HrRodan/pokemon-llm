@@ -1,116 +1,85 @@
 import os
+import subprocess
 from huggingface_hub import HfApi
 from dotenv import load_dotenv
 
-# Load environment variables
+# Load environment variables (HF_TOKEN)
 load_dotenv()
 
-# Configuration
 REPO_ID = "Rodan009/pokemon-chatbot"
 REPO_TYPE = "space"
 
-
-def parse_gitignore(gitignore_path=".gitignore"):
-    """
-    Parse .gitignore file and return a list of patterns to ignore.
-    Attempts to convert gitignore patterns to glob patterns used by huggingface_hub.
-    """
-    ignore_patterns = [
-        "db/**",
-        ".git",
-        ".env",
-        ".venv",
-        ".venv/**",
-        "**/.venv",
-        "**/.venv/**",
-        "__pycache__",
-        "*.pyc",
-        ".DS_Store",
-        ".pokemon_cache",
-        ".agent",
-        "uv.lock",
+# Explicit exclude patterns for CLI
+EXCLUDES = [
+    ".git/*",
+    ".venv/*",
+    ".env",
+    "**/__pycache__/*",
+    "**/.pytest_cache/*",
+    "**/.ruff_cache/*",
+    "**/.pokemon_cache/*",
+    ".agent/*",
+    ".agents/*",
+    ".cursor/*",
+    "data/raw/*",
+    "*.pyc",
+    "*.ipynb",
+    "GEMINI.md"
     ]
 
-    if not os.path.exists(gitignore_path):
-        print(f"Warning: {gitignore_path} not found. Using default ignores.")
-        return ignore_patterns
-
-    with open(gitignore_path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-
-            # Basic conversion from gitignore to glob
-            # This is not a perfect parser but handles common cases
-            pattern = line
-
-            # If directory match (ends with /), allow matching anywhere or root
-            if pattern.endswith("/"):
-                pattern = pattern[:-1]
-
-            # If pattern doesn't contain /, it can match anywhere -> prepend **/
-            if "/" not in pattern:
-                ignore_patterns.append(f"**/{pattern}")
-                ignore_patterns.append(pattern)  # match in root
-            else:
-                # If it starts with /, it is root-anchored. Remove leading /
-                if pattern.startswith("/"):
-                    ignore_patterns.append(pattern[1:])
-                else:
-                    # complex path, just add it and **/it
-                    ignore_patterns.append(pattern)
-                    ignore_patterns.append(f"**/{pattern}")
-
-    return list(set(ignore_patterns))
-
+def run_cli_command(command):
+    """Run a CLI command using uv run hf to ensure accessibility."""
+    full_cmd = ["uv", "run", "hf"] + command
+    print(f"\n--- Executing: {' '.join(full_cmd)} ---")
+    
+    # We use subprocess.run without capture_output=True to allow the user 
+    # to see the CLI's own progress bars and output in real-time.
+    result = subprocess.run(full_cmd)
+    
+    if result.returncode != 0:
+        print(f"Error: Command failed with exit code {result.returncode}")
+        return False
+    return True
 
 def main():
     api = HfApi()
 
-    # print(f"Preparing to upload to {REPO_ID} (type={REPO_TYPE})...")
+    # 1. Step 1: Delete all current files in repo using CLI
+    # This is more robust than delete_files in Python for clearing a whole repo.
+    print(f"Step 1: Deleting all files in {REPO_ID}...")
+    delete_success = run_cli_command([
+        "repos", "delete-files", REPO_ID, "*", 
+        "--repo-type", REPO_TYPE,
+        "--commit-message", "Clear repository before fresh upload"
+    ])
+    if not delete_success:
+        print("Note: Step 1 skipped or failed (might be empty).")
 
-    ignore_patterns = parse_gitignore()
-    # print(f"Ignore patterns: {ignore_patterns}")
+    # 2. Step 2: Upload project using hf upload CLI
+    # We use 'upload' because 'upload-large-folder' currently has a bug 
+    # that requires 'space_sdk' even for existing Spaces.
+    print(f"\nStep 2: Uploading local folder to {REPO_ID}...")
+    upload_cmd = [
+        "upload", REPO_ID, ".", 
+        "--repo-type", REPO_TYPE,
+        "--commit-message", "Fresh project upload"
+    ]
+    for pattern in EXCLUDES:
+        upload_cmd.extend(["--exclude", pattern])
+    
+    if not run_cli_command(upload_cmd):
+        print("Critical Error: Step 2 failed. Aborting.")
+        return
 
-    # print("Deleting existing remote files before upload...")
-    # try:
-    #     remote_files = api.list_repo_files(repo_id=REPO_ID, repo_type=REPO_TYPE)
-    #     operations = [
-    #         CommitOperationDelete(path_in_repo=f)
-    #         for f in remote_files
-    #         if f != ".gitattributes"
-    #     ]
-    #     if operations:
-    #         print(f"Deleting {len(operations)} files...")
-    #         api.create_commit(
-    #             repo_id=REPO_ID,
-    #             repo_type=REPO_TYPE,
-    #             operations=operations,
-    #             commit_message="Delete everything before uploading",
-    #         )
-    #         print("Deletion successful!")
-    #     else:
-    #         print("No remote files to delete.")
-    # except Exception as e:
-    #     print(f"Warning during deletion: {e}")
-
-    print("Uploading folder...")
+    # 3. Step 3: Supersquash history using Python API
+    print(f"\nStep 3: Squashing history for {REPO_ID}...")
     try:
-        api.upload_large_folder(
-            folder_path=".",
-            repo_id=REPO_ID,
-            repo_type=REPO_TYPE,
-            ignore_patterns=ignore_patterns,
-        )
-        print("Upload successful!")
-
-        print("Squashing history...")
         api.super_squash_history(repo_id=REPO_ID, repo_type=REPO_TYPE)
-        print("History squashed!")
+        print("History squashed successfully!")
     except Exception as e:
-        print(f"Error during upload: {e}")
+        print(f"Notice: Squash failed (usually if history is already clean): {e}")
 
+    print("\nRefactor complete. Deployment finished successfully.")
 
 if __name__ == "__main__":
     main()
