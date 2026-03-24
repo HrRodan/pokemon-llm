@@ -150,10 +150,10 @@ class IngestWebPageArgs(BaseModel):
         description="Use stealth browser mode for sites with anti-bot protection.",
     )
     max_age_days: int = Field(
-        default=7,
+        default=60,
         ge=1,
         le=365,
-        description="Maximum age in days before re-ingesting. Defaults to 7.",
+        description="Maximum age in days before re-ingesting. Defaults to 60.",
     )
 
 

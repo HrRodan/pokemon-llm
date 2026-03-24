@@ -117,6 +117,6 @@ class TechDataAgent(BaseAgent):
                 model_name=settings.SUB_AGENT_MODEL,
                 system_prompt=SYSTEM_PROMPT,
                 tools=TECH_DATA_FUNCTIONS + FUZZY_FUNCTIONS,
-                history_limit=40,
+                history_limit=80,
             )
         )

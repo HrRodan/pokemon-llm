@@ -1,0 +1,42 @@
+# Cache and metadata
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.agent/
+.agents/
+.gradio/
+.pokemon_cache/
+
+# Development environments
+.venv/
+venv/
+.env
+.python-version
+# uv.lock and pyproject.toml MUST be available to COPY
+# uv.lock
+# pyproject.toml
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+GEMINI.md
+
+# Large raw data
+data/raw/
+data/dataset/
+data/generate_data.ipynb
+data/generate_parquet.py
+data/upload_to_hugginface.ipynb
+
+# Local scripts and notebooks
+scripts/
+notebooks/
+tests/
+
+# Docker related
+Dockerfile
+.dockerignore

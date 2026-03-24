@@ -1,0 +1,64 @@
+# Use python:3.12-slim-trixie as base image
+FROM python:3.12-slim-trixie
+
+# Environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    HOME=/home/user \
+    PATH=/home/user/.local/bin:/app/.venv/bin:$PATH \
+    GRADIO_SERVER_NAME="0.0.0.0" \
+    GRADIO_SERVER_PORT=7860 \
+    # Ensure Playwright installs browsers in a location the user can access
+    PLAYWRIGHT_BROWSERS_PATH=/home/user/.cache/ms-playwright
+
+# Setup user and install system dependencies in one layer
+RUN useradd -m -u 1000 user && \
+    apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    git \
+    libnss3 \
+    libatk1.0-0 \
+    libatk-bridge2.0-0 \
+    libcups2 \
+    libdrm2 \
+    libxkbcommon0 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxext6 \
+    libxfixes3 \
+    libxrandr2 \
+    libgbm1 \
+    libpango-1.0-0 \
+    libcairo2 \
+    libasound2 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install uv from official binary
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# Set working directory and adjust ownership
+WORKDIR /app
+RUN chown user:user /app
+
+# Switch to non-root user
+USER user
+
+# 1. Copy ONLY dependency files for optimal layer caching
+COPY --chown=user pyproject.toml uv.lock ./
+
+# 2. Install dependencies, scrapling fetchers, and ONLY chromium
+# Combining these ensures they are cached together as the "environment" layer
+RUN uv sync --frozen --no-cache && \
+    uv pip install --no-cache "scrapling[fetchers]" && \
+    uv run python -m playwright install chromium
+
+# 3. Copy the application code LAST
+# This ensures that changing your Python code doesn't trigger a re-download of browsers or packages
+COPY --chown=user . .
+
+# Expose port 7860 for Gradio
+EXPOSE 7860
+
+# Run the application
+CMD ["uv", "run", "app.py"]
