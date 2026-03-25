@@ -1,7 +1,7 @@
-# Use python:3.12-slim-trixie as base image (identical to Dockerfile)
+# Use python:3.12-slim-trixie as base image
 FROM python:3.12-slim-trixie
 
-# Environment variables (EXACT MATCH with Dockerfile for layer sharing)
+# Environment variables (EXACT MATCH with Dockerfile.streamlit for layer sharing)
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     HOME=/home/user \
@@ -11,7 +11,7 @@ ENV PYTHONUNBUFFERED=1 \
     # Ensure Playwright installs browsers in a location the user can access
     PLAYWRIGHT_BROWSERS_PATH=/home/user/.cache/ms-playwright
 
-# Setup user and install system dependencies in one layer (identical to Dockerfile)
+# Setup user and install system dependencies in one layer
 RUN useradd -m -u 1000 user && \
     apt-get update && apt-get install -y --no-install-recommends \
     curl \
@@ -34,29 +34,29 @@ RUN useradd -m -u 1000 user && \
     libasound2 \
     && rm -rf /var/lib/apt/lists/*
 
-# Install uv from official binary (identical to Dockerfile)
+# Install uv from official binary
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Set working directory and adjust ownership (identical to Dockerfile)
+# Set working directory and adjust ownership
 WORKDIR /app
 RUN chown user:user /app
 
-# Switch to non-root user (identical to Dockerfile)
+# Switch to non-root user
 USER user
 
-# 1. Copy ONLY dependency files for optimal layer caching (identical to Dockerfile)
+# 1. Copy ONLY dependency files for optimal layer caching
 COPY --chown=user pyproject.toml uv.lock ./
 
-# 2. Install dependencies, scrapling fetchers, and ONLY chromium (identical to Dockerfile)
+# 2. Install dependencies, scrapling fetchers, and ONLY chromium
 RUN uv sync --frozen --no-cache && \
     uv pip install --no-cache "scrapling[fetchers]" && \
     uv run python -m playwright install chromium
 
-# 3. Copy the application code LAST (identical to Dockerfile)
+# 3. Copy the application code LAST
 COPY --chown=user . .
 
-# Expose port 7860 (same as Gradio)
+# Expose port 7860 for Gradio
 EXPOSE 7860
 
-# Run the Streamlit application on port 7860
-CMD ["uv", "run", "streamlit", "run", "streamlit_app.py", "--server.port=7860", "--server.address=0.0.0.0"]
+# Run the application
+CMD ["uv", "run", "app.py"]
