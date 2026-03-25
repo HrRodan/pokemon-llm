@@ -143,7 +143,15 @@ class LLMAgent:
         Exposes this agent as a `@tool`-compatible callable.
 
         Returns a wrapper callable whose `.__tool_schema__` attribute holds
-        the OpenAI-compatible scheme derived from the class `TOOL_NAME` and `TOOL_DESCRIPTION`.
+        the OpenAI-compatible schema derived from the class `TOOL_NAME` and
+        `TOOL_DESCRIPTION`.
+
+        The wrapper PERSISTS history across tool calls, allowing the agent
+        to maintain context from previous turns in the same session. Use
+        `history_limit` in the `AgentConfig` to manage context window size.
+
+        Returns:
+            Callable: The tool wrapper.
 
         Raises:
             ValueError: If TOOL_NAME or TOOL_DESCRIPTION aren't defined.

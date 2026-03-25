@@ -474,6 +474,45 @@ class LLMQuery(MultiModalMixin):
         """
         return self._get_client_for_model(self.model)
 
+    def _get_consistent_history(self, limit: int) -> List[Dict[str, Any]]:
+        """
+        Slice history while ensuring consistency for tool-use sequences.
+
+        Strict providers (Mistral, Claude, etc.) require that history starts
+        with a 'user' message and that 'tool' messages are preceded by the
+        matching 'assistant' call. This method backtracks from the suggested
+        limit until it finds a safe 'user' starting point.
+
+        Args:
+            limit: Suggested number of history entries to include.
+
+        Returns:
+            List[Dict]: A consistent slice starting with a 'user' message.
+        """
+        if limit <= 0:
+            return []
+
+        history_len = len(self.chat_history)
+        start_idx = max(0, history_len - limit)
+
+        # Backtrack: if we start with 'tool' or 'assistant', we must go back
+        # to the preceding 'user' turn to maintain turn-based consistency.
+        while start_idx > 0 and self.chat_history[start_idx].get("role") != "user":
+            start_idx -= 1
+
+        # If we are at index 0 and it's still not a 'user' message, skip forward
+        # to find the first 'user' turn. Starting with 'tool' or 'assistant'
+        # causes 400 errors on strict providers like Mistral.
+        if (
+            start_idx == 0
+            and self.chat_history
+            and self.chat_history[0].get("role") != "user"
+        ):
+            while start_idx < history_len and self.chat_history[start_idx].get("role") != "user":
+                start_idx += 1
+
+        return self.chat_history[start_idx:]
+
     def _prepare_messages(
         self,
         user_prompt: Union[str, List[Dict[str, str]], None],
@@ -491,7 +530,7 @@ class LLMQuery(MultiModalMixin):
         messages = [{"role": "system", "content": self.system_prompt}]
         if use_history:
             if history_limit:
-                messages.extend(self.chat_history[-history_limit:])
+                messages.extend(self._get_consistent_history(history_limit))
             else:
                 messages.extend(self.chat_history)
 
@@ -1219,10 +1258,12 @@ class LLMQuery(MultiModalMixin):
 
         Returns a ``(tool_schema_dict, wrapper_fn)`` pair.  The wrapper runs
         the full ``query() → get_tool_responses()`` agentic loop and returns
-        the final text string.  It is self-contained — each call re-uses
-        this instance's model and settings but does not persist history across
-        tool calls (history is cleared for each invocation so sub-agents stay
-        stateless by default).
+        the final text string.
+
+        Unlike many sub-agent wrappers, this one PERSISTS history across tool
+        calls, allowing the sub-agent to learn from previous turns in the same
+        session. Use ``history_limit`` at construction time to keep the context
+        window bounded and consistent.
 
         Typical usage::
 

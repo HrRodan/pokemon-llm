@@ -10,7 +10,8 @@ import unittest
 from tools.tech_data_tools import (
     execute_query,
     TechDataQuery,
-    QueryCondition,
+    FilterCondition,
+    FilterGroup,
     Aggregation,
 )
 from ai_tools.utils import handle_tool_call
@@ -21,7 +22,9 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="pokemons",
             columns=["name", "hit_points"],
-            conditions=[QueryCondition(column="name", operator="=", value="bulbasaur")],
+            where=FilterGroup(
+                filters=[FilterCondition(column="name", operator="=", value="bulbasaur")]
+            ),
             limit=1,
         )
         result = execute_query(query)
@@ -32,7 +35,7 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="pokemons",
             columns=[Aggregation(func="MAX", column="speed")],
-            conditions=[],
+            where=None,
         )
         result = execute_query(query)
         self.assertNotIn("No results found", result)
@@ -42,7 +45,9 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="moves",
             columns=["name", "power"],
-            conditions=[QueryCondition(column="power", operator=">", value=150)],
+            where=FilterGroup(
+                filters=[FilterCondition(column="power", operator=">", value=150)]
+            ),
             limit=5,
         )
         result = execute_query(query)
@@ -52,7 +57,7 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="items",
             columns=["category", Aggregation(func="COUNT", column="id")],
-            conditions=[],
+            where=None,
             group_by=["category"],
             order_by="category",
             limit=5,
@@ -65,7 +70,9 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="pokemons",
             columns=["name", "weak_against_1"],
-            conditions=[QueryCondition(column="name", operator="=", value="charizard")],
+            where=FilterGroup(
+                filters=[FilterCondition(column="name", operator="=", value="charizard")]
+            ),
             limit=1,
         )
         result = execute_query(query)
@@ -79,7 +86,9 @@ class TestTechDataTool(unittest.TestCase):
                 Aggregation(func="AVG", column="attack"),
                 Aggregation(func="SUM", column="base_experience"),
             ],
-            conditions=[QueryCondition(column="type_1", operator="=", value="fire")],
+            where=FilterGroup(
+                filters=[FilterCondition(column="type_1", operator="=", value="fire")]
+            ),
         )
         result = execute_query(query)
         self.assertNotIn("No results found", result)
@@ -90,11 +99,13 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="pokemons",
             columns=["name", "type_1"],
-            conditions=[
-                QueryCondition(column="type_1", operator="=", value="fire"),
-                QueryCondition(column="type_1", operator="=", value="water"),
-            ],
-            condition_logic="OR",
+            where=FilterGroup(
+                logic="OR",
+                filters=[
+                    FilterCondition(column="type_1", operator="=", value="fire"),
+                    FilterCondition(column="type_1", operator="=", value="water"),
+                ],
+            ),
             limit=5,
         )
         result = execute_query(query)
@@ -104,11 +115,13 @@ class TestTechDataTool(unittest.TestCase):
         query = TechDataQuery(
             table="items",
             columns=["name", "cost"],
-            conditions=[
-                QueryCondition(
-                    column="name", operator="IN", value=["potion", "antidote"]
-                )
-            ],
+            where=FilterGroup(
+                filters=[
+                    FilterCondition(
+                        column="name", operator="IN", value=["potion", "antidote"]
+                    )
+                ]
+            ),
         )
         result = execute_query(query)
         self.assertIn("potion", result)

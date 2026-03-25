@@ -118,18 +118,15 @@ class BufferedHandler(logging.Handler):
 def get_log_buffer() -> str:
     """
     Returns the current content of the log buffer as a single HTML string.
-    Wraps it in a scrollable div.
     """
     content = "".join(LOG_BUFFER)
-    # Wrap in a container styling
+    # Wrap in a container styling without fixed height to allow outer container to scroll
     return f"""
     <div style="
         font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
         font-size: 14px;
         line-height: 1.4;
         white-space: pre-wrap;
-        height: 500px;
-        overflow-y: auto;
         background-color: #0d1117;
         color: #c9d1d9;
         padding: 10px;

@@ -45,39 +45,53 @@ When a user asks a question:
 1. Analyze the request.
 2. **Check the History**: Before searching, check if you have already performed a similar search. **DO NOT** repeat the exact same query if it returned results previously.
 3. Formulate a query using the `execute_query` tool. Use the provided json schema. **DO NOT** hallucinate results. Run the queries.
-   - `columns`: List of columns (e.g. "name", "attack") or aggregations.
+   - `columns`: List of column names (e.g. "name", "attack") or aggregation objects (e.g. `{"func": "AVG", "column": "attack"}`).
    - `table`: "pokemons", "moves", or "items".
-   - `conditions`: List of filters. Logic can be AND or OR.
-     - operators: =, >, <, >=, <=, !=, LIKE, IN
-   - `condition_logic`: "AND" or "OR" (default AND).
-   - `group_by`: Optional list of columns to group by.
+   - `where`: A recursive `FilterGroup` object.
+     - `logic`: "AND" or "OR" (Determines how `filters` are combined).
+     - `filters`: A list of `FilterCondition` objects OR nested `FilterGroup` objects.
+     - `FilterCondition`: `{"column": "...", "operator": "...", "value": "..."}`.
+     - Operators: =, >, <, >=, <=, !=, LIKE, IN.
+   - `group_by`: Optional list of columns to group by (e.g. `["type_1"]`).
    - `order_by`: Optional column to sort by.
    - `order_direction`: ASC or DESC.
    - `limit`: Optional max rows.
-   - You can make multiple tool calls in parallel to answer a question.
-   - You can use for multiple ids in a single query using the IN operator.
 4. The tool will return a Markdown table.
-5. Uses this table to answer the user's question, providing context if needed.
-6. Query again if necessary (e.g. if an error occurs)
-7. **Complex Logic**: If a user asks for complex logic like `(A OR B) AND C`, the tool CANNOT handle mixed AND/OR.
-   - You MUST split this into two queries:
-     1. Query for `A AND C`
-     2. Query for `B AND C`
-   - Then combine the results yourself in your final answer.
-   - For aggregations (like "average"), you might need to query the raw data (or counts and sums) and calculate the final aggregate yourself slightly, or just present both partial averages if exact mathematical combination is too hard without raw data.
-     - **REQUIRED STRATEGY** for Mixed Logic (e.g. "(A OR B) AND C", or "Average X for A or B"):
-       1. **Query 1**: Get list of `id`s for condition A AND C. (Select only `id`).
-       2. **Query 2**: Get list of `id`s for condition B AND C. (Select only `id`).
-       3. **Combine IDs**: Create a single list of unique IDs (Union) in your thought process.
-       4. **Query 3**: Execute the final aggregation/retrieval using `id IN (...)` with the combined list.
-          - Example: `conditions=[{"column": "id", "operator": "IN", "value": [1, 4, 7, ...]}]`
-       - DO NOT ask the user to do it. YOU must do it.
+5. Use this table to answer the user's question, providing context if needed.
+6. Query again if necessary (e.g. if an error occurs).
+7. **Complex Logic**: The tool supports deeply nested AND/OR logic via the `where` field.
+   - Example: For `(Type is Fire AND Attack > 100) OR (Type is Water AND Speed > 100)`:
+     ```json
+     {
+       "table": "pokemons",
+       "columns": ["name", "type_1", "attack", "speed"],
+       "where": {
+         "logic": "OR",
+         "filters": [
+           {
+             "logic": "AND",
+             "filters": [
+               {"column": "type_1", "operator": "=", "value": "fire"},
+               {"column": "attack", "operator": ">", "value": 100}
+             ]
+           },
+           {
+             "logic": "AND",
+             "filters": [
+               {"column": "type_1", "operator": "=", "value": "water"},
+               {"column": "speed", "operator": ">", "value": 100}
+             ]
+           }
+         ]
+       }
+     }
+     ```
+   - Use this to fulfill complex requests in a single query.
 
 **CRITICAL INSTRUCTIONS FOR MULTI-STEP QUERIES:**
 - If you need to search for multiple terms (e.g. "hound" OR "dog" OR "pup"):
-  - You can try to do separate queries for each term.
+  - You can combine them using a single query with OR logic in the `where` clause.
   - **DO NOT** repeat a query you have already done.
-  - If you have results for "hound", move on to "dog".
   - Maintain a mental list of what you have checked.
   - If you have gathered sufficient information, stop querying and present the answer.
   - If a query returns no results, do not retry it with the exact same parameters. Try a different approach or move to the next term.
@@ -90,11 +104,20 @@ Tool Call (representation):
 {
   "table": "pokemons",
   "columns": ["name", "attack", "type_1"],
-  "conditions": [{"column": "type_1", "operator": "=", "value": "fire"}],
+  "where": {
+    "logic": "AND",
+    "filters": [
+      {"column": "type_1", "operator": "=", "value": "fire"},
+      {"column": "is_default", "operator": "=", "value": true}
+    ]
+  },
   "order_by": "attack",
   "order_direction": "DESC",
   "limit": 5
 }
+
+**OUTPUT:**
+Output the final result in markdown structure. Add a concise summary on how this result was calculated and which columns where used.
 """
 
 

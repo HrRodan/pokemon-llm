@@ -27,13 +27,9 @@ def _get_engine() -> "Engine":
 def create_column_enum(model_class: Type[Base], enum_name: str) -> Any:
     """
     Dynamically creates a StrEnum from a SQLAlchemy model's columns.
-
-    Using StrEnum is critical here because:
-    1. It allows Pydantic to serialize/validate these values directly as strings in the JSON schema.
-    2. It enables direct comparison with string column names without accessing `.value`.
+    Using StrEnum allows Pydantic to serialize values as strings and
+    enables direct comparison with column names.
     """
-    # Keys become the Enum member names (uppercase constants, e.g. PokemonColumn.NAME)
-    # Values become the actual string values used by Pydantic/Database (e.g. "name")
     columns = {c.name.upper(): c.name for c in inspect(model_class).columns}
     return StrEnum(enum_name, columns)
 
@@ -46,40 +42,85 @@ ItemColumn = create_column_enum(Item, "ItemColumn")
 AnyColumn = Union[PokemonColumn, MoveColumn, ItemColumn]
 
 
-class QueryCondition(BaseModel):
+class FilterCondition(BaseModel):
     """
-    Represents a single SQL WHERE condition.
+    A single filter condition applying a comparison operator to a column.
     """
 
-    column: AnyColumn
-    operator: Literal["=", ">", "<", ">=", "<=", "!=", "LIKE", "IN"]
-    value: Any
+    column: AnyColumn = Field(
+        ..., description="The name of the database column to filter on."
+    )
+    operator: Literal["=", ">", "<", ">=", "<=", "!=", "LIKE", "IN"] = Field(
+        ...,
+        description="The comparison operator (e.g., '=', '>', 'LIKE', 'IN'). Use 'LIKE' with '%' for pattern matching. Use 'IN' for a list of values.",
+    )
+    value: Any = Field(
+        ...,
+        description="The value to compare against. Provide a list of values if using the 'IN' operator.",
+    )
+
+
+class FilterGroup(BaseModel):
+    """
+    A group of filter conditions or nested groups combined by a logical operator.
+    Allows for complex, nested Boolean logic (e.g., (A AND B) OR C).
+    """
+
+    logic: Literal["AND", "OR"] = Field(
+        "AND",
+        description="The logical operator used to combine filters in this group. Note: In SQL, AND has higher precedence than OR.",
+    )
+    filters: List[Union["FilterGroup", FilterCondition]] = Field(
+        ...,
+        description="A list of conditions or nested filter groups to be combined.",
+    )
+
+
+# Rebuild to support recursive definition
+FilterGroup.model_rebuild()
 
 
 class Aggregation(BaseModel):
     """
-    Represents a SQL aggregation function on a column.
+    Represents a SQL aggregation function (like COUNT, AVG) performed on a column.
     """
 
-    func: Literal["MIN", "MAX", "AVG", "SUM", "COUNT"]
-    column: AnyColumn
+    func: Literal["MIN", "MAX", "AVG", "SUM", "COUNT"] = Field(
+        ..., description="The SQL aggregation function to apply."
+    )
+    column: AnyColumn = Field(..., description="The column to aggregate.")
 
 
 class TechDataQuery(BaseModel):
     """
     Structured representation of a technical data query for the Pokemon database.
-    Transformed into a SQL query by the tool.
+    This model defines the SELECT, WHERE, GROUP BY, and ORDER BY clauses.
     """
 
-    table: Literal["pokemons", "moves", "items"]
-    # Allow columns to be specific names or aggregations
-    columns: List[Union[AnyColumn, Aggregation]]
-    conditions: List[QueryCondition] = Field(default_factory=list)
-    condition_logic: Literal["AND", "OR"] = "AND"
-    group_by: Optional[List[str]] = None
-    order_by: Optional[str] = None
-    order_direction: Literal["ASC", "DESC"] = "ASC"
-    limit: Optional[int] = None
+    table: Literal["pokemons", "moves", "items"] = Field(
+        ..., description="The database table to query."
+    )
+    columns: List[Union[AnyColumn, Aggregation]] = Field(
+        ...,
+        description="List of columns to retrieve. Can include specific column names or aggregation functions (e.g., MIN(attack)).",
+    )
+    where: Optional[FilterGroup] = Field(
+        None,
+        description="Optional filter criteria for the query. Supports nested AND/OR logic. Example: {'logic': 'OR', 'filters': [{'column': 'type_1', 'operator': '=', 'value': 'fire'}, {'logic': 'AND', 'filters': [...]}]}",
+    )
+    group_by: Optional[List[AnyColumn]] = Field(
+        None,
+        description="Optional list of columns to group the results by. Required when using aggregations.",
+    )
+    order_by: Optional[AnyColumn] = Field(
+        None, description="Optional column name to sort the results by."
+    )
+    order_direction: Literal["ASC", "DESC"] = Field(
+        "ASC", description="The sort direction: ASC (ascending) or DESC (descending)."
+    )
+    limit: Optional[int] = Field(
+        None, description="The maximum number of rows to return (default is all matches)."
+    )
 
 
 def get_model_class(table_name: str) -> Type[Base]:
@@ -94,35 +135,61 @@ def get_model_class(table_name: str) -> Type[Base]:
         raise ValueError(f"Unknown table: {table_name}")
 
 
+def _build_clauses(model: Type[Base], filter_node: Union[FilterGroup, FilterCondition]) -> Any:
+    """Recursively builds SQLAlchemy Boolean clauses from FilterGroup/FilterCondition."""
+    if isinstance(filter_node, FilterCondition):
+        col_attr = getattr(model, filter_node.column)
+        val = filter_node.value
+
+        if filter_node.operator == "=":
+            return col_attr == val
+        elif filter_node.operator == "!=":
+            return col_attr != val
+        elif filter_node.operator == ">":
+            return col_attr > val
+        elif filter_node.operator == "<":
+            return col_attr < val
+        elif filter_node.operator == ">=":
+            return col_attr >= val
+        elif filter_node.operator == "<=":
+            return col_attr <= val
+        elif filter_node.operator == "LIKE":
+            return col_attr.like(val)
+        elif filter_node.operator == "IN":
+            if not isinstance(val, list):
+                val = [val]
+            return col_attr.in_(val)
+        else:
+            raise ValueError(f"Unsupported operator: {filter_node.operator}")
+
+    elif isinstance(filter_node, FilterGroup):
+        clauses = [_build_clauses(model, f) for f in filter_node.filters]
+        if not clauses:
+            return None
+        if filter_node.logic == "AND":
+            return and_(*clauses)
+        else:
+            return or_(*clauses)
+    return None
+
+
 def _execute_query(query: TechDataQuery) -> str:
     """
     Executes a structured query against the technical database and returns a markdown table.
-
-    Uses SQLAlchemy ORM to safely construct queries, preventing injection and ensuring
-    proper type handling.
-
-    Args:
-        query: The structured TechDataQuery object.
-
-    Returns:
-        A Markdown formatted string containing the query results or an error message.
     """
     try:
         model = get_model_class(query.table)
 
         # --- Build SELECT columns ---
-        # Dynamically retrieve column attributes from the model class using getattr().
-        # This allows mapping string column names from the query object to actual ORM columns.
         stmt_columns = []
         header_names = []
 
         for col in query.columns:
-            if isinstance(col, str):
+            if isinstance(col, (str, PokemonColumn, MoveColumn, ItemColumn)):
                 stmt_columns.append(getattr(model, col))
-                header_names.append(col)
+                header_names.append(str(col))
             elif isinstance(col, Aggregation):
                 model_col = getattr(model, col.column)
-                # Map aggregation functions to SQLAlchemy func calls
                 if col.func == "MIN":
                     stmt_columns.append(func.min(model_col))
                 elif col.func == "MAX":
@@ -137,38 +204,11 @@ def _execute_query(query: TechDataQuery) -> str:
 
         stmt = select(*stmt_columns)
 
-        # --- Build WHERE conditions ---
-        clauses = []
-        for cond in query.conditions:
-            col_attr = getattr(model, cond.column)
-            val = cond.value
-
-            if cond.operator == "=":
-                clauses.append(col_attr == val)
-            elif cond.operator == "!=":
-                clauses.append(col_attr != val)
-            elif cond.operator == ">":
-                clauses.append(col_attr > val)
-            elif cond.operator == "<":
-                clauses.append(col_attr < val)
-            elif cond.operator == ">=":
-                clauses.append(col_attr >= val)
-            elif cond.operator == "<=":
-                clauses.append(col_attr <= val)
-            elif cond.operator == "LIKE":
-                clauses.append(col_attr.like(val))
-            elif cond.operator == "IN":
-                # Ensure value is a list for IN operator
-                if not isinstance(val, list):
-                    val = [val]
-                clauses.append(col_attr.in_(val))
-
-        # Apply conditions with specified logic (AND/OR)
-        if clauses:
-            if query.condition_logic == "AND":
-                stmt = stmt.where(and_(*clauses))
-            else:
-                stmt = stmt.where(or_(*clauses))
+        # --- Build WHERE clauses ---
+        if query.where:
+            clause = _build_clauses(model, query.where)
+            if clause is not None:
+                stmt = stmt.where(clause)
 
         # --- Apply GROUP BY ---
         if query.group_by:
@@ -201,7 +241,6 @@ def _execute_query(query: TechDataQuery) -> str:
 
         lines = [header, separator]
         for row in rows:
-            # row is a Row object, can be iterated like a tuple
             lines.append("| " + " | ".join(map(str, row)) + " |")
 
         return "\n".join(lines)
@@ -212,7 +251,60 @@ def _execute_query(query: TechDataQuery) -> str:
 
 @tool(schema=TechDataQuery)
 def execute_query(query: TechDataQuery) -> str:
-    """Executes a query against the Pokemon technical database. Returns a markdown table."""
+    """
+    Executes a structured technical query against the Pokemon database (pokemons, moves, items).
+    Supports filtering with nested AND/OR logic, aggregations, grouping, and sorting.
+    Returns the result as a Markdown table.
+
+    Examples for the Agent:
+
+    1. Simple Filter: "Get names of Fire pokemon with attack > 100"
+       {
+         "table": "pokemons",
+         "columns": ["name", "attack"],
+         "where": {
+           "logic": "AND",
+           "filters": [
+             {"column": "type_1", "operator": "=", "value": "fire"},
+             {"column": "attack", "operator": ">", "value": 100},
+             {"column": "is_default", "operator": "=", "value": true}
+           ]
+         }
+       }
+
+    2. Aggregation & Grouping: "Count pokemon per primary type"
+       {
+         "table": "pokemons",
+         "columns": ["type_1", {"func": "COUNT", "column": "id"}],
+         "group_by": ["type_1"],
+         "order_by": "type_1"
+       }
+
+    3. Complex Nested Logic: "(Type is Fire AND Attack > 100) OR (Type is Water AND Speed > 100)"
+       {
+         "table": "pokemons",
+         "columns": ["name", "type_1", "attack", "speed"],
+         "where": {
+           "logic": "OR",
+           "filters": [
+             {
+               "logic": "AND",
+               "filters": [
+                 {"column": "type_1", "operator": "=", "value": "fire"},
+                 {"column": "attack", "operator": ">", "value": 100}
+               ]
+             },
+             {
+               "logic": "AND",
+               "filters": [
+                 {"column": "type_1", "operator": "=", "value": "water"},
+                 {"column": "speed", "operator": ">", "value": 100}
+               ]
+             }
+           ]
+         }
+       }
+    """
     return _execute_query(query)
 
 
@@ -220,16 +312,26 @@ TOOL_FUNCTIONS = [execute_query]
 
 
 if __name__ == "__main__":
-    # Test case to verify functionality
+    # Test complex nesting: (type_1 = fire AND attack > 100) OR type_1 = water
     q = TechDataQuery(
         table="pokemons",
         columns=["name", "type_1", "attack"],
-        conditions=[
-            QueryCondition(column="type_1", operator="=", value="fire"),
-            QueryCondition(column="attack", operator=">", value=100),
-        ],
+        where=FilterGroup(
+            logic="OR",
+            filters=[
+                FilterGroup(
+                    logic="AND",
+                    filters=[
+                        FilterCondition(column="type_1", operator="=", value="fire"),
+                        FilterCondition(column="attack", operator=">", value=100),
+                    ]
+                ),
+                FilterCondition(column="type_1", operator="=", value="water"),
+            ]
+        ),
         order_by="attack",
         order_direction="DESC",
-        limit=5,
+        limit=10,
     )
+    print("Executing query...")
     print(execute_query(q))
