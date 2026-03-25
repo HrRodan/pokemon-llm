@@ -1,16 +1,11 @@
 import streamlit as st
-import threading
-import time
 from utils.ui_utils import (
     get_agent_client,
     respond,
     format_empty_usage,
-    extract_tool_info,
     extract_reasoning_info,
-    extract_usage_info,
 )
 from utils.config import settings
-from utils.logger import get_log_buffer
 
 # --- Page Configuration ---
 st.set_page_config(
