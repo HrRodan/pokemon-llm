@@ -190,6 +190,20 @@ class LLMQuery(MultiModalMixin):
         self.total_reasoning_tokens: int = 0
         self.total_tokens: int = 0
 
+    def clear_history(self) -> None:
+        """
+        Reset per-conversation state for a fresh context.
+
+        Clears ``chat_history``, ``tool_calls``, ``response``, and
+        ``reasoning_history``.  Cumulative usage counters
+        (``total_tokens``, ``total_cost``, etc.) are left intact so the
+        owning agent can still report lifetime cost across multiple sessions.
+        """
+        self.chat_history = []
+        self.tool_calls = []
+        self.response = ""
+        self.reasoning_history = []
+
     @staticmethod
     def _resolve_tools(
         tools: Optional[List[ToolInput]] = None,
@@ -1260,10 +1274,11 @@ class LLMQuery(MultiModalMixin):
         the full ``query() → get_tool_responses()`` agentic loop and returns
         the final text string.
 
-        Unlike many sub-agent wrappers, this one PERSISTS history across tool
-        calls, allowing the sub-agent to learn from previous turns in the same
-        session. Use ``history_limit`` at construction time to keep the context
-        window bounded and consistent.
+        Unlike many sub-agent wrappers, this one clears history on each tool
+        call so that every invocation starts with a fresh context, preventing
+        context bleed-through between consecutive calls from the parent agent.
+        Use the ``query()`` / ``get_tool_responses()`` loop directly if you
+        need persistent multi-turn history within a single tool invocation.
 
         Typical usage::
 
@@ -1302,6 +1317,7 @@ class LLMQuery(MultiModalMixin):
 
         def _wrapper(**kwargs) -> str:
             prompt = kwargs.get(input_arg, "")
+            llm_ref.clear_history()
             llm_ref.query(prompt)
             return llm_ref.get_tool_responses()
 

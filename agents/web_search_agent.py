@@ -141,7 +141,7 @@ you need, and avoiding unnecessary ingestion.
 **Phase 1 — Locate** (at most 1–2 calls)
 - Call `bulbapedia_search` to find candidate URLs. Do not search more than 3 times per query.
 
-**Phase 2 — Preview** (skip ingestion when possible)
+**Phase 2 — Preview**
 - For structured/numerical questions (stats, moves, types, evolution chains):
   → Call `bulbapedia_structured_data` directly on the best URL. If it returns the answer, **stop here**.
 - For lore/prose questions where you need to pick the right sub-page:

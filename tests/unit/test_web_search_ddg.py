@@ -10,6 +10,8 @@ from tools.web_search_ddg import (
     DuckDuckGoSearchResult,
     SearchResultItem,
     _build_ddg_url,
+    _is_ad_element,
+    _is_ad_url,
     _parse_results,
     duckduckgo_search,
 )
@@ -212,3 +214,109 @@ class TestDuckDuckGoSearchTool:
         assert result.error is not None
         assert "Fetch failed" in result.error
         assert result.total_returned == 0
+
+
+# ---------------------------------------------------------------------------
+# Ad filtering
+# ---------------------------------------------------------------------------
+
+_MOCK_RESULTS_WITH_ADS_HTML = """
+<html><body>
+<div class="results">
+    <!-- Organic result -->
+    <article>
+        <h2><a href="https://example.com/organic1">Organic Result One</a></h2>
+        <div data-result="snippet">This is a genuine organic snippet with plenty of text.</div>
+    </article>
+    <!-- Ad: data-testid="ad" -->
+    <article data-testid="ad">
+        <h2><a href="https://duckduckgo.com/y.js?ad_domain=someads.com">Ad Result</a></h2>
+        <div data-result="snippet">Buy stuff now!</div>
+    </article>
+    <!-- Ad: data-sponsored attribute -->
+    <article data-sponsored="true">
+        <h2><a href="https://sponsored.example.com">Sponsored Result</a></h2>
+        <div data-result="snippet">Sponsored content here.</div>
+    </article>
+    <!-- Ad: result--ad class -->
+    <article class="result--ad">
+        <h2><a href="https://another-ad.example.com">Another Ad</a></h2>
+        <div data-result="snippet">Yet more sponsored content.</div>
+    </article>
+    <!-- Ad: URL routes through DDG click-tracker -->
+    <article>
+        <h2><a href="https://duckduckgo.com/y.js?ad_domain=tracker.com">Tracker Ad</a></h2>
+        <div data-result="snippet">Redirect ad snippet text here for length purposes.</div>
+    </article>
+    <!-- Organic result 2 -->
+    <article>
+        <h2><a href="https://example.com/organic2">Organic Result Two</a></h2>
+        <div data-result="snippet">Second genuine organic snippet with plenty of text.</div>
+    </article>
+</div>
+</body></html>
+"""
+
+
+class TestAdFiltering:
+    """Verify that ad results are filtered from parsed output."""
+
+    # --- _is_ad_element ---
+
+    def test_ad_element_data_testid(self):
+        from scrapling.parser import Selector
+        page = Selector('<article data-testid="ad"><a href="x">X</a></article>')
+        el = page.css('article')[0]
+        assert _is_ad_element(el) is True
+
+    def test_ad_element_data_sponsored(self):
+        from scrapling.parser import Selector
+        page = Selector('<article data-sponsored="true"><a href="x">X</a></article>')
+        el = page.css('article')[0]
+        assert _is_ad_element(el) is True
+
+    def test_ad_element_class_result_ad(self):
+        from scrapling.parser import Selector
+        page = Selector('<article class="result--ad"><a href="x">X</a></article>')
+        el = page.css('article')[0]
+        assert _is_ad_element(el) is True
+
+    def test_organic_element_not_flagged(self):
+        from scrapling.parser import Selector
+        page = Selector('<article class="result"><a href="x">X</a></article>')
+        el = page.css('article')[0]
+        assert _is_ad_element(el) is False
+
+    # --- _is_ad_url ---
+
+    def test_ad_url_ddg_tracker(self):
+        assert _is_ad_url("https://duckduckgo.com/y.js?ad_domain=foo.com") is True
+
+    def test_ad_url_doubleclick(self):
+        assert _is_ad_url("https://ad.doubleclick.net/ddm/clk/123") is True
+
+    def test_ad_url_googleadservices(self):
+        assert _is_ad_url("https://googleadservices.com/pagead/aclk") is True
+
+    def test_organic_url_not_flagged(self):
+        assert _is_ad_url("https://bulbapedia.bulbagarden.net/wiki/Pikachu") is False
+
+    # --- _parse_results with mixed organic + ad HTML ---
+
+    @pytest.fixture()
+    def mixed_page(self):
+        from scrapling.parser import Selector
+        return Selector(_MOCK_RESULTS_WITH_ADS_HTML)
+
+    def test_only_organic_results_returned(self, mixed_page):
+        items = _parse_results(mixed_page, max_results=10)
+        urls = [item.url for item in items]
+        assert all("organic" in u for u in urls), f"Non-organic URL slipped through: {urls}"
+        assert len(items) == 2
+
+    def test_ad_urls_not_in_results(self, mixed_page):
+        items = _parse_results(mixed_page, max_results=10)
+        for item in items:
+            assert "y.js" not in item.url
+            assert "doubleclick" not in item.url
+            assert "sponsored" not in item.url

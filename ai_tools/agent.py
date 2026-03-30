@@ -187,6 +187,7 @@ class LLMAgent:
         agent_ref = self
 
         def _wrapper(**kwargs) -> str:
+            agent_ref.llm.clear_history()
             return agent_ref.run(kwargs.get("query", ""))
 
         _wrapper.__name__ = self.TOOL_NAME

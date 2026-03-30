@@ -79,6 +79,32 @@ class TestDuckDuckGoSearchLive:
         assert result.error is None, f"Search failed: {result.error}"
         assert "site:bulbapedia.bulbagarden.net" in result.query
 
+    @pytest.mark.slow
+    def test_no_ads_in_results(self):
+        """Use a commercial query likely to surface ads and verify none slip through."""
+        _AD_URL_PATTERNS = (
+            "duckduckgo.com/y.js",
+            "ad.doubleclick.net",
+            "googleadservices.com",
+            "bing.com/aclick",
+        )
+        args = DuckDuckGoSearchInput(query="buy pokemon cards online", max_results=10)
+        raw = duckduckgo_search(args)
+        result = DuckDuckGoSearchResult.model_validate_json(raw)
+
+        assert result.error is None, f"Search failed: {result.error}"
+
+        for item in result.results:
+            for pattern in _AD_URL_PATTERNS:
+                assert pattern not in item.url, (
+                    f"Ad redirect URL slipped through: {item.url}"
+                )
+            assert item.url.startswith("http"), f"Unexpected URL format: {item.url}"
+
+        print(f"\n[ad-filter live] {result.total_returned} organic results returned:")
+        for item in result.results:
+            print(f"  {item.title} — {item.url}")
+
 
 class TestFetchPageLive:
     """Live integration tests for fetch_page_as_markdown tool."""
