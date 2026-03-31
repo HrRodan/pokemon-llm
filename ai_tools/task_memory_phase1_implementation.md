@@ -270,10 +270,12 @@ class InMemoryBackend(MemoryBackend):
             return
         self._checkpoints[thread_id] = [cp for cp in cps if cp.step_id <= step_id]
         remaining = self._checkpoints[thread_id]
+        info = self._threads[thread_id]
         if remaining:
-            info = self._threads[thread_id]
             info.updated_at = remaining[-1].created_at
             info.message_count = len(remaining[-1].state.messages)
+        else:
+            info.message_count = 0
 
     def delete_thread(self, thread_id: str) -> None:
         self._threads.pop(thread_id, None)
@@ -776,14 +778,14 @@ class MemoryHandler:
     ) -> "MemoryHandler":
         """Create a child MemoryHandler scoped for a subagent invocation.
 
-        The child thread_id is derived from the parent's active thread +
-        the subagent name, ensuring traceability (R-SA-03).
+        Generates a unique isolated thread ID for each invocation.
+        (Note: Parent thread traceability is deferred to Phase 2).
 
         Returns:
-            A new MemoryHandler with a deterministic scoped thread_id,
+            A new MemoryHandler with a unique scoped thread_id,
             sharing the same backend.
         """
-        scoped_id = f"{self.thread_id}::{subagent_name}::{self._step_id}"
+        scoped_id = f"{subagent_name}::{uuid.uuid4().hex[:8]}"
         child = MemoryHandler(
             backend=self._backend,
             thread_id=None,
@@ -915,17 +917,22 @@ The `as_tool()` wrapper currently calls `clear_history()` on each invocation. Wi
 ```python
 def _wrapper(**kwargs) -> str:
     prompt = kwargs.get(input_arg, "")
-    if llm_ref.memory:
+    original_memory = llm_ref.memory
+    
+    if original_memory:
         # Scoped: each invocation gets its own thread for audit trail
-        scoped = llm_ref.memory.create_scoped_handler(name)
+        scoped = original_memory.create_scoped_handler(name)
         llm_ref.memory = scoped  # temporarily swap
         llm_ref.chat_history = []
     else:
         llm_ref.clear_history()
+        
     llm_ref.query(prompt)
     result = llm_ref.get_tool_responses()
-    if llm_ref.memory and llm_ref.memory is not original_memory:
+    
+    if original_memory:
         llm_ref.memory = original_memory  # restore parent handler
+        
     return result
 ```
 

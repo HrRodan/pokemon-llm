@@ -116,8 +116,8 @@ Conversations are identified by a `thread_id`. Different thread IDs maintain **f
 |---|---|
 | **R-SA-01** | Subagent memory configuration is **independent** of the parent agent. |
 | **R-SA-02** | By default, subagents created via `as_tool()` use ephemeral in-memory storage (history cleared per invocation, as currently implemented). |
-| **R-SA-03** | If a subagent is configured with a persistent backend, its conversations are stored under a separate namespace scoped by `parent_thread_id + subagent_name` to maintain traceability. |
-| **R-SA-04** | A traceability record linking parent checkpoint → subagent thread must be stored so that a parent's conversation can be inspected alongside its delegated subagent work. |
+| **R-SA-03** | If a subagent is configured with a persistent backend, it operates in 'Scoped' mode. Each tool invocation gets a fresh, isolated thread to prevent context bleed. (Note: True parent traceability linking to `parent_thread_id` requires context-aware tool routing and is deferred to Phase 2). |
+| **R-SA-04** | A traceability record linking parent checkpoint → subagent thread must be stored so that a parent's conversation can be inspected alongside its delegated subagent work. *(Deferred to Phase 2)* |
 
 ### 5.2 Subagent Checkpointer Modes (inspired by LangGraph)
 
