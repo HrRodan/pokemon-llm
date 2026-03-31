@@ -40,10 +40,10 @@ class BulbapediaLinksInput(BaseModel):
 
     url: str = Field(description="The Bulbapedia URL to extract links from.")
     max_links: int = Field(
-        default=30,
+        default=20,
         ge=1,
-        le=100,
-        description="Maximum number of links to return. Defaults to 30.",
+        le=60,
+        description="Maximum number of links to return. Defaults to 20.",
     )
 
 
