@@ -55,14 +55,14 @@ def test_tokenizer_comparison():
                 token_chunks = refinery_token(chunker_token(content))
                 token_lengths = [len(c.text) for c in token_chunks]
                 # Also count estimated tokens for statistics
-                token_counts = [len(c.text) / 4 for c in token_chunks] # Rough estimate just for text display
-                print(f"\n[CL100K_BASE TOKENIZER - size=512 tokens, overlap=128 tokens]")
+                _token_counts = [len(c.text) / 4 for c in token_chunks] # Rough estimate just for text display
+                print("\n[CL100K_BASE TOKENIZER - size=512 tokens, overlap=128 tokens]")
                 if token_chunks:
                     print(f"  Total chunks: {len(token_chunks)}")
                     print(f"  Average length (chars): {sum(token_lengths) / len(token_chunks):.2f}")
                     print(f"  Min length (chars): {min(token_lengths)}")
                     print(f"  Max length (chars): {max(token_lengths)}")
-                    print(f"  (Note: chunk_size=512 tokens roughly = 2048 chars, 512 chunks might be larger.)")
+                    print("  (Note: chunk_size=512 tokens roughly = 2048 chars, 512 chunks might be larger.)")
             except Exception as e:
                 print(f"Token chunking failed: {e}")
 

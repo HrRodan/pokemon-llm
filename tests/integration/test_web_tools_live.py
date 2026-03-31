@@ -5,7 +5,6 @@ These tests hit live websites and may be flaky. Run manually to verify
 end-to-end behaviour, not in CI.
 """
 
-import json
 
 import pytest
 

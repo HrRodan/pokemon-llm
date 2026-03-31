@@ -4,19 +4,17 @@ Uses an in-memory ChromaDB and mocked embeddings/fetch to test
 the full ingest → query cycle without network or API calls.
 """
 
-from datetime import datetime, timezone, timedelta
 from unittest.mock import MagicMock, patch
 
 import chromadb
 import pytest
 
-from tools.web_content import PageMarkdownResult, FetchPageInput
+from tools.web_content import PageMarkdownResult
 from tools.web_vector_db import (
     IngestWebPageArgs,
     QueryWebContentArgs,
     ingest_web_page,
     query_web_content,
-    generate_chunk_id,
 )
 
 

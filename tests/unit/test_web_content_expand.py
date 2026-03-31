@@ -23,7 +23,6 @@ from tools.web_content import (
     ExtractStructuredDataResult,
     SummarizePageInput,
     PageSummaryResult,
-    TableData,
     _is_boilerplate_link,
     _matches_domain_filter,
     _normalize_url,

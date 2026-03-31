@@ -1,4 +1,3 @@
-import pytest
 from tools.fuzzy_search import search_exact_name, FuzzySearchQuery
 
 

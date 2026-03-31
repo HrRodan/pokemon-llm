@@ -32,7 +32,11 @@ from typing import (
     Any,
     Callable,
     Type,
+    TYPE_CHECKING,
 )
+
+if TYPE_CHECKING:
+    from .memory import MemoryHandler
 from tenacity import retry, stop_after_attempt, wait_exponential
 from pydantic import BaseModel
 from openai import OpenAI
@@ -99,6 +103,7 @@ class LLMQuery(MultiModalMixin):
         response_format: Union[Dict[str, Any], Type[BaseModel], None] = None,
         concurrent_tool_calls: bool = True,
         logger: Optional[logging.Logger] = None,
+        memory: Optional["MemoryHandler"] = None,
     ):
         """
         Initialize the LLMQuery instance.
@@ -161,6 +166,9 @@ class LLMQuery(MultiModalMixin):
                 ``asyncio.to_thread``.  Ideal for I/O-bound tools.  Set to
                 ``False`` to force sequential dispatch.
             logger: Logger instance for traces.
+            memory: Optional memory handler for conversation persistence.
+                When provided, history is loaded on init and checkpointed after
+                every successful ``query()`` call.
         """
         self.logger = logger
         self.model = model
@@ -177,10 +185,13 @@ class LLMQuery(MultiModalMixin):
         self.concurrent_tool_calls = concurrent_tool_calls
         self.tool_choice = tool_choice
         self.system_prompt = system_prompt
+        self.memory = memory
         resolved_schemas, resolved_fns = LLMQuery._resolve_tools(tools, functions)
         self.tools = resolved_schemas
         self.functions = resolved_fns
         self.chat_history: List[Dict[str, Any]] = []
+        if self.memory:
+            self.chat_history = self.memory.load_history()
         self.tool_calls: List[Dict] = []
         self.response = ""
         self.reasoning_history: List[Optional[str]] = []
@@ -199,6 +210,8 @@ class LLMQuery(MultiModalMixin):
         (``total_tokens``, ``total_cost``, etc.) are left intact so the
         owning agent can still report lifetime cost across multiple sessions.
         """
+        if self.memory:
+            self.memory.new_thread()
         self.chat_history = []
         self.tool_calls = []
         self.response = ""
@@ -1013,6 +1026,19 @@ class LLMQuery(MultiModalMixin):
             reasoning=reasoning,
         )
 
+        if self.memory:
+            usage_snapshot = {
+                "prompt_tokens": self.total_prompt_tokens,
+                "completion_tokens": self.total_completion_tokens,
+                "total_tokens": self.total_tokens,
+                "cost": self.total_cost,
+            }
+            self.memory.save_checkpoint(
+                messages=self.chat_history,
+                tool_calls=self.tool_calls if self.tool_calls else None,
+                usage=usage_snapshot,
+            )
+
         # Handle reasoning-only response by re-querying (max 3 attempts)
         if not content and not self.tool_calls and reasoning and _recursion_depth < 3:
             if self.logger:
@@ -1317,9 +1343,23 @@ class LLMQuery(MultiModalMixin):
 
         def _wrapper(**kwargs) -> str:
             prompt = kwargs.get(input_arg, "")
-            llm_ref.clear_history()
+            original_memory = getattr(llm_ref, "memory", None)
+            
+            if original_memory:
+                # Scoped: each invocation gets its own thread for audit trail
+                scoped = original_memory.create_scoped_handler(name)
+                llm_ref.memory = scoped  # temporarily swap
+                llm_ref.chat_history = []
+            else:
+                llm_ref.clear_history()
+                
             llm_ref.query(prompt)
-            return llm_ref.get_tool_responses()
+            result = llm_ref.get_tool_responses()
+            
+            if original_memory:
+                llm_ref.memory = original_memory  # restore parent handler
+                
+            return result
 
         _wrapper.__name__ = name
         _wrapper.__pydantic_model__ = None  # use raw **kwargs path in dispatcher

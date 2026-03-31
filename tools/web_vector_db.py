@@ -11,7 +11,6 @@ using Chonkie CHOMP Pipeline for markdown-aware chunking, and the project's
 
 import hashlib
 import logging
-import re
 import threading
 from datetime import datetime, timezone, timedelta
 

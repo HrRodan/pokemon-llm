@@ -4,6 +4,7 @@ from .utils import pretty_print_json, clean_json
 from .tool_definition import tool, get_tool_schema
 from .agent import LLMAgent, AgentUsage, AgentConfig
 from .logger import setup_agent_logger
+from .memory import MemoryHandler, InMemoryBackend, SQLiteBackend, SubagentMemoryMode
 
 __all__ = [
     "LLMQuery",
@@ -19,4 +20,8 @@ __all__ = [
     "AgentUsage",
     "AgentConfig",
     "setup_agent_logger",
+    "MemoryHandler",
+    "InMemoryBackend",
+    "SQLiteBackend",
+    "SubagentMemoryMode",
 ]

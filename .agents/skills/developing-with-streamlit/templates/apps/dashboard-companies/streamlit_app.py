@@ -17,7 +17,6 @@ from datetime import date, timedelta
 import numpy as np
 import pandas as pd
 import streamlit as st
-import altair as alt
 
 st.set_page_config(
     page_title="Company Analytics",

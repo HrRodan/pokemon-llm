@@ -3,7 +3,6 @@
 from datetime import datetime, timezone, timedelta
 from unittest.mock import MagicMock, patch
 
-import pytest
 
 from tools.web_content import PageMarkdownResult
 from tools.web_vector_db import (
@@ -173,7 +172,7 @@ class TestIngestWebPageArgs:
         args = IngestWebPageArgs(url="https://example.com")
         assert args.css_selector is None
         assert args.use_stealth is False
-        assert args.max_age_days == 7
+        assert args.max_age_days == 60
 
     def test_full(self):
         args = IngestWebPageArgs(

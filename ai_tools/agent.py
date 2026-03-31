@@ -5,7 +5,10 @@ Provides an LLMAgent that integrates usage tracking, a generalized execution loo
 history management, and an easy `as_tool()` method to expose an agent as a callable `@tool`.
 """
 
-from typing import Optional, List, Callable, Any, cast, Union, Type, Dict
+from typing import Optional, List, Callable, Any, cast, Union, Type, Dict, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from .memory import MemoryHandler
 import logging
 from dataclasses import dataclass
 
@@ -37,6 +40,7 @@ class AgentConfig:
     reasoning_effort: Optional[str] = None
     use_history: bool = True
     response_format: Union[Dict[str, Any], Type[Any], None] = None
+    memory: Optional["MemoryHandler"] = None
 
 
 @dataclass
@@ -94,6 +98,7 @@ class LLMAgent:
             use_history=config.use_history,
             response_format=config.response_format,
             concurrent_tool_calls=config.concurrent_tool_calls,
+            memory=config.memory,
         )
 
         self._call_count: int = 0
@@ -183,12 +188,22 @@ class LLMAgent:
             },
         }
 
-        # capture referenece to avoid circular binding
+        # capture reference to avoid circular binding
         agent_ref = self
 
         def _wrapper(**kwargs) -> str:
-            agent_ref.llm.clear_history()
-            return agent_ref.run(kwargs.get("query", ""))
+            original_memory = getattr(agent_ref.llm, "memory", None)
+            if original_memory:
+                # Scoped: each invocation gets its own isolated thread
+                scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
+                agent_ref.llm.memory = scoped
+                agent_ref.llm.chat_history = []
+            else:
+                agent_ref.llm.clear_history()
+            result = agent_ref.run(kwargs.get("query", ""))
+            if original_memory:
+                agent_ref.llm.memory = original_memory  # restore parent handler
+            return result
 
         _wrapper.__name__ = self.TOOL_NAME
         _wrapper.__tool_schema__ = tool_schema

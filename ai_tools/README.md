@@ -16,6 +16,7 @@ API (OpenAI, Gemini, OpenRouter, Ollama) and performing multi-modal AI tasks
 | [`multimodal.py`](multimodal.py) | `MultiModalMixin` — image generation, TTS, audio transcription, embeddings |
 | [`tools.py`](tools.py) | `LLMQuery` (primary core client) |
 | [`agent.py`](agent.py) | `LLMAgent` — A higher-level wrapper for `LLMQuery` providing an automated execution loop, dynamic usage tracking, and tool exporting. |
+| [`memory/`](memory/) | Pluggable conversational memory system (SQLite / In-Memory), threads, and rollbacks. [Docs](memory/README.md) |
 | [`logger.py`](logger.py) | Optional colored console logging functions via `setup_agent_logger()`. |
 | [`tool_definition.py`](tool_definition.py) | `@tool` decorator, `collect_tools`, schema inference from type hints |
 | [`__init__.py`](__init__.py) | Package-level convenience imports |
@@ -37,6 +38,24 @@ llm.query("Follow up question here...")  # history automatically included
 # Single-call model override
 reply = llm.query("Translate this.", model="openai/gpt-4o-mini")
 ```
+
+### With Persistent Memory (SQLite)
+
+```python
+from ai_tools.tools import LLMQuery
+from ai_tools.memory import MemoryHandler, SQLiteBackend
+
+# Wrap an SQLite storage engine into the MemoryHandler
+memory = MemoryHandler(backend=SQLiteBackend("my_agent.db"))
+
+llm = LLMQuery(model="gemini/gemini-flash-latest", memory=memory)
+llm.query("Hello! My name is user.")
+
+# Resuming later automatically fetches the correct checkpoints via thread ID
+# memory.switch_thread("thread-id-here")
+```
+
+See the [Memory module README](memory/README.md) for full details on advanced state handling, rollbacks, thread resumption, and subagent scoping.
 
 ---
 

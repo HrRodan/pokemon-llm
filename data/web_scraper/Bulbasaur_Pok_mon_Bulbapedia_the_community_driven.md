@@ -1,7 +1,7 @@
 ---
 title: "Bulbasaur (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)"
-timestamp: "2026-03-22T21:19:59.465172+01:00"
+timestamp: "2026-03-31T22:12:05.247985+02:00"
 ---
 
 # Bulbasaur (Pokémon)
@@ -33,9 +33,10 @@ From Bulbapedia, the community-driven Pokémon encyclopedia.
 | --- | --- | | |
 | **Abilities**
 
-- Overgrow Cacophony Cacophony Chlorophyll
- Hidden Ability Cacophony
- Hidden Ability Cacophony Cacophony | |
+| Overgrow | Cacophony | Cacophony | Chlorophyll  
+ Hidden Ability | Cacophony  
+ Hidden Ability | Cacophony | Cacophony |
+| --- | --- | --- | --- | --- | --- | --- | | |
 | **Gender ratio**
 
 - Unknown
@@ -50,35 +51,37 @@ From Bulbapedia, the community-driven Pokémon encyclopedia.
 | 20 cycles | | |
 | **Height**
 
-- 2'04" 0.7 m
-- Bulbasaur
-- 0'0" 0 m
-- {{{form2}}}
-- 0'0" 0 m
-- {{{form3}}}
-- 0'0" 0 m
-- {{{form4}}}
-- 0'0" 0 m
-- {{{form5}}}
-- 0'0" 0 m
-- {{{form6}}}
-- 0'0" 0 m
-- {{{form7}}} | **Weight**
+| 2'04" | 0.7 m |
+| --- | --- |
+| Bulbasaur | |
+| 0'0" | 0 m |
+| {{{form2}}} | |
+| 0'0" | 0 m |
+| {{{form3}}} | |
+| 0'0" | 0 m |
+| {{{form4}}} | |
+| 0'0" | 0 m |
+| {{{form5}}} | |
+| 0'0" | 0 m |
+| {{{form6}}} | |
+| 0'0" | 0 m |
+| {{{form7}}} | | | **Weight**
 
-- 15.2 lbs. 6.9 kg
-- Bulbasaur
-- 0 lbs. 0 kg
-- {{{form2}}}
-- 0 lbs. 0 kg
-- {{{form3}}}
-- 0 lbs. 0 kg
-- {{{form4}}}
-- 0 lbs. 0 kg
-- {{{form5}}}
-- 0 lbs. 0 kg
-- {{{form6}}}
-- 0 lbs. 0 kg
-- {{{form7}}} |
+| 15.2 lbs. | 6.9 kg |
+| --- | --- |
+| Bulbasaur | |
+| 0 lbs. | 0 kg |
+| {{{form2}}} | |
+| 0 lbs. | 0 kg |
+| {{{form3}}} | |
+| 0 lbs. | 0 kg |
+| {{{form4}}} | |
+| 0 lbs. | 0 kg |
+| {{{form5}}} | |
+| 0 lbs. | 0 kg |
+| {{{form6}}} | |
+| 0 lbs. | 0 kg |
+| {{{form7}}} | | |
 | **Mega Stone**
 
 | [[\|]] | [[\|]] |
@@ -93,36 +96,40 @@ V+ |
 | Medium Slow |
 | **EV yield**
 
-- Total: 1
-- Bulbasaur
-- 0
-HP 0
-Atk 0
-Def 1
-Sp.Atk 0
-Sp.Def 0
-Speed
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 0
-Speed
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 0
-Speed
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 0
-Speed | |
+| Total: 1 | | | | | |
+| --- | --- | --- | --- | --- | --- |
+| Bulbasaur | | | | | |
+| 0  
+HP | 0  
+Atk | 0  
+Def | 1  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed |
+
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed |
+
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed |
+
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed | | |
 | **Shape** |
 
 | **Footprint**
@@ -143,6 +150,168 @@ Artwork on Bulbagarden Archives |
 It evolves into Ivysaur starting at level 16, which evolves into Venusaur starting at level 32.
 
 Along with Charmander and Squirtle, Bulbasaur is one of the three first partner Pokémon of Kanto available at the beginning of Pokémon Red, Green, Blue, FireRed, and LeafGreen.
+
+next
+
+stay
+
+CC
+
+[https://imasdk.googleapis.com/js/core/bridge3.754.1_en.html?gdpr=1#deid=%22%22&amp;eventfe_experiment_ids=%5B%5D&amp;fid=%22goog_74343668%22&amp;genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45706017%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45765927%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45715032%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45656766%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710689%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710688%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45658982%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45725657%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B20%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95382403%5D%2C%5B95386528%2C%5B%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386532%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386533%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C300%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386534%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95384561%5D%2C%5B95384562%2C%5B%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95385117%5D%2C%5B95385118%2C%5B%5B45761044%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95385193%5D%2C%5B95385194%2C%5B%5B45765927%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&amp;imalib_experiments=%5B95322027%2C95331589%2C95332046%2C95379824%5D&amp;is_eap_loader=false&amp;managed_js_experiment_id=0&amp;page_correlator=4201013132602145&amp;pvsid=8171910064467435&amp;top_accessible_page_url=%22https%3A%2F%2Fbulbapedia.bulbagarden.net%2Fwiki%2FBulbasaur_(Pok%25C3%25A9mon)%22](https://imasdk.googleapis.com/js/core/bridge3.754.1_en.html?gdpr=1#deid=%22%22&amp;eventfe_experiment_ids=%5B%5D&amp;fid=%22goog_74343668%22&amp;genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45706017%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45765927%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45715032%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45656766%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710689%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710688%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45658982%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45725657%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B20%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95382403%5D%2C%5B95386528%2C%5B%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386532%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386533%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C300%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386534%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95384561%5D%2C%5B95384562%2C%5B%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95385117%5D%2C%5B95385118%2C%5B%5B45761044%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95385193%5D%2C%5B95385194%2C%5B%5B45765927%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&amp;imalib_experiments=%5B95322027%2C95331589%2C95332046%2C95379824%5D&amp;is_eap_loader=false&amp;managed_js_experiment_id=0&amp;page_correlator=4201013132602145&amp;pvsid=8171910064467435&amp;top_accessible_page_url=%22https%3A%2F%2Fbulbapedia.bulbagarden.net%2Fwiki%2FBulbasaur_(Pok%25C3%25A9mon)%22)
+
+Settings
+
+Off
+
+Arabic
+
+Chinese
+
+English
+
+French
+
+German
+
+Hindi
+
+Portuguese
+
+Spanish
+
+Font Colorwhite
+
+Font Opacity100%
+
+Font Size100%
+
+Font FamilyArial
+
+Text Shadownone
+
+Background Colorblack
+
+Background Opacity50%
+
+Window Colorblack
+
+Window Opacity0%
+
+White
+
+Black
+
+Red
+
+Green
+
+Blue
+
+Yellow
+
+Magenta
+
+Cyan
+
+100%
+
+75%
+
+50%
+
+25%
+
+200%
+
+175%
+
+150%
+
+125%
+
+100%
+
+75%
+
+50%
+
+Arial
+
+Georgia
+
+Garamond
+
+Courier New
+
+Tahoma
+
+Times New Roman
+
+Trebuchet MS
+
+Verdana
+
+None
+
+Raised
+
+Depressed
+
+Uniform
+
+Drop Shadow
+
+White
+
+Black
+
+Red
+
+Green
+
+Blue
+
+Yellow
+
+Magenta
+
+Cyan
+
+100%
+
+75%
+
+50%
+
+25%
+
+0%
+
+White
+
+Black
+
+Red
+
+Green
+
+Blue
+
+Yellow
+
+Magenta
+
+Cyan
+
+100%
+
+75%
+
+50%
+
+25%
+
+0%
 
 ## Biology
 
@@ -175,6 +344,7 @@ Bulbasaur evolves into Ivysaur, which evolves into Venusaur.
 
 - If the player chose Squirtle, the player's rival, Blue, will pick Bulbasaur in Generation I and Pokémon FireRed and LeafGreen. Blue will use this Bulbasaur in his first three battles against the player before it evolves into Ivysaur.
 - Professor Sycamore will use a Bulbasaur in his first battle against the player in Pokémon X and Y.
+- Pokémon Pokopia: Bulbasaur is the second Pokémon Ditto befriends, and the first Pokémon to appear in a restored habitat. They teach Ditto how to use Leafage.
 
 ### Pokédex entries
 
@@ -541,15 +711,21 @@ Pokémon caught in Generation I must be traded to a Generation II game in order 
 
 #### Pokéathlon stats
 
-- **Speed**
-- 2/3 ★★☆ - **Power**
-- 2/3 ★★☆
-- **Skill**
-- 3/4 ★★★☆ - **Stamina**
-- 3/4 ★★★☆
-- **Jump**
-- 3/3 ★★★ - **Total**
-- 13/17 ★★☆
+- | **Speed** | |
+| --- | --- |
+| 2/3 | ★★☆ | - | **Power** | |
+| --- | --- |
+| 2/3 | ★★☆ |
+- | **Skill** | |
+| --- | --- |
+| 3/4 | ★★★☆ | - | **Stamina** | |
+| --- | --- |
+| 3/4 | ★★★☆ |
+- | **Jump** | |
+| --- | --- |
+| 3/3 | ★★★ | - | **Total** | |
+| --- | --- |
+| 13/17 | ★★☆ |
 
 ### Type effectiveness
 
@@ -984,22 +1160,23 @@ Red Rescue Team and Blue Rescue Team**
 - IQ group: F | | | | | |
 | - **Pokémon Super Mystery Dungeon**
 
-- Body size: Standard (1 tile)
+| | Body size: Standard (1 tile)
 
 How to Recruit: Talk to in Baram Town
 
 Connected to: Charmander, Squirtle, Mew
 
-Connection Orb Set: 1
-- **Phrases**
-- Normal Seeds are full of nutrition!
-- Low HP (< 50%) Oh, this is so hard…
-- **Phrases if the hero**
-- Normal (All right! I'll give it my all!)
-- Low HP (< 50%) (This is hard…but I need to hang in there!)
-- **Phrases if the partner**
-- Normal Let's give it our all!
-- Low HP (< 50%) I'm OK… I can take it a little more… | | | | | |
+Connection Orb Set: 1 |
+| --- | --- |
+| **Phrases** | |
+| Normal | Seeds are full of nutrition! |
+| Low HP (< 50%) | Oh, this is so hard… |
+| **Phrases if the hero** | |
+| Normal | (All right! I'll give it my all!) |
+| Low HP (< 50%) | (This is hard…but I need to hang in there!) |
+| **Phrases if the partner** | |
+| Normal | Let's give it our all! |
+| Low HP (< 50%) | I'm OK… I can take it a little more… | | | | | | |
 | - **Pokémon Ranger**
 
 - Group:
@@ -1579,6 +1756,7 @@ Multiple Bulbasaur appeared in the music video for Celestial.
 
 - In the Japanese Pokémon Red, Green, and Blue, the international Pokémon Red and Blue, and the Japanese Pokémon FireRed and LeafGreen, Professor Oak classifies Bulbasaur as the "plant Pokémon" (Japanese: しょくぶつポケモン) when the player is about to choose it as their first partner Pokémon, using the term while referring to its type. In the English versions of Pokémon FireRed and LeafGreen, he calls it the "grass Pokémon".
   * This also occurs in the first episode of Pokémon Origins.
+- Bulbasaur is one of only two first partner Pokémon that is dual-type in its initial form, with the other being Rowlet.
 - Bulbasaur's evolutionary line is the only Poison-type Pokémon to be part of a first partner Pokémon family.
 - Bulbasaur shares its category with its evolved forms and Sunkern. They are all known as the Seed Pokémon.
 - Bulbasaur's number in the National Pokédex and the Fiore Browser are the same: 001.
@@ -1626,14 +1804,15 @@ From 奇異 *kèihyih* (strange) and 種子 *júngjí* (seed) |
 | Brazilian Portuguese | Bulbasaur | Same as English name |
 
 | --- |
-| - **More languages**
-- Arabic بولباصور *Bulbasaur* Transcription of English name
-- Bulgarian Бълбазор *Bulbazor* Phonetic transcription of English name
-- Hebrew בלבאזור *Balbasor* Transcription of English name
-- Hindi बल्बासॉर *Bulbasaur* Transcription of English name
-- Lithuanian Balbazauras From English name
-- Russian Бульбазавр *Bul'bazavr* Transcription of English name
-- Thai ฟุชิกิดาเนะ *Fuchikidane* Transcription of Japanese name |
+| | **More languages** | | |
+| --- | --- | --- |
+| Arabic | بولباصور *Bulbasaur* | Transcription of English name |
+| Bulgarian | Бълбазор *Bulbazor* | Phonetic transcription of English name |
+| Hebrew | בלבאזור *Balbasor* | Transcription of English name |
+| Hindi | बल्बासॉर *Bulbasaur* | Transcription of English name |
+| Lithuanian | Balbazauras | From English name |
+| Russian | Бульбазавр *Bul'bazavr* | Transcription of English name |
+| Thai | ฟุชิกิดาเนะ *Fuchikidane* | Transcription of Japanese name | |
 
 
 ## See also

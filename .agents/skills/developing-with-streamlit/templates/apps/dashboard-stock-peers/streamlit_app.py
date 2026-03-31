@@ -203,7 +203,7 @@ def load_data(tickers, period):
 # Load the data
 try:
     data = load_data(tickers, horizon_map[horizon])
-except yf.exceptions.YFRateLimitError as e:
+except yf.exceptions.YFRateLimitError:
     st.warning("YFinance is rate-limiting us :(\nTry again later.")
     load_data.clear()  # Remove the bad cache entry.
     st.stop()

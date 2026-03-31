@@ -1,5 +1,4 @@
 
-import pytest
 from ai_tools.tools import LLMQuery
 
 def test_get_consistent_history_backtracks_to_user():
