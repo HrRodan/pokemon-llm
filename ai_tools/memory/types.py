@@ -1,3 +1,12 @@
+"""
+Dataclass schemas and type definitions across the memory subsystem.
+
+Includes common abstractions for mapping agent states into discrete objects
+that backends serialize and deserialize. Key constructs include `ConversationState`
+(the payload generated at the end of an LLM turn), `Checkpoint` (an immutable step
+snapshot), and enumeration flags like `SubagentMemoryMode`.
+"""
+
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional

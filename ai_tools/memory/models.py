@@ -1,3 +1,13 @@
+"""
+SQLAlchemy declarative ORM models for conversational threads and checkpoints.
+
+Provides the structural schema definitions for translating in-memory Python
+conversations into durable relational database rows.
+- `ThreadModel` maps to the high-level conversation metadata.
+- `CheckpointModel` maps to discrete, immutable snapshots of conversation payloads
+  (messages, tool calls, token usage) at specific interaction steps.
+"""
+
 from datetime import datetime, timezone
 from sqlalchemy import (
     Column, DateTime, Integer, String, JSON, ForeignKey, UniqueConstraint

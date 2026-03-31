@@ -4,11 +4,6 @@ config.py — API key management, model definitions, and provider configuration.
 This module is the single source of truth for:
 
 - Provider base URLs (Gemini, OpenRouter, Ollama)
-- Available model names as ``Literal`` type aliases for static analysis and IDE
-  auto-complete (``GPTModels``, ``GeminiModels``, ``OllamaModels``, ``OpenRouterModels``)
-- The ``ModelName`` union type consumed throughout the package
-- ``MODEL_DICT``: a provider → set-of-model-names lookup used by
-  ``_get_client_for_model()`` to pick the right ``OpenAI`` client
 - ``get_api_key()``: a lazy, cached key resolver that tries Colab → env →
   interactive prompt in order, so the module is safe to import in any
   environment without blocking or raising.

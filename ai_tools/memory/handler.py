@@ -1,3 +1,13 @@
+"""
+User-facing MemoryHandler coordinator managing threads, checkpoints, and subagents.
+
+The `MemoryHandler` acts as a stateful coordinator wrapping an underlying `MemoryBackend`.
+It abstracts away explicit step tracking, managing the `thread_id` and `step_id`
+internally during invocations. It seamlessly swaps context when navigating threads
+and generates isolated scoped states for subagent invocations to prevent parent
+conversation pollution.
+"""
+
 import logging
 import uuid
 from typing import Dict, List, Optional, Any

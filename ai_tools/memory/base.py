@@ -1,3 +1,12 @@
+"""
+Abstract base classes and protocols for the conversational memory storage backends.
+
+This file defines the `MemoryBackend` interface, which dictates the strict protocol
+any storage integration must follow to be used by a `MemoryHandler`. It covers
+checkpoint saving, thread resumption, retrieving conversation histories,
+checkpoint listing, and rollback features.
+"""
+
 from abc import ABC, abstractmethod
 from typing import List, Optional
 

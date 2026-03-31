@@ -33,8 +33,8 @@ Maintain strict focus on the agreed-upon objective.
 
 ## 4. Production-Ready Execution
 When given the green light to implement, ensure code meets production standards:
-* **Completeness:** Include appropriate tests, error handling, logging/metrics hooks, type hints, and comments on complex logic.
-* **Documentation:** Update all relevant docs after implementation, including the `README.md` and docstrings.
+* **Completeness:** Include appropriate tests, documentation, error handling, logging/metrics hooks, type hints, and comments on complex logic.
+* **Mandatory documentation:** Update or create **all** relevant docs after implementation, including the `README.md` and docstrings and modul docstrings.
 * **NO AI Slop:** Remove all unnecessary comments and AI reasoning artifacts (LLM thoughts) from the final code output.
 
 ## 5. Verification Before Done

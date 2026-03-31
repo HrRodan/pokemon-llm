@@ -1,3 +1,13 @@
+"""
+Persistent SQLite-backed conversational memory storage using SQLAlchemy.
+
+The `SQLiteBackend` implementation maps the abstract `MemoryBackend` protocol onto
+a raw SQLite database instance. It uses SQLAlchemy's declarative mappers to push
+records to disk robustly, automatically initializing tables and utilizing `WAL`
+mode for high-concurrency throughput (suitable for both synchronous scripts and
+async HTTP agent servers).
+"""
+
 import logging
 from datetime import datetime, timezone
 from typing import List, Optional

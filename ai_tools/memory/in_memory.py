@@ -1,3 +1,12 @@
+"""
+Ephemeral, RAM-only execution backend for conversational memory.
+
+`InMemoryBackend` stores all `ThreadInfo` and `Checkpoint` states explicitly in
+Python dictionaries. It requires zero configuration, enforces no disk I/O, and
+operates purely during the runtime of the executing process. When the Python
+process terminates, all stored conversation histories are discarded.
+"""
+
 from typing import Dict, List, Optional
 from datetime import datetime, timezone
 
