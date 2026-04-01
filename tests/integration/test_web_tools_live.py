@@ -11,6 +11,7 @@ import pytest
 from tools.web_content import FetchPageInput, PageMarkdownResult, fetch_page_as_markdown
 from tools.web_search import GoogleSearchInput, GoogleSearchResult, google_search
 from tools.web_search_ddg import DuckDuckGoSearchInput, DuckDuckGoSearchResult, duckduckgo_search
+from tools.web_search_brave import BraveSearchInput, BraveSearchResult, brave_search
 
 pytestmark = pytest.mark.integration
 
@@ -103,6 +104,40 @@ class TestDuckDuckGoSearchLive:
         print(f"\n[ad-filter live] {result.total_returned} organic results returned:")
         for item in result.results:
             print(f"  {item.title} — {item.url}")
+
+
+class TestBraveSearchLive:
+    """Live integration tests for brave_search tool."""
+
+    @pytest.mark.slow
+    def test_basic_search(self):
+        """Search for a common term and verify we get results."""
+        args = BraveSearchInput(query="Pikachu pokemon", max_results=3)
+        raw = brave_search(args)
+        result = BraveSearchResult.model_validate_json(raw)
+
+        assert result.error is None, f"Search failed: {result.error}"
+        assert result.total_returned > 0, "Expected at least one result"
+
+        for item in result.results:
+            assert item.title, "Result should have a title"
+            assert item.url.startswith("http"), f"Bad URL: {item.url}"
+
+    @pytest.mark.slow
+    def test_site_restricted_search(self):
+        """Search restricted to bulbapedia."""
+        args = BraveSearchInput(
+            query="Bulbasaur",
+            site_restrict="bulbapedia.bulbagarden.net",
+            max_results=3,
+        )
+        raw = brave_search(args)
+        result = BraveSearchResult.model_validate_json(raw)
+
+        assert result.error is None, f"Search failed: {result.error}"
+        # Some URLs might omit www or similar, but the URL must contain bulbapedia
+        for item in result.results:
+             assert "bulbapedia.bulbagarden.net" in item.url
 
 
 class TestFetchPageLive:

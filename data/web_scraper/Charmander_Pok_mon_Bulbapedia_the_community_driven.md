@@ -1,7 +1,7 @@
 ---
 title: "Charmander (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
-timestamp: "2026-03-22T17:59:46.907910+01:00"
+timestamp: "2026-04-01T23:14:59.096910+02:00"
 ---
 
 
@@ -33,9 +33,10 @@ timestamp: "2026-03-22T17:59:46.907910+01:00"
 | --- | --- | | |
 | **Abilities**
 
-- Blaze Cacophony Cacophony Solar Power
- Hidden Ability Cacophony
- Hidden Ability Cacophony Cacophony | |
+| Blaze | Cacophony | Cacophony | Solar Power  
+ Hidden Ability | Cacophony  
+ Hidden Ability | Cacophony | Cacophony |
+| --- | --- | --- | --- | --- | --- | --- | | |
 | **Gender ratio**
 
 - Unknown
@@ -50,35 +51,37 @@ timestamp: "2026-03-22T17:59:46.907910+01:00"
 | 20 cycles | | |
 | **Height**
 
-- 2'00" 0.6 m
-- Charmander
-- 0'0" 0 m
-- {{{form2}}}
-- 0'0" 0 m
-- {{{form3}}}
-- 0'0" 0 m
-- {{{form4}}}
-- 0'0" 0 m
-- {{{form5}}}
-- 0'0" 0 m
-- {{{form6}}}
-- 0'0" 0 m
-- {{{form7}}} | **Weight**
+| 2'00" | 0.6 m |
+| --- | --- |
+| Charmander | |
+| 0'0" | 0 m |
+| {{{form2}}} | |
+| 0'0" | 0 m |
+| {{{form3}}} | |
+| 0'0" | 0 m |
+| {{{form4}}} | |
+| 0'0" | 0 m |
+| {{{form5}}} | |
+| 0'0" | 0 m |
+| {{{form6}}} | |
+| 0'0" | 0 m |
+| {{{form7}}} | | | **Weight**
 
-- 18.7 lbs. 8.5 kg
-- Charmander
-- 0 lbs. 0 kg
-- {{{form2}}}
-- 0 lbs. 0 kg
-- {{{form3}}}
-- 0 lbs. 0 kg
-- {{{form4}}}
-- 0 lbs. 0 kg
-- {{{form5}}}
-- 0 lbs. 0 kg
-- {{{form6}}}
-- 0 lbs. 0 kg
-- {{{form7}}} |
+| 18.7 lbs. | 8.5 kg |
+| --- | --- |
+| Charmander | |
+| 0 lbs. | 0 kg |
+| {{{form2}}} | |
+| 0 lbs. | 0 kg |
+| {{{form3}}} | |
+| 0 lbs. | 0 kg |
+| {{{form4}}} | |
+| 0 lbs. | 0 kg |
+| {{{form5}}} | |
+| 0 lbs. | 0 kg |
+| {{{form6}}} | |
+| 0 lbs. | 0 kg |
+| {{{form7}}} | | |
 | **Mega Stone**
 
 | [[\|]] | [[\|]] |
@@ -93,36 +96,40 @@ V+ |
 | Medium Slow |
 | **EV yield**
 
-- Total: 1
-- Charmander
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 1
-Speed
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 0
-Speed
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 0
-Speed
-- 0
-HP 0
-Atk 0
-Def 0
-Sp.Atk 0
-Sp.Def 0
-Speed | |
+| Total: 1 | | | | | |
+| --- | --- | --- | --- | --- | --- |
+| Charmander | | | | | |
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 1  
+Speed |
+
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed |
+
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed |
+
+| 0  
+HP | 0  
+Atk | 0  
+Def | 0  
+Sp.Atk | 0  
+Sp.Def | 0  
+Speed | | |
 | **Shape** |
 
 | **Footprint**
@@ -545,15 +552,21 @@ Pokémon caught in Generation I must be traded to a Generation II game in order 
 
 #### Pokéathlon stats
 
-- **Speed**
-- 3/3 ★★★ - **Power**
-- 1/5 ★☆☆☆☆
-- **Skill**
-- 3/4 ★★★☆ - **Stamina**
-- 1/3 ★☆☆
-- **Jump**
-- 3/3 ★★★ - **Total**
-- 11/18 ★★☆
+- | **Speed** | |
+| --- | --- |
+| 3/3 | ★★★ | - | **Power** | |
+| --- | --- |
+| 1/5 | ★☆☆☆☆ |
+- | **Skill** | |
+| --- | --- |
+| 3/4 | ★★★☆ | - | **Stamina** | |
+| --- | --- |
+| 1/3 | ★☆☆ |
+- | **Jump** | |
+| --- | --- |
+| 3/3 | ★★★ | - | **Total** | |
+| --- | --- |
+| 11/18 | ★★☆ |
 
 ### Type effectiveness
 
@@ -825,7 +838,7 @@ Charmander is available in Scarlet and Violet and Legends: Z-A.
 | --- | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  | 1 | 10 | Tackle | Normal | Physical | 04040 | 4 |
 | 1 | 10 | Growl | Normal | Status | 0000— | 6 |
-| 7 | 10 | **Ember** | Fire | Special | 04040 | 6 |
+| 4 | 7 | **Ember** | Fire | Special | 04040 | 6 |
 | 8 | 11 | Smokescreen | Normal | Status | 0000— | 10 |
 | 12 | 15 | Dragon Breath | Dragon | Special | 06060 | 6 |
 | 17 | 20 | **Fire Fang** | Fire | Physical | 06565 | 6 |
@@ -1004,22 +1017,23 @@ Red Rescue Team and Blue Rescue Team**
 - IQ group: C | | | | | |
 | - **Pokémon Super Mystery Dungeon**
 
-- Body size: Standard (1 tile)
+| | Body size: Standard (1 tile)
 
 How to Recruit: Talk to in Capim Town
 
 Connected to: Bulbasaur, Squirtle, Chimchar
 
-Connection Orb Set: 1
-- **Phrases**
-- Normal The fire at the tip of my tail shows my energy!
-- Low HP (< 50%) Argh… It's getting tough…
-- **Phrases if the hero**
-- Normal (All right! I'll give it my all!)
-- Low HP (< 50%) (This is hard…but I need to hang in there!)
-- **Phrases if the partner**
-- Normal Let's give it our all!
-- Low HP (< 50%) I'm OK… I can take it a little more… | | | | | |
+Connection Orb Set: 1 |
+| --- | --- |
+| **Phrases** | |
+| Normal | The fire at the tip of my tail shows my energy! |
+| Low HP (< 50%) | Argh… It's getting tough… |
+| **Phrases if the hero** | |
+| Normal | (All right! I'll give it my all!) |
+| Low HP (< 50%) | (This is hard…but I need to hang in there!) |
+| **Phrases if the partner** | |
+| Normal | Let's give it our all! |
+| Low HP (< 50%) | I'm OK… I can take it a little more… | | | | | | |
 | - **Pokémon Ranger**
 
 - Group:
@@ -1351,7 +1365,7 @@ In a flashback in *Challenge of the Samurai*, a Trainer's Charmander was shown b
 
 In *Battle Aboard the St. Anne*, multiple Charmander were aboard the St. Anne.
 
-In *Hypno's Naptime*, a Charmander was in HopHopHop Town's Pokémon Center.
+In *Hypno's Naptime*, a Charmander experiencing negative side effects from a Hypno's Hypnosis was treated at HopHopHop Town's Pokémon Center. According to Nurse Joy, the flame on its tail was nearly extinguished by the time Ash and his friends met it.
 
 In *Pokémon Fashion Flash*, a Charmander was on Scissor Street.
 
@@ -1549,7 +1563,7 @@ Charmander appears as a trophy.
 
 ### Super Smash Bros. Ultimate
 
-Charmander appears as a Spirit.
+Charmander appears as a Spirit. Its Spirit Battle is against a tiny Charizard and is set on the Battlefield form of The Great Cave Offensive, which has a lava floor.
 
 ### *POKÉMON Detective Pikachu*
 
@@ -1621,14 +1635,15 @@ Hitokage may be a combination of 火 *hi* (fire) and 蜥蜴 *tokage* (lizard), f
 | Brazilian Portuguese | Charmander | Same as English name |
 
 | --- |
-| - **More languages**
-- Arabic تشارمندر *Charmander* Transcription of English name
-- Bulgarian Чармандър *Charmandŭr* Transcription of English name
-- Hebrew צ'רמנדר *Charmander* Transcription of English name
-- Hindi चारमैंडर *Charmander* Transcription of English name
-- Lithuanian Žavingasis From English name
-- Russian Чармандер *Charmander* Transcription of English name
-- Thai ฮิโตคาเงะ *Hitokha-nge* Transcription of Japanese name |
+| | [show]**More languages** | | |
+| --- | --- | --- |
+| Arabic | تشارمندر *Charmander* | Transcription of English name |
+| Bulgarian | Чармандър *Charmandŭr* | Transcription of English name |
+| Hebrew | צ'רמנדר *Charmander* | Transcription of English name |
+| Hindi | चारमैंडर *Charmander* | Transcription of English name |
+| Lithuanian | Žavingasis | From English name |
+| Russian | Чармандер *Charmander* | Transcription of English name |
+| Thai | ฮิโตคาเงะ *Hitokha-nge* | Transcription of Japanese name | |
 
 
 ## See also

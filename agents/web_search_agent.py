@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 from ai_tools.agent import AgentConfig
 from ai_tools.tool_definition import tool
 from agents.base_agent import BaseAgent
-from tools.web_search_ddg import duckduckgo_search, DuckDuckGoSearchInput
+from tools.web_search_brave_llm_context import brave_llm_context_search, BraveLLMContextInput
 from tools.web_content import (
     extract_page_links,
     extract_structured_data,
@@ -28,11 +28,15 @@ class BulbapediaSearchInput(BaseModel):
 
 @tool(schema=BulbapediaSearchInput)
 def bulbapedia_search(args: BulbapediaSearchInput) -> str:
-    """Search Bulbapedia (Pokémon wiki) for the given query and return a list of matching URLs."""
-    ddg_input = DuckDuckGoSearchInput(
-        query=args.query, site_restrict="bulbapedia.bulbagarden.net", max_results=10
+    """Search Bulbapedia (Pokémon wiki) for the given query using deep LLM Context extraction."""
+    brave_input = BraveLLMContextInput(
+        query=args.query,
+        site_restrict="bulbapedia.bulbagarden.net",
+        max_results=10,
+        maximum_number_of_tokens=4096,
+        context_threshold_mode="balanced"
     )
-    return duckduckgo_search(ddg_input)
+    return brave_llm_context_search(brave_input)
 
 
 class BulbapediaLinksInput(BaseModel):
@@ -134,28 +138,30 @@ you need, and avoiding unnecessary ingestion.
 
 | Tool | Purpose |
 |---|---|
-| `bulbapedia_search` | DuckDuckGo site-search on Bulbapedia. Returns URLs + snippets. |
+| `bulbapedia_search` | Brave LLM Context search on Bulbapedia. Returns URLs + deeply extracted content snippets. |
 | `bulbapedia_page_links` | List content-relevant internal links from a page with context snippets. Use to explore article structure before ingesting. |
 | `bulbapedia_structured_data` | Extract data tables (stats, move lists, type charts) as Markdown. Use for numerical or tabular data — faster and cheaper than full ingestion. |
-| `bulbapedia_ingest_page` | Download and chunk a full page into the vector database. Use only for prose/lore queries. |
+| `bulbapedia_ingest_page` | Download and chunk a full page into the vector database. Use only as a fallback. |
 | `bulbapedia_query_content` | Semantic search over ingested pages. Use after ingestion to find exact answers. |
 
 ## Execution Strategy
 
-**Phase 1 — Locate** (at **most** 1–2 calls)
-- Call `bulbapedia_search` to find candidate URLs. Do not search more than 3 times per query.
+**Phase 1 — Locate & Extract** (at **most** 1–2 calls)
+- Call `bulbapedia_search` to find candidate URLs and extract their deep context. 
+- **Check Snippets First:** The `snippet` fields returned by this tool contain dense, raw content (including markdown tables and text blocks) extracted directly from the pages. Read them carefully!
+- If the deep snippets completely answer the user's question, **stop here and answer immediately**. Ingestion is not required.
 
-**Phase 2 — Preview**
-- For structured/numerical questions (stats, moves, types, evolution chains):
-  → Call `bulbapedia_structured_data` directly on the best URL. If it returns the answer, **stop here**.
-- For lore/prose questions where you need to pick the right sub-page:
-  → Call `bulbapedia_page_links` to inspect the page's link structure and identify the relevant sub-article before ingesting.
+**Phase 2 — Preview (If needed)**
+- For structured/numerical questions (stats, moves, types, evolution chains) that weren't in the snippets:
+  → Call `bulbapedia_structured_data` directly on the best URL from Phase 1. If it returns the answer, **stop here**.
+- For dense lore where you need to find an exact sub-page:
+  → Call `bulbapedia_page_links` to review page structure before resorting to ingestion.
 
-**Phase 3 — Ingest**
-- Call `bulbapedia_ingest_page` for the most relevant URL.
+**Phase 3 — Ingest (Optional Fallback)**
+- Only call `bulbapedia_ingest_page` if Phases 1 and 2 failed to provide the required knowledge.
 - **Limit: ingest at most 3 pages per user query.**
 
-**Phase 4 — Query**
+**Phase 4 — Query (If ingested)**
 - Call `bulbapedia_query_content` to extract the exact answer from ingested content.
 - If the first query does not yield the answer, **reformulate the semantic query** with different keywords before ingesting another page.
 

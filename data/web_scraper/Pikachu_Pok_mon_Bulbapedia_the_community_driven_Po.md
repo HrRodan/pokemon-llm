@@ -1,7 +1,7 @@
 ---
 title: "Pikachu (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
-timestamp: "2026-03-31T22:01:11.620505+02:00"
+timestamp: "2026-04-01T23:14:39.368953+02:00"
 ---
 
 
@@ -733,7 +733,7 @@ Purchase for 6,000 Aeos Coins/345 Aeos Gems from Unite Battle Committee Pre vers
 
 ##### Pikachu
 
-| Games | Event | Language/Region | Location | Level | Distribution period |
+| Games | Event | Language/Region | Location | Level | [show]Distribution period |
 | --- | --- | --- | --- | --- | --- |
 | **RGB** | Pokémon 2 Idea Contest Pikachu | Japanese | Japan | 5 | May 15 to June 12, 1997 |
 | **RGB** | Nintendo 64 Pikachu | Japanese | Japan | 5 | September 21 to October 31, 1997 |
@@ -3072,7 +3072,7 @@ Two Pikachu figures have been released.
 
 ## Other appearances
 
-Pikachu Libre in Pokkén TournamentPikachu in Pokémon UNITE
+Pikachu in Pokkén TournamentPikachu in Pokémon UNITE
 
 ### Pokkén Tournament
 
@@ -3205,7 +3205,7 @@ From the transcription of Japanese name and 超 *chīu* (super) |
 | Brazilian Portuguese | Pikachu | Same as English/Japanese name |
 
 | --- |
-| | **More languages** | | |
+| | [show]**More languages** | | |
 | --- | --- | --- |
 | Albanian | Pikaçu | Transcription of Japanese name |
 | Arabic | بيكاتشو *Bīkātshū* | Transcription of Japanese name |
