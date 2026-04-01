@@ -33,9 +33,7 @@ class MemoryBackend(ABC):
         """Load a specific checkpoint, or the latest if step_id is None."""
 
     @abstractmethod
-    def get_history(
-        self, thread_id: str, limit: Optional[int] = None
-    ) -> List[dict]:
+    def get_history(self, thread_id: str, limit: Optional[int] = None) -> List[dict]:
         """Return the message list from the latest checkpoint of the thread."""
 
     @abstractmethod
@@ -49,6 +47,10 @@ class MemoryBackend(ABC):
     @abstractmethod
     def rollback(self, thread_id: str, step_id: int) -> None:
         """Delete all checkpoints AFTER the given step_id."""
+
+    @abstractmethod
+    def fork_thread(self, thread_id: str, step_id: int, new_thread_id: str) -> None:
+        """Fork a thread at a specific step_id into a new thread."""
 
     @abstractmethod
     def delete_thread(self, thread_id: str) -> None:

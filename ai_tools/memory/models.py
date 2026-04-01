@@ -10,7 +10,13 @@ conversations into durable relational database rows.
 
 from datetime import datetime, timezone
 from sqlalchemy import (
-    Column, DateTime, Integer, String, JSON, ForeignKey, UniqueConstraint
+    Column,
+    DateTime,
+    Integer,
+    String,
+    JSON,
+    ForeignKey,
+    UniqueConstraint,
 )
 from sqlalchemy.orm import DeclarativeBase, relationship
 
@@ -21,11 +27,12 @@ class Base(DeclarativeBase):
 
 class ThreadModel(Base):
     """SQLAlchemy ORM model representing a conversation thread.
-    
+
     A thread groups a series of agent interaction checkpoints. It tracks metadata
     like the agent's name, parent tracing (for subagent scoping), message counts,
     and timestamps.
     """
+
     __tablename__ = "threads"
 
     thread_id = Column(String, primary_key=True)
@@ -56,11 +63,12 @@ class ThreadModel(Base):
 
 class CheckpointModel(Base):
     """SQLAlchemy ORM model for a conversation state checkpoint.
-    
+
     A checkpoint represents a complete immutable snapshot of a conversation
     at a specific step. It stores the raw JSON of messages, raw tool call outputs,
     and token usage snapshots.
     """
+
     __tablename__ = "checkpoints"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -79,6 +87,4 @@ class CheckpointModel(Base):
 
     thread = relationship("ThreadModel", back_populates="checkpoints")
 
-    __table_args__ = (
-        UniqueConstraint("thread_id", "step_id", name="uq_thread_step"),
-    )
+    __table_args__ = (UniqueConstraint("thread_id", "step_id", name="uq_thread_step"),)

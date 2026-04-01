@@ -180,14 +180,17 @@ class MemoryHandler:
     def rollback(self, step_id: int) -> None:
         """Rollback the active thread to the given step_id.
 
-        Deletes all checkpoints after ``step_id`` and resets the internal
-        counter so the next save starts from ``step_id + 1``.
+        Creates a new thread that forks the current thread at the given step_id.
+        The new thread references the current thread as parent to maintain a tree-like history.
         """
-        self._backend.rollback(self.thread_id, step_id)
-        self._step_id = step_id
+        new_thread_id = str(uuid.uuid4())
+        self._backend.fork_thread(self.thread_id, step_id, new_thread_id)
+
+        old_thread_id = self.thread_id
+        self.switch_thread(new_thread_id)
         if self._logger:
             self._logger.info(
-                f"💾 Rolled back thread {self.thread_id} to step {step_id}"
+                f"💾 Branched thread {old_thread_id} at step {step_id} into new thread {new_thread_id}"
             )
 
     # -- Deletion -------------------------------------------------------------
@@ -208,9 +211,7 @@ class MemoryHandler:
 
     # -- Subagent helpers -----------------------------------------------------
 
-    def create_scoped_handler(
-        self, subagent_name: str
-    ) -> "MemoryHandler":
+    def create_scoped_handler(self, subagent_name: str) -> "MemoryHandler":
         """Create a child MemoryHandler scoped for a subagent invocation.
 
         Generates a unique isolated thread ID for each invocation.

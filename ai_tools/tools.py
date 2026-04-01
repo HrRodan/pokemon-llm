@@ -1026,7 +1026,7 @@ class LLMQuery(MultiModalMixin):
             reasoning=reasoning,
         )
 
-        if self.memory:
+        if self.memory and not self.tool_calls:
             usage_snapshot = {
                 "prompt_tokens": self.total_prompt_tokens,
                 "completion_tokens": self.total_completion_tokens,
@@ -1035,7 +1035,7 @@ class LLMQuery(MultiModalMixin):
             }
             self.memory.save_checkpoint(
                 messages=self.chat_history,
-                tool_calls=self.tool_calls if self.tool_calls else None,
+                tool_calls=None,
                 usage=usage_snapshot,
             )
 

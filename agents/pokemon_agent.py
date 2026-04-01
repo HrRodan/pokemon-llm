@@ -1,13 +1,15 @@
 from typing import List, Dict, Any, Optional
+import os
 
 from ai_tools.agent import AgentConfig
+from ai_tools.memory import MemoryHandler, SQLiteBackend
 from ai_tools.tools import ModelName
 from agents.base_agent import BaseAgent
 from agents.api_agent import APIAgent
 from agents.rag_agent import RAGAgent
 from agents.tech_data_agent import TechDataAgent
 from agents.web_search_agent import WebSearchAgent
-from utils.config import settings
+from utils.config import settings, PROJECT_ROOT
 from utils.usage_tracker import UsageTracker
 
 SYSTEM_PROMPT_POKEMON_AGENT = """# System Prompt: Professor Oak (Pokémon AI Agent)
@@ -98,6 +100,14 @@ class PokemonAgent(BaseAgent):
         self._api = APIAgent()
         self._web = WebSearchAgent()
 
+        memory_dir = os.path.join(PROJECT_ROOT, "data", "memory")
+        os.makedirs(memory_dir, exist_ok=True)
+        memory_db_path = os.path.join(memory_dir, "agent.db")
+        memory_handler = MemoryHandler(
+            backend=SQLiteBackend(db_path=memory_db_path),
+            agent_name="PokemonAgent"
+        )
+
         super().__init__(
             config=AgentConfig(
                 name="PokemonAgent",
@@ -112,6 +122,7 @@ class PokemonAgent(BaseAgent):
                     self._web.as_tool(),
                 ],
                 history_limit=50,
+                memory=memory_handler,
             )
         )
 

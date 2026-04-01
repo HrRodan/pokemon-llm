@@ -4,6 +4,12 @@ from utils.ui_utils import (
     respond,
     format_empty_usage,
     extract_reasoning_info,
+    get_threads,
+    get_checkpoints,
+    switch_thread,
+    rollback_thread,
+    extract_tool_info,
+    extract_usage_info,
 )
 from utils.config import settings
 
@@ -53,6 +59,57 @@ with st.sidebar:
         st.session_state.agent.model = selected_model
         st.toast(f"Model changed to {selected_model}")
 
+    st.divider()
+    st.markdown("### 💾 Conversation Memory")
+    
+    agent = st.session_state.agent
+    if agent and getattr(agent.llm, "memory", None):
+        current_thread_id = agent.llm.memory.thread_id
+        st.caption(f"Current Thread: `{current_thread_id}`")
+        
+        threads = get_threads(agent)
+        if threads:
+            thread_options = {
+                t.thread_id: f"{t.updated_at.strftime('%m-%d %H:%M')} ({t.message_count} msgs)" 
+                for t in threads
+            }
+            thread_ids = list(thread_options.keys())
+            
+            if current_thread_id not in thread_ids:
+                thread_ids.insert(0, current_thread_id)
+                thread_options[current_thread_id] = "Current (Unsaved)"
+                
+            current_idx = thread_ids.index(current_thread_id)
+            
+            selected_thread = st.selectbox(
+                "Select Conversation",
+                options=thread_ids,
+                format_func=lambda x: thread_options.get(x, x),
+                index=current_idx,
+            )
+            
+            if selected_thread != current_thread_id:
+                switch_thread(agent, selected_thread)
+                st.session_state.messages = agent.clean_chat_history
+                st.session_state.tool_history = extract_tool_info(agent)
+                st.session_state.reasoning_history = extract_reasoning_info(agent)
+                st.session_state.usage_info = extract_usage_info(agent)
+                st.rerun()
+
+        checkpoints = get_checkpoints(agent)
+        if checkpoints:
+            with st.expander("Show Checkpoints", expanded=False):
+                for cp in reversed(checkpoints):
+                    st.write(f"**Step {cp.step_id}** ({cp.message_count} msgs)")
+                    st.caption(f"Time: {cp.created_at.strftime('%H:%M:%S')}")
+                    if st.button("Rollback here", key=f"rb_{cp.step_id}", use_container_width=True):
+                        rollback_thread(agent, cp.step_id)
+                        st.session_state.messages = agent.clean_chat_history
+                        st.session_state.tool_history = extract_tool_info(agent)
+                        st.session_state.reasoning_history = extract_reasoning_info(agent)
+                        st.session_state.usage_info = extract_usage_info(agent)
+                        st.rerun()
+                        
     st.divider()
     if st.button("Clear Conversation", type="secondary", use_container_width=True):
         st.session_state.messages = []

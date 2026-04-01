@@ -55,12 +55,14 @@ def bulbapedia_page_links(args: BulbapediaLinksInput) -> str:
     before deciding which ones to ingest. Returns each link with its anchor
     text, surrounding context snippet, and nearest section heading.
     """
-    return extract_page_links(ExtractLinksInput(
-        url=args.url,
-        domain_filter="bulbagarden.net",
-        include_external=False,
-        max_links=args.max_links,
-    ))
+    return extract_page_links(
+        ExtractLinksInput(
+            url=args.url,
+            domain_filter="bulbagarden.net",
+            include_external=False,
+            max_links=args.max_links,
+        )
+    )
 
 
 class BulbapediaStructuredDataInput(BaseModel):
@@ -81,14 +83,16 @@ def bulbapedia_structured_data(args: BulbapediaStructuredDataInput) -> str:
     as Markdown tables, labeled by caption or section heading. Use this for
     numerical or tabular Pokémon data — faster and cheaper than full ingestion.
     """
-    return extract_structured_data(ExtractStructuredDataInput(
-        url=args.url,
-        css_selector=args.css_selector,
-        min_rows=3,
-        min_columns=2,
-        max_columns=10,
-        max_tables=8,
-    ))
+    return extract_structured_data(
+        ExtractStructuredDataInput(
+            url=args.url,
+            css_selector=args.css_selector,
+            min_rows=3,
+            min_columns=2,
+            max_columns=10,
+            max_tables=8,
+        )
+    )
 
 
 class BulbapediaIngestInput(BaseModel):
@@ -138,7 +142,7 @@ you need, and avoiding unnecessary ingestion.
 
 ## Execution Strategy
 
-**Phase 1 — Locate** (at most 1–2 calls)
+**Phase 1 — Locate** (at **most** 1–2 calls)
 - Call `bulbapedia_search` to find candidate URLs. Do not search more than 3 times per query.
 
 **Phase 2 — Preview**
@@ -163,7 +167,7 @@ you need, and avoiding unnecessary ingestion.
 ## Output Rules
 - Answer **exclusively** from data retrieved via tools. Do not use pre-trained knowledge (anti-hallucination).
 - Be direct and factual. Do not add conversational padding ("Here is what I found…").
-- Cite the Bulbapedia URL(s) used at the end of your answer.
+- Do **not** include urls in the response.
 """
 
 

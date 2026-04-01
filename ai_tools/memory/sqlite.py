@@ -23,11 +23,11 @@ from .types import Checkpoint, CheckpointInfo, ConversationState, ThreadInfo
 
 class SQLiteBackend(MemoryBackend):
     """SQLite-backed persistent memory via SQLAlchemy.
-    
+
     Stores conversations, threads, and complete usage/tool-call payloads
     long-term in a robust local SQLite file configured with WAL mode to
     withstand concurrent synchronous/async environment writes.
-    
+
     Attributes:
         db_path (str): The local filesystem path to the sqlite `.db` file.
         logger (Optional[logging.Logger]): Logger instance for emitting SQL/connection debugs.
@@ -95,9 +95,7 @@ class SQLiteBackend(MemoryBackend):
         self, thread_id: str, step_id: Optional[int] = None
     ) -> Optional[Checkpoint]:
         with Session(self._engine) as session:
-            stmt = select(CheckpointModel).where(
-                CheckpointModel.thread_id == thread_id
-            )
+            stmt = select(CheckpointModel).where(CheckpointModel.thread_id == thread_id)
             if step_id is not None:
                 stmt = stmt.where(CheckpointModel.step_id == step_id)
             else:
@@ -118,9 +116,7 @@ class SQLiteBackend(MemoryBackend):
                 created_at=row.created_at,
             )
 
-    def get_history(
-        self, thread_id: str, limit: Optional[int] = None
-    ) -> List[dict]:
+    def get_history(self, thread_id: str, limit: Optional[int] = None) -> List[dict]:
         cp = self.load_checkpoint(thread_id)
         if cp is None:
             return []
@@ -196,6 +192,53 @@ class SQLiteBackend(MemoryBackend):
                     )
                 else:
                     thread.message_count = 0
+            session.commit()
+
+    def fork_thread(self, thread_id: str, step_id: int, new_thread_id: str) -> None:
+        """Fork a given thread up to a step_id into a fully isolated persistent new thread.
+        
+        This retains all checkpoint history of the source thread and duplicates
+        up to `step_id` to establish the new `new_thread_id` sequence.
+        """
+        now = datetime.now(timezone.utc)
+        with Session(self._engine) as session:
+            source_thread = session.get(ThreadModel, thread_id)
+            if not source_thread:
+                return
+
+            stmt = (
+                select(CheckpointModel)
+                .where(
+                    CheckpointModel.thread_id == thread_id,
+                    CheckpointModel.step_id <= step_id,
+                )
+                .order_by(CheckpointModel.step_id.asc())
+            )
+            checkpoints = session.execute(stmt).scalars().all()
+            message_count = len(checkpoints[-1].messages) if checkpoints else 0
+
+            new_thread = ThreadModel(
+                thread_id=new_thread_id,
+                agent_name=source_thread.agent_name,
+                parent_thread_id=thread_id,
+                parent_step_id=step_id,
+                created_at=now,
+                updated_at=now,
+                message_count=message_count,
+            )
+            session.add(new_thread)
+
+            for cp in checkpoints:
+                new_cp = CheckpointModel(
+                    thread_id=new_thread_id,
+                    step_id=cp.step_id,
+                    messages=cp.messages,
+                    tool_calls=cp.tool_calls,
+                    usage=cp.usage,
+                    created_at=cp.created_at,
+                )
+                session.add(new_cp)
+
             session.commit()
 
     def delete_thread(self, thread_id: str) -> None:

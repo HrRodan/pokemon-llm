@@ -245,3 +245,31 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
         get_log_buffer(),
         client_state,
     )
+
+
+def get_threads(client_state: Any) -> List[Any]:
+    """Return a list of ThreadInfo available in the MemoryHandler."""
+    if client_state and client_state.llm.memory:
+        return client_state.llm.memory.list_threads()
+    return []
+
+
+def get_checkpoints(client_state: Any) -> List[Any]:
+    """Return a list of CheckpointInfo for the active thread."""
+    if client_state and client_state.llm.memory:
+        return client_state.llm.memory.list_checkpoints()
+    return []
+
+
+def switch_thread(client_state: Any, thread_id: str) -> None:
+    """Switch the active thread and reload context into the client state."""
+    if client_state and client_state.llm.memory:
+        client_state.llm.memory.switch_thread(thread_id)
+        client_state.llm.chat_history = client_state.llm.memory.load_history()
+
+
+def rollback_thread(client_state: Any, step_id: int) -> None:
+    """Rollback conversation to a specific step_id."""
+    if client_state and client_state.llm.memory:
+        client_state.llm.memory.rollback(step_id)
+        client_state.llm.chat_history = client_state.llm.memory.load_history()

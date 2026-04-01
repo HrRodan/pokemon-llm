@@ -9,6 +9,7 @@ process terminates, all stored conversation histories are discarded.
 
 from typing import Dict, List, Optional
 from datetime import datetime, timezone
+import copy
 
 from .base import MemoryBackend
 from .types import Checkpoint, CheckpointInfo, ConversationState, ThreadInfo
@@ -16,7 +17,7 @@ from .types import Checkpoint, CheckpointInfo, ConversationState, ThreadInfo
 
 class InMemoryBackend(MemoryBackend):
     """RAM-only ephemeral storage backend.
-    
+
     Automatically used by default if no persistence is required. All threads,
     checkpoints, and token snapshots are tracked in standard Python dictionaries.
     Data is lost upon process termination.
@@ -65,9 +66,7 @@ class InMemoryBackend(MemoryBackend):
                 return cp
         return None
 
-    def get_history(
-        self, thread_id: str, limit: Optional[int] = None
-    ) -> List[dict]:
+    def get_history(self, thread_id: str, limit: Optional[int] = None) -> List[dict]:
         cp = self.load_checkpoint(thread_id)
         if cp is None:
             return []
@@ -106,6 +105,33 @@ class InMemoryBackend(MemoryBackend):
             info.message_count = len(remaining[-1].state.messages)
         else:
             info.message_count = 0
+
+    def fork_thread(self, thread_id: str, step_id: int, new_thread_id: str) -> None:
+        """Fork a thread up to a given step_id into a highly isolated new thread."""
+        source_thread = self._threads.get(thread_id)
+        if not source_thread:
+            return
+
+        cps = self._checkpoints.get(thread_id, [])
+        forked_cps = [cp for cp in cps if cp.step_id <= step_id]
+
+        now = datetime.now(timezone.utc)
+        self._threads[new_thread_id] = ThreadInfo(
+            thread_id=new_thread_id,
+            agent_name=source_thread.agent_name,
+            parent_thread_id=thread_id,
+            parent_step_id=step_id,
+            created_at=now,
+            updated_at=now,
+            message_count=len(forked_cps[-1].state.messages) if forked_cps else 0,
+        )
+
+        new_cps = []
+        for cp in forked_cps:
+            new_cp = copy.deepcopy(cp)
+            new_cp.thread_id = new_thread_id
+            new_cps.append(new_cp)
+        self._checkpoints[new_thread_id] = new_cps
 
     def delete_thread(self, thread_id: str) -> None:
         self._threads.pop(thread_id, None)

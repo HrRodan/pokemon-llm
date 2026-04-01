@@ -113,6 +113,25 @@ def test_delete_thread(backend):
     assert not backend.thread_exists("t1")
     assert backend.load_checkpoint("t1") is None
 
+def test_fork_thread(backend):
+    for i in range(1, 4):
+        backend.save_checkpoint("t1", i, ConversationState(messages=[{"content": str(i)}]))
+    
+    backend.fork_thread("t1", 2, "t2")
+    
+    # Check new thread exists
+    assert backend.thread_exists("t2")
+    
+    # Check new thread has history up to step 2
+    cps = backend.list_checkpoints("t2")
+    assert len(cps) == 2
+    assert cps[0].step_id == 1
+    assert cps[1].step_id == 2
+    
+    # Check old thread is completely untouched
+    old_cps = backend.list_checkpoints("t1")
+    assert len(old_cps) == 3
+
 def test_thread_exists(backend):
     assert not backend.thread_exists("t_nope")
     backend.save_checkpoint("t1", 1, ConversationState(messages=[]))

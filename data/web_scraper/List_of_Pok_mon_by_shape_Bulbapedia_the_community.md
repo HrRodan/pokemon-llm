@@ -1,7 +1,7 @@
 ---
 title: "List of Pokémon by shape - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_shape"
-timestamp: "2026-03-24T11:01:55.795122+01:00"
+timestamp: "2026-04-01T16:10:43.420108+02:00"
 ---
 
 # List of Pokémon by shape
@@ -2941,7 +2941,7 @@ Forma corporalIV |
 | Availability | Pokémon by availability • Pokémon available in every core series game  
 Mutually exclusive Pokémon • Permanently missable Pokémon  
 PE • SwSh • BDSP • LA • SV • ZA  
-Picross • GO • Smile • Café ReMix • UNITE • Sleep • Friends |
+Picross • GO • Smile • Café ReMix • UNITE • Sleep • Friends • Champions |
 
 | Attributes | Egg Group • Category (Abundance • Other languages)  
 Food preferences • Habitat • IQ group • Height • Tone • Weight • Footprint  

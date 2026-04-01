@@ -76,7 +76,8 @@ all_threads = handler.list_threads()
 checkpoints = handler.list_checkpoints()
 
 # Revert memory context (e.g., if a tool crashes or hallucinations occur)
-handler.rollback(step_id=2)  # Discard all checkpoints > 2
+# This securely forks history up to step_id into a brand new isolated thread
+handler.rollback(step_id=2)
 
 # Erase the memory entirely
 handler.delete_thread("user_123_thread")
