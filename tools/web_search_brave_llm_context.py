@@ -56,15 +56,17 @@ class BraveLLMContextInput(BaseModel):
         le=8192,
         description="Maximum tokens allowed for the generated context.",
     )
-    context_threshold_mode: Literal["strict", "balanced", "lenient", "disabled"] = (
-        Field(
-            default="balanced",
-            description="Relevance filtering threshold mode. Use 'strict' when precision matters more than recall.",
-        )
+    context_threshold_mode: Literal["strict", "balanced", "lenient"] = Field(
+        default="balanced",
+        description="Relevance filtering threshold mode. Use 'strict' when precision matters more than recall.",
     )
-    freshness: str | None = Field(
-        default=None,
-        description="Filter for freshness: pd (past day), pw (past week), pm (month), py (year), or date range (YYYY-MM-DDtoYYYY-MM-DD).",
+    search_lang: str = Field(
+        default="en",
+        description="Language preference (2+ char language code).",
+    )
+    country: str = Field(
+        default="US",
+        description="Search country (2-letter country code or 'ALL').",
     )
 
 
@@ -94,7 +96,8 @@ def _perform_brave_llm_context_search(
     max_results: int,
     maximum_number_of_tokens: int,
     context_threshold_mode: str,
-    freshness: str | None,
+    search_lang: str,
+    country: str,
 ) -> dict:
     """Execute the HTTP request to the Brave LLM Context API."""
     api_key = os.getenv("BRAVE_SEARCH_API_KEY")
@@ -112,10 +115,9 @@ def _perform_brave_llm_context_search(
         "count": min(max_results, 20),
         "maximum_number_of_tokens": maximum_number_of_tokens,
         "context_threshold_mode": context_threshold_mode,
+        "search_lang": search_lang,
+        "country": country,
     }
-
-    if freshness:
-        params["freshness"] = freshness
 
     response = requests.get(url, headers=headers, params=params, timeout=15)
     response.raise_for_status()
@@ -147,7 +149,8 @@ def brave_llm_context_search(args: BraveLLMContextInput) -> str:
             max_results=args.max_results,
             maximum_number_of_tokens=args.maximum_number_of_tokens,
             context_threshold_mode=args.context_threshold_mode,
-            freshness=args.freshness,
+            search_lang=args.search_lang,
+            country=args.country,
         )
     except Exception as e:
         logger.error("Brave LLM Context search failed: %s", e)
