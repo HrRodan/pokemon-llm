@@ -69,10 +69,10 @@ with st.sidebar:
         
         threads = get_threads(agent)
         if threads:
-            thread_options = {
-                t.thread_id: f"{t.updated_at.strftime('%m-%d %H:%M')} ({t.message_count} msgs)" 
-                for t in threads
-            }
+            thread_options = {}
+            for t in threads:
+                preview = (t.initial_message[:20] + "...") if t.initial_message and len(t.initial_message) > 20 else (t.initial_message or "New Chat")
+                thread_options[t.thread_id] = f"{t.updated_at.strftime('%m-%d %H:%M')} | {preview} ({t.message_count} msgs)"
             thread_ids = list(thread_options.keys())
             
             if current_thread_id not in thread_ids:

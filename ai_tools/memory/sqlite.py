@@ -68,17 +68,28 @@ class SQLiteBackend(MemoryBackend):
         with Session(self._engine) as session:
             thread = session.get(ThreadModel, thread_id)
             if thread is None:
+                initial_msg = None
+                for msg in state.messages:
+                    if msg.get("role") == "user":
+                        initial_msg = str(msg.get("content", ""))
+                        break
                 thread = ThreadModel(
                     thread_id=thread_id,
                     agent_name=agent_name,
                     created_at=now,
                     updated_at=now,
                     message_count=len(state.messages),
+                    initial_message=initial_msg,
                 )
                 session.add(thread)
             else:
                 thread.updated_at = now
                 thread.message_count = len(state.messages)
+                if not thread.initial_message:
+                    for msg in state.messages:
+                        if msg.get("role") == "user":
+                            thread.initial_message = str(msg.get("content", ""))
+                            break
 
             cp = CheckpointModel(
                 thread_id=thread_id,
@@ -140,6 +151,7 @@ class SQLiteBackend(MemoryBackend):
                     parent_thread_id=r.parent_thread_id,
                     parent_step_id=r.parent_step_id,
                     message_count=r.message_count,
+                    initial_message=r.initial_message,
                     created_at=r.created_at,
                     updated_at=r.updated_at,
                     metadata=r.metadata_,
@@ -225,6 +237,7 @@ class SQLiteBackend(MemoryBackend):
                 created_at=now,
                 updated_at=now,
                 message_count=message_count,
+                initial_message=source_thread.initial_message,
             )
             session.add(new_thread)
 

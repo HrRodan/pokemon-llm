@@ -40,6 +40,7 @@ class ThreadModel(Base):
     parent_thread_id = Column(String, nullable=True)
     parent_step_id = Column(Integer, nullable=True)
     message_count = Column(Integer, nullable=False, default=0)
+    initial_message = Column(String, nullable=True)
     created_at = Column(
         DateTime(timezone=True),
         nullable=False,

@@ -6,7 +6,7 @@ The `ai_tools.memory` package provides a robust, pluggable layer for tracking ag
 
 ## Core Concepts
 
-1. **Threads:** Every conversation is isolated under a unique `thread_id` (usually a UUID4).
+1. **Threads:** Every conversation is isolated under a unique `thread_id` (usually a short 8-character hex). It automatically tracks the `initial_message` using the first user query for rapid identification.
 2. **Checkpoints:** Following every successful model inference, a snapshot (checkpoint) of the conversation state (including tool calls and tokens) is saved under an incrementing sequence number (`step_id`). 
 3. **Subagent Scoping:** Natively integrated with `LLMQuery.as_tool`, meaning child agents are automatically granted a fresh, isolated `thread_id` that shares the same storage backend but does not pollute the parent agent's history.
 

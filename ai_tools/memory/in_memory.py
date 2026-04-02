@@ -36,13 +36,25 @@ class InMemoryBackend(MemoryBackend):
     ) -> None:
         now = datetime.now(timezone.utc)
         if thread_id not in self._threads:
+            initial_msg = None
+            for msg in state.messages:
+                if msg.get("role") == "user":
+                    initial_msg = str(msg.get("content", ""))
+                    break
             self._threads[thread_id] = ThreadInfo(
                 thread_id=thread_id,
                 agent_name=agent_name,
                 created_at=now,
                 updated_at=now,
+                initial_message=initial_msg,
             )
             self._checkpoints[thread_id] = []
+        else:
+            if not self._threads[thread_id].initial_message:
+                for msg in state.messages:
+                    if msg.get("role") == "user":
+                        self._threads[thread_id].initial_message = str(msg.get("content", ""))
+                        break
 
         cp = Checkpoint(
             thread_id=thread_id, step_id=step_id, state=state, created_at=now
@@ -124,6 +136,7 @@ class InMemoryBackend(MemoryBackend):
             created_at=now,
             updated_at=now,
             message_count=len(forked_cps[-1].state.messages) if forked_cps else 0,
+            initial_message=source_thread.initial_message,
         )
 
         new_cps = []

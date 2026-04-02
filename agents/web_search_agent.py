@@ -4,7 +4,10 @@ from pydantic import BaseModel, Field
 from ai_tools.agent import AgentConfig
 from ai_tools.tool_definition import tool
 from agents.base_agent import BaseAgent
-from tools.web_search_brave_llm_context import brave_llm_context_search, BraveLLMContextInput
+from tools.web_search_brave_llm_context import (
+    brave_llm_context_search,
+    BraveLLMContextInput,
+)
 from tools.web_content import (
     extract_page_links,
     extract_structured_data,
@@ -34,7 +37,7 @@ def bulbapedia_search(args: BulbapediaSearchInput) -> str:
         site_restrict="bulbapedia.bulbagarden.net",
         max_results=10,
         maximum_number_of_tokens=4096,
-        context_threshold_mode="balanced"
+        context_threshold_mode="balanced",
     )
     return brave_llm_context_search(brave_input)
 
@@ -146,7 +149,7 @@ you need, and avoiding unnecessary ingestion.
 
 ## Execution Strategy
 
-**Phase 1 — Locate & Extract** (at **most** 1–2 calls)
+**Phase 1 — Locate & Extract** (at **most** 2–3 calls)
 - Call `bulbapedia_search` to find candidate URLs and extract their deep context. 
 - **Check Snippets First:** The `snippet` fields returned by this tool contain dense, raw content (including markdown tables and text blocks) extracted directly from the pages. Read them carefully!
 - If the deep snippets completely answer the user's question, **stop here and answer immediately**. Ingestion is not required.
@@ -157,8 +160,8 @@ you need, and avoiding unnecessary ingestion.
 - For dense lore where you need to find an exact sub-page:
   → Call `bulbapedia_page_links` to review page structure before resorting to ingestion.
 
-**Phase 3 — Ingest (Optional Fallback)**
-- Only call `bulbapedia_ingest_page` if Phases 1 and 2 failed to provide the required knowledge.
+**Phase 3 — Ingest (If needed)**
+- Only call `bulbapedia_ingest_page` if Phases 1 and 2 failed to provide the required knowledge or further information is necessary.
 - **Limit: ingest at most 3 pages per user query.**
 
 **Phase 4 — Query (If ingested)**
