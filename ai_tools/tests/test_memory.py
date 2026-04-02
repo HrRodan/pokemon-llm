@@ -1,5 +1,3 @@
-from datetime import datetime, timezone
-import pytest
 from ai_tools.memory import MemoryHandler, InMemoryBackend
 
 def test_initial_message_extraction():
