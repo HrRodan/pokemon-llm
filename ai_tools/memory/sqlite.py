@@ -3,9 +3,9 @@ Persistent SQLite-backed conversational memory storage using SQLAlchemy.
 
 The `SQLiteBackend` implementation maps the abstract `MemoryBackend` protocol onto
 a raw SQLite database instance. It uses SQLAlchemy's declarative mappers to push
-records to disk robustly, automatically initializing tables and utilizing `WAL`
-mode for high-concurrency throughput (suitable for both synchronous scripts and
-async HTTP agent servers).
+records to disk robustly, automatically initializing tables and utilizing `DELETE`
+journal mode. It is configured with `pool_pre_ping=True` to ensure the
+connection is always valid even after intermittent errors.
 """
 
 import logging
@@ -14,7 +14,6 @@ from typing import List, Optional
 
 from sqlalchemy import create_engine, event, select, delete
 from sqlalchemy.orm import Session
-from sqlalchemy.pool import StaticPool
 
 from .base import MemoryBackend
 from .models import Base, ThreadModel, CheckpointModel
@@ -25,8 +24,8 @@ class SQLiteBackend(MemoryBackend):
     """SQLite-backed persistent memory via SQLAlchemy.
 
     Stores conversations, threads, and complete usage/tool-call payloads
-    long-term in a robust local SQLite file configured with WAL mode to
-    withstand concurrent synchronous/async environment writes.
+    long-term in a robust local SQLite file configured with DELETE journal mode
+    and pool pre-pinging to withstand intermittent connection errors.
 
     Attributes:
         db_path (str): The local filesystem path to the sqlite `.db` file.
@@ -43,13 +42,13 @@ class SQLiteBackend(MemoryBackend):
         self._engine = create_engine(
             url,
             connect_args={"check_same_thread": False},
-            poolclass=StaticPool,
+            pool_pre_ping=True,
         )
 
         @event.listens_for(self._engine, "connect")
         def _set_sqlite_pragma(dbapi_connection, connection_record):
             cursor = dbapi_connection.cursor()
-            cursor.execute("PRAGMA journal_mode=WAL")
+            cursor.execute("PRAGMA journal_mode=DELETE")
             cursor.execute("PRAGMA foreign_keys=ON")
             cursor.close()
 
