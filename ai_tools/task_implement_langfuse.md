@@ -97,14 +97,14 @@ from langfuse import get_client, observe, propagate_attributes
 
 langfuse = get_client()
 
-# Create root trace span — context manager auto-ends
-with langfuse.start_as_current_observation(
-    as_type="span", name="agent-run", input={...}
-) as root:
-    # Set user/session for the trace
-    with propagate_attributes(
-        user_id="...", session_id="...", tags=[...], trace_name="..."
-    ):
+# Set user/session for the trace
+with propagate_attributes(
+    user_id="...", session_id="...", tags=[...], trace_name="..."
+):
+    # Create root trace span — context manager auto-ends
+    with langfuse.start_as_current_observation(
+        as_type="span", name="agent-run", input={...}
+    ) as root:
         # Nested generation for LLM call
         with langfuse.start_as_current_observation(
             as_type="generation", name="llm-query", model="gpt-4o",
@@ -332,18 +332,18 @@ def trace_agent_run(
     resolved_tags = [agent_name] + (tags or [])
     resolved_metadata = metadata or {}
 
-    with client.start_as_current_observation(
-        as_type="span",
-        name=agent_name,
-        input={"message": input_message},
-    ) as span:
-        with propagate_attributes(
-            user_id=user_id,
-            session_id=session_id,
-            tags=resolved_tags,
-            trace_name=agent_name,
-            metadata=resolved_metadata,
-        ):
+    with propagate_attributes(
+        user_id=user_id,
+        session_id=session_id,
+        tags=resolved_tags,
+        trace_name=agent_name,
+        metadata=resolved_metadata,
+    ):
+        with client.start_as_current_observation(
+            as_type="span",
+            name=agent_name,
+            input={"message": input_message},
+        ) as span:
             try:
                 yield span
             except Exception as e:
@@ -541,7 +541,7 @@ with trace_llm_generation(
         output=content or "[tool_calls_only]",
         usage=usage_data,
         model=cfg["model"],
-        metadata={"tool_calls": len(self.tool_calls)} if self.tool_calls else None,
+        metadata={"tool_calls": str(len(self.tool_calls))} if self.tool_calls else None,
     )
 ```
 
