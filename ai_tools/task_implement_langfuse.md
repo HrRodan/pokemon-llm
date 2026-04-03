@@ -986,13 +986,15 @@ Streamlit App (login)
 
 ## Implementation Order
 
-1. **`memory/types.py`** — Add `user_id` field to `ThreadInfo`
-2. **`memory/handler.py`** — Add `user_id` property with getter/setter, propagate to scoped handlers
-3. **`tracing.py`** — New module with all helpers (no external dependencies touched)
-4. **`tools.py`** — Add `user_id` attribute, wrap `query()` with generation spans, wrap `as_tool()` wrapper
-5. **`agent.py`** — Add `user_id` parameter, propagate to LLMQuery/MemoryHandler, wrap `run()` with root span, wrap `as_tool()` wrapper
-6. **`utils.py`** — Wrap `handle_tool_call` / `handle_tool_call_async` with tool spans
-7. **`__init__.py`** — Export new public API
-8. **`pyproject.toml`** — Add `langfuse>=4.0.0` optional dependency
-9. **Tests** — Unit tests + integration smoke test
-10. **Documentation** — README updates, docstrings
+1. **`memory/types.py`** — Add `user_id` field to `ThreadInfo` (DONE)
+2. **`memory/handler.py`** — Add `user_id` property with getter/setter, propagate to scoped handlers (DONE)
+3. **`tracing.py`** — New module with all helpers (no external dependencies touched) (DONE)
+4. **`tools.py`** — Add `user_id` attribute, wrap `query()` with generation spans, wrap `as_tool()` wrapper (DONE)
+5. **`agent.py`** — Add `user_id` parameter, propagate to LLMQuery/MemoryHandler, wrap `run()` with root span, wrap `as_tool()` wrapper (DONE)
+6. **`utils.py`** — Wrap `handle_tool_call` / `handle_tool_call_async` with tool spans (DONE)
+7. **`__init__.py`** — Export new public API (DONE)
+8. **`pyproject.toml`** — Add `langfuse>=4.0.0` optional dependency (DONE)
+9. **Tests** — Unit tests + integration smoke test (DONE - Unit tests)
+10. **Documentation** — README updates, docstrings (DONE)
+11. **Fix: Trace Fragmentation** — Ensure `query()` and `get_tool_responses()` establish trace context when called directly; propagate `user_id` to `PokemonAgent` (DONE)
+12. **Refinement: Trace Consolidation** — Add `trace_turn` context manager to wrap complete user turns in the UI and orchestrators, ensuring a single root trace per interaction. Flatten observation hierarchy. (DONE)

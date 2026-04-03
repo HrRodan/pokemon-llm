@@ -69,7 +69,7 @@ You have access to three specialized agents. **Delegation is Key.** Answer quest
     *   *Specific/Raw Data?* -> **API Agent**
 2.  Formulate a concise, detailed query in natural language with all relevant information for the selected agent. Be specific!
 3.  **Parallel Execution:** You can and **should** call multiple agents at once if the user asks for mixed info.
-    *   *Example:* "Tell me about Charizard's lore and its base stats." -> Call `run_rag_agent` AND `run_api_agent`.
+    *   *Example:* "Tell me about Charizard's lore and its base stats." -> Call `run_rag_agent` AND `run_api_agent` concurrently.
 4.  **Synthesis:** Combine the reports from your agents into a helpful summary for the trainer.
 5.  **Failure Handling:** If an agent fails or returns unrelated or incomplete data, **DO NOT** use world knowledge. Instead, **try again the same agent** with a different query or use a **different agent** or finally inform the user that the information is not available.
 
@@ -93,7 +93,7 @@ class PokemonAgent(BaseAgent):
     dicts or function lists required.
     """
 
-    def __init__(self, model_name: Optional[str] = None) -> None:
+    def __init__(self, model_name: Optional[str] = None, user_id: Optional[str] = None) -> None:
         # Instantiate sub-agents — stateful singletons within this instance.
         self._tech = TechDataAgent()
         self._rag = RAGAgent()
@@ -105,7 +105,8 @@ class PokemonAgent(BaseAgent):
         memory_db_path = os.path.join(memory_dir, "agent.db")
         memory_handler = MemoryHandler(
             backend=SQLiteBackend(db_path=memory_db_path),
-            agent_name="PokemonAgent"
+            agent_name="PokemonAgent",
+            user_id=user_id,
         )
 
         super().__init__(
@@ -123,6 +124,7 @@ class PokemonAgent(BaseAgent):
                 ],
                 history_limit=50,
                 memory=memory_handler,
+                user_id=user_id,
             )
         )
 

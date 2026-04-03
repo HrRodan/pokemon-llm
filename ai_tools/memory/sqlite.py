@@ -62,6 +62,7 @@ class SQLiteBackend(MemoryBackend):
         step_id: int,
         state: ConversationState,
         agent_name: str = "",
+        user_id: Optional[str] = None,
     ) -> None:
         now = datetime.now(timezone.utc)
         with Session(self._engine) as session:
@@ -75,6 +76,7 @@ class SQLiteBackend(MemoryBackend):
                 thread = ThreadModel(
                     thread_id=thread_id,
                     agent_name=agent_name,
+                    user_id=user_id,
                     created_at=now,
                     updated_at=now,
                     message_count=len(state.messages),
@@ -82,6 +84,8 @@ class SQLiteBackend(MemoryBackend):
                 )
                 session.add(thread)
             else:
+                if user_id:
+                    thread.user_id = user_id
                 thread.updated_at = now
                 thread.message_count = len(state.messages)
                 if not thread.initial_message:
@@ -147,6 +151,7 @@ class SQLiteBackend(MemoryBackend):
                 ThreadInfo(
                     thread_id=r.thread_id,
                     agent_name=r.agent_name,
+                    user_id=r.user_id,
                     parent_thread_id=r.parent_thread_id,
                     parent_step_id=r.parent_step_id,
                     message_count=r.message_count,

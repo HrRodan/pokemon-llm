@@ -48,12 +48,15 @@ class MemoryHandler:
         backend: Optional[MemoryBackend] = None,
         thread_id: Optional[str] = None,
         agent_name: str = "",
+        user_id: Optional[str] = None,
         logger: Optional[logging.Logger] = None,
     ) -> None:
         self._backend = backend or InMemoryBackend()
         self._agent_name = agent_name
+        self._user_id = user_id
         self._logger = logger
         self._thread_id: Optional[str] = None
+        self._root_thread_id: Optional[str] = None
         self._step_id: int = 0
 
         if thread_id:
@@ -70,6 +73,21 @@ class MemoryHandler:
         return self._thread_id
 
     @property
+    def root_thread_id(self) -> str:
+        """The root thread ID for this conversation session (used for tracing)."""
+        return self._root_thread_id or self.thread_id
+
+    @property
+    def user_id(self) -> Optional[str]:
+        """The user ID associated with this memory context."""
+        return self._user_id
+
+    @user_id.setter
+    def user_id(self, value: Optional[str]) -> None:
+        """Set the user ID (e.g. after Streamlit login)."""
+        self._user_id = value
+
+    @property
     def step_id(self) -> int:
         """Current step counter (monotonically increasing within a thread)."""
         return self._step_id
@@ -83,7 +101,8 @@ class MemoryHandler:
 
     def _new_thread(self) -> str:
         """Create a new thread with an auto-generated UUID."""
-        self._thread_id = uuid.uuid4().hex[:8]
+        self._thread_id = uuid.uuid4().hex[:12]
+        self._root_thread_id = self._thread_id
         self._step_id = 0
         if self._logger:
             self._logger.debug(f"💾 New memory thread: {self._thread_id}")
@@ -96,6 +115,7 @@ class MemoryHandler:
         ``save_checkpoint()`` call.
         """
         self._thread_id = thread_id
+        self._root_thread_id = thread_id
 
         # Determine current step_id from the backend
         cp = self._backend.load_checkpoint(thread_id)
@@ -114,6 +134,7 @@ class MemoryHandler:
         """
         if thread_id:
             self._thread_id = thread_id
+            self._root_thread_id = thread_id
             self._step_id = 0
         else:
             self._new_thread()
@@ -145,6 +166,7 @@ class MemoryHandler:
             step_id=self._step_id,
             state=state,
             agent_name=self._agent_name,
+            user_id=self._user_id,
         )
         if self._logger:
             self._logger.debug(
@@ -183,7 +205,7 @@ class MemoryHandler:
         Creates a new thread that forks the current thread at the given step_id.
         The new thread references the current thread as parent to maintain a tree-like history.
         """
-        new_thread_id = uuid.uuid4().hex[:8]
+        new_thread_id = uuid.uuid4().hex[:12]
         self._backend.fork_thread(self.thread_id, step_id, new_thread_id)
 
         old_thread_id = self.thread_id
@@ -221,13 +243,16 @@ class MemoryHandler:
             A new MemoryHandler with a unique scoped thread_id,
             sharing the same backend.
         """
-        scoped_id = f"{subagent_name}::{uuid.uuid4().hex[:8]}"
-        return MemoryHandler._from_scoped_id(
+        scoped_id = f"{subagent_name}::{uuid.uuid4().hex[:12]}"
+        handler = MemoryHandler._from_scoped_id(
             backend=self._backend,
             scoped_id=scoped_id,
             agent_name=subagent_name,
             logger=self._logger,
         )
+        handler.user_id = self._user_id
+        handler._root_thread_id = self.root_thread_id
+        return handler
 
     @classmethod
     def _from_scoped_id(

@@ -23,6 +23,7 @@ class MemoryBackend(ABC):
         step_id: int,
         state: ConversationState,
         agent_name: str = "",
+        user_id: Optional[str] = None,
     ) -> None:
         """Persist a checkpoint. Creates the thread record if it doesn't exist."""
 

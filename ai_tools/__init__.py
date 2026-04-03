@@ -5,6 +5,7 @@ from .tool_definition import tool, get_tool_schema
 from .agent import LLMAgent, AgentUsage, AgentConfig
 from .logger import setup_agent_logger
 from .memory import MemoryHandler, InMemoryBackend, SQLiteBackend, SubagentMemoryMode
+from .tracing import is_tracing_enabled, flush_tracing, trace_turn
 
 __all__ = [
     "LLMQuery",
@@ -24,4 +25,6 @@ __all__ = [
     "InMemoryBackend",
     "SQLiteBackend",
     "SubagentMemoryMode",
+    "is_tracing_enabled",
+    "flush_tracing",
 ]

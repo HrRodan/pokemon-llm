@@ -37,6 +37,7 @@ class ThreadModel(Base):
 
     thread_id = Column(String, primary_key=True)
     agent_name = Column(String, nullable=False, default="")
+    user_id = Column(String, nullable=True)
     parent_thread_id = Column(String, nullable=True)
     parent_step_id = Column(Integer, nullable=True)
     message_count = Column(Integer, nullable=False, default=0)

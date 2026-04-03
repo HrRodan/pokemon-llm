@@ -14,6 +14,7 @@ from dataclasses import dataclass
 
 from .tools import LLMQuery
 from .config import ModelName
+from .tracing import trace_agent_run, trace_subagent_call, update_span
 
 
 @dataclass(kw_only=True)
@@ -27,6 +28,7 @@ class AgentConfig:
     history_limit: Optional[int] = None
     concurrent_tool_calls: bool = True
     logger: Optional[logging.Logger] = None
+    user_id: Optional[str] = None
 
     # LLMQuery specific settings
     stream: bool = False
@@ -99,6 +101,7 @@ class LLMAgent:
             response_format=config.response_format,
             concurrent_tool_calls=config.concurrent_tool_calls,
             memory=config.memory,
+            user_id=config.user_id,
         )
 
         self._call_count: int = 0
@@ -133,13 +136,28 @@ class LLMAgent:
         """
         self.logger.info(f"QUERY: {message}")
 
-        response = self.llm.query(user_prompt=message, use_history=use_history)
+        # Derive session_id from memory root thread if available
+        session_id = None
+        if self.llm.memory and hasattr(self.llm.memory, "root_thread_id"):
+            session_id = self.llm.memory.root_thread_id
 
-        if self.llm.tool_calls:
-            response = self.llm.get_tool_responses()
+        with trace_agent_run(
+            agent_name=self.name,
+            input_message=message,
+            user_id=self.config.user_id,
+            session_id=session_id,
+            tags=[self.name, self.model_name.split("/")[0]],
+            metadata={"model": self.model_name},
+        ) as span:
+            response = self.llm.query(user_prompt=message, use_history=use_history)
 
-        self.logger.info(f"🧠 RESPONSE: {response}")
-        self._update_usage()
+            if self.llm.tool_calls:
+                response = self.llm.get_tool_responses()
+
+            self.logger.info(f"🧠 RESPONSE: {response}")
+            self._update_usage()
+
+            update_span(span, output=response[:1000] if response else "")
 
         return response
 
@@ -192,18 +210,22 @@ class LLMAgent:
         agent_ref = self
 
         def _wrapper(**kwargs) -> str:
-            original_memory = getattr(agent_ref.llm, "memory", None)
-            if original_memory:
-                # Scoped: each invocation gets its own isolated thread
-                scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
-                agent_ref.llm.memory = scoped
-                agent_ref.llm.chat_history = []
-            else:
-                agent_ref.llm.clear_history()
-            result = agent_ref.run(kwargs.get("query", ""))
-            if original_memory:
-                agent_ref.llm.memory = original_memory  # restore parent handler
-            return result
+            query = kwargs.get("query", "")
+            with trace_subagent_call(self.TOOL_NAME, query) as span:
+                original_memory = getattr(agent_ref.llm, "memory", None)
+                if original_memory:
+                    # Scoped: each invocation gets its own isolated thread
+                    scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
+                    agent_ref.llm.memory = scoped
+                    agent_ref.llm.chat_history = []
+                else:
+                    agent_ref.llm.clear_history()
+                result = agent_ref.run(query)
+                if original_memory:
+                    agent_ref.llm.memory = original_memory  # restore parent handler
+                
+                update_span(span, output=result[:1000] if result else "")
+                return result
 
         _wrapper.__name__ = self.TOOL_NAME
         _wrapper.__tool_schema__ = tool_schema

@@ -88,3 +88,24 @@ handler.delete_thread("user_123_thread")
 ## Architecture details
 
 All operations adhere to the `MemoryBackend` Protocol ABC. You can drop in any custom storage (e.g., PostgreSQL, Redis, or Mongo) by simply implementing the abstract methods defined in `base.py`. Under the hood, the backend receives a `ConversationState` dataclass containing the entire JSON-serializable snapshot. 
+
+---
+
+## User Identity & Langfuse Integration
+
+The memory system includes a first-class `user_id` attribute on the `MemoryHandler` and `ThreadInfo`. This serves two purposes:
+
+1. **Filtering:** You can filter conversation threads by `user_id` when calling `list_threads()`.
+2. **Observability:** If Langfuse tracing is enabled, the `user_id` and `thread_id` are automatically propagated to the trace:
+    - `MemoryHandler.user_id` → Langfuse `user_id`
+    - `MemoryHandler.root_thread_id` → Langfuse `session_id`
+
+This allows you to group all traces from a single conversation thread (including sub-agent calls) in the Langfuse UI and calculate costs per individual user.
+
+```python
+# Set the user ID after initialization (e.g., after a login event)
+handler.user_id = "user_123"
+
+# All subsequent queries and checkpoints will be tagged with this ID
+llm.query("Hello")
+```

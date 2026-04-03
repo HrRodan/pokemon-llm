@@ -266,6 +266,49 @@ vecs  = llm.generate_embedding(["Hello", "World"])
 
 ---
 
+## Langfuse Tracing (Optional)
+
+`ai_tools` provides built-in observability via [Langfuse](https://langfuse.com). Tracking is **fully optional** and activates automatically when the required environment variables are present.
+
+### Setup
+
+1. Install the tracing dependency:
+   ```bash
+   uv add langfuse
+   # OR
+   pip install ai_tools[tracing]
+   ```
+
+2. Add credentials to your `.env`:
+   ```env
+   LANGFUSE_PUBLIC_KEY="pk-lf-..."
+   LANGFUSE_SECRET_KEY="sk-lf-..."
+   LANGFUSE_BASE_URL="https://cloud.langfuse.com" # or your self-hosted URL
+   ```
+
+### Features
+
+- **Full Hierarchy:** Nested view of Orchestrator → Sub-agents → Tool calls → LLM Generations. Sub-agent runs are automatically nested as spans within the parent trace.
+- **Session Grouping:** All turns in a conversation and all sub-agent calls are linked via the memory `root_thread_id` (maps to Langfuse `session_id`).
+- **User Attribution:** Track cost and quality per user by passing `user_id` to `LLMAgent` or `LLMQuery`. Sub-agents automatically inherit the parent's `user_id`.
+- **Automatic Cost Tracking:** Token usage and cost are captured for every LLM call.
+- **Error Visibility:** Exceptions in tools or LLM calls are surfaced as `ERROR` level spans with stack traces.
+
+### Trace Hierarchy
+
+```text
+Trace: "OrchestratorAgent" (session_id="thread_123", user_id="user_abc")
+ ├─ Generation: "generation:gpt-4o" (tokens=450, cost=$0.002)
+ ├─ Span: "call:subagent:WebSearchAgent"
+ │   └─ Span: "agent:run:WebSearchAgent"
+ │       ├─ Generation: "generation:mistral-small" (subagent thought)
+ │       ├─ Span: "tool:brave_search" (input={"q": "pokemon"}, output="...")
+ │       └─ Generation: "generation:mistral-small" (subagent response)
+ └─ Generation: "generation:gpt-4o" (orchestrator final response)
+```
+
+---
+
 ## Structured Output (Pydantic)
 
 ```python

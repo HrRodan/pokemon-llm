@@ -33,6 +33,7 @@ class InMemoryBackend(MemoryBackend):
         step_id: int,
         state: ConversationState,
         agent_name: str = "",
+        user_id: Optional[str] = None,
     ) -> None:
         now = datetime.now(timezone.utc)
         if thread_id not in self._threads:
@@ -44,12 +45,15 @@ class InMemoryBackend(MemoryBackend):
             self._threads[thread_id] = ThreadInfo(
                 thread_id=thread_id,
                 agent_name=agent_name,
+                user_id=user_id,
                 created_at=now,
                 updated_at=now,
                 initial_message=initial_msg,
             )
             self._checkpoints[thread_id] = []
         else:
+            if user_id:
+                self._threads[thread_id].user_id = user_id
             if not self._threads[thread_id].initial_message:
                 for msg in state.messages:
                     if msg.get("role") == "user":

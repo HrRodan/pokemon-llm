@@ -53,6 +53,12 @@ from .utils import (
 )
 from .pipeline import _Pipeline, _PipeableString, _PipeableQuery
 from .multimodal import MultiModalMixin
+from .tracing import (
+    trace_llm_generation,
+    update_generation,
+    trace_subagent_call,
+    update_span,
+)
 
 # ---------------------------------------------------------------------------
 # Public type alias
@@ -104,6 +110,7 @@ class LLMQuery(MultiModalMixin):
         concurrent_tool_calls: bool = True,
         logger: Optional[logging.Logger] = None,
         memory: Optional["MemoryHandler"] = None,
+        user_id: Optional[str] = None,
     ):
         """
         Initialize the LLMQuery instance.
@@ -169,8 +176,10 @@ class LLMQuery(MultiModalMixin):
             memory: Optional memory handler for conversation persistence.
                 When provided, history is loaded on init and checkpointed after
                 every successful ``query()`` call.
+            user_id: Optional user identifier for tracing.
         """
         self.logger = logger
+        self.user_id = user_id
         self.model = model
         self.image_model = image_model
         self.tts_model = tts_model
@@ -192,6 +201,8 @@ class LLMQuery(MultiModalMixin):
         self.chat_history: List[Dict[str, Any]] = []
         if self.memory:
             self.chat_history = self.memory.load_history()
+            if self.user_id:
+                self.memory.user_id = self.user_id
         self.tool_calls: List[Dict] = []
         self.response = ""
         self.reasoning_history: List[Optional[str]] = []
@@ -995,17 +1006,43 @@ class LLMQuery(MultiModalMixin):
             **kwargs,
         )
 
-        response = self._create_chat_completion(client, **request_kwargs)
+        session_id = None
+        if self.memory and hasattr(self.memory, "root_thread_id"):
+            session_id = self.memory.root_thread_id
 
-        if hasattr(response, "usage") and response.usage:
-            self._update_usage(response.usage)
+        with trace_llm_generation(
+            name="llm-query",
+            model=cfg["model"],
+            input_messages=messages,
+            metadata={"provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"},
+            user_id=self.user_id,
+            session_id=session_id,
+        ) as generation:
+            response = self._create_chat_completion(client, **request_kwargs)
 
-        message = response.choices[0].message
-        content = message.content
+            # Extract usage for Langfuse
+            usage_data = None
+            if hasattr(response, "usage") and response.usage:
+                self._update_usage(response.usage)
+                usage_data = {
+                    "prompt_tokens": response.usage.prompt_tokens,
+                    "completion_tokens": response.usage.completion_tokens,
+                }
 
-        self.tool_calls = self._extract_and_sanitize_tool_calls(
-            message.tool_calls, content
-        )
+            message = response.choices[0].message
+            content = message.content
+
+            self.tool_calls = self._extract_and_sanitize_tool_calls(
+                message.tool_calls, content
+            )
+
+            update_generation(
+                generation,
+                output=content or "[tool_calls_only]",
+                usage=usage_data,
+                model=cfg["model"],
+                metadata={"tool_calls": len(self.tool_calls)} if self.tool_calls else None,
+            )
 
         if cfg["json_format"] and content:
             content = clean_json(content)
@@ -1343,23 +1380,25 @@ class LLMQuery(MultiModalMixin):
 
         def _wrapper(**kwargs) -> str:
             prompt = kwargs.get(input_arg, "")
-            original_memory = getattr(llm_ref, "memory", None)
-            
-            if original_memory:
-                # Scoped: each invocation gets its own thread for audit trail
-                scoped = original_memory.create_scoped_handler(name)
-                llm_ref.memory = scoped  # temporarily swap
-                llm_ref.chat_history = []
-            else:
-                llm_ref.clear_history()
+            with trace_subagent_call(name, prompt) as span:
+                original_memory = getattr(llm_ref, "memory", None)
                 
-            llm_ref.query(prompt)
-            result = llm_ref.get_tool_responses()
-            
-            if original_memory:
-                llm_ref.memory = original_memory  # restore parent handler
+                if original_memory:
+                    # Scoped: each invocation gets its own thread for audit trail
+                    scoped = original_memory.create_scoped_handler(name)
+                    llm_ref.memory = scoped  # temporarily swap
+                    llm_ref.chat_history = []
+                else:
+                    llm_ref.clear_history()
+                    
+                llm_ref.query(prompt)
+                result = llm_ref.get_tool_responses()
                 
-            return result
+                if original_memory:
+                    llm_ref.memory = original_memory  # restore parent handler
+                
+                update_span(span, output=result[:1000] if result else "")
+                return result
 
         _wrapper.__name__ = name
         _wrapper.__pydantic_model__ = None  # use raw **kwargs path in dispatcher

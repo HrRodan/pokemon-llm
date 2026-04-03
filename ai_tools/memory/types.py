@@ -54,6 +54,7 @@ class ThreadInfo:
     Attributes:
         thread_id: The unique identifier (usually UUID4).
         agent_name: Name of the agent running the thread.
+        user_id: (Optional) The user ID associated with this thread.
         parent_thread_id: (Optional) The thread that invoked this thread, used for tracing.
         parent_step_id: (Optional) The exact step in the parent thread when invoked.
         message_count: Current number of messages inside the most recent checkpoint.
@@ -64,6 +65,7 @@ class ThreadInfo:
 
     thread_id: str
     agent_name: str
+    user_id: Optional[str] = None
     parent_thread_id: Optional[str] = None
     parent_step_id: Optional[int] = None
     message_count: int = 0

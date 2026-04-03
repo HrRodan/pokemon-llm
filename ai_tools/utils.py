@@ -19,6 +19,7 @@ from typing import Dict, List, Any, Callable, Optional
 
 from pydantic import ValidationError
 from IPython.display import Markdown, display
+from .tracing import trace_tool_execution, update_span
 
 
 def generate_short_id() -> str:
@@ -201,67 +202,67 @@ def handle_tool_call(
         arguments_str = tool_call.get("function", {}).get("arguments", "")
         arguments = {}
 
+        # ------------------------------------------------------------
+        # Step 1: Parse the arguments before tracing so they are captured
+        # ------------------------------------------------------------
         try:
-            # ----------------------------------------------------------------
-            # Step 1: Parse the arguments.
-            # The OpenAI API returns arguments as a JSON string; some models
-            # (or XML-parsed fallback tool calls) may already provide a dict.
-            # ----------------------------------------------------------------
             if arguments_str:
                 if isinstance(arguments_str, dict):
-                    # Already parsed (e.g. from XML fallback path)
                     arguments = arguments_str
                 else:
-                    try:
-                        arguments = json.loads(arguments_str)
-                    except json.JSONDecodeError as e:
-                        raise ValueError(f"Failed to parse arguments JSON: {e}")
-
-            # ----------------------------------------------------------------
-            # Step 2: Validate the function name.
-            # Returning a descriptive error lets the model self-correct rather
-            # than crashing the agent loop entirely.
-            # ----------------------------------------------------------------
-            if function_name not in function_map:
-                raise ValueError(
-                    f"Function '{function_name}' not found. "
-                    f"Available: {list(function_map.keys())}"
-                )
-
-            # ----------------------------------------------------------------
-            # Step 3: Execute the function.
-            # When the function was decorated with @tool(schema=Model), it
-            # carries .__pydantic_model__. Validate the arguments and pass a
-            # typed model instance; otherwise fall back to raw **kwargs.
-            # ----------------------------------------------------------------
-            function_to_call = function_map[function_name]
-            pydantic_model = getattr(function_to_call, "__pydantic_model__", None)
-            if logger:
-                logger.info(f"TOOL CALL: {function_name} | Args: {arguments}")
-            try:
-                if pydantic_model is not None:
-                    try:
-                        validated = pydantic_model(**arguments)
-                    except ValidationError as e:
-                        raise ValueError(f"Argument validation failed: {e}")
-                    result = function_to_call(validated)
-                else:
-                    result = function_to_call(**arguments)
-            except Exception as e:
-                raise RuntimeError(f"Error while executing '{function_name}': {e}")
-
-            # Log a truncated preview of potentially large outputs.
-            if logger:
-                str_result = str(result)
-                if len(str_result) > 500:
-                    str_result = str_result[:500] + "... [truncated]"
-                logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
-
+                    arguments = json.loads(arguments_str)
         except Exception as e:
-            # Return the error as a string result so the LLM can read it.
-            result = f"Error: {str(e)}"
-            if logger:
-                logger.warning(f"TOOL ERROR ({function_name}): {e}")
+            arguments = {"error": f"Failed to parse arguments JSON: {e}", "raw": arguments_str}
+
+        with trace_tool_execution(function_name, arguments) as span:
+            try:
+                # ------------------------------------------------------------
+                # Step 2: Validate the function name.
+                # ------------------------------------------------------------
+                if function_name not in function_map:
+                    raise ValueError(
+                        f"Function '{function_name}' not found. "
+                        f"Available: {list(function_map.keys())}"
+                    )
+                
+                if "error" in arguments and "raw" in arguments:
+                    raise ValueError(arguments["error"])
+
+                # ------------------------------------------------------------
+                # Step 3: Execute the function.
+                # ------------------------------------------------------------
+                function_to_call = function_map[function_name]
+                pydantic_model = getattr(function_to_call, "__pydantic_model__", None)
+                if logger:
+                    logger.info(f"TOOL CALL: {function_name} | Args: {arguments}")
+                try:
+                    if pydantic_model is not None:
+                        try:
+                            validated = pydantic_model(**arguments)
+                        except ValidationError as e:
+                            raise ValueError(f"Argument validation failed: {e}")
+                        result = function_to_call(validated)
+                    else:
+                        result = function_to_call(**arguments)
+                except Exception as e:
+                    raise RuntimeError(f"Error while executing '{function_name}': {e}")
+
+                # Log a truncated preview of potentially large outputs.
+                if logger:
+                    str_result = str(result)
+                    if len(str_result) > 500:
+                        str_result = str_result[:500] + "... [truncated]"
+                    logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
+                
+                update_span(span, output=str(result)[:1000] if result else "")
+
+            except Exception as e:
+                # Return the error as a string result so the LLM can read it.
+                result = f"Error: {str(e)}"
+                if logger:
+                    logger.warning(f"TOOL ERROR ({function_name}): {e}")
+                
+                update_span(span, output=result, level="ERROR", status_message=str(e))
 
         tool_response.append(
             {
@@ -310,51 +311,66 @@ async def handle_tool_call_async(
         arguments_str = tool_call.get("function", {}).get("arguments", "")
         arguments = {}
 
+        # --- Parse arguments before tracing ---
         try:
-            # --- Parse arguments ---
             if arguments_str:
                 if isinstance(arguments_str, dict):
                     arguments = arguments_str
                 else:
-                    try:
-                        arguments = json.loads(arguments_str)
-                    except json.JSONDecodeError as e:
-                        raise ValueError(f"Failed to parse arguments JSON: {e}")
-
-            # --- Validate function name ---
-            if function_name not in function_map:
-                raise ValueError(
-                    f"Function '{function_name}' not found. "
-                    f"Available: {list(function_map.keys())}"
-                )
-
-            # --- Execute in a separate thread ---
-            # When the function carries .__pydantic_model__, validate first
-            # and pass a typed model instance; otherwise use raw **kwargs.
-            function_to_call = function_map[function_name]
-            pydantic_model = getattr(function_to_call, "__pydantic_model__", None)
-            if logger:
-                logger.info(f"TOOL CALL (async): {function_name} | Args: {arguments}")
-
-            if pydantic_model is not None:
-                try:
-                    validated = pydantic_model(**arguments)
-                except ValidationError as e:
-                    raise ValueError(f"Argument validation failed: {e}")
-                result = await asyncio.to_thread(function_to_call, validated)
-            else:
-                result = await asyncio.to_thread(function_to_call, **arguments)
-
-            if logger:
-                str_result = str(result)
-                if len(str_result) > 500:
-                    str_result = str_result[:500] + "... [truncated]"
-                logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
-
+                    arguments = json.loads(arguments_str)
         except Exception as e:
-            result = f"Error: {str(e)}"
-            if logger:
-                logger.warning(f"TOOL ERROR ({function_name}): {e}")
+            arguments = {"error": f"Failed to parse arguments JSON: {e}", "raw": arguments_str}
+
+        with trace_tool_execution(function_name, arguments) as span:
+            try:
+                # --- Validate function name ---
+                if function_name not in function_map:
+                    raise ValueError(
+                        f"Function '{function_name}' not found. "
+                        f"Available: {list(function_map.keys())}"
+                    )
+                
+                if "error" in arguments and "raw" in arguments:
+                    raise ValueError(arguments["error"])
+
+                # --- Execute in a separate thread ---
+                # When the function carries .__pydantic_model__, validate first
+                # and pass a typed model instance; otherwise use raw **kwargs.
+                function_to_call = function_map[function_name]
+                pydantic_model = getattr(function_to_call, "__pydantic_model__", None)
+                if logger:
+                    logger.info(f"TOOL CALL (async): {function_name} | Args: {arguments}")
+
+                # Create a wrapper that runs the function inside the current context
+                import contextvars
+                ctx = contextvars.copy_context()
+
+                def _run_with_context(*args, **kw):
+                    return ctx.run(function_to_call, *args, **kw)
+
+                if pydantic_model is not None:
+                    try:
+                        validated = pydantic_model(**arguments)
+                    except ValidationError as e:
+                        raise ValueError(f"Argument validation failed: {e}")
+                    result = await asyncio.to_thread(_run_with_context, validated)
+                else:
+                    result = await asyncio.to_thread(_run_with_context, **arguments)
+
+                if logger:
+                    str_result = str(result)
+                    if len(str_result) > 500:
+                        str_result = str_result[:500] + "... [truncated]"
+                    logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
+                
+                update_span(span, output=str(result)[:1000] if result else "")
+
+            except Exception as e:
+                result = f"Error: {str(e)}"
+                if logger:
+                    logger.warning(f"TOOL ERROR ({function_name}): {e}")
+                
+                update_span(span, output=result, level="ERROR", status_message=str(e))
 
         return {
             "tool_call_id": tool_id,

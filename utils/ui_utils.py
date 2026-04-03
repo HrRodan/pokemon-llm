@@ -1,9 +1,11 @@
 import threading
+import contextvars
 from typing import List, Dict, Any, Optional
 from agents.pokemon_agent import PokemonAgent
 from utils.config import settings
 from utils.logger import get_log_buffer
 from utils.usage_tracker import UsageTracker
+from ai_tools import trace_turn, flush_tracing
 
 
 def get_agent_client(model: str = settings.DEFAULT_MODEL) -> PokemonAgent:
@@ -197,34 +199,30 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
         client_state,
     )
 
-    # Query logic
-    client_state.query(message)
+    # ------------------------------------------------------------------
+    # Agent Interaction within a Tracing Turn
+    # ------------------------------------------------------------------
+    user_id = getattr(client_state, "user_id", None)
+    session_id = None
+    if hasattr(client_state.llm, "memory") and hasattr(client_state.llm.memory, "root_thread_id"):
+        session_id = client_state.llm.memory.root_thread_id
 
-    # Yield 2: Show tool calls if any (before execution loop finishes)
-    yield (
-        "",
-        client_state.clean_chat_history + [{"role": "assistant", "content": "..."}],
-        extract_tool_info(client_state),
-        extract_reasoning_info(client_state),
-        extract_usage_info(client_state),
-        get_log_buffer(),
-        client_state,
-    )
+    try:
+        with trace_turn(
+            name=client_state.name,
+            input_message=message,
+            user_id=user_id,
+            session_id=session_id,
+            tags=[client_state.name, client_state.model.split("/")[0]],
+            metadata={"model": client_state.model}
+        ) as span:
+            # Query logic
+            client_state.query(message)
 
-    # Handle tool calls using a separate thread for UI responsiveness
-    t = threading.Thread(target=client_state.get_tool_responses)
-    t.start()
-
-    # Poll thread status and yield updates to UI
-    while t.is_alive():
-        # Wait up to 5 seconds for the thread to finish
-        t.join(timeout=2)  # Shorter timeout for faster log updates
-        # If still alive, yield an update to show we are still processing
-        if t.is_alive():
+            # Yield 2: Show tool calls if any (before execution loop finishes)
             yield (
                 "",
-                client_state.clean_chat_history
-                + [{"role": "assistant", "content": "..."}],
+                client_state.clean_chat_history + [{"role": "assistant", "content": "..."}],
                 extract_tool_info(client_state),
                 extract_reasoning_info(client_state),
                 extract_usage_info(client_state),
@@ -232,8 +230,41 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
                 client_state,
             )
 
-    # Ensure thread is fully joined
-    t.join()
+            # Handle tool calls using a separate thread for UI responsiveness
+            ctx = contextvars.copy_context()
+            
+            def thread_target():
+                ctx.run(client_state.get_tool_responses)
+                    
+            t = threading.Thread(target=thread_target)
+            t.start()
+
+            # Poll thread status and yield updates to UI
+            while t.is_alive():
+                # Wait up to 5 seconds for the thread to finish
+                t.join(timeout=2)  # Shorter timeout for faster log updates
+                # If still alive, yield an update to show we are still processing
+                if t.is_alive():
+                    yield (
+                        "",
+                        client_state.clean_chat_history
+                        + [{"role": "assistant", "content": "..."}],
+                        extract_tool_info(client_state),
+                        extract_reasoning_info(client_state),
+                        extract_usage_info(client_state),
+                        get_log_buffer(),
+                        client_state,
+                    )
+
+            # Ensure thread is fully joined
+            t.join()
+            
+            # Update the turn span with the final output
+            from ai_tools.tracing import update_span
+            update_span(span, output=client_state.llm.response)
+            
+    finally:
+        flush_tracing()
 
     # Yield 3: Final state
     yield (
