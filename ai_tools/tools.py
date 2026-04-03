@@ -58,6 +58,7 @@ from .tracing import (
     update_generation,
     trace_subagent_call,
     update_span,
+    trace_span,
 )
 
 # ---------------------------------------------------------------------------

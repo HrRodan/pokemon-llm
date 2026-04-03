@@ -128,6 +128,11 @@ class TestRAGAgentIntegration:
                 "rockruff",
                 "lycanroc",
                 "furfrou",
+                "dachsbun",
+                "poochyena",
+                "yamper",
+                "herdier",
+                "watchog",
             ]
         )
         assert found, f"Expected a dog-like Pokémon in: {response[:400]}"

@@ -68,6 +68,10 @@ class BraveLLMContextInput(BaseModel):
         default="US",
         description="Search country (2-letter country code or 'ALL').",
     )
+    freshness: str | None = Field(
+        default=None,
+        description="Freshness filter (e.g. 'pd', 'pw', 'pm', 'py', '2022-04-01to2022-07-30').",
+    )
 
 
 class BraveLLMContextSearchResult(BaseModel):

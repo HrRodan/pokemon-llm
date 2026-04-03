@@ -223,6 +223,8 @@ def trace_llm_generation(
     if obs_name == "llm-query":
         obs_name = f"generation:{display_model}"
 
+    from opentelemetry import trace
+
     current_span = trace.get_current_span()
     is_nested = current_span.get_span_context().is_valid
 

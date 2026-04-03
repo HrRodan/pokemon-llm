@@ -12,10 +12,19 @@ callers:
 """
 
 import asyncio
+import contextvars
 import json
 import logging
 import uuid
 from typing import Dict, List, Any, Callable, Optional
+
+async def run_in_thread_with_context(func: Callable, *args, **kwargs) -> Any:
+    """Run a blocking function in a separate thread while preserving contextvars."""
+    ctx = contextvars.copy_context()
+    def wrapper():
+        return ctx.run(func, *args, **kwargs)
+    return await asyncio.to_thread(wrapper)
+
 
 from pydantic import ValidationError
 from IPython.display import Markdown, display
@@ -341,21 +350,14 @@ async def handle_tool_call_async(
                 if logger:
                     logger.info(f"TOOL CALL (async): {function_name} | Args: {arguments}")
 
-                # Create a wrapper that runs the function inside the current context
-                import contextvars
-                ctx = contextvars.copy_context()
-
-                def _run_with_context(*args, **kw):
-                    return ctx.run(function_to_call, *args, **kw)
-
                 if pydantic_model is not None:
                     try:
                         validated = pydantic_model(**arguments)
                     except ValidationError as e:
                         raise ValueError(f"Argument validation failed: {e}")
-                    result = await asyncio.to_thread(_run_with_context, validated)
+                    result = await run_in_thread_with_context(function_to_call, validated)
                 else:
-                    result = await asyncio.to_thread(_run_with_context, **arguments)
+                    result = await run_in_thread_with_context(function_to_call, **arguments)
 
                 if logger:
                     str_result = str(result)

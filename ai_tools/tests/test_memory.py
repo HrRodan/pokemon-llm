@@ -20,5 +20,5 @@ def test_initial_message_extraction():
 def test_short_thread_ids():
     handler = MemoryHandler(backend=InMemoryBackend())
     thread_id = handler.thread_id
-    # Assert thread ID is 8 characters
-    assert len(thread_id) == 8
+    # Assert thread ID is 12 characters
+    assert len(thread_id) == 12

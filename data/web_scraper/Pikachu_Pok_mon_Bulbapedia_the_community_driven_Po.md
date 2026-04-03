@@ -1,7 +1,7 @@
 ---
 title: "Pikachu (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
-timestamp: "2026-04-01T23:14:39.368953+02:00"
+timestamp: "2026-04-03T22:10:10.617049+02:00"
 ---
 
 
@@ -163,7 +163,7 @@ It evolves from Pichu when leveled up with high friendship and evolves into Raic
 
 In Alola, Pikachu evolves into Alolan Raichu when exposed to a Thunder Stone.
 
-Pikachu has sixteen alternate forms that fall into four groups: **Cosplay Pikachu**, **Pikachu in a cap**, the **partner Pikachu**, and **Gigantamax Pikachu**. Ordinary Pikachu can Gigantamax into Gigantamax Pikachu if it has the Gigantamax Factor. Additionally, many other Pikachu variants have appeared in various media.
+Pikachu has sixteen alternate forms that fall into four groups: **Cosplay Pikachu**, **Pikachu in a cap**, the **partner Pikachu**, and **Gigantamax Pikachu**. Ordinary Pikachu can Gigantamax into Gigantamax Pikachu if it has the Gigantamax Factor. An additional form of Pikachu, called **Pale**, appears exclusively in Pokémon Pokopia (as a character named Peakychu). Additionally, many other Pikachu variants have appeared in various media.
 
 Cosplay Pikachu, Pikachu in a cap, the partner Pikachu, and Pikachu with the Gigantamax Factor cannot evolve. The Pikachu received at the beginning of Pokémon Yellow Version will refuse to evolve into Raichu unless it is traded and evolved on another save file.
 
@@ -239,11 +239,11 @@ Gigantamax Pikachu is the only known Pokémon capable of using the G-Max Move G-
 
 #### Pale Pikachu
 
-Pikachu has a spin-off form called Pale Pikachu.
+A particular Pikachu, named Peakychu, has a unique spin-off form called Pale.
 
 This unique Pikachu is named for its distinct grey-white color. Its heart-shaped tail is notably smaller than that of a regular Pikachu. The red electrical sacs are a light red, while the black tips of its tail are light grey. Its ears are constantly drooping, giving it a sad appearance. Additionally, Pale Pikachu's eyes are slightly larger than those of a typical Pikachu. Notably, Pale Pikachu's body can emit a peculiar glow.
 
-This Pikachu's unusual coloration resulted from sharing its own electricity with sick friends. As a consequence, its physical structure changed, and Pale Pikachu became unable to generate its own electricity. However, it can still manipulate electricity if it receives enough charge from an external source. With sufficient electricity, Pale Pikachu can illuminate its surroundings. This form of Pikachu has also been referred to as "Peakychu."
+This Pikachu's unusual coloration resulted from sharing its own electricity with sick friends. As a consequence, its physical structure changed, and Pale Pikachu became unable to generate its own electricity. However, it can still manipulate electricity if it receives enough charge from an external source. With sufficient electricity, Pale Pikachu can illuminate its surroundings.
 
 - | Pale Pikachu |
 | --- |
@@ -733,7 +733,7 @@ Purchase for 6,000 Aeos Coins/345 Aeos Gems from Unite Battle Committee Pre vers
 
 ##### Pikachu
 
-| Games | Event | Language/Region | Location | Level | [show]Distribution period |
+| Games | Event | Language/Region | Location | Level | Distribution period |
 | --- | --- | --- | --- | --- | --- |
 | **RGB** | Pokémon 2 Idea Contest Pikachu | Japanese | Japan | 5 | May 15 to June 12, 1997 |
 | **RGB** | Nintendo 64 Pikachu | Japanese | Japan | 5 | September 21 to October 31, 1997 |
@@ -3072,7 +3072,7 @@ Two Pikachu figures have been released.
 
 ## Other appearances
 
-Pikachu in Pokkén TournamentPikachu in Pokémon UNITE
+Pikachu Libre in Pokkén TournamentPikachu in Pokémon UNITE
 
 ### Pokkén Tournament
 
@@ -3205,7 +3205,7 @@ From the transcription of Japanese name and 超 *chīu* (super) |
 | Brazilian Portuguese | Pikachu | Same as English/Japanese name |
 
 | --- |
-| | [show]**More languages** | | |
+| | **More languages** | | |
 | --- | --- | --- |
 | Albanian | Pikaçu | Transcription of Japanese name |
 | Arabic | بيكاتشو *Bīkātshū* | Transcription of Japanese name |

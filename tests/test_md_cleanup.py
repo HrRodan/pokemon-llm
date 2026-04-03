@@ -17,7 +17,7 @@ def test_markdown_cleanup_optimization_remains_efficient():
         result_json = fetch_page_as_markdown(FetchPageInput(url=url, use_stealth=True, selector="main" if "wikipedia" in url else None))
         result = json.loads(result_json)
         
-        assert "error" not in result, f"Failed to fetch {url}: {result.get('error')}"
+        assert result.get("error") is None, f"Failed to fetch {url}: {result.get('error')}"
         assert "markdown" in result
         assert len(result["markdown"]) > 5000, f"Markdown for {url} is suspiciously short, parsing may be broken."
         assert len(result["markdown"]) < 80000, f"Markdown for {url} is severely bloated ({len(result['markdown'])} chars). Efficiency optimization failed."
