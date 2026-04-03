@@ -268,7 +268,7 @@ def update_generation(
     generation: Optional[Any],
     *,
     output: Optional[Any] = None,
-    usage: Optional[Dict[str, int]] = None,
+    usage: Optional[Dict[str, Any]] = None,
     model: Optional[str] = None,
     metadata: Optional[Dict[str, Any]] = None,
     level: Optional[str] = None,
@@ -293,6 +293,10 @@ def update_generation(
             "input": usage.get("prompt_tokens", 0),
             "output": usage.get("completion_tokens", 0),
         }
+        if "total_cost" in usage:
+            update_kwargs["cost_details"] = {
+                "total": usage["total_cost"]
+            }
     if update_kwargs:
         generation.update(**update_kwargs)
 

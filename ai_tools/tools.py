@@ -1030,6 +1030,17 @@ class LLMQuery(MultiModalMixin):
                     "completion_tokens": response.usage.completion_tokens,
                 }
 
+                cost = getattr(response.usage, "cost", None)
+                if cost is None:
+                    model_extra = getattr(response.usage, "model_extra", None)
+                    if model_extra:
+                        cost = model_extra.get("cost")
+                if cost is None and isinstance(response.usage, dict):
+                    cost = response.usage.get("cost")
+                    
+                if cost is not None:
+                    usage_data["total_cost"] = float(cost)
+
             message = response.choices[0].message
             content = message.content
 
