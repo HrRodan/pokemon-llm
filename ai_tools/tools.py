@@ -1409,7 +1409,7 @@ class LLMQuery(MultiModalMixin):
                 if original_memory:
                     llm_ref.memory = original_memory  # restore parent handler
                 
-                update_span(span, output=result[:1000] if result else "")
+                update_span(span, output=result[:2000] + "... [truncated]" if result else "")
                 return result
 
         _wrapper.__name__ = name

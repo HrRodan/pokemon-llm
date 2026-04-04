@@ -211,12 +211,7 @@ def trace_llm_generation(
         yield None
         return
 
-    # Strip provider prefix for cleaner display
     display_model = model
-    for prefix in ("openai/", "gemini/", "openrouter/", "ollama/"):
-        if display_model.startswith(prefix):
-            display_model = display_model[len(prefix):]
-            break
 
     # Use a descriptive name if it's generic
     obs_name = name

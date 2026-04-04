@@ -263,7 +263,7 @@ def handle_tool_call(
                         str_result = str_result[:500] + "... [truncated]"
                     logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
                 
-                update_span(span, output=str(result)[:1000] if result else "")
+                update_span(span, output=str(result)[:2000] + "... [truncated]" if result else "")
 
             except Exception as e:
                 # Return the error as a string result so the LLM can read it.
