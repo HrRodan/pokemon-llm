@@ -14,7 +14,7 @@ from dataclasses import dataclass
 
 from .tools import LLMQuery
 from .config import ModelName
-from .tracing import trace_agent_run, trace_subagent_call, update_span
+from .tracing import trace_agent_run, update_span
 
 
 @dataclass(kw_only=True)
@@ -157,7 +157,7 @@ class LLMAgent:
             self.logger.info(f"🧠 RESPONSE: {response}")
             self._update_usage()
 
-            update_span(span, output=response[:1000] if response else "")
+            update_span(span, output=response if response else "")
 
         return response
 
@@ -211,21 +211,19 @@ class LLMAgent:
 
         def _wrapper(**kwargs) -> str:
             query = kwargs.get("query", "")
-            with trace_subagent_call(self.TOOL_NAME, query) as span:
-                original_memory = getattr(agent_ref.llm, "memory", None)
-                if original_memory:
-                    # Scoped: each invocation gets its own isolated thread
-                    scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
-                    agent_ref.llm.memory = scoped
-                    agent_ref.llm.chat_history = []
-                else:
-                    agent_ref.llm.clear_history()
-                result = agent_ref.run(query)
-                if original_memory:
-                    agent_ref.llm.memory = original_memory  # restore parent handler
-                
-                update_span(span, output=result[:1000] if result else "")
-                return result
+            original_memory = getattr(agent_ref.llm, "memory", None)
+            if original_memory:
+                # Scoped: each invocation gets its own isolated thread
+                scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
+                agent_ref.llm.memory = scoped
+                agent_ref.llm.chat_history = []
+            else:
+                agent_ref.llm.clear_history()
+            result = agent_ref.run(query)
+            if original_memory:
+                agent_ref.llm.memory = original_memory  # restore parent handler
+            
+            return result
 
         _wrapper.__name__ = self.TOOL_NAME
         _wrapper.__tool_schema__ = tool_schema

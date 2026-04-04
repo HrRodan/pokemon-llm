@@ -191,6 +191,8 @@ def trace_llm_generation(
     model: str,
     input_messages: List[Dict[str, Any]],
     *,
+    model_parameters: Optional[Dict[str, Any]] = None,
+    tool_definitions: Optional[List[Dict[str, Any]]] = None,
     metadata: Optional[Dict[str, Any]] = None,
     user_id: Optional[str] = None,
     session_id: Optional[str] = None,
@@ -228,6 +230,7 @@ def trace_llm_generation(
             as_type="generation",
             name=obs_name,
             model=display_model,
+            model_parameters=model_parameters or {},
             input=input_messages,
             metadata=metadata or {},
         ) as gen:
@@ -245,13 +248,20 @@ def trace_llm_generation(
             trace_name=obs_name,
             metadata=metadata or {},
         ):
-            with client.start_as_current_observation(
-                as_type="generation",
-                name=obs_name,
-                model=display_model,
-                input=input_messages,
-                metadata=metadata or {},
-            ) as gen:
+            _metadata = metadata or {}
+            kwargs = {
+                "as_type": "generation",
+                "name": obs_name,
+                "model": display_model,
+                "model_parameters": model_parameters or {},
+                "input": input_messages,
+            }
+            if tool_definitions is not None:
+                _metadata["tool_definitions"] = tool_definitions
+
+            kwargs["metadata"] = _metadata
+
+            with client.start_as_current_observation(**kwargs) as gen:
                 try:
                     yield gen
                 except Exception as e:
@@ -265,6 +275,8 @@ def update_generation(
     output: Optional[Any] = None,
     usage: Optional[Dict[str, Any]] = None,
     model: Optional[str] = None,
+    tool_calls: Optional[List[Dict[str, Any]]] = None,
+    tool_call_names: Optional[List[str]] = None,
     metadata: Optional[Dict[str, Any]] = None,
     level: Optional[str] = None,
     status_message: Optional[str] = None,
@@ -283,6 +295,10 @@ def update_generation(
         update_kwargs["level"] = level
     if status_message:
         update_kwargs["status_message"] = status_message
+    if tool_calls is not None:
+        update_kwargs["tool_calls"] = tool_calls
+    if tool_call_names is not None:
+        update_kwargs["tool_call_names"] = tool_call_names
     if usage:
         update_kwargs["usage_details"] = {
             "input": usage.get("prompt_tokens", 0),
@@ -316,34 +332,6 @@ def trace_tool_execution(
         as_type="tool",
         name=f"tool:{tool_name}",
         input=arguments,
-    ) as span:
-        try:
-            yield span
-        except Exception as e:
-            span.update(level="ERROR", status_message=str(e))
-            raise
-
-
-@contextmanager
-def trace_subagent_call(
-    subagent_name: str, query: str
-) -> Generator[Optional[Any], None, None]:
-    """
-    Open a 'span' observation for a subagent tool invocation.
-    """
-    if not is_tracing_enabled():
-        yield None
-        return
-
-    client = get_langfuse_client()
-    if not client:
-        yield None
-        return
-
-    with client.start_as_current_observation(
-        as_type="agent",
-        name=subagent_name,
-        input={"query": query},
     ) as span:
         try:
             yield span

@@ -56,7 +56,6 @@ from .multimodal import MultiModalMixin
 from .tracing import (
     trace_llm_generation,
     update_generation,
-    trace_subagent_call,
     update_span,
     trace_span,
 )
@@ -1011,11 +1010,19 @@ class LLMQuery(MultiModalMixin):
         if self.memory and hasattr(self.memory, "root_thread_id"):
             session_id = self.memory.root_thread_id
 
+        metadata = {"provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"}
+        if cfg["tool_choice"]:
+            metadata["tool_choice"] = cfg["tool_choice"]
+            
+        model_params = {k: v for k, v in request_kwargs.items() if k not in ("messages", "model", "tools", "tool_choice", "extra_body")}
+
         with trace_llm_generation(
             name="llm-query",
             model=cfg["model"],
             input_messages=messages,
-            metadata={"provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"},
+            model_parameters=model_params,
+            tool_definitions=cfg["tools"] if cfg["tools"] else None,
+            metadata=metadata,
             user_id=self.user_id,
             session_id=session_id,
         ) as generation:
@@ -1048,12 +1055,14 @@ class LLMQuery(MultiModalMixin):
                 message.tool_calls, content
             )
 
+            tool_call_names = [tc["function"]["name"] for tc in self.tool_calls] if self.tool_calls else None
             update_generation(
                 generation,
                 output=content or "[tool_calls_only]",
                 usage=usage_data,
                 model=cfg["model"],
-                metadata={"tool_calls": len(self.tool_calls)} if self.tool_calls else None,
+                tool_calls=self.tool_calls if self.tool_calls else None,
+                tool_call_names=tool_call_names,
             )
 
         if cfg["json_format"] and content:
@@ -1392,25 +1401,23 @@ class LLMQuery(MultiModalMixin):
 
         def _wrapper(**kwargs) -> str:
             prompt = kwargs.get(input_arg, "")
-            with trace_subagent_call(name, prompt) as span:
-                original_memory = getattr(llm_ref, "memory", None)
+            original_memory = getattr(llm_ref, "memory", None)
+            
+            if original_memory:
+                # Scoped: each invocation gets its own thread for audit trail
+                scoped = original_memory.create_scoped_handler(name)
+                llm_ref.memory = scoped  # temporarily swap
+                llm_ref.chat_history = []
+            else:
+                llm_ref.clear_history()
                 
-                if original_memory:
-                    # Scoped: each invocation gets its own thread for audit trail
-                    scoped = original_memory.create_scoped_handler(name)
-                    llm_ref.memory = scoped  # temporarily swap
-                    llm_ref.chat_history = []
-                else:
-                    llm_ref.clear_history()
-                    
-                llm_ref.query(prompt)
-                result = llm_ref.get_tool_responses()
-                
-                if original_memory:
-                    llm_ref.memory = original_memory  # restore parent handler
-                
-                update_span(span, output=result[:2000] + "... [truncated]" if result else "")
-                return result
+            llm_ref.query(prompt)
+            result = llm_ref.get_tool_responses()
+            
+            if original_memory:
+                llm_ref.memory = original_memory  # restore parent handler
+            
+            return result
 
         _wrapper.__name__ = name
         _wrapper.__pydantic_model__ = None  # use raw **kwargs path in dispatcher

@@ -10,7 +10,6 @@ from ai_tools.tracing import (
     update_generation,
     trace_tool_execution,
     update_span,
-    trace_subagent_call,
     flush_tracing,
 )
 from ai_tools.memory import MemoryHandler, InMemoryBackend
@@ -115,8 +114,9 @@ def test_trace_llm_generation_creates_generation(mock_langfuse):
         with trace_llm_generation("llm-query", "openai/gpt-4o", messages) as gen:
             mock_client.start_as_current_observation.assert_called_once_with(
                 as_type="generation",
-                name="generation:gpt-4o",
-                model="gpt-4o",
+                name="generation:openai/gpt-4o",
+                model="openai/gpt-4o",
+                model_parameters={},
                 input=messages,
                 metadata={}
             )
