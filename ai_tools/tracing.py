@@ -119,11 +119,7 @@ def get_langfuse_params(
 
 
 
-def annotate_llm_response(response: Any, original_model: str) -> None:
-    """
-    [DEPRECATED] Metadata annotation logic removed as per user request.
-    """
-    pass
+
 
 
 def get_langfuse_client():
@@ -267,144 +263,7 @@ def trace_span(
                     raise
 
 
-@contextmanager
-def trace_llm_generation(
-    name: str,
-    model: str,
-    input_messages: List[Dict[str, Any]],
-    *,
-    model_parameters: Optional[Dict[str, Any]] = None,
-    tool_definitions: Optional[List[Dict[str, Any]]] = None,
-    metadata: Optional[Dict[str, Any]] = None,
-    user_id: Optional[str] = None,
-    session_id: Optional[str] = None,
-    tags: Optional[List[str]] = None,
-) -> Generator[Optional[Any], None, None]:
-    """
-    [DEPRECATED] Manual tracing of LLM generations.
-    
-    Prefer using get_openai_class() and get_langfuse_params() for 
-    automatic instrumentation via the Langfuse OpenAI wrapper.
-    """
-    if not is_tracing_enabled():
-        yield None
-        return
 
-    client = get_langfuse_client()
-    if not client:
-        yield None
-        return
-
-    display_model = model
-
-    # Use a descriptive name if it's generic
-    obs_name = name
-    if obs_name == "llm-query":
-        obs_name = f"generation:{display_model}"
-
-    from opentelemetry import trace
-
-    current_span = trace.get_current_span()
-    is_nested = current_span.get_span_context().is_valid
-
-    # Ensure tool_definitions are always included in metadata as "tools"
-    # following the pattern in the minimal example.
-    _metadata = metadata.copy() if metadata else {}
-    if tool_definitions is not None:
-        _metadata["tools"] = tool_definitions
-
-    if is_nested:
-        with client.start_as_current_observation(
-            as_type="generation",
-            name=obs_name,
-            model=display_model,
-            model_parameters=model_parameters or {},
-            input=input_messages,
-            metadata=_metadata,
-        ) as gen:
-            try:
-                yield gen
-            except Exception as e:
-                gen.update(level="ERROR", status_message=str(e))
-                raise
-    else:
-        from langfuse import propagate_attributes
-        with propagate_attributes(
-            user_id=user_id,
-            session_id=session_id,
-            tags=tags,
-            trace_name=obs_name,
-            metadata=_metadata,
-        ):
-            with client.start_as_current_observation(
-                as_type="generation",
-                name=obs_name,
-                model=display_model,
-                model_parameters=model_parameters or {},
-                input=input_messages,
-                metadata=_metadata,
-            ) as gen:
-                try:
-                    yield gen
-                except Exception as e:
-                    gen.update(level="ERROR", status_message=str(e))
-                    raise
-
-
-def update_generation(
-    generation: Optional[Any],
-    *,
-    output: Optional[Any] = None,
-    usage: Optional[Dict[str, Any]] = None,
-    model: Optional[str] = None,
-    tool_calls: Optional[List[Dict[str, Any]]] = None,
-    tool_call_names: Optional[List[str]] = None,
-    tool_definitions: Optional[List[Dict[str, Any]]] = None,
-    metadata: Optional[Dict[str, Any]] = None,
-    level: Optional[str] = None,
-    status_message: Optional[str] = None,
-) -> None:
-    """
-    Update a generation span with the LLM response data.
-    """
-    if generation is None:
-        return
-    update_kwargs: Dict[str, Any] = {}
-    if output is not None:
-        update_kwargs["output"] = output
-    if model is not None:
-        update_kwargs["model"] = model
-    
-    # Ensure tool calls and names are captured in metadata for UI visibility
-    _metadata = metadata.copy() if metadata else {}
-    if tool_definitions is not None:
-        _metadata["tools"] = tool_definitions
-    if tool_calls is not None:
-        update_kwargs["tool_calls"] = tool_calls
-        _metadata["tool_calls"] = tool_calls
-    if tool_call_names is not None:
-        update_kwargs["tool_call_names"] = tool_call_names
-        _metadata["tool_call_names"] = tool_call_names
-    
-    if _metadata:
-        update_kwargs["metadata"] = _metadata
-        
-    if level:
-        update_kwargs["level"] = level
-    if status_message:
-        update_kwargs["status_message"] = status_message
-
-    if usage:
-        update_kwargs["usage_details"] = {
-            "input": usage.get("prompt_tokens", 0),
-            "output": usage.get("completion_tokens", 0),
-        }
-        if "total_cost" in usage:
-            update_kwargs["cost_details"] = {
-                "total": usage["total_cost"]
-            }
-    if update_kwargs:
-        generation.update(**update_kwargs)
 
 
 @contextmanager

@@ -9,8 +9,6 @@ from ai_tools.tracing import (
     is_tracing_enabled,
     get_langfuse_client,
     trace_agent_run,
-    trace_llm_generation,
-    update_generation,
     trace_tool_execution,
     flush_tracing,
 )
@@ -118,31 +116,9 @@ def test_trace_agent_run_nested(mock_langfuse, mock_otel):
                     )
                     assert mock_langfuse["propagate"].call_count == 0
 
-def test_trace_llm_generation_creates_generation(mock_langfuse, mock_otel):
-    mock_client = mock_langfuse["client"]
-    
-    with patch.dict(os.environ, {
-        "LANGFUSE_SECRET_KEY": "sk-123",
-        "LANGFUSE_PUBLIC_KEY": "pk-123",
-        "LANGFUSE_BASE_URL": "http://localhost:3000"
-    }):
-        with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
-             patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
-                messages = [{"role": "user", "content": "Hello"}]
-                with trace_llm_generation("llm-query", "openai/gpt-4o", messages):
-                    mock_client.start_as_current_observation.assert_called()
-                    args, kwargs = mock_client.start_as_current_observation.call_args
-                    assert kwargs["as_type"] == "generation"
 
-def test_update_generation_with_usage():
-    mock_gen = MagicMock()
-    usage = {"prompt_tokens": 10, "completion_tokens": 20}
-    update_generation(mock_gen, output="Bye", usage=usage)
-    
-    mock_gen.update.assert_called_once_with(
-        output="Bye",
-        usage_details={"input": 10, "output": 20}
-    )
+
+
 
 def test_trace_tool_execution_records_error(mock_langfuse, mock_otel):
     mock_client = mock_langfuse["client"]
