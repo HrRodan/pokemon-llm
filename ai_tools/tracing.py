@@ -230,7 +230,6 @@ def trace_llm_generation(
     _metadata = metadata.copy() if metadata else {}
     if tool_definitions is not None:
         _metadata["tools"] = tool_definitions
-        _metadata["tool_definitions"] = tool_definitions
 
     if is_nested:
         with client.start_as_current_observation(
