@@ -170,10 +170,6 @@ class LLMAgent:
         the OpenAI-compatible schema derived from the class `TOOL_NAME` and
         `TOOL_DESCRIPTION`.
 
-        The wrapper PERSISTS history across tool calls, allowing the agent
-        to maintain context from previous turns in the same session. Use
-        `history_limit` in the `AgentConfig` to manage context window size.
-
         Returns:
             Callable: The tool wrapper.
 

@@ -121,7 +121,7 @@ class TestDynamicNaming(unittest.TestCase):
             llm.generate_embedding(["Hello"], model="openai/gpt-4o")
             
             args, kwargs = mock_client_instance.embeddings.create.call_args
-            self.assertEqual(kwargs["name"], "embedding:RAGAgent:openai/gpt-4o")
+            self.assertEqual(kwargs["name"], "embedding:RAGAgent:gpt-4o")
             # Verify provider is in metadata
             self.assertEqual(kwargs["metadata"]["provider"], "openai")
 

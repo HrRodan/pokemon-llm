@@ -1274,7 +1274,7 @@ class LLMQuery(MultiModalMixin):
         nest_asyncio.apply(loop)
         return loop.run_until_complete(coro)
 
-    def get_tool_responses(self, max_iterations: int = 50) -> str:  # noqa: C901
+    def get_tool_responses(self, max_iterations: int = 20) -> str:  # noqa: C901
         """
         Run tool calls until no more are returned, up to max_iterations.
 

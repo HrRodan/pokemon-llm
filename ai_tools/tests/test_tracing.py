@@ -81,9 +81,9 @@ def test_tracing_enabled_with_env_vars(mock_langfuse):
 
 def test_trace_agent_run_creates_span(mock_langfuse, mock_otel):
     mock_client = mock_langfuse["client"]
-    
-    with patch.dict(os.environ, {
-        "LANGFUSE_SECRET_KEY": "sk-123",
+    mock_client.get_current_observation_id.return_value = None
+
+    with patch.dict(os.environ, {        "LANGFUSE_SECRET_KEY": "sk-123",
         "LANGFUSE_PUBLIC_KEY": "pk-123",
         "LANGFUSE_BASE_URL": "http://localhost:3000"
     }):

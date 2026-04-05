@@ -12,7 +12,6 @@ import logging
 from contextlib import contextmanager
 from typing import Any, Dict, Generator, List, Optional
 
-from opentelemetry import trace
 
 logger = logging.getLogger(__name__)
 
@@ -24,11 +23,8 @@ _tracing_enabled = False
 
 def is_tracing_enabled() -> bool:
     """Return True if required Langfuse env vars are present and OpenAI wrapper is importable."""
-    global _tracing_checked, _tracing_enabled
-    if _tracing_checked:
-        return _tracing_enabled
+    global _tracing_enabled
 
-    _tracing_checked = True
     required = ("LANGFUSE_SECRET_KEY", "LANGFUSE_PUBLIC_KEY", "LANGFUSE_BASE_URL")
     
     # If any required env var is missing, disable tracing.
@@ -120,6 +116,12 @@ def get_langfuse_params(
     params = {"name": trace_name}
     if metadata:
         params["metadata"] = metadata
+    if user_id:
+        params["user_id"] = user_id
+    if session_id:
+        params["session_id"] = session_id
+    if tags:
+        params["tags"] = tags
         
     return params
 
@@ -135,8 +137,8 @@ def get_langfuse_client():
         return None
     if _langfuse_client is None:
         try:
-            from langfuse import Langfuse
-            _langfuse_client = Langfuse()
+            from langfuse import get_client
+            _langfuse_client = get_client()
         except ImportError:
             return None
     return _langfuse_client
@@ -226,8 +228,8 @@ def trace_span(
         return
 
     # Check if we are already inside an active trace
-    current_span = trace.get_current_span()
-    is_nested = current_span.get_span_context().is_valid
+    current_obs_id = client.get_current_observation_id()
+    is_nested = current_obs_id is not None
 
     resolved_name = name
     if is_nested and _is_agent_run:
