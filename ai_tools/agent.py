@@ -102,6 +102,7 @@ class LLMAgent:
             concurrent_tool_calls=config.concurrent_tool_calls,
             memory=config.memory,
             user_id=config.user_id,
+            agent_name=config.name,
         )
 
         self._call_count: int = 0

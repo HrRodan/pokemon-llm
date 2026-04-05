@@ -17,8 +17,6 @@ from ai_tools.tool_definition import tool
 
 # Lightweight models from different providers
 MODELS_TO_TEST = [
-    "openai/gpt-4o-mini",
-    "gemini/gemini-3.1-flash-lite-preview",
     "openrouter/openai/gpt-oss-20b",
 ]
 

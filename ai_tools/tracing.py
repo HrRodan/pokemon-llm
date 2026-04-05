@@ -23,25 +23,107 @@ _tracing_enabled = False
 
 
 def is_tracing_enabled() -> bool:
-    """Return True if all required Langfuse env vars are present and SDK is importable."""
+    """Return True if required Langfuse env vars are present and OpenAI wrapper is importable."""
     global _tracing_checked, _tracing_enabled
     if _tracing_checked:
         return _tracing_enabled
 
     _tracing_checked = True
     required = ("LANGFUSE_SECRET_KEY", "LANGFUSE_PUBLIC_KEY", "LANGFUSE_BASE_URL")
+    
+    # If any required env var is missing, disable tracing.
     if not all(os.getenv(k) for k in required):
         _tracing_enabled = False
         return False
 
     try:
-        import langfuse  # noqa: F401
+        # We need the OpenAI wrapper for the simplified instrumentation to work safely.
+        from langfuse.openai import OpenAI  # noqa: F401
         _tracing_enabled = True
     except ImportError:
-        logger.debug("langfuse package not installed; tracing disabled.")
+        logger.debug("langfuse.openai package not available; tracing disabled.")
         _tracing_enabled = False
 
     return _tracing_enabled
+
+
+@contextmanager
+def propagate_langfuse_attributes(
+    user_id: Optional[str] = None,
+    session_id: Optional[str] = None,
+    tags: Optional[List[str]] = None,
+):
+    """
+    Context manager to propagate Langfuse attributes (user_id, session_id, tags)
+    to all nested observations and generations.
+    """
+    if is_tracing_enabled():
+        try:
+            from langfuse import propagate_attributes
+            with propagate_attributes(user_id=user_id, session_id=session_id, tags=tags):
+                yield
+        except ImportError:
+            yield
+    else:
+        yield
+
+
+def get_openai_class():
+    """
+    Return the OpenAI client class, instrumented with Langfuse if enabled.
+    
+    This allows a drop-in replacement in tools.py while maintaining optional
+    tracing and fallbacks.
+    """
+    if is_tracing_enabled():
+        try:
+            from langfuse.openai import OpenAI
+            return OpenAI
+        except ImportError:
+            logger.debug("langfuse.openai not available; falling back to standard openai.")
+    
+    from openai import OpenAI
+    return OpenAI
+
+
+def get_langfuse_params(
+    *,
+    model: str,
+    agent_name: Optional[str] = None,
+    user_id: Optional[str] = None,
+    session_id: Optional[str] = None,
+    tags: Optional[List[str]] = None,
+    metadata: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """
+    Return a dictionary of Langfuse-specific parameters for OpenAI calls.
+    
+    This centralizes the generation naming logic: generation:<AgentName>:<Model>
+    or generation:LLMQuery:<Model> if no agent name is provided.
+    """
+    if not is_tracing_enabled():
+        return {}
+
+    name_parts = ["generation"]
+    if agent_name:
+        name_parts.append(agent_name)
+    else:
+        name_parts.append("LLMQuery")
+    trace_name = ":".join(name_parts)
+
+    params = {"name": trace_name}
+    if metadata:
+        params["metadata"] = metadata
+        
+    return params
+
+
+
+def annotate_llm_response(response: Any, original_model: str) -> None:
+    """
+    [DEPRECATED] Metadata annotation logic removed as per user request.
+    """
+    pass
 
 
 def get_langfuse_client():
@@ -51,8 +133,8 @@ def get_langfuse_client():
         return None
     if _langfuse_client is None:
         try:
-            from langfuse import get_client
-            _langfuse_client = get_client()
+            from langfuse import Langfuse
+            _langfuse_client = Langfuse()
         except ImportError:
             return None
     return _langfuse_client
@@ -199,10 +281,10 @@ def trace_llm_generation(
     tags: Optional[List[str]] = None,
 ) -> Generator[Optional[Any], None, None]:
     """
-    Open a 'generation' observation for a single LLM API call.
-
-    Caller MUST call `update_generation()` after receiving the response
-    to record the output, token usage, and cost.
+    [DEPRECATED] Manual tracing of LLM generations.
+    
+    Prefer using get_openai_class() and get_langfuse_params() for 
+    automatic instrumentation via the Langfuse OpenAI wrapper.
     """
     if not is_tracing_enabled():
         yield None

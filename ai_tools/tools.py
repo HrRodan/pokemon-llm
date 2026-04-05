@@ -54,10 +54,9 @@ from .utils import (
 from .pipeline import _Pipeline, _PipeableString, _PipeableQuery
 from .multimodal import MultiModalMixin
 from .tracing import (
-    trace_llm_generation,
-    update_generation,
-    update_span,
     trace_span,
+    get_openai_class,
+    get_langfuse_params,
 )
 
 # ---------------------------------------------------------------------------
@@ -111,6 +110,7 @@ class LLMQuery(MultiModalMixin):
         logger: Optional[logging.Logger] = None,
         memory: Optional["MemoryHandler"] = None,
         user_id: Optional[str] = None,
+        agent_name: Optional[str] = None,
     ):
         """
         Initialize the LLMQuery instance.
@@ -180,6 +180,7 @@ class LLMQuery(MultiModalMixin):
         """
         self.logger = logger
         self.user_id = user_id
+        self.agent_name = agent_name
         self.model = model
         self.image_model = image_model
         self.tts_model = tts_model
@@ -316,7 +317,7 @@ class LLMQuery(MultiModalMixin):
         # We check for reasoning here to avoid retrying when the model is just "thinking"
         # but hasn't emitted a final response yet.
         reasoning, _ = self._extract_reasoning(message)
-        
+
         if not message.content and not message.tool_calls and not reasoning:
             if self.logger:
                 self.logger.error(
@@ -385,11 +386,13 @@ class LLMQuery(MultiModalMixin):
             attrs = match.group(1).strip()
             args_str = match.group(2).strip()
             name_match = re.search(r'name=["\']([^"\']+)["\']', attrs)
-            fn_name = name_match.group(1) if name_match else "error_missing_function_name"
-            
+            fn_name = (
+                name_match.group(1) if name_match else "error_missing_function_name"
+            )
+
             if args_str.startswith("<![CDATA[") and args_str.endswith("]]>"):
                 args_str = args_str[9:-3].strip()
-            
+
             add_call(fn_name, args_str, match.group(0))
 
         # ----------------------------------------------------------------
@@ -404,7 +407,9 @@ class LLMQuery(MultiModalMixin):
             attrs = match.group(1).strip()
             inner = match.group(2).strip()
             name_match = re.search(r'name=["\']([^"\']+)["\']', attrs)
-            fn_name = name_match.group(1) if name_match else "error_missing_function_name"
+            fn_name = (
+                name_match.group(1) if name_match else "error_missing_function_name"
+            )
 
             args: Dict[str, Any] = {}
             param_matches = re.finditer(
@@ -424,7 +429,7 @@ class LLMQuery(MultiModalMixin):
         token_matches = re.finditer(
             r"to=functions\.([a-zA-Z0-9_<|>-]+).*?<\|message\|>(.*?)(?=<\||\n\s*\n|$)",
             content,
-            re.DOTALL
+            re.DOTALL,
         )
         for match in token_matches:
             add_call(match.group(1), match.group(2).strip(), match.group(0))
@@ -433,9 +438,7 @@ class LLMQuery(MultiModalMixin):
         # Path 4: Call-prefix tags (<call:NAME>ARGS</call:NAME>)
         # ----------------------------------------------------------------
         call_prefix_matches = re.finditer(
-            r"<call:([a-zA-Z0-9_-]+)>(.*?)</call:\1>",
-            content,
-            re.DOTALL
+            r"<call:([a-zA-Z0-9_-]+)>(.*?)</call:\1>", content, re.DOTALL
         )
         for match in call_prefix_matches:
             add_call(match.group(1), match.group(2).strip(), match.group(0))
@@ -448,9 +451,7 @@ class LLMQuery(MultiModalMixin):
                 name = fn.__name__
                 # We use a non-greedy match for the content
                 tag_matches = re.finditer(
-                    f"<{name}([^>]*)>(.*?)</{name}>",
-                    content,
-                    re.DOTALL
+                    f"<{name}([^>]*)>(.*?)</{name}>", content, re.DOTALL
                 )
                 for match in tag_matches:
                     add_call(name, match.group(2).strip(), match.group(0))
@@ -478,24 +479,25 @@ class LLMQuery(MultiModalMixin):
         # Replace any character outside [a-zA-Z0-9_-] with underscore
         return re.sub(r"[^a-zA-Z0-9_-]", "_", tool_id)
 
-    def _get_client_for_model(self, model: str) -> OpenAI:
+    def _get_client_for_model(self, model: str) -> Any:
         """
         Return an OpenAI-compatible client for the given model name.
 
         Raises:
             ValueError: If the model is not listed with a supported prefix.
         """
+        OpenAIClass = get_openai_class()
         if model.startswith("openai/"):
-            return OpenAI(api_key=_cfg.get_api_key("OPENAI_API_KEY"))
+            return OpenAIClass(api_key=_cfg.get_api_key("OPENAI_API_KEY"))
         elif model.startswith("ollama/"):
-            return OpenAI(base_url=_cfg.OLLAMA_BASE_URL, api_key="ollama")
+            return OpenAIClass(base_url=_cfg.OLLAMA_BASE_URL, api_key="ollama")
         elif model.startswith("gemini/"):
-            return OpenAI(
+            return OpenAIClass(
                 base_url=_cfg.GEMINI_BASE_URL,
                 api_key=_cfg.get_api_key("GOOGLE_API_KEY"),
             )
         elif model.startswith("openrouter/"):
-            return OpenAI(
+            return OpenAIClass(
                 base_url=_cfg.OPENROUTER_BASE_URL,
                 api_key=_cfg.get_api_key("OPENROUTER_API_KEY"),
             )
@@ -546,7 +548,10 @@ class LLMQuery(MultiModalMixin):
             and self.chat_history
             and self.chat_history[0].get("role") != "user"
         ):
-            while start_idx < history_len and self.chat_history[start_idx].get("role") != "user":
+            while (
+                start_idx < history_len
+                and self.chat_history[start_idx].get("role") != "user"
+            ):
                 start_idx += 1
 
         return self.chat_history[start_idx:]
@@ -625,17 +630,17 @@ class LLMQuery(MultiModalMixin):
             Dict: Ready-to-unpack kwargs for ``create()``.
         """
         target_model = model if model is not None else self.model
-        
+
         # Strip provider prefix for the API request
         api_model = target_model
         if target_model.startswith("openai/"):
-            api_model = target_model[len("openai/"):]
+            api_model = target_model[len("openai/") :]
         elif target_model.startswith("ollama/"):
-            api_model = target_model[len("ollama/"):]
+            api_model = target_model[len("ollama/") :]
         elif target_model.startswith("gemini/"):
-            api_model = target_model[len("gemini/"):]
+            api_model = target_model[len("gemini/") :]
         elif target_model.startswith("openrouter/"):
-            api_model = target_model[len("openrouter/"):]
+            api_model = target_model[len("openrouter/") :]
 
         request_kwargs: Dict[str, Any] = {"model": api_model, "messages": messages}
 
@@ -807,7 +812,7 @@ class LLMQuery(MultiModalMixin):
             tc["id"] = self._sanitize_tool_id(tc.get("id"))
             if not tc.get("function"):
                 tc["function"] = {"name": "unknown_function", "arguments": "{}"}
-            
+
             # Sanitize the function name to remove LLM-specific tokens
             tc["function"]["name"] = sanitize_tool_name(tc["function"].get("name"))
 
@@ -837,7 +842,7 @@ class LLMQuery(MultiModalMixin):
 
         if content:
             self.logger.debug(f"🧠 LLM RESPONSE: {trunc(content)}")
-        
+
         if reasoning:
             if not content and not tool_calls:
                 # Reasoning-only turn: log at INFO for easier debugging
@@ -889,7 +894,7 @@ class LLMQuery(MultiModalMixin):
             assistant_msg["tool_calls"] = tool_calls
         if thought_signature:
             assistant_msg["thought_signature"] = thought_signature
-        
+
         # Only include reasoning in history if it's the ONLY thing provided.
         # This allows continuation without bloating history with redundant CoT.
         if reasoning and not response_content and not tool_calls:
@@ -1010,75 +1015,51 @@ class LLMQuery(MultiModalMixin):
         if self.memory and hasattr(self.memory, "root_thread_id"):
             session_id = self.memory.root_thread_id
 
-        metadata = {"provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"}
+        metadata = {
+            "provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"
+        }
         if cfg["tool_choice"]:
             metadata["tool_choice"] = cfg["tool_choice"]
-            
-        model_params = {k: v for k, v in request_kwargs.items() if k not in ("messages", "model", "tools", "tool_choice", "extra_body")}
 
-        with trace_llm_generation(
-            name="llm-query",
-            model=cfg["model"],
-            input_messages=messages,
-            model_parameters=model_params,
-            tool_definitions=cfg["tools"] if cfg["tools"] else None,
+        model_params = {
+            k: v
+            for k, v in request_kwargs.items()
+            if k not in ("messages", "model", "tools", "tool_choice", "extra_body")
+        }
+
+        from .tracing import propagate_langfuse_attributes
+
+        # Dynamic Generation Naming (centralized in tracing.py)
+        from .tracing import get_langfuse_params, propagate_langfuse_attributes, annotate_llm_response
+        
+        langfuse_params = get_langfuse_params(
+            model=self.model,
+            agent_name=self.agent_name,
             metadata=metadata,
+        )
+        
+        with propagate_langfuse_attributes(
             user_id=self.user_id,
             session_id=session_id,
-        ) as generation:
-            response = self._create_chat_completion(client, **request_kwargs)
-
-            # Extract usage for Langfuse
-            usage_data = None
-            if hasattr(response, "usage") and response.usage:
-                self._update_usage(response.usage)
-                usage_data = {
-                    "prompt_tokens": response.usage.prompt_tokens,
-                    "completion_tokens": response.usage.completion_tokens,
-                }
-
-                cost = getattr(response.usage, "cost", None)
-                if cost is None:
-                    model_extra = getattr(response.usage, "model_extra", None)
-                    if model_extra:
-                        cost = model_extra.get("cost")
-                if cost is None and isinstance(response.usage, dict):
-                    cost = response.usage.get("cost")
-                    
-                if cost is not None:
-                    usage_data["total_cost"] = float(cost)
-
-            message = response.choices[0].message
-            content = message.content
-
-            self.tool_calls = self._extract_and_sanitize_tool_calls(
-                message.tool_calls, content
+        ):
+            response = self._create_chat_completion(
+                client, **{**request_kwargs, **langfuse_params}
             )
 
-            # Extract reasoning before updating generation to include it in the trace output
-            reasoning, thought_signature = self._extract_reasoning(message)
-            self.reasoning_history.append(reasoning)
-            
-            # Prepare the complete response for Langfuse output
-            output_data = message.model_dump() if hasattr(message, "model_dump") else {
-                "role": "assistant",
-                "content": content,
-                "tool_calls": self.tool_calls,
-            }
-            if reasoning and isinstance(output_data, dict):
-                output_data["reasoning"] = reasoning
+        # Update internal usage counters (still required for LLMQuery state)
+        if hasattr(response, "usage") and response.usage:
+            self._update_usage(response.usage)
 
-            tool_call_names = [tc["function"]["name"] for tc in self.tool_calls] if self.tool_calls else None
-            update_generation(
-                generation,
-                output=output_data,
-                usage=usage_data,
-                model=cfg["model"],
-                tool_calls=self.tool_calls if self.tool_calls else None,
-                tool_call_names=tool_call_names,
-                tool_definitions=cfg["tools"] if cfg["tools"] else None,
-                metadata=metadata,
-            )
+        message = response.choices[0].message
+        content = message.content
+
+        self.tool_calls = self._extract_and_sanitize_tool_calls(
+            message.tool_calls, content
+        )
+
+        # Extract reasoning and update history
+        reasoning, thought_signature = self._extract_reasoning(message)
+        self.reasoning_history.append(reasoning)
 
         if cfg["json_format"] and content:
             content = clean_json(content)
@@ -1112,7 +1093,9 @@ class LLMQuery(MultiModalMixin):
         # Handle reasoning-only response by re-querying (max 3 attempts)
         if not content and not self.tool_calls and reasoning and _recursion_depth < 3:
             if self.logger:
-                self.logger.info("Reasoning-only response received; re-querying for content...")
+                self.logger.info(
+                    "Reasoning-only response received; re-querying for content..."
+                )
             return self.query(
                 user_prompt="Answer the original user question",
                 model=cfg["model"],
@@ -1414,7 +1397,7 @@ class LLMQuery(MultiModalMixin):
         def _wrapper(**kwargs) -> str:
             prompt = kwargs.get(input_arg, "")
             original_memory = getattr(llm_ref, "memory", None)
-            
+
             if original_memory:
                 # Scoped: each invocation gets its own thread for audit trail
                 scoped = original_memory.create_scoped_handler(name)
@@ -1422,13 +1405,13 @@ class LLMQuery(MultiModalMixin):
                 llm_ref.chat_history = []
             else:
                 llm_ref.clear_history()
-                
+
             llm_ref.query(prompt)
             result = llm_ref.get_tool_responses()
-            
+
             if original_memory:
                 llm_ref.memory = original_memory  # restore parent handler
-            
+
             return result
 
         _wrapper.__name__ = name

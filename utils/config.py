@@ -36,9 +36,9 @@ class Settings(BaseSettings):
         description="Default LLM model to use",
     )
     SUB_AGENT_MODEL: str = Field(
-        # default="openrouter/openai/gpt-oss-20b",
+        default="openrouter/openai/gpt-oss-20b",
         # default="openrouter/qwen/qwen3.5-9b",
-        default="openrouter/mistralai/mistral-small-2603",
+        #default="openrouter/mistralai/mistral-small-2603",
         #default="openrouter/google/gemma-4-26b-a4b-it",
         # default="openrouter/nvidia/nemotron-3-nano-30b-a3b",
         description="Default model for sub-agents",
