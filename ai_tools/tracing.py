@@ -90,6 +90,8 @@ def get_langfuse_params(
     *,
     model: str,
     agent_name: Optional[str] = None,
+    name_prefix: str = "generation",
+    include_model: bool = False,
     user_id: Optional[str] = None,
     session_id: Optional[str] = None,
     tags: Optional[List[str]] = None,
@@ -98,17 +100,21 @@ def get_langfuse_params(
     """
     Return a dictionary of Langfuse-specific parameters for OpenAI calls.
     
-    This centralizes the generation naming logic: generation:<AgentName>:<Model>
-    or generation:LLMQuery:<Model> if no agent name is provided.
+    This centralizes the generation naming logic: {prefix}:<AgentName>[:<Model>]
+    or {prefix}:LLMQuery[:<Model>] if no agent name is provided.
     """
     if not is_tracing_enabled():
         return {}
 
-    name_parts = ["generation"]
+    name_parts = [name_prefix]
     if agent_name:
         name_parts.append(agent_name)
     else:
         name_parts.append("LLMQuery")
+        
+    if include_model:
+        name_parts.append(model)
+        
     trace_name = ":".join(name_parts)
 
     params = {"name": trace_name}

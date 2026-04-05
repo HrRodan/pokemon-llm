@@ -314,9 +314,20 @@ class MultiModalMixin:
                 api_model = api_model[len(prefix):]
                 break
 
+        from .tracing import get_langfuse_params
+
+        langfuse_params = get_langfuse_params(
+            model=target_model,
+            agent_name=getattr(self, "agent_name", None),
+            name_prefix="embedding",
+            include_model=True,
+            metadata={"provider": target_model.split("/")[0] if "/" in target_model else "unknown"}
+        )
+
         response = client.embeddings.create(
             model=api_model,
             input=text,
+            **langfuse_params
         )
 
         # Extract just the embedding vectors from the response objects,

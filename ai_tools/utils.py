@@ -17,6 +17,9 @@ import json
 import logging
 import uuid
 from typing import Dict, List, Any, Callable, Optional
+from pydantic import ValidationError
+from IPython.display import Markdown, display
+from .tracing import trace_tool_execution, update_span
 
 async def run_in_thread_with_context(func: Callable, *args, **kwargs) -> Any:
     """Run a blocking function in a separate thread while preserving contextvars."""
@@ -24,11 +27,6 @@ async def run_in_thread_with_context(func: Callable, *args, **kwargs) -> Any:
     def wrapper():
         return ctx.run(func, *args, **kwargs)
     return await asyncio.to_thread(wrapper)
-
-
-from pydantic import ValidationError
-from IPython.display import Markdown, display
-from .tracing import trace_tool_execution, update_span
 
 
 def generate_short_id() -> str:

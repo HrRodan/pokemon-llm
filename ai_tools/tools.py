@@ -54,9 +54,7 @@ from .utils import (
 from .pipeline import _Pipeline, _PipeableString, _PipeableQuery
 from .multimodal import MultiModalMixin
 from .tracing import (
-    trace_span,
     get_openai_class,
-    get_langfuse_params,
 )
 
 # ---------------------------------------------------------------------------
@@ -1021,16 +1019,10 @@ class LLMQuery(MultiModalMixin):
         if cfg["tool_choice"]:
             metadata["tool_choice"] = cfg["tool_choice"]
 
-        model_params = {
-            k: v
-            for k, v in request_kwargs.items()
-            if k not in ("messages", "model", "tools", "tool_choice", "extra_body")
-        }
-
         from .tracing import propagate_langfuse_attributes
 
         # Dynamic Generation Naming (centralized in tracing.py)
-        from .tracing import get_langfuse_params, propagate_langfuse_attributes, annotate_llm_response
+        from .tracing import get_langfuse_params
         
         langfuse_params = get_langfuse_params(
             model=self.model,

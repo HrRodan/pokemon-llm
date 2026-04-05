@@ -2,7 +2,6 @@ import os
 import unittest
 from unittest.mock import patch, MagicMock
 from ai_tools.tools import LLMQuery
-from ai_tools.tracing import get_openai_class
 import ai_tools.tracing
 
 class TestTracingSafety(unittest.TestCase):

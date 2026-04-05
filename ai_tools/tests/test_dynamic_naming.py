@@ -93,5 +93,37 @@ class TestDynamicNaming(unittest.TestCase):
                 # Model is stripped from openai/gpt-4o to gpt-4o
                 self.assertEqual(kwargs["model"], "gpt-4o")
 
+    @patch("ai_tools.tools.get_openai_class")
+    @patch("ai_tools.config.get_api_key", return_value="sk-test")
+    def test_embedding_naming(self, mock_get_api_key, mock_get_cls):
+        """Verify name format: embedding:<AgentName>:<Model>"""
+        MockInstrumentedOpenAI = MagicMock()
+        mock_get_cls.return_value = MockInstrumentedOpenAI
+        
+        env = {
+            "LANGFUSE_SECRET_KEY": "sk-lf-test",
+            "LANGFUSE_PUBLIC_KEY": "pk-lf-test",
+            "LANGFUSE_BASE_URL": "http://test"
+        }
+        
+        with patch.dict(os.environ, env):
+            from ai_tools.tools import LLMQuery
+            llm = LLMQuery(model="openai/gpt-4o", agent_name="RAGAgent")
+            
+            mock_client_instance = MockInstrumentedOpenAI.return_value
+            mock_response = MagicMock()
+            mock_data = MagicMock()
+            mock_data.embedding = [0.1, 0.2, 0.3]
+            mock_response.data = [mock_data]
+            mock_client_instance.embeddings.create.return_value = mock_response
+            
+            # Explicitly pass model to avoid using instance default from config
+            llm.generate_embedding(["Hello"], model="openai/gpt-4o")
+            
+            args, kwargs = mock_client_instance.embeddings.create.call_args
+            self.assertEqual(kwargs["name"], "embedding:RAGAgent:openai/gpt-4o")
+            # Verify provider is in metadata
+            self.assertEqual(kwargs["metadata"]["provider"], "openai")
+
 if __name__ == "__main__":
     unittest.main()
