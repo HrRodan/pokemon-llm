@@ -1055,21 +1055,33 @@ class LLMQuery(MultiModalMixin):
                 message.tool_calls, content
             )
 
+            # Extract reasoning before updating generation to include it in the trace output
+            reasoning, thought_signature = self._extract_reasoning(message)
+            self.reasoning_history.append(reasoning)
+            
+            # Prepare the complete response for Langfuse output
+            output_data = message.model_dump() if hasattr(message, "model_dump") else {
+                "role": "assistant",
+                "content": content,
+                "tool_calls": self.tool_calls,
+            }
+            if reasoning and isinstance(output_data, dict):
+                output_data["reasoning"] = reasoning
+
             tool_call_names = [tc["function"]["name"] for tc in self.tool_calls] if self.tool_calls else None
             update_generation(
                 generation,
-                output=content or "[tool_calls_only]",
+                output=output_data,
                 usage=usage_data,
                 model=cfg["model"],
                 tool_calls=self.tool_calls if self.tool_calls else None,
                 tool_call_names=tool_call_names,
+                tool_definitions=cfg["tools"] if cfg["tools"] else None,
+                metadata=metadata,
             )
 
         if cfg["json_format"] and content:
             content = clean_json(content)
-
-        reasoning, thought_signature = self._extract_reasoning(message)
-        self.reasoning_history.append(reasoning)
 
         self._log_response(
             content, reasoning, self.tool_calls, getattr(response, "usage", None)
