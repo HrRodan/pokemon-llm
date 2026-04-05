@@ -317,7 +317,7 @@ class MultiModalMixin:
         from .tracing import get_langfuse_params
 
         langfuse_params = get_langfuse_params(
-            model=target_model,
+            model=api_model,
             agent_name=getattr(self, "agent_name", None),
             name_prefix="embedding",
             include_model=True,
