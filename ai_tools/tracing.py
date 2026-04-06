@@ -23,13 +23,17 @@ _tracing_enabled = False
 
 def is_tracing_enabled() -> bool:
     """Return True if required Langfuse env vars are present and OpenAI wrapper is importable."""
-    global _tracing_enabled
+    global _tracing_enabled, _tracing_checked
+
+    if _tracing_checked:
+        return _tracing_enabled
 
     required = ("LANGFUSE_SECRET_KEY", "LANGFUSE_PUBLIC_KEY", "LANGFUSE_BASE_URL")
     
     # If any required env var is missing, disable tracing.
     if not all(os.getenv(k) for k in required):
         _tracing_enabled = False
+        _tracing_checked = True
         return False
 
     try:
@@ -40,6 +44,7 @@ def is_tracing_enabled() -> bool:
         logger.debug("langfuse.openai package not available; tracing disabled.")
         _tracing_enabled = False
 
+    _tracing_checked = True
     return _tracing_enabled
 
 
@@ -98,6 +103,10 @@ def get_langfuse_params(
     
     This centralizes the generation naming logic: {prefix}:<AgentName>[:<Model>]
     or {prefix}:LLMQuery[:<Model>] if no agent name is provided.
+    
+    NOTE: tags and user_id are NOT included in the returned dict because
+    some versions of the OpenAI client/Langfuse wrapper fail to strip them,
+    causing TypeError. We rely on propagate_langfuse_attributes context manager instead.
     """
     if not is_tracing_enabled():
         return {}
@@ -116,13 +125,9 @@ def get_langfuse_params(
     params = {"name": trace_name}
     if metadata:
         params["metadata"] = metadata
-    if user_id:
-        params["user_id"] = user_id
-    if session_id:
-        params["session_id"] = session_id
-    if tags:
-        params["tags"] = tags
-        
+    
+    # We DO NOT include user_id, session_id, tags here anymore to avoid TypeError.
+    # They should be handled by propagate_langfuse_attributes.
     return params
 
 

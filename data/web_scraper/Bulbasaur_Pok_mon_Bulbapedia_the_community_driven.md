@@ -1,7 +1,7 @@
 ---
 title: "Bulbasaur (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)"
-timestamp: "2026-04-06T12:35:49.872887+02:00"
+timestamp: "2026-04-06T13:36:36.609201+02:00"
 ---
 
 # Bulbasaur (Pokémon)
@@ -1642,7 +1642,7 @@ From 奇異 *kèihyih* (strange) and 種子 *júngjí* (seed) |
 | Brazilian Portuguese | Bulbasaur | Same as English name |
 
 | --- |
-| | [show]**More languages** | | |
+| | **More languages** | | |
 | --- | --- | --- |
 | Arabic | بولباصور *Bulbasaur* | Transcription of English name |
 | Bulgarian | Бълбазор *Bulbazor* | Phonetic transcription of English name |
