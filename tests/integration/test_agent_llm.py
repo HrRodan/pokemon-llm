@@ -20,7 +20,6 @@ Design principles:
   - Lazy singletons are reset before each test class so agents are fresh.
 """
 
-import pytest
 import agents.api_agent as api_mod
 import agents.rag_agent as rag_mod
 import agents.tech_data_agent as tda_mod
