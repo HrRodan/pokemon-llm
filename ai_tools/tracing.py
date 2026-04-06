@@ -61,6 +61,12 @@ def is_tracing_enabled() -> bool:
     return _tracing_enabled
 
 
+import contextvars
+
+_thread_session_id = contextvars.ContextVar("thread_session_id", default=None)
+_thread_user_id = contextvars.ContextVar("thread_user_id", default=None)
+
+
 @contextmanager
 def propagate_langfuse_attributes(
     user_id: Optional[str] = None,
@@ -71,15 +77,22 @@ def propagate_langfuse_attributes(
     Context manager to propagate Langfuse attributes (user_id, session_id, tags)
     to all nested observations and generations.
     """
-    if is_tracing_enabled():
-        try:
-            from langfuse import propagate_attributes
-            with propagate_attributes(user_id=user_id, session_id=session_id, tags=tags):
+    token_session = _thread_session_id.set(session_id)
+    token_user = _thread_user_id.set(user_id)
+    
+    try:
+        if is_tracing_enabled():
+            try:
+                from langfuse import propagate_attributes
+                with propagate_attributes(user_id=user_id, session_id=session_id, tags=tags):
+                    yield
+            except ImportError:
                 yield
-        except ImportError:
+        else:
             yield
-    else:
-        yield
+    finally:
+        _thread_session_id.reset(token_session)
+        _thread_user_id.reset(token_user)
 
 
 def get_openai_class():
@@ -368,6 +381,12 @@ def get_current_trace_context(
 
     Returns None if tracing is disabled or no Langfuse context is active.
     """
+    if session_id is None:
+        session_id = _thread_session_id.get()
+    
+    if user_id is None:
+        user_id = _thread_user_id.get()
+
     if not is_tracing_enabled():
         return None
 

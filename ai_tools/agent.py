@@ -199,6 +199,10 @@ class LLMAgent:
             if agent_ref.config.user_id and not local_agent.llm.user_id:
                 local_agent.llm.user_id = agent_ref.config.user_id
 
+            # Propagate session_id from the parent agent LLM fallback
+            if getattr(agent_ref.llm, "session_id", None) and not local_agent.llm.session_id:
+                local_agent.llm.session_id = agent_ref.llm.session_id
+
             result = local_agent.run(query)
 
             # Aggregate usage back to parent safely

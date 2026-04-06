@@ -1361,42 +1361,55 @@ class LLMQuery(MultiModalMixin):
         response = self.response
         iterations = 0
 
-        while self.tool_calls and iterations < max_iterations:
-            if self.concurrent_tool_calls:
-                tool_response = self._run_async(
-                    handle_tool_call_async(
-                        self.tool_calls,
-                        functions=self.functions,
-                        logger=self.logger,
+        # Retrieve session_id to propagate tracing context to tools and subagents
+        session_id = None
+        if self.memory and hasattr(self.memory, "root_thread_id"):
+            session_id = self.memory.root_thread_id
+        elif self.session_id:
+            session_id = self.session_id
+
+        from .tracing import propagate_langfuse_attributes
+
+        with propagate_langfuse_attributes(
+            user_id=self.user_id,
+            session_id=session_id,
+        ):
+            while self.tool_calls and iterations < max_iterations:
+                if self.concurrent_tool_calls:
+                    tool_response = self._run_async(
+                        handle_tool_call_async(
+                            self.tool_calls,
+                            functions=self.functions,
+                            logger=self.logger,
+                        )
                     )
-                )
-            else:
-                tool_response = handle_tool_call(
-                    self.tool_calls, functions=self.functions, logger=self.logger
-                )
-            self.append_tool_result(tool_response)
+                else:
+                    tool_response = handle_tool_call(
+                        self.tool_calls, functions=self.functions, logger=self.logger
+                    )
+                self.append_tool_result(tool_response)
 
-            query_response = self.query(tools=self.tools)
-
-            if not query_response and not self.tool_calls:
-                if (
-                    self.chat_history
-                    and self.chat_history[-1]["role"] == "assistant"
-                    and not self.chat_history[-1]["content"]
-                ):
-                    self.chat_history.pop()
                 query_response = self.query(tools=self.tools)
 
-            if query_response:
-                response = (
-                    f"{response}\n\n{query_response}" if response else query_response
-                )
+                if not query_response and not self.tool_calls:
+                    if (
+                        self.chat_history
+                        and self.chat_history[-1]["role"] == "assistant"
+                        and not self.chat_history[-1]["content"]
+                    ):
+                        self.chat_history.pop()
+                    query_response = self.query(tools=self.tools)
 
-            iterations += 1
-        
-        if iterations > max_iterations:
-            self.logger.warning(f"Max Tool iterations ({max_iterations}) reached")
-            response += f"\n\nMax Tool iterations ({max_iterations}) reached. The assistant may need to be called again to complete the task."
+                if query_response:
+                    response = (
+                        f"{response}\n\n{query_response}" if response else query_response
+                    )
+
+                iterations += 1
+            
+            if iterations > max_iterations:
+                self.logger.warning(f"Max Tool iterations ({max_iterations}) reached")
+                response += f"\n\nMax Tool iterations ({max_iterations}) reached. The assistant may need to be called again to complete the task."
 
         return response
 
