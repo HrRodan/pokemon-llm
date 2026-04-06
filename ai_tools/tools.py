@@ -196,6 +196,7 @@ class LLMQuery(MultiModalMixin):
         self.tool_choice = tool_choice
         self.system_prompt = system_prompt
         self.memory = memory
+        self.session_id: Optional[str] = None
         resolved_schemas, resolved_fns = LLMQuery._resolve_tools(tools, functions)
         self.tools = resolved_schemas
         self.functions = resolved_fns
@@ -1040,9 +1041,12 @@ class LLMQuery(MultiModalMixin):
         )
 
         # 1. Resolve Session & Metadata
+        # Priority: memory.root_thread_id > explicit self.session_id
         session_id = None
         if self.memory and hasattr(self.memory, "root_thread_id"):
             session_id = self.memory.root_thread_id
+        elif self.session_id:
+            session_id = self.session_id
 
         metadata = {
             "provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"

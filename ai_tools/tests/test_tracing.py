@@ -113,14 +113,16 @@ def test_trace_agent_run_nested(mock_langfuse):
     }):
         with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
              patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
-                 with trace_agent_run("SubAgent", "Hello"):
+                 with trace_agent_run("SubAgent", "Hello", session_id="sess1", user_id="u1"):
                     mock_client.start_as_current_observation.assert_called_once_with(
                         as_type="agent",
                         name="agent:run:SubAgent",
                         input={"message": "Hello"},
                         metadata={}
                     )
-                    assert mock_langfuse["propagate"].call_count == 0
+                    # Nested spans now propagate attributes to ensure session_id/user_id
+                    # reach subagent LLM calls via Langfuse context
+                    mock_langfuse["propagate"].assert_called_once()
 
 
 

@@ -109,10 +109,12 @@ class LLMAgent:
         """
         self.logger.info(f"QUERY: {message}")
 
-        # Derive session_id from memory root thread if available
+        # Derive session_id: memory.root_thread_id > llm.session_id
         session_id = None
         if self.llm.memory and hasattr(self.llm.memory, "root_thread_id"):
             session_id = self.llm.memory.root_thread_id
+        elif self.llm.session_id:
+            session_id = self.llm.session_id
 
         with trace_agent_run(
             agent_name=self.name,
@@ -190,7 +192,13 @@ class LLMAgent:
                 # Scoped: each invocation gets its own isolated thread
                 scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
                 local_agent.llm.memory = scoped
-            
+                # Propagate session_id from the scoped handler's root thread
+                local_agent.llm.session_id = scoped.root_thread_id
+
+            # Propagate user_id from the parent agent config
+            if agent_ref.config.user_id and not local_agent.llm.user_id:
+                local_agent.llm.user_id = agent_ref.config.user_id
+
             result = local_agent.run(query)
 
             # Aggregate usage back to parent safely

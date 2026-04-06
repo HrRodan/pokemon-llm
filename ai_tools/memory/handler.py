@@ -268,7 +268,9 @@ class MemoryHandler:
         obj = object.__new__(cls)
         obj._backend = backend
         obj._agent_name = agent_name
+        obj._user_id = None
         obj._logger = logger
         obj._thread_id = scoped_id
+        obj._root_thread_id = None
         obj._step_id = 0
         return obj

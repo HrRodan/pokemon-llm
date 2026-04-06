@@ -1,7 +1,7 @@
 ---
 title: "Bulbasaur - Wikipedia"
 url: "https://en.wikipedia.org/wiki/Bulbasaur"
-timestamp: "2026-04-06T13:36:40.817147+02:00"
+timestamp: "2026-04-06T23:30:29.609934+02:00"
 ---
 
 From Wikipedia, the free encyclopedia
@@ -32,7 +32,7 @@ Michele Knotz show
 
 **Bulbasaur** (/ˈbʊlbəsɔːr/ ⓘ), known as **Fushigidane** (Japanese: フシギダネ) in Japan, is a fictional Pokémon species in Nintendo and Game Freak's *Pokémon* franchise. First introduced in the video games *Pokémon Red* and *Blue*, it was created by Atsuko Nishida with the design finalized by Ken Sugimori. Since Bulbasaur's debut, it has appeared in multiple games including *Pokémon Go* and the *Pokémon Trading Card Game*, as well as various merchandise and the 1996 anime. In media related to the franchise, Bulbasaur has been voiced by various voice actors, including Megumi Hayashibara in Japanese, and Tara Sands and Michele Knotz in English.
 
-Classified as a Grass- and Poison-type Pokémon, Bulbasaur is one of three starter Pokémon players are able to select at the game's beginning. It is a quadrupedal green creature resembling a dinosaur, bearing a big plant bulb on its back. Bulbasaur is a central character in the *Pokémon* anime, being one of Ash Ketchum's main Pokémon for the first season, with a different one later obtained by supporting character May. It is featured in various manga and is owned by protagonist Red in *Pokémon Adventures*.
+Classified as a Grass- and Poison-type Pokémon, Bulbasaur is one of three starter Pokémon players are able to select at the game's beginning. It is a quadrupedal green creature resembling a dinosaur and frog, bearing a big plant bulb on its back. Bulbasaur is a central character in the *Pokémon* anime, being one of Ash Ketchum's main Pokémon for the first season, with a different one later obtained by supporting character May. It is featured in various manga and is owned by protagonist Red in *Pokémon Adventures*.
 
 Bulbasaur is generally considered one of the most popular and widely liked Pokémon, having ranked highly in official popularity polls.Junichi Masuda has also specifically mentioned Bulbasaur as one of his favorite Pokémon. Its role in the anime has been suggested to have played a factor into its popularity.
 

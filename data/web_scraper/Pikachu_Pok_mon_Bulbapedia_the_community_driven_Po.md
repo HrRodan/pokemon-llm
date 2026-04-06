@@ -1,7 +1,7 @@
 ---
 title: "Pikachu (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
-timestamp: "2026-04-06T13:36:32.901068+02:00"
+timestamp: "2026-04-06T23:30:21.554397+02:00"
 ---
 
 
@@ -3072,7 +3072,7 @@ Two Pikachu figures have been released.
 
 ## Other appearances
 
-Pikachu in Pokkén TournamentPikachu in Pokémon UNITE
+Pikachu Libre in Pokkén TournamentPikachu in Pokémon UNITE
 
 ### Pokkén Tournament
 

@@ -254,17 +254,22 @@ def trace_span(
         resolved_name = f"agent:run:{name}"
 
     if is_nested:
-        with client.start_as_current_observation(
-            as_type=as_type,
-            name=resolved_name,
-            input=input,
-            metadata=metadata or {},
-        ) as span:
-            try:
-                yield span
-            except Exception as e:
-                span.update(level="ERROR", status_message=str(e))
-                raise
+        with propagate_attributes(
+            user_id=user_id,
+            session_id=session_id,
+            tags=tags,
+        ):
+            with client.start_as_current_observation(
+                as_type=as_type,
+                name=resolved_name,
+                input=input,
+                metadata=metadata or {},
+            ) as span:
+                try:
+                    yield span
+                except Exception as e:
+                    span.update(level="ERROR", status_message=str(e))
+                    raise
     else:
         with propagate_attributes(
             user_id=user_id,
