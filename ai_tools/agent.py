@@ -137,9 +137,9 @@ class LLMAgent:
         """
         Exposes this agent as a `@tool`-compatible callable.
 
-        Returns a wrapper callable whose `.__tool_schema__` attribute holds
-        the OpenAI-compatible schema derived from the class `TOOL_NAME` and
-        `TOOL_DESCRIPTION`.
+        The returned wrapper is thread-safe and isolation-safe; it clones
+        the underlying LLMQuery instance for each call to ensure concurrent
+        tool invocations do not bleed state.
 
         Returns:
             Callable: The tool wrapper.
@@ -178,18 +178,28 @@ class LLMAgent:
         agent_ref = self
 
         def _wrapper(**kwargs) -> str:
+            import copy
             query = kwargs.get("query", "")
+
+            # Create an isolated agent instance for this call
+            local_agent = copy.copy(agent_ref)
+            local_agent.llm = agent_ref.llm.clone()
+
             original_memory = getattr(agent_ref.llm, "memory", None)
             if original_memory:
                 # Scoped: each invocation gets its own isolated thread
                 scoped = original_memory.create_scoped_handler(self.TOOL_NAME)
-                agent_ref.llm.memory = scoped
-                agent_ref.llm.chat_history = []
-            else:
-                agent_ref.llm.clear_history()
-            result = agent_ref.run(query)
-            if original_memory:
-                agent_ref.llm.memory = original_memory  # restore parent handler
+                local_agent.llm.memory = scoped
+            
+            result = local_agent.run(query)
+
+            # Aggregate usage back to parent safely
+            with agent_ref.llm._usage_lock:
+                agent_ref.llm.total_cost += local_agent.llm.total_cost
+                agent_ref.llm.total_prompt_tokens += local_agent.llm.total_prompt_tokens
+                agent_ref.llm.total_completion_tokens += local_agent.llm.total_completion_tokens
+                agent_ref.llm.total_reasoning_tokens += local_agent.llm.total_reasoning_tokens
+                agent_ref.llm.total_tokens += local_agent.llm.total_tokens
             
             return result
 

@@ -1079,7 +1079,7 @@ Each step has a **verification checkpoint**.
 |---|---|---|
 | Checkpoint on every `query()` inside tool loops creates many steps | Storage growth, slower rollback listing | Accept: fine-grained checkpoints are more useful than coarse. Can add `checkpoint_on_tool_loop=False` opt-out later if needed. |
 | SQLite WAL mode + StaticPool may block under high-concurrency | Unlikely for single-agent dev usage | StaticPool serialises access. For true concurrency, users should use PostgresBackend (Phase 3). |
-| Swapping `self.memory` in `as_tool()` is not thread-safe | Only matters if same LLMQuery is called from multiple threads | Document as not thread-safe. For multi-threaded use, instantiate separate LLMQuery per thread. |
+| Swapping `self.memory` in `as_tool()` is now thread-safe | Resolved by cloning the LLMQuery instance per invocation. | Thread-safe by design. |
 | JSON serialisation of `messages` may lose non-serialisable data | Tool results containing PIL images / bytes | Already handled: `append_tool_result()` converts non-string outputs to `[Image created]` etc. |
 
 ---

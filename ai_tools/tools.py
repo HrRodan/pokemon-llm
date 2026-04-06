@@ -24,6 +24,8 @@ See README.md for full examples including tool use and pipeline syntax.
 import json
 import re
 import logging
+import threading
+import copy
 from typing import (
     Dict,
     List,
@@ -205,6 +207,7 @@ class LLMQuery(MultiModalMixin):
         self.tool_calls: List[Dict] = []
         self.response = ""
         self.reasoning_history: List[Optional[str]] = []
+        self._usage_lock = threading.Lock()
         self.total_cost: float = 0.0
         self.total_prompt_tokens: int = 0
         self.total_completion_tokens: int = 0
@@ -226,6 +229,31 @@ class LLMQuery(MultiModalMixin):
         self.tool_calls = []
         self.response = ""
         self.reasoning_history = []
+
+    def clone(self) -> "LLMQuery":
+        """
+        Create a fresh run-state copy of the query object.
+
+        Returns a shallow copy of the instance with stateful attributes
+        (history, tool calls, usage counters) reset for isolated execution.
+        """
+        new_llm = copy.copy(self)
+
+        # Reset stateful attributes for isolated execution
+        new_llm.chat_history = []
+        new_llm.tool_calls = []
+        new_llm.response = ""
+        new_llm.reasoning_history = []
+
+        # Reset usage counters and assign a fresh lock
+        new_llm._usage_lock = threading.Lock()
+        new_llm.total_cost = 0.0
+        new_llm.total_prompt_tokens = 0
+        new_llm.total_completion_tokens = 0
+        new_llm.total_reasoning_tokens = 0
+        new_llm.total_tokens = 0
+
+        return new_llm
 
     @staticmethod
     def _resolve_tools(
@@ -728,24 +756,25 @@ class LLMQuery(MultiModalMixin):
         if not usage:
             return
 
-        self.total_prompt_tokens += usage.prompt_tokens
-        self.total_completion_tokens += usage.completion_tokens
-        self.total_tokens += usage.total_tokens
+        with self._usage_lock:
+            self.total_prompt_tokens += usage.prompt_tokens
+            self.total_completion_tokens += usage.completion_tokens
+            self.total_tokens += usage.total_tokens
 
-        # Extract cost — OpenRouter puts it in model_extra; some providers use a dict
-        model_extra = getattr(usage, "model_extra", None)
-        if model_extra:
-            self.total_cost += model_extra.get("cost", 0.0)
-        elif isinstance(usage, dict):
-            self.total_cost += usage.get("cost", 0.0)
+            # Extract cost — OpenRouter puts it in model_extra; some providers use a dict
+            model_extra = getattr(usage, "model_extra", None)
+            if model_extra:
+                self.total_cost += model_extra.get("cost", 0.0)
+            elif isinstance(usage, dict):
+                self.total_cost += usage.get("cost", 0.0)
 
-        # Extract reasoning tokens — shape varies by provider
-        details = getattr(usage, "completion_tokens_details", None)
-        if details:
-            if isinstance(details, dict):
-                self.total_reasoning_tokens += details.get("reasoning_tokens", 0)
-            elif hasattr(details, "reasoning_tokens"):
-                self.total_reasoning_tokens += details.reasoning_tokens
+            # Extract reasoning tokens — shape varies by provider
+            details = getattr(usage, "completion_tokens_details", None)
+            if details:
+                if isinstance(details, dict):
+                    self.total_reasoning_tokens += details.get("reasoning_tokens", 0)
+                elif hasattr(details, "reasoning_tokens"):
+                    self.total_reasoning_tokens += details.reasoning_tokens
 
     def _extract_reasoning(self, message) -> tuple[Optional[str], Optional[str]]:
         """
@@ -1089,7 +1118,7 @@ class LLMQuery(MultiModalMixin):
                     "Reasoning-only response received; re-querying for content..."
                 )
             return self.query(
-                user_prompt="Answer the original user question",
+                user_prompt="Answer the original user question.",
                 model=cfg["model"],
                 use_history=True,
                 display_output=display_output,
@@ -1329,6 +1358,10 @@ class LLMQuery(MultiModalMixin):
                 )
 
             iterations += 1
+        
+        if iterations > max_iterations:
+            self.logger.warning(f"Max Tool iterations ({max_iterations}) reached")
+            response += f"\n\nMax Tool iterations ({max_iterations}) reached. The assistant may need to be called again to complete the task."
 
         return response
 
@@ -1345,9 +1378,10 @@ class LLMQuery(MultiModalMixin):
         the full ``query() → get_tool_responses()`` agentic loop and returns
         the final text string.
 
-        Unlike many sub-agent wrappers, this one clears history on each tool
-        call so that every invocation starts with a fresh context, preventing
-        context bleed-through between consecutive calls from the parent agent.
+        Unlike many sub-agent wrappers, this one is thread-safe and isolation-safe.
+        It clones the current instance so that each invocation starts with a
+        fresh context, preventing context bleed-through or race conditions
+        between consecutive or concurrent calls from the parent agent.
         Use the ``query()`` / ``get_tool_responses()`` loop directly if you
         need persistent multi-turn history within a single tool invocation.
 
@@ -1388,21 +1422,24 @@ class LLMQuery(MultiModalMixin):
 
         def _wrapper(**kwargs) -> str:
             prompt = kwargs.get(input_arg, "")
+            local_llm = llm_ref.clone()
             original_memory = getattr(llm_ref, "memory", None)
 
             if original_memory:
                 # Scoped: each invocation gets its own thread for audit trail
                 scoped = original_memory.create_scoped_handler(name)
-                llm_ref.memory = scoped  # temporarily swap
-                llm_ref.chat_history = []
-            else:
-                llm_ref.clear_history()
+                local_llm.memory = scoped
+            
+            local_llm.query(prompt)
+            result = local_llm.get_tool_responses()
 
-            llm_ref.query(prompt)
-            result = llm_ref.get_tool_responses()
-
-            if original_memory:
-                llm_ref.memory = original_memory  # restore parent handler
+            # Aggregate usage back to parent safely
+            with llm_ref._usage_lock:
+                llm_ref.total_cost += local_llm.total_cost
+                llm_ref.total_prompt_tokens += local_llm.total_prompt_tokens
+                llm_ref.total_completion_tokens += local_llm.total_completion_tokens
+                llm_ref.total_reasoning_tokens += local_llm.total_reasoning_tokens
+                llm_ref.total_tokens += local_llm.total_tokens
 
             return result
 
