@@ -1,7 +1,7 @@
 ---
 title: "Pikachu (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
-timestamp: "2026-04-05T11:46:31.212119+02:00"
+timestamp: "2026-04-06T12:35:46.103442+02:00"
 ---
 
 

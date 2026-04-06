@@ -1,5 +1,5 @@
 import gradio as gr
-from utils.ui_utils import get_agent_client, respond, change_model, format_empty_usage
+from utils.ui_utils import get_agent_client, respond, change_model
 from utils.config import settings
 
 
@@ -89,9 +89,6 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
                         info="Choose the underlying model processing your requests.",
                     )
 
-                with gr.TabItem("📊 Usage Statistics"):
-                    usage_output = gr.Markdown(format_empty_usage())
-
     # 🔗 Event Wiring
     msg.submit(
         respond,
@@ -101,7 +98,6 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
             chatbot,
             tool_output,
             reasoning_output,
-            usage_output,
             log_output,
             client_state,
         ],
@@ -115,7 +111,6 @@ with gr.Blocks(title="Pokémon AI Agent", fill_height=True) as app:
             chatbot,
             tool_output,
             reasoning_output,
-            usage_output,
             log_output,
             client_state,
         ],

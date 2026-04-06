@@ -45,25 +45,12 @@ class AgentConfig:
     memory: Optional["MemoryHandler"] = None
 
 
-@dataclass
-class AgentUsage:
-    """Holds cumulative usage metrics for an agent."""
-
-    prompt_tokens: int = 0
-    completion_tokens: int = 0
-    reasoning_tokens: int = 0
-    total_tokens: int = 0
-    cost: float = 0.0
-    call_count: int = 0
-
-
 class LLMAgent:
     """
     A unified base agent that orchestrates LLMQuery.
 
     Features:
     - Automatically handles tool resolution loops in `run()`.
-    - Tracks cumulative token usage across multiple runs.
     - Exposes an `as_tool()` adapter to be natively fed into other `LLMQuery` instances.
     """
 
@@ -105,23 +92,8 @@ class LLMAgent:
             agent_name=config.name,
         )
 
-        self._call_count: int = 0
-        self.usage = AgentUsage()
-
         self.logger.info(
             f"Agent '{self.name}' initialized with model '{self.model_name}'"
-        )
-
-    def _update_usage(self) -> None:
-        """Updates internal usage tracking from the underlying LLMQuery instance."""
-        self._call_count += 1
-        self.usage = AgentUsage(
-            prompt_tokens=self.llm.total_prompt_tokens,
-            completion_tokens=self.llm.total_completion_tokens,
-            reasoning_tokens=self.llm.total_reasoning_tokens,
-            total_tokens=self.llm.total_tokens,
-            cost=self.llm.total_cost,
-            call_count=self._call_count,
         )
 
     def run(self, message: str, use_history: bool = True) -> str:
@@ -156,7 +128,6 @@ class LLMAgent:
                 response = self.llm.get_tool_responses()
 
             self.logger.info(f"🧠 RESPONSE: {response}")
-            self._update_usage()
 
             update_span(span, output=response if response else "")
 

@@ -37,7 +37,7 @@ class TestLangfuseSimplified(unittest.TestCase):
                 self.assertFalse(is_tracing_enabled())
                 
                 # get_langfuse_params() must return empty dict
-                params = ai_tools.tracing.get_langfuse_params(session_id="test")
+                params = ai_tools.tracing.get_langfuse_params(model="gpt", session_id="test")
                 self.assertEqual(params, {})
 
     @patch("ai_tools.tools.get_openai_class")
@@ -101,7 +101,7 @@ class TestLangfuseSimplified(unittest.TestCase):
             args, kwargs = mock_client_instance.chat.completions.create.call_args
             self.assertFalse(any(k.startswith("langfuse_") for k in kwargs))
             # But 'name' (used for trace naming) should be passed
-            self.assertEqual(kwargs["name"], "llm-query")
+            self.assertEqual(kwargs["name"], "generation:LLMQuery")
 
 if __name__ == "__main__":
     unittest.main()

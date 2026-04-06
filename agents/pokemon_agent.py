@@ -10,7 +10,6 @@ from agents.rag_agent import RAGAgent
 from agents.tech_data_agent import TechDataAgent
 from agents.web_search_agent import WebSearchAgent
 from utils.config import settings, PROJECT_ROOT
-from utils.usage_tracker import UsageTracker
 
 SYSTEM_PROMPT_POKEMON_AGENT = """
 ## 1. Role and Personality
@@ -151,9 +150,7 @@ class PokemonAgent(BaseAgent):
         Returns:
             The final assistant response after tool execution.
         """
-        result = self.llm.get_tool_responses(**kwargs)
-        self._collect_usage()
-        return result
+        return self.llm.get_tool_responses(**kwargs)
 
     @property
     def chat_history(self) -> List[Dict[str, Any]]:
@@ -170,41 +167,6 @@ class PokemonAgent(BaseAgent):
         """List of reasoning traces from each LLM turn."""
         return self.llm.reasoning_history
 
-    # ------------------------------------------------------------------
-    # Usage properties — read from the global UsageTracker (includes
-    # sub-agent usage) rather than only the local LLM counters.
-    # ------------------------------------------------------------------
-
-    @property
-    def usage_tracker(self) -> UsageTracker:
-        """Return the global UsageTracker instance."""
-        return UsageTracker.get()
-
-    @property
-    def total_cost(self) -> float:
-        """Accumulated cost across **all** agents."""
-        return self.usage_tracker.get_totals().cost
-
-    @property
-    def total_tokens(self) -> int:
-        """Accumulated total tokens across **all** agents."""
-        return self.usage_tracker.get_totals().total_tokens
-
-    @property
-    def total_prompt_tokens(self) -> int:
-        """Accumulated prompt tokens across **all** agents."""
-        return self.usage_tracker.get_totals().prompt_tokens
-
-    @property
-    def total_completion_tokens(self) -> int:
-        """Accumulated completion tokens across **all** agents."""
-        return self.usage_tracker.get_totals().completion_tokens
-
-    @property
-    def total_reasoning_tokens(self) -> int:
-        """Accumulated reasoning tokens across **all** agents."""
-        return self.usage_tracker.get_totals().reasoning_tokens
-
     @property
     def model(self) -> str:
         """The currently configured LLM model name."""
@@ -216,22 +178,20 @@ class PokemonAgent(BaseAgent):
 
     def get_ui_state(self) -> Dict[str, Any]:
         """
-        Expose internal state for the UI (tool calls, usage, etc.).
+        Expose internal state for the UI (tool calls, reasoning, etc.).
 
         Returns:
-            A dict containing chat history, tool calls, reasoning,
-            token counts, and cost.
+            A dict containing chat history, tool calls, and reasoning.
         """
-        totals = self.usage_tracker.get_totals()
         return {
             "chat_history": self.llm.chat_history,
             "tool_calls": self.llm.tool_calls,
             "reasoning_history": self.llm.reasoning_history,
             "tokens": {
-                "prompt": totals.prompt_tokens,
-                "completion": totals.completion_tokens,
-                "total": totals.total_tokens,
-                "reasoning": totals.reasoning_tokens,
+                "prompt": self.llm.total_prompt_tokens,
+                "completion": self.llm.total_completion_tokens,
+                "total": self.llm.total_tokens,
+                "reasoning": self.llm.total_reasoning_tokens,
             },
-            "cost": totals.cost,
+            "cost": self.llm.total_cost,
         }

@@ -24,19 +24,6 @@ import pytest
 import agents.api_agent as api_mod
 import agents.rag_agent as rag_mod
 import agents.tech_data_agent as tda_mod
-from utils.usage_tracker import UsageTracker
-
-
-# ---------------------------------------------------------------------------
-# Fixtures
-# ---------------------------------------------------------------------------
-
-
-@pytest.fixture(autouse=True)
-def reset_singletons():
-    """Reset usage tracker before each test."""
-    UsageTracker.get().reset()
-    yield
 
 
 # ---------------------------------------------------------------------------
@@ -186,24 +173,3 @@ class TestAPIAgentIntegration:
         response = api_mod.APIAgent().run("What are the stats of Fakemon9999?")
         assert isinstance(response, str)
         assert len(response) > 0
-
-
-# ---------------------------------------------------------------------------
-# Usage tracking: verify that tokens are recorded after real calls
-# ---------------------------------------------------------------------------
-
-
-class TestUsageTrackingIntegration:
-    """After a real agent call, the UsageTracker should have non-zero token counts."""
-
-    def test_tech_agent_usage_recorded(self):
-        tda_mod.TechDataAgent().run("What is Bulbasaur's base HP?")
-        usage = UsageTracker.get().get_agent_usage("TechDataAgent")
-        assert usage.total_tokens > 0, "Expected non-zero tokens after real LLM call"
-        assert usage.call_count == 1
-
-    def test_rag_agent_usage_recorded(self):
-        rag_mod.RAGAgent().run("Tell me about Pikachu.")
-        usage = UsageTracker.get().get_agent_usage("RAGAgent")
-        assert usage.total_tokens > 0
-        assert usage.call_count == 1

@@ -4,15 +4,12 @@ Unit tests for agent module functions.
 All LLM calls are mocked — no live API key required.
 Tests cover:
   - BaseAgent._run() paths (with and without tool calls)
-  - BaseAgent._collect_usage() delta computation
   - BaseAgent.log_query / log_response (no-crash checks)
   - Agent initialisation defaults (model name, logger)
-  - PokemonAgent usage properties delegate to UsageTracker
   - run_*_agent() lazy singleton creation
 """
 
 from unittest.mock import MagicMock, patch
-from utils.usage_tracker import UsageTracker
 
 
 # ---------------------------------------------------------------------------
@@ -69,10 +66,6 @@ class TestBaseAgentRun:
 
         agent = _Agent(config=AgentConfig(name="TestAgent", model_name="test-model"))
         agent.llm = llm_mock  # replace with our mock directly
-        # Reset snapshot so it starts from zero
-        from utils.usage_tracker import AgentUsage
-
-        agent._usage_snapshot = AgentUsage()
         return agent
 
     def test_run_no_tool_calls_returns_query_response(self):
@@ -108,80 +101,6 @@ class TestBaseAgentRun:
         agent.run("msg", use_history=True)
 
         llm.query.assert_called_once_with(user_prompt="msg", use_history=True)
-
-    def test_run_records_usage_in_tracker(self):
-        """_run() calls _collect_usage() which records a delta in UsageTracker."""
-        tracker = UsageTracker.get()
-        tracker.reset()
-
-        llm = _make_mock_llm(
-            tool_calls=[],
-            total_prompt_tokens=100,
-            total_completion_tokens=50,
-            total_tokens=150,
-            total_cost=0.01,
-        )
-        agent = self._make_agent(llm_mock=llm)
-
-        agent.run("anything")
-
-        usage = tracker.get_agent_usage("TestAgent")
-        assert usage.prompt_tokens == 100
-        assert usage.total_tokens == 150
-        assert usage.call_count == 1
-
-
-# ---------------------------------------------------------------------------
-# BaseAgent._collect_usage() delta logic
-# ---------------------------------------------------------------------------
-
-
-class TestBaseAgentCollectUsage:
-    """Tests for the delta-based usage tracking in BaseAgent."""
-
-    @patch("agents.base_agent.setup_logger")
-    @patch("ai_tools.agent.LLMQuery")
-    def test_delta_is_incremental(self, MockLLMQuery, MockSetupLogger):
-        """Two consecutive _collect_usage() calls each record only the marginal delta."""
-        from agents.base_agent import BaseAgent
-        from ai_tools.agent import AgentConfig
-
-        class _Agent(BaseAgent):
-            pass
-
-        tracker = UsageTracker.get()
-        tracker.reset()
-
-        llm = MagicMock()
-        llm.total_prompt_tokens = 0
-        llm.total_completion_tokens = 0
-        llm.total_reasoning_tokens = 0
-        llm.total_tokens = 0
-        llm.total_cost = 0.0
-        MockLLMQuery.return_value = llm
-        MockSetupLogger.return_value = MagicMock()
-
-        agent = _Agent(config=AgentConfig(name="DeltaAgent", model_name="m"))
-        agent.llm = llm
-
-        # First call: LLM accumulated 10 tokens
-        llm.total_prompt_tokens = 10
-        llm.total_tokens = 10
-        llm.total_cost = 0.001
-        agent._update_usage()
-        agent._collect_usage()
-
-        # Second call: LLM accumulated 25 tokens total → delta is 15
-        llm.total_prompt_tokens = 25
-        llm.total_tokens = 25
-        llm.total_cost = 0.002
-        agent._update_usage()
-        agent._collect_usage()
-
-        usage = tracker.get_agent_usage("DeltaAgent")
-        assert usage.prompt_tokens == 25  # 10 + 15
-        assert usage.total_tokens == 25
-        assert usage.call_count == 2
 
 
 # ---------------------------------------------------------------------------
@@ -385,3 +304,45 @@ class TestPokemonAgentWiring:
         assert MockAPIAgent.return_value.as_tool.called
         assert MockRAGAgent.return_value.as_tool.called
         assert MockTechAgent.return_value.as_tool.called
+
+
+# ---------------------------------------------------------------------------
+# PokemonAgent Methods
+# ---------------------------------------------------------------------------
+
+
+class TestPokemonAgentMethods:
+    """Verify PokemonAgent methods function without calling deleted _collect_usage."""
+
+    @patch("agents.base_agent.setup_logger")
+    @patch("ai_tools.agent.LLMQuery")
+    def test_get_tool_responses_no_collect_usage_call(self, MockLLMQuery, MockLogger):
+        """get_tool_responses should delegate to llm and not crash on _collect_usage."""
+        from agents.pokemon_agent import PokemonAgent
+        
+        mock_llm = _make_mock_llm(tool_responses_return="final output")
+        MockLLMQuery.return_value = mock_llm
+        MockLogger.return_value = MagicMock()
+        
+        agent = PokemonAgent(model_name="test-model")
+        # Ensure it doesn't raise AttributeError: 'PokemonAgent' object has no attribute '_collect_usage'
+        result = agent.get_tool_responses()
+        
+        assert result == "final output"
+        mock_llm.get_tool_responses.assert_called_once()
+
+    @patch("agents.base_agent.setup_logger")
+    @patch("ai_tools.agent.LLMQuery")
+    def test_query_no_collect_usage_call(self, MockLLMQuery, MockLogger):
+        """query should delegate to llm."""
+        from agents.pokemon_agent import PokemonAgent
+        
+        mock_llm = _make_mock_llm(query_return="text response")
+        MockLLMQuery.return_value = mock_llm
+        MockLogger.return_value = MagicMock()
+        
+        agent = PokemonAgent(model_name="test-model")
+        result = agent.query("hello")
+        
+        assert result == "text response"
+        mock_llm.query.assert_called_once_with(user_prompt="hello")

@@ -1,7 +1,7 @@
 ---
 title: "Example Domain"
 url: "https://example.com"
-timestamp: "2026-04-05T11:46:31.029692+02:00"
+timestamp: "2026-04-06T12:35:46.018943+02:00"
 ---
 
 # Example Domain

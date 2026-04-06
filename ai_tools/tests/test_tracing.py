@@ -40,14 +40,6 @@ def mock_langfuse():
             "propagate": mock_propagate
         }
 
-@pytest.fixture
-def mock_otel():
-    """Mock opentelemetry trace."""
-    with patch("ai_tools.tracing.trace") as mock_trace:
-        # Default: no active span
-        mock_trace.get_current_span.return_value.get_span_context.return_value.is_valid = False
-        yield mock_trace
-
 def test_tracing_disabled_no_env_vars():
     with patch.dict(os.environ, {}, clear=True):
         tracing._tracing_checked = False
@@ -79,7 +71,7 @@ def test_tracing_enabled_with_env_vars(mock_langfuse):
             assert is_tracing_enabled() is True
             assert get_langfuse_client() is not None
 
-def test_trace_agent_run_creates_span(mock_langfuse, mock_otel):
+def test_trace_agent_run_creates_span(mock_langfuse):
     mock_client = mock_langfuse["client"]
     mock_client.get_current_observation_id.return_value = None
 
@@ -96,9 +88,9 @@ def test_trace_agent_run_creates_span(mock_langfuse, mock_otel):
                     assert kwargs["name"] == "TestAgent"
                     mock_langfuse["propagate"].assert_called()
 
-def test_trace_agent_run_nested(mock_langfuse, mock_otel):
+def test_trace_agent_run_nested(mock_langfuse):
     mock_client = mock_langfuse["client"]
-    mock_otel.get_current_span.return_value.get_span_context.return_value.is_valid = True
+    mock_client.get_current_observation_id.return_value = "parent-obs-id"
     
     with patch.dict(os.environ, {
         "LANGFUSE_SECRET_KEY": "sk-123",
@@ -120,7 +112,7 @@ def test_trace_agent_run_nested(mock_langfuse, mock_otel):
 
 
 
-def test_trace_tool_execution_records_error(mock_langfuse, mock_otel):
+def test_trace_tool_execution_records_error(mock_langfuse):
     mock_client = mock_langfuse["client"]
     mock_span = MagicMock()
     mock_client.start_as_current_observation.return_value.__enter__.return_value = mock_span

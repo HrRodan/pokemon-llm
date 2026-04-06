@@ -2,14 +2,12 @@ import streamlit as st
 from utils.ui_utils import (
     get_agent_client,
     respond,
-    format_empty_usage,
     extract_reasoning_info,
     get_threads,
     get_checkpoints,
     switch_thread,
     rollback_thread,
     extract_tool_info,
-    extract_usage_info,
 )
 from utils.config import settings
 
@@ -33,9 +31,6 @@ if "tool_history" not in st.session_state:
 
 if "reasoning_history" not in st.session_state:
     st.session_state.reasoning_history = extract_reasoning_info(None)
-
-if "usage_info" not in st.session_state:
-    st.session_state.usage_info = format_empty_usage()
 
 if "logs" not in st.session_state:
     st.session_state.logs = ""
@@ -93,7 +88,6 @@ with st.sidebar:
                 st.session_state.messages = agent.clean_chat_history
                 st.session_state.tool_history = extract_tool_info(agent)
                 st.session_state.reasoning_history = extract_reasoning_info(agent)
-                st.session_state.usage_info = extract_usage_info(agent)
                 st.rerun()
 
         checkpoints = get_checkpoints(agent)
@@ -107,7 +101,6 @@ with st.sidebar:
                         st.session_state.messages = agent.clean_chat_history
                         st.session_state.tool_history = extract_tool_info(agent)
                         st.session_state.reasoning_history = extract_reasoning_info(agent)
-                        st.session_state.usage_info = extract_usage_info(agent)
                         st.rerun()
                         
     st.divider()
@@ -116,7 +109,6 @@ with st.sidebar:
         st.session_state.agent = get_agent_client(model=selected_model)
         st.session_state.tool_history = []
         st.session_state.reasoning_history = extract_reasoning_info(None)
-        st.session_state.usage_info = format_empty_usage()
         st.session_state.logs = ""
         st.rerun()
 
@@ -236,7 +228,7 @@ col_chat, col_aux = st.columns([3, 2], gap="medium")
 # --- Column 2: Tools & Settings ---
 with col_aux:
     # Use tabs but ensure they align with the left chat container top
-    tabs = st.tabs(["🛠️ Tool Activity", "🧠 Reasoning", "📜 Logs", "📊 Usage"])
+    tabs = st.tabs(["🛠️ Tool Activity", "🧠 Reasoning", "📜 Logs"])
 
     with tabs[0]:
         with st.container(height=650, border=True):
@@ -252,10 +244,6 @@ with col_aux:
         with st.container(height=650, border=True):
             st.markdown("### Real-time Logs")
             log_placeholder = st.empty()
-
-    with tabs[3]:
-        with st.container(height=650, border=True):
-            usage_placeholder = st.empty()
 
 
 # Function to render auxiliary content into placeholders
@@ -278,7 +266,6 @@ def render_aux_content():
 
     # Use the logger's built-in HTML formatter and scrollable div
     log_placeholder.markdown(st.session_state.logs, unsafe_allow_html=True)
-    usage_placeholder.markdown(st.session_state.usage_info)
 
 
 # Initial render
@@ -352,14 +339,12 @@ with col_chat:
                     chatbot,
                     tool_out,
                     reasoning_out,
-                    usage_out,
                     logs_out,
                     _,
                 ) in respond(prompt, st.session_state.agent):
                     # Update session state
                     st.session_state.tool_history = tool_out
                     st.session_state.reasoning_history = reasoning_out
-                    st.session_state.usage_info = usage_out
                     st.session_state.logs = logs_out
 
                     # Update auxiliary placeholders

@@ -46,7 +46,7 @@ An intelligent, multi-agent Pokémon chatbot powered by LLMs, vector search, SQL
 
 ### Agents
 
-All agents extend `BaseAgent` (`agents/base_agent.py`), which provides logging, LLM access, and **automatic usage tracking**.
+All agents extend `BaseAgent` (`agents/base_agent.py`), which provides logging and LLM access.
 
 | Agent | Role | Data Source |
 | :--- | :--- | :--- |
@@ -56,11 +56,9 @@ All agents extend `BaseAgent` (`agents/base_agent.py`), which provides logging, 
 | **APIAgent** | Precise lookups — base stats, moves, items, evolutions, locations | PokéAPI (REST) |
 | **WebSearchAgent** | Real-time lore, anime episodes, game walkthroughs | Bulbapedia (Web search) |
 
-Sub-agents are **lazy singletons** — each is instantiated at most once per process and reused for all tool calls. Their usage stats are preserved via the global `UsageTracker`.
-
 ---
 
-## Logging
+## Logging & Tracing
 
 Logging is centralised in `utils/logger.py`. Each agent receives its own named logger via `setup_logger(name)`.
 
@@ -82,26 +80,13 @@ Agent colour map:
 | TechDataAgent | Yellow | `#eab308` |
 | WebSearchAgent | Red | `#ef4444` |
 
-All LLM queries, responses, tool calls, tool outputs, and reasoning are logged at appropriate levels (INFO / DEBUG) **by the `LLMQuery` class**, so agents only need to pass their logger instance.
+### Usage Tracking & Observability
 
----
+Token consumption, cost, and execution traces are handled via **Langfuse tracing**.
 
-## Usage Tracking
-
-Token consumption and cost are tracked per-agent via a singleton `UsageTracker` (`utils/usage_tracker.py`).
-
-**How it works:**
-
-1. `BaseAgent.__init__` snapshots the LLM client's zero counters.
-2. At the end of each `response()`, `_collect_usage()` computes the delta and records it in the global tracker.
-3. Sub-agents are created and destroyed each call — but since they record *before* destruction, usage is preserved.
-
-The tracker is **thread-safe** (uses `threading.Lock`) and provides:
-
-- `get_agent_usage(name)` — per-agent stats
-- `get_totals()` — sum across all agents
-- `get_all()` — snapshot of every agent's stats
-- `reset()` — clears all data (called on new session)
+- **Tracing:** All LLM queries, responses, tool calls, and reasoning are automatically traced.
+- **Usage:** Costs and token counts are aggregated per-session and per-user in the Langfuse dashboard.
+- **Local Logs:** High-level agent activity is still available in the console and UI logs for immediate feedback.
 
 ---
 
@@ -169,11 +154,10 @@ uv run python -m pytest tests/integration/ -v
 tests/
 ├── conftest.py               # shared sys.path setup
 ├── unit/
-│   ├── test_agents.py        # 13 agent unit tests (fully mocked, no API key)
-│   ├── test_tech_db.py       # SQL tool tests (requires SQLite DB)
-│   └── test_usage_tracker.py # pure unit tests, no I/O
+│   ├── test_agents.py        # agent unit tests (fully mocked, no API key)
+│   └── test_tech_db.py       # SQL tool tests (requires SQLite DB)
 └── integration/
-    ├── test_agent_llm.py     # live LLM tests for all 3 sub-agents + usage tracking
+    ├── test_agent_llm.py     # live LLM tests for all sub-agents
     └── test_complex_query.py # complex multi-step SQL query (manual run)
 ```
 

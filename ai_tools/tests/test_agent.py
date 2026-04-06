@@ -17,8 +17,6 @@ def test_llm_agent_initialization():
     assert agent.model_name == "openai/gpt-4o-mini"
     assert isinstance(agent.llm, LLMQuery)
     assert agent.llm.history_limit == 10
-    assert agent.usage.prompt_tokens == 0
-    assert agent.usage.call_count == 0
 
 
 @patch.object(LLMQuery, "query")
@@ -40,11 +38,6 @@ def test_llm_agent_run_without_tools(mock_get_tools, mock_query):
     mock_query.assert_called_once_with(user_prompt="Hello", use_history=True)
     mock_get_tools.assert_not_called()
 
-    # Assert usage was updated
-    assert agent.usage.call_count == 1
-    assert agent.usage.total_tokens == 30
-    assert agent.usage.cost == 0.001
-
 
 @patch.object(LLMQuery, "query")
 @patch.object(LLMQuery, "get_tool_responses")
@@ -62,7 +55,6 @@ def test_llm_agent_run_with_tools(mock_get_tools, mock_query):
     assert response == "Final Tool Response"
     mock_query.assert_called_once_with(user_prompt="Do a tool call", use_history=False)
     mock_get_tools.assert_called_once()
-    assert agent.usage.call_count == 1
 
 
 def test_llm_agent_as_tool():
