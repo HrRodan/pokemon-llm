@@ -212,73 +212,103 @@ def build_openrouter_trace_dict(
 
 #### [MODIFY] [tools.py](file:///home/martin/Python/Projects/Github/pokemon-llm/ai_tools/tools.py)
 
-**2a. Update `_prepare_request_kwargs()` — inject `trace` dict for OpenRouter**
+**2a. Update `_prepare_request_kwargs()` — centralize OpenRouter and User payload injection**
 
-In the existing OpenRouter-specific block (line ~710), after adding `provider` and `usage`, inject the trace dict:
-
-```python
-# Current code adds provider hints and usage for openrouter
-if target_model.startswith("openrouter/"):
-    extra_body = request_kwargs.setdefault("extra_body", {})
-    provider = extra_body.setdefault("provider", {})
-    provider.setdefault("require_parameters", True)
-    provider.setdefault("data_collection", "deny")
-    extra_body["usage"] = {"include": True}
-
-    # NEW: Inject broadcast trace context for OpenRouter
-    trace_dict = kwargs.pop("_trace_dict", None)
-    if trace_dict:
-        extra_body["trace"] = trace_dict
-
-    # NEW: Pass user_id for user-level analytics
-    user_id = kwargs.pop("_user_id", None)
-    if user_id:
-        request_kwargs["user"] = user_id
-
-    # NEW: Pass session_id for session grouping
-    session_id_val = kwargs.pop("_session_id", None)
-    if session_id_val:
-        request_kwargs["session_id"] = session_id_val
-```
-
-> [!NOTE]
-> We pass the trace dict via a private `_trace_dict` kwarg rather than building it inside `_prepare_request_kwargs` to keep concern separation clean. The dict is built in `query()` and popped before it reaches the API.
-
-**2b. Update `query()` — resolve trace context and pass it down**
-
-After the existing `propagate_langfuse_attributes` context manager opens (around line 1062), resolve the trace context and inject it:
+Update the method signature to accept `openrouter_trace` and `user_id`, and place all request manipulation logic inside it.
 
 ```python
-# Inside the propagate_langfuse_attributes block, before _create_chat_completion:
+    def _prepare_request_kwargs(
+        self,
+        messages: List[Dict[str, str]],
+        stream: bool,
+        json_format: bool,
+        model: Optional[str] = None,
+        reasoning_effort: Optional[str] = None,
+        tools: Optional[List[Dict]] = None,
+        tool_choice: Optional[Union[str, Dict]] = None,
+        openrouter_trace: Optional[Dict] = None, # NEW
+        user_id: Optional[str] = None,           # NEW
+        **kwargs,
+    ) -> Dict:
+        # ... standard request_kwargs setup ...
+        
+        request_kwargs.update(kwargs)
 
-from .tracing import get_current_trace_context, build_openrouter_trace_dict
+        if user_id:
+            request_kwargs["user"] = user_id
 
-ctx = get_current_trace_context(
-    session_id=session_id,
-    user_id=self.user_id,
-    trace_name=self.agent_name or "LLMQuery",
-)
+        if target_model.startswith("openrouter/"):
+            extra_body = request_kwargs.setdefault("extra_body", {})
+            provider = extra_body.setdefault("provider", {})
+            provider.setdefault("require_parameters", True)
+            provider.setdefault("data_collection", "deny")
+            extra_body["usage"] = {"include": True}
+            
+            if openrouter_trace:
+                extra_body["trace"] = openrouter_trace
 
-trace_dict = build_openrouter_trace_dict(
-    ctx,
-    generation_name=langfuse_params.get("name"),
-)
-
-# Pass trace_dict and user_id into request via private kwargs
-response = self._create_chat_completion(
-    client,
-    **{
-        **request_kwargs,
-        **langfuse_params,
-        "_trace_dict": trace_dict,
-        "_user_id": self.user_id,
-        "_session_id": session_id,
-    },
-)
+        return request_kwargs
 ```
 
-> [!WARNING]
-> The private `_trace_dict`, `_user_id`, and `_session_id` keys must be **popped** from kwargs inside `_prepare_request_kwargs()` before they reach the OpenAI client, otherwise the client will reject the unknown parameters.
+**2b. Update `query()` — orchestrate trace resolution and payload building**
+
+Reorder the workflow in `query()` to resolve the `session_id` and Langfuse trace context *first*, then pass the fully formed `trace_dict` and `user_id` directly into `_prepare_request_kwargs`.
+
+```python
+        # 1. Resolve Session & Metadata
+        session_id = None
+        if self.memory and hasattr(self.memory, "root_thread_id"):
+            session_id = self.memory.root_thread_id
+
+        metadata = {
+            "provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"
+        }
+        if cfg["tool_choice"]:
+            metadata["tool_choice"] = cfg["tool_choice"]
+
+        # 2. Resolve Tracing
+        from .tracing import get_langfuse_params, get_current_trace_context, build_openrouter_trace_dict
+        
+        langfuse_params = get_langfuse_params(
+            model=cfg["model"],
+            agent_name=self.agent_name,
+            metadata=metadata,
+        )
+        ctx = get_current_trace_context(
+            session_id=session_id,
+            user_id=self.user_id,
+            trace_name=self.agent_name or "LLMQuery",
+        )
+        trace_dict = build_openrouter_trace_dict(
+            ctx,
+            generation_name=langfuse_params.get("name"),
+        )
+
+        # 3. Build API Payload
+        request_kwargs = self._prepare_request_kwargs(
+            messages,
+            stream=False,
+            json_format=cfg["json_format"],
+            model=cfg["model"],
+            reasoning_effort=cfg["reasoning_effort"],
+            tools=cfg["tools"],
+            tool_choice=cfg["tool_choice"],
+            openrouter_trace=trace_dict,
+            user_id=self.user_id,
+            **kwargs,
+        )
+
+        from .tracing import propagate_langfuse_attributes
+
+        # 4. Execute
+        with propagate_langfuse_attributes(
+            user_id=self.user_id,
+            session_id=session_id,
+        ):
+            response = self._create_chat_completion(
+                client, **{**request_kwargs, **langfuse_params}
+            )
+```
 
 **2c. Update `query()` — pass `trace_id` to memory checkpoint**
 
