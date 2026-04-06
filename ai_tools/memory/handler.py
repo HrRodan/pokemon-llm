@@ -147,6 +147,7 @@ class MemoryHandler:
         messages: List[Dict[str, Any]],
         tool_calls: Optional[List[Dict[str, Any]]] = None,
         usage: Optional[Dict[str, Any]] = None,
+        trace_id: Optional[str] = None,
     ) -> int:
         """Persist a checkpoint of the current conversation state.
 
@@ -160,6 +161,7 @@ class MemoryHandler:
             messages=list(messages),
             tool_calls=tool_calls or [],
             usage=usage,
+            trace_id=trace_id,
         )
         self._backend.save_checkpoint(
             thread_id=self.thread_id,

@@ -11,6 +11,9 @@ from ai_tools.tracing import (
     trace_agent_run,
     trace_tool_execution,
     flush_tracing,
+    get_current_trace_context,
+    build_openrouter_trace_dict,
+    TraceContext,
 )
 from ai_tools.memory import MemoryHandler, InMemoryBackend
 
@@ -39,6 +42,17 @@ def mock_langfuse():
             "client": mock_client,
             "propagate": mock_propagate
         }
+
+@pytest.fixture
+def mock_response():
+    """Provide a standard mock LLM response."""
+    response = MagicMock()
+    response.choices = [MagicMock()]
+    response.choices[0].message.content = "Standard AI response"
+    response.choices[0].message.tool_calls = []
+    response.choices[0].message.model_extra = {}
+    response.usage = MagicMock(prompt_tokens=10, completion_tokens=5, total_tokens=15)
+    return response
 
 def test_tracing_disabled_no_env_vars():
     with patch.dict(os.environ, {}, clear=True):
@@ -165,3 +179,123 @@ def test_flush_tracing_calls_client_flush(mock_langfuse):
              patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
                 flush_tracing()
                 mock_client.flush.assert_called_once()
+
+
+def test_get_current_trace_context_disabled():
+    with patch("ai_tools.tracing.is_tracing_enabled", return_value=False):
+        assert get_current_trace_context() is None
+
+
+def test_get_current_trace_context_no_active_trace(mock_langfuse):
+    mock_client = mock_langfuse["client"]
+    mock_client.get_current_trace_id.return_value = None
+
+    with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
+         patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
+        assert get_current_trace_context() is None
+
+
+def test_get_current_trace_context_complete(mock_langfuse):
+    mock_client = mock_langfuse["client"]
+    mock_client.get_current_trace_id.return_value = "trace-123"
+    mock_client.get_current_observation_id.return_value = "obs-456"
+
+    with patch.dict(os.environ, {"ENVIRONMENT": "prod"}):
+        with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
+             patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
+            ctx = get_current_trace_context(
+                session_id="sess-789", user_id="user-000", trace_name="TestTrace"
+            )
+            assert ctx.trace_id == "trace-123"
+            assert ctx.observation_id == "obs-456"
+            assert ctx.session_id == "sess-789"
+            assert ctx.user_id == "user-000"
+            assert ctx.trace_name == "TestTrace"
+            assert ctx.environment == "prod"
+
+
+def test_build_openrouter_trace_dict_complete():
+    ctx = TraceContext(
+        trace_id="t1",
+        observation_id="o1",
+        session_id="s1",
+        user_id="u1",
+        trace_name="tn1",
+        environment="dev",
+    )
+    d = build_openrouter_trace_dict(ctx, generation_name="gen1", span_name="span1")
+    assert d["trace_id"] == "t1"
+    assert d["parent_span_id"] == "o1"
+    assert d["session_id"] == "s1"
+    assert d["user_id"] == "u1"
+    assert d["trace_name"] == "tn1"
+    assert d["generation_name"] == "gen1"
+    assert d["span_name"] == "span1"
+    assert d["environment"] == "dev"
+
+
+def test_build_openrouter_trace_dict_none():
+    assert build_openrouter_trace_dict(None) is None
+
+
+def test_trace_dict_injected_for_openrouter(mock_response):
+    from ai_tools.tools import LLMQuery
+
+    q = LLMQuery(model="openrouter/google/gemini-pro")
+    
+    # Mocking trace context
+    ctx = TraceContext("t1", "o1", "s1", "u1", "tn1", "dev")
+
+    with patch.object(q, "_create_chat_completion", return_value=mock_response) as mock_create:
+        with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx):
+            q.query("hi")
+            mock_create.assert_called()
+            # Check if extra_body.trace was passed in the call
+            call_kwargs = mock_create.call_args[1]
+            assert "extra_body" in call_kwargs
+            assert "trace" in call_kwargs["extra_body"]
+            assert call_kwargs["extra_body"]["trace"]["trace_id"] == "t1"
+
+
+def test_trace_dict_not_injected_for_openai(mock_response):
+    from ai_tools.tools import LLMQuery
+
+    q = LLMQuery(model="openai/gpt-4o")
+    ctx = TraceContext("t1", "o1", "s1", "u1", "tn1", "dev")
+
+    with patch.object(q, "_create_chat_completion", return_value=mock_response) as mock_create:
+        with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx):
+            q.query("hi")
+            mock_create.assert_called()
+            call_kwargs = mock_create.call_args[1]
+            if "extra_body" in call_kwargs:
+                assert "trace" not in call_kwargs["extra_body"]
+
+
+def test_checkpoint_stores_trace_id(mock_response):
+    from ai_tools.tools import LLMQuery
+    from ai_tools.memory import MemoryHandler, InMemoryBackend
+
+    mem = MemoryHandler(backend=InMemoryBackend())
+    q = LLMQuery(model="openai/gpt-4o", memory=mem)
+    ctx = TraceContext("trace-id-abc", "o1", "s1", "u1", "tn1", "dev")
+
+    with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx), \
+         patch.object(q, "_create_chat_completion", return_value=mock_response):
+        q.query("hi")
+        
+        # Check if latest checkpoint has the trace_id
+        last_cp = mem.backend.load_checkpoint(mem.thread_id)
+        assert last_cp.state.trace_id == "trace-id-abc"
+
+
+def test_sqlite_migration_idempotent(tmp_path):
+    from ai_tools.memory import SQLiteBackend
+    db_file = str(tmp_path / "test_migration.db")
+    
+    # Init first time
+    be = SQLiteBackend(db_file)
+    
+    # Init second time - should not crash
+    be2 = SQLiteBackend(db_file)
+    assert be2 is not None

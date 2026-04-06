@@ -81,6 +81,7 @@ class CheckpointModel(Base):
     messages = Column(JSON, nullable=False)
     tool_calls = Column(JSON, nullable=True)
     usage = Column(JSON, nullable=True)
+    trace_id = Column(String, nullable=True)
     created_at = Column(
         DateTime(timezone=True),
         nullable=False,

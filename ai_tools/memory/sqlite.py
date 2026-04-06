@@ -12,7 +12,7 @@ import logging
 from datetime import datetime, timezone
 from typing import List, Optional
 
-from sqlalchemy import create_engine, event, select, delete
+from sqlalchemy import create_engine, event, select, delete, text
 from sqlalchemy.orm import Session
 
 from .base import MemoryBackend
@@ -53,8 +53,20 @@ class SQLiteBackend(MemoryBackend):
             cursor.close()
 
         Base.metadata.create_all(self._engine)
+        self._ensure_schema_up_to_date()
         if self._logger:
             self._logger.info(f"SQLiteBackend initialized: {url}")
+
+    def _ensure_schema_up_to_date(self):
+        """Add columns introduced after initial schema creation."""
+        with Session(self._engine) as session:
+            try:
+                # SQLite doesn't support IF NOT EXISTS in ALTER TABLE for column add
+                # So we wrap in try/except and rollback on failure (e.g. column already exists)
+                session.execute(text("ALTER TABLE checkpoints ADD COLUMN trace_id TEXT"))
+                session.commit()
+            except Exception:
+                session.rollback()
 
     def save_checkpoint(
         self,
@@ -100,6 +112,7 @@ class SQLiteBackend(MemoryBackend):
                 messages=state.messages,
                 tool_calls=state.tool_calls or None,
                 usage=state.usage,
+                trace_id=state.trace_id,
                 created_at=now,
             )
             session.add(cp)
@@ -126,6 +139,7 @@ class SQLiteBackend(MemoryBackend):
                     messages=row.messages,
                     tool_calls=row.tool_calls or [],
                     usage=row.usage,
+                    trace_id=row.trace_id,
                 ),
                 created_at=row.created_at,
             )
@@ -252,6 +266,7 @@ class SQLiteBackend(MemoryBackend):
                     messages=cp.messages,
                     tool_calls=cp.tool_calls,
                     usage=cp.usage,
+                    trace_id=cp.trace_id,
                     created_at=cp.created_at,
                 )
                 session.add(new_cp)

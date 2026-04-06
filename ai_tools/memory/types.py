@@ -28,6 +28,7 @@ class ConversationState:
     messages: List[Dict[str, Any]]
     tool_calls: List[Dict[str, Any]] = field(default_factory=list)
     usage: Optional[Dict[str, Any]] = None
+    trace_id: Optional[str] = None
 
 
 @dataclass

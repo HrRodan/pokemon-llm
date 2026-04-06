@@ -46,7 +46,7 @@ This enables end-to-end correlation: a Langfuse trace links directly to the Open
 |---|---|---|---|
 | `trace_id` | One user turn (prompt → final answer) | Langfuse SDK (auto) → read via `get_current_trace_id()` | Langfuse, OpenRouter `trace.trace_id`, Memory checkpoint |
 | `observation_id` (= `parent_span_id` for OpenRouter) | Current span/generation within the trace | Langfuse SDK (auto) → read via `get_current_observation_id()` | OpenRouter `trace.parent_span_id` |
-| `session_id` | Conversation thread (multiple turns) | `MemoryHandler.root_thread_id` (already exists) | Langfuse, OpenRouter `session_id` |
+| `session_id` | Conversation thread (multiple turns) | `MemoryHandler.root_thread_id` | Langfuse, OpenRouter `session_id` (root) and `trace.session_id` (nested) |
 | `user_id` | End-user identity | Passed in at agent/query level (already exists) | Langfuse, OpenRouter `user`, Memory |
 | `trace_name` | Human-readable label for the root trace | Derived: `{agent_name}` or `"LLMQuery"` | Langfuse, OpenRouter `trace.trace_name` |
 | `generation_name` | Human-readable label for a single LLM call | Derived: `"generation:{agent_name}:{model}"` | OpenRouter `trace.generation_name`, Langfuse (via `name` param) |
@@ -106,7 +106,7 @@ When `is_tracing_enabled()` returns `False`:
 
 ## Proposed Changes
 
-### Component 1: Tracing Module
+### Component 1: Tracing Module (Completed)
 
 #### [MODIFY] [tracing.py](file:///home/martin/Python/Projects/Github/pokemon-llm/ai_tools/tracing.py)
 
@@ -208,7 +208,7 @@ def build_openrouter_trace_dict(
 
 ---
 
-### Component 2: LLMQuery (OpenRouter Integration)
+### Component 2: LLMQuery (OpenRouter Integration) (Completed)
 
 #### [MODIFY] [tools.py](file:///home/martin/Python/Projects/Github/pokemon-llm/ai_tools/tools.py)
 
@@ -246,6 +246,10 @@ Update the method signature to accept `openrouter_trace` and `user_id`, and plac
             
             if openrouter_trace:
                 extra_body["trace"] = openrouter_trace
+                request_kwargs["trace"] = openrouter_trace
+            
+            if session_id:
+                request_kwargs["session_id"] = session_id
 
         return request_kwargs
 ```
@@ -327,7 +331,7 @@ if self.memory and not self.tool_calls:
 
 ---
 
-### Component 3: Memory Subsystem
+### Component 3: Memory Subsystem (Completed)
 
 #### [MODIFY] [types.py](file:///home/martin/Python/Projects/Github/pokemon-llm/ai_tools/memory/types.py)
 
@@ -409,7 +413,7 @@ No changes needed — `InMemoryBackend` stores `ConversationState` as-is, so the
 
 ---
 
-### Component 4: Agent
+### Component 4: Agent (Completed)
 
 #### [MODIFY] [agent.py](file:///home/martin/Python/Projects/Github/pokemon-llm/ai_tools/agent.py)
 
@@ -429,11 +433,11 @@ No changes needed. The `LLMAgent.run()` already wraps execution in `trace_agent_
 | `ai_tools/memory/sqlite.py` | Modify | Startup migration, persist `trace_id` |
 | `ai_tools/memory/in_memory.py` | None | Automatic via `ConversationState` |
 | `ai_tools/agent.py` | None | Already wraps in `trace_agent_run()` |
-| `ai_tools/tests/test_tracing.py` | Add | Tests for ID sync, trace dict building |
+| `ai_tools/tests/test_tracing.py` | Add | Tests for ID sync, trace dict building (Completed) |
 
 ---
 
-## Verification Plan
+## Verification Plan (Completed)
 
 ### Unit Tests
 

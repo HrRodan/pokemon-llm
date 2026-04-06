@@ -623,6 +623,9 @@ class LLMQuery(MultiModalMixin):
         reasoning_effort: Optional[str] = None,
         tools: Optional[List[Dict]] = None,
         tool_choice: Optional[Union[str, Dict]] = None,
+        openrouter_trace: Optional[Dict] = None,
+        session_id: Optional[str] = None,
+        user_id: Optional[str] = None,
         **kwargs,
     ) -> Dict:
         """
@@ -705,6 +708,9 @@ class LLMQuery(MultiModalMixin):
         # anything set above (e.g. custom temperature or max_tokens)
         request_kwargs.update(kwargs)
 
+        if user_id:
+            request_kwargs["user"] = user_id
+
         # OpenRouter requires extra provider hints for correct routing and to
         # receive cost/usage data back in the response.
         if target_model.startswith("openrouter/"):
@@ -713,6 +719,12 @@ class LLMQuery(MultiModalMixin):
             provider.setdefault("require_parameters", True)  # reject unsupported params
             provider.setdefault("data_collection", "deny")  # opt out of training data
             extra_body["usage"] = {"include": True}  # include cost in response
+
+            if openrouter_trace:
+                extra_body["trace"] = openrouter_trace
+
+            if session_id:
+                extra_body["session_id"] = session_id
 
         return request_kwargs
 
@@ -1027,17 +1039,7 @@ class LLMQuery(MultiModalMixin):
             user_prompt, cfg["use_history"], history_limit=cfg["history_limit"]
         )
 
-        request_kwargs = self._prepare_request_kwargs(
-            messages,
-            stream=False,
-            json_format=cfg["json_format"],
-            model=cfg["model"],
-            reasoning_effort=cfg["reasoning_effort"],
-            tools=cfg["tools"],
-            tool_choice=cfg["tool_choice"],
-            **kwargs,
-        )
-
+        # 1. Resolve Session & Metadata
         session_id = None
         if self.memory and hasattr(self.memory, "root_thread_id"):
             session_id = self.memory.root_thread_id
@@ -1048,17 +1050,45 @@ class LLMQuery(MultiModalMixin):
         if cfg["tool_choice"]:
             metadata["tool_choice"] = cfg["tool_choice"]
 
-        from .tracing import propagate_langfuse_attributes
+        # 2. Resolve Tracing
+        from .tracing import (
+            get_langfuse_params,
+            get_current_trace_context,
+            build_openrouter_trace_dict,
+            propagate_langfuse_attributes,
+        )
 
-        # Dynamic Generation Naming (centralized in tracing.py)
-        from .tracing import get_langfuse_params
-        
         langfuse_params = get_langfuse_params(
-            model=self.model,
+            model=cfg["model"],
             agent_name=self.agent_name,
             metadata=metadata,
         )
-        
+        ctx = get_current_trace_context(
+            session_id=session_id,
+            user_id=self.user_id,
+            trace_name=self.agent_name or "LLMQuery",
+        )
+        trace_dict = build_openrouter_trace_dict(
+            ctx,
+            generation_name=langfuse_params.get("name"),
+        )
+
+        # 3. Build API Payload
+        request_kwargs = self._prepare_request_kwargs(
+            messages,
+            stream=False,
+            json_format=cfg["json_format"],
+            model=cfg["model"],
+            reasoning_effort=cfg["reasoning_effort"],
+            tools=cfg["tools"],
+            tool_choice=cfg["tool_choice"],
+            openrouter_trace=trace_dict,
+            session_id=session_id,
+            user_id=self.user_id,
+            **kwargs,
+        )
+
+        # 4. Execute
         with propagate_langfuse_attributes(
             user_id=self.user_id,
             session_id=session_id,
@@ -1109,6 +1139,7 @@ class LLMQuery(MultiModalMixin):
                 messages=self.chat_history,
                 tool_calls=None,
                 usage=usage_snapshot,
+                trace_id=ctx.trace_id if ctx else None,
             )
 
         # Handle reasoning-only response by re-querying (max 3 attempts)

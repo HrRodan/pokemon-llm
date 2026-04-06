@@ -10,10 +10,23 @@ LANGFUSE_BASE_URL are present in the environment.
 import os
 import logging
 from contextlib import contextmanager
-from typing import Any, Dict, Generator, List, Optional
+from typing import Any, Dict, Generator, List, Optional, Union
+from dataclasses import dataclass
 
 
 logger = logging.getLogger(__name__)
+
+
+@dataclass(frozen=True)
+class TraceContext:
+    """Resolved trace identifiers for the current execution scope."""
+
+    trace_id: Optional[str]
+    observation_id: Optional[str]
+    session_id: Optional[str]
+    user_id: Optional[str]
+    trace_name: Optional[str]
+    environment: str
 
 # --- Lazy singleton ---
 _langfuse_client = None
@@ -338,3 +351,74 @@ def flush_tracing() -> None:
     client = get_langfuse_client()
     if client:
         client.flush()
+
+
+def get_current_trace_context(
+    *,
+    session_id: Optional[str] = None,
+    user_id: Optional[str] = None,
+    trace_name: Optional[str] = None,
+) -> Optional[TraceContext]:
+    """Read current Langfuse trace/observation IDs and return a TraceContext.
+
+    Returns None if tracing is disabled or no Langfuse context is active.
+    """
+    if not is_tracing_enabled():
+        return None
+
+    client = get_langfuse_client()
+    if not client:
+        return None
+
+    try:
+        trace_id = client.get_current_trace_id()
+        observation_id = client.get_current_observation_id()
+    except AttributeError:
+        # Older langfuse versions might not have these methods or client might be different
+        return None
+
+    if not trace_id:
+        return None
+
+    return TraceContext(
+        trace_id=trace_id,
+        observation_id=observation_id,
+        session_id=session_id,
+        user_id=user_id,
+        trace_name=trace_name,
+        environment=os.getenv("ENVIRONMENT", "development"),
+    )
+
+
+def build_openrouter_trace_dict(
+    ctx: Optional[TraceContext],
+    *,
+    generation_name: Optional[str] = None,
+    span_name: Optional[str] = None,
+) -> Optional[Dict[str, Any]]:
+    """Build the OpenRouter trace dict from a TraceContext.
+
+    Returns None if ctx is None (tracing disabled).
+    """
+    if ctx is None:
+        return None
+
+    trace = {
+        "trace_id": ctx.trace_id,
+        "environment": ctx.environment,
+    }
+
+    if ctx.observation_id:
+        trace["parent_span_id"] = ctx.observation_id
+    if ctx.session_id:
+        trace["session_id"] = ctx.session_id
+    if ctx.user_id:
+        trace["user_id"] = ctx.user_id
+    if ctx.trace_name:
+        trace["trace_name"] = ctx.trace_name
+    if generation_name:
+        trace["generation_name"] = generation_name
+    if span_name:
+        trace["span_name"] = span_name
+
+    return trace
