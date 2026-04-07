@@ -9,8 +9,9 @@ LANGFUSE_BASE_URL are present in the environment.
 
 import os
 import logging
+import contextvars
 from contextlib import contextmanager
-from typing import Any, Dict, Generator, List, Optional, Union
+from typing import Any, Dict, Generator, List, Optional
 from dataclasses import dataclass
 
 
@@ -63,7 +64,7 @@ def is_tracing_enabled() -> bool:
     return _tracing_enabled
 
 
-import contextvars
+
 
 _thread_session_id = contextvars.ContextVar("thread_session_id", default=None)
 _thread_user_id = contextvars.ContextVar("thread_user_id", default=None)
@@ -267,7 +268,6 @@ def trace_span(
         yield None
         return
 
-    from langfuse import propagate_attributes
 
     client = get_langfuse_client()
     if not client:
@@ -407,12 +407,25 @@ def get_current_trace_context(
     if not client:
         return None
 
+    # Mute the langfuse logger temporarily.
+    # The Langfuse SDK explicitly logs a 'WARNING' anytime we call these underlying
+    # methods without an actively running trace/span context.
+    # Since we proactively call this to check if a context exists,
+    # elevating the level to ERROR prevents log spam during normal operations.
+    import logging
+    langfuse_logger = logging.getLogger("langfuse")
+    old_level = langfuse_logger.level
+    langfuse_logger.setLevel(logging.ERROR)
+
     try:
         trace_id = client.get_current_trace_id()
         observation_id = client.get_current_observation_id()
     except AttributeError:
         # Older langfuse versions might not have these methods or client might be different
         return None
+    finally:
+        # Restore the original logging level so real Langfuse errors aren't masked
+        langfuse_logger.setLevel(old_level)
 
     if not trace_id:
         return None
