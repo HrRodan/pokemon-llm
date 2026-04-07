@@ -1,10 +1,10 @@
 from unittest.mock import MagicMock
-from ai_tools import LLMQuery, LLMAgent, AgentConfig
+from ai_tools import Agent
 from ai_tools.memory import MemoryHandler
 
 def test_llmquery_with_memory_saves_checkpoints():
     memory = MemoryHandler()
-    llm = LLMQuery(model="openai/gpt-4o-mini", memory=memory)
+    llm = Agent(model="openai/gpt-4o-mini", memory=memory)
     
     # Need to mock the API response to do integration without real API
     # Since we can't easily mock `client.chat.completions.create` inline safely,
@@ -32,8 +32,8 @@ def test_llmquery_with_memory_saves_checkpoints():
     history = memory.load_history()
     assert len(history) == 2 # user 'Hello', assistant 'mocked'
 
-def test_llmquery_without_memory_unchanged():
-    llm = LLMQuery(model="openai/gpt-4o-mini")
+def test_agent_without_memory_unchanged():
+    llm = Agent(model="openai/gpt-4o-mini")
     assert getattr(llm, "memory", None) is None
     # Just asserting it doesn't crash on standard invocation
     assert llm.chat_history == []
@@ -46,13 +46,14 @@ def test_llmquery_memory_resumes_history():
         {"role": "assistant", "content": "past_assistant"},
     ])
     
-    llm = LLMQuery(model="openai/gpt-4o-mini", memory=memory)
+    llm = Agent(model="openai/gpt-4o-mini", memory=memory)
+    # history is loaded in __init__
     assert len(llm.chat_history) == 3
     assert llm.chat_history[-1]["content"] == "past_assistant"
 
 def test_llmquery_clear_history_starts_new_thread():
     memory = MemoryHandler(thread_id="t1")
-    llm = LLMQuery(memory=memory)
+    llm = Agent(memory=memory)
     
     old_thread = memory.thread_id
     llm.clear_history()
@@ -60,28 +61,30 @@ def test_llmquery_clear_history_starts_new_thread():
     assert memory.thread_id != old_thread
     assert len(llm.chat_history) == 0
 
-def test_llmagent_with_memory_passthrough():
+def test_agent_with_memory_initialization():
     memory = MemoryHandler()
-    config = AgentConfig(name="test", model_name="openai/gpt-4o-mini", memory=memory)
-    agent = LLMAgent(config=config)
+    agent = Agent(name="test", model="openai/gpt-4o-mini", memory=memory)
     
-    assert agent.llm.memory is memory
+    assert agent.memory is memory
 
-def test_llmagent_as_tool_ephemeral():
-    agent = LLMAgent(config=AgentConfig(name="test", model_name="openai/gpt-4", memory=None))
+def test_agent_as_tool_ephemeral():
+    agent = Agent(name="test", model="openai/gpt-4", memory=None)
     agent.TOOL_NAME = "sub"
     agent.TOOL_DESCRIPTION = "subagent desc"
     
-    schema, wrapper = agent.llm.as_tool(agent.TOOL_NAME, agent.TOOL_DESCRIPTION)
+    wrapper = agent.as_tool()
+    schema = wrapper.__tool_schema__
     
     # Running wrapper clears history in ephemeral mode
     assert wrapper.__name__ == "sub"
 
-def test_llmagent_as_tool_scoped():
+def test_agent_as_tool_scoped():
     memory = MemoryHandler()
-    agent = LLMAgent(config=AgentConfig(name="test", model_name="openai/gpt-4", memory=memory))
+    agent = Agent(name="test", model="openai/gpt-4", memory=memory)
     agent.TOOL_NAME = "sub"
     agent.TOOL_DESCRIPTION = "subagent desc"
     
-    schema, wrapper = agent.llm.as_tool(agent.TOOL_NAME, agent.TOOL_DESCRIPTION)
+    # Agent.as_tool() uses self.TOOL_NAME and self.TOOL_DESCRIPTION
+    wrapper = agent.as_tool()
+    schema = wrapper.__tool_schema__
     # the wrapper swaps memory when invoked, which we verify indirectly if possible.

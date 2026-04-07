@@ -108,7 +108,6 @@ def get_api_key(key_name: str) -> str:
 
     return ""
 
-
 def __getattr__(name: str) -> str:
     """
     Module-level ``__getattr__`` so that code doing::
@@ -121,3 +120,19 @@ def __getattr__(name: str) -> str:
     if name in _API_KEYS:
         return get_api_key(name)
     raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+
+
+PROVIDER_PREFIXES = ("openai/", "ollama/", "gemini/", "openrouter/")
+
+
+def strip_provider_prefix(model: str) -> tuple[str, str]:
+    """Return (provider, api_model_name) from a prefixed model string.
+
+    Example::
+        >>> strip_provider_prefix("gemini/gemini-flash-latest")
+        ("gemini", "gemini-flash-latest")
+    """
+    for prefix in PROVIDER_PREFIXES:
+        if model.startswith(prefix):
+            return prefix.rstrip("/"), model[len(prefix) :]
+    return "unknown", model

@@ -20,7 +20,7 @@ from chonkie import RecursiveChunker, OverlapRefinery
 from pydantic import BaseModel, Field
 
 from ai_tools.tool_definition import tool
-from ai_tools.tools import LLMQuery
+from ai_tools import Agent
 from tools.web_content import PageMarkdownResult, fetch_page_as_markdown, FetchPageInput
 from utils.config import settings
 
@@ -31,19 +31,19 @@ logging.getLogger("chonkie").setLevel(logging.ERROR)
 # Lazy singletons — connections created on first use, not at import time.
 # ---------------------------------------------------------------------------
 
-_embedding_client: "LLMQuery | None" = None
+_embedding_client: "Agent | None" = None
 _chroma_client: "chromadb.PersistentClient | None" = None
 _collection: "chromadb.Collection | None" = None
 _db_lock = threading.Lock()
 
 
-def _get_embedding_client() -> "LLMQuery":
+def _get_embedding_client() -> "Agent":
     """Return (and lazily create) the shared embedding LLMQuery instance."""
     global _embedding_client
     if _embedding_client is None:
         with _db_lock:
             if _embedding_client is None:
-                _embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
+                _embedding_client = Agent(embedding_model=settings.EMBEDDING_MODEL)
     return _embedding_client
 
 

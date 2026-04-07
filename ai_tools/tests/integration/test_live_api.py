@@ -12,12 +12,13 @@ from OpenAI, Gemini, and OpenRouter.
 import os
 import pytest
 
-from ai_tools.tools import LLMQuery
+from ai_tools.agent import Agent
 from ai_tools.tool_definition import tool
 
 # Lightweight models from different providers
 MODELS_TO_TEST = [
-    "openrouter/openai/gpt-oss-20b",
+    "openai/gpt-4o-mini",
+    "openrouter/google/gemini-flash-1.5",
 ]
 
 def skip_if_missing_key(model: str):
@@ -33,19 +34,19 @@ class TestLiveAPI:
     def test_basic_query(self, model_name):
         """Test a simple synchronous query."""
         skip_if_missing_key(model_name)
-        llm = LLMQuery(model=model_name, system_prompt="Answer briefly.")
-        response = llm.query("What is 1+1?")
+        agent = Agent(model=model_name, system_prompt="Answer briefly.")
+        response = agent.query("What is 1+1?")
 
         assert isinstance(response, str)
         assert len(response) > 0
         assert "2" in response or "two" in response.lower()
 
         # Verify history was updated
-        assert len(llm.chat_history) == 2
-        assert llm.chat_history[0]["role"] == "user"
-        assert llm.chat_history[0]["content"] == "What is 1+1?"
-        assert llm.chat_history[1]["role"] == "assistant"
-        assert len(llm.chat_history[1]["content"]) > 0
+        assert len(agent.chat_history) == 2
+        assert agent.chat_history[0]["role"] == "user"
+        assert agent.chat_history[0]["content"] == "What is 1+1?"
+        assert agent.chat_history[1]["role"] == "assistant"
+        assert len(agent.chat_history[1]["content"]) > 0
 
     def test_tool_dispatch(self, model_name):
         """Test that the LLM can correctly decide to call a tool and we parse it."""
@@ -60,14 +61,14 @@ class TestLiveAPI:
             tracker["args"] = {"a": a, "b": b}
             return a + b
 
-        llm = LLMQuery(
+        agent = Agent(
             model=model_name,
             tools=[add_numbers],
             system_prompt="You have a tool to add numbers. Use it if asked to add.",
         )
 
-        llm.query("What is 42 plus 58?")
-        response = llm.get_tool_responses()
+        agent.query("What is 42 plus 58?")
+        response = agent.get_tool_responses()
 
         assert tracker["called"] is True
         assert tracker["args"] == {"a": 42, "b": 58}
@@ -84,14 +85,14 @@ class TestLiveAPI:
             calls.append(city)
             return f"Sunny in {city}"
 
-        llm = LLMQuery(
+        agent = Agent(
             model=model_name,
             tools=[get_weather],
             system_prompt="You are a weather bot. Provide the weather.",
         )
 
-        llm.query("What's the weather in Tokyo and Paris?")
-        response = llm.get_tool_responses()
+        agent.query("What's the weather in Tokyo and Paris?")
+        response = agent.get_tool_responses()
 
         assert len(calls) == 2
         assert "Tokyo" in calls or "Paris" in calls  # Depending on parallel order

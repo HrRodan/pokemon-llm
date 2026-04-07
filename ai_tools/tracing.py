@@ -111,6 +111,20 @@ def get_thread_user_id() -> Optional[str]:
     return _thread_user_id.get()
 
 
+def get_openai_module():
+    """
+    Return the openai module, instrumented with Langfuse if enabled.
+    """
+    if is_tracing_enabled():
+        try:
+            from langfuse.openai import openai
+            return openai
+        except ImportError:
+            pass
+    import openai
+    return openai
+
+
 def get_openai_class():
     """
     Return the OpenAI client class, instrumented with Langfuse if enabled.
@@ -275,7 +289,16 @@ def trace_span(
         return
 
     # Check if we are already inside an active trace
-    current_obs_id = client.get_current_observation_id()
+    # Mute the langfuse logger temporarily to avoid 'No active span' warnings
+    import logging
+    langfuse_logger = logging.getLogger("langfuse")
+    old_level = langfuse_logger.level
+    langfuse_logger.setLevel(logging.ERROR)
+    try:
+        current_obs_id = client.get_current_observation_id()
+    finally:
+        langfuse_logger.setLevel(old_level)
+
     is_nested = current_obs_id is not None
 
     resolved_name = name

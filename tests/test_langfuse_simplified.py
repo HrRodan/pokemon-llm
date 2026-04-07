@@ -1,7 +1,7 @@
 import os
 import unittest
 from unittest.mock import patch, MagicMock
-from ai_tools.tools import LLMQuery
+from ai_tools import Agent
 from ai_tools.tracing import get_openai_class, is_tracing_enabled
 import ai_tools.tracing
 
@@ -40,7 +40,7 @@ class TestLangfuseSimplified(unittest.TestCase):
                 params = ai_tools.tracing.get_langfuse_params(model="gpt", session_id="test")
                 self.assertEqual(params, {})
 
-    @patch("ai_tools.tools.get_openai_class")
+    @patch("ai_tools.tracing.get_openai_class")
     @patch("ai_tools.config.get_api_key", return_value="sk-test")
     def test_query_flow_no_tracing(self, mock_get_api_key, mock_get_cls):
         """Verify that query() works without tracing and doesn't pass langfuse_ params."""
@@ -60,7 +60,7 @@ class TestLangfuseSimplified(unittest.TestCase):
                 mock_response.usage.total_tokens = 15
                 mock_create.return_value = mock_response
                 
-                llm = LLMQuery(model="openai/gpt-4o-mini")
+                llm = Agent(model="openai/gpt-4o-mini")
                 res = llm.query("Hi")
                 
                 self.assertEqual(res, "Hello")
@@ -68,40 +68,44 @@ class TestLangfuseSimplified(unittest.TestCase):
                 args, kwargs = mock_create.call_args
                 self.assertFalse(any(k.startswith("langfuse_") for k in kwargs))
 
-    @patch("ai_tools.tools.get_openai_class")
+    @patch("ai_tools.agent.Agent._create_chat_completion")
     @patch("ai_tools.config.get_api_key", return_value="sk-test")
-    def test_query_flow_with_tracing(self, mock_get_api_key, mock_get_cls):
-        """Verify that query() passes langfuse_ params when tracing is enabled."""
-        # Force tracing enabled
-        env = {
-            "LANGFUSE_SECRET_KEY": "sk-lf-test",
-            "LANGFUSE_PUBLIC_KEY": "pk-lf-test",
-            "LANGFUSE_BASE_URL": "http://test"
-        }
+    def test_query_flow_with_tracing(self, mock_get_api_key, mock_create):
+        """Verify that query() passes name attribute for tracing when tracing is enabled."""
+        from ai_tools.agent import Agent
+        from ai_tools.tracing import TraceContext
+
+        mock_response = MagicMock()
+        mock_response.choices = [MagicMock()]
+        mock_response.choices[0].message.content = "Hello traced"
+        mock_response.choices[0].message.tool_calls = None
+        mock_response.usage = MagicMock()
+        mock_response.usage.model_dump.return_value = {"prompt_tokens": 10, "completion_tokens": 5}
+        mock_create.return_value = mock_response
+
+        # Use an existing trace context
+        ctx = TraceContext(
+            trace_id="t1", 
+            observation_id="o1", 
+            session_id="s1", 
+            user_id="u1", 
+            trace_name="test", 
+            environment="test"
+        )
         
-        # Mock Langfuse version of OpenAI
-        MockLangfuseOpenAI = MagicMock()
-        mock_get_cls.return_value = MockLangfuseOpenAI
-        
-        with patch.dict(os.environ, env):
-            llm = LLMQuery(model="openai/gpt-4o-mini")
+        with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
+             patch("ai_tools.tracing.get_current_trace_context", return_value=ctx):
             
-            # Mock the client instance and its create method
-            mock_client_instance = MockLangfuseOpenAI.return_value
-            mock_response = MagicMock()
-            mock_response.choices = [MagicMock()]
-            mock_response.choices[0].message.content = "Hello traced"
-            mock_response.choices[0].message.tool_calls = None
-            mock_client_instance.chat.completions.create.return_value = mock_response
-            
+            llm = Agent(name="Agent", model="openai/gpt-4o-mini")
             res = llm.query("Hi")
             
             self.assertEqual(res, "Hello traced")
-            # Ensure langfuse_ params (legacy) are NOT passed
-            args, kwargs = mock_client_instance.chat.completions.create.call_args
-            self.assertFalse(any(k.startswith("langfuse_") for k in kwargs))
-            # But 'name' (used for trace naming) should be passed
-            self.assertEqual(kwargs["name"], "generation:LLMQuery")
+            # Check if request_kwargs contains tracing params
+            args, kwargs = mock_create.call_args
+            request_kwargs = args[1] # second positional arg is request_kwargs
+            
+            # The 'name' (used for trace naming) should be passed in request_kwargs
+            self.assertEqual(request_kwargs["name"], "generation:Agent")
 
 if __name__ == "__main__":
     unittest.main()

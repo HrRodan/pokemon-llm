@@ -4,7 +4,7 @@ from typing import List, Dict, Any, Optional
 from agents.pokemon_agent import PokemonAgent
 from utils.config import settings
 from utils.logger import get_log_buffer
-from ai_tools import trace_turn, flush_tracing
+from ai_tools import flush_tracing, trace_span
 
 
 def get_agent_client(model: str = settings.DEFAULT_MODEL) -> PokemonAgent:
@@ -130,13 +130,13 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     # ------------------------------------------------------------------
     user_id = getattr(client_state, "user_id", None)
     session_id = None
-    if hasattr(client_state.llm, "memory") and hasattr(client_state.llm.memory, "root_thread_id"):
-        session_id = client_state.llm.memory.root_thread_id
+    if hasattr(client_state, "memory") and hasattr(client_state.memory, "root_thread_id"):
+        session_id = client_state.memory.root_thread_id
 
     try:
-        with trace_turn(
+        with trace_span(
             name=client_state.name,
-            input_message=message,
+            input=message,
             user_id=user_id,
             session_id=session_id,
             tags=[client_state.name, client_state.model.split("/")[0]],
@@ -185,7 +185,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
             
             # Update the turn span with the final output
             from ai_tools.tracing import update_span
-            update_span(span, output=client_state.llm.response)
+            update_span(span, output=client_state.response)
             
     finally:
         flush_tracing()
@@ -203,27 +203,27 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
 
 def get_threads(client_state: Any) -> List[Any]:
     """Return a list of ThreadInfo available in the MemoryHandler."""
-    if client_state and client_state.llm.memory:
-        return client_state.llm.memory.list_threads()
+    if client_state and client_state.memory:
+        return client_state.memory.list_threads()
     return []
 
 
 def get_checkpoints(client_state: Any) -> List[Any]:
     """Return a list of CheckpointInfo for the active thread."""
-    if client_state and client_state.llm.memory:
-        return client_state.llm.memory.list_checkpoints()
+    if client_state and client_state.memory:
+        return client_state.memory.list_checkpoints()
     return []
 
 
 def switch_thread(client_state: Any, thread_id: str) -> None:
     """Switch the active thread and reload context into the client state."""
-    if client_state and client_state.llm.memory:
-        client_state.llm.memory.switch_thread(thread_id)
-        client_state.llm.chat_history = client_state.llm.memory.load_history()
+    if client_state and client_state.memory:
+        client_state.memory.switch_thread(thread_id)
+        client_state.chat_history = client_state.memory.load_history()
 
 
 def rollback_thread(client_state: Any, step_id: int) -> None:
     """Rollback conversation to a specific step_id."""
-    if client_state and client_state.llm.memory:
-        client_state.llm.memory.rollback(step_id)
-        client_state.llm.chat_history = client_state.llm.memory.load_history()
+    if client_state and client_state.memory:
+        client_state.memory.rollback(step_id)
+        client_state.chat_history = client_state.memory.load_history()

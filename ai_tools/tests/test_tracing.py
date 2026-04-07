@@ -16,6 +16,7 @@ from ai_tools.tracing import (
     TraceContext,
 )
 from ai_tools.memory import MemoryHandler, InMemoryBackend
+from ai_tools.agent import Agent
 
 @pytest.fixture(autouse=True)
 def reset_tracing_state():
@@ -113,7 +114,7 @@ def test_trace_agent_run_nested(mock_langfuse):
     }):
         with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
              patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
-                 with trace_agent_run("SubAgent", "Hello", session_id="sess1", user_id="u1"):
+                  with trace_agent_run("SubAgent", "Hello", session_id="sess1", user_id="u1"):
                     mock_client.start_as_current_observation.assert_called_once_with(
                         as_type="agent",
                         name="agent:run:SubAgent",
@@ -123,9 +124,6 @@ def test_trace_agent_run_nested(mock_langfuse):
                     # Nested spans now propagate attributes to ensure session_id/user_id
                     # reach subagent LLM calls via Langfuse context
                     mock_langfuse["propagate"].assert_called_once()
-
-
-
 
 
 def test_trace_tool_execution_records_error(mock_langfuse):
@@ -241,50 +239,49 @@ def test_build_openrouter_trace_dict_none():
 
 
 def test_trace_dict_injected_for_openrouter(mock_response):
-    from ai_tools.tools import LLMQuery
-
-    q = LLMQuery(model="openrouter/google/gemini-pro")
+    agent = Agent(model="openrouter/google/gemini-pro")
     
     # Mocking trace context
     ctx = TraceContext("t1", "o1", "s1", "u1", "tn1", "dev")
 
-    with patch.object(q, "_create_chat_completion", return_value=mock_response) as mock_create:
-        with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx):
-            q.query("hi")
+    with patch.object(Agent, "_create_chat_completion", return_value=mock_response) as mock_create:
+        with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx), \
+             patch("ai_tools.tracing.is_tracing_enabled", return_value=True):
+            agent.query("hi")
             mock_create.assert_called()
             # Check if extra_body.trace was passed in the call
-            call_kwargs = mock_create.call_args[1]
-            assert "extra_body" in call_kwargs
-            assert "trace" in call_kwargs["extra_body"]
-            assert call_kwargs["extra_body"]["trace"]["trace_id"] == "t1"
+            _, request_kwargs = mock_create.call_args[0]
+            assert "extra_body" in request_kwargs
+            assert "trace" in request_kwargs["extra_body"]
+            assert request_kwargs["extra_body"]["trace"]["trace_id"] == "t1"
 
 
 def test_trace_dict_not_injected_for_openai(mock_response):
-    from ai_tools.tools import LLMQuery
-
-    q = LLMQuery(model="openai/gpt-4o")
+    agent = Agent(model="openai/gpt-4o")
     ctx = TraceContext("t1", "o1", "s1", "u1", "tn1", "dev")
 
-    with patch.object(q, "_create_chat_completion", return_value=mock_response) as mock_create:
-        with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx):
-            q.query("hi")
+    with patch.object(Agent, "_create_chat_completion", return_value=mock_response) as mock_create:
+        # For OpenAI, trace should NOT be injected. Patching tracing enabled just in case to verify exclusion.
+        with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx), \
+             patch("ai_tools.tracing.is_tracing_enabled", return_value=True):
+            agent.query("hi")
             mock_create.assert_called()
-            call_kwargs = mock_create.call_args[1]
-            if "extra_body" in call_kwargs:
-                assert "trace" not in call_kwargs["extra_body"]
+            _, request_kwargs = mock_create.call_args[0]
+            if "extra_body" in request_kwargs:
+                assert "trace" not in request_kwargs["extra_body"]
 
 
 def test_checkpoint_stores_trace_id(mock_response):
-    from ai_tools.tools import LLMQuery
     from ai_tools.memory import MemoryHandler, InMemoryBackend
 
     mem = MemoryHandler(backend=InMemoryBackend())
-    q = LLMQuery(model="openai/gpt-4o", memory=mem)
+    agent = Agent(model="openai/gpt-4o", memory=mem)
     ctx = TraceContext("trace-id-abc", "o1", "s1", "u1", "tn1", "dev")
 
     with patch("ai_tools.tracing.get_current_trace_context", return_value=ctx), \
-         patch.object(q, "_create_chat_completion", return_value=mock_response):
-        q.query("hi")
+         patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
+         patch.object(Agent, "_create_chat_completion", return_value=mock_response):
+        agent.query("hi")
         
         # Check if latest checkpoint has the trace_id
         last_cp = mem.backend.load_checkpoint(mem.thread_id)

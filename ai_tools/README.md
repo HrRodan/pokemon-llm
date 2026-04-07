@@ -4,536 +4,108 @@ Core utilities and classes for interacting with LLMs via an OpenAI-compatible
 API (OpenAI, Gemini, OpenRouter, Ollama) and performing multi-modal AI tasks
 (image generation, TTS, audio transcription, embeddings).
 
+The package is built around a unified, lifecycle-driven `Agent` class that
+decomposes complex orchestration logic into modular, thread-safe components.
+
 ---
 
 ## Module Structure
 
 | Module | Responsibility |
 |---|---|
-| [`config.py`](config.py) | API keys (lazy Colab → env → prompt fallback), model `Literal` types, `MODEL_DICT`, provider base URLs |
-| [`utils.py`](utils.py) | `pretty_print_json`, `clean_json`, `handle_tool_call`, `handle_tool_call_async`, `generate_short_id` |
-| [`pipeline.py`](pipeline.py) | Pipe operator classes enabling `"text" \| query1 \| query2` syntax |
-| [`multimodal.py`](multimodal.py) | `MultiModalMixin` — image generation, TTS, audio transcription, embeddings |
-| [`tools.py`](tools.py) | `LLMQuery` (primary core client) |
-| [`agent.py`](agent.py) | `LLMAgent` — A higher-level wrapper for `LLMQuery` providing an automated execution loop, dynamic usage tracking, and tool exporting. |
-| [`memory/`](memory/) | Pluggable conversational memory system (SQLite / In-Memory), threads, and rollbacks. [Docs](memory/README.md) |
-| [`logger.py`](logger.py) | Optional colored console logging functions via `setup_agent_logger()`. |
-| [`tool_definition.py`](tool_definition.py) | `@tool` decorator, `collect_tools`, schema inference from type hints |
-| [`__init__.py`](__init__.py) | Package-level convenience imports |
+| [`agent.py`](agent.py) | **Agent (Primary Core)** — Unified class replacing `LLMQuery` and `LLMAgent`. Handles state, history, and the agentic loop. |
+| [`client.py`](client.py) | Stateless provider client factory (OpenAI, Gemini, OpenRouter, Ollama). |
+| [`parsing.py`](parsing.py) | Pure logic for extracting tool calls, reasoning, and thought signatures from API responses. |
+| [`usage.py`](usage.py) | Thread-safe token and cost tracker for concurrent execution environments. |
+| [`tracing.py`](tracing.py) | Langfuse observability implementation (fully optional). |
+| [`memory/`](memory/) | Pluggable conversational memory system (SQLite / In-Memory), threads, and rollbacks. |
+| [`multimodal.py`](multimodal.py) | `MultiModalMixin` — unified image generation, TTS, transcription, and embeddings. |
+| [`config.py`](config.py) | API keys (lazy Colab → env → prompt fallback), model definitions, and provider URLs. |
+| [`tool_definition.py`](tool_definition.py) | `@tool` decorator, `collect_tools`, schema inference from type hints and Pydantic models. |
+| [`utils.py`](utils.py) | Low-level JSON cleaning, short ID generation, and tool dispatch helpers. |
 
 ---
 
 ## Quick Start
 
 ```python
-from ai_tools.tools import LLMQuery
+from ai_tools import Agent
 
 # Basic query
-llm = LLMQuery(model="gemini/gemini-flash-latest", system_prompt="You are helpful.")
-reply = llm.query("Explain quantum computing in one sentence.")
+agent = Agent(model="gemini/gemini-flash-latest", system_prompt="You are helpful.")
+reply = agent.query("Explain quantum computing in one sentence.")
 
-# With chat history (default: on)
-llm.query("Follow up question here...")  # history automatically included
-
-# Single-call model override
-reply = llm.query("Translate this.", model="openai/gpt-4o-mini")
+# With automated tool execution (Agentic Loop)
+# Agent.run() handles the query -> tools -> re-query iteration automatically.
+result = agent.run("What's the weather in Berlin?")
 ```
 
 ### With Persistent Memory (SQLite)
 
 ```python
-from ai_tools.tools import LLMQuery
+from ai_tools import Agent
 from ai_tools.memory import MemoryHandler, SQLiteBackend
 
 # Wrap an SQLite storage engine into the MemoryHandler
-memory = MemoryHandler(backend=SQLiteBackend("my_agent.db"))
+memory = MemoryHandler(backend=SQLiteBackend("agent_state.db"))
 
-llm = LLMQuery(model="gemini/gemini-flash-latest", memory=memory)
-llm.query("Hello! My name is user.")
+agent = Agent(model="gemini/gemini-flash-latest", memory=memory)
+agent.query("Remember my name is Ash.")
 
-# Resuming later automatically fetches the correct checkpoints via thread ID
-# memory.switch_thread("thread-id-here")
-```
-
-See the [Memory module README](memory/README.md) for full details on advanced state handling, rollbacks, thread resumption, and subagent scoping.
-
----
-
-## Key Concepts
-
-### Tool Registration — Three Styles
-
-`LLMQuery` accepts the type `ToolInput = Union[Dict[str, Any], Callable]` in
-its `tools` list. How the schema and implementation are resolved depends on
-what you pass:
-
----
-
-#### Style 1 — `@tool`-decorated callable (recommended)
-
-Decorate a function with `@tool` and pass it directly. The schema is inferred
-from type hints and docstrings automatically. **No `functions` argument
-needed.**
-
-```python
-from ai_tools import LLMQuery, tool
-
-@tool(description="Returns the current temperature for a city.")
-def get_weather(city: str, units: str = "metric") -> str:
-    return f"22°C in {city}"
-
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=[get_weather])
-llm.query("What's the weather in Berlin?")
-reply = llm.get_tool_responses()
-```
-
-For **Pydantic-backed validation** (the LLM's arguments are validated
-before the function receives them as a typed model instance):
-
-```python
-from pydantic import BaseModel, Field
-
-class WeatherArgs(BaseModel):
-    city: str = Field(description="City name.")
-    units: str = Field(default="metric")
-
-@tool(schema=WeatherArgs)
-def get_weather(args: WeatherArgs) -> str:
-    return f"{args.city}: 22°C ({args.units})"
-
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=[get_weather])
+# Switch threads at any time
+memory.new_thread()
+agent.query("Who am I?") # "I don't know."
 ```
 
 ---
 
-#### Style 2 — Raw schema dict + explicit `functions`
+## Core Features
 
-For hand-crafted schemas or third-party definitions. Pass the schema in
-`tools` and the matching callable in `functions`. The callable is looked up
-by `.__name__` at dispatch time.
+### 1. Unified Agent Architecture
+The `Agent` class provides a single, consistent API for both simple one-off queries (`.query()`) and complex tool-using workflows (`.run()`). It maintains its own conversational state, usage tracking, and tracing context.
+
+### 2. Ergonomic Tooling
+Register tools using the `@tool` decorator. The schema is automatically inferred from docstrings and type hints.
 
 ```python
+from ai_tools import Agent, tool
+
+@tool
 def get_weather(city: str) -> str:
+    """Returns the current weather for a city."""
     return f"22°C in {city}"
 
-schema = {
-    "type": "function",
-    "function": {
-        "name": "get_weather",
-        "description": "Get current weather for a city.",
-        "parameters": {
-            "type": "object",
-            "properties": {"city": {"type": "string"}},
-            "required": ["city"],
-        },
-    },
-}
+agent = Agent(model="openai/gpt-4o-mini", tools=[get_weather])
+agent.run("Is it raining in London?")
+```
 
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=[schema], functions=[get_weather])
+### 3. Distributed Tracing (Langfuse)
+Built-in observability that captures the full hierarchy of every turn. Sub-agents are automatically nested within parent traces.
+
+```bash
+# Tracking activates automatically if these env vars are present
+LANGFUSE_PUBLIC_KEY="..."
+LANGFUSE_SECRET_KEY="..."
+LANGFUSE_BASE_URL="https://cloud.langfuse.com"
+```
+
+### 4. Concurrent Tool Dispatch
+When an LLM returns multiple tool calls, the `Agent` executes them in parallel by default, significantly reducing latency for I/O-bound tasks.
+
+### 5. Multi-Modal Mixin
+Image generation, TTS, and transcription are available on any Agent:
+
+```python
+img = agent.generate_image("A cute Pikachu")
+audio = agent.generate_tts("Pika Pika!")
+text = agent.transcribe_audio("battle_cry.wav")
 ```
 
 ---
 
-#### Style 3 — Mixed list (advanced)
-
-`tools` may contain any combination of `@tool` callables and raw dicts.
-Explicit `functions` entries take precedence over same-name callables
-auto-extracted from `tools`.
-
-```python
-llm = LLMQuery(
-    tools=[decorated_fn, raw_schema_dict],
-    functions=[manual_override_fn],
-)
-```
-
----
-
-### `@tool` decorator — details
-
-| Usage | When to use |
-|---|---|
-| `@tool` | Bare decorator — schema inferred from type hints & docstring |
-| `@tool(description="…")` | Override the description |
-| `@tool(name="…")` | Override the function name exposed to the LLM |
-| `@tool(schema=MyModel)` | Pydantic-backed — full validation at dispatch, receives typed instance |
-
-Attributes added to the decorated function:
-
-- `.__tool_schema__` — OpenAI-compatible JSON dict
-- `.__pydantic_model__` — the Pydantic class, or `None`
-
----
-
-### `collect_tools(*fns)` — when you need the split lists
-
-`collect_tools` returns the raw `(schemas, functions)` tuple — useful if you
-need to inspect schemas separately or pass them to another system.  **You do
-not need it when using Style 1.**
-
-```python
-from ai_tools import collect_tools
-
-TOOLS, FUNCTIONS = collect_tools(get_weather, search_web)
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
-```
-
----
-
-### `LLMAgent.as_tool()` — Sub-agents as Tools
-
-Any `LLMAgent` subclass that defines `TOOL_NAME` and `TOOL_DESCRIPTION` can
-expose itself natively as a `@tool`-compatible callable via `as_tool()`. The returned
-callable carries `.__tool_schema__` and can be passed directly into another agent's tools list.
-
-```python
-from ai_tools.agent import LLMAgent
-
-class RAGAgent(LLMAgent):
-    TOOL_NAME = "run_rag_agent"
-    TOOL_DESCRIPTION = "Semantic search over Pokémon lore."
-    ...
-
-rag = RAGAgent(name="RAG", model_name="openai/gpt-4o-mini")
-
-# Pass directly to an Orchestrator — no separate schema or functions needed:
-orchestrator = LLMQuery(model="openai/gpt-4o-mini", tools=[rag.as_tool()])
-orchestrator.query("What does the RAG agent think about Mewtwo?")
-```
-
----
-
-### Concurrent Tool Calls
-
-When the LLM returns multiple tool calls in one response they are dispatched
-**concurrently** by default via `asyncio.to_thread` — ideal for I/O-bound
-tools (HTTP, sub-agent LLMs).
-
-```python
-# Default: concurrent
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=[fn_a, fn_b])
-
-# Sequential (e.g. tools share mutable state)
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=[fn_a, fn_b], concurrent_tool_calls=False)
-```
-
----
-
-### Override Resolution
-
-All `query()` parameters follow:
-
-```
-per-call argument  >  instance attribute  >  hardcoded default
-```
-
-### Side Effects of `query()`
-
-| Attribute | Content |
-|---|---|
-| `self.response` | Raw text of the last response |
-| `self.tool_calls` | List of tool-call dicts (empty if model returned only text) |
-| `self.reasoning_history` | One entry per call with CoT reasoning (or `None`) |
-| `self.chat_history` | Full conversation history (user + assistant turns) |
-| `self.total_*` | Cumulative token counts and cost |
-
----
-
-## Pipeline Syntax
-
-Chain queries with Python's `|` operator:
-
-```python
-q1 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Translate to German")
-q2 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Make it UPPERCASE")
-
-result = "Hello, how are you?" | q1 | q2
-# result: "HALLO, WIE GEHT ES DIR?"
-```
-
----
-
-## Multi-Modal
-
-```python
-llm = LLMQuery(model="openai/gpt-4o-mini")
-
-img   = llm.generate_image("A futuristic city at night")
-audio = llm.generate_tts("Hello, world!", voice="onyx")
-text  = llm.transcribe_audio("recording.wav")
-vecs  = llm.generate_embedding(["Hello", "World"])
-```
-
----
-
-## Langfuse Tracing (Optional)
-
-`ai_tools` provides built-in observability via [Langfuse](https://langfuse.com). Tracking is **fully optional** and activates automatically when the required environment variables are present.
-
-### Setup
-
-1. Install the tracing dependency:
-   ```bash
-   uv add langfuse
-   # OR
-   pip install ai_tools[tracing]
-   ```
-
-2. Add credentials to your `.env`:
-   ```env
-   LANGFUSE_PUBLIC_KEY="pk-lf-..."
-   LANGFUSE_SECRET_KEY="sk-lf-..."
-   LANGFUSE_BASE_URL="https://cloud.langfuse.com" # or your self-hosted URL
-   ```
-
-### Features
-
-- **Full Hierarchy:** Nested view of Orchestrator → Sub-agents → Tool calls → LLM Generations. Sub-agent runs are automatically nested as spans within the parent trace.
-- **Session Grouping:** All turns in a conversation and all sub-agent calls are linked via the memory `root_thread_id` (maps to Langfuse `session_id`).
-- **User Attribution:** Track cost and quality per user by passing `user_id` to `LLMAgent` or `LLMQuery`. Sub-agents automatically inherit the parent's `user_id`.
-- **Automatic Cost Tracking:** Token usage and cost are captured for every LLM call.
-- **Error Visibility:** Exceptions in tools or LLM calls are surfaced as `ERROR` level spans with stack traces.
-
-### Trace Hierarchy
-
-```text
-Trace: "OrchestratorAgent" (session_id="thread_123", user_id="user_abc")
- ├─ Generation: "generation:gpt-4o" (tokens=450, cost=$0.002)
- ├─ Span: "call:subagent:WebSearchAgent"
- │   └─ Span: "agent:run:WebSearchAgent"
- │       ├─ Generation: "generation:mistral-small" (subagent thought)
- │       ├─ Span: "tool:brave_search" (input={"q": "pokemon"}, output="...")
- │       └─ Generation: "generation:mistral-small" (subagent response)
- └─ Generation: "generation:gpt-4o" (orchestrator final response)
-```
-
----
-
-## Structured Output (Pydantic)
-
-```python
-from pydantic import BaseModel
-
-class Summary(BaseModel):
-    title: str
-    key_points: list[str]
-
-llm = LLMQuery(model="openai/gpt-4o-mini", response_format=Summary)
-reply = llm.query("Summarise the French Revolution in 3 points.")
-```
-
----
-
-## Adding a New Model or Provider
-
-1. Add model names to the appropriate `Literal` in `config.py`.
-2. Add them to `MODEL_DICT` (or create a new provider entry).
-3. Handle the new provider in `LLMQuery._get_client_for_model()`.
-
-```python
-def get_weather(city: str) -> str:
-    return f"22°C in {city}"
-
-tools_schema = [{
-    "type": "function",
-    "function": {
-        "name": "get_weather",
-        "description": "Get current weather for a city",
-        "parameters": {
-            "type": "object",
-            "properties": {"city": {"type": "string"}},
-            "required": ["city"]
-        }
-    }
-}]
-
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=tools_schema, functions=[get_weather])
-llm.query("What's the weather in Berlin?")
-final_response = llm.get_tool_responses()  # executes tool, gets final reply
-```
-
-### Concurrent Tool Calls
-
-By default, when the LLM returns multiple tool calls in a single response,
-they are dispatched **concurrently** using `asyncio.to_thread`. This is ideal
-for I/O-bound tools (API calls, sub-agent LLM queries) where parallel execution
-cuts wall-clock time significantly.
-
-```python
-# Default: concurrent dispatch (all tool calls run in parallel threads)
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=tools_schema, functions=[fn_a, fn_b])
-
-# Opt out if needed (e.g. tools that share mutable state)
-llm = LLMQuery(model="openai/gpt-4o-mini", concurrent_tool_calls=False, ...)
-```
-
-Works seamlessly in both regular Python scripts and Jupyter notebooks.
-
-### Override Resolution
-
-All `query()` parameters follow this priority:
-
-```
-per-call argument  >  instance attribute  >  hardcoded default
-```
-
-Passing `None` (or omitting the argument) falls back to the instance value.
-For example, passing `model="openai/gpt-4o-mini"` to `query()` overrides `self.model`
-for that call only.
-
-### Side Effects of `query()`
-
-After every call, the following instance attributes are updated:
-
-| Attribute | Content |
-|---|---|
-| `self.response` | Raw text of the last response |
-| `self.tool_calls` | List of tool-call dicts (empty if model returned only text) |
-| `self.reasoning_history` | One entry per call with CoT reasoning (or `None`) |
-| `self.chat_history` | Full conversation history (user + assistant turns) |
-| `self.total_*` | Cumulative token counts and cost |
-
-### Lazy API Key Loading
-
-Keys are **never resolved at import time** — they are fetched on first use via
-a three-tier chain: **Colab userdata → environment variable → interactive
-prompt**. This makes the module safe to import in scripts and CI without
-blocking.
-
-```python
-# Keys resolved lazily when the first query fires — no blocking on import
-from ai_tools.tools import LLMQuery
-llm = LLMQuery(model="gemini/gemini-flash-latest")
-```
-
----
-
-## Pipeline Syntax
-
-Chain queries together with Python's `|` operator:
-
-```python
-q1 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Translate to German")
-q2 = LLMQuery(model="openai/gpt-4o-mini", system_prompt="Make it UPPERCASE")
-
-# Build a reusable pipeline
-pipeline = q1 | q2
-
-# Execute with any string
-result = "Hello, how are you?" | pipeline
-# result: "HALLO, WIE GEHT ES DIR?"
-
-# Override kwargs inline
-result = "Hello" | q1(model="gemini/gemini-flash-latest")
-```
-
----
-
-## Multi-Modal
-
-`LLMQuery` inherits `MultiModalMixin` — all multi-modal methods are available
-directly on the same object:
-
-```python
-llm = LLMQuery(model="openai/gpt-4o-mini")
-
-# Image generation (returns PIL Image)
-img = llm.generate_image("A futuristic city at night", size="1024x1024")
-img.save("city.png")
-
-# Text-to-speech (returns raw audio bytes)
-audio = llm.generate_tts("Hello, world!", voice="onyx")
-
-# Audio transcription (accepts path, bytes, or file object)
-text = llm.transcribe_audio("recording.wav")
-
-# Embeddings (one vector per input string)
-vectors = llm.generate_embedding(["Hello", "World"])
-```
-
----
-
-## Structured Output (Pydantic)
-
-```python
-from pydantic import BaseModel
-
-class Summary(BaseModel):
-    title: str
-    key_points: list[str]
-
-llm = LLMQuery(model="openai/gpt-4o-mini", response_format=Summary)
-reply = llm.query("Summarise the French Revolution in 3 points.")
-# reply is a valid JSON string matching the Summary schema
-```
-
----
-
-## Tool Definition
-
-`tool_definition.py` provides ergonomic helpers to define and register LLM tools.
-
-### `@tool` decorator
-
-Infers the OpenAI-compatible schema from type hints and docstrings.  Attaches
-`.__tool_schema__` and `.__pydantic_model__` to the decorated function:
-
-```python
-from ai_tools import tool, collect_tools
-from pydantic import BaseModel, Field
-
-# Pure-function inference — schema derived from type hints + docstring
-@tool(description="Returns the current weather for a city.")
-def get_weather(city: str, units: str = "metric") -> str:
-    """Fetch weather data."""
-    return f"22°C, {units}"
-
-# Pydantic-backed — full validation at dispatch time
-class WeatherArgs(BaseModel):
-    city: str = Field(description="City name.")
-    units: str = Field(default="metric")
-
-@tool(schema=WeatherArgs)
-def get_weather_validated(args: WeatherArgs) -> str:
-    return f"{args.city}: 22°C"
-```
-
-### `collect_tools(*fns)`
-
-Builds the `(tool_schemas, functions)` pair expected by `LLMQuery`:
-
-```python
-TOOLS, FUNCTIONS = collect_tools(get_weather, get_weather_validated)
-llm = LLMQuery(model="openai/gpt-4o-mini", tools=TOOLS, functions=FUNCTIONS)
-```
-
-### Automatic Pydantic validation
-
-When `handle_tool_call` dispatches a `@tool(schema=Model)` function, it
-automatically validates the LLM's arguments and passes a **typed model instance**
-to the function instead of raw `**kwargs`.
-
-Validation errors are returned to the LLM as a descriptive string — no crash,
-no exception propagation.
-
-### `LLMAgent.as_tool()`
-
-Wrap an `LLMAgent` instance as a callable tool for an orchestrating agent. This dynamically delegates requests directly into the subclass's native `.run()` method string processing.
-
-```python
-from ai_tools.agent import LLMAgent
-
-my_agent = LLMAgent(name="MyAgent", model_name="openai/gpt-4o-mini")
-my_agent.TOOL_NAME = "run_custom_agent"
-my_agent.TOOL_DESCRIPTION = "Semantic search customizer."
-
-orchestrator = LLMQuery(model="openai/gpt-4o-mini", tools=[my_agent.as_tool()])
-```
-
----
-
-## Adding a New Model or Provider
-
-1. Add model names to the appropriate `Literal` in `config.py`.
-2. Add them to `MODEL_DICT` (or create a new provider entry).
-3. Handle the new provider in `LLMQuery._get_client_for_model()`.
+## Technical Performance
+
+- **Thread-Safety**: `UsageTracker` uses mutex locks to safely aggregate tokens and cost during parallel tool execution.
+- **Lazy Initialization**: API client factory instantiation and API key resolution are deferred until the first actual call.
+- **Smart Retries**: Uses `tenacity` for exponential backoff and jitter on API failures.
+- **Memory Efficiency**: Checkpoints are stored as delta-capable states in pluggable backends.

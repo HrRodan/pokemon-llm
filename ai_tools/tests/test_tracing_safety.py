@@ -1,7 +1,7 @@
 import os
 import unittest
 from unittest.mock import patch, MagicMock
-from ai_tools.tools import LLMQuery
+from ai_tools.agent import Agent
 import ai_tools.tracing
 
 class TestTracingSafety(unittest.TestCase):
@@ -11,9 +11,10 @@ class TestTracingSafety(unittest.TestCase):
         ai_tools.tracing._tracing_enabled = False
         ai_tools.tracing._langfuse_client = None
 
-    @patch("ai_tools.tools.get_openai_class")
+    @patch("ai_tools.client.get_openai_class")
     @patch("ai_tools.config.get_api_key", return_value="sk-test")
-    def test_no_illegal_kwargs_passed_to_openai(self, mock_get_api_key, mock_get_cls):
+    @patch("ai_tools.tracing.is_tracing_enabled", return_value=True)
+    def test_no_illegal_kwargs_passed_to_openai(self, mock_tracing_enabled, mock_get_api_key, mock_get_cls):
         """
         Verify that session_id and user_id are NOT passed as keyword arguments to create(),
         which would cause a TypeError in strictly-typed OpenAI SDK versions.
@@ -30,13 +31,12 @@ class TestTracingSafety(unittest.TestCase):
         }
         
         with patch.dict(os.environ, env):
-            # 3. Initialize LLMQuery with a mocked memory object
-            # In the previous buggy version, this session_id would leak to create()
+            # 3. Initialize Agent with a mocked memory object
             mock_memory = MagicMock()
             mock_memory.root_thread_id = "test-session-123"
             
-            llm = LLMQuery(model="openai/gpt-4o-mini", memory=mock_memory)
-            llm.user_id = "test-user-456"
+            agent = Agent(model="openai/gpt-4o-mini", memory=mock_memory)
+            agent.user_id = "test-user-456"
             
             # Mock the response
             mock_client_instance = MockInstrumentedOpenAI.return_value
@@ -47,7 +47,7 @@ class TestTracingSafety(unittest.TestCase):
             mock_client_instance.chat.completions.create.return_value = mock_response
             
             # 4. Trigger query
-            llm.query("Hello")
+            agent.query("Hello", metadata={"foo": "bar"})
             
             # 5. Verify intercepted arguments
             args, kwargs = mock_client_instance.chat.completions.create.call_args

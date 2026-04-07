@@ -1,64 +1,72 @@
 import pytest
-from unittest.mock import patch
-from ai_tools.agent import LLMAgent, AgentConfig
-from ai_tools.tools import LLMQuery
+from unittest.mock import patch, MagicMock
+from ai_tools.agent import Agent
 
 
-class DummyAgent(LLMAgent):
+class DummyAgent(Agent):
     TOOL_NAME = "dummy_agent"
     TOOL_DESCRIPTION = "A dummy agent for testing."
 
 
-def test_llm_agent_initialization():
+def test_agent_initialization():
     agent = DummyAgent(
-        config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini", history_limit=10)
+        name="TestAgent", model="openai/gpt-4o-mini", history_limit=10
     )
     assert agent.name == "TestAgent"
-    assert agent.model_name == "openai/gpt-4o-mini"
-    assert isinstance(agent.llm, LLMQuery)
-    assert agent.llm.history_limit == 10
+    assert agent.model == "openai/gpt-4o-mini"
+    assert agent.history_limit == 10
 
 
-@patch.object(LLMQuery, "query")
-@patch.object(LLMQuery, "get_tool_responses")
-def test_llm_agent_run_without_tools(mock_get_tools, mock_query):
-    mock_query.return_value = "Mocked LLM Response"
-    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini"))
+@patch.object(Agent, "_create_chat_completion")
+def test_agent_run_without_tools(mock_create):
+    # Setup mock response
+    mock_response = MagicMock()
+    mock_response.choices = [MagicMock()]
+    mock_response.choices[0].message.content = "Mocked LLM Response"
+    mock_response.choices[0].message.tool_calls = None
+    mock_create.return_value = mock_response
 
-    # Simulate LLMQuery state
-    agent.llm.tool_calls = []
-    agent.llm.total_prompt_tokens = 10
-    agent.llm.total_completion_tokens = 20
-    agent.llm.total_tokens = 30
-    agent.llm.total_cost = 0.001
+    agent = DummyAgent(name="TestAgent", model="openai/gpt-4o-mini")
 
     response = agent.run("Hello", use_history=True)
 
     assert response == "Mocked LLM Response"
-    mock_query.assert_called_once_with(user_prompt="Hello", use_history=True)
-    mock_get_tools.assert_not_called()
+    # Verify _create_chat_completion was called (which query() uses)
+    mock_create.assert_called_once()
+    assert agent.response == "Mocked LLM Response"
 
 
-@patch.object(LLMQuery, "query")
-@patch.object(LLMQuery, "get_tool_responses")
-def test_llm_agent_run_with_tools(mock_get_tools, mock_query):
-    mock_query.return_value = "Initial Response"
-    mock_get_tools.return_value = "Final Tool Response"
+@patch.object(Agent, "_create_chat_completion")
+def test_agent_run_with_tools(mock_create):
+    # Turn 1: returns tool call
+    mock_resp_1 = MagicMock()
+    tc = {"id": "call_1", "function": {"name": "test_tool", "arguments": "{}"}}
+    mock_resp_1.choices = [MagicMock()]
+    mock_resp_1.choices[0].message.content = "Tool call turn"
+    mock_resp_1.choices[0].message.tool_calls = [tc]
+    
+    # Turn 2: returns final response
+    mock_resp_2 = MagicMock()
+    mock_resp_2.choices = [MagicMock()]
+    mock_resp_2.choices[0].message.content = "Final Tool Response"
+    mock_resp_2.choices[0].message.tool_calls = None
+    
+    mock_create.side_effect = [mock_resp_1, mock_resp_2]
 
-    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini"))
+    # Dummy tool implementation
+    def test_tool(kwargs):
+        return "Tool Output"
 
-    # Force tool calls
-    agent.llm.tool_calls = [{"id": "call_1", "function": {"name": "test"}}]
+    agent = DummyAgent(name="TestAgent", model="openai/gpt-4o-mini", functions=[test_tool])
 
     response = agent.run("Do a tool call", use_history=False)
 
     assert response == "Final Tool Response"
-    mock_query.assert_called_once_with(user_prompt="Do a tool call", use_history=False)
-    mock_get_tools.assert_called_once()
+    assert mock_create.call_count == 2
 
 
-def test_llm_agent_as_tool():
-    agent = DummyAgent(config=AgentConfig(name="TestAgent", model_name="openai/gpt-4o-mini"))
+def test_agent_as_tool():
+    agent = DummyAgent(name="TestAgent", model="openai/gpt-4o-mini")
 
     tool_callable = agent.as_tool()
 
@@ -73,11 +81,11 @@ def test_llm_agent_as_tool():
     assert "query" in schema["function"]["parameters"]["properties"]
 
 
-def test_llm_agent_as_tool_raises_value_error_if_no_name():
-    class InvalidAgent(LLMAgent):
+def test_agent_as_tool_raises_value_error_if_no_name():
+    class InvalidAgent(Agent):
         # Missing TOOL_NAME
         pass
 
-    agent = InvalidAgent(config=AgentConfig(name="Test", model_name="gpt-4o"))
+    agent = InvalidAgent(name="Test", model="openai/gpt-4o")
     with pytest.raises(ValueError):
         agent.as_tool()

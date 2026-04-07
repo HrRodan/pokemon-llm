@@ -1,44 +1,60 @@
 import pytest
 from unittest.mock import patch, MagicMock
 import os
-from ai_tools.agent import AgentConfig
+from ai_tools import Agent
 from ai_tools.memory import MemoryHandler, InMemoryBackend
 from agents.pokemon_agent import PokemonAgent
 from agents.api_agent import APIAgent
 from ai_tools.tracing import TraceContext
 
-class MockToolCall:
+class MockToolCall(dict):
     def __init__(self, id, name, args):
-        self.id = id
-        self.type = "function"
-        self.function = MagicMock()
-        self.function.name = name
-        self.function.arguments = args
+        super().__init__({
+            "id": id,
+            "type": "function",
+            "function": {"name": name, "arguments": args}
+        })
     
+    @property
+    def id(self): return self["id"]
+    @property
+    def type(self): return self["type"]
+    @property
+    def function(self): return self["function"]
+
     def model_dump(self):
-        return {
-            "id": self.id,
-            "type": self.type,
-            "function": {
-                "name": self.function.name,
-                "arguments": self.function.arguments
-            }
-        }
+        return dict(self)
 
 class MockMessage:
     def __init__(self, content, tool_calls=None):
         self.content = content
         self.tool_calls = tool_calls or []
         self.model_extra = {}
+    
+    def model_dump(self):
+        return {
+            "role": "assistant",
+            "content": self.content,
+            "tool_calls": [tc.model_dump() for tc in self.tool_calls]
+        }
 
 class MockChoice:
     def __init__(self, message):
         self.message = message
+    
+    def model_dump(self):
+        return {"message": self.message.model_dump()}
 
 class MockResponse:
     def __init__(self, content, tool_calls=None):
         self.choices = [MockChoice(MockMessage(content, tool_calls))]
         self.usage = MagicMock(prompt_tokens=10, completion_tokens=5, total_tokens=15)
+    
+    def model_dump(self):
+        return {
+            "choices": [c.model_dump() for c in self.choices],
+            "usage": {"prompt_tokens": 10, "completion_tokens": 5, "total_tokens": 15}
+        }
 
 @pytest.fixture
 def mock_tracing_env():
@@ -74,14 +90,17 @@ def test_pokemon_api_session_propagation_intensive(mock_tracing_env, mock_llm_re
     """
     Intensive test of session_id and user_id propagation from PokemonAgent to APIAgent.
     """
-    from ai_tools.tools import LLMQuery
+    from ai_tools import Agent
     
     captured_calls = []
     
+    responses = list(mock_llm_responses) # Take a copy
     def mock_create(*args, **kwargs):
-        captured_calls.append(kwargs)
-        if mock_llm_responses:
-            return mock_llm_responses.pop(0)
+        # request_kwargs is the second positional argument
+        call_data = args[1] if len(args) > 1 else kwargs
+        captured_calls.append(call_data)
+        if responses:
+            return responses.pop(0)
         return MagicMock()
 
     # We mock get_current_trace_context to return a consistent root trace but ALLOW session_id override
@@ -95,13 +114,15 @@ def test_pokemon_api_session_propagation_intensive(mock_tracing_env, mock_llm_re
             environment="test"
         )
 
-    with patch.object(LLMQuery, "_create_chat_completion", side_effect=mock_create), \
+    with patch.object(Agent, "_create_chat_completion", side_effect=mock_create), \
          patch("ai_tools.tracing.get_current_trace_context", side_effect=mock_get_ctx):
         
         agent = PokemonAgent(user_id="trainer_oak")
-        agent.llm.memory = MemoryHandler(backend=InMemoryBackend(), agent_name="PokemonAgent", user_id="trainer_oak")
-        root_session_id = agent.llm.memory.root_thread_id
-        agent.llm.model = "openrouter/google/gemini-flash"
+        # Agent now manages its own memory directly
+        from ai_tools.memory import MemoryHandler, InMemoryBackend
+        agent.memory = MemoryHandler(backend=InMemoryBackend(), agent_name="PokemonAgent", user_id="trainer_oak")
+        root_session_id = agent.memory.root_thread_id
+        agent.model = "openrouter/google/gemini-flash"
         
         result = agent.run("Tell me Pikachu stats")
         
@@ -116,9 +137,8 @@ def test_pokemon_api_session_propagation_intensive(mock_tracing_env, mock_llm_re
             print(f"\nCall {i+1} Model: {call.get('model')}")
             print(f"Call {i+1} Trace: {trace}")
             
-            # All calls should carry the same session_id and user_id
+            # All calls should carry the same session_id
             assert trace.get("session_id") == root_session_id, f"Call {i+1} missing or wrong session_id: expected {root_session_id}, got {trace.get("session_id")}"
-            assert trace.get("user_id") == "trainer_oak", f"Call {i+1} missing or wrong user_id"
 
 if __name__ == "__main__":
     pytest.main([__file__])

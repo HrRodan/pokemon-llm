@@ -32,6 +32,7 @@ from tools.web_content import (
     extract_structured_data,
     summarize_page,
 )
+from ai_tools.agent import Agent
 
 
 # ---------------------------------------------------------------------------

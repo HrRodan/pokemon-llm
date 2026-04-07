@@ -15,8 +15,8 @@ def test_pokemon_agent_instantiation():
         print(f"Model: {agent.model}")
 
         # Check tools
-        print(f"Number of tools: {len(agent.llm.tools)}")
-        tool_names = [t["function"]["name"] for t in agent.llm.tools]
+        print(f"Number of tools: {len(agent.tools)}")
+        tool_names = [t["function"]["name"] for t in agent.tools]
         print(f"Tools available: {tool_names}")
 
         assert "run_tech_data_agent" in tool_names

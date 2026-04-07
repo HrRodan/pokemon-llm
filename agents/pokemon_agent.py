@@ -1,15 +1,14 @@
 from typing import List, Dict, Any, Optional
 import os
 
-from ai_tools.agent import AgentConfig
+from ai_tools.agent import Agent
 from ai_tools.memory import MemoryHandler, SQLiteBackend
-from ai_tools.tools import ModelName
-from agents.base_agent import BaseAgent
 from agents.api_agent import APIAgent
 from agents.rag_agent import RAGAgent
 from agents.tech_data_agent import TechDataAgent
 from agents.web_search_agent import WebSearchAgent
 from utils.config import settings, PROJECT_ROOT
+from utils.logger import setup_logger
 
 SYSTEM_PROMPT_POKEMON_AGENT = """
 ## 1. Role and Personality
@@ -81,23 +80,18 @@ Do not directly suggest or anticipate a answer in your query to the agents. Inst
 **Begin the interaction now."""
 
 
-class PokemonAgent(BaseAgent):
+class PokemonAgent(Agent):
     """
     Main orchestrator agent (Professor Oak) that interacts with the user
     and coordinates between specialised sub-agents via tool calls.
-
-    Each sub-agent is a lazy singleton held on the instance.  Tool schemas
-    and callable wrappers are derived via :meth:`BaseAgent.as_tool` and
-    passed directly to the ``LLMQuery`` constructor — no separate schema
-    dicts or function lists required.
     """
 
     def __init__(self, model_name: Optional[str] = None, user_id: Optional[str] = None) -> None:
         # Instantiate sub-agents — stateful singletons within this instance.
-        self._tech = TechDataAgent()
-        self._rag = RAGAgent()
-        self._api = APIAgent()
-        self._web = WebSearchAgent()
+        self._tech = TechDataAgent(user_id=user_id)
+        self._rag = RAGAgent(user_id=user_id)
+        self._api = APIAgent(user_id=user_id)
+        self._web = WebSearchAgent(user_id=user_id)
 
         memory_dir = os.path.join(PROJECT_ROOT, "data", "memory")
         os.makedirs(memory_dir, exist_ok=True)
@@ -109,72 +103,20 @@ class PokemonAgent(BaseAgent):
         )
 
         super().__init__(
-            config=AgentConfig(
-                name="PokemonAgent",
-                model_name=model_name or settings.DEFAULT_MODEL,
-                system_prompt=SYSTEM_PROMPT_POKEMON_AGENT,
-                # Each as_tool() returns a callable with .__tool_schema__ —
-                # LLMQuery._resolve_tools() extracts the schema automatically.
-                tools=[
-                    self._tech.as_tool(),
-                    self._rag.as_tool(),
-                    self._api.as_tool(),
-                    self._web.as_tool(),
-                ],
-                history_limit=50,
-                memory=memory_handler,
-                user_id=user_id,
-            )
+            name="PokemonAgent",
+            model=model_name or settings.DEFAULT_MODEL,
+            system_prompt=SYSTEM_PROMPT_POKEMON_AGENT,
+            tools=[
+                self._tech.as_tool(),
+                self._rag.as_tool(),
+                self._api.as_tool(),
+                self._web.as_tool(),
+            ],
+            history_limit=50,
+            memory=memory_handler,
+            user_id=user_id,
+            logger=setup_logger("PokemonAgent"),
         )
-
-    def query(self, user_prompt: str, **kwargs) -> str:
-        """
-        Delegate query to LLM.
-
-        Args:
-            user_prompt: The user's input text.
-            **kwargs: Additional keyword arguments forwarded to ``LLMQuery.query``.
-
-        Returns:
-            The raw LLM response text.
-        """
-        return self.llm.query(user_prompt=user_prompt, **kwargs)
-
-    def get_tool_responses(self, **kwargs) -> str:
-        """
-        Delegate tool execution loop to LLM.
-
-        Args:
-            **kwargs: Additional keyword arguments forwarded to ``LLMQuery.get_tool_responses``.
-
-        Returns:
-            The final assistant response after tool execution.
-        """
-        return self.llm.get_tool_responses(**kwargs)
-
-    @property
-    def chat_history(self) -> List[Dict[str, Any]]:
-        """Full chat history including tool messages."""
-        return self.llm.chat_history
-
-    @property
-    def clean_chat_history(self) -> List[Dict[str, str]]:
-        """Chat history filtered to user/assistant messages only."""
-        return self.llm.clean_chat_history
-
-    @property
-    def reasoning_history(self) -> List[Any]:
-        """List of reasoning traces from each LLM turn."""
-        return self.llm.reasoning_history
-
-    @property
-    def model(self) -> str:
-        """The currently configured LLM model name."""
-        return self.llm.model
-
-    @model.setter
-    def model(self, value: "ModelName") -> None:
-        self.llm.model = value
 
     def get_ui_state(self) -> Dict[str, Any]:
         """
@@ -184,14 +126,14 @@ class PokemonAgent(BaseAgent):
             A dict containing chat history, tool calls, and reasoning.
         """
         return {
-            "chat_history": self.llm.chat_history,
-            "tool_calls": self.llm.tool_calls,
-            "reasoning_history": self.llm.reasoning_history,
+            "chat_history": self.chat_history,
+            "tool_calls": self.tool_calls,
+            "reasoning_history": self.reasoning_history,
             "tokens": {
-                "prompt": self.llm.total_prompt_tokens,
-                "completion": self.llm.total_completion_tokens,
-                "total": self.llm.total_tokens,
-                "reasoning": self.llm.total_reasoning_tokens,
+                "prompt": self.usage.total_prompt_tokens,
+                "completion": self.usage.total_completion_tokens,
+                "total": self.usage.total_tokens,
+                "reasoning": self.usage.total_reasoning_tokens,
             },
-            "cost": self.llm.total_cost,
+            "cost": self.usage.total_cost,
         }

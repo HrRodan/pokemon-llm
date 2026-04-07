@@ -1,7 +1,7 @@
 ---
 title: "Bulbasaur - Wikipedia"
 url: "https://en.wikipedia.org/wiki/Bulbasaur"
-timestamp: "2026-04-06T23:30:29.609934+02:00"
+timestamp: "2026-04-07T17:17:11.531638+02:00"
 ---
 
 From Wikipedia, the free encyclopedia

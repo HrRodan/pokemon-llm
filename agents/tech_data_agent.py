@@ -1,8 +1,9 @@
-from ai_tools.agent import AgentConfig
-from agents.base_agent import BaseAgent
+from typing import List, Dict, Any, Optional
+from ai_tools.agent import Agent
 from tools.tech_data_tools import TOOL_FUNCTIONS as TECH_DATA_FUNCTIONS
 from tools.fuzzy_search import TOOL_FUNCTIONS as FUZZY_FUNCTIONS
 from utils.config import settings
+from utils.logger import setup_logger
 
 SYSTEM_PROMPT = """You are the Tech Data Agent.
 Your goal is to answer technical questions about Pokemon, Moves, and Items by querying the technical database. You **must not** answer questions that require external knowledge, return an error message instead.
@@ -121,7 +122,7 @@ Output the final result in markdown structure. Add a concise summary on how this
 """
 
 
-class TechDataAgent(BaseAgent):
+class TechDataAgent(Agent):
     """
     Agent responsible for querying the technical SQL database.
     """
@@ -133,13 +134,13 @@ class TechDataAgent(BaseAgent):
         "'moves with power > 100', 'average price of items', etc."
     )
 
-    def __init__(self) -> None:
+    def __init__(self, model_name: Optional[str] = None, user_id: Optional[str] = None) -> None:
         super().__init__(
-            config=AgentConfig(
-                name="TechDataAgent",
-                model_name=settings.SUB_AGENT_MODEL,
-                system_prompt=SYSTEM_PROMPT,
-                tools=TECH_DATA_FUNCTIONS + FUZZY_FUNCTIONS,
-                history_limit=80,
-            )
+            name="TechDataAgent",
+            model=model_name or settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT,
+            tools=TECH_DATA_FUNCTIONS + FUZZY_FUNCTIONS,
+            history_limit=80,
+            logger=setup_logger("TechDataAgent"),
+            user_id=user_id,
         )

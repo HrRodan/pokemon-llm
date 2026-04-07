@@ -1,7 +1,7 @@
 ---
 title: "Bulbasaur (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)"
-timestamp: "2026-04-06T23:30:25.350555+02:00"
+timestamp: "2026-04-07T17:17:07.165705+02:00"
 ---
 
 # Bulbasaur (Pokémon)

@@ -1,9 +1,8 @@
 from typing import Optional
 from pydantic import BaseModel, Field
 
-from ai_tools.agent import AgentConfig
+from ai_tools.agent import Agent
 from ai_tools.tool_definition import tool
-from agents.base_agent import BaseAgent
 from tools.web_search_brave_llm_context import (
     brave_llm_context_search,
     BraveLLMContextInput,
@@ -21,6 +20,7 @@ from tools.web_vector_db import (
     QueryWebContentArgs,
 )
 from utils.config import settings
+from utils.logger import setup_logger
 
 
 class BulbapediaSearchInput(BaseModel):
@@ -180,7 +180,7 @@ you need, and avoiding unnecessary ingestion.
 """
 
 
-class WebSearchAgent(BaseAgent):
+class WebSearchAgent(Agent):
     """
     Agent responsible for fetching and querying real-time web data from Bulbapedia.
     """
@@ -192,19 +192,19 @@ class WebSearchAgent(BaseAgent):
         "game walkthrough details, newest generation info, or as the ultimate fallback when Tech, API, or RAG agents fail."
     )
 
-    def __init__(self, model_name: Optional[str] = None) -> None:
+    def __init__(self, model_name: Optional[str] = None, user_id: Optional[str] = None) -> None:
         super().__init__(
-            config=AgentConfig(
-                name="WebSearchAgent",
-                model_name=model_name or settings.SUB_AGENT_MODEL,
-                system_prompt=SYSTEM_PROMPT_WEB_SEARCH_AGENT,
-                tools=[
-                    bulbapedia_search,
-                    bulbapedia_page_links,
-                    bulbapedia_structured_data,
-                    bulbapedia_ingest_page,
-                    bulbapedia_query_content,
-                ],
-                history_limit=120,
-            )
+            name="WebSearchAgent",
+            model=model_name or settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT_WEB_SEARCH_AGENT,
+            tools=[
+                bulbapedia_search,
+                bulbapedia_page_links,
+                bulbapedia_structured_data,
+                bulbapedia_ingest_page,
+                bulbapedia_query_content,
+            ],
+            history_limit=120,
+            logger=setup_logger("WebSearchAgent"),
+            user_id=user_id,
         )

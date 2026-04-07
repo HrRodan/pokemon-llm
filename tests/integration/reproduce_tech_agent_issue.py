@@ -31,7 +31,7 @@ def reproduce_issue():
     print(f"\nInitial Response: {response}")
 
     # Execute tools
-    if agent.llm.tool_calls:
+    if agent.tool_calls:
         print("Tools triggered. Executing...")
         final_response = agent.get_tool_responses()
         print(f"\nFinal Response: {final_response}")

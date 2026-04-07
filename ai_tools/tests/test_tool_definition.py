@@ -9,16 +9,16 @@ Covers:
   - handle_tool_call — Pydantic dispatch (receives model instance)
   - handle_tool_call — validation error returns safe error string
   - handle_tool_call_async — same Pydantic path, async
-  - LLMQuery._resolve_tools — all three tool registration styles:
+  - Agent._resolve_tools — all three tool registration styles:
       Style 1: @tool-decorated callable → schema extracted, fn auto-registered
       Style 2: raw dict + explicit functions list
       Style 3: mixed list, explicit functions take precedence
-  - LLMQuery.as_tool() — schema + callable returned correctly
+  - Agent.as_tool() — schema + callable returned correctly
 """
 
 import asyncio
 import json
-from typing import Optional
+from typing import Optional, Callable
 from pydantic import BaseModel, Field
 
 from ai_tools.tool_definition import (
@@ -27,7 +27,7 @@ from ai_tools.tool_definition import (
     pydantic_to_tool_schema,
 )
 from ai_tools.utils import handle_tool_call, handle_tool_call_async
-from ai_tools.tools import LLMQuery
+from ai_tools.agent import Agent
 
 
 # ---------------------------------------------------------------------------
@@ -191,7 +191,7 @@ class TestToolDecorator:
             """Compute scaled value."""
             ...
 
-        _schema = my_schema = compute.__tool_schema__["function"]
+        my_schema = compute.__tool_schema__["function"]
         assert my_schema["parameters"]["properties"]["value"]["type"] == "number"
         assert my_schema["parameters"]["properties"]["scale"]["type"] == "integer"
         assert my_schema["description"] == "Compute scaled value."
@@ -237,14 +237,13 @@ class TestToolDecorator:
 
 
 # ---------------------------------------------------------------------------
-# LLMQuery._resolve_tools — three registration styles
+# Agent._resolve_tools — three registration styles
 # ---------------------------------------------------------------------------
 
 
-class TestLLMQueryResolveTools:
+class TestAgentResolveTools:
     """
-    Tests for LLMQuery._resolve_tools(), which powers the three tool styles.
-    Uses the static method directly to avoid needing a real LLM client.
+    Tests for Agent._resolve_tools(), which powers the three tool styles.
     """
 
     def test_style1_decorated_callable_extracts_schema(self):
@@ -254,15 +253,15 @@ class TestLLMQueryResolveTools:
         def add(a: int, b: int) -> int:
             return a + b
 
-        schemas, fns = LLMQuery._resolve_tools(tools=[add])
+        agent = Agent(tools=[add])
 
-        assert len(schemas) == 1
-        assert schemas[0]["function"]["name"] == "add"
+        assert len(agent.tools) == 1
+        assert agent.tools[0]["function"]["name"] == "add"
         assert (
-            schemas[0]["function"]["parameters"]["properties"]["a"]["type"] == "integer"
+            agent.tools[0]["function"]["parameters"]["properties"]["a"]["type"] == "integer"
         )
-        assert len(fns) == 1
-        assert fns[0] is add
+        assert len(agent.functions) == 1
+        assert agent.functions[0] is add
 
     def test_style1_no_functions_arg_needed(self):
         """Style 1: functions arg is None — fns come entirely from @tool callables."""
@@ -272,11 +271,11 @@ class TestLLMQueryResolveTools:
             """Greets a person."""
             return f"Hello {name}"
 
-        schemas, fns = LLMQuery._resolve_tools(tools=[greet], functions=None)
+        agent = Agent(tools=[greet])
 
-        assert len(schemas) == 1
-        assert len(fns) == 1
-        assert fns[0].__name__ == "greet"
+        assert len(agent.tools) == 1
+        assert len(agent.functions) == 1
+        assert agent.functions[0].__name__ == "greet"
 
     def test_style1_schema_properties_match_type_hints(self):
         """Style 1 schema inference correctly maps Python types to JSON Schema types."""
@@ -286,8 +285,8 @@ class TestLLMQueryResolveTools:
             """Measures something."""
             ...
 
-        schemas, _ = LLMQuery._resolve_tools(tools=[measure])
-        props = schemas[0]["function"]["parameters"]["properties"]
+        agent = Agent(tools=[measure])
+        props = agent.tools[0]["function"]["parameters"]["properties"]
         assert props["label"]["type"] == "string"
         assert props["value"]["type"] == "number"
         assert props["count"]["type"] == "integer"
@@ -312,19 +311,26 @@ class TestLLMQueryResolveTools:
             },
         }
 
-        schemas, fns = LLMQuery._resolve_tools(tools=[schema], functions=[get_weather])
+        agent = Agent(tools=[schema], functions=[get_weather])
 
-        assert len(schemas) == 1
-        assert schemas[0] is schema
-        assert len(fns) == 1
-        assert fns[0] is get_weather
+        assert len(agent.tools) == 1
+        assert agent.tools[0] is schema
+        assert len(agent.functions) == 1
+        assert agent.functions[0] is get_weather
 
     def test_style2_dict_passed_through_unchanged(self):
         """Raw schema dicts are stored verbatim — no mutation."""
 
-        raw = {"type": "function", "function": {"name": "x", "parameters": {}}}
-        schemas, _ = LLMQuery._resolve_tools(tools=[raw])
-        assert schemas[0] is raw
+        raw = {
+            "type": "function", 
+            "function": {
+                "name": "x", 
+                "description": "desc",
+                "parameters": {"type": "object", "properties": {}, "required": []}
+            }
+        }
+        agent = Agent(tools=[raw])
+        assert agent.tools[0] is raw
 
     def test_style3_mixed_list_decorated_and_raw(self):
         """Style 3: mix of @tool callable and raw dict in one tools list."""
@@ -344,15 +350,15 @@ class TestLLMQueryResolveTools:
             },
         }
 
-        schemas, fns = LLMQuery._resolve_tools(
+        agent = Agent(
             tools=[tool_a, raw_schema],
             functions=[tool_b_impl],
         )
 
-        assert len(schemas) == 2
-        assert schemas[0]["function"]["name"] == "tool_a"
-        assert schemas[1] is raw_schema
-        fn_names = [f.__name__ for f in fns]
+        assert len(agent.tools) == 2
+        assert agent.tools[0]["function"]["name"] == "tool_a"
+        assert agent.tools[1] is raw_schema
+        fn_names = [f.__name__ for f in agent.functions]
         assert "tool_a" in fn_names
         assert "tool_b_impl" in fn_names
 
@@ -368,37 +374,19 @@ class TestLLMQueryResolveTools:
 
         my_fn_override.__name__ = "my_fn"
 
-        _, fns = LLMQuery._resolve_tools(
+        agent = Agent(
             tools=[my_fn],
             functions=[my_fn_override],
         )
 
         # my_fn_override is in explicit functions, so it is kept; my_fn is deduplicated
-        fn_by_name = {f.__name__: f for f in fns}
+        fn_by_name = {f.__name__: f for f in agent.functions}
         assert fn_by_name["my_fn"] is my_fn_override
 
     def test_empty_tools_returns_empty_lists(self):
-        schemas, fns = LLMQuery._resolve_tools()
-        assert schemas == []
-        assert fns == []
-
-    def test_llmquery_init_uses_resolve_tools(self):
-        """LLMQuery.__init__ calls _resolve_tools: passing @tool fn registers it correctly."""
-
-        @tool(description="Doubles a number.")
-        def double(x: int) -> int:
-            return x * 2
-
-        llm = LLMQuery.__new__(LLMQuery)
-        # Simulate just the tool-resolution part of __init__
-        schemas, fns = LLMQuery._resolve_tools(tools=[double])
-        llm.tools = schemas
-        llm.functions = fns
-
-        assert len(llm.tools) == 1
-        assert llm.tools[0]["function"]["name"] == "double"
-        assert len(llm.functions) == 1
-        assert llm.functions[0] is double
+        agent = Agent()
+        assert agent.tools == []
+        assert agent.functions == []
 
 
 # ---------------------------------------------------------------------------
@@ -493,29 +481,25 @@ class TestHandleToolCallAsyncPydantic:
 
 
 # ---------------------------------------------------------------------------
-# LLMQuery.as_tool
+# Agent.as_tool
 # ---------------------------------------------------------------------------
 
 
-class TestLLMQueryAsTool:
-    def test_returns_schema_and_callable(self):
-        llm = LLMQuery.__new__(LLMQuery)
-        llm.model = "openai/gpt-4o-mini"
-        llm.system_prompt = "test"
+class TestAgentAsTool:
+    def test_returns_callable_with_schema(self):
+        class MyAgent(Agent):
+            TOOL_NAME = "my_tool"
+            TOOL_DESCRIPTION = "Does something."
 
-        schema, fn = llm.as_tool(
-            name="my_tool", description="Does something.", input_arg="query"
-        )
+        agent = MyAgent(model="openai/gpt-4o-mini", system_prompt="test")
 
+        fn = agent.as_tool()
+
+        assert callable(fn)
+        assert fn.__name__ == "my_tool"
+        assert hasattr(fn, "__tool_schema__")
+        schema = fn.__tool_schema__
         assert schema["type"] == "function"
         assert schema["function"]["name"] == "my_tool"
         assert schema["function"]["parameters"]["required"] == ["query"]
-        assert callable(fn)
-        assert fn.__name__ == "my_tool"
         assert fn.__pydantic_model__ is None
-
-    def test_schema_uses_custom_input_arg(self):
-        llm = LLMQuery.__new__(LLMQuery)
-        schema, _ = llm.as_tool(name="tool", description="desc.", input_arg="message")
-        assert "message" in schema["function"]["parameters"]["properties"]
-        assert schema["function"]["parameters"]["required"] == ["message"]

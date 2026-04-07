@@ -58,8 +58,8 @@ with st.sidebar:
     st.markdown("### 💾 Conversation Memory")
     
     agent = st.session_state.agent
-    if agent and getattr(agent.llm, "memory", None):
-        current_thread_id = agent.llm.memory.thread_id
+    if agent and getattr(agent, "memory", None):
+        current_thread_id = agent.memory.thread_id
         st.caption(f"Current Thread: `{current_thread_id}`")
         
         threads = get_threads(agent)

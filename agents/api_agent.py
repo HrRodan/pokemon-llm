@@ -1,9 +1,9 @@
 from typing import Optional
-from ai_tools.agent import AgentConfig
-from agents.base_agent import BaseAgent
+from ai_tools.agent import Agent
 from tools.api_client import TOOL_FUNCTIONS
 from tools.fuzzy_search import TOOL_FUNCTIONS as FUZZY_FUNCTIONS
 from utils.config import settings
+from utils.logger import setup_logger
 
 SYSTEM_PROMPT_API_AGENT = """You are the **Pokemon API Agent**.
 Your role is to strictly fetch precise, raw data from the PokéAPI using the provided tools and summarize the tool responses in a human readable format.
@@ -30,7 +30,7 @@ You do NOT answer general questions or provide qualitative descriptions unless t
 """
 
 
-class APIAgent(BaseAgent):
+class APIAgent(Agent):
     """
     Agent responsible for interacting with the PokéAPI.
     """
@@ -44,26 +44,13 @@ class APIAgent(BaseAgent):
         "lore/qualitative questions (use run_rag_agent)."
     )
 
-    def __init__(self, model_name: Optional[str] = None) -> None:
+    def __init__(self, model_name: Optional[str] = None, user_id: Optional[str] = None) -> None:
         super().__init__(
-            config=AgentConfig(
-                name="APIAgent",
-                model_name=model_name or settings.SUB_AGENT_MODEL,
-                system_prompt=SYSTEM_PROMPT_API_AGENT,
-                tools=TOOL_FUNCTIONS + FUZZY_FUNCTIONS,
-                history_limit=40,
-            )
+            name="APIAgent",
+            model=model_name or settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT_API_AGENT,
+            tools=TOOL_FUNCTIONS + FUZZY_FUNCTIONS,
+            history_limit=40,
+            logger=setup_logger("APIAgent"),
+            user_id=user_id,
         )
-
-    def run(self, message: str, use_history: bool = False) -> str:
-        """
-        Respond to user message by querying the PokéAPI tools.
-
-        Args:
-            message: The user's input message.
-            use_history: Optional flag, defaults to False for API lookup.
-
-        Returns:
-            The response text from the API lookup.
-        """
-        return super().run(message, use_history=use_history)

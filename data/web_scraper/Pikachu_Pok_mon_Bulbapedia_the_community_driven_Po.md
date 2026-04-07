@@ -1,7 +1,7 @@
 ---
 title: "Pikachu (Pokémon) - Bulbapedia, the community-driven Pokémon encyclopedia"
 url: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
-timestamp: "2026-04-06T23:30:21.554397+02:00"
+timestamp: "2026-04-07T17:17:03.689052+02:00"
 ---
 
 
@@ -2761,6 +2761,8 @@ Multiple Pikachu wearing hats matching Captain Pikachu's hat appeared in a bonus
 
 ### Pokémon Mystery Dungeon Animated Shorts
 
+Pikachu and Oshawott in the Pokémon Mystery Dungeon Animated Shorts
+
 A female appeared in the Pokémon Mystery Dungeon Animated Shorts as the protagonist along with an Oshawott.
 
 ### Pokémon Origins
@@ -2775,9 +2777,9 @@ Red caught a Pikachu in *File 4: Charizard*.
 
 In *File 1: Red*, a Pikachu was one of the Pokémon seen in Professor Oak's introduction.
 
-Pikachu in Pokémon Generations
-
 ### Pokémon Generations
+
+Pikachu in Pokémon Generations
 
 #### Red's Pikachu
 
@@ -2789,9 +2791,9 @@ Pikachu in the Pokémon Masters Animated Trailer
 
 Two Pikachu appeared in the Pokémon Masters Animated Trailer, with one under the ownership of Scottie and the other under the ownership of Bettie. Scottie's Pikachu participated in a battle against Erika, a Beauty, and a Lass; while Bettie's Pikachu participated in a battle against Skyla, Flint, and Acerola.
 
-Pikachu in Pokémon: Twilight Wings
-
 ### Pokémon: Twilight Wings
+
+Pikachu in Pokémon: Twilight Wings
 
 A Pikachu appeared in *Letter*.
 
@@ -2828,13 +2830,15 @@ In *The Eclipse*, a Pikachu was briefly seen in a flashback, frozen in Lusamine'
 
 In *The Discovery*, a female partner Pikachu wearing the Sportswear appeared under the ownership of Elaine.
 
-Pikachu in *Bidoof's Big Stand*Pikachu in *A Ripple in Time*
-
 ### Bidoof's Big Stand
+
+Pikachu in *Bidoof's Big Stand*
 
 A Pikachu appeared in the intro to *Bidoof's Big Stand*
 
 ### A Ripple in Time
+
+Pikachu in *A Ripple in Time*
 
 A Pikachu based on Ash's Pikachu has a prominent role in *A Ripple in Time* along with an alternate version of Ash.
 
@@ -3072,7 +3076,7 @@ Two Pikachu figures have been released.
 
 ## Other appearances
 
-Pikachu Libre in Pokkén TournamentPikachu in Pokémon UNITE
+Pikachu in Pokkén TournamentPikachu in Pokémon UNITE
 
 ### Pokkén Tournament
 

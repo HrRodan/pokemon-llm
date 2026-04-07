@@ -1,7 +1,7 @@
 from typing import List, Dict, Optional, Literal, Any, Union
 import json
 import chromadb
-from ai_tools.tools import LLMQuery
+from ai_tools import Agent
 from ai_tools.tool_definition import tool
 from pydantic import BaseModel, Field, field_validator, model_validator
 from utils.config import settings
@@ -11,15 +11,15 @@ from utils.config import settings
 # This prevents slow/failing imports in tests or scripts that don't need the DB.
 # ---------------------------------------------------------------------------
 
-_embedding_client: "LLMQuery | None" = None
+_embedding_client: "Agent | None" = None
 _collection: "chromadb.Collection | None" = None
 
 
-def _get_embedding_client() -> "LLMQuery":
+def _get_embedding_client() -> "Agent":
     """Return (and lazily create) the shared embedding LLMQuery instance."""
     global _embedding_client
     if _embedding_client is None:
-        _embedding_client = LLMQuery(embedding_model=settings.EMBEDDING_MODEL)
+        _embedding_client = Agent(embedding_model=settings.EMBEDDING_MODEL)
     return _embedding_client
 
 

@@ -1,24 +1,22 @@
-from .tools import LLMQuery, handle_tool_call, handle_tool_call_async, ToolInput
+from .agent import Agent, ToolInput
 from .config import ModelName
-from .utils import pretty_print_json, clean_json
+from .utils import clean_json
 from .tool_definition import tool, get_tool_schema
-from .agent import LLMAgent, AgentConfig
+from .usage import UsageTracker
+from .client import get_client
 from .logger import setup_agent_logger
 from .memory import MemoryHandler, InMemoryBackend, SQLiteBackend, SubagentMemoryMode
-from .tracing import is_tracing_enabled, flush_tracing, trace_turn
+from .tracing import is_tracing_enabled, flush_tracing, trace_span
 
 __all__ = [
-    "LLMQuery",
+    "Agent",
     "ToolInput",
-    "handle_tool_call",
-    "handle_tool_call_async",
     "ModelName",
-    "pretty_print_json",
     "clean_json",
     "tool",
     "get_tool_schema",
-    "LLMAgent",
-    "AgentConfig",
+    "UsageTracker",
+    "get_client",
     "setup_agent_logger",
     "MemoryHandler",
     "InMemoryBackend",
@@ -26,4 +24,5 @@ __all__ = [
     "SubagentMemoryMode",
     "is_tracing_enabled",
     "flush_tracing",
+    "trace_span",
 ]

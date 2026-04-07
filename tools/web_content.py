@@ -801,15 +801,15 @@ def _llm_summarize(markdown: str) -> str:
     Uses LLMQuery with `settings.SUB_AGENT_MODEL`. Only the first 2000 words
     of the markdown are passed to the model to keep token usage bounded.
     """
-    from ai_tools.tools import LLMQuery
-
+    from ai_tools import Agent
+    
     word_limit = 2000
     words = markdown.split()
     truncated = " ".join(words[:word_limit])
     if len(words) > word_limit:
         truncated += "\n\n[Content truncated]"
 
-    llm = LLMQuery(
+    llm = Agent(
         model=settings.SUB_AGENT_MODEL,
         system_prompt=_SUMMARIZE_SYSTEM_PROMPT,
         use_history=False,

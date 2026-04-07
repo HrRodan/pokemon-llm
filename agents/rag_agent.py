@@ -1,8 +1,8 @@
 from typing import Optional
-from ai_tools.agent import AgentConfig
-from agents.base_agent import BaseAgent
+from ai_tools.agent import Agent
 from tools.vector_db import TOOL_FUNCTIONS as RAG_TOOL_FUNCTIONS
 from utils.config import settings
+from utils.logger import setup_logger
 
 SYSTEM_PROMPT_RAG_AGENT = """You are the **Pokemon RAG Agent**.
 Your role is to fetch qualitative and lore-based information from the Vector Database.
@@ -20,7 +20,7 @@ You excel at answering "Tell me about...", description, behavior, and biology qu
 """
 
 
-class RAGAgent(BaseAgent):
+class RAGAgent(Agent):
     """
     Agent responsible for interacting with the Vector Database (RAG).
     """
@@ -33,13 +33,13 @@ class RAGAgent(BaseAgent):
         "Do NOT use for raw stats (use run_api_agent) or aggregations (use run_tech_data_agent)."
     )
 
-    def __init__(self, model_name: Optional[str] = None) -> None:
+    def __init__(self, model_name: Optional[str] = None, user_id: Optional[str] = None) -> None:
         super().__init__(
-            config=AgentConfig(
-                name="RAGAgent",
-                model_name=model_name or settings.SUB_AGENT_MODEL,
-                system_prompt=SYSTEM_PROMPT_RAG_AGENT,
-                tools=RAG_TOOL_FUNCTIONS,
-                history_limit=20,
-            )
+            name="RAGAgent",
+            model=model_name or settings.SUB_AGENT_MODEL,
+            system_prompt=SYSTEM_PROMPT_RAG_AGENT,
+            tools=RAG_TOOL_FUNCTIONS,
+            history_limit=20,
+            logger=setup_logger("RAGAgent"),
+            user_id=user_id,
         )
