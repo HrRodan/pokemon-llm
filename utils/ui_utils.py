@@ -138,7 +138,8 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
             user_id=user_id,
             session_id=session_id,
             tags=[client_state.name, client_state.model.split("/")[0]],
-            metadata={"model": client_state.model}
+            metadata={"model": client_state.model},
+            as_type="agent"
         ) as span:
             # Query logic
             client_state.query(message)

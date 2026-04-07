@@ -38,8 +38,8 @@ def test_agent_as_tool_concurrency():
     dummy_client.chat.completions.create.side_effect = slow_create_completion
 
     with patch("ai_tools.agent.get_client", return_value=dummy_client), \
-         patch("ai_tools.agent.trace_span", return_value=MagicMock()), \
-         patch("ai_tools.agent.propagate_langfuse_attributes", return_value=MagicMock()):
+         patch("ai_tools.tracing.trace_span", return_value=MagicMock()), \
+         patch("ai_tools.tracing.propagate_langfuse_attributes", return_value=MagicMock()):
         
         tool_fn = agent.as_tool()
         

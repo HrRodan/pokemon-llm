@@ -18,7 +18,7 @@ import logging
 import uuid
 from typing import Dict, List, Any, Callable, Optional, Tuple
 from pydantic import ValidationError
-from .tracing import trace_tool_execution, update_span
+from . import tracing
 
 async def run_in_thread_with_context(func: Callable, *args, **kwargs) -> Any:
     """Run a blocking function in a separate thread while preserving contextvars."""
@@ -132,7 +132,7 @@ def handle_tool_call(
         tool_id, function_name, arguments, function_to_call, pydantic_model, error_msg = \
             _prepare_tool_dispatch(tool_call, function_map)
 
-        with trace_tool_execution(function_name, arguments) as span:
+        with tracing.trace_tool_execution(function_name, arguments) as span:
             result = None
             try:
                 if error_msg:
@@ -157,13 +157,13 @@ def handle_tool_call(
                         str_result = str_result[:500] + "... [truncated]"
                     logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
                 
-                update_span(span, output=str(result) if result else "")
+                tracing.update_span(span, output=str(result) if result else "")
 
             except Exception as e:
                 result = f"Error: {str(e)}"
                 if logger:
                     logger.warning(f"TOOL ERROR ({function_name}): {e}")
-                update_span(span, output=result, level="ERROR", status_message=str(e))
+                tracing.update_span(span, output=result, level="ERROR", status_message=str(e))
 
         tool_response.append({
             "tool_call_id": tool_id,
@@ -189,7 +189,7 @@ async def handle_tool_call_async(
         tool_id, function_name, arguments, function_to_call, pydantic_model, error_msg = \
             _prepare_tool_dispatch(tool_call, function_map)
 
-        with trace_tool_execution(function_name, arguments) as span:
+        with tracing.trace_tool_execution(function_name, arguments) as span:
             result = None
             try:
                 if error_msg:
@@ -214,13 +214,13 @@ async def handle_tool_call_async(
                         str_result = str_result[:500] + "... [truncated]"
                     logger.info(f"TOOL OUTPUT ({function_name}): {str_result}")
                 
-                update_span(span, output=str(result) if result else "")
+                tracing.update_span(span, output=str(result) if result else "")
 
             except Exception as e:
                 result = f"Error: {str(e)}"
                 if logger:
                     logger.warning(f"TOOL ERROR ({function_name}): {e}")
-                update_span(span, output=result, level="ERROR", status_message=str(e))
+                tracing.update_span(span, output=result, level="ERROR", status_message=str(e))
 
         return {
             "tool_call_id": tool_id,

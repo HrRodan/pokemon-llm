@@ -68,6 +68,7 @@ def is_tracing_enabled() -> bool:
 
 _thread_session_id = contextvars.ContextVar("thread_session_id", default=None)
 _thread_user_id = contextvars.ContextVar("thread_user_id", default=None)
+_thread_tags = contextvars.ContextVar("thread_tags", default=None)
 
 
 @contextmanager
@@ -82,6 +83,7 @@ def propagate_langfuse_attributes(
     """
     token_session = _thread_session_id.set(session_id)
     token_user = _thread_user_id.set(user_id)
+    token_tags = _thread_tags.set(tags)
 
     try:
         if is_tracing_enabled():
@@ -99,6 +101,7 @@ def propagate_langfuse_attributes(
     finally:
         _thread_session_id.reset(token_session)
         _thread_user_id.reset(token_user)
+        _thread_tags.reset(token_tags)
 
 
 def get_thread_session_id() -> Optional[str]:
@@ -109,6 +112,11 @@ def get_thread_session_id() -> Optional[str]:
 def get_thread_user_id() -> Optional[str]:
     """Return the current thread-local user ID."""
     return _thread_user_id.get()
+
+
+def get_thread_tags() -> Optional[List[str]]:
+    """Return the current thread-local tags."""
+    return _thread_tags.get()
 
 
 def get_openai_module():

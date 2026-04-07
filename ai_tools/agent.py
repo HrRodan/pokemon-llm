@@ -45,13 +45,7 @@ from .utils import (
     handle_tool_call_async,
 )
 from .multimodal import MultiModalMixin
-from .tracing import (
-    trace_span,
-    is_tracing_enabled,
-    propagate_langfuse_attributes,
-    get_thread_session_id,
-    get_thread_user_id,
-)
+from . import tracing
 
 if TYPE_CHECKING:
     from .memory import MemoryHandler
@@ -245,7 +239,7 @@ class Agent(MultiModalMixin):
             **all_kwargs,
         )
 
-        with propagate_langfuse_attributes(
+        with tracing.propagate_langfuse_attributes(
             session_id=self.session_id,
             user_id=self.user_id,
             tags=[self.name, target_model.split("/")[0]],
@@ -278,8 +272,7 @@ class Agent(MultiModalMixin):
         # Memory Checkpoint
         # Memory Checkpoint
         if self.memory and not self.tool_calls:
-            from .tracing import get_current_trace_context
-            ctx = get_current_trace_context()
+            ctx = tracing.get_current_trace_context()
             self.memory.save_checkpoint(
                 messages=self.chat_history,
                 usage=self.usage.last_usage,
@@ -292,7 +285,7 @@ class Agent(MultiModalMixin):
         """Full agentic loop: query -> tool calls -> re-query -> done."""
         self.logger.info(f"RUN starts: '{message[:50]}...'")
         
-        with trace_span(
+        with tracing.trace_span(
             name=f"Agent Run: {self.name}",
             input={"message": message},
             user_id=self.user_id,
@@ -378,10 +371,10 @@ class Agent(MultiModalMixin):
                 local_agent.session_id = scoped.root_thread_id
             else:
                 # Inherit session from tracing context if no memory
-                local_agent.session_id = get_thread_session_id() or outer_self.session_id
+                local_agent.session_id = tracing.get_thread_session_id() or outer_self.session_id
             
             # 3. Propagate context
-            local_agent.user_id = get_thread_user_id() or outer_self.user_id
+            local_agent.user_id = tracing.get_thread_user_id() or outer_self.user_id
             
             # 4. Execute
             result = local_agent.run(query)
