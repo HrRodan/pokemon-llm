@@ -68,22 +68,33 @@ class UsageTracker:
             return
 
         with self._lock:
-            self.total_prompt_tokens += usage.prompt_tokens
-            self.total_completion_tokens += usage.completion_tokens
-            self.total_tokens += usage.total_tokens
-
-            model_extra = getattr(usage, "model_extra", None)
-            if model_extra:
-                self.total_cost += model_extra.get("cost", 0.0)
-            elif isinstance(usage, dict):
+            # Handle both object attributes and dictionary keys safely
+            if isinstance(usage, dict):
+                self.total_prompt_tokens += usage.get("prompt_tokens", 0)
+                self.total_completion_tokens += usage.get("completion_tokens", 0)
+                self.total_tokens += usage.get("total_tokens", 0)
                 self.total_cost += usage.get("cost", 0.0)
-
-            details = getattr(usage, "completion_tokens_details", None)
-            if details:
+                
+                details = usage.get("completion_tokens_details")
                 if isinstance(details, dict):
                     self.total_reasoning_tokens += details.get("reasoning_tokens", 0)
-                elif hasattr(details, "reasoning_tokens"):
-                    self.total_reasoning_tokens += details.reasoning_tokens
+            else:
+                self.total_prompt_tokens += getattr(usage, "prompt_tokens", 0)
+                self.total_completion_tokens += getattr(usage, "completion_tokens", 0)
+                self.total_tokens += getattr(usage, "total_tokens", 0)
+                
+                model_extra = getattr(usage, "model_extra", None)
+                if model_extra:
+                    self.total_cost += model_extra.get("cost", 0.0)
+                elif hasattr(usage, "cost"):
+                    self.total_cost += getattr(usage, "cost", 0.0)
+
+                details = getattr(usage, "completion_tokens_details", None)
+                if details:
+                    if isinstance(details, dict):
+                        self.total_reasoning_tokens += details.get("reasoning_tokens", 0)
+                    elif hasattr(details, "reasoning_tokens"):
+                        self.total_reasoning_tokens += details.reasoning_tokens
 
     def aggregate_from(self, other: "UsageTracker") -> None:
         """Merge another tracker's totals into this one. Thread-safe."""
@@ -130,8 +141,7 @@ class UsageTracker:
 
 from openai import OpenAI
 
-import ai_tools.config as _cfg
-from .config import strip_provider_prefix  # created in Step 0.3
+from . import config as _cfg
 from .tracing import get_openai_class
 
 
@@ -147,7 +157,7 @@ def get_client(model: str) -> OpenAI:
         ValueError: If the model lacks a recognized provider prefix.
     """
     OpenAIClass = get_openai_class()
-    provider, _ = strip_provider_prefix(model)
+    provider, _ = _cfg.strip_provider_prefix(model)
 
     if provider == "openai":
         return OpenAIClass(api_key=_cfg.get_api_key("OPENAI_API_KEY"))
@@ -261,7 +271,7 @@ class Agent(MultiModalMixin):
 
     def __init__(
         self,
-        model: ModelName = "gemini/gemini-flash-latest",
+        model: Optional[ModelName] = None,
         system_prompt: str = "",
         *,
         name: str = "",
@@ -280,10 +290,10 @@ class Agent(MultiModalMixin):
         response_format: Union[Dict[str, Any], Type[BaseModel], None] = None,
         concurrent_tool_calls: bool = True,
         # multimodal models
-        image_model: str = "gemini/models/imagen-4.0-generate-001",
-        tts_model: str = "openai/gpt-4o-mini-tts",
-        transcription_model: str = "gemini/gemini-2.5-flash",
-        embedding_model: str = "openrouter/qwen/qwen3-embedding-8b",
+        image_model: Optional[str] = None,
+        tts_model: Optional[str] = None,
+        transcription_model: Optional[str] = None,
+        embedding_model: Optional[str] = None,
     ):
 ```
 
@@ -354,10 +364,13 @@ def _resolve_tracing_context(self, model: str) -> "_TracingContext":
     # Consolidate: session_id resolution, langfuse_params, openrouter trace dict
     ...
 
-def _get_tool_responses(self, max_iterations: int = 20) -> str:
-    """Internal tool loop. Called by run()."""
+def get_tool_responses(self, max_iterations: int = 20) -> str:
+    """Public tool loop handling iterative tool execution.
+    
+    Renamed from _get_tool_responses to get_tool_responses to permit
+    the UI to properly poll tool execution.
+    """
     # Adapted from LLMQuery.get_tool_responses() (tools.py:1345-1420)
-    # No longer public — run() is the public API
     ...
 ```
 
@@ -372,7 +385,7 @@ def _get_tool_responses(self, max_iterations: int = 20) -> str:
 1. In `query()`: Use `propagate_langfuse_attributes()` context manager around API call — tools.py:1100-1106
 2. In `query()`: Pass `langfuse_params` to `_create_chat_completion()` — tools.py:1105
 3. In `run()`: Wrap with `trace_span()` (replaces `trace_agent_run`) — agent.py:122-129
-4. In `_get_tool_responses()`: Use `propagate_langfuse_attributes()` — tools.py:1377-1380
+4. In `get_tool_responses()`: Use `propagate_langfuse_attributes()` — tools.py:1377-1380
 5. In `as_tool()._wrapper()`: Propagate `session_id` and `user_id` from contextvars — agent.py:201-211
 
 ---
@@ -868,7 +881,7 @@ uv run pytest ai_tools/tests/ -v
 | `client_state.query(message)` + `client_state.get_tool_responses()` | `client_state.run(message)` |
 
 **Tracing simplification** in `respond()`:
-The current manual `trace_turn()` wrapper (ui_utils.py:137-191) can be simplified because `Agent.run()` now handles its own tracing internally. However, the UI still needs the polling loop for streaming updates. The simplification:
+The current manual `trace_turn()` wrapper (ui_utils.py:137-191) can be simplified because `Agent.run()` handles its own tracing internally. However, the UI still needs the polling loop for streaming updates.
 
 ```python
 # Before:
@@ -879,12 +892,12 @@ with trace_turn(name=..., user_id=..., session_id=..., ...) as span:
     update_span(span, output=client_state.llm.response)
 
 # After:
-# Agent.run() handles tracing internally
-# But UI needs intermediate yields, so we still call query() + _get_tool_responses() separately
-# OR: we refactor respond() to use Agent.run() in a thread and poll for state changes
+# Agent handles its own tracing via trace_span. The UI only calls flush_tracing() 
+# in the final block.
+# We retain the query() + get_tool_responses() polling structure in the UI for streaming!
 ```
 
-**Decision:** Keep the existing `query()` + tool-response polling structure in the UI for now, but remove the manual `trace_turn` wrapping since Agent handles it. This means `respond()` should call `client_state.query(message)` + yield + call `client_state._get_tool_responses()` in a thread.
+**Decision:** Keep the existing `query()` + tool-response polling structure in the UI since `get_tool_responses()` remains a public method of `Agent`. Remove the manual `trace_turn` wrapping since `Agent.run()` or the internal logic handles it, or use `trace_span` correctly directly wrapping the polling loop.
 
 **Also update:**
 - `switch_thread()` — ui_utils.py:218-222: `client_state.memory.switch_thread(thread_id)` + `client_state.chat_history = client_state.memory.load_history()`
@@ -936,7 +949,7 @@ class DummyAgent(Agent):
 |---|---|
 | `test_llm_agent_initialization` | Replace `AgentConfig(name=..., model_name=...)` → `DummyAgent(name=..., model=...)`. Assert `agent.history_limit == 10` directly (not `agent.llm.history_limit`). Remove `isinstance(agent.llm, LLMQuery)` assertion. |
 | `test_llm_agent_run_without_tools` | Replace `@patch.object(LLMQuery, ...)` → `@patch.object(Agent, ...)`. Remove `agent.llm.tool_calls = []` → `agent.tool_calls = []`. Replace `agent.llm.total_prompt_tokens` → `agent.usage.total_prompt_tokens`. |
-| `test_llm_agent_run_with_tools` | Same pattern: patch `Agent.query` and `Agent._get_tool_responses` directly. Replace `agent.llm.tool_calls` → `agent.tool_calls`. |
+| `test_llm_agent_run_with_tools` | Same pattern: patch `Agent.query` and `Agent.get_tool_responses` directly. Replace `agent.llm.tool_calls` → `agent.tool_calls`. |
 | `test_llm_agent_as_tool` | Replace `AgentConfig(...)` → Agent constructor args. Keep schema assertions unchanged. |
 | `test_llm_agent_as_tool_raises_value_error_if_no_name` | Replace `class InvalidAgent(LLMAgent)` → `class InvalidAgent(Agent)`. Replace `AgentConfig(...)` → Agent constructor args. |
 
@@ -1355,7 +1368,7 @@ def run(self, message, ...):
     ) as span:
         response = self.query(message, ...)
         if self.tool_calls:
-            response = self._get_tool_responses()
+            response = self.get_tool_responses()
         update_span(span, output=response)
     return response
 ```
