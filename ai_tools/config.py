@@ -13,7 +13,7 @@ Adding a new provider
 1. Add a ``Literal`` type with the model names.
 2. Add it to the ``ModelName`` union.
 3. Add an entry to ``MODEL_DICT``.
-4. Handle it in ``LLMQuery._get_client_for_model()``.
+4. Handle it in ``client.get_client()``.
 """
 
 import os

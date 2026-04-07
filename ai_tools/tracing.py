@@ -207,62 +207,6 @@ def get_langfuse_client():
 
 
 @contextmanager
-def trace_turn(
-    name: str,
-    input_message: str,
-    *,
-    user_id: Optional[str] = None,
-    session_id: Optional[str] = None,
-    tags: Optional[List[str]] = None,
-    metadata: Optional[Dict[str, Any]] = None,
-) -> Generator[Optional[Any], None, None]:
-    """
-    Open a root trace span for a complete user turn (query + tool calls).
-
-    This ensures that multiple subsequent calls to LLM methods within the same
-    turn are consolidated into a single trace hierarchy.
-    """
-    with trace_span(
-        name=name,
-        input={"message": input_message},
-        user_id=user_id,
-        session_id=session_id,
-        tags=tags,
-        metadata=metadata,
-        as_type="agent",
-    ) as span:
-        yield span
-
-
-@contextmanager
-def trace_agent_run(
-    agent_name: str,
-    input_message: str,
-    *,
-    user_id: Optional[str] = None,
-    session_id: Optional[str] = None,
-    tags: Optional[List[str]] = None,
-    metadata: Optional[Dict[str, Any]] = None,
-) -> Generator[Optional[Any], None, None]:
-    """
-    Open a span for an LLMAgent.run() invocation.
-
-    If no trace is active, it becomes the root trace.
-    """
-    with trace_span(
-        name=agent_name,
-        input={"message": input_message},
-        user_id=user_id,
-        session_id=session_id,
-        tags=tags,
-        metadata=metadata,
-        _is_agent_run=True,
-        as_type="agent",
-    ) as span:
-        yield span
-
-
-@contextmanager
 def trace_span(
     name: str,
     *,
@@ -271,17 +215,16 @@ def trace_span(
     session_id: Optional[str] = None,
     tags: Optional[List[str]] = None,
     metadata: Optional[Dict[str, Any]] = None,
-    _is_agent_run: bool = False,
+    _is_agent_run: bool = False, # Deprecated, kept for compat during migration
     as_type: str = "span",
 ) -> Generator[Optional[Any], None, None]:
     """
     Generic context manager for a tracing span.
-    Handles root trace context propagation if no trace is active.
+    Auto-detects nested vs. root context and propagates attributes.
     """
     if not is_tracing_enabled():
         yield None
         return
-
 
     client = get_langfuse_client()
     if not client:
@@ -300,50 +243,27 @@ def trace_span(
         langfuse_logger.setLevel(old_level)
 
     is_nested = current_obs_id is not None
-
-    resolved_name = name
-    if is_nested and _is_agent_run:
-        resolved_name = f"agent:run:{name}"
-
-    if is_nested:
-        with propagate_langfuse_attributes(
-            user_id=user_id,
-            session_id=session_id,
-            tags=tags,
-        ):
-            with client.start_as_current_observation(
-                as_type=as_type,
-                name=resolved_name,
-                input=input,
-                metadata=metadata or {},
-            ) as span:
-                try:
-                    yield span
-                except Exception as e:
-                    span.update(level="ERROR", status_message=str(e))
-                    raise
-    else:
-        with propagate_langfuse_attributes(
-            user_id=user_id,
-            session_id=session_id,
-            tags=tags,
-            # Note: propagate_langfuse_attributes doesn't currently take trace_name/metadata
-            # but Langfuse's propagate_attributes does. We only care about user/session/tags for now.
-        ):
-            with client.start_as_current_observation(
-                as_type=as_type,
-                name=resolved_name,
-                input=input,
-                metadata=metadata or {},
-            ) as span:
-                try:
-                    yield span
-                except Exception as e:
-                    span.update(
-                        level="ERROR",
-                        status_message=str(e),
-                    )
-                    raise
+    
+    # Propagate attributes (session, user, tags) through contextvars
+    with propagate_langfuse_attributes(
+        user_id=user_id,
+        session_id=session_id,
+        tags=tags,
+    ):
+        # Open observation (span/generation/event/agent)
+        # Langfuse start_as_current_observation automatically handles 
+        # nesting if a trace is already active.
+        with client.start_as_current_observation(
+            as_type=as_type,
+            name=name,
+            input=input,
+            metadata=metadata or {},
+        ) as span:
+            try:
+                yield span
+            except Exception as e:
+                span.update(level="ERROR", status_message=str(e))
+                raise
 
 
 @contextmanager

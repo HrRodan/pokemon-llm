@@ -18,7 +18,7 @@ from ai_tools.tool_definition import tool
 # Lightweight models from different providers
 MODELS_TO_TEST = [
     "openai/gpt-4o-mini",
-    "openrouter/google/gemini-flash-1.5",
+    "openrouter/openai/gpt-oss-20b",
 ]
 
 def skip_if_missing_key(model: str):

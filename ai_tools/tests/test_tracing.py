@@ -8,7 +8,7 @@ import ai_tools.tracing as tracing
 from ai_tools.tracing import (
     is_tracing_enabled,
     get_langfuse_client,
-    trace_agent_run,
+    trace_span,
     trace_tool_execution,
     flush_tracing,
     get_current_trace_context,
@@ -86,7 +86,7 @@ def test_tracing_enabled_with_env_vars(mock_langfuse):
             assert is_tracing_enabled() is True
             assert get_langfuse_client() is not None
 
-def test_trace_agent_run_creates_span(mock_langfuse):
+def test_trace_span_creates_span(mock_langfuse):
     mock_client = mock_langfuse["client"]
     mock_client.get_current_observation_id.return_value = None
 
@@ -96,14 +96,14 @@ def test_trace_agent_run_creates_span(mock_langfuse):
     }):
         with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
              patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
-                with trace_agent_run("TestAgent", "Hello", user_id="user1", session_id="sess1"):
+                with trace_span("TestSpan", input="Hello", user_id="user1", session_id="sess1", as_type="agent"):
                     mock_client.start_as_current_observation.assert_called()
                     args, kwargs = mock_client.start_as_current_observation.call_args
                     assert kwargs["as_type"] == "agent"
-                    assert kwargs["name"] == "TestAgent"
+                    assert kwargs["name"] == "TestSpan"
                     mock_langfuse["propagate"].assert_called()
 
-def test_trace_agent_run_nested(mock_langfuse):
+def test_trace_span_nested(mock_langfuse):
     mock_client = mock_langfuse["client"]
     mock_client.get_current_observation_id.return_value = "parent-obs-id"
     
@@ -114,11 +114,11 @@ def test_trace_agent_run_nested(mock_langfuse):
     }):
         with patch("ai_tools.tracing.is_tracing_enabled", return_value=True), \
              patch("ai_tools.tracing.get_langfuse_client", return_value=mock_client):
-                  with trace_agent_run("SubAgent", "Hello", session_id="sess1", user_id="u1"):
+                  with trace_span("SubSpan", input="Hello", session_id="sess1", user_id="u1"):
                     mock_client.start_as_current_observation.assert_called_once_with(
-                        as_type="agent",
-                        name="agent:run:SubAgent",
-                        input={"message": "Hello"},
+                        as_type="span",
+                        name="SubSpan",
+                        input="Hello",
                         metadata={}
                     )
                     # Nested spans now propagate attributes to ensure session_id/user_id

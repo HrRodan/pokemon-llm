@@ -221,6 +221,13 @@ class Agent(MultiModalMixin):
         overrides = self._resolve_overrides(**kwargs)
         target_model = model or overrides["model"]
         
+        # 0. Update history with user prompt
+        if user_prompt is not None:
+            if isinstance(user_prompt, list):
+                self.chat_history.extend(user_prompt)
+            else:
+                self.chat_history.append({"role": "user", "content": user_prompt})
+
         messages = self._prepare_messages(
             user_prompt,
             use_history=overrides["use_history"],
@@ -422,20 +429,29 @@ class Agent(MultiModalMixin):
         }
 
     def _prepare_messages(self, user_prompt, use_history: bool, history_limit: Optional[int]) -> List[Dict]:
+        """Generate the list of messages for the API. PURE function (no side effects)."""
         msgs = [{"role": "system", "content": self.system_prompt}]
         if use_history:
             limit = history_limit or 100
             history_slice = self._get_consistent_history(limit)
             msgs.extend(history_slice)
             
+        # We assume the user_prompt has ALREADY been added to self.chat_history if it was a new turn,
+        # but for specific sub-calls we might want to include it without duplicating it in history.
+        # Actually, if we just called query(), history_slice ALREADY contains it.
+        # So we only add user_prompt if it's NOT already at the end of the history slice.
+        
+        last_msg = history_slice[-1] if use_history and history_slice else None
+        
         if user_prompt is not None:
             if isinstance(user_prompt, list):
-                self.chat_history.extend(user_prompt)
-                msgs.extend(user_prompt)
+                # Only add if not already present in history_slice
+                if not use_history or user_prompt != history_slice[-len(user_prompt):]:
+                    msgs.extend(user_prompt)
             else:
-                msg = {"role": "user", "content": user_prompt}
-                self.chat_history.append(msg)
-                msgs.append(msg)
+                prompt_msg = {"role": "user", "content": user_prompt}
+                if not use_history or prompt_msg != last_msg:
+                    msgs.append(prompt_msg)
                 
         if len(msgs) == 1:
             msgs.append({"role": "user", "content": ""})
@@ -575,38 +591,18 @@ class Agent(MultiModalMixin):
         })
 
     def _dispatch_tools(self, tool_calls: List[Dict]) -> List[str]:
-        if not self.concurrent_tool_calls or len(tool_calls) == 1:
-            return [self._execute_single_tool(tc) for tc in tool_calls]
+        """Dispatch tool calls using the refactored utility helpers."""
+        if self.concurrent_tool_calls and len(tool_calls) > 1:
+            # handle_tool_call_async is already optimized for thread-safe context propagation
+            results = asyncio.run(handle_tool_call_async(
+                tool_calls, self.functions, logger=self.logger
+            ))
+        else:
+            results = handle_tool_call(
+                tool_calls, self.functions, logger=self.logger
+            )
             
-        import contextvars
-        
-        # We must copy the context for EACH tool call because a Context object 
-        # cannot be entered concurrently by multiple threads.
-        worker_data = [(contextvars.copy_context(), tc) for tc in tool_calls]
-
-        def _worker_with_context(data):
-            ctx, tc = data
-            return ctx.run(self._execute_single_tool, tc)
-
-        with ThreadPoolExecutor() as executor:
-            return list(executor.map(_worker_with_context, worker_data))
-
-    def _execute_single_tool(self, tool_call: Dict) -> str:
-        fn_name = tool_call["function"]["name"]
-        args_str = tool_call["function"]["arguments"]
-        
-        # Find implementation
-        impl = next((f for f in self.functions if f.__name__ == fn_name), None)
-        if not impl:
-            return f"Error: Function '{fn_name}' not found."
-            
-        try:
-            # handle_tool_call expects a list, returns a list of result dicts
-            results = handle_tool_call([tool_call], self.functions, logger=self.logger)
-            return results[0]["output"] if results else "Error: No output returned"
-        except Exception as e:
-            self.logger.exception(f"Tool execution failed: {fn_name}")
-            return f"Error: {str(e)}"
+        return [r["output"] for r in results]
 
     def inject_system_message(self, content: str) -> None:
         """Append a system message to history mid-conversation."""

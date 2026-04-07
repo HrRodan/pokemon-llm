@@ -129,9 +129,7 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     # Agent Interaction within a Tracing Turn
     # ------------------------------------------------------------------
     user_id = getattr(client_state, "user_id", None)
-    session_id = None
-    if hasattr(client_state, "memory") and hasattr(client_state.memory, "root_thread_id"):
-        session_id = client_state.memory.root_thread_id
+    session_id = client_state.session_id
 
     try:
         with trace_span(
