@@ -116,10 +116,13 @@ class LLMAgent:
         elif self.llm.session_id:
             session_id = self.llm.session_id
 
+        # Derive user_id: config.user_id > llm.user_id
+        run_user_id = self.config.user_id or self.llm.user_id
+
         with trace_agent_run(
             agent_name=self.name,
             input_message=message,
-            user_id=self.config.user_id,
+            user_id=run_user_id,
             session_id=session_id,
             tags=[self.name, self.model_name.split("/")[0]],
             metadata={"model": self.model_name},
@@ -195,13 +198,17 @@ class LLMAgent:
                 # Propagate session_id from the scoped handler's root thread
                 local_agent.llm.session_id = scoped.root_thread_id
 
-            # Propagate user_id from the parent agent config
-            if agent_ref.config.user_id and not local_agent.llm.user_id:
-                local_agent.llm.user_id = agent_ref.config.user_id
+            # Resolve session_id and user_id from context or parent agent
+            from .tracing import get_thread_session_id, get_thread_user_id
+            
+            ctx_session = get_thread_session_id()
+            ctx_user = get_thread_user_id()
 
-            # Propagate session_id from the parent agent LLM fallback
-            if getattr(agent_ref.llm, "session_id", None) and not local_agent.llm.session_id:
-                local_agent.llm.session_id = agent_ref.llm.session_id
+            # Propagate user_id: Context (thread-local) > Parent Agent Config
+            local_agent.llm.user_id = ctx_user or agent_ref.config.user_id
+
+            # Propagate session_id: Context (thread-local) > Parent Agent LLM state
+            local_agent.llm.session_id = ctx_session or getattr(agent_ref.llm, "session_id", None)
 
             result = local_agent.run(query)
 

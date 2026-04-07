@@ -1041,12 +1041,10 @@ class LLMQuery(MultiModalMixin):
         )
 
         # 1. Resolve Session & Metadata
-        # Priority: memory.root_thread_id > explicit self.session_id
-        session_id = None
+        # instance attributes or memory; fallback to contextvars happens in get_current_trace_context
+        session_id = self.session_id
         if self.memory and hasattr(self.memory, "root_thread_id"):
             session_id = self.memory.root_thread_id
-        elif self.session_id:
-            session_id = self.session_id
 
         metadata = {
             "provider": cfg["model"].split("/")[0] if "/" in cfg["model"] else "unknown"
@@ -1067,11 +1065,17 @@ class LLMQuery(MultiModalMixin):
             agent_name=self.agent_name,
             metadata=metadata,
         )
+        # get_current_trace_context handles thread-local fallbacks for missing session/user
         ctx = get_current_trace_context(
             session_id=session_id,
             user_id=self.user_id,
             trace_name=self.agent_name or "LLMQuery",
         )
+
+        # Capture the actually used session/user from the resolved context
+        resolved_session = ctx.session_id if ctx else session_id
+        resolved_user = ctx.user_id if ctx else self.user_id
+
         trace_dict = build_openrouter_trace_dict(
             ctx,
             generation_name=langfuse_params.get("name"),
@@ -1087,15 +1091,15 @@ class LLMQuery(MultiModalMixin):
             tools=cfg["tools"],
             tool_choice=cfg["tool_choice"],
             openrouter_trace=trace_dict,
-            session_id=session_id,
-            user_id=self.user_id,
+            session_id=resolved_session,
+            user_id=resolved_user,
             **kwargs,
         )
 
         # 4. Execute
         with propagate_langfuse_attributes(
-            user_id=self.user_id,
-            session_id=session_id,
+            user_id=resolved_user,
+            session_id=resolved_session,
         ):
             response = self._create_chat_completion(
                 client, **{**request_kwargs, **langfuse_params}
@@ -1402,11 +1406,13 @@ class LLMQuery(MultiModalMixin):
 
                 if query_response:
                     response = (
-                        f"{response}\n\n{query_response}" if response else query_response
+                        f"{response}\n\n{query_response}"
+                        if response
+                        else query_response
                     )
 
                 iterations += 1
-            
+
             if iterations > max_iterations:
                 self.logger.warning(f"Max Tool iterations ({max_iterations}) reached")
                 response += f"\n\nMax Tool iterations ({max_iterations}) reached. The assistant may need to be called again to complete the task."
@@ -1477,7 +1483,7 @@ class LLMQuery(MultiModalMixin):
                 # Scoped: each invocation gets its own thread for audit trail
                 scoped = original_memory.create_scoped_handler(name)
                 local_llm.memory = scoped
-            
+
             local_llm.query(prompt)
             result = local_llm.get_tool_responses()
 

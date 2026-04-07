@@ -28,6 +28,7 @@ class TraceContext:
     trace_name: Optional[str]
     environment: str
 
+
 # --- Lazy singleton ---
 _langfuse_client = None
 _tracing_checked = False
@@ -42,7 +43,7 @@ def is_tracing_enabled() -> bool:
         return _tracing_enabled
 
     required = ("LANGFUSE_SECRET_KEY", "LANGFUSE_PUBLIC_KEY", "LANGFUSE_BASE_URL")
-    
+
     # If any required env var is missing, disable tracing.
     if not all(os.getenv(k) for k in required):
         _tracing_enabled = False
@@ -52,6 +53,7 @@ def is_tracing_enabled() -> bool:
     try:
         # We need the OpenAI wrapper for the simplified instrumentation to work safely.
         from langfuse.openai import OpenAI  # noqa: F401
+
         _tracing_enabled = True
     except ImportError:
         logger.debug("langfuse.openai package not available; tracing disabled.")
@@ -79,12 +81,15 @@ def propagate_langfuse_attributes(
     """
     token_session = _thread_session_id.set(session_id)
     token_user = _thread_user_id.set(user_id)
-    
+
     try:
         if is_tracing_enabled():
             try:
                 from langfuse import propagate_attributes
-                with propagate_attributes(user_id=user_id, session_id=session_id, tags=tags):
+
+                with propagate_attributes(
+                    user_id=user_id, session_id=session_id, tags=tags
+                ):
                     yield
             except ImportError:
                 yield
@@ -95,21 +100,35 @@ def propagate_langfuse_attributes(
         _thread_user_id.reset(token_user)
 
 
+def get_thread_session_id() -> Optional[str]:
+    """Return the current thread-local session ID."""
+    return _thread_session_id.get()
+
+
+def get_thread_user_id() -> Optional[str]:
+    """Return the current thread-local user ID."""
+    return _thread_user_id.get()
+
+
 def get_openai_class():
     """
     Return the OpenAI client class, instrumented with Langfuse if enabled.
-    
+
     This allows a drop-in replacement in tools.py while maintaining optional
     tracing and fallbacks.
     """
     if is_tracing_enabled():
         try:
             from langfuse.openai import OpenAI
+
             return OpenAI
         except ImportError:
-            logger.debug("langfuse.openai not available; falling back to standard openai.")
-    
+            logger.debug(
+                "langfuse.openai not available; falling back to standard openai."
+            )
+
     from openai import OpenAI
+
     return OpenAI
 
 
@@ -126,10 +145,10 @@ def get_langfuse_params(
 ) -> Dict[str, Any]:
     """
     Return a dictionary of Langfuse-specific parameters for OpenAI calls.
-    
+
     This centralizes the generation naming logic: {prefix}:<AgentName>[:<Model>]
     or {prefix}:LLMQuery[:<Model>] if no agent name is provided.
-    
+
     NOTE: tags and user_id are NOT included in the returned dict because
     some versions of the OpenAI client/Langfuse wrapper fail to strip them,
     causing TypeError. We rely on propagate_langfuse_attributes context manager instead.
@@ -142,23 +161,19 @@ def get_langfuse_params(
         name_parts.append(agent_name)
     else:
         name_parts.append("LLMQuery")
-        
+
     if include_model:
         name_parts.append(model)
-        
+
     trace_name = ":".join(name_parts)
 
     params = {"name": trace_name}
     if metadata:
         params["metadata"] = metadata
-    
+
     # We DO NOT include user_id, session_id, tags here anymore to avoid TypeError.
     # They should be handled by propagate_langfuse_attributes.
     return params
-
-
-
-
 
 
 def get_langfuse_client():
@@ -169,6 +184,7 @@ def get_langfuse_client():
     if _langfuse_client is None:
         try:
             from langfuse import get_client
+
             _langfuse_client = get_client()
         except ImportError:
             return None
@@ -187,7 +203,7 @@ def trace_turn(
 ) -> Generator[Optional[Any], None, None]:
     """
     Open a root trace span for a complete user turn (query + tool calls).
-    
+
     This ensures that multiple subsequent calls to LLM methods within the same
     turn are consolidated into a single trace hierarchy.
     """
@@ -215,7 +231,7 @@ def trace_agent_run(
 ) -> Generator[Optional[Any], None, None]:
     """
     Open a span for an LLMAgent.run() invocation.
-    
+
     If no trace is active, it becomes the root trace.
     """
     with trace_span(
@@ -267,7 +283,7 @@ def trace_span(
         resolved_name = f"agent:run:{name}"
 
     if is_nested:
-        with propagate_attributes(
+        with propagate_langfuse_attributes(
             user_id=user_id,
             session_id=session_id,
             tags=tags,
@@ -284,12 +300,12 @@ def trace_span(
                     span.update(level="ERROR", status_message=str(e))
                     raise
     else:
-        with propagate_attributes(
+        with propagate_langfuse_attributes(
             user_id=user_id,
             session_id=session_id,
             tags=tags,
-            trace_name=resolved_name,
-            metadata=metadata or {},
+            # Note: propagate_langfuse_attributes doesn't currently take trace_name/metadata
+            # but Langfuse's propagate_attributes does. We only care about user/session/tags for now.
         ):
             with client.start_as_current_observation(
                 as_type=as_type,
@@ -305,9 +321,6 @@ def trace_span(
                         status_message=str(e),
                     )
                     raise
-
-
-
 
 
 @contextmanager
@@ -383,7 +396,7 @@ def get_current_trace_context(
     """
     if session_id is None:
         session_id = _thread_session_id.get()
-    
+
     if user_id is None:
         user_id = _thread_user_id.get()
 
