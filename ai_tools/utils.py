@@ -146,7 +146,8 @@ def handle_tool_call(
                     try:
                         validated = pydantic_model(**arguments)
                     except ValidationError as e:
-                        raise ValueError(f"Argument validation failed: {e}")
+                        # URLs are removed globally via os.environ in config.py
+                        raise ValueError(f"Argument validation failed:\n{e}")
                     result = function_to_call(validated)
                 else:
                     result = function_to_call(**arguments)
@@ -203,7 +204,8 @@ async def handle_tool_call_async(
                     try:
                         validated = pydantic_model(**arguments)
                     except ValidationError as e:
-                        raise ValueError(f"Argument validation failed: {e}")
+                        # URLs are removed globally via os.environ in config.py
+                        raise ValueError(f"Argument validation failed:\n{e}")
                     result = await run_in_thread_with_context(function_to_call, validated)
                 else:
                     result = await run_in_thread_with_context(function_to_call, **arguments)

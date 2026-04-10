@@ -101,7 +101,7 @@ class MemoryHandler:
 
     def _new_thread(self) -> str:
         """Create a new thread with an auto-generated UUID."""
-        self._thread_id = uuid.uuid4().hex[:12]
+        self._thread_id = uuid.uuid4().hex[:20]
         self._root_thread_id = self._thread_id
         self._step_id = 0
         if self._logger:
@@ -207,7 +207,7 @@ class MemoryHandler:
         Creates a new thread that forks the current thread at the given step_id.
         The new thread references the current thread as parent to maintain a tree-like history.
         """
-        new_thread_id = uuid.uuid4().hex[:12]
+        new_thread_id = uuid.uuid4().hex[:20]
         self._backend.fork_thread(self.thread_id, step_id, new_thread_id)
 
         old_thread_id = self.thread_id
@@ -245,7 +245,7 @@ class MemoryHandler:
             A new MemoryHandler with a unique scoped thread_id,
             sharing the same backend.
         """
-        scoped_id = f"{subagent_name}::{uuid.uuid4().hex[:12]}"
+        scoped_id = f"{subagent_name}::{uuid.uuid4().hex[:20]}"
         handler = MemoryHandler._from_scoped_id(
             backend=self._backend,
             scoped_id=scoped_id,

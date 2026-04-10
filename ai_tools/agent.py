@@ -175,10 +175,29 @@ class Agent(MultiModalMixin):
 
     @property
     def clean_chat_history(self) -> List[Dict[str, Any]]:
-        """Return history without internal reasoning fragments (used for UI)."""
-        return [
-            {k: v for k, v in m.items() if k != "reasoning"} for m in self.chat_history
-        ]
+        """Return history for UI display (filters reasoning and tool messages)."""
+        clean = []
+        for msg in self.chat_history:
+            # 1. Skip pure tool output messages
+            if msg.get("role") == "tool":
+                continue
+
+            # 2. Create a shallow copy without the internal reasoning field
+            m = {k: v for k, v in msg.items() if k != "reasoning"}
+
+            # 3. For assistant messages, filter tool_calls for the UI view
+            if m.get("role") == "assistant" and "tool_calls" in m:
+                # Create a version without tool calls
+                m_ui = {k: v for k, v in m.items() if k != "tool_calls"}
+                
+                # Only include the message if it has meaningful text content
+                content = m_ui.get("content")
+                if content and str(content).strip():
+                    clean.append(m_ui)
+            else:
+                # Include User and System messages (minus reasoning)
+                clean.append(m)
+        return clean
 
     def clear_history(self) -> None:
         """Reset per-conversation state for a fresh context."""
