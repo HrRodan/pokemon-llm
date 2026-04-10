@@ -1819,6 +1819,15 @@ wheels = [
 ]
 
 [[package]]
+name = "json-repair"
+version = "0.59.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/df/29/0047c51a6f659643fbb1e4dd5cc0f02fc0b3245f52c6e62f85ae6173d72d/json_repair-0.59.0.tar.gz", hash = "sha256:0006a2b4e3842ddfeb2d5b66596a5909507d08a8e6021651f80286655a89db63", size = 46986, upload-time = "2026-04-10T13:26:25.266Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9f/67/8eeb3ca33510939412f00d12c823b608125db5f1c2ab61b16dee0c02900d/json_repair-0.59.0-py3-none-any.whl", hash = "sha256:1bbb0eb791933da41c1874854fd8646d30c4baee8052908e329174922147f175", size = 45214, upload-time = "2026-04-10T13:26:23.533Z" },
+]
+
+[[package]]
 name = "json5"
 version = "0.13.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3237,6 +3246,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "ipython" },
     { name = "ipywidgets" },
+    { name = "json-repair" },
     { name = "jupyter" },
     { name = "langfuse" },
     { name = "litellm" },
@@ -3279,6 +3289,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "ipython", specifier = ">=8.18.0" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
+    { name = "json-repair", specifier = ">=0.59.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "langfuse", specifier = ">=4.0.6" },
     { name = "langfuse", marker = "extra == 'tracing'", specifier = ">=4.0.0" },

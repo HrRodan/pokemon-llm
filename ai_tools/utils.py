@@ -14,6 +14,7 @@ callers:
 import asyncio
 import contextvars
 import json
+from json_repair import repair_json
 import logging
 import uuid
 from typing import Dict, List, Any, Callable, Optional, Tuple
@@ -101,7 +102,10 @@ def _prepare_tool_dispatch(
             if isinstance(arguments_str, dict):
                 arguments = arguments_str
             else:
-                arguments = json.loads(arguments_str)
+                # Use json_repair.loads as a robust drop-in replacement for json.loads
+                # It handles the strict check internally and falls back to repair if needed.
+                from json_repair import loads as repair_loads
+                arguments = repair_loads(arguments_str)
     except Exception as e:
         error_msg = f"Failed to parse arguments JSON: {e}"
         arguments = {"error": error_msg, "raw": arguments_str}

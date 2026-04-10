@@ -8,6 +8,7 @@ and usage tracking.
 
 import copy
 import json
+from json_repair import repair_json
 import logging
 import re
 import threading
@@ -283,7 +284,11 @@ class Agent(MultiModalMixin):
         self.usage.update(response_obj.usage)
         
         # Final Response Text
-        self.response = content
+        if overrides.get("json_format") or self.response_format:
+            # repair_json already tries strict json.loads() first internally.
+            self.response = repair_json(content)
+        else:
+            self.response = content
         
         # Update history
         self._update_history(message, reasoning, thought_signature)
