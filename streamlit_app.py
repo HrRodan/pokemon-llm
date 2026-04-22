@@ -3,10 +3,6 @@ from utils.ui_utils import (
     get_agent_client,
     respond,
     extract_reasoning_info,
-    get_threads,
-    get_checkpoints,
-    switch_thread,
-    rollback_thread,
     extract_tool_info,
 )
 from utils.config import settings
@@ -38,75 +34,9 @@ if "logs" not in st.session_state:
 # --- Sidebar: Settings ---
 with st.sidebar:
     st.title("⚙️ Settings")
-
-    st.markdown("### 🧠 Model Configuration")
-
-    selected_model = st.selectbox(
-        "Select LLM",
-        options=settings.ALLOWED_MODELS,
-        index=settings.ALLOWED_MODELS.index(st.session_state.agent.model)
-        if st.session_state.agent.model in settings.ALLOWED_MODELS
-        else 0,
-        help="Choose the underlying model processing your requests.",
-    )
-
-    if selected_model != st.session_state.agent.model:
-        st.session_state.agent.model = selected_model
-        st.toast(f"Model changed to {selected_model}")
-
-    st.divider()
-    st.markdown("### 💾 Conversation Memory")
-    
-    agent = st.session_state.agent
-    if agent and getattr(agent, "memory", None):
-        current_thread_id = agent.memory.thread_id
-        st.caption(f"Current Thread: `{current_thread_id}`")
-        
-        threads = get_threads(agent)
-        if threads:
-            thread_options = {}
-            for t in threads:
-                preview = (t.initial_message[:20] + "...") if t.initial_message and len(t.initial_message) > 20 else (t.initial_message or "New Chat")
-                thread_options[t.thread_id] = f"{t.updated_at.strftime('%m-%d %H:%M')} | {preview} ({t.message_count} msgs)"
-            thread_ids = list(thread_options.keys())
-            
-            if current_thread_id not in thread_ids:
-                thread_ids.insert(0, current_thread_id)
-                thread_options[current_thread_id] = "Current (Unsaved)"
-                
-            current_idx = thread_ids.index(current_thread_id)
-            
-            selected_thread = st.selectbox(
-                "Select Conversation",
-                options=thread_ids,
-                format_func=lambda x: thread_options.get(x, x),
-                index=current_idx,
-            )
-            
-            if selected_thread != current_thread_id:
-                switch_thread(agent, selected_thread)
-                st.session_state.messages = agent.clean_chat_history
-                st.session_state.tool_history = extract_tool_info(agent)
-                st.session_state.reasoning_history = extract_reasoning_info(agent)
-                st.rerun()
-
-        checkpoints = get_checkpoints(agent)
-        if checkpoints:
-            with st.expander("Show Checkpoints", expanded=False):
-                for cp in reversed(checkpoints):
-                    st.write(f"**Step {cp.step_id}** ({cp.message_count} msgs)")
-                    st.caption(f"Time: {cp.created_at.strftime('%H:%M:%S')}")
-                    if st.button("Rollback here", key=f"rb_{cp.step_id}", use_container_width=True):
-                        rollback_thread(agent, cp.step_id)
-                        st.session_state.messages = agent.clean_chat_history
-                        st.session_state.tool_history = extract_tool_info(agent)
-                        st.session_state.reasoning_history = extract_reasoning_info(agent)
-                        st.rerun()
-                        
-    st.divider()
     if st.button("Clear Conversation", type="secondary", use_container_width=True):
         st.session_state.messages = []
-        st.session_state.agent = get_agent_client(model=selected_model)
+        st.session_state.agent = get_agent_client()
         st.session_state.tool_history = []
         st.session_state.reasoning_history = extract_reasoning_info(None)
         st.session_state.logs = ""

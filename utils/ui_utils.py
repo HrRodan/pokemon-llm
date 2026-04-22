@@ -82,16 +82,9 @@ def extract_reasoning_info(client_state: Any) -> List[Dict[str, str]]:
     return [{"role": "assistant", "content": r} for r in reasoning_items]
 
 
-def change_model(model_name: str, client_state: Any) -> Any:
-    """
-    Updates the model in the client state.
-    """
-    if client_state and model_name in settings.ALLOWED_MODELS:
-        client_state.model = model_name
-    return client_state
 
 
-def respond(message: str, client_state: Any, model_name: Optional[str] = None):
+def respond(message: str, client_state: Any):
     """
     Main generator function for the chat interface.
     Handles user input, agent queries, and UI updates.
@@ -100,9 +93,6 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     if client_state is None:
         client_state = get_agent_client()
 
-    # Sync model if provided
-    if model_name:
-        change_model(model_name, client_state)
 
     # Optimistic update: Show user message immediately
     current_history = client_state.clean_chat_history
@@ -200,29 +190,3 @@ def respond(message: str, client_state: Any, model_name: Optional[str] = None):
     )
 
 
-def get_threads(client_state: Any) -> List[Any]:
-    """Return a list of ThreadInfo available in the MemoryHandler."""
-    if client_state and client_state.memory:
-        return client_state.memory.list_threads()
-    return []
-
-
-def get_checkpoints(client_state: Any) -> List[Any]:
-    """Return a list of CheckpointInfo for the active thread."""
-    if client_state and client_state.memory:
-        return client_state.memory.list_checkpoints()
-    return []
-
-
-def switch_thread(client_state: Any, thread_id: str) -> None:
-    """Switch the active thread and reload context into the client state."""
-    if client_state and client_state.memory:
-        client_state.memory.switch_thread(thread_id)
-        client_state.chat_history = client_state.memory.load_history()
-
-
-def rollback_thread(client_state: Any, step_id: int) -> None:
-    """Rollback conversation to a specific step_id."""
-    if client_state and client_state.memory:
-        client_state.memory.rollback(step_id)
-        client_state.chat_history = client_state.memory.load_history()
