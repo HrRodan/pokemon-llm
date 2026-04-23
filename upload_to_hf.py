@@ -23,6 +23,7 @@ EXCLUDES = [
     "data/raw/*",
     "*.pyc",
     "*.ipynb",
+    "data/memory/*"
     "GEMINI.md"
     ]
 
