@@ -250,7 +250,6 @@ def trace_span(
     finally:
         langfuse_logger.setLevel(old_level)
 
-    is_nested = current_obs_id is not None
     
     # Propagate attributes (session, user, tags) through contextvars
     with propagate_langfuse_attributes(

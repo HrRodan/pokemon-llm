@@ -5,27 +5,32 @@ from dotenv import load_dotenv
 # Load environment variables (HF_TOKEN)
 load_dotenv()
 
-REPO_ID = "Rodan009/pokemon-chatbot"
+REPO_ID = "HrRodan/pokemon-chatbot"
 REPO_TYPE = "space"
 
-# Explicit exclude patterns for CLI
-EXCLUDES = [
-    ".git/*",
-    ".venv/*",
-    ".env",
-    "**/__pycache__/*",
-    "**/.pytest_cache/*",
-    "**/.ruff_cache/*",
-    "**/.pokemon_cache/*",
-    ".agent/*",
-    ".agents/*",
-    ".cursor/*",
-    "data/raw/*",
-    "*.pyc",
-    "*.ipynb",
-    "data/memory/*"
-    "GEMINI.md"
-    ]
+# Whitelist of strictly necessary files and folders.
+# Excludes transient/on-the-fly data like 'data/memory/' and 'data/web_scraper/'.
+WHITELIST = [
+    "app.py",
+    "streamlit_app.py",
+    "agents/*.py",
+    "ai_tools/*.py",
+    "ai_tools/memory/*.py",
+    "tools/*.py",
+    "utils/*.py",
+    "data/models.py",
+    "data/tech_db/tech.db",
+    "data/vector_db/**",
+    "data/pokemon_list.json",
+    "data/moves_list.json",
+    "data/items_list.json",
+    "pyproject.toml",
+    "uv.lock",
+    "Dockerfile",
+    "Dockerfile_Gradio",
+    "README.md",
+    ".python-version",
+]
 
 def run_cli_command(command):
     """Run a CLI command using uv run hf to ensure accessibility."""
@@ -55,17 +60,15 @@ def main():
     if not delete_success:
         print("Note: Step 1 skipped or failed (might be empty).")
 
-    # 2. Step 2: Upload project using hf upload CLI
-    # We use 'upload' because 'upload-large-folder' currently has a bug 
-    # that requires 'space_sdk' even for existing Spaces.
-    print(f"\nStep 2: Uploading local folder to {REPO_ID}...")
+    # 2. Step 2: Upload project using hf upload CLI with whitelist
+    print(f"\nStep 2: Uploading whitelisted files to {REPO_ID}...")
     upload_cmd = [
         "upload", REPO_ID, ".", 
         "--repo-type", REPO_TYPE,
-        "--commit-message", "Fresh project upload"
+        "--commit-message", "Fresh project upload (whitelisted)"
     ]
-    for pattern in EXCLUDES:
-        upload_cmd.extend(["--exclude", pattern])
+    for pattern in WHITELIST:
+        upload_cmd.extend(["--include", pattern])
     
     if not run_cli_command(upload_cmd):
         print("Critical Error: Step 2 failed. Aborting.")

@@ -13,7 +13,6 @@ callers:
 
 import asyncio
 import contextvars
-import json
 from json_repair import repair_json
 import logging
 import uuid

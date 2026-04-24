@@ -3,7 +3,6 @@ from utils.ui_utils import (
     get_agent_client,
     respond,
     extract_reasoning_info,
-    extract_tool_info,
 )
 from utils.config import settings
 
