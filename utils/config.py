@@ -36,8 +36,9 @@ class Settings(BaseSettings):
 
     # Model Configuration
     DEFAULT_MODEL: str = Field(
-        default="openrouter/xiaomi/mimo-v2-flash",
+        # default="openrouter/xiaomi/mimo-v2-flash",
         # default="openrouter/x-ai/grok-4.1-fast",
+        default="openrouter/google/gemma-4-31b-it",
         description="Default LLM model to use",
     )
     SUB_AGENT_MODEL: str = Field(
