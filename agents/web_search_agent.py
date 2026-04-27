@@ -24,7 +24,7 @@ def bulbapedia_search(args: BulbapediaSearchInput) -> str:
         query=args.query,
         site_restrict="bulbapedia.bulbagarden.net",
         max_results=10,
-        maximum_number_of_tokens=4096,
+        maximum_number_of_tokens=8192,
         context_threshold_mode="balanced",
     )
     return brave_llm_context_search(brave_input)
