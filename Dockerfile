@@ -7,9 +7,7 @@ ENV PYTHONUNBUFFERED=1 \
     HOME=/home/user \
     PATH=/home/user/.local/bin:/app/.venv/bin:$PATH \
     GRADIO_SERVER_NAME="0.0.0.0" \
-    GRADIO_SERVER_PORT=7860 \
-    # Ensure Playwright installs browsers in a location the user can access
-    PLAYWRIGHT_BROWSERS_PATH=/home/user/.cache/ms-playwright
+    GRADIO_SERVER_PORT=7860
 
 # Setup user and install system dependencies in one layer (identical to Dockerfile)
 RUN useradd -m -u 1000 user && \
@@ -17,21 +15,6 @@ RUN useradd -m -u 1000 user && \
     curl \
     ca-certificates \
     git \
-    libnss3 \
-    libatk1.0-0 \
-    libatk-bridge2.0-0 \
-    libcups2 \
-    libdrm2 \
-    libxkbcommon0 \
-    libxcomposite1 \
-    libxdamage1 \
-    libxext6 \
-    libxfixes3 \
-    libxrandr2 \
-    libgbm1 \
-    libpango-1.0-0 \
-    libcairo2 \
-    libasound2 \
     && rm -rf /var/lib/apt/lists/*
 
 # Install uv from official binary (identical to Dockerfile)
@@ -47,10 +30,8 @@ USER user
 # 1. Copy ONLY dependency files for optimal layer caching (identical to Dockerfile)
 COPY --chown=user pyproject.toml uv.lock ./
 
-# 2. Install dependencies, scrapling fetchers, and ONLY chromium (identical to Dockerfile)
-RUN uv sync --frozen --no-cache && \
-    uv pip install --no-cache "scrapling[fetchers]" && \
-    uv run python -m playwright install chromium
+# 2. Install dependencies (identical to Dockerfile)
+RUN uv sync --frozen --no-cache
 
 # 3. Copy the application code LAST (identical to Dockerfile)
 COPY --chown=user . .
